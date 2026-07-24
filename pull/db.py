@@ -158,6 +158,7 @@ CREATE TABLE IF NOT EXISTS game_projections (
     home_score_line REAL,          -- projected score, rounded to nearest .5 (sportsbook-style)
     away_score_line REAL,
     moneyline_pick TEXT,           -- 'home' or 'away'
+    spread_favorite TEXT,          -- 'home' or 'away' -- whichever side is actually assigned -1.5
     spread_pick TEXT,              -- 'home' or 'away'
     spread_pick_prob REAL,
     total_pick TEXT,               -- 'over' or 'under'
@@ -198,6 +199,7 @@ MIGRATIONS = {
         ("home_score_line", "REAL"),
         ("away_score_line", "REAL"),
         ("moneyline_pick", "TEXT"),
+        ("spread_favorite", "TEXT"),
         ("spread_pick", "TEXT"),
         ("spread_pick_prob", "REAL"),
         ("total_pick", "TEXT"),

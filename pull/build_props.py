@@ -1059,7 +1059,9 @@ def render_markdown(report):
             summary = f"Model likes: **{ml_team}** to win ({win_prob:.0%})"
             if p.get("spread_pick") is not None:
                 spread_team = g["home"]["team_name"] if p["spread_pick"] == "home" else g["away"]["team_name"]
-                summary += f" | Run line: **{spread_team}** {p['spread_line']} ({p['spread_pick_prob']:.0%} to cover)"
+                spread_favorite = p.get("spread_favorite") or ("home" if p["home_win_prob"] >= 0.5 else "away")
+                spread_side = f"-{p['spread_line']}" if p["spread_pick"] == spread_favorite else f"+{p['spread_line']}"
+                summary += f" | Run line: **{spread_team}** {spread_side} ({p['spread_pick_prob']:.0%} to cover)"
             summary += f" | Total {p['total_line']}: lean **{total_pick.upper()}** ({total_prob:.0%})"
             lines.append(summary)
         lines.append("")
@@ -1103,6 +1105,27 @@ def render_markdown(report):
     return "\n".join(lines)
 
 
+MAX_COMPLETENESS_REGRESSION = 0.15  # refuse to publish if data completeness drops by more than this
+
+
+def _data_completeness(report):
+    """
+    Fraction of batters in this report that actually have recent-game data
+    -- a cheap proxy for "is the underlying database actually populated,
+    or is this running against a still-recovering/thin cache." Used to
+    guard against ever publishing a real regression (see run() below).
+    """
+    total = 0
+    with_data = 0
+    for g in report.get("games", []):
+        for side in (g["home"], g["away"]):
+            for b in side["batters"]:
+                total += 1
+                if b.get("l7") is not None:
+                    with_data += 1
+    return with_data / total if total else 0.0
+
+
 def run(days_ahead=2, write_archive=True):
     init_db()
     conn = get_conn()
@@ -1113,6 +1136,32 @@ def run(days_ahead=2, write_archive=True):
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
 
     json_path = os.path.join(OUT_DIR, "latest.json")
+
+    # This whole pipeline runs against a database that's occasionally mid-
+    # recovery (a cache restore that lags the real backfill, a partial sync
+    # after some earlier hiccup) -- if it ever is, a normal run here would
+    # silently publish sparse data over whatever good, complete report is
+    # already live. Refuse instead: only overwrite if the new report isn't
+    # a big step down from what's already there. A quieter/normal dip
+    # (a couple of call-ups without game logs yet, say) stays well under
+    # the threshold and publishes as usual.
+    if os.path.exists(json_path):
+        try:
+            with open(json_path) as f:
+                previous_report = json.load(f)
+            previous_completeness = _data_completeness(previous_report)
+            new_completeness = _data_completeness(report)
+            if previous_completeness - new_completeness > MAX_COMPLETENESS_REGRESSION:
+                print(
+                    f"Refusing to publish: new report's batter data completeness "
+                    f"({new_completeness:.0%}) is a big regression from the current live one "
+                    f"({previous_completeness:.0%}). This usually means the database this ran "
+                    f"against is still mid-recovery -- leaving the existing, better output in place."
+                )
+                return
+        except (json.JSONDecodeError, KeyError, OSError):
+            pass  # no usable previous report to compare against -- proceed normally
+
     with open(json_path, "w") as f:
         json.dump(report, f, indent=2, default=str)
 

@@ -342,7 +342,8 @@ def simulate(projection, n_trials=20000, spread_line=1.5, total_line=None, seed=
     home_exp, away_exp, r = projection["home_exp_runs"], projection["away_exp_runs"], projection["dispersion_r"]
 
     home_wins = 0.0
-    cover = 0
+    home_covers = 0  # home wins by more than spread_line
+    away_covers = 0  # away wins by more than spread_line -- NOT simply 1 - home_covers, see below
     totals = []
     for _ in range(n_trials):
         h = _sample_neg_binomial(home_exp, r, rng)
@@ -352,7 +353,9 @@ def simulate(projection, n_trials=20000, spread_line=1.5, total_line=None, seed=
         elif h == a:
             home_wins += 0.5  # MLB games don't end in ties; extra-inning edge treated as a coin flip
         if (h - a) > spread_line:
-            cover += 1
+            home_covers += 1
+        elif (a - h) > spread_line:
+            away_covers += 1
         totals.append(h + a)
 
     if total_line is None:
@@ -371,19 +374,41 @@ def simulate(projection, n_trials=20000, spread_line=1.5, total_line=None, seed=
     over = sum(1 for t in totals if t > total_line)
 
     home_win_prob = round(home_wins / n_trials, 3)
-    spread_cover_prob = round(cover / n_trials, 3)
+    home_cover_prob = round(home_covers / n_trials, 3)  # P(home wins by 2+, i.e. covers -1.5)
+    away_cover_prob = round(away_covers / n_trials, 3)  # P(away wins by 2+, i.e. covers -1.5)
     over_prob = round(over / n_trials, 3)
+
+    # Run line: -1.5 goes to whichever side is the actual moneyline favorite
+    # (real sportsbook convention) -- NOT fixed to home the way this used to
+    # work, which mislabeled an away favorite as "+1.5" (backwards) any time
+    # the road team was actually favored. The favorite covers -1.5 by
+    # winning by 2+; the underdog covers +1.5 by anything else, including a
+    # close 1-run loss -- that's the exact complement of "does the favorite
+    # win by 2+", NOT the same question as "does the underdog win by 2+"
+    # (home_cover_prob and away_cover_prob are genuinely independent, not
+    # complements of each other -- there's a real gap in between covering
+    # 1-run games either way).
+    if home_win_prob >= 0.5:
+        favorite, favorite_cover_prob = "home", home_cover_prob
+        underdog_cover_prob = 1 - home_cover_prob
+    else:
+        favorite, favorite_cover_prob = "away", away_cover_prob
+        underdog_cover_prob = 1 - away_cover_prob
+    underdog = "away" if favorite == "home" else "home"
+    spread_pick = favorite if favorite_cover_prob >= 0.5 else underdog
+    spread_pick_prob = favorite_cover_prob if spread_pick == favorite else underdog_cover_prob
 
     return {
         "home_win_prob": home_win_prob,
         "spread_line": spread_line,
-        "spread_cover_prob": spread_cover_prob,
+        "spread_cover_prob": home_cover_prob,  # P(home covers -1.5) -- kept under its original name for backward compat
         "total_line": total_line,
         "over_prob": over_prob,
         # Plain-language "what to pick" summary so callers don't have to
         "moneyline_pick": "home" if home_win_prob >= 0.5 else "away",
-        "spread_pick": "home" if spread_cover_prob >= 0.5 else "away",
-        "spread_pick_prob": round(spread_cover_prob if spread_cover_prob >= 0.5 else 1 - spread_cover_prob, 3),
+        "spread_favorite": favorite,  # which side (home/away) is actually assigned -1.5
+        "spread_pick": spread_pick,   # which side (home/away) to bet
+        "spread_pick_prob": round(spread_pick_prob, 3),
         "total_pick": "over" if over_prob >= 0.5 else "under",
         "total_pick_prob": round(over_prob if over_prob >= 0.5 else 1 - over_prob, 3),
     }

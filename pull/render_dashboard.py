@@ -686,6 +686,12 @@ def _game_line_html(g):
     ml_prob = home_win_prob if ml_pick == "home" else 1 - home_win_prob
 
     spread_line = p.get("spread_line", 1.5)
+    # spread_favorite is who's actually assigned -1.5 (the moneyline
+    # favorite, matching real sportsbook convention) -- NOT always home.
+    # Legacy projection snapshots predating this fix don't have it; falling
+    # back to home_win_prob (always present) derives the same answer rather
+    # than assuming home, which was the actual bug being fixed here.
+    spread_favorite = p.get("spread_favorite") or ("home" if home_win_prob >= 0.5 else "away")
     spread_pick = p.get("spread_pick")
     spread_prob = p.get("spread_pick_prob")
     if spread_pick is None:
@@ -693,7 +699,7 @@ def _game_line_html(g):
         spread_pick = "home" if cover >= 0.5 else "away"
         spread_prob = cover if spread_pick == "home" else 1 - cover
     spread_team = g["home"]["team_name"] if spread_pick == "home" else g["away"]["team_name"]
-    spread_side = f"-{spread_line}" if spread_pick == "home" else f"+{spread_line}"
+    spread_side = f"-{spread_line}" if spread_pick == spread_favorite else f"+{spread_line}"
 
     total_pick = p.get("total_pick") or ("over" if p["over_prob"] >= 0.5 else "under")
     total_prob = p.get("total_pick_prob")

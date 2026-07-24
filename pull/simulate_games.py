@@ -65,7 +65,7 @@ def run(days_ahead=2, n_trials=20000):
                 projection["home_exp_runs"], projection["away_exp_runs"],
                 sim["home_win_prob"], sim["spread_line"], sim["spread_cover_prob"],
                 sim["total_line"], sim["over_prob"],
-                sim["moneyline_pick"], sim["spread_pick"], sim["spread_pick_prob"],
+                sim["moneyline_pick"], sim["spread_favorite"], sim["spread_pick"], sim["spread_pick_prob"],
                 sim["total_pick"], sim["total_pick_prob"],
             )
         )
@@ -76,8 +76,8 @@ def run(days_ahead=2, n_trials=20000):
             INSERT INTO game_projections
                 (game_pk, generated_at, model_version, home_exp_runs, away_exp_runs,
                  home_win_prob, spread_line, spread_cover_prob, total_line, over_prob,
-                 moneyline_pick, spread_pick, spread_pick_prob, total_pick, total_pick_prob)
-            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                 moneyline_pick, spread_favorite, spread_pick, spread_pick_prob, total_pick, total_pick_prob)
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
             """,
             rows,
         )
