@@ -63,6 +63,9 @@ jobs:
       - name: Sync game results (final scores)
         run: python pull/sync_results.py
 
+      - name: Simulate upcoming games
+        run: python pull/simulate_games.py
+
       - name: Build props report + dashboard
         run: python pull/build_props.py
 

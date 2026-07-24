@@ -32,6 +32,30 @@ tab-hopping multiple sites before locking in a bet.
 - **Injury status** -- sourced from MLB's own transactions feed (IL
   placements/activations), not third-party scraping.
 - **Recent headlines** -- MLB.com news RSS, matched to tracked players.
+- **BABIP/ISO luck check** -- flags when a "hot" streak looks BABIP-driven
+  (likely to regress) vs. a real power uptick (ISO actually up).
+- **Hit streaks** and **home/away splits**.
+- **Bullpen fatigue** -- relief innings thrown in the last 2 days vs. that
+  team's own season-average workload, since a taxed pen matters for late-game
+  at-bats even when the starter matchup looks fine.
+- **Park factor tier** -- a static, illustrative hitter/pitcher/neutral tag
+  per venue (Coors Field-type parks vs. pitcher's parks).
+
+## Game-outcome simulation
+
+`game_model.py` + `simulate_games.py` project win probability, a run line,
+and a total-runs line for upcoming games -- a log5-style blend of each
+team's own season runs-scored/allowed, the probable starter's ERA, and
+actual bullpen ERA (separated from starters via `games_started`), fed into
+a Negative-Binomial Monte Carlo (fit against this season's real run
+distribution, not assumed constants). Every projection is snapshotted with
+a timestamp in `game_projections` so a later backtest can check what the
+model would have said *before* the game, not after.
+
+**This is explicitly not pitched as beating Vegas.** There's no bullpen
+usage/role data beyond aggregate recent workload, no Statcast, no
+play-by-play. The goal is a calibrated baseline with a known, measured gap
+from the market -- not a claim of edge. See Backtesting below.
 
 ## What it deliberately does NOT do
 
@@ -55,11 +79,15 @@ Scripts in `pull/`, run in this order:
    career) + platoon splits. Resumable: safe to interrupt and rerun, tracked
    in the `sync_state` table.
 5. `sync_news.py` -- injuries (from transactions) + news headlines.
-6. `build_props.py` -- builds the context report: `output/latest.json`,
+6. `sync_results.py` -- backfills final scores for already-played games this
+   season (ground truth for the game-sim calibration and backtest).
+7. `build_props.py` -- builds the context report: `output/latest.json`,
    `output/latest.md`, `output/index.html` (the dashboard).
-7. `verify_data.py` -- data-integrity check: confirms our summed game logs
+8. `verify_data.py` -- data-integrity check: confirms our summed game logs
    exactly match MLB's own official season totals. Catches ingestion bugs,
    not prediction errors.
+9. `simulate_games.py` -- projects win probability/run line/total for
+   upcoming games (see Game-outcome simulation above) into `game_projections`.
 
 Everything reads/writes `mlb_props.db` (SQLite) in the repo root.
 
@@ -73,7 +101,9 @@ python pull/sync_schedule.py
 python pull/sync_lineups.py
 python pull/sync_stats.py          # slow on first run -- backfills full career history
 python pull/sync_news.py
+python pull/sync_results.py
 python pull/build_props.py
+python pull/simulate_games.py
 open output/index.html
 ```
 
@@ -88,7 +118,15 @@ cache instead (see the workflow file for why).
 
 ## Backtesting
 
-Planned next: replay the pipeline against past game dates and check the
-HOT/COLD and matchup-edge flags against what actually happened, to see
-whether they carry real predictive signal or are just noise dressed up
-nicely. Results (once run) will live in `output/backtest/`.
+Planned next, in two parts:
+1. **Game-sim calibration** -- reconstruct what `game_model.py` would have
+   projected *before* each past game (point-in-time, excluding anything
+   dated on/after that game), then score against `game_projections` vs.
+   actual `games.home_score`/`away_score` with Brier score (win prob) and
+   MAE (total runs). Career-split rows have no per-game date and would leak
+   future data into a "past" reconstruction, so they're excluded from this.
+2. **Player-props signal check** -- same point-in-time discipline, checking
+   whether HOT/COLD, the BABIP-luck caveat, and the matchup-edge flag
+   actually correlate with better output, or are noise dressed up nicely.
+
+Results (once run) will live in `output/backtest/`.
