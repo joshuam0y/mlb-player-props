@@ -50,7 +50,9 @@ CREATE TABLE IF NOT EXISTS games (
     away_team_id INTEGER,
     home_probable_pitcher_id INTEGER,
     away_probable_pitcher_id INTEGER,
-    venue_name TEXT
+    venue_name TEXT,
+    home_score INTEGER,
+    away_score INTEGER
 );
 
 CREATE TABLE IF NOT EXISTS batting_game_logs (
@@ -140,6 +142,22 @@ CREATE TABLE IF NOT EXISTS lineups (
 );
 CREATE INDEX IF NOT EXISTS idx_lineups_game ON lineups(game_pk);
 
+CREATE TABLE IF NOT EXISTS game_projections (
+    game_pk INTEGER NOT NULL,
+    generated_at TEXT NOT NULL,   -- ISO timestamp this projection was made, so a later backtest
+                                  -- can tell what was knowable *before* the game, not after
+    model_version TEXT NOT NULL,
+    home_exp_runs REAL,
+    away_exp_runs REAL,
+    home_win_prob REAL,
+    spread_line REAL,            -- home perspective, e.g. -1.5 means home favored by 1.5
+    spread_cover_prob REAL,       -- P(home covers spread_line)
+    total_line REAL,
+    over_prob REAL,               -- P(home_runs + away_runs > total_line)
+    PRIMARY KEY (game_pk, generated_at)
+);
+CREATE INDEX IF NOT EXISTS idx_projections_game ON game_projections(game_pk);
+
 CREATE TABLE IF NOT EXISTS sync_state (
     player_id INTEGER NOT NULL,
     season INTEGER NOT NULL,
@@ -157,9 +175,29 @@ def get_conn():
     return conn
 
 
+# CREATE TABLE IF NOT EXISTS only helps for genuinely new tables -- it's a
+# no-op against a table that already exists with an older column set, so
+# columns added after a table's first release need an explicit migration.
+MIGRATIONS = {
+    "games": [
+        ("home_score", "INTEGER"),
+        ("away_score", "INTEGER"),
+    ],
+}
+
+
+def _migrate(conn):
+    for table, columns in MIGRATIONS.items():
+        existing = {row["name"] for row in conn.execute(f"PRAGMA table_info({table})")}
+        for name, col_type in columns:
+            if name not in existing:
+                conn.execute(f"ALTER TABLE {table} ADD COLUMN {name} {col_type}")
+
+
 def init_db():
     conn = get_conn()
     conn.executescript(SCHEMA)
+    _migrate(conn)
     conn.commit()
     conn.close()
 
