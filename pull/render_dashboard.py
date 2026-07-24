@@ -183,6 +183,17 @@ def _batter_rows(batters):
     return "\n".join(rows)
 
 
+def _fatigue_html(fatigue):
+    if not fatigue:
+        return ""
+    ratio = fatigue["fatigue_ratio"]
+    if ratio >= 1.2:
+        return f'<div class="sub">Opp bullpen taxed: {fatigue["recent_innings"]} relief IP/2d (x{ratio})</div>'
+    if ratio <= 0.7:
+        return f'<div class="sub">Opp bullpen rested: {fatigue["recent_innings"]} relief IP/2d (x{ratio})</div>'
+    return ""
+
+
 def _team_col_html(side):
     tag_kind = "confirmed" if side["lineup_confirmed"] else "projected"
     tag_label = "LINEUP CONFIRMED" if side["lineup_confirmed"] else "PROJECTED (unconfirmed)"
@@ -190,6 +201,7 @@ def _team_col_html(side):
     <div class="team-col">
       <div class="team-title">{html.escape(side["team_name"] or "?")} {_badge(tag_label, tag_kind)}</div>
       {_pitcher_html(side["probable_pitcher"])}
+      {_fatigue_html(side.get("opponent_bullpen_fatigue"))}
       <table>
         <thead><tr><th>Ord</th><th>Batter</th><th>Flags</th><th>Recent form</th><th>News</th></tr></thead>
         <tbody>{_batter_rows(side["batters"])}</tbody>

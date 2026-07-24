@@ -15,8 +15,12 @@ no real gain over the team's own actual scoring record.
 
 The probable starter is folded in as a partial adjustment to the opposing
 defense index (starters pitch ~55-60% of a game), blended with the team's
-overall run-prevention rate as an explicit stand-in for the bullpen quality
-this project has no data on.
+actual bullpen quality (relief-only appearances, `games_started = 0`) --
+not the team's blended overall rate, since that conflates starters and
+relievers. Bullpen quality is further nudged by a recent-workload fatigue
+signal (relievers who've thrown heavily the last 2 days are less sharp/
+available) -- still no per-pitcher role or rest-day data, just an honest
+team-level workload proxy from the same game logs already being synced.
 
 Run distribution: Negative Binomial (via Gamma-Poisson mixture), not plain
 Poisson -- real MLB team runs/game are overdispersed (variance > mean), and
@@ -27,11 +31,13 @@ model overall is coarse.
 
 import math
 import random
+from datetime import date, datetime, timedelta, timezone
 
 from db import CAREER_SEASON
 
 STARTER_WEIGHT = 0.6  # fraction of "defense" attributed to the probable starter vs. team-wide rate
 PARK_MULTIPLIER = {"hitter": 1.05, "neutral": 1.0, "pitcher": 0.95}
+FATIGUE_ADJUSTMENT_CAP = 0.15  # max +/-15% swing to bullpen rate from recent workload
 
 
 def league_run_distribution(conn):
@@ -78,6 +84,78 @@ def starter_run_rate(conn, pitcher_id):
     return row["er"] * 9 / innings
 
 
+def team_bullpen_rate(conn, team_id):
+    """
+    Season ERA-as-runs-per-9 across this team's *relief* appearances only
+    (games_started = 0) -- an actual bullpen-quality signal from data this
+    project already collects, rather than folding relievers into the team's
+    blended runs-allowed average the way the starter-only version did.
+    """
+    row = conn.execute(
+        "SELECT SUM(outs) as outs, SUM(earned_runs) as er FROM pitching_game_logs "
+        "WHERE team_id = ? AND games_started = 0 AND season != ?",
+        (team_id, CAREER_SEASON),
+    ).fetchone()
+    if not row or not row["outs"]:
+        return None
+    innings = row["outs"] / 3
+    if innings < 20:
+        return None
+    return row["er"] * 9 / innings
+
+
+def team_bullpen_fatigue(conn, team_id, recent_days=2):
+    """
+    Relief innings thrown in the last `recent_days` days vs. this team's own
+    season-average relief innings/day. >1 means the pen has been worked
+    harder than its own normal lately (fatigued/less available); <1 means
+    comparatively fresh. Returns None if there's not enough relief-appearance
+    data yet (e.g. games_started backfill hasn't reached this team).
+    """
+    recent_cutoff = (datetime.now(timezone.utc) - timedelta(days=recent_days)).strftime("%Y-%m-%d")
+    recent_row = conn.execute(
+        "SELECT SUM(outs) as outs FROM pitching_game_logs "
+        "WHERE team_id = ? AND games_started = 0 AND date >= ? AND season != ?",
+        (team_id, recent_cutoff, CAREER_SEASON),
+    ).fetchone()
+    recent_innings = (recent_row["outs"] or 0) / 3
+
+    season_row = conn.execute(
+        "SELECT SUM(outs) as outs, MIN(date) as first_date, MAX(date) as last_date FROM pitching_game_logs "
+        "WHERE team_id = ? AND games_started = 0 AND season != ?",
+        (team_id, CAREER_SEASON),
+    ).fetchone()
+    if not season_row or not season_row["outs"] or not season_row["first_date"]:
+        return None
+
+    days_elapsed = max((date.fromisoformat(season_row["last_date"]) - date.fromisoformat(season_row["first_date"])).days, 1)
+    season_daily_avg = (season_row["outs"] / 3) / days_elapsed
+    if season_daily_avg <= 0:
+        return None
+
+    return {
+        "recent_innings": round(recent_innings, 1),
+        "season_daily_avg": round(season_daily_avg, 2),
+        "fatigue_ratio": round(recent_innings / (season_daily_avg * recent_days), 2),
+    }
+
+
+def fatigue_adjusted_rate(bullpen_rate, fatigue):
+    if bullpen_rate is None or not fatigue:
+        return bullpen_rate
+    delta = fatigue["fatigue_ratio"] - 1.0
+    adjustment = max(-FATIGUE_ADJUSTMENT_CAP, min(FATIGUE_ADJUSTMENT_CAP, delta * 0.3))
+    return bullpen_rate * (1 + adjustment)
+
+
+def combined_defense_index(starter_rate, bullpen_rate, team_def_idx_fallback, avg):
+    if starter_rate is not None and bullpen_rate is not None:
+        return STARTER_WEIGHT * (starter_rate / avg) + (1 - STARTER_WEIGHT) * (bullpen_rate / avg)
+    if starter_rate is not None:
+        return STARTER_WEIGHT * (starter_rate / avg) + (1 - STARTER_WEIGHT) * team_def_idx_fallback
+    return team_def_idx_fallback
+
+
 def project_matchup(conn, home_team_id, away_team_id, home_pitcher_id, away_pitcher_id, park_tier):
     league = league_run_distribution(conn)
     if league is None:
@@ -91,15 +169,18 @@ def project_matchup(conn, home_team_id, away_team_id, home_pitcher_id, away_pitc
 
     home_off_idx = home_rates["runs_scored_avg"] / avg
     away_off_idx = away_rates["runs_scored_avg"] / avg
-    home_def_idx = home_rates["runs_allowed_avg"] / avg
-    away_def_idx = away_rates["runs_allowed_avg"] / avg
+    home_def_idx_fallback = home_rates["runs_allowed_avg"] / avg
+    away_def_idx_fallback = away_rates["runs_allowed_avg"] / avg
 
     away_starter = starter_run_rate(conn, away_pitcher_id)
     home_starter = starter_run_rate(conn, home_pitcher_id)
-    if away_starter is not None:
-        away_def_idx = STARTER_WEIGHT * (away_starter / avg) + (1 - STARTER_WEIGHT) * away_def_idx
-    if home_starter is not None:
-        home_def_idx = STARTER_WEIGHT * (home_starter / avg) + (1 - STARTER_WEIGHT) * home_def_idx
+    away_bullpen_fatigue = team_bullpen_fatigue(conn, away_team_id)
+    home_bullpen_fatigue = team_bullpen_fatigue(conn, home_team_id)
+    away_bullpen = fatigue_adjusted_rate(team_bullpen_rate(conn, away_team_id), away_bullpen_fatigue)
+    home_bullpen = fatigue_adjusted_rate(team_bullpen_rate(conn, home_team_id), home_bullpen_fatigue)
+
+    away_def_idx = combined_defense_index(away_starter, away_bullpen, away_def_idx_fallback, avg)
+    home_def_idx = combined_defense_index(home_starter, home_bullpen, home_def_idx_fallback, avg)
 
     park_mult = PARK_MULTIPLIER.get(park_tier, 1.0)
 
@@ -111,6 +192,8 @@ def project_matchup(conn, home_team_id, away_team_id, home_pitcher_id, away_pitc
         "away_exp_runs": round(away_exp_runs, 2),
         "dispersion_r": league["dispersion_r"],
         "league_avg": avg,
+        "home_bullpen_fatigue": home_bullpen_fatigue,
+        "away_bullpen_fatigue": away_bullpen_fatigue,
     }
 
 

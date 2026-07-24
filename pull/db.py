@@ -85,6 +85,7 @@ CREATE TABLE IF NOT EXISTS pitching_game_logs (
     innings_pitched TEXT, outs INTEGER, hits INTEGER, earned_runs INTEGER,
     runs INTEGER, base_on_balls INTEGER, strike_outs INTEGER,
     home_runs INTEGER, batters_faced INTEGER, wins INTEGER, losses INTEGER,
+    games_started INTEGER,
     UNIQUE(player_id, game_pk)
 );
 CREATE INDEX IF NOT EXISTS idx_pitching_player_season ON pitching_game_logs(player_id, season);
@@ -182,6 +183,9 @@ MIGRATIONS = {
     "games": [
         ("home_score", "INTEGER"),
         ("away_score", "INTEGER"),
+    ],
+    "pitching_game_logs": [
+        ("games_started", "INTEGER"),
     ],
 }
 

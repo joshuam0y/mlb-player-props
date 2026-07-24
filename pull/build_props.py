@@ -29,6 +29,7 @@ import os
 from datetime import datetime, timedelta, timezone
 
 from db import CAREER_SEASON, get_conn, init_db
+from game_model import team_bullpen_fatigue
 from render_dashboard import render_html
 
 CURRENT_SEASON = datetime.now(timezone.utc).year
@@ -393,11 +394,16 @@ def build_team_side(conn, game, side):
             for pid in likely_starters(conn, team_id)
         ]
 
+    opp_team_id = game[f"{opp_side}_team_id"]
     return {
         "team_id": team_id,
         "team_name": team["name"] if team else None,
         "lineup_confirmed": lineup_confirmed,
         "probable_pitcher": build_pitcher_entry(conn, game[f"{side}_probable_pitcher_id"], is_home_game),
+        # bullpen fatigue is about who these batters face in relief innings,
+        # so it's the *opponent's* pen -- unrelated to (and doesn't touch)
+        # the platoon/vs-hand matchup logic on the starter above.
+        "opponent_bullpen_fatigue": team_bullpen_fatigue(conn, opp_team_id),
         "batters": [b for b in batters if b],
     }
 
@@ -439,6 +445,11 @@ def render_markdown(report):
             side = g[side_key]
             tag = "CONFIRMED" if side["lineup_confirmed"] else "PROJECTED (unconfirmed)"
             lines.append(f"### {side['team_name']} lineup -- {tag}")
+            fatigue = side["opponent_bullpen_fatigue"]
+            if fatigue and fatigue["fatigue_ratio"] >= 1.2:
+                lines.append(f"_Facing a taxed bullpen: {fatigue['recent_innings']} relief IP in last 2 days (ratio {fatigue['fatigue_ratio']})_")
+            elif fatigue and fatigue["fatigue_ratio"] <= 0.7:
+                lines.append(f"_Facing a rested bullpen: {fatigue['recent_innings']} relief IP in last 2 days (ratio {fatigue['fatigue_ratio']})_")
             p = side["probable_pitcher"]
             if p:
                 inj = f" [INJURY: {p['injury']['status']}]" if p["injury"] else ""

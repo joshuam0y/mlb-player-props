@@ -100,6 +100,7 @@ def upsert_pitching_logs(conn, player_id, season, logs):
                 _to_int(stat.get("baseOnBalls")), _to_int(stat.get("strikeOuts")),
                 _to_int(stat.get("homeRuns")), _to_int(stat.get("battersFaced")),
                 _to_int(stat.get("wins")), _to_int(stat.get("losses")),
+                _to_int(stat.get("gamesStarted")),
             )
         )
     if rows:
@@ -108,8 +109,8 @@ def upsert_pitching_logs(conn, player_id, season, logs):
             INSERT INTO pitching_game_logs
                 (player_id, game_pk, season, date, team_id, opponent_id, is_home,
                  innings_pitched, outs, hits, earned_runs, runs, base_on_balls,
-                 strike_outs, home_runs, batters_faced, wins, losses)
-            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                 strike_outs, home_runs, batters_faced, wins, losses, games_started)
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
             """,
             rows,
         )
