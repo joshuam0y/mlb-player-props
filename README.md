@@ -1,5 +1,7 @@
 # MLB Player Props Helper
 
+**Live dashboard:** https://joshuam0y.github.io/mlb-player-props/
+
 A free, public-data research tool for MLB player props (hits, home runs, RBIs,
 total bases, strikeouts, etc.) on markets like Sleeper and FanDuel. Pulls
 everything from MLB's own public Stats API (no key, no cost) and MLB.com's

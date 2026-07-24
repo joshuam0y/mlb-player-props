@@ -12,11 +12,16 @@ concurrency:
 permissions:
   contents: write
   actions: write
+  pages: write
+  id-token: write
 
 jobs:
   sync:
     runs-on: ubuntu-latest
     timeout-minutes: 50
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     env:
       GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
@@ -79,3 +84,15 @@ jobs:
           git add output/
           git diff --cached --quiet || git commit -m "Hourly data sync"
           git push
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload dashboard for Pages
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: output
+
+      - name: Deploy to Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
