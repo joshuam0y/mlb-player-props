@@ -1079,7 +1079,7 @@ def render_markdown(report):
     return "\n".join(lines)
 
 
-def run(days_ahead=2):
+def run(days_ahead=2, write_archive=True):
     init_db()
     conn = get_conn()
     report = build_report(conn, days_ahead=days_ahead)
@@ -1096,9 +1096,16 @@ def run(days_ahead=2):
     with open(md_path, "w") as f:
         f.write(render_markdown(report))
 
-    archive_path = os.path.join(OUT_DIR, f"props_{today}.json")
-    with open(archive_path, "w") as f:
-        json.dump(report, f, indent=2, default=str)
+    # The dated archive is a byte-for-byte duplicate of latest.json, so it's
+    # skippable on the frequent quick-refresh cycle (see quick-refresh.yml)
+    # where it'd just get overwritten again in minutes anyway -- every skip
+    # halves that run's commit size for zero loss of information. The
+    # hourly job still writes it, so a real once-an-hour-ish snapshot trail
+    # survives in output/props_YYYY-MM-DD.json.
+    if write_archive:
+        archive_path = os.path.join(OUT_DIR, f"props_{today}.json")
+        with open(archive_path, "w") as f:
+            json.dump(report, f, indent=2, default=str)
 
     html_path = os.path.join(OUT_DIR, "index.html")
     with open(html_path, "w") as f:
@@ -1110,5 +1117,9 @@ def run(days_ahead=2):
 if __name__ == "__main__":
     p = argparse.ArgumentParser()
     p.add_argument("--days-ahead", type=int, default=2)
+    p.add_argument(
+        "--skip-archive", action="store_true",
+        help="Skip writing the dated props_YYYY-MM-DD.json archive (for frequent runs where it'd just be overwritten again in minutes)",
+    )
     args = p.parse_args()
-    run(days_ahead=args.days_ahead)
+    run(days_ahead=args.days_ahead, write_archive=not args.skip_archive)
