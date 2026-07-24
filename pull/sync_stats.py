@@ -16,7 +16,7 @@ since seasons are immutable once the season has ended.
 import argparse
 import random
 import time
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 
 import api
 from db import CAREER_SEASON, get_conn, init_db

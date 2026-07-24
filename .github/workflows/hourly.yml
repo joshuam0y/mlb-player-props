@@ -45,26 +45,41 @@ jobs:
           path: mlb_props.db
           key: mlb-db-v1
 
+      # continue-on-error on every sync step: a bug or transient failure in
+      # any ONE source (as literally just happened -- a NameError crashed
+      # sync_stats and silently blocked every step after it, including
+      # build_props, for who knows how many hourly runs while still
+      # reporting a "successful" deploy of stale output) should never be
+      # able to block the rest of the pipeline from running with whatever
+      # data IS available. build_props itself stays fail-fast -- if THAT
+      # breaks, we genuinely have nothing new to deploy and want to know.
       - name: Sync teams & rosters
         run: python pull/sync_teams_and_roster.py
+        continue-on-error: true
 
       - name: Sync schedule
         run: python pull/sync_schedule.py
+        continue-on-error: true
 
       - name: Sync confirmed lineups
         run: python pull/sync_lineups.py
+        continue-on-error: true
 
       - name: Sync stats (game logs + splits)
         run: python pull/sync_stats.py --time-budget-seconds 1800
+        continue-on-error: true
 
       - name: Sync injuries & news
         run: python pull/sync_news.py
+        continue-on-error: true
 
       - name: Sync game results (final scores)
         run: python pull/sync_results.py
+        continue-on-error: true
 
       - name: Simulate upcoming games
         run: python pull/simulate_games.py
+        continue-on-error: true
 
       - name: Build props report + dashboard
         run: python pull/build_props.py
