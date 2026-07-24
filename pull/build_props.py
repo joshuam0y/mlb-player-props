@@ -43,6 +43,29 @@ PITCHING_COUNT_COLS = [
     "home_runs", "batters_faced",
 ]
 
+# Static, illustrative park-factor tiers by long-term reputation (altitude,
+# dimensions, prevailing wind/marine layer) -- NOT a dynamically computed or
+# year-adjusted index. Treat as directional context for HR/TB props, not a
+# precise number. Anything not listed is treated as roughly neutral.
+PARK_FACTORS = {
+    "Coors Field": "hitter",
+    "Great American Ball Park": "hitter",
+    "Chase Field": "hitter",
+    "Yankee Stadium": "hitter",
+    "Globe Life Field": "hitter",
+    "Citizens Bank Park": "hitter",
+    "Oracle Park": "pitcher",
+    "Petco Park": "pitcher",
+    "T-Mobile Park": "pitcher",
+    "loanDepot park": "pitcher",
+    "Comerica Park": "pitcher",
+    "Kauffman Stadium": "pitcher",
+}
+
+
+def park_factor_tier(venue_name):
+    return PARK_FACTORS.get(venue_name, "neutral")
+
 
 def batting_rolling(conn, player_id, n):
     rows = conn.execute(
@@ -53,12 +76,39 @@ def batting_rolling(conn, player_id, n):
         return None
     sums = {c: sum((r[c] or 0) for r in rows) for c in BATTING_COUNT_COLS}
     ab = sums["at_bats"]
+    avg = round(sums["hits"] / ab, 3) if ab else None
+    slg = round(sums["total_bases"] / ab, 3) if ab else None
+    babip_denom = ab - sums["strike_outs"] - sums["home_runs"]
     return {
         "games": len(rows),
         **sums,
-        "avg": round(sums["hits"] / ab, 3) if ab else None,
-        "slg": round(sums["total_bases"] / ab, 3) if ab else None,
+        "avg": avg,
+        "slg": slg,
+        # BABIP: strips out HR/K, isolating "did balls in play fall for hits" --
+        # a stretch this far above the ~.290-.300 league-average band usually
+        # means a hot streak is riding luck, not a real quality-of-contact
+        # improvement (ignores sac flies, which this schema doesn't track).
+        "babip": round((sums["hits"] - sums["home_runs"]) / babip_denom, 3) if babip_denom > 0 else None,
+        # ISO = SLG - AVG: extra-base power isolated from empty-average bloop
+        # hits. A hot streak with rising ISO is a power surge; flat/falling
+        # ISO alongside a BABIP spike is the "getting lucky, not better" case.
+        "iso": round(slg - avg, 3) if (slg is not None and avg is not None) else None,
     }
+
+
+def hit_streak(conn, player_id, lookback=40):
+    """Current consecutive-games-with-a-hit streak -- a prop market in its own right."""
+    rows = conn.execute(
+        "SELECT hits FROM batting_game_logs WHERE player_id = ? ORDER BY date DESC LIMIT ?",
+        (player_id, lookback),
+    ).fetchall()
+    streak = 0
+    for r in rows:
+        if (r["hits"] or 0) > 0:
+            streak += 1
+        else:
+            break
+    return streak
 
 
 def pitching_rolling(conn, player_id, n):
@@ -73,6 +123,31 @@ def pitching_rolling(conn, player_id, n):
     return {
         "games": len(rows),
         **sums,
+        "innings_pitched": round(innings, 1),
+        "era": round(sums["earned_runs"] * 9 / innings, 2) if innings else None,
+        "whip": round((sums["hits"] + sums["base_on_balls"]) / innings, 2) if innings else None,
+    }
+
+
+def home_away_split(conn, table, player_id, is_home):
+    cols = BATTING_COUNT_COLS if table == "batting_game_logs" else PITCHING_COUNT_COLS
+    rows = conn.execute(
+        f"SELECT * FROM {table} WHERE player_id = ? AND season = ? AND is_home = ?",
+        (player_id, CURRENT_SEASON, 1 if is_home else 0),
+    ).fetchall()
+    if not rows:
+        return None
+    sums = {c: sum((r[c] or 0) for r in rows) for c in cols}
+    if table == "batting_game_logs":
+        ab = sums["at_bats"]
+        return {
+            "games": len(rows), **sums,
+            "avg": round(sums["hits"] / ab, 3) if ab else None,
+            "slg": round(sums["total_bases"] / ab, 3) if ab else None,
+        }
+    innings = sums["outs"] / 3 if sums["outs"] else 0
+    return {
+        "games": len(rows), **sums,
         "innings_pitched": round(innings, 1),
         "era": round(sums["earned_runs"] * 9 / innings, 2) if innings else None,
         "whip": round((sums["hits"] + sums["base_on_balls"]) / innings, 2) if innings else None,
@@ -170,6 +245,26 @@ def form_trend(l_short, season, min_games=HOT_COLD_MIN_GAMES, threshold=HOT_COLD
     return None
 
 
+BABIP_LUCK_THRESHOLD = 0.340  # well above the ~.290-.300 league-average band
+ISO_POWER_THRESHOLD = 0.060  # ISO uptick at least this large signals a real power surge
+
+
+def trend_caveat(trend, l_short, season):
+    """
+    Separates a real hot streak (power/contact quality actually up) from a
+    lucky one (BABIP spiked, ISO didn't move) -- turns "hot streaks are often
+    just BABIP noise" from an asserted caveat into a checked one.
+    """
+    if trend != "hot" or not l_short or l_short["babip"] is None:
+        return None
+    iso_delta = (
+        l_short["iso"] - season["iso"] if (l_short["iso"] is not None and season["iso"] is not None) else None
+    )
+    if l_short["babip"] >= BABIP_LUCK_THRESHOLD and (iso_delta is None or iso_delta < ISO_POWER_THRESHOLD):
+        return "babip_driven"
+    return None
+
+
 PITCHER_WEAK_AVG_AGAINST = 0.260  # opposing avg this high or above => pitcher struggles vs that batter hand
 
 
@@ -212,12 +307,13 @@ def matchup_edge(conn, bat_side, pitcher_hand, opp_pitcher_id):
     }
 
 
-def build_batter_entry(conn, player_id, opp_hand, opp_pitcher_id, batting_order=None):
+def build_batter_entry(conn, player_id, opp_hand, opp_pitcher_id, is_home_game, batting_order=None):
     player = conn.execute("SELECT * FROM players WHERE player_id = ?", (player_id,)).fetchone()
     if not player:
         return None
     l7 = batting_rolling(conn, player_id, 7)
     season = batting_rolling(conn, player_id, 162)
+    trend = form_trend(l7, season)
     return {
         "player_id": player_id,
         "name": player["full_name"],
@@ -227,14 +323,21 @@ def build_batter_entry(conn, player_id, opp_hand, opp_pitcher_id, batting_order=
         "l7": l7,
         "l15": batting_rolling(conn, player_id, 15),
         "season": season,
-        "trend": form_trend(l7, season),
+        "trend": trend,
+        "trend_caveat": trend_caveat(trend, l7, season),
+        "hit_streak": hit_streak(conn, player_id),
         "splits_vs_opp_hand": hand_splits(conn, "batting_splits", player_id, opp_hand),
         "matchup": matchup_edge(conn, player["bat_side"], opp_hand, opp_pitcher_id),
+        "home_away": {
+            "this_game": "home" if is_home_game else "away",
+            "home": home_away_split(conn, "batting_game_logs", player_id, True),
+            "away": home_away_split(conn, "batting_game_logs", player_id, False),
+        },
         "headlines": recent_headlines(conn, player_id),
     }
 
 
-def build_pitcher_entry(conn, player_id):
+def build_pitcher_entry(conn, player_id, is_home_game=None):
     if not player_id:
         return None
     player = conn.execute("SELECT * FROM players WHERE player_id = ?", (player_id,)).fetchone()
@@ -247,6 +350,11 @@ def build_pitcher_entry(conn, player_id):
         "injury": injury_status(conn, player_id),
         "l3": pitching_rolling(conn, player_id, 3),
         "l5": pitching_rolling(conn, player_id, 5),
+        "home_away": {
+            "this_game": "home" if is_home_game else "away",
+            "home": home_away_split(conn, "pitching_game_logs", player_id, True),
+            "away": home_away_split(conn, "pitching_game_logs", player_id, False),
+        },
         "splits_vs_lhb": hand_splits(conn, "pitching_splits", player_id, "L"),
         "splits_vs_rhb": hand_splits(conn, "pitching_splits", player_id, "R"),
         "headlines": recent_headlines(conn, player_id),
@@ -265,6 +373,7 @@ def build_team_side(conn, game, side):
         else None
     )
     opp_hand = (opp_pitcher_row["pitch_hand"] if opp_pitcher_row else None) or "R"
+    is_home_game = side == "home"
 
     confirmed = conn.execute(
         "SELECT player_id, batting_order FROM lineups WHERE game_pk = ? AND team_id = ? ORDER BY batting_order",
@@ -274,17 +383,21 @@ def build_team_side(conn, game, side):
     if confirmed:
         lineup_confirmed = True
         batters = [
-            build_batter_entry(conn, r["player_id"], opp_hand, opp_pitcher_id, r["batting_order"]) for r in confirmed
+            build_batter_entry(conn, r["player_id"], opp_hand, opp_pitcher_id, is_home_game, r["batting_order"])
+            for r in confirmed
         ]
     else:
         lineup_confirmed = False
-        batters = [build_batter_entry(conn, pid, opp_hand, opp_pitcher_id) for pid in likely_starters(conn, team_id)]
+        batters = [
+            build_batter_entry(conn, pid, opp_hand, opp_pitcher_id, is_home_game)
+            for pid in likely_starters(conn, team_id)
+        ]
 
     return {
         "team_id": team_id,
         "team_name": team["name"] if team else None,
         "lineup_confirmed": lineup_confirmed,
-        "probable_pitcher": build_pitcher_entry(conn, game[f"{side}_probable_pitcher_id"]),
+        "probable_pitcher": build_pitcher_entry(conn, game[f"{side}_probable_pitcher_id"], is_home_game),
         "batters": [b for b in batters if b],
     }
 
@@ -306,6 +419,7 @@ def build_report(conn, days_ahead=2):
                 "game_time_utc": game["game_date_utc"],
                 "status": game["status"],
                 "venue": game["venue_name"],
+                "park_factor": park_factor_tier(game["venue_name"]),
                 "home": build_team_side(conn, game, "home"),
                 "away": build_team_side(conn, game, "away"),
             }
@@ -318,7 +432,8 @@ def render_markdown(report):
     lines = [f"# MLB Player Props Context Report", f"_Generated {report['generated_at']}_", ""]
     for g in report["games"]:
         lines.append(f"## {g['date']} - {g['away']['team_name']} @ {g['home']['team_name']} ({g['status']})")
-        lines.append(f"_{g['venue']}_")
+        park_note = f" [{g['park_factor']}-friendly park]" if g["park_factor"] != "neutral" else ""
+        lines.append(f"_{g['venue']}{park_note}_")
         lines.append("")
         for side_key in ("away", "home"):
             side = g[side_key]
@@ -342,8 +457,15 @@ def render_markdown(report):
                 matchup_txt = ""
                 if b["matchup"]["favorable"]:
                     matchup_txt = f" [MATCHUP EDGE: pitcher hits {b['matchup']['pitcher_avg_against']} avg-against vs this hand]"
+                streak_txt = f" [{b['hit_streak']}-game hit streak]" if b["hit_streak"] >= 3 else ""
+                caveat_txt = " [likely BABIP-driven, not a real power uptick]" if b["trend_caveat"] == "babip_driven" else ""
+                ha = b["home_away"][b["home_away"]["this_game"]]
+                ha_txt = f" -- {b['home_away']['this_game']} split: {ha['avg']} avg" if ha and ha["avg"] is not None else ""
                 headline_txt = f" -- news: {b['headlines'][0]['title']}" if b["headlines"] else ""
-                lines.append(f"- {order}{b['name']} ({b['bat_side']}){inj}{matchup_txt} -- {l7_txt}{headline_txt}")
+                lines.append(
+                    f"- {order}{b['name']} ({b['bat_side']}){inj}{matchup_txt}{streak_txt}{caveat_txt}"
+                    f" -- {l7_txt}{ha_txt}{headline_txt}"
+                )
             lines.append("")
     return "\n".join(lines)
 

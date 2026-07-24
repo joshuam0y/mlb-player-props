@@ -73,6 +73,9 @@ STYLE = """
   .badge-cold { background: var(--status-critical); color: white; }
   .badge-injury { background: var(--status-warning); color: #1a1a19; }
   .badge-matchup { background: var(--series-1); color: white; }
+  .badge-streak { background: var(--status-warning); color: #1a1a19; }
+  .badge-caveat { background: var(--badge-neutral-bg); color: var(--text-secondary); }
+  .park-note { color: var(--text-muted); font-size: 11px; }
   .pitcher-line { font-size: 13px; margin-bottom: 8px; color: var(--text-secondary); }
   .pitcher-line b { color: var(--text-primary); }
   table { width: 100%; border-collapse: collapse; font-size: 12.5px; }
@@ -112,6 +115,14 @@ def _matchup_badge(matchup):
     return _badge(label, "matchup")
 
 
+def _streak_badge(streak):
+    return _badge(f"{streak}-GAME STREAK", "streak") if streak and streak >= 3 else ""
+
+
+def _caveat_badge(trend_caveat):
+    return _badge("LIKELY LUCK (BABIP)", "caveat") if trend_caveat == "babip_driven" else ""
+
+
 def _pitcher_html(p):
     if not p:
         return '<div class="pitcher-line sub">No probable pitcher announced</div>'
@@ -134,9 +145,16 @@ def _batter_rows(batters):
     for b in batters:
         order = f"#{b['batting_order']}" if b["batting_order"] else "-"
         l7 = b["l7"]
-        l7_txt = f"{l7['hits']}H {l7['home_runs']}HR {l7['rbi']}RBI {l7['total_bases']}TB ({l7['avg']})" if l7 else "no data"
+        l7_txt = (
+            f"{l7['hits']}H {l7['home_runs']}HR {l7['rbi']}RBI {l7['total_bases']}TB "
+            f"(avg {l7['avg']}, BABIP {l7['babip']}, ISO {l7['iso']})"
+            if l7
+            else "no data"
+        )
         season = b["season"]
         season_txt = f"{season['avg']} avg" if season and season["avg"] is not None else "-"
+        ha = b["home_away"].get(b["home_away"]["this_game"])
+        ha_txt = f"{b['home_away']['this_game']}: {ha['avg']} avg ({ha['games']}g)" if ha and ha["avg"] is not None else ""
         headline = (
             f'<a class="headline-link" href="{html.escape(b["headlines"][0]["link"])}" target="_blank" rel="noopener">'
             f'{html.escape(b["headlines"][0]["title"][:60])}</a>'
@@ -144,13 +162,22 @@ def _batter_rows(batters):
             else ""
         )
         badges = " ".join(
-            x for x in [_trend_badge(b["trend"]), _matchup_badge(b.get("matchup")), _injury_badge(b["injury"])] if x
+            x
+            for x in [
+                _trend_badge(b["trend"]),
+                _caveat_badge(b.get("trend_caveat")),
+                _matchup_badge(b.get("matchup")),
+                _streak_badge(b.get("hit_streak")),
+                _injury_badge(b["injury"]),
+            ]
+            if x
         )
+        sub_line = f"season: {season_txt}" + (f" &middot; {ha_txt}" if ha_txt else "")
         rows.append(
             f"<tr><td>{order}</td>"
             f'<td class="name-cell">{html.escape(b["name"])} <span class="sub">({html.escape(b["bat_side"] or "?")})</span></td>'
             f"<td>{badges}</td>"
-            f"<td>{html.escape(l7_txt)}<div class=\"sub\">season: {season_txt}</div></td>"
+            f'<td>{html.escape(l7_txt)}<div class="sub">{sub_line}</div></td>'
             f"<td>{headline}</td></tr>"
         )
     return "\n".join(rows)
