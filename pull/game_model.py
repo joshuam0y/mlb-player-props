@@ -293,14 +293,12 @@ def project_matchup(
     away_exp_runs = avg * away_off_idx * home_def_idx * park_mult
 
     return {
+        # A team can't literally score half a run, so the projected score
+        # itself stays a plain decimal average (e.g. 3.2 - 4.7) -- only the
+        # combined TOTAL (see simulate()'s total_line) is quoted as .5,
+        # since that's an actual bettable line and needs to avoid a push.
         "home_exp_runs": round(home_exp_runs, 2),
         "away_exp_runs": round(away_exp_runs, 2),
-        # Display-only versions of the same projection, rounded to the
-        # nearest half-run the way sportsbook lines are quoted (e.g. "4.5 -
-        # 3.5") rather than a false-precision decimal or a rounded whole
-        # number that implies more certainty about an exact final score.
-        "home_score_line": _round_to_half(home_exp_runs),
-        "away_score_line": _round_to_half(away_exp_runs),
         "dispersion_r": league["dispersion_r"],
         "league_avg": avg,
         "home_bullpen_fatigue": home_bullpen_fatigue,

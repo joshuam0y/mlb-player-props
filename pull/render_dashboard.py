@@ -179,8 +179,10 @@ STYLE = """
   .badge-alert { background: var(--status-critical); color: white; }
   .game-time { font-variant-numeric: tabular-nums; }
   .pitcher-row { cursor: pointer; }
-  .pitcher-line { font-size: 13px; margin-bottom: 6px; color: var(--text-secondary); }
+  .pitcher-line { font-size: 13px; margin-bottom: 4px; color: var(--text-secondary); }
   .pitcher-line b { color: var(--text-primary); }
+  .team-summary { list-style: disc; margin: 0 0 8px; padding-left: 18px; font-size: 12.5px; color: var(--text-secondary); }
+  .team-summary li { margin-bottom: 3px; }
   table { width: 100%; border-collapse: collapse; font-size: 12.5px; }
   th { text-align: left; color: var(--text-muted); font-weight: 500; font-size: 11px; padding: 5px 6px; border-bottom: 1px solid var(--gridline); }
   td { padding: 6px; border-bottom: 1px solid var(--gridline); vertical-align: top; }
@@ -215,6 +217,10 @@ STYLE = """
     position: absolute; left: -2px; right: -2px; bottom: var(--baseline); z-index: 2;
     border-top: 1px dashed var(--text-muted);
   }
+  .prop-projection { font-size: 11.5px; color: var(--text-secondary); margin-bottom: 2px; }
+  .prop-projection b { color: var(--text-primary); }
+  .prop-lean-over { color: var(--status-good); font-weight: 700; }
+  .prop-lean-under { color: var(--status-critical); font-weight: 700; }
   .prop-rate { font-size: 11.5px; color: var(--text-secondary); }
   .prop-avg { font-size: 10.5px; color: var(--text-muted); margin-top: 4px; }
 
@@ -438,32 +444,60 @@ def _caveat_badge(trend_caveat):
     return _badge("LIKELY LUCK", "caveat") if trend_caveat == "babip_driven" else ""
 
 
-def _best_prop_html(entry):
+def _best_prop_text(entry):
     prop = entry.get("best_prop")
     direction = entry.get("best_prop_direction")
     if not prop:
-        return ""
+        return None
     verb = "OVER" if direction == "over" else "UNDER"
     pct = prop["pct"] if direction == "over" else 100 - prop["pct"]
     season_pct = prop.get("season_pct", prop["pct"])
     season_pct = season_pct if direction == "over" else 100 - season_pct
     return (
-        f'<div class="best-prop best-prop-{direction}">Best prop: {html.escape(prop["label"])} '
-        f"&mdash; {verb} {prop['line']} ({pct}% recently vs. {round(season_pct)}% this season)</div>"
+        f'Best prop: {html.escape(prop["label"])} &mdash; {verb} {prop["line"]} '
+        f"({pct}% recently vs. {round(season_pct)}% this season)"
     )
 
 
-def _pitcher_matchup_html(matchup):
+def _best_prop_html(entry):
+    text = _best_prop_text(entry)
+    direction = entry.get("best_prop_direction")
+    return f'<div class="best-prop best-prop-{direction}">{text}</div>' if text else ""
+
+
+def _pitcher_matchup_text(matchup):
     if not matchup:
-        return ""
+        return []
     tough = matchup.get("tough_matchups") or []
     exploitable = matchup.get("exploitable_matchups") or []
-    parts = []
+    lines = []
     if tough:
-        parts.append(f'<div class="sub">Tough matchup tonight for: {html.escape(", ".join(tough))}</div>')
+        lines.append(f'Tough matchup tonight for: {html.escape(", ".join(tough))}')
     if exploitable:
-        parts.append(f'<div class="sub">Watch out for: {html.escape(", ".join(exploitable))} (batter has the edge)</div>')
-    return "".join(parts)
+        lines.append(f'Watch out for: {html.escape(", ".join(exploitable))} (batter has the edge)')
+    return lines
+
+
+def _fatigue_text(fatigue):
+    if not fatigue:
+        return None
+    ratio = fatigue["fatigue_ratio"]
+    if ratio >= 1.2:
+        return f'Opposing bullpen has thrown a lot lately: {fatigue["recent_innings"]} innings in the last 2 days'
+    if ratio <= 0.7:
+        return f'Opposing bullpen is well-rested: only {fatigue["recent_innings"]} innings in the last 2 days'
+    return None
+
+
+def _category_projection_html(cat):
+    line = cat["primary_line"]
+    today = cat.get("today_projection")
+    if today is None:
+        return f"Projected line: <b>{line}</b>"
+    lean = cat.get("lean")
+    if lean is None:
+        return f"Projected line: <b>{line}</b> &middot; Today: {today} (even)"
+    return f'Projected line: <b>{line}</b> &middot; Today: <span class="prop-lean-{lean}">{today} (lean {lean.upper()})</span>'
 
 
 def _prop_categories_html(categories, row_id):
@@ -473,7 +507,7 @@ def _prop_categories_html(categories, row_id):
     for cat in categories:
         values = cat.get("values") or []
         dates = cat.get("dates") or [None] * len(values)
-        line = cat.get("primary_line", cat["hit_rates"][0]["line"] if cat["hit_rates"] else 0)
+        line = cat["primary_line"]
         max_v = max([*values, line]) or 1
         baseline_pct = min(max(line / max_v * 100, 0), 100)
         bars = []
@@ -489,18 +523,19 @@ def _prop_categories_html(categories, row_id):
         cats_html.append(f"""
         <div class="prop-cat" data-category="{slug}">
           <div class="prop-cat-label">{html.escape(cat["label"])}</div>
+          <div class="prop-projection">{_category_projection_html(cat)}</div>
           <div class="prop-bars" style="--baseline:{baseline_pct:.0f}%">
             <div class="prop-baseline"></div>
             {"".join(bars)}
           </div>
-          <div class="prop-rate">{rates}</div>
-          <div class="prop-avg">Avg {cat["average"]}/game (last {len(values)}) &middot; dashed line = {line} &middot; hover a bar for the exact game</div>
+          <div class="prop-rate">{rates} (last {len(values)})</div>
+          <div class="prop-avg">Avg {cat["average"]}/game recently &middot; dashed line = this player's own projected line &middot; hover a bar for the exact game</div>
         </div>
         """)
     return f'<tr id="{row_id}" class="prop-detail" style="display:none"><td colspan="5"><div class="prop-grid">{"".join(cats_html)}</div></td></tr>'
 
 
-def _pitcher_html(p, row_id):
+def _pitcher_html(p, row_id, fatigue):
     if not p:
         return '<div class="pitcher-line sub">No probable pitcher announced</div>'
     l5 = p["l5"]
@@ -510,13 +545,22 @@ def _pitcher_html(p, row_id):
         else "No recent starts on record yet"
     )
     badges = " ".join(x for x in [_pitcher_form_badge(p.get("form_trend")), _injury_badge(p["injury"])] if x)
+
+    bullets = [l5_txt]
+    best_prop_text = _best_prop_text(p)
+    if best_prop_text:
+        bullets.append(best_prop_text)
+    bullets.extend(_pitcher_matchup_text(p.get("opponent_matchup")))
+    fatigue_text = _fatigue_text(fatigue)
+    if fatigue_text:
+        bullets.append(fatigue_text)
+    bullets_html = "".join(f"<li>{b}</li>" for b in bullets)
+
     return f"""
     <div class="pitcher-line pitcher-row" onclick="toggleDetail('{row_id}')">
-      <span class="expand-arrow"></span><b>{html.escape(p["name"])}</b> ({html.escape(p["pitch_hand"] or "?")}, throws)
-      {badges}<br>{html.escape(l5_txt)}
-      {_best_prop_html(p)}
-      {_pitcher_matchup_html(p.get("opponent_matchup"))}
+      <span class="expand-arrow"></span><b>{html.escape(p["name"])}</b> ({html.escape(p["pitch_hand"] or "?")}, throws) {badges}
     </div>
+    <ul class="team-summary">{bullets_html}</ul>
     <table><tbody>{_prop_categories_html(p.get("prop_categories"), row_id)}</tbody></table>
     """
 
@@ -566,17 +610,6 @@ def _batter_rows(batters, id_prefix):
     return "\n".join(rows)
 
 
-def _fatigue_html(fatigue):
-    if not fatigue:
-        return ""
-    ratio = fatigue["fatigue_ratio"]
-    if ratio >= 1.2:
-        return f'<div class="sub">Opposing bullpen has thrown a lot lately: {fatigue["recent_innings"]} innings in the last 2 days</div>'
-    if ratio <= 0.7:
-        return f'<div class="sub">Opposing bullpen is well-rested: only {fatigue["recent_innings"]} innings in the last 2 days</div>'
-    return ""
-
-
 def _team_col_html(side, id_prefix):
     tag_kind = "confirmed" if side["lineup_confirmed"] else "projected"
     tag_label = "LINEUP CONFIRMED" if side["lineup_confirmed"] else "PROJECTED (not yet announced)"
@@ -584,8 +617,7 @@ def _team_col_html(side, id_prefix):
     <div class="team-col">
       <div class="team-title">{html.escape(side["team_name"] or "?")} {_badge(tag_label, tag_kind)}</div>
       <div class="pitcher-block">
-        {_pitcher_html(side["probable_pitcher"], f"{id_prefix}-p")}
-        {_fatigue_html(side.get("opponent_bullpen_fatigue"))}
+        {_pitcher_html(side["probable_pitcher"], f"{id_prefix}-p", side.get("opponent_bullpen_fatigue"))}
       </div>
       <div class="batter-block">
         <table>
@@ -637,10 +669,10 @@ def _game_line_html(g):
     if not p:
         return ""
 
-    home_score = p.get("home_score_line")
-    away_score = p.get("away_score_line")
-    if home_score is None or away_score is None:
-        home_score, away_score = p["home_exp_runs"], p["away_exp_runs"]
+    # A team can't literally score half a run -- unlike the total-runs LINE
+    # (always .5, so it can't push), the projected score itself is just an
+    # average outcome, so it's shown as the raw decimal (e.g. "3.2 - 4.7").
+    home_score, away_score = p["home_exp_runs"], p["away_exp_runs"]
 
     home_win_prob = p["home_win_prob"]
     ml_pick = p.get("moneyline_pick") or ("home" if home_win_prob >= 0.5 else "away")

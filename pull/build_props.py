@@ -115,45 +115,127 @@ def hit_streak(conn, player_id, lookback=40):
     return streak
 
 
-# Standard FanDuel/Sleeper-style prop categories with common alt-lines.
-# We don't pull real sportsbook lines (see README), so instead of guessing
-# a single "the line is X" number, we show the plain hit-rate at each of
-# these common thresholds over the player's actual recent games -- e.g.
-# "went over 1.5 total bases in 8 of the last 10 games" -- so it can be
-# compared directly against whatever number the sportsbook app shows.
-# (column, plain-English label, common alt-lines to check the hit-rate at)
+# FanDuel/Sleeper-style prop categories. We don't pull real sportsbook
+# lines (see README), so instead of a fixed common threshold applied to
+# every player alike (which is meaningless for someone like Tarik Skubal --
+# a flat 4.5-strikeout line is trivial for an ace, but would be a stretch
+# for a back-of-rotation innings-eater), the line for each category is a
+# per-player PROJECTION: a blend of this player's own recent and
+# season-long per-game rate, rounded to the nearest half (never a whole
+# number, same "no pushes" convention real player-prop lines use). See
+# category_baselines() below. (column, plain-English label)
 BATTER_PROP_CATEGORIES = [
-    ("hits", "Hits", [0.5, 1.5]),
-    ("total_bases", "Total Bases", [1.5, 2.5]),
-    ("home_runs", "Home Runs", [0.5]),
-    ("rbi", "RBIs", [0.5, 1.5]),
-    ("runs", "Runs Scored", [0.5, 1.5]),
-    ("base_on_balls", "Walks", [0.5]),
+    ("hits", "Hits"),
+    ("total_bases", "Total Bases"),
+    ("home_runs", "Home Runs"),
+    ("rbi", "RBIs"),
+    ("runs", "Runs Scored"),
+    ("base_on_balls", "Walks"),
 ]
 PITCHER_PROP_CATEGORIES = [
-    ("strike_outs", "Strikeouts", [4.5, 5.5, 6.5]),
-    ("earned_runs", "Runs Allowed", [1.5, 2.5]),
-    ("hits", "Hits Allowed", [4.5]),
-    ("base_on_balls", "Walks Allowed", [1.5]),
+    ("strike_outs", "Strikeouts"),
+    ("earned_runs", "Runs Allowed"),
+    ("hits", "Hits Allowed"),
+    ("base_on_balls", "Walks Allowed"),
 ]
 
+RECENT_WEIGHT = 0.4  # how much of the projected line comes from recent form vs. full-season rate
+MIN_PROJECTION_LINE = 0.5  # never project a zero/negative line -- 0.5 ("will it happen at all") is the natural floor
 
-def _prop_categories(rows, categories, include_values=True):
+
+def round_to_half(x):
+    """Sportsbook-style line: always ends in .5 (never a whole number), so a push is impossible."""
+    return round(x - 0.5) + 0.5
+
+
+def _per_game_avg(rolling, stat):
+    if not rolling or not rolling.get("games"):
+        return None
+    return rolling[stat] / rolling["games"]
+
+
+def season_stat_averages(conn, table, player_id, stats, season=CURRENT_SEASON):
+    """
+    Per-game average for each stat, strictly within `season`. Deliberately
+    separate from batting_rolling()/pitching_rolling()'s "season" rollup
+    (which is really just "last up to 162/162 games regardless of year" --
+    fine for that function's own purposes, since backtest.py relies on that
+    exact behavior, but wrong for a projected line: an established
+    veteran's last 162 games can span several years, and calling that "this
+    season" would be a false claim in the UI text).
+    """
+    cols = ", ".join(f"SUM({stat}) as {stat}" for stat, _ in stats)
+    row = conn.execute(
+        f"SELECT {cols}, COUNT(*) as games FROM {table} WHERE player_id = ? AND season = ?",
+        (player_id, season),
+    ).fetchone()
+    if not row or not row["games"]:
+        return {stat: None for stat, _ in stats}
+    games = row["games"]
+    return {stat: (row[stat] / games) if row[stat] is not None else None for stat, _ in stats}
+
+
+def category_baselines(recent_rolling, season_avgs, stats):
+    """
+    This player's own projected per-game line for each stat -- a blend of
+    their recent-form rate and their actual current-season rate, rounded to
+    the nearest half. This is the number the bar-chart baseline and hit-rate
+    are measured against (their own normal expectation), NOT adjusted for
+    tonight's specific opponent -- that adjustment is a separate "today's
+    projection" layered on top in _prop_categories(), so the historical
+    bars stay an apples-to-apples read of "did they clear their own line",
+    unaffected by who they happened to be facing on any given past night.
+    Returns {stat: (avg, line)}, or {stat: None} if there's no data yet.
+    """
+    out = {}
+    for stat, _label in stats:
+        recent_avg = _per_game_avg(recent_rolling, stat)
+        season_avg = season_avgs.get(stat)
+        if recent_avg is None and season_avg is None:
+            out[stat] = None
+            continue
+        if season_avg is None:
+            avg = recent_avg
+        elif recent_avg is None:
+            avg = season_avg
+        else:
+            avg = RECENT_WEIGHT * recent_avg + (1 - RECENT_WEIGHT) * season_avg
+        avg = max(avg, MIN_PROJECTION_LINE)
+        out[stat] = (avg, round_to_half(avg))
+    return out
+
+
+LEAN_EPSILON = 0.15  # today's projection has to clear the line by more than this to call a lean -- otherwise it's a near-coin-flip and shouldn't be shown as confidently over/under
+
+
+def _prop_categories(rows, stats, baselines, factor_fn=None, include_values=True):
     if not rows:
         return []
     rows = list(reversed(rows))  # oldest -> newest, so a game-log bar chart reads left to right
+    factor_fn = factor_fn or (lambda label: 1.0)
     out = []
-    for stat, label, lines in categories:
+    for stat, label in stats:
+        baseline = baselines.get(stat)
+        if baseline is None:
+            continue  # not enough data yet to project a line for this category
+        avg, line = baseline
         values = [r[stat] or 0 for r in rows]
         n = len(values)
-        primary_line = lines[0]
+        today_projection = round(avg * factor_fn(label), 2)
+        diff = today_projection - line
+        if diff > LEAN_EPSILON:
+            lean = "over"
+        elif diff < -LEAN_EPSILON:
+            lean = "under"
+        else:
+            lean = None
         entry = {
             "label": label,
             "average": round(sum(values) / n, 2),
-            "primary_line": primary_line,
-            "hit_rates": [
-                {"line": line, "pct": round(sum(1 for v in values if v > line) / n * 100), "n": n} for line in lines
-            ],
+            "primary_line": line,
+            "today_projection": today_projection,
+            "lean": lean,
+            "hit_rates": [{"line": line, "pct": round(sum(1 for v in values if v > line) / n * 100), "n": n}],
         }
         if include_values:
             entry["values"] = values
@@ -164,22 +246,53 @@ def _prop_categories(rows, categories, include_values=True):
     return out
 
 
-def batter_prop_categories(conn, player_id, n=10, include_values=True):
-    cols = [c for c, _, _ in BATTER_PROP_CATEGORIES]
+def batter_prop_categories(conn, player_id, baselines, factor_fn=None, n=10, include_values=True):
+    cols = [c for c, _ in BATTER_PROP_CATEGORIES]
     rows = conn.execute(
         f"SELECT {', '.join(cols)}, date FROM batting_game_logs WHERE player_id = ? ORDER BY date DESC LIMIT ?",
         (player_id, n),
     ).fetchall()
-    return _prop_categories(rows, BATTER_PROP_CATEGORIES, include_values=include_values)
+    return _prop_categories(rows, BATTER_PROP_CATEGORIES, baselines, factor_fn=factor_fn, include_values=include_values)
 
 
-def pitcher_prop_categories(conn, player_id, n=5, include_values=True):
-    cols = [c for c, _, _ in PITCHER_PROP_CATEGORIES]
+def pitcher_prop_categories(conn, player_id, baselines, factor_fn=None, n=5, include_values=True):
+    cols = [c for c, _ in PITCHER_PROP_CATEGORIES]
     rows = conn.execute(
         f"SELECT {', '.join(cols)}, date FROM pitching_game_logs WHERE player_id = ? ORDER BY date DESC LIMIT ?",
         (player_id, n),
     ).fetchall()
-    return _prop_categories(rows, PITCHER_PROP_CATEGORIES, include_values=include_values)
+    return _prop_categories(rows, PITCHER_PROP_CATEGORIES, baselines, factor_fn=factor_fn, include_values=include_values)
+
+
+BATTER_MATCHUP_FAVORABLE_FACTOR = 1.15
+BATTER_MATCHUP_UNFAVORABLE_FACTOR = 0.85
+
+
+def batter_matchup_factor(matchup):
+    """Applied uniformly across every batter category for 'today's projection' -- a coarse but honest single adjustment, not a per-stat model."""
+    if not matchup:
+        return 1.0
+    if matchup.get("favorable"):
+        return BATTER_MATCHUP_FAVORABLE_FACTOR
+    if matchup.get("unfavorable"):
+        return BATTER_MATCHUP_UNFAVORABLE_FACTOR
+    return 1.0
+
+
+PITCHER_FORM_PROJECTION_FACTOR = 0.10  # +/-10% swing to a category's projection from recent form
+
+
+def pitcher_category_factor(label, form_trend):
+    """
+    Unlike batters, 'pitching well' doesn't push every category the same
+    direction: a dominant stretch means MORE strikeouts but FEWER runs/
+    hits/walks allowed, so the sign flips depending on the category.
+    """
+    if form_trend == "dominant":
+        return 1 + PITCHER_FORM_PROJECTION_FACTOR if label == "Strikeouts" else 1 - PITCHER_FORM_PROJECTION_FACTOR
+    if form_trend == "rough":
+        return 1 - PITCHER_FORM_PROJECTION_FACTOR if label == "Strikeouts" else 1 + PITCHER_FORM_PROJECTION_FACTOR
+    return 1.0
 
 
 def pitching_rolling(conn, player_id, n):
@@ -434,11 +547,16 @@ def build_batter_entry(conn, player_id, opp_hand, opp_pitcher_id, is_home_game, 
     if not player:
         return None
     l7 = batting_rolling(conn, player_id, 7)
+    l15 = batting_rolling(conn, player_id, 15)
     season = batting_rolling(conn, player_id, 162)
     trend = form_trend(l7, season)
+    matchup = matchup_edge(conn, player["bat_side"], opp_hand, opp_pitcher_id)
 
-    recent_categories = batter_prop_categories(conn, player_id)
-    season_categories = batter_prop_categories(conn, player_id, n=200, include_values=False)
+    season_avgs = season_stat_averages(conn, "batting_game_logs", player_id, BATTER_PROP_CATEGORIES)
+    baselines = category_baselines(l15, season_avgs, BATTER_PROP_CATEGORIES)
+    factor_fn = lambda label: batter_matchup_factor(matchup)  # noqa: E731 -- same factor for every batting category
+    recent_categories = batter_prop_categories(conn, player_id, baselines, factor_fn=factor_fn)
+    season_categories = batter_prop_categories(conn, player_id, baselines, factor_fn=factor_fn, n=200, include_values=False)
     best_over, best_under = prop_category_delta(recent_categories, season_categories)
     best_prop, best_prop_direction = headline_prop(best_over, best_under)
 
@@ -449,13 +567,13 @@ def build_batter_entry(conn, player_id, opp_hand, opp_pitcher_id, is_home_game, 
         "batting_order": batting_order,
         "injury": injury_status(conn, player_id),
         "l7": l7,
-        "l15": batting_rolling(conn, player_id, 15),
+        "l15": l15,
         "season": season,
         "trend": trend,
         "trend_caveat": trend_caveat(trend, l7, season),
         "hit_streak": hit_streak(conn, player_id),
         "splits_vs_opp_hand": hand_splits(conn, "batting_splits", player_id, opp_hand),
-        "matchup": matchup_edge(conn, player["bat_side"], opp_hand, opp_pitcher_id),
+        "matchup": matchup,
         "home_away": {
             "this_game": "home" if is_home_game else "away",
             "home": home_away_split(conn, "batting_game_logs", player_id, True),
@@ -478,9 +596,13 @@ def build_pitcher_entry(conn, player_id, is_home_game=None):
         return None
     l5 = pitching_rolling(conn, player_id, 5)
     season = pitching_rolling(conn, player_id, 162)
+    form_trend_value = pitcher_form_trend(l5, season)
 
-    recent_categories = pitcher_prop_categories(conn, player_id)
-    season_categories = pitcher_prop_categories(conn, player_id, n=200, include_values=False)
+    season_avgs = season_stat_averages(conn, "pitching_game_logs", player_id, PITCHER_PROP_CATEGORIES)
+    baselines = category_baselines(l5, season_avgs, PITCHER_PROP_CATEGORIES)
+    factor_fn = lambda label: pitcher_category_factor(label, form_trend_value)  # noqa: E731
+    recent_categories = pitcher_prop_categories(conn, player_id, baselines, factor_fn=factor_fn)
+    season_categories = pitcher_prop_categories(conn, player_id, baselines, factor_fn=factor_fn, n=200, include_values=False)
     best_over, best_under = prop_category_delta(recent_categories, season_categories, min_games=4)
     best_prop, best_prop_direction = headline_prop(best_over, best_under)
 
@@ -492,7 +614,7 @@ def build_pitcher_entry(conn, player_id, is_home_game=None):
         "l3": pitching_rolling(conn, player_id, 3),
         "l5": l5,
         "season": season,
-        "form_trend": pitcher_form_trend(l5, season),
+        "form_trend": form_trend_value,
         "home_away": {
             "this_game": "home" if is_home_game else "away",
             "home": home_away_split(conn, "pitching_game_logs", player_id, True),
@@ -850,8 +972,8 @@ def build_report(conn, days_ahead=2):
         "games": report_games,
         "top_overs": top_overs,
         "top_unders": top_unders,
-        "batter_prop_labels": [label for _, label, _ in BATTER_PROP_CATEGORIES],
-        "pitcher_prop_labels": [label for _, label, _ in PITCHER_PROP_CATEGORIES],
+        "batter_prop_labels": [label for _, label in BATTER_PROP_CATEGORIES],
+        "pitcher_prop_labels": [label for _, label in PITCHER_PROP_CATEGORIES],
     }
 
 
@@ -881,9 +1003,7 @@ def render_markdown(report):
             lines.append(f"Final: {g['away']['team_name']} {g['away_score']} - {g['home']['team_name']} {g['home_score']}")
         elif g["projection"]:
             p = g["projection"]
-            away_score = p.get("away_score_line") if p.get("away_score_line") is not None else p["away_exp_runs"]
-            home_score = p.get("home_score_line") if p.get("home_score_line") is not None else p["home_exp_runs"]
-            lines.append(f"Projected score: {g['away']['team_name']} {away_score} - {g['home']['team_name']} {home_score}")
+            lines.append(f"Projected score: {g['away']['team_name']} {p['away_exp_runs']} - {g['home']['team_name']} {p['home_exp_runs']}")
             ml_team = g["home"]["team_name"] if p.get("moneyline_pick") == "home" else g["away"]["team_name"]
             win_prob = p["home_win_prob"] if p.get("moneyline_pick") == "home" else 1 - p["home_win_prob"]
             total_pick = p.get("total_pick") or ("over" if p["over_prob"] >= 0.5 else "under")
