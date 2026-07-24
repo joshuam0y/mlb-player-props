@@ -88,17 +88,29 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add output/
-          git diff --cached --quiet || git commit -m "Hourly data sync"
-          git push
+          git diff --cached --quiet && exit 0
+          git commit -m "Hourly data sync"
+          # The job runs long enough that main can move (another push, or an
+          # overlapping run) before this push happens -- rebase onto the
+          # latest main first, retrying a few times, rather than failing the
+          # whole job (and skipping the Pages deploy) on an ordinary race.
+          for i in 1 2 3 4 5; do
+            git pull --rebase origin main && git push && break
+            echo "Push attempt $i failed, retrying..."
+            sleep 5
+          done
 
       - name: Configure Pages
+        if: always()
         uses: actions/configure-pages@v5
 
       - name: Upload dashboard for Pages
+        if: always()
         uses: actions/upload-pages-artifact@v3
         with:
           path: output
 
       - name: Deploy to Pages
+        if: always()
         id: deployment
         uses: actions/deploy-pages@v4
