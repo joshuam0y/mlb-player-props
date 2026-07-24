@@ -123,24 +123,69 @@ open output/index.html
 
 ## Automation
 
-`.github/workflows/hourly.yml` runs the full pipeline every hour on GitHub
-Actions and commits the refreshed `output/` files back to the repo, so
-`output/index.html` on `main` is always close to current. `mlb_props.db`
-itself is *not* committed -- it's a large, constantly-mutating binary that
-git can't delta-compress, so it's persisted between runs via GitHub Actions
-cache instead (see the workflow file for why).
+Two workflows, on separate schedules:
+
+- **`.github/workflows/hourly.yml`** -- the full pipeline, once an hour:
+  team/roster sync, the full stats backfill, injuries/news, results, and a
+  data-integrity check. Every sync step is `continue-on-error: true`, so a
+  problem in any one source can't block the rest of the pipeline (or the
+  deploy) from running with whatever data is available.
+- **`.github/workflows/quick-refresh.yml`** -- schedule, confirmed lineups,
+  re-simulation, and a dashboard rebuild every 15 minutes, so a lineup
+  posting or a postponement doesn't sit stale for up to an hour. Reads the
+  same database cache but never writes it back, so it can't race the
+  hourly job's own cache save.
+
+Both commit the refreshed `output/` files back to the repo and redeploy
+Pages, so `output/index.html` on `main` stays close to current either way.
+`build_props.py` refuses to publish a real regression in data completeness
+(e.g. if a build ever runs against a still-recovering database), so a
+partial sync can't silently push worse data live -- see its `run()`
+docstring for the guard.
+
+`mlb_props.db` itself is *not* committed -- it's a large, constantly-
+mutating binary that git can't delta-compress, so it's persisted between
+runs via a GitHub Actions cache instead (see `hourly.yml` for why, and for
+the size-gated save that keeps a bad run from ever overwriting a good
+cache with a corrupted one).
 
 ## Backtesting
 
-Planned next, in two parts:
-1. **Game-sim calibration** -- reconstruct what `game_model.py` would have
-   projected *before* each past game (point-in-time, excluding anything
-   dated on/after that game), then score against `game_projections` vs.
-   actual `games.home_score`/`away_score` with Brier score (win prob) and
-   MAE (total runs). Career-split rows have no per-game date and would leak
-   future data into a "past" reconstruction, so they're excluded from this.
-2. **Player-props signal check** -- same point-in-time discipline, checking
-   whether HOT/COLD, the BABIP-luck caveat, and the matchup-edge flag
-   actually correlate with better output, or are noise dressed up nicely.
+`backtest.py` reconstructs what `game_model.py` would have projected
+*before* each past game (point-in-time: only data dated strictly before
+that game's date, so nothing leaks from the future), then scores it
+against what actually happened.
 
-Results (once run) will live in `output/backtest/`.
+```
+python pull/backtest.py --start 2026-03-25 --end 2026-07-23
+```
+
+Result on the 2026 season to date (1540+ completed games): **Brier score
+~0.247, versus ~0.248-0.251 for a naive "always guess the ~54% long-run
+home-win rate" baseline.** The model is roughly on par with that trivial
+baseline, not meaningfully beating it -- an honest result, not a spun one.
+Total-runs MAE is ~3.7 runs.
+
+`calibrate.py` went a step further and tried Platt scaling (a fitted
+logistic recalibration of the win probability, `sigmoid(A*logit(p)+B)`,
+trained on an 80% chronological split and evaluated on the held-out 20%
+it never saw). **Result: it doesn't help.** The fitted slope came out
+close to flat (A ≈ 0.12), meaning there isn't enough real signal in the
+raw probability for a recalibration to exploit -- consistent with the
+Brier-score finding above. Calibration is only applied (writing
+`output/calibration.json`, which `simulate_games.py` would then read) if
+it actually beats the raw probability on the held-out set; right now it
+doesn't, so raw probabilities are used as-is.
+
+`backtest_props.py` does the same point-in-time check for the player-prop
+signals: does HOT/COLD, the BABIP-luck caveat, or the matchup-edge flag
+actually predict what happens in the very next game? Result, on ~5,000
+player-games: essentially no single-game predictive power on their own
+(HOT .235 AVG vs. COLD .249 AVG vs. NEUTRAL .252 AVG -- barely different,
+and not in the "obvious" direction). This matches the sabermetric
+literature's well-known finding that short hot/cold streaks are mostly
+noise -- confirmed here, not just cited.
+
+None of this is hidden because it isn't flattering -- it's the actual
+point of backtesting. See the module docstrings in `backtest.py`,
+`backtest_props.py`, and `calibrate.py` for the full methodology.
