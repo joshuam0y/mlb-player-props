@@ -27,6 +27,12 @@ Poisson -- real MLB team runs/game are overdispersed (variance > mean), and
 the overdispersion parameter is fit from this season's actual results
 rather than assumed, so it's at least internally honest even though the
 model overall is coarse.
+
+Every rate function takes an `as_of_date` (YYYY-MM-DD). Pass None for the
+live/forward case (today's real games, uses all data available now); pass
+a past date for backtest.py to reconstruct what was knowable *before* that
+date, so a backtest never leaks the game's own outcome (or later games)
+into its own projection.
 """
 
 import math
@@ -40,9 +46,17 @@ PARK_MULTIPLIER = {"hitter": 1.05, "neutral": 1.0, "pitcher": 0.95}
 FATIGUE_ADJUSTMENT_CAP = 0.15  # max +/-15% swing to bullpen rate from recent workload
 
 
-def league_run_distribution(conn):
+def _date_filter(column, as_of_date):
+    """Returns (sql_fragment, params) -- empty fragment/params when as_of_date is None (live mode)."""
+    if as_of_date is None:
+        return "", ()
+    return f" AND {column} < ?", (as_of_date,)
+
+
+def league_run_distribution(conn, as_of_date=None):
+    frag, params = _date_filter("official_date", as_of_date)
     scores = []
-    for r in conn.execute("SELECT home_score, away_score FROM games WHERE home_score IS NOT NULL"):
+    for r in conn.execute(f"SELECT home_score, away_score FROM games WHERE home_score IS NOT NULL{frag}", params):
         scores.append(r["home_score"])
         scores.append(r["away_score"])
     if len(scores) < 20:
@@ -53,28 +67,61 @@ def league_run_distribution(conn):
     return {"league_avg": mean, "variance": var, "dispersion_r": dispersion_r}
 
 
-def team_season_run_rates(conn, team_id):
+def _run_rate(pairs):
+    """pairs: list of (row, scored_key, allowed_key)."""
+    n = len(pairs)
+    if n == 0:
+        return None
+    scored = sum(r[sk] for r, sk, ak in pairs)
+    allowed = sum(r[ak] for r, sk, ak in pairs)
+    return {"games": n, "runs_scored_avg": scored / n, "runs_allowed_avg": allowed / n}
+
+
+def team_season_run_rates(conn, team_id, as_of_date=None, context=None, min_context_games=10):
+    """
+    context=None: blended home+away rate (used as fallback).
+    context="home"/"away": rate from that team's games in that context only --
+    real MLB home-field advantage (~54% win rate league-wide, not modeled
+    anywhere else) lives entirely in this split; blending it away was the
+    single biggest gap in the first version of this model. Falls back to
+    the blended rate if there aren't yet `min_context_games` in that context
+    (early season / a new team).
+    """
+    frag, params = _date_filter("official_date", as_of_date)
     home_rows = conn.execute(
-        "SELECT home_score, away_score FROM games WHERE home_team_id = ? AND home_score IS NOT NULL", (team_id,)
+        f"SELECT home_score, away_score FROM games WHERE home_team_id = ? AND home_score IS NOT NULL{frag}",
+        (team_id, *params),
     ).fetchall()
     away_rows = conn.execute(
-        "SELECT home_score, away_score FROM games WHERE away_team_id = ? AND home_score IS NOT NULL", (team_id,)
+        f"SELECT home_score, away_score FROM games WHERE away_team_id = ? AND home_score IS NOT NULL{frag}",
+        (team_id, *params),
     ).fetchall()
-    games = len(home_rows) + len(away_rows)
-    if games == 0:
-        return None
-    scored = sum(r["home_score"] for r in home_rows) + sum(r["away_score"] for r in away_rows)
-    allowed = sum(r["away_score"] for r in home_rows) + sum(r["home_score"] for r in away_rows)
-    return {"games": games, "runs_scored_avg": scored / games, "runs_allowed_avg": allowed / games}
+
+    blended = _run_rate(
+        [(r, "home_score", "away_score") for r in home_rows] + [(r, "away_score", "home_score") for r in away_rows]
+    )
+    if blended is None or context is None:
+        return blended
+
+    if context == "home":
+        specific = _run_rate([(r, "home_score", "away_score") for r in home_rows])
+    else:
+        specific = _run_rate([(r, "away_score", "home_score") for r in away_rows])
+
+    if specific is None or specific["games"] < min_context_games:
+        return blended
+    return specific
 
 
-def starter_run_rate(conn, pitcher_id):
+def starter_run_rate(conn, pitcher_id, as_of_date=None):
     """Season ERA-as-runs-per-9 for the probable starter, used as a per-game run-rate proxy."""
     if not pitcher_id:
         return None
+    frag, params = _date_filter("date", as_of_date)
     row = conn.execute(
-        "SELECT SUM(outs) as outs, SUM(earned_runs) as er FROM pitching_game_logs WHERE player_id = ? AND season != ?",
-        (pitcher_id, CAREER_SEASON),
+        f"SELECT SUM(outs) as outs, SUM(earned_runs) as er FROM pitching_game_logs "
+        f"WHERE player_id = ? AND season != ?{frag}",
+        (pitcher_id, CAREER_SEASON, *params),
     ).fetchone()
     if not row or not row["outs"]:
         return None
@@ -84,17 +131,18 @@ def starter_run_rate(conn, pitcher_id):
     return row["er"] * 9 / innings
 
 
-def team_bullpen_rate(conn, team_id):
+def team_bullpen_rate(conn, team_id, as_of_date=None):
     """
     Season ERA-as-runs-per-9 across this team's *relief* appearances only
     (games_started = 0) -- an actual bullpen-quality signal from data this
     project already collects, rather than folding relievers into the team's
     blended runs-allowed average the way the starter-only version did.
     """
+    frag, params = _date_filter("date", as_of_date)
     row = conn.execute(
-        "SELECT SUM(outs) as outs, SUM(earned_runs) as er FROM pitching_game_logs "
-        "WHERE team_id = ? AND games_started = 0 AND season != ?",
-        (team_id, CAREER_SEASON),
+        f"SELECT SUM(outs) as outs, SUM(earned_runs) as er FROM pitching_game_logs "
+        f"WHERE team_id = ? AND games_started = 0 AND season != ?{frag}",
+        (team_id, CAREER_SEASON, *params),
     ).fetchone()
     if not row or not row["outs"]:
         return None
@@ -104,26 +152,28 @@ def team_bullpen_rate(conn, team_id):
     return row["er"] * 9 / innings
 
 
-def team_bullpen_fatigue(conn, team_id, recent_days=2):
+def team_bullpen_fatigue(conn, team_id, as_of_date=None, recent_days=2):
     """
-    Relief innings thrown in the last `recent_days` days vs. this team's own
-    season-average relief innings/day. >1 means the pen has been worked
-    harder than its own normal lately (fatigued/less available); <1 means
-    comparatively fresh. Returns None if there's not enough relief-appearance
-    data yet (e.g. games_started backfill hasn't reached this team).
+    Relief innings thrown in the `recent_days` before as_of_date (or before
+    now, in live mode) vs. this team's own season-average relief innings/day
+    up to that same point. >1 means the pen was worked harder than its own
+    normal lately (fatigued/less available); <1 means comparatively fresh.
     """
-    recent_cutoff = (datetime.now(timezone.utc) - timedelta(days=recent_days)).strftime("%Y-%m-%d")
+    reference = datetime.strptime(as_of_date, "%Y-%m-%d") if as_of_date else datetime.now(timezone.utc)
+    recent_cutoff = (reference - timedelta(days=recent_days)).strftime("%Y-%m-%d")
+    upper_frag, upper_params = _date_filter("date", as_of_date)
+
     recent_row = conn.execute(
-        "SELECT SUM(outs) as outs FROM pitching_game_logs "
-        "WHERE team_id = ? AND games_started = 0 AND date >= ? AND season != ?",
-        (team_id, recent_cutoff, CAREER_SEASON),
+        f"SELECT SUM(outs) as outs FROM pitching_game_logs "
+        f"WHERE team_id = ? AND games_started = 0 AND date >= ? AND season != ?{upper_frag}",
+        (team_id, recent_cutoff, CAREER_SEASON, *upper_params),
     ).fetchone()
     recent_innings = (recent_row["outs"] or 0) / 3
 
     season_row = conn.execute(
-        "SELECT SUM(outs) as outs, MIN(date) as first_date, MAX(date) as last_date FROM pitching_game_logs "
-        "WHERE team_id = ? AND games_started = 0 AND season != ?",
-        (team_id, CAREER_SEASON),
+        f"SELECT SUM(outs) as outs, MIN(date) as first_date, MAX(date) as last_date FROM pitching_game_logs "
+        f"WHERE team_id = ? AND games_started = 0 AND season != ?{upper_frag}",
+        (team_id, CAREER_SEASON, *upper_params),
     ).fetchone()
     if not season_row or not season_row["outs"] or not season_row["first_date"]:
         return None
@@ -156,14 +206,14 @@ def combined_defense_index(starter_rate, bullpen_rate, team_def_idx_fallback, av
     return team_def_idx_fallback
 
 
-def project_matchup(conn, home_team_id, away_team_id, home_pitcher_id, away_pitcher_id, park_tier):
-    league = league_run_distribution(conn)
+def project_matchup(conn, home_team_id, away_team_id, home_pitcher_id, away_pitcher_id, park_tier, as_of_date=None):
+    league = league_run_distribution(conn, as_of_date)
     if league is None:
         return None
     avg = league["league_avg"]
 
-    home_rates = team_season_run_rates(conn, home_team_id)
-    away_rates = team_season_run_rates(conn, away_team_id)
+    home_rates = team_season_run_rates(conn, home_team_id, as_of_date, context="home")
+    away_rates = team_season_run_rates(conn, away_team_id, as_of_date, context="away")
     if not home_rates or not away_rates:
         return None
 
@@ -172,12 +222,12 @@ def project_matchup(conn, home_team_id, away_team_id, home_pitcher_id, away_pitc
     home_def_idx_fallback = home_rates["runs_allowed_avg"] / avg
     away_def_idx_fallback = away_rates["runs_allowed_avg"] / avg
 
-    away_starter = starter_run_rate(conn, away_pitcher_id)
-    home_starter = starter_run_rate(conn, home_pitcher_id)
-    away_bullpen_fatigue = team_bullpen_fatigue(conn, away_team_id)
-    home_bullpen_fatigue = team_bullpen_fatigue(conn, home_team_id)
-    away_bullpen = fatigue_adjusted_rate(team_bullpen_rate(conn, away_team_id), away_bullpen_fatigue)
-    home_bullpen = fatigue_adjusted_rate(team_bullpen_rate(conn, home_team_id), home_bullpen_fatigue)
+    away_starter = starter_run_rate(conn, away_pitcher_id, as_of_date)
+    home_starter = starter_run_rate(conn, home_pitcher_id, as_of_date)
+    away_bullpen_fatigue = team_bullpen_fatigue(conn, away_team_id, as_of_date)
+    home_bullpen_fatigue = team_bullpen_fatigue(conn, home_team_id, as_of_date)
+    away_bullpen = fatigue_adjusted_rate(team_bullpen_rate(conn, away_team_id, as_of_date), away_bullpen_fatigue)
+    home_bullpen = fatigue_adjusted_rate(team_bullpen_rate(conn, home_team_id, as_of_date), home_bullpen_fatigue)
 
     away_def_idx = combined_defense_index(away_starter, away_bullpen, away_def_idx_fallback, avg)
     home_def_idx = combined_defense_index(home_starter, home_bullpen, home_def_idx_fallback, avg)
