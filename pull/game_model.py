@@ -340,11 +340,10 @@ def simulate(projection, n_trials=20000, spread_line=1.5, total_line=None, seed=
     """
     rng = random.Random(seed)
     home_exp, away_exp, r = projection["home_exp_runs"], projection["away_exp_runs"], projection["dispersion_r"]
-    total_line = total_line if total_line is not None else _round_to_half(home_exp + away_exp)
 
     home_wins = 0.0
     cover = 0
-    over = 0
+    totals = []
     for _ in range(n_trials):
         h = _sample_neg_binomial(home_exp, r, rng)
         a = _sample_neg_binomial(away_exp, r, rng)
@@ -354,8 +353,22 @@ def simulate(projection, n_trials=20000, spread_line=1.5, total_line=None, seed=
             home_wins += 0.5  # MLB games don't end in ties; extra-inning edge treated as a coin flip
         if (h - a) > spread_line:
             cover += 1
-        if (h + a) > total_line:
-            over += 1
+        totals.append(h + a)
+
+    if total_line is None:
+        # The line has to be the simulated distribution's MEDIAN (rounded to
+        # .5), not home_exp + away_exp (the mean) -- MLB run totals are
+        # right-skewed (a long tail of high-scoring games pulls the mean
+        # above the median), so a mean-based line is *always* modestly
+        # harder to clear than a coin flip. Anchoring on the mean instead of
+        # the median was silently forcing "lean UNDER" on nearly every
+        # single game regardless of the two teams involved, which isn't a
+        # real signal -- just an artifact of comparing actual outcomes
+        # against a line that was never a fair 50/50 split to begin with.
+        totals_sorted = sorted(totals)
+        median_total = totals_sorted[len(totals_sorted) // 2]
+        total_line = _round_to_half(median_total)
+    over = sum(1 for t in totals if t > total_line)
 
     home_win_prob = round(home_wins / n_trials, 3)
     spread_cover_prob = round(cover / n_trials, 3)
