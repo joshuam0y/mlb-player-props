@@ -28,9 +28,11 @@ import json
 import os
 from datetime import datetime, timedelta, timezone
 
+import api
 from db import CAREER_SEASON, get_conn, init_db
 from game_model import team_bullpen_fatigue
 from render_dashboard import render_html
+from sync_teams_and_roster import upsert_player_bio
 
 CURRENT_SEASON = datetime.now(timezone.utc).year
 OUT_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "output")
@@ -548,10 +550,30 @@ def matchup_edge(conn, bat_side, pitcher_hand, opp_pitcher_id):
     }
 
 
-def build_batter_entry(conn, player_id, opp_hand, opp_pitcher_id, is_home_game, batting_order=None):
+def _ensure_player(conn, player_id, team_id):
+    """
+    A player can show up in an officially CONFIRMED lineup before our own
+    roster sync has caught up to a recent trade/call-up (sync_teams_and_
+    roster.py's "active" roster type runs hourly; the transaction can land
+    in between) -- rather than silently dropping a real, lineup-confirmed
+    batter, fetch just their bio on demand and upsert them so a confirmed
+    lineup shown here is always complete instead of missing whoever's newest.
+    """
+    person = api.get_person(player_id)
+    if not person:
+        return None
+    position_code = (person.get("primaryPosition") or {}).get("code")
+    upsert_player_bio(conn, person, team_id, position_code)
+    conn.commit()
+    return conn.execute("SELECT * FROM players WHERE player_id = ?", (player_id,)).fetchone()
+
+
+def build_batter_entry(conn, player_id, opp_hand, opp_pitcher_id, is_home_game, team_id, batting_order=None):
     player = conn.execute("SELECT * FROM players WHERE player_id = ?", (player_id,)).fetchone()
     if not player:
-        return None
+        player = _ensure_player(conn, player_id, team_id)
+        if not player:
+            return None
     l7 = batting_rolling(conn, player_id, 7)
     l15 = batting_rolling(conn, player_id, 15)
     season = batting_rolling(conn, player_id, 162)
@@ -594,12 +616,14 @@ def build_batter_entry(conn, player_id, opp_hand, opp_pitcher_id, is_home_game, 
     }
 
 
-def build_pitcher_entry(conn, player_id, is_home_game=None):
+def build_pitcher_entry(conn, player_id, team_id, is_home_game=None):
     if not player_id:
         return None
     player = conn.execute("SELECT * FROM players WHERE player_id = ?", (player_id,)).fetchone()
     if not player:
-        return None
+        player = _ensure_player(conn, player_id, team_id)
+        if not player:
+            return None
     l5 = pitching_rolling(conn, player_id, 5)
     season = pitching_rolling(conn, player_id, 162)
     form_trend_value = pitcher_form_trend(l5, season)
@@ -663,13 +687,13 @@ def build_team_side(conn, game, side):
     if confirmed:
         lineup_confirmed = True
         batters = [
-            build_batter_entry(conn, r["player_id"], opp_hand, opp_pitcher_id, is_home_game, r["batting_order"])
+            build_batter_entry(conn, r["player_id"], opp_hand, opp_pitcher_id, is_home_game, team_id, r["batting_order"])
             for r in confirmed
         ]
     else:
         lineup_confirmed = False
         batters = [
-            build_batter_entry(conn, pid, opp_hand, opp_pitcher_id, is_home_game)
+            build_batter_entry(conn, pid, opp_hand, opp_pitcher_id, is_home_game, team_id)
             for pid in likely_starters(conn, team_id)
         ]
 
@@ -678,7 +702,7 @@ def build_team_side(conn, game, side):
         "team_id": team_id,
         "team_name": team["name"] if team else None,
         "lineup_confirmed": lineup_confirmed,
-        "probable_pitcher": build_pitcher_entry(conn, game[f"{side}_probable_pitcher_id"], is_home_game),
+        "probable_pitcher": build_pitcher_entry(conn, game[f"{side}_probable_pitcher_id"], team_id, is_home_game),
         # bullpen fatigue is about who these batters face in relief innings,
         # so it's the *opponent's* pen -- unrelated to (and doesn't touch)
         # the platoon/vs-hand matchup logic on the starter above.

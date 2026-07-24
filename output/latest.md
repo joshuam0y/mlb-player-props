@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-07-24T19:17:11.628675+00:00_
+_Generated 2026-07-24T19:26:19.230481+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -62,6 +62,7 @@ Model likes: **Milwaukee Brewers** to win (69%) | Run line: **Milwaukee Brewers*
 - #6 Luis Lara (S) [MATCHUP EDGE: pitcher hits 0.278 avg-against vs this hand] -- L7: 3H 0HR 0RBI 4TB (0.214 avg) -- home split: 0.182 avg
 - #7 Jake Bauers (L) [MATCHUP EDGE: pitcher hits 0.278 avg-against vs this hand] -- L7: 2H 0HR 0RBI 2TB (0.095 avg) -- home split: 0.226 avg
 - #8 Joey Ortiz (R) [3-game hit streak] -- L7: 8H 2HR 6RBI 17TB (0.381 avg) -- home split: 0.265 avg
+- #9 David Hamilton (L) [MATCHUP EDGE: pitcher hits 0.278 avg-against vs this hand] -- L7: no data
 
 ## 2026-07-24 - Chicago Cubs @ Pittsburgh Pirates (Scheduled)
 _PNC Park_

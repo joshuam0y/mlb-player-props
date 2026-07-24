@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-24T19:17:11.628675+00:00",
+  "generated_at": "2026-07-24T19:26:19.230481+00:00",
   "range": [
     "2026-07-24",
     "2026-07-26"
@@ -3605,6 +3605,42 @@
               "delta": 22
             },
             "best_prop_direction": "over"
+          },
+          {
+            "player_id": 666152,
+            "name": "David Hamilton",
+            "bat_side": "L",
+            "batting_order": 9,
+            "injury": null,
+            "l7": null,
+            "l15": null,
+            "season": null,
+            "trend": null,
+            "trend_caveat": null,
+            "hit_streak": 0,
+            "splits_vs_opp_hand": {
+              "vs_hand": "vr",
+              "season": null,
+              "career": null
+            },
+            "matchup": {
+              "platoon": "opposite-hand",
+              "pitcher_avg_against": 0.278,
+              "pitcher_era_vs_hand": null,
+              "favorable": true,
+              "unfavorable": false
+            },
+            "home_away": {
+              "this_game": "home",
+              "home": null,
+              "away": null
+            },
+            "headlines": [],
+            "prop_categories": [],
+            "best_over": null,
+            "best_under": null,
+            "best_prop": null,
+            "best_prop_direction": null
           }
         ],
         "injuries": [
@@ -3942,7 +3978,8 @@
               "Brice Turang",
               "Garrett Mitchell",
               "Luis Lara",
-              "Jake Bauers"
+              "Jake Bauers",
+              "David Hamilton"
             ]
           }
         },
