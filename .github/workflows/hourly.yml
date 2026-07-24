@@ -60,6 +60,9 @@ jobs:
       - name: Sync injuries & news
         run: python pull/sync_news.py
 
+      - name: Sync game results (final scores)
+        run: python pull/sync_results.py
+
       - name: Build props report + dashboard
         run: python pull/build_props.py
 
