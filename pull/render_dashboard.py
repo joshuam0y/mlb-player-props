@@ -238,6 +238,10 @@ STYLE = """
   .picks-heading { font-size: 15px; font-weight: 700; }
   .picks-count { font-size: 12px; color: var(--text-muted); margin-left: auto; }
   .picks-subheading { font-size: 12px; color: var(--text-muted); padding: 0 16px; margin-top: 10px; }
+  .pick-group-label {
+    font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.04em;
+    color: var(--text-muted); padding: 12px 16px 0;
+  }
   .picks-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 10px; padding: 10px 16px 16px; }
   .pick-card {
     background: var(--surface-2); border: 1px solid var(--border); border-radius: 10px;
@@ -866,18 +870,37 @@ def _pick_card_html(pick, rank, direction):
     """
 
 
-def _picks_section_html(heading, subheading, picks, direction):
+def _pick_group_html(group_label, picks, direction):
     if not picks:
         return ""
     cards = "".join(_pick_card_html(p, i, direction) for i, p in enumerate(picks, 1))
     return f"""
+    <div class="pick-group-label">{html.escape(group_label)}</div>
+    <div class="picks-grid">{cards}</div>
+    """
+
+
+def _picks_section_html(heading, subheading, picks, direction):
+    """
+    `picks` is {"batters": [...], "pitchers": [...]} -- rendered as two
+    separately-numbered rankings (each its own #1, #2, ...) rather than one
+    merged 1-N list. Batter and pitcher scores aren't on a comparable point
+    scale, so sorting them together would silently rank every pitcher below
+    every batter regardless of actual confidence -- looking like "pitchers
+    are always the worst picks" when it's really just a scale mismatch.
+    """
+    if not picks or not (picks.get("batters") or picks.get("pitchers")):
+        return ""
+    total = len(picks.get("batters") or []) + len(picks.get("pitchers") or [])
+    return f"""
     <details class="picks-section">
       <summary class="picks-summary">
         <span class="picks-heading">{html.escape(heading)}</span>
-        <span class="picks-count">{len(picks)} picks</span>
+        <span class="picks-count">{total} picks</span>
       </summary>
       <div class="picks-subheading">{html.escape(subheading)}</div>
-      <div class="picks-grid">{cards}</div>
+      {_pick_group_html("Batters", picks.get("batters"), direction)}
+      {_pick_group_html("Pitchers", picks.get("pitchers"), direction)}
     </details>
     """
 

@@ -140,7 +140,6 @@ PITCHER_PROP_CATEGORIES = [
 ]
 
 RECENT_WEIGHT = 0.4  # how much of the projected line comes from recent form vs. full-season rate
-MIN_PROJECTION_LINE = 0.5  # never project a zero/negative line -- 0.5 ("will it happen at all") is the natural floor
 
 
 def round_to_half(x):
@@ -200,7 +199,14 @@ def category_baselines(recent_rolling, season_avgs, stats):
             avg = season_avg
         else:
             avg = RECENT_WEIGHT * recent_avg + (1 - RECENT_WEIGHT) * season_avg
-        avg = max(avg, MIN_PROJECTION_LINE)
+        # No floor here: round_to_half() already naturally maps any average
+        # in [0, 1.0) to a 0.5 line on its own (round_to_half(0) == 0.5), so
+        # a floor was never needed for the LINE -- but it WAS silently
+        # inflating `avg` itself for genuinely cold hitters (e.g. a real
+        # 0.08 hits/game average was getting bumped to 0.5 before the
+        # matchup-adjusted "today" projection used it), which is exactly
+        # backwards: a truly cold bat should show a truly low projection,
+        # not get rounded up to a coin flip.
         out[stat] = (avg, round_to_half(avg))
     return out
 
@@ -851,14 +857,18 @@ def build_top_picks(report_games, batter_limit=8, pitcher_limit=4):
     the day -- but they're scored slightly lower and clearly labeled,
     since "projected" is a real guess.
 
-    Pitchers get their own reserved slots (batter_limit/pitcher_limit are
-    applied separately, then merged and re-sorted by score) rather than
-    competing head-to-head with every batter's score -- otherwise pitcher
-    entries could get crowded out entirely by batters, which is exactly the
-    "why don't I see any pitchers here" gap this was built to fix. "Over" for
-    a pitcher means the strikeout prop; "under" means runs/hits allowed --
-    i.e. both lists stay true to their heading ("bet the over" / "bet the
-    under"), not "good pitcher / bad pitcher".
+    Batters and pitchers are scored on two different, NOT directly
+    comparable point scales (a batter's score can run up to ~5.0 stacking
+    hot-streak + matchup + hit-streak bonuses; a pitcher's tops out around
+    3.5-4.0) -- merging both into one score-sorted list would silently put
+    every pitcher below every batter regardless of actual confidence, which
+    looks like "pitchers are always the worst picks" when it's really just
+    a scale mismatch. So each role is ranked separately and returned as its
+    own sub-list; the caller renders them as two clearly-labeled rankings
+    (batters #1-N, pitchers #1-N) instead of one misleadingly-precise #1-12.
+    "Over" for a pitcher means the strikeout prop; "under" means runs/hits
+    allowed -- i.e. both lists stay true to their heading ("bet the over" /
+    "bet the under"), not "good pitcher / bad pitcher".
     """
     batter_overs, batter_unders = [], []
     pitcher_overs, pitcher_unders = [], []
@@ -914,8 +924,8 @@ def build_top_picks(report_games, batter_limit=8, pitcher_limit=4):
     pitcher_overs.sort(key=lambda c: c["score"], reverse=True)
     pitcher_unders.sort(key=lambda c: c["score"], reverse=True)
 
-    overs = sorted(batter_overs[:batter_limit] + pitcher_overs[:pitcher_limit], key=lambda c: c["score"], reverse=True)
-    unders = sorted(batter_unders[:batter_limit] + pitcher_unders[:pitcher_limit], key=lambda c: c["score"], reverse=True)
+    overs = {"batters": batter_overs[:batter_limit], "pitchers": pitcher_overs[:pitcher_limit]}
+    unders = {"batters": batter_unders[:batter_limit], "pitchers": pitcher_unders[:pitcher_limit]}
     return overs, unders
 
 
@@ -977,18 +987,30 @@ def build_report(conn, days_ahead=2):
     }
 
 
-def _render_picks_section(lines, heading, picks):
+def _render_pick_list(lines, subheading, picks):
     if not picks:
         return
-    lines.append(f"## {heading}")
+    lines.append(f"### {subheading}")
     for pick in picks:
         cat_txt = ""
         if pick["best_category"]:
             c = pick["best_category"]
             cat_txt = f" -- try {c['label']}: {c['pct']}% over {c['line']} recently (vs. {c['n']}-game sample)"
-        role_tag = "[P] " if pick.get("role") == "pitcher" else ""
-        lines.append(f"- {role_tag}**{pick['name']}** ({pick['team']} vs {pick['opponent']}): {', '.join(pick['reasons'])}{cat_txt}")
+        lines.append(f"- **{pick['name']}** ({pick['team']} vs {pick['opponent']}): {', '.join(pick['reasons'])}{cat_txt}")
     lines.append("")
+
+
+def _render_picks_section(lines, heading, picks):
+    """
+    `picks` is {"batters": [...], "pitchers": [...]} -- rendered as two
+    separately-ranked lists rather than one merged list, since batter and
+    pitcher scores aren't on a comparable scale (see build_top_picks).
+    """
+    if not picks or not (picks.get("batters") or picks.get("pitchers")):
+        return
+    lines.append(f"## {heading}")
+    _render_pick_list(lines, "Batters", picks.get("batters"))
+    _render_pick_list(lines, "Pitchers", picks.get("pitchers"))
 
 
 def render_markdown(report):

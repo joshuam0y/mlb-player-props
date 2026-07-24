@@ -1,7 +1,8 @@
 # MLB Player Props Context Report
-_Generated 2026-07-24T18:34:54.379022+00:00_
+_Generated 2026-07-24T18:50:16.719905+00:00_
 
 ## Today's Top Overs
+### Batters
 - **Nolan Arenado** (Arizona Diamondbacks vs Washington Nationals): real hot streak (not just lucky bloops), favorable matchup vs. tonight's pitcher, 6-game hit streak -- try RBIs: 70% over 0.5 recently (vs. 10-game sample)
 - **Nick Gonzales** (Pittsburgh Pirates vs Chicago Cubs): real hot streak (not just lucky bloops), favorable matchup vs. tonight's pitcher, 8-game hit streak -- try Hits: 50% over 1.5 recently (vs. 10-game sample)
 - **Yordan Alvarez** (Houston Astros vs Chicago White Sox): real hot streak (not just lucky bloops), favorable matchup vs. tonight's pitcher, 9-game hit streak -- try Hits: 70% over 1.5 recently (vs. 10-game sample)
@@ -10,12 +11,15 @@ _Generated 2026-07-24T18:34:54.379022+00:00_
 - **Tommy Edman** (Los Angeles Dodgers vs New York Mets): real hot streak (not just lucky bloops), favorable matchup vs. tonight's pitcher -- try Total Bases: 60% over 1.5 recently (vs. 10-game sample)
 - **Jeff McNeil** (Athletics vs Minnesota Twins): real hot streak (not just lucky bloops), favorable matchup vs. tonight's pitcher -- try RBIs: 40% over 0.5 recently (vs. 10-game sample)
 - **Curtis Mead** (Washington Nationals vs Arizona Diamondbacks): real hot streak (not just lucky bloops), favorable matchup vs. tonight's pitcher -- try Total Bases: 50% over 2.5 recently (vs. 10-game sample)
-- [P] **Jared Jones** (Pittsburgh Pirates vs Chicago Cubs): pitching well above his season norm over his last few starts, 5 hitters in tonight's lineup are in a tough matchup against him -- try Strikeouts: 60% over 5.5 recently (vs. 5-game sample)
-- [P] **Jesús Luzardo** (Philadelphia Phillies vs New York Yankees): pitching well above his season norm over his last few starts, 6 hitters in tonight's lineup are in a tough matchup against him -- try Strikeouts: 60% over 7.5 recently (vs. 5-game sample)
-- [P] **Eury Pérez** (Miami Marlins vs San Diego Padres): pitching well above his season norm over his last few starts, 5 hitters in tonight's lineup are in a tough matchup against him -- try Strikeouts: 60% over 6.5 recently (vs. 5-game sample)
-- [P] **Trevor Rogers** (Baltimore Orioles vs Atlanta Braves): pitching well above his season norm over his last few starts, 5 hitters in tonight's lineup are in a tough matchup against him -- try Strikeouts: 60% over 4.5 recently (vs. 5-game sample)
+
+### Pitchers
+- **Jared Jones** (Pittsburgh Pirates vs Chicago Cubs): pitching well above his season norm over his last few starts, 5 hitters in tonight's lineup are in a tough matchup against him -- try Strikeouts: 60% over 5.5 recently (vs. 5-game sample)
+- **Jesús Luzardo** (Philadelphia Phillies vs New York Yankees): pitching well above his season norm over his last few starts, 6 hitters in tonight's lineup are in a tough matchup against him -- try Strikeouts: 60% over 7.5 recently (vs. 5-game sample)
+- **Eury Pérez** (Miami Marlins vs San Diego Padres): pitching well above his season norm over his last few starts, 5 hitters in tonight's lineup are in a tough matchup against him -- try Strikeouts: 60% over 6.5 recently (vs. 5-game sample)
+- **Trevor Rogers** (Baltimore Orioles vs Atlanta Braves): pitching well above his season norm over his last few starts, 5 hitters in tonight's lineup are in a tough matchup against him -- try Strikeouts: 60% over 4.5 recently (vs. 5-game sample)
 
 ## Today's Top Unders
+### Batters
 - **Ryan O'Hearn** (Pittsburgh Pirates vs Chicago Cubs): cold recent stretch (well below season average), tough matchup vs. tonight's pitcher -- try Hits: 20% over 0.5 recently (vs. 10-game sample)
 - **Trent Grisham** (New York Yankees vs Philadelphia Phillies): cold recent stretch (well below season average), tough matchup vs. tonight's pitcher -- try Runs Scored: 40% over 0.5 recently (vs. 10-game sample)
 - **Romy Gonzalez** (Boston Red Sox vs Toronto Blue Jays): cold recent stretch (well below season average), tough matchup vs. tonight's pitcher -- try Hits: 40% over 0.5 recently (vs. 10-game sample)
@@ -24,10 +28,12 @@ _Generated 2026-07-24T18:34:54.379022+00:00_
 - **Jorge Soler** (Los Angeles Angels vs San Francisco Giants): cold recent stretch (well below season average), tough matchup vs. tonight's pitcher -- try Home Runs: 0% over 0.5 recently (vs. 10-game sample)
 - **Kyle Stowers** (Miami Marlins vs San Diego Padres): cold recent stretch (well below season average), tough matchup vs. tonight's pitcher -- try Runs Scored: 0% over 0.5 recently (vs. 10-game sample)
 - **Jakob Marsee** (Miami Marlins vs San Diego Padres): cold recent stretch (well below season average), tough matchup vs. tonight's pitcher -- try Runs Scored: 20% over 0.5 recently (vs. 10-game sample)
-- [P] **Jared Jones** (Pittsburgh Pirates vs Chicago Cubs): allowing fewer runs than usual over his last few starts, 5 hitters in tonight's lineup are in a tough matchup against him -- try Runs Allowed: 20% over 1.5 recently (vs. 5-game sample)
-- [P] **Jesús Luzardo** (Philadelphia Phillies vs New York Yankees): allowing fewer runs than usual over his last few starts, 6 hitters in tonight's lineup are in a tough matchup against him -- try Runs Allowed: 0% over 1.5 recently (vs. 5-game sample)
-- [P] **Eury Pérez** (Miami Marlins vs San Diego Padres): allowing fewer runs than usual over his last few starts, 5 hitters in tonight's lineup are in a tough matchup against him -- try Runs Allowed: 20% over 1.5 recently (vs. 5-game sample)
-- [P] **Trevor Rogers** (Baltimore Orioles vs Atlanta Braves): allowing fewer runs than usual over his last few starts, 5 hitters in tonight's lineup are in a tough matchup against him -- try Runs Allowed: 0% over 1.5 recently (vs. 5-game sample)
+
+### Pitchers
+- **Jared Jones** (Pittsburgh Pirates vs Chicago Cubs): allowing fewer runs than usual over his last few starts, 5 hitters in tonight's lineup are in a tough matchup against him -- try Runs Allowed: 20% over 1.5 recently (vs. 5-game sample)
+- **Jesús Luzardo** (Philadelphia Phillies vs New York Yankees): allowing fewer runs than usual over his last few starts, 6 hitters in tonight's lineup are in a tough matchup against him -- try Runs Allowed: 0% over 1.5 recently (vs. 5-game sample)
+- **Eury Pérez** (Miami Marlins vs San Diego Padres): allowing fewer runs than usual over his last few starts, 5 hitters in tonight's lineup are in a tough matchup against him -- try Runs Allowed: 20% over 1.5 recently (vs. 5-game sample)
+- **Trevor Rogers** (Baltimore Orioles vs Atlanta Braves): allowing fewer runs than usual over his last few starts, 5 hitters in tonight's lineup are in a tough matchup against him -- try Runs Allowed: 0% over 1.5 recently (vs. 5-game sample)
 
 ## 2026-07-24 - Colorado Rockies @ Milwaukee Brewers (Scheduled)
 _American Family Field_
