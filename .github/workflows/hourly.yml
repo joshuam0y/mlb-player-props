@@ -55,7 +55,7 @@ jobs:
         run: python pull/sync_lineups.py
 
       - name: Sync stats (game logs + splits)
-        run: python pull/sync_stats.py
+        run: python pull/sync_stats.py --time-budget-seconds 1800
 
       - name: Sync injuries & news
         run: python pull/sync_news.py

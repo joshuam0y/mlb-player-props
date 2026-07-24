@@ -14,6 +14,8 @@ since seasons are immutable once the season has ended.
 """
 
 import argparse
+import random
+import time
 from datetime import datetime, timezone
 
 import api
@@ -200,7 +202,7 @@ def sync_player(conn, row):
     return total_new_rows
 
 
-def run(player_ids=None, only_active=True):
+def run(player_ids=None, only_active=True, time_budget_seconds=None):
     init_db()
     conn = get_conn()
 
@@ -214,10 +216,19 @@ def run(player_ids=None, only_active=True):
         params.extend(player_ids)
     if conditions:
         query += " WHERE " + " AND ".join(conditions)
-    players = conn.execute(query, params).fetchall()
+    players = list(conn.execute(query, params).fetchall())
 
+    # Shuffled so a time-budget cutoff doesn't always starve the same tail of
+    # players -- progress rotates across different players run to run instead
+    # of always stalling on whoever sorts last.
+    random.shuffle(players)
+
+    start = time.monotonic()
     print(f"Syncing stats for {len(players)} players...")
     for i, row in enumerate(players, 1):
+        if time_budget_seconds is not None and time.monotonic() - start > time_budget_seconds:
+            print(f"Time budget ({time_budget_seconds}s) reached after {i - 1}/{len(players)} players -- stopping early, resumable next run.")
+            break
         n = sync_player(conn, row)
         print(f"  [{i}/{len(players)}] {row['full_name']}: {n} game-log rows synced")
 
@@ -227,5 +238,9 @@ def run(player_ids=None, only_active=True):
 if __name__ == "__main__":
     p = argparse.ArgumentParser()
     p.add_argument("--player-id", type=int, action="append", help="Limit to specific player id(s)")
+    p.add_argument(
+        "--time-budget-seconds", type=int, default=None,
+        help="Stop (resumably) after this many seconds, so a scheduled job always leaves time for the rest of the pipeline",
+    )
     args = p.parse_args()
-    run(player_ids=args.player_id)
+    run(player_ids=args.player_id, time_budget_seconds=args.time_budget_seconds)
