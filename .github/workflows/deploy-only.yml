@@ -1,0 +1,28 @@
+name: Deploy dashboard (no sync)
+
+# Redeploys whatever's already committed in output/ to Pages, without
+# running the full sync pipeline -- for when you just want the live site
+# to catch up to the repo immediately (e.g. the hourly job is mid-run or
+# stuck) rather than waiting for the next full hourly cycle.
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  pages: write
+  id-token: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: output
+      - id: deployment
+        uses: actions/deploy-pages@v4
