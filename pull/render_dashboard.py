@@ -162,6 +162,16 @@ STYLE = """
 
   .teams { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 8px; }
   @media (max-width: 720px) { .teams { grid-template-columns: 1fr; } }
+  .headline-mobile-only { display: none; }
+  @media (max-width: 480px) {
+    /* On a narrow phone screen, a 5-column batter table squeezes "Recent
+       form" into a nearly-unreadable ribbon of wrapped text. News (most
+       players show no headline at all) gives up the least by disappearing
+       here -- a matched headline still shows up inside the expanded row
+       instead (.headline-mobile-only), just not in the collapsed table. */
+    .col-news { display: none; }
+    .headline-mobile-only { display: block; margin-bottom: 8px; }
+  }
   .team-col { border-top: 1px solid var(--gridline); padding-top: 10px; }
   .team-title { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; font-weight: 600; font-size: 14px; margin-bottom: 8px; }
   .badge {
@@ -506,9 +516,12 @@ def _category_projection_html(cat):
     return f'Projected line: <b>{line}</b> &middot; Today: <span class="prop-lean-{lean}">{today} (lean {lean.upper()})</span>'
 
 
-def _prop_categories_html(categories, row_id):
+def _prop_categories_html(categories, row_id, headline_html=""):
     if not categories:
-        return f'<tr id="{row_id}" class="prop-detail" style="display:none"><td colspan="5" class="sub">No recent-game data yet.</td></tr>'
+        return (
+            f'<tr id="{row_id}" class="prop-detail" style="display:none">'
+            f'<td colspan="5">{headline_html}<span class="sub">No recent-game data yet.</span></td></tr>'
+        )
     cats_html = []
     for cat in categories:
         values = cat.get("values") or []
@@ -538,7 +551,10 @@ def _prop_categories_html(categories, row_id):
           <div class="prop-avg">Avg {cat["average"]}/game recently &middot; dashed line = this player's own projected line &middot; hover a bar for the exact game</div>
         </div>
         """)
-    return f'<tr id="{row_id}" class="prop-detail" style="display:none"><td colspan="5"><div class="prop-grid">{"".join(cats_html)}</div></td></tr>'
+    return (
+        f'<tr id="{row_id}" class="prop-detail" style="display:none">'
+        f'<td colspan="5">{headline_html}<div class="prop-grid">{"".join(cats_html)}</div></td></tr>'
+    )
 
 
 def _pitcher_html(p, row_id, fatigue):
@@ -560,6 +576,12 @@ def _pitcher_html(p, row_id, fatigue):
     fatigue_text = _fatigue_text(fatigue)
     if fatigue_text:
         bullets.append(fatigue_text)
+    if p.get("headlines"):
+        h = p["headlines"][0]
+        bullets.append(
+            f'<a class="headline-link" href="{html.escape(h["link"])}" target="_blank" rel="noopener" '
+            f'onclick="event.stopPropagation()">{html.escape(h["title"][:60])}</a>'
+        )
     bullets_html = "".join(f"<li>{b}</li>" for b in bullets)
 
     return f"""
@@ -610,9 +632,14 @@ def _batter_rows(batters, id_prefix):
             f'<span class="sub">({html.escape(b["bat_side"] or "?")} handed batter)</span></td>'
             f"<td>{badges}</td>"
             f'<td>{html.escape(l7_txt)}<div class="sub">{season_txt}</div>{_best_prop_html(b)}</td>'
-            f"<td>{headline}</td></tr>"
+            f'<td class="col-news">{headline}</td></tr>'
         )
-        rows.append(_prop_categories_html(b.get("prop_categories"), row_id))
+        # The News column is hidden on narrow screens (see .col-news media
+        # query) -- .headline-mobile-only is the opposite (hidden except on
+        # narrow screens), so a matched headline is still reachable there
+        # instead of just disappearing along with the column.
+        headline_detail = f'<div class="headline-mobile-only">{headline}</div>' if headline else ""
+        rows.append(_prop_categories_html(b.get("prop_categories"), row_id, headline_html=headline_detail))
     return "\n".join(rows)
 
 
@@ -627,7 +654,7 @@ def _team_col_html(side, id_prefix):
       </div>
       <div class="batter-block">
         <table>
-          <thead><tr><th>Order</th><th>Batter</th><th>Flags</th><th>Recent form</th><th>News</th></tr></thead>
+          <thead><tr><th>Order</th><th>Batter</th><th>Flags</th><th>Recent form</th><th class="col-news">News</th></tr></thead>
           <tbody>{_batter_rows(side["batters"], f"{id_prefix}-b")}</tbody>
         </table>
       </div>
