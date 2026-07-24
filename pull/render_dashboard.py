@@ -944,6 +944,16 @@ def render_html(report):
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- This page regenerates every 15 min; without these, browsers (and some
+     intermediate caches) can hold onto a stale copy well past that, which
+     looks exactly like "the site isn't updating" even when it is. GitHub
+     Pages' own CDN edge cache is a separate layer this can't reach -- a
+     fresh deploy can still take several minutes to propagate there -- so
+     if this page looks stale, check the "Generated" timestamp below the
+     title before assuming something's broken. -->
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
 <title>MLB Player Props Dashboard</title>
 {STYLE}
 </head>
