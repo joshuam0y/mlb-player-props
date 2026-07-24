@@ -203,6 +203,24 @@ def sync_player(conn, row):
     return total_new_rows
 
 
+def teams_active_since(conn, cutoff_date):
+    rows = conn.execute(
+        "SELECT DISTINCT home_team_id as team_id FROM games WHERE official_date >= ? "
+        "UNION SELECT DISTINCT away_team_id as team_id FROM games WHERE official_date >= ?",
+        (cutoff_date, cutoff_date),
+    ).fetchall()
+    return {r["team_id"] for r in rows}
+
+
+def players_with_current_season_data(conn):
+    rows = conn.execute(
+        "SELECT DISTINCT player_id FROM batting_game_logs WHERE season = ? "
+        "UNION SELECT DISTINCT player_id FROM pitching_game_logs WHERE season = ?",
+        (CURRENT_SEASON, CURRENT_SEASON),
+    ).fetchall()
+    return {r["player_id"] for r in rows}
+
+
 def run(player_ids=None, only_active=True, time_budget_seconds=None):
     init_db()
     conn = get_conn()
@@ -218,6 +236,22 @@ def run(player_ids=None, only_active=True, time_budget_seconds=None):
     if conditions:
         query += " WHERE " + " AND ".join(conditions)
     players = list(conn.execute(query, params).fetchall())
+
+    # A player's current-season stats can't have changed since the last sync
+    # unless their team has actually played -- re-fetching all ~776 active
+    # players every single hour regardless is pure waste once each has been
+    # bootstrapped at least once. Skipped only when explicit --player-id was
+    # NOT given (a manual single-player run should always process it).
+    if not player_ids:
+        cutoff = (datetime.now(timezone.utc) - timedelta(days=1)).strftime("%Y-%m-%d")
+        active_teams = teams_active_since(conn, cutoff)
+        bootstrapped = players_with_current_season_data(conn)
+        before = len(players)
+        players = [
+            p for p in players
+            if p["player_id"] not in bootstrapped or p["current_team_id"] in active_teams
+        ]
+        print(f"Skipping {before - len(players)} players whose team hasn't played in the last day.")
 
     # Shuffled so a time-budget cutoff doesn't always starve the same tail of
     # players -- progress rotates across different players run to run instead

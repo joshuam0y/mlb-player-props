@@ -39,7 +39,7 @@ import math
 import random
 from datetime import date, datetime, timedelta, timezone
 
-from db import CAREER_SEASON
+CURRENT_SEASON = datetime.now(timezone.utc).year
 
 STARTER_WEIGHT = 0.6  # fraction of "defense" attributed to the probable starter vs. team-wide rate
 PARK_MULTIPLIER = {"hitter": 1.05, "neutral": 1.0, "pitcher": 0.95}
@@ -114,14 +114,21 @@ def team_season_run_rates(conn, team_id, as_of_date=None, context=None, min_cont
 
 
 def starter_run_rate(conn, pitcher_id, as_of_date=None):
-    """Season ERA-as-runs-per-9 for the probable starter, used as a per-game run-rate proxy."""
+    """
+    This-season ERA-as-runs-per-9 for the probable starter, used as a
+    per-game run-rate proxy. Filters season = CURRENT_SEASON explicitly --
+    game logs never use the CAREER_SEASON(0) sentinel (that's only a
+    splits-table convention), so a prior `season != CAREER_SEASON` filter
+    here was a no-op that silently blended in the pitcher's entire career
+    back to their debut instead of just this year.
+    """
     if not pitcher_id:
         return None
     frag, params = _date_filter("date", as_of_date)
     row = conn.execute(
         f"SELECT SUM(outs) as outs, SUM(earned_runs) as er FROM pitching_game_logs "
-        f"WHERE player_id = ? AND season != ?{frag}",
-        (pitcher_id, CAREER_SEASON, *params),
+        f"WHERE player_id = ? AND season = ?{frag}",
+        (pitcher_id, CURRENT_SEASON, *params),
     ).fetchone()
     if not row or not row["outs"]:
         return None
@@ -141,8 +148,8 @@ def team_bullpen_rate(conn, team_id, as_of_date=None):
     frag, params = _date_filter("date", as_of_date)
     row = conn.execute(
         f"SELECT SUM(outs) as outs, SUM(earned_runs) as er FROM pitching_game_logs "
-        f"WHERE team_id = ? AND games_started = 0 AND season != ?{frag}",
-        (team_id, CAREER_SEASON, *params),
+        f"WHERE team_id = ? AND games_started = 0 AND season = ?{frag}",
+        (team_id, CURRENT_SEASON, *params),
     ).fetchone()
     if not row or not row["outs"]:
         return None
@@ -165,15 +172,15 @@ def team_bullpen_fatigue(conn, team_id, as_of_date=None, recent_days=2):
 
     recent_row = conn.execute(
         f"SELECT SUM(outs) as outs FROM pitching_game_logs "
-        f"WHERE team_id = ? AND games_started = 0 AND date >= ? AND season != ?{upper_frag}",
-        (team_id, recent_cutoff, CAREER_SEASON, *upper_params),
+        f"WHERE team_id = ? AND games_started = 0 AND date >= ? AND season = ?{upper_frag}",
+        (team_id, recent_cutoff, CURRENT_SEASON, *upper_params),
     ).fetchone()
     recent_innings = (recent_row["outs"] or 0) / 3
 
     season_row = conn.execute(
         f"SELECT SUM(outs) as outs, MIN(date) as first_date, MAX(date) as last_date FROM pitching_game_logs "
-        f"WHERE team_id = ? AND games_started = 0 AND season != ?{upper_frag}",
-        (team_id, CAREER_SEASON, *upper_params),
+        f"WHERE team_id = ? AND games_started = 0 AND season = ?{upper_frag}",
+        (team_id, CURRENT_SEASON, *upper_params),
     ).fetchone()
     if not season_row or not season_row["outs"] or not season_row["first_date"]:
         return None
