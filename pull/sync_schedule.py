@@ -17,6 +17,15 @@ from datetime import datetime, timedelta, timezone
 import api
 from db import get_conn, init_db
 
+# home.get("score")/away.get("score") come back as 0 (not None/absent) from
+# the moment a game's linescore object exists -- which MLB's API populates
+# well before first pitch, not just once the game is actually over. Treating
+# any numeric score as "the final score" (as the rest of this codebase does
+# via `home_score IS NOT NULL`) would show a false "Final: 0-0" for a game
+# that hasn't started yet. Only a truly finished game's score should ever
+# make it into home_score/away_score.
+FINAL_STATUSES = {"Final", "Game Over", "Completed Early"}
+
 
 def sync_range(conn, start, end):
     dates = api.get_schedule(start, end)
@@ -28,19 +37,21 @@ def sync_range(conn, start, end):
                 continue
             home = game["teams"]["home"]
             away = game["teams"]["away"]
+            status = (game.get("status") or {}).get("detailedState")
+            is_final = status in FINAL_STATUSES
             rows.append(
                 (
                     game["gamePk"],
                     game["officialDate"],
                     game["gameDate"],
-                    (game.get("status") or {}).get("detailedState"),
+                    status,
                     home["team"]["id"],
                     away["team"]["id"],
                     (home.get("probablePitcher") or {}).get("id"),
                     (away.get("probablePitcher") or {}).get("id"),
                     (game.get("venue") or {}).get("name"),
-                    home.get("score"),
-                    away.get("score"),
+                    home.get("score") if is_final else None,
+                    away.get("score") if is_final else None,
                 )
             )
 

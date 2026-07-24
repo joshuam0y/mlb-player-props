@@ -66,7 +66,7 @@ jobs:
         continue-on-error: true
 
       - name: Sync stats (game logs + splits)
-        run: python pull/sync_stats.py --time-budget-seconds 1800
+        run: python pull/sync_stats.py --time-budget-seconds 2400
         continue-on-error: true
 
       - name: Sync injuries & news
@@ -88,12 +88,35 @@ jobs:
         run: python pull/verify_data.py --limit 300
         continue-on-error: true
 
-      - name: Save database cache
-        if: always()
+      # if: always() would also fire on a CANCELLED run (e.g. a manual
+      # cancel to avoid a stale-code race) -- saving whatever partial,
+      # barely-populated DB existed at that exact instant and permanently
+      # poisoning the cache for every future run (this is exactly what
+      # happened once already). !cancelled() still covers both success and
+      # failure (so a broken sync step doesn't lose whatever data DID
+      # sync), just not an externally-cancelled run. The size check below
+      # is a second, independent line of defense against ever saving a
+      # corrupted/near-empty DB, explicitly gating the save step itself
+      # rather than relying on cache-key-exists behavior to save us.
+      - name: Check DB size before saving cache
+        id: db_size_check
+        if: ${{ !cancelled() }}
         run: |
-          gh cache delete mlb-db-v1 --repo "${{ github.repository }}" || true
+          size=$(stat -c%s mlb_props.db)
+          min_size=5000000
+          if [ "$size" -lt "$min_size" ]; then
+            echo "::warning::mlb_props.db is only $size bytes (< $min_size) -- refusing to overwrite the cache with what looks like a corrupted/empty database."
+            echo "safe=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "safe=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Delete stale cache entry
+        if: ${{ !cancelled() && steps.db_size_check.outputs.safe == 'true' }}
+        run: gh cache delete mlb-db-v1 --repo "${{ github.repository }}" || true
+
       - uses: actions/cache/save@v4
-        if: always()
+        if: ${{ !cancelled() && steps.db_size_check.outputs.safe == 'true' }}
         with:
           path: mlb_props.db
           key: mlb-db-v1
