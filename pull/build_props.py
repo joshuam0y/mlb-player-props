@@ -68,10 +68,13 @@ def park_factor_tier(venue_name):
     return PARK_FACTORS.get(venue_name, "neutral")
 
 
-def batting_rolling(conn, player_id, n):
+def batting_rolling(conn, player_id, n, as_of_date=None):
+    """as_of_date, if given, restricts to games strictly before it -- for point-in-time backtesting."""
+    date_frag = " AND date < ?" if as_of_date else ""
+    params = (player_id, as_of_date, n) if as_of_date else (player_id, n)
     rows = conn.execute(
-        "SELECT * FROM batting_game_logs WHERE player_id = ? ORDER BY date DESC LIMIT ?",
-        (player_id, n),
+        f"SELECT * FROM batting_game_logs WHERE player_id = ?{date_frag} ORDER BY date DESC LIMIT ?",
+        params,
     ).fetchall()
     if not rows:
         return None
@@ -110,6 +113,66 @@ def hit_streak(conn, player_id, lookback=40):
         else:
             break
     return streak
+
+
+# Standard FanDuel/Sleeper-style prop categories with common alt-lines.
+# We don't pull real sportsbook lines (see README), so instead of guessing
+# a single "the line is X" number, we show the plain hit-rate at each of
+# these common thresholds over the player's actual recent games -- e.g.
+# "went over 1.5 total bases in 8 of the last 10 games" -- so it can be
+# compared directly against whatever number the sportsbook app shows.
+# (column, plain-English label, common alt-lines to check the hit-rate at)
+BATTER_PROP_CATEGORIES = [
+    ("hits", "Hits", [0.5, 1.5]),
+    ("total_bases", "Total Bases", [1.5, 2.5]),
+    ("home_runs", "Home Runs", [0.5]),
+    ("rbi", "RBIs", [0.5, 1.5]),
+    ("runs", "Runs Scored", [0.5, 1.5]),
+    ("base_on_balls", "Walks", [0.5]),
+]
+PITCHER_PROP_CATEGORIES = [
+    ("strike_outs", "Strikeouts", [4.5, 5.5, 6.5]),
+    ("earned_runs", "Runs Allowed", [1.5, 2.5]),
+    ("hits", "Hits Allowed", [4.5]),
+    ("base_on_balls", "Walks Allowed", [1.5]),
+]
+
+
+def _prop_categories(rows, categories):
+    if not rows:
+        return []
+    rows = list(reversed(rows))  # oldest -> newest, so a game-log bar chart reads left to right
+    out = []
+    for stat, label, lines in categories:
+        values = [r[stat] or 0 for r in rows]
+        n = len(values)
+        out.append({
+            "label": label,
+            "values": values,
+            "average": round(sum(values) / n, 2),
+            "hit_rates": [
+                {"line": line, "pct": round(sum(1 for v in values if v > line) / n * 100), "n": n} for line in lines
+            ],
+        })
+    return out
+
+
+def batter_prop_categories(conn, player_id, n=10):
+    cols = [c for c, _, _ in BATTER_PROP_CATEGORIES]
+    rows = conn.execute(
+        f"SELECT {', '.join(cols)} FROM batting_game_logs WHERE player_id = ? ORDER BY date DESC LIMIT ?",
+        (player_id, n),
+    ).fetchall()
+    return _prop_categories(rows, BATTER_PROP_CATEGORIES)
+
+
+def pitcher_prop_categories(conn, player_id, n=5):
+    cols = [c for c, _, _ in PITCHER_PROP_CATEGORIES]
+    rows = conn.execute(
+        f"SELECT {', '.join(cols)} FROM pitching_game_logs WHERE player_id = ? ORDER BY date DESC LIMIT ?",
+        (player_id, n),
+    ).fetchall()
+    return _prop_categories(rows, PITCHER_PROP_CATEGORIES)
 
 
 def pitching_rolling(conn, player_id, n):
@@ -335,6 +398,7 @@ def build_batter_entry(conn, player_id, opp_hand, opp_pitcher_id, is_home_game, 
             "away": home_away_split(conn, "batting_game_logs", player_id, False),
         },
         "headlines": recent_headlines(conn, player_id),
+        "prop_categories": batter_prop_categories(conn, player_id),
     }
 
 
@@ -359,6 +423,7 @@ def build_pitcher_entry(conn, player_id, is_home_game=None):
         "splits_vs_lhb": hand_splits(conn, "pitching_splits", player_id, "L"),
         "splits_vs_rhb": hand_splits(conn, "pitching_splits", player_id, "R"),
         "headlines": recent_headlines(conn, player_id),
+        "prop_categories": pitcher_prop_categories(conn, player_id),
     }
 
 
@@ -408,6 +473,92 @@ def build_team_side(conn, game, side):
     }
 
 
+def batter_pick_score(b):
+    """
+    A composite score across signals we've actually validated to different
+    degrees, weighted accordingly -- our own backtest showed HOT/COLD alone
+    barely predicts anything, so it counts for little; matchup edge and a
+    real (non-luck) hot streak count for more. Injured players are excluded
+    entirely by the caller, not scored down, since "don't bet on someone
+    who might not play" isn't a matter of degree.
+    """
+    score = 0.0
+    reasons = []
+    if b["trend"] == "hot":
+        if b.get("trend_caveat") == "babip_driven":
+            score += 0.5
+        else:
+            score += 2.0
+            reasons.append("real hot streak (not just lucky bloops)")
+    elif b["trend"] == "cold":
+        score -= 1.5
+    if b.get("matchup") and b["matchup"].get("favorable"):
+        score += 2.0
+        reasons.append("favorable matchup vs. tonight's pitcher")
+    streak = b.get("hit_streak") or 0
+    if streak >= 5:
+        score += 1.0
+        reasons.append(f"{streak}-game hit streak")
+    elif streak >= 3:
+        score += 0.5
+    return score, reasons
+
+
+def best_prop_category(categories, min_games=8):
+    """The category with the strongest recent hit-rate at its first (lowest) line, if the sample's big enough."""
+    candidates = [c for c in (categories or []) if c["hit_rates"] and c["hit_rates"][0]["n"] >= min_games]
+    if not candidates:
+        return None
+    return max(candidates, key=lambda c: c["hit_rates"][0]["pct"])
+
+
+def build_top_picks(report_games, limit=12):
+    """
+    Cross-game leaderboard: the best individual player picks across the
+    *entire* day/date range, not buried inside each game's card. Excludes
+    injured players (can't bet on someone who might not play at all).
+    Unconfirmed-lineup players are still included -- lineups usually don't
+    post until 1-3 hours before game time, so requiring CONFIRMED here
+    would leave this section empty most of the day -- but they're scored
+    slightly lower and clearly labeled, since "projected" is a real guess.
+    """
+    candidates = []
+    for g in report_games:
+        for side_key in ("home", "away"):
+            side = g[side_key]
+            opp_side = g["away"] if side_key == "home" else g["home"]
+            for b in side["batters"]:
+                if b["injury"]:
+                    continue
+                score, reasons = batter_pick_score(b)
+                if not side["lineup_confirmed"]:
+                    score -= 0.5
+                if score <= 0 or not reasons:
+                    continue
+                best_cat = best_prop_category(b.get("prop_categories"))
+                candidates.append({
+                    "player_id": b["player_id"],
+                    "name": b["name"],
+                    "team": side["team_name"],
+                    "opponent": opp_side["team_name"],
+                    "date": g["date"],
+                    "score": score,
+                    "reasons": reasons,
+                    "best_category": best_cat,
+                    "lineup_confirmed": side["lineup_confirmed"],
+                })
+    candidates.sort(key=lambda c: c["score"], reverse=True)
+    return candidates[:limit]
+
+
+def latest_projection(conn, game_pk):
+    """Most recent game_projections snapshot for this game, if simulate_games.py has run."""
+    row = conn.execute(
+        "SELECT * FROM game_projections WHERE game_pk = ? ORDER BY generated_at DESC LIMIT 1", (game_pk,)
+    ).fetchone()
+    return dict(row) if row else None
+
+
 def build_report(conn, days_ahead=2):
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     end = (datetime.now(timezone.utc) + timedelta(days=days_ahead)).strftime("%Y-%m-%d")
@@ -426,20 +577,45 @@ def build_report(conn, days_ahead=2):
                 "status": game["status"],
                 "venue": game["venue_name"],
                 "park_factor": park_factor_tier(game["venue_name"]),
+                "home_score": game["home_score"],
+                "away_score": game["away_score"],
+                "projection": latest_projection(conn, game["game_pk"]),
                 "home": build_team_side(conn, game, "home"),
                 "away": build_team_side(conn, game, "away"),
             }
         )
 
-    return {"generated_at": datetime.now(timezone.utc).isoformat(), "range": [today, end], "games": report_games}
+    return {
+        "generated_at": datetime.now(timezone.utc).isoformat(),
+        "range": [today, end],
+        "games": report_games,
+        "top_picks": build_top_picks(report_games),
+    }
 
 
 def render_markdown(report):
     lines = [f"# MLB Player Props Context Report", f"_Generated {report['generated_at']}_", ""]
+    if report.get("top_picks"):
+        lines.append("## Today's Best Picks")
+        for pick in report["top_picks"]:
+            cat_txt = ""
+            if pick["best_category"]:
+                c = pick["best_category"]
+                cat_txt = f" -- try {c['label']}: {c['hit_rates'][0]['pct']}% over {c['hit_rates'][0]['line']} recently"
+            lines.append(f"- **{pick['name']}** ({pick['team']} vs {pick['opponent']}): {', '.join(pick['reasons'])}{cat_txt}")
+        lines.append("")
     for g in report["games"]:
         lines.append(f"## {g['date']} - {g['away']['team_name']} @ {g['home']['team_name']} ({g['status']})")
         park_note = f" [{g['park_factor']}-friendly park]" if g["park_factor"] != "neutral" else ""
         lines.append(f"_{g['venue']}{park_note}_")
+        if g["home_score"] is not None:
+            lines.append(f"Final: {g['away']['team_name']} {g['away_score']} - {g['home']['team_name']} {g['home_score']}")
+        elif g["projection"]:
+            p = g["projection"]
+            lines.append(
+                f"Projected: {g['away']['team_name']} {p['away_exp_runs']} - {g['home']['team_name']} {p['home_exp_runs']} "
+                f"(home win {p['home_win_prob']:.0%}, total {p['total_line']} runs, over {p['over_prob']:.0%})"
+            )
         lines.append("")
         for side_key in ("away", "home"):
             side = g[side_key]

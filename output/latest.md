@@ -1,8 +1,23 @@
 # MLB Player Props Context Report
-_Generated 2026-07-24T16:40:11.264465+00:00_
+_Generated 2026-07-24T16:56:57.098667+00:00_
+
+## Today's Best Picks
+- **Nick Gonzales** (Pittsburgh Pirates vs Chicago Cubs): real hot streak (not just lucky bloops), favorable matchup vs. tonight's pitcher, 8-game hit streak -- try Hits: 80% over 0.5 recently
+- **Nolan Arenado** (Arizona Diamondbacks vs Washington Nationals): real hot streak (not just lucky bloops), favorable matchup vs. tonight's pitcher, 6-game hit streak -- try Hits: 80% over 0.5 recently
+- **Yordan Alvarez** (Houston Astros vs Chicago White Sox): real hot streak (not just lucky bloops), favorable matchup vs. tonight's pitcher, 9-game hit streak -- try Hits: 90% over 0.5 recently
+- **Joey Ortiz** (Milwaukee Brewers vs Colorado Rockies): real hot streak (not just lucky bloops), favorable matchup vs. tonight's pitcher -- try Hits: 60% over 0.5 recently
+- **Billy Cook** (Pittsburgh Pirates vs Chicago Cubs): real hot streak (not just lucky bloops), favorable matchup vs. tonight's pitcher -- try Hits: 20% over 0.5 recently
+- **Tommy Edman** (Los Angeles Dodgers vs New York Mets): real hot streak (not just lucky bloops), favorable matchup vs. tonight's pitcher -- try Hits: 90% over 0.5 recently
+- **Jeff McNeil** (Athletics vs Minnesota Twins): real hot streak (not just lucky bloops), favorable matchup vs. tonight's pitcher -- try Hits: 50% over 0.5 recently
+- **Curtis Mead** (Washington Nationals vs Arizona Diamondbacks): real hot streak (not just lucky bloops), favorable matchup vs. tonight's pitcher -- try Hits: 70% over 0.5 recently
+- **Austin Riley** (Atlanta Braves vs Baltimore Orioles): real hot streak (not just lucky bloops), favorable matchup vs. tonight's pitcher -- try Hits: 70% over 0.5 recently
+- **Tommy Edman** (Los Angeles Dodgers vs New York Mets): real hot streak (not just lucky bloops), favorable matchup vs. tonight's pitcher -- try Hits: 90% over 0.5 recently
+- **Jared Triolo** (Pittsburgh Pirates vs Chicago Cubs): favorable matchup vs. tonight's pitcher, 6-game hit streak -- try Hits: 60% over 0.5 recently
+- **Michael Busch** (Chicago Cubs vs Pittsburgh Pirates): real hot streak (not just lucky bloops), 8-game hit streak -- try Hits: 90% over 0.5 recently
 
 ## 2026-07-24 - Colorado Rockies @ Milwaukee Brewers (Scheduled)
 _American Family Field_
+Projected: Colorado Rockies 3.39 - Milwaukee Brewers 4.77 (home win 62%, total 8.0 runs, over 41%)
 
 ### Colorado Rockies lineup -- PROJECTED (unconfirmed)
 **Probable P: Tomoyuki Sugano (R)** -- L5: 27.3 IP, 15 K, 20 ER, 6.59 ERA
@@ -30,6 +45,7 @@ _American Family Field_
 
 ## 2026-07-24 - Chicago Cubs @ Pittsburgh Pirates (Scheduled)
 _PNC Park_
+Projected: Chicago Cubs 4.28 - Pittsburgh Pirates 4.95 (home win 55%, total 9.0 runs, over 43%)
 
 ### Chicago Cubs lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 6.7 relief IP in last 2 days (ratio 1.67)_
@@ -58,6 +74,7 @@ _Facing a taxed bullpen: 6.7 relief IP in last 2 days (ratio 1.67)_
 
 ## 2026-07-24 - Kansas City Royals @ Detroit Tigers (Scheduled)
 _Comerica Park [pitcher-friendly park]_
+Projected: Kansas City Royals 2.6 - Detroit Tigers 3.7 (home win 62%, total 6.0 runs, over 42%)
 
 ### Kansas City Royals lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 7.7 relief IP in last 2 days (ratio 1.85)_
@@ -86,6 +103,7 @@ _Facing a taxed bullpen: 7.7 relief IP in last 2 days (ratio 1.85)_
 
 ## 2026-07-24 - Arizona Diamondbacks @ Washington Nationals (Scheduled)
 _Nationals Park_
+Projected: Arizona Diamondbacks 6.81 - Washington Nationals 4.14 (home win 32%, total 11.0 runs, over 40%)
 
 ### Arizona Diamondbacks lineup -- PROJECTED (unconfirmed)
 **Probable P: Eduardo Rodriguez (L)** -- L5: 28.3 IP, 17 K, 10 ER, 3.18 ERA
@@ -114,6 +132,7 @@ _Facing a taxed bullpen: 6.0 relief IP in last 2 days (ratio 1.22)_
 
 ## 2026-07-24 - New York Yankees @ Philadelphia Phillies (Scheduled)
 _Citizens Bank Park [hitter-friendly park]_
+Projected: New York Yankees 3.2 - Philadelphia Phillies 2.46 (home win 42%, total 6.0 runs, over 35%)
 
 ### New York Yankees lineup -- PROJECTED (unconfirmed)
 **Probable P: Cam Schlittler (R)** -- L5: 28.0 IP, 36 K, 12 ER, 3.86 ERA
@@ -142,6 +161,7 @@ _Facing a taxed bullpen: 6.3 relief IP in last 2 days (ratio 1.21)_
 
 ## 2026-07-24 - Atlanta Braves @ Baltimore Orioles (Scheduled)
 _Oriole Park at Camden Yards_
+Projected: Atlanta Braves 5.19 - Baltimore Orioles 4.28 (home win 42%, total 9.0 runs, over 45%)
 
 ### Atlanta Braves lineup -- PROJECTED (unconfirmed)
 **Probable P: Grant Holmes (R)** -- L5: 23.7 IP, 17 K, 5 ER, 1.9 ERA
@@ -169,6 +189,7 @@ _Facing a taxed bullpen: 8.0 relief IP in last 2 days (ratio 1.89)_
 
 ## 2026-07-24 - Cleveland Guardians @ Tampa Bay Rays (Scheduled)
 _Tropicana Field_
+Projected: Cleveland Guardians 3.24 - Tampa Bay Rays 3.6 (home win 54%, total 7.0 runs, over 38%)
 
 ### Cleveland Guardians lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 9.0 relief IP in last 2 days (ratio 1.79)_
@@ -198,6 +219,7 @@ _Facing a taxed bullpen: 9.3 relief IP in last 2 days (ratio 2.21)_
 
 ## 2026-07-24 - Los Angeles Dodgers @ New York Mets (Scheduled)
 _Citi Field_
+Projected: Los Angeles Dodgers 4.25 - New York Mets 3.52 (home win 43%, total 8.0 runs, over 38%)
 
 ### Los Angeles Dodgers lineup -- PROJECTED (unconfirmed)
 **Probable P: Roki Sasaki (R)** -- L5: 24.3 IP, 21 K, 15 ER, 5.55 ERA
@@ -225,6 +247,7 @@ _Citi Field_
 
 ## 2026-07-24 - San Diego Padres @ Miami Marlins (Scheduled)
 _loanDepot park [pitcher-friendly park]_
+Projected: San Diego Padres 3.76 - Miami Marlins 4.28 (home win 55%, total 8.0 runs, over 41%)
 
 ### San Diego Padres lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 1.0 relief IP in last 2 days (ratio 0.2)_
@@ -253,6 +276,7 @@ _Facing a taxed bullpen: 9.0 relief IP in last 2 days (ratio 1.83)_
 
 ## 2026-07-24 - Toronto Blue Jays @ Boston Red Sox (Scheduled)
 _Fenway Park_
+Projected: Toronto Blue Jays 3.18 - Boston Red Sox 2.51 (home win 42%, total 6.0 runs, over 35%)
 
 ### Toronto Blue Jays lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 11.7 relief IP in last 2 days (ratio 2.3)_
@@ -282,6 +306,7 @@ _Facing a taxed bullpen: 9.7 relief IP in last 2 days (ratio 1.64)_
 
 ## 2026-07-24 - Houston Astros @ Chicago White Sox (Scheduled)
 _Rate Field_
+Projected: Houston Astros 3.52 - Chicago White Sox 3.91 (home win 54%, total 7.0 runs, over 44%)
 
 ### Houston Astros lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 4.0 relief IP in last 2 days (ratio 0.64)_
@@ -310,6 +335,7 @@ _Facing a rested bullpen: 4.0 relief IP in last 2 days (ratio 0.64)_
 
 ## 2026-07-24 - Seattle Mariners @ Texas Rangers (Scheduled)
 _Globe Life Field [hitter-friendly park]_
+Projected: Seattle Mariners 3.1 - Texas Rangers 3.67 (home win 56%, total 7.0 runs, over 37%)
 
 ### Seattle Mariners lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.59)_
@@ -338,6 +364,7 @@ _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.59)_
 
 ## 2026-07-24 - Athletics @ Minnesota Twins (Scheduled)
 _Target Field_
+Projected: Athletics 4.76 - Minnesota Twins 4.95 (home win 52%, total 10.0 runs, over 39%)
 
 ### Athletics lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 10.0 relief IP in last 2 days (ratio 2.96)_
@@ -367,6 +394,7 @@ _Facing a rested bullpen: 2.3 relief IP in last 2 days (ratio 0.56)_
 
 ## 2026-07-24 - Cincinnati Reds @ St. Louis Cardinals (Scheduled)
 _Busch Stadium_
+Projected: Cincinnati Reds 3.79 - St. Louis Cardinals 3.79 (home win 50%, total 8.0 runs, over 36%)
 
 ### Cincinnati Reds lineup -- PROJECTED (unconfirmed)
 **Probable P: Rhett Lowder (R)** -- L5: 14.0 IP, 13 K, 15 ER, 9.64 ERA
@@ -395,6 +423,7 @@ _Facing a rested bullpen: 2.3 relief IP in last 2 days (ratio 0.61)_
 
 ## 2026-07-24 - Los Angeles Angels @ San Francisco Giants (Scheduled)
 _Oracle Park [pitcher-friendly park]_
+Projected: Los Angeles Angels 2.9 - San Francisco Giants 3.45 (home win 56%, total 6.0 runs, over 43%)
 
 ### Los Angeles Angels lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.53)_
@@ -424,6 +453,7 @@ _Facing a rested bullpen: 3.7 relief IP in last 2 days (ratio 0.7)_
 
 ## 2026-07-25 - Kansas City Royals @ Detroit Tigers (Scheduled)
 _Comerica Park [pitcher-friendly park]_
+Projected: Kansas City Royals 3.09 - Detroit Tigers 4.09 (home win 60%, total 7.0 runs, over 41%)
 
 ### Kansas City Royals lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 7.7 relief IP in last 2 days (ratio 1.85)_
@@ -452,6 +482,7 @@ _Facing a taxed bullpen: 7.7 relief IP in last 2 days (ratio 1.85)_
 
 ## 2026-07-25 - Arizona Diamondbacks @ Washington Nationals (Scheduled)
 _Nationals Park_
+Projected: Arizona Diamondbacks 3.25 - Washington Nationals 4.87 (home win 65%, total 8.0 runs, over 41%)
 
 ### Arizona Diamondbacks lineup -- PROJECTED (unconfirmed)
 **Probable P: Mitch Bratt (L)** -- L5: 10.7 IP, 7 K, 6 ER, 5.06 ERA
@@ -480,6 +511,7 @@ _Facing a taxed bullpen: 6.0 relief IP in last 2 days (ratio 1.22)_
 
 ## 2026-07-25 - Los Angeles Angels @ San Francisco Giants (Scheduled)
 _Oracle Park [pitcher-friendly park]_
+Projected: Los Angeles Angels 3.15 - San Francisco Giants 4.38 (home win 61%, total 8.0 runs, over 36%)
 
 ### Los Angeles Angels lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.53)_
@@ -509,6 +541,7 @@ _Facing a rested bullpen: 3.7 relief IP in last 2 days (ratio 0.7)_
 
 ## 2026-07-25 - San Diego Padres @ Miami Marlins (Scheduled)
 _loanDepot park [pitcher-friendly park]_
+Projected: San Diego Padres 2.89 - Miami Marlins 4.18 (home win 63%, total 7.0 runs, over 40%)
 
 ### San Diego Padres lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 1.0 relief IP in last 2 days (ratio 0.2)_
@@ -538,6 +571,7 @@ _Facing a taxed bullpen: 9.0 relief IP in last 2 days (ratio 1.83)_
 
 ## 2026-07-25 - Toronto Blue Jays @ Boston Red Sox (Scheduled)
 _Fenway Park_
+Projected: Toronto Blue Jays 2.92 - Boston Red Sox 2.56 (home win 46%, total 5.0 runs, over 44%)
 
 ### Toronto Blue Jays lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 11.7 relief IP in last 2 days (ratio 2.3)_
@@ -567,6 +601,7 @@ _Facing a taxed bullpen: 9.7 relief IP in last 2 days (ratio 1.64)_
 
 ## 2026-07-25 - New York Yankees @ Philadelphia Phillies (Scheduled)
 _Citizens Bank Park [hitter-friendly park]_
+Projected: New York Yankees 4.91 - Philadelphia Phillies 3.86 (home win 41%, total 9.0 runs, over 39%)
 
 ### New York Yankees lineup -- PROJECTED (unconfirmed)
 **Probable P: Ryan Weathers (L)** -- L5: 21.7 IP, 26 K, 13 ER, 5.4 ERA
@@ -594,6 +629,7 @@ _Facing a taxed bullpen: 6.3 relief IP in last 2 days (ratio 1.21)_
 
 ## 2026-07-25 - Cleveland Guardians @ Tampa Bay Rays (Scheduled)
 _Tropicana Field_
+Projected: Cleveland Guardians 3.74 - Tampa Bay Rays 3.57 (home win 48%, total 7.0 runs, over 43%)
 
 ### Cleveland Guardians lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 9.0 relief IP in last 2 days (ratio 1.79)_
@@ -623,6 +659,7 @@ _Facing a taxed bullpen: 9.3 relief IP in last 2 days (ratio 2.21)_
 
 ## 2026-07-25 - Chicago Cubs @ Pittsburgh Pirates (Scheduled)
 _PNC Park_
+Projected: Chicago Cubs 3.09 - Pittsburgh Pirates 4.18 (home win 61%, total 7.0 runs, over 43%)
 
 ### Chicago Cubs lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 6.7 relief IP in last 2 days (ratio 1.67)_
@@ -651,6 +688,7 @@ _Facing a taxed bullpen: 6.7 relief IP in last 2 days (ratio 1.67)_
 
 ## 2026-07-25 - Atlanta Braves @ Baltimore Orioles (Scheduled)
 _Oriole Park at Camden Yards_
+Projected: Atlanta Braves 3.87 - Baltimore Orioles 4.7 (home win 57%, total 9.0 runs, over 37%)
 
 ### Atlanta Braves lineup -- PROJECTED (unconfirmed)
 **Probable P: Bryce Elder (R)** -- L5: 24.0 IP, 19 K, 24 ER, 9.0 ERA
@@ -679,6 +717,7 @@ _Facing a taxed bullpen: 8.0 relief IP in last 2 days (ratio 1.89)_
 
 ## 2026-07-25 - Athletics @ Minnesota Twins (Scheduled)
 _Target Field_
+Projected: Athletics 5.04 - Minnesota Twins 6.02 (home win 57%, total 11.0 runs, over 42%)
 
 ### Athletics lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 10.0 relief IP in last 2 days (ratio 2.96)_
@@ -706,6 +745,7 @@ _Facing a rested bullpen: 2.3 relief IP in last 2 days (ratio 0.56)_
 
 ## 2026-07-25 - Colorado Rockies @ Milwaukee Brewers (Scheduled)
 _American Family Field_
+Projected: Colorado Rockies 3.91 - Milwaukee Brewers 5.14 (home win 60%, total 9.0 runs, over 41%)
 
 ### Colorado Rockies lineup -- PROJECTED (unconfirmed)
 **Probable P: Ryan Feltner (R)** -- L5: 24.7 IP, 17 K, 17 ER, 6.2 ERA
@@ -733,6 +773,7 @@ _American Family Field_
 
 ## 2026-07-25 - Houston Astros @ Chicago White Sox (Scheduled)
 _Rate Field_
+Projected: Houston Astros 3.26 - Chicago White Sox 3.24 (home win 50%, total 6.0 runs, over 44%)
 
 ### Houston Astros lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 4.0 relief IP in last 2 days (ratio 0.64)_
@@ -761,6 +802,7 @@ _Facing a rested bullpen: 4.0 relief IP in last 2 days (ratio 0.64)_
 
 ## 2026-07-25 - Seattle Mariners @ Texas Rangers (Scheduled)
 _Globe Life Field [hitter-friendly park]_
+Projected: Seattle Mariners 2.88 - Texas Rangers 3.46 (home win 56%, total 6.0 runs, over 42%)
 
 ### Seattle Mariners lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.59)_
@@ -789,6 +831,7 @@ _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.59)_
 
 ## 2026-07-25 - Cincinnati Reds @ St. Louis Cardinals (Scheduled)
 _Busch Stadium_
+Projected: Cincinnati Reds 3.9 - St. Louis Cardinals 3.4 (home win 45%, total 7.0 runs, over 42%)
 
 ### Cincinnati Reds lineup -- PROJECTED (unconfirmed)
 **Probable P: Hunter Greene (R)** -- L5: 31.3 IP, 42 K, 13 ER, 3.73 ERA
@@ -817,6 +860,7 @@ _Facing a rested bullpen: 2.3 relief IP in last 2 days (ratio 0.61)_
 
 ## 2026-07-25 - Los Angeles Dodgers @ New York Mets (Scheduled)
 _Citi Field_
+Projected: Los Angeles Dodgers 3.45 - New York Mets 2.37 (home win 38%, total 6.0 runs, over 36%)
 
 ### Los Angeles Dodgers lineup -- PROJECTED (unconfirmed)
 **Probable P: Yoshinobu Yamamoto (R)** -- L5: 34.0 IP, 33 K, 13 ER, 3.44 ERA
@@ -844,6 +888,7 @@ _Citi Field_
 
 ## 2026-07-26 - Cleveland Guardians @ Tampa Bay Rays (Scheduled)
 _Tropicana Field_
+Projected: Cleveland Guardians 3.19 - Tampa Bay Rays 2.99 (home win 48%, total 6.0 runs, over 41%)
 
 ### Cleveland Guardians lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 9.0 relief IP in last 2 days (ratio 1.79)_
@@ -873,6 +918,7 @@ _Facing a taxed bullpen: 9.3 relief IP in last 2 days (ratio 2.21)_
 
 ## 2026-07-26 - Arizona Diamondbacks @ Washington Nationals (Scheduled)
 _Nationals Park_
+Projected: Arizona Diamondbacks 4.09 - Washington Nationals 5.5 (home win 61%, total 10.0 runs, over 38%)
 
 ### Arizona Diamondbacks lineup -- PROJECTED (unconfirmed)
 **Probable P: Kohl Drake (L)** -- L5: 5.0 IP, 5 K, 1 ER, 1.8 ERA
@@ -901,6 +947,7 @@ _Facing a taxed bullpen: 6.0 relief IP in last 2 days (ratio 1.22)_
 
 ## 2026-07-26 - Chicago Cubs @ Pittsburgh Pirates (Scheduled)
 _PNC Park_
+Projected: Chicago Cubs 3.85 - Pittsburgh Pirates 4.53 (home win 56%, total 8.0 runs, over 43%)
 
 ### Chicago Cubs lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 6.7 relief IP in last 2 days (ratio 1.67)_
@@ -929,6 +976,7 @@ _Facing a taxed bullpen: 6.7 relief IP in last 2 days (ratio 1.67)_
 
 ## 2026-07-26 - Toronto Blue Jays @ Boston Red Sox (Scheduled)
 _Fenway Park_
+Projected: Toronto Blue Jays 3.28 - Boston Red Sox 2.6 (home win 42%, total 6.0 runs, over 37%)
 
 ### Toronto Blue Jays lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 11.7 relief IP in last 2 days (ratio 2.3)_
@@ -957,6 +1005,7 @@ _Facing a taxed bullpen: 9.7 relief IP in last 2 days (ratio 1.64)_
 
 ## 2026-07-26 - Atlanta Braves @ Baltimore Orioles (Scheduled)
 _Oriole Park at Camden Yards_
+Projected: Atlanta Braves 4.21 - Baltimore Orioles 4.37 (home win 51%, total 9.0 runs, over 37%)
 
 ### Atlanta Braves lineup -- PROJECTED (unconfirmed)
 **Probable P: Reynaldo López (R)** -- L5: 22.3 IP, 21 K, 12 ER, 4.84 ERA
@@ -985,6 +1034,7 @@ _Facing a taxed bullpen: 8.0 relief IP in last 2 days (ratio 1.89)_
 
 ## 2026-07-26 - Los Angeles Dodgers @ New York Mets (Scheduled)
 _Citi Field_
+Projected: Los Angeles Dodgers 3.99 - New York Mets 3.3 (home win 43%, total 7.0 runs, over 43%)
 
 ### Los Angeles Dodgers lineup -- PROJECTED (unconfirmed)
 **Probable P: Emmet Sheehan (R)** -- L5: 23.3 IP, 27 K, 16 ER, 6.17 ERA
@@ -1012,6 +1062,7 @@ _Citi Field_
 
 ## 2026-07-26 - San Diego Padres @ Miami Marlins (Scheduled)
 _loanDepot park [pitcher-friendly park]_
+Projected: San Diego Padres 3.55 - Miami Marlins 3.71 (home win 52%, total 7.0 runs, over 42%)
 
 ### San Diego Padres lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 1.0 relief IP in last 2 days (ratio 0.2)_
@@ -1041,6 +1092,7 @@ _Facing a taxed bullpen: 9.0 relief IP in last 2 days (ratio 1.83)_
 
 ## 2026-07-26 - Kansas City Royals @ Detroit Tigers (Scheduled)
 _Comerica Park [pitcher-friendly park]_
+Projected: Kansas City Royals 2.82 - Detroit Tigers 4.61 (home win 67%, total 7.0 runs, over 44%)
 
 ### Kansas City Royals lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 7.7 relief IP in last 2 days (ratio 1.85)_
@@ -1068,6 +1120,7 @@ _Facing a taxed bullpen: 7.7 relief IP in last 2 days (ratio 1.85)_
 
 ## 2026-07-26 - Athletics @ Minnesota Twins (Scheduled)
 _Target Field_
+Projected: Athletics 3.57 - Minnesota Twins 4.31 (home win 57%, total 8.0 runs, over 39%)
 
 ### Athletics lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 10.0 relief IP in last 2 days (ratio 2.96)_
@@ -1097,6 +1150,7 @@ _Facing a rested bullpen: 2.3 relief IP in last 2 days (ratio 0.56)_
 
 ## 2026-07-26 - Colorado Rockies @ Milwaukee Brewers (Scheduled)
 _American Family Field_
+Projected: Colorado Rockies 3.0 - Milwaukee Brewers 4.8 (home win 66%, total 8.0 runs, over 38%)
 
 ### Colorado Rockies lineup -- PROJECTED (unconfirmed)
 **Probable P: Kyle Freeland (L)** -- L5: 28.0 IP, 26 K, 22 ER, 7.07 ERA
@@ -1124,6 +1178,7 @@ _American Family Field_
 
 ## 2026-07-26 - Houston Astros @ Chicago White Sox (Scheduled)
 _Rate Field_
+Projected: Houston Astros 4.02 - Chicago White Sox 3.24 (home win 43%, total 7.0 runs, over 42%)
 
 ### Houston Astros lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 4.0 relief IP in last 2 days (ratio 0.64)_
@@ -1152,6 +1207,7 @@ _Facing a rested bullpen: 4.0 relief IP in last 2 days (ratio 0.64)_
 
 ## 2026-07-26 - Cincinnati Reds @ St. Louis Cardinals (Scheduled)
 _Busch Stadium_
+Projected: Cincinnati Reds 3.54 - St. Louis Cardinals 3.27 (home win 47%, total 7.0 runs, over 37%)
 
 ### Cincinnati Reds lineup -- PROJECTED (unconfirmed)
 **Probable P: Andrew Abbott (L)** -- L5: 26.3 IP, 26 K, 12 ER, 4.1 ERA
@@ -1180,6 +1236,7 @@ _Facing a rested bullpen: 2.3 relief IP in last 2 days (ratio 0.61)_
 
 ## 2026-07-26 - Seattle Mariners @ Texas Rangers (Scheduled)
 _Globe Life Field [hitter-friendly park]_
+Projected: Seattle Mariners 2.17 - Texas Rangers 3.54 (home win 66%, total 6.0 runs, over 36%)
 
 ### Seattle Mariners lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.59)_
@@ -1208,6 +1265,7 @@ _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.59)_
 
 ## 2026-07-26 - Los Angeles Angels @ San Francisco Giants (Scheduled)
 _Oracle Park [pitcher-friendly park]_
+Projected: Los Angeles Angels 4.25 - San Francisco Giants 3.0 (home win 38%, total 7.0 runs, over 42%)
 
 ### Los Angeles Angels lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.53)_
@@ -1236,6 +1294,7 @@ _Facing a rested bullpen: 3.7 relief IP in last 2 days (ratio 0.7)_
 
 ## 2026-07-26 - New York Yankees @ Philadelphia Phillies (Scheduled)
 _Citizens Bank Park [hitter-friendly park]_
+Projected: New York Yankees 2.58 - Philadelphia Phillies 3.84 (home win 63%, total 6.0 runs, over 44%)
 
 ### New York Yankees lineup -- PROJECTED (unconfirmed)
 **Probable P: Will Warren (R)** -- L5: 20.7 IP, 13 K, 14 ER, 6.1 ERA
