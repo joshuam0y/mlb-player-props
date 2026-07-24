@@ -1,0 +1,81 @@
+name: Hourly sync
+
+on:
+  schedule:
+    - cron: "0 * * * *"
+  workflow_dispatch: {}
+
+concurrency:
+  group: hourly-sync
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+  actions: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 50
+    env:
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      # mlb_props.db is NOT committed to git -- it's a large, constantly-mutating
+      # binary and git can't delta-compress SQLite pages, so committing it every
+      # hour would balloon repo history by the full file size on every run.
+      # actions/cache persists it across runs instead; the delete-then-save
+      # dance keeps a single entry alive rather than accumulating one per run.
+      - name: Restore database cache
+        uses: actions/cache/restore@v4
+        with:
+          path: mlb_props.db
+          key: mlb-db-v1
+
+      - name: Sync teams & rosters
+        run: python pull/sync_teams_and_roster.py
+
+      - name: Sync schedule
+        run: python pull/sync_schedule.py
+
+      - name: Sync confirmed lineups
+        run: python pull/sync_lineups.py
+
+      - name: Sync stats (game logs + splits)
+        run: python pull/sync_stats.py
+
+      - name: Sync injuries & news
+        run: python pull/sync_news.py
+
+      - name: Build props report + dashboard
+        run: python pull/build_props.py
+
+      - name: Verify data integrity
+        run: python pull/verify_data.py --limit 300
+        continue-on-error: true
+
+      - name: Save database cache
+        if: always()
+        run: |
+          gh cache delete mlb-db-v1 --repo "${{ github.repository }}" || true
+      - uses: actions/cache/save@v4
+        if: always()
+        with:
+          path: mlb_props.db
+          key: mlb-db-v1
+
+      - name: Commit updated report
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add output/
+          git diff --cached --quiet || git commit -m "Hourly data sync"
+          git push

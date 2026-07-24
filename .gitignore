@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.venv/
+*.log
+.claude/settings.local.json
+mlb_props.db
+mlb_props.db-journal
+mlb_props.db-wal
+mlb_props.db-shm
