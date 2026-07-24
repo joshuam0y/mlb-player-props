@@ -188,7 +188,7 @@ def injury_status(conn, player_id):
 def recent_headlines(conn, player_id, limit=3):
     pid = str(player_id)
     rows = conn.execute(
-        "SELECT title, link, pub_date FROM headlines WHERE matched_player_ids != '' ORDER BY pub_date DESC"
+        "SELECT title, link, pub_date, matched_player_ids FROM headlines WHERE matched_player_ids != '' ORDER BY pub_date DESC"
     ).fetchall()
     matched = [dict(r) for r in rows if pid in (r["matched_player_ids"] or "").split(",")]
     return matched[:limit]
