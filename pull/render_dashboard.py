@@ -712,13 +712,12 @@ def _game_line_html(g):
     """
 
 
-def _game_card_html(g, open_by_default):
+def _game_card_html(g):
     is_confirmed = "true" if (g["home"]["lineup_confirmed"] or g["away"]["lineup_confirmed"]) else "false"
-    open_attr = " open" if open_by_default else ""
     id_prefix = f"g{g['game_pk']}"
     return f"""
     <details class="game-card" data-date="{html.escape(g["date"])}" data-confirmed="{is_confirmed}"
-              data-search="{_game_search_blob(g)}"{open_attr}>
+              data-search="{_game_search_blob(g)}">
       <summary class="game-summary">
         <span class="matchup-title">{html.escape(g["away"]["team_name"] or "?")} @ {html.escape(g["home"]["team_name"] or "?")}</span>
         <span class="summary-flags">{_game_summary_flags(g)}{_status_badge(g["status"])}</span>
@@ -929,11 +928,14 @@ def render_html(report):
     if not games:
         body = '<div class="empty">No games in range.</div>'
     else:
-        first_date = games[0]["date"]
         sections = []
         for date, group in groupby(games, key=lambda g: g["date"]):
             group_games = list(group)
-            cards = "".join(_game_card_html(g, open_by_default=(date == first_date)) for g in group_games)
+            # All game cards collapsed by default now, today included -- with
+            # a full slate of games each expanding to a two-team batter/pitcher
+            # breakdown, leaving today's games auto-expanded made the page
+            # enormous on first load instead of a scannable list to click into.
+            cards = "".join(_game_card_html(g) for g in group_games)
             sections.append(f'<div data-date-group><div class="date-heading">{html.escape(date)}</div>{cards}</div>')
         body = _toolbar(games, batter_labels, pitcher_labels) + "".join(sections)
 
