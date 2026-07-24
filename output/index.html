@@ -112,6 +112,8 @@
   .badge-matchup { background: var(--series-1); color: white; }
   .badge-streak { background: var(--status-warning); color: #1a1a19; }
   .badge-caveat { background: var(--badge-neutral-bg); color: var(--text-secondary); }
+  .badge-alert { background: var(--status-critical); color: white; }
+  .game-time { font-variant-numeric: tabular-nums; }
   .pitcher-row { cursor: pointer; }
   .pitcher-line { font-size: 13px; margin-bottom: 6px; color: var(--text-secondary); }
   .pitcher-line b { color: var(--text-primary); }
@@ -156,9 +158,10 @@
   .pick-reasons { font-size: 12px; color: var(--text-secondary); margin-bottom: 6px; }
   .pick-reasons li { margin-bottom: 2px; }
   .pick-category {
-    font-size: 12.5px; font-weight: 600; background: var(--series-1-bg); color: var(--series-1);
-    border-radius: 6px; padding: 6px 8px; margin-top: 6px;
+    font-size: 12.5px; font-weight: 600; border-radius: 6px; padding: 6px 8px; margin-top: 6px;
   }
+  .pick-category-over { background: var(--series-1-bg); color: var(--series-1); }
+  .pick-category-under { background: rgba(208,59,59,0.15); color: var(--status-critical); }
 </style>
 
 </head>
@@ -166,110 +169,212 @@
   <div class="page">
     <div class="top">
       <h1>MLB Player Props Dashboard</h1>
-      <div class="meta">Generated 2026-07-24T16:56:57.098667+00:00</div>
+      <div class="meta">Generated 2026-07-24T17:16:08.204009+00:00</div>
     </div>
     <div class="stat-row"><div class="stat-tile"><div class="stat-value">45</div><div class="stat-label">Games in range</div></div><div class="stat-tile"><div class="stat-value">0</div><div class="stat-label">Confirmed lineups</div></div><div class="stat-tile"><div class="stat-value">192</div><div class="stat-label">Hot batters flagged</div></div><div class="stat-tile"><div class="stat-value">148</div><div class="stat-label">Good platoon matchups</div></div></div>
     
     <div class="picks-section">
-      <div class="picks-heading">Today's Best Picks</div>
-      <div class="picks-subheading">Ranked across every game by real signal strength -- injured players excluded. Players whose lineup spot isn't confirmed yet are marked PROJECTED. Not a guarantee, just where the strongest combination of signals points.</div>
+      <div class="picks-heading">Today&#x27;s Top Overs</div>
+      <div class="picks-subheading">Players trending to outperform their normal. Injured players excluded. Players whose lineup spot isn&#x27;t confirmed yet are marked PROJECTED. Not a guarantee, just where the signals point.</div>
       <div class="picks-grid">
-        <div class="pick-card">
-          <div class="pick-rank">#1 PICK</div>
-          <div class="pick-name">Nick Gonzales</div>
-          <div class="pick-matchup">Pittsburgh Pirates vs. Chicago Cubs &middot; <span class="badge badge-projected">LINEUP PROJECTED</span></div>
-          <ul class="pick-reasons"><li>real hot streak (not just lucky bloops)</li><li>favorable matchup vs. tonight&#x27;s pitcher</li><li>8-game hit streak</li></ul>
-          <div class="pick-category">Best angle: Hits &mdash; over 0.5 in 80% of last 10 games</div>
-        </div>
-        
-        <div class="pick-card">
-          <div class="pick-rank">#2 PICK</div>
-          <div class="pick-name">Nolan Arenado</div>
-          <div class="pick-matchup">Arizona Diamondbacks vs. Washington Nationals &middot; <span class="badge badge-projected">LINEUP PROJECTED</span></div>
-          <ul class="pick-reasons"><li>real hot streak (not just lucky bloops)</li><li>favorable matchup vs. tonight&#x27;s pitcher</li><li>6-game hit streak</li></ul>
-          <div class="pick-category">Best angle: Hits &mdash; over 0.5 in 80% of last 10 games</div>
-        </div>
-        
-        <div class="pick-card">
-          <div class="pick-rank">#3 PICK</div>
-          <div class="pick-name">Yordan Alvarez</div>
-          <div class="pick-matchup">Houston Astros vs. Chicago White Sox &middot; <span class="badge badge-projected">LINEUP PROJECTED</span></div>
-          <ul class="pick-reasons"><li>real hot streak (not just lucky bloops)</li><li>favorable matchup vs. tonight&#x27;s pitcher</li><li>9-game hit streak</li></ul>
-          <div class="pick-category">Best angle: Hits &mdash; over 0.5 in 90% of last 10 games</div>
-        </div>
-        
-        <div class="pick-card">
-          <div class="pick-rank">#4 PICK</div>
-          <div class="pick-name">Joey Ortiz</div>
-          <div class="pick-matchup">Milwaukee Brewers vs. Colorado Rockies &middot; <span class="badge badge-projected">LINEUP PROJECTED</span></div>
-          <ul class="pick-reasons"><li>real hot streak (not just lucky bloops)</li><li>favorable matchup vs. tonight&#x27;s pitcher</li></ul>
-          <div class="pick-category">Best angle: Hits &mdash; over 0.5 in 60% of last 10 games</div>
-        </div>
-        
-        <div class="pick-card">
-          <div class="pick-rank">#5 PICK</div>
-          <div class="pick-name">Billy Cook</div>
-          <div class="pick-matchup">Pittsburgh Pirates vs. Chicago Cubs &middot; <span class="badge badge-projected">LINEUP PROJECTED</span></div>
-          <ul class="pick-reasons"><li>real hot streak (not just lucky bloops)</li><li>favorable matchup vs. tonight&#x27;s pitcher</li></ul>
-          <div class="pick-category">Best angle: Hits &mdash; over 0.5 in 20% of last 10 games</div>
-        </div>
-        
-        <div class="pick-card">
-          <div class="pick-rank">#6 PICK</div>
-          <div class="pick-name">Tommy Edman</div>
-          <div class="pick-matchup">Los Angeles Dodgers vs. New York Mets &middot; <span class="badge badge-projected">LINEUP PROJECTED</span></div>
-          <ul class="pick-reasons"><li>real hot streak (not just lucky bloops)</li><li>favorable matchup vs. tonight&#x27;s pitcher</li></ul>
-          <div class="pick-category">Best angle: Hits &mdash; over 0.5 in 90% of last 10 games</div>
-        </div>
-        
-        <div class="pick-card">
-          <div class="pick-rank">#7 PICK</div>
-          <div class="pick-name">Jeff McNeil</div>
-          <div class="pick-matchup">Athletics vs. Minnesota Twins &middot; <span class="badge badge-projected">LINEUP PROJECTED</span></div>
-          <ul class="pick-reasons"><li>real hot streak (not just lucky bloops)</li><li>favorable matchup vs. tonight&#x27;s pitcher</li></ul>
-          <div class="pick-category">Best angle: Hits &mdash; over 0.5 in 50% of last 10 games</div>
-        </div>
-        
-        <div class="pick-card">
-          <div class="pick-rank">#8 PICK</div>
-          <div class="pick-name">Curtis Mead</div>
-          <div class="pick-matchup">Washington Nationals vs. Arizona Diamondbacks &middot; <span class="badge badge-projected">LINEUP PROJECTED</span></div>
-          <ul class="pick-reasons"><li>real hot streak (not just lucky bloops)</li><li>favorable matchup vs. tonight&#x27;s pitcher</li></ul>
-          <div class="pick-category">Best angle: Hits &mdash; over 0.5 in 70% of last 10 games</div>
-        </div>
-        
-        <div class="pick-card">
-          <div class="pick-rank">#9 PICK</div>
-          <div class="pick-name">Austin Riley</div>
-          <div class="pick-matchup">Atlanta Braves vs. Baltimore Orioles &middot; <span class="badge badge-projected">LINEUP PROJECTED</span></div>
-          <ul class="pick-reasons"><li>real hot streak (not just lucky bloops)</li><li>favorable matchup vs. tonight&#x27;s pitcher</li></ul>
-          <div class="pick-category">Best angle: Hits &mdash; over 0.5 in 70% of last 10 games</div>
-        </div>
-        
-        <div class="pick-card">
-          <div class="pick-rank">#10 PICK</div>
-          <div class="pick-name">Tommy Edman</div>
-          <div class="pick-matchup">Los Angeles Dodgers vs. New York Mets &middot; <span class="badge badge-projected">LINEUP PROJECTED</span></div>
-          <ul class="pick-reasons"><li>real hot streak (not just lucky bloops)</li><li>favorable matchup vs. tonight&#x27;s pitcher</li></ul>
-          <div class="pick-category">Best angle: Hits &mdash; over 0.5 in 90% of last 10 games</div>
-        </div>
-        
-        <div class="pick-card">
-          <div class="pick-rank">#11 PICK</div>
-          <div class="pick-name">Jared Triolo</div>
-          <div class="pick-matchup">Pittsburgh Pirates vs. Chicago Cubs &middot; <span class="badge badge-projected">LINEUP PROJECTED</span></div>
-          <ul class="pick-reasons"><li>favorable matchup vs. tonight&#x27;s pitcher</li><li>6-game hit streak</li></ul>
-          <div class="pick-category">Best angle: Hits &mdash; over 0.5 in 60% of last 10 games</div>
-        </div>
-        
-        <div class="pick-card">
-          <div class="pick-rank">#12 PICK</div>
-          <div class="pick-name">Michael Busch</div>
-          <div class="pick-matchup">Chicago Cubs vs. Pittsburgh Pirates &middot; <span class="badge badge-projected">LINEUP PROJECTED</span></div>
-          <ul class="pick-reasons"><li>real hot streak (not just lucky bloops)</li><li>8-game hit streak</li></ul>
-          <div class="pick-category">Best angle: Hits &mdash; over 0.5 in 90% of last 10 games</div>
-        </div>
-        </div>
+    <div class="pick-card">
+      <div class="pick-rank">#1 OVER</div>
+      <div class="pick-name">Nick Gonzales</div>
+      <div class="pick-matchup">Pittsburgh Pirates vs. Chicago Cubs &middot; <span class="badge badge-projected">LINEUP PROJECTED</span></div>
+      <ul class="pick-reasons"><li>real hot streak (not just lucky bloops)</li><li>favorable matchup vs. tonight&#x27;s pitcher</li><li>8-game hit streak</li></ul>
+      <div class="pick-category pick-category-over">Best angle: Runs Scored &mdash; over 0.5 in 60% of the last 10 games</div>
+    </div>
+    
+    <div class="pick-card">
+      <div class="pick-rank">#2 OVER</div>
+      <div class="pick-name">Nolan Arenado</div>
+      <div class="pick-matchup">Arizona Diamondbacks vs. Washington Nationals &middot; <span class="badge badge-projected">LINEUP PROJECTED</span></div>
+      <ul class="pick-reasons"><li>real hot streak (not just lucky bloops)</li><li>favorable matchup vs. tonight&#x27;s pitcher</li><li>6-game hit streak</li></ul>
+      <div class="pick-category pick-category-over">Best angle: RBIs &mdash; over 0.5 in 70% of the last 10 games</div>
+    </div>
+    
+    <div class="pick-card">
+      <div class="pick-rank">#3 OVER</div>
+      <div class="pick-name">Yordan Alvarez</div>
+      <div class="pick-matchup">Houston Astros vs. Chicago White Sox &middot; <span class="badge badge-projected">LINEUP PROJECTED</span></div>
+      <ul class="pick-reasons"><li>real hot streak (not just lucky bloops)</li><li>favorable matchup vs. tonight&#x27;s pitcher</li><li>9-game hit streak</li></ul>
+      <div class="pick-category pick-category-over">Best angle: Total Bases &mdash; over 1.5 in 90% of the last 10 games</div>
+    </div>
+    
+    <div class="pick-card">
+      <div class="pick-rank">#4 OVER</div>
+      <div class="pick-name">Joey Ortiz</div>
+      <div class="pick-matchup">Milwaukee Brewers vs. Colorado Rockies &middot; <span class="badge badge-projected">LINEUP PROJECTED</span></div>
+      <ul class="pick-reasons"><li>real hot streak (not just lucky bloops)</li><li>favorable matchup vs. tonight&#x27;s pitcher</li></ul>
+      <div class="pick-category pick-category-over">Best angle: Walks &mdash; over 0.5 in 40% of the last 10 games</div>
+    </div>
+    
+    <div class="pick-card">
+      <div class="pick-rank">#5 OVER</div>
+      <div class="pick-name">Billy Cook</div>
+      <div class="pick-matchup">Pittsburgh Pirates vs. Chicago Cubs &middot; <span class="badge badge-projected">LINEUP PROJECTED</span></div>
+      <ul class="pick-reasons"><li>real hot streak (not just lucky bloops)</li><li>favorable matchup vs. tonight&#x27;s pitcher</li></ul>
+      <div class="pick-category pick-category-over">Best angle: RBIs &mdash; over 0.5 in 10% of the last 10 games</div>
+    </div>
+    
+    <div class="pick-card">
+      <div class="pick-rank">#6 OVER</div>
+      <div class="pick-name">Tommy Edman</div>
+      <div class="pick-matchup">Los Angeles Dodgers vs. New York Mets &middot; <span class="badge badge-projected">LINEUP PROJECTED</span></div>
+      <ul class="pick-reasons"><li>real hot streak (not just lucky bloops)</li><li>favorable matchup vs. tonight&#x27;s pitcher</li></ul>
+      <div class="pick-category pick-category-over">Best angle: Hits &mdash; over 0.5 in 90% of the last 10 games</div>
+    </div>
+    
+    <div class="pick-card">
+      <div class="pick-rank">#7 OVER</div>
+      <div class="pick-name">Jeff McNeil</div>
+      <div class="pick-matchup">Athletics vs. Minnesota Twins &middot; <span class="badge badge-projected">LINEUP PROJECTED</span></div>
+      <ul class="pick-reasons"><li>real hot streak (not just lucky bloops)</li><li>favorable matchup vs. tonight&#x27;s pitcher</li></ul>
+      <div class="pick-category pick-category-over">Best angle: RBIs &mdash; over 0.5 in 40% of the last 10 games</div>
+    </div>
+    
+    <div class="pick-card">
+      <div class="pick-rank">#8 OVER</div>
+      <div class="pick-name">Curtis Mead</div>
+      <div class="pick-matchup">Washington Nationals vs. Arizona Diamondbacks &middot; <span class="badge badge-projected">LINEUP PROJECTED</span></div>
+      <ul class="pick-reasons"><li>real hot streak (not just lucky bloops)</li><li>favorable matchup vs. tonight&#x27;s pitcher</li></ul>
+      <div class="pick-category pick-category-over">Best angle: Runs Scored &mdash; over 0.5 in 50% of the last 10 games</div>
+    </div>
+    
+    <div class="pick-card">
+      <div class="pick-rank">#9 OVER</div>
+      <div class="pick-name">Austin Riley</div>
+      <div class="pick-matchup">Atlanta Braves vs. Baltimore Orioles &middot; <span class="badge badge-projected">LINEUP PROJECTED</span></div>
+      <ul class="pick-reasons"><li>real hot streak (not just lucky bloops)</li><li>favorable matchup vs. tonight&#x27;s pitcher</li></ul>
+      <div class="pick-category pick-category-over">Best angle: RBIs &mdash; over 0.5 in 40% of the last 10 games</div>
+    </div>
+    
+    <div class="pick-card">
+      <div class="pick-rank">#10 OVER</div>
+      <div class="pick-name">Tommy Edman</div>
+      <div class="pick-matchup">Los Angeles Dodgers vs. New York Mets &middot; <span class="badge badge-projected">LINEUP PROJECTED</span></div>
+      <ul class="pick-reasons"><li>real hot streak (not just lucky bloops)</li><li>favorable matchup vs. tonight&#x27;s pitcher</li></ul>
+      <div class="pick-category pick-category-over">Best angle: Hits &mdash; over 0.5 in 90% of the last 10 games</div>
+    </div>
+    
+    <div class="pick-card">
+      <div class="pick-rank">#11 OVER</div>
+      <div class="pick-name">Jared Triolo</div>
+      <div class="pick-matchup">Pittsburgh Pirates vs. Chicago Cubs &middot; <span class="badge badge-projected">LINEUP PROJECTED</span></div>
+      <ul class="pick-reasons"><li>favorable matchup vs. tonight&#x27;s pitcher</li><li>6-game hit streak</li></ul>
+      <div class="pick-category pick-category-over">Best angle: RBIs &mdash; over 0.5 in 30% of the last 10 games</div>
+    </div>
+    
+    <div class="pick-card">
+      <div class="pick-rank">#12 OVER</div>
+      <div class="pick-name">Michael Busch</div>
+      <div class="pick-matchup">Chicago Cubs vs. Pittsburgh Pirates &middot; <span class="badge badge-projected">LINEUP PROJECTED</span></div>
+      <ul class="pick-reasons"><li>real hot streak (not just lucky bloops)</li><li>8-game hit streak</li></ul>
+      <div class="pick-category pick-category-over">Best angle: Hits &mdash; over 0.5 in 90% of the last 10 games</div>
+    </div>
+    </div>
+    </div>
+    
+    <div class="picks-section">
+      <div class="picks-heading">Today&#x27;s Top Unders</div>
+      <div class="picks-subheading">Players trending to underperform (cold, or a tough matchup) -- fade candidates. Injured players excluded. Players whose lineup spot isn&#x27;t confirmed yet are marked PROJECTED. Not a guarantee, just where the signals point.</div>
+      <div class="picks-grid">
+    <div class="pick-card">
+      <div class="pick-rank">#1 UNDER</div>
+      <div class="pick-name">Ryan O&#x27;Hearn</div>
+      <div class="pick-matchup">Pittsburgh Pirates vs. Chicago Cubs &middot; <span class="badge badge-projected">LINEUP PROJECTED</span></div>
+      <ul class="pick-reasons"><li>cold recent stretch (well below season average)</li><li>tough matchup vs. tonight&#x27;s pitcher</li></ul>
+      <div class="pick-category pick-category-under">Best angle: Hits &mdash; under 0.5 in 80% of the last 10 games</div>
+    </div>
+    
+    <div class="pick-card">
+      <div class="pick-rank">#2 UNDER</div>
+      <div class="pick-name">Trent Grisham</div>
+      <div class="pick-matchup">New York Yankees vs. Philadelphia Phillies &middot; <span class="badge badge-projected">LINEUP PROJECTED</span></div>
+      <ul class="pick-reasons"><li>cold recent stretch (well below season average)</li><li>tough matchup vs. tonight&#x27;s pitcher</li></ul>
+      <div class="pick-category pick-category-under">Best angle: Runs Scored &mdash; under 0.5 in 60% of the last 10 games</div>
+    </div>
+    
+    <div class="pick-card">
+      <div class="pick-rank">#3 UNDER</div>
+      <div class="pick-name">Romy Gonzalez</div>
+      <div class="pick-matchup">Boston Red Sox vs. Toronto Blue Jays &middot; <span class="badge badge-projected">LINEUP PROJECTED</span></div>
+      <ul class="pick-reasons"><li>cold recent stretch (well below season average)</li><li>tough matchup vs. tonight&#x27;s pitcher</li></ul>
+      <div class="pick-category pick-category-under">Best angle: Hits &mdash; under 0.5 in 60% of the last 10 games</div>
+    </div>
+    
+    <div class="pick-card">
+      <div class="pick-rank">#4 UNDER</div>
+      <div class="pick-name">Connor Wong</div>
+      <div class="pick-matchup">Boston Red Sox vs. Toronto Blue Jays &middot; <span class="badge badge-projected">LINEUP PROJECTED</span></div>
+      <ul class="pick-reasons"><li>cold recent stretch (well below season average)</li><li>tough matchup vs. tonight&#x27;s pitcher</li></ul>
+      <div class="pick-category pick-category-under">Best angle: Total Bases &mdash; under 1.5 in 100% of the last 10 games</div>
+    </div>
+    
+    <div class="pick-card">
+      <div class="pick-rank">#5 UNDER</div>
+      <div class="pick-name">Jo Adell</div>
+      <div class="pick-matchup">Los Angeles Angels vs. San Francisco Giants &middot; <span class="badge badge-projected">LINEUP PROJECTED</span></div>
+      <ul class="pick-reasons"><li>cold recent stretch (well below season average)</li><li>tough matchup vs. tonight&#x27;s pitcher</li></ul>
+      <div class="pick-category pick-category-under">Best angle: Hits &mdash; under 0.5 in 70% of the last 10 games</div>
+    </div>
+    
+    <div class="pick-card">
+      <div class="pick-rank">#6 UNDER</div>
+      <div class="pick-name">Jorge Soler</div>
+      <div class="pick-matchup">Los Angeles Angels vs. San Francisco Giants &middot; <span class="badge badge-projected">LINEUP PROJECTED</span></div>
+      <ul class="pick-reasons"><li>cold recent stretch (well below season average)</li><li>tough matchup vs. tonight&#x27;s pitcher</li></ul>
+      <div class="pick-category pick-category-under">Best angle: Home Runs &mdash; under 0.5 in 100% of the last 10 games</div>
+    </div>
+    
+    <div class="pick-card">
+      <div class="pick-rank">#7 UNDER</div>
+      <div class="pick-name">Kyle Stowers</div>
+      <div class="pick-matchup">Miami Marlins vs. San Diego Padres &middot; <span class="badge badge-projected">LINEUP PROJECTED</span></div>
+      <ul class="pick-reasons"><li>cold recent stretch (well below season average)</li><li>tough matchup vs. tonight&#x27;s pitcher</li></ul>
+      <div class="pick-category pick-category-under">Best angle: Runs Scored &mdash; under 0.5 in 100% of the last 10 games</div>
+    </div>
+    
+    <div class="pick-card">
+      <div class="pick-rank">#8 UNDER</div>
+      <div class="pick-name">Jakob Marsee</div>
+      <div class="pick-matchup">Miami Marlins vs. San Diego Padres &middot; <span class="badge badge-projected">LINEUP PROJECTED</span></div>
+      <ul class="pick-reasons"><li>cold recent stretch (well below season average)</li><li>tough matchup vs. tonight&#x27;s pitcher</li></ul>
+      <div class="pick-category pick-category-under">Best angle: Runs Scored &mdash; under 0.5 in 80% of the last 10 games</div>
+    </div>
+    
+    <div class="pick-card">
+      <div class="pick-rank">#9 UNDER</div>
+      <div class="pick-name">Xander Bogaerts</div>
+      <div class="pick-matchup">San Diego Padres vs. Miami Marlins &middot; <span class="badge badge-projected">LINEUP PROJECTED</span></div>
+      <ul class="pick-reasons"><li>cold recent stretch (well below season average)</li><li>tough matchup vs. tonight&#x27;s pitcher</li></ul>
+      <div class="pick-category pick-category-under">Best angle: RBIs &mdash; under 0.5 in 80% of the last 10 games</div>
+    </div>
+    
+    <div class="pick-card">
+      <div class="pick-rank">#10 UNDER</div>
+      <div class="pick-name">Luis Campusano</div>
+      <div class="pick-matchup">San Diego Padres vs. Miami Marlins &middot; <span class="badge badge-projected">LINEUP PROJECTED</span></div>
+      <ul class="pick-reasons"><li>cold recent stretch (well below season average)</li><li>tough matchup vs. tonight&#x27;s pitcher</li></ul>
+      <div class="pick-category pick-category-under">Best angle: RBIs &mdash; under 0.5 in 80% of the last 10 games</div>
+    </div>
+    
+    <div class="pick-card">
+      <div class="pick-rank">#11 UNDER</div>
+      <div class="pick-name">Ryan O&#x27;Hearn</div>
+      <div class="pick-matchup">Pittsburgh Pirates vs. Chicago Cubs &middot; <span class="badge badge-projected">LINEUP PROJECTED</span></div>
+      <ul class="pick-reasons"><li>cold recent stretch (well below season average)</li><li>tough matchup vs. tonight&#x27;s pitcher</li></ul>
+      <div class="pick-category pick-category-under">Best angle: Hits &mdash; under 0.5 in 80% of the last 10 games</div>
+    </div>
+    
+    <div class="pick-card">
+      <div class="pick-rank">#12 UNDER</div>
+      <div class="pick-name">Mookie Betts</div>
+      <div class="pick-matchup">Los Angeles Dodgers vs. New York Mets &middot; <span class="badge badge-projected">LINEUP PROJECTED</span></div>
+      <ul class="pick-reasons"><li>cold recent stretch (well below season average)</li><li>tough matchup vs. tonight&#x27;s pitcher</li></ul>
+      <div class="pick-category pick-category-under">Best angle: Total Bases &mdash; under 1.5 in 90% of the last 10 games</div>
+    </div>
+    </div>
     </div>
     
     
@@ -314,7 +419,11 @@
       <summary class="game-summary">
         <span class="matchup-title">Colorado Rockies @ Milwaukee Brewers</span>
         <span class="summary-flags"><span class="badge badge-hot">2 HOT</span><span class="badge badge-matchup">4 GOOD MATCHUPS</span></span>
-        <span class="game-meta">Scheduled &middot; American Family Field</span>
+        <span class="game-meta">
+          <span class="game-time" data-utc="2026-07-24T20:10:00Z">2026-07-24T20:10:00Z</span>
+          
+          &middot; American Family Field
+        </span>
         <div class="game-line">Our projection: Colorado Rockies 38% &ndash; Milwaukee Brewers 62% to win &middot; projected total 8.0 runs (41% chance of going over)</div>
       </summary>
       <div class="game-body">
@@ -1216,7 +1325,11 @@
       <summary class="game-summary">
         <span class="matchup-title">Chicago Cubs @ Pittsburgh Pirates</span>
         <span class="summary-flags"><span class="badge badge-hot">6 HOT</span><span class="badge badge-matchup">7 GOOD MATCHUPS</span></span>
-        <span class="game-meta">Scheduled &middot; PNC Park</span>
+        <span class="game-meta">
+          <span class="game-time" data-utc="2026-07-24T22:40:00Z">2026-07-24T22:40:00Z</span>
+          
+          &middot; PNC Park
+        </span>
         <div class="game-line">Our projection: Chicago Cubs 45% &ndash; Pittsburgh Pirates 55% to win &middot; projected total 9.0 runs (43% chance of going over)</div>
       </summary>
       <div class="game-body">
@@ -2118,7 +2231,11 @@
       <summary class="game-summary">
         <span class="matchup-title">Kansas City Royals @ Detroit Tigers</span>
         <span class="summary-flags"><span class="badge badge-hot">4 HOT</span><span class="badge badge-matchup">6 GOOD MATCHUPS</span></span>
-        <span class="game-meta">Scheduled &middot; Comerica Park</span>
+        <span class="game-meta">
+          <span class="game-time" data-utc="2026-07-24T22:40:00Z">2026-07-24T22:40:00Z</span>
+          
+          &middot; Comerica Park
+        </span>
         <div class="game-line">Our projection: Kansas City Royals 38% &ndash; Detroit Tigers 62% to win &middot; projected total 6.0 runs (42% chance of going over)</div>
       </summary>
       <div class="game-body">
@@ -3020,7 +3137,11 @@
       <summary class="game-summary">
         <span class="matchup-title">Arizona Diamondbacks @ Washington Nationals</span>
         <span class="summary-flags"><span class="badge badge-hot">8 HOT</span><span class="badge badge-matchup">7 GOOD MATCHUPS</span></span>
-        <span class="game-meta">Scheduled &middot; Nationals Park</span>
+        <span class="game-meta">
+          <span class="game-time" data-utc="2026-07-24T22:45:00Z">2026-07-24T22:45:00Z</span>
+          
+          &middot; Nationals Park
+        </span>
         <div class="game-line">Our projection: Arizona Diamondbacks 68% &ndash; Washington Nationals 32% to win &middot; projected total 11.0 runs (40% chance of going over)</div>
       </summary>
       <div class="game-body">
@@ -3922,7 +4043,11 @@
       <summary class="game-summary">
         <span class="matchup-title">New York Yankees @ Philadelphia Phillies</span>
         <span class="summary-flags"><span class="badge badge-hot">5 HOT</span></span>
-        <span class="game-meta">Scheduled &middot; Citizens Bank Park</span>
+        <span class="game-meta">
+          <span class="game-time" data-utc="2026-07-24T22:45:00Z">2026-07-24T22:45:00Z</span>
+          
+          &middot; Citizens Bank Park
+        </span>
         <div class="game-line">Our projection: New York Yankees 58% &ndash; Philadelphia Phillies 42% to win &middot; projected total 6.0 runs (35% chance of going over)</div>
       </summary>
       <div class="game-body">
@@ -4824,7 +4949,11 @@
       <summary class="game-summary">
         <span class="matchup-title">Atlanta Braves @ Baltimore Orioles</span>
         <span class="summary-flags"><span class="badge badge-hot">4 HOT</span></span>
-        <span class="game-meta">Scheduled &middot; Oriole Park at Camden Yards</span>
+        <span class="game-meta">
+          <span class="game-time" data-utc="2026-07-24T23:05:00Z">2026-07-24T23:05:00Z</span>
+          
+          &middot; Oriole Park at Camden Yards
+        </span>
         <div class="game-line">Our projection: Atlanta Braves 58% &ndash; Baltimore Orioles 42% to win &middot; projected total 9.0 runs (45% chance of going over)</div>
       </summary>
       <div class="game-body">
@@ -5692,7 +5821,11 @@
       <summary class="game-summary">
         <span class="matchup-title">Cleveland Guardians @ Tampa Bay Rays</span>
         <span class="summary-flags"><span class="badge badge-hot">7 HOT</span></span>
-        <span class="game-meta">Scheduled &middot; Tropicana Field</span>
+        <span class="game-meta">
+          <span class="game-time" data-utc="2026-07-24T23:10:00Z">2026-07-24T23:10:00Z</span>
+          
+          &middot; Tropicana Field
+        </span>
         <div class="game-line">Our projection: Cleveland Guardians 46% &ndash; Tampa Bay Rays 54% to win &middot; projected total 7.0 runs (38% chance of going over)</div>
       </summary>
       <div class="game-body">
@@ -6594,7 +6727,11 @@
       <summary class="game-summary">
         <span class="matchup-title">Los Angeles Dodgers @ New York Mets</span>
         <span class="summary-flags"><span class="badge badge-hot">4 HOT</span><span class="badge badge-matchup">4 GOOD MATCHUPS</span></span>
-        <span class="game-meta">Scheduled &middot; Citi Field</span>
+        <span class="game-meta">
+          <span class="game-time" data-utc="2026-07-24T23:10:00Z">2026-07-24T23:10:00Z</span>
+          
+          &middot; Citi Field
+        </span>
         <div class="game-line">Our projection: Los Angeles Dodgers 57% &ndash; New York Mets 43% to win &middot; projected total 8.0 runs (38% chance of going over)</div>
       </summary>
       <div class="game-body">
@@ -7496,7 +7633,11 @@
       <summary class="game-summary">
         <span class="matchup-title">San Diego Padres @ Miami Marlins</span>
         <span class="summary-flags"><span class="badge badge-hot">2 HOT</span><span class="badge badge-matchup">6 GOOD MATCHUPS</span></span>
-        <span class="game-meta">Scheduled &middot; loanDepot park</span>
+        <span class="game-meta">
+          <span class="game-time" data-utc="2026-07-24T23:10:00Z">2026-07-24T23:10:00Z</span>
+          
+          &middot; loanDepot park
+        </span>
         <div class="game-line">Our projection: San Diego Padres 45% &ndash; Miami Marlins 55% to win &middot; projected total 8.0 runs (41% chance of going over)</div>
       </summary>
       <div class="game-body">
@@ -8364,7 +8505,11 @@
       <summary class="game-summary">
         <span class="matchup-title">Toronto Blue Jays @ Boston Red Sox</span>
         <span class="summary-flags"><span class="badge badge-hot">2 HOT</span><span class="badge badge-matchup">6 GOOD MATCHUPS</span></span>
-        <span class="game-meta">Scheduled &middot; Fenway Park</span>
+        <span class="game-meta">
+          <span class="game-time" data-utc="2026-07-24T23:15:00Z">2026-07-24T23:15:00Z</span>
+          
+          &middot; Fenway Park
+        </span>
         <div class="game-line">Our projection: Toronto Blue Jays 58% &ndash; Boston Red Sox 42% to win &middot; projected total 6.0 runs (35% chance of going over)</div>
       </summary>
       <div class="game-body">
@@ -9266,7 +9411,11 @@
       <summary class="game-summary">
         <span class="matchup-title">Houston Astros @ Chicago White Sox</span>
         <span class="summary-flags"><span class="badge badge-hot">4 HOT</span></span>
-        <span class="game-meta">Scheduled &middot; Rate Field</span>
+        <span class="game-meta">
+          <span class="game-time" data-utc="2026-07-24T23:40:00Z">2026-07-24T23:40:00Z</span>
+          
+          &middot; Rate Field
+        </span>
         <div class="game-line">Our projection: Houston Astros 46% &ndash; Chicago White Sox 54% to win &middot; projected total 7.0 runs (44% chance of going over)</div>
       </summary>
       <div class="game-body">
@@ -10168,7 +10317,11 @@
       <summary class="game-summary">
         <span class="matchup-title">Seattle Mariners @ Texas Rangers</span>
         <span class="summary-flags"><span class="badge badge-hot">7 HOT</span></span>
-        <span class="game-meta">Scheduled &middot; Globe Life Field</span>
+        <span class="game-meta">
+          <span class="game-time" data-utc="2026-07-25T00:05:00Z">2026-07-25T00:05:00Z</span>
+          
+          &middot; Globe Life Field
+        </span>
         <div class="game-line">Our projection: Seattle Mariners 44% &ndash; Texas Rangers 56% to win &middot; projected total 7.0 runs (37% chance of going over)</div>
       </summary>
       <div class="game-body">
@@ -11070,7 +11223,11 @@
       <summary class="game-summary">
         <span class="matchup-title">Athletics @ Minnesota Twins</span>
         <span class="summary-flags"><span class="badge badge-hot">2 HOT</span><span class="badge badge-matchup">11 GOOD MATCHUPS</span></span>
-        <span class="game-meta">Scheduled &middot; Target Field</span>
+        <span class="game-meta">
+          <span class="game-time" data-utc="2026-07-25T00:10:00Z">2026-07-25T00:10:00Z</span>
+          
+          &middot; Target Field
+        </span>
         <div class="game-line">Our projection: Athletics 48% &ndash; Minnesota Twins 52% to win &middot; projected total 10.0 runs (39% chance of going over)</div>
       </summary>
       <div class="game-body">
@@ -11972,7 +12129,11 @@
       <summary class="game-summary">
         <span class="matchup-title">Cincinnati Reds @ St. Louis Cardinals</span>
         <span class="summary-flags"><span class="badge badge-hot">4 HOT</span><span class="badge badge-matchup">9 GOOD MATCHUPS</span></span>
-        <span class="game-meta">Scheduled &middot; Busch Stadium</span>
+        <span class="game-meta">
+          <span class="game-time" data-utc="2026-07-25T00:15:00Z">2026-07-25T00:15:00Z</span>
+          
+          &middot; Busch Stadium
+        </span>
         <div class="game-line">Our projection: Cincinnati Reds 50% &ndash; St. Louis Cardinals 50% to win &middot; projected total 8.0 runs (36% chance of going over)</div>
       </summary>
       <div class="game-body">
@@ -12874,7 +13035,11 @@
       <summary class="game-summary">
         <span class="matchup-title">Los Angeles Angels @ San Francisco Giants</span>
         <span class="summary-flags"><span class="badge badge-hot">3 HOT</span><span class="badge badge-matchup">6 GOOD MATCHUPS</span></span>
-        <span class="game-meta">Scheduled &middot; Oracle Park</span>
+        <span class="game-meta">
+          <span class="game-time" data-utc="2026-07-25T02:15:00Z">2026-07-25T02:15:00Z</span>
+          
+          &middot; Oracle Park
+        </span>
         <div class="game-line">Our projection: Los Angeles Angels 44% &ndash; San Francisco Giants 56% to win &middot; projected total 6.0 runs (43% chance of going over)</div>
       </summary>
       <div class="game-body">
@@ -13776,7 +13941,11 @@
       <summary class="game-summary">
         <span class="matchup-title">Kansas City Royals @ Detroit Tigers</span>
         <span class="summary-flags"><span class="badge badge-hot">4 HOT</span></span>
-        <span class="game-meta">Scheduled &middot; Comerica Park</span>
+        <span class="game-meta">
+          <span class="game-time" data-utc="2026-07-25T17:10:00Z">2026-07-25T17:10:00Z</span>
+          
+          &middot; Comerica Park
+        </span>
         <div class="game-line">Our projection: Kansas City Royals 40% &ndash; Detroit Tigers 60% to win &middot; projected total 7.0 runs (41% chance of going over)</div>
       </summary>
       <div class="game-body">
@@ -14678,7 +14847,11 @@
       <summary class="game-summary">
         <span class="matchup-title">Arizona Diamondbacks @ Washington Nationals</span>
         <span class="summary-flags"><span class="badge badge-hot">8 HOT</span><span class="badge badge-matchup">3 GOOD MATCHUPS</span></span>
-        <span class="game-meta">Scheduled &middot; Nationals Park</span>
+        <span class="game-meta">
+          <span class="game-time" data-utc="2026-07-25T20:05:00Z">2026-07-25T20:05:00Z</span>
+          
+          &middot; Nationals Park
+        </span>
         <div class="game-line">Our projection: Arizona Diamondbacks 35% &ndash; Washington Nationals 65% to win &middot; projected total 8.0 runs (41% chance of going over)</div>
       </summary>
       <div class="game-body">
@@ -15580,7 +15753,11 @@
       <summary class="game-summary">
         <span class="matchup-title">Los Angeles Angels @ San Francisco Giants</span>
         <span class="summary-flags"><span class="badge badge-hot">3 HOT</span><span class="badge badge-matchup">6 GOOD MATCHUPS</span></span>
-        <span class="game-meta">Scheduled &middot; Oracle Park</span>
+        <span class="game-meta">
+          <span class="game-time" data-utc="2026-07-25T20:05:00Z">2026-07-25T20:05:00Z</span>
+          
+          &middot; Oracle Park
+        </span>
         <div class="game-line">Our projection: Los Angeles Angels 39% &ndash; San Francisco Giants 61% to win &middot; projected total 8.0 runs (36% chance of going over)</div>
       </summary>
       <div class="game-body">
@@ -16482,7 +16659,11 @@
       <summary class="game-summary">
         <span class="matchup-title">San Diego Padres @ Miami Marlins</span>
         <span class="summary-flags"><span class="badge badge-hot">2 HOT</span><span class="badge badge-matchup">4 GOOD MATCHUPS</span></span>
-        <span class="game-meta">Scheduled &middot; loanDepot park</span>
+        <span class="game-meta">
+          <span class="game-time" data-utc="2026-07-25T20:10:00Z">2026-07-25T20:10:00Z</span>
+          
+          &middot; loanDepot park
+        </span>
         <div class="game-line">Our projection: San Diego Padres 37% &ndash; Miami Marlins 63% to win &middot; projected total 7.0 runs (40% chance of going over)</div>
       </summary>
       <div class="game-body">
@@ -17384,7 +17565,11 @@
       <summary class="game-summary">
         <span class="matchup-title">Toronto Blue Jays @ Boston Red Sox</span>
         <span class="summary-flags"><span class="badge badge-hot">2 HOT</span></span>
-        <span class="game-meta">Scheduled &middot; Fenway Park</span>
+        <span class="game-meta">
+          <span class="game-time" data-utc="2026-07-25T20:10:00Z">2026-07-25T20:10:00Z</span>
+          
+          &middot; Fenway Park
+        </span>
         <div class="game-line">Our projection: Toronto Blue Jays 54% &ndash; Boston Red Sox 46% to win &middot; projected total 5.0 runs (44% chance of going over)</div>
       </summary>
       <div class="game-body">
@@ -18286,7 +18471,11 @@
       <summary class="game-summary">
         <span class="matchup-title">New York Yankees @ Philadelphia Phillies</span>
         <span class="summary-flags"><span class="badge badge-hot">5 HOT</span></span>
-        <span class="game-meta">Scheduled &middot; Citizens Bank Park</span>
+        <span class="game-meta">
+          <span class="game-time" data-utc="2026-07-25T22:05:00Z">2026-07-25T22:05:00Z</span>
+          
+          &middot; Citizens Bank Park
+        </span>
         <div class="game-line">Our projection: New York Yankees 59% &ndash; Philadelphia Phillies 41% to win &middot; projected total 9.0 runs (39% chance of going over)</div>
       </summary>
       <div class="game-body">
@@ -19154,7 +19343,11 @@
       <summary class="game-summary">
         <span class="matchup-title">Cleveland Guardians @ Tampa Bay Rays</span>
         <span class="summary-flags"><span class="badge badge-hot">7 HOT</span></span>
-        <span class="game-meta">Scheduled &middot; Tropicana Field</span>
+        <span class="game-meta">
+          <span class="game-time" data-utc="2026-07-25T22:10:00Z">2026-07-25T22:10:00Z</span>
+          
+          &middot; Tropicana Field
+        </span>
         <div class="game-line">Our projection: Cleveland Guardians 52% &ndash; Tampa Bay Rays 48% to win &middot; projected total 7.0 runs (43% chance of going over)</div>
       </summary>
       <div class="game-body">
@@ -20056,7 +20249,11 @@
       <summary class="game-summary">
         <span class="matchup-title">Chicago Cubs @ Pittsburgh Pirates</span>
         <span class="summary-flags"><span class="badge badge-hot">6 HOT</span></span>
-        <span class="game-meta">Scheduled &middot; PNC Park</span>
+        <span class="game-meta">
+          <span class="game-time" data-utc="2026-07-25T22:40:00Z">2026-07-25T22:40:00Z</span>
+          
+          &middot; PNC Park
+        </span>
         <div class="game-line">Our projection: Chicago Cubs 39% &ndash; Pittsburgh Pirates 61% to win &middot; projected total 7.0 runs (43% chance of going over)</div>
       </summary>
       <div class="game-body">
@@ -20958,7 +21155,11 @@
       <summary class="game-summary">
         <span class="matchup-title">Atlanta Braves @ Baltimore Orioles</span>
         <span class="summary-flags"><span class="badge badge-hot">4 HOT</span><span class="badge badge-matchup">4 GOOD MATCHUPS</span></span>
-        <span class="game-meta">Scheduled &middot; Oriole Park at Camden Yards</span>
+        <span class="game-meta">
+          <span class="game-time" data-utc="2026-07-25T23:05:00Z">2026-07-25T23:05:00Z</span>
+          
+          &middot; Oriole Park at Camden Yards
+        </span>
         <div class="game-line">Our projection: Atlanta Braves 43% &ndash; Baltimore Orioles 57% to win &middot; projected total 9.0 runs (37% chance of going over)</div>
       </summary>
       <div class="game-body">
@@ -21860,7 +22061,11 @@
       <summary class="game-summary">
         <span class="matchup-title">Athletics @ Minnesota Twins</span>
         <span class="summary-flags"><span class="badge badge-hot">2 HOT</span></span>
-        <span class="game-meta">Scheduled &middot; Target Field</span>
+        <span class="game-meta">
+          <span class="game-time" data-utc="2026-07-25T23:10:00Z">2026-07-25T23:10:00Z</span>
+          
+          &middot; Target Field
+        </span>
         <div class="game-line">Our projection: Athletics 43% &ndash; Minnesota Twins 57% to win &middot; projected total 11.0 runs (42% chance of going over)</div>
       </summary>
       <div class="game-body">
@@ -22694,7 +22899,11 @@
       <summary class="game-summary">
         <span class="matchup-title">Colorado Rockies @ Milwaukee Brewers</span>
         <span class="summary-flags"><span class="badge badge-hot">2 HOT</span></span>
-        <span class="game-meta">Scheduled &middot; American Family Field</span>
+        <span class="game-meta">
+          <span class="game-time" data-utc="2026-07-25T23:10:00Z">2026-07-25T23:10:00Z</span>
+          
+          &middot; American Family Field
+        </span>
         <div class="game-line">Our projection: Colorado Rockies 40% &ndash; Milwaukee Brewers 60% to win &middot; projected total 9.0 runs (41% chance of going over)</div>
       </summary>
       <div class="game-body">
@@ -23596,7 +23805,11 @@
       <summary class="game-summary">
         <span class="matchup-title">Houston Astros @ Chicago White Sox</span>
         <span class="summary-flags"><span class="badge badge-hot">4 HOT</span></span>
-        <span class="game-meta">Scheduled &middot; Rate Field</span>
+        <span class="game-meta">
+          <span class="game-time" data-utc="2026-07-25T23:10:00Z">2026-07-25T23:10:00Z</span>
+          
+          &middot; Rate Field
+        </span>
         <div class="game-line">Our projection: Houston Astros 50% &ndash; Chicago White Sox 50% to win &middot; projected total 6.0 runs (44% chance of going over)</div>
       </summary>
       <div class="game-body">
@@ -24498,7 +24711,11 @@
       <summary class="game-summary">
         <span class="matchup-title">Seattle Mariners @ Texas Rangers</span>
         <span class="summary-flags"><span class="badge badge-hot">7 HOT</span><span class="badge badge-matchup">7 GOOD MATCHUPS</span></span>
-        <span class="game-meta">Scheduled &middot; Globe Life Field</span>
+        <span class="game-meta">
+          <span class="game-time" data-utc="2026-07-25T23:15:00Z">2026-07-25T23:15:00Z</span>
+          
+          &middot; Globe Life Field
+        </span>
         <div class="game-line">Our projection: Seattle Mariners 44% &ndash; Texas Rangers 56% to win &middot; projected total 6.0 runs (42% chance of going over)</div>
       </summary>
       <div class="game-body">
@@ -25400,7 +25617,11 @@
       <summary class="game-summary">
         <span class="matchup-title">Cincinnati Reds @ St. Louis Cardinals</span>
         <span class="summary-flags"><span class="badge badge-hot">4 HOT</span><span class="badge badge-matchup">4 GOOD MATCHUPS</span></span>
-        <span class="game-meta">Scheduled &middot; Busch Stadium</span>
+        <span class="game-meta">
+          <span class="game-time" data-utc="2026-07-25T23:15:00Z">2026-07-25T23:15:00Z</span>
+          
+          &middot; Busch Stadium
+        </span>
         <div class="game-line">Our projection: Cincinnati Reds 55% &ndash; St. Louis Cardinals 45% to win &middot; projected total 7.0 runs (42% chance of going over)</div>
       </summary>
       <div class="game-body">
@@ -26302,7 +26523,11 @@
       <summary class="game-summary">
         <span class="matchup-title">Los Angeles Dodgers @ New York Mets</span>
         <span class="summary-flags"><span class="badge badge-hot">4 HOT</span></span>
-        <span class="game-meta">Scheduled &middot; Citi Field</span>
+        <span class="game-meta">
+          <span class="game-time" data-utc="2026-07-25T23:15:00Z">2026-07-25T23:15:00Z</span>
+          
+          &middot; Citi Field
+        </span>
         <div class="game-line">Our projection: Los Angeles Dodgers 62% &ndash; New York Mets 38% to win &middot; projected total 6.0 runs (36% chance of going over)</div>
       </summary>
       <div class="game-body">
@@ -27204,7 +27429,11 @@
       <summary class="game-summary">
         <span class="matchup-title">Cleveland Guardians @ Tampa Bay Rays</span>
         <span class="summary-flags"><span class="badge badge-hot">7 HOT</span></span>
-        <span class="game-meta">Scheduled &middot; Tropicana Field</span>
+        <span class="game-meta">
+          <span class="game-time" data-utc="2026-07-26T16:15:00Z">2026-07-26T16:15:00Z</span>
+          
+          &middot; Tropicana Field
+        </span>
         <div class="game-line">Our projection: Cleveland Guardians 52% &ndash; Tampa Bay Rays 48% to win &middot; projected total 6.0 runs (41% chance of going over)</div>
       </summary>
       <div class="game-body">
@@ -28106,7 +28335,11 @@
       <summary class="game-summary">
         <span class="matchup-title">Arizona Diamondbacks @ Washington Nationals</span>
         <span class="summary-flags"><span class="badge badge-hot">8 HOT</span><span class="badge badge-matchup">6 GOOD MATCHUPS</span></span>
-        <span class="game-meta">Scheduled &middot; Nationals Park</span>
+        <span class="game-meta">
+          <span class="game-time" data-utc="2026-07-26T17:35:00Z">2026-07-26T17:35:00Z</span>
+          
+          &middot; Nationals Park
+        </span>
         <div class="game-line">Our projection: Arizona Diamondbacks 39% &ndash; Washington Nationals 61% to win &middot; projected total 10.0 runs (38% chance of going over)</div>
       </summary>
       <div class="game-body">
@@ -29008,7 +29241,11 @@
       <summary class="game-summary">
         <span class="matchup-title">Chicago Cubs @ Pittsburgh Pirates</span>
         <span class="summary-flags"><span class="badge badge-hot">6 HOT</span></span>
-        <span class="game-meta">Scheduled &middot; PNC Park</span>
+        <span class="game-meta">
+          <span class="game-time" data-utc="2026-07-26T17:35:00Z">2026-07-26T17:35:00Z</span>
+          
+          &middot; PNC Park
+        </span>
         <div class="game-line">Our projection: Chicago Cubs 44% &ndash; Pittsburgh Pirates 56% to win &middot; projected total 8.0 runs (43% chance of going over)</div>
       </summary>
       <div class="game-body">
@@ -29910,7 +30147,11 @@
       <summary class="game-summary">
         <span class="matchup-title">Toronto Blue Jays @ Boston Red Sox</span>
         <span class="summary-flags"><span class="badge badge-hot">2 HOT</span></span>
-        <span class="game-meta">Scheduled &middot; Fenway Park</span>
+        <span class="game-meta">
+          <span class="game-time" data-utc="2026-07-26T17:35:00Z">2026-07-26T17:35:00Z</span>
+          
+          &middot; Fenway Park
+        </span>
         <div class="game-line">Our projection: Toronto Blue Jays 58% &ndash; Boston Red Sox 42% to win &middot; projected total 6.0 runs (37% chance of going over)</div>
       </summary>
       <div class="game-body">
@@ -30778,7 +31019,11 @@
       <summary class="game-summary">
         <span class="matchup-title">Atlanta Braves @ Baltimore Orioles</span>
         <span class="summary-flags"><span class="badge badge-hot">4 HOT</span></span>
-        <span class="game-meta">Scheduled &middot; Oriole Park at Camden Yards</span>
+        <span class="game-meta">
+          <span class="game-time" data-utc="2026-07-26T17:35:00Z">2026-07-26T17:35:00Z</span>
+          
+          &middot; Oriole Park at Camden Yards
+        </span>
         <div class="game-line">Our projection: Atlanta Braves 49% &ndash; Baltimore Orioles 51% to win &middot; projected total 9.0 runs (37% chance of going over)</div>
       </summary>
       <div class="game-body">
@@ -31680,7 +31925,11 @@
       <summary class="game-summary">
         <span class="matchup-title">Los Angeles Dodgers @ New York Mets</span>
         <span class="summary-flags"><span class="badge badge-hot">4 HOT</span><span class="badge badge-matchup">6 GOOD MATCHUPS</span></span>
-        <span class="game-meta">Scheduled &middot; Citi Field</span>
+        <span class="game-meta">
+          <span class="game-time" data-utc="2026-07-26T17:40:00Z">2026-07-26T17:40:00Z</span>
+          
+          &middot; Citi Field
+        </span>
         <div class="game-line">Our projection: Los Angeles Dodgers 57% &ndash; New York Mets 43% to win &middot; projected total 7.0 runs (43% chance of going over)</div>
       </summary>
       <div class="game-body">
@@ -32582,7 +32831,11 @@
       <summary class="game-summary">
         <span class="matchup-title">San Diego Padres @ Miami Marlins</span>
         <span class="summary-flags"><span class="badge badge-hot">2 HOT</span><span class="badge badge-matchup">10 GOOD MATCHUPS</span></span>
-        <span class="game-meta">Scheduled &middot; loanDepot park</span>
+        <span class="game-meta">
+          <span class="game-time" data-utc="2026-07-26T17:40:00Z">2026-07-26T17:40:00Z</span>
+          
+          &middot; loanDepot park
+        </span>
         <div class="game-line">Our projection: San Diego Padres 48% &ndash; Miami Marlins 52% to win &middot; projected total 7.0 runs (42% chance of going over)</div>
       </summary>
       <div class="game-body">
@@ -33484,7 +33737,11 @@
       <summary class="game-summary">
         <span class="matchup-title">Kansas City Royals @ Detroit Tigers</span>
         <span class="summary-flags"><span class="badge badge-hot">4 HOT</span><span class="badge badge-matchup">5 GOOD MATCHUPS</span></span>
-        <span class="game-meta">Scheduled &middot; Comerica Park</span>
+        <span class="game-meta">
+          <span class="game-time" data-utc="2026-07-26T17:40:00Z">2026-07-26T17:40:00Z</span>
+          
+          &middot; Comerica Park
+        </span>
         <div class="game-line">Our projection: Kansas City Royals 33% &ndash; Detroit Tigers 67% to win &middot; projected total 7.0 runs (44% chance of going over)</div>
       </summary>
       <div class="game-body">
@@ -34352,7 +34609,11 @@
       <summary class="game-summary">
         <span class="matchup-title">Athletics @ Minnesota Twins</span>
         <span class="summary-flags"><span class="badge badge-hot">2 HOT</span><span class="badge badge-matchup">6 GOOD MATCHUPS</span></span>
-        <span class="game-meta">Scheduled &middot; Target Field</span>
+        <span class="game-meta">
+          <span class="game-time" data-utc="2026-07-26T18:10:00Z">2026-07-26T18:10:00Z</span>
+          
+          &middot; Target Field
+        </span>
         <div class="game-line">Our projection: Athletics 43% &ndash; Minnesota Twins 57% to win &middot; projected total 8.0 runs (39% chance of going over)</div>
       </summary>
       <div class="game-body">
@@ -35254,7 +35515,11 @@
       <summary class="game-summary">
         <span class="matchup-title">Colorado Rockies @ Milwaukee Brewers</span>
         <span class="summary-flags"><span class="badge badge-hot">2 HOT</span><span class="badge badge-matchup">5 GOOD MATCHUPS</span></span>
-        <span class="game-meta">Scheduled &middot; American Family Field</span>
+        <span class="game-meta">
+          <span class="game-time" data-utc="2026-07-26T18:10:00Z">2026-07-26T18:10:00Z</span>
+          
+          &middot; American Family Field
+        </span>
         <div class="game-line">Our projection: Colorado Rockies 34% &ndash; Milwaukee Brewers 66% to win &middot; projected total 8.0 runs (38% chance of going over)</div>
       </summary>
       <div class="game-body">
@@ -36156,7 +36421,11 @@
       <summary class="game-summary">
         <span class="matchup-title">Houston Astros @ Chicago White Sox</span>
         <span class="summary-flags"><span class="badge badge-hot">4 HOT</span><span class="badge badge-matchup">3 GOOD MATCHUPS</span></span>
-        <span class="game-meta">Scheduled &middot; Rate Field</span>
+        <span class="game-meta">
+          <span class="game-time" data-utc="2026-07-26T18:10:00Z">2026-07-26T18:10:00Z</span>
+          
+          &middot; Rate Field
+        </span>
         <div class="game-line">Our projection: Houston Astros 57% &ndash; Chicago White Sox 43% to win &middot; projected total 7.0 runs (42% chance of going over)</div>
       </summary>
       <div class="game-body">
@@ -37058,7 +37327,11 @@
       <summary class="game-summary">
         <span class="matchup-title">Cincinnati Reds @ St. Louis Cardinals</span>
         <span class="summary-flags"><span class="badge badge-hot">4 HOT</span><span class="badge badge-matchup">4 GOOD MATCHUPS</span></span>
-        <span class="game-meta">Scheduled &middot; Busch Stadium</span>
+        <span class="game-meta">
+          <span class="game-time" data-utc="2026-07-26T18:15:00Z">2026-07-26T18:15:00Z</span>
+          
+          &middot; Busch Stadium
+        </span>
         <div class="game-line">Our projection: Cincinnati Reds 53% &ndash; St. Louis Cardinals 47% to win &middot; projected total 7.0 runs (37% chance of going over)</div>
       </summary>
       <div class="game-body">
@@ -37960,7 +38233,11 @@
       <summary class="game-summary">
         <span class="matchup-title">Seattle Mariners @ Texas Rangers</span>
         <span class="summary-flags"><span class="badge badge-hot">7 HOT</span></span>
-        <span class="game-meta">Scheduled &middot; Globe Life Field</span>
+        <span class="game-meta">
+          <span class="game-time" data-utc="2026-07-26T18:35:00Z">2026-07-26T18:35:00Z</span>
+          
+          &middot; Globe Life Field
+        </span>
         <div class="game-line">Our projection: Seattle Mariners 34% &ndash; Texas Rangers 66% to win &middot; projected total 6.0 runs (36% chance of going over)</div>
       </summary>
       <div class="game-body">
@@ -38862,7 +39139,11 @@
       <summary class="game-summary">
         <span class="matchup-title">Los Angeles Angels @ San Francisco Giants</span>
         <span class="summary-flags"><span class="badge badge-hot">3 HOT</span></span>
-        <span class="game-meta">Scheduled &middot; Oracle Park</span>
+        <span class="game-meta">
+          <span class="game-time" data-utc="2026-07-26T20:05:00Z">2026-07-26T20:05:00Z</span>
+          
+          &middot; Oracle Park
+        </span>
         <div class="game-line">Our projection: Los Angeles Angels 62% &ndash; San Francisco Giants 38% to win &middot; projected total 7.0 runs (42% chance of going over)</div>
       </summary>
       <div class="game-body">
@@ -39730,7 +40011,11 @@
       <summary class="game-summary">
         <span class="matchup-title">New York Yankees @ Philadelphia Phillies</span>
         <span class="summary-flags"><span class="badge badge-hot">5 HOT</span><span class="badge badge-matchup">9 GOOD MATCHUPS</span></span>
-        <span class="game-meta">Scheduled &middot; Citizens Bank Park</span>
+        <span class="game-meta">
+          <span class="game-time" data-utc="2026-07-26T23:20:00Z">2026-07-26T23:20:00Z</span>
+          
+          &middot; Citizens Bank Park
+        </span>
         <div class="game-line">Our projection: New York Yankees 37% &ndash; Philadelphia Phillies 63% to win &middot; projected total 6.0 runs (44% chance of going over)</div>
       </summary>
       <div class="game-body">
@@ -40661,11 +40946,23 @@ function toggleDetail(id) {
   const row = document.getElementById(id);
   if (row) row.style.display = (row.style.display === 'none' || !row.style.display) ? 'table-row' : 'none';
 }
+function localizeGameTimes() {
+  document.querySelectorAll('.game-time').forEach(function (el) {
+    const iso = el.dataset.utc;
+    if (!iso) return;
+    const d = new Date(iso);
+    if (isNaN(d.getTime())) return;
+    el.textContent = d.toLocaleString([], {
+      weekday: 'short', month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit'
+    });
+  });
+}
 document.addEventListener('DOMContentLoaded', function () {
   document.getElementById('dateFilter').addEventListener('change', applyFilters);
   document.getElementById('roleFilter').addEventListener('change', applyFilters);
   document.getElementById('searchBox').addEventListener('input', applyFilters);
   document.getElementById('confirmedOnly').addEventListener('change', applyFilters);
+  localizeGameTimes();
   applyFilters();
 });
 </script>

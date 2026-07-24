@@ -141,6 +141,8 @@ STYLE = """
   .badge-matchup { background: var(--series-1); color: white; }
   .badge-streak { background: var(--status-warning); color: #1a1a19; }
   .badge-caveat { background: var(--badge-neutral-bg); color: var(--text-secondary); }
+  .badge-alert { background: var(--status-critical); color: white; }
+  .game-time { font-variant-numeric: tabular-nums; }
   .pitcher-row { cursor: pointer; }
   .pitcher-line { font-size: 13px; margin-bottom: 6px; color: var(--text-secondary); }
   .pitcher-line b { color: var(--text-primary); }
@@ -185,9 +187,10 @@ STYLE = """
   .pick-reasons { font-size: 12px; color: var(--text-secondary); margin-bottom: 6px; }
   .pick-reasons li { margin-bottom: 2px; }
   .pick-category {
-    font-size: 12.5px; font-weight: 600; background: var(--series-1-bg); color: var(--series-1);
-    border-radius: 6px; padding: 6px 8px; margin-top: 6px;
+    font-size: 12.5px; font-weight: 600; border-radius: 6px; padding: 6px 8px; margin-top: 6px;
   }
+  .pick-category-over { background: var(--series-1-bg); color: var(--series-1); }
+  .pick-category-under { background: rgba(208,59,59,0.15); color: var(--status-critical); }
 </style>
 """
 
@@ -224,11 +227,23 @@ function toggleDetail(id) {
   const row = document.getElementById(id);
   if (row) row.style.display = (row.style.display === 'none' || !row.style.display) ? 'table-row' : 'none';
 }
+function localizeGameTimes() {
+  document.querySelectorAll('.game-time').forEach(function (el) {
+    const iso = el.dataset.utc;
+    if (!iso) return;
+    const d = new Date(iso);
+    if (isNaN(d.getTime())) return;
+    el.textContent = d.toLocaleString([], {
+      weekday: 'short', month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit'
+    });
+  });
+}
 document.addEventListener('DOMContentLoaded', function () {
   document.getElementById('dateFilter').addEventListener('change', applyFilters);
   document.getElementById('roleFilter').addEventListener('change', applyFilters);
   document.getElementById('searchBox').addEventListener('input', applyFilters);
   document.getElementById('confirmedOnly').addEventListener('change', applyFilters);
+  localizeGameTimes();
   applyFilters();
 });
 </script>
@@ -257,6 +272,15 @@ GLOSSARY_HTML = """
   </dl>
 </details>
 """
+
+
+NORMAL_STATUSES = {"Scheduled", "Pre-Game", "Warmup", "In Progress", "Final", "Game Over", "Completed Early"}
+
+
+def _status_badge(status):
+    if not status or status in NORMAL_STATUSES:
+        return ""
+    return _badge(status.upper(), "alert")
 
 
 def _badge(label, kind):
@@ -454,8 +478,12 @@ def _game_card_html(g, open_by_default):
               data-search="{_game_search_blob(g)}"{open_attr}>
       <summary class="game-summary">
         <span class="matchup-title">{html.escape(g["away"]["team_name"] or "?")} @ {html.escape(g["home"]["team_name"] or "?")}</span>
-        <span class="summary-flags">{_game_summary_flags(g)}</span>
-        <span class="game-meta">{html.escape(g["status"] or "")} &middot; {html.escape(g["venue"] or "")}</span>
+        <span class="summary-flags">{_game_summary_flags(g)}{_status_badge(g["status"])}</span>
+        <span class="game-meta">
+          <span class="game-time" data-utc="{html.escape(g["game_time_utc"] or "")}">{html.escape(g["game_time_utc"] or "")}</span>
+          {f" &middot; {html.escape(g['status'])}" if g["status"] and g["status"] != "Scheduled" else ""}
+          &middot; {html.escape(g["venue"] or "")}
+        </span>
         {_game_line_html(g)}
       </summary>
       <div class="game-body">
@@ -511,37 +539,51 @@ def _toolbar(games):
     """
 
 
-def _top_picks_html(picks):
-    if not picks:
-        return ""
-    cards = []
-    for i, pick in enumerate(picks, 1):
-        reasons_html = "".join(f"<li>{html.escape(r)}</li>" for r in pick["reasons"])
-        category_html = ""
-        if pick["best_category"]:
-            c = pick["best_category"]
-            category_html = (
-                f'<div class="pick-category">Best angle: {html.escape(c["label"])} '
-                f'&mdash; over {c["hit_rates"][0]["line"]} in {c["hit_rates"][0]["pct"]}% of last {c["hit_rates"][0]["n"]} games</div>'
-            )
-        lineup_kind = "confirmed" if pick["lineup_confirmed"] else "projected"
-        lineup_label = "LINEUP CONFIRMED" if pick["lineup_confirmed"] else "LINEUP PROJECTED"
-        cards.append(f"""
-        <div class="pick-card">
-          <div class="pick-rank">#{i} PICK</div>
-          <div class="pick-name">{html.escape(pick["name"])}</div>
-          <div class="pick-matchup">{html.escape(pick["team"] or "?")} vs. {html.escape(pick["opponent"] or "?")} &middot; {_badge(lineup_label, lineup_kind)}</div>
-          <ul class="pick-reasons">{reasons_html}</ul>
-          {category_html}
-        </div>
-        """)
+def _pick_card_html(pick, rank, direction):
+    reasons_html = "".join(f"<li>{html.escape(r)}</li>" for r in pick["reasons"])
+    category_html = ""
+    if pick["best_category"]:
+        c = pick["best_category"]
+        verb = "over" if direction == "over" else "under"
+        pct = c["pct"] if direction == "over" else 100 - c["pct"]
+        category_html = (
+            f'<div class="pick-category pick-category-{direction}">Best angle: {html.escape(c["label"])} '
+            f'&mdash; {verb} {c["line"]} in {pct}% of the last {c["n"]} games</div>'
+        )
+    lineup_kind = "confirmed" if pick["lineup_confirmed"] else "projected"
+    lineup_label = "LINEUP CONFIRMED" if pick["lineup_confirmed"] else "LINEUP PROJECTED"
+    tag = "OVER" if direction == "over" else "UNDER"
     return f"""
-    <div class="picks-section">
-      <div class="picks-heading">Today's Best Picks</div>
-      <div class="picks-subheading">Ranked across every game by real signal strength -- injured players excluded. Players whose lineup spot isn't confirmed yet are marked PROJECTED. Not a guarantee, just where the strongest combination of signals points.</div>
-      <div class="picks-grid">{"".join(cards)}</div>
+    <div class="pick-card">
+      <div class="pick-rank">#{rank} {tag}</div>
+      <div class="pick-name">{html.escape(pick["name"])}</div>
+      <div class="pick-matchup">{html.escape(pick["team"] or "?")} vs. {html.escape(pick["opponent"] or "?")} &middot; {_badge(lineup_label, lineup_kind)}</div>
+      <ul class="pick-reasons">{reasons_html}</ul>
+      {category_html}
     </div>
     """
+
+
+def _picks_section_html(heading, subheading, picks, direction):
+    if not picks:
+        return ""
+    cards = "".join(_pick_card_html(p, i, direction) for i, p in enumerate(picks, 1))
+    return f"""
+    <div class="picks-section">
+      <div class="picks-heading">{html.escape(heading)}</div>
+      <div class="picks-subheading">{html.escape(subheading)}</div>
+      <div class="picks-grid">{cards}</div>
+    </div>
+    """
+
+
+def _top_picks_html(top_overs, top_unders):
+    common = "Injured players excluded. Players whose lineup spot isn't confirmed yet are marked PROJECTED. Not a guarantee, just where the signals point."
+    return _picks_section_html(
+        "Today's Top Overs", f"Players trending to outperform their normal. {common}", top_overs, "over"
+    ) + _picks_section_html(
+        "Today's Top Unders", f"Players trending to underperform (cold, or a tough matchup) -- fade candidates. {common}", top_unders, "under"
+    )
 
 
 def render_html(report):
@@ -579,7 +621,7 @@ def render_html(report):
       <div class="meta">Generated {html.escape(report["generated_at"])}</div>
     </div>
     <div class="stat-row">{_stat_tiles(games)}</div>
-    {_top_picks_html(report.get("top_picks"))}
+    {_top_picks_html(report.get("top_overs"), report.get("top_unders"))}
     {GLOSSARY_HTML}
     {notes_html}
     {body}

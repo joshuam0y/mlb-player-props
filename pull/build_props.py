@@ -138,7 +138,7 @@ PITCHER_PROP_CATEGORIES = [
 ]
 
 
-def _prop_categories(rows, categories):
+def _prop_categories(rows, categories, include_values=True):
     if not rows:
         return []
     rows = list(reversed(rows))  # oldest -> newest, so a game-log bar chart reads left to right
@@ -146,33 +146,35 @@ def _prop_categories(rows, categories):
     for stat, label, lines in categories:
         values = [r[stat] or 0 for r in rows]
         n = len(values)
-        out.append({
+        entry = {
             "label": label,
-            "values": values,
             "average": round(sum(values) / n, 2),
             "hit_rates": [
                 {"line": line, "pct": round(sum(1 for v in values if v > line) / n * 100), "n": n} for line in lines
             ],
-        })
+        }
+        if include_values:
+            entry["values"] = values
+        out.append(entry)
     return out
 
 
-def batter_prop_categories(conn, player_id, n=10):
+def batter_prop_categories(conn, player_id, n=10, include_values=True):
     cols = [c for c, _, _ in BATTER_PROP_CATEGORIES]
     rows = conn.execute(
         f"SELECT {', '.join(cols)} FROM batting_game_logs WHERE player_id = ? ORDER BY date DESC LIMIT ?",
         (player_id, n),
     ).fetchall()
-    return _prop_categories(rows, BATTER_PROP_CATEGORIES)
+    return _prop_categories(rows, BATTER_PROP_CATEGORIES, include_values=include_values)
 
 
-def pitcher_prop_categories(conn, player_id, n=5):
+def pitcher_prop_categories(conn, player_id, n=5, include_values=True):
     cols = [c for c, _, _ in PITCHER_PROP_CATEGORIES]
     rows = conn.execute(
         f"SELECT {', '.join(cols)} FROM pitching_game_logs WHERE player_id = ? ORDER BY date DESC LIMIT ?",
         (player_id, n),
     ).fetchall()
-    return _prop_categories(rows, PITCHER_PROP_CATEGORIES)
+    return _prop_categories(rows, PITCHER_PROP_CATEGORIES, include_values=include_values)
 
 
 def pitching_rolling(conn, player_id, n):
@@ -330,6 +332,7 @@ def trend_caveat(trend, l_short, season):
 
 
 PITCHER_WEAK_AVG_AGAINST = 0.260  # opposing avg this high or above => pitcher struggles vs that batter hand
+PITCHER_TOUGH_AVG_AGAINST = 0.210  # opposing avg this low or below => pitcher dominates that batter hand
 
 
 def effective_bat_side(bat_side, pitcher_hand):
@@ -362,12 +365,15 @@ def matchup_edge(conn, bat_side, pitcher_hand, opp_pitcher_id):
             (opp_pitcher_id, code, CAREER_SEASON),
         ).fetchone()
 
-    pitcher_weak = split is not None and split["avg_against"] is not None and split["avg_against"] >= PITCHER_WEAK_AVG_AGAINST
+    avg_against = split["avg_against"] if split and split["avg_against"] is not None else None
+    pitcher_weak = avg_against is not None and avg_against >= PITCHER_WEAK_AVG_AGAINST
+    pitcher_tough = avg_against is not None and avg_against <= PITCHER_TOUGH_AVG_AGAINST
     return {
         "platoon": platoon,
-        "pitcher_avg_against": split["avg_against"] if split else None,
+        "pitcher_avg_against": avg_against,
         "pitcher_era_vs_hand": split["era"] if split else None,
         "favorable": platoon == "opposite-hand" and pitcher_weak,
+        "unfavorable": platoon == "same-hand" and pitcher_tough,
     }
 
 
@@ -399,6 +405,7 @@ def build_batter_entry(conn, player_id, opp_hand, opp_pitcher_id, is_home_game, 
         },
         "headlines": recent_headlines(conn, player_id),
         "prop_categories": batter_prop_categories(conn, player_id),
+        "prop_categories_season": batter_prop_categories(conn, player_id, n=200, include_values=False),
     }
 
 
@@ -473,25 +480,19 @@ def build_team_side(conn, game, side):
     }
 
 
-def batter_pick_score(b):
+def batter_over_score(b):
     """
-    A composite score across signals we've actually validated to different
-    degrees, weighted accordingly -- our own backtest showed HOT/COLD alone
-    barely predicts anything, so it counts for little; matchup edge and a
-    real (non-luck) hot streak count for more. Injured players are excluded
-    entirely by the caller, not scored down, since "don't bet on someone
-    who might not play" isn't a matter of degree.
+    Signals that point toward this player OUTPERFORMING their normal --
+    weighted by how much we've actually validated each one (our own
+    backtest showed HOT alone barely predicts anything, so a BABIP-luck
+    hot streak counts for very little; a real hot streak and a favorable
+    matchup count for more).
     """
     score = 0.0
     reasons = []
-    if b["trend"] == "hot":
-        if b.get("trend_caveat") == "babip_driven":
-            score += 0.5
-        else:
-            score += 2.0
-            reasons.append("real hot streak (not just lucky bloops)")
-    elif b["trend"] == "cold":
-        score -= 1.5
+    if b["trend"] == "hot" and b.get("trend_caveat") != "babip_driven":
+        score += 2.0
+        reasons.append("real hot streak (not just lucky bloops)")
     if b.get("matchup") and b["matchup"].get("favorable"):
         score += 2.0
         reasons.append("favorable matchup vs. tonight's pitcher")
@@ -504,25 +505,73 @@ def batter_pick_score(b):
     return score, reasons
 
 
-def best_prop_category(categories, min_games=8):
-    """The category with the strongest recent hit-rate at its first (lowest) line, if the sample's big enough."""
-    candidates = [c for c in (categories or []) if c["hit_rates"] and c["hit_rates"][0]["n"] >= min_games]
-    if not candidates:
-        return None
-    return max(candidates, key=lambda c: c["hit_rates"][0]["pct"])
+def batter_under_score(b):
+    """The mirror image: signals pointing toward this player UNDERPERFORMING their normal."""
+    score = 0.0
+    reasons = []
+    if b["trend"] == "cold":
+        score += 1.5
+        reasons.append("cold recent stretch (well below season average)")
+    if b.get("matchup") and b["matchup"].get("unfavorable"):
+        score += 2.0
+        reasons.append("tough matchup vs. tonight's pitcher")
+    return score, reasons
+
+
+def prop_category_delta(recent_categories, season_categories, min_games=8):
+    """
+    The category where recent performance deviates most from this player's
+    OWN season norm, in each direction -- not the category with the
+    highest raw hit-rate. Comparing raw rates across categories always
+    picks "1+ hits" (the easiest bar to clear for almost any hitter), which
+    isn't a meaningful "best angle," just an artifact of it being the
+    lowest threshold. Returns (most_over, most_under), either possibly None.
+    """
+    if not recent_categories or not season_categories:
+        return None, None
+    season_by_label = {c["label"]: c for c in season_categories}
+    deltas = []
+    for rc in recent_categories:
+        sc = season_by_label.get(rc["label"])
+        if not sc or not rc["hit_rates"] or not sc["hit_rates"]:
+            continue
+        r_line = rc["hit_rates"][0]
+        if r_line["n"] < min_games:
+            continue
+        s_line = next((x for x in sc["hit_rates"] if x["line"] == r_line["line"]), None)
+        if not s_line:
+            continue
+        deltas.append((r_line["pct"] - s_line["pct"], rc["label"], r_line))
+    if not deltas:
+        return None, None
+    deltas.sort(key=lambda d: d[0])
+    most_under_delta, most_under_label, most_under_line = deltas[0]
+    most_over_delta, most_over_label, most_over_line = deltas[-1]
+    most_over = (
+        {"label": most_over_label, "line": most_over_line["line"], "pct": most_over_line["pct"], "n": most_over_line["n"]}
+        if most_over_delta > 0
+        else None
+    )
+    most_under = (
+        {"label": most_under_label, "line": most_under_line["line"], "pct": most_under_line["pct"], "n": most_under_line["n"]}
+        if most_under_delta < 0
+        else None
+    )
+    return most_over, most_under
 
 
 def build_top_picks(report_games, limit=12):
     """
-    Cross-game leaderboard: the best individual player picks across the
+    Cross-game leaderboards: the best OVER and UNDER candidates across the
     *entire* day/date range, not buried inside each game's card. Excludes
-    injured players (can't bet on someone who might not play at all).
-    Unconfirmed-lineup players are still included -- lineups usually don't
-    post until 1-3 hours before game time, so requiring CONFIRMED here
-    would leave this section empty most of the day -- but they're scored
-    slightly lower and clearly labeled, since "projected" is a real guess.
+    injured players from both (can't bet on someone who might not play at
+    all, in either direction). Unconfirmed-lineup players are still
+    included -- lineups usually don't post until 1-3 hours before game
+    time, so requiring CONFIRMED here would leave both lists empty most of
+    the day -- but they're scored slightly lower and clearly labeled,
+    since "projected" is a real guess.
     """
-    candidates = []
+    overs, unders = [], []
     for g in report_games:
         for side_key in ("home", "away"):
             side = g[side_key]
@@ -530,25 +579,32 @@ def build_top_picks(report_games, limit=12):
             for b in side["batters"]:
                 if b["injury"]:
                     continue
-                score, reasons = batter_pick_score(b)
-                if not side["lineup_confirmed"]:
-                    score -= 0.5
-                if score <= 0 or not reasons:
-                    continue
-                best_cat = best_prop_category(b.get("prop_categories"))
-                candidates.append({
+                confirmed_penalty = 0 if side["lineup_confirmed"] else 0.5
+                best_over_cat, best_under_cat = prop_category_delta(
+                    b.get("prop_categories"), b.get("prop_categories_season")
+                )
+                base = {
                     "player_id": b["player_id"],
                     "name": b["name"],
                     "team": side["team_name"],
                     "opponent": opp_side["team_name"],
                     "date": g["date"],
-                    "score": score,
-                    "reasons": reasons,
-                    "best_category": best_cat,
                     "lineup_confirmed": side["lineup_confirmed"],
-                })
-    candidates.sort(key=lambda c: c["score"], reverse=True)
-    return candidates[:limit]
+                }
+
+                over_score, over_reasons = batter_over_score(b)
+                over_score -= confirmed_penalty
+                if over_reasons and over_score > 0:
+                    overs.append({**base, "score": over_score, "reasons": over_reasons, "best_category": best_over_cat})
+
+                under_score, under_reasons = batter_under_score(b)
+                under_score -= confirmed_penalty
+                if under_reasons and under_score > 0:
+                    unders.append({**base, "score": under_score, "reasons": under_reasons, "best_category": best_under_cat})
+
+    overs.sort(key=lambda c: c["score"], reverse=True)
+    unders.sort(key=lambda c: c["score"], reverse=True)
+    return overs[:limit], unders[:limit]
 
 
 def latest_projection(conn, game_pk):
@@ -585,25 +641,43 @@ def build_report(conn, days_ahead=2):
             }
         )
 
+    top_overs, top_unders = build_top_picks(report_games)
+
+    # prop_categories_season only exists to feed build_top_picks' recent-vs-
+    # season delta above; it's never rendered, so drop it before this report
+    # gets serialized to JSON/HTML -- otherwise 800+ batters x 6 categories x
+    # up to 200 games each bloats the output by tens of MB for no reason.
+    for g in report_games:
+        for side in (g["home"], g["away"]):
+            for b in side["batters"]:
+                b.pop("prop_categories_season", None)
+
     return {
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "range": [today, end],
         "games": report_games,
-        "top_picks": build_top_picks(report_games),
+        "top_overs": top_overs,
+        "top_unders": top_unders,
     }
+
+
+def _render_picks_section(lines, heading, picks):
+    if not picks:
+        return
+    lines.append(f"## {heading}")
+    for pick in picks:
+        cat_txt = ""
+        if pick["best_category"]:
+            c = pick["best_category"]
+            cat_txt = f" -- try {c['label']}: {c['pct']}% over {c['line']} recently (vs. {c['n']}-game sample)"
+        lines.append(f"- **{pick['name']}** ({pick['team']} vs {pick['opponent']}): {', '.join(pick['reasons'])}{cat_txt}")
+    lines.append("")
 
 
 def render_markdown(report):
     lines = [f"# MLB Player Props Context Report", f"_Generated {report['generated_at']}_", ""]
-    if report.get("top_picks"):
-        lines.append("## Today's Best Picks")
-        for pick in report["top_picks"]:
-            cat_txt = ""
-            if pick["best_category"]:
-                c = pick["best_category"]
-                cat_txt = f" -- try {c['label']}: {c['hit_rates'][0]['pct']}% over {c['hit_rates'][0]['line']} recently"
-            lines.append(f"- **{pick['name']}** ({pick['team']} vs {pick['opponent']}): {', '.join(pick['reasons'])}{cat_txt}")
-        lines.append("")
+    _render_picks_section(lines, "Today's Top Overs", report.get("top_overs"))
+    _render_picks_section(lines, "Today's Top Unders", report.get("top_unders"))
     for g in report["games"]:
         lines.append(f"## {g['date']} - {g['away']['team_name']} @ {g['home']['team_name']} ({g['status']})")
         park_note = f" [{g['park_factor']}-friendly park]" if g["park_factor"] != "neutral" else ""
