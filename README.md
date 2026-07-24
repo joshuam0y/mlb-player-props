@@ -40,17 +40,31 @@ tab-hopping multiple sites before locking in a bet.
   at-bats even when the starter matchup looks fine.
 - **Park factor tier** -- a static, illustrative hitter/pitcher/neutral tag
   per venue (Coors Field-type parks vs. pitcher's parks).
+- **Pitcher props** -- strikeouts/runs-earned/hits-allowed/walks-allowed hit
+  rates, a DOMINANT/ROUGH recent-form flag (L5 ERA vs. season ERA), and a
+  matchup summary built from the *opposing* lineup's own platoon edges
+  ("tough matchup tonight for: ...") -- surfaced both on the pitcher's own
+  card and in the Top Overs/Unders leaderboards, not just batters.
+- **"Best prop" per player** -- the single category (batting or pitching)
+  where the last several games deviate the most from that player's own
+  season norm, shown inline on every player row, not just in the leaderboard.
 
 ## Game-outcome simulation
 
-`game_model.py` + `simulate_games.py` project win probability, a run line,
-and a total-runs line for upcoming games -- a log5-style blend of each
-team's own season runs-scored/allowed, the probable starter's ERA, and
-actual bullpen ERA (separated from starters via `games_started`), fed into
-a Negative-Binomial Monte Carlo (fit against this season's real run
-distribution, not assumed constants). Every projection is snapshotted with
-a timestamp in `game_projections` so a later backtest can check what the
-model would have said *before* the game, not after.
+`game_model.py` + `simulate_games.py` project win probability, a run line
+(standard MLB -1.5/+1.5), and a total-runs line for upcoming games -- a
+log5-style blend of each team's own season runs-scored/allowed (home/away
+split), the probable starter's ERA, and actual bullpen ERA (separated from
+starters via `games_started`) adjusted for recent bullpen fatigue, fed into
+a Negative-Binomial Monte Carlo (20,000+ trials/game, fit against this
+season's real run distribution, not assumed constants). Once a game's
+lineup is confirmed, the specific 9 starters' recent form nudges the
+offense index a small, capped amount -- before that, the projection runs on
+team-level rates alone. Every projection is snapshotted with a timestamp in
+`game_projections` (including a plain moneyline/run-line/total "pick") so a
+later backtest can check what the model would have said *before* the game,
+not after, and the dashboard shows the projected score rounded to the
+nearest half-run, the way sportsbook lines are actually quoted.
 
 **This is explicitly not pitched as beating Vegas.** There's no bullpen
 usage/role data beyond aggregate recent workload, no Statcast, no

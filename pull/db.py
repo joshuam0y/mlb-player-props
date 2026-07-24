@@ -155,6 +155,13 @@ CREATE TABLE IF NOT EXISTS game_projections (
     spread_cover_prob REAL,       -- P(home covers spread_line)
     total_line REAL,
     over_prob REAL,               -- P(home_runs + away_runs > total_line)
+    home_score_line REAL,          -- projected score, rounded to nearest .5 (sportsbook-style)
+    away_score_line REAL,
+    moneyline_pick TEXT,           -- 'home' or 'away'
+    spread_pick TEXT,              -- 'home' or 'away'
+    spread_pick_prob REAL,
+    total_pick TEXT,               -- 'over' or 'under'
+    total_pick_prob REAL,
     PRIMARY KEY (game_pk, generated_at)
 );
 CREATE INDEX IF NOT EXISTS idx_projections_game ON game_projections(game_pk);
@@ -186,6 +193,15 @@ MIGRATIONS = {
     ],
     "pitching_game_logs": [
         ("games_started", "INTEGER"),
+    ],
+    "game_projections": [
+        ("home_score_line", "REAL"),
+        ("away_score_line", "REAL"),
+        ("moneyline_pick", "TEXT"),
+        ("spread_pick", "TEXT"),
+        ("spread_pick_prob", "REAL"),
+        ("total_pick", "TEXT"),
+        ("total_pick_prob", "REAL"),
     ],
 }
 

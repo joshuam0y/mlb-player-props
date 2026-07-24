@@ -146,15 +146,20 @@ def _prop_categories(rows, categories, include_values=True):
     for stat, label, lines in categories:
         values = [r[stat] or 0 for r in rows]
         n = len(values)
+        primary_line = lines[0]
         entry = {
             "label": label,
             "average": round(sum(values) / n, 2),
+            "primary_line": primary_line,
             "hit_rates": [
                 {"line": line, "pct": round(sum(1 for v in values if v > line) / n * 100), "n": n} for line in lines
             ],
         }
         if include_values:
             entry["values"] = values
+            # dates line up 1:1 with values (both oldest->newest) so the bar-chart
+            # tooltip can say "2 total bases on Jul 20" instead of a bare number
+            entry["dates"] = [r["date"] for r in rows] if "date" in rows[0].keys() else None
         out.append(entry)
     return out
 
@@ -162,7 +167,7 @@ def _prop_categories(rows, categories, include_values=True):
 def batter_prop_categories(conn, player_id, n=10, include_values=True):
     cols = [c for c, _, _ in BATTER_PROP_CATEGORIES]
     rows = conn.execute(
-        f"SELECT {', '.join(cols)} FROM batting_game_logs WHERE player_id = ? ORDER BY date DESC LIMIT ?",
+        f"SELECT {', '.join(cols)}, date FROM batting_game_logs WHERE player_id = ? ORDER BY date DESC LIMIT ?",
         (player_id, n),
     ).fetchall()
     return _prop_categories(rows, BATTER_PROP_CATEGORIES, include_values=include_values)
@@ -171,7 +176,7 @@ def batter_prop_categories(conn, player_id, n=10, include_values=True):
 def pitcher_prop_categories(conn, player_id, n=5, include_values=True):
     cols = [c for c, _, _ in PITCHER_PROP_CATEGORIES]
     rows = conn.execute(
-        f"SELECT {', '.join(cols)} FROM pitching_game_logs WHERE player_id = ? ORDER BY date DESC LIMIT ?",
+        f"SELECT {', '.join(cols)}, date FROM pitching_game_logs WHERE player_id = ? ORDER BY date DESC LIMIT ?",
         (player_id, n),
     ).fetchall()
     return _prop_categories(rows, PITCHER_PROP_CATEGORIES, include_values=include_values)
@@ -248,6 +253,33 @@ def injury_status(conn, player_id):
     if row and row["status"] == "IL":
         return dict(row)
     return None
+
+
+def team_injury_report(conn, team_id):
+    """
+    Every player on this team's injury-transaction history whose MOST
+    RECENT transaction is still 'IL' (not superseded by a later
+    'activated' entry) -- i.e. actually out right now, regardless of
+    whether they'd otherwise be a starter. This is deliberately separate
+    from injury_status() being checked against the handful of players who
+    made it into a lineup/probable-starter list -- an injured player is by
+    definition NOT one of those, so a report limited to that list would
+    almost always be empty. Uses the exact same "latest row wins" rule as
+    injury_status() so the two can never disagree about a given player.
+    """
+    player_ids = {
+        r["player_id"] for r in conn.execute("SELECT DISTINCT player_id FROM injuries WHERE team_id = ?", (team_id,))
+    }
+    out = []
+    for player_id in player_ids:
+        latest = conn.execute(
+            "SELECT player_name, date, status, description FROM injuries WHERE player_id = ? ORDER BY date DESC LIMIT 1",
+            (player_id,),
+        ).fetchone()
+        if latest and latest["status"] == "IL":
+            out.append(dict(latest))
+    out.sort(key=lambda r: r["date"], reverse=True)
+    return out
 
 
 def recent_headlines(conn, player_id, limit=3):
@@ -331,6 +363,26 @@ def trend_caveat(trend, l_short, season):
     return None
 
 
+PITCHER_FORM_ERA_THRESHOLD = 1.00  # L5-vs-season ERA diff this large => pitcher trending dominant/rough
+PITCHER_FORM_MIN_STARTS = 3
+
+
+def pitcher_form_trend(l5, season, min_starts=PITCHER_FORM_MIN_STARTS, threshold=PITCHER_FORM_ERA_THRESHOLD):
+    """
+    Mirror of form_trend() for pitchers, on ERA instead of AVG -- lower is
+    better, so the sign is flipped vs. the batter version (an ERA well BELOW
+    the season rate is the good/"dominant" direction, not "cold").
+    """
+    if not l5 or not season or l5["games"] < min_starts or l5.get("era") is None or season.get("era") is None:
+        return None
+    diff = l5["era"] - season["era"]
+    if diff <= -threshold:
+        return "dominant"
+    if diff >= threshold:
+        return "rough"
+    return None
+
+
 PITCHER_WEAK_AVG_AGAINST = 0.260  # opposing avg this high or above => pitcher struggles vs that batter hand
 PITCHER_TOUGH_AVG_AGAINST = 0.210  # opposing avg this low or below => pitcher dominates that batter hand
 
@@ -384,6 +436,12 @@ def build_batter_entry(conn, player_id, opp_hand, opp_pitcher_id, is_home_game, 
     l7 = batting_rolling(conn, player_id, 7)
     season = batting_rolling(conn, player_id, 162)
     trend = form_trend(l7, season)
+
+    recent_categories = batter_prop_categories(conn, player_id)
+    season_categories = batter_prop_categories(conn, player_id, n=200, include_values=False)
+    best_over, best_under = prop_category_delta(recent_categories, season_categories)
+    best_prop, best_prop_direction = headline_prop(best_over, best_under)
+
     return {
         "player_id": player_id,
         "name": player["full_name"],
@@ -404,8 +462,11 @@ def build_batter_entry(conn, player_id, opp_hand, opp_pitcher_id, is_home_game, 
             "away": home_away_split(conn, "batting_game_logs", player_id, False),
         },
         "headlines": recent_headlines(conn, player_id),
-        "prop_categories": batter_prop_categories(conn, player_id),
-        "prop_categories_season": batter_prop_categories(conn, player_id, n=200, include_values=False),
+        "prop_categories": recent_categories,
+        "best_over": best_over,
+        "best_under": best_under,
+        "best_prop": best_prop,
+        "best_prop_direction": best_prop_direction,
     }
 
 
@@ -415,13 +476,23 @@ def build_pitcher_entry(conn, player_id, is_home_game=None):
     player = conn.execute("SELECT * FROM players WHERE player_id = ?", (player_id,)).fetchone()
     if not player:
         return None
+    l5 = pitching_rolling(conn, player_id, 5)
+    season = pitching_rolling(conn, player_id, 162)
+
+    recent_categories = pitcher_prop_categories(conn, player_id)
+    season_categories = pitcher_prop_categories(conn, player_id, n=200, include_values=False)
+    best_over, best_under = prop_category_delta(recent_categories, season_categories, min_games=4)
+    best_prop, best_prop_direction = headline_prop(best_over, best_under)
+
     return {
         "player_id": player_id,
         "name": player["full_name"],
         "pitch_hand": player["pitch_hand"],
         "injury": injury_status(conn, player_id),
         "l3": pitching_rolling(conn, player_id, 3),
-        "l5": pitching_rolling(conn, player_id, 5),
+        "l5": l5,
+        "season": season,
+        "form_trend": pitcher_form_trend(l5, season),
         "home_away": {
             "this_game": "home" if is_home_game else "away",
             "home": home_away_split(conn, "pitching_game_logs", player_id, True),
@@ -430,7 +501,15 @@ def build_pitcher_entry(conn, player_id, is_home_game=None):
         "splits_vs_lhb": hand_splits(conn, "pitching_splits", player_id, "L"),
         "splits_vs_rhb": hand_splits(conn, "pitching_splits", player_id, "R"),
         "headlines": recent_headlines(conn, player_id),
-        "prop_categories": pitcher_prop_categories(conn, player_id),
+        "prop_categories": recent_categories,
+        "best_over": best_over,
+        "best_under": best_under,
+        "best_prop": best_prop,
+        "best_prop_direction": best_prop_direction,
+        # filled in by build_report() once the opposing lineup for this game
+        # is known -- a pitcher's own entry has no visibility into the other
+        # team's batters at the point build_team_side() constructs it.
+        "opponent_matchup": None,
     }
 
 
@@ -477,6 +556,7 @@ def build_team_side(conn, game, side):
         # the platoon/vs-hand matchup logic on the starter above.
         "opponent_bullpen_fatigue": team_bullpen_fatigue(conn, opp_team_id),
         "batters": [b for b in batters if b],
+        "injuries": team_injury_report(conn, team_id),
     }
 
 
@@ -518,6 +598,54 @@ def batter_under_score(b):
     return score, reasons
 
 
+PITCHER_TOUGH_MATCHUP_COUNT = 3  # this many opposing batters in a bad spot => a real pitcher edge
+
+
+def pitcher_matchup_summary(opp_batters):
+    """
+    Aggregates the *batters'* own per-matchup edge (already computed while
+    building the opposing lineup) into a pitcher-facing summary: how many of
+    tonight's actual lineup are in a tough spot against this arm, vs. how
+    many have the platoon edge on him. Reuses matchup_edge() output instead
+    of re-deriving it, so "batter X has a tough matchup vs. pitcher Y" and
+    "pitcher Y has a good matchup vs. batter X" can never disagree.
+    """
+    tough_for_batters = [b["name"] for b in opp_batters if b.get("matchup") and b["matchup"].get("unfavorable")]
+    exploitable_by_batters = [b["name"] for b in opp_batters if b.get("matchup") and b["matchup"].get("favorable")]
+    return {"tough_matchups": tough_for_batters, "exploitable_matchups": exploitable_by_batters}
+
+
+def pitcher_strikeout_over_score(p):
+    """Signals favoring the strikeout OVER: pitching better than usual lately, and/or a lineup full of bad matchups for the batters facing him."""
+    score = 0.0
+    reasons = []
+    if p.get("form_trend") == "dominant":
+        score += 1.5
+        reasons.append("pitching well above his season norm over his last few starts")
+    tough = (p.get("opponent_matchup") or {}).get("tough_matchups") or []
+    if len(tough) >= PITCHER_TOUGH_MATCHUP_COUNT:
+        score += 2.0
+        reasons.append(f"{len(tough)} hitters in tonight's lineup are in a tough matchup against him")
+    elif tough:
+        score += 0.75
+        reasons.append(f"{len(tough)} hitter(s) in tonight's lineup are in a tough matchup against him")
+    return score, reasons
+
+
+def pitcher_runs_under_score(p):
+    """Signals favoring the runs/hits-allowed UNDER: same 'pitching well' signals, framed toward a clean outing."""
+    score = 0.0
+    reasons = []
+    if p.get("form_trend") == "dominant":
+        score += 1.5
+        reasons.append("allowing fewer runs than usual over his last few starts")
+    tough = (p.get("opponent_matchup") or {}).get("tough_matchups") or []
+    if len(tough) >= PITCHER_TOUGH_MATCHUP_COUNT:
+        score += 1.5
+        reasons.append(f"{len(tough)} hitters in tonight's lineup are in a tough matchup against him")
+    return score, reasons
+
+
 def prop_category_delta(recent_categories, season_categories, min_games=8):
     """
     The category where recent performance deviates most from this player's
@@ -548,30 +676,70 @@ def prop_category_delta(recent_categories, season_categories, min_games=8):
     most_under_delta, most_under_label, most_under_line = deltas[0]
     most_over_delta, most_over_label, most_over_line = deltas[-1]
     most_over = (
-        {"label": most_over_label, "line": most_over_line["line"], "pct": most_over_line["pct"], "n": most_over_line["n"]}
+        {
+            "label": most_over_label, "line": most_over_line["line"], "pct": most_over_line["pct"],
+            "n": most_over_line["n"], "season_pct": most_over_line["pct"] - most_over_delta, "delta": most_over_delta,
+        }
         if most_over_delta > 0
         else None
     )
     most_under = (
-        {"label": most_under_label, "line": most_under_line["line"], "pct": most_under_line["pct"], "n": most_under_line["n"]}
+        {
+            "label": most_under_label, "line": most_under_line["line"], "pct": most_under_line["pct"],
+            "n": most_under_line["n"], "season_pct": most_under_line["pct"] - most_under_delta, "delta": most_under_delta,
+        }
         if most_under_delta < 0
         else None
     )
     return most_over, most_under
 
 
-def build_top_picks(report_games, limit=12):
+def headline_prop(best_over, best_under):
+    """
+    A single "best prop" to headline in a player's row -- whichever of the
+    over/under angles deviates furthest from this player's own season norm.
+    Returns (category_dict, direction) where direction is 'over'/'under', or
+    (None, None) if neither angle cleared the min-sample bar.
+    """
+    if best_over and best_under:
+        return (best_over, "over") if best_over["delta"] >= abs(best_under["delta"]) else (best_under, "under")
+    if best_over:
+        return best_over, "over"
+    if best_under:
+        return best_under, "under"
+    return None, None
+
+
+def pitcher_best_category(p, label):
+    for cat in p.get("prop_categories") or []:
+        if cat["label"] == label and cat["hit_rates"]:
+            hr = cat["hit_rates"][0]
+            return {"label": cat["label"], "line": hr["line"], "pct": hr["pct"], "n": hr["n"]}
+    return None
+
+
+def build_top_picks(report_games, batter_limit=8, pitcher_limit=4):
     """
     Cross-game leaderboards: the best OVER and UNDER candidates across the
     *entire* day/date range, not buried inside each game's card. Excludes
     injured players from both (can't bet on someone who might not play at
-    all, in either direction). Unconfirmed-lineup players are still
+    all, in either direction). Unconfirmed-lineup batters are still
     included -- lineups usually don't post until 1-3 hours before game
     time, so requiring CONFIRMED here would leave both lists empty most of
     the day -- but they're scored slightly lower and clearly labeled,
     since "projected" is a real guess.
+
+    Pitchers get their own reserved slots (batter_limit/pitcher_limit are
+    applied separately, then merged and re-sorted by score) rather than
+    competing head-to-head with every batter's score -- otherwise pitcher
+    entries could get crowded out entirely by batters, which is exactly the
+    "why don't I see any pitchers here" gap this was built to fix. "Over" for
+    a pitcher means the strikeout prop; "under" means runs/hits allowed --
+    i.e. both lists stay true to their heading ("bet the over" / "bet the
+    under"), not "good pitcher / bad pitcher".
     """
-    overs, unders = [], []
+    batter_overs, batter_unders = [], []
+    pitcher_overs, pitcher_unders = [], []
     for g in report_games:
         for side_key in ("home", "away"):
             side = g[side_key]
@@ -580,10 +748,8 @@ def build_top_picks(report_games, limit=12):
                 if b["injury"]:
                     continue
                 confirmed_penalty = 0 if side["lineup_confirmed"] else 0.5
-                best_over_cat, best_under_cat = prop_category_delta(
-                    b.get("prop_categories"), b.get("prop_categories_season")
-                )
                 base = {
+                    "role": "batter",
                     "player_id": b["player_id"],
                     "name": b["name"],
                     "team": side["team_name"],
@@ -595,16 +761,40 @@ def build_top_picks(report_games, limit=12):
                 over_score, over_reasons = batter_over_score(b)
                 over_score -= confirmed_penalty
                 if over_reasons and over_score > 0:
-                    overs.append({**base, "score": over_score, "reasons": over_reasons, "best_category": best_over_cat})
+                    batter_overs.append({**base, "score": over_score, "reasons": over_reasons, "best_category": b.get("best_over")})
 
                 under_score, under_reasons = batter_under_score(b)
                 under_score -= confirmed_penalty
                 if under_reasons and under_score > 0:
-                    unders.append({**base, "score": under_score, "reasons": under_reasons, "best_category": best_under_cat})
+                    batter_unders.append({**base, "score": under_score, "reasons": under_reasons, "best_category": b.get("best_under")})
 
-    overs.sort(key=lambda c: c["score"], reverse=True)
-    unders.sort(key=lambda c: c["score"], reverse=True)
-    return overs[:limit], unders[:limit]
+            p = side["probable_pitcher"]
+            if p and not p["injury"]:
+                base = {
+                    "role": "pitcher",
+                    "player_id": p["player_id"],
+                    "name": p["name"],
+                    "team": side["team_name"],
+                    "opponent": opp_side["team_name"],
+                    "date": g["date"],
+                    "lineup_confirmed": True,  # probable-pitcher assignments come from the schedule, not the lineups table
+                }
+                over_score, over_reasons = pitcher_strikeout_over_score(p)
+                if over_reasons and over_score > 0:
+                    pitcher_overs.append({**base, "score": over_score, "reasons": over_reasons, "best_category": pitcher_best_category(p, "Strikeouts")})
+
+                under_score, under_reasons = pitcher_runs_under_score(p)
+                if under_reasons and under_score > 0:
+                    pitcher_unders.append({**base, "score": under_score, "reasons": under_reasons, "best_category": pitcher_best_category(p, "Runs Allowed")})
+
+    batter_overs.sort(key=lambda c: c["score"], reverse=True)
+    batter_unders.sort(key=lambda c: c["score"], reverse=True)
+    pitcher_overs.sort(key=lambda c: c["score"], reverse=True)
+    pitcher_unders.sort(key=lambda c: c["score"], reverse=True)
+
+    overs = sorted(batter_overs[:batter_limit] + pitcher_overs[:pitcher_limit], key=lambda c: c["score"], reverse=True)
+    unders = sorted(batter_unders[:batter_limit] + pitcher_unders[:pitcher_limit], key=lambda c: c["score"], reverse=True)
+    return overs, unders
 
 
 def latest_projection(conn, game_pk):
@@ -625,6 +815,17 @@ def build_report(conn, days_ahead=2):
 
     report_games = []
     for game in games:
+        home_side = build_team_side(conn, game, "home")
+        away_side = build_team_side(conn, game, "away")
+
+        # A pitcher's matchup summary needs the *opposing* lineup, which
+        # doesn't exist yet while build_team_side() is building his own
+        # side -- so it's filled in here, once both sides of the game exist.
+        if home_side["probable_pitcher"]:
+            home_side["probable_pitcher"]["opponent_matchup"] = pitcher_matchup_summary(away_side["batters"])
+        if away_side["probable_pitcher"]:
+            away_side["probable_pitcher"]["opponent_matchup"] = pitcher_matchup_summary(home_side["batters"])
+
         report_games.append(
             {
                 "game_pk": game["game_pk"],
@@ -636,21 +837,12 @@ def build_report(conn, days_ahead=2):
                 "home_score": game["home_score"],
                 "away_score": game["away_score"],
                 "projection": latest_projection(conn, game["game_pk"]),
-                "home": build_team_side(conn, game, "home"),
-                "away": build_team_side(conn, game, "away"),
+                "home": home_side,
+                "away": away_side,
             }
         )
 
     top_overs, top_unders = build_top_picks(report_games)
-
-    # prop_categories_season only exists to feed build_top_picks' recent-vs-
-    # season delta above; it's never rendered, so drop it before this report
-    # gets serialized to JSON/HTML -- otherwise 800+ batters x 6 categories x
-    # up to 200 games each bloats the output by tens of MB for no reason.
-    for g in report_games:
-        for side in (g["home"], g["away"]):
-            for b in side["batters"]:
-                b.pop("prop_categories_season", None)
 
     return {
         "generated_at": datetime.now(timezone.utc).isoformat(),
@@ -658,6 +850,8 @@ def build_report(conn, days_ahead=2):
         "games": report_games,
         "top_overs": top_overs,
         "top_unders": top_unders,
+        "batter_prop_labels": [label for _, label, _ in BATTER_PROP_CATEGORIES],
+        "pitcher_prop_labels": [label for _, label, _ in PITCHER_PROP_CATEGORIES],
     }
 
 
@@ -670,7 +864,8 @@ def _render_picks_section(lines, heading, picks):
         if pick["best_category"]:
             c = pick["best_category"]
             cat_txt = f" -- try {c['label']}: {c['pct']}% over {c['line']} recently (vs. {c['n']}-game sample)"
-        lines.append(f"- **{pick['name']}** ({pick['team']} vs {pick['opponent']}): {', '.join(pick['reasons'])}{cat_txt}")
+        role_tag = "[P] " if pick.get("role") == "pitcher" else ""
+        lines.append(f"- {role_tag}**{pick['name']}** ({pick['team']} vs {pick['opponent']}): {', '.join(pick['reasons'])}{cat_txt}")
     lines.append("")
 
 
@@ -686,10 +881,21 @@ def render_markdown(report):
             lines.append(f"Final: {g['away']['team_name']} {g['away_score']} - {g['home']['team_name']} {g['home_score']}")
         elif g["projection"]:
             p = g["projection"]
-            lines.append(
-                f"Projected: {g['away']['team_name']} {p['away_exp_runs']} - {g['home']['team_name']} {p['home_exp_runs']} "
-                f"(home win {p['home_win_prob']:.0%}, total {p['total_line']} runs, over {p['over_prob']:.0%})"
-            )
+            away_score = p.get("away_score_line") if p.get("away_score_line") is not None else p["away_exp_runs"]
+            home_score = p.get("home_score_line") if p.get("home_score_line") is not None else p["home_exp_runs"]
+            lines.append(f"Projected score: {g['away']['team_name']} {away_score} - {g['home']['team_name']} {home_score}")
+            ml_team = g["home"]["team_name"] if p.get("moneyline_pick") == "home" else g["away"]["team_name"]
+            win_prob = p["home_win_prob"] if p.get("moneyline_pick") == "home" else 1 - p["home_win_prob"]
+            total_pick = p.get("total_pick") or ("over" if p["over_prob"] >= 0.5 else "under")
+            total_prob = p.get("total_pick_prob")
+            if total_prob is None:
+                total_prob = max(p["over_prob"], 1 - p["over_prob"])
+            summary = f"Model likes: **{ml_team}** to win ({win_prob:.0%})"
+            if p.get("spread_pick") is not None:
+                spread_team = g["home"]["team_name"] if p["spread_pick"] == "home" else g["away"]["team_name"]
+                summary += f" | Run line: **{spread_team}** {p['spread_line']} ({p['spread_pick_prob']:.0%} to cover)"
+            summary += f" | Total {p['total_line']}: lean **{total_pick.upper()}** ({total_prob:.0%})"
+            lines.append(summary)
         lines.append("")
         for side_key in ("away", "home"):
             side = g[side_key]

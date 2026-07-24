@@ -44,6 +44,7 @@ CURRENT_SEASON = datetime.now(timezone.utc).year
 STARTER_WEIGHT = 0.6  # fraction of "defense" attributed to the probable starter vs. team-wide rate
 PARK_MULTIPLIER = {"hitter": 1.05, "neutral": 1.0, "pitcher": 0.95}
 FATIGUE_ADJUSTMENT_CAP = 0.15  # max +/-15% swing to bullpen rate from recent workload
+LINEUP_ADJUSTMENT_CAP = 0.06  # max +/-6% swing to offense idx from confirmed-lineup recent form
 
 
 def _date_filter(column, as_of_date):
@@ -205,6 +206,48 @@ def fatigue_adjusted_rate(bullpen_rate, fatigue):
     return bullpen_rate * (1 + adjustment)
 
 
+def lineup_strength_adjustment(conn, batter_ids, as_of_date=None, cap=LINEUP_ADJUSTMENT_CAP):
+    """
+    Secondary nudge to a team's offense index once its *actual* confirmed
+    starting lineup is known: are these specific 9 hitters running hotter or
+    colder lately (last 15 games) than their own season norm? A lineup full
+    of guys currently hitting above their own baseline should score a touch
+    more than the team's blended season rate alone would suggest; a lineup
+    missing/resting its best bats (or full of guys in a slump) a touch less.
+
+    Deliberately small and capped -- this is a secondary signal on top of the
+    team's actual season-long scoring record, not a replacement for it, and
+    a 9-hitter L15 sample is noisy. Before the real lineup posts, callers
+    pass an empty/None list and get a neutral 1.0 (no adjustment) -- the
+    projection just runs on team-level rates alone, same as before lineups
+    existed as a signal.
+    """
+    if not batter_ids:
+        return 1.0
+    date_frag, date_params = _date_filter("date", as_of_date)
+    deltas = []
+    for player_id in batter_ids:
+        recent = conn.execute(
+            f"SELECT SUM(at_bats) as ab, SUM(hits) as h, SUM(total_bases) as tb "
+            f"FROM batting_game_logs WHERE player_id = ?{date_frag} ORDER BY date DESC LIMIT 15",
+            (player_id, *date_params),
+        ).fetchone()
+        season = conn.execute(
+            f"SELECT SUM(at_bats) as ab, SUM(hits) as h, SUM(total_bases) as tb "
+            f"FROM batting_game_logs WHERE player_id = ? AND season = ?{date_frag}",
+            (player_id, CURRENT_SEASON, *date_params),
+        ).fetchone()
+        if not recent or not recent["ab"] or not season or not season["ab"] or season["ab"] < 20:
+            continue
+        recent_rate = (recent["h"] + recent["tb"]) / recent["ab"]  # AVG + SLG combined, cheap OPS-ish proxy
+        season_rate = (season["h"] + season["tb"]) / season["ab"]
+        deltas.append(recent_rate - season_rate)
+    if not deltas:
+        return 1.0
+    avg_delta = sum(deltas) / len(deltas)
+    return 1.0 + max(-cap, min(cap, avg_delta))
+
+
 def combined_defense_index(starter_rate, bullpen_rate, team_def_idx_fallback, avg):
     if starter_rate is not None and bullpen_rate is not None:
         return STARTER_WEIGHT * (starter_rate / avg) + (1 - STARTER_WEIGHT) * (bullpen_rate / avg)
@@ -213,7 +256,10 @@ def combined_defense_index(starter_rate, bullpen_rate, team_def_idx_fallback, av
     return team_def_idx_fallback
 
 
-def project_matchup(conn, home_team_id, away_team_id, home_pitcher_id, away_pitcher_id, park_tier, as_of_date=None):
+def project_matchup(
+    conn, home_team_id, away_team_id, home_pitcher_id, away_pitcher_id, park_tier,
+    as_of_date=None, home_batter_ids=None, away_batter_ids=None,
+):
     league = league_run_distribution(conn, as_of_date)
     if league is None:
         return None
@@ -226,6 +272,8 @@ def project_matchup(conn, home_team_id, away_team_id, home_pitcher_id, away_pitc
 
     home_off_idx = home_rates["runs_scored_avg"] / avg
     away_off_idx = away_rates["runs_scored_avg"] / avg
+    home_off_idx *= lineup_strength_adjustment(conn, home_batter_ids, as_of_date)
+    away_off_idx *= lineup_strength_adjustment(conn, away_batter_ids, as_of_date)
     home_def_idx_fallback = home_rates["runs_allowed_avg"] / avg
     away_def_idx_fallback = away_rates["runs_allowed_avg"] / avg
 
@@ -247,6 +295,12 @@ def project_matchup(conn, home_team_id, away_team_id, home_pitcher_id, away_pitc
     return {
         "home_exp_runs": round(home_exp_runs, 2),
         "away_exp_runs": round(away_exp_runs, 2),
+        # Display-only versions of the same projection, rounded to the
+        # nearest half-run the way sportsbook lines are quoted (e.g. "4.5 -
+        # 3.5") rather than a false-precision decimal or a rounded whole
+        # number that implies more certainty about an exact final score.
+        "home_score_line": _round_to_half(home_exp_runs),
+        "away_score_line": _round_to_half(away_exp_runs),
         "dispersion_r": league["dispersion_r"],
         "league_avg": avg,
         "home_bullpen_fatigue": home_bullpen_fatigue,
@@ -275,10 +329,20 @@ def _sample_neg_binomial(mean, dispersion_r, rng):
     return _sample_poisson(gamma_sample, rng)
 
 
+def _round_to_half(x):
+    """Sportsbook-style line: always ends in .5 (never a whole number), so a push is impossible."""
+    return round(x - 0.5) + 0.5
+
+
 def simulate(projection, n_trials=20000, spread_line=1.5, total_line=None, seed=None):
+    """
+    n_trials defaults to 20,000 Monte Carlo trials per game (well above the
+    ~10k threshold needed for stable win-prob/cover-prob estimates at this
+    scale) -- see backtest.py for how this holds up against real outcomes.
+    """
     rng = random.Random(seed)
     home_exp, away_exp, r = projection["home_exp_runs"], projection["away_exp_runs"], projection["dispersion_r"]
-    total_line = total_line if total_line is not None else round(home_exp + away_exp)
+    total_line = total_line if total_line is not None else _round_to_half(home_exp + away_exp)
 
     home_wins = 0.0
     cover = 0
@@ -295,10 +359,20 @@ def simulate(projection, n_trials=20000, spread_line=1.5, total_line=None, seed=
         if (h + a) > total_line:
             over += 1
 
+    home_win_prob = round(home_wins / n_trials, 3)
+    spread_cover_prob = round(cover / n_trials, 3)
+    over_prob = round(over / n_trials, 3)
+
     return {
-        "home_win_prob": round(home_wins / n_trials, 3),
+        "home_win_prob": home_win_prob,
         "spread_line": spread_line,
-        "spread_cover_prob": round(cover / n_trials, 3),
+        "spread_cover_prob": spread_cover_prob,
         "total_line": total_line,
-        "over_prob": round(over / n_trials, 3),
+        "over_prob": over_prob,
+        # Plain-language "what to pick" summary so callers don't have to
+        "moneyline_pick": "home" if home_win_prob >= 0.5 else "away",
+        "spread_pick": "home" if spread_cover_prob >= 0.5 else "away",
+        "spread_pick_prob": round(spread_cover_prob if spread_cover_prob >= 0.5 else 1 - spread_cover_prob, 3),
+        "total_pick": "over" if over_prob >= 0.5 else "under",
+        "total_pick_prob": round(over_prob if over_prob >= 0.5 else 1 - over_prob, 3),
     }

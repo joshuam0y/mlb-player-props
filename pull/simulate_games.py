@@ -31,6 +31,21 @@ def run(days_ahead=2, n_trials=20000):
     generated_at = datetime.now(timezone.utc).isoformat()
     rows = []
     for game in games:
+        # If the real lineup has posted, use those 9 specific hitters for the
+        # lineup-strength nudge; otherwise pass nothing and the model runs on
+        # team-level rates alone (see game_model.lineup_strength_adjustment).
+        home_batter_ids = [
+            r["player_id"] for r in conn.execute(
+                "SELECT player_id FROM lineups WHERE game_pk = ? AND team_id = ?",
+                (game["game_pk"], game["home_team_id"]),
+            )
+        ]
+        away_batter_ids = [
+            r["player_id"] for r in conn.execute(
+                "SELECT player_id FROM lineups WHERE game_pk = ? AND team_id = ?",
+                (game["game_pk"], game["away_team_id"]),
+            )
+        ]
         projection = project_matchup(
             conn,
             game["home_team_id"],
@@ -38,6 +53,8 @@ def run(days_ahead=2, n_trials=20000):
             game["home_probable_pitcher_id"],
             game["away_probable_pitcher_id"],
             park_factor_tier(game["venue_name"]),
+            home_batter_ids=home_batter_ids,
+            away_batter_ids=away_batter_ids,
         )
         if projection is None:
             continue
@@ -48,6 +65,9 @@ def run(days_ahead=2, n_trials=20000):
                 projection["home_exp_runs"], projection["away_exp_runs"],
                 sim["home_win_prob"], sim["spread_line"], sim["spread_cover_prob"],
                 sim["total_line"], sim["over_prob"],
+                projection["home_score_line"], projection["away_score_line"],
+                sim["moneyline_pick"], sim["spread_pick"], sim["spread_pick_prob"],
+                sim["total_pick"], sim["total_pick_prob"],
             )
         )
 
@@ -56,8 +76,10 @@ def run(days_ahead=2, n_trials=20000):
             """
             INSERT INTO game_projections
                 (game_pk, generated_at, model_version, home_exp_runs, away_exp_runs,
-                 home_win_prob, spread_line, spread_cover_prob, total_line, over_prob)
-            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                 home_win_prob, spread_line, spread_cover_prob, total_line, over_prob,
+                 home_score_line, away_score_line, moneyline_pick, spread_pick,
+                 spread_pick_prob, total_pick, total_pick_prob)
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
             """,
             rows,
         )
