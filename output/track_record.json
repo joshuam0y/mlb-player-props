@@ -1,0 +1,268 @@
+{
+  "days": {
+    "2026-07-24": {
+      "date": "2026-07-24",
+      "graded_at": "2026-07-25T19:20:54.676519+00:00",
+      "top_overs": {
+        "n": 7,
+        "hits": 1,
+        "misses": 5,
+        "no_data": 1,
+        "hit_rate": 0.167,
+        "picks": [
+          {
+            "name": "Nolan Arenado",
+            "role": "batter",
+            "category": "RBIs",
+            "line": 0.5,
+            "actual": 0,
+            "outcome": "miss"
+          },
+          {
+            "name": "Nick Gonzales",
+            "role": "batter",
+            "category": "Hits",
+            "line": 1.5,
+            "actual": 1,
+            "outcome": "miss"
+          },
+          {
+            "name": "Billy Cook",
+            "role": "batter",
+            "category": "RBIs",
+            "line": 0.5,
+            "actual": null,
+            "outcome": "no_data"
+          },
+          {
+            "name": "Tommy Edman",
+            "role": "batter",
+            "category": "Total Bases",
+            "line": 1.5,
+            "actual": 0,
+            "outcome": "miss"
+          },
+          {
+            "name": "Jeff McNeil",
+            "role": "batter",
+            "category": "RBIs",
+            "line": 0.5,
+            "actual": 0,
+            "outcome": "miss"
+          },
+          {
+            "name": "Jared Jones",
+            "role": "pitcher",
+            "category": "Strikeouts",
+            "line": 5.5,
+            "actual": 5,
+            "outcome": "miss"
+          },
+          {
+            "name": "Jes\u00fas Luzardo",
+            "role": "pitcher",
+            "category": "Strikeouts",
+            "line": 7.5,
+            "actual": 9,
+            "outcome": "hit"
+          }
+        ]
+      },
+      "top_unders": {
+        "n": 8,
+        "hits": 5,
+        "misses": 3,
+        "no_data": 0,
+        "hit_rate": 0.625,
+        "picks": [
+          {
+            "name": "Ryan O'Hearn",
+            "role": "batter",
+            "category": "Hits",
+            "line": 0.5,
+            "actual": 2,
+            "outcome": "miss"
+          },
+          {
+            "name": "Trent Grisham",
+            "role": "batter",
+            "category": "Runs Scored",
+            "line": 0.5,
+            "actual": 0,
+            "outcome": "hit"
+          },
+          {
+            "name": "Romy Gonzalez",
+            "role": "batter",
+            "category": "Hits",
+            "line": 0.5,
+            "actual": 1,
+            "outcome": "miss"
+          },
+          {
+            "name": "Connor Wong",
+            "role": "batter",
+            "category": "Runs Scored",
+            "line": 0.5,
+            "actual": 0,
+            "outcome": "hit"
+          },
+          {
+            "name": "Jo Adell",
+            "role": "batter",
+            "category": "Hits",
+            "line": 0.5,
+            "actual": 1,
+            "outcome": "miss"
+          },
+          {
+            "name": "Jorge Soler",
+            "role": "batter",
+            "category": "Home Runs",
+            "line": 0.5,
+            "actual": 0,
+            "outcome": "hit"
+          },
+          {
+            "name": "Jared Jones",
+            "role": "pitcher",
+            "category": "Runs Allowed",
+            "line": 1.5,
+            "actual": 1,
+            "outcome": "hit"
+          },
+          {
+            "name": "Jes\u00fas Luzardo",
+            "role": "pitcher",
+            "category": "Runs Allowed",
+            "line": 1.5,
+            "actual": 1,
+            "outcome": "hit"
+          }
+        ]
+      },
+      "batter_trend": {
+        "hot": {
+          "games": 16,
+          "avg": 0.158,
+          "tb_per_game": 0.62
+        },
+        "cold": {
+          "games": 26,
+          "avg": 0.244,
+          "tb_per_game": 1.15
+        },
+        "neutral": {
+          "games": 43,
+          "avg": 0.221,
+          "tb_per_game": 1.16
+        }
+      },
+      "batter_matchup": {
+        "favorable": {
+          "games": 18,
+          "avg": 0.185,
+          "tb_per_game": 0.78
+        },
+        "unfavorable": {
+          "games": 16,
+          "avg": 0.185,
+          "tb_per_game": 0.88
+        },
+        "neutral": {
+          "games": 51,
+          "avg": 0.237,
+          "tb_per_game": 1.22
+        }
+      },
+      "pitcher_form": {
+        "dominant": {
+          "games": 3,
+          "era": 1.35,
+          "k_per_game": 6.0
+        },
+        "rough": {
+          "games": 2,
+          "era": 5.73,
+          "k_per_game": 4.5
+        },
+        "neutral": {
+          "games": 5,
+          "era": 6.48,
+          "k_per_game": 5.0
+        }
+      }
+    }
+  },
+  "cumulative": {
+    "top_overs": {
+      "days": 1,
+      "n": 7,
+      "hits": 1,
+      "misses": 5,
+      "no_data": 1,
+      "hit_rate": 0.167
+    },
+    "top_unders": {
+      "days": 1,
+      "n": 8,
+      "hits": 5,
+      "misses": 3,
+      "no_data": 0,
+      "hit_rate": 0.625
+    },
+    "batter_trend": {
+      "hot": {
+        "games": 16,
+        "avg": 0.158,
+        "tb_per_game": 0.62
+      },
+      "cold": {
+        "games": 26,
+        "avg": 0.244,
+        "tb_per_game": 1.15
+      },
+      "neutral": {
+        "games": 43,
+        "avg": 0.221,
+        "tb_per_game": 1.16
+      }
+    },
+    "batter_matchup": {
+      "favorable": {
+        "games": 18,
+        "avg": 0.185,
+        "tb_per_game": 0.78
+      },
+      "unfavorable": {
+        "games": 16,
+        "avg": 0.185,
+        "tb_per_game": 0.88
+      },
+      "neutral": {
+        "games": 51,
+        "avg": 0.237,
+        "tb_per_game": 1.22
+      }
+    },
+    "pitcher_form": {
+      "dominant": {
+        "games": 3,
+        "k_per_game": 6.0,
+        "era": 1.35
+      },
+      "rough": {
+        "games": 2,
+        "k_per_game": 4.5,
+        "era": 5.73
+      },
+      "neutral": {
+        "games": 5,
+        "k_per_game": 5.0,
+        "era": 6.48
+      }
+    },
+    "days_tracked": 1
+  },
+  "updated_at": "2026-07-25T19:20:54.682563+00:00"
+}

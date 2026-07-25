@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<title>MLB Player Props -- Track Record</title>
+
+<style>
+  :root, .viz-root {
+    color-scheme: light;
+    --surface-1: #ffffff; --surface-2: #f1f4f9; --surface-3: #e8edf5;
+    --text-primary: #0b1e33; --text-secondary: #48566b; --text-muted: #8592a6;
+    --gridline: #e1e7ef; --border: rgba(11,30,51,0.09);
+    --status-good: #0f9d58; --status-warning: #f5a623; --status-serious: #ef6c4d; --status-critical: #e0333f;
+    --badge-neutral-bg: #e6ebf3; --badge-neutral-text: #48566b;
+    --series-1: #0057ff; --series-1-bg: rgba(0,87,255,0.10);
+    --header-grad: linear-gradient(135deg, #002d80, #0057ff);
+    --shadow: 0 1px 2px rgba(11,30,51,0.05), 0 6px 16px rgba(11,30,51,0.06);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      color-scheme: dark;
+      --surface-1: #101d34; --surface-2: #0a1626; --surface-3: #16263f;
+      --text-primary: #f4f7fb; --text-secondary: #b7c3d6; --text-muted: #7c8aa2;
+      --gridline: #21324c; --border: rgba(255,255,255,0.09);
+      --badge-neutral-bg: #1b2c46; --badge-neutral-text: #b7c3d6;
+      --series-1: #3d8bff; --series-1-bg: rgba(61,139,255,0.18);
+      --header-grad: linear-gradient(135deg, #041730, #0c2c5c);
+      --shadow: 0 1px 2px rgba(0,0,0,0.3), 0 8px 20px rgba(0,0,0,0.35);
+    }
+  }
+  :root[data-theme="dark"] {
+    color-scheme: dark;
+    --surface-1: #101d34; --surface-2: #0a1626; --surface-3: #16263f;
+    --text-primary: #f4f7fb; --text-secondary: #b7c3d6; --text-muted: #7c8aa2;
+    --gridline: #21324c; --border: rgba(255,255,255,0.09);
+    --badge-neutral-bg: #1b2c46; --badge-neutral-text: #b7c3d6;
+    --series-1: #3d8bff; --series-1-bg: rgba(61,139,255,0.18);
+    --header-grad: linear-gradient(135deg, #041730, #0c2c5c);
+    --shadow: 0 1px 2px rgba(0,0,0,0.3), 0 8px 20px rgba(0,0,0,0.35);
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--surface-2); color: var(--text-primary);
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  }
+  .page { max-width: 1100px; margin: 0 auto; padding: 20px 20px 60px; }
+
+  .header-band {
+    background: var(--header-grad); color: #ffffff; border-radius: 14px;
+    padding: 18px 20px; margin-bottom: 16px; box-shadow: var(--shadow);
+  }
+  .header-top { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px; }
+  .header-band h1 { font-size: 21px; margin: 0; letter-spacing: -0.01em; color: #ffffff; }
+  .header-band .meta { color: rgba(255,255,255,0.78); font-size: 12.5px; margin-top: 2px; }
+  .header-actions { display: flex; align-items: center; gap: 10px; }
+  .theme-toggle {
+    background: rgba(255,255,255,0.14); color: #ffffff; border: 1px solid rgba(255,255,255,0.3);
+    border-radius: 999px; padding: 7px 14px; font-size: 12.5px; font-weight: 600; cursor: pointer;
+    font-family: inherit;
+  }
+  .theme-toggle:hover { background: rgba(255,255,255,0.22); }
+  .nav-link {
+    color: #ffffff; font-size: 12.5px; font-weight: 600; text-decoration: none;
+    border: 1px solid rgba(255,255,255,0.3); border-radius: 999px; padding: 7px 14px;
+  }
+  .nav-link:hover { background: rgba(255,255,255,0.14); }
+
+  .notes, .glossary {
+    background: var(--surface-1); border: 1px solid var(--border); border-radius: 12px;
+    padding: 14px 16px; margin: 14px 0; font-size: 13px; color: var(--text-secondary);
+    box-shadow: var(--shadow);
+  }
+  .notes { white-space: pre-wrap; }
+  .glossary summary { cursor: pointer; font-weight: 600; color: var(--text-primary); }
+  .glossary dl { margin: 12px 0 0; }
+  .glossary dt { font-weight: 600; color: var(--text-primary); margin-top: 8px; }
+  .glossary dd { margin: 2px 0 0; }
+
+  .stat-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 10px; margin: 14px 0; }
+  .stat-tile {
+    background: var(--surface-1); border: 1px solid var(--border); border-radius: 12px;
+    padding: 12px 14px; box-shadow: var(--shadow); border-top: 3px solid var(--series-1);
+  }
+  .stat-value { font-size: 22px; font-weight: 700; line-height: 1.1; font-variant-numeric: tabular-nums; }
+  .stat-label { font-size: 11.5px; color: var(--text-muted); margin-top: 3px; }
+
+  .toolbar {
+    position: sticky; top: 0; z-index: 5; display: flex; gap: 10px; flex-wrap: wrap; align-items: center;
+    background: var(--surface-2); padding: 10px 0 14px; border-bottom: 1px solid var(--gridline); margin-bottom: 16px;
+  }
+  .toolbar select, .toolbar input[type="text"] {
+    background: var(--surface-1); color: var(--text-primary); border: 1px solid var(--border);
+    border-radius: 8px; padding: 7px 10px; font-size: 13px; font-family: inherit;
+  }
+  .toolbar input[type="text"] { min-width: 200px; }
+  .toolbar label { display: flex; align-items: center; gap: 6px; font-size: 13px; color: var(--text-secondary); }
+  .toolbar .count { font-size: 12px; color: var(--text-muted); margin-left: auto; }
+
+  .date-heading {
+    font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.04em;
+    color: var(--text-muted); margin: 22px 0 10px; padding-top: 4px;
+  }
+  .date-heading:first-child { margin-top: 0; }
+
+  details.game-card {
+    background: var(--surface-1); border: 1px solid var(--border); border-radius: 12px;
+    margin-bottom: 10px; box-shadow: var(--shadow); overflow: hidden;
+  }
+  details.game-card[open] summary { border-bottom: 1px solid var(--gridline); }
+  summary.game-summary {
+    cursor: pointer; padding: 12px 16px; display: flex; justify-content: space-between;
+    align-items: center; flex-wrap: wrap; gap: 8px; list-style: none;
+  }
+  summary.game-summary::-webkit-details-marker, summary.picks-summary::-webkit-details-marker { display: none; }
+  summary.game-summary::before, summary.picks-summary::before {
+    content: ""; display: inline-block; width: 0; height: 0; margin-right: 10px; flex-shrink: 0;
+    border-top: 4px solid transparent; border-bottom: 4px solid transparent;
+    border-left: 5px solid var(--text-muted); transition: transform 0.12s;
+  }
+  details[open] summary.game-summary::before, details[open] summary.picks-summary::before { transform: rotate(90deg); }
+  .matchup-title { font-size: 14.5px; font-weight: 600; }
+  .game-meta { color: var(--text-muted); font-size: 12px; }
+  .game-line { color: var(--text-secondary); font-size: 12.5px; width: 100%; margin-top: 4px; }
+  .proj-score { font-weight: 600; color: var(--text-primary); }
+  .proj-picks { display: flex; gap: 14px; flex-wrap: wrap; font-size: 12px; color: var(--text-secondary); margin-top: 3px; }
+  .proj-picks b { color: var(--text-primary); }
+  .summary-flags { display: flex; gap: 6px; flex-wrap: wrap; }
+  .game-body { padding: 4px 16px 16px; }
+
+  .teams { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 8px; }
+  @media (max-width: 720px) { .teams { grid-template-columns: 1fr; } }
+  .headline-mobile-only { display: none; }
+  @media (max-width: 480px) {
+    /* On a narrow phone screen, a 5-column batter table squeezes "Recent
+       form" into a nearly-unreadable ribbon of wrapped text. News (most
+       players show no headline at all) gives up the least by disappearing
+       here -- a matched headline still shows up inside the expanded row
+       instead (.headline-mobile-only), just not in the collapsed table. */
+    .col-news { display: none; }
+    .headline-mobile-only { display: block; margin-bottom: 8px; }
+  }
+  .team-col { border-top: 1px solid var(--gridline); padding-top: 10px; }
+  .team-title { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; font-weight: 600; font-size: 14px; margin-bottom: 8px; }
+  .badge {
+    display: inline-flex; align-items: center; gap: 4px; font-size: 10.5px; font-weight: 700;
+    padding: 2px 7px; border-radius: 999px; line-height: 1.6; white-space: nowrap;
+  }
+  .badge-confirmed { background: var(--series-1); color: white; }
+  .badge-projected { background: var(--badge-neutral-bg); color: var(--badge-neutral-text); }
+  .badge-hot { background: var(--status-good); color: white; }
+  .badge-cold { background: var(--status-critical); color: white; }
+  .badge-injury { background: var(--status-warning); color: #1a1a19; }
+  .badge-matchup { background: var(--series-1); color: white; }
+  .badge-streak { background: var(--status-warning); color: #1a1a19; }
+  .badge-caveat { background: var(--badge-neutral-bg); color: var(--text-secondary); }
+  .badge-alert { background: var(--status-critical); color: white; }
+  .game-time { font-variant-numeric: tabular-nums; }
+  .pitcher-row { cursor: pointer; }
+  .pitcher-line { font-size: 13px; margin-bottom: 4px; color: var(--text-secondary); }
+  .pitcher-line b { color: var(--text-primary); }
+  .team-summary { list-style: disc; margin: 0 0 8px; padding-left: 18px; font-size: 12.5px; color: var(--text-secondary); }
+  .team-summary li { margin-bottom: 3px; }
+  table { width: 100%; border-collapse: collapse; font-size: 12.5px; }
+  th { text-align: left; color: var(--text-muted); font-weight: 500; font-size: 11px; padding: 5px 6px; border-bottom: 1px solid var(--gridline); }
+  td { padding: 6px; border-bottom: 1px solid var(--gridline); vertical-align: top; }
+  tbody tr:last-child td { border-bottom: none; }
+  tbody tr.player-row:nth-child(4n+1), tbody tr.player-row:nth-child(4n+2) { background: var(--surface-3); }
+  tr.player-row { cursor: pointer; }
+  tr.player-row:hover { background: var(--series-1-bg); }
+  .name-cell { font-weight: 600; }
+  .expand-arrow {
+    display: inline-block; width: 0; height: 0; margin-right: 6px; vertical-align: middle;
+    border-top: 3px solid transparent; border-bottom: 3px solid transparent;
+    border-left: 4px solid var(--text-muted);
+  }
+  .sub { color: var(--text-muted); font-size: 11px; }
+  .headline-link { color: var(--series-1); text-decoration: none; font-size: 11px; }
+  .headline-link:hover { text-decoration: underline; }
+  .empty { color: var(--text-muted); font-size: 13px; padding: 40px 20px; text-align: center; }
+
+  .best-prop { font-size: 11.5px; margin-top: 4px; padding: 3px 7px; border-radius: 6px; display: inline-block; }
+  .best-prop-over { background: var(--series-1-bg); color: var(--series-1); }
+  .best-prop-under { background: rgba(224,51,63,0.14); color: var(--status-critical); }
+  .matchup-explain { font-size: 11.5px; margin-top: 6px; padding: 5px 8px; border-radius: 6px; }
+  .matchup-explain-good { background: var(--series-1-bg); color: var(--series-1); }
+  .matchup-explain-tough { background: rgba(224,51,63,0.14); color: var(--status-critical); }
+  .matchup-explain-caveat { background: var(--badge-neutral-bg); color: var(--text-secondary); }
+  .grade-row { font-size: 12.5px; padding: 6px 8px; border-radius: 6px; margin-top: 4px; display: flex; justify-content: space-between; gap: 10px; }
+  .grade-hit { background: rgba(15,157,88,0.14); color: var(--status-good); }
+  .grade-miss { background: rgba(224,51,63,0.14); color: var(--status-critical); }
+  .grade-no_data { background: var(--badge-neutral-bg); color: var(--text-secondary); }
+
+  .prop-detail td { background: var(--surface-2); }
+  .prop-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 10px; padding: 6px 2px; }
+  .prop-cat { background: var(--surface-1); border: 1px solid var(--border); border-radius: 8px; padding: 8px 10px; }
+  .prop-cat-label { font-weight: 600; font-size: 12.5px; margin-bottom: 4px; }
+  .prop-bars { position: relative; display: flex; align-items: flex-end; gap: 3px; height: 36px; margin: 6px 0 6px; }
+  .prop-bar { position: relative; z-index: 1; flex: 1; border-radius: 2px 2px 0 0; min-height: 3px; cursor: default; }
+  .prop-bar-over { background: var(--status-good); }
+  .prop-bar-under { background: var(--status-critical); opacity: 0.85; }
+  .prop-baseline {
+    position: absolute; left: -2px; right: -2px; bottom: var(--baseline); z-index: 2;
+    border-top: 1px dashed var(--text-muted);
+  }
+  .prop-projection { font-size: 11.5px; color: var(--text-secondary); margin-bottom: 2px; }
+  .prop-projection b { color: var(--text-primary); }
+  .prop-lean-over { color: var(--status-good); font-weight: 700; }
+  .prop-lean-under { color: var(--status-critical); font-weight: 700; }
+  .prop-rate { font-size: 11.5px; color: var(--text-secondary); }
+  .prop-avg { font-size: 10.5px; color: var(--text-muted); margin-top: 4px; }
+
+  .injury-report { margin: 14px 0; }
+  .injury-report table { margin-top: 8px; }
+
+  .picks-section {
+    background: var(--surface-1); border: 1px solid var(--border); border-radius: 12px;
+    margin: 14px 0; box-shadow: var(--shadow); overflow: hidden;
+  }
+  .picks-section[open] summary.picks-summary { border-bottom: 1px solid var(--gridline); }
+  summary.picks-summary {
+    cursor: pointer; padding: 13px 16px; display: flex; align-items: center; gap: 10px; list-style: none;
+  }
+  .picks-heading { font-size: 15px; font-weight: 700; }
+  .picks-count { font-size: 12px; color: var(--text-muted); margin-left: auto; }
+  .picks-subheading { font-size: 12px; color: var(--text-muted); padding: 0 16px; margin-top: 10px; }
+  .pick-group-label {
+    font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.04em;
+    color: var(--text-muted); padding: 12px 16px 0;
+  }
+  .picks-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 10px; padding: 10px 16px 16px; }
+  .pick-card {
+    background: var(--surface-2); border: 1px solid var(--border); border-radius: 10px;
+    padding: 12px 14px;
+  }
+  .pick-card-over { border-left: 4px solid var(--status-good); }
+  .pick-card-under { border-left: 4px solid var(--status-critical); }
+  .pick-rank { font-size: 11px; color: var(--text-muted); font-weight: 700; }
+  .pick-name { font-size: 14.5px; font-weight: 700; margin: 2px 0; }
+  .pick-matchup { font-size: 12px; color: var(--text-secondary); margin-bottom: 6px; }
+  .pick-badges { display: flex; gap: 4px; flex-wrap: wrap; margin-bottom: 6px; }
+  .pick-reasons { font-size: 12px; color: var(--text-secondary); margin-bottom: 6px; padding-left: 18px; }
+  .pick-reasons li { margin-bottom: 2px; }
+  .pick-category {
+    font-size: 12.5px; font-weight: 600; border-radius: 6px; padding: 6px 8px; margin-top: 6px;
+  }
+  .pick-category-over { background: var(--series-1-bg); color: var(--series-1); }
+  .pick-category-under { background: rgba(224,51,63,0.14); color: var(--status-critical); }
+</style>
+
+</head>
+<body>
+  <div class="page">
+    <div class="header-band">
+      <div class="header-top">
+        <div>
+          <h1>Track Record</h1>
+          <div class="meta">How the picks and signals actually performed, day by day &middot; 1 day(s) graded &middot; updated 2026-07-25T19:20:54.682563+00:00</div>
+        </div>
+        <div class="header-actions">
+          <a class="nav-link" href="index.html">&larr; Back to Dashboard</a>
+          <button id="themeToggle" class="theme-toggle" type="button">Switch to dark</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="notes">
+      <b>How to read this</b><br>
+      Each day is graded from the very first report generated that day --
+      frozen before that day's games start, never a later snapshot -- so
+      nothing here can be quietly informed by that same day's own
+      results. Top Overs/Unders hit rate excludes picks where the player
+      didn't end up playing (DNP), shown separately rather than counted
+      as a miss. The trend/matchup/pitcher-form breakdowns cover every
+      flagged player that day, not just the curated Top Picks -- a
+      broader, more honest read on whether those signals predict
+      anything. Small samples (especially a single day) bounce around a
+      lot; judge the signals by the "all days" totals below, not any one
+      day in isolation.
+    </div>
+
+    <div class="stat-row">
+    <div class="stat-tile">
+      <div class="stat-value">17%</div>
+      <div class="stat-label">Top Overs hit rate, all days (1/6, 1 DNP)</div>
+    </div>
+    
+    <div class="stat-tile">
+      <div class="stat-value">62%</div>
+      <div class="stat-label">Top Unders hit rate, all days (5/8)</div>
+    </div>
+    </div>
+
+    <div class="picks-section">
+      <div class="picks-subheading" style="padding:14px 16px 0">Across every day graded so far</div>
+      <div style="padding: 0 16px 16px">
+    <div class="picks-heading" style="margin-top:16px">All days: batter trend</div>
+    <table><thead><tr><th></th><th>Games</th><th>AVG</th><th>TB/game</th></tr></thead>
+    <tbody><tr><td>HOT</td><td>16</td><td>0.158</td><td>0.62</td></tr><tr><td>COLD</td><td>26</td><td>0.244</td><td>1.15</td></tr><tr><td>NEUTRAL</td><td>43</td><td>0.221</td><td>1.16</td></tr></tbody></table>
+    
+    <div class="picks-heading" style="margin-top:16px">All days: batter matchup edge</div>
+    <table><thead><tr><th></th><th>Games</th><th>AVG</th><th>TB/game</th></tr></thead>
+    <tbody><tr><td>Favorable</td><td>18</td><td>0.185</td><td>0.78</td></tr><tr><td>Unfavorable</td><td>16</td><td>0.185</td><td>0.88</td></tr><tr><td>Neutral</td><td>51</td><td>0.237</td><td>1.22</td></tr></tbody></table>
+    
+    <div class="picks-heading" style="margin-top:16px">All days: pitcher form trend</div>
+    <table><thead><tr><th></th><th>Games</th><th>ERA</th><th>K/start</th></tr></thead>
+    <tbody><tr><td>Dominant</td><td>3</td><td>1.35</td><td>6.0</td></tr><tr><td>Rough</td><td>2</td><td>5.73</td><td>4.5</td></tr><tr><td>Neutral</td><td>5</td><td>6.48</td><td>5.0</td></tr></tbody></table>
+    </div>
+    </div>
+
+    <div class="date-heading">Day by day</div>
+    
+    <details class="game-card" open>
+      <summary class="game-summary">
+        <span class="matchup-title">2026-07-24</span>
+        <span class="game-meta">
+          Top Overs: 17% (1/6) &middot;
+          Top Unders: 62% (5/8)
+        </span>
+      </summary>
+      <div class="game-body">
+        <div class="picks-heading">Top Overs picks</div>
+        <div class="grade-row grade-miss"><span><b>Nolan Arenado</b> (batter) &mdash; RBIs 0.5</span><span>actual: 0 &middot; MISS</span></div><div class="grade-row grade-miss"><span><b>Nick Gonzales</b> (batter) &mdash; Hits 1.5</span><span>actual: 1 &middot; MISS</span></div><div class="grade-row grade-no_data"><span><b>Billy Cook</b> (batter) &mdash; RBIs 0.5</span><span>actual: DNP &middot; NO DATA</span></div><div class="grade-row grade-miss"><span><b>Tommy Edman</b> (batter) &mdash; Total Bases 1.5</span><span>actual: 0 &middot; MISS</span></div><div class="grade-row grade-miss"><span><b>Jeff McNeil</b> (batter) &mdash; RBIs 0.5</span><span>actual: 0 &middot; MISS</span></div><div class="grade-row grade-miss"><span><b>Jared Jones</b> (pitcher) &mdash; Strikeouts 5.5</span><span>actual: 5 &middot; MISS</span></div><div class="grade-row grade-hit"><span><b>Jesús Luzardo</b> (pitcher) &mdash; Strikeouts 7.5</span><span>actual: 9 &middot; HIT</span></div>
+        <div class="picks-heading" style="margin-top:14px">Top Unders picks</div>
+        <div class="grade-row grade-miss"><span><b>Ryan O&#x27;Hearn</b> (batter) &mdash; Hits 0.5</span><span>actual: 2 &middot; MISS</span></div><div class="grade-row grade-hit"><span><b>Trent Grisham</b> (batter) &mdash; Runs Scored 0.5</span><span>actual: 0 &middot; HIT</span></div><div class="grade-row grade-miss"><span><b>Romy Gonzalez</b> (batter) &mdash; Hits 0.5</span><span>actual: 1 &middot; MISS</span></div><div class="grade-row grade-hit"><span><b>Connor Wong</b> (batter) &mdash; Runs Scored 0.5</span><span>actual: 0 &middot; HIT</span></div><div class="grade-row grade-miss"><span><b>Jo Adell</b> (batter) &mdash; Hits 0.5</span><span>actual: 1 &middot; MISS</span></div><div class="grade-row grade-hit"><span><b>Jorge Soler</b> (batter) &mdash; Home Runs 0.5</span><span>actual: 0 &middot; HIT</span></div><div class="grade-row grade-hit"><span><b>Jared Jones</b> (pitcher) &mdash; Runs Allowed 1.5</span><span>actual: 1 &middot; HIT</span></div><div class="grade-row grade-hit"><span><b>Jesús Luzardo</b> (pitcher) &mdash; Runs Allowed 1.5</span><span>actual: 1 &middot; HIT</span></div>
+        
+    <div class="picks-heading" style="margin-top:16px">Batter trend that day (every flagged batter, not just Top Picks)</div>
+    <table><thead><tr><th></th><th>Games</th><th>AVG</th><th>TB/game</th></tr></thead>
+    <tbody><tr><td>HOT</td><td>16</td><td>0.158</td><td>0.62</td></tr><tr><td>COLD</td><td>26</td><td>0.244</td><td>1.15</td></tr><tr><td>NEUTRAL</td><td>43</td><td>0.221</td><td>1.16</td></tr></tbody></table>
+    
+        
+    <div class="picks-heading" style="margin-top:16px">Batter matchup edge that day</div>
+    <table><thead><tr><th></th><th>Games</th><th>AVG</th><th>TB/game</th></tr></thead>
+    <tbody><tr><td>Favorable</td><td>18</td><td>0.185</td><td>0.78</td></tr><tr><td>Unfavorable</td><td>16</td><td>0.185</td><td>0.88</td></tr><tr><td>Neutral</td><td>51</td><td>0.237</td><td>1.22</td></tr></tbody></table>
+    
+        
+    <div class="picks-heading" style="margin-top:16px">Pitcher form trend that day</div>
+    <table><thead><tr><th></th><th>Games</th><th>ERA</th><th>K/start</th></tr></thead>
+    <tbody><tr><td>Dominant</td><td>3</td><td>1.35</td><td>6.0</td></tr><tr><td>Rough</td><td>2</td><td>5.73</td><td>4.5</td></tr><tr><td>Neutral</td><td>5</td><td>6.48</td><td>5.0</td></tr></tbody></table>
+    
+      </div>
+    </details>
+    
+  </div>
+
+<script>
+function applyFilters() {
+  const date = document.getElementById('dateFilter').value;
+  const role = document.getElementById('roleFilter').value;
+  const search = document.getElementById('searchBox').value.trim().toLowerCase();
+  const confirmedOnly = document.getElementById('confirmedOnly').checked;
+  let visible = 0;
+  document.querySelectorAll('.game-card').forEach(function (card) {
+    let show = true;
+    if (date !== 'all' && card.dataset.date !== date) show = false;
+    if (confirmedOnly && card.dataset.confirmed !== 'true') show = false;
+    if (search && card.dataset.search.indexOf(search) === -1) show = false;
+    card.style.display = show ? '' : 'none';
+    if (show) visible++;
+    card.querySelectorAll('.pitcher-block').forEach(function (el) {
+      el.style.display = (role === 'pitchers' || role === 'all') ? '' : 'none';
+    });
+    card.querySelectorAll('.batter-block').forEach(function (el) {
+      el.style.display = (role === 'batters' || role === 'all') ? '' : 'none';
+    });
+  });
+  document.querySelectorAll('[data-date-group]').forEach(function (group) {
+    let anyVisible = false;
+    group.querySelectorAll('.game-card').forEach(function (c) { if (c.style.display !== 'none') anyVisible = true; });
+    group.style.display = anyVisible ? '' : 'none';
+  });
+  document.getElementById('resultCount').textContent = visible + ' game' + (visible === 1 ? '' : 's') + ' shown';
+}
+function applyCategoryFilter() {
+  const cat = document.getElementById('categoryFilter').value;
+  document.querySelectorAll('.prop-cat').forEach(function (el) {
+    el.style.display = (cat === 'all' || el.dataset.category === cat) ? '' : 'none';
+  });
+  document.querySelectorAll('.prop-detail').forEach(function (row) {
+    if (cat === 'all') {
+      row.style.display = 'none';
+      return;
+    }
+    const match = row.querySelector('.prop-cat[data-category="' + cat + '"]');
+    row.style.display = match ? 'table-row' : 'none';
+  });
+}
+function toggleDetail(id) {
+  const row = document.getElementById(id);
+  if (row) row.style.display = (row.style.display === 'none' || !row.style.display) ? 'table-row' : 'none';
+}
+function localizeGameTimes() {
+  document.querySelectorAll('.game-time').forEach(function (el) {
+    const iso = el.dataset.utc;
+    if (!iso) return;
+    const d = new Date(iso);
+    if (isNaN(d.getTime())) return;
+    el.textContent = d.toLocaleString([], {
+      weekday: 'short', month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit'
+    });
+  });
+}
+function initTheme() {
+  const saved = localStorage.getItem('theme');
+  if (saved) document.documentElement.setAttribute('data-theme', saved);
+  const btn = document.getElementById('themeToggle');
+  if (!btn) return;
+  function updateLabel() {
+    const current = document.documentElement.getAttribute('data-theme');
+    const isDark = current ? current === 'dark' : window.matchMedia('(prefers-color-scheme: dark)').matches;
+    btn.textContent = isDark ? 'Switch to light' : 'Switch to dark';
+  }
+  btn.addEventListener('click', function () {
+    const current = document.documentElement.getAttribute('data-theme');
+    const isDark = current ? current === 'dark' : window.matchMedia('(prefers-color-scheme: dark)').matches;
+    const next = isDark ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-theme', next);
+    localStorage.setItem('theme', next);
+    updateLabel();
+  });
+  updateLabel();
+}
+document.addEventListener('DOMContentLoaded', function () {
+  // Guarded as a whole, not element-by-element: this script is shared with
+  // pages (like track-record.html) that have no filter toolbar at all --
+  // any one of these calling .addEventListener on a missing element would
+  // throw and abort the rest of this handler, silently breaking initTheme()
+  // and localizeGameTimes() too even though neither depends on the toolbar.
+  if (document.getElementById('dateFilter')) {
+    document.getElementById('dateFilter').addEventListener('change', applyFilters);
+    document.getElementById('roleFilter').addEventListener('change', applyFilters);
+    document.getElementById('searchBox').addEventListener('input', applyFilters);
+    document.getElementById('confirmedOnly').addEventListener('change', applyFilters);
+    document.getElementById('categoryFilter').addEventListener('change', applyCategoryFilter);
+    applyFilters();
+    applyCategoryFilter();
+  }
+  initTheme();
+  localizeGameTimes();
+});
+</script>
+
+</body>
+</html>

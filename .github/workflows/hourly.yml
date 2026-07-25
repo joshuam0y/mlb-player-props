@@ -77,6 +77,16 @@ jobs:
         run: python pull/sync_results.py
         continue-on-error: true
 
+      # Grades yesterday's picks/signals against actual results and
+      # appends to output/track_record.json -- idempotent (re-grading an
+      # already-graded date just recomputes it), so running this every
+      # hour is harmless and self-correcting if an extra-innings game
+      # finishes late. build_props.py (next step) reads track_record.json
+      # to rebuild the Track Record page, so this has to run first.
+      - name: Grade yesterday's picks against results
+        run: python pull/grade_picks.py
+        continue-on-error: true
+
       - name: Simulate upcoming games
         run: python pull/simulate_games.py
         continue-on-error: true

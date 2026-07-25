@@ -31,6 +31,7 @@ from datetime import datetime, timedelta, timezone
 import api
 from db import CAREER_SEASON, get_conn, init_db
 from game_model import team_bullpen_fatigue
+import render_track_record
 from render_dashboard import render_html
 from sync_teams_and_roster import upsert_player_bio
 
@@ -1196,16 +1197,30 @@ def run(days_ahead=2, write_archive=True):
     # skippable on the frequent quick-refresh cycle (see quick-refresh.yml)
     # where it'd just get overwritten again in minutes anyway -- every skip
     # halves that run's commit size for zero loss of information. The
-    # hourly job still writes it, so a real once-an-hour-ish snapshot trail
-    # survives in output/props_YYYY-MM-DD.json.
+    # hourly job still writes it -- but only the FIRST time that day (never
+    # overwritten again after), so it freezes the earliest same-day
+    # snapshot rather than whatever the last hourly run before midnight
+    # happened to look like. That matters for grade_picks.py: a LATE-day
+    # snapshot could already have some of that day's own game results
+    # folded into a batter's rolling stats by the time it's written, which
+    # would make "here's what was predicted" quietly include a bit of
+    # "here's what already happened" -- a real look-ahead leak for grading
+    # purposes, even though it's a non-issue for the live dashboard itself.
     if write_archive:
         archive_path = os.path.join(OUT_DIR, f"props_{today}.json")
-        with open(archive_path, "w") as f:
-            json.dump(report, f, indent=2, default=str)
+        if not os.path.exists(archive_path):
+            with open(archive_path, "w") as f:
+                json.dump(report, f, indent=2, default=str)
 
     html_path = os.path.join(OUT_DIR, "index.html")
     with open(html_path, "w") as f:
         f.write(render_html(report))
+
+    # Regenerated every time build_props runs (hourly or quick-refresh)
+    # rather than only after grade_picks.py runs, so the two pages can
+    # never drift out of sync with each other -- this just re-reads
+    # whatever's in track_record.json, no DB access, effectively free.
+    render_track_record.run()
 
     print(f"Wrote report for {len(report['games'])} games to {json_path}, {md_path}, {html_path}")
 
