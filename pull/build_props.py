@@ -767,6 +767,9 @@ def pitcher_matchup_summary(opp_batters):
     return {"tough_matchups": tough_for_batters, "exploitable_matchups": exploitable_by_batters}
 
 
+PITCHER_ROUGH_FORM_PENALTY = 1.5  # a pitcher actively getting hit hard lately shouldn't score into a Top Over/Under on matchup alone
+
+
 def pitcher_strikeout_over_score(p):
     """Signals favoring the strikeout OVER: pitching better than usual lately, and/or a lineup full of bad matchups for the batters facing him."""
     score = 0.0
@@ -774,6 +777,13 @@ def pitcher_strikeout_over_score(p):
     if p.get("form_trend") == "dominant":
         score += 1.5
         reasons.append("pitching well above his season norm over his last few starts")
+    elif p.get("form_trend") == "rough":
+        # A pitcher who's actively getting rocked lately is typically also
+        # getting pulled early -- fewer innings means a real cap on his
+        # strikeout upside no matter how favorable tonight's matchup looks
+        # on paper, so this drags the score down rather than just not
+        # helping it.
+        score -= PITCHER_ROUGH_FORM_PENALTY
     tough = (p.get("opponent_matchup") or {}).get("tough_matchups") or []
     if len(tough) >= PITCHER_TOUGH_MATCHUP_COUNT:
         score += 2.0
@@ -791,6 +801,11 @@ def pitcher_runs_under_score(p):
     if p.get("form_trend") == "dominant":
         score += 1.5
         reasons.append("allowing fewer runs than usual over his last few starts")
+    elif p.get("form_trend") == "rough":
+        # The direct opposite of the "under" thesis -- he's been allowing
+        # MORE runs than usual, not fewer, so this should count against a
+        # clean-outing bet, not just sit neutral.
+        score -= PITCHER_ROUGH_FORM_PENALTY
     tough = (p.get("opponent_matchup") or {}).get("tough_matchups") or []
     if len(tough) >= PITCHER_TOUGH_MATCHUP_COUNT:
         score += 1.5
