@@ -131,32 +131,48 @@
   .summary-flags { display: flex; gap: 6px; flex-wrap: wrap; }
   .game-body { padding: 4px 16px 16px; }
 
-  /* min-width: 0 overrides a grid item's default min-width: auto, which
-     otherwise grows the track to fit a child's intrinsic content size (the
-     boxscore table's min-width below) instead of letting .table-scroll
-     contain that overflow in its own scrollbar. */
-  .teams { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 8px; min-width: 0; }
-  .teams > .team-col { min-width: 0; }
+  .teams { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 8px; }
   @media (max-width: 720px) { .teams { grid-template-columns: 1fr; } }
   .headline-mobile-only { display: none; }
-  @media (max-width: 480px) {
-    /* On a narrow phone screen, a 5-column batter table squeezes "Recent
-       form" into a nearly-unreadable ribbon of wrapped text. News (most
-       players show no headline at all) gives up the least by disappearing
-       here -- a matched headline still shows up inside the expanded row
-       instead (.headline-mobile-only), just not in the collapsed table. */
+  .team-col { border-top: 1px solid var(--gridline); padding-top: 10px; }
+  .table-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+
+  /* Below 640px, a 5-column batter table has no honest way to fit --
+     shrinking columns squeezes "Recent form" into an unreadable ribbon,
+     and letting the table scroll horizontally (an earlier attempt) just
+     hid that same column off-screen, leaving a tall, apparently-empty gray
+     row with no visible hint there was more to see. A real per-player CARD
+     (each cell stacked full-width, relabeled via ::before since the column
+     headers no longer apply) is the only version of this that's actually
+     readable on a phone -- the same pattern MLB.com's own mobile boxscore
+     uses instead of a cramped table. */
+  @media (max-width: 640px) {
+    .table-scroll { overflow-x: visible; }
+    .table-scroll table { min-width: 0; }
     .col-news { display: none; }
     .headline-mobile-only { display: block; margin-bottom: 8px; }
+    .batter-block table, .batter-block tbody { display: block; width: 100%; }
+    .batter-block thead { display: none; }
+    .batter-block tr.player-row {
+      display: block; border: 1px solid var(--border); border-radius: 8px;
+      padding: 10px 12px; margin-bottom: 8px; background: var(--surface-1) !important;
+    }
+    .batter-block tr.prop-detail { display: block; }
+    .batter-block td { display: block; padding: 3px 0; border: none; }
+    .batter-block td[data-label]::before {
+      content: attr(data-label); display: block; font-size: 9.5px; font-weight: 700;
+      color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.03em;
+    }
+    .batter-block td[data-label="Batter"]::before,
+    .batter-block td[data-label="Order"]::before { content: none; }
+    .batter-block td[data-label="Order"] { display: inline; margin-right: 6px; font-weight: 700; color: var(--text-muted); }
+    .batter-block td[data-label="Batter"] { display: inline; }
+    .batter-block td[data-label="Flags"]:empty { display: none; }
+    /* .batter-block td's own display:block above outranks the plain
+       .col-news rule (higher specificity), so it has to be re-stated here
+       against the actual cell selector to still take effect. */
+    .batter-block td.col-news { display: none; }
   }
-  .team-col { border-top: 1px solid var(--gridline); padding-top: 10px; }
-  /* details.game-card clips (overflow: hidden) anything wider than the card
-     itself -- on a narrow phone, Order+Batter+Flags+the box-score grid can
-     add up to more than the viewport, and without its own scroll container
-     that overflow was simply unreachable rather than just requiring a
-     swipe. min-width forces a real horizontal scrollbar to appear instead
-     of the columns being squeezed into an unreadable ribbon. */
-  .table-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; }
-  .table-scroll table { min-width: 540px; }
   .team-title { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; font-weight: 600; font-size: 14px; margin-bottom: 8px; }
   .badge {
     display: inline-flex; align-items: center; gap: 4px; font-size: 10.5px; font-weight: 700;
@@ -465,7 +481,11 @@ function applyCategoryFilter() {
 }
 function toggleDetail(id) {
   const row = document.getElementById(id);
-  if (row) row.style.display = (row.style.display === 'none' || !row.style.display) ? 'table-row' : 'none';
+  // '' (not a hardcoded 'table-row') so the CSS cascade decides the shown
+  // display value -- a mobile media query turns this same row into a
+  // stacked block instead of a table-row, and a hardcoded value here would
+  // silently win over that rule (inline styles beat stylesheet rules).
+  if (row) row.style.display = (row.style.display === 'none' || !row.style.display) ? '' : 'none';
 }
 function localizeGameTimes() {
   document.querySelectorAll('.game-time').forEach(function (el) {
