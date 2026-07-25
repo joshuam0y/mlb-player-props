@@ -885,7 +885,7 @@ def pitcher_best_category(p, label):
     return None
 
 
-def build_top_picks(report_games, batter_limit=8, pitcher_limit=4):
+def build_top_picks(report_games, batter_limit=15, pitcher_limit=8):
     """
     Cross-game leaderboards: the best OVER and UNDER candidates across the
     *entire* day/date range, not buried inside each game's card. Excludes

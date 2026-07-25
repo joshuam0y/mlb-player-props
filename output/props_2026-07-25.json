@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-25T06:19:14.886953+00:00",
+  "generated_at": "2026-07-25T06:22:20.494367+00:00",
   "range": [
     "2026-07-25",
     "2026-07-27"
@@ -331458,6 +331458,160 @@
           "season_pct": 30,
           "delta": 20
         }
+      },
+      {
+        "role": "batter",
+        "player_id": 571448,
+        "name": "Nolan Arenado",
+        "team": "Arizona Diamondbacks",
+        "opponent": "Washington Nationals",
+        "date": "2026-07-25",
+        "lineup_confirmed": false,
+        "score": 2.5,
+        "reasons": [
+          "real hot streak (not just lucky bloops)",
+          "6-game hit streak"
+        ],
+        "best_category": {
+          "label": "RBIs",
+          "line": 0.5,
+          "pct": 70,
+          "n": 10,
+          "season_pct": 32,
+          "delta": 38
+        }
+      },
+      {
+        "role": "batter",
+        "player_id": 693304,
+        "name": "Nick Gonzales",
+        "team": "Pittsburgh Pirates",
+        "opponent": "Chicago Cubs",
+        "date": "2026-07-25",
+        "lineup_confirmed": false,
+        "score": 2.5,
+        "reasons": [
+          "real hot streak (not just lucky bloops)",
+          "8-game hit streak"
+        ],
+        "best_category": {
+          "label": "Hits",
+          "line": 1.5,
+          "pct": 50,
+          "n": 10,
+          "season_pct": 32,
+          "delta": 18
+        }
+      },
+      {
+        "role": "batter",
+        "player_id": 683737,
+        "name": "Michael Busch",
+        "team": "Chicago Cubs",
+        "opponent": "Pittsburgh Pirates",
+        "date": "2026-07-25",
+        "lineup_confirmed": false,
+        "score": 2.5,
+        "reasons": [
+          "real hot streak (not just lucky bloops)",
+          "8-game hit streak"
+        ],
+        "best_category": {
+          "label": "Hits",
+          "line": 0.5,
+          "pct": 90,
+          "n": 10,
+          "season_pct": 62,
+          "delta": 28
+        }
+      },
+      {
+        "role": "batter",
+        "player_id": 670623,
+        "name": "Isaac Paredes",
+        "team": "Houston Astros",
+        "opponent": "Chicago White Sox",
+        "date": "2026-07-25",
+        "lineup_confirmed": false,
+        "score": 2.5,
+        "reasons": [
+          "real hot streak (not just lucky bloops)",
+          "8-game hit streak"
+        ],
+        "best_category": {
+          "label": "Hits",
+          "line": 1.5,
+          "pct": 50,
+          "n": 10,
+          "season_pct": 24,
+          "delta": 26
+        }
+      },
+      {
+        "role": "batter",
+        "player_id": 670541,
+        "name": "Yordan Alvarez",
+        "team": "Houston Astros",
+        "opponent": "Chicago White Sox",
+        "date": "2026-07-25",
+        "lineup_confirmed": false,
+        "score": 2.5,
+        "reasons": [
+          "real hot streak (not just lucky bloops)",
+          "9-game hit streak"
+        ],
+        "best_category": {
+          "label": "Hits",
+          "line": 1.5,
+          "pct": 70,
+          "n": 10,
+          "season_pct": 34,
+          "delta": 36
+        }
+      },
+      {
+        "role": "batter",
+        "player_id": 571448,
+        "name": "Nolan Arenado",
+        "team": "Arizona Diamondbacks",
+        "opponent": "Washington Nationals",
+        "date": "2026-07-26",
+        "lineup_confirmed": false,
+        "score": 2.5,
+        "reasons": [
+          "real hot streak (not just lucky bloops)",
+          "6-game hit streak"
+        ],
+        "best_category": {
+          "label": "RBIs",
+          "line": 0.5,
+          "pct": 70,
+          "n": 10,
+          "season_pct": 32,
+          "delta": 38
+        }
+      },
+      {
+        "role": "batter",
+        "player_id": 693304,
+        "name": "Nick Gonzales",
+        "team": "Pittsburgh Pirates",
+        "opponent": "Chicago Cubs",
+        "date": "2026-07-26",
+        "lineup_confirmed": false,
+        "score": 2.5,
+        "reasons": [
+          "real hot streak (not just lucky bloops)",
+          "8-game hit streak"
+        ],
+        "best_category": {
+          "label": "Hits",
+          "line": 1.5,
+          "pct": 50,
+          "n": 10,
+          "season_pct": 32,
+          "delta": 18
+        }
       }
     ],
     "pitchers": [
@@ -331535,6 +331689,82 @@
         "best_category": {
           "label": "Strikeouts",
           "line": 5.5,
+          "pct": 40,
+          "n": 5
+        }
+      },
+      {
+        "role": "pitcher",
+        "player_id": 690997,
+        "name": "Nolan McLean",
+        "team": "New York Mets",
+        "opponent": "Los Angeles Dodgers",
+        "date": "2026-07-25",
+        "lineup_confirmed": true,
+        "score": 2.0,
+        "reasons": [
+          "3 hitters in tonight's lineup are in a tough matchup against him"
+        ],
+        "best_category": {
+          "label": "Strikeouts",
+          "line": 7.5,
+          "pct": 40,
+          "n": 5
+        }
+      },
+      {
+        "role": "pitcher",
+        "player_id": 808967,
+        "name": "Yoshinobu Yamamoto",
+        "team": "Los Angeles Dodgers",
+        "opponent": "New York Mets",
+        "date": "2026-07-25",
+        "lineup_confirmed": true,
+        "score": 2.0,
+        "reasons": [
+          "3 hitters in tonight's lineup are in a tough matchup against him"
+        ],
+        "best_category": {
+          "label": "Strikeouts",
+          "line": 6.5,
+          "pct": 40,
+          "n": 5
+        }
+      },
+      {
+        "role": "pitcher",
+        "player_id": 669854,
+        "name": "Ronel Blanco",
+        "team": "Houston Astros",
+        "opponent": "Chicago White Sox",
+        "date": "2026-07-26",
+        "lineup_confirmed": true,
+        "score": 2.0,
+        "reasons": [
+          "4 hitters in tonight's lineup are in a tough matchup against him"
+        ],
+        "best_category": {
+          "label": "Strikeouts",
+          "line": 7.5,
+          "pct": 40,
+          "n": 5
+        }
+      },
+      {
+        "role": "pitcher",
+        "player_id": 592662,
+        "name": "Robbie Ray",
+        "team": "San Francisco Giants",
+        "opponent": "Los Angeles Angels",
+        "date": "2026-07-25",
+        "lineup_confirmed": true,
+        "score": 1.5,
+        "reasons": [
+          "pitching well above his season norm over his last few starts"
+        ],
+        "best_category": {
+          "label": "Strikeouts",
+          "line": 4.5,
           "pct": 40,
           "n": 5
         }
@@ -331718,6 +331948,151 @@
           "season_pct": 50,
           "delta": -30
         }
+      },
+      {
+        "role": "batter",
+        "player_id": 605141,
+        "name": "Mookie Betts",
+        "team": "Los Angeles Dodgers",
+        "opponent": "New York Mets",
+        "date": "2026-07-25",
+        "lineup_confirmed": false,
+        "score": 3.0,
+        "reasons": [
+          "cold recent stretch (well below season average)",
+          "tough matchup vs. tonight's pitcher"
+        ],
+        "best_category": {
+          "label": "Total Bases",
+          "line": 1.5,
+          "pct": 10,
+          "n": 10,
+          "season_pct": 38,
+          "delta": -28
+        }
+      },
+      {
+        "role": "batter",
+        "player_id": 593428,
+        "name": "Xander Bogaerts",
+        "team": "San Diego Padres",
+        "opponent": "Miami Marlins",
+        "date": "2026-07-26",
+        "lineup_confirmed": false,
+        "score": 3.0,
+        "reasons": [
+          "cold recent stretch (well below season average)",
+          "tough matchup vs. tonight's pitcher"
+        ],
+        "best_category": {
+          "label": "RBIs",
+          "line": 0.5,
+          "pct": 20,
+          "n": 10,
+          "season_pct": 28,
+          "delta": -8
+        }
+      },
+      {
+        "role": "batter",
+        "player_id": 669134,
+        "name": "Luis Campusano",
+        "team": "San Diego Padres",
+        "opponent": "Miami Marlins",
+        "date": "2026-07-26",
+        "lineup_confirmed": false,
+        "score": 3.0,
+        "reasons": [
+          "cold recent stretch (well below season average)",
+          "tough matchup vs. tonight's pitcher"
+        ],
+        "best_category": {
+          "label": "RBIs",
+          "line": 0.5,
+          "pct": 20,
+          "n": 10,
+          "season_pct": 29,
+          "delta": -9
+        }
+      },
+      {
+        "role": "batter",
+        "player_id": 669477,
+        "name": "Casey Schmitt",
+        "team": "San Francisco Giants",
+        "opponent": "Los Angeles Angels",
+        "date": "2026-07-26",
+        "lineup_confirmed": false,
+        "score": 3.0,
+        "reasons": [
+          "cold recent stretch (well below season average)",
+          "tough matchup vs. tonight's pitcher"
+        ],
+        "best_category": null
+      },
+      {
+        "role": "batter",
+        "player_id": 663757,
+        "name": "Trent Grisham",
+        "team": "New York Yankees",
+        "opponent": "Philadelphia Phillies",
+        "date": "2026-07-26",
+        "lineup_confirmed": false,
+        "score": 3.0,
+        "reasons": [
+          "cold recent stretch (well below season average)",
+          "tough matchup vs. tonight's pitcher"
+        ],
+        "best_category": {
+          "label": "Runs Scored",
+          "line": 0.5,
+          "pct": 40,
+          "n": 10,
+          "season_pct": 45,
+          "delta": -5
+        }
+      },
+      {
+        "role": "batter",
+        "player_id": 682998,
+        "name": "Corbin Carroll",
+        "team": "Arizona Diamondbacks",
+        "opponent": "Washington Nationals",
+        "date": "2026-07-25",
+        "lineup_confirmed": false,
+        "score": 1.5,
+        "reasons": [
+          "tough matchup vs. tonight's pitcher"
+        ],
+        "best_category": {
+          "label": "Hits",
+          "line": 0.5,
+          "pct": 60,
+          "n": 10,
+          "season_pct": 67,
+          "delta": -7
+        }
+      },
+      {
+        "role": "batter",
+        "player_id": 596146,
+        "name": "Max Kepler",
+        "team": "Arizona Diamondbacks",
+        "opponent": "Washington Nationals",
+        "date": "2026-07-25",
+        "lineup_confirmed": false,
+        "score": 1.5,
+        "reasons": [
+          "tough matchup vs. tonight's pitcher"
+        ],
+        "best_category": {
+          "label": "Total Bases",
+          "line": 1.5,
+          "pct": 30,
+          "n": 10,
+          "season_pct": 34,
+          "delta": -4
+        }
       }
     ],
     "pitchers": [
@@ -331794,6 +332169,82 @@
         "best_category": {
           "label": "Runs Allowed",
           "line": 2.5,
+          "pct": 20,
+          "n": 5
+        }
+      },
+      {
+        "role": "pitcher",
+        "player_id": 676664,
+        "name": "JP Sears",
+        "team": "San Diego Padres",
+        "opponent": "Miami Marlins",
+        "date": "2026-07-25",
+        "lineup_confirmed": true,
+        "score": 1.5,
+        "reasons": [
+          "5 hitters in tonight's lineup are in a tough matchup against him"
+        ],
+        "best_category": {
+          "label": "Runs Allowed",
+          "line": 2.5,
+          "pct": 40,
+          "n": 5
+        }
+      },
+      {
+        "role": "pitcher",
+        "player_id": 543243,
+        "name": "Sonny Gray",
+        "team": "Boston Red Sox",
+        "opponent": "Toronto Blue Jays",
+        "date": "2026-07-25",
+        "lineup_confirmed": true,
+        "score": 1.5,
+        "reasons": [
+          "allowing fewer runs than usual over his last few starts"
+        ],
+        "best_category": {
+          "label": "Runs Allowed",
+          "line": 1.5,
+          "pct": 0,
+          "n": 5
+        }
+      },
+      {
+        "role": "pitcher",
+        "player_id": 687064,
+        "name": "Brandon Young",
+        "team": "Baltimore Orioles",
+        "opponent": "Atlanta Braves",
+        "date": "2026-07-25",
+        "lineup_confirmed": true,
+        "score": 1.5,
+        "reasons": [
+          "allowing fewer runs than usual over his last few starts"
+        ],
+        "best_category": {
+          "label": "Runs Allowed",
+          "line": 2.5,
+          "pct": 40,
+          "n": 5
+        }
+      },
+      {
+        "role": "pitcher",
+        "player_id": 680732,
+        "name": "Sean Burke",
+        "team": "Chicago White Sox",
+        "opponent": "Houston Astros",
+        "date": "2026-07-25",
+        "lineup_confirmed": true,
+        "score": 1.5,
+        "reasons": [
+          "allowing fewer runs than usual over his last few starts"
+        ],
+        "best_category": {
+          "label": "Runs Allowed",
+          "line": 1.5,
           "pct": 20,
           "n": 5
         }

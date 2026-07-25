@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-07-25T06:19:14.886953+00:00_
+_Generated 2026-07-25T06:22:20.494367+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -11,12 +11,23 @@ _Generated 2026-07-25T06:19:14.886953+00:00_
 - **Tommy Edman** (Los Angeles Dodgers vs New York Mets): real hot streak (not just lucky bloops), favorable matchup vs. tonight's pitcher -- try Total Bases: 60% over 1.5 recently (vs. 10-game sample)
 - **Evan Carter** (Texas Rangers vs Seattle Mariners): real hot streak (not just lucky bloops), favorable matchup vs. tonight's pitcher -- try Total Bases: 30% over 1.5 recently (vs. 10-game sample)
 - **Brandon Nimmo** (Texas Rangers vs Seattle Mariners): real hot streak (not just lucky bloops), favorable matchup vs. tonight's pitcher -- try Hits: 50% over 1.5 recently (vs. 10-game sample)
+- **Nolan Arenado** (Arizona Diamondbacks vs Washington Nationals): real hot streak (not just lucky bloops), 6-game hit streak -- try RBIs: 70% over 0.5 recently (vs. 10-game sample)
+- **Nick Gonzales** (Pittsburgh Pirates vs Chicago Cubs): real hot streak (not just lucky bloops), 8-game hit streak -- try Hits: 50% over 1.5 recently (vs. 10-game sample)
+- **Michael Busch** (Chicago Cubs vs Pittsburgh Pirates): real hot streak (not just lucky bloops), 8-game hit streak -- try Hits: 90% over 0.5 recently (vs. 10-game sample)
+- **Isaac Paredes** (Houston Astros vs Chicago White Sox): real hot streak (not just lucky bloops), 8-game hit streak -- try Hits: 50% over 1.5 recently (vs. 10-game sample)
+- **Yordan Alvarez** (Houston Astros vs Chicago White Sox): real hot streak (not just lucky bloops), 9-game hit streak -- try Hits: 70% over 1.5 recently (vs. 10-game sample)
+- **Nolan Arenado** (Arizona Diamondbacks vs Washington Nationals): real hot streak (not just lucky bloops), 6-game hit streak -- try RBIs: 70% over 0.5 recently (vs. 10-game sample)
+- **Nick Gonzales** (Pittsburgh Pirates vs Chicago Cubs): real hot streak (not just lucky bloops), 8-game hit streak -- try Hits: 50% over 1.5 recently (vs. 10-game sample)
 
 ### Pitchers
 - **Eury Pérez** (Miami Marlins vs San Diego Padres): pitching well above his season norm over his last few starts, 5 hitters in tonight's lineup are in a tough matchup against him -- try Strikeouts: 60% over 6.5 recently (vs. 5-game sample)
 - **Foster Griffin** (Washington Nationals vs Arizona Diamondbacks): pitching well above his season norm over his last few starts, 2 hitter(s) in tonight's lineup are in a tough matchup against him -- try Strikeouts: 60% over 5.5 recently (vs. 5-game sample)
 - **JP Sears** (San Diego Padres vs Miami Marlins): 5 hitters in tonight's lineup are in a tough matchup against him -- try Strikeouts: 40% over 4.5 recently (vs. 5-game sample)
 - **Bryan Woo** (Seattle Mariners vs Texas Rangers): 5 hitters in tonight's lineup are in a tough matchup against him -- try Strikeouts: 40% over 5.5 recently (vs. 5-game sample)
+- **Nolan McLean** (New York Mets vs Los Angeles Dodgers): 3 hitters in tonight's lineup are in a tough matchup against him -- try Strikeouts: 40% over 7.5 recently (vs. 5-game sample)
+- **Yoshinobu Yamamoto** (Los Angeles Dodgers vs New York Mets): 3 hitters in tonight's lineup are in a tough matchup against him -- try Strikeouts: 40% over 6.5 recently (vs. 5-game sample)
+- **Ronel Blanco** (Houston Astros vs Chicago White Sox): 4 hitters in tonight's lineup are in a tough matchup against him -- try Strikeouts: 40% over 7.5 recently (vs. 5-game sample)
+- **Robbie Ray** (San Francisco Giants vs Los Angeles Angels): pitching well above his season norm over his last few starts -- try Strikeouts: 40% over 4.5 recently (vs. 5-game sample)
 
 ## Today's Top Unders
 ### Batters
@@ -28,12 +39,23 @@ _Generated 2026-07-25T06:19:14.886953+00:00_
 - **Ryan Kreidler** (Minnesota Twins vs Athletics): cold recent stretch (well below season average), tough matchup vs. tonight's pitcher -- try Walks: 0% over 0.5 recently (vs. 10-game sample)
 - **Royce Lewis** (Minnesota Twins vs Athletics): cold recent stretch (well below season average), tough matchup vs. tonight's pitcher -- try Total Bases: 30% over 1.5 recently (vs. 10-game sample)
 - **Austin Martin** (Minnesota Twins vs Athletics): cold recent stretch (well below season average), tough matchup vs. tonight's pitcher -- try Hits: 20% over 0.5 recently (vs. 10-game sample)
+- **Mookie Betts** (Los Angeles Dodgers vs New York Mets): cold recent stretch (well below season average), tough matchup vs. tonight's pitcher -- try Total Bases: 10% over 1.5 recently (vs. 10-game sample)
+- **Xander Bogaerts** (San Diego Padres vs Miami Marlins): cold recent stretch (well below season average), tough matchup vs. tonight's pitcher -- try RBIs: 20% over 0.5 recently (vs. 10-game sample)
+- **Luis Campusano** (San Diego Padres vs Miami Marlins): cold recent stretch (well below season average), tough matchup vs. tonight's pitcher -- try RBIs: 20% over 0.5 recently (vs. 10-game sample)
+- **Casey Schmitt** (San Francisco Giants vs Los Angeles Angels): cold recent stretch (well below season average), tough matchup vs. tonight's pitcher
+- **Trent Grisham** (New York Yankees vs Philadelphia Phillies): cold recent stretch (well below season average), tough matchup vs. tonight's pitcher -- try Runs Scored: 40% over 0.5 recently (vs. 10-game sample)
+- **Corbin Carroll** (Arizona Diamondbacks vs Washington Nationals): tough matchup vs. tonight's pitcher -- try Hits: 60% over 0.5 recently (vs. 10-game sample)
+- **Max Kepler** (Arizona Diamondbacks vs Washington Nationals): tough matchup vs. tonight's pitcher -- try Total Bases: 30% over 1.5 recently (vs. 10-game sample)
 
 ### Pitchers
 - **Eury Pérez** (Miami Marlins vs San Diego Padres): allowing fewer runs than usual over his last few starts, 5 hitters in tonight's lineup are in a tough matchup against him -- try Runs Allowed: 20% over 1.5 recently (vs. 5-game sample)
 - **Foster Griffin** (Washington Nationals vs Arizona Diamondbacks): allowing fewer runs than usual over his last few starts -- try Runs Allowed: 0% over 1.5 recently (vs. 5-game sample)
 - **Robbie Ray** (San Francisco Giants vs Los Angeles Angels): allowing fewer runs than usual over his last few starts -- try Runs Allowed: 20% over 1.5 recently (vs. 5-game sample)
 - **Ryan Johnson** (Los Angeles Angels vs San Francisco Giants): allowing fewer runs than usual over his last few starts -- try Runs Allowed: 20% over 2.5 recently (vs. 5-game sample)
+- **JP Sears** (San Diego Padres vs Miami Marlins): 5 hitters in tonight's lineup are in a tough matchup against him -- try Runs Allowed: 40% over 2.5 recently (vs. 5-game sample)
+- **Sonny Gray** (Boston Red Sox vs Toronto Blue Jays): allowing fewer runs than usual over his last few starts -- try Runs Allowed: 0% over 1.5 recently (vs. 5-game sample)
+- **Brandon Young** (Baltimore Orioles vs Atlanta Braves): allowing fewer runs than usual over his last few starts -- try Runs Allowed: 40% over 2.5 recently (vs. 5-game sample)
+- **Sean Burke** (Chicago White Sox vs Houston Astros): allowing fewer runs than usual over his last few starts -- try Runs Allowed: 20% over 1.5 recently (vs. 5-game sample)
 
 ## 2026-07-25 - Kansas City Royals @ Detroit Tigers (Scheduled)
 _Comerica Park [pitcher-friendly park]_
