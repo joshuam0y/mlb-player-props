@@ -214,6 +214,9 @@ STYLE = """
   .best-prop { font-size: 11.5px; margin-top: 4px; padding: 3px 7px; border-radius: 6px; display: inline-block; }
   .best-prop-over { background: var(--series-1-bg); color: var(--series-1); }
   .best-prop-under { background: rgba(224,51,63,0.14); color: var(--status-critical); }
+  .matchup-explain { font-size: 11.5px; margin-top: 6px; padding: 5px 8px; border-radius: 6px; }
+  .matchup-explain-good { background: var(--series-1-bg); color: var(--series-1); }
+  .matchup-explain-tough { background: rgba(224,51,63,0.14); color: var(--status-critical); }
 
   .prop-detail td { background: var(--surface-2); }
   .prop-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 10px; padding: 6px 2px; }
@@ -447,9 +450,46 @@ def _injury_badge(injury):
 
 
 def _matchup_badge(matchup):
-    if not matchup or not matchup.get("favorable"):
+    if not matchup:
         return ""
-    return _badge("GOOD MATCHUP", "matchup")
+    if matchup.get("favorable"):
+        return _badge("GOOD MATCHUP", "matchup")
+    if matchup.get("unfavorable"):
+        return _badge("TOUGH MATCHUP", "cold")
+    return ""
+
+
+_HAND_WORD = {"L": "left-handed", "R": "right-handed", "S": "switch-hitting"}
+
+
+def _matchup_text(bat_side, matchup):
+    """
+    Plain-language reasoning behind the GOOD/TOUGH MATCHUP badge -- what
+    actually makes it good or bad, not just the label. Built from the same
+    two numbers the badge itself is computed from (platoon side + this
+    specific pitcher's actual average-against that hand), so the
+    explanation can never disagree with the badge.
+    """
+    if not matchup or matchup.get("favorable") is None:
+        return None
+    if not matchup.get("favorable") and not matchup.get("unfavorable"):
+        return None
+    side_word = _HAND_WORD.get(bat_side, "This")
+    platoon_txt = (
+        "has the platoon advantage (opposite-handed)" if matchup.get("platoon") == "opposite-hand"
+        else "is on the same-handed side (no platoon advantage)"
+    )
+    avg = matchup.get("pitcher_avg_against")
+    avg_txt = f"{avg:.3f}" if avg is not None else None
+    if matchup.get("favorable"):
+        base = f"{side_word.capitalize()} batter who {platoon_txt} against tonight's pitcher"
+        if avg_txt:
+            base += f", who has allowed a {avg_txt} average to that side this season"
+        return base + "."
+    base = f"{side_word.capitalize()} batter who {platoon_txt} against tonight's pitcher"
+    if avg_txt:
+        base += f", who has held that side to just a {avg_txt} average this season"
+    return base + "."
 
 
 def _streak_badge(streak):
@@ -639,7 +679,10 @@ def _batter_rows(batters, id_prefix):
         # narrow screens), so a matched headline is still reachable there
         # instead of just disappearing along with the column.
         headline_detail = f'<div class="headline-mobile-only">{headline}</div>' if headline else ""
-        rows.append(_prop_categories_html(b.get("prop_categories"), row_id, headline_html=headline_detail))
+        matchup_text = _matchup_text(b["bat_side"], b.get("matchup"))
+        matchup_kind = "good" if b["matchup"].get("favorable") else "tough"
+        matchup_detail = f'<div class="matchup-explain matchup-explain-{matchup_kind}">{matchup_text}</div>' if matchup_text else ""
+        rows.append(_prop_categories_html(b.get("prop_categories"), row_id, headline_html=headline_detail + matchup_detail))
     return "\n".join(rows)
 
 

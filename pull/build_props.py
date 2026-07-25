@@ -1105,8 +1105,10 @@ def render_markdown(report):
                     else "L7: no data"
                 )
                 matchup_txt = ""
-                if b["matchup"]["favorable"]:
+                if b["matchup"].get("favorable"):
                     matchup_txt = f" [MATCHUP EDGE: pitcher hits {b['matchup']['pitcher_avg_against']} avg-against vs this hand]"
+                elif b["matchup"].get("unfavorable"):
+                    matchup_txt = f" [TOUGH MATCHUP: pitcher holds this hand to {b['matchup']['pitcher_avg_against']} avg-against]"
                 streak_txt = f" [{b['hit_streak']}-game hit streak]" if b["hit_streak"] >= 3 else ""
                 caveat_txt = " [likely BABIP-driven, not a real power uptick]" if b["trend_caveat"] == "babip_driven" else ""
                 ha = b["home_away"][b["home_away"]["this_game"]]
