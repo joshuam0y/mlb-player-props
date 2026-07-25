@@ -347,6 +347,25 @@ def home_away_split(conn, table, player_id, is_home):
     }
 
 
+def batter_game_result(conn, player_id, game_pk):
+    """This player's own actual box-score line for this specific game, once it's been played and synced -- None beforehand, so callers can show it only once there's something real to show."""
+    row = conn.execute(
+        "SELECT at_bats, hits, doubles, triples, home_runs, rbi, runs, base_on_balls, strike_outs, total_bases, stolen_bases "
+        "FROM batting_game_logs WHERE player_id = ? AND game_pk = ?",
+        (player_id, game_pk),
+    ).fetchone()
+    return dict(row) if row else None
+
+
+def pitcher_game_result(conn, player_id, game_pk):
+    row = conn.execute(
+        "SELECT innings_pitched, hits, earned_runs, runs, base_on_balls, strike_outs, home_runs "
+        "FROM pitching_game_logs WHERE player_id = ? AND game_pk = ?",
+        (player_id, game_pk),
+    ).fetchone()
+    return dict(row) if row else None
+
+
 def hand_splits(conn, table, player_id, hand):
     """
     `hand` is the *opponent's* throwing/batting hand: for batting_splits it's
@@ -569,7 +588,7 @@ def _ensure_player(conn, player_id, team_id):
     return conn.execute("SELECT * FROM players WHERE player_id = ?", (player_id,)).fetchone()
 
 
-def build_batter_entry(conn, player_id, opp_hand, opp_pitcher_id, is_home_game, team_id, batting_order=None):
+def build_batter_entry(conn, player_id, opp_hand, opp_pitcher_id, is_home_game, team_id, batting_order=None, game_pk=None):
     player = conn.execute("SELECT * FROM players WHERE player_id = ?", (player_id,)).fetchone()
     if not player:
         player = _ensure_player(conn, player_id, team_id)
@@ -614,10 +633,11 @@ def build_batter_entry(conn, player_id, opp_hand, opp_pitcher_id, is_home_game, 
         "best_under": best_under,
         "best_prop": best_prop,
         "best_prop_direction": best_prop_direction,
+        "game_result": batter_game_result(conn, player_id, game_pk) if game_pk else None,
     }
 
 
-def build_pitcher_entry(conn, player_id, team_id, is_home_game=None):
+def build_pitcher_entry(conn, player_id, team_id, is_home_game=None, game_pk=None):
     if not player_id:
         return None
     player = conn.execute("SELECT * FROM players WHERE player_id = ?", (player_id,)).fetchone()
@@ -663,6 +683,7 @@ def build_pitcher_entry(conn, player_id, team_id, is_home_game=None):
         # is known -- a pitcher's own entry has no visibility into the other
         # team's batters at the point build_team_side() constructs it.
         "opponent_matchup": None,
+        "game_result": pitcher_game_result(conn, player_id, game_pk) if game_pk else None,
     }
 
 
@@ -688,13 +709,13 @@ def build_team_side(conn, game, side):
     if confirmed:
         lineup_confirmed = True
         batters = [
-            build_batter_entry(conn, r["player_id"], opp_hand, opp_pitcher_id, is_home_game, team_id, r["batting_order"])
+            build_batter_entry(conn, r["player_id"], opp_hand, opp_pitcher_id, is_home_game, team_id, r["batting_order"], game["game_pk"])
             for r in confirmed
         ]
     else:
         lineup_confirmed = False
         batters = [
-            build_batter_entry(conn, pid, opp_hand, opp_pitcher_id, is_home_game, team_id)
+            build_batter_entry(conn, pid, opp_hand, opp_pitcher_id, is_home_game, team_id, game_pk=game["game_pk"])
             for pid in likely_starters(conn, team_id)
         ]
 
@@ -703,7 +724,7 @@ def build_team_side(conn, game, side):
         "team_id": team_id,
         "team_name": team["name"] if team else None,
         "lineup_confirmed": lineup_confirmed,
-        "probable_pitcher": build_pitcher_entry(conn, game[f"{side}_probable_pitcher_id"], team_id, is_home_game),
+        "probable_pitcher": build_pitcher_entry(conn, game[f"{side}_probable_pitcher_id"], team_id, is_home_game, game["game_pk"]),
         # bullpen fatigue is about who these batters face in relief innings,
         # so it's the *opponent's* pen -- unrelated to (and doesn't touch)
         # the platoon/vs-hand matchup logic on the starter above.

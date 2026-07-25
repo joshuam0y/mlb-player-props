@@ -564,6 +564,36 @@ def _fatigue_text(fatigue):
     return None
 
 
+def _batter_result_text(gr):
+    """This player's own actual line for this specific game -- None until it's been played and synced."""
+    if not gr:
+        return None
+    parts = [f"{gr['hits']}-for-{gr['at_bats']}"]
+    for count, label in ((gr.get("doubles"), "2B"), (gr.get("triples"), "3B"), (gr.get("home_runs"), "HR")):
+        if count:
+            parts.append(f"{count} {label}")
+    if gr.get("rbi"):
+        parts.append(f"{gr['rbi']} RBI")
+    if gr.get("runs"):
+        parts.append(f"{gr['runs']} R")
+    if gr.get("base_on_balls"):
+        parts.append(f"{gr['base_on_balls']} BB")
+    if gr.get("strike_outs"):
+        parts.append(f"{gr['strike_outs']} K")
+    if gr.get("stolen_bases"):
+        parts.append(f"{gr['stolen_bases']} SB")
+    return ", ".join(parts)
+
+
+def _pitcher_result_text(gr):
+    if not gr:
+        return None
+    parts = [f"{gr['innings_pitched']} IP", f"{gr['hits']} H", f"{gr['earned_runs']} ER", f"{gr['strike_outs']} K", f"{gr['base_on_balls']} BB"]
+    if gr.get("home_runs"):
+        parts.append(f"{gr['home_runs']} HR")
+    return ", ".join(parts)
+
+
 def _category_projection_html(cat):
     line = cat["primary_line"]
     today = cat.get("today_projection")
@@ -627,7 +657,11 @@ def _pitcher_html(p, row_id, fatigue):
     )
     badges = " ".join(x for x in [_pitcher_form_badge(p.get("form_trend")), _injury_badge(p["injury"])] if x)
 
-    bullets = [l5_txt]
+    bullets = []
+    result_text = _pitcher_result_text(p.get("game_result"))
+    if result_text:
+        bullets.append(f"<b>Final: {result_text}</b>")
+    bullets.append(l5_txt)
     best_prop_text = _best_prop_text(p)
     if best_prop_text:
         bullets.append(best_prop_text)
@@ -684,13 +718,15 @@ def _batter_rows(batters, id_prefix):
             ]
             if x
         )
+        result_text = _batter_result_text(b.get("game_result"))
+        result_html = f"<b>Final: {result_text}</b><br>" if result_text else ""
         rows.append(
             f'<tr class="player-row" onclick="toggleDetail(\'{row_id}\')">'
             f"<td>{order}</td>"
             f'<td class="name-cell"><span class="expand-arrow"></span>{html.escape(b["name"])} '
             f'<span class="sub">({html.escape(b["bat_side"] or "?")} handed batter)</span></td>'
             f"<td>{badges}</td>"
-            f'<td>{html.escape(l7_txt)}<div class="sub">{season_txt}</div>{_best_prop_html(b)}</td>'
+            f'<td>{result_html}{html.escape(l7_txt)}<div class="sub">{season_txt}</div>{_best_prop_html(b)}</td>'
             f'<td class="col-news">{headline}</td></tr>'
         )
         # The News column is hidden on narrow screens (see .col-news media
@@ -756,10 +792,27 @@ def _game_summary_flags(g):
 
 def _game_line_html(g):
     if g.get("home_score") is not None:
-        return (
-            f'<div class="game-line"><span class="proj-score">Final score: {html.escape(g["away"]["team_name"] or "?")} {g["away_score"]} '
-            f'&ndash; {html.escape(g["home"]["team_name"] or "?")} {g["home_score"]}</span></div>'
+        final_html = (
+            f'<span class="proj-score">Final score: {html.escape(g["away"]["team_name"] or "?")} {g["away_score"]} '
+            f'&ndash; {html.escape(g["home"]["team_name"] or "?")} {g["home_score"]}</span>'
         )
+        p = g.get("projection")
+        # p is this game's LAST projection before it went final -- comparing
+        # it to the real score is exactly "how close was the model," so it's
+        # kept alongside the final score rather than dropped once the
+        # projection is no longer "live" information.
+        if not p or p.get("home_exp_runs") is None or p.get("away_exp_runs") is None:
+            return f'<div class="game-line">{final_html}</div>'
+        proj_total = p["away_exp_runs"] + p["home_exp_runs"]
+        actual_total = g["away_score"] + g["home_score"]
+        diff = round(actual_total - proj_total, 1)
+        diff_txt = f"+{diff}" if diff >= 0 else str(diff)
+        return f"""
+        <div class="game-line">
+          {final_html}
+          <div class="proj-picks"><span>Projected: <b>{p["away_exp_runs"]} &ndash; {p["home_exp_runs"]}</b> (total off by {diff_txt})</span></div>
+        </div>
+        """
     p = g.get("projection")
     if not p:
         return ""
