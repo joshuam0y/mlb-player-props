@@ -945,6 +945,14 @@ def _pick_card_html(pick, rank, direction):
             f'<div class="pick-category pick-category-{direction}">Best angle: {html.escape(c["label"])} '
             f'&mdash; {verb} {c["line"]} in {pct}% of the last {c["n"]} games</div>'
         )
+    elif pick.get("fallback_angle"):
+        # This pick qualified on a signal other than a specific prop category
+        # (matchup edge, hot/cold trend) -- prop_category_delta() needs 8+
+        # recent games (4+ for pitchers) AND a real deviation from the
+        # player's own norm, so it can legitimately come back empty even for
+        # a real pick. Showing the number behind whichever signal DID get
+        # them here beats leaving the card with reasons but no hard number.
+        category_html = f'<div class="pick-category pick-category-{direction}">Best angle: {html.escape(pick["fallback_angle"])}</div>'
     is_pitcher = pick.get("role") == "pitcher"
     badges = [_badge("PITCHER PROP", "matchup") if is_pitcher else _badge("BATTER PROP", "caveat")]
     if not is_pitcher:
