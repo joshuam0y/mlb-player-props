@@ -166,7 +166,12 @@ STYLE = """
   .summary-flags { display: flex; gap: 6px; flex-wrap: wrap; }
   .game-body { padding: 4px 16px 16px; }
 
-  .teams { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 8px; }
+  /* min-width: 0 overrides a grid item's default min-width: auto, which
+     otherwise grows the track to fit a child's intrinsic content size (the
+     boxscore table's min-width below) instead of letting .table-scroll
+     contain that overflow in its own scrollbar. */
+  .teams { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 8px; min-width: 0; }
+  .teams > .team-col { min-width: 0; }
   @media (max-width: 720px) { .teams { grid-template-columns: 1fr; } }
   .headline-mobile-only { display: none; }
   @media (max-width: 480px) {
@@ -179,6 +184,14 @@ STYLE = """
     .headline-mobile-only { display: block; margin-bottom: 8px; }
   }
   .team-col { border-top: 1px solid var(--gridline); padding-top: 10px; }
+  /* details.game-card clips (overflow: hidden) anything wider than the card
+     itself -- on a narrow phone, Order+Batter+Flags+the box-score grid can
+     add up to more than the viewport, and without its own scroll container
+     that overflow was simply unreachable rather than just requiring a
+     swipe. min-width forces a real horizontal scrollbar to appear instead
+     of the columns being squeezed into an unreadable ribbon. */
+  .table-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  .table-scroll table { min-width: 540px; }
   .team-title { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; font-weight: 600; font-size: 14px; margin-bottom: 8px; }
   .badge {
     display: inline-flex; align-items: center; gap: 4px; font-size: 10.5px; font-weight: 700;
@@ -785,10 +798,12 @@ def _team_col_html(side, id_prefix, status):
         {_pitcher_html(side["probable_pitcher"], f"{id_prefix}-p", side.get("opponent_bullpen_fatigue"), status)}
       </div>
       <div class="batter-block">
+        <div class="table-scroll">
         <table>
           <thead><tr><th>Order</th><th>Batter</th><th>Flags</th><th>Recent form</th><th class="col-news">News</th></tr></thead>
           <tbody>{_batter_rows(side["batters"], f"{id_prefix}-b", status)}</tbody>
         </table>
+        </div>
       </div>
     </div>
     """
