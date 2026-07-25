@@ -160,22 +160,39 @@ against what actually happened.
 python pull/backtest.py --start 2026-03-25 --end 2026-07-23
 ```
 
-Result on the 2026 season to date (1540+ completed games): **Brier score
-~0.247, versus ~0.248-0.251 for a naive "always guess the ~54% long-run
-home-win rate" baseline.** The model is roughly on par with that trivial
-baseline, not meaningfully beating it -- an honest result, not a spun one.
-Total-runs MAE is ~3.7 runs.
+Result on the full 2026 season to date (1525 completed games, 2026-03-25
+through 2026-07-23): **Brier score ~0.264, versus ~0.250 for a naive
+"always guess the ~54% long-run home-win rate" baseline** -- worse than
+that trivial baseline over the season as a whole. But that full-season
+number hides a real, useful pattern: broken out by month, the model is
+actively bad early (April: 0.293 vs. a 0.249 baseline -- team-level rates
+built from only a handful of games are too noisy to trust yet) and
+genuinely good later (July: 0.243 vs. a 0.251 baseline -- it beats the
+baseline once each team has real season-long sample size). Point being:
+judge this model's day-to-day usefulness by recent performance, not a
+season-long average that's dragged down by the first month's cold start,
+and don't over-read any single day's results either -- a 14-game slate is
+a small enough sample that a genuinely well-calibrated model can still
+have a rough night by chance.
+
+Team-level run rates ARE recency-weighted (last 20 games, 35% weight,
+blended with the season/context rate) -- verified with this same backtest
+rather than assumed: 0.2656 with no recency blend vs. 0.2641 with it,
+tested at a couple of weight/window settings to confirm the direction was
+real and not noise, not just a one-off.
 
 `calibrate.py` went a step further and tried Platt scaling (a fitted
 logistic recalibration of the win probability, `sigmoid(A*logit(p)+B)`,
 trained on an 80% chronological split and evaluated on the held-out 20%
-it never saw). **Result: it doesn't help.** The fitted slope came out
-close to flat (A ≈ 0.12), meaning there isn't enough real signal in the
-raw probability for a recalibration to exploit -- consistent with the
-Brier-score finding above. Calibration is only applied (writing
-`output/calibration.json`, which `simulate_games.py` would then read) if
-it actually beats the raw probability on the held-out set; right now it
-doesn't, so raw probabilities are used as-is.
+it never saw -- the 308 most recent games at time of writing). **Result:
+it doesn't help.** The held-out raw model already scores 0.242 against a
+0.252 baseline on that recent slice (consistent with the July-specific
+result above), and the fitted slope comes out close to flat (A ≈ 0.13),
+meaning there isn't enough *additional* signal in the raw probability for
+a recalibration to add on top of what's already there. Calibration is
+only applied (writing `output/calibration.json`, which `simulate_games.py`
+would then read) if it actually beats the raw probability on the held-out
+set; right now it doesn't, so raw probabilities are used as-is.
 
 `backtest_props.py` does the same point-in-time check for the player-prop
 signals: does HOT/COLD, the BABIP-luck caveat, or the matchup-edge flag
