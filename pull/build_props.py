@@ -607,6 +607,8 @@ def build_batter_entry(conn, player_id, opp_hand, opp_pitcher_id, is_home_game, 
     season_categories = batter_prop_categories(conn, player_id, baselines, factor_fn=factor_fn, n=200, include_values=False)
     best_over, best_under = prop_category_delta(recent_categories, season_categories)
     best_prop, best_prop_direction = headline_prop(best_over, best_under)
+    if best_prop is None:
+        best_prop, best_prop_direction = fallback_best_prop(recent_categories, season_categories)
 
     return {
         "player_id": player_id,
@@ -656,6 +658,8 @@ def build_pitcher_entry(conn, player_id, team_id, is_home_game=None, game_pk=Non
     season_categories = pitcher_prop_categories(conn, player_id, baselines, factor_fn=factor_fn, n=200, include_values=False)
     best_over, best_under = prop_category_delta(recent_categories, season_categories, min_games=4)
     best_prop, best_prop_direction = headline_prop(best_over, best_under)
+    if best_prop is None:
+        best_prop, best_prop_direction = fallback_best_prop(recent_categories, season_categories)
 
     return {
         "player_id": player_id,
@@ -897,6 +901,41 @@ def headline_prop(best_over, best_under):
     if best_under:
         return best_under, "under"
     return None, None
+
+
+def fallback_best_prop(recent_categories, season_categories):
+    """
+    prop_category_delta() requires 8+ recent games (4+ for pitchers) AND a
+    real deviation from the player's own season norm in the matching
+    direction -- a real bar to clear, so part-time players and recent
+    call-ups with a short recent-game sample routinely have nothing that
+    qualifies, leaving their row with no "Best prop" line at all. Used only
+    when headline_prop() came back empty: drops both the games-played floor
+    and the deviation requirement, and just shows whichever category has
+    the most recent-game data to look at, still compared against the
+    player's season rate where available. Not a claimed "edge" -- just
+    ensures every player with at least one logged game shows a concrete
+    number instead of a blank space.
+    """
+    if not recent_categories:
+        return None, None
+    season_by_label = {c["label"]: c for c in (season_categories or [])}
+    candidates = []
+    for rc in recent_categories:
+        if not rc["hit_rates"]:
+            continue
+        r_line = rc["hit_rates"][0]
+        sc = season_by_label.get(rc["label"])
+        s_line = next((x for x in (sc["hit_rates"] if sc else []) if x["line"] == r_line["line"]), None)
+        season_pct = s_line["pct"] if s_line else r_line["pct"]
+        candidates.append((r_line["n"], rc["label"], r_line, season_pct))
+    if not candidates:
+        return None, None
+    candidates.sort(key=lambda c: c[0], reverse=True)  # most recent-game data first -- a 10-game read beats a 3-game one
+    n, label, r_line, season_pct = candidates[0]
+    direction = "over" if r_line["pct"] >= season_pct else "under"
+    prop = {"label": label, "line": r_line["line"], "pct": r_line["pct"], "n": n, "season_pct": season_pct}
+    return prop, direction
 
 
 def pitcher_best_category(p, label):
