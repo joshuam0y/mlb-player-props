@@ -217,6 +217,23 @@ STYLE = """
   .headline-link:hover { text-decoration: underline; }
   .empty { color: var(--text-muted); font-size: 13px; padding: 40px 20px; text-align: center; }
 
+  .boxscore-line {
+    background: var(--surface-2); border: 1px solid var(--border); border-radius: 8px;
+    padding: 8px 10px; margin-bottom: 6px; max-width: 220px;
+  }
+  .bx-header { margin-bottom: 6px; }
+  .bx-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px 4px; text-align: center; }
+  .bx-stat { display: flex; flex-direction: column; align-items: center; }
+  .bx-stat b { font-size: 13.5px; line-height: 1.15; }
+  .bx-stat small { font-size: 9px; color: var(--text-muted); letter-spacing: 0.03em; }
+  .bx-extra { font-size: 11px; color: var(--text-secondary); margin-top: 6px; }
+  .badge-live { background: var(--status-critical); color: white; }
+  .badge-live::before {
+    content: ""; display: inline-block; width: 6px; height: 6px; border-radius: 50%;
+    background: white; animation: bx-pulse 1.2s ease-in-out infinite;
+  }
+  @keyframes bx-pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.25; } }
+  .badge-final { background: var(--badge-neutral-bg); color: var(--badge-neutral-text); }
   .best-prop { font-size: 11.5px; margin-top: 4px; padding: 3px 7px; border-radius: 6px; display: inline-block; }
   .best-prop-over { background: var(--series-1-bg); color: var(--series-1); }
   .best-prop-under { background: rgba(224,51,63,0.14); color: var(--status-critical); }
@@ -423,6 +440,7 @@ GLOSSARY_HTML = """
 
 
 NORMAL_STATUSES = {"Scheduled", "Pre-Game", "Warmup", "In Progress", "Final", "Game Over", "Completed Early"}
+FINAL_STATUSES = {"Final", "Game Over", "Completed Early"}
 
 
 def _slug(label):
@@ -564,34 +582,53 @@ def _fatigue_text(fatigue):
     return None
 
 
-def _batter_result_text(gr):
-    """This player's own actual line for this specific game -- None until it's been played and synced."""
+def _game_status_badge(status):
+    """
+    LIVE vs FINAL for a specific player's box-score line -- a synced game
+    log row can exist mid-game (the API reports partial in-progress stats,
+    not just completed-game ones), so a hardcoded "Final" label was
+    actively wrong for a game that hadn't ended yet. Anything not in
+    FINAL_STATUSES but with a game log row already means play is underway.
+    """
+    return _badge("FINAL", "final") if status in FINAL_STATUSES else _badge("LIVE", "live")
+
+
+def _boxscore_grid_html(pairs):
+    cells = "".join(f'<div class="bx-stat"><b>{v}</b><small>{k}</small></div>' for k, v in pairs)
+    return f'<div class="bx-grid">{cells}</div>'
+
+
+def _batter_boxscore_html(gr, status):
+    """
+    A compact MLB.com-style box (badge on its own line, a fixed 3-column
+    stat grid below) for this player's actual game, instead of a run-on
+    sentence -- a grid lays out the same regardless of this column's
+    width, where flex-wrap alone wrapped unpredictably in the narrower
+    "Recent form" column.
+    """
     if not gr:
-        return None
-    parts = [f"{gr['hits']}-for-{gr['at_bats']}"]
-    for count, label in ((gr.get("doubles"), "2B"), (gr.get("triples"), "3B"), (gr.get("home_runs"), "HR")):
+        return ""
+    stats = [
+        ("AB", gr["at_bats"]), ("R", gr["runs"]), ("H", gr["hits"]),
+        ("RBI", gr["rbi"]), ("BB", gr["base_on_balls"]), ("SO", gr["strike_outs"]),
+    ]
+    extras = []
+    for count, label in ((gr.get("home_runs"), "HR"), (gr.get("doubles"), "2B"), (gr.get("triples"), "3B"), (gr.get("stolen_bases"), "SB")):
         if count:
-            parts.append(f"{count} {label}")
-    if gr.get("rbi"):
-        parts.append(f"{gr['rbi']} RBI")
-    if gr.get("runs"):
-        parts.append(f"{gr['runs']} R")
-    if gr.get("base_on_balls"):
-        parts.append(f"{gr['base_on_balls']} BB")
-    if gr.get("strike_outs"):
-        parts.append(f"{gr['strike_outs']} K")
-    if gr.get("stolen_bases"):
-        parts.append(f"{gr['stolen_bases']} SB")
-    return ", ".join(parts)
+            extras.append(f"{count} {label}")
+    extra_html = f'<div class="bx-extra">{html.escape(", ".join(extras))}</div>' if extras else ""
+    return f'<div class="boxscore-line"><div class="bx-header">{_game_status_badge(status)}</div>{_boxscore_grid_html(stats)}{extra_html}</div>'
 
 
-def _pitcher_result_text(gr):
+def _pitcher_boxscore_html(gr, status):
     if not gr:
-        return None
-    parts = [f"{gr['innings_pitched']} IP", f"{gr['hits']} H", f"{gr['earned_runs']} ER", f"{gr['strike_outs']} K", f"{gr['base_on_balls']} BB"]
-    if gr.get("home_runs"):
-        parts.append(f"{gr['home_runs']} HR")
-    return ", ".join(parts)
+        return ""
+    stats = [
+        ("IP", gr["innings_pitched"]), ("H", gr["hits"]), ("R", gr["runs"]),
+        ("ER", gr["earned_runs"]), ("BB", gr["base_on_balls"]), ("SO", gr["strike_outs"]),
+    ]
+    extra_html = f'<div class="bx-extra">{gr["home_runs"]} HR allowed</div>' if gr.get("home_runs") else ""
+    return f'<div class="boxscore-line"><div class="bx-header">{_game_status_badge(status)}</div>{_boxscore_grid_html(stats)}{extra_html}</div>'
 
 
 def _category_projection_html(cat):
@@ -646,7 +683,7 @@ def _prop_categories_html(categories, row_id, headline_html=""):
     )
 
 
-def _pitcher_html(p, row_id, fatigue):
+def _pitcher_html(p, row_id, fatigue, status):
     if not p:
         return '<div class="pitcher-line sub">No probable pitcher announced</div>'
     l5 = p["l5"]
@@ -656,12 +693,9 @@ def _pitcher_html(p, row_id, fatigue):
         else "No recent starts on record yet"
     )
     badges = " ".join(x for x in [_pitcher_form_badge(p.get("form_trend")), _injury_badge(p["injury"])] if x)
+    boxscore_html = _pitcher_boxscore_html(p.get("game_result"), status)
 
-    bullets = []
-    result_text = _pitcher_result_text(p.get("game_result"))
-    if result_text:
-        bullets.append(f"<b>Final: {result_text}</b>")
-    bullets.append(l5_txt)
+    bullets = [l5_txt]
     best_prop_text = _best_prop_text(p)
     if best_prop_text:
         bullets.append(best_prop_text)
@@ -681,12 +715,13 @@ def _pitcher_html(p, row_id, fatigue):
     <div class="pitcher-line pitcher-row" onclick="toggleDetail('{row_id}')">
       <span class="expand-arrow"></span><b>{html.escape(p["name"])}</b> ({html.escape(p["pitch_hand"] or "?")}, throws) {badges}
     </div>
+    {boxscore_html}
     <ul class="team-summary">{bullets_html}</ul>
     <table><tbody>{_prop_categories_html(p.get("prop_categories"), row_id)}</tbody></table>
     """
 
 
-def _batter_rows(batters, id_prefix):
+def _batter_rows(batters, id_prefix, status):
     if not batters:
         return '<tr><td colspan="5" class="sub">No batter data yet</td></tr>'
     rows = []
@@ -718,15 +753,14 @@ def _batter_rows(batters, id_prefix):
             ]
             if x
         )
-        result_text = _batter_result_text(b.get("game_result"))
-        result_html = f"<b>Final: {result_text}</b><br>" if result_text else ""
+        boxscore_html = _batter_boxscore_html(b.get("game_result"), status)
         rows.append(
             f'<tr class="player-row" onclick="toggleDetail(\'{row_id}\')">'
             f"<td>{order}</td>"
             f'<td class="name-cell"><span class="expand-arrow"></span>{html.escape(b["name"])} '
             f'<span class="sub">({html.escape(b["bat_side"] or "?")} handed batter)</span></td>'
             f"<td>{badges}</td>"
-            f'<td>{result_html}{html.escape(l7_txt)}<div class="sub">{season_txt}</div>{_best_prop_html(b)}</td>'
+            f'<td>{boxscore_html}{html.escape(l7_txt)}<div class="sub">{season_txt}</div>{_best_prop_html(b)}</td>'
             f'<td class="col-news">{headline}</td></tr>'
         )
         # The News column is hidden on narrow screens (see .col-news media
@@ -741,19 +775,19 @@ def _batter_rows(batters, id_prefix):
     return "\n".join(rows)
 
 
-def _team_col_html(side, id_prefix):
+def _team_col_html(side, id_prefix, status):
     tag_kind = "confirmed" if side["lineup_confirmed"] else "projected"
     tag_label = "LINEUP CONFIRMED" if side["lineup_confirmed"] else "PROJECTED (not yet announced)"
     return f"""
     <div class="team-col">
       <div class="team-title">{html.escape(side["team_name"] or "?")} {_badge(tag_label, tag_kind)}</div>
       <div class="pitcher-block">
-        {_pitcher_html(side["probable_pitcher"], f"{id_prefix}-p", side.get("opponent_bullpen_fatigue"))}
+        {_pitcher_html(side["probable_pitcher"], f"{id_prefix}-p", side.get("opponent_bullpen_fatigue"), status)}
       </div>
       <div class="batter-block">
         <table>
           <thead><tr><th>Order</th><th>Batter</th><th>Flags</th><th>Recent form</th><th class="col-news">News</th></tr></thead>
-          <tbody>{_batter_rows(side["batters"], f"{id_prefix}-b")}</tbody>
+          <tbody>{_batter_rows(side["batters"], f"{id_prefix}-b", status)}</tbody>
         </table>
       </div>
     </div>
@@ -878,8 +912,8 @@ def _game_card_html(g):
       </summary>
       <div class="game-body">
         <div class="teams">
-          {_team_col_html(g["away"], f"{id_prefix}-a")}
-          {_team_col_html(g["home"], f"{id_prefix}-h")}
+          {_team_col_html(g["away"], f"{id_prefix}-a", g["status"])}
+          {_team_col_html(g["home"], f"{id_prefix}-h", g["status"])}
         </div>
       </div>
     </details>
