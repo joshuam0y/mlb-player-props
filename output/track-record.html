@@ -182,6 +182,23 @@
   .headline-link:hover { text-decoration: underline; }
   .empty { color: var(--text-muted); font-size: 13px; padding: 40px 20px; text-align: center; }
 
+  .boxscore-line {
+    background: var(--surface-2); border: 1px solid var(--border); border-radius: 8px;
+    padding: 8px 10px; margin-bottom: 6px; max-width: 220px;
+  }
+  .bx-header { margin-bottom: 6px; }
+  .bx-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px 4px; text-align: center; }
+  .bx-stat { display: flex; flex-direction: column; align-items: center; }
+  .bx-stat b { font-size: 13.5px; line-height: 1.15; }
+  .bx-stat small { font-size: 9px; color: var(--text-muted); letter-spacing: 0.03em; }
+  .bx-extra { font-size: 11px; color: var(--text-secondary); margin-top: 6px; }
+  .badge-live { background: var(--status-critical); color: white; }
+  .badge-live::before {
+    content: ""; display: inline-block; width: 6px; height: 6px; border-radius: 50%;
+    background: white; animation: bx-pulse 1.2s ease-in-out infinite;
+  }
+  @keyframes bx-pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.25; } }
+  .badge-final { background: var(--badge-neutral-bg); color: var(--badge-neutral-text); }
   .best-prop { font-size: 11.5px; margin-top: 4px; padding: 3px 7px; border-radius: 6px; display: inline-block; }
   .best-prop-over { background: var(--series-1-bg); color: var(--series-1); }
   .best-prop-under { background: rgba(224,51,63,0.14); color: var(--status-critical); }
