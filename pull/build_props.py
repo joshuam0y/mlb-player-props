@@ -1013,7 +1013,13 @@ def build_report(conn, days_ahead=2):
             }
         )
 
-    top_overs, top_unders = build_top_picks(report_games)
+    # Today only, not the full days_ahead window -- a player in a multi-day
+    # series against the same opponent would otherwise show up once per
+    # game (e.g. Yordan Alvarez picked both for tonight AND tomorrow's game
+    # against the same team), which reads as a duplicate even though each
+    # row is technically a different game.
+    todays_games = [g for g in report_games if g["date"] == today]
+    top_overs, top_unders = build_top_picks(todays_games)
 
     return {
         "generated_at": datetime.now(timezone.utc).isoformat(),
