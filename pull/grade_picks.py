@@ -17,6 +17,16 @@ Covers:
     right after the fact, sidesteps that: there's no leakage risk in
     checking today's split-based flag against today's own result.
   * Pitcher form trend (dominant/rough) -- mirrors the batter trend check.
+  * Projection accuracy -- for every prop category on every player shown
+    that day, how close was the actual NUMBER projected (today_projection,
+    e.g. "8 projected strikeouts") to what actually happened (e.g. "12
+    actual"). This is a different, more granular cut than hit/miss: it
+    grades the projection's magnitude, not just whether a specific line
+    was cleared.
+  * Game-level picks -- moneyline, run line, and total (over/under),
+    graded hit/miss the same way as Top Overs/Unders, plus projected vs.
+    actual final score (same magnitude-accuracy idea as the per-stat
+    projections above).
 
 Results are appended to output/track_record.json, keyed by date, so
 grading is a running, permanent record rather than a one-off report --
@@ -187,6 +197,156 @@ def _grade_pitcher_signals(conn, report, date):
     return {k: _pitcher_bucket_stats(v) for k, v in form_buckets.items()}
 
 
+def _collect_player_projection_errors(conn, player, role, date, by_category, examples):
+    col_map = BATTER_COL if role == "batter" else PITCHER_COL
+    table = "batting_game_logs" if role == "batter" else "pitching_game_logs"
+    player_id = player.get("player_id")
+    if player_id is None:
+        return
+    for cat in player.get("prop_categories") or []:
+        col = col_map.get(cat["label"])
+        projected = cat.get("today_projection")
+        if not col or projected is None:
+            continue
+        row = conn.execute(
+            f"SELECT {col} as val FROM {table} WHERE player_id = ? AND date = ?",
+            (player_id, date),
+        ).fetchone()
+        if not row or row["val"] is None:
+            continue  # DNP that day -- no actual to compare the projection against
+        actual = row["val"]
+        error = actual - projected
+        by_category.setdefault(cat["label"], []).append((projected, actual))
+        examples.append({
+            "name": player["name"], "role": role, "category": cat["label"],
+            "projected": projected, "actual": actual, "error": round(error, 2),
+        })
+
+
+def _grade_projections(conn, report, date):
+    """
+    Per-category projection accuracy: for every player shown that day, how
+    close was their projected number (e.g. "8.0 projected strikeouts") to
+    what they actually did (e.g. "12 strikeouts")? Bucketed by stat label
+    across every batter and probable pitcher in the day's games -- not
+    just Top Picks -- so this is the broadest possible read on "how good
+    are the numbers themselves," independent of any over/under line.
+    """
+    by_category = {}
+    examples = []
+    for g in report["games"]:
+        if g["date"] != date:
+            continue
+        for side in (g["home"], g["away"]):
+            for b in side["batters"]:
+                _collect_player_projection_errors(conn, b, "batter", date, by_category, examples)
+            p = side["probable_pitcher"]
+            if p:
+                _collect_player_projection_errors(conn, p, "pitcher", date, by_category, examples)
+    category_stats = {}
+    for label, pairs in by_category.items():
+        n = len(pairs)
+        errors = [actual - projected for projected, actual in pairs]
+        category_stats[label] = {
+            "n": n,
+            "avg_projected": round(sum(p for p, a in pairs) / n, 2),
+            "avg_actual": round(sum(a for p, a in pairs) / n, 2),
+            "mae": round(sum(abs(e) for e in errors) / n, 2),
+            "bias": round(sum(errors) / n, 2),  # positive = actual ran hotter than projected, on average
+        }
+    examples.sort(key=lambda e: -abs(e["error"]))
+    return category_stats, examples[:10]
+
+
+def _grade_games(conn, report, date):
+    """
+    Grades each game's projection against the actual final score:
+    moneyline (correct winner?), run line (did the picked side cover the
+    favorite/underdog-aware spread -- see game_model.simulate()'s own
+    definition, mirrored exactly here), and total (over/under pick vs.
+    actual combined runs). Also tracks how close the projected score
+    itself was to the actual score, the same magnitude-accuracy idea as
+    _grade_projections() above but for the game as a whole.
+    """
+    ml_hits = ml_misses = 0
+    spread_hits = spread_misses = 0
+    total_hits = total_misses = 0
+    score_errors = []
+    score_examples = []
+    for g in report["games"]:
+        if g["date"] != date:
+            continue
+        proj = g.get("projection")
+        if not proj:
+            continue
+        row = conn.execute(
+            "SELECT home_score, away_score FROM games WHERE game_pk = ?", (g["game_pk"],)
+        ).fetchone()
+        if not row or row["home_score"] is None or row["away_score"] is None:
+            continue  # not final (postponed/suspended) -- can't grade yet
+        home_score, away_score = row["home_score"], row["away_score"]
+        margin = home_score - away_score  # MLB games never end tied
+
+        ml_pick = proj.get("moneyline_pick") or ("home" if proj["home_win_prob"] >= 0.5 else "away")
+        if (ml_pick == "home") == (margin > 0):
+            ml_hits += 1
+        else:
+            ml_misses += 1
+
+        spread_pick = proj.get("spread_pick")
+        if spread_pick:
+            favorite = proj.get("spread_favorite") or ("home" if proj["home_win_prob"] >= 0.5 else "away")
+            spread_line = proj.get("spread_line", 1.5)
+            favorite_margin = margin if favorite == "home" else -margin
+            favorite_covers = favorite_margin > spread_line
+            covered = favorite_covers if spread_pick == favorite else not favorite_covers
+            if covered:
+                spread_hits += 1
+            else:
+                spread_misses += 1
+
+        total_line = proj.get("total_line")
+        if total_line is not None:
+            actual_total = home_score + away_score
+            total_pick = proj.get("total_pick") or ("over" if proj.get("over_prob", 0.5) >= 0.5 else "under")
+            actual_over = actual_total > total_line
+            if actual_over == (total_pick == "over"):
+                total_hits += 1
+            else:
+                total_misses += 1
+
+        if proj.get("home_exp_runs") is not None and proj.get("away_exp_runs") is not None:
+            actual_total = home_score + away_score
+            projected_total = proj["home_exp_runs"] + proj["away_exp_runs"]
+            error = actual_total - projected_total
+            score_errors.append(error)
+            score_examples.append({
+                "matchup": f"{g['away']['team_name']} @ {g['home']['team_name']}",
+                "projected_away": proj["away_exp_runs"], "projected_home": proj["home_exp_runs"],
+                "actual_away": away_score, "actual_home": home_score,
+                "error": round(error, 2),
+            })
+
+    def _bucket(hits, misses):
+        graded = hits + misses
+        return {"n": graded, "hits": hits, "misses": misses, "hit_rate": round(hits / graded, 3) if graded else None}
+
+    score_examples.sort(key=lambda e: -abs(e["error"]))
+    n = len(score_errors)
+    score_accuracy = {
+        "n": n,
+        "mae": round(sum(abs(e) for e in score_errors) / n, 2) if n else None,
+        "bias": round(sum(score_errors) / n, 2) if n else None,
+    }
+    return {
+        "moneyline": _bucket(ml_hits, ml_misses),
+        "run_line": _bucket(spread_hits, spread_misses),
+        "total": _bucket(total_hits, total_misses),
+        "score_accuracy": score_accuracy,
+        "score_examples": score_examples[:10],
+    }
+
+
 def grade_day(conn, date):
     report = _load_day_report(date)
     if report is None:
@@ -195,6 +355,7 @@ def grade_day(conn, date):
     top_unders = _picks_for_date(report.get("top_unders"), date)
     batter_trend, batter_matchup = _grade_batter_signals(conn, report, date)
     pitcher_form = _grade_pitcher_signals(conn, report, date)
+    projection_accuracy, projection_examples = _grade_projections(conn, report, date)
     return {
         "date": date,
         "graded_at": datetime.now(timezone.utc).isoformat(),
@@ -203,6 +364,9 @@ def grade_day(conn, date):
         "batter_trend": batter_trend,
         "batter_matchup": batter_matchup,
         "pitcher_form": pitcher_form,
+        "projection_accuracy": projection_accuracy,
+        "projection_examples": projection_examples,
+        "games": _grade_games(conn, report, date),
     }
 
 
@@ -242,6 +406,47 @@ def _sum_bucket_stats(days, path, kind):
     return {"games": games, "k_per_game": round(weighted_avg_num / games, 2), "era": round(weighted_tb_num / games, 2)}
 
 
+def _sum_hit_miss(days, path):
+    """Same idea as top_overs/top_unders' own rollup, generalized for any hit/miss bucket (used for the game-level picks, which have no 'no_data' concept -- a game either finished or wasn't graded at all)."""
+    hits = misses = 0
+    for day in days:
+        bucket = day
+        for key in path:
+            bucket = bucket.get(key) or {}
+        hits += bucket.get("hits") or 0
+        misses += bucket.get("misses") or 0
+    graded = hits + misses
+    return {"n": graded, "hits": hits, "misses": misses, "hit_rate": round(hits / graded, 3) if graded else None}
+
+
+def _sum_accuracy_stats(days, path):
+    """
+    Game-count-weighted average of each of mae/bias/avg_projected/avg_actual,
+    mirroring _sum_bucket_stats()'s own reasoning: each day's figure is
+    already a per-item average, so weighting by that day's n and
+    re-averaging is exact. avg_projected/avg_actual are only present on
+    the per-stat-category buckets (not the game-level score_accuracy
+    bucket) -- fields absent from a given bucket are just skipped.
+    """
+    fields = ("mae", "bias", "avg_projected", "avg_actual")
+    sums = {f: 0.0 for f in fields}
+    n = 0
+    for day in days:
+        bucket = day
+        for key in path:
+            bucket = bucket.get(key) or {}
+        dn = bucket.get("n") or 0
+        if not dn:
+            continue
+        n += dn
+        for f in fields:
+            if bucket.get(f) is not None:
+                sums[f] += bucket[f] * dn
+    if n == 0:
+        return {"n": 0, **{f: None for f in fields}}
+    return {"n": n, **{f: round(sums[f] / n, 2) for f in fields}}
+
+
 def _cumulative(days_dict):
     days = list(days_dict.values())
     if not days:
@@ -264,6 +469,21 @@ def _cumulative(days_dict):
         result.setdefault("batter_matchup", {})[key] = _sum_bucket_stats(days, ["batter_matchup", key], "batter")
     for key in ("dominant", "rough", "neutral"):
         result.setdefault("pitcher_form", {})[key] = _sum_bucket_stats(days, ["pitcher_form", key], "pitcher")
+
+    result["games"] = {
+        "moneyline": _sum_hit_miss(days, ["games", "moneyline"]),
+        "run_line": _sum_hit_miss(days, ["games", "run_line"]),
+        "total": _sum_hit_miss(days, ["games", "total"]),
+        "score_accuracy": _sum_accuracy_stats(days, ["games", "score_accuracy"]),
+    }
+
+    all_categories = set()
+    for d in days:
+        all_categories.update((d.get("projection_accuracy") or {}).keys())
+    result["projection_accuracy"] = {
+        label: _sum_accuracy_stats(days, ["projection_accuracy", label]) for label in all_categories
+    }
+
     result["days_tracked"] = len(days)
     return result
 
@@ -294,7 +514,18 @@ def run(dates):
         to, tu = result["top_overs"], result["top_unders"]
         over_txt = f"{to['hits']}/{to['hits']+to['misses']} ({to['hit_rate']:.0%})" if to["hit_rate"] is not None else "no graded picks"
         under_txt = f"{tu['hits']}/{tu['hits']+tu['misses']} ({tu['hit_rate']:.0%})" if tu["hit_rate"] is not None else "no graded picks"
+        games = result["games"]
+
+        def _txt(b):
+            return f"{b['hits']}/{b['n']} ({b['hit_rate']:.0%})" if b["hit_rate"] is not None else "no games"
+
+        mae = games["score_accuracy"]["mae"]
+        mae_txt = f"{mae} runs/game avg" if mae is not None else "no graded scores"
         print(f"{date}: graded. Top Overs {over_txt} | Top Unders {under_txt}")
+        print(
+            f"  Games -- moneyline {_txt(games['moneyline'])} | run line {_txt(games['run_line'])} | "
+            f"total {_txt(games['total'])} | score off by {mae_txt}"
+        )
     conn.close()
 
 

@@ -63,6 +63,19 @@ def _picks_tile_html(title, bucket):
     """
 
 
+def _game_pick_tile_html(title, bucket):
+    bucket = bucket or {}
+    n = bucket.get("n") or 0
+    if not n:
+        return f'<div class="stat-tile"><div class="stat-value">&mdash;</div><div class="stat-label">{html.escape(title)}</div></div>'
+    return f"""
+    <div class="stat-tile">
+      <div class="stat-value">{_pct(bucket.get("hit_rate"))}</div>
+      <div class="stat-label">{html.escape(title)} ({bucket['hits']}/{n})</div>
+    </div>
+    """
+
+
 def _pick_list_html(bucket):
     picks = (bucket or {}).get("picks") or []
     if not picks:
@@ -79,12 +92,93 @@ def _pick_list_html(bucket):
     return "".join(rows)
 
 
+def _game_bucket_row(label, bucket):
+    bucket = bucket or {}
+    n = bucket.get("n") or 0
+    if not n:
+        return f'<tr><td>{html.escape(label)}</td><td colspan="2" class="sub">No graded games yet</td></tr>'
+    return f"<tr><td>{html.escape(label)}</td><td>{bucket['hits']}/{n}</td><td>{_pct(bucket['hit_rate'])}</td></tr>"
+
+
+def _games_table(heading, games_bucket):
+    games_bucket = games_bucket or {}
+    labels = [("Moneyline (correct winner)", "moneyline"), ("Run line (spread)", "run_line"), ("Total (over/under)", "total")]
+    rows = "".join(_game_bucket_row(label, games_bucket.get(key)) for label, key in labels)
+    return f"""
+    <div class="picks-heading" style="margin-top:16px">{html.escape(heading)}</div>
+    <table><thead><tr><th></th><th>Record</th><th>Hit rate</th></tr></thead>
+    <tbody>{rows}</tbody></table>
+    """
+
+
+def _score_accuracy_tile(bucket):
+    bucket = bucket or {}
+    if not bucket.get("n"):
+        return '<div class="stat-tile"><div class="stat-value">&mdash;</div><div class="stat-label">Projected score accuracy</div></div>'
+    sign = "+" if (bucket.get("bias") or 0) >= 0 else ""
+    return f"""
+    <div class="stat-tile">
+      <div class="stat-value">&plusmn;{bucket['mae']}</div>
+      <div class="stat-label">Runs off per game, avg (projected vs actual total, {bucket['n']} games, bias {sign}{bucket.get('bias')})</div>
+    </div>
+    """
+
+
+def _game_score_examples_html(examples):
+    examples = examples or []
+    if not examples:
+        return '<div class="sub">No graded games that day.</div>'
+    rows = []
+    for e in examples:
+        rows.append(
+            f'<div class="grade-row grade-neutral">'
+            f'<span><b>{html.escape(e["matchup"])}</b></span>'
+            f'<span>projected {e["projected_away"]}&ndash;{e["projected_home"]} &middot; actual {e["actual_away"]}&ndash;{e["actual_home"]}</span></div>'
+        )
+    return "".join(rows)
+
+
+def _projection_table(heading, category_stats):
+    category_stats = category_stats or {}
+    rows = []
+    for label, s in sorted(category_stats.items(), key=lambda kv: -(kv[1].get("n") or 0)):
+        if not s.get("n"):
+            continue
+        rows.append(
+            f"<tr><td>{html.escape(label)}</td><td>{s['n']}</td>"
+            f"<td>{s.get('avg_projected')}</td><td>{s.get('avg_actual')}</td>"
+            f"<td>&plusmn;{s['mae']}</td></tr>"
+        )
+    if not rows:
+        return f'<div class="picks-heading" style="margin-top:16px">{html.escape(heading)}</div><div class="sub">No graded projections yet.</div>'
+    return f"""
+    <div class="picks-heading" style="margin-top:16px">{html.escape(heading)}</div>
+    <table><thead><tr><th>Stat</th><th>N</th><th>Avg projected</th><th>Avg actual</th><th>Off by, avg</th></tr></thead>
+    <tbody>{"".join(rows)}</tbody></table>
+    """
+
+
+def _projection_examples_html(examples):
+    examples = examples or []
+    if not examples:
+        return '<div class="sub">No graded projections that day.</div>'
+    rows = []
+    for e in examples:
+        rows.append(
+            f'<div class="grade-row grade-neutral">'
+            f'<span><b>{html.escape(e["name"])}</b> ({html.escape(e["role"])}) &mdash; {html.escape(e["category"])}</span>'
+            f'<span>projected {e["projected"]} &middot; actual {e["actual"]}</span></div>'
+        )
+    return "".join(rows)
+
+
 def _day_card_html(day, open_by_default):
     date = day["date"]
     to, tu = day["top_overs"], day["top_unders"]
     to_graded = to["hits"] + to["misses"]
     tu_graded = tu["hits"] + tu["misses"]
     open_attr = " open" if open_by_default else ""
+    games = day.get("games") or {}
     return f"""
     <details class="game-card"{open_attr}>
       <summary class="game-summary">
@@ -102,6 +196,12 @@ def _day_card_html(day, open_by_default):
         {_rate_table("Batter trend that day (every flagged batter, not just Top Picks)", day.get("batter_trend"), [("HOT", "hot"), ("COLD", "cold"), ("NEUTRAL", "neutral")], "batter")}
         {_rate_table("Batter matchup edge that day", day.get("batter_matchup"), [("Favorable", "favorable"), ("Unfavorable", "unfavorable"), ("Neutral", "neutral")], "batter")}
         {_rate_table("Pitcher form trend that day", day.get("pitcher_form"), [("Dominant", "dominant"), ("Rough", "rough"), ("Neutral", "neutral")], "pitcher")}
+        {_games_table("Game picks that day (moneyline / run line / total)", games)}
+        <div class="picks-heading" style="margin-top:16px">Projected score vs actual, that day</div>
+        {_game_score_examples_html(games.get("score_examples"))}
+        {_projection_table("Projected stat vs actual, that day (every player shown, by category)", day.get("projection_accuracy"))}
+        <div class="picks-heading" style="margin-top:16px">Biggest single-player projection misses that day</div>
+        {_projection_examples_html(day.get("projection_examples"))}
       </div>
     </details>
     """
@@ -122,13 +222,20 @@ def render_html():
     else:
         body = "".join(_day_card_html(d, open_by_default=(i == 0)) for i, d in enumerate(days))
 
-    cum_tiles = _picks_tile_html("Top Overs hit rate, all days", cum.get("top_overs")) + _picks_tile_html(
-        "Top Unders hit rate, all days", cum.get("top_unders")
+    cum_games = cum.get("games") or {}
+    cum_tiles = (
+        _picks_tile_html("Top Overs hit rate, all days", cum.get("top_overs"))
+        + _picks_tile_html("Top Unders hit rate, all days", cum.get("top_unders"))
+        + _game_pick_tile_html("Moneyline hit rate, all days", cum_games.get("moneyline"))
+        + _game_pick_tile_html("Run line hit rate, all days", cum_games.get("run_line"))
+        + _game_pick_tile_html("Total (O/U) hit rate, all days", cum_games.get("total"))
+        + _score_accuracy_tile(cum_games.get("score_accuracy"))
     )
     cum_rates = (
         _rate_table("All days: batter trend", cum.get("batter_trend"), [("HOT", "hot"), ("COLD", "cold"), ("NEUTRAL", "neutral")], "batter")
         + _rate_table("All days: batter matchup edge", cum.get("batter_matchup"), [("Favorable", "favorable"), ("Unfavorable", "unfavorable"), ("Neutral", "neutral")], "batter")
         + _rate_table("All days: pitcher form trend", cum.get("pitcher_form"), [("Dominant", "dominant"), ("Rough", "rough"), ("Neutral", "neutral")], "pitcher")
+        + _projection_table("All days: projected stat vs actual, by category", cum.get("projection_accuracy"))
     )
     days_tracked = cum.get("days_tracked", 0)
     updated = record.get("updated_at") or "never"
@@ -171,7 +278,13 @@ def render_html():
       broader, more honest read on whether those signals predict
       anything. Small samples (especially a single day) bounce around a
       lot; judge the signals by the "all days" totals below, not any one
-      day in isolation.
+      day in isolation. Moneyline/run line/total grade each game's pick
+      against the actual final score. "Projected stat vs actual" is a
+      different, more granular cut than hit/miss -- it shows the actual
+      NUMBER projected for every player and category (e.g. "8.0 projected
+      strikeouts") next to what really happened (e.g. "12"), so you can
+      see not just whether a line was cleared but how close the model's
+      numbers actually were.
     </div>
 
     <div class="stat-row">{cum_tiles}</div>

@@ -193,6 +193,7 @@
   .grade-hit { background: rgba(15,157,88,0.14); color: var(--status-good); }
   .grade-miss { background: rgba(224,51,63,0.14); color: var(--status-critical); }
   .grade-no_data { background: var(--badge-neutral-bg); color: var(--text-secondary); }
+  .grade-neutral { background: var(--badge-neutral-bg); color: var(--text-secondary); }
 
   .prop-detail td { background: var(--surface-2); }
   .prop-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 10px; padding: 6px 2px; }
@@ -258,7 +259,7 @@
       <div class="header-top">
         <div>
           <h1>Track Record</h1>
-          <div class="meta">How the picks and signals actually performed, day by day &middot; 1 day(s) graded &middot; updated 2026-07-25T19:20:54.682563+00:00</div>
+          <div class="meta">How the picks and signals actually performed, day by day &middot; 1 day(s) graded &middot; updated 2026-07-25T20:01:07.589421+00:00</div>
         </div>
         <div class="header-actions">
           <a class="nav-link" href="index.html">&larr; Back to Dashboard</a>
@@ -279,7 +280,13 @@
       broader, more honest read on whether those signals predict
       anything. Small samples (especially a single day) bounce around a
       lot; judge the signals by the "all days" totals below, not any one
-      day in isolation.
+      day in isolation. Moneyline/run line/total grade each game's pick
+      against the actual final score. "Projected stat vs actual" is a
+      different, more granular cut than hit/miss -- it shows the actual
+      NUMBER projected for every player and category (e.g. "8.0 projected
+      strikeouts") next to what really happened (e.g. "12"), so you can
+      see not just whether a line was cleared but how close the model's
+      numbers actually were.
     </div>
 
     <div class="stat-row">
@@ -292,6 +299,26 @@
       <div class="stat-value">62%</div>
       <div class="stat-label">Top Unders hit rate, all days (5/8)</div>
     </div>
+    
+    <div class="stat-tile">
+      <div class="stat-value">53%</div>
+      <div class="stat-label">Moneyline hit rate, all days (8/15)</div>
+    </div>
+    
+    <div class="stat-tile">
+      <div class="stat-value">53%</div>
+      <div class="stat-label">Run line hit rate, all days (8/15)</div>
+    </div>
+    
+    <div class="stat-tile">
+      <div class="stat-value">60%</div>
+      <div class="stat-label">Total (O/U) hit rate, all days (9/15)</div>
+    </div>
+    
+    <div class="stat-tile">
+      <div class="stat-value">&plusmn;4.16</div>
+      <div class="stat-label">Runs off per game, avg (projected vs actual total, 15 games, bias -0.51)</div>
+    </div>
     </div>
 
     <div class="picks-section">
@@ -299,15 +326,19 @@
       <div style="padding: 0 16px 16px">
     <div class="picks-heading" style="margin-top:16px">All days: batter trend</div>
     <table><thead><tr><th></th><th>Games</th><th>AVG</th><th>TB/game</th></tr></thead>
-    <tbody><tr><td>HOT</td><td>16</td><td>0.158</td><td>0.62</td></tr><tr><td>COLD</td><td>26</td><td>0.244</td><td>1.15</td></tr><tr><td>NEUTRAL</td><td>43</td><td>0.221</td><td>1.16</td></tr></tbody></table>
+    <tbody><tr><td>HOT</td><td>48</td><td>0.23</td><td>1.0</td></tr><tr><td>COLD</td><td>60</td><td>0.291</td><td>1.65</td></tr><tr><td>NEUTRAL</td><td>112</td><td>0.225</td><td>1.21</td></tr></tbody></table>
     
     <div class="picks-heading" style="margin-top:16px">All days: batter matchup edge</div>
     <table><thead><tr><th></th><th>Games</th><th>AVG</th><th>TB/game</th></tr></thead>
-    <tbody><tr><td>Favorable</td><td>18</td><td>0.185</td><td>0.78</td></tr><tr><td>Unfavorable</td><td>16</td><td>0.185</td><td>0.88</td></tr><tr><td>Neutral</td><td>51</td><td>0.237</td><td>1.22</td></tr></tbody></table>
+    <tbody><tr><td>Favorable</td><td>53</td><td>0.234</td><td>1.25</td></tr><tr><td>Unfavorable</td><td>37</td><td>0.217</td><td>1.05</td></tr><tr><td>Neutral</td><td>130</td><td>0.256</td><td>1.36</td></tr></tbody></table>
     
     <div class="picks-heading" style="margin-top:16px">All days: pitcher form trend</div>
     <table><thead><tr><th></th><th>Games</th><th>ERA</th><th>K/start</th></tr></thead>
-    <tbody><tr><td>Dominant</td><td>3</td><td>1.35</td><td>6.0</td></tr><tr><td>Rough</td><td>2</td><td>5.73</td><td>4.5</td></tr><tr><td>Neutral</td><td>5</td><td>6.48</td><td>5.0</td></tr></tbody></table>
+    <tbody><tr><td>Dominant</td><td>4</td><td>2.16</td><td>5.75</td></tr><tr><td>Rough</td><td>11</td><td>3.91</td><td>4.45</td></tr><tr><td>Neutral</td><td>11</td><td>4.87</td><td>4.64</td></tr></tbody></table>
+    
+    <div class="picks-heading" style="margin-top:16px">All days: projected stat vs actual, by category</div>
+    <table><thead><tr><th>Stat</th><th>N</th><th>Avg projected</th><th>Avg actual</th><th>Off by, avg</th></tr></thead>
+    <tbody><tr><td>RBIs</td><td>220</td><td>0.55</td><td>0.36</td><td>&plusmn;0.63</td></tr><tr><td>Hits</td><td>220</td><td>0.85</td><td>0.8</td><td>&plusmn;0.72</td></tr><tr><td>Total Bases</td><td>220</td><td>1.41</td><td>1.28</td><td>&plusmn;1.29</td></tr><tr><td>Home Runs</td><td>220</td><td>0.5</td><td>0.1</td><td>&plusmn;0.5</td></tr><tr><td>Walks</td><td>220</td><td>0.52</td><td>0.33</td><td>&plusmn;0.58</td></tr><tr><td>Runs Scored</td><td>220</td><td>0.54</td><td>0.39</td><td>&plusmn;0.55</td></tr><tr><td>Hits Allowed</td><td>26</td><td>4.71</td><td>4.65</td><td>&plusmn;1.75</td></tr><tr><td>Strikeouts</td><td>26</td><td>4.58</td><td>4.73</td><td>&plusmn;2.12</td></tr><tr><td>Runs Allowed</td><td>26</td><td>2.45</td><td>2.27</td><td>&plusmn;1.52</td></tr><tr><td>Walks Allowed</td><td>26</td><td>1.69</td><td>1.73</td><td>&plusmn;0.92</td></tr></tbody></table>
     </div>
     </div>
 
@@ -329,18 +360,32 @@
         
     <div class="picks-heading" style="margin-top:16px">Batter trend that day (every flagged batter, not just Top Picks)</div>
     <table><thead><tr><th></th><th>Games</th><th>AVG</th><th>TB/game</th></tr></thead>
-    <tbody><tr><td>HOT</td><td>16</td><td>0.158</td><td>0.62</td></tr><tr><td>COLD</td><td>26</td><td>0.244</td><td>1.15</td></tr><tr><td>NEUTRAL</td><td>43</td><td>0.221</td><td>1.16</td></tr></tbody></table>
+    <tbody><tr><td>HOT</td><td>48</td><td>0.23</td><td>1.0</td></tr><tr><td>COLD</td><td>60</td><td>0.291</td><td>1.65</td></tr><tr><td>NEUTRAL</td><td>112</td><td>0.225</td><td>1.21</td></tr></tbody></table>
     
         
     <div class="picks-heading" style="margin-top:16px">Batter matchup edge that day</div>
     <table><thead><tr><th></th><th>Games</th><th>AVG</th><th>TB/game</th></tr></thead>
-    <tbody><tr><td>Favorable</td><td>18</td><td>0.185</td><td>0.78</td></tr><tr><td>Unfavorable</td><td>16</td><td>0.185</td><td>0.88</td></tr><tr><td>Neutral</td><td>51</td><td>0.237</td><td>1.22</td></tr></tbody></table>
+    <tbody><tr><td>Favorable</td><td>53</td><td>0.234</td><td>1.25</td></tr><tr><td>Unfavorable</td><td>37</td><td>0.217</td><td>1.05</td></tr><tr><td>Neutral</td><td>130</td><td>0.256</td><td>1.36</td></tr></tbody></table>
     
         
     <div class="picks-heading" style="margin-top:16px">Pitcher form trend that day</div>
     <table><thead><tr><th></th><th>Games</th><th>ERA</th><th>K/start</th></tr></thead>
-    <tbody><tr><td>Dominant</td><td>3</td><td>1.35</td><td>6.0</td></tr><tr><td>Rough</td><td>2</td><td>5.73</td><td>4.5</td></tr><tr><td>Neutral</td><td>5</td><td>6.48</td><td>5.0</td></tr></tbody></table>
+    <tbody><tr><td>Dominant</td><td>4</td><td>2.16</td><td>5.75</td></tr><tr><td>Rough</td><td>11</td><td>3.91</td><td>4.45</td></tr><tr><td>Neutral</td><td>11</td><td>4.87</td><td>4.64</td></tr></tbody></table>
     
+        
+    <div class="picks-heading" style="margin-top:16px">Game picks that day (moneyline / run line / total)</div>
+    <table><thead><tr><th></th><th>Record</th><th>Hit rate</th></tr></thead>
+    <tbody><tr><td>Moneyline (correct winner)</td><td>8/15</td><td>53%</td></tr><tr><td>Run line (spread)</td><td>8/15</td><td>53%</td></tr><tr><td>Total (over/under)</td><td>9/15</td><td>60%</td></tr></tbody></table>
+    
+        <div class="picks-heading" style="margin-top:16px">Projected score vs actual, that day</div>
+        <div class="grade-row grade-neutral"><span><b>Athletics @ Minnesota Twins</b></span><span>projected 4.11&ndash;5.8 &middot; actual 2&ndash;0</span></div><div class="grade-row grade-neutral"><span><b>Cleveland Guardians @ Tampa Bay Rays</b></span><span>projected 3.14&ndash;3.97 &middot; actual 3&ndash;11</span></div><div class="grade-row grade-neutral"><span><b>Houston Astros @ Chicago White Sox</b></span><span>projected 3.37&ndash;4.25 &middot; actual 9&ndash;5</span></div><div class="grade-row grade-neutral"><span><b>New York Yankees @ Philadelphia Phillies</b></span><span>projected 3.85&ndash;2.82 &middot; actual 1&ndash;0</span></div><div class="grade-row grade-neutral"><span><b>Arizona Diamondbacks @ Washington Nationals</b></span><span>projected 6.55&ndash;3.47 &middot; actual 3&ndash;2</span></div><div class="grade-row grade-neutral"><span><b>Chicago Cubs @ Pittsburgh Pirates</b></span><span>projected 4.61&ndash;5.09 &middot; actual 3&ndash;2</span></div><div class="grade-row grade-neutral"><span><b>Los Angeles Angels @ San Francisco Giants</b></span><span>projected 3.54&ndash;5.12 &middot; actual 6&ndash;7</span></div><div class="grade-row grade-neutral"><span><b>Atlanta Braves @ Baltimore Orioles</b></span><span>projected 5.03&ndash;3.74 &middot; actual 7&ndash;6</span></div><div class="grade-row grade-neutral"><span><b>Los Angeles Dodgers @ New York Mets</b></span><span>projected 5.46&ndash;3.97 &middot; actual 4&ndash;2</span></div><div class="grade-row grade-neutral"><span><b>Toronto Blue Jays @ Boston Red Sox</b></span><span>projected 3.47&ndash;3.32 &middot; actual 4&ndash;6</span></div>
+        
+    <div class="picks-heading" style="margin-top:16px">Projected stat vs actual, that day (every player shown, by category)</div>
+    <table><thead><tr><th>Stat</th><th>N</th><th>Avg projected</th><th>Avg actual</th><th>Off by, avg</th></tr></thead>
+    <tbody><tr><td>Hits</td><td>220</td><td>0.85</td><td>0.8</td><td>&plusmn;0.72</td></tr><tr><td>Total Bases</td><td>220</td><td>1.41</td><td>1.28</td><td>&plusmn;1.29</td></tr><tr><td>Home Runs</td><td>220</td><td>0.5</td><td>0.1</td><td>&plusmn;0.5</td></tr><tr><td>RBIs</td><td>220</td><td>0.55</td><td>0.36</td><td>&plusmn;0.63</td></tr><tr><td>Runs Scored</td><td>220</td><td>0.54</td><td>0.39</td><td>&plusmn;0.55</td></tr><tr><td>Walks</td><td>220</td><td>0.52</td><td>0.33</td><td>&plusmn;0.58</td></tr><tr><td>Strikeouts</td><td>26</td><td>4.58</td><td>4.73</td><td>&plusmn;2.12</td></tr><tr><td>Runs Allowed</td><td>26</td><td>2.45</td><td>2.27</td><td>&plusmn;1.52</td></tr><tr><td>Hits Allowed</td><td>26</td><td>4.71</td><td>4.65</td><td>&plusmn;1.75</td></tr><tr><td>Walks Allowed</td><td>26</td><td>1.69</td><td>1.73</td><td>&plusmn;0.92</td></tr></tbody></table>
+    
+        <div class="picks-heading" style="margin-top:16px">Biggest single-player projection misses that day</div>
+        <div class="grade-row grade-neutral"><span><b>Anthony Seigler</b> (batter) &mdash; Total Bases</span><span>projected 1.23 &middot; actual 9</span></div><div class="grade-row grade-neutral"><span><b>Bryce Miller</b> (pitcher) &mdash; Strikeouts</span><span>projected 6.67 &middot; actual 0</span></div><div class="grade-row grade-neutral"><span><b>Cam Schlittler</b> (pitcher) &mdash; Strikeouts</span><span>projected 6.32 &middot; actual 12</span></div><div class="grade-row grade-neutral"><span><b>Spencer Arrighetti</b> (pitcher) &mdash; Strikeouts</span><span>projected 4.88 &middot; actual 0</span></div><div class="grade-row grade-neutral"><span><b>Rhett Lowder</b> (pitcher) &mdash; Hits Allowed</span><span>projected 5.6 &middot; actual 1</span></div><div class="grade-row grade-neutral"><span><b>Tarik Skubal</b> (pitcher) &mdash; Strikeouts</span><span>projected 7.48 &middot; actual 12</span></div><div class="grade-row grade-neutral"><span><b>Kazuma Okamoto</b> (batter) &mdash; Total Bases</span><span>projected 1.62 &middot; actual 6</span></div><div class="grade-row grade-neutral"><span><b>Roki Sasaki</b> (pitcher) &mdash; Strikeouts</span><span>projected 4.68 &middot; actual 9</span></div><div class="grade-row grade-neutral"><span><b>Pete Crow-Armstrong</b> (batter) &mdash; Total Bases</span><span>projected 1.79 &middot; actual 6</span></div><div class="grade-row grade-neutral"><span><b>Heriberto Hernández</b> (batter) &mdash; Total Bases</span><span>projected 1.93 &middot; actual 6</span></div>
       </div>
     </details>
     

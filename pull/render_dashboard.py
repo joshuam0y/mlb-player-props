@@ -228,6 +228,7 @@ STYLE = """
   .grade-hit { background: rgba(15,157,88,0.14); color: var(--status-good); }
   .grade-miss { background: rgba(224,51,63,0.14); color: var(--status-critical); }
   .grade-no_data { background: var(--badge-neutral-bg); color: var(--text-secondary); }
+  .grade-neutral { background: var(--badge-neutral-bg); color: var(--text-secondary); }
 
   .prop-detail td { background: var(--surface-2); }
   .prop-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 10px; padding: 6px 2px; }
