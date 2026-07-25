@@ -24,15 +24,28 @@ def sync_game_lineups(conn, game_pk):
     rows = []
     for side in ("home", "away"):
         team = teams.get(side, {})
-        batting_order = team.get("battingOrder") or []
-        if not batting_order:
-            continue  # lineup not posted yet
         team_id = (team.get("team") or {}).get("id")
         players = team.get("players", {})
-        for slot, player_id in enumerate(batting_order, start=1):
-            info = players.get(f"ID{player_id}", {})
+        # team["battingOrder"] is a convenience list of whoever CURRENTLY
+        # occupies each of the 9 slots -- once a pinch-hitter, pinch-runner,
+        # or defensive replacement enters, that list silently starts
+        # reporting the substitute instead of who actually started, with no
+        # sign anything changed. Each player's OWN battingOrder field is more
+        # precise: "P00" (an exact multiple of 100) marks slot P's original
+        # starter, while "P01"/"P02"/... marks the first/second player to
+        # later take over that same slot. Filtering to exact multiples of
+        # 100 recovers the true starting lineup regardless of whether this
+        # sync happens to run before, during, or well after the game --
+        # this bit us for real: a late run relabeled a Royals game's
+        # confirmed 9th-place hitter as a 0-at-bat late substitute, silently
+        # dropping the actual starter (2 at-bats) from the lineup entirely.
+        for info in players.values():
+            bo = info.get("battingOrder")
+            if bo is None or int(bo) % 100 != 0:
+                continue
+            person = info.get("person", {})
             position = (info.get("position") or {}).get("abbreviation")
-            rows.append((game_pk, team_id, player_id, slot, position, now))
+            rows.append((game_pk, team_id, person.get("id"), int(bo) // 100, position, now))
 
     if rows:
         conn.execute("DELETE FROM lineups WHERE game_pk = ?", (game_pk,))
