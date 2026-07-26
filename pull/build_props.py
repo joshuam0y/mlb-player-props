@@ -769,6 +769,9 @@ def build_batter_entry(conn, player_id, opp_hand, opp_pitcher_id, is_home_game, 
     if best_prop is None:
         best_prop, best_prop_direction = fallback_best_prop(recent_categories, season_categories)
 
+    game_result = batter_game_result(conn, player_id, game_pk) if game_pk else None
+    matchup_lean = _lean_with_result(best_matchup_lean(recent_categories), game_result, "batter")
+
     return {
         "player_id": player_id,
         "name": player["full_name"],
@@ -794,8 +797,8 @@ def build_batter_entry(conn, player_id, opp_hand, opp_pitcher_id, is_home_game, 
         "best_under": best_under,
         "best_prop": best_prop,
         "best_prop_direction": best_prop_direction,
-        "matchup_lean": best_matchup_lean(recent_categories),
-        "game_result": batter_game_result(conn, player_id, game_pk) if game_pk else None,
+        "matchup_lean": matchup_lean,
+        "game_result": game_result,
     }
 
 
@@ -822,6 +825,9 @@ def build_pitcher_entry(conn, player_id, team_id, is_home_game=None, game_pk=Non
     if best_prop is None:
         best_prop, best_prop_direction = fallback_best_prop(recent_categories, season_categories)
 
+    game_result = pitcher_game_result(conn, player_id, game_pk) if game_pk else None
+    matchup_lean = _lean_with_result(best_matchup_lean(recent_categories), game_result, "pitcher")
+
     return {
         "player_id": player_id,
         "name": player["full_name"],
@@ -844,12 +850,12 @@ def build_pitcher_entry(conn, player_id, team_id, is_home_game=None, game_pk=Non
         "best_under": best_under,
         "best_prop": best_prop,
         "best_prop_direction": best_prop_direction,
-        "matchup_lean": best_matchup_lean(recent_categories),
+        "matchup_lean": matchup_lean,
         # filled in by build_report() once the opposing lineup for this game
         # is known -- a pitcher's own entry has no visibility into the other
         # team's batters at the point build_team_side() constructs it.
         "opponent_matchup": None,
-        "game_result": pitcher_game_result(conn, player_id, game_pk) if game_pk else None,
+        "game_result": game_result,
     }
 
 
@@ -1115,6 +1121,13 @@ def pick_result(role, category, game_result, direction):
     return "hit" if (cleared if direction == "over" else not cleared) else "miss"
 
 
+def _lean_with_result(lean, game_result, role):
+    """Attaches the live hit/miss verdict directly onto the matchup_lean dict, using the same grading logic as Top Overs/Unders -- so the dashboard's "Predicted: X" line can say whether it actually hit, not just restate the pre-game call."""
+    if lean and game_result:
+        lean["result"] = pick_result(role, lean, game_result, lean["direction"])
+    return lean
+
+
 def best_matchup_lean(categories):
     """
     The single category this player's row should headline once the game has
@@ -1180,43 +1193,57 @@ def pitcher_best_category(p, label):
     return None
 
 
-def _pct_str(rate):
-    return f".{round(rate * 1000):03d}"
 
 
-def fallback_pick_angle(entity, role, direction):
+# Most commonly bet MLB player-prop categories, in priority order -- the
+# guaranteed last-resort fallback below picks the first of these a player
+# has any recent-game data for at all.
+POPULAR_BATTER_CATEGORIES = ["Hits", "Total Bases", "Home Runs", "RBIs"]
+POPULAR_PITCHER_CATEGORIES = ["Strikeouts", "Hits Allowed"]
+
+
+def _lenient_category_for_direction(categories, direction):
     """
-    A Top Over/Under pick can qualify purely on a signal other than a
-    specific prop category (matchup edge, hot/cold trend, hit streak) --
-    prop_category_delta() requires 8+ recent games (4+ for pitchers) AND a
-    real deviation from the player's own season norm in the right
-    direction, so it's entirely possible for best_over/best_under/
-    pitcher_best_category to come back None even though the pick is
-    legitimate. Rather than leave that card with a reasons bullet but no
-    concrete number at all, this surfaces whichever number actually backs
-    whichever signal got the player on the list -- checked in the same
-    priority order the scoring functions use (matchup first, then trend).
-    Only ever called as a fallback when the real best_category is None.
+    Like fallback_best_prop(), but constrained to the direction this pick
+    actually needs: a Top Over/Under pick can qualify on a signal other
+    than a specific prop category (matchup edge, hot streak), and
+    prop_category_delta()'s 8+-recent-games-and-real-deviation bar can
+    legitimately come back empty even for a real pick -- but a plain text
+    remark with no concrete number isn't a real prop. This picks whichever
+    of the player's own categories (already matchup-adjusted -- see
+    today_projection/lean in _prop_categories()) actually leans the
+    requested direction, with the most recent-game data behind it.
     """
-    if role == "batter":
-        m = entity.get("matchup") or {}
-        wants = "favorable" if direction == "over" else "unfavorable"
-        if m.get(wants) and m.get("pitcher_avg_against") is not None:
-            hand = "same-handed" if m.get("platoon") == "same-hand" else "opposite-handed"
-            return f"Opposing pitcher allows a {_pct_str(m['pitcher_avg_against'])} average to {hand} hitters this season"
-        l15 = entity.get("l15") or {}
-        if l15.get("avg") is not None and l15.get("games"):
-            return f"Hitting {_pct_str(l15['avg'])} over his last {l15['games']} games"
+    candidates = [c for c in (categories or []) if c.get("lean") == direction and c.get("hit_rates")]
+    if not candidates:
         return None
+    best = max(candidates, key=lambda c: abs(c["today_projection"] - c["primary_line"]))
+    hr = best["hit_rates"][0]
+    return {"label": best["label"], "line": best["primary_line"], "pct": hr["pct"], "n": hr["n"]}
 
-    l5 = entity.get("l5") or {}
-    if not l5.get("games"):
-        return None
-    if direction == "over" and l5.get("strike_outs") is not None:
-        return f"{round(l5['strike_outs'] / l5['games'], 1)} strikeouts per start over his last {l5['games']} starts"
-    if direction == "under" and l5.get("era") is not None:
-        return f"{l5['era']} ERA over his last {l5['games']} starts"
+
+def _popular_prop_category(categories, role):
+    """
+    Guaranteed last resort so a Top Over/Under pick NEVER shows as just a
+    name with a text remark and no real number: the first category, in
+    order of how commonly these are actually bet, this player has any
+    recent-game data for. Not scored, doesn't affect ranking or who
+    qualifies -- purely ensures every pick has a concrete prop+line to
+    display and grade.
+    """
+    priority = POPULAR_BATTER_CATEGORIES if role == "batter" else POPULAR_PITCHER_CATEGORIES
+    by_label = {c["label"]: c for c in (categories or []) if c.get("hit_rates")}
+    for label in priority:
+        cat = by_label.get(label)
+        if cat:
+            hr = cat["hit_rates"][0]
+            return {"label": label, "line": cat["primary_line"], "pct": hr["pct"], "n": hr["n"]}
     return None
+
+
+def resolve_best_category(categories, role, direction):
+    """Real prop+line for a Top Over/Under pick, even when nothing clears prop_category_delta()'s strict bar -- see the two helpers above."""
+    return _lenient_category_for_direction(categories, direction) or _popular_prop_category(categories, role)
 
 
 def build_top_picks(report_games, batter_limit=15, pitcher_limit=8):
@@ -1267,18 +1294,16 @@ def build_top_picks(report_games, batter_limit=15, pitcher_limit=8):
                 over_score, over_reasons = batter_over_score(b)
                 over_score -= confirmed_penalty
                 if over_reasons and over_score > 0:
-                    best_over = b.get("best_over")
-                    fallback = None if best_over else fallback_pick_angle(b, "batter", "over")
+                    best_over = b.get("best_over") or resolve_best_category(b.get("prop_categories"), "batter", "over")
                     result = pick_result("batter", best_over, b.get("game_result"), "over")
-                    batter_overs.append({**base, "score": over_score, "reasons": over_reasons, "best_category": best_over, "fallback_angle": fallback, "result": result})
+                    batter_overs.append({**base, "score": over_score, "reasons": over_reasons, "best_category": best_over, "result": result})
 
                 under_score, under_reasons = batter_under_score(b)
                 under_score -= confirmed_penalty
                 if under_reasons and under_score > 0:
-                    best_under = b.get("best_under")
-                    fallback = None if best_under else fallback_pick_angle(b, "batter", "under")
+                    best_under = b.get("best_under") or resolve_best_category(b.get("prop_categories"), "batter", "under")
                     result = pick_result("batter", best_under, b.get("game_result"), "under")
-                    batter_unders.append({**base, "score": under_score, "reasons": under_reasons, "best_category": best_under, "fallback_angle": fallback, "result": result})
+                    batter_unders.append({**base, "score": under_score, "reasons": under_reasons, "best_category": best_under, "result": result})
 
             p = side["probable_pitcher"]
             if p and not p["injury"]:
@@ -1294,17 +1319,15 @@ def build_top_picks(report_games, batter_limit=15, pitcher_limit=8):
                 }
                 over_score, over_reasons = pitcher_strikeout_over_score(p)
                 if over_reasons and over_score > 0:
-                    best_over = pitcher_best_category(p, "Strikeouts")
-                    fallback = None if best_over else fallback_pick_angle(p, "pitcher", "over")
+                    best_over = pitcher_best_category(p, "Strikeouts") or resolve_best_category(p.get("prop_categories"), "pitcher", "over")
                     result = pick_result("pitcher", best_over, p.get("game_result"), "over")
-                    pitcher_overs.append({**base, "score": over_score, "reasons": over_reasons, "best_category": best_over, "fallback_angle": fallback, "result": result})
+                    pitcher_overs.append({**base, "score": over_score, "reasons": over_reasons, "best_category": best_over, "result": result})
 
                 under_score, under_reasons = pitcher_runs_under_score(p)
                 if under_reasons and under_score > 0:
-                    best_under = pitcher_best_category(p, "Runs Allowed")
-                    fallback = None if best_under else fallback_pick_angle(p, "pitcher", "under")
+                    best_under = pitcher_best_category(p, "Runs Allowed") or resolve_best_category(p.get("prop_categories"), "pitcher", "under")
                     result = pick_result("pitcher", best_under, p.get("game_result"), "under")
-                    pitcher_unders.append({**base, "score": under_score, "reasons": under_reasons, "best_category": best_under, "fallback_angle": fallback, "result": result})
+                    pitcher_unders.append({**base, "score": under_score, "reasons": under_reasons, "best_category": best_under, "result": result})
 
     batter_overs.sort(key=lambda c: c["score"], reverse=True)
     batter_unders.sort(key=lambda c: c["score"], reverse=True)
@@ -1379,6 +1402,46 @@ def _regrade_picks(conn, picks_field, direction):
             pick["result"] = pick_result(role, pick.get("best_category"), game_result, direction)
 
 
+def _player_context(todays_games):
+    """Current prop_categories + lineup_confirmed for every player showing up today, keyed by (role, player_id) -- used to backfill an already-frozen pick without needing to recompute the whole entry."""
+    context = {}
+    for g in todays_games:
+        for side_key in ("home", "away"):
+            side = g[side_key]
+            for b in side["batters"]:
+                context[("batter", b["player_id"])] = {"prop_categories": b.get("prop_categories"), "lineup_confirmed": side["lineup_confirmed"]}
+            p = side["probable_pitcher"]
+            if p:
+                context[("pitcher", p["player_id"])] = {"prop_categories": p.get("prop_categories"), "lineup_confirmed": True}
+    return context
+
+
+def _refresh_frozen_pick(pick, direction, player_context):
+    """
+    Backfills two things on an already-frozen pick using CURRENT (but
+    still as-of-date-safe) data, without touching who's on the list or
+    their rank/score:
+      - best_category, for a pick frozen before resolve_best_category()
+        existed (previously a text-remark-only "fallback_angle", or
+        nothing at all)
+      - lineup_confirmed, which is a fact about what's now known to have
+        actually happened, not a prediction being graded -- archives are
+        written very early (the first build of the day, well before any
+        lineup posts), so every pick froze as PROJECTED regardless; once
+        the real lineup posted and the game was played, this should say
+        CONFIRMED, same as anyone checking after the fact would expect.
+    """
+    ctx = player_context.get((pick.get("role", "batter"), pick["player_id"]))
+    if not ctx:
+        return
+    if not pick.get("best_category"):
+        resolved = resolve_best_category(ctx["prop_categories"], pick.get("role", "batter"), direction)
+        if resolved:
+            pick["best_category"] = resolved
+    if pick.get("role", "batter") == "batter":
+        pick["lineup_confirmed"] = ctx["lineup_confirmed"]
+
+
 def build_report(conn, days_ahead=2):
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     end = (datetime.now(timezone.utc) + timedelta(days=days_ahead)).strftime("%Y-%m-%d")
@@ -1428,6 +1491,11 @@ def build_report(conn, days_ahead=2):
     frozen = _load_frozen_top_picks(today)
     if frozen:
         top_overs, top_unders = frozen
+        player_context = _player_context(todays_games)
+        for pick in (top_overs.get("batters") or []) + (top_overs.get("pitchers") or []):
+            _refresh_frozen_pick(pick, "over", player_context)
+        for pick in (top_unders.get("batters") or []) + (top_unders.get("pitchers") or []):
+            _refresh_frozen_pick(pick, "under", player_context)
         _regrade_picks(conn, top_overs, "over")
         _regrade_picks(conn, top_unders, "under")
     else:

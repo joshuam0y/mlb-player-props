@@ -17,7 +17,7 @@ from game_model import project_matchup, simulate
 MODEL_VERSION = "v1-log5-negbinom"
 
 
-def run(days_ahead=2, n_trials=20000):
+def run(days_ahead=2, n_trials=100000):
     init_db()
     conn = get_conn()
 
@@ -90,6 +90,6 @@ def run(days_ahead=2, n_trials=20000):
 if __name__ == "__main__":
     p = argparse.ArgumentParser()
     p.add_argument("--days-ahead", type=int, default=2)
-    p.add_argument("--n-trials", type=int, default=20000)
+    p.add_argument("--n-trials", type=int, default=100000)
     args = p.parse_args()
     run(days_ahead=args.days_ahead, n_trials=args.n_trials)

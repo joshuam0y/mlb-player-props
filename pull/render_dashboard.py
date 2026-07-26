@@ -1178,7 +1178,7 @@ GLOSSARY_HTML = """
     <dt>Hit rate (in the prop breakdown)</dt>
     <dd>Out of this player's recent games, the percentage where they went OVER a given number. E.g. "80% over 1.5 total bases" means 8 of their last 10 games had 2+ total bases. We don't pull actual FanDuel/Sleeper lines, so compare this rate to whatever number the app shows you. In the bar chart, the dashed line marks that threshold -- green bars cleared it, red bars didn't -- and hovering a bar shows the exact number and date.</dd>
     <dt>Moneyline / Run line / Total pick</dt>
-    <dd>Moneyline = which team our simulation (20,000+ Monte Carlo trials per game) thinks is more likely to win outright. Run line = the standard MLB spread (always +/-1.5 runs, whichever side is the moneyline favorite) and which side is more likely to cover it. Total = the projected combined-runs line (the median of the simulated outcomes, rounded to a half-run so it can't push) and whether the model leans over or under it. All three come from the same simulation, which uses each team's season-long scoring record (home/away split), the probable starters' season stats, actual bullpen quality plus recent bullpen fatigue, and -- once a lineup is confirmed -- a small adjustment for how those specific 9 hitters have actually been hitting lately.</dd>
+    <dd>Moneyline = which team our simulation (100,000 Monte Carlo trials per game) thinks is more likely to win outright. Run line = the standard MLB spread (always +/-1.5 runs, whichever side is the moneyline favorite) and which side is more likely to cover it. Total = the projected combined-runs line (the median of the simulated outcomes, rounded to a half-run so it can't push) and whether the model leans over or under it. All three come from the same simulation, which uses each team's season-long scoring record (home/away split), the probable starters' season stats, actual bullpen quality plus recent bullpen fatigue, and -- once a lineup is confirmed -- a small adjustment for how those specific 9 hitters have actually been hitting lately.</dd>
     <dt>Why does the +1.5 underdog get picked so often?</dt>
     <dd>Because that's genuinely how MLB run lines behave, not a bug: most games are decided by 1 run, so "lose by only 1" (which still covers +1.5) is a much lower bar than "win by 2+" (needed to cover -1.5). Real sportsbooks don't change the 1.5 number for this -- they price it in with worse moneyline odds on the +1.5 side. Since this project doesn't pull real odds, a run-line pick here is a directional lean only, not a claim that it's a great-value bet.</dd>
   </dl>
@@ -1336,7 +1336,14 @@ def _matchup_lean_html(entry):
     if not lean:
         return ""
     verb = "OVER" if lean["direction"] == "over" else "UNDER"
-    return f'<div class="matchup-lean prop-lean-{lean["direction"]}">Predicted: {html.escape(lean["label"])} {verb} {lean["line"]}</div>'
+    # result (hit/miss) is computed in build_props.py's _lean_with_result(),
+    # against this exact same line, the moment there's a real result to
+    # check it against -- otherwise this line just restated the pre-game
+    # call forever, even once the box score right next to it already
+    # answered the obvious next question.
+    result = lean.get("result")
+    result_html = f" {_badge(result.upper(), result)}" if result else ""
+    return f'<div class="matchup-lean prop-lean-{lean["direction"]}">Predicted: {html.escape(lean["label"])} {verb} {lean["line"]}{result_html}</div>'
 
 
 def _pitcher_matchup_text(matchup):
@@ -1860,14 +1867,6 @@ def _pick_card_html(pick, rank, direction):
             f'<div class="pick-category pick-category-{direction}">Best angle: {html.escape(c["label"])} '
             f'&mdash; {verb} {c["line"]} in {pct}% of the last {c["n"]} games</div>'
         )
-    elif pick.get("fallback_angle"):
-        # This pick qualified on a signal other than a specific prop category
-        # (matchup edge, hot/cold trend) -- prop_category_delta() needs 8+
-        # recent games (4+ for pitchers) AND a real deviation from the
-        # player's own norm, so it can legitimately come back empty even for
-        # a real pick. Showing the number behind whichever signal DID get
-        # them here beats leaving the card with reasons but no hard number.
-        category_html = f'<div class="pick-category pick-category-{direction}">Best angle: {html.escape(pick["fallback_angle"])}</div>'
     is_pitcher = pick.get("role") == "pitcher"
     badges = [_badge("PITCHER PROP", "matchup") if is_pitcher else _badge("BATTER PROP", "caveat")]
     if not is_pitcher:

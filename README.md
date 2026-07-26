@@ -118,7 +118,7 @@ highlight reel.
 log5-style blend of each team's own season runs-scored/allowed (home/away
 split), the probable starter's ERA, and actual bullpen ERA (separated from
 starters via `games_started`) adjusted for recent bullpen fatigue, fed into
-a Negative-Binomial Monte Carlo (20,000+ trials/game, fit against this
+a Negative-Binomial Monte Carlo (100,000 trials/game, fit against this
 season's real run distribution, not assumed constants). Each team's offense index also blends in that team's own scoring rate
 specifically against the probable opposing starter's handedness (weight 0.3,
 once 15+ games vs. that hand exist to trust) -- verified by the same

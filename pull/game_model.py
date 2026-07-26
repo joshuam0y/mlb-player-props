@@ -442,11 +442,14 @@ def _round_to_half(x):
     return round(x - 0.5) + 0.5
 
 
-def simulate(projection, n_trials=20000, spread_line=1.5, total_line=None, seed=None):
+def simulate(projection, n_trials=100000, spread_line=1.5, total_line=None, seed=None):
     """
-    n_trials defaults to 20,000 Monte Carlo trials per game (well above the
+    n_trials defaults to 100,000 Monte Carlo trials per game (well above the
     ~10k threshold needed for stable win-prob/cover-prob estimates at this
-    scale) -- see backtest.py for how this holds up against real outcomes.
+    scale -- 100k tightens the estimate further, and at ~0.03ms/trial the
+    added cost is trivial, well under a second per game even for a full
+    day's slate) -- see backtest.py for how this holds up against real
+    outcomes.
     """
     rng = random.Random(seed)
     home_exp, away_exp, r = projection["home_exp_runs"], projection["away_exp_runs"], projection["dispersion_r"]
