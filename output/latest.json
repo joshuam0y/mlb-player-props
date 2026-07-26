@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-26T22:09:57.040247+00:00",
+  "generated_at": "2026-07-26T22:12:55.031472+00:00",
   "range": [
     "2026-07-26",
     "2026-07-28"
@@ -783,10 +783,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
-              "line": 0.5,
+              "label": "Hits",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.11,
+              "projection": 1.14,
               "result": "hit"
             },
             "game_result": {
@@ -1208,10 +1208,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Walks",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.22,
+              "projection": 0.24,
               "result": "hit"
             },
             "game_result": {
@@ -2072,11 +2072,11 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Hits",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.11,
-              "result": "hit"
+              "direction": "over",
+              "projection": 0.86,
+              "result": "miss"
             },
             "game_result": {
               "at_bats": 3,
@@ -2497,10 +2497,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Walks",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.0,
+              "projection": 0.18,
               "result": "hit"
             },
             "game_result": {
@@ -3361,10 +3361,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.13,
+              "projection": 1.17,
               "result": "hit"
             },
             "game_result": {
@@ -4225,10 +4225,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.11,
+              "projection": 1.17,
               "result": "hit"
             },
             "game_result": {
@@ -4994,10 +4994,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
-              "line": 0.5,
+              "label": "Hits",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.01,
+              "projection": 1.03,
               "result": "hit"
             },
             "game_result": {
@@ -6722,11 +6722,11 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Hits",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.13,
-              "result": "hit"
+              "direction": "over",
+              "projection": 0.86,
+              "result": "miss"
             },
             "game_result": {
               "at_bats": 3,
@@ -9688,10 +9688,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.17,
+              "projection": 1.18,
               "result": "hit"
             },
             "game_result": {
@@ -10120,10 +10120,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Hits",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.17,
+              "direction": "over",
+              "projection": 0.72,
               "result": "hit"
             },
             "game_result": {
@@ -10984,10 +10984,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Hits",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.18,
+              "direction": "over",
+              "projection": 0.82,
               "result": "hit"
             },
             "game_result": {
@@ -11416,11 +11416,11 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.08,
-              "result": "hit"
+              "projection": 1.16,
+              "result": "miss"
             },
             "game_result": {
               "at_bats": 4,
@@ -11841,11 +11841,11 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Walks",
               "line": 0.5,
               "direction": "under",
               "projection": 0.18,
-              "result": "hit"
+              "result": "miss"
             },
             "game_result": {
               "at_bats": 3,
@@ -12705,11 +12705,11 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Total Bases",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.01,
-              "result": "hit"
+              "direction": "over",
+              "projection": 0.96,
+              "result": "miss"
             },
             "game_result": {
               "at_bats": 3,
@@ -13891,11 +13891,11 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Hits",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.11,
-              "result": "miss"
+              "direction": "over",
+              "projection": 0.84,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 2,
@@ -14316,11 +14316,11 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
-              "line": 0.5,
+              "label": "Hits",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.08,
-              "result": "hit"
+              "projection": 1.26,
+              "result": "miss"
             },
             "game_result": {
               "at_bats": 3,
@@ -15180,11 +15180,11 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Hits",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.13,
-              "result": "hit"
+              "direction": "over",
+              "projection": 0.79,
+              "result": "miss"
             },
             "game_result": {
               "at_bats": 3,
@@ -16908,10 +16908,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Walks",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.13,
+              "projection": 0.19,
               "result": "hit"
             },
             "game_result": {
@@ -18583,10 +18583,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Hits",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.13,
+              "direction": "over",
+              "projection": 0.86,
               "result": "hit"
             },
             "game_result": {
@@ -19872,11 +19872,11 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
-              "line": 0.5,
+              "label": "Hits",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.09,
-              "result": "hit"
+              "projection": 1.24,
+              "result": "miss"
             },
             "game_result": {
               "at_bats": 4,
@@ -20304,10 +20304,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Walks",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.12,
+              "projection": 0.15,
               "result": "hit"
             },
             "game_result": {
@@ -23106,10 +23106,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Hits",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.13,
+              "direction": "over",
+              "projection": 0.78,
               "result": "hit"
             },
             "game_result": {
@@ -23970,11 +23970,11 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.18,
-              "result": "hit"
+              "projection": 1.19,
+              "result": "miss"
             },
             "game_result": {
               "at_bats": 3,
@@ -24402,10 +24402,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.1,
+              "projection": 1.11,
               "result": "hit"
             },
             "game_result": {
@@ -24834,11 +24834,11 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.02,
-              "result": "hit"
+              "projection": 1.19,
+              "result": "miss"
             },
             "game_result": {
               "at_bats": 4,
@@ -25266,10 +25266,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Hits",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.1,
+              "direction": "over",
+              "projection": 0.84,
               "result": "hit"
             },
             "game_result": {
@@ -26080,11 +26080,11 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Hits",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.09,
-              "result": "hit"
+              "direction": "over",
+              "projection": 0.86,
+              "result": "miss"
             },
             "game_result": {
               "at_bats": 3,
@@ -27801,10 +27801,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Hits",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.12,
+              "direction": "over",
+              "projection": 0.86,
               "result": "hit"
             },
             "game_result": {
@@ -28233,10 +28233,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.06,
+              "projection": 1.22,
               "result": "hit"
             },
             "game_result": {
@@ -28665,11 +28665,11 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.08,
-              "result": "hit"
+              "projection": 1.08,
+              "result": "miss"
             },
             "game_result": {
               "at_bats": 4,
@@ -29090,10 +29090,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Hits",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.1,
+              "direction": "over",
+              "projection": 0.81,
               "result": "hit"
             },
             "game_result": {
@@ -29522,10 +29522,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Walks",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.06,
+              "projection": 0.18,
               "result": "hit"
             },
             "game_result": {
@@ -31169,11 +31169,11 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.08,
-              "result": "hit"
+              "projection": 1.13,
+              "result": "miss"
             },
             "game_result": {
               "at_bats": 4,
@@ -32033,10 +32033,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.05,
+              "projection": 1.12,
               "result": "hit"
             },
             "game_result": {
@@ -32890,10 +32890,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Walks",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.07,
+              "projection": 0.14,
               "result": "hit"
             },
             "game_result": {
@@ -33315,10 +33315,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Walks",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.04,
+              "projection": 0.07,
               "result": "hit"
             },
             "game_result": {
@@ -33740,10 +33740,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "RBIs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.09,
+              "projection": 0.25,
               "result": "hit"
             },
             "game_result": {
@@ -34574,10 +34574,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.02,
+              "projection": 1.09,
               "result": "hit"
             },
             "game_result": {
@@ -36734,10 +36734,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "RBIs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.05,
+              "projection": 0.18,
               "result": "hit"
             },
             "game_result": {
@@ -38023,7 +38023,7 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Walks",
               "line": 0.5,
               "direction": "under",
               "projection": 0.0,
@@ -41840,10 +41840,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.11,
+              "projection": 1.21,
               "result": "hit"
             },
             "game_result": {
@@ -43511,10 +43511,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Hits",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.13,
+              "direction": "over",
+              "projection": 0.83,
               "result": "hit"
             },
             "game_result": {
@@ -44793,11 +44793,11 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Runs Scored",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.05,
-              "result": "hit"
+              "projection": 0.15,
+              "result": "miss"
             },
             "game_result": {
               "at_bats": 3,
@@ -45225,11 +45225,11 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Hits",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.1,
-              "result": "hit"
+              "direction": "over",
+              "projection": 0.79,
+              "result": "miss"
             },
             "game_result": {
               "at_bats": 2,
@@ -45650,11 +45650,11 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Walks",
               "line": 0.5,
               "direction": "under",
               "projection": 0.18,
-              "result": "miss"
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 3,
@@ -46082,11 +46082,11 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Hits",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.12,
-              "result": "hit"
+              "direction": "over",
+              "projection": 0.85,
+              "result": "miss"
             },
             "game_result": {
               "at_bats": 3,
@@ -46507,11 +46507,11 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Total Bases",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.05,
-              "result": "hit"
+              "direction": "over",
+              "projection": 0.94,
+              "result": "miss"
             },
             "game_result": {
               "at_bats": 4,
@@ -49003,11 +49003,11 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Hits",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.17,
-              "result": "hit"
+              "direction": "over",
+              "projection": 0.81,
+              "result": "miss"
             },
             "game_result": {
               "at_bats": 4,
@@ -50299,11 +50299,11 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.07,
-              "result": "hit"
+              "projection": 1.12,
+              "result": "miss"
             },
             "game_result": {
               "at_bats": 4,
@@ -50692,7 +50692,7 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Walks",
               "line": 0.5,
               "direction": "under",
               "projection": 0.0,
@@ -52806,10 +52806,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
-              "line": 0.5,
+              "label": "Hits",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.04,
+              "projection": 1.16,
               "result": "hit"
             },
             "game_result": {
@@ -54102,10 +54102,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "RBIs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.07,
+              "projection": 0.12,
               "result": "hit"
             },
             "game_result": {
@@ -54534,10 +54534,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Walks",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.02,
+              "projection": 0.15,
               "result": "hit"
             },
             "game_result": {
@@ -56187,10 +56187,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Hits",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.07,
+              "direction": "over",
+              "projection": 0.91,
               "result": "hit"
             },
             "game_result": {
@@ -59190,11 +59190,11 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Total Bases",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.01,
-              "result": "hit"
+              "direction": "over",
+              "projection": 0.65,
+              "result": "miss"
             },
             "game_result": {
               "at_bats": 4,
@@ -59997,10 +59997,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Hits",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.12,
+              "direction": "over",
+              "projection": 0.82,
               "result": "hit"
             },
             "game_result": {
@@ -60429,11 +60429,11 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
-              "line": 0.5,
+              "label": "Hits",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.12,
-              "result": "hit"
+              "projection": 1.18,
+              "result": "miss"
             },
             "game_result": {
               "at_bats": 4,
@@ -62582,11 +62582,11 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Walks",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.24,
-              "result": "hit"
+              "projection": 0.33,
+              "result": "miss"
             },
             "game_result": {
               "at_bats": 2,
@@ -63014,10 +63014,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Walks",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.07,
+              "projection": 0.09,
               "result": "hit"
             },
             "game_result": {
@@ -64234,11 +64234,11 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Hits",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.14,
-              "result": "miss"
+              "direction": "over",
+              "projection": 0.8,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 4,
@@ -65955,10 +65955,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Total Bases",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.01,
+              "direction": "over",
+              "projection": 0.83,
               "result": "hit"
             },
             "game_result": {
@@ -66387,10 +66387,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Hits",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.09,
+              "direction": "over",
+              "projection": 0.8,
               "result": "hit"
             },
             "game_result": {
@@ -67669,10 +67669,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "RBIs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.0,
+              "projection": 0.03,
               "result": "hit"
             },
             "game_result": {
@@ -68488,10 +68488,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Total Bases",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.01,
+              "direction": "over",
+              "projection": 0.82,
               "result": "hit"
             },
             "game_result": {
@@ -70195,10 +70195,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Hits",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.17,
+              "direction": "over",
+              "projection": 0.81,
               "result": "hit"
             },
             "game_result": {
@@ -71059,7 +71059,7 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Walks",
               "line": 0.5,
               "direction": "under",
               "projection": 0.06,
@@ -73145,11 +73145,11 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Hits",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.16,
-              "result": "miss"
+              "direction": "over",
+              "projection": 0.79,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 3,
@@ -73577,10 +73577,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Walks",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.15,
+              "projection": 0.16,
               "result": "hit"
             },
             "game_result": {
@@ -74390,7 +74390,7 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "RBIs",
               "line": 0.5,
               "direction": "under",
               "projection": 0.0,
@@ -75679,10 +75679,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.05,
+              "projection": 1.06,
               "result": "hit"
             },
             "game_result": {
@@ -76104,11 +76104,11 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Total Bases",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.06,
-              "result": "hit"
+              "direction": "over",
+              "projection": 0.88,
+              "result": "miss"
             },
             "game_result": {
               "at_bats": 2,
@@ -76950,11 +76950,11 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
-              "line": 0.5,
+              "label": "Hits",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.13,
-              "result": "hit"
+              "projection": 1.16,
+              "result": "miss"
             },
             "game_result": {
               "at_bats": 5,
@@ -77814,11 +77814,11 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Hits",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.06,
-              "result": "miss"
+              "direction": "over",
+              "projection": 0.82,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 4,
@@ -78671,10 +78671,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Hits",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.17,
+              "direction": "over",
+              "projection": 0.79,
               "result": "hit"
             },
             "game_result": {
@@ -79528,10 +79528,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Total Bases",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.0,
+              "direction": "over",
+              "projection": 0.96,
               "result": "hit"
             },
             "game_result": {
@@ -79960,11 +79960,11 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
-              "line": 0.5,
+              "label": "Hits",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.11,
-              "result": "hit"
+              "projection": 1.15,
+              "result": "miss"
             },
             "game_result": {
               "at_bats": 4,
@@ -82915,11 +82915,11 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Hits",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.11,
-              "result": "hit"
+              "direction": "over",
+              "projection": 0.75,
+              "result": "miss"
             },
             "game_result": {
               "at_bats": 4,
@@ -83347,11 +83347,11 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Hits",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.06,
-              "result": "miss"
+              "direction": "over",
+              "projection": 0.94,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 4,
@@ -83779,11 +83779,11 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Hits",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.14,
-              "result": "miss"
+              "direction": "over",
+              "projection": 0.84,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 2,
@@ -84643,11 +84643,11 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Total Bases",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.05,
-              "result": "hit"
+              "direction": "over",
+              "projection": 0.84,
+              "result": "miss"
             },
             "game_result": {
               "at_bats": 3,
@@ -86325,11 +86325,11 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Hits",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.13,
-              "result": "miss"
+              "direction": "over",
+              "projection": 0.75,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 5,
@@ -87189,10 +87189,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.07,
+              "projection": 1.15,
               "result": "hit"
             },
             "game_result": {
@@ -87621,11 +87621,11 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Hits",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.09,
-              "result": "hit"
+              "direction": "over",
+              "projection": 0.8,
+              "result": "miss"
             },
             "game_result": {
               "at_bats": 4,
@@ -88485,10 +88485,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Walks",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.01,
+              "projection": 0.05,
               "result": "hit"
             },
             "game_result": {
@@ -88910,10 +88910,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "RBIs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.08,
+              "projection": 0.17,
               "result": "hit"
             },
             "game_result": {
@@ -92268,11 +92268,11 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Total Bases",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.07,
-              "result": "miss"
+              "direction": "over",
+              "projection": 0.85,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 4,
@@ -93132,10 +93132,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "RBIs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.02,
+              "projection": 0.09,
               "result": "hit"
             },
             "game_result": {
@@ -94820,11 +94820,11 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Hits",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.09,
-              "result": "miss"
+              "direction": "over",
+              "projection": 0.83,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 4,
@@ -95252,11 +95252,11 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
-              "line": 0.5,
+              "label": "Hits",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.11,
-              "result": "hit"
+              "projection": 1.16,
+              "result": "miss"
             },
             "game_result": {
               "at_bats": 4,
@@ -95684,10 +95684,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Total Bases",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.02,
+              "direction": "over",
+              "projection": 0.87,
               "result": "hit"
             },
             "game_result": {
@@ -96116,11 +96116,11 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Total Bases",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.06,
-              "result": "hit"
+              "direction": "over",
+              "projection": 0.93,
+              "result": "miss"
             },
             "game_result": {
               "at_bats": 1,
@@ -96973,11 +96973,11 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Walks",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.02,
-              "result": "hit"
+              "projection": 0.08,
+              "result": "miss"
             },
             "game_result": {
               "at_bats": 3,
@@ -97398,11 +97398,11 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Walks",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.04,
-              "result": "hit"
+              "projection": 0.06,
+              "result": "miss"
             },
             "game_result": {
               "at_bats": 1,
@@ -100334,10 +100334,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "RBIs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.03,
+              "projection": 0.21,
               "result": "hit"
             },
             "game_result": {
@@ -101616,10 +101616,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "RBIs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.02,
+              "projection": 0.11,
               "result": "miss"
             },
             "game_result": {
@@ -105000,10 +105000,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Total Bases",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.01,
+              "direction": "over",
+              "projection": 0.93,
               "result": "hit"
             },
             "game_result": {
@@ -107522,11 +107522,11 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Hits",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.15,
-              "result": "miss"
+              "direction": "over",
+              "projection": 0.72,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 4,
@@ -109675,11 +109675,11 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Hits",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.07,
-              "result": "hit"
+              "direction": "over",
+              "projection": 0.79,
+              "result": "miss"
             },
             "game_result": {
               "at_bats": 3,
@@ -110146,22 +110146,22 @@
       },
       "projection": {
         "game_pk": 823194,
-        "generated_at": "2026-07-26T22:09:28.966070+00:00",
+        "generated_at": "2026-07-26T22:12:26.815689+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.26,
         "away_exp_runs": 3.73,
-        "home_win_prob": 0.455,
+        "home_win_prob": 0.452,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.286,
+        "spread_cover_prob": 0.283,
         "total_line": 6.5,
-        "over_prob": 0.497,
+        "over_prob": 0.495,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
-        "spread_pick_prob": 0.632,
+        "spread_pick_prob": 0.629,
         "total_pick": "under",
-        "total_pick_prob": 0.503,
+        "total_pick_prob": 0.505,
         "spread_favorite": "away"
       },
       "home": {
@@ -110928,10 +110928,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
-              "line": 0.5,
+              "label": "Hits",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.02,
+              "projection": 1.26,
               "result": null
             },
             "game_result": {
@@ -113513,10 +113513,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Walks",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.18,
+              "projection": 0.28,
               "result": null
             },
             "game_result": {
@@ -113945,10 +113945,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "RBIs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.0,
+              "projection": 0.09,
               "result": null
             },
             "game_result": {
@@ -116459,10 +116459,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Hits",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.09,
+              "direction": "over",
+              "projection": 0.76,
               "result": null
             },
             "game_result": {
@@ -118612,10 +118612,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Total Bases",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.04,
+              "direction": "over",
+              "projection": 0.87,
               "result": null
             },
             "game_result": {
@@ -118648,22 +118648,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 823433,
-        "generated_at": "2026-07-26T22:09:28.966070+00:00",
+        "generated_at": "2026-07-26T22:12:26.815689+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.71,
         "away_exp_runs": 3.31,
-        "home_win_prob": 0.539,
+        "home_win_prob": 0.542,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.364,
+        "spread_cover_prob": 0.366,
         "total_line": 6.5,
-        "over_prob": 0.501,
+        "over_prob": 0.5,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.636,
+        "spread_pick_prob": 0.634,
         "total_pick": "over",
-        "total_pick_prob": 0.501,
+        "total_pick_prob": 0.5,
         "spread_favorite": "home"
       },
       "home": {
@@ -121083,10 +121083,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Hits",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.13
+              "direction": "over",
+              "projection": 0.81
             },
             "game_result": null
           },
@@ -125200,10 +125200,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Total Bases",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.01
+              "direction": "over",
+              "projection": 0.91
             },
             "game_result": null
           },
@@ -126869,10 +126869,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Walks",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.0
+              "projection": 0.03
             },
             "game_result": null
           }
@@ -126905,22 +126905,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 822868,
-        "generated_at": "2026-07-26T22:09:28.966070+00:00",
+        "generated_at": "2026-07-26T22:12:26.815689+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.71,
         "away_exp_runs": 3.77,
-        "home_win_prob": 0.494,
+        "home_win_prob": 0.495,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.33,
+        "spread_cover_prob": 0.328,
         "total_line": 6.5,
-        "over_prob": 0.548,
+        "over_prob": 0.549,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
-        "spread_pick_prob": 0.659,
+        "spread_pick_prob": 0.662,
         "total_pick": "over",
-        "total_pick_prob": 0.548,
+        "total_pick_prob": 0.549,
         "spread_favorite": "away"
       },
       "home": {
@@ -130604,7 +130604,7 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "RBIs",
               "line": 0.5,
               "direction": "under",
               "projection": 0.06
@@ -132226,10 +132226,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Hits",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.13
+              "direction": "over",
+              "projection": 0.84
             },
             "game_result": null
           },
@@ -132638,10 +132638,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.12
+              "projection": 1.19
             },
             "game_result": null
           },
@@ -133057,10 +133057,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
-              "line": 0.5,
+              "label": "Hits",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.06
+              "projection": 1.22
             },
             "game_result": null
           },
@@ -134726,10 +134726,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "RBIs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.0
+              "projection": 0.1
             },
             "game_result": null
           },
@@ -135145,10 +135145,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Hits",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.08
+              "direction": "over",
+              "projection": 0.9
             },
             "game_result": null
           }
@@ -135168,22 +135168,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 823353,
-        "generated_at": "2026-07-26T22:09:28.966070+00:00",
+        "generated_at": "2026-07-26T22:12:26.815689+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 5.66,
         "away_exp_runs": 4.84,
-        "home_win_prob": 0.561,
+        "home_win_prob": 0.559,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.431,
+        "spread_cover_prob": 0.43,
         "total_line": 10.5,
-        "over_prob": 0.445,
+        "over_prob": 0.448,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.569,
+        "spread_pick_prob": 0.57,
         "total_pick": "under",
-        "total_pick_prob": 0.555,
+        "total_pick_prob": 0.552,
         "spread_favorite": "home"
       },
       "home": {
@@ -136360,10 +136360,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
-              "line": 0.5,
+              "label": "Hits",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.09
+              "projection": 1.21
             },
             "game_result": null
           },
@@ -137610,10 +137610,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
-              "line": 0.5,
+              "label": "Hits",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.05
+              "projection": 1.18
             },
             "game_result": null
           },
@@ -138029,10 +138029,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Total Bases",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.01
+              "direction": "over",
+              "projection": 0.94
             },
             "game_result": null
           },
@@ -138867,7 +138867,7 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Walks",
               "line": 0.5,
               "direction": "under",
               "projection": 0.0
@@ -140050,10 +140050,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
-              "line": 0.5,
+              "label": "Hits",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.07
+              "projection": 1.08
             },
             "game_result": null
           },
@@ -140469,10 +140469,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Hits",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.16
+              "direction": "over",
+              "projection": 0.74
             },
             "game_result": null
           },
@@ -140888,10 +140888,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Walks",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.11
+              "projection": 0.14
             },
             "game_result": null
           },
@@ -142983,10 +142983,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "RBIs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.02
+              "projection": 0.13
             },
             "game_result": null
           },
@@ -143402,10 +143402,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Hits",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.13
+              "direction": "over",
+              "projection": 0.76
             },
             "game_result": null
           }
@@ -143450,22 +143450,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 823839,
-        "generated_at": "2026-07-26T22:09:28.966070+00:00",
+        "generated_at": "2026-07-26T22:12:26.815689+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 2.73,
         "away_exp_runs": 3.36,
-        "home_win_prob": 0.429,
+        "home_win_prob": 0.431,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.246,
+        "spread_cover_prob": 0.247,
         "total_line": 6.5,
-        "over_prob": 0.398,
+        "over_prob": 0.4,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
-        "spread_pick_prob": 0.627,
+        "spread_pick_prob": 0.629,
         "total_pick": "under",
-        "total_pick_prob": 0.602,
+        "total_pick_prob": 0.6,
         "spread_favorite": "away"
       },
       "home": {
@@ -145061,10 +145061,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Walks",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.16
+              "projection": 0.23
             },
             "game_result": null
           },
@@ -145885,10 +145885,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Hits",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.15
+              "direction": "over",
+              "projection": 0.79
             },
             "game_result": null
           },
@@ -146304,10 +146304,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Hits",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.21
+              "direction": "over",
+              "projection": 0.76
             },
             "game_result": null
           },
@@ -146723,10 +146723,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Total Bases",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.03
+              "direction": "over",
+              "projection": 0.85
             },
             "game_result": null
           },
@@ -149170,10 +149170,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.11
+              "projection": 1.15
             },
             "game_result": null
           },
@@ -150832,10 +150832,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.09
+              "projection": 1.2
             },
             "game_result": null
           },
@@ -151251,10 +151251,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Walks",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.1
+              "projection": 0.14
             },
             "game_result": null
           },
@@ -151718,22 +151718,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 824245,
-        "generated_at": "2026-07-26T22:09:28.966070+00:00",
+        "generated_at": "2026-07-26T22:12:26.815689+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.3,
         "away_exp_runs": 3.22,
-        "home_win_prob": 0.51,
+        "home_win_prob": 0.507,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.325,
+        "spread_cover_prob": 0.324,
         "total_line": 6.5,
-        "over_prob": 0.447,
+        "over_prob": 0.448,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.675,
+        "spread_pick_prob": 0.676,
         "total_pick": "under",
-        "total_pick_prob": 0.553,
+        "total_pick_prob": 0.552,
         "spread_favorite": "home"
       },
       "home": {
@@ -152903,12 +152903,7 @@
               "delta": -18
             },
             "best_prop_direction": "under",
-            "matchup_lean": {
-              "label": "Home Runs",
-              "line": 0.5,
-              "direction": "under",
-              "projection": 0.24
-            },
+            "matchup_lean": null,
             "game_result": null
           },
           {
@@ -153316,10 +153311,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Total Bases",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.06
+              "direction": "over",
+              "projection": 0.89
             },
             "game_result": null
           },
@@ -154154,10 +154149,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Walks",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.1
+              "projection": 0.18
             },
             "game_result": null
           },
@@ -154566,10 +154561,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Total Bases",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.03
+              "direction": "over",
+              "projection": 0.83
             },
             "game_result": null
           },
@@ -155390,10 +155385,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Walks",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.1
+              "projection": 0.16
             },
             "game_result": null
           },
@@ -157400,10 +157395,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Hits",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.17
+              "direction": "over",
+              "projection": 0.79
             },
             "game_result": null
           },
@@ -157819,10 +157814,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.08
+              "projection": 1.13
             },
             "game_result": null
           },
@@ -158238,10 +158233,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.02
+              "projection": 1.07
             },
             "game_result": null
           },
@@ -158657,10 +158652,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "RBIs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.05
+              "projection": 0.17
             },
             "game_result": null
           },
@@ -159076,10 +159071,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Total Bases",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.05
+              "direction": "over",
+              "projection": 0.85
             },
             "game_result": null
           },
@@ -159968,22 +159963,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 822705,
-        "generated_at": "2026-07-26T22:09:28.966070+00:00",
+        "generated_at": "2026-07-26T22:12:26.815689+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 5.68,
         "away_exp_runs": 3.8,
-        "home_win_prob": 0.649,
+        "home_win_prob": 0.648,
         "spread_line": 1.5,
         "spread_cover_prob": 0.508,
         "total_line": 8.5,
-        "over_prob": 0.525,
+        "over_prob": 0.526,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "home",
         "spread_pick_prob": 0.508,
         "total_pick": "over",
-        "total_pick_prob": 0.525,
+        "total_pick_prob": 0.526,
         "spread_favorite": "home"
       },
       "home": {
@@ -160730,10 +160725,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Hits",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.09
+              "direction": "over",
+              "projection": 0.81
             },
             "game_result": null
           },
@@ -161987,10 +161982,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Hits",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.17
+              "direction": "over",
+              "projection": 0.8
             },
             "game_result": null
           },
@@ -162406,10 +162401,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Total Bases",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.01
+              "direction": "over",
+              "projection": 0.9
             },
             "game_result": null
           },
@@ -163237,10 +163232,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Hits",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.08
+              "direction": "over",
+              "projection": 0.79
             },
             "game_result": null
           },
@@ -164582,10 +164577,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Walks",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.07
+              "projection": 0.13
             },
             "game_result": null
           },
@@ -164994,10 +164989,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Hits",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.21
+              "direction": "over",
+              "projection": 0.73
             },
             "game_result": null
           },
@@ -165832,10 +165827,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.05
+              "projection": 1.14
             },
             "game_result": null
           },
@@ -166663,10 +166658,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Hits",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.07
+              "direction": "over",
+              "projection": 0.92
             },
             "game_result": null
           },
@@ -167075,10 +167070,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "RBIs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.02
+              "projection": 0.1
             },
             "game_result": null
           },
@@ -167494,10 +167489,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.08
+              "projection": 1.14
             },
             "game_result": null
           },
@@ -167955,22 +167950,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 823597,
-        "generated_at": "2026-07-26T22:09:28.966070+00:00",
+        "generated_at": "2026-07-26T22:12:26.815689+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.06,
         "away_exp_runs": 3.1,
-        "home_win_prob": 0.494,
+        "home_win_prob": 0.495,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.304,
+        "spread_cover_prob": 0.307,
         "total_line": 6.5,
-        "over_prob": 0.408,
+        "over_prob": 0.407,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
         "spread_pick_prob": 0.686,
         "total_pick": "under",
-        "total_pick_prob": 0.592,
+        "total_pick_prob": 0.593,
         "spread_favorite": "away"
       },
       "home": {
@@ -169119,10 +169114,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Hits",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.13
+              "direction": "over",
+              "projection": 0.86
             },
             "game_result": null
           },
@@ -170376,10 +170371,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Walks",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.1
+              "projection": 0.21
             },
             "game_result": null
           },
@@ -170795,10 +170790,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Hits",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.12
+              "direction": "over",
+              "projection": 0.82
             },
             "game_result": null
           },
@@ -171619,10 +171614,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "RBIs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.05
+              "projection": 0.18
             },
             "game_result": null
           },
@@ -174474,10 +174469,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Hits",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.09
+              "direction": "over",
+              "projection": 0.89
             },
             "game_result": null
           },
@@ -175312,10 +175307,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Walks",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.05
+              "projection": 0.12
             },
             "game_result": null
           },
@@ -175731,10 +175726,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Total Bases",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.06
+              "direction": "over",
+              "projection": 0.8
             },
             "game_result": null
           },
@@ -176150,10 +176145,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Total Bases",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.1
+              "direction": "over",
+              "projection": 0.85
             },
             "game_result": null
           }
@@ -176173,22 +176168,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 824490,
-        "generated_at": "2026-07-26T22:09:28.966070+00:00",
+        "generated_at": "2026-07-26T22:12:26.815689+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.9,
         "away_exp_runs": 2.64,
-        "home_win_prob": 0.633,
+        "home_win_prob": 0.63,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.445,
+        "spread_cover_prob": 0.443,
         "total_line": 6.5,
-        "over_prob": 0.445,
+        "over_prob": 0.448,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.555,
+        "spread_pick_prob": 0.557,
         "total_pick": "under",
-        "total_pick_prob": 0.555,
+        "total_pick_prob": 0.552,
         "spread_favorite": "home"
       },
       "home": {
@@ -178195,10 +178190,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Total Bases",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.0
+              "direction": "over",
+              "projection": 0.97
             },
             "game_result": null
           },
@@ -179445,10 +179440,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Hits",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.11
+              "direction": "over",
+              "projection": 0.88
             },
             "game_result": null
           },
@@ -180276,10 +180271,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "RBIs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.06
+              "projection": 0.09
             },
             "game_result": null
           }
@@ -181040,10 +181035,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Hits",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.13
+              "direction": "over",
+              "projection": 0.86
             },
             "game_result": null
           },
@@ -182716,10 +182711,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
-              "line": 0.5,
+              "label": "Hits",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.01
+              "projection": 1.04
             },
             "game_result": null
           },
@@ -183966,10 +183961,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.12
+              "projection": 1.16
             },
             "game_result": null
           },
@@ -184415,22 +184410,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 824570,
-        "generated_at": "2026-07-26T22:09:28.966070+00:00",
+        "generated_at": "2026-07-26T22:12:26.815689+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.07,
         "away_exp_runs": 4.92,
-        "home_win_prob": 0.337,
+        "home_win_prob": 0.335,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.199,
+        "spread_cover_prob": 0.197,
         "total_line": 6.5,
-        "over_prob": 0.589,
+        "over_prob": 0.591,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "away",
-        "spread_pick_prob": 0.504,
+        "spread_pick_prob": 0.506,
         "total_pick": "over",
-        "total_pick_prob": 0.589,
+        "total_pick_prob": 0.591,
         "spread_favorite": "away"
       },
       "home": {
@@ -186015,10 +186010,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
-              "line": 0.5,
+              "label": "Hits",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.07
+              "projection": 1.07
             },
             "game_result": null
           },
@@ -186434,10 +186429,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Hits",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.09
+              "direction": "over",
+              "projection": 0.82
             },
             "game_result": null
           },
@@ -186853,10 +186848,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Hits",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.07
+              "direction": "over",
+              "projection": 0.91
             },
             "game_result": null
           },
@@ -187272,10 +187267,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Walks",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.19
+              "projection": 0.27
             },
             "game_result": null
           },
@@ -188110,10 +188105,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Hits",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.23
+              "direction": "over",
+              "projection": 0.72
             },
             "game_result": null
           },
@@ -188529,10 +188524,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Walks",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.01
+              "projection": 0.06
             },
             "game_result": null
           }
@@ -190127,10 +190122,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.13
+              "projection": 1.24
             },
             "game_result": null
           },
@@ -190546,10 +190541,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Hits",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.2
+              "direction": "over",
+              "projection": 0.79
             },
             "game_result": null
           },
@@ -191384,10 +191379,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Walks",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.12
+              "projection": 0.14
             },
             "game_result": null
           },
@@ -191803,10 +191798,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Walks",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.18
+              "projection": 0.21
             },
             "game_result": null
           },
@@ -192634,10 +192629,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Total Bases",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.01
+              "direction": "over",
+              "projection": 0.79
             },
             "game_result": null
           }
@@ -192670,7 +192665,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 823025,
-        "generated_at": "2026-07-26T22:09:28.966070+00:00",
+        "generated_at": "2026-07-26T22:12:26.815689+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.53,
         "away_exp_runs": 5.23,
@@ -192678,14 +192673,14 @@
         "spread_line": 1.5,
         "spread_cover_prob": 0.312,
         "total_line": 8.5,
-        "over_prob": 0.554,
+        "over_prob": 0.552,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
-        "spread_pick_prob": 0.583,
+        "spread_pick_prob": 0.585,
         "total_pick": "over",
-        "total_pick_prob": 0.554,
+        "total_pick_prob": 0.552,
         "spread_favorite": "away"
       },
       "home": {
@@ -193956,10 +193951,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
-              "line": 0.5,
-              "direction": "under",
-              "projection": 0.11
+              "label": "Total Bases",
+              "line": 1.5,
+              "direction": "over",
+              "projection": 1.88
             },
             "game_result": null
           },
@@ -194787,10 +194782,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Walks",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.06
+              "projection": 0.12
             },
             "game_result": null
           },
@@ -196456,10 +196451,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Hits",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.02
+              "direction": "over",
+              "projection": 0.94
             },
             "game_result": null
           }
@@ -198469,10 +198464,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Hits",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.13
+              "direction": "over",
+              "projection": 0.81
             },
             "game_result": null
           },
@@ -198887,10 +198882,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
-              "line": 0.5,
+              "label": "Hits",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.02
+              "projection": 1.05
             },
             "game_result": null
           },
@@ -199305,10 +199300,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Hits",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.1
+              "direction": "over",
+              "projection": 0.88
             },
             "game_result": null
           },
@@ -200141,10 +200136,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.18
+              "projection": 1.26
             },
             "game_result": null
           },
@@ -200559,10 +200554,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.1
+              "projection": 1.1
             },
             "game_result": null
           }
@@ -200589,22 +200584,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 824001,
-        "generated_at": "2026-07-26T22:09:28.966070+00:00",
+        "generated_at": "2026-07-26T22:12:26.815689+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.09,
         "away_exp_runs": 3.61,
-        "home_win_prob": 0.545,
+        "home_win_prob": 0.543,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.38,
+        "spread_cover_prob": 0.379,
         "total_line": 6.5,
-        "over_prob": 0.571,
+        "over_prob": 0.57,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.62,
+        "spread_pick_prob": 0.621,
         "total_pick": "over",
-        "total_pick_prob": 0.571,
+        "total_pick_prob": 0.57,
         "spread_favorite": "home"
       },
       "home": {
@@ -201352,10 +201347,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Hits",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.09
+              "direction": "over",
+              "projection": 0.81
             },
             "game_result": null
           },
@@ -202190,10 +202185,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
-              "line": 0.5,
+              "label": "Hits",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.04
+              "projection": 1.15
             },
             "game_result": null
           },
@@ -203021,10 +203016,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Hits",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.09
+              "direction": "over",
+              "projection": 0.84
             },
             "game_result": null
           },
@@ -203440,10 +203435,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Walks",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.04
+              "projection": 0.11
             },
             "game_result": null
           },
@@ -203852,10 +203847,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Walks",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.05
+              "projection": 0.09
             },
             "game_result": null
           },
@@ -204690,10 +204685,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Hits",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.15
+              "direction": "over",
+              "projection": 0.8
             },
             "game_result": null
           }
@@ -205453,10 +205448,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Total Bases",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.11
+              "direction": "over",
+              "projection": 0.83
             },
             "game_result": null
           },
@@ -206703,10 +206698,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Walks",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.17
+              "projection": 0.2
             },
             "game_result": null
           },
@@ -207122,10 +207117,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Total Bases",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.09
+              "direction": "over",
+              "projection": 0.81
             },
             "game_result": null
           },
@@ -207534,10 +207529,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.12
+              "projection": 1.23
             },
             "game_result": null
           },
@@ -207953,10 +207948,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Walks",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.01
+              "projection": 0.1
             },
             "game_result": null
           },
@@ -208827,20 +208822,20 @@
       "live_score": null,
       "projection": {
         "game_pk": 824977,
-        "generated_at": "2026-07-26T22:09:28.966070+00:00",
+        "generated_at": "2026-07-26T22:12:26.815689+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.34,
         "away_exp_runs": 6.3,
-        "home_win_prob": 0.277,
+        "home_win_prob": 0.276,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.167,
+        "spread_cover_prob": 0.166,
         "total_line": 8.5,
         "over_prob": 0.537,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "away",
-        "spread_pick_prob": 0.59,
+        "spread_pick_prob": 0.592,
         "total_pick": "over",
         "total_pick_prob": 0.537,
         "spread_favorite": "away"
@@ -210001,10 +209996,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "RBIs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.03
+              "projection": 0.23
             },
             "game_result": null
           },
@@ -210413,10 +210408,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Total Bases",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.06
+              "direction": "over",
+              "projection": 0.84
             },
             "game_result": null
           },
@@ -211251,10 +211246,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.05
+              "projection": 1.09
             },
             "game_result": null
           },
@@ -211670,10 +211665,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Walks",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.12
+              "projection": 0.13
             },
             "game_result": null
           },
@@ -212089,10 +212084,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Walks",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.05
+              "projection": 0.07
             },
             "game_result": null
           },
@@ -212508,10 +212503,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.08
+              "projection": 1.14
             },
             "game_result": null
           },
@@ -214136,10 +214131,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.08
+              "projection": 1.09
             },
             "game_result": null
           },
@@ -215393,10 +215388,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Hits",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.09
+              "direction": "over",
+              "projection": 0.83
             },
             "game_result": null
           },
@@ -216231,10 +216226,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.06
+              "projection": 1.21
             },
             "game_result": null
           },
@@ -216643,10 +216638,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Total Bases",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.01
+              "direction": "over",
+              "projection": 0.79
             },
             "game_result": null
           },
@@ -217092,20 +217087,20 @@
       "live_score": null,
       "projection": {
         "game_pk": 823195,
-        "generated_at": "2026-07-26T22:09:28.966070+00:00",
+        "generated_at": "2026-07-26T22:12:26.815689+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.94,
         "away_exp_runs": 4.94,
-        "home_win_prob": 0.417,
+        "home_win_prob": 0.418,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.276,
+        "spread_cover_prob": 0.278,
         "total_line": 8.5,
         "over_prob": 0.479,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
-        "spread_pick_prob": 0.567,
+        "spread_pick_prob": 0.569,
         "total_pick": "under",
         "total_pick_prob": 0.521,
         "spread_favorite": "away"
@@ -220361,10 +220356,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
-              "line": 0.5,
+              "label": "Hits",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.02
+              "projection": 1.28
             },
             "game_result": null
           },
@@ -221199,10 +221194,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "RBIs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.0
+              "projection": 0.09
             },
             "game_result": null
           }
@@ -222797,10 +222792,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Hits",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.11
+              "direction": "over",
+              "projection": 0.86
             },
             "game_result": null
           },
@@ -223216,10 +223211,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Hits",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.05
+              "direction": "over",
+              "projection": 0.92
             },
             "game_result": null
           },
@@ -224473,10 +224468,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Hits",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.09
+              "direction": "over",
+              "projection": 0.84
             },
             "game_result": null
           },
@@ -224892,10 +224887,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.09
+              "projection": 1.23
             },
             "game_result": null
           },
@@ -225359,22 +225354,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 822949,
-        "generated_at": "2026-07-26T22:09:28.966070+00:00",
+        "generated_at": "2026-07-26T22:12:26.815689+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 5.23,
         "away_exp_runs": 3.88,
-        "home_win_prob": 0.612,
+        "home_win_prob": 0.607,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.466,
+        "spread_cover_prob": 0.46,
         "total_line": 8.5,
-        "over_prob": 0.5,
+        "over_prob": 0.495,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.534,
-        "total_pick": "over",
-        "total_pick_prob": 0.5,
+        "spread_pick_prob": 0.54,
+        "total_pick": "under",
+        "total_pick_prob": 0.505,
         "spread_favorite": "home"
       },
       "home": {
@@ -226942,10 +226937,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Walks",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.0
+              "projection": 0.17
             },
             "game_result": null
           },
@@ -227764,10 +227759,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "RBIs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.0
+              "projection": 0.18
             },
             "game_result": null
           },
@@ -228182,10 +228177,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.13
+              "projection": 1.2
             },
             "game_result": null
           },
@@ -228600,10 +228595,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.02
+              "projection": 1.05
             },
             "game_result": null
           },
@@ -229436,10 +229431,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Hits",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.25
+              "direction": "over",
+              "projection": 0.7
             },
             "game_result": null
           }
@@ -230295,10 +230290,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Total Bases",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.01
+              "direction": "over",
+              "projection": 0.94
             },
             "game_result": null
           },
@@ -232802,7 +232797,7 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "RBIs",
               "line": 0.5,
               "direction": "under",
               "projection": 0.06
@@ -233269,22 +233264,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 823350,
-        "generated_at": "2026-07-26T22:09:28.966070+00:00",
+        "generated_at": "2026-07-26T22:12:26.815689+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 5.15,
         "away_exp_runs": 4.58,
-        "home_win_prob": 0.542,
+        "home_win_prob": 0.545,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.405,
+        "spread_cover_prob": 0.407,
         "total_line": 8.5,
-        "over_prob": 0.549,
+        "over_prob": 0.55,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.595,
+        "spread_pick_prob": 0.593,
         "total_pick": "over",
-        "total_pick_prob": 0.549,
+        "total_pick_prob": 0.55,
         "spread_favorite": "home"
       },
       "home": {
@@ -235704,10 +235699,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
-              "line": 0.5,
+              "label": "Hits",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.05
+              "projection": 1.18
             },
             "game_result": null
           },
@@ -236123,10 +236118,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Total Bases",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.01
+              "direction": "over",
+              "projection": 0.8
             },
             "game_result": null
           },
@@ -236961,7 +236956,7 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Walks",
               "line": 0.5,
               "direction": "under",
               "projection": 0.0
@@ -237380,10 +237375,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Total Bases",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.11
+              "direction": "over",
+              "projection": 0.84
             },
             "game_result": null
           }
@@ -238150,10 +238145,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
-              "line": 0.5,
+              "label": "Hits",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.07
+              "projection": 1.08
             },
             "game_result": null
           },
@@ -238569,10 +238564,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Hits",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.16
+              "direction": "over",
+              "projection": 0.74
             },
             "game_result": null
           },
@@ -238988,10 +238983,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Walks",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.11
+              "projection": 0.14
             },
             "game_result": null
           },
@@ -239407,10 +239402,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Hits",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.14
+              "direction": "over",
+              "projection": 0.8
             },
             "game_result": null
           },
@@ -239826,10 +239821,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.1
+              "projection": 1.15
             },
             "game_result": null
           },
@@ -240664,10 +240659,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Hits",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.05
+              "direction": "over",
+              "projection": 0.94
             },
             "game_result": null
           },
@@ -241083,10 +241078,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "RBIs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.02
+              "projection": 0.11
             },
             "game_result": null
           },
@@ -241502,10 +241497,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.11
+              "projection": 1.19
             },
             "game_result": null
           }
@@ -241550,22 +241545,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 823838,
-        "generated_at": "2026-07-26T22:09:28.966070+00:00",
+        "generated_at": "2026-07-26T22:12:26.815689+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.64,
         "away_exp_runs": 3.61,
-        "home_win_prob": 0.588,
+        "home_win_prob": 0.591,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.431,
+        "spread_cover_prob": 0.433,
         "total_line": 8.5,
-        "over_prob": 0.425,
+        "over_prob": 0.424,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.569,
+        "spread_pick_prob": 0.567,
         "total_pick": "under",
-        "total_pick_prob": 0.575,
+        "total_pick_prob": 0.576,
         "spread_favorite": "home"
       },
       "home": {
@@ -242312,10 +242307,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Walks",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.02
+              "projection": 0.1
             },
             "game_result": null
           },
@@ -246424,10 +246419,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Hits",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.04
+              "direction": "over",
+              "projection": 0.87
             },
             "game_result": null
           },
@@ -246843,10 +246838,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Hits",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.12
+              "direction": "over",
+              "projection": 0.82
             },
             "game_result": null
           },
@@ -247262,10 +247257,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Hits",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.13
+              "direction": "over",
+              "projection": 0.81
             },
             "game_result": null
           },
@@ -248093,10 +248088,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Hits",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.15
+              "direction": "over",
+              "projection": 0.72
             },
             "game_result": null
           },
@@ -249343,10 +249338,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Total Bases",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.11
+              "direction": "over",
+              "projection": 0.87
             },
             "game_result": null
           },
@@ -249762,10 +249757,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Total Bases",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.01
+              "direction": "over",
+              "projection": 0.89
             },
             "game_result": null
           }
@@ -249810,22 +249805,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 824243,
-        "generated_at": "2026-07-26T22:09:28.966070+00:00",
+        "generated_at": "2026-07-26T22:12:26.815689+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.15,
         "away_exp_runs": 2.55,
         "home_win_prob": 0.665,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.483,
+        "spread_cover_prob": 0.482,
         "total_line": 6.5,
-        "over_prob": 0.463,
+        "over_prob": 0.464,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.517,
+        "spread_pick_prob": 0.518,
         "total_pick": "under",
-        "total_pick_prob": 0.537,
+        "total_pick_prob": 0.536,
         "spread_favorite": "home"
       },
       "home": {
@@ -250988,12 +250983,7 @@
               "delta": -18
             },
             "best_prop_direction": "under",
-            "matchup_lean": {
-              "label": "Home Runs",
-              "line": 0.5,
-              "direction": "under",
-              "projection": 0.24
-            },
+            "matchup_lean": null,
             "game_result": null
           },
           {
@@ -251820,10 +251810,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
-              "line": 0.5,
+              "label": "Hits",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.12
+              "projection": 1.19
             },
             "game_result": null
           },
@@ -252239,10 +252229,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Hits",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.12
+              "direction": "over",
+              "projection": 0.85
             },
             "game_result": null
           },
@@ -252651,10 +252641,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Total Bases",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.03
+              "direction": "over",
+              "projection": 0.83
             },
             "game_result": null
           },
@@ -255498,10 +255488,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Hits",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.17
+              "direction": "over",
+              "projection": 0.79
             },
             "game_result": null
           },
@@ -255917,10 +255907,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.08
+              "projection": 1.13
             },
             "game_result": null
           },
@@ -256336,10 +256326,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.02
+              "projection": 1.07
             },
             "game_result": null
           },
@@ -256755,10 +256745,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "RBIs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.05
+              "projection": 0.17
             },
             "game_result": null
           },
@@ -257174,10 +257164,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Total Bases",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.05
+              "direction": "over",
+              "projection": 0.85
             },
             "game_result": null
           },
@@ -258066,22 +258056,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 822703,
-        "generated_at": "2026-07-26T22:09:28.966070+00:00",
+        "generated_at": "2026-07-26T22:12:26.815689+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 5.37,
         "away_exp_runs": 3.28,
-        "home_win_prob": 0.673,
+        "home_win_prob": 0.675,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.525,
+        "spread_cover_prob": 0.527,
         "total_line": 8.5,
-        "over_prob": 0.459,
+        "over_prob": 0.458,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "home",
-        "spread_pick_prob": 0.525,
+        "spread_pick_prob": 0.527,
         "total_pick": "under",
-        "total_pick_prob": 0.541,
+        "total_pick_prob": 0.542,
         "spread_favorite": "home"
       },
       "home": {
@@ -258832,10 +258822,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Hits",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.09
+              "direction": "over",
+              "projection": 0.81
             },
             "game_result": null
           },
@@ -260089,10 +260079,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Hits",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.17
+              "direction": "over",
+              "projection": 0.8
             },
             "game_result": null
           },
@@ -260508,10 +260498,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Total Bases",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.01
+              "direction": "over",
+              "projection": 0.9
             },
             "game_result": null
           },
@@ -261339,10 +261329,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Hits",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.08
+              "direction": "over",
+              "projection": 0.79
             },
             "game_result": null
           },
@@ -262956,10 +262946,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Walks",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.07
+              "projection": 0.13
             },
             "game_result": null
           },
@@ -263368,10 +263358,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Hits",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.21
+              "direction": "over",
+              "projection": 0.73
             },
             "game_result": null
           },
@@ -265449,10 +265439,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "RBIs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.02
+              "projection": 0.1
             },
             "game_result": null
           },
@@ -265868,10 +265858,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.08
+              "projection": 1.14
             },
             "game_result": null
           },
@@ -266329,22 +266319,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 823598,
-        "generated_at": "2026-07-26T22:09:28.966070+00:00",
+        "generated_at": "2026-07-26T22:12:26.815689+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 2.41,
         "away_exp_runs": 3.97,
-        "home_win_prob": 0.337,
+        "home_win_prob": 0.334,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.176,
+        "spread_cover_prob": 0.174,
         "total_line": 6.5,
-        "over_prob": 0.43,
+        "over_prob": 0.431,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
-        "spread_pick_prob": 0.526,
+        "spread_pick_prob": 0.524,
         "total_pick": "under",
-        "total_pick_prob": 0.57,
+        "total_pick_prob": 0.569,
         "spread_favorite": "away"
       },
       "home": {
@@ -267510,10 +267500,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Hits",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.13
+              "direction": "over",
+              "projection": 0.86
             },
             "game_result": null
           },
@@ -268767,10 +268757,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Walks",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.1
+              "projection": 0.21
             },
             "game_result": null
           },
@@ -269186,10 +269176,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Hits",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.12
+              "direction": "over",
+              "projection": 0.82
             },
             "game_result": null
           },
@@ -270010,10 +270000,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "RBIs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.05
+              "projection": 0.18
             },
             "game_result": null
           },
@@ -272865,10 +272855,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Hits",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.09
+              "direction": "over",
+              "projection": 0.89
             },
             "game_result": null
           },
@@ -273703,10 +273693,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Walks",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.06
+              "projection": 0.14
             },
             "game_result": null
           },
@@ -274541,10 +274531,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Total Bases",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.1
+              "direction": "over",
+              "projection": 0.85
             },
             "game_result": null
           }
@@ -274564,22 +274554,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 824489,
-        "generated_at": "2026-07-26T22:09:28.966070+00:00",
+        "generated_at": "2026-07-26T22:12:26.815689+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.44,
         "away_exp_runs": 3.71,
-        "home_win_prob": 0.473,
+        "home_win_prob": 0.472,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.304,
+        "spread_cover_prob": 0.303,
         "total_line": 6.5,
-        "over_prob": 0.511,
+        "over_prob": 0.514,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
         "spread_pick_prob": 0.647,
         "total_pick": "over",
-        "total_pick_prob": 0.511,
+        "total_pick_prob": 0.514,
         "spread_favorite": "away"
       },
       "home": {
@@ -276591,10 +276581,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "RBIs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.0
+              "projection": 0.06
             },
             "game_result": null
           },
@@ -277841,10 +277831,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Hits",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.11
+              "direction": "over",
+              "projection": 0.88
             },
             "game_result": null
           },
@@ -278672,10 +278662,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "RBIs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.06
+              "projection": 0.09
             },
             "game_result": null
           }
@@ -281115,10 +281105,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
-              "line": 0.5,
+              "label": "Hits",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.01
+              "projection": 1.19
             },
             "game_result": null
           },
@@ -281953,10 +281943,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Walks",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.13
+              "projection": 0.17
             },
             "game_result": null
           },
@@ -282365,10 +282355,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Hits",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.14
+              "direction": "over",
+              "projection": 0.79
             },
             "game_result": null
           },
@@ -282814,20 +282804,20 @@
       "live_score": null,
       "projection": {
         "game_pk": 823676,
-        "generated_at": "2026-07-26T22:09:28.966070+00:00",
+        "generated_at": "2026-07-26T22:12:26.815689+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.69,
         "away_exp_runs": 3.61,
-        "home_win_prob": 0.595,
+        "home_win_prob": 0.593,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.437,
+        "spread_cover_prob": 0.436,
         "total_line": 8.5,
         "over_prob": 0.428,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.563,
+        "spread_pick_prob": 0.564,
         "total_pick": "under",
         "total_pick_prob": 0.572,
         "spread_favorite": "home"
@@ -284407,10 +284397,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Hits",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.14
+              "direction": "over",
+              "projection": 0.72
             },
             "game_result": null
           },
@@ -284826,10 +284816,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "RBIs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.01
+              "projection": 0.21
             },
             "game_result": null
           },
@@ -286083,10 +286073,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.02
+              "projection": 1.06
             },
             "game_result": null
           },
@@ -286502,10 +286492,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Runs Scored",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.0
+              "projection": 0.25
             },
             "game_result": null
           },
@@ -287693,10 +287683,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Hits",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.11
+              "direction": "over",
+              "projection": 0.8
             },
             "game_result": null
           },
@@ -288112,10 +288102,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Hits",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.09
+              "direction": "over",
+              "projection": 0.8
             },
             "game_result": null
           },
@@ -288524,10 +288514,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Hits",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.17
+              "direction": "over",
+              "projection": 0.75
             },
             "game_result": null
           },
@@ -288936,10 +288926,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Walks",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.2
+              "projection": 0.21
             },
             "game_result": null
           },
@@ -289767,10 +289757,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Hits",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.1
+              "direction": "over",
+              "projection": 0.85
             },
             "game_result": null
           },
@@ -291017,10 +291007,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Hits",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.05
+              "direction": "over",
+              "projection": 0.95
             },
             "game_result": null
           }
@@ -291059,22 +291049,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 824569,
-        "generated_at": "2026-07-26T22:09:28.966070+00:00",
+        "generated_at": "2026-07-26T22:12:26.815689+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.72,
         "away_exp_runs": 3.88,
         "home_win_prob": 0.487,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.324,
+        "spread_cover_prob": 0.325,
         "total_line": 6.5,
-        "over_prob": 0.559,
+        "over_prob": 0.558,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
         "spread_pick_prob": 0.651,
         "total_pick": "over",
-        "total_pick_prob": 0.559,
+        "total_pick_prob": 0.558,
         "spread_favorite": "away"
       },
       "home": {
@@ -292244,10 +292234,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.06
+              "projection": 1.2
             },
             "game_result": null
           },
@@ -292663,10 +292653,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
-              "line": 0.5,
+              "label": "Hits",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.07
+              "projection": 1.07
             },
             "game_result": null
           },
@@ -293501,10 +293491,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Hits",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.07
+              "direction": "over",
+              "projection": 0.91
             },
             "game_result": null
           },
@@ -294339,10 +294329,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.07
+              "projection": 1.15
             },
             "game_result": null
           },
@@ -295177,10 +295167,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Walks",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.01
+              "projection": 0.06
             },
             "game_result": null
           }
@@ -297188,10 +297178,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Walks",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.17
+              "projection": 0.26
             },
             "game_result": null
           },
@@ -298857,10 +298847,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "RBIs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.12
+              "projection": 0.19
             },
             "game_result": null
           },
@@ -299276,10 +299266,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Total Bases",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.01
+              "direction": "over",
+              "projection": 0.91
             },
             "game_result": null
           }
@@ -299312,22 +299302,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 823026,
-        "generated_at": "2026-07-26T22:09:28.966070+00:00",
+        "generated_at": "2026-07-26T22:12:26.815689+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.92,
         "away_exp_runs": 5.23,
-        "home_win_prob": 0.393,
+        "home_win_prob": 0.395,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.259,
+        "spread_cover_prob": 0.261,
         "total_line": 8.5,
-        "over_prob": 0.501,
+        "over_prob": 0.503,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
-        "spread_pick_prob": 0.539,
+        "spread_pick_prob": 0.54,
         "total_pick": "over",
-        "total_pick_prob": 0.501,
+        "total_pick_prob": 0.503,
         "spread_favorite": "away"
       },
       "home": {
@@ -299760,10 +299750,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Total Bases",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.02
+              "direction": "over",
+              "projection": 0.93
             },
             "game_result": null
           },
@@ -301429,10 +301419,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Walks",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.06
+              "projection": 0.14
             },
             "game_result": null
           },
@@ -301848,10 +301838,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Hits",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.12
+              "direction": "over",
+              "projection": 0.86
             },
             "game_result": null
           },
@@ -302260,10 +302250,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.08
+              "projection": 1.19
             },
             "game_result": null
           },
@@ -302679,10 +302669,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Total Bases",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.06
+              "direction": "over",
+              "projection": 0.84
             },
             "game_result": null
           },
@@ -303098,10 +303088,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Walks",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.02
+              "projection": 0.1
             },
             "game_result": null
           }
@@ -305103,10 +305093,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Hits",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.13
+              "direction": "over",
+              "projection": 0.81
             },
             "game_result": null
           },
@@ -305521,10 +305511,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
-              "line": 0.5,
+              "label": "Hits",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.02
+              "projection": 1.05
             },
             "game_result": null
           },
@@ -305939,10 +305929,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Hits",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.1
+              "direction": "over",
+              "projection": 0.88
             },
             "game_result": null
           },
@@ -306775,10 +306765,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.18
+              "projection": 1.26
             },
             "game_result": null
           },
@@ -307193,10 +307183,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.1
+              "projection": 1.1
             },
             "game_result": null
           }
@@ -307223,22 +307213,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 824003,
-        "generated_at": "2026-07-26T22:09:28.966070+00:00",
+        "generated_at": "2026-07-26T22:12:26.815689+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 2.82,
         "away_exp_runs": 4.36,
-        "home_win_prob": 0.35,
+        "home_win_prob": 0.351,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.199,
+        "spread_cover_prob": 0.2,
         "total_line": 6.5,
-        "over_prob": 0.517,
+        "over_prob": 0.515,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
         "spread_pick_prob": 0.523,
         "total_pick": "over",
-        "total_pick_prob": 0.517,
+        "total_pick_prob": 0.515,
         "spread_favorite": "away"
       },
       "home": {
@@ -308809,10 +308799,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
-              "line": 0.5,
+              "label": "Hits",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.04
+              "projection": 1.15
             },
             "game_result": null
           },
@@ -309221,10 +309211,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.1
+              "projection": 1.16
             },
             "game_result": null
           },
@@ -310059,10 +310049,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Walks",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.05
+              "projection": 0.13
             },
             "game_result": null
           },
@@ -310471,10 +310461,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Walks",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.06
+              "projection": 0.11
             },
             "game_result": null
           },
@@ -310890,10 +310880,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.11
+              "projection": 1.23
             },
             "game_result": null
           },
@@ -313732,10 +313722,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Total Bases",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.09
+              "direction": "over",
+              "projection": 0.81
             },
             "game_result": null
           },
@@ -314144,10 +314134,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Hits",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.14
+              "direction": "over",
+              "projection": 0.78
             },
             "game_result": null
           },
@@ -314563,10 +314553,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Walks",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.01
+              "projection": 0.12
             },
             "game_result": null
           },
@@ -315437,22 +315427,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 823275,
-        "generated_at": "2026-07-26T22:09:28.966070+00:00",
+        "generated_at": "2026-07-26T22:12:26.815689+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 5.28,
         "away_exp_runs": 3.54,
         "home_win_prob": 0.644,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.497,
+        "spread_cover_prob": 0.496,
         "total_line": 8.5,
-        "over_prob": 0.471,
+        "over_prob": 0.473,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.503,
+        "spread_pick_prob": 0.504,
         "total_pick": "under",
-        "total_pick_prob": 0.529,
+        "total_pick_prob": 0.527,
         "spread_favorite": "home"
       },
       "home": {
@@ -318699,10 +318689,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Walks",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.0
+              "projection": 0.03
             },
             "game_result": null
           },
@@ -319537,10 +319527,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Walks",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.01
+              "projection": 0.35
             },
             "game_result": null
           }
@@ -321553,10 +321543,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Hits",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.11
+              "direction": "over",
+              "projection": 0.85
             },
             "game_result": null
           },
@@ -322810,10 +322800,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Total Bases",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.08
+              "direction": "over",
+              "projection": 0.9
             },
             "game_result": null
           },
@@ -323648,10 +323638,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Total Bases",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.02
+              "direction": "over",
+              "projection": 0.89
             },
             "game_result": null
           }
@@ -323678,22 +323668,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 824976,
-        "generated_at": "2026-07-26T22:09:28.966070+00:00",
+        "generated_at": "2026-07-26T22:12:26.815689+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 2.89,
         "away_exp_runs": 5.18,
-        "home_win_prob": 0.3,
+        "home_win_prob": 0.299,
         "spread_line": 1.5,
         "spread_cover_prob": 0.169,
         "total_line": 6.5,
-        "over_prob": 0.598,
+        "over_prob": 0.595,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "away",
         "spread_pick_prob": 0.545,
         "total_pick": "over",
-        "total_pick_prob": 0.598,
+        "total_pick_prob": 0.595,
         "spread_favorite": "away"
       },
       "home": {
@@ -324866,10 +324856,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "RBIs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.03
+              "projection": 0.2
             },
             "game_result": null
           },
@@ -325278,10 +325268,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Total Bases",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.06
+              "direction": "over",
+              "projection": 0.84
             },
             "game_result": null
           },
@@ -325697,10 +325687,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Hits",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.16
+              "direction": "over",
+              "projection": 0.78
             },
             "game_result": null
           },
@@ -326535,10 +326525,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Walks",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.12
+              "projection": 0.13
             },
             "game_result": null
           },
@@ -326954,10 +326944,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Walks",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.05
+              "projection": 0.07
             },
             "game_result": null
           },
@@ -328999,10 +328989,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.08
+              "projection": 1.09
             },
             "game_result": null
           },
@@ -330256,10 +330246,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Hits",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.09
+              "direction": "over",
+              "projection": 0.83
             },
             "game_result": null
           },
@@ -331094,10 +331084,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Hits",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.07
+              "direction": "over",
+              "projection": 0.82
             },
             "game_result": null
           },
@@ -331506,10 +331496,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Total Bases",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.01
+              "direction": "over",
+              "projection": 0.91
             },
             "game_result": null
           },
@@ -331955,22 +331945,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 823193,
-        "generated_at": "2026-07-26T22:09:28.966070+00:00",
+        "generated_at": "2026-07-26T22:12:26.815689+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 2.86,
         "away_exp_runs": 4.07,
-        "home_win_prob": 0.38,
+        "home_win_prob": 0.379,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.219,
+        "spread_cover_prob": 0.217,
         "total_line": 6.5,
-        "over_prob": 0.491,
+        "over_prob": 0.49,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
-        "spread_pick_prob": 0.557,
+        "spread_pick_prob": 0.56,
         "total_pick": "under",
-        "total_pick_prob": 0.509,
+        "total_pick_prob": 0.51,
         "spread_favorite": "away"
       },
       "home": {
@@ -335224,10 +335214,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
-              "line": 0.5,
+              "label": "Hits",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.02
+              "projection": 1.28
             },
             "game_result": null
           },
@@ -336062,10 +336052,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "RBIs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.0
+              "projection": 0.09
             },
             "game_result": null
           }
@@ -337660,10 +337650,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Hits",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.11
+              "direction": "over",
+              "projection": 0.86
             },
             "game_result": null
           },
@@ -338079,10 +338069,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Hits",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.05
+              "direction": "over",
+              "projection": 0.92
             },
             "game_result": null
           },
@@ -339336,10 +339326,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Hits",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.09
+              "direction": "over",
+              "projection": 0.84
             },
             "game_result": null
           },
@@ -339755,10 +339745,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.09
+              "projection": 1.23
             },
             "game_result": null
           },
@@ -340222,22 +340212,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 823923,
-        "generated_at": "2026-07-26T22:09:28.966070+00:00",
+        "generated_at": "2026-07-26T22:12:26.815689+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.05,
         "away_exp_runs": 3.7,
-        "home_win_prob": 0.533,
+        "home_win_prob": 0.531,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.37,
+        "spread_cover_prob": 0.368,
         "total_line": 6.5,
-        "over_prob": 0.569,
+        "over_prob": 0.572,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.63,
+        "spread_pick_prob": 0.632,
         "total_pick": "over",
-        "total_pick_prob": 0.569,
+        "total_pick_prob": 0.572,
         "spread_favorite": "home"
       },
       "home": {
@@ -341087,10 +341077,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
-              "line": 0.5,
+              "label": "Hits",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.07
+              "projection": 1.07
             },
             "game_result": null
           },
@@ -341923,10 +341913,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
-              "line": 0.5,
+              "label": "Hits",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.09
+              "projection": 1.21
             },
             "game_result": null
           },
@@ -342341,10 +342331,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.12
+              "projection": 1.15
             },
             "game_result": null
           },
@@ -342759,10 +342749,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Hits",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.11
+              "direction": "over",
+              "projection": 0.81
             },
             "game_result": null
           },
@@ -343177,10 +343167,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.07
+              "projection": 1.17
             },
             "game_result": null
           },
@@ -343588,10 +343578,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Hits",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.17
+              "direction": "over",
+              "projection": 0.78
             },
             "game_result": null
           },
@@ -344006,10 +343996,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Hits",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.2
+              "direction": "over",
+              "projection": 0.75
             },
             "game_result": null
           }
@@ -345699,10 +345689,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
-              "line": 0.5,
+              "label": "Hits",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.05
+              "projection": 1.06
             },
             "game_result": null
           },
@@ -346953,10 +346943,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Hits",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.19
+              "direction": "over",
+              "projection": 0.78
             },
             "game_result": null
           },
@@ -347364,10 +347354,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "RBIs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.0
+              "projection": 0.12
             },
             "game_result": null
           },
@@ -347782,10 +347772,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Home Runs",
+              "label": "Hits",
               "line": 0.5,
-              "direction": "under",
-              "projection": 0.07
+              "direction": "over",
+              "projection": 0.78
             },
             "game_result": null
           }
