@@ -208,7 +208,9 @@ STYLE = """
        against the actual cell selector to still take effect. */
     .batter-block td.col-news { display: none; }
   }
-  .team-title { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; font-weight: 600; font-size: 14px; margin-bottom: 8px; }
+  .team-title { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; font-weight: 600; font-size: 14px; margin-bottom: 2px; }
+  .team-form { margin-bottom: 8px; }
+  .team-form:empty { display: none; }
   .badge {
     display: inline-flex; align-items: center; gap: 4px; font-size: 10.5px; font-weight: 700;
     padding: 2px 7px; border-radius: 999px; line-height: 1.6; white-space: nowrap;
@@ -566,6 +568,23 @@ def _streak_badge(streak):
     return _badge(f"{streak}-GAME HIT STREAK", "streak") if streak and streak >= 3 else ""
 
 
+def _team_form_badge(form):
+    streak = (form or {}).get("streak") or 0
+    if streak >= 3:
+        return _badge(f"{streak}-GAME WIN STREAK", "hot")
+    if streak <= -3:
+        return _badge(f"{abs(streak)}-GAME LOSING STREAK", "cold")
+    return ""
+
+
+def _team_form_text(form):
+    if not form or not form.get("record_games"):
+        return ""
+    diff = form["run_diff"]
+    diff_txt = f"+{diff}" if diff >= 0 else str(diff)
+    return f'<span class="sub">{form["wins"]}-{form["losses"]} last {form["record_games"]} ({diff_txt} run diff)</span>'
+
+
 def _caveat_badge(trend_caveat):
     return _badge("LIKELY LUCK", "caveat") if trend_caveat == "babip_driven" else ""
 
@@ -811,9 +830,11 @@ def _batter_rows(batters, id_prefix, status):
 def _team_col_html(side, id_prefix, status):
     tag_kind = "confirmed" if side["lineup_confirmed"] else "projected"
     tag_label = "LINEUP CONFIRMED" if side["lineup_confirmed"] else "PROJECTED (not yet announced)"
+    form = side.get("form")
     return f"""
     <div class="team-col">
-      <div class="team-title">{html.escape(side["team_name"] or "?")} {_badge(tag_label, tag_kind)}</div>
+      <div class="team-title">{html.escape(side["team_name"] or "?")} {_badge(tag_label, tag_kind)}{_team_form_badge(form)}</div>
+      <div class="team-form">{_team_form_text(form)}</div>
       <div class="pitcher-block">
         {_pitcher_html(side["probable_pitcher"], f"{id_prefix}-p", side.get("opponent_bullpen_fatigue"), status)}
       </div>

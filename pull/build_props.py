@@ -118,6 +118,89 @@ def hit_streak(conn, player_id, lookback=40):
     return streak
 
 
+def team_streak_and_form(conn, team_id, lookback=10):
+    """
+    Current consecutive win/loss streak (positive = win streak, negative =
+    losing streak) plus last-`lookback`-games record and run differential --
+    the team-level mirror of hit_streak()/form_trend() above. Shown as
+    context, not folded into the game projection: team_season_run_rates()
+    already blends in a recency-weighted rate from real runs scored/allowed
+    (verified by backtest to help), which is the rigorous version of "is
+    this team hot" -- a separate win/loss streak counter is a noisier,
+    already-covered restatement of the same underlying games, not an
+    additional independent signal.
+    """
+    home_rows = conn.execute(
+        "SELECT official_date, home_score as scored, away_score as allowed FROM games "
+        "WHERE home_team_id = ? AND home_score IS NOT NULL ORDER BY official_date DESC LIMIT ?",
+        (team_id, lookback),
+    ).fetchall()
+    away_rows = conn.execute(
+        "SELECT official_date, away_score as scored, home_score as allowed FROM games "
+        "WHERE away_team_id = ? AND home_score IS NOT NULL ORDER BY official_date DESC LIMIT ?",
+        (team_id, lookback),
+    ).fetchall()
+    combined = sorted(home_rows + away_rows, key=lambda r: r["official_date"], reverse=True)[:lookback]
+    if not combined:
+        return None
+
+    streak = 0
+    direction = None
+    for r in combined:
+        won = r["scored"] > r["allowed"]
+        if direction is None:
+            direction = won
+        if won != direction:
+            break
+        streak += 1
+
+    wins = sum(1 for r in combined if r["scored"] > r["allowed"])
+    return {
+        "streak": streak if direction else -streak,
+        "record_games": len(combined),
+        "wins": wins,
+        "losses": len(combined) - wins,
+        "run_diff": sum(r["scored"] - r["allowed"] for r in combined),
+    }
+
+
+def team_recent_k_rate(conn, team_id, recent_games=2):
+    """
+    This team's actual strikeout rate (batting side) across its last
+    `recent_games` games, vs. its own season rate -- a team that just got
+    struck out at an elevated clip (e.g. run through by a tough starter the
+    game before) plausibly carries some of that into the very next game of
+    the same series against another good arm, which a per-batter platoon
+    read alone wouldn't capture. Returns None if there's not enough of
+    either window yet.
+    """
+    recent_pks = conn.execute(
+        "SELECT DISTINCT game_pk, MAX(date) as d FROM batting_game_logs WHERE team_id = ? "
+        "GROUP BY game_pk ORDER BY d DESC LIMIT ?",
+        (team_id, recent_games),
+    ).fetchall()
+    if len(recent_pks) < recent_games:
+        return None
+    pks = [r["game_pk"] for r in recent_pks]
+    recent = conn.execute(
+        f"SELECT SUM(strike_outs) as k, SUM(at_bats) as ab FROM batting_game_logs "
+        f"WHERE team_id = ? AND game_pk IN ({','.join('?' for _ in pks)})",
+        (team_id, *pks),
+    ).fetchone()
+    season = conn.execute(
+        "SELECT SUM(strike_outs) as k, SUM(at_bats) as ab FROM batting_game_logs WHERE team_id = ? AND season = ?",
+        (team_id, CURRENT_SEASON),
+    ).fetchone()
+    if not recent["ab"] or not season["ab"]:
+        return None
+    recent_rate = recent["k"] / recent["ab"]
+    season_rate = season["k"] / season["ab"]
+    return {
+        "games": recent_games, "recent_k_rate": round(recent_rate, 3), "season_k_rate": round(season_rate, 3),
+        "elevated": recent_rate - season_rate >= 0.06,  # 6+ points above their own norm -- a real, not marginal, jump
+    }
+
+
 # FanDuel/Sleeper-style prop categories. We don't pull real sportsbook
 # lines (see README), so instead of a fixed common threshold applied to
 # every player alike (which is meaningless for someone like Tarik Skubal --
@@ -724,15 +807,22 @@ def build_team_side(conn, game, side):
         ]
 
     opp_team_id = game[f"{opp_side}_team_id"]
+    pitcher = build_pitcher_entry(conn, game[f"{side}_probable_pitcher_id"], team_id, is_home_game, game["game_pk"])
+    if pitcher:
+        # Unlike opponent_matchup (needs the opposing BATTERS list, so it's
+        # filled in later by build_report() once both sides exist), this
+        # only needs the opposing team_id, already in scope here.
+        pitcher["opponent_recent_k_rate"] = team_recent_k_rate(conn, opp_team_id)
     return {
         "team_id": team_id,
         "team_name": team["name"] if team else None,
         "lineup_confirmed": lineup_confirmed,
-        "probable_pitcher": build_pitcher_entry(conn, game[f"{side}_probable_pitcher_id"], team_id, is_home_game, game["game_pk"]),
+        "probable_pitcher": pitcher,
         # bullpen fatigue is about who these batters face in relief innings,
         # so it's the *opponent's* pen -- unrelated to (and doesn't touch)
         # the platoon/vs-hand matchup logic on the starter above.
         "opponent_bullpen_fatigue": team_bullpen_fatigue(conn, opp_team_id),
+        "form": team_streak_and_form(conn, team_id),
         "batters": [b for b in batters if b],
         "injuries": team_injury_report(conn, team_id),
     }
@@ -817,6 +907,18 @@ def pitcher_strikeout_over_score(p):
     elif tough:
         score += 0.75
         reasons.append(f"{len(tough)} hitter(s) in tonight's lineup are in a tough matchup against him")
+    k_rate = p.get("opponent_recent_k_rate")
+    if k_rate and k_rate["elevated"]:
+        # A team that's been striking out well above its own norm the last
+        # couple games (e.g. run through by a tough starter the game
+        # before) plausibly carries some of that into the next game of the
+        # same series against another good arm -- real, if softer, signal
+        # than the per-batter platoon read above, and independent of it.
+        score += 1.0
+        reasons.append(
+            f"opposing lineup has struck out at an elevated rate over their last {k_rate['games']} games "
+            f"({k_rate['recent_k_rate']:.0%} vs their own {k_rate['season_k_rate']:.0%} season rate)"
+        )
     return score, reasons
 
 
