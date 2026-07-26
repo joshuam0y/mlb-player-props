@@ -35,6 +35,17 @@ tab-hopping multiple sites before locking in a bet.
 - **BABIP/ISO luck check** -- flags when a "hot" streak looks BABIP-driven
   (likely to regress) vs. a real power uptick (ISO actually up).
 - **Hit streaks** and **home/away splits**.
+- **Team win/loss streak and last-10 form** -- shown as context next to each
+  team name (e.g. "3-GAME WIN STREAK", "8-2 last 10 (+15 run diff)"). Kept
+  separate from the actual game projection, which already blends a
+  recency-weighted scoring rate more rigorously (see Game-outcome simulation
+  below) -- a streak counter would just be a noisier restatement of the same
+  games.
+- **Recent-pitcher strikeout carryover** -- if a team's batters struck out at
+  an elevated clip over their last couple of games (a tough starter ran
+  through the lineup), the next opposing pitcher's strikeout prop gets a real
+  scoring boost and a called-out reason, on the theory that a lineup that
+  just got overmatched is live for it again.
 - **Bullpen fatigue** -- relief innings thrown in the last 2 days vs. that
   team's own season-average workload, since a taxed pen matters for late-game
   at-bats even when the starter matchup looks fine.
@@ -49,6 +60,57 @@ tab-hopping multiple sites before locking in a bet.
   where the last several games deviate the most from that player's own
   season norm, shown inline on every player row, not just in the leaderboard.
 
+## Live, in-game tracking
+
+Once a game goes live, each game card polls MLB's own live-feed API
+(`statsapi.mlb.com`, CORS-open) directly from your browser every ~30 seconds
+-- no server round-trip, so it updates far faster than the ~15-minute
+dashboard rebuild underneath it. Only one game card is open at a time (the
+"accordion" behavior; opening another closes the last one), and the header of
+an open card stays pinned to the top of the screen while you scroll its body,
+so closing it back up never means scrolling all the way back to the top.
+
+- **Live score, inning, and a base/out diamond** -- always visible even with
+  the card collapsed, so you can scan every live score on mobile without
+  opening anything.
+- **Live win probability (estimate)** -- a from-first-principles statistical
+  model (not MLB's own proprietary one): each team's remaining scoring is
+  treated as normally distributed around the current lead, with the variance
+  shrinking as outs run out, plus a small home-field edge that shrinks right
+  alongside it, and a same-side bonus for the batting team's current
+  base/out state. Directionally right, not precise to the percentage point --
+  labeled "(est.)" throughout so it doesn't read as more certain than it is.
+- **Live count, a real strike-zone pitch plot** (using the same Statcast
+  pitch coordinates MLB.com's own Gameday uses), and a **pitch-by-pitch list**
+  with type and velocity for the current at-bat.
+- **Recent plays feed** -- the play-by-play recap, including substitutions,
+  pitching changes, and inning transitions, not just hits and outs.
+- **Live per-player box scores** for every batter/pitcher on the page,
+  updating in real time -- and for anyone who wasn't in the projected/
+  confirmed lineup to begin with (a reliever, pinch hitter, or defensive
+  sub), a compact "Also appeared" line gets added automatically, marked
+  not-projected, in the same box-score style as everyone else, so a
+  mid-game substitution's stats are never silently dropped.
+- **Batting-order highlighting** -- the current batter, on-deck hitter, and
+  pitcher are tagged directly in the lineup table (AT BAT / ON DECK /
+  PITCHING), so it's obvious where in the order the game actually is without
+  cross-referencing names by eye.
+
+## Track Record
+
+**https://joshuam0y.github.io/mlb-player-props/track-record.html**
+
+Every pick this tool has actually made -- player-prop hit rates (HOT/COLD,
+matchup-edge, pitcher-form flags) and full game-level picks (moneyline, run
+line, total) -- graded against what really happened, day by day. Each day is
+frozen from the very first report generated that morning, before that day's
+games start, so nothing there can be quietly informed by that same day's
+results. It also shows "projected stat vs. actual" -- the literal number
+projected for every player/category next to what really happened, a more
+granular cut than plain hit/miss. Same honesty standard as the Backtesting
+section below: this shows what the signals actually did, not a curated
+highlight reel.
+
 ## Game-outcome simulation
 
 `game_model.py` + `simulate_games.py` project win probability, a run line
@@ -57,8 +119,13 @@ log5-style blend of each team's own season runs-scored/allowed (home/away
 split), the probable starter's ERA, and actual bullpen ERA (separated from
 starters via `games_started`) adjusted for recent bullpen fatigue, fed into
 a Negative-Binomial Monte Carlo (20,000+ trials/game, fit against this
-season's real run distribution, not assumed constants). Once a game's
-lineup is confirmed, the specific 9 starters' recent form nudges the
+season's real run distribution, not assumed constants). Each team's offense index also blends in that team's own scoring rate
+specifically against the probable opposing starter's handedness (weight 0.3,
+once 15+ games vs. that hand exist to trust) -- verified by the same
+backtest: Brier score 0.2639 with the split off, 0.2634 at weight 0.2, 0.2631
+at weight 0.3, monotonically better as the weight increases, the same "real,
+repeatable, not noise" pattern as the recency-weighting result below. Once a
+game's lineup is confirmed, the specific 9 starters' recent form nudges the
 offense index a small, capped amount -- before that, the projection runs on
 team-level rates alone. Every projection is snapshotted with a timestamp in
 `game_projections` (including a plain moneyline/run-line/total "pick") so a
