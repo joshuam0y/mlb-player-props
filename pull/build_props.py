@@ -38,6 +38,13 @@ from sync_teams_and_roster import upsert_player_bio
 CURRENT_SEASON = datetime.now(timezone.utc).year
 OUT_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "output")
 
+# Hour (UTC) at which the day's Top Overs/Unders archive is allowed to
+# freeze -- see run()'s own comment for the full reasoning. 20:00 UTC is
+# 4pm ET/1pm PT: late enough that most evening games' lineups (typically
+# posted 1-3 hours before a ~7pm ET start) have already posted, early
+# enough that it's still hours before most games actually start.
+TOP_PICKS_FREEZE_HOUR_UTC = 20
+
 BATTING_COUNT_COLS = [
     "at_bats", "hits", "doubles", "triples", "home_runs", "rbi", "runs",
     "base_on_balls", "strike_outs", "total_bases", "hit_by_pitch", "stolen_bases",
@@ -739,14 +746,16 @@ def _ensure_player(conn, player_id, team_id):
     return conn.execute("SELECT * FROM players WHERE player_id = ?", (player_id,)).fetchone()
 
 
-def build_batter_entry(conn, player_id, opp_hand, opp_pitcher_id, is_home_game, team_id, batting_order=None, game_pk=None, as_of_date=None):
+def build_batter_entry(conn, player_id, opp_hand, opp_pitcher_id, is_home_game, team_id, batting_order=None, game_pk=None, as_of_date=None, status=None):
     """
     as_of_date is this game's own date -- passed down into every rolling/
     recent-form/streak lookup below so none of them can ever include THIS
     game's own result (in progress or already final) in what's supposed to
     be a pre-game read. See batting_rolling()'s own docstring for why that
     matters. game_result itself is deliberately NOT filtered by it -- that
-    one's supposed to be this specific game's actual result.
+    one's supposed to be this specific game's actual result. status is
+    this game's current status, used only to gate matchup_lean's hit/miss
+    verdict to real, final results (see pick_result()'s own docstring).
     """
     player = conn.execute("SELECT * FROM players WHERE player_id = ?", (player_id,)).fetchone()
     if not player:
@@ -770,7 +779,7 @@ def build_batter_entry(conn, player_id, opp_hand, opp_pitcher_id, is_home_game, 
         best_prop, best_prop_direction = fallback_best_prop(recent_categories, season_categories)
 
     game_result = batter_game_result(conn, player_id, game_pk) if game_pk else None
-    matchup_lean = _lean_with_result(best_matchup_lean(recent_categories), game_result, "batter")
+    matchup_lean = _lean_with_result(best_matchup_lean(recent_categories), game_result, "batter", status in FINAL_STATUSES)
 
     return {
         "player_id": player_id,
@@ -802,8 +811,8 @@ def build_batter_entry(conn, player_id, opp_hand, opp_pitcher_id, is_home_game, 
     }
 
 
-def build_pitcher_entry(conn, player_id, team_id, is_home_game=None, game_pk=None, as_of_date=None):
-    """as_of_date -- see build_batter_entry()'s own docstring; same reasoning, pitcher side."""
+def build_pitcher_entry(conn, player_id, team_id, is_home_game=None, game_pk=None, as_of_date=None, status=None):
+    """as_of_date, status -- see build_batter_entry()'s own docstring; same reasoning, pitcher side."""
     if not player_id:
         return None
     player = conn.execute("SELECT * FROM players WHERE player_id = ?", (player_id,)).fetchone()
@@ -826,7 +835,7 @@ def build_pitcher_entry(conn, player_id, team_id, is_home_game=None, game_pk=Non
         best_prop, best_prop_direction = fallback_best_prop(recent_categories, season_categories)
 
     game_result = pitcher_game_result(conn, player_id, game_pk) if game_pk else None
-    matchup_lean = _lean_with_result(best_matchup_lean(recent_categories), game_result, "pitcher")
+    matchup_lean = _lean_with_result(best_matchup_lean(recent_categories), game_result, "pitcher", status in FINAL_STATUSES)
 
     return {
         "player_id": player_id,
@@ -887,19 +896,24 @@ def build_team_side(conn, game, side):
         lineup_confirmed = True
         batters = [
             build_batter_entry(
-                conn, r["player_id"], opp_hand, opp_pitcher_id, is_home_game, team_id, r["batting_order"], game["game_pk"], as_of_date=as_of_date
+                conn, r["player_id"], opp_hand, opp_pitcher_id, is_home_game, team_id, r["batting_order"], game["game_pk"],
+                as_of_date=as_of_date, status=game["status"],
             )
             for r in confirmed
         ]
     else:
         lineup_confirmed = False
         batters = [
-            build_batter_entry(conn, pid, opp_hand, opp_pitcher_id, is_home_game, team_id, game_pk=game["game_pk"], as_of_date=as_of_date)
+            build_batter_entry(
+                conn, pid, opp_hand, opp_pitcher_id, is_home_game, team_id, game_pk=game["game_pk"], as_of_date=as_of_date, status=game["status"]
+            )
             for pid in likely_starters(conn, team_id)
         ]
 
     opp_team_id = game[f"{opp_side}_team_id"]
-    pitcher = build_pitcher_entry(conn, game[f"{side}_probable_pitcher_id"], team_id, is_home_game, game["game_pk"], as_of_date=as_of_date)
+    pitcher = build_pitcher_entry(
+        conn, game[f"{side}_probable_pitcher_id"], team_id, is_home_game, game["game_pk"], as_of_date=as_of_date, status=game["status"]
+    )
     if pitcher:
         # Unlike opponent_matchup (needs the opposing BATTERS list, so it's
         # filled in later by build_report() once both sides exist), this
@@ -1100,19 +1114,27 @@ def headline_prop(best_over, best_under):
 _BATTER_CATEGORY_FIELD = {label: field for field, label in BATTER_PROP_CATEGORIES}
 _PITCHER_CATEGORY_FIELD = {label: field for field, label in PITCHER_PROP_CATEGORIES}
 
+FINAL_STATUSES = {"Final", "Game Over", "Completed Early"}
 
-def pick_result(role, category, game_result, direction):
+
+def pick_result(role, category, game_result, direction, is_final):
     """
     Whether a Top Overs/Unders pick has actually hit, missed, or has no
-    result yet -- read straight from this player's own game_result (the
+    verdict yet -- read straight from this player's own game_result (the
     same box-score data the dashboard already shows for them), not a fresh
-    query, so it always matches whatever's currently on screen, live game
-    included. Only gradable when there's a real best_category (a line to
-    grade against) and that category's column actually has a value --
+    query, so it always matches whatever's currently on screen.
+
+    Deliberately withheld (returns None) until is_final: every one of
+    these stats only ever goes UP over the course of a game (a hit total
+    can't decrease), so an OVER that hasn't cleared its line yet, or an
+    UNDER that hasn't been exceeded yet, is still fully live and could
+    flip either way before the last out. Showing that as a live "MISS" or
+    "HIT" would report a provisional snapshot as the final word --
     grade_picks.py's own end-of-day grading is the permanent, authoritative
-    record; this is just a same-glance version for the leaderboard itself.
+    record; this is just a same-glance version for the leaderboard itself,
+    and it should never say something the game itself hasn't decided yet.
     """
-    if not category or not game_result:
+    if not is_final or not category or not game_result:
         return None
     field = (_BATTER_CATEGORY_FIELD if role == "batter" else _PITCHER_CATEGORY_FIELD).get(category["label"])
     if not field or game_result.get(field) is None:
@@ -1121,10 +1143,10 @@ def pick_result(role, category, game_result, direction):
     return "hit" if (cleared if direction == "over" else not cleared) else "miss"
 
 
-def _lean_with_result(lean, game_result, role):
-    """Attaches the live hit/miss verdict directly onto the matchup_lean dict, using the same grading logic as Top Overs/Unders -- so the dashboard's "Predicted: X" line can say whether it actually hit, not just restate the pre-game call."""
+def _lean_with_result(lean, game_result, role, is_final):
+    """Attaches the hit/miss verdict directly onto the matchup_lean dict, using the same grading logic as Top Overs/Unders -- so the dashboard's "Predicted: X" line can say whether it actually hit, not just restate the pre-game call. Same is_final gating as pick_result()."""
     if lean and game_result:
-        lean["result"] = pick_result(role, lean, game_result, lean["direction"])
+        lean["result"] = pick_result(role, lean, game_result, lean["direction"], is_final)
     return lean
 
 
@@ -1197,8 +1219,12 @@ def pitcher_best_category(p, label):
 
 # Most commonly bet MLB player-prop categories, in priority order -- the
 # guaranteed last-resort fallback below picks the first of these a player
-# has any recent-game data for at all.
-POPULAR_BATTER_CATEGORIES = ["Hits", "Total Bases", "Home Runs", "RBIs"]
+# has any recent-game data for at all. Home Runs deliberately excluded --
+# a much more volatile/streaky event per game than Hits/Total Bases/RBIs,
+# a worse choice specifically as a generic "at least show something real"
+# fallback (it can still surface on its own merits via the stricter,
+# deviation-based best_over/best_under path above this one).
+POPULAR_BATTER_CATEGORIES = ["Hits", "Total Bases", "RBIs"]
 POPULAR_PITCHER_CATEGORIES = ["Strikeouts", "Hits Allowed"]
 
 
@@ -1212,9 +1238,15 @@ def _lenient_category_for_direction(categories, direction):
     remark with no concrete number isn't a real prop. This picks whichever
     of the player's own categories (already matchup-adjusted -- see
     today_projection/lean in _prop_categories()) actually leans the
-    requested direction, with the most recent-game data behind it.
+    requested direction, with the most recent-game data behind it. Home
+    Runs excluded here too (see POPULAR_BATTER_CATEGORIES) -- too
+    volatile/streaky a category to lean on as a generic filler, even
+    when it happens to lean the right way; it can still surface on its
+    own merits via the stricter best_over/best_under path above this one.
     """
-    candidates = [c for c in (categories or []) if c.get("lean") == direction and c.get("hit_rates")]
+    candidates = [
+        c for c in (categories or []) if c.get("lean") == direction and c.get("hit_rates") and c["label"] != "Home Runs"
+    ]
     if not candidates:
         return None
     best = max(candidates, key=lambda c: abs(c["today_projection"] - c["primary_line"]))
@@ -1273,6 +1305,7 @@ def build_top_picks(report_games, batter_limit=15, pitcher_limit=8):
     batter_overs, batter_unders = [], []
     pitcher_overs, pitcher_unders = [], []
     for g in report_games:
+        is_final = g["status"] in FINAL_STATUSES
         for side_key in ("home", "away"):
             side = g[side_key]
             opp_side = g["away"] if side_key == "home" else g["home"]
@@ -1295,14 +1328,14 @@ def build_top_picks(report_games, batter_limit=15, pitcher_limit=8):
                 over_score -= confirmed_penalty
                 if over_reasons and over_score > 0:
                     best_over = b.get("best_over") or resolve_best_category(b.get("prop_categories"), "batter", "over")
-                    result = pick_result("batter", best_over, b.get("game_result"), "over")
+                    result = pick_result("batter", best_over, b.get("game_result"), "over", is_final)
                     batter_overs.append({**base, "score": over_score, "reasons": over_reasons, "best_category": best_over, "result": result})
 
                 under_score, under_reasons = batter_under_score(b)
                 under_score -= confirmed_penalty
                 if under_reasons and under_score > 0:
                     best_under = b.get("best_under") or resolve_best_category(b.get("prop_categories"), "batter", "under")
-                    result = pick_result("batter", best_under, b.get("game_result"), "under")
+                    result = pick_result("batter", best_under, b.get("game_result"), "under", is_final)
                     batter_unders.append({**base, "score": under_score, "reasons": under_reasons, "best_category": best_under, "result": result})
 
             p = side["probable_pitcher"]
@@ -1320,13 +1353,13 @@ def build_top_picks(report_games, batter_limit=15, pitcher_limit=8):
                 over_score, over_reasons = pitcher_strikeout_over_score(p)
                 if over_reasons and over_score > 0:
                     best_over = pitcher_best_category(p, "Strikeouts") or resolve_best_category(p.get("prop_categories"), "pitcher", "over")
-                    result = pick_result("pitcher", best_over, p.get("game_result"), "over")
+                    result = pick_result("pitcher", best_over, p.get("game_result"), "over", is_final)
                     pitcher_overs.append({**base, "score": over_score, "reasons": over_reasons, "best_category": best_over, "result": result})
 
                 under_score, under_reasons = pitcher_runs_under_score(p)
                 if under_reasons and under_score > 0:
                     best_under = pitcher_best_category(p, "Runs Allowed") or resolve_best_category(p.get("prop_categories"), "pitcher", "under")
-                    result = pick_result("pitcher", best_under, p.get("game_result"), "under")
+                    result = pick_result("pitcher", best_under, p.get("game_result"), "under", is_final)
                     pitcher_unders.append({**base, "score": under_score, "reasons": under_reasons, "best_category": best_under, "result": result})
 
     batter_overs.sort(key=lambda c: c["score"], reverse=True)
@@ -1384,11 +1417,32 @@ def _game_pk_for_date(conn, role, player_id, date):
     return row["game_pk"] if row else None
 
 
+def _game_status(conn, game_pk):
+    row = conn.execute("SELECT status FROM games WHERE game_pk = ?", (game_pk,)).fetchone()
+    return row["status"] if row else None
+
+
+def _lineup_confirmed_for_player(conn, game_pk, player_id):
+    """
+    Whether THIS SPECIFIC player has a confirmed-lineup row for this exact
+    game -- checked directly against the lineups table, not whether he's
+    still present in a recomputed batters list. A player picked this
+    morning off a "likely starter" guess who then isn't in the real
+    lineup (rest day, late scratch) would otherwise never get looked up
+    at all, leaving a stale PROJECTED tag with no way to tell "the real
+    lineup posted, he's just not in it" apart from "nothing's posted yet".
+    """
+    row = conn.execute("SELECT 1 FROM lineups WHERE game_pk = ? AND player_id = ?", (game_pk, player_id)).fetchone()
+    return row is not None
+
+
 def _regrade_picks(conn, picks_field, direction):
     """
-    Refreshes ONLY the hit/miss verdict on an already-frozen pick list,
-    against each pick's own frozen best_category/line -- never touches who
-    made the list, their rank, or that line itself.
+    Refreshes the hit/miss verdict and (for batters) the lineup-confirmed
+    status on an already-frozen pick list, against each pick's own frozen
+    best_category/line -- never touches who made the list, their rank, or
+    that line itself. The verdict stays None (pick_result()'s own gate)
+    until the game the pick belongs to is actually Final.
     """
     if not picks_field:
         return
@@ -1398,48 +1452,44 @@ def _regrade_picks(conn, picks_field, direction):
             game_pk = pick.get("game_pk") or _game_pk_for_date(conn, role, pick["player_id"], pick["date"])
             if not game_pk:
                 continue
+            if role == "batter":
+                pick["lineup_confirmed"] = _lineup_confirmed_for_player(conn, game_pk, pick["player_id"])
+            status = _game_status(conn, game_pk)
             game_result = (batter_game_result if role == "batter" else pitcher_game_result)(conn, pick["player_id"], game_pk)
-            pick["result"] = pick_result(role, pick.get("best_category"), game_result, direction)
+            pick["result"] = pick_result(role, pick.get("best_category"), game_result, direction, status in FINAL_STATUSES)
 
 
 def _player_context(todays_games):
-    """Current prop_categories + lineup_confirmed for every player showing up today, keyed by (role, player_id) -- used to backfill an already-frozen pick without needing to recompute the whole entry."""
+    """Current prop_categories for every player showing up today, keyed by (role, player_id) -- used to backfill an already-frozen pick's best_category without needing to recompute the whole entry."""
     context = {}
     for g in todays_games:
         for side_key in ("home", "away"):
             side = g[side_key]
             for b in side["batters"]:
-                context[("batter", b["player_id"])] = {"prop_categories": b.get("prop_categories"), "lineup_confirmed": side["lineup_confirmed"]}
+                context[("batter", b["player_id"])] = b.get("prop_categories")
             p = side["probable_pitcher"]
             if p:
-                context[("pitcher", p["player_id"])] = {"prop_categories": p.get("prop_categories"), "lineup_confirmed": True}
+                context[("pitcher", p["player_id"])] = p.get("prop_categories")
     return context
 
 
 def _refresh_frozen_pick(pick, direction, player_context):
     """
-    Backfills two things on an already-frozen pick using CURRENT (but
+    Backfills best_category on an already-frozen pick using CURRENT (but
     still as-of-date-safe) data, without touching who's on the list or
-    their rank/score:
-      - best_category, for a pick frozen before resolve_best_category()
-        existed (previously a text-remark-only "fallback_angle", or
-        nothing at all)
-      - lineup_confirmed, which is a fact about what's now known to have
-        actually happened, not a prediction being graded -- archives are
-        written very early (the first build of the day, well before any
-        lineup posts), so every pick froze as PROJECTED regardless; once
-        the real lineup posted and the game was played, this should say
-        CONFIRMED, same as anyone checking after the fact would expect.
+    their rank/score -- for a pick frozen before resolve_best_category()
+    existed (previously a text-remark-only "fallback_angle", or nothing at
+    all). lineup_confirmed is handled separately in _regrade_picks(), via
+    a direct per-player lineups-table lookup rather than this reconstructed
+    batters list -- a player who isn't actually starting today wouldn't be
+    in it at all, which left him stuck without a real check either way.
     """
-    ctx = player_context.get((pick.get("role", "batter"), pick["player_id"]))
-    if not ctx:
+    if pick.get("best_category"):
         return
-    if not pick.get("best_category"):
-        resolved = resolve_best_category(ctx["prop_categories"], pick.get("role", "batter"), direction)
-        if resolved:
-            pick["best_category"] = resolved
-    if pick.get("role", "batter") == "batter":
-        pick["lineup_confirmed"] = ctx["lineup_confirmed"]
+    categories = player_context.get((pick.get("role", "batter"), pick["player_id"]))
+    resolved = resolve_best_category(categories, pick.get("role", "batter"), direction)
+    if resolved:
+        pick["best_category"] = resolved
 
 
 def build_report(conn, days_ahead=2):
@@ -1676,18 +1726,29 @@ def run(days_ahead=2, write_archive=True):
     # skippable on the frequent quick-refresh cycle (see quick-refresh.yml)
     # where it'd just get overwritten again in minutes anyway -- every skip
     # halves that run's commit size for zero loss of information. The
-    # hourly job still writes it -- but only the FIRST time that day (never
-    # overwritten again after), so it freezes the earliest same-day
-    # snapshot rather than whatever the last hourly run before midnight
-    # happened to look like. That matters for grade_picks.py: a LATE-day
-    # snapshot could already have some of that day's own game results
-    # folded into a batter's rolling stats by the time it's written, which
-    # would make "here's what was predicted" quietly include a bit of
-    # "here's what already happened" -- a real look-ahead leak for grading
-    # purposes, even though it's a non-issue for the live dashboard itself.
+    # hourly job still writes it -- but only the FIRST time that day AT OR
+    # AFTER TOP_PICKS_FREEZE_HOUR_UTC (never overwritten again after that),
+    # not simply the first run of the day. Freezing at the very first
+    # hourly run (as early as 00:xx UTC) meant every Top Overs/Unders pick
+    # started life as PROJECTED regardless of role, since real lineups
+    # don't typically post until 1-3 hours before first pitch -- hours
+    # later. Waiting until most evening games' lineups have had a chance
+    # to post (without waiting so long that the archive misses being a
+    # genuine pre-game snapshot for most of the day's games, which mostly
+    # start 23:00-02:00 UTC) means the frozen picks reflect real, known
+    # lineup status from the start instead of a stale guess that (before
+    # this fix) never updated again for the rest of the day. Before this
+    # hour, top_overs/top_unders in build_report() are computed fresh on
+    # every build, same as if no archive existed yet at all. That matters
+    # for grade_picks.py too: a snapshot written too late in the day could
+    # already have some of that day's own game results folded into a
+    # batter's rolling stats, which would make "here's what was predicted"
+    # quietly include a bit of "here's what already happened" -- a real
+    # look-ahead leak for grading purposes (this window keeps it well
+    # before any of today's games actually start).
     if write_archive:
         archive_path = os.path.join(OUT_DIR, f"props_{today}.json")
-        if not os.path.exists(archive_path):
+        if not os.path.exists(archive_path) and datetime.now(timezone.utc).hour >= TOP_PICKS_FREEZE_HOUR_UTC:
             with open(archive_path, "w") as f:
                 json.dump(report, f, indent=2, default=str)
 
