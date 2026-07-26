@@ -1124,22 +1124,27 @@ def pick_result(role, category, game_result, direction, is_final):
     same box-score data the dashboard already shows for them), not a fresh
     query, so it always matches whatever's currently on screen.
 
-    Deliberately withheld (returns None) until is_final: every one of
-    these stats only ever goes UP over the course of a game (a hit total
-    can't decrease), so an OVER that hasn't cleared its line yet, or an
-    UNDER that hasn't been exceeded yet, is still fully live and could
-    flip either way before the last out. Showing that as a live "MISS" or
-    "HIT" would report a provisional snapshot as the final word --
+    Every one of these stats only ever goes UP over the course of a game
+    (a hit total can't decrease), which makes "cleared its line" a
+    one-way, permanent fact the moment it happens -- an OVER that's
+    already cleared can never un-clear, and an UNDER that's already been
+    exceeded can never un-exceed. So that state is safe to report
+    immediately, live, mid-game. The opposite state ("hasn't cleared yet")
+    is NOT permanent -- it could still flip before the last out -- so
+    that one is deliberately withheld (returns None) until is_final,
+    rather than reporting a still-reversible snapshot as the final word.
     grade_picks.py's own end-of-day grading is the permanent, authoritative
-    record; this is just a same-glance version for the leaderboard itself,
-    and it should never say something the game itself hasn't decided yet.
+    record either way; this is just a same-glance version for the
+    leaderboard itself.
     """
-    if not is_final or not category or not game_result:
+    if not category or not game_result:
         return None
     field = (_BATTER_CATEGORY_FIELD if role == "batter" else _PITCHER_CATEGORY_FIELD).get(category["label"])
     if not field or game_result.get(field) is None:
         return None
     cleared = game_result[field] > category["line"]
+    if not cleared and not is_final:
+        return None
     return "hit" if (cleared if direction == "over" else not cleared) else "miss"
 
 
@@ -1313,6 +1318,7 @@ def build_top_picks(report_games, batter_limit=15, pitcher_limit=8):
     pitcher_overs, pitcher_unders = [], []
     for g in report_games:
         is_final = g["status"] in FINAL_STATUSES
+        game_started = g["status"] not in (None, "Scheduled", "Pre-Game", "Preview", "Warmup")
         for side_key in ("home", "away"):
             side = g[side_key]
             opp_side = g["away"] if side_key == "home" else g["home"]
@@ -1336,14 +1342,16 @@ def build_top_picks(report_games, batter_limit=15, pitcher_limit=8):
                 if over_reasons and over_score > 0:
                     best_over = b.get("best_over") or resolve_best_category(b.get("prop_categories"), "batter", "over")
                     result = pick_result("batter", best_over, b.get("game_result"), "over", is_final)
-                    batter_overs.append({**base, "score": over_score, "reasons": over_reasons, "best_category": best_over, "result": result})
+                    dnp = game_started and b.get("game_result") is None
+                    batter_overs.append({**base, "score": over_score, "reasons": over_reasons, "best_category": best_over, "result": result, "dnp": dnp})
 
                 under_score, under_reasons = batter_under_score(b)
                 under_score -= confirmed_penalty
                 if under_reasons and under_score > 0:
                     best_under = b.get("best_under") or resolve_best_category(b.get("prop_categories"), "batter", "under")
                     result = pick_result("batter", best_under, b.get("game_result"), "under", is_final)
-                    batter_unders.append({**base, "score": under_score, "reasons": under_reasons, "best_category": best_under, "result": result})
+                    dnp = game_started and b.get("game_result") is None
+                    batter_unders.append({**base, "score": under_score, "reasons": under_reasons, "best_category": best_under, "result": result, "dnp": dnp})
 
             p = side["probable_pitcher"]
             if p and not p["injury"]:
@@ -1361,13 +1369,15 @@ def build_top_picks(report_games, batter_limit=15, pitcher_limit=8):
                 if over_reasons and over_score > 0:
                     best_over = pitcher_best_category(p, "Strikeouts") or resolve_best_category(p.get("prop_categories"), "pitcher", "over")
                     result = pick_result("pitcher", best_over, p.get("game_result"), "over", is_final)
-                    pitcher_overs.append({**base, "score": over_score, "reasons": over_reasons, "best_category": best_over, "result": result})
+                    dnp = game_started and p.get("game_result") is None
+                    pitcher_overs.append({**base, "score": over_score, "reasons": over_reasons, "best_category": best_over, "result": result, "dnp": dnp})
 
                 under_score, under_reasons = pitcher_runs_under_score(p)
                 if under_reasons and under_score > 0:
                     best_under = pitcher_best_category(p, "Runs Allowed") or resolve_best_category(p.get("prop_categories"), "pitcher", "under")
                     result = pick_result("pitcher", best_under, p.get("game_result"), "under", is_final)
-                    pitcher_unders.append({**base, "score": under_score, "reasons": under_reasons, "best_category": best_under, "result": result})
+                    dnp = game_started and p.get("game_result") is None
+                    pitcher_unders.append({**base, "score": under_score, "reasons": under_reasons, "best_category": best_under, "result": result, "dnp": dnp})
 
     batter_overs.sort(key=lambda c: c["score"], reverse=True)
     batter_unders.sort(key=lambda c: c["score"], reverse=True)
@@ -1418,9 +1428,31 @@ def _load_frozen_top_picks(today):
 
 
 def _game_pk_for_date(conn, role, player_id, date):
-    """Fallback for archives frozen before game_pk was added to each pick -- looked up from the player's own game log row for that date instead."""
+    """Fallback for archives frozen before game_pk was added to each pick -- looked up from the player's own game log row for that date instead. Only finds anything once the player's actually recorded a plate appearance/inning, so it's useless before then -- see _game_pk_for_team_and_date() for the pre-any-stats case."""
     table = "batting_game_logs" if role == "batter" else "pitching_game_logs"
     row = conn.execute(f"SELECT game_pk FROM {table} WHERE player_id = ? AND date = ?", (player_id, date)).fetchone()
+    return row["game_pk"] if row else None
+
+
+def _game_pk_for_team_and_date(conn, player_id, date):
+    """
+    Second fallback: resolves game_pk via this player's CURRENT team +
+    the pick's date, via the games table directly -- works even before
+    the player has recorded any stat at all today (unlike
+    _game_pk_for_date, which needs an existing game log row). Without
+    this, a player who simply hadn't batted/pitched yet (game not
+    started, or early innings before his first PA) could never have his
+    lineup-confirmed status or result checked at all, no matter how long
+    the day went on -- exactly the gap that left a genuinely-confirmed
+    starter still showing PROJECTED.
+    """
+    player = conn.execute("SELECT current_team_id FROM players WHERE player_id = ?", (player_id,)).fetchone()
+    if not player or not player["current_team_id"]:
+        return None
+    row = conn.execute(
+        "SELECT game_pk FROM games WHERE official_date = ? AND ? IN (home_team_id, away_team_id)",
+        (date, player["current_team_id"]),
+    ).fetchone()
     return row["game_pk"] if row else None
 
 
@@ -1456,7 +1488,11 @@ def _regrade_picks(conn, picks_field, direction):
     for role_key in ("batters", "pitchers"):
         for pick in picks_field.get(role_key) or []:
             role = pick.get("role", "batter")
-            game_pk = pick.get("game_pk") or _game_pk_for_date(conn, role, pick["player_id"], pick["date"])
+            game_pk = (
+                pick.get("game_pk")
+                or _game_pk_for_date(conn, role, pick["player_id"], pick["date"])
+                or _game_pk_for_team_and_date(conn, pick["player_id"], pick["date"])
+            )
             if not game_pk:
                 continue
             if role == "batter":
@@ -1464,6 +1500,11 @@ def _regrade_picks(conn, picks_field, direction):
             status = _game_status(conn, game_pk)
             game_result = (batter_game_result if role == "batter" else pitcher_game_result)(conn, pick["player_id"], game_pk)
             pick["result"] = pick_result(role, pick.get("best_category"), game_result, direction, status in FINAL_STATUSES)
+            # DNP: the game's underway or over and this player still has no
+            # stat line at all -- a real thing to say (he wasn't in it, a
+            # rest day, a late scratch), distinct from "no result yet"
+            # (game hasn't reached that point) or a genuine graded miss.
+            pick["dnp"] = game_result is None and status not in (None, "Scheduled", "Pre-Game", "Preview", "Warmup")
 
 
 def _player_context(todays_games):

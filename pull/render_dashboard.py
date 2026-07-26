@@ -232,6 +232,7 @@ STYLE = """
   .badge-injury { background: var(--status-warning); color: #1a1a19; }
   .badge-hit { background: var(--status-good); color: white; }
   .badge-miss { background: var(--status-critical); color: white; }
+  .badge-dnp { background: var(--badge-neutral-bg); color: var(--badge-neutral-text); }
   .badge-matchup { background: var(--series-1); color: white; }
   .badge-streak { background: var(--status-warning); color: #1a1a19; }
   .badge-caveat { background: var(--badge-neutral-bg); color: var(--text-secondary); }
@@ -1324,13 +1325,12 @@ def _best_prop_html(entry):
 
 def _matchup_lean_html(entry):
     """
-    Once a game has actually started, the box score sits right there but
-    the ONE thing it doesn't say for itself is which side of a line the
-    model actually called pre-game -- that only ever lived behind a click
-    into the category detail. Shown only alongside a real box score (see
-    the gr-gated call sites below), not pre-game, where "Best prop" above
-    already headlines a (different) signal and a second callout would just
-    be clutter before there's anything to check it against yet.
+    The matchup-adjusted lean itself only needs a confirmed lineup + known
+    opposing pitcher, both set well before first pitch -- no reason to
+    withhold it pre-game just because "Best prop" above already headlines
+    a different signal. Once the game's actually started, the box score
+    sits right next to it, and this is the one thing it doesn't say for
+    itself: which side of a line the model called beforehand.
     """
     lean = entry.get("matchup_lean")
     if not lean:
@@ -1511,7 +1511,7 @@ def _pitcher_html(p, row_id, fatigue, status):
     )
     badges = " ".join(x for x in [_pitcher_form_badge(p.get("form_trend")), _injury_badge(p["injury"])] if x)
     boxscore_html = _pitcher_boxscore_html(p.get("game_result"), status, p["player_id"])
-    matchup_lean_html = _matchup_lean_html(p) if p.get("game_result") else ""
+    matchup_lean_html = _matchup_lean_html(p)
 
     bullets = [l5_txt]
     best_prop_text = _best_prop_text(p)
@@ -1573,7 +1573,7 @@ def _batter_rows(batters, id_prefix, status):
             if x
         )
         boxscore_html = _batter_boxscore_html(b.get("game_result"), status, b["player_id"])
-        matchup_lean_html = _matchup_lean_html(b) if b.get("game_result") else ""
+        matchup_lean_html = _matchup_lean_html(b)
         rows.append(
             f'<tr class="player-row" data-player-id="{b["player_id"]}" onclick="toggleDetail(\'{row_id}\')">'
             f'<td data-label="Order">{order}</td>'
@@ -1877,9 +1877,12 @@ def _pick_card_html(pick, rank, direction):
     # build_props.py) -- once the game's actually happened, no reason to
     # make someone cross-reference this card against Track Record just to
     # see whether the pick that got them here actually hit.
-    result = pick.get("result")
-    if result:
-        badges.append(_badge(result.upper(), result))
+    if pick.get("dnp"):
+        badges.append(_badge("DNP", "dnp"))
+    else:
+        result = pick.get("result")
+        if result:
+            badges.append(_badge(result.upper(), result))
     tag = "OVER" if direction == "over" else "UNDER"
     return f"""
     <div class="pick-card pick-card-{direction}">
