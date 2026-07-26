@@ -251,6 +251,13 @@ STYLE = """
   tr.player-row { cursor: pointer; }
   tr.player-row:hover { background: var(--series-1-bg); }
   .name-cell { font-weight: 600; }
+  /* Fetched straight from MLB's own CDN by permanent player id (see
+     _player_photo_html()'s own comment) -- never cached or stored here,
+     so a trade never leaves a stale photo behind. */
+  .player-photo {
+    width: 24px; height: 24px; border-radius: 50%; object-fit: cover;
+    vertical-align: middle; margin-right: 6px; background: var(--surface-3); flex: none;
+  }
   /* Live-tracker highlights the batter/pitcher currently in the game --
      set/cleared by highlightActivePlayers() every poll, matched against
      these rows by the same person id the boxscore uses. A tinted row
@@ -607,6 +614,15 @@ function escapeHtml(s) {
   });
 }
 
+// Same MLB CDN as _player_photo_html() in the Python template -- kept in
+// lockstep so a player looks the same whether their card came from the
+// server-rendered build or this client-side live update.
+function playerPhotoHtml(id) {
+  if (!id) return '';
+  const url = 'https://img.mlbstatic.com/mlb-photos/image/upload/w_56,h_56,c_fill,g_face,q_100/v1/people/' + id + '/headshot/67/current';
+  return '<img class="player-photo" src="' + url + '" loading="lazy" alt="" onerror="this.style.display=\\'none\\'">';
+}
+
 function initLiveTracker() {
   const now = Date.now();
   const hasStarted = function (el) {
@@ -722,7 +738,7 @@ function upsertSubLine(el, side, pid, name, gridHtml, isFinal, kind) {
     line = document.createElement('div');
     line.className = 'sub-player-line';
     line.dataset.playerId = pid;
-    line.innerHTML = '<div class="sub-player-name">' + escapeHtml(name) + ' <span class="sub">(not projected)</span></div>';
+    line.innerHTML = '<div class="sub-player-name">' + playerPhotoHtml(pid) + escapeHtml(name) + ' <span class="sub">(not projected)</span></div>';
     group.appendChild(line);
   }
   const nameDiv = line.querySelector('.sub-player-name').outerHTML;
@@ -1105,10 +1121,10 @@ function renderLiveState(el, data) {
       (strikeZoneHtml ? '<div class="sz-panel"><span class="sz-panel-label">Pitch location</span>' + strikeZoneHtml + '</div>' : '') +
       (batter || pitcher
         ? '<div class="live-matchup">' +
-          (pitcher ? '<span class="live-batter">Pitching: <b>' + escapeHtml(pitcher) + '</b></span>' : '') +
-          (batter ? '<span class="live-batter">At bat: <b>' + escapeHtml(batter) + '</b></span>' : '') +
-          (onDeck ? '<span class="live-batter sub">On deck: ' + escapeHtml(onDeck) + '</span>' : '') +
-          (inHole ? '<span class="live-batter sub">In the hole: ' + escapeHtml(inHole) + '</span>' : '') +
+          (pitcher ? '<span class="live-batter">Pitching: ' + playerPhotoHtml(defense.pitcher && defense.pitcher.id) + '<b>' + escapeHtml(pitcher) + '</b></span>' : '') +
+          (batter ? '<span class="live-batter">At bat: ' + playerPhotoHtml(offense.batter && offense.batter.id) + '<b>' + escapeHtml(batter) + '</b></span>' : '') +
+          (onDeck ? '<span class="live-batter sub">On deck: ' + playerPhotoHtml(offense.onDeck && offense.onDeck.id) + escapeHtml(onDeck) + '</span>' : '') +
+          (inHole ? '<span class="live-batter sub">In the hole: ' + playerPhotoHtml(offense.inHole && offense.inHole.id) + escapeHtml(inHole) + '</span>' : '') +
           '</div>'
         : '') +
       '</div>' +
@@ -1212,6 +1228,21 @@ def _status_badge(status):
 
 def _badge(label, kind):
     return f'<span class="badge badge-{kind}">{html.escape(label)}</span>'
+
+
+# MLB's own image CDN (mlbstatic.com, Cloudinary-backed, no auth) -- keyed by
+# each player's permanent MLB person id, not by team, so a trade never makes
+# a photo stale: the id doesn't change, and nothing here is cached locally --
+# every page load fetches straight from MLB's CDN, so whichever team's roster
+# sync already has a player under (current_team_id, unrelated to this) is
+# all that determines correctness, same as it always did. w_56,h_56,c_fill,
+# g_face crops square on the face specifically, at 2x a 28px display size for
+# a crisp look on high-DPI screens without pulling the full ~300px original.
+def _player_photo_html(player_id):
+    if not player_id:
+        return ""
+    url = f"https://img.mlbstatic.com/mlb-photos/image/upload/w_56,h_56,c_fill,g_face,q_100/v1/people/{player_id}/headshot/67/current"
+    return f'<img class="player-photo" src="{url}" loading="lazy" alt="" onerror="this.style.display=\'none\'">'
 
 
 def _trend_badge(trend):
@@ -1531,7 +1562,7 @@ def _pitcher_html(p, row_id, fatigue, status):
 
     return f"""
     <div class="pitcher-line pitcher-row" data-player-id="{p["player_id"]}" onclick="toggleDetail('{row_id}')">
-      <span class="expand-arrow"></span><b>{html.escape(p["name"])}</b> ({html.escape(p["pitch_hand"] or "?")}, throws) {badges}
+      <span class="expand-arrow"></span>{_player_photo_html(p["player_id"])}<b>{html.escape(p["name"])}</b> ({html.escape(p["pitch_hand"] or "?")}, throws) {badges}
     </div>
     {boxscore_html}
     {matchup_lean_html}
@@ -1577,7 +1608,7 @@ def _batter_rows(batters, id_prefix, status):
         rows.append(
             f'<tr class="player-row" data-player-id="{b["player_id"]}" onclick="toggleDetail(\'{row_id}\')">'
             f'<td data-label="Order">{order}</td>'
-            f'<td data-label="Batter" class="name-cell"><span class="expand-arrow"></span>{html.escape(b["name"])} '
+            f'<td data-label="Batter" class="name-cell"><span class="expand-arrow"></span>{_player_photo_html(b["player_id"])}{html.escape(b["name"])} '
             f'<span class="sub">({html.escape(b["bat_side"] or "?")} handed batter)</span></td>'
             f'<td data-label="Flags">{badges}</td>'
             f'<td data-label="Recent form">{boxscore_html}{matchup_lean_html}{html.escape(l7_txt)}<div class="sub">{season_txt}</div>{_best_prop_html(b)}</td>'
@@ -1924,7 +1955,7 @@ def _pick_card_html(pick, rank, direction):
     return f"""
     <div class="pick-card pick-card-{direction}">
       <div class="pick-rank">#{rank} {tag}</div>
-      <div class="pick-name">{html.escape(pick["name"])}</div>
+      <div class="pick-name">{_player_photo_html(pick.get("player_id"))}{html.escape(pick["name"])}</div>
       <div class="pick-matchup">{html.escape(pick["team"] or "?")} vs. {html.escape(pick["opponent"] or "?")}</div>
       <div class="pick-badges">{"".join(badges)}</div>
       <ul class="pick-reasons">{reasons_html}</ul>
