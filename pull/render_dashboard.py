@@ -253,12 +253,13 @@ STYLE = """
     background: var(--surface-2); border: 1px solid var(--border); border-radius: 8px;
     padding: 8px 10px; margin-bottom: 6px; max-width: 220px;
   }
-  .bx-header { margin-bottom: 6px; }
+  .bx-header { margin-bottom: 6px; display: flex; align-items: center; gap: 6px; }
+  .bx-volume { font-size: 11px; color: var(--text-muted); }
   .bx-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px 4px; text-align: center; }
+  .bx-grid + .bx-grid { margin-top: 6px; }
   .bx-stat { display: flex; flex-direction: column; align-items: center; }
   .bx-stat b { font-size: 13.5px; line-height: 1.15; }
   .bx-stat small { font-size: 9px; color: var(--text-muted); letter-spacing: 0.03em; }
-  .bx-extra { font-size: 11px; color: var(--text-secondary); margin-top: 6px; }
   .badge-live { background: var(--status-critical); color: white; }
   .badge-live::before {
     content: ""; display: inline-block; width: 6px; height: 6px; border-radius: 50%;
@@ -292,9 +293,21 @@ STYLE = """
   .diamond .base-3b { top: 9px; left: -2px; }
   .diamond .base-1b { top: 9px; left: 20px; }
   .diamond .base-occupied { background: var(--status-warning); border-color: var(--status-warning); }
+  .live-count { font-variant-numeric: tabular-nums; font-weight: 600; color: var(--text-secondary); white-space: nowrap; }
+  .strike-zone { flex: none; }
+  .sz-bg { fill: var(--surface-1); stroke: var(--border); stroke-width: 1; }
+  .sz-zone { fill: none; stroke: var(--text-muted); stroke-width: 1.5; stroke-dasharray: 3 2; }
+  .pitch-dot-ball { fill: var(--series-1); }
+  .pitch-dot-strike { fill: var(--status-critical); }
+  .pitch-dot-swing { fill: #b8262f; }
+  .pitch-dot-foul { fill: var(--status-warning); }
+  .pitch-dot-inplay { fill: var(--status-good); }
+  .pitch-dot-hbp { fill: #8e44ad; }
+  .pitch-dot-other { fill: var(--text-muted); }
   .live-batter { color: var(--text-secondary); }
   .live-batter b { color: var(--text-primary); }
   .live-updated { color: var(--text-muted); font-size: 10.5px; margin-left: auto; white-space: nowrap; }
+  .live-notable { width: 100%; font-style: italic; color: var(--text-secondary); font-size: 12px; }
   .recent-plays:empty { display: none; }
   .recent-plays { margin-bottom: 14px; }
   .plays-heading { font-size: 13px; font-weight: 700; margin-bottom: 6px; }
@@ -514,8 +527,9 @@ function statOr0(v) {
   return v == null ? 0 : v;
 }
 
-function boxHeader(isFinal) {
-  return '<div class="bx-header">' + (isFinal ? '<span class="badge badge-final">FINAL</span>' : '<span class="badge badge-live">LIVE</span>') + '</div>';
+function boxHeader(isFinal, volumeLabel, volumeValue) {
+  const badge = isFinal ? '<span class="badge badge-final">FINAL</span>' : '<span class="badge badge-live">LIVE</span>';
+  return '<div class="bx-header">' + badge + '<span class="bx-volume">' + volumeValue + ' ' + volumeLabel + '</span></div>';
 }
 
 function statCellHtml(label, value) {
@@ -541,24 +555,31 @@ function updatePlayerBoxScores(el, data, isFinal) {
       const pitching = p.stats && p.stats.pitching;
       const batting = p.stats && p.stats.batting;
       if (pitching && pitching.inningsPitched && pitching.inningsPitched !== '0.0') {
+        // Main grid matches PITCHER_PROP_CATEGORIES exactly (Strikeouts,
+        // Runs Allowed = earned runs, Hits Allowed, Walks Allowed) -- see
+        // _pitcher_boxscore_html()'s own docstring in render_dashboard.py.
         const grid = [
-          statCellHtml('IP', pitching.inningsPitched), statCellHtml('H', statOr0(pitching.hits)), statCellHtml('R', statOr0(pitching.runs)),
-          statCellHtml('ER', statOr0(pitching.earnedRuns)), statCellHtml('BB', statOr0(pitching.baseOnBalls)), statCellHtml('SO', statOr0(pitching.strikeOuts)),
+          statCellHtml('SO', statOr0(pitching.strikeOuts)), statCellHtml('ER', statOr0(pitching.earnedRuns)),
+          statCellHtml('H', statOr0(pitching.hits)), statCellHtml('BB', statOr0(pitching.baseOnBalls)),
         ].join('');
-        const extra = pitching.homeRuns ? '<div class="bx-extra">' + pitching.homeRuns + ' HR allowed</div>' : '';
-        container.innerHTML = boxHeader(isFinal) + '<div class="bx-grid">' + grid + '</div>' + extra;
+        const extraCells = [];
+        if (statOr0(pitching.runs) !== statOr0(pitching.earnedRuns)) extraCells.push(statCellHtml('R', statOr0(pitching.runs)));
+        if (pitching.homeRuns) extraCells.push(statCellHtml('HR', pitching.homeRuns));
+        const extra = extraCells.length ? '<div class="bx-grid">' + extraCells.join('') + '</div>' : '';
+        container.innerHTML = boxHeader(isFinal, 'IP', pitching.inningsPitched) + '<div class="bx-grid">' + grid + '</div>' + extra;
       } else if (batting && batting.atBats != null) {
+        // Main grid matches BATTER_PROP_CATEGORIES exactly (Hits, Total
+        // Bases, Home Runs, RBIs, Runs Scored, Walks).
         const grid = [
-          statCellHtml('AB', statOr0(batting.atBats)), statCellHtml('R', statOr0(batting.runs)), statCellHtml('H', statOr0(batting.hits)),
-          statCellHtml('RBI', statOr0(batting.rbi)), statCellHtml('BB', statOr0(batting.baseOnBalls)), statCellHtml('SO', statOr0(batting.strikeOuts)),
+          statCellHtml('H', statOr0(batting.hits)), statCellHtml('TB', statOr0(batting.totalBases)), statCellHtml('HR', statOr0(batting.homeRuns)),
+          statCellHtml('RBI', statOr0(batting.rbi)), statCellHtml('R', statOr0(batting.runs)), statCellHtml('BB', statOr0(batting.baseOnBalls)),
         ].join('');
-        const extras = [];
-        if (batting.homeRuns) extras.push(batting.homeRuns + ' HR');
-        if (batting.doubles) extras.push(batting.doubles + ' 2B');
-        if (batting.triples) extras.push(batting.triples + ' 3B');
-        if (batting.stolenBases) extras.push(batting.stolenBases + ' SB');
-        const extra = extras.length ? '<div class="bx-extra">' + escapeHtml(extras.join(', ')) + '</div>' : '';
-        container.innerHTML = boxHeader(isFinal) + '<div class="bx-grid">' + grid + '</div>' + extra;
+        const extraCells = [];
+        if (batting.doubles) extraCells.push(statCellHtml('2B', batting.doubles));
+        if (batting.triples) extraCells.push(statCellHtml('3B', batting.triples));
+        if (batting.stolenBases) extraCells.push(statCellHtml('SB', batting.stolenBases));
+        const extra = extraCells.length ? '<div class="bx-grid">' + extraCells.join('') + '</div>' : '';
+        container.innerHTML = boxHeader(isFinal, 'AB', statOr0(batting.atBats)) + '<div class="bx-grid">' + grid + '</div>' + extra;
       }
     });
   });
@@ -573,12 +594,11 @@ function isNotableAction(event) {
   return ['Pitching Substitution', 'Offensive Substitution', 'Defensive Sub', 'Defensive Switch', 'Wild Pitch', 'Passed Ball', 'Balk', 'Injury', 'Ejection'].indexOf(event) !== -1;
 }
 
-function renderRecentPlays(el, data) {
-  const container = el.querySelector('.recent-plays');
-  if (!container) return;
+// Shared by the full "Recent plays" list (in the expanded card) and the
+// always-visible live strip's "most recent notable event" line below --
+// one pass over the same fetch, not two.
+function collectGameEvents(data) {
   const allPlays = ((data.liveData || {}).plays || {}).allPlays || [];
-  if (!allPlays.length) return;
-
   const events = [];
   allPlays.forEach(function (p) {
     const inning = (p.about.halfInning || '') + ' ' + (p.about.inning || '');
@@ -591,8 +611,12 @@ function renderRecentPlays(el, data) {
       events.push({ inning: inning, text: p.result.description, action: false });
     }
   });
-  if (!events.length) return;
+  return events;
+}
 
+function renderRecentPlays(el, events) {
+  const container = el.querySelector('.recent-plays');
+  if (!container || !events.length) return;
   const recent = events.slice(-15).reverse();
   container.innerHTML =
     '<div class="plays-heading">Recent plays</div>' +
@@ -607,15 +631,74 @@ function renderRecentPlays(el, data) {
       .join('');
 }
 
+// The full history lives in the expanded card (renderRecentPlays), which
+// most visitors won't have open -- a pitching change or pinch-hitter is
+// exactly the kind of thing worth surfacing without clicking in, so the
+// SINGLE most recent one also gets a line in the always-visible strip.
+function latestNotableEvent(events) {
+  for (let i = events.length - 1; i >= 0; i--) {
+    if (events[i].action) return events[i];
+  }
+  return null;
+}
+
+function pitchDotClass(desc) {
+  if (!desc) return 'pitch-dot-other';
+  if (desc.indexOf('Called Strike') === 0) return 'pitch-dot-strike';
+  if (desc.indexOf('Swinging Strike') === 0) return 'pitch-dot-swing';
+  if (desc.indexOf('Foul') === 0) return 'pitch-dot-foul';
+  if (desc.indexOf('In play') === 0) return 'pitch-dot-inplay';
+  if (desc.indexOf('Hit By Pitch') === 0) return 'pitch-dot-hbp';
+  if (desc.indexOf('Ball') === 0 || desc === 'Automatic Ball') return 'pitch-dot-ball';
+  return 'pitch-dot-other';
+}
+
+// MLB's live feed carries full Statcast pitch coordinates (pX/pZ, feet from
+// the plate's center/ground) for every pitch of the CURRENT at-bat, plus
+// this batter's own strike zone top/bottom -- exactly what MLB.com's own
+// Gameday pitch tracker plots. Re-fetched (and so reset to the new
+// at-bat's pitches) every poll, same as everything else in the tracker.
+function renderStrikeZone(currentPlay) {
+  const pitchEvents = ((currentPlay || {}).playEvents || []).filter(function (pe) {
+    return pe.pitchData && pe.pitchData.coordinates && pe.pitchData.coordinates.pX != null;
+  });
+  if (!pitchEvents.length) return '';
+  const last = pitchEvents[pitchEvents.length - 1].pitchData;
+  const top = last.strikeZoneTop || 3.5;
+  const bottom = last.strikeZoneBottom || 1.5;
+  const halfWidth = (last.strikeZoneWidth || 17) / 12 / 2; // inches -> feet -> half-width
+  // viewBox is 5ft wide (-2.5..2.5) by 5ft tall (0..5, ground to well above
+  // the zone), 20px/ft; SVG y grows downward while pZ grows upward, so flip.
+  const toX = function (ft) { return (ft + 2.5) * 20; };
+  const toY = function (ft) { return (5 - ft) * 20; };
+  const zoneX = toX(-halfWidth), zoneY = toY(top);
+  const zoneW = toX(halfWidth) - zoneX, zoneH = toY(bottom) - zoneY;
+  const dots = pitchEvents
+    .map(function (pe) {
+      const c = pe.pitchData.coordinates;
+      const cls = pitchDotClass(pe.details && pe.details.description);
+      return '<circle cx="' + toX(c.pX) + '" cy="' + toY(c.pZ) + '" r="4" class="' + cls + '"></circle>';
+    })
+    .join('');
+  return (
+    '<svg class="strike-zone" viewBox="0 0 100 100" width="54" height="54">' +
+    '<rect x="0" y="0" width="100" height="100" class="sz-bg"></rect>' +
+    '<rect x="' + zoneX + '" y="' + zoneY + '" width="' + zoneW + '" height="' + zoneH + '" class="sz-zone"></rect>' +
+    dots +
+    '</svg>'
+  );
+}
+
 function renderLiveState(el, data) {
   const container = el.querySelector('.live-tracker');
   const status = ((data.gameData || {}).status || {}).abstractGameState;
   const linescore = (data.liveData || {}).linescore || {};
+  const events = collectGameEvents(data);
 
   if (status === 'Final') {
     el.dataset.liveDone = 'true';
     updatePlayerBoxScores(el, data, true);
-    renderRecentPlays(el, data);
+    renderRecentPlays(el, events);
     if (!container) return;
     const home = (linescore.teams || {}).home, away = (linescore.teams || {}).away;
     if (home && away && home.runs != null && away.runs != null) {
@@ -627,7 +710,7 @@ function renderLiveState(el, data) {
   if (status !== 'Live') return; // still Preview (Scheduled/Pre-Game/Warmup/Delayed) -- nothing live to show yet
 
   updatePlayerBoxScores(el, data, false);
-  renderRecentPlays(el, data);
+  renderRecentPlays(el, events);
   if (!container) return;
 
   const home = (linescore.teams || {}).home || {};
@@ -646,17 +729,25 @@ function renderLiveState(el, data) {
     '<div class="base base-1b' + (offense.first ? ' base-occupied' : '') + '"></div>' +
     '</div>';
   const updated = new Date().toLocaleTimeString([], { hour: 'numeric', minute: '2-digit' });
+  const latest = latestNotableEvent(events);
+  const currentPlay = ((data.liveData || {}).plays || {}).currentPlay;
+  const count = (currentPlay || {}).count || {};
+  const countText = count.balls != null && count.strikes != null ? count.balls + '-' + count.strikes : '';
+  const strikeZoneHtml = renderStrikeZone(currentPlay);
 
   container.innerHTML =
     '<span class="badge badge-live">LIVE</span>' +
     '<span class="live-score-line">' + away.runs + ' - ' + home.runs + '</span>' +
     '<span class="live-inning">' + escapeHtml(linescore.inningHalf || '') + ' ' + escapeHtml(linescore.currentInningOrdinal || '') + '</span>' +
+    (countText ? '<span class="live-count">' + countText + '</span>' : '') +
     '<span class="live-outs">' + outDots + '</span>' +
     diamond +
+    strikeZoneHtml +
     (batter
       ? '<span class="live-batter">At bat: <b>' + escapeHtml(batter) + '</b>' + (onDeck ? ' &middot; On deck: ' + escapeHtml(onDeck) : '') + '</span>'
       : '') +
-    '<span class="live-updated">updated ' + updated + '</span>';
+    '<span class="live-updated">updated ' + updated + '</span>' +
+    (latest ? '<span class="live-notable">' + escapeHtml(latest.text) + '</span>' : '');
 }
 
 document.addEventListener('DOMContentLoaded', function () {
@@ -892,13 +983,25 @@ def _boxscore_grid_html(pairs):
     return f'<div class="bx-grid">{cells}</div>'
 
 
+def _boxscore_header_html(status, volume_label, volume_value):
+    return f'<div class="bx-header">{_game_status_badge(status)}<span class="bx-volume">{volume_value} {volume_label}</span></div>'
+
+
 def _batter_boxscore_html(gr, status, player_id):
     """
-    A compact MLB.com-style box (badge on its own line, a fixed 3-column
+    A compact MLB.com-style box (badge + AB on one line, a fixed 3-column
     stat grid below) for this player's actual game, instead of a run-on
     sentence -- a grid lays out the same regardless of this column's
     width, where flex-wrap alone wrapped unpredictably in the narrower
     "Recent form" column.
+
+    The main grid is exactly BATTER_PROP_CATEGORIES, same order -- these
+    are the stats the props/grading actually key off, so the box score a
+    reader checks a pick against should show precisely those six numbers,
+    not a generic AB-R-H-RBI-BB-SO line that only partly overlaps them.
+    2B/3B/SB aren't graded prop categories here; kept as a secondary row,
+    shown only when they actually happened, so a 0-for-4 night isn't
+    padded with a wall of zeroes.
 
     The outer div (and its data-player-id) is always emitted, even with no
     game_result yet -- our own build only refreshes every ~15 minutes, so
@@ -910,27 +1013,34 @@ def _batter_boxscore_html(gr, status, player_id):
     inner = ""
     if gr:
         stats = [
-            ("AB", gr["at_bats"]), ("R", gr["runs"]), ("H", gr["hits"]),
-            ("RBI", gr["rbi"]), ("BB", gr["base_on_balls"]), ("SO", gr["strike_outs"]),
+            ("H", gr["hits"]), ("TB", gr["total_bases"]), ("HR", gr["home_runs"]),
+            ("RBI", gr["rbi"]), ("R", gr["runs"]), ("BB", gr["base_on_balls"]),
         ]
-        extras = []
-        for count, label in ((gr.get("home_runs"), "HR"), (gr.get("doubles"), "2B"), (gr.get("triples"), "3B"), (gr.get("stolen_bases"), "SB")):
-            if count:
-                extras.append(f"{count} {label}")
-        extra_html = f'<div class="bx-extra">{html.escape(", ".join(extras))}</div>' if extras else ""
-        inner = f'<div class="bx-header">{_game_status_badge(status)}</div>{_boxscore_grid_html(stats)}{extra_html}'
+        extras = [(label, gr.get(key)) for key, label in (("doubles", "2B"), ("triples", "3B"), ("stolen_bases", "SB")) if gr.get(key)]
+        extra_html = _boxscore_grid_html(extras) if extras else ""
+        inner = f'{_boxscore_header_html(status, "AB", gr["at_bats"])}{_boxscore_grid_html(stats)}{extra_html}'
     return f'<div class="boxscore-line" data-player-id="{player_id}">{inner}</div>'
 
 
 def _pitcher_boxscore_html(gr, status, player_id):
+    """Main grid is exactly PITCHER_PROP_CATEGORIES (Strikeouts, Runs Allowed -- earned_runs, Hits Allowed, Walks Allowed), same reasoning as the batter box above."""
     inner = ""
     if gr:
         stats = [
-            ("IP", gr["innings_pitched"]), ("H", gr["hits"]), ("R", gr["runs"]),
-            ("ER", gr["earned_runs"]), ("BB", gr["base_on_balls"]), ("SO", gr["strike_outs"]),
+            ("SO", gr["strike_outs"]), ("ER", gr["earned_runs"]),
+            ("H", gr["hits"]), ("BB", gr["base_on_balls"]),
         ]
-        extra_html = f'<div class="bx-extra">{gr["home_runs"]} HR allowed</div>' if gr.get("home_runs") else ""
-        inner = f'<div class="bx-header">{_game_status_badge(status)}</div>{_boxscore_grid_html(stats)}{extra_html}'
+        # R (total runs) and HR aren't graded prop categories here (Runs
+        # Allowed is keyed off earned runs specifically) -- shown only when
+        # they differ from what's already in the main grid, so an all-earned,
+        # no-homer outing doesn't get cluttered with redundant zeroes.
+        extras = []
+        if gr["runs"] != gr["earned_runs"]:
+            extras.append(("R", gr["runs"]))
+        if gr.get("home_runs"):
+            extras.append(("HR", gr["home_runs"]))
+        extra_html = _boxscore_grid_html(extras) if extras else ""
+        inner = f'{_boxscore_header_html(status, "IP", gr["innings_pitched"])}{_boxscore_grid_html(stats)}{extra_html}'
     return f'<div class="boxscore-line" data-player-id="{player_id}">{inner}</div>'
 
 
