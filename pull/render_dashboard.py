@@ -258,6 +258,9 @@ STYLE = """
     width: 24px; height: 24px; border-radius: 50%; object-fit: cover;
     vertical-align: middle; margin-right: 6px; background: var(--surface-3); flex: none;
   }
+  /* best_prop_star() in build_props.py -- one player per team side, batter
+     or pitcher, with the single strongest pre-game Best prop signal. */
+  .star-badge { color: #f5b400; font-size: 13px; vertical-align: middle; }
   /* Live-tracker highlights the batter/pitcher currently in the game --
      set/cleared by highlightActivePlayers() every poll, matched against
      these rows by the same person id the boxscore uses. A tinted row
@@ -694,6 +697,12 @@ function pitchingGridHtml(pitching) {
   const extraCells = [];
   if (statOr0(pitching.runs) !== statOr0(pitching.earnedRuns)) extraCells.push(statCellHtml('R', statOr0(pitching.runs)));
   if (pitching.homeRuns) extraCells.push(statCellHtml('HR', pitching.homeRuns));
+  // Not a graded prop category (see PITCHER_PROP_CATEGORIES), so it's an
+  // extra rather than in the main 5-cell grid -- but genuinely live-only:
+  // our own synced pitching_game_logs schema has no such column at all,
+  // so this can only ever come from MLB's own live feed, never the
+  // server-rendered initial box.
+  if (pitching.numberOfPitches) extraCells.push(statCellHtml('NP', pitching.numberOfPitches));
   const extra = extraCells.length ? '<div class="bx-grid">' + extraCells.join('') + '</div>' : '';
   return '<div class="bx-grid">' + grid + '</div>' + extra;
 }
@@ -1245,6 +1254,13 @@ def _player_photo_html(player_id):
     return f'<img class="player-photo" src="{url}" loading="lazy" alt="" onerror="this.style.display=\'none\'">'
 
 
+def _star_html(player_id, star_player_id):
+    """best_prop_star() in build_props.py already picked the one player on this team side (batter or pitcher) with the strongest pre-game Best prop signal -- this just marks them."""
+    if not star_player_id or player_id != star_player_id:
+        return ""
+    return '<span class="star-badge" title="Best prop on this team tonight">★</span>'
+
+
 def _trend_badge(trend):
     if trend == "hot":
         return _badge("HOT", "hot")
@@ -1531,7 +1547,7 @@ def _prop_categories_html(categories, row_id, headline_html=""):
     )
 
 
-def _pitcher_html(p, row_id, fatigue, status):
+def _pitcher_html(p, row_id, fatigue, status, star_player_id=None):
     if not p:
         return '<div class="pitcher-line sub">No probable pitcher announced</div>'
     l5 = p["l5"]
@@ -1562,7 +1578,7 @@ def _pitcher_html(p, row_id, fatigue, status):
 
     return f"""
     <div class="pitcher-line pitcher-row" data-player-id="{p["player_id"]}" onclick="toggleDetail('{row_id}')">
-      <span class="expand-arrow"></span>{_player_photo_html(p["player_id"])}<b>{html.escape(p["name"])}</b> ({html.escape(p["pitch_hand"] or "?")}, throws) {badges}
+      <span class="expand-arrow"></span>{_player_photo_html(p["player_id"])}<b>{html.escape(p["name"])}</b> ({html.escape(p["pitch_hand"] or "?")}, throws) {_star_html(p["player_id"], star_player_id)}{badges}
     </div>
     {boxscore_html}
     {matchup_lean_html}
@@ -1571,7 +1587,7 @@ def _pitcher_html(p, row_id, fatigue, status):
     """
 
 
-def _batter_rows(batters, id_prefix, status):
+def _batter_rows(batters, id_prefix, status, star_player_id=None):
     if not batters:
         return '<tr><td colspan="5" class="sub">No batter data yet</td></tr>'
     rows = []
@@ -1609,7 +1625,7 @@ def _batter_rows(batters, id_prefix, status):
             f'<tr class="player-row" data-player-id="{b["player_id"]}" onclick="toggleDetail(\'{row_id}\')">'
             f'<td data-label="Order">{order}</td>'
             f'<td data-label="Batter" class="name-cell"><span class="expand-arrow"></span>{_player_photo_html(b["player_id"])}{html.escape(b["name"])} '
-            f'<span class="sub">({html.escape(b["bat_side"] or "?")} handed batter)</span></td>'
+            f'<span class="sub">({html.escape(b["bat_side"] or "?")} handed batter)</span> {_star_html(b["player_id"], star_player_id)}</td>'
             f'<td data-label="Flags">{badges}</td>'
             f'<td data-label="Recent form">{boxscore_html}{matchup_lean_html}{html.escape(l7_txt)}<div class="sub">{season_txt}</div>{_best_prop_html(b)}</td>'
             f'<td data-label="News" class="col-news">{headline}</td></tr>'
@@ -1635,13 +1651,13 @@ def _team_col_html(side, id_prefix, status, side_key):
       <div class="team-title">{html.escape(side["team_name"] or "?")} {_badge(tag_label, tag_kind)}{_team_form_badge(form)}</div>
       <div class="team-form">{_team_form_text(form)}</div>
       <div class="pitcher-block">
-        {_pitcher_html(side["probable_pitcher"], f"{id_prefix}-p", side.get("opponent_bullpen_fatigue"), status)}
+        {_pitcher_html(side["probable_pitcher"], f"{id_prefix}-p", side.get("opponent_bullpen_fatigue"), status, side.get("star_player_id"))}
       </div>
       <div class="batter-block">
         <div class="table-scroll">
         <table>
           <thead><tr><th>Order</th><th>Batter</th><th>Flags</th><th>Recent form</th><th class="col-news">News</th></tr></thead>
-          <tbody>{_batter_rows(side["batters"], f"{id_prefix}-b", status)}</tbody>
+          <tbody>{_batter_rows(side["batters"], f"{id_prefix}-b", status, side.get("star_player_id"))}</tbody>
         </table>
         </div>
       </div>

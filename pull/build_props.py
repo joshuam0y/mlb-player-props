@@ -919,6 +919,7 @@ def build_team_side(conn, game, side):
         # filled in later by build_report() once both sides exist), this
         # only needs the opposing team_id, already in scope here.
         pitcher["opponent_recent_k_rate"] = team_recent_k_rate(conn, opp_team_id, as_of_date=as_of_date)
+    confirmed_batters = [b for b in batters if b]
     return {
         "team_id": team_id,
         "team_name": team["name"] if team else None,
@@ -929,8 +930,9 @@ def build_team_side(conn, game, side):
         # the platoon/vs-hand matchup logic on the starter above.
         "opponent_bullpen_fatigue": team_bullpen_fatigue(conn, opp_team_id, as_of_date=as_of_date),
         "form": team_streak_and_form(conn, team_id, as_of_date=as_of_date),
-        "batters": [b for b in batters if b],
+        "batters": confirmed_batters,
         "injuries": team_injury_report(conn, team_id),
+        "star_player_id": best_prop_star(confirmed_batters, pitcher),
     }
 
 
@@ -1182,6 +1184,38 @@ def best_matchup_lean(categories):
         return None
     best = max(candidates, key=lambda c: abs(c["today_projection"] - c["primary_line"]))
     return {"label": best["label"], "line": best["primary_line"], "direction": best["lean"], "projection": best["today_projection"]}
+
+
+def best_prop_star(batters, pitcher):
+    """
+    One player per team side to headline with a star -- whichever batter
+    OR the probable pitcher has the single strongest "Best prop" signal on
+    the team, batters and pitcher compared directly against each other.
+    Unlike the batter_over_score/pitcher_strikeout_over_score point
+    systems (explicitly NOT comparable across roles -- see
+    build_top_picks()'s own docstring), best_prop's own "delta" (recent
+    hit-rate% minus season hit-rate%) is a plain percentage-point
+    deviation either way, so it's the one signal that's already
+    apples-to-apples between a batter and a pitcher.
+
+    Deliberately pre-game only: only considers entries with a real
+    "delta" key, meaning they cleared prop_category_delta()'s actual
+    8+-recent-games-and-real-deviation bar (headline_prop's path) --
+    fallback_best_prop()'s lenient version has no "delta" at all, so a
+    thin-sample "just show something" pick can never win the star. And
+    since best_prop/delta are built from recent_categories/
+    season_categories, which are already as_of_date-filtered to exclude
+    this game's own result (see build_batter_entry()'s docstring), the
+    star can never be swayed by how the game actually turns out --
+    only ever a pre-game read.
+    """
+    candidates = [(b["player_id"], "batter", b["best_prop"]) for b in batters if b.get("best_prop") and "delta" in b["best_prop"]]
+    if pitcher and pitcher.get("best_prop") and "delta" in pitcher["best_prop"]:
+        candidates.append((pitcher["player_id"], "pitcher", pitcher["best_prop"]))
+    if not candidates:
+        return None
+    player_id, role, prop = max(candidates, key=lambda c: abs(c[2]["delta"]))
+    return player_id
 
 
 def fallback_best_prop(recent_categories, season_categories):
