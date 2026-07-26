@@ -72,7 +72,18 @@ def park_factor_tier(venue_name):
 
 
 def batting_rolling(conn, player_id, n, as_of_date=None):
-    """as_of_date, if given, restricts to games strictly before it -- for point-in-time backtesting."""
+    """
+    as_of_date, if given, restricts to games strictly before it. Originally
+    added for point-in-time backtesting, but just as necessary in the live
+    build: sync_stats.py pulls MLB's gameLog endpoint, which includes
+    TODAY's own game with a live, still-changing line as soon as any of it
+    has been played -- without this cutoff, a player's "recent form" (and
+    everything downstream of it: the projected line, the lean, whether he
+    even shows up in Top Overs/Unders) would start including PART OF the
+    very game being predicted the moment the game goes live, and would keep
+    including more of it every rebuild until it's silently just describing
+    what already happened instead of what was predicted beforehand.
+    """
     date_frag = " AND date < ?" if as_of_date else ""
     params = (player_id, as_of_date, n) if as_of_date else (player_id, n)
     rows = conn.execute(
@@ -103,11 +114,13 @@ def batting_rolling(conn, player_id, n, as_of_date=None):
     }
 
 
-def hit_streak(conn, player_id, lookback=40):
-    """Current consecutive-games-with-a-hit streak -- a prop market in its own right."""
+def hit_streak(conn, player_id, lookback=40, as_of_date=None):
+    """Current consecutive-games-with-a-hit streak -- a prop market in its own right. as_of_date restricts to games strictly before it, same reasoning as batting_rolling()."""
+    date_frag = " AND date < ?" if as_of_date else ""
+    params = (player_id, as_of_date, lookback) if as_of_date else (player_id, lookback)
     rows = conn.execute(
-        "SELECT hits FROM batting_game_logs WHERE player_id = ? ORDER BY date DESC LIMIT ?",
-        (player_id, lookback),
+        f"SELECT hits FROM batting_game_logs WHERE player_id = ?{date_frag} ORDER BY date DESC LIMIT ?",
+        params,
     ).fetchall()
     streak = 0
     for r in rows:
@@ -118,7 +131,7 @@ def hit_streak(conn, player_id, lookback=40):
     return streak
 
 
-def team_streak_and_form(conn, team_id, lookback=10):
+def team_streak_and_form(conn, team_id, lookback=10, as_of_date=None):
     """
     Current consecutive win/loss streak (positive = win streak, negative =
     losing streak) plus last-`lookback`-games record and run differential --
@@ -129,16 +142,24 @@ def team_streak_and_form(conn, team_id, lookback=10):
     this team hot" -- a separate win/loss streak counter is a noisier,
     already-covered restatement of the same underlying games, not an
     additional independent signal.
+
+    home_score IS NOT NULL already excludes any game still in progress (see
+    live_score()'s own docstring), but NOT today's own game once it's
+    finished -- as_of_date (this game's own date) closes that gap, same
+    reasoning as batting_rolling().
     """
+    date_frag = " AND official_date < ?" if as_of_date else ""
+    home_params = (team_id, as_of_date, lookback) if as_of_date else (team_id, lookback)
+    away_params = home_params
     home_rows = conn.execute(
-        "SELECT official_date, home_score as scored, away_score as allowed FROM games "
-        "WHERE home_team_id = ? AND home_score IS NOT NULL ORDER BY official_date DESC LIMIT ?",
-        (team_id, lookback),
+        f"SELECT official_date, home_score as scored, away_score as allowed FROM games "
+        f"WHERE home_team_id = ? AND home_score IS NOT NULL{date_frag} ORDER BY official_date DESC LIMIT ?",
+        home_params,
     ).fetchall()
     away_rows = conn.execute(
-        "SELECT official_date, away_score as scored, home_score as allowed FROM games "
-        "WHERE away_team_id = ? AND home_score IS NOT NULL ORDER BY official_date DESC LIMIT ?",
-        (team_id, lookback),
+        f"SELECT official_date, away_score as scored, home_score as allowed FROM games "
+        f"WHERE away_team_id = ? AND home_score IS NOT NULL{date_frag} ORDER BY official_date DESC LIMIT ?",
+        away_params,
     ).fetchall()
     combined = sorted(home_rows + away_rows, key=lambda r: r["official_date"], reverse=True)[:lookback]
     if not combined:
@@ -164,7 +185,7 @@ def team_streak_and_form(conn, team_id, lookback=10):
     }
 
 
-def team_recent_k_rate(conn, team_id, recent_games=2):
+def team_recent_k_rate(conn, team_id, recent_games=2, as_of_date=None):
     """
     This team's actual strikeout rate (batting side) across its last
     `recent_games` games, vs. its own season rate -- a team that just got
@@ -173,11 +194,21 @@ def team_recent_k_rate(conn, team_id, recent_games=2):
     the same series against another good arm, which a per-batter platoon
     read alone wouldn't capture. Returns None if there's not enough of
     either window yet.
+
+    as_of_date is essential here, not just good hygiene: this is called
+    with the OPPOSING team's id to boost THIS game's own pitcher's
+    strikeout score. Without a cutoff, "recent games" would include the
+    opposing team's own at-bats in THIS SAME game (once any of it's been
+    played and synced) -- using today's game's own result to boost today's
+    own pick for that same game, then grading it later as if it had been
+    predicted beforehand.
     """
+    date_frag = " AND date < ?" if as_of_date else ""
+    recent_params = (team_id, as_of_date, recent_games) if as_of_date else (team_id, recent_games)
     recent_pks = conn.execute(
-        "SELECT DISTINCT game_pk, MAX(date) as d FROM batting_game_logs WHERE team_id = ? "
-        "GROUP BY game_pk ORDER BY d DESC LIMIT ?",
-        (team_id, recent_games),
+        f"SELECT DISTINCT game_pk, MAX(date) as d FROM batting_game_logs WHERE team_id = ?{date_frag} "
+        f"GROUP BY game_pk ORDER BY d DESC LIMIT ?",
+        recent_params,
     ).fetchall()
     if len(recent_pks) < recent_games:
         return None
@@ -187,9 +218,11 @@ def team_recent_k_rate(conn, team_id, recent_games=2):
         f"WHERE team_id = ? AND game_pk IN ({','.join('?' for _ in pks)})",
         (team_id, *pks),
     ).fetchone()
+    season_date_frag = " AND date < ?" if as_of_date else ""
+    season_params = (team_id, CURRENT_SEASON, as_of_date) if as_of_date else (team_id, CURRENT_SEASON)
     season = conn.execute(
-        "SELECT SUM(strike_outs) as k, SUM(at_bats) as ab FROM batting_game_logs WHERE team_id = ? AND season = ?",
-        (team_id, CURRENT_SEASON),
+        f"SELECT SUM(strike_outs) as k, SUM(at_bats) as ab FROM batting_game_logs WHERE team_id = ? AND season = ?{season_date_frag}",
+        season_params,
     ).fetchone()
     if not recent["ab"] or not season["ab"]:
         return None
@@ -239,7 +272,7 @@ def _per_game_avg(rolling, stat):
     return rolling[stat] / rolling["games"]
 
 
-def season_stat_averages(conn, table, player_id, stats, season=CURRENT_SEASON):
+def season_stat_averages(conn, table, player_id, stats, season=CURRENT_SEASON, as_of_date=None):
     """
     Per-game average for each stat, strictly within `season`. Deliberately
     separate from batting_rolling()/pitching_rolling()'s "season" rollup
@@ -248,11 +281,16 @@ def season_stat_averages(conn, table, player_id, stats, season=CURRENT_SEASON):
     exact behavior, but wrong for a projected line: an established
     veteran's last 162 games can span several years, and calling that "this
     season" would be a false claim in the UI text).
+
+    as_of_date, if given, restricts to games strictly before it -- see
+    batting_rolling()'s own docstring for why.
     """
     cols = ", ".join(f"SUM({stat}) as {stat}" for stat, _ in stats)
+    date_frag = " AND date < ?" if as_of_date else ""
+    params = (player_id, season, as_of_date) if as_of_date else (player_id, season)
     row = conn.execute(
-        f"SELECT {cols}, COUNT(*) as games FROM {table} WHERE player_id = ? AND season = ?",
-        (player_id, season),
+        f"SELECT {cols}, COUNT(*) as games FROM {table} WHERE player_id = ? AND season = ?{date_frag}",
+        params,
     ).fetchone()
     if not row or not row["games"]:
         return {stat: None for stat, _ in stats}
@@ -338,20 +376,24 @@ def _prop_categories(rows, stats, baselines, factor_fn=None, include_values=True
     return out
 
 
-def batter_prop_categories(conn, player_id, baselines, factor_fn=None, n=10, include_values=True):
+def batter_prop_categories(conn, player_id, baselines, factor_fn=None, n=10, include_values=True, as_of_date=None):
     cols = [c for c, _ in BATTER_PROP_CATEGORIES]
+    date_frag = " AND date < ?" if as_of_date else ""
+    params = (player_id, as_of_date, n) if as_of_date else (player_id, n)
     rows = conn.execute(
-        f"SELECT {', '.join(cols)}, date FROM batting_game_logs WHERE player_id = ? ORDER BY date DESC LIMIT ?",
-        (player_id, n),
+        f"SELECT {', '.join(cols)}, date FROM batting_game_logs WHERE player_id = ?{date_frag} ORDER BY date DESC LIMIT ?",
+        params,
     ).fetchall()
     return _prop_categories(rows, BATTER_PROP_CATEGORIES, baselines, factor_fn=factor_fn, include_values=include_values)
 
 
-def pitcher_prop_categories(conn, player_id, baselines, factor_fn=None, n=5, include_values=True):
+def pitcher_prop_categories(conn, player_id, baselines, factor_fn=None, n=5, include_values=True, as_of_date=None):
     cols = [c for c, _ in PITCHER_PROP_CATEGORIES]
+    date_frag = " AND date < ?" if as_of_date else ""
+    params = (player_id, as_of_date, n) if as_of_date else (player_id, n)
     rows = conn.execute(
-        f"SELECT {', '.join(cols)}, date FROM pitching_game_logs WHERE player_id = ? ORDER BY date DESC LIMIT ?",
-        (player_id, n),
+        f"SELECT {', '.join(cols)}, date FROM pitching_game_logs WHERE player_id = ?{date_frag} ORDER BY date DESC LIMIT ?",
+        params,
     ).fetchall()
     return _prop_categories(rows, PITCHER_PROP_CATEGORIES, baselines, factor_fn=factor_fn, include_values=include_values)
 
@@ -387,10 +429,13 @@ def pitcher_category_factor(label, form_trend):
     return 1.0
 
 
-def pitching_rolling(conn, player_id, n):
+def pitching_rolling(conn, player_id, n, as_of_date=None):
+    """as_of_date, if given, restricts to games strictly before it -- see batting_rolling()'s own docstring for why this matters."""
+    date_frag = " AND date < ?" if as_of_date else ""
+    params = (player_id, as_of_date, n) if as_of_date else (player_id, n)
     rows = conn.execute(
-        "SELECT * FROM pitching_game_logs WHERE player_id = ? ORDER BY date DESC LIMIT ?",
-        (player_id, n),
+        f"SELECT * FROM pitching_game_logs WHERE player_id = ?{date_frag} ORDER BY date DESC LIMIT ?",
+        params,
     ).fetchall()
     if not rows:
         return None
@@ -694,23 +739,31 @@ def _ensure_player(conn, player_id, team_id):
     return conn.execute("SELECT * FROM players WHERE player_id = ?", (player_id,)).fetchone()
 
 
-def build_batter_entry(conn, player_id, opp_hand, opp_pitcher_id, is_home_game, team_id, batting_order=None, game_pk=None):
+def build_batter_entry(conn, player_id, opp_hand, opp_pitcher_id, is_home_game, team_id, batting_order=None, game_pk=None, as_of_date=None):
+    """
+    as_of_date is this game's own date -- passed down into every rolling/
+    recent-form/streak lookup below so none of them can ever include THIS
+    game's own result (in progress or already final) in what's supposed to
+    be a pre-game read. See batting_rolling()'s own docstring for why that
+    matters. game_result itself is deliberately NOT filtered by it -- that
+    one's supposed to be this specific game's actual result.
+    """
     player = conn.execute("SELECT * FROM players WHERE player_id = ?", (player_id,)).fetchone()
     if not player:
         player = _ensure_player(conn, player_id, team_id)
         if not player:
             return None
-    l7 = batting_rolling(conn, player_id, 7)
-    l15 = batting_rolling(conn, player_id, 15)
-    season = batting_rolling(conn, player_id, 162)
+    l7 = batting_rolling(conn, player_id, 7, as_of_date=as_of_date)
+    l15 = batting_rolling(conn, player_id, 15, as_of_date=as_of_date)
+    season = batting_rolling(conn, player_id, 162, as_of_date=as_of_date)
     trend = form_trend(l7, season)
     matchup = matchup_edge(conn, player["bat_side"], opp_hand, opp_pitcher_id)
 
-    season_avgs = season_stat_averages(conn, "batting_game_logs", player_id, BATTER_PROP_CATEGORIES)
+    season_avgs = season_stat_averages(conn, "batting_game_logs", player_id, BATTER_PROP_CATEGORIES, as_of_date=as_of_date)
     baselines = category_baselines(l15, season_avgs, BATTER_PROP_CATEGORIES)
     factor_fn = lambda label: batter_matchup_factor(matchup)  # noqa: E731 -- same factor for every batting category
-    recent_categories = batter_prop_categories(conn, player_id, baselines, factor_fn=factor_fn)
-    season_categories = batter_prop_categories(conn, player_id, baselines, factor_fn=factor_fn, n=200, include_values=False)
+    recent_categories = batter_prop_categories(conn, player_id, baselines, factor_fn=factor_fn, as_of_date=as_of_date)
+    season_categories = batter_prop_categories(conn, player_id, baselines, factor_fn=factor_fn, n=200, include_values=False, as_of_date=as_of_date)
     best_over, best_under = prop_category_delta(recent_categories, season_categories)
     best_prop, best_prop_direction = headline_prop(best_over, best_under)
     if best_prop is None:
@@ -727,7 +780,7 @@ def build_batter_entry(conn, player_id, opp_hand, opp_pitcher_id, is_home_game, 
         "season": season,
         "trend": trend,
         "trend_caveat": trend_caveat(trend, l7, season),
-        "hit_streak": hit_streak(conn, player_id),
+        "hit_streak": hit_streak(conn, player_id, as_of_date=as_of_date),
         "splits_vs_opp_hand": hand_splits(conn, "batting_splits", player_id, opp_hand),
         "matchup": matchup,
         "home_away": {
@@ -746,7 +799,8 @@ def build_batter_entry(conn, player_id, opp_hand, opp_pitcher_id, is_home_game, 
     }
 
 
-def build_pitcher_entry(conn, player_id, team_id, is_home_game=None, game_pk=None):
+def build_pitcher_entry(conn, player_id, team_id, is_home_game=None, game_pk=None, as_of_date=None):
+    """as_of_date -- see build_batter_entry()'s own docstring; same reasoning, pitcher side."""
     if not player_id:
         return None
     player = conn.execute("SELECT * FROM players WHERE player_id = ?", (player_id,)).fetchone()
@@ -754,15 +808,15 @@ def build_pitcher_entry(conn, player_id, team_id, is_home_game=None, game_pk=Non
         player = _ensure_player(conn, player_id, team_id)
         if not player:
             return None
-    l5 = pitching_rolling(conn, player_id, 5)
-    season = pitching_rolling(conn, player_id, 162)
+    l5 = pitching_rolling(conn, player_id, 5, as_of_date=as_of_date)
+    season = pitching_rolling(conn, player_id, 162, as_of_date=as_of_date)
     form_trend_value = pitcher_form_trend(l5, season)
 
-    season_avgs = season_stat_averages(conn, "pitching_game_logs", player_id, PITCHER_PROP_CATEGORIES)
+    season_avgs = season_stat_averages(conn, "pitching_game_logs", player_id, PITCHER_PROP_CATEGORIES, as_of_date=as_of_date)
     baselines = category_baselines(l5, season_avgs, PITCHER_PROP_CATEGORIES)
     factor_fn = lambda label: pitcher_category_factor(label, form_trend_value)  # noqa: E731
-    recent_categories = pitcher_prop_categories(conn, player_id, baselines, factor_fn=factor_fn)
-    season_categories = pitcher_prop_categories(conn, player_id, baselines, factor_fn=factor_fn, n=200, include_values=False)
+    recent_categories = pitcher_prop_categories(conn, player_id, baselines, factor_fn=factor_fn, as_of_date=as_of_date)
+    season_categories = pitcher_prop_categories(conn, player_id, baselines, factor_fn=factor_fn, n=200, include_values=False, as_of_date=as_of_date)
     best_over, best_under = prop_category_delta(recent_categories, season_categories, min_games=4)
     best_prop, best_prop_direction = headline_prop(best_over, best_under)
     if best_prop is None:
@@ -773,7 +827,7 @@ def build_pitcher_entry(conn, player_id, team_id, is_home_game=None, game_pk=Non
         "name": player["full_name"],
         "pitch_hand": player["pitch_hand"],
         "injury": injury_status(conn, player_id),
-        "l3": pitching_rolling(conn, player_id, 3),
+        "l3": pitching_rolling(conn, player_id, 3, as_of_date=as_of_date),
         "l5": l5,
         "season": season,
         "form_trend": form_trend_value,
@@ -818,26 +872,33 @@ def build_team_side(conn, game, side):
         (game["game_pk"], team_id),
     ).fetchall()
 
+    # This game's own date -- passed into every entry below so none of
+    # their "recent form" ever includes THIS game's own result. See
+    # build_batter_entry()'s own docstring for why.
+    as_of_date = game["official_date"]
+
     if confirmed:
         lineup_confirmed = True
         batters = [
-            build_batter_entry(conn, r["player_id"], opp_hand, opp_pitcher_id, is_home_game, team_id, r["batting_order"], game["game_pk"])
+            build_batter_entry(
+                conn, r["player_id"], opp_hand, opp_pitcher_id, is_home_game, team_id, r["batting_order"], game["game_pk"], as_of_date=as_of_date
+            )
             for r in confirmed
         ]
     else:
         lineup_confirmed = False
         batters = [
-            build_batter_entry(conn, pid, opp_hand, opp_pitcher_id, is_home_game, team_id, game_pk=game["game_pk"])
+            build_batter_entry(conn, pid, opp_hand, opp_pitcher_id, is_home_game, team_id, game_pk=game["game_pk"], as_of_date=as_of_date)
             for pid in likely_starters(conn, team_id)
         ]
 
     opp_team_id = game[f"{opp_side}_team_id"]
-    pitcher = build_pitcher_entry(conn, game[f"{side}_probable_pitcher_id"], team_id, is_home_game, game["game_pk"])
+    pitcher = build_pitcher_entry(conn, game[f"{side}_probable_pitcher_id"], team_id, is_home_game, game["game_pk"], as_of_date=as_of_date)
     if pitcher:
         # Unlike opponent_matchup (needs the opposing BATTERS list, so it's
         # filled in later by build_report() once both sides exist), this
         # only needs the opposing team_id, already in scope here.
-        pitcher["opponent_recent_k_rate"] = team_recent_k_rate(conn, opp_team_id)
+        pitcher["opponent_recent_k_rate"] = team_recent_k_rate(conn, opp_team_id, as_of_date=as_of_date)
     return {
         "team_id": team_id,
         "team_name": team["name"] if team else None,
@@ -846,8 +907,8 @@ def build_team_side(conn, game, side):
         # bullpen fatigue is about who these batters face in relief innings,
         # so it's the *opponent's* pen -- unrelated to (and doesn't touch)
         # the platoon/vs-hand matchup logic on the starter above.
-        "opponent_bullpen_fatigue": team_bullpen_fatigue(conn, opp_team_id),
-        "form": team_streak_and_form(conn, team_id),
+        "opponent_bullpen_fatigue": team_bullpen_fatigue(conn, opp_team_id, as_of_date=as_of_date),
+        "form": team_streak_and_form(conn, team_id, as_of_date=as_of_date),
         "batters": [b for b in batters if b],
         "injuries": team_injury_report(conn, team_id),
     }
@@ -1199,6 +1260,7 @@ def build_top_picks(report_games, batter_limit=15, pitcher_limit=8):
                     "team": side["team_name"],
                     "opponent": opp_side["team_name"],
                     "date": g["date"],
+                    "game_pk": g["game_pk"],
                     "lineup_confirmed": side["lineup_confirmed"],
                 }
 
@@ -1227,6 +1289,7 @@ def build_top_picks(report_games, batter_limit=15, pitcher_limit=8):
                     "team": side["team_name"],
                     "opponent": opp_side["team_name"],
                     "date": g["date"],
+                    "game_pk": g["game_pk"],
                     "lineup_confirmed": True,  # probable-pitcher assignments come from the schedule, not the lineups table
                 }
                 over_score, over_reasons = pitcher_strikeout_over_score(p)
@@ -1259,6 +1322,61 @@ def latest_projection(conn, game_pk):
         "SELECT * FROM game_projections WHERE game_pk = ? ORDER BY generated_at DESC LIMIT 1", (game_pk,)
     ).fetchone()
     return dict(row) if row else None
+
+
+def _load_frozen_top_picks(today):
+    """
+    output/props_{date}.json is already written exactly ONCE per day, the
+    very first time build_props.py runs that day (see run()'s own
+    docstring) -- specifically so grade_picks.py has a frozen, before-any-
+    results snapshot to grade against later. Reusing that same archive
+    here means the Top Overs/Unders section on the LIVE dashboard gets the
+    same guarantee: which players are on it, their rank, and their
+    predicted category/line are locked in from the morning and never
+    reshuffle over the course of the day -- confirmed lineups posting,
+    injury updates, or (pre-fix) a player's own in-game stats could
+    otherwise change the score enough to add, drop, or reorder picks after
+    their games had already started. Returns None if nothing's archived
+    yet today (the current, first-of-the-day build), so the caller falls
+    back to computing fresh.
+    """
+    path = os.path.join(OUT_DIR, f"props_{today}.json")
+    if not os.path.exists(path):
+        return None
+    try:
+        with open(path) as f:
+            frozen = json.load(f)
+    except (json.JSONDecodeError, OSError):
+        return None
+    top_overs, top_unders = frozen.get("top_overs"), frozen.get("top_unders")
+    if not top_overs and not top_unders:
+        return None
+    return top_overs, top_unders
+
+
+def _game_pk_for_date(conn, role, player_id, date):
+    """Fallback for archives frozen before game_pk was added to each pick -- looked up from the player's own game log row for that date instead."""
+    table = "batting_game_logs" if role == "batter" else "pitching_game_logs"
+    row = conn.execute(f"SELECT game_pk FROM {table} WHERE player_id = ? AND date = ?", (player_id, date)).fetchone()
+    return row["game_pk"] if row else None
+
+
+def _regrade_picks(conn, picks_field, direction):
+    """
+    Refreshes ONLY the hit/miss verdict on an already-frozen pick list,
+    against each pick's own frozen best_category/line -- never touches who
+    made the list, their rank, or that line itself.
+    """
+    if not picks_field:
+        return
+    for role_key in ("batters", "pitchers"):
+        for pick in picks_field.get(role_key) or []:
+            role = pick.get("role", "batter")
+            game_pk = pick.get("game_pk") or _game_pk_for_date(conn, role, pick["player_id"], pick["date"])
+            if not game_pk:
+                continue
+            game_result = (batter_game_result if role == "batter" else pitcher_game_result)(conn, pick["player_id"], game_pk)
+            pick["result"] = pick_result(role, pick.get("best_category"), game_result, direction)
 
 
 def build_report(conn, days_ahead=2):
@@ -1307,7 +1425,13 @@ def build_report(conn, days_ahead=2):
     # against the same team), which reads as a duplicate even though each
     # row is technically a different game.
     todays_games = [g for g in report_games if g["date"] == today]
-    top_overs, top_unders = build_top_picks(todays_games)
+    frozen = _load_frozen_top_picks(today)
+    if frozen:
+        top_overs, top_unders = frozen
+        _regrade_picks(conn, top_overs, "over")
+        _regrade_picks(conn, top_unders, "under")
+    else:
+        top_overs, top_unders = build_top_picks(todays_games)
 
     return {
         "generated_at": datetime.now(timezone.utc).isoformat(),
