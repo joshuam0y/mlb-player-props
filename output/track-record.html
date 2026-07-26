@@ -532,7 +532,11 @@ function toggleDetail(id) {
   // display value -- a mobile media query turns this same row into a
   // stacked block instead of a table-row, and a hardcoded value here would
   // silently win over that rule (inline styles beat stylesheet rules).
-  if (row) row.style.display = (row.style.display === 'none' || !row.style.display) ? '' : 'none';
+  // Checking ONLY '=== none' (not the old "|| falsy" fallback) matters: an
+  // empty string is falsy too, so that fallback made every row un-closable
+  // after the first click open -- both branches of the old OR were true
+  // forever once display became ''.
+  if (row) row.style.display = (row.style.display === 'none') ? '' : 'none';
 }
 function localizeGameTimes() {
   document.querySelectorAll('.game-time').forEach(function (el) {
