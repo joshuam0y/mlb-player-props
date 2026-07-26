@@ -213,6 +213,7 @@
   .headline-link:hover { text-decoration: underline; }
   .empty { color: var(--text-muted); font-size: 13px; padding: 40px 20px; text-align: center; }
 
+  .boxscore-line:empty { display: none; }
   .boxscore-line {
     background: var(--surface-2); border: 1px solid var(--border); border-radius: 8px;
     padding: 8px 10px; margin-bottom: 6px; max-width: 220px;
@@ -259,6 +260,15 @@
   .live-batter { color: var(--text-secondary); }
   .live-batter b { color: var(--text-primary); }
   .live-updated { color: var(--text-muted); font-size: 10.5px; margin-left: auto; white-space: nowrap; }
+  .recent-plays:empty { display: none; }
+  .recent-plays { margin-bottom: 14px; }
+  .plays-heading { font-size: 13px; font-weight: 700; margin-bottom: 6px; }
+  .play-row {
+    font-size: 12.5px; padding: 5px 8px; border-radius: 6px; display: flex; gap: 8px;
+    margin-bottom: 3px; background: var(--surface-2);
+  }
+  .play-inning { color: var(--text-muted); font-variant-numeric: tabular-nums; white-space: nowrap; text-transform: capitalize; min-width: 58px; }
+  .play-action { background: var(--badge-neutral-bg); font-style: italic; color: var(--text-secondary); }
   .best-prop { font-size: 11.5px; margin-top: 4px; padding: 3px 7px; border-radius: 6px; display: inline-block; }
   .best-prop-over { background: var(--series-1-bg); color: var(--series-1); }
   .best-prop-under { background: rgba(224,51,63,0.14); color: var(--status-critical); }
@@ -336,7 +346,7 @@
       <div class="header-top">
         <div>
           <h1>Track Record</h1>
-          <div class="meta">How the picks and signals actually performed, day by day &middot; 2 day(s) graded &middot; updated 2026-07-26T17:19:06.695976+00:00</div>
+          <div class="meta">How the picks and signals actually performed, day by day &middot; 2 day(s) graded &middot; updated 2026-07-26T18:46:21.391447+00:00</div>
         </div>
         <div class="header-actions">
           <a class="nav-link" href="index.html">&larr; Back to Dashboard</a>
@@ -415,7 +425,7 @@
     
     <div class="picks-heading" style="margin-top:16px">All days: projected stat vs actual, by category</div>
     <table><thead><tr><th>Stat</th><th>N</th><th>Avg projected</th><th>Avg actual</th><th>Off by, avg</th></tr></thead>
-    <tbody><tr><td>RBIs</td><td>481</td><td>0.5</td><td>0.34</td><td>&plusmn;0.61</td></tr><tr><td>Walks</td><td>481</td><td>0.43</td><td>0.31</td><td>&plusmn;0.51</td></tr><tr><td>Runs Scored</td><td>481</td><td>0.51</td><td>0.36</td><td>&plusmn;0.54</td></tr><tr><td>Hits</td><td>481</td><td>0.85</td><td>0.76</td><td>&plusmn;0.71</td></tr><tr><td>Home Runs</td><td>481</td><td>0.31</td><td>0.07</td><td>&plusmn;0.33</td></tr><tr><td>Total Bases</td><td>481</td><td>1.41</td><td>1.16</td><td>&plusmn;1.25</td></tr><tr><td>Strikeouts</td><td>55</td><td>4.95</td><td>5.03</td><td>&plusmn;2.11</td></tr><tr><td>Runs Allowed</td><td>55</td><td>2.35</td><td>2.24</td><td>&plusmn;1.73</td></tr><tr><td>Hits Allowed</td><td>55</td><td>4.75</td><td>4.95</td><td>&plusmn;2.07</td></tr><tr><td>Walks Allowed</td><td>55</td><td>1.72</td><td>1.6</td><td>&plusmn;0.93</td></tr></tbody></table>
+    <tbody><tr><td>Total Bases</td><td>481</td><td>1.41</td><td>1.16</td><td>&plusmn;1.25</td></tr><tr><td>Runs Scored</td><td>481</td><td>0.51</td><td>0.36</td><td>&plusmn;0.54</td></tr><tr><td>RBIs</td><td>481</td><td>0.5</td><td>0.34</td><td>&plusmn;0.61</td></tr><tr><td>Home Runs</td><td>481</td><td>0.31</td><td>0.07</td><td>&plusmn;0.33</td></tr><tr><td>Walks</td><td>481</td><td>0.43</td><td>0.31</td><td>&plusmn;0.51</td></tr><tr><td>Hits</td><td>481</td><td>0.85</td><td>0.76</td><td>&plusmn;0.71</td></tr><tr><td>Strikeouts</td><td>55</td><td>4.95</td><td>5.03</td><td>&plusmn;2.11</td></tr><tr><td>Walks Allowed</td><td>55</td><td>1.72</td><td>1.6</td><td>&plusmn;0.93</td></tr><tr><td>Runs Allowed</td><td>55</td><td>2.35</td><td>2.24</td><td>&plusmn;1.73</td></tr><tr><td>Hits Allowed</td><td>55</td><td>4.75</td><td>4.95</td><td>&plusmn;2.07</td></tr></tbody></table>
     </div>
     </div>
 
@@ -647,14 +657,113 @@ function pollLiveGame(el) {
     .catch(function () { /* transient network hiccup -- keep last known state, just try again next cycle */ });
 }
 
+function statOr0(v) {
+  return v == null ? 0 : v;
+}
+
+function boxHeader(isFinal) {
+  return '<div class="bx-header">' + (isFinal ? '<span class="badge badge-final">FINAL</span>' : '<span class="badge badge-live">LIVE</span>') + '</div>';
+}
+
+function statCellHtml(label, value) {
+  return '<div class="bx-stat"><b>' + value + '</b><small>' + label + '</small></div>';
+}
+
+// Every player in the boxscore (batting AND pitching stats keyed by
+// person.id), re-rendered from the SAME fetch that drives the live strip
+// above -- our own build only refreshes every ~15 minutes, so without
+// this a player's card can sit on whatever partial line it had at the
+// last build (see live_score's own docstring in build_props.py for a
+// real example this bit us on) long after the real number moved on.
+function updatePlayerBoxScores(el, data, isFinal) {
+  const box = ((data.liveData || {}).boxscore || {}).teams || {};
+  ['home', 'away'].forEach(function (side) {
+    const players = (box[side] || {}).players || {};
+    Object.keys(players).forEach(function (key) {
+      const p = players[key];
+      const pid = p.person && p.person.id;
+      if (!pid) return;
+      const container = el.querySelector('.boxscore-line[data-player-id="' + pid + '"]');
+      if (!container) return;
+      const pitching = p.stats && p.stats.pitching;
+      const batting = p.stats && p.stats.batting;
+      if (pitching && pitching.inningsPitched && pitching.inningsPitched !== '0.0') {
+        const grid = [
+          statCellHtml('IP', pitching.inningsPitched), statCellHtml('H', statOr0(pitching.hits)), statCellHtml('R', statOr0(pitching.runs)),
+          statCellHtml('ER', statOr0(pitching.earnedRuns)), statCellHtml('BB', statOr0(pitching.baseOnBalls)), statCellHtml('SO', statOr0(pitching.strikeOuts)),
+        ].join('');
+        const extra = pitching.homeRuns ? '<div class="bx-extra">' + pitching.homeRuns + ' HR allowed</div>' : '';
+        container.innerHTML = boxHeader(isFinal) + '<div class="bx-grid">' + grid + '</div>' + extra;
+      } else if (batting && batting.atBats != null) {
+        const grid = [
+          statCellHtml('AB', statOr0(batting.atBats)), statCellHtml('R', statOr0(batting.runs)), statCellHtml('H', statOr0(batting.hits)),
+          statCellHtml('RBI', statOr0(batting.rbi)), statCellHtml('BB', statOr0(batting.baseOnBalls)), statCellHtml('SO', statOr0(batting.strikeOuts)),
+        ].join('');
+        const extras = [];
+        if (batting.homeRuns) extras.push(batting.homeRuns + ' HR');
+        if (batting.doubles) extras.push(batting.doubles + ' 2B');
+        if (batting.triples) extras.push(batting.triples + ' 3B');
+        if (batting.stolenBases) extras.push(batting.stolenBases + ' SB');
+        const extra = extras.length ? '<div class="bx-extra">' + escapeHtml(extras.join(', ')) + '</div>' : '';
+        container.innerHTML = boxHeader(isFinal) + '<div class="bx-grid">' + grid + '</div>' + extra;
+      }
+    });
+  });
+}
+
+// Only the "something actually happened" action events -- MLB's feed logs
+// a lot of routine noise alongside these (batter timeouts, mound visits,
+// game-status advisories) that isn't worth a line in a recap feed.
+function isNotableAction(event) {
+  if (!event) return false;
+  if (event.indexOf('Stolen Base') === 0 || event.indexOf('Caught Stealing') === 0) return true;
+  return ['Pitching Substitution', 'Offensive Substitution', 'Defensive Sub', 'Defensive Switch', 'Wild Pitch', 'Passed Ball', 'Balk', 'Injury', 'Ejection'].indexOf(event) !== -1;
+}
+
+function renderRecentPlays(el, data) {
+  const container = el.querySelector('.recent-plays');
+  if (!container) return;
+  const allPlays = ((data.liveData || {}).plays || {}).allPlays || [];
+  if (!allPlays.length) return;
+
+  const events = [];
+  allPlays.forEach(function (p) {
+    const inning = (p.about.halfInning || '') + ' ' + (p.about.inning || '');
+    (p.playEvents || []).forEach(function (pe) {
+      if (pe.type === 'action' && pe.details && isNotableAction(pe.details.event) && pe.details.description) {
+        events.push({ inning: inning, text: pe.details.description, action: true });
+      }
+    });
+    if (p.result && p.result.description) {
+      events.push({ inning: inning, text: p.result.description, action: false });
+    }
+  });
+  if (!events.length) return;
+
+  const recent = events.slice(-15).reverse();
+  container.innerHTML =
+    '<div class="plays-heading">Recent plays</div>' +
+    recent
+      .map(function (e) {
+        return (
+          '<div class="play-row' + (e.action ? ' play-action' : '') + '">' +
+          '<span class="play-inning">' + escapeHtml(e.inning) + '</span>' +
+          '<span class="play-text">' + escapeHtml(e.text) + '</span></div>'
+        );
+      })
+      .join('');
+}
+
 function renderLiveState(el, data) {
   const container = el.querySelector('.live-tracker');
-  if (!container) return;
   const status = ((data.gameData || {}).status || {}).abstractGameState;
   const linescore = (data.liveData || {}).linescore || {};
 
   if (status === 'Final') {
     el.dataset.liveDone = 'true';
+    updatePlayerBoxScores(el, data, true);
+    renderRecentPlays(el, data);
+    if (!container) return;
     const home = (linescore.teams || {}).home, away = (linescore.teams || {}).away;
     if (home && away && home.runs != null && away.runs != null) {
       container.innerHTML =
@@ -663,6 +772,10 @@ function renderLiveState(el, data) {
     return;
   }
   if (status !== 'Live') return; // still Preview (Scheduled/Pre-Game/Warmup/Delayed) -- nothing live to show yet
+
+  updatePlayerBoxScores(el, data, false);
+  renderRecentPlays(el, data);
+  if (!container) return;
 
   const home = (linescore.teams || {}).home || {};
   const away = (linescore.teams || {}).away || {};
