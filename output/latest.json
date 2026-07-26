@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-26T04:22:12.405208+00:00",
+  "generated_at": "2026-07-26T05:13:12.048686+00:00",
   "range": [
     "2026-07-26",
     "2026-07-28"
@@ -16,23 +16,23 @@
       "away_score": null,
       "projection": {
         "game_pk": 822950,
-        "generated_at": "2026-07-26T04:22:04.867008+00:00",
+        "generated_at": "2026-07-26T05:13:04.406362+00:00",
         "model_version": "v1-log5-negbinom",
-        "home_exp_runs": 3.2,
-        "away_exp_runs": 3.23,
-        "home_win_prob": 0.497,
+        "home_exp_runs": 3.33,
+        "away_exp_runs": 3.07,
+        "home_win_prob": 0.525,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.312,
+        "spread_cover_prob": 0.336,
         "total_line": 6.5,
-        "over_prob": 0.438,
+        "over_prob": 0.433,
         "home_score_line": null,
         "away_score_line": null,
-        "moneyline_pick": "away",
-        "spread_pick": "home",
-        "spread_pick_prob": 0.684,
+        "moneyline_pick": "home",
+        "spread_pick": "away",
+        "spread_pick_prob": 0.664,
         "total_pick": "under",
-        "total_pick_prob": 0.562,
-        "spread_favorite": "away"
+        "total_pick_prob": 0.567,
+        "spread_favorite": "home"
       },
       "home": {
         "team_id": 139,
@@ -335,12 +335,25 @@
             ],
             "exploitable_matchups": []
           },
-          "game_result": null
+          "game_result": null,
+          "opponent_recent_k_rate": {
+            "games": 2,
+            "recent_k_rate": 0.231,
+            "season_k_rate": 0.243,
+            "elevated": false
+          }
         },
         "opponent_bullpen_fatigue": {
           "recent_innings": 6.3,
           "season_daily_avg": 2.4,
           "fatigue_ratio": 1.32
+        },
+        "form": {
+          "streak": 2,
+          "record_games": 10,
+          "wins": 5,
+          "losses": 5,
+          "run_diff": 9
         },
         "batters": [
           {
@@ -4340,12 +4353,25 @@
             "tough_matchups": [],
             "exploitable_matchups": []
           },
-          "game_result": null
+          "game_result": null,
+          "opponent_recent_k_rate": {
+            "games": 2,
+            "recent_k_rate": 0.275,
+            "season_k_rate": 0.211,
+            "elevated": true
+          }
         },
         "opponent_bullpen_fatigue": {
           "recent_innings": 7.0,
           "season_daily_avg": 2.6,
           "fatigue_ratio": 1.35
+        },
+        "form": {
+          "streak": -4,
+          "record_games": 10,
+          "wins": 4,
+          "losses": 6,
+          "run_diff": -12
         },
         "batters": [
           {
@@ -8073,22 +8099,22 @@
       "away_score": null,
       "projection": {
         "game_pk": 822706,
-        "generated_at": "2026-07-26T04:22:04.867008+00:00",
+        "generated_at": "2026-07-26T05:13:04.406362+00:00",
         "model_version": "v1-log5-negbinom",
-        "home_exp_runs": 5.45,
-        "away_exp_runs": 5.33,
-        "home_win_prob": 0.507,
+        "home_exp_runs": 5.53,
+        "away_exp_runs": 5.14,
+        "home_win_prob": 0.526,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.38,
+        "spread_cover_prob": 0.4,
         "total_line": 10.5,
-        "over_prob": 0.471,
+        "over_prob": 0.468,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.62,
+        "spread_pick_prob": 0.6,
         "total_pick": "under",
-        "total_pick_prob": 0.529,
+        "total_pick_prob": 0.532,
         "spread_favorite": "home"
       },
       "home": {
@@ -8403,12 +8429,25 @@
               "Jorge Barrosa"
             ]
           },
-          "game_result": null
+          "game_result": null,
+          "opponent_recent_k_rate": {
+            "games": 2,
+            "recent_k_rate": 0.177,
+            "season_k_rate": 0.213,
+            "elevated": false
+          }
         },
         "opponent_bullpen_fatigue": {
           "recent_innings": 6.0,
           "season_daily_avg": 2.47,
           "fatigue_ratio": 1.22
+        },
+        "form": {
+          "streak": 1,
+          "record_games": 10,
+          "wins": 5,
+          "losses": 5,
+          "run_diff": 16
         },
         "batters": [
           {
@@ -12394,12 +12433,25 @@
             "tough_matchups": [],
             "exploitable_matchups": []
           },
-          "game_result": null
+          "game_result": null,
+          "opponent_recent_k_rate": {
+            "games": 2,
+            "recent_k_rate": 0.203,
+            "season_k_rate": 0.233,
+            "elevated": false
+          }
         },
         "opponent_bullpen_fatigue": {
           "recent_innings": 10.0,
           "season_daily_avg": 1.93,
           "fatigue_ratio": 2.59
+        },
+        "form": {
+          "streak": -1,
+          "record_games": 10,
+          "wins": 7,
+          "losses": 3,
+          "run_diff": 15
         },
         "batters": [
           {
@@ -16152,22 +16204,22 @@
       "away_score": null,
       "projection": {
         "game_pk": 823354,
-        "generated_at": "2026-07-26T04:22:04.867008+00:00",
+        "generated_at": "2026-07-26T05:13:04.406362+00:00",
         "model_version": "v1-log5-negbinom",
-        "home_exp_runs": 5.91,
-        "away_exp_runs": 5.03,
-        "home_win_prob": 0.568,
+        "home_exp_runs": 5.95,
+        "away_exp_runs": 4.99,
+        "home_win_prob": 0.567,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.443,
+        "spread_cover_prob": 0.445,
         "total_line": 10.5,
-        "over_prob": 0.476,
+        "over_prob": 0.482,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.557,
+        "spread_pick_prob": 0.555,
         "total_pick": "under",
-        "total_pick_prob": 0.524,
+        "total_pick_prob": 0.518,
         "spread_favorite": "home"
       },
       "home": {
@@ -16468,12 +16520,25 @@
             "tough_matchups": [],
             "exploitable_matchups": []
           },
-          "game_result": null
+          "game_result": null,
+          "opponent_recent_k_rate": {
+            "games": 2,
+            "recent_k_rate": 0.342,
+            "season_k_rate": 0.253,
+            "elevated": true
+          }
         },
         "opponent_bullpen_fatigue": {
           "recent_innings": 6.0,
           "season_daily_avg": 1.81,
           "fatigue_ratio": 1.66
+        },
+        "form": {
+          "streak": -2,
+          "record_games": 10,
+          "wins": 5,
+          "losses": 5,
+          "run_diff": 5
         },
         "batters": [
           {
@@ -20499,12 +20564,25 @@
             "tough_matchups": [],
             "exploitable_matchups": []
           },
-          "game_result": null
+          "game_result": null,
+          "opponent_recent_k_rate": {
+            "games": 2,
+            "recent_k_rate": 0.191,
+            "season_k_rate": 0.272,
+            "elevated": false
+          }
         },
         "opponent_bullpen_fatigue": {
           "recent_innings": 6.7,
           "season_daily_avg": 2.0,
           "fatigue_ratio": 1.66
+        },
+        "form": {
+          "streak": 2,
+          "record_games": 10,
+          "wins": 7,
+          "losses": 3,
+          "run_diff": 31
         },
         "batters": [
           {
@@ -24232,22 +24310,22 @@
       "away_score": null,
       "projection": {
         "game_pk": 824730,
-        "generated_at": "2026-07-26T04:22:04.867008+00:00",
+        "generated_at": "2026-07-26T05:13:04.406362+00:00",
         "model_version": "v1-log5-negbinom",
-        "home_exp_runs": 3.73,
-        "away_exp_runs": 3.17,
-        "home_win_prob": 0.557,
+        "home_exp_runs": 3.63,
+        "away_exp_runs": 3.31,
+        "home_win_prob": 0.537,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.381,
+        "spread_cover_prob": 0.361,
         "total_line": 6.5,
-        "over_prob": 0.49,
+        "over_prob": 0.492,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.619,
+        "spread_pick_prob": 0.639,
         "total_pick": "under",
-        "total_pick_prob": 0.51,
+        "total_pick_prob": 0.508,
         "spread_favorite": "home"
       },
       "home": {
@@ -24288,12 +24366,25 @@
             "tough_matchups": [],
             "exploitable_matchups": []
           },
-          "game_result": null
+          "game_result": null,
+          "opponent_recent_k_rate": {
+            "games": 2,
+            "recent_k_rate": 0.227,
+            "season_k_rate": 0.211,
+            "elevated": false
+          }
         },
         "opponent_bullpen_fatigue": {
           "recent_innings": 4.0,
           "season_daily_avg": 2.95,
           "fatigue_ratio": 0.68
+        },
+        "form": {
+          "streak": -1,
+          "record_games": 10,
+          "wins": 8,
+          "losses": 2,
+          "run_diff": 15
         },
         "batters": [
           {
@@ -28314,12 +28405,25 @@
             "tough_matchups": [],
             "exploitable_matchups": []
           },
-          "game_result": null
+          "game_result": null,
+          "opponent_recent_k_rate": {
+            "games": 2,
+            "recent_k_rate": 0.403,
+            "season_k_rate": 0.247,
+            "elevated": true
+          }
         },
         "opponent_bullpen_fatigue": {
           "recent_innings": 8.3,
           "season_daily_avg": 2.54,
           "fatigue_ratio": 1.64
+        },
+        "form": {
+          "streak": 1,
+          "record_games": 10,
+          "wins": 3,
+          "losses": 7,
+          "run_diff": -23
         },
         "batters": [
           {
@@ -32052,22 +32156,22 @@
       "away_score": null,
       "projection": {
         "game_pk": 824810,
-        "generated_at": "2026-07-26T04:22:04.867008+00:00",
+        "generated_at": "2026-07-26T05:13:04.406362+00:00",
         "model_version": "v1-log5-negbinom",
-        "home_exp_runs": 3.85,
-        "away_exp_runs": 4.61,
-        "home_win_prob": 0.434,
+        "home_exp_runs": 3.86,
+        "away_exp_runs": 4.53,
+        "home_win_prob": 0.446,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.289,
+        "spread_cover_prob": 0.292,
         "total_line": 8.5,
-        "over_prob": 0.439,
+        "over_prob": 0.43,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
-        "spread_pick_prob": 0.586,
+        "spread_pick_prob": 0.605,
         "total_pick": "under",
-        "total_pick_prob": 0.561,
+        "total_pick_prob": 0.57,
         "spread_favorite": "away"
       },
       "home": {
@@ -32382,12 +32486,25 @@
               "Dominic Smith"
             ]
           },
-          "game_result": null
+          "game_result": null,
+          "opponent_recent_k_rate": {
+            "games": 2,
+            "recent_k_rate": 0.288,
+            "season_k_rate": 0.231,
+            "elevated": false
+          }
         },
         "opponent_bullpen_fatigue": {
           "recent_innings": 8.7,
           "season_daily_avg": 2.18,
           "fatigue_ratio": 1.99
+        },
+        "form": {
+          "streak": 1,
+          "record_games": 10,
+          "wins": 7,
+          "losses": 3,
+          "run_diff": 17
         },
         "batters": [
           {
@@ -36439,12 +36556,25 @@
             "tough_matchups": [],
             "exploitable_matchups": []
           },
-          "game_result": null
+          "game_result": null,
+          "opponent_recent_k_rate": {
+            "games": 2,
+            "recent_k_rate": 0.368,
+            "season_k_rate": 0.289,
+            "elevated": true
+          }
         },
         "opponent_bullpen_fatigue": {
           "recent_innings": 5.7,
           "season_daily_avg": 2.29,
           "fatigue_ratio": 1.24
+        },
+        "form": {
+          "streak": -1,
+          "record_games": 10,
+          "wins": 7,
+          "losses": 3,
+          "run_diff": 15
         },
         "batters": [
           {
@@ -40172,22 +40302,22 @@
       "away_score": null,
       "projection": {
         "game_pk": 823599,
-        "generated_at": "2026-07-26T04:22:04.867008+00:00",
+        "generated_at": "2026-07-26T05:13:04.406362+00:00",
         "model_version": "v1-log5-negbinom",
-        "home_exp_runs": 4.1,
-        "away_exp_runs": 5.36,
-        "home_win_prob": 0.397,
+        "home_exp_runs": 4.01,
+        "away_exp_runs": 5.14,
+        "home_win_prob": 0.41,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.267,
+        "spread_cover_prob": 0.273,
         "total_line": 8.5,
-        "over_prob": 0.524,
+        "over_prob": 0.501,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
-        "spread_pick_prob": 0.54,
+        "spread_pick_prob": 0.551,
         "total_pick": "over",
-        "total_pick_prob": 0.524,
+        "total_pick_prob": 0.501,
         "spread_favorite": "away"
       },
       "home": {
@@ -40495,12 +40625,25 @@
               "Max Muncy"
             ]
           },
-          "game_result": null
+          "game_result": null,
+          "opponent_recent_k_rate": {
+            "games": 2,
+            "recent_k_rate": 0.206,
+            "season_k_rate": 0.237,
+            "elevated": false
+          }
         },
         "opponent_bullpen_fatigue": {
           "recent_innings": 5.0,
           "season_daily_avg": 1.93,
           "fatigue_ratio": 1.29
+        },
+        "form": {
+          "streak": -3,
+          "record_games": 10,
+          "wins": 3,
+          "losses": 7,
+          "run_diff": -7
         },
         "batters": [
           {
@@ -44520,12 +44663,25 @@
             "tough_matchups": [],
             "exploitable_matchups": []
           },
-          "game_result": null
+          "game_result": null,
+          "opponent_recent_k_rate": {
+            "games": 2,
+            "recent_k_rate": 0.349,
+            "season_k_rate": 0.237,
+            "elevated": true
+          }
         },
         "opponent_bullpen_fatigue": {
           "recent_innings": 6.0,
           "season_daily_avg": 2.59,
           "fatigue_ratio": 1.16
+        },
+        "form": {
+          "streak": 4,
+          "record_games": 10,
+          "wins": 6,
+          "losses": 4,
+          "run_diff": 2
         },
         "batters": [
           {
@@ -48246,22 +48402,22 @@
       "away_score": null,
       "projection": {
         "game_pk": 823840,
-        "generated_at": "2026-07-26T04:22:04.867008+00:00",
+        "generated_at": "2026-07-26T05:13:04.406362+00:00",
         "model_version": "v1-log5-negbinom",
-        "home_exp_runs": 4.37,
-        "away_exp_runs": 4.93,
-        "home_win_prob": 0.446,
+        "home_exp_runs": 4.31,
+        "away_exp_runs": 4.6,
+        "home_win_prob": 0.477,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.308,
+        "spread_cover_prob": 0.33,
         "total_line": 8.5,
-        "over_prob": 0.516,
+        "over_prob": 0.48,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
-        "spread_pick_prob": 0.59,
-        "total_pick": "over",
-        "total_pick_prob": 0.516,
+        "spread_pick_prob": 0.625,
+        "total_pick": "under",
+        "total_pick_prob": 0.52,
         "spread_favorite": "away"
       },
       "home": {
@@ -48580,12 +48736,25 @@
               "Sung-Mun Song"
             ]
           },
-          "game_result": null
+          "game_result": null,
+          "opponent_recent_k_rate": {
+            "games": 2,
+            "recent_k_rate": 0.175,
+            "season_k_rate": 0.247,
+            "elevated": false
+          }
         },
         "opponent_bullpen_fatigue": {
           "recent_innings": 13.0,
           "season_daily_avg": 2.91,
           "fatigue_ratio": 2.23
+        },
+        "form": {
+          "streak": -10,
+          "record_games": 10,
+          "wins": 0,
+          "losses": 10,
+          "run_diff": -26
         },
         "batters": [
           {
@@ -52626,12 +52795,25 @@
               "Joe Mack"
             ]
           },
-          "game_result": null
+          "game_result": null,
+          "opponent_recent_k_rate": {
+            "games": 2,
+            "recent_k_rate": 0.25,
+            "season_k_rate": 0.218,
+            "elevated": false
+          }
         },
         "opponent_bullpen_fatigue": {
           "recent_innings": 7.7,
           "season_daily_avg": 2.48,
           "fatigue_ratio": 1.55
+        },
+        "form": {
+          "streak": 2,
+          "record_games": 10,
+          "wins": 5,
+          "losses": 5,
+          "run_diff": 21
         },
         "batters": [
           {
@@ -56352,22 +56534,22 @@
       "away_score": null,
       "projection": {
         "game_pk": 824246,
-        "generated_at": "2026-07-26T04:22:04.867008+00:00",
+        "generated_at": "2026-07-26T05:13:04.406362+00:00",
         "model_version": "v1-log5-negbinom",
-        "home_exp_runs": 4.49,
-        "away_exp_runs": 3.34,
-        "home_win_prob": 0.609,
+        "home_exp_runs": 4.51,
+        "away_exp_runs": 3.46,
+        "home_win_prob": 0.596,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.445,
+        "spread_cover_prob": 0.434,
         "total_line": 6.5,
-        "over_prob": 0.576,
+        "over_prob": 0.589,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.555,
+        "spread_pick_prob": 0.566,
         "total_pick": "over",
-        "total_pick_prob": 0.576,
+        "total_pick_prob": 0.589,
         "spread_favorite": "home"
       },
       "home": {
@@ -56681,12 +56863,25 @@
               "Tyler Tolbert"
             ]
           },
-          "game_result": null
+          "game_result": null,
+          "opponent_recent_k_rate": {
+            "games": 2,
+            "recent_k_rate": 0.286,
+            "season_k_rate": 0.247,
+            "elevated": false
+          }
         },
         "opponent_bullpen_fatigue": {
           "recent_innings": 9.0,
           "season_daily_avg": 2.4,
           "fatigue_ratio": 1.88
+        },
+        "form": {
+          "streak": -1,
+          "record_games": 10,
+          "wins": 6,
+          "losses": 4,
+          "run_diff": 0
         },
         "batters": [
           {
@@ -60705,12 +60900,25 @@
               "Kerry Carpenter"
             ]
           },
-          "game_result": null
+          "game_result": null,
+          "opponent_recent_k_rate": {
+            "games": 2,
+            "recent_k_rate": 0.217,
+            "season_k_rate": 0.263,
+            "elevated": false
+          }
         },
         "opponent_bullpen_fatigue": {
           "recent_innings": 4.7,
           "season_daily_avg": 2.07,
           "fatigue_ratio": 1.13
+        },
+        "form": {
+          "streak": 1,
+          "record_games": 10,
+          "wins": 6,
+          "losses": 4,
+          "run_diff": -15
         },
         "batters": [
           {
@@ -64450,22 +64658,22 @@
       "away_score": null,
       "projection": {
         "game_pk": 823678,
-        "generated_at": "2026-07-26T04:22:04.867008+00:00",
+        "generated_at": "2026-07-26T05:13:04.406362+00:00",
         "model_version": "v1-log5-negbinom",
-        "home_exp_runs": 5.64,
-        "away_exp_runs": 3.5,
-        "home_win_prob": 0.673,
+        "home_exp_runs": 5.45,
+        "away_exp_runs": 3.57,
+        "home_win_prob": 0.652,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.53,
+        "spread_cover_prob": 0.509,
         "total_line": 8.5,
-        "over_prob": 0.495,
+        "over_prob": 0.491,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "home",
-        "spread_pick_prob": 0.53,
+        "spread_pick_prob": 0.509,
         "total_pick": "under",
-        "total_pick_prob": 0.505,
+        "total_pick_prob": 0.509,
         "spread_favorite": "home"
       },
       "home": {
@@ -64506,12 +64714,25 @@
             "tough_matchups": [],
             "exploitable_matchups": []
           },
-          "game_result": null
+          "game_result": null,
+          "opponent_recent_k_rate": {
+            "games": 2,
+            "recent_k_rate": 0.254,
+            "season_k_rate": 0.25,
+            "elevated": false
+          }
         },
         "opponent_bullpen_fatigue": {
           "recent_innings": 9.7,
           "season_daily_avg": 2.11,
           "fatigue_ratio": 2.29
+        },
+        "form": {
+          "streak": 1,
+          "record_games": 10,
+          "wins": 5,
+          "losses": 5,
+          "run_diff": -14
         },
         "batters": [
           {
@@ -68538,12 +68759,25 @@
               "Luke Keaschall"
             ]
           },
-          "game_result": null
+          "game_result": null,
+          "opponent_recent_k_rate": {
+            "games": 2,
+            "recent_k_rate": 0.25,
+            "season_k_rate": 0.232,
+            "elevated": false
+          }
         },
         "opponent_bullpen_fatigue": {
           "recent_innings": 8.0,
           "season_daily_avg": 1.73,
           "fatigue_ratio": 2.32
+        },
+        "form": {
+          "streak": -1,
+          "record_games": 10,
+          "wins": 3,
+          "losses": 7,
+          "run_diff": -25
         },
         "batters": [
           {
@@ -72314,22 +72548,22 @@
       "away_score": null,
       "projection": {
         "game_pk": 823755,
-        "generated_at": "2026-07-26T04:22:04.867008+00:00",
+        "generated_at": "2026-07-26T05:13:04.406362+00:00",
         "model_version": "v1-log5-negbinom",
-        "home_exp_runs": 7.03,
-        "away_exp_runs": 2.42,
-        "home_win_prob": 0.828,
+        "home_exp_runs": 6.94,
+        "away_exp_runs": 2.43,
+        "home_win_prob": 0.83,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.713,
+        "spread_cover_prob": 0.716,
         "total_line": 8.5,
-        "over_prob": 0.516,
+        "over_prob": 0.513,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "home",
-        "spread_pick_prob": 0.713,
+        "spread_pick_prob": 0.716,
         "total_pick": "over",
-        "total_pick_prob": 0.516,
+        "total_pick_prob": 0.513,
         "spread_favorite": "home"
       },
       "home": {
@@ -72637,12 +72871,25 @@
             "tough_matchups": [],
             "exploitable_matchups": []
           },
-          "game_result": null
+          "game_result": null,
+          "opponent_recent_k_rate": {
+            "games": 2,
+            "recent_k_rate": 0.224,
+            "season_k_rate": 0.246,
+            "elevated": false
+          }
         },
         "opponent_bullpen_fatigue": {
           "recent_innings": 6.7,
           "season_daily_avg": 2.45,
           "fatigue_ratio": 1.36
+        },
+        "form": {
+          "streak": 1,
+          "record_games": 10,
+          "wins": 6,
+          "losses": 4,
+          "run_diff": -3
         },
         "batters": [
           {
@@ -76680,12 +76927,25 @@
               "William Contreras"
             ]
           },
-          "game_result": null
+          "game_result": null,
+          "opponent_recent_k_rate": {
+            "games": 2,
+            "recent_k_rate": 0.25,
+            "season_k_rate": 0.25,
+            "elevated": false
+          }
         },
         "opponent_bullpen_fatigue": {
           "recent_innings": 6.0,
           "season_daily_avg": 2.44,
           "fatigue_ratio": 1.23
+        },
+        "form": {
+          "streak": -1,
+          "record_games": 10,
+          "wins": 3,
+          "losses": 7,
+          "run_diff": -16
         },
         "batters": [
           {
@@ -80420,22 +80680,22 @@
       "away_score": null,
       "projection": {
         "game_pk": 824572,
-        "generated_at": "2026-07-26T04:22:04.867008+00:00",
+        "generated_at": "2026-07-26T05:13:04.406362+00:00",
         "model_version": "v1-log5-negbinom",
-        "home_exp_runs": 5.19,
-        "away_exp_runs": 4.26,
-        "home_win_prob": 0.571,
+        "home_exp_runs": 5.13,
+        "away_exp_runs": 4.17,
+        "home_win_prob": 0.574,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.431,
+        "spread_cover_prob": 0.429,
         "total_line": 8.5,
-        "over_prob": 0.529,
+        "over_prob": 0.511,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.569,
+        "spread_pick_prob": 0.571,
         "total_pick": "over",
-        "total_pick_prob": 0.529,
+        "total_pick_prob": 0.511,
         "spread_favorite": "home"
       },
       "home": {
@@ -80747,12 +81007,25 @@
               "Taylor Trammell"
             ]
           },
-          "game_result": null
+          "game_result": null,
+          "opponent_recent_k_rate": {
+            "games": 2,
+            "recent_k_rate": 0.292,
+            "season_k_rate": 0.233,
+            "elevated": false
+          }
         },
         "opponent_bullpen_fatigue": {
           "recent_innings": 10.0,
           "season_daily_avg": 2.64,
           "fatigue_ratio": 1.9
+        },
+        "form": {
+          "streak": -2,
+          "record_games": 10,
+          "wins": 6,
+          "losses": 4,
+          "run_diff": 11
         },
         "batters": [
           {
@@ -84778,12 +85051,25 @@
             ],
             "exploitable_matchups": []
           },
-          "game_result": null
+          "game_result": null,
+          "opponent_recent_k_rate": {
+            "games": 2,
+            "recent_k_rate": 0.273,
+            "season_k_rate": 0.264,
+            "elevated": false
+          }
         },
         "opponent_bullpen_fatigue": {
           "recent_innings": 7.0,
           "season_daily_avg": 3.1,
           "fatigue_ratio": 1.13
+        },
+        "form": {
+          "streak": 5,
+          "record_games": 10,
+          "wins": 6,
+          "losses": 4,
+          "run_diff": 14
         },
         "batters": [
           {
@@ -88503,23 +88789,23 @@
       "away_score": null,
       "projection": {
         "game_pk": 823028,
-        "generated_at": "2026-07-26T04:22:04.867008+00:00",
+        "generated_at": "2026-07-26T05:13:04.406362+00:00",
         "model_version": "v1-log5-negbinom",
-        "home_exp_runs": 3.47,
-        "away_exp_runs": 3.56,
-        "home_win_prob": 0.487,
+        "home_exp_runs": 3.63,
+        "away_exp_runs": 3.51,
+        "home_win_prob": 0.508,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.315,
+        "spread_cover_prob": 0.338,
         "total_line": 6.5,
-        "over_prob": 0.502,
+        "over_prob": 0.509,
         "home_score_line": null,
         "away_score_line": null,
-        "moneyline_pick": "away",
-        "spread_pick": "home",
-        "spread_pick_prob": 0.663,
+        "moneyline_pick": "home",
+        "spread_pick": "away",
+        "spread_pick_prob": 0.662,
         "total_pick": "over",
-        "total_pick_prob": 0.502,
-        "spread_favorite": "away"
+        "total_pick_prob": 0.509,
+        "spread_favorite": "home"
       },
       "home": {
         "team_id": 138,
@@ -88831,12 +89117,25 @@
               "TJ Friedl"
             ]
           },
-          "game_result": null
+          "game_result": null,
+          "opponent_recent_k_rate": {
+            "games": 2,
+            "recent_k_rate": 0.343,
+            "season_k_rate": 0.27,
+            "elevated": true
+          }
         },
         "opponent_bullpen_fatigue": {
           "recent_innings": 6.7,
           "season_daily_avg": 1.91,
           "fatigue_ratio": 1.75
+        },
+        "form": {
+          "streak": 1,
+          "record_games": 10,
+          "wins": 3,
+          "losses": 7,
+          "run_diff": -6
         },
         "batters": [
           {
@@ -92857,12 +93156,25 @@
             "tough_matchups": [],
             "exploitable_matchups": []
           },
-          "game_result": null
+          "game_result": null,
+          "opponent_recent_k_rate": {
+            "games": 2,
+            "recent_k_rate": 0.246,
+            "season_k_rate": 0.219,
+            "elevated": false
+          }
         },
         "opponent_bullpen_fatigue": {
           "recent_innings": 5.0,
           "season_daily_avg": 2.38,
           "fatigue_ratio": 1.05
+        },
+        "form": {
+          "streak": -1,
+          "record_games": 10,
+          "wins": 5,
+          "losses": 5,
+          "run_diff": -14
         },
         "batters": [
           {
@@ -96596,22 +96908,22 @@
       "away_score": null,
       "projection": {
         "game_pk": 822870,
-        "generated_at": "2026-07-26T04:22:04.867008+00:00",
+        "generated_at": "2026-07-26T05:13:04.406362+00:00",
         "model_version": "v1-log5-negbinom",
-        "home_exp_runs": 3.64,
+        "home_exp_runs": 3.47,
         "away_exp_runs": 3.45,
-        "home_win_prob": 0.523,
+        "home_win_prob": 0.501,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.346,
+        "spread_cover_prob": 0.325,
         "total_line": 6.5,
-        "over_prob": 0.507,
+        "over_prob": 0.487,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.654,
-        "total_pick": "over",
-        "total_pick_prob": 0.507,
+        "spread_pick_prob": 0.675,
+        "total_pick": "under",
+        "total_pick_prob": 0.513,
         "spread_favorite": "home"
       },
       "home": {
@@ -96912,12 +97224,25 @@
             "tough_matchups": [],
             "exploitable_matchups": []
           },
-          "game_result": null
+          "game_result": null,
+          "opponent_recent_k_rate": {
+            "games": 2,
+            "recent_k_rate": 0.269,
+            "season_k_rate": 0.253,
+            "elevated": false
+          }
         },
         "opponent_bullpen_fatigue": {
           "recent_innings": 5.7,
           "season_daily_avg": 2.01,
           "fatigue_ratio": 1.41
+        },
+        "form": {
+          "streak": 2,
+          "record_games": 10,
+          "wins": 5,
+          "losses": 5,
+          "run_diff": -13
         },
         "batters": [
           {
@@ -100956,12 +101281,25 @@
             "tough_matchups": [],
             "exploitable_matchups": []
           },
-          "game_result": null
+          "game_result": null,
+          "opponent_recent_k_rate": {
+            "games": 2,
+            "recent_k_rate": 0.162,
+            "season_k_rate": 0.236,
+            "elevated": false
+          }
         },
         "opponent_bullpen_fatigue": {
           "recent_innings": 6.0,
           "season_daily_avg": 2.19,
           "fatigue_ratio": 1.37
+        },
+        "form": {
+          "streak": -4,
+          "record_games": 10,
+          "wins": 4,
+          "losses": 6,
+          "run_diff": -5
         },
         "batters": [
           {
@@ -104682,22 +105020,22 @@
       "away_score": null,
       "projection": {
         "game_pk": 823194,
-        "generated_at": "2026-07-26T04:22:04.867008+00:00",
+        "generated_at": "2026-07-26T05:13:04.406362+00:00",
         "model_version": "v1-log5-negbinom",
-        "home_exp_runs": 3.4,
-        "away_exp_runs": 4.15,
-        "home_win_prob": 0.429,
+        "home_exp_runs": 3.38,
+        "away_exp_runs": 4.33,
+        "home_win_prob": 0.411,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.271,
+        "spread_cover_prob": 0.257,
         "total_line": 6.5,
-        "over_prob": 0.548,
+        "over_prob": 0.565,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
-        "spread_pick_prob": 0.594,
+        "spread_pick_prob": 0.575,
         "total_pick": "over",
-        "total_pick_prob": 0.548,
+        "total_pick_prob": 0.565,
         "spread_favorite": "away"
       },
       "home": {
@@ -104738,12 +105076,25 @@
             "tough_matchups": [],
             "exploitable_matchups": []
           },
-          "game_result": null
+          "game_result": null,
+          "opponent_recent_k_rate": {
+            "games": 2,
+            "recent_k_rate": 0.232,
+            "season_k_rate": 0.276,
+            "elevated": false
+          }
         },
         "opponent_bullpen_fatigue": {
           "recent_innings": 9.0,
           "season_daily_avg": 2.63,
           "fatigue_ratio": 1.71
+        },
+        "form": {
+          "streak": 2,
+          "record_games": 10,
+          "wins": 5,
+          "losses": 5,
+          "run_diff": 12
         },
         "batters": [
           {
@@ -108781,12 +109132,25 @@
             ],
             "exploitable_matchups": []
           },
-          "game_result": null
+          "game_result": null,
+          "opponent_recent_k_rate": {
+            "games": 2,
+            "recent_k_rate": 0.232,
+            "season_k_rate": 0.218,
+            "elevated": false
+          }
         },
         "opponent_bullpen_fatigue": {
           "recent_innings": 7.0,
           "season_daily_avg": 1.89,
           "fatigue_ratio": 1.85
+        },
+        "form": {
+          "streak": -3,
+          "record_games": 10,
+          "wins": 3,
+          "losses": 7,
+          "run_diff": -15
         },
         "batters": [
           {
@@ -112507,22 +112871,22 @@
       "away_score": null,
       "projection": {
         "game_pk": 823433,
-        "generated_at": "2026-07-26T04:22:04.867008+00:00",
+        "generated_at": "2026-07-26T05:13:04.406362+00:00",
         "model_version": "v1-log5-negbinom",
-        "home_exp_runs": 3.53,
-        "away_exp_runs": 3.36,
-        "home_win_prob": 0.518,
+        "home_exp_runs": 3.59,
+        "away_exp_runs": 3.4,
+        "home_win_prob": 0.516,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.337,
+        "spread_cover_prob": 0.344,
         "total_line": 6.5,
-        "over_prob": 0.488,
+        "over_prob": 0.505,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.663,
-        "total_pick": "under",
-        "total_pick_prob": 0.512,
+        "spread_pick_prob": 0.656,
+        "total_pick": "over",
+        "total_pick_prob": 0.505,
         "spread_favorite": "home"
       },
       "home": {
@@ -112841,12 +113205,25 @@
               "Paul Goldschmidt"
             ]
           },
-          "game_result": null
+          "game_result": null,
+          "opponent_recent_k_rate": {
+            "games": 2,
+            "recent_k_rate": 0.365,
+            "season_k_rate": 0.264,
+            "elevated": true
+          }
         },
         "opponent_bullpen_fatigue": {
           "recent_innings": 5.0,
           "season_daily_avg": 2.6,
           "fatigue_ratio": 0.96
+        },
+        "form": {
+          "streak": -4,
+          "record_games": 10,
+          "wins": 4,
+          "losses": 6,
+          "run_diff": -1
         },
         "batters": [
           {
@@ -116891,12 +117268,25 @@
               "Justin Crawford"
             ]
           },
-          "game_result": null
+          "game_result": null,
+          "opponent_recent_k_rate": {
+            "games": 2,
+            "recent_k_rate": 0.317,
+            "season_k_rate": 0.256,
+            "elevated": true
+          }
         },
         "opponent_bullpen_fatigue": {
           "recent_innings": 9.0,
           "season_daily_avg": 2.23,
           "fatigue_ratio": 2.02
+        },
+        "form": {
+          "streak": 2,
+          "record_games": 10,
+          "wins": 7,
+          "losses": 3,
+          "run_diff": 4
         },
         "batters": [
           {
@@ -120624,23 +121014,23 @@
       "away_score": null,
       "projection": {
         "game_pk": 822868,
-        "generated_at": "2026-07-26T04:22:04.867008+00:00",
+        "generated_at": "2026-07-26T05:13:04.406362+00:00",
         "model_version": "v1-log5-negbinom",
-        "home_exp_runs": 3.75,
+        "home_exp_runs": 3.59,
         "away_exp_runs": 3.65,
-        "home_win_prob": 0.515,
+        "home_win_prob": 0.497,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.347,
+        "spread_cover_prob": 0.326,
         "total_line": 6.5,
-        "over_prob": 0.541,
+        "over_prob": 0.522,
         "home_score_line": null,
         "away_score_line": null,
-        "moneyline_pick": "home",
-        "spread_pick": "away",
-        "spread_pick_prob": 0.653,
+        "moneyline_pick": "away",
+        "spread_pick": "home",
+        "spread_pick_prob": 0.664,
         "total_pick": "over",
-        "total_pick_prob": 0.541,
-        "spread_favorite": "home"
+        "total_pick_prob": 0.522,
+        "spread_favorite": "away"
       },
       "home": {
         "team_id": 140,
@@ -120958,12 +121348,25 @@
               "J.P. Crawford"
             ]
           },
-          "game_result": null
+          "game_result": null,
+          "opponent_recent_k_rate": {
+            "games": 2,
+            "recent_k_rate": 0.269,
+            "season_k_rate": 0.253,
+            "elevated": false
+          }
         },
         "opponent_bullpen_fatigue": {
           "recent_innings": 5.7,
           "season_daily_avg": 2.01,
           "fatigue_ratio": 1.41
+        },
+        "form": {
+          "streak": 2,
+          "record_games": 10,
+          "wins": 5,
+          "losses": 5,
+          "run_diff": -13
         },
         "batters": [
           {
@@ -125007,12 +125410,25 @@
               "Alejandro Osuna"
             ]
           },
-          "game_result": null
+          "game_result": null,
+          "opponent_recent_k_rate": {
+            "games": 2,
+            "recent_k_rate": 0.162,
+            "season_k_rate": 0.236,
+            "elevated": false
+          }
         },
         "opponent_bullpen_fatigue": {
           "recent_innings": 6.0,
           "season_daily_avg": 2.19,
           "fatigue_ratio": 1.37
+        },
+        "form": {
+          "streak": -4,
+          "record_games": 10,
+          "wins": 4,
+          "losses": 6,
+          "run_diff": -5
         },
         "batters": [
           {
@@ -128733,22 +129149,22 @@
       "away_score": null,
       "projection": {
         "game_pk": 823353,
-        "generated_at": "2026-07-26T04:22:04.867008+00:00",
+        "generated_at": "2026-07-26T05:13:04.406362+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 5.26,
         "away_exp_runs": 5.21,
-        "home_win_prob": 0.504,
+        "home_win_prob": 0.503,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.377,
+        "spread_cover_prob": 0.373,
         "total_line": 10.5,
-        "over_prob": 0.448,
+        "over_prob": 0.439,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.623,
+        "spread_pick_prob": 0.627,
         "total_pick": "under",
-        "total_pick_prob": 0.552,
+        "total_pick_prob": 0.561,
         "spread_favorite": "home"
       },
       "home": {
@@ -128760,6 +129176,13 @@
           "recent_innings": 6.0,
           "season_daily_avg": 2.47,
           "fatigue_ratio": 1.22
+        },
+        "form": {
+          "streak": -2,
+          "record_games": 10,
+          "wins": 5,
+          "losses": 5,
+          "run_diff": 5
         },
         "batters": [
           {
@@ -132480,6 +132903,13 @@
           "recent_innings": 6.7,
           "season_daily_avg": 2.0,
           "fatigue_ratio": 1.66
+        },
+        "form": {
+          "streak": -1,
+          "record_games": 10,
+          "wins": 7,
+          "losses": 3,
+          "run_diff": 15
         },
         "batters": [
           {
@@ -136223,22 +136653,22 @@
       "away_score": null,
       "projection": {
         "game_pk": 823839,
-        "generated_at": "2026-07-26T04:22:04.867008+00:00",
+        "generated_at": "2026-07-26T05:13:04.406362+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.94,
         "away_exp_runs": 3.33,
-        "home_win_prob": 0.562,
+        "home_win_prob": 0.558,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.39,
+        "spread_cover_prob": 0.387,
         "total_line": 6.5,
-        "over_prob": 0.529,
+        "over_prob": 0.521,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.61,
+        "spread_pick_prob": 0.613,
         "total_pick": "over",
-        "total_pick_prob": 0.529,
+        "total_pick_prob": 0.521,
         "spread_favorite": "home"
       },
       "home": {
@@ -136250,6 +136680,13 @@
           "recent_innings": 9.0,
           "season_daily_avg": 2.23,
           "fatigue_ratio": 2.02
+        },
+        "form": {
+          "streak": -10,
+          "record_games": 10,
+          "wins": 0,
+          "losses": 10,
+          "run_diff": -26
         },
         "batters": [
           {
@@ -139978,6 +140415,13 @@
           "recent_innings": 7.7,
           "season_daily_avg": 2.48,
           "fatigue_ratio": 1.55
+        },
+        "form": {
+          "streak": -4,
+          "record_games": 10,
+          "wins": 4,
+          "losses": 6,
+          "run_diff": -1
         },
         "batters": [
           {
@@ -143714,22 +144158,22 @@
       "away_score": null,
       "projection": {
         "game_pk": 824245,
-        "generated_at": "2026-07-26T04:22:04.867008+00:00",
+        "generated_at": "2026-07-26T05:13:04.406362+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.09,
         "away_exp_runs": 3.15,
-        "home_win_prob": 0.59,
+        "home_win_prob": 0.6,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.417,
+        "spread_cover_prob": 0.424,
         "total_line": 6.5,
-        "over_prob": 0.523,
+        "over_prob": 0.519,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.583,
+        "spread_pick_prob": 0.576,
         "total_pick": "over",
-        "total_pick_prob": 0.523,
+        "total_pick_prob": 0.519,
         "spread_favorite": "home"
       },
       "home": {
@@ -143741,6 +144185,13 @@
           "recent_innings": 5.7,
           "season_daily_avg": 2.29,
           "fatigue_ratio": 1.24
+        },
+        "form": {
+          "streak": -1,
+          "record_games": 10,
+          "wins": 6,
+          "losses": 4,
+          "run_diff": 0
         },
         "batters": [
           {
@@ -147455,6 +147906,13 @@
           "recent_innings": 4.7,
           "season_daily_avg": 2.07,
           "fatigue_ratio": 1.13
+        },
+        "form": {
+          "streak": 1,
+          "record_games": 10,
+          "wins": 7,
+          "losses": 3,
+          "run_diff": 17
         },
         "batters": [
           {
@@ -151211,22 +151669,22 @@
       "away_score": null,
       "projection": {
         "game_pk": 822705,
-        "generated_at": "2026-07-26T04:22:04.867008+00:00",
+        "generated_at": "2026-07-26T05:13:04.406362+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 5.54,
         "away_exp_runs": 4.79,
-        "home_win_prob": 0.558,
+        "home_win_prob": 0.554,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.426,
+        "spread_cover_prob": 0.424,
         "total_line": 10.5,
-        "over_prob": 0.428,
+        "over_prob": 0.434,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.574,
+        "spread_pick_prob": 0.576,
         "total_pick": "under",
-        "total_pick_prob": 0.572,
+        "total_pick_prob": 0.566,
         "spread_favorite": "home"
       },
       "home": {
@@ -151238,6 +151696,13 @@
           "recent_innings": 4.0,
           "season_daily_avg": 2.95,
           "fatigue_ratio": 0.68
+        },
+        "form": {
+          "streak": 1,
+          "record_games": 10,
+          "wins": 5,
+          "losses": 5,
+          "run_diff": 16
         },
         "batters": [
           {
@@ -154979,6 +155444,13 @@
           "season_daily_avg": 1.93,
           "fatigue_ratio": 2.59
         },
+        "form": {
+          "streak": 1,
+          "record_games": 10,
+          "wins": 3,
+          "losses": 7,
+          "run_diff": -23
+        },
         "batters": [
           {
             "player_id": 676391,
@@ -158701,22 +159173,22 @@
       "away_score": null,
       "projection": {
         "game_pk": 823597,
-        "generated_at": "2026-07-26T04:22:04.867008+00:00",
+        "generated_at": "2026-07-26T05:13:04.406362+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.13,
-        "away_exp_runs": 3.1,
-        "home_win_prob": 0.596,
+        "away_exp_runs": 3.0,
+        "home_win_prob": 0.611,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.422,
+        "spread_cover_prob": 0.435,
         "total_line": 6.5,
-        "over_prob": 0.518,
+        "over_prob": 0.512,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.578,
+        "spread_pick_prob": 0.565,
         "total_pick": "over",
-        "total_pick_prob": 0.518,
+        "total_pick_prob": 0.512,
         "spread_favorite": "home"
       },
       "home": {
@@ -159007,12 +159479,25 @@
             ],
             "exploitable_matchups": []
           },
-          "game_result": null
+          "game_result": null,
+          "opponent_recent_k_rate": {
+            "games": 2,
+            "recent_k_rate": 0.288,
+            "season_k_rate": 0.231,
+            "elevated": false
+          }
         },
         "opponent_bullpen_fatigue": {
           "recent_innings": 8.7,
           "season_daily_avg": 2.18,
           "fatigue_ratio": 1.99
+        },
+        "form": {
+          "streak": -3,
+          "record_games": 10,
+          "wins": 3,
+          "losses": 7,
+          "run_diff": -7
         },
         "batters": [
           {
@@ -162727,6 +163212,13 @@
           "recent_innings": 6.0,
           "season_daily_avg": 2.59,
           "fatigue_ratio": 1.16
+        },
+        "form": {
+          "streak": -1,
+          "record_games": 10,
+          "wins": 7,
+          "losses": 3,
+          "run_diff": 15
         },
         "batters": [
           {
@@ -166454,22 +166946,22 @@
       "away_score": null,
       "projection": {
         "game_pk": 824490,
-        "generated_at": "2026-07-26T04:22:04.867008+00:00",
+        "generated_at": "2026-07-26T05:13:04.406362+00:00",
         "model_version": "v1-log5-negbinom",
-        "home_exp_runs": 3.84,
-        "away_exp_runs": 2.9,
-        "home_win_prob": 0.601,
+        "home_exp_runs": 3.83,
+        "away_exp_runs": 2.76,
+        "home_win_prob": 0.608,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.411,
+        "spread_cover_prob": 0.425,
         "total_line": 6.5,
-        "over_prob": 0.464,
+        "over_prob": 0.447,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.589,
+        "spread_pick_prob": 0.575,
         "total_pick": "under",
-        "total_pick_prob": 0.536,
+        "total_pick_prob": 0.553,
         "spread_favorite": "home"
       },
       "home": {
@@ -166780,12 +167272,25 @@
             ],
             "exploitable_matchups": []
           },
-          "game_result": null
+          "game_result": null,
+          "opponent_recent_k_rate": {
+            "games": 2,
+            "recent_k_rate": 0.231,
+            "season_k_rate": 0.243,
+            "elevated": false
+          }
         },
         "opponent_bullpen_fatigue": {
           "recent_innings": 6.3,
           "season_daily_avg": 2.4,
           "fatigue_ratio": 1.32
+        },
+        "form": {
+          "streak": -1,
+          "record_games": 10,
+          "wins": 5,
+          "losses": 5,
+          "run_diff": -14
         },
         "batters": [
           {
@@ -170810,12 +171315,25 @@
               "TJ Friedl"
             ]
           },
-          "game_result": null
+          "game_result": null,
+          "opponent_recent_k_rate": {
+            "games": 2,
+            "recent_k_rate": 0.343,
+            "season_k_rate": 0.27,
+            "elevated": true
+          }
         },
         "opponent_bullpen_fatigue": {
           "recent_innings": 6.7,
           "season_daily_avg": 1.91,
           "fatigue_ratio": 1.75
+        },
+        "form": {
+          "streak": -4,
+          "record_games": 10,
+          "wins": 4,
+          "losses": 6,
+          "run_diff": -12
         },
         "batters": [
           {
@@ -174543,22 +175061,22 @@
       "away_score": null,
       "projection": {
         "game_pk": 824570,
-        "generated_at": "2026-07-26T04:22:04.867008+00:00",
+        "generated_at": "2026-07-26T05:13:04.406362+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.72,
-        "away_exp_runs": 4.74,
-        "home_win_prob": 0.415,
+        "away_exp_runs": 4.8,
+        "home_win_prob": 0.412,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.271,
+        "spread_cover_prob": 0.269,
         "total_line": 8.5,
-        "over_prob": 0.438,
+        "over_prob": 0.441,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
-        "spread_pick_prob": 0.564,
+        "spread_pick_prob": 0.568,
         "total_pick": "under",
-        "total_pick_prob": 0.562,
+        "total_pick_prob": 0.559,
         "spread_favorite": "away"
       },
       "home": {
@@ -174866,12 +175384,25 @@
             "tough_matchups": [],
             "exploitable_matchups": []
           },
-          "game_result": null
+          "game_result": null,
+          "opponent_recent_k_rate": {
+            "games": 2,
+            "recent_k_rate": 0.365,
+            "season_k_rate": 0.264,
+            "elevated": true
+          }
         },
         "opponent_bullpen_fatigue": {
           "recent_innings": 5.0,
           "season_daily_avg": 2.6,
           "fatigue_ratio": 0.96
+        },
+        "form": {
+          "streak": -2,
+          "record_games": 10,
+          "wins": 6,
+          "losses": 4,
+          "run_diff": 11
         },
         "batters": [
           {
@@ -178602,6 +179133,13 @@
           "season_daily_avg": 3.1,
           "fatigue_ratio": 1.13
         },
+        "form": {
+          "streak": 2,
+          "record_games": 10,
+          "wins": 7,
+          "losses": 3,
+          "run_diff": 4
+        },
         "batters": [
           {
             "player_id": 700250,
@@ -182328,22 +182866,22 @@
       "away_score": null,
       "projection": {
         "game_pk": 823025,
-        "generated_at": "2026-07-26T04:22:04.867008+00:00",
+        "generated_at": "2026-07-26T05:13:04.406362+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.69,
         "away_exp_runs": 5.06,
-        "home_win_prob": 0.389,
+        "home_win_prob": 0.387,
         "spread_line": 1.5,
         "spread_cover_prob": 0.253,
         "total_line": 8.5,
-        "over_prob": 0.468,
+        "over_prob": 0.475,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
-        "spread_pick_prob": 0.532,
+        "spread_pick_prob": 0.539,
         "total_pick": "under",
-        "total_pick_prob": 0.532,
+        "total_pick_prob": 0.525,
         "spread_favorite": "away"
       },
       "home": {
@@ -182355,6 +182893,13 @@
           "recent_innings": 6.0,
           "season_daily_avg": 1.81,
           "fatigue_ratio": 1.66
+        },
+        "form": {
+          "streak": 1,
+          "record_games": 10,
+          "wins": 3,
+          "losses": 7,
+          "run_diff": -6
         },
         "batters": [
           {
@@ -186078,6 +186623,13 @@
           "season_daily_avg": 2.38,
           "fatigue_ratio": 1.05
         },
+        "form": {
+          "streak": 2,
+          "record_games": 10,
+          "wins": 7,
+          "losses": 3,
+          "run_diff": 31
+        },
         "batters": [
           {
             "player_id": 691718,
@@ -189795,22 +190347,22 @@
       "away_score": null,
       "projection": {
         "game_pk": 824001,
-        "generated_at": "2026-07-26T04:22:04.867008+00:00",
+        "generated_at": "2026-07-26T05:13:04.406362+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.85,
         "away_exp_runs": 4.92,
-        "home_win_prob": 0.412,
+        "home_win_prob": 0.407,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.272,
+        "spread_cover_prob": 0.267,
         "total_line": 8.5,
-        "over_prob": 0.465,
+        "over_prob": 0.47,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
-        "spread_pick_prob": 0.561,
+        "spread_pick_prob": 0.558,
         "total_pick": "under",
-        "total_pick_prob": 0.535,
+        "total_pick_prob": 0.53,
         "spread_favorite": "away"
       },
       "home": {
@@ -189822,6 +190374,13 @@
           "recent_innings": 10.0,
           "season_daily_avg": 2.64,
           "fatigue_ratio": 1.9
+        },
+        "form": {
+          "streak": -3,
+          "record_games": 10,
+          "wins": 3,
+          "losses": 7,
+          "run_diff": -15
         },
         "batters": [
           {
@@ -193530,6 +194089,13 @@
           "recent_innings": 9.0,
           "season_daily_avg": 2.63,
           "fatigue_ratio": 1.71
+        },
+        "form": {
+          "streak": 5,
+          "record_games": 10,
+          "wins": 6,
+          "losses": 4,
+          "run_diff": 14
         },
         "batters": [
           {
@@ -197240,22 +197806,22 @@
       "away_score": null,
       "projection": {
         "game_pk": 824977,
-        "generated_at": "2026-07-26T04:22:04.867008+00:00",
+        "generated_at": "2026-07-26T05:13:04.406362+00:00",
         "model_version": "v1-log5-negbinom",
-        "home_exp_runs": 3.48,
+        "home_exp_runs": 3.28,
         "away_exp_runs": 7.42,
-        "home_win_prob": 0.231,
+        "home_win_prob": 0.221,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.138,
+        "spread_cover_prob": 0.13,
         "total_line": 10.5,
-        "over_prob": 0.475,
+        "over_prob": 0.453,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "away",
-        "spread_pick_prob": 0.654,
+        "spread_pick_prob": 0.665,
         "total_pick": "under",
-        "total_pick_prob": 0.525,
+        "total_pick_prob": 0.547,
         "spread_favorite": "away"
       },
       "home": {
@@ -197267,6 +197833,13 @@
           "recent_innings": 8.3,
           "season_daily_avg": 2.54,
           "fatigue_ratio": 1.64
+        },
+        "form": {
+          "streak": -1,
+          "record_games": 10,
+          "wins": 3,
+          "losses": 7,
+          "run_diff": -25
         },
         "batters": [
           {
@@ -201330,12 +201903,25 @@
             "tough_matchups": [],
             "exploitable_matchups": []
           },
-          "game_result": null
+          "game_result": null,
+          "opponent_recent_k_rate": {
+            "games": 2,
+            "recent_k_rate": 0.254,
+            "season_k_rate": 0.25,
+            "elevated": false
+          }
         },
         "opponent_bullpen_fatigue": {
           "recent_innings": 9.7,
           "season_daily_avg": 2.11,
           "fatigue_ratio": 2.29
+        },
+        "form": {
+          "streak": -1,
+          "record_games": 10,
+          "wins": 8,
+          "losses": 2,
+          "run_diff": 15
         },
         "batters": [
           {
@@ -205054,22 +205640,22 @@
       "away_score": null,
       "projection": {
         "game_pk": 823195,
-        "generated_at": "2026-07-26T04:22:04.867008+00:00",
+        "generated_at": "2026-07-26T05:13:04.406362+00:00",
         "model_version": "v1-log5-negbinom",
-        "home_exp_runs": 3.89,
+        "home_exp_runs": 3.87,
         "away_exp_runs": 4.67,
-        "home_win_prob": 0.434,
+        "home_win_prob": 0.428,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.291,
+        "spread_cover_prob": 0.285,
         "total_line": 8.5,
-        "over_prob": 0.45,
+        "over_prob": 0.449,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
-        "spread_pick_prob": 0.587,
+        "spread_pick_prob": 0.577,
         "total_pick": "under",
-        "total_pick_prob": 0.55,
+        "total_pick_prob": 0.551,
         "spread_favorite": "away"
       },
       "home": {
@@ -205081,6 +205667,13 @@
           "recent_innings": 6.0,
           "season_daily_avg": 2.44,
           "fatigue_ratio": 1.23
+        },
+        "form": {
+          "streak": 2,
+          "record_games": 10,
+          "wins": 5,
+          "losses": 5,
+          "run_diff": 12
         },
         "batters": [
           {
@@ -209114,12 +209707,25 @@
             "tough_matchups": [],
             "exploitable_matchups": []
           },
-          "game_result": null
+          "game_result": null,
+          "opponent_recent_k_rate": {
+            "games": 2,
+            "recent_k_rate": 0.232,
+            "season_k_rate": 0.218,
+            "elevated": false
+          }
         },
         "opponent_bullpen_fatigue": {
           "recent_innings": 7.0,
           "season_daily_avg": 1.89,
           "fatigue_ratio": 1.85
+        },
+        "form": {
+          "streak": 1,
+          "record_games": 10,
+          "wins": 6,
+          "losses": 4,
+          "run_diff": -3
         },
         "batters": [
           {
@@ -212849,22 +213455,22 @@
       "away_score": null,
       "projection": {
         "game_pk": 822949,
-        "generated_at": "2026-07-26T04:22:04.867008+00:00",
+        "generated_at": "2026-07-26T05:13:04.406362+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 5.27,
         "away_exp_runs": 4.11,
-        "home_win_prob": 0.595,
+        "home_win_prob": 0.593,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.449,
+        "spread_cover_prob": 0.448,
         "total_line": 8.5,
-        "over_prob": 0.519,
+        "over_prob": 0.524,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.551,
+        "spread_pick_prob": 0.552,
         "total_pick": "over",
-        "total_pick_prob": 0.519,
+        "total_pick_prob": 0.524,
         "spread_favorite": "home"
       },
       "home": {
@@ -212876,6 +213482,13 @@
           "recent_innings": 6.0,
           "season_daily_avg": 2.19,
           "fatigue_ratio": 1.37
+        },
+        "form": {
+          "streak": 2,
+          "record_games": 10,
+          "wins": 5,
+          "losses": 5,
+          "run_diff": 9
         },
         "batters": [
           {
@@ -216577,6 +217190,13 @@
           "recent_innings": 7.0,
           "season_daily_avg": 2.6,
           "fatigue_ratio": 1.35
+        },
+        "form": {
+          "streak": 2,
+          "record_games": 10,
+          "wins": 5,
+          "losses": 5,
+          "run_diff": -13
         },
         "batters": [
           {
@@ -220313,22 +220933,22 @@
       "away_score": null,
       "projection": {
         "game_pk": 823350,
-        "generated_at": "2026-07-26T04:22:04.867008+00:00",
+        "generated_at": "2026-07-26T05:13:04.406362+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 5.26,
         "away_exp_runs": 5.21,
-        "home_win_prob": 0.504,
+        "home_win_prob": 0.501,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.376,
+        "spread_cover_prob": 0.378,
         "total_line": 10.5,
-        "over_prob": 0.445,
+        "over_prob": 0.441,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.624,
+        "spread_pick_prob": 0.622,
         "total_pick": "under",
-        "total_pick_prob": 0.555,
+        "total_pick_prob": 0.559,
         "spread_favorite": "home"
       },
       "home": {
@@ -220340,6 +220960,13 @@
           "recent_innings": 6.0,
           "season_daily_avg": 2.47,
           "fatigue_ratio": 1.22
+        },
+        "form": {
+          "streak": -2,
+          "record_games": 10,
+          "wins": 5,
+          "losses": 5,
+          "run_diff": 5
         },
         "batters": [
           {
@@ -224060,6 +224687,13 @@
           "recent_innings": 6.7,
           "season_daily_avg": 2.0,
           "fatigue_ratio": 1.66
+        },
+        "form": {
+          "streak": -1,
+          "record_games": 10,
+          "wins": 7,
+          "losses": 3,
+          "run_diff": 15
         },
         "batters": [
           {
@@ -227803,20 +228437,20 @@
       "away_score": null,
       "projection": {
         "game_pk": 823838,
-        "generated_at": "2026-07-26T04:22:04.867008+00:00",
+        "generated_at": "2026-07-26T05:13:04.406362+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.94,
         "away_exp_runs": 3.33,
-        "home_win_prob": 0.557,
+        "home_win_prob": 0.556,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.384,
+        "spread_cover_prob": 0.382,
         "total_line": 6.5,
         "over_prob": 0.526,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.616,
+        "spread_pick_prob": 0.618,
         "total_pick": "over",
         "total_pick_prob": 0.526,
         "spread_favorite": "home"
@@ -227830,6 +228464,13 @@
           "recent_innings": 9.0,
           "season_daily_avg": 2.23,
           "fatigue_ratio": 2.02
+        },
+        "form": {
+          "streak": -10,
+          "record_games": 10,
+          "wins": 0,
+          "losses": 10,
+          "run_diff": -26
         },
         "batters": [
           {
@@ -231558,6 +232199,13 @@
           "recent_innings": 7.7,
           "season_daily_avg": 2.48,
           "fatigue_ratio": 1.55
+        },
+        "form": {
+          "streak": -4,
+          "record_games": 10,
+          "wins": 4,
+          "losses": 6,
+          "run_diff": -1
         },
         "batters": [
           {
@@ -235294,22 +235942,22 @@
       "away_score": null,
       "projection": {
         "game_pk": 824243,
-        "generated_at": "2026-07-26T04:22:04.867008+00:00",
+        "generated_at": "2026-07-26T05:13:04.406362+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.09,
         "away_exp_runs": 3.15,
-        "home_win_prob": 0.585,
+        "home_win_prob": 0.59,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.418,
+        "spread_cover_prob": 0.42,
         "total_line": 6.5,
-        "over_prob": 0.523,
+        "over_prob": 0.52,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.582,
+        "spread_pick_prob": 0.58,
         "total_pick": "over",
-        "total_pick_prob": 0.523,
+        "total_pick_prob": 0.52,
         "spread_favorite": "home"
       },
       "home": {
@@ -235321,6 +235969,13 @@
           "recent_innings": 5.7,
           "season_daily_avg": 2.29,
           "fatigue_ratio": 1.24
+        },
+        "form": {
+          "streak": -1,
+          "record_games": 10,
+          "wins": 6,
+          "losses": 4,
+          "run_diff": 0
         },
         "batters": [
           {
@@ -239035,6 +239690,13 @@
           "recent_innings": 4.7,
           "season_daily_avg": 2.07,
           "fatigue_ratio": 1.13
+        },
+        "form": {
+          "streak": 1,
+          "record_games": 10,
+          "wins": 7,
+          "losses": 3,
+          "run_diff": 17
         },
         "batters": [
           {
@@ -242791,22 +243453,22 @@
       "away_score": null,
       "projection": {
         "game_pk": 822703,
-        "generated_at": "2026-07-26T04:22:04.867008+00:00",
+        "generated_at": "2026-07-26T05:13:04.406362+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 5.54,
         "away_exp_runs": 4.79,
-        "home_win_prob": 0.558,
+        "home_win_prob": 0.548,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.424,
+        "spread_cover_prob": 0.415,
         "total_line": 10.5,
-        "over_prob": 0.436,
+        "over_prob": 0.437,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.576,
+        "spread_pick_prob": 0.585,
         "total_pick": "under",
-        "total_pick_prob": 0.564,
+        "total_pick_prob": 0.563,
         "spread_favorite": "home"
       },
       "home": {
@@ -242818,6 +243480,13 @@
           "recent_innings": 4.0,
           "season_daily_avg": 2.95,
           "fatigue_ratio": 0.68
+        },
+        "form": {
+          "streak": 1,
+          "record_games": 10,
+          "wins": 5,
+          "losses": 5,
+          "run_diff": 16
         },
         "batters": [
           {
@@ -246559,6 +247228,13 @@
           "season_daily_avg": 1.93,
           "fatigue_ratio": 2.59
         },
+        "form": {
+          "streak": 1,
+          "record_games": 10,
+          "wins": 3,
+          "losses": 7,
+          "run_diff": -23
+        },
         "batters": [
           {
             "player_id": 676391,
@@ -250281,22 +250957,22 @@
       "away_score": null,
       "projection": {
         "game_pk": 823598,
-        "generated_at": "2026-07-26T04:22:04.867008+00:00",
+        "generated_at": "2026-07-26T05:13:04.406362+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.13,
-        "away_exp_runs": 3.95,
-        "home_win_prob": 0.513,
+        "away_exp_runs": 3.88,
+        "home_win_prob": 0.52,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.356,
+        "spread_cover_prob": 0.365,
         "total_line": 6.5,
-        "over_prob": 0.6,
+        "over_prob": 0.594,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.644,
+        "spread_pick_prob": 0.635,
         "total_pick": "over",
-        "total_pick_prob": 0.6,
+        "total_pick_prob": 0.594,
         "spread_favorite": "home"
       },
       "home": {
@@ -250604,12 +251280,25 @@
             "tough_matchups": [],
             "exploitable_matchups": []
           },
-          "game_result": null
+          "game_result": null,
+          "opponent_recent_k_rate": {
+            "games": 2,
+            "recent_k_rate": 0.288,
+            "season_k_rate": 0.231,
+            "elevated": false
+          }
         },
         "opponent_bullpen_fatigue": {
           "recent_innings": 8.7,
           "season_daily_avg": 2.18,
           "fatigue_ratio": 1.99
+        },
+        "form": {
+          "streak": -3,
+          "record_games": 10,
+          "wins": 3,
+          "losses": 7,
+          "run_diff": -7
         },
         "batters": [
           {
@@ -254324,6 +255013,13 @@
           "recent_innings": 6.0,
           "season_daily_avg": 2.59,
           "fatigue_ratio": 1.16
+        },
+        "form": {
+          "streak": -1,
+          "record_games": 10,
+          "wins": 7,
+          "losses": 3,
+          "run_diff": 15
         },
         "batters": [
           {
@@ -258051,22 +258747,22 @@
       "away_score": null,
       "projection": {
         "game_pk": 824489,
-        "generated_at": "2026-07-26T04:22:04.867008+00:00",
+        "generated_at": "2026-07-26T05:13:04.406362+00:00",
         "model_version": "v1-log5-negbinom",
-        "home_exp_runs": 3.39,
-        "away_exp_runs": 4.07,
-        "home_win_prob": 0.443,
+        "home_exp_runs": 3.38,
+        "away_exp_runs": 3.87,
+        "home_win_prob": 0.451,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.281,
+        "spread_cover_prob": 0.285,
         "total_line": 6.5,
-        "over_prob": 0.55,
+        "over_prob": 0.523,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
-        "spread_pick_prob": 0.609,
+        "spread_pick_prob": 0.625,
         "total_pick": "over",
-        "total_pick_prob": 0.55,
+        "total_pick_prob": 0.523,
         "spread_favorite": "away"
       },
       "home": {
@@ -258382,12 +259078,25 @@
               "Petey Halpin"
             ]
           },
-          "game_result": null
+          "game_result": null,
+          "opponent_recent_k_rate": {
+            "games": 2,
+            "recent_k_rate": 0.231,
+            "season_k_rate": 0.243,
+            "elevated": false
+          }
         },
         "opponent_bullpen_fatigue": {
           "recent_innings": 6.3,
           "season_daily_avg": 2.4,
           "fatigue_ratio": 1.32
+        },
+        "form": {
+          "streak": -1,
+          "record_games": 10,
+          "wins": 5,
+          "losses": 5,
+          "run_diff": -14
         },
         "batters": [
           {
@@ -262414,12 +263123,25 @@
             "tough_matchups": [],
             "exploitable_matchups": []
           },
-          "game_result": null
+          "game_result": null,
+          "opponent_recent_k_rate": {
+            "games": 2,
+            "recent_k_rate": 0.343,
+            "season_k_rate": 0.27,
+            "elevated": true
+          }
         },
         "opponent_bullpen_fatigue": {
           "recent_innings": 6.7,
           "season_daily_avg": 1.91,
           "fatigue_ratio": 1.75
+        },
+        "form": {
+          "streak": -4,
+          "record_games": 10,
+          "wins": 4,
+          "losses": 6,
+          "run_diff": -12
         },
         "batters": [
           {
@@ -266147,22 +266869,22 @@
       "away_score": null,
       "projection": {
         "game_pk": 823676,
-        "generated_at": "2026-07-26T04:22:04.867008+00:00",
+        "generated_at": "2026-07-26T05:13:04.406362+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 5.12,
         "away_exp_runs": 3.72,
-        "home_win_prob": 0.621,
+        "home_win_prob": 0.613,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.471,
+        "spread_cover_prob": 0.463,
         "total_line": 8.5,
-        "over_prob": 0.472,
+        "over_prob": 0.474,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.529,
+        "spread_pick_prob": 0.537,
         "total_pick": "under",
-        "total_pick_prob": 0.528,
+        "total_pick_prob": 0.526,
         "spread_favorite": "home"
       },
       "home": {
@@ -266174,6 +266896,13 @@
           "recent_innings": 9.0,
           "season_daily_avg": 2.4,
           "fatigue_ratio": 1.88
+        },
+        "form": {
+          "streak": 1,
+          "record_games": 10,
+          "wins": 5,
+          "losses": 5,
+          "run_diff": -14
         },
         "batters": [
           {
@@ -269888,6 +270617,13 @@
           "recent_innings": 8.0,
           "season_daily_avg": 1.73,
           "fatigue_ratio": 2.32
+        },
+        "form": {
+          "streak": 1,
+          "record_games": 10,
+          "wins": 6,
+          "losses": 4,
+          "run_diff": -15
         },
         "batters": [
           {
@@ -273618,23 +274354,23 @@
       "away_score": null,
       "projection": {
         "game_pk": 824569,
-        "generated_at": "2026-07-26T04:22:04.867008+00:00",
+        "generated_at": "2026-07-26T05:13:04.406362+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.72,
-        "away_exp_runs": 3.72,
-        "home_win_prob": 0.501,
+        "away_exp_runs": 3.76,
+        "home_win_prob": 0.493,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.337,
+        "spread_cover_prob": 0.326,
         "total_line": 6.5,
-        "over_prob": 0.542,
+        "over_prob": 0.557,
         "home_score_line": null,
         "away_score_line": null,
-        "moneyline_pick": "home",
-        "spread_pick": "away",
-        "spread_pick_prob": 0.663,
+        "moneyline_pick": "away",
+        "spread_pick": "home",
+        "spread_pick_prob": 0.658,
         "total_pick": "over",
-        "total_pick_prob": 0.542,
-        "spread_favorite": "home"
+        "total_pick_prob": 0.557,
+        "spread_favorite": "away"
       },
       "home": {
         "team_id": 145,
@@ -273945,12 +274681,25 @@
               "Paul Goldschmidt"
             ]
           },
-          "game_result": null
+          "game_result": null,
+          "opponent_recent_k_rate": {
+            "games": 2,
+            "recent_k_rate": 0.365,
+            "season_k_rate": 0.264,
+            "elevated": true
+          }
         },
         "opponent_bullpen_fatigue": {
           "recent_innings": 5.0,
           "season_daily_avg": 2.6,
           "fatigue_ratio": 0.96
+        },
+        "form": {
+          "streak": -2,
+          "record_games": 10,
+          "wins": 6,
+          "losses": 4,
+          "run_diff": 11
         },
         "batters": [
           {
@@ -277681,6 +278430,13 @@
           "season_daily_avg": 3.1,
           "fatigue_ratio": 1.13
         },
+        "form": {
+          "streak": 2,
+          "record_games": 10,
+          "wins": 7,
+          "losses": 3,
+          "run_diff": 4
+        },
         "batters": [
           {
             "player_id": 700250,
@@ -281407,20 +282163,20 @@
       "away_score": null,
       "projection": {
         "game_pk": 823026,
-        "generated_at": "2026-07-26T04:22:04.867008+00:00",
+        "generated_at": "2026-07-26T05:13:04.406362+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.69,
         "away_exp_runs": 5.06,
-        "home_win_prob": 0.385,
+        "home_win_prob": 0.384,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.25,
+        "spread_cover_prob": 0.249,
         "total_line": 8.5,
         "over_prob": 0.464,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
-        "spread_pick_prob": 0.533,
+        "spread_pick_prob": 0.532,
         "total_pick": "under",
         "total_pick_prob": 0.536,
         "spread_favorite": "away"
@@ -281434,6 +282190,13 @@
           "recent_innings": 6.0,
           "season_daily_avg": 1.81,
           "fatigue_ratio": 1.66
+        },
+        "form": {
+          "streak": 1,
+          "record_games": 10,
+          "wins": 3,
+          "losses": 7,
+          "run_diff": -6
         },
         "batters": [
           {
@@ -285157,6 +285920,13 @@
           "season_daily_avg": 2.38,
           "fatigue_ratio": 1.05
         },
+        "form": {
+          "streak": 2,
+          "record_games": 10,
+          "wins": 7,
+          "losses": 3,
+          "run_diff": 31
+        },
         "batters": [
           {
             "player_id": 691718,
@@ -288874,22 +289644,22 @@
       "away_score": null,
       "projection": {
         "game_pk": 824003,
-        "generated_at": "2026-07-26T04:22:04.867008+00:00",
+        "generated_at": "2026-07-26T05:13:04.406362+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.85,
         "away_exp_runs": 4.92,
-        "home_win_prob": 0.409,
+        "home_win_prob": 0.416,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.268,
+        "spread_cover_prob": 0.272,
         "total_line": 8.5,
-        "over_prob": 0.469,
+        "over_prob": 0.467,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
-        "spread_pick_prob": 0.561,
+        "spread_pick_prob": 0.566,
         "total_pick": "under",
-        "total_pick_prob": 0.531,
+        "total_pick_prob": 0.533,
         "spread_favorite": "away"
       },
       "home": {
@@ -288901,6 +289671,13 @@
           "recent_innings": 10.0,
           "season_daily_avg": 2.64,
           "fatigue_ratio": 1.9
+        },
+        "form": {
+          "streak": -3,
+          "record_games": 10,
+          "wins": 3,
+          "losses": 7,
+          "run_diff": -15
         },
         "batters": [
           {
@@ -292609,6 +293386,13 @@
           "recent_innings": 9.0,
           "season_daily_avg": 2.63,
           "fatigue_ratio": 1.71
+        },
+        "form": {
+          "streak": 5,
+          "record_games": 10,
+          "wins": 6,
+          "losses": 4,
+          "run_diff": 14
         },
         "batters": [
           {
@@ -296319,22 +297103,22 @@
       "away_score": null,
       "projection": {
         "game_pk": 823275,
-        "generated_at": "2026-07-26T04:22:04.867008+00:00",
+        "generated_at": "2026-07-26T05:13:04.406362+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.66,
-        "away_exp_runs": 3.62,
-        "home_win_prob": 0.595,
+        "away_exp_runs": 3.64,
+        "home_win_prob": 0.59,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.44,
+        "spread_cover_prob": 0.436,
         "total_line": 8.5,
-        "over_prob": 0.428,
+        "over_prob": 0.427,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.56,
+        "spread_pick_prob": 0.564,
         "total_pick": "under",
-        "total_pick_prob": 0.572,
+        "total_pick_prob": 0.573,
         "spread_favorite": "home"
       },
       "home": {
@@ -296642,12 +297426,25 @@
             "tough_matchups": [],
             "exploitable_matchups": []
           },
-          "game_result": null
+          "game_result": null,
+          "opponent_recent_k_rate": {
+            "games": 2,
+            "recent_k_rate": 0.224,
+            "season_k_rate": 0.246,
+            "elevated": false
+          }
         },
         "opponent_bullpen_fatigue": {
           "recent_innings": 6.7,
           "season_daily_avg": 2.45,
           "fatigue_ratio": 1.36
+        },
+        "form": {
+          "streak": 2,
+          "record_games": 10,
+          "wins": 5,
+          "losses": 5,
+          "run_diff": 21
         },
         "batters": [
           {
@@ -300356,6 +301153,13 @@
           "recent_innings": 13.0,
           "season_daily_avg": 2.91,
           "fatigue_ratio": 2.23
+        },
+        "form": {
+          "streak": -1,
+          "record_games": 10,
+          "wins": 3,
+          "losses": 7,
+          "run_diff": -16
         },
         "batters": [
           {
@@ -304090,7 +304894,7 @@
       "away_score": null,
       "projection": {
         "game_pk": 824976,
-        "generated_at": "2026-07-26T04:22:04.867008+00:00",
+        "generated_at": "2026-07-26T05:13:04.406362+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.63,
         "away_exp_runs": 7.42,
@@ -304098,14 +304902,14 @@
         "spread_line": 1.5,
         "spread_cover_prob": 0.156,
         "total_line": 10.5,
-        "over_prob": 0.488,
+        "over_prob": 0.475,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "away",
-        "spread_pick_prob": 0.637,
+        "spread_pick_prob": 0.636,
         "total_pick": "under",
-        "total_pick_prob": 0.512,
+        "total_pick_prob": 0.525,
         "spread_favorite": "away"
       },
       "home": {
@@ -304117,6 +304921,13 @@
           "recent_innings": 8.3,
           "season_daily_avg": 2.54,
           "fatigue_ratio": 1.64
+        },
+        "form": {
+          "streak": -1,
+          "record_games": 10,
+          "wins": 3,
+          "losses": 7,
+          "run_diff": -25
         },
         "batters": [
           {
@@ -307876,6 +308687,13 @@
           "season_daily_avg": 2.11,
           "fatigue_ratio": 2.29
         },
+        "form": {
+          "streak": -1,
+          "record_games": 10,
+          "wins": 8,
+          "losses": 2,
+          "run_diff": 15
+        },
         "batters": [
           {
             "player_id": 702332,
@@ -311593,22 +312411,22 @@
       "away_score": null,
       "projection": {
         "game_pk": 823193,
-        "generated_at": "2026-07-26T04:22:04.867008+00:00",
+        "generated_at": "2026-07-26T05:13:04.406362+00:00",
         "model_version": "v1-log5-negbinom",
-        "home_exp_runs": 2.81,
+        "home_exp_runs": 2.79,
         "away_exp_runs": 4.67,
-        "home_win_prob": 0.328,
+        "home_win_prob": 0.325,
         "spread_line": 1.5,
         "spread_cover_prob": 0.183,
         "total_line": 6.5,
-        "over_prob": 0.541,
+        "over_prob": 0.54,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "away",
-        "spread_pick_prob": 0.504,
+        "spread_pick_prob": 0.51,
         "total_pick": "over",
-        "total_pick_prob": 0.541,
+        "total_pick_prob": 0.54,
         "spread_favorite": "away"
       },
       "home": {
@@ -311620,6 +312438,13 @@
           "recent_innings": 6.0,
           "season_daily_avg": 2.44,
           "fatigue_ratio": 1.23
+        },
+        "form": {
+          "streak": 2,
+          "record_games": 10,
+          "wins": 5,
+          "losses": 5,
+          "run_diff": 12
         },
         "batters": [
           {
@@ -315653,12 +316478,25 @@
             "tough_matchups": [],
             "exploitable_matchups": []
           },
-          "game_result": null
+          "game_result": null,
+          "opponent_recent_k_rate": {
+            "games": 2,
+            "recent_k_rate": 0.232,
+            "season_k_rate": 0.218,
+            "elevated": false
+          }
         },
         "opponent_bullpen_fatigue": {
           "recent_innings": 7.0,
           "season_daily_avg": 1.89,
           "fatigue_ratio": 1.85
+        },
+        "form": {
+          "streak": 1,
+          "record_games": 10,
+          "wins": 6,
+          "losses": 4,
+          "run_diff": -3
         },
         "batters": [
           {
@@ -319388,20 +320226,20 @@
       "away_score": null,
       "projection": {
         "game_pk": 823923,
-        "generated_at": "2026-07-26T04:22:04.867008+00:00",
+        "generated_at": "2026-07-26T05:13:04.406362+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.12,
         "away_exp_runs": 3.61,
         "home_win_prob": 0.55,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.386,
+        "spread_cover_prob": 0.381,
         "total_line": 6.5,
         "over_prob": 0.571,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.614,
+        "spread_pick_prob": 0.619,
         "total_pick": "over",
         "total_pick_prob": 0.571,
         "spread_favorite": "home"
@@ -319415,6 +320253,13 @@
           "recent_innings": 5.7,
           "season_daily_avg": 2.01,
           "fatigue_ratio": 1.41
+        },
+        "form": {
+          "streak": 4,
+          "record_games": 10,
+          "wins": 6,
+          "losses": 4,
+          "run_diff": 2
         },
         "batters": [
           {
@@ -323123,6 +323968,13 @@
           "recent_innings": 5.0,
           "season_daily_avg": 1.93,
           "fatigue_ratio": 1.29
+        },
+        "form": {
+          "streak": -4,
+          "record_games": 10,
+          "wins": 4,
+          "losses": 6,
+          "run_diff": -5
         },
         "batters": [
           {
@@ -327162,6 +328014,27 @@
     "pitchers": [
       {
         "role": "pitcher",
+        "player_id": 681517,
+        "name": "Kyle Leahy",
+        "team": "St. Louis Cardinals",
+        "opponent": "Cincinnati Reds",
+        "date": "2026-07-26",
+        "lineup_confirmed": true,
+        "score": 2.5,
+        "reasons": [
+          "pitching well above his season norm over his last few starts",
+          "opposing lineup has struck out at an elevated rate over their last 2 games (34% vs their own 27% season rate)"
+        ],
+        "best_category": {
+          "label": "Strikeouts",
+          "line": 4.5,
+          "pct": 40,
+          "n": 5
+        },
+        "fallback_angle": null
+      },
+      {
+        "role": "pitcher",
         "player_id": 669854,
         "name": "Ronel Blanco",
         "team": "Houston Astros",
@@ -327202,19 +328075,40 @@
       },
       {
         "role": "pitcher",
-        "player_id": 681517,
-        "name": "Kyle Leahy",
-        "team": "St. Louis Cardinals",
-        "opponent": "Cincinnati Reds",
+        "player_id": 650911,
+        "name": "Cristopher S\u00e1nchez",
+        "team": "Philadelphia Phillies",
+        "opponent": "New York Yankees",
         "date": "2026-07-26",
         "lineup_confirmed": true,
         "score": 1.5,
         "reasons": [
-          "pitching well above his season norm over his last few starts"
+          "6 hitters in tonight's lineup are in a tough matchup against him",
+          "opposing lineup has struck out at an elevated rate over their last 2 games (36% vs their own 26% season rate)"
         ],
         "best_category": {
           "label": "Strikeouts",
-          "line": 4.5,
+          "line": 6.5,
+          "pct": 60,
+          "n": 5
+        },
+        "fallback_angle": null
+      },
+      {
+        "role": "pitcher",
+        "player_id": 800048,
+        "name": "Parker Messick",
+        "team": "Cleveland Guardians",
+        "opponent": "Tampa Bay Rays",
+        "date": "2026-07-26",
+        "lineup_confirmed": true,
+        "score": 1.0,
+        "reasons": [
+          "opposing lineup has struck out at an elevated rate over their last 2 games (28% vs their own 21% season rate)"
+        ],
+        "best_category": {
+          "label": "Strikeouts",
+          "line": 5.5,
           "pct": 40,
           "n": 5
         },
@@ -327256,26 +328150,6 @@
           "label": "Strikeouts",
           "line": 5.5,
           "pct": 40,
-          "n": 5
-        },
-        "fallback_angle": null
-      },
-      {
-        "role": "pitcher",
-        "player_id": 650911,
-        "name": "Cristopher S\u00e1nchez",
-        "team": "Philadelphia Phillies",
-        "opponent": "New York Yankees",
-        "date": "2026-07-26",
-        "lineup_confirmed": true,
-        "score": 0.5,
-        "reasons": [
-          "6 hitters in tonight's lineup are in a tough matchup against him"
-        ],
-        "best_category": {
-          "label": "Strikeouts",
-          "line": 6.5,
-          "pct": 60,
           "n": 5
         },
         "fallback_angle": null
