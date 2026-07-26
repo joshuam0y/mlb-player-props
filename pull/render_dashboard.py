@@ -152,8 +152,13 @@ STYLE = """
     align-items: center; flex-wrap: wrap; gap: 8px; list-style: none;
     /* Sticky while a card is open and scrolled into -- the whole point of
        an open game card is its (long) body, so without this, closing it
-       again meant scrolling all the way back up to find the header. */
-    position: sticky; top: 0; z-index: 3; background: var(--surface-1); border-radius: 12px 12px 0 0;
+       again meant scrolling all the way back up to find the header.
+       top is the *toolbar's own height* (syncStickyOffset in SCRIPT below
+       sets --sticky-offset), not 0 -- the toolbar above is ALSO sticky at
+       top:0 with a higher z-index, so stacking both at top:0 let the
+       toolbar paint over this summary's own title/score instead of
+       sitting above it. Falls back to 0px on pages with no toolbar. */
+    position: sticky; top: var(--sticky-offset, 0px); z-index: 3; background: var(--surface-1); border-radius: 12px 12px 0 0;
   }
   summary.game-summary::-webkit-details-marker, summary.picks-summary::-webkit-details-marker { display: none; }
   summary.game-summary::before, summary.picks-summary::before {
@@ -245,19 +250,16 @@ STYLE = """
   .name-cell { font-weight: 600; }
   /* Live-tracker highlights the batter/pitcher currently in the game --
      set/cleared by highlightActivePlayers() every poll, matched against
-     these rows by the same person id the boxscore uses. */
-  tr.player-row.is-batting, tr.player-row.is-ondeck { box-shadow: inset 3px 0 0 var(--status-good); }
-  tr.player-row.is-ondeck { box-shadow: inset 3px 0 0 var(--status-warning); }
-  tr.player-row.is-batting td.name-cell::after, tr.player-row.is-ondeck td.name-cell::after {
-    margin-left: 6px; font-size: 9.5px; font-weight: 700; letter-spacing: 0.03em;
-    padding: 1px 5px; border-radius: 999px; vertical-align: middle; color: white;
-  }
-  tr.player-row.is-batting td.name-cell::after { content: "AT BAT"; background: var(--status-good); }
-  tr.player-row.is-ondeck td.name-cell::after { content: "ON DECK"; background: var(--status-warning); }
-  .pitcher-line.is-pitching::after {
-    content: "PITCHING"; margin-left: 6px; font-size: 9.5px; font-weight: 700; letter-spacing: 0.03em;
-    padding: 1px 5px; border-radius: 999px; vertical-align: middle; color: white; background: var(--status-good);
-  }
+     these rows by the same person id the boxscore uses. A plain tinted
+     row background (the same tint already used for :hover, so it reads as
+     "part of this table's own language") plus a real .badge span injected
+     into the existing Flags cell -- NOT a one-off ::after pill glued onto
+     the name -- so it sits and wraps exactly like the HOT/COLD/matchup
+     badges already there instead of looking like a different component. */
+  tr.player-row.is-batting, tr.player-row.is-ondeck { background: var(--series-1-bg); }
+  .badge-atbat { background: var(--status-good); color: white; }
+  .badge-ondeck { background: var(--status-warning); color: #1a1a19; }
+  .badge-pitching { background: var(--series-1); color: white; }
   .expand-arrow {
     display: inline-block; width: 0; height: 0; margin-right: 6px; vertical-align: middle;
     border-top: 3px solid transparent; border-bottom: 3px solid transparent;
@@ -277,6 +279,13 @@ STYLE = """
   .subs-list:empty { display: none; }
   .subs-list { margin-top: 10px; padding-top: 8px; border-top: 1px dashed var(--border); }
   .subs-list-heading { font-size: 11px; font-weight: 700; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.04em; margin-bottom: 6px; }
+  /* Pitching always listed before Batting (upsertSubLine creates both up
+     front, in this order); a group with nobody in it yet (e.g. no pinch
+     hitters used, only relievers) just hides instead of showing an empty
+     heading. */
+  .subs-group:not(:has(.sub-player-line)) { display: none; }
+  .subs-group + .subs-group { margin-top: 10px; }
+  .subs-group-heading { font-size: 10.5px; font-weight: 600; color: var(--text-muted); margin-bottom: 6px; }
   .sub-player-line { margin-bottom: 8px; }
   .sub-player-name { font-size: 12.5px; font-weight: 600; margin-bottom: 4px; }
   .sub-player-name .sub { font-weight: 400; }
@@ -305,12 +314,23 @@ STYLE = """
      polling MLB's own live-feed API directly from the browser, not by our
      periodic build pipeline, so it can update on a ~30s cadence instead of
      waiting on the next scheduled sync. Empty (and hidden) until JS fills
-     it in for a game that's actually in progress. */
-  .live-tracker:empty { display: none; }
-  .live-tracker {
-    width: 100%; margin-top: 8px; padding: 12px 14px; border-radius: 10px;
+     it in for a game that's actually in progress.
+
+     Split into two containers, not one: .live-tracker lives in <summary>
+     (sticky + visible even collapsed) and is deliberately kept SHORT --
+     score/inning/diamond/count/win-prob only. The heavier detail (strike
+     zone, full matchup, pitch-by-pitch, recent notable event) lives in
+     .live-detail inside the card body instead. A sticky element with the
+     full detail's height (400px+) would sit pinned over the lineup table
+     as you scroll past it, hiding whatever scrolled up underneath -- this
+     way only the genuinely short summary strip ever gets pinned. */
+  .live-tracker:empty, .live-detail:empty { display: none; }
+  .live-tracker, .live-detail {
+    width: 100%; padding: 12px 14px; border-radius: 10px;
     background: var(--surface-2); border: 1px solid var(--border); font-size: 12.5px;
   }
+  .live-tracker { margin-top: 8px; }
+  .live-detail { margin-bottom: 14px; }
   .live-top-row { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin-bottom: 10px; }
   .live-score-line { font-weight: 700; font-size: 19px; letter-spacing: -0.02em; }
   .live-inning { color: var(--text-secondary); white-space: nowrap; font-weight: 600; }
@@ -396,6 +416,11 @@ STYLE = """
   }
   .play-inning { color: var(--text-muted); font-variant-numeric: tabular-nums; white-space: nowrap; text-transform: capitalize; min-width: 58px; }
   .play-action { background: var(--badge-neutral-bg); font-style: italic; color: var(--text-secondary); }
+  /* A run actually scoring is the one event in this feed worth calling out
+     at a glance -- MLB's own feed already flags it (about.isScoringPlay),
+     no text-sniffing needed. */
+  .play-row.play-scoring { background: rgba(245,166,35,0.22); }
+  .play-row.play-scoring .play-inning { color: var(--text-primary); font-weight: 700; }
   .best-prop { font-size: 11.5px; margin-top: 4px; padding: 3px 7px; border-radius: 6px; display: inline-block; }
   .best-prop-over { background: var(--series-1-bg); color: var(--series-1); }
   .best-prop-under { background: rgba(224,51,63,0.14); color: var(--status-critical); }
@@ -571,14 +596,23 @@ function escapeHtml(s) {
 
 function initLiveTracker() {
   const now = Date.now();
-  liveTrackedEls = Array.from(document.querySelectorAll('details.game-card[data-game-pk]')).filter(function (el) {
-    if (el.dataset.final === 'true') return false; // already Final as of this build -- real box score already shown
+  const hasStarted = function (el) {
     const timeEl = el.querySelector('.game-time');
     const t = timeEl ? timeEl.dataset.utc : null;
     if (!t) return false;
     const startMs = new Date(t).getTime();
     return !isNaN(startMs) && startMs <= now; // don't waste requests on a game that hasn't started yet
-  });
+  };
+  const allCards = Array.from(document.querySelectorAll('details.game-card[data-game-pk]'));
+  liveTrackedEls = allCards.filter(function (el) { return el.dataset.final !== 'true' && hasStarted(el); });
+  // A game already Final as of this build still gets exactly ONE poll of
+  // MLB's real feed (not added to the recurring liveTrackedEls -- no point
+  // re-polling a decided game every 30s forever). Our own server-rendered
+  // box score only has a container for players who had a prop projection
+  // to begin with (the starting lineup + probable pitcher) -- a reliever or
+  // pinch-hitter who never got one needs this one real fetch for
+  // updatePlayerBoxScores' subs-list handling to ever see them.
+  allCards.filter(function (el) { return el.dataset.final === 'true' && hasStarted(el); }).forEach(pollLiveGame);
   if (!liveTrackedEls.length) return;
   pollAllLiveGames();
   setInterval(pollAllLiveGames, LIVE_POLL_MS);
@@ -655,20 +689,28 @@ function battingGridHtml(batting) {
 // players with a prop projection (the confirmed/projected lineup + probable
 // starter) do. Rather than silently drop their live stats, append a compact
 // line to that side's .subs-list instead: no props (nothing was projected
-// for them), just their actual line, so they're not just missing.
-function upsertSubLine(el, side, pid, name, gridHtml, isFinal) {
+// for them), just their actual line, so they're not just missing. Grouped
+// into its own Pitching/Batting subsection (not one flat list) -- a reliever
+// buried between two pinch-hitters read as a jumbled arrival-order list.
+function upsertSubLine(el, side, pid, name, gridHtml, isFinal, kind) {
   const list = el.querySelector('.subs-list[data-side="' + side + '"]');
   if (!list) return;
-  let line = list.querySelector('.sub-player-line[data-player-id="' + pid + '"]');
+  if (!list.querySelector('.subs-list-heading')) {
+    // Both groups created together, in a fixed Pitching-then-Batting order,
+    // regardless of which kind happens to be seen first in this poll.
+    list.innerHTML =
+      '<div class="subs-list-heading">Also appeared</div>' +
+      '<div class="subs-group" data-kind="pitching"><div class="subs-group-heading">Pitching</div></div>' +
+      '<div class="subs-group" data-kind="batting"><div class="subs-group-heading">Batting</div></div>';
+  }
+  const group = list.querySelector('.subs-group[data-kind="' + kind + '"]');
+  let line = group.querySelector('.sub-player-line[data-player-id="' + pid + '"]');
   if (!line) {
-    if (!list.querySelector('.subs-list-heading')) {
-      list.insertAdjacentHTML('afterbegin', '<div class="subs-list-heading">Also appeared</div>');
-    }
     line = document.createElement('div');
     line.className = 'sub-player-line';
     line.dataset.playerId = pid;
     line.innerHTML = '<div class="sub-player-name">' + escapeHtml(name) + ' <span class="sub">(not projected)</span></div>';
-    list.appendChild(line);
+    group.appendChild(line);
   }
   const nameDiv = line.querySelector('.sub-player-name').outerHTML;
   line.innerHTML = nameDiv + boxHeader(isFinal) + gridHtml;
@@ -701,8 +743,8 @@ function updatePlayerBoxScores(el, data, isFinal) {
       // No pre-rendered container for this person id -- a reliever, pinch
       // hitter, or defensive sub who wasn't in the projected/confirmed
       // lineup. Only worth a line once they've actually done something.
-      if (pitched) upsertSubLine(el, side, pid, p.person.fullName, pitchingGridHtml(pitching), isFinal);
-      else if (batted) upsertSubLine(el, side, pid, p.person.fullName, battingGridHtml(batting), isFinal);
+      if (pitched) upsertSubLine(el, side, pid, p.person.fullName, pitchingGridHtml(pitching), isFinal, 'pitching');
+      else if (batted) upsertSubLine(el, side, pid, p.person.fullName, battingGridHtml(batting), isFinal, 'batting');
     });
   });
 }
@@ -730,7 +772,7 @@ function collectGameEvents(data) {
       }
     });
     if (p.result && p.result.description) {
-      events.push({ inning: inning, text: p.result.description, action: false });
+      events.push({ inning: inning, text: p.result.description, action: false, scoring: !!p.about.isScoringPlay });
     }
   });
   return events;
@@ -744,8 +786,9 @@ function renderRecentPlays(el, events) {
     '<div class="plays-heading">Recent plays</div>' +
     recent
       .map(function (e) {
+        const cls = (e.action ? ' play-action' : '') + (e.scoring ? ' play-scoring' : '');
         return (
-          '<div class="play-row' + (e.action ? ' play-action' : '') + '">' +
+          '<div class="play-row' + cls + '">' +
           '<span class="play-inning">' + escapeHtml(e.inning) + '</span>' +
           '<span class="play-text">' + escapeHtml(e.text) + '</span></div>'
         );
@@ -856,23 +899,44 @@ function renderPitchSequence(currentPlay) {
 // a glance where in the order the game actually is, instead of having to
 // cross-reference the "Pitching / At bat / On deck" names against the
 // batter table by eye. Cleared and reapplied every poll (nothing tracks
-// its own previous state -- simplest to just recompute from scratch).
-function highlightActivePlayers(el, batterId, onDeckId, pitcherId) {
+// its own previous state -- simplest to just recompute from scratch). The
+// tag is a real .badge span appended into the row's existing Flags cell
+// (or, for the pitcher, its own line) -- the same component already used
+// for HOT/COLD/matchup/injury -- so it wraps and sits exactly like those
+// instead of looking like a one-off decoration bolted onto the name.
+function clearLiveTags(el) {
+  el.querySelectorAll('.live-tag').forEach(function (n) { n.remove(); });
   el.querySelectorAll('.player-row.is-batting, .player-row.is-ondeck').forEach(function (row) {
     row.classList.remove('is-batting', 'is-ondeck');
   });
   el.querySelectorAll('.pitcher-row.is-pitching').forEach(function (row) { row.classList.remove('is-pitching'); });
+}
+function addLiveTag(cell, badgeClass, label) {
+  if (!cell) return;
+  cell.insertAdjacentHTML('beforeend', ' <span class="badge ' + badgeClass + ' live-tag">' + label + '</span>');
+}
+function highlightActivePlayers(el, batterId, onDeckId, pitcherId) {
+  clearLiveTags(el);
   if (batterId) {
     const row = el.querySelector('.player-row[data-player-id="' + batterId + '"]');
-    if (row) row.classList.add('is-batting');
+    if (row) {
+      row.classList.add('is-batting');
+      addLiveTag(row.querySelector('td[data-label="Flags"]'), 'badge-atbat', 'AT BAT');
+    }
   }
   if (onDeckId) {
     const row = el.querySelector('.player-row[data-player-id="' + onDeckId + '"]');
-    if (row) row.classList.add('is-ondeck');
+    if (row) {
+      row.classList.add('is-ondeck');
+      addLiveTag(row.querySelector('td[data-label="Flags"]'), 'badge-ondeck', 'ON DECK');
+    }
   }
   if (pitcherId) {
     const row = el.querySelector('.pitcher-row[data-player-id="' + pitcherId + '"]');
-    if (row) row.classList.add('is-pitching');
+    if (row) {
+      row.classList.add('is-pitching');
+      addLiveTag(row, 'badge-pitching', 'PITCHING');
+    }
   }
 }
 
@@ -949,7 +1013,8 @@ function winProbHtml(linescore, gameData) {
 }
 
 function renderLiveState(el, data) {
-  const container = el.querySelector('.live-tracker');
+  const container = el.querySelector('.live-tracker'); // compact: sticky, in <summary>, visible even collapsed
+  const detail = el.querySelector('.live-detail'); // heavier detail: NOT sticky, only in the expanded body
   const status = ((data.gameData || {}).status || {}).abstractGameState;
   const linescore = (data.liveData || {}).linescore || {};
   const events = collectGameEvents(data);
@@ -959,6 +1024,7 @@ function renderLiveState(el, data) {
     updatePlayerBoxScores(el, data, true);
     renderRecentPlays(el, events);
     highlightActivePlayers(el, null, null, null);
+    if (detail) detail.innerHTML = '';
     if (!container) return;
     const home = (linescore.teams || {}).home, away = (linescore.teams || {}).away;
     if (home && away && home.runs != null && away.runs != null) {
@@ -971,7 +1037,6 @@ function renderLiveState(el, data) {
 
   updatePlayerBoxScores(el, data, false);
   renderRecentPlays(el, events);
-  if (!container) return;
 
   const home = (linescore.teams || {}).home || {};
   const away = (linescore.teams || {}).away || {};
@@ -980,6 +1045,7 @@ function renderLiveState(el, data) {
   const defense = linescore.defense || {};
   const batter = offense.batter ? offense.batter.fullName : null;
   const onDeck = offense.onDeck ? offense.onDeck.fullName : null;
+  const inHole = offense.inHole ? offense.inHole.fullName : null;
   const pitcher = defense.pitcher ? defense.pitcher.fullName : null;
   highlightActivePlayers(el, offense.batter && offense.batter.id, offense.onDeck && offense.onDeck.id, defense.pitcher && defense.pitcher.id);
   const outDots = [0, 1, 2]
@@ -1000,33 +1066,42 @@ function renderLiveState(el, data) {
   const pitchSeqHtml = renderPitchSequence(currentPlay);
   const wpHtml = winProbHtml(linescore, data.gameData || {});
 
-  container.innerHTML =
-    '<div class="live-top-row">' +
-    '<span class="badge badge-live">LIVE</span>' +
-    '<span class="live-score-line">' + away.runs + ' - ' + home.runs + '</span>' +
-    '<span class="live-inning">' + escapeHtml(linescore.inningHalf || '') + ' ' + escapeHtml(linescore.currentInningOrdinal || '') + '</span>' +
-    '<span class="live-updated">updated ' + updated + '</span>' +
-    '</div>' +
-    '<div class="live-field-row">' +
-    '<div class="live-state-panel">' +
-    diamond +
-    '<div class="live-count-outs">' +
-    (countText ? '<span class="live-count">' + countText + '</span>' : '') +
-    '<span class="live-outs">' + outDots + '</span>' +
-    '</div>' +
-    '</div>' +
-    wpHtml +
-    (strikeZoneHtml ? '<div class="sz-panel"><span class="sz-panel-label">Pitch location</span>' + strikeZoneHtml + '</div>' : '') +
-    (batter || pitcher
-      ? '<div class="live-matchup">' +
-        (pitcher ? '<span class="live-batter">Pitching: <b>' + escapeHtml(pitcher) + '</b></span>' : '') +
-        (batter ? '<span class="live-batter">At bat: <b>' + escapeHtml(batter) + '</b></span>' : '') +
-        (onDeck ? '<span class="live-batter sub">On deck: ' + escapeHtml(onDeck) + '</span>' : '') +
-        '</div>'
-      : '') +
-    '</div>' +
-    pitchSeqHtml +
-    (latest ? '<div class="live-notable">' + escapeHtml(latest.text) + '</div>' : '');
+  if (container) {
+    container.innerHTML =
+      '<div class="live-top-row">' +
+      '<span class="badge badge-live">LIVE</span>' +
+      '<span class="live-score-line">' + away.runs + ' - ' + home.runs + '</span>' +
+      '<span class="live-inning">' + escapeHtml(linescore.inningHalf || '') + ' ' + escapeHtml(linescore.currentInningOrdinal || '') + '</span>' +
+      '<span class="live-updated">updated ' + updated + '</span>' +
+      '</div>' +
+      '<div class="live-field-row">' +
+      '<div class="live-state-panel">' +
+      diamond +
+      '<div class="live-count-outs">' +
+      (countText ? '<span class="live-count">' + countText + '</span>' : '') +
+      '<span class="live-outs">' + outDots + '</span>' +
+      '</div>' +
+      '</div>' +
+      wpHtml +
+      '</div>';
+  }
+
+  if (detail) {
+    detail.innerHTML =
+      '<div class="live-field-row">' +
+      (strikeZoneHtml ? '<div class="sz-panel"><span class="sz-panel-label">Pitch location</span>' + strikeZoneHtml + '</div>' : '') +
+      (batter || pitcher
+        ? '<div class="live-matchup">' +
+          (pitcher ? '<span class="live-batter">Pitching: <b>' + escapeHtml(pitcher) + '</b></span>' : '') +
+          (batter ? '<span class="live-batter">At bat: <b>' + escapeHtml(batter) + '</b></span>' : '') +
+          (onDeck ? '<span class="live-batter sub">On deck: ' + escapeHtml(onDeck) + '</span>' : '') +
+          (inHole ? '<span class="live-batter sub">In the hole: ' + escapeHtml(inHole) + '</span>' : '') +
+          '</div>'
+        : '') +
+      '</div>' +
+      pitchSeqHtml +
+      (latest ? '<div class="live-notable">' + escapeHtml(latest.text) + '</div>' : '');
+  }
 }
 
 document.addEventListener('DOMContentLoaded', function () {
@@ -1046,7 +1121,21 @@ document.addEventListener('DOMContentLoaded', function () {
   localizeGameTimes();
   initLiveTracker();
   initGameCardAccordion();
+  syncStickyOffset();
+  window.addEventListener('resize', syncStickyOffset);
 });
+
+// The filter toolbar (dropdowns/search) is its own sticky element pinned at
+// top:0 -- an open game card's summary is ALSO sticky, and without this it
+// would stack at the same top:0, letting the toolbar's higher z-index paint
+// over the summary's own title/score. Measured live (not hardcoded) because
+// the toolbar wraps to more rows, and gets taller, on narrow/mobile widths.
+// No-op (falls back to the CSS default of 0px) on pages with no toolbar.
+function syncStickyOffset() {
+  const toolbar = document.querySelector('.toolbar');
+  const height = toolbar ? toolbar.getBoundingClientRect().height : 0;
+  document.documentElement.style.setProperty('--sticky-offset', height + 'px');
+}
 </script>
 """
 
@@ -1628,6 +1717,7 @@ def _game_card_html(g):
         <div class="live-tracker"></div>
       </summary>
       <div class="game-body">
+        <div class="live-detail"></div>
         <div class="recent-plays"></div>
         <div class="teams">
           {_team_col_html(g["away"], f"{id_prefix}-a", g["status"], "away")}
