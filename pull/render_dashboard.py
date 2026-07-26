@@ -265,6 +265,35 @@ STYLE = """
   }
   @keyframes bx-pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.25; } }
   .badge-final { background: var(--badge-neutral-bg); color: var(--badge-neutral-text); }
+
+  /* Client-side live tracker (live_tracker in SCRIPT below) -- populated by
+     polling MLB's own live-feed API directly from the browser, not by our
+     periodic build pipeline, so it can update on a ~30s cadence instead of
+     waiting on the next scheduled sync. Empty (and hidden) until JS fills
+     it in for a game that's actually in progress. */
+  .live-tracker:empty { display: none; }
+  .live-tracker {
+    display: flex; align-items: center; flex-wrap: wrap; gap: 10px; width: 100%;
+    margin-top: 6px; padding: 6px 10px; border-radius: 8px;
+    background: var(--surface-2); border: 1px solid var(--border); font-size: 12.5px;
+  }
+  .live-score-line { font-weight: 700; font-size: 14px; }
+  .live-inning { color: var(--text-secondary); white-space: nowrap; }
+  .live-outs { display: inline-flex; gap: 3px; align-items: center; }
+  .out-dot { width: 8px; height: 8px; border-radius: 50%; border: 1.5px solid var(--status-warning); display: inline-block; }
+  .out-dot-filled { background: var(--status-warning); }
+  .diamond { position: relative; width: 26px; height: 26px; flex: none; }
+  .diamond .base {
+    position: absolute; width: 9px; height: 9px; border: 1.5px solid var(--text-muted);
+    background: var(--surface-1); transform: rotate(45deg);
+  }
+  .diamond .base-2b { top: -2px; left: 9px; }
+  .diamond .base-3b { top: 9px; left: -2px; }
+  .diamond .base-1b { top: 9px; left: 20px; }
+  .diamond .base-occupied { background: var(--status-warning); border-color: var(--status-warning); }
+  .live-batter { color: var(--text-secondary); }
+  .live-batter b { color: var(--text-primary); }
+  .live-updated { color: var(--text-muted); font-size: 10.5px; margin-left: auto; white-space: nowrap; }
   .best-prop { font-size: 11.5px; margin-top: 4px; padding: 3px 7px; border-radius: 6px; display: inline-block; }
   .best-prop-over { background: var(--series-1-bg); color: var(--series-1); }
   .best-prop-under { background: rgba(224,51,63,0.14); color: var(--status-critical); }
@@ -422,6 +451,101 @@ function initTheme() {
   });
   updateLabel();
 }
+// Live game tracker: polls MLB's own public live-feed API (CORS-open,
+// verified: access-control-allow-origin: *) directly from the browser, on
+// a short interval -- our own build only regenerates every ~15 minutes,
+// which is far too slow for "is this at-bat still going." Only ever reads
+// from MLB's API; never writes anything, so there's no auth/key needed.
+const LIVE_POLL_MS = 30000;
+let liveTrackedEls = [];
+
+function escapeHtml(s) {
+  return String(s).replace(/[&<>"']/g, function (c) {
+    return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
+  });
+}
+
+function initLiveTracker() {
+  const now = Date.now();
+  liveTrackedEls = Array.from(document.querySelectorAll('details.game-card[data-game-pk]')).filter(function (el) {
+    if (el.dataset.final === 'true') return false; // already Final as of this build -- real box score already shown
+    const timeEl = el.querySelector('.game-time');
+    const t = timeEl ? timeEl.dataset.utc : null;
+    if (!t) return false;
+    const startMs = new Date(t).getTime();
+    return !isNaN(startMs) && startMs <= now; // don't waste requests on a game that hasn't started yet
+  });
+  if (!liveTrackedEls.length) return;
+  pollAllLiveGames();
+  setInterval(pollAllLiveGames, LIVE_POLL_MS);
+  // A backgrounded tab shouldn't keep polling every game on its own timer;
+  // catching back up the moment the tab is visible again feels just as
+  // "live" without burning requests the whole time no one's looking.
+  document.addEventListener('visibilitychange', function () {
+    if (document.visibilityState === 'visible') pollAllLiveGames();
+  });
+}
+
+function pollAllLiveGames() {
+  if (document.visibilityState === 'hidden') return;
+  liveTrackedEls.forEach(pollLiveGame);
+}
+
+function pollLiveGame(el) {
+  if (el.dataset.liveDone === 'true') return; // confirmed Final by a previous poll -- stop hitting the API for it
+  const pk = el.dataset.gamePk;
+  fetch('https://statsapi.mlb.com/api/v1.1/game/' + pk + '/feed/live')
+    .then(function (r) { return r.json(); })
+    .then(function (data) { renderLiveState(el, data); })
+    .catch(function () { /* transient network hiccup -- keep last known state, just try again next cycle */ });
+}
+
+function renderLiveState(el, data) {
+  const container = el.querySelector('.live-tracker');
+  if (!container) return;
+  const status = ((data.gameData || {}).status || {}).abstractGameState;
+  const linescore = (data.liveData || {}).linescore || {};
+
+  if (status === 'Final') {
+    el.dataset.liveDone = 'true';
+    const home = (linescore.teams || {}).home, away = (linescore.teams || {}).away;
+    if (home && away && home.runs != null && away.runs != null) {
+      container.innerHTML =
+        '<span class="badge badge-final">FINAL</span><span class="live-score-line">' + away.runs + ' - ' + home.runs + '</span>';
+    }
+    return;
+  }
+  if (status !== 'Live') return; // still Preview (Scheduled/Pre-Game/Warmup/Delayed) -- nothing live to show yet
+
+  const home = (linescore.teams || {}).home || {};
+  const away = (linescore.teams || {}).away || {};
+  const outs = linescore.outs || 0;
+  const offense = linescore.offense || {};
+  const batter = offense.batter ? offense.batter.fullName : null;
+  const onDeck = offense.onDeck ? offense.onDeck.fullName : null;
+  const outDots = [0, 1, 2]
+    .map(function (i) { return '<span class="out-dot' + (i < outs ? ' out-dot-filled' : '') + '"></span>'; })
+    .join('');
+  const diamond =
+    '<div class="diamond">' +
+    '<div class="base base-2b' + (offense.second ? ' base-occupied' : '') + '"></div>' +
+    '<div class="base base-3b' + (offense.third ? ' base-occupied' : '') + '"></div>' +
+    '<div class="base base-1b' + (offense.first ? ' base-occupied' : '') + '"></div>' +
+    '</div>';
+  const updated = new Date().toLocaleTimeString([], { hour: 'numeric', minute: '2-digit' });
+
+  container.innerHTML =
+    '<span class="badge badge-live">LIVE</span>' +
+    '<span class="live-score-line">' + away.runs + ' - ' + home.runs + '</span>' +
+    '<span class="live-inning">' + escapeHtml(linescore.inningHalf || '') + ' ' + escapeHtml(linescore.currentInningOrdinal || '') + '</span>' +
+    '<span class="live-outs">' + outDots + '</span>' +
+    diamond +
+    (batter
+      ? '<span class="live-batter">At bat: <b>' + escapeHtml(batter) + '</b>' + (onDeck ? ' &middot; On deck: ' + escapeHtml(onDeck) : '') + '</span>'
+      : '') +
+    '<span class="live-updated">updated ' + updated + '</span>';
+}
+
 document.addEventListener('DOMContentLoaded', function () {
   // Guarded as a whole, not element-by-element: this script is shared with
   // pages (like track-record.html) that have no filter toolbar at all --
@@ -439,6 +563,7 @@ document.addEventListener('DOMContentLoaded', function () {
   }
   initTheme();
   localizeGameTimes();
+  initLiveTracker();
 });
 </script>
 """
@@ -974,9 +1099,16 @@ def _game_line_html(g):
 def _game_card_html(g):
     is_confirmed = "true" if (g["home"]["lineup_confirmed"] or g["away"]["lineup_confirmed"]) else "false"
     id_prefix = f"g{g['game_pk']}"
+    # data-final freezes the client-side tracker off entirely for a game
+    # that was already Final as of this build -- no point in the browser
+    # polling MLB's live feed for a decided game whose real box score
+    # we've already got. Anything else (Scheduled through In Progress) gets
+    # tracked; live_tracker.js itself decides, from the live feed's own
+    # abstractGameState, when a Scheduled game has actually gone live.
+    is_final = "true" if g.get("home_score") is not None else "false"
     return f"""
     <details class="game-card" data-date="{html.escape(g["date"])}" data-confirmed="{is_confirmed}"
-              data-search="{_game_search_blob(g)}">
+              data-search="{_game_search_blob(g)}" data-game-pk="{g["game_pk"]}" data-final="{is_final}">
       <summary class="game-summary">
         <span class="matchup-title">{html.escape(g["away"]["team_name"] or "?")} @ {html.escape(g["home"]["team_name"] or "?")}</span>
         <span class="summary-flags">{_game_summary_flags(g)}{_status_badge(g["status"])}</span>
@@ -986,6 +1118,7 @@ def _game_card_html(g):
           &middot; {html.escape(g["venue"] or "")}
         </span>
         {_game_line_html(g)}
+        <div class="live-tracker"></div>
       </summary>
       <div class="game-body">
         <div class="teams">
