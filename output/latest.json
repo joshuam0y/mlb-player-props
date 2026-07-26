@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-26T21:39:37.299485+00:00",
+  "generated_at": "2026-07-26T21:54:16.123213+00:00",
   "range": [
     "2026-07-26",
     "2026-07-28"
@@ -333,7 +333,8 @@
             "label": "Hits Allowed",
             "line": 4.5,
             "direction": "over",
-            "projection": 5.29
+            "projection": 5.29,
+            "result": "miss"
           },
           "opponent_matchup": {
             "tough_matchups": [
@@ -785,7 +786,8 @@
               "label": "Home Runs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.11
+              "projection": 0.11,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 4,
@@ -1209,7 +1211,8 @@
               "label": "Home Runs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.22
+              "projection": 0.22,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 4,
@@ -1640,7 +1643,8 @@
               "label": "Total Bases",
               "line": 2.5,
               "direction": "under",
-              "projection": 2.11
+              "projection": 2.11,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 4,
@@ -2071,7 +2075,8 @@
               "label": "Home Runs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.11
+              "projection": 0.11,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 3,
@@ -2495,7 +2500,8 @@
               "label": "Home Runs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.0
+              "projection": 0.0,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 3,
@@ -2926,7 +2932,8 @@
               "label": "Total Bases",
               "line": 1.5,
               "direction": "under",
-              "projection": 1.02
+              "projection": 1.02,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 3,
@@ -3357,7 +3364,8 @@
               "label": "Home Runs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.13
+              "projection": 0.13,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 3,
@@ -3788,7 +3796,8 @@
               "label": "Walks",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.07
+              "projection": 0.07,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 3,
@@ -4219,7 +4228,8 @@
               "label": "Home Runs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.11
+              "projection": 0.11,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 2,
@@ -4536,7 +4546,8 @@
             "label": "Runs Allowed",
             "line": 1.5,
             "direction": "over",
-            "projection": 1.77
+            "projection": 1.77,
+            "result": "miss"
           },
           "opponent_matchup": {
             "tough_matchups": [],
@@ -4986,7 +4997,8 @@
               "label": "Home Runs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.01
+              "projection": 0.01,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 4,
@@ -5417,7 +5429,8 @@
               "label": "Hits",
               "line": 0.5,
               "direction": "over",
-              "projection": 0.99
+              "projection": 0.99,
+              "result": "miss"
             },
             "game_result": {
               "at_bats": 4,
@@ -5848,7 +5861,8 @@
               "label": "Total Bases",
               "line": 2.5,
               "direction": "under",
-              "projection": 2.03
+              "projection": 2.03,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 2,
@@ -6279,7 +6293,8 @@
               "label": "Hits",
               "line": 0.5,
               "direction": "over",
-              "projection": 0.99
+              "projection": 0.99,
+              "result": "miss"
             },
             "game_result": {
               "at_bats": 4,
@@ -6710,7 +6725,8 @@
               "label": "Home Runs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.13
+              "projection": 0.13,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 3,
@@ -7141,7 +7157,8 @@
               "label": "Walks",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.09
+              "projection": 0.09,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 3,
@@ -7572,7 +7589,8 @@
               "label": "Total Bases",
               "line": 0.5,
               "direction": "over",
-              "projection": 0.96
+              "projection": 0.96,
+              "result": "miss"
             },
             "game_result": {
               "at_bats": 2,
@@ -7996,7 +8014,8 @@
               "label": "Total Bases",
               "line": 1.5,
               "direction": "under",
-              "projection": 1.1
+              "projection": 1.1,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 3,
@@ -8420,7 +8439,8 @@
               "label": "Walks",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.06
+              "projection": 0.06,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 1,
@@ -8782,7 +8802,8 @@
             "label": "Hits Allowed",
             "line": 5.5,
             "direction": "over",
-            "projection": 6.39
+            "projection": 6.39,
+            "result": "miss"
           },
           "opponent_matchup": {
             "tough_matchups": [],
@@ -9238,7 +9259,8 @@
               "label": "Runs Scored",
               "line": 0.5,
               "direction": "over",
-              "projection": 0.99
+              "projection": 0.99,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 4,
@@ -9669,7 +9691,8 @@
               "label": "Home Runs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.17
+              "projection": 0.17,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 2,
@@ -10100,7 +10123,8 @@
               "label": "Home Runs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.17
+              "projection": 0.17,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 5,
@@ -10531,7 +10555,8 @@
               "label": "RBIs",
               "line": 0.5,
               "direction": "over",
-              "projection": 0.98
+              "projection": 0.98,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 5,
@@ -10962,7 +10987,8 @@
               "label": "Home Runs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.18
+              "projection": 0.18,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 5,
@@ -11393,7 +11419,8 @@
               "label": "Home Runs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.08
+              "projection": 0.08,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 4,
@@ -11817,7 +11844,8 @@
               "label": "Home Runs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.18
+              "projection": 0.18,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 3,
@@ -12248,7 +12276,8 @@
               "label": "Hits",
               "line": 0.5,
               "direction": "over",
-              "projection": 0.9
+              "projection": 0.9,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 4,
@@ -12679,7 +12708,8 @@
               "label": "Home Runs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.01
+              "projection": 0.01,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 3,
@@ -12981,7 +13011,8 @@
             "label": "Strikeouts",
             "line": 4.5,
             "direction": "over",
-            "projection": 5.0
+            "projection": 5.0,
+            "result": "miss"
           },
           "opponent_matchup": {
             "tough_matchups": [],
@@ -13431,7 +13462,8 @@
               "label": "Hits",
               "line": 0.5,
               "direction": "over",
-              "projection": 0.92
+              "projection": 0.92,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 4,
@@ -13862,7 +13894,8 @@
               "label": "Home Runs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.11
+              "projection": 0.11,
+              "result": "miss"
             },
             "game_result": {
               "at_bats": 2,
@@ -14286,7 +14319,8 @@
               "label": "Home Runs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.08
+              "projection": 0.08,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 3,
@@ -14717,7 +14751,8 @@
               "label": "Hits",
               "line": 0.5,
               "direction": "over",
-              "projection": 1.08
+              "projection": 1.08,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 5,
@@ -15148,7 +15183,8 @@
               "label": "Home Runs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.13
+              "projection": 0.13,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 3,
@@ -15579,7 +15615,8 @@
               "label": "Hits",
               "line": 0.5,
               "direction": "over",
-              "projection": 0.88
+              "projection": 0.88,
+              "result": "miss"
             },
             "game_result": {
               "at_bats": 4,
@@ -16010,7 +16047,8 @@
               "label": "Total Bases",
               "line": 0.5,
               "direction": "over",
-              "projection": 1.15
+              "projection": 1.15,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 3,
@@ -16441,7 +16479,8 @@
               "label": "Hits",
               "line": 1.5,
               "direction": "under",
-              "projection": 1.01
+              "projection": 1.01,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 3,
@@ -16872,7 +16911,8 @@
               "label": "Home Runs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.13
+              "projection": 0.13,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 4,
@@ -17245,7 +17285,8 @@
             "label": "Hits Allowed",
             "line": 5.5,
             "direction": "over",
-            "projection": 6.2
+            "projection": 6.2,
+            "result": "hit"
           },
           "opponent_matchup": {
             "tough_matchups": [],
@@ -17695,7 +17736,8 @@
               "label": "Hits",
               "line": 0.5,
               "direction": "over",
-              "projection": 1.0
+              "projection": 1.0,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 4,
@@ -18119,7 +18161,8 @@
               "label": "Hits",
               "line": 0.5,
               "direction": "over",
-              "projection": 0.94
+              "projection": 0.94,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 4,
@@ -18543,7 +18586,8 @@
               "label": "Home Runs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.13
+              "projection": 0.13,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 4,
@@ -18974,7 +19018,8 @@
               "label": "RBIs",
               "line": 1.5,
               "direction": "under",
-              "projection": 1.02
+              "projection": 1.02,
+              "result": "miss"
             },
             "game_result": {
               "at_bats": 3,
@@ -19398,7 +19443,8 @@
               "label": "Hits",
               "line": 0.5,
               "direction": "over",
-              "projection": 0.97
+              "projection": 0.97,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 2,
@@ -19829,7 +19875,8 @@
               "label": "Home Runs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.09
+              "projection": 0.09,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 4,
@@ -20260,7 +20307,8 @@
               "label": "Home Runs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.12
+              "projection": 0.12,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 4,
@@ -20552,7 +20600,8 @@
               "label": "Hits",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.0
+              "projection": 0.0,
+              "result": "miss"
             },
             "game_result": {
               "at_bats": 4,
@@ -20983,7 +21032,8 @@
               "label": "Total Bases",
               "line": 0.5,
               "direction": "over",
-              "projection": 1.0
+              "projection": 1.0,
+              "result": "miss"
             },
             "game_result": {
               "at_bats": 3,
@@ -21326,7 +21376,8 @@
             "label": "Walks Allowed",
             "line": 1.5,
             "direction": "over",
-            "projection": 1.88
+            "projection": 1.88,
+            "result": "hit"
           },
           "opponent_matchup": {
             "tough_matchups": [],
@@ -21769,7 +21820,8 @@
               "label": "Hits",
               "line": 1.5,
               "direction": "under",
-              "projection": 1.11
+              "projection": 1.11,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 5,
@@ -22193,7 +22245,8 @@
               "label": "Hits",
               "line": 0.5,
               "direction": "over",
-              "projection": 1.0
+              "projection": 1.0,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 5,
@@ -22624,7 +22677,8 @@
               "label": "Hits",
               "line": 1.5,
               "direction": "under",
-              "projection": 1.05
+              "projection": 1.05,
+              "result": "miss"
             },
             "game_result": {
               "at_bats": 4,
@@ -23055,7 +23109,8 @@
               "label": "Home Runs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.13
+              "projection": 0.13,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 5,
@@ -23486,7 +23541,8 @@
               "label": "Hits",
               "line": 1.5,
               "direction": "under",
-              "projection": 1.01
+              "projection": 1.01,
+              "result": "miss"
             },
             "game_result": {
               "at_bats": 4,
@@ -23917,7 +23973,8 @@
               "label": "Home Runs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.18
+              "projection": 0.18,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 3,
@@ -24348,7 +24405,8 @@
               "label": "Home Runs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.1
+              "projection": 0.1,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 4,
@@ -24779,7 +24837,8 @@
               "label": "Home Runs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.02
+              "projection": 0.02,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 4,
@@ -25210,7 +25269,8 @@
               "label": "Home Runs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.1
+              "projection": 0.1,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 4,
@@ -25572,7 +25632,8 @@
             "label": "Strikeouts",
             "line": 6.5,
             "direction": "under",
-            "projection": 6.14
+            "projection": 6.14,
+            "result": "hit"
           },
           "opponent_matchup": {
             "tough_matchups": [],
@@ -26022,7 +26083,8 @@
               "label": "Home Runs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.09
+              "projection": 0.09,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 3,
@@ -26453,7 +26515,8 @@
               "label": "Hits",
               "line": 1.5,
               "direction": "under",
-              "projection": 1.1
+              "projection": 1.1,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 4,
@@ -26884,7 +26947,8 @@
               "label": "Hits",
               "line": 0.5,
               "direction": "over",
-              "projection": 0.88
+              "projection": 0.88,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 4,
@@ -27308,7 +27372,8 @@
               "label": "Total Bases",
               "line": 2.5,
               "direction": "under",
-              "projection": 2.04
+              "projection": 2.04,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 3,
@@ -27739,7 +27804,8 @@
               "label": "Home Runs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.12
+              "projection": 0.12,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 4,
@@ -28170,7 +28236,8 @@
               "label": "Home Runs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.06
+              "projection": 0.06,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 3,
@@ -28601,7 +28668,8 @@
               "label": "Home Runs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.08
+              "projection": 0.08,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 4,
@@ -29025,7 +29093,8 @@
               "label": "Home Runs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.1
+              "projection": 0.1,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 3,
@@ -29456,7 +29525,8 @@
               "label": "Home Runs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.06
+              "projection": 0.06,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 1,
@@ -29787,7 +29857,8 @@
             "label": "Hits Allowed",
             "line": 5.5,
             "direction": "over",
-            "projection": 6.49
+            "projection": 6.49,
+            "result": "miss"
           },
           "opponent_matchup": {
             "tough_matchups": [],
@@ -30237,7 +30308,8 @@
               "label": "Hits",
               "line": 0.5,
               "direction": "over",
-              "projection": 0.96
+              "projection": 0.96,
+              "result": "miss"
             },
             "game_result": {
               "at_bats": 4,
@@ -30668,7 +30740,8 @@
               "label": "Hits",
               "line": 1.5,
               "direction": "under",
-              "projection": 1.02
+              "projection": 1.02,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 4,
@@ -31099,7 +31172,8 @@
               "label": "Home Runs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.08
+              "projection": 0.08,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 4,
@@ -31530,7 +31604,8 @@
               "label": "Hits",
               "line": 0.5,
               "direction": "over",
-              "projection": 0.96
+              "projection": 0.96,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 4,
@@ -31961,7 +32036,8 @@
               "label": "Home Runs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.05
+              "projection": 0.05,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 3,
@@ -32385,7 +32461,8 @@
               "label": "Hits",
               "line": 0.5,
               "direction": "over",
-              "projection": 0.76
+              "projection": 0.76,
+              "result": "miss"
             },
             "game_result": {
               "at_bats": 4,
@@ -32816,7 +32893,8 @@
               "label": "Home Runs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.07
+              "projection": 0.07,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 4,
@@ -33240,7 +33318,8 @@
               "label": "Home Runs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.04
+              "projection": 0.04,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 4,
@@ -33664,7 +33743,8 @@
               "label": "Home Runs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.09
+              "projection": 0.09,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 2,
@@ -34038,7 +34118,8 @@
             "label": "Walks Allowed",
             "line": 1.5,
             "direction": "over",
-            "projection": 1.9
+            "projection": 1.9,
+            "result": "hit"
           },
           "opponent_matchup": {
             "tough_matchups": [],
@@ -34496,7 +34577,8 @@
               "label": "Home Runs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.02
+              "projection": 0.02,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 4,
@@ -34927,7 +35009,8 @@
               "label": "Hits",
               "line": 0.5,
               "direction": "over",
-              "projection": 0.87
+              "projection": 0.87,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 4,
@@ -35358,7 +35441,8 @@
               "label": "Hits",
               "line": 0.5,
               "direction": "over",
-              "projection": 0.9
+              "projection": 0.9,
+              "result": "miss"
             },
             "game_result": {
               "at_bats": 5,
@@ -35789,7 +35873,8 @@
               "label": "Hits",
               "line": 0.5,
               "direction": "over",
-              "projection": 0.91
+              "projection": 0.91,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 5,
@@ -36220,7 +36305,8 @@
               "label": "Walks",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.15
+              "projection": 0.15,
+              "result": "miss"
             },
             "game_result": {
               "at_bats": 3,
@@ -36651,7 +36737,8 @@
               "label": "Home Runs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.05
+              "projection": 0.05,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 2,
@@ -37082,7 +37169,8 @@
               "label": "Total Bases",
               "line": 0.5,
               "direction": "over",
-              "projection": 0.96
+              "projection": 0.96,
+              "result": "miss"
             },
             "game_result": {
               "at_bats": 4,
@@ -37513,7 +37601,8 @@
               "label": "Total Bases",
               "line": 0.5,
               "direction": "over",
-              "projection": 0.97
+              "projection": 0.97,
+              "result": "miss"
             },
             "game_result": {
               "at_bats": 3,
@@ -37937,7 +38026,8 @@
               "label": "Home Runs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.0
+              "projection": 0.0,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 3,
@@ -38285,7 +38375,8 @@
             "label": "Strikeouts",
             "line": 3.5,
             "direction": "under",
-            "projection": 2.92
+            "projection": 2.92,
+            "result": "miss"
           },
           "opponent_matchup": {
             "tough_matchups": [],
@@ -38728,7 +38819,8 @@
               "label": "RBIs",
               "line": 0.5,
               "direction": "over",
-              "projection": 0.88
+              "projection": 0.88,
+              "result": "miss"
             },
             "game_result": {
               "at_bats": 3,
@@ -39159,7 +39251,8 @@
               "label": "Hits",
               "line": 0.5,
               "direction": "over",
-              "projection": 1.11
+              "projection": 1.11,
+              "result": "miss"
             },
             "game_result": {
               "at_bats": 6,
@@ -39590,7 +39683,8 @@
               "label": "Total Bases",
               "line": 1.5,
               "direction": "over",
-              "projection": 2.16
+              "projection": 2.16,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 5,
@@ -40021,7 +40115,8 @@
               "label": "Walks",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.11
+              "projection": 0.11,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 5,
@@ -40452,7 +40547,8 @@
               "label": "Hits",
               "line": 0.5,
               "direction": "over",
-              "projection": 0.95
+              "projection": 0.95,
+              "result": "miss"
             },
             "game_result": {
               "at_bats": 4,
@@ -40883,7 +40979,8 @@
               "label": "Total Bases",
               "line": 0.5,
               "direction": "over",
-              "projection": 0.97
+              "projection": 0.97,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 5,
@@ -41314,7 +41411,8 @@
               "label": "Hits",
               "line": 0.5,
               "direction": "over",
-              "projection": 0.87
+              "projection": 0.87,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 4,
@@ -41745,7 +41843,8 @@
               "label": "Home Runs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.11
+              "projection": 0.11,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 2,
@@ -42176,7 +42275,8 @@
               "label": "Hits",
               "line": 0.5,
               "direction": "over",
-              "projection": 1.01
+              "projection": 1.01,
+              "result": "miss"
             },
             "game_result": {
               "at_bats": 2,
@@ -42524,7 +42624,8 @@
             "label": "Runs Allowed",
             "line": 2.5,
             "direction": "over",
-            "projection": 3.24
+            "projection": 3.24,
+            "result": "miss"
           },
           "opponent_matchup": {
             "tough_matchups": [],
@@ -42981,7 +43082,8 @@
               "label": "Hits",
               "line": 1.5,
               "direction": "under",
-              "projection": 1.02
+              "projection": 1.02,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 3,
@@ -43412,7 +43514,8 @@
               "label": "Home Runs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.13
+              "projection": 0.13,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 5,
@@ -43843,7 +43946,8 @@
               "label": "Hits",
               "line": 1.5,
               "direction": "under",
-              "projection": 1.01
+              "projection": 1.01,
+              "result": "miss"
             },
             "game_result": {
               "at_bats": 4,
@@ -44267,7 +44371,8 @@
               "label": "Hits",
               "line": 0.5,
               "direction": "over",
-              "projection": 0.99
+              "projection": 0.99,
+              "result": "miss"
             },
             "game_result": {
               "at_bats": 2,
@@ -44691,7 +44796,8 @@
               "label": "Home Runs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.05
+              "projection": 0.05,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 3,
@@ -45122,7 +45228,8 @@
               "label": "Home Runs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.1
+              "projection": 0.1,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 2,
@@ -45546,7 +45653,8 @@
               "label": "Home Runs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.18
+              "projection": 0.18,
+              "result": "miss"
             },
             "game_result": {
               "at_bats": 3,
@@ -45977,7 +46085,8 @@
               "label": "Home Runs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.12
+              "projection": 0.12,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 3,
@@ -46401,7 +46510,8 @@
               "label": "Home Runs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.05
+              "projection": 0.05,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 4,
@@ -46738,7 +46848,8 @@
             "label": "Runs Allowed",
             "line": 2.5,
             "direction": "over",
-            "projection": 3.24
+            "projection": 3.24,
+            "result": "miss"
           },
           "opponent_matchup": {
             "tough_matchups": [],
@@ -47188,7 +47299,8 @@
               "label": "Hits",
               "line": 1.5,
               "direction": "under",
-              "projection": 1.21
+              "projection": 1.21,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 4,
@@ -47619,7 +47731,8 @@
               "label": "Hits",
               "line": 0.5,
               "direction": "over",
-              "projection": 0.96
+              "projection": 0.96,
+              "result": "miss"
             },
             "game_result": {
               "at_bats": 4,
@@ -48043,7 +48156,8 @@
               "label": "Total Bases",
               "line": 1.5,
               "direction": "over",
-              "projection": 1.95
+              "projection": 1.95,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 4,
@@ -48467,7 +48581,8 @@
               "label": "Hits",
               "line": 0.5,
               "direction": "over",
-              "projection": 0.9
+              "projection": 0.9,
+              "result": "miss"
             },
             "game_result": {
               "at_bats": 3,
@@ -48891,7 +49006,8 @@
               "label": "Home Runs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.17
+              "projection": 0.17,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 4,
@@ -49322,7 +49438,8 @@
               "label": "Hits",
               "line": 0.5,
               "direction": "over",
-              "projection": 1.14
+              "projection": 1.14,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 4,
@@ -49753,7 +49870,8 @@
               "label": "Hits",
               "line": 0.5,
               "direction": "over",
-              "projection": 0.94
+              "projection": 0.94,
+              "result": "miss"
             },
             "game_result": {
               "at_bats": 3,
@@ -50184,7 +50302,8 @@
               "label": "Home Runs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.07
+              "projection": 0.07,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 4,
@@ -50576,7 +50695,8 @@
               "label": "Home Runs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.0
+              "projection": 0.0,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 2,
@@ -50938,7 +51058,8 @@
             "label": "Runs Allowed",
             "line": 3.5,
             "direction": "over",
-            "projection": 4.0
+            "projection": 4.0,
+            "result": "miss"
           },
           "opponent_matchup": {
             "tough_matchups": [
@@ -51399,7 +51520,8 @@
               "label": "Total Bases",
               "line": 1.5,
               "direction": "over",
-              "projection": 1.98
+              "projection": 1.98,
+              "result": "miss"
             },
             "game_result": {
               "at_bats": 4,
@@ -51830,7 +51952,8 @@
               "label": "Hits",
               "line": 0.5,
               "direction": "over",
-              "projection": 0.9
+              "projection": 0.9,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 4,
@@ -52261,7 +52384,8 @@
               "label": "Total Bases",
               "line": 1.5,
               "direction": "over",
-              "projection": 1.98
+              "projection": 1.98,
+              "result": "miss"
             },
             "game_result": {
               "at_bats": 4,
@@ -52685,7 +52809,8 @@
               "label": "Home Runs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.04
+              "projection": 0.04,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 4,
@@ -53116,7 +53241,8 @@
               "label": "Hits",
               "line": 0.5,
               "direction": "over",
-              "projection": 1.1
+              "projection": 1.1,
+              "result": "miss"
             },
             "game_result": {
               "at_bats": 2,
@@ -53547,7 +53673,8 @@
               "label": "Hits",
               "line": 0.5,
               "direction": "over",
-              "projection": 0.89
+              "projection": 0.89,
+              "result": "miss"
             },
             "game_result": {
               "at_bats": 1,
@@ -53978,7 +54105,8 @@
               "label": "Home Runs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.07
+              "projection": 0.07,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 2,
@@ -54409,7 +54537,8 @@
               "label": "Home Runs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.02
+              "projection": 0.02,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 2,
@@ -54840,7 +54969,8 @@
               "label": "Walks",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.17
+              "projection": 0.17,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 3,
@@ -55177,7 +55307,8 @@
             "label": "Strikeouts",
             "line": 4.5,
             "direction": "under",
-            "projection": 3.64
+            "projection": 3.64,
+            "result": "miss"
           },
           "opponent_matchup": {
             "tough_matchups": [],
@@ -55627,7 +55758,8 @@
               "label": "Hits",
               "line": 1.5,
               "direction": "under",
-              "projection": 0.92
+              "projection": 0.92,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 5,
@@ -56058,7 +56190,8 @@
               "label": "Home Runs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.07
+              "projection": 0.07,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 5,
@@ -56482,7 +56615,8 @@
               "label": "Hits",
               "line": 0.5,
               "direction": "over",
-              "projection": 0.8
+              "projection": 0.8,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 5,
@@ -56906,7 +57040,8 @@
               "label": "Total Bases",
               "line": 2.5,
               "direction": "under",
-              "projection": 1.84
+              "projection": 1.84,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 4,
@@ -57337,7 +57472,8 @@
               "label": "Hits",
               "line": 0.5,
               "direction": "over",
-              "projection": 1.13
+              "projection": 1.13,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 4,
@@ -57761,7 +57897,8 @@
               "label": "Hits",
               "line": 0.5,
               "direction": "over",
-              "projection": 0.98
+              "projection": 0.98,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 4,
@@ -58192,7 +58329,8 @@
               "label": "Total Bases",
               "line": 0.5,
               "direction": "over",
-              "projection": 0.94
+              "projection": 0.94,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 4,
@@ -58623,7 +58761,8 @@
               "label": "Total Bases",
               "line": 1.5,
               "direction": "under",
-              "projection": 0.92
+              "projection": 0.92,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 4,
@@ -59054,7 +59193,8 @@
               "label": "Home Runs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.01
+              "projection": 0.01,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 4,
@@ -59416,7 +59556,8 @@
             "label": "Hits Allowed",
             "line": 5.5,
             "direction": "over",
-            "projection": 6.3
+            "projection": 6.3,
+            "result": "miss"
           },
           "opponent_matchup": {
             "tough_matchups": [],
@@ -59859,7 +60000,8 @@
               "label": "Home Runs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.12
+              "projection": 0.12,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 4,
@@ -60290,7 +60432,8 @@
               "label": "Home Runs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.12
+              "projection": 0.12,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 4,
@@ -60721,7 +60864,8 @@
               "label": "Hits",
               "line": 1.5,
               "direction": "under",
-              "projection": 1.05
+              "projection": 1.05,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 5,
@@ -61152,7 +61296,8 @@
               "label": "Hits",
               "line": 0.5,
               "direction": "over",
-              "projection": 1.08
+              "projection": 1.08,
+              "result": "miss"
             },
             "game_result": {
               "at_bats": 5,
@@ -61583,7 +61728,8 @@
               "label": "Hits",
               "line": 0.5,
               "direction": "over",
-              "projection": 0.97
+              "projection": 0.97,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 3,
@@ -62007,7 +62153,8 @@
               "label": "Total Bases",
               "line": 0.5,
               "direction": "over",
-              "projection": 0.98
+              "projection": 0.98,
+              "result": "miss"
             },
             "game_result": {
               "at_bats": 2,
@@ -62438,7 +62585,8 @@
               "label": "Home Runs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.24
+              "projection": 0.24,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 2,
@@ -62869,7 +63017,8 @@
               "label": "Home Runs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.07
+              "projection": 0.07,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 4,
@@ -63300,7 +63449,8 @@
               "label": "Walks",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.13
+              "projection": 0.13,
+              "result": "miss"
             },
             "game_result": {
               "at_bats": 3,
@@ -63630,7 +63780,8 @@
             "label": "Runs Allowed",
             "line": 1.5,
             "direction": "over",
-            "projection": 1.95
+            "projection": 1.95,
+            "result": "hit"
           },
           "opponent_matchup": {
             "tough_matchups": [],
@@ -64086,7 +64237,8 @@
               "label": "Home Runs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.14
+              "projection": 0.14,
+              "result": "miss"
             },
             "game_result": {
               "at_bats": 4,
@@ -64517,7 +64669,8 @@
               "label": "Hits",
               "line": 0.5,
               "direction": "over",
-              "projection": 0.9
+              "projection": 0.9,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 5,
@@ -64941,7 +65094,8 @@
               "label": "Hits",
               "line": 0.5,
               "direction": "over",
-              "projection": 0.81
+              "projection": 0.81,
+              "result": "miss"
             },
             "game_result": {
               "at_bats": 3,
@@ -65372,7 +65526,8 @@
               "label": "Hits",
               "line": 0.5,
               "direction": "over",
-              "projection": 0.88
+              "projection": 0.88,
+              "result": "miss"
             },
             "game_result": {
               "at_bats": 5,
@@ -65803,7 +65958,8 @@
               "label": "Home Runs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.01
+              "projection": 0.01,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 4,
@@ -66234,7 +66390,8 @@
               "label": "Home Runs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.09
+              "projection": 0.09,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 3,
@@ -66658,7 +66815,8 @@
               "label": "Walks",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.06
+              "projection": 0.06,
+              "result": "miss"
             },
             "game_result": {
               "at_bats": 1,
@@ -67089,7 +67247,8 @@
               "label": "RBIs",
               "line": 0.5,
               "direction": "over",
-              "projection": 0.79
+              "projection": 0.79,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 2,
@@ -67513,7 +67672,8 @@
               "label": "Home Runs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.0
+              "projection": 0.0,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 4,
@@ -67556,7 +67716,7 @@
       "game_pk": 823678,
       "date": "2026-07-26",
       "game_time_utc": "2026-07-26T18:10:00Z",
-      "status": "Game Over",
+      "status": "Final",
       "venue": "Target Field",
       "park_factor": "neutral",
       "home_score": 11,
@@ -67887,7 +68047,8 @@
             "label": "Runs Allowed",
             "line": 2.5,
             "direction": "over",
-            "projection": 2.83
+            "projection": 2.83,
+            "result": "miss"
           },
           "opponent_matchup": {
             "tough_matchups": [],
@@ -68330,7 +68491,8 @@
               "label": "Home Runs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.01
+              "projection": 0.01,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 3,
@@ -68754,7 +68916,8 @@
               "label": "Total Bases",
               "line": 1.5,
               "direction": "over",
-              "projection": 2.26
+              "projection": 2.26,
+              "result": "miss"
             },
             "game_result": {
               "at_bats": 5,
@@ -69178,7 +69341,8 @@
               "label": "Total Bases",
               "line": 1.5,
               "direction": "over",
-              "projection": 2.13
+              "projection": 2.13,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 5,
@@ -69609,7 +69773,8 @@
               "label": "Hits",
               "line": 0.5,
               "direction": "over",
-              "projection": 0.86
+              "projection": 0.86,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 5,
@@ -70033,7 +70198,8 @@
               "label": "Home Runs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.17
+              "projection": 0.17,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 5,
@@ -70464,7 +70630,8 @@
               "label": "Hits",
               "line": 0.5,
               "direction": "over",
-              "projection": 1.03
+              "projection": 1.03,
+              "result": "miss"
             },
             "game_result": {
               "at_bats": 3,
@@ -70895,7 +71062,8 @@
               "label": "Home Runs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.06
+              "projection": 0.06,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 3,
@@ -71319,7 +71487,8 @@
               "label": "Hits",
               "line": 0.5,
               "direction": "over",
-              "projection": 1.09
+              "projection": 1.09,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 3,
@@ -71750,7 +71919,8 @@
               "label": "Total Bases",
               "line": 0.5,
               "direction": "over",
-              "projection": 0.95
+              "projection": 0.95,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 4,
@@ -72093,7 +72263,8 @@
             "label": "Strikeouts",
             "line": 4.5,
             "direction": "under",
-            "projection": 3.62
+            "projection": 3.62,
+            "result": "hit"
           },
           "opponent_matchup": {
             "tough_matchups": [],
@@ -72552,7 +72723,8 @@
               "label": "Walks",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.13
+              "projection": 0.13,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 4,
@@ -72976,7 +73148,8 @@
               "label": "Home Runs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.16
+              "projection": 0.16,
+              "result": "miss"
             },
             "game_result": {
               "at_bats": 3,
@@ -73407,7 +73580,8 @@
               "label": "Home Runs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.15
+              "projection": 0.15,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 4,
@@ -73838,7 +74012,8 @@
               "label": "Hits",
               "line": 0.5,
               "direction": "over",
-              "projection": 0.91
+              "projection": 0.91,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 4,
@@ -74218,7 +74393,8 @@
               "label": "Home Runs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.0
+              "projection": 0.0,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 4,
@@ -74642,7 +74818,8 @@
               "label": "Walks",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.05
+              "projection": 0.05,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 2,
@@ -75073,7 +75250,8 @@
               "label": "Total Bases",
               "line": 0.5,
               "direction": "over",
-              "projection": 0.99
+              "projection": 0.99,
+              "result": "miss"
             },
             "game_result": {
               "at_bats": 2,
@@ -75504,7 +75682,8 @@
               "label": "Home Runs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.05
+              "projection": 0.05,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 3,
@@ -75928,7 +76107,8 @@
               "label": "Home Runs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.06
+              "projection": 0.06,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 2,
@@ -76326,7 +76506,8 @@
             "label": "Strikeouts",
             "line": 8.5,
             "direction": "over",
-            "projection": 8.82
+            "projection": 8.82,
+            "result": "hit"
           },
           "opponent_matchup": {
             "tough_matchups": [
@@ -76772,7 +76953,8 @@
               "label": "Home Runs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.13
+              "projection": 0.13,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 5,
@@ -77203,7 +77385,8 @@
               "label": "Hits",
               "line": 1.5,
               "direction": "under",
-              "projection": 1.02
+              "projection": 1.02,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 4,
@@ -77634,7 +77817,8 @@
               "label": "Home Runs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.06
+              "projection": 0.06,
+              "result": "miss"
             },
             "game_result": {
               "at_bats": 4,
@@ -78058,7 +78242,8 @@
               "label": "Hits",
               "line": 0.5,
               "direction": "over",
-              "projection": 1.0
+              "projection": 1.0,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 5,
@@ -78489,7 +78674,8 @@
               "label": "Home Runs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.17
+              "projection": 0.17,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 3,
@@ -78920,7 +79106,8 @@
               "label": "Total Bases",
               "line": 0.5,
               "direction": "over",
-              "projection": 1.1
+              "projection": 1.1,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 3,
@@ -79344,7 +79531,8 @@
               "label": "Home Runs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.0
+              "projection": 0.0,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 4,
@@ -79775,7 +79963,8 @@
               "label": "Home Runs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.11
+              "projection": 0.11,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 4,
@@ -80199,7 +80388,8 @@
               "label": "Hits",
               "line": 0.5,
               "direction": "over",
-              "projection": 0.91
+              "projection": 0.91,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 4,
@@ -80548,7 +80738,8 @@
             "label": "Walks Allowed",
             "line": 0.5,
             "direction": "over",
-            "projection": 1.05
+            "projection": 1.05,
+            "result": "hit"
           },
           "opponent_matchup": {
             "tough_matchups": [],
@@ -81006,7 +81197,8 @@
               "label": "Hits",
               "line": 1.5,
               "direction": "under",
-              "projection": 1.08
+              "projection": 1.08,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 4,
@@ -81437,7 +81629,8 @@
               "label": "Hits",
               "line": 0.5,
               "direction": "over",
-              "projection": 0.91
+              "projection": 0.91,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 4,
@@ -81868,7 +82061,8 @@
               "label": "Total Bases",
               "line": 2.5,
               "direction": "under",
-              "projection": 1.77
+              "projection": 1.77,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 3,
@@ -82299,7 +82493,8 @@
               "label": "Hits",
               "line": 1.5,
               "direction": "under",
-              "projection": 1.0
+              "projection": 1.0,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 4,
@@ -82723,7 +82918,8 @@
               "label": "Home Runs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.11
+              "projection": 0.11,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 4,
@@ -83154,7 +83350,8 @@
               "label": "Home Runs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.06
+              "projection": 0.06,
+              "result": "miss"
             },
             "game_result": {
               "at_bats": 4,
@@ -83585,7 +83782,8 @@
               "label": "Home Runs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.14
+              "projection": 0.14,
+              "result": "miss"
             },
             "game_result": {
               "at_bats": 2,
@@ -84016,7 +84214,8 @@
               "label": "Total Bases",
               "line": 0.5,
               "direction": "over",
-              "projection": 0.98
+              "projection": 0.98,
+              "result": "miss"
             },
             "game_result": {
               "at_bats": 3,
@@ -84447,7 +84646,8 @@
               "label": "Home Runs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.05
+              "projection": 0.05,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 3,
@@ -84809,7 +85009,8 @@
             "label": "Strikeouts",
             "line": 3.5,
             "direction": "over",
-            "projection": 3.76
+            "projection": 3.76,
+            "result": "miss"
           },
           "opponent_matchup": {
             "tough_matchups": [],
@@ -85263,7 +85464,8 @@
               "label": "Hits",
               "line": 0.5,
               "direction": "over",
-              "projection": 0.91
+              "projection": 0.91,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 2,
@@ -85694,7 +85896,8 @@
               "label": "Walks",
               "line": 0.5,
               "direction": "over",
-              "projection": 0.82
+              "projection": 0.82,
+              "result": "miss"
             },
             "game_result": {
               "at_bats": 5,
@@ -86125,7 +86328,8 @@
               "label": "Home Runs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.13
+              "projection": 0.13,
+              "result": "miss"
             },
             "game_result": {
               "at_bats": 5,
@@ -86556,7 +86760,8 @@
               "label": "Hits",
               "line": 0.5,
               "direction": "over",
-              "projection": 0.95
+              "projection": 0.95,
+              "result": "miss"
             },
             "game_result": {
               "at_bats": 2,
@@ -86987,7 +87192,8 @@
               "label": "Home Runs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.07
+              "projection": 0.07,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 4,
@@ -87418,7 +87624,8 @@
               "label": "Home Runs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.09
+              "projection": 0.09,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 4,
@@ -87849,7 +88056,8 @@
               "label": "Hits",
               "line": 1.5,
               "direction": "under",
-              "projection": 0.88
+              "projection": 0.88,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 3,
@@ -88280,7 +88488,8 @@
               "label": "Home Runs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.01
+              "projection": 0.01,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 4,
@@ -88704,7 +88913,8 @@
               "label": "Home Runs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.08
+              "projection": 0.08,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 3,
@@ -89035,7 +89245,8 @@
             "label": "Hits Allowed",
             "line": 2.5,
             "direction": "over",
-            "projection": 2.72
+            "projection": 2.72,
+            "result": "hit"
           },
           "opponent_matchup": {
             "tough_matchups": [
@@ -89489,7 +89700,8 @@
               "label": "Total Bases",
               "line": 1.5,
               "direction": "over",
-              "projection": 1.98
+              "projection": 1.98,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 4,
@@ -89913,7 +90125,8 @@
               "label": "RBIs",
               "line": 0.5,
               "direction": "over",
-              "projection": 0.82
+              "projection": 0.82,
+              "result": "miss"
             },
             "game_result": {
               "at_bats": 2,
@@ -90337,7 +90550,8 @@
               "label": "Hits",
               "line": 1.5,
               "direction": "under",
-              "projection": 1.08
+              "projection": 1.08,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 4,
@@ -90768,7 +90982,8 @@
               "label": "Hits",
               "line": 0.5,
               "direction": "over",
-              "projection": 0.97
+              "projection": 0.97,
+              "result": "miss"
             },
             "game_result": {
               "at_bats": 4,
@@ -91199,7 +91414,8 @@
               "label": "Total Bases",
               "line": 0.5,
               "direction": "over",
-              "projection": 1.03
+              "projection": 1.03,
+              "result": "miss"
             },
             "game_result": {
               "at_bats": 2,
@@ -91630,7 +91846,8 @@
               "label": "Walks",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.14
+              "projection": 0.14,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 4,
@@ -92054,7 +92271,8 @@
               "label": "Home Runs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.07
+              "projection": 0.07,
+              "result": "miss"
             },
             "game_result": {
               "at_bats": 4,
@@ -92485,7 +92703,8 @@
               "label": "Total Bases",
               "line": 1.5,
               "direction": "under",
-              "projection": 1.01
+              "projection": 1.01,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 3,
@@ -92916,7 +93135,8 @@
               "label": "Home Runs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.02
+              "projection": 0.02,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 4,
@@ -93284,7 +93504,8 @@
             "label": "Runs Allowed",
             "line": 1.5,
             "direction": "under",
-            "projection": 1.22
+            "projection": 1.22,
+            "result": "miss"
           },
           "opponent_matchup": {
             "tough_matchups": [],
@@ -93738,7 +93959,8 @@
               "label": "Hits",
               "line": 0.5,
               "direction": "over",
-              "projection": 0.89
+              "projection": 0.89,
+              "result": "miss"
             },
             "game_result": {
               "at_bats": 5,
@@ -94169,7 +94391,8 @@
               "label": "Total Bases",
               "line": 1.5,
               "direction": "over",
-              "projection": 1.91
+              "projection": 1.91,
+              "result": "miss"
             },
             "game_result": {
               "at_bats": 4,
@@ -94600,7 +94823,8 @@
               "label": "Home Runs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.09
+              "projection": 0.09,
+              "result": "miss"
             },
             "game_result": {
               "at_bats": 4,
@@ -95031,7 +95255,8 @@
               "label": "Home Runs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.11
+              "projection": 0.11,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 4,
@@ -95462,7 +95687,8 @@
               "label": "Home Runs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.02
+              "projection": 0.02,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 3,
@@ -95893,7 +96119,8 @@
               "label": "Home Runs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.06
+              "projection": 0.06,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 1,
@@ -96317,7 +96544,8 @@
               "label": "Total Bases",
               "line": 0.5,
               "direction": "over",
-              "projection": 0.89
+              "projection": 0.89,
+              "result": "miss"
             },
             "game_result": {
               "at_bats": 2,
@@ -96748,7 +96976,8 @@
               "label": "Home Runs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.02
+              "projection": 0.02,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 3,
@@ -97172,7 +97401,8 @@
               "label": "Home Runs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.04
+              "projection": 0.04,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 1,
@@ -97496,7 +97726,8 @@
             "label": "Hits Allowed",
             "line": 4.5,
             "direction": "over",
-            "projection": 4.92
+            "projection": 4.92,
+            "result": "miss"
           },
           "opponent_matchup": {
             "tough_matchups": [],
@@ -97946,7 +98177,8 @@
               "label": "Runs Scored",
               "line": 0.5,
               "direction": "over",
-              "projection": 0.83
+              "projection": 0.83,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 4,
@@ -98377,7 +98609,8 @@
               "label": "Hits",
               "line": 0.5,
               "direction": "over",
-              "projection": 0.87
+              "projection": 0.87,
+              "result": "miss"
             },
             "game_result": {
               "at_bats": 2,
@@ -98808,7 +99041,8 @@
               "label": "Hits",
               "line": 0.5,
               "direction": "over",
-              "projection": 0.99
+              "projection": 0.99,
+              "result": "miss"
             },
             "game_result": {
               "at_bats": 4,
@@ -99239,7 +99473,8 @@
               "label": "Hits",
               "line": 0.5,
               "direction": "over",
-              "projection": 0.8
+              "projection": 0.8,
+              "result": "miss"
             },
             "game_result": {
               "at_bats": 4,
@@ -99670,7 +99905,8 @@
               "label": "Hits",
               "line": 0.5,
               "direction": "over",
-              "projection": 0.83
+              "projection": 0.83,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 4,
@@ -100101,7 +100337,8 @@
               "label": "Home Runs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.03
+              "projection": 0.03,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 4,
@@ -100525,7 +100762,8 @@
               "label": "Total Bases",
               "line": 1.5,
               "direction": "under",
-              "projection": 1.08
+              "projection": 1.08,
+              "result": "miss"
             },
             "game_result": {
               "at_bats": 4,
@@ -100956,7 +101194,8 @@
               "label": "Walks",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.02
+              "projection": 0.02,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 3,
@@ -101380,7 +101619,8 @@
               "label": "Home Runs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.02
+              "projection": 0.02,
+              "result": "miss"
             },
             "game_result": {
               "at_bats": 2,
@@ -101417,33 +101657,30 @@
       "game_pk": 822870,
       "date": "2026-07-26",
       "game_time_utc": "2026-07-26T18:35:00Z",
-      "status": "In Progress",
+      "status": "Final",
       "venue": "Globe Life Field",
       "park_factor": "hitter",
-      "home_score": null,
-      "away_score": null,
-      "live_score": {
-        "home_runs": 3,
-        "away_runs": 5
-      },
+      "home_score": 4,
+      "away_score": 6,
+      "live_score": null,
       "projection": {
         "game_pk": 822870,
-        "generated_at": "2026-07-26T21:39:21.074444+00:00",
+        "generated_at": "2026-07-26T21:16:06.748990+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.57,
         "away_exp_runs": 3.58,
-        "home_win_prob": 0.501,
+        "home_win_prob": 0.503,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.325,
+        "spread_cover_prob": 0.332,
         "total_line": 6.5,
-        "over_prob": 0.503,
+        "over_prob": 0.512,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.675,
+        "spread_pick_prob": 0.668,
         "total_pick": "over",
-        "total_pick_prob": 0.503,
+        "total_pick_prob": 0.512,
         "spread_favorite": "home"
       },
       "home": {
@@ -101744,7 +101981,8 @@
             "label": "Strikeouts",
             "line": 7.5,
             "direction": "under",
-            "projection": 6.45
+            "projection": 6.45,
+            "result": "hit"
           },
           "opponent_matchup": {
             "tough_matchups": [],
@@ -102187,7 +102425,8 @@
               "label": "Hits",
               "line": 0.5,
               "direction": "over",
-              "projection": 0.81
+              "projection": 0.81,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 4,
@@ -102618,7 +102857,8 @@
               "label": "Runs Scored",
               "line": 0.5,
               "direction": "over",
-              "projection": 0.77
+              "projection": 0.77,
+              "result": "miss"
             },
             "game_result": {
               "at_bats": 3,
@@ -103042,7 +103282,8 @@
               "label": "Hits",
               "line": 0.5,
               "direction": "over",
-              "projection": 0.93
+              "projection": 0.93,
+              "result": "miss"
             },
             "game_result": {
               "at_bats": 2,
@@ -103473,7 +103714,8 @@
               "label": "Hits",
               "line": 1.5,
               "direction": "under",
-              "projection": 1.1
+              "projection": 1.1,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 3,
@@ -103904,7 +104146,8 @@
               "label": "Hits",
               "line": 0.5,
               "direction": "over",
-              "projection": 0.83
+              "projection": 0.83,
+              "result": "miss"
             },
             "game_result": {
               "at_bats": 2,
@@ -104328,7 +104571,8 @@
               "label": "Total Bases",
               "line": 0.5,
               "direction": "over",
-              "projection": 0.93
+              "projection": 0.93,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 2,
@@ -104759,7 +105003,8 @@
               "label": "Home Runs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.01
+              "projection": 0.01,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 3,
@@ -105190,7 +105435,8 @@
               "label": "Total Bases",
               "line": 1.5,
               "direction": "under",
-              "projection": 1.01
+              "projection": 1.01,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 2,
@@ -105614,7 +105860,8 @@
               "label": "Walks",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.05
+              "projection": 0.05,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 2,
@@ -105963,7 +106210,8 @@
             "label": "Walks Allowed",
             "line": 1.5,
             "direction": "under",
-            "projection": 1.15
+            "projection": 1.15,
+            "result": "miss"
           },
           "opponent_matchup": {
             "tough_matchups": [],
@@ -106413,7 +106661,8 @@
               "label": "Hits",
               "line": 0.5,
               "direction": "over",
-              "projection": 0.87
+              "projection": 0.87,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 4,
@@ -106844,7 +107093,8 @@
               "label": "Hits",
               "line": 1.5,
               "direction": "under",
-              "projection": 1.05
+              "projection": 1.05,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 4,
@@ -107275,7 +107525,8 @@
               "label": "Home Runs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.15
+              "projection": 0.15,
+              "result": "miss"
             },
             "game_result": {
               "at_bats": 4,
@@ -107706,7 +107957,8 @@
               "label": "Hits",
               "line": 0.5,
               "direction": "over",
-              "projection": 0.96
+              "projection": 0.96,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 4,
@@ -108137,7 +108389,8 @@
               "label": "Hits",
               "line": 1.5,
               "direction": "under",
-              "projection": 1.03
+              "projection": 1.03,
+              "result": "miss"
             },
             "game_result": {
               "at_bats": 4,
@@ -108561,7 +108814,8 @@
               "label": "Total Bases",
               "line": 1.5,
               "direction": "under",
-              "projection": 1.04
+              "projection": 1.04,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 3,
@@ -108992,7 +109246,8 @@
               "label": "Walks",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.09
+              "projection": 0.09,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 2,
@@ -109423,7 +109678,8 @@
               "label": "Home Runs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.07
+              "projection": 0.07,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 3,
@@ -109854,7 +110110,8 @@
               "label": "Total Bases",
               "line": 0.5,
               "direction": "over",
-              "projection": 0.95
+              "projection": 0.95,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 3,
@@ -109889,22 +110146,22 @@
       },
       "projection": {
         "game_pk": 823194,
-        "generated_at": "2026-07-26T21:39:21.074444+00:00",
+        "generated_at": "2026-07-26T21:53:51.473850+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.26,
         "away_exp_runs": 3.73,
-        "home_win_prob": 0.451,
+        "home_win_prob": 0.452,
         "spread_line": 1.5,
         "spread_cover_prob": 0.282,
         "total_line": 6.5,
-        "over_prob": 0.497,
+        "over_prob": 0.495,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
-        "spread_pick_prob": 0.626,
+        "spread_pick_prob": 0.63,
         "total_pick": "under",
-        "total_pick_prob": 0.503,
+        "total_pick_prob": 0.505,
         "spread_favorite": "away"
       },
       "home": {
@@ -110212,7 +110469,8 @@
             "label": "Strikeouts",
             "line": 2.5,
             "direction": "over",
-            "projection": 3.0
+            "projection": 3.0,
+            "result": "hit"
           },
           "opponent_matchup": {
             "tough_matchups": [
@@ -110673,7 +110931,8 @@
               "label": "Home Runs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.02
+              "projection": 0.02,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 2,
@@ -111104,7 +111363,8 @@
               "label": "Hits",
               "line": 1.5,
               "direction": "under",
-              "projection": 0.88
+              "projection": 0.88,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 1,
@@ -111535,7 +111795,8 @@
               "label": "Hits",
               "line": 0.5,
               "direction": "over",
-              "projection": 0.87
+              "projection": 0.87,
+              "result": "miss"
             },
             "game_result": {
               "at_bats": 2,
@@ -111966,7 +112227,8 @@
               "label": "Hits",
               "line": 0.5,
               "direction": "over",
-              "projection": 0.94
+              "projection": 0.94,
+              "result": "miss"
             },
             "game_result": {
               "at_bats": 0,
@@ -112390,7 +112652,8 @@
               "label": "Hits",
               "line": 0.5,
               "direction": "over",
-              "projection": 0.85
+              "projection": 0.85,
+              "result": "miss"
             },
             "game_result": {
               "at_bats": 1,
@@ -112821,7 +113084,8 @@
               "label": "Total Bases",
               "line": 1.5,
               "direction": "under",
-              "projection": 1.01
+              "projection": 1.01,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 1,
@@ -113252,7 +113516,8 @@
               "label": "Home Runs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.18
+              "projection": 0.18,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 1,
@@ -113683,7 +113948,8 @@
               "label": "Home Runs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.0
+              "projection": 0.0,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 1,
@@ -114114,7 +114380,8 @@
               "label": "Hits",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.0
+              "projection": 0.0,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 0,
@@ -114451,7 +114718,8 @@
             "label": "Strikeouts",
             "line": 5.5,
             "direction": "under",
-            "projection": 4.87
+            "projection": 4.87,
+            "result": "hit"
           },
           "opponent_matchup": {
             "tough_matchups": [
@@ -114905,7 +115173,8 @@
               "label": "Total Bases",
               "line": 1.5,
               "direction": "over",
-              "projection": 2.04
+              "projection": 2.04,
+              "result": "miss"
             },
             "game_result": {
               "at_bats": 2,
@@ -115336,7 +115605,8 @@
               "label": "Hits",
               "line": 0.5,
               "direction": "over",
-              "projection": 1.08
+              "projection": 1.08,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 2,
@@ -115767,7 +116037,8 @@
               "label": "Hits",
               "line": 0.5,
               "direction": "over",
-              "projection": 1.14
+              "projection": 1.14,
+              "result": "miss"
             },
             "game_result": {
               "at_bats": 1,
@@ -116191,7 +116462,8 @@
               "label": "Home Runs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.09
+              "projection": 0.09,
+              "result": "miss"
             },
             "game_result": {
               "at_bats": 2,
@@ -116622,7 +116894,8 @@
               "label": "Hits",
               "line": 1.5,
               "direction": "under",
-              "projection": 0.99
+              "projection": 0.99,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 1,
@@ -117053,7 +117326,8 @@
               "label": "Hits",
               "line": 0.5,
               "direction": "over",
-              "projection": 1.07
+              "projection": 1.07,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 2,
@@ -117484,7 +117758,8 @@
               "label": "Hits",
               "line": 0.5,
               "direction": "over",
-              "projection": 0.92
+              "projection": 0.92,
+              "result": "miss"
             },
             "game_result": {
               "at_bats": 2,
@@ -117908,7 +118183,8 @@
               "label": "Total Bases",
               "line": 0.5,
               "direction": "over",
-              "projection": 1.03
+              "projection": 1.03,
+              "result": "miss"
             },
             "game_result": {
               "at_bats": 1,
@@ -118339,7 +118615,8 @@
               "label": "Home Runs",
               "line": 0.5,
               "direction": "under",
-              "projection": 0.04
+              "projection": 0.04,
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 2,
@@ -118371,22 +118648,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 823433,
-        "generated_at": "2026-07-26T21:39:21.074444+00:00",
+        "generated_at": "2026-07-26T21:53:51.473850+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.71,
         "away_exp_runs": 3.31,
-        "home_win_prob": 0.541,
+        "home_win_prob": 0.539,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.365,
+        "spread_cover_prob": 0.362,
         "total_line": 6.5,
-        "over_prob": 0.503,
+        "over_prob": 0.5,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.635,
+        "spread_pick_prob": 0.638,
         "total_pick": "over",
-        "total_pick_prob": 0.503,
+        "total_pick_prob": 0.5,
         "spread_favorite": "home"
       },
       "home": {
@@ -126628,22 +126905,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 822868,
-        "generated_at": "2026-07-26T21:39:21.074444+00:00",
+        "generated_at": "2026-07-26T21:53:51.473850+00:00",
         "model_version": "v1-log5-negbinom",
-        "home_exp_runs": 3.73,
-        "away_exp_runs": 3.74,
-        "home_win_prob": 0.498,
+        "home_exp_runs": 3.71,
+        "away_exp_runs": 3.77,
+        "home_win_prob": 0.495,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.329,
+        "spread_cover_prob": 0.33,
         "total_line": 6.5,
-        "over_prob": 0.544,
+        "over_prob": 0.546,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
-        "spread_pick_prob": 0.664,
+        "spread_pick_prob": 0.661,
         "total_pick": "over",
-        "total_pick_prob": 0.544,
+        "total_pick_prob": 0.546,
         "spread_favorite": "away"
       },
       "home": {
@@ -126982,11 +127259,11 @@
           "fatigue_ratio": 0.99
         },
         "form": {
-          "streak": 2,
+          "streak": -1,
           "record_games": 10,
           "wins": 5,
           "losses": 5,
-          "run_diff": -13
+          "run_diff": -9
         },
         "batters": [
           {
@@ -131111,11 +131388,11 @@
           "fatigue_ratio": 0.91
         },
         "form": {
-          "streak": -4,
+          "streak": 1,
           "record_games": 10,
-          "wins": 4,
-          "losses": 6,
-          "run_diff": -5
+          "wins": 5,
+          "losses": 5,
+          "run_diff": 2
         },
         "batters": [
           {
@@ -134891,22 +135168,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 823353,
-        "generated_at": "2026-07-26T21:39:21.074444+00:00",
+        "generated_at": "2026-07-26T21:53:51.473850+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 5.66,
         "away_exp_runs": 4.84,
-        "home_win_prob": 0.559,
+        "home_win_prob": 0.561,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.429,
+        "spread_cover_prob": 0.43,
         "total_line": 10.5,
-        "over_prob": 0.451,
+        "over_prob": 0.447,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.571,
+        "spread_pick_prob": 0.57,
         "total_pick": "under",
-        "total_pick_prob": 0.549,
+        "total_pick_prob": 0.553,
         "spread_favorite": "home"
       },
       "home": {
@@ -143173,22 +143450,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 823839,
-        "generated_at": "2026-07-26T21:39:21.074444+00:00",
+        "generated_at": "2026-07-26T21:53:51.473850+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 2.73,
         "away_exp_runs": 3.36,
-        "home_win_prob": 0.432,
+        "home_win_prob": 0.43,
         "spread_line": 1.5,
         "spread_cover_prob": 0.248,
         "total_line": 6.5,
-        "over_prob": 0.403,
+        "over_prob": 0.399,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
-        "spread_pick_prob": 0.625,
+        "spread_pick_prob": 0.627,
         "total_pick": "under",
-        "total_pick_prob": 0.597,
+        "total_pick_prob": 0.601,
         "spread_favorite": "away"
       },
       "home": {
@@ -151441,22 +151718,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 824245,
-        "generated_at": "2026-07-26T21:39:21.074444+00:00",
+        "generated_at": "2026-07-26T21:53:51.473850+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.3,
         "away_exp_runs": 3.22,
-        "home_win_prob": 0.508,
+        "home_win_prob": 0.512,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.323,
+        "spread_cover_prob": 0.329,
         "total_line": 6.5,
-        "over_prob": 0.445,
+        "over_prob": 0.447,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.677,
+        "spread_pick_prob": 0.671,
         "total_pick": "under",
-        "total_pick_prob": 0.555,
+        "total_pick_prob": 0.553,
         "spread_favorite": "home"
       },
       "home": {
@@ -159691,22 +159968,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 822705,
-        "generated_at": "2026-07-26T21:39:21.074444+00:00",
+        "generated_at": "2026-07-26T21:53:51.473850+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 5.68,
         "away_exp_runs": 3.8,
-        "home_win_prob": 0.645,
+        "home_win_prob": 0.647,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.505,
+        "spread_cover_prob": 0.508,
         "total_line": 8.5,
-        "over_prob": 0.523,
+        "over_prob": 0.529,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "home",
-        "spread_pick_prob": 0.505,
+        "spread_pick_prob": 0.508,
         "total_pick": "over",
-        "total_pick_prob": 0.523,
+        "total_pick_prob": 0.529,
         "spread_favorite": "home"
       },
       "home": {
@@ -167678,22 +167955,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 823597,
-        "generated_at": "2026-07-26T21:39:21.074444+00:00",
+        "generated_at": "2026-07-26T21:53:51.473850+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.06,
         "away_exp_runs": 3.1,
-        "home_win_prob": 0.497,
+        "home_win_prob": 0.496,
         "spread_line": 1.5,
         "spread_cover_prob": 0.306,
         "total_line": 6.5,
-        "over_prob": 0.403,
+        "over_prob": 0.406,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
-        "spread_pick_prob": 0.692,
+        "spread_pick_prob": 0.687,
         "total_pick": "under",
-        "total_pick_prob": 0.597,
+        "total_pick_prob": 0.594,
         "spread_favorite": "away"
       },
       "home": {
@@ -175896,22 +176173,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 824490,
-        "generated_at": "2026-07-26T21:39:21.074444+00:00",
+        "generated_at": "2026-07-26T21:53:51.473850+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.9,
         "away_exp_runs": 2.64,
-        "home_win_prob": 0.633,
+        "home_win_prob": 0.634,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.452,
+        "spread_cover_prob": 0.446,
         "total_line": 6.5,
-        "over_prob": 0.45,
+        "over_prob": 0.448,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.548,
+        "spread_pick_prob": 0.554,
         "total_pick": "under",
-        "total_pick_prob": 0.55,
+        "total_pick_prob": 0.552,
         "spread_favorite": "home"
       },
       "home": {
@@ -184138,22 +184415,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 824570,
-        "generated_at": "2026-07-26T21:39:21.074444+00:00",
+        "generated_at": "2026-07-26T21:53:51.473850+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.07,
         "away_exp_runs": 4.92,
-        "home_win_prob": 0.337,
+        "home_win_prob": 0.335,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.2,
+        "spread_cover_prob": 0.198,
         "total_line": 6.5,
-        "over_prob": 0.59,
+        "over_prob": 0.589,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "away",
         "spread_pick_prob": 0.506,
         "total_pick": "over",
-        "total_pick_prob": 0.59,
+        "total_pick_prob": 0.589,
         "spread_favorite": "away"
       },
       "home": {
@@ -192393,22 +192670,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 823025,
-        "generated_at": "2026-07-26T21:39:21.074444+00:00",
+        "generated_at": "2026-07-26T21:53:51.473850+00:00",
         "model_version": "v1-log5-negbinom",
-        "home_exp_runs": 4.54,
-        "away_exp_runs": 5.24,
-        "home_win_prob": 0.447,
+        "home_exp_runs": 4.53,
+        "away_exp_runs": 5.23,
+        "home_win_prob": 0.446,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.315,
+        "spread_cover_prob": 0.312,
         "total_line": 8.5,
-        "over_prob": 0.552,
+        "over_prob": 0.551,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
-        "spread_pick_prob": 0.584,
+        "spread_pick_prob": 0.585,
         "total_pick": "over",
-        "total_pick_prob": 0.552,
+        "total_pick_prob": 0.551,
         "spread_favorite": "away"
       },
       "home": {
@@ -200312,22 +200589,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 824001,
-        "generated_at": "2026-07-26T21:39:21.074444+00:00",
+        "generated_at": "2026-07-26T21:53:51.473850+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.09,
         "away_exp_runs": 3.61,
-        "home_win_prob": 0.542,
+        "home_win_prob": 0.545,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.377,
+        "spread_cover_prob": 0.38,
         "total_line": 6.5,
-        "over_prob": 0.57,
+        "over_prob": 0.568,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.623,
+        "spread_pick_prob": 0.62,
         "total_pick": "over",
-        "total_pick_prob": 0.57,
+        "total_pick_prob": 0.568,
         "spread_favorite": "home"
       },
       "home": {
@@ -208550,22 +208827,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 824977,
-        "generated_at": "2026-07-26T21:39:21.074444+00:00",
+        "generated_at": "2026-07-26T21:53:51.473850+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.34,
         "away_exp_runs": 6.3,
-        "home_win_prob": 0.278,
+        "home_win_prob": 0.274,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.165,
+        "spread_cover_prob": 0.162,
         "total_line": 8.5,
-        "over_prob": 0.541,
+        "over_prob": 0.537,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "away",
-        "spread_pick_prob": 0.593,
+        "spread_pick_prob": 0.594,
         "total_pick": "over",
-        "total_pick_prob": 0.541,
+        "total_pick_prob": 0.537,
         "spread_favorite": "away"
       },
       "home": {
@@ -216815,22 +217092,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 823195,
-        "generated_at": "2026-07-26T21:39:21.074444+00:00",
+        "generated_at": "2026-07-26T21:53:51.473850+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.94,
         "away_exp_runs": 4.94,
-        "home_win_prob": 0.425,
+        "home_win_prob": 0.418,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.288,
+        "spread_cover_prob": 0.279,
         "total_line": 8.5,
-        "over_prob": 0.477,
+        "over_prob": 0.478,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
-        "spread_pick_prob": 0.572,
+        "spread_pick_prob": 0.566,
         "total_pick": "under",
-        "total_pick_prob": 0.523,
+        "total_pick_prob": 0.522,
         "spread_favorite": "away"
       },
       "home": {
@@ -225082,22 +225359,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 822949,
-        "generated_at": "2026-07-26T21:39:21.074444+00:00",
+        "generated_at": "2026-07-26T21:53:51.473850+00:00",
         "model_version": "v1-log5-negbinom",
-        "home_exp_runs": 5.17,
-        "away_exp_runs": 3.9,
-        "home_win_prob": 0.604,
+        "home_exp_runs": 5.23,
+        "away_exp_runs": 3.88,
+        "home_win_prob": 0.611,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.46,
+        "spread_cover_prob": 0.466,
         "total_line": 8.5,
-        "over_prob": 0.49,
+        "over_prob": 0.499,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.54,
+        "spread_pick_prob": 0.534,
         "total_pick": "under",
-        "total_pick_prob": 0.51,
+        "total_pick_prob": 0.501,
         "spread_favorite": "home"
       },
       "home": {
@@ -229180,11 +229457,11 @@
           "fatigue_ratio": 0.39
         },
         "form": {
-          "streak": 2,
+          "streak": -1,
           "record_games": 10,
           "wins": 5,
           "losses": 5,
-          "run_diff": -13
+          "run_diff": -9
         },
         "batters": [
           {
@@ -232992,22 +233269,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 823350,
-        "generated_at": "2026-07-26T21:39:21.074444+00:00",
+        "generated_at": "2026-07-26T21:53:51.473850+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 5.15,
         "away_exp_runs": 4.58,
-        "home_win_prob": 0.546,
+        "home_win_prob": 0.542,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.409,
+        "spread_cover_prob": 0.403,
         "total_line": 8.5,
-        "over_prob": 0.553,
+        "over_prob": 0.551,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.591,
+        "spread_pick_prob": 0.597,
         "total_pick": "over",
-        "total_pick_prob": 0.553,
+        "total_pick_prob": 0.551,
         "spread_favorite": "home"
       },
       "home": {
@@ -241273,22 +241550,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 823838,
-        "generated_at": "2026-07-26T21:39:21.074444+00:00",
+        "generated_at": "2026-07-26T21:53:51.473850+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.64,
         "away_exp_runs": 3.61,
-        "home_win_prob": 0.588,
+        "home_win_prob": 0.591,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.431,
+        "spread_cover_prob": 0.434,
         "total_line": 8.5,
-        "over_prob": 0.42,
+        "over_prob": 0.422,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.569,
+        "spread_pick_prob": 0.566,
         "total_pick": "under",
-        "total_pick_prob": 0.58,
+        "total_pick_prob": 0.578,
         "spread_favorite": "home"
       },
       "home": {
@@ -249533,7 +249810,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 824243,
-        "generated_at": "2026-07-26T21:39:21.074444+00:00",
+        "generated_at": "2026-07-26T21:53:51.473850+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.15,
         "away_exp_runs": 2.55,
@@ -249541,14 +249818,14 @@
         "spread_line": 1.5,
         "spread_cover_prob": 0.479,
         "total_line": 6.5,
-        "over_prob": 0.472,
+        "over_prob": 0.464,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
         "spread_pick_prob": 0.521,
         "total_pick": "under",
-        "total_pick_prob": 0.528,
+        "total_pick_prob": 0.536,
         "spread_favorite": "home"
       },
       "home": {
@@ -257789,22 +258066,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 822703,
-        "generated_at": "2026-07-26T21:39:21.074444+00:00",
+        "generated_at": "2026-07-26T21:53:51.473850+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 5.37,
         "away_exp_runs": 3.28,
-        "home_win_prob": 0.676,
+        "home_win_prob": 0.673,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.526,
+        "spread_cover_prob": 0.524,
         "total_line": 8.5,
-        "over_prob": 0.461,
+        "over_prob": 0.457,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "home",
-        "spread_pick_prob": 0.526,
+        "spread_pick_prob": 0.524,
         "total_pick": "under",
-        "total_pick_prob": 0.539,
+        "total_pick_prob": 0.543,
         "spread_favorite": "home"
       },
       "home": {
@@ -266052,11 +266329,11 @@
       "live_score": null,
       "projection": {
         "game_pk": 823598,
-        "generated_at": "2026-07-26T21:39:21.074444+00:00",
+        "generated_at": "2026-07-26T21:53:51.473850+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 2.41,
         "away_exp_runs": 3.97,
-        "home_win_prob": 0.334,
+        "home_win_prob": 0.335,
         "spread_line": 1.5,
         "spread_cover_prob": 0.176,
         "total_line": 6.5,
@@ -266065,7 +266342,7 @@
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
-        "spread_pick_prob": 0.522,
+        "spread_pick_prob": 0.524,
         "total_pick": "under",
         "total_pick_prob": 0.571,
         "spread_favorite": "away"
@@ -274287,22 +274564,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 824489,
-        "generated_at": "2026-07-26T21:39:21.074444+00:00",
+        "generated_at": "2026-07-26T21:53:51.473850+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.44,
         "away_exp_runs": 3.71,
-        "home_win_prob": 0.474,
+        "home_win_prob": 0.475,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.304,
+        "spread_cover_prob": 0.307,
         "total_line": 6.5,
-        "over_prob": 0.512,
+        "over_prob": 0.515,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
-        "spread_pick_prob": 0.644,
+        "spread_pick_prob": 0.648,
         "total_pick": "over",
-        "total_pick_prob": 0.512,
+        "total_pick_prob": 0.515,
         "spread_favorite": "away"
       },
       "home": {
@@ -282537,20 +282814,20 @@
       "live_score": null,
       "projection": {
         "game_pk": 823676,
-        "generated_at": "2026-07-26T21:39:21.074444+00:00",
+        "generated_at": "2026-07-26T21:53:51.473850+00:00",
         "model_version": "v1-log5-negbinom",
-        "home_exp_runs": 4.7,
+        "home_exp_runs": 4.69,
         "away_exp_runs": 3.61,
-        "home_win_prob": 0.595,
+        "home_win_prob": 0.594,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.435,
+        "spread_cover_prob": 0.438,
         "total_line": 8.5,
         "over_prob": 0.424,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.565,
+        "spread_pick_prob": 0.562,
         "total_pick": "under",
         "total_pick_prob": 0.576,
         "spread_favorite": "home"
@@ -290782,22 +291059,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 824569,
-        "generated_at": "2026-07-26T21:39:21.074444+00:00",
+        "generated_at": "2026-07-26T21:53:51.473850+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.72,
-        "away_exp_runs": 3.89,
-        "home_win_prob": 0.478,
+        "away_exp_runs": 3.88,
+        "home_win_prob": 0.485,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.32,
+        "spread_cover_prob": 0.322,
         "total_line": 6.5,
-        "over_prob": 0.561,
+        "over_prob": 0.56,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
-        "spread_pick_prob": 0.646,
+        "spread_pick_prob": 0.649,
         "total_pick": "over",
-        "total_pick_prob": 0.561,
+        "total_pick_prob": 0.56,
         "spread_favorite": "away"
       },
       "home": {
@@ -299035,22 +299312,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 823026,
-        "generated_at": "2026-07-26T21:39:21.074444+00:00",
+        "generated_at": "2026-07-26T21:53:51.473850+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.92,
-        "away_exp_runs": 5.24,
-        "home_win_prob": 0.392,
+        "away_exp_runs": 5.23,
+        "home_win_prob": 0.394,
         "spread_line": 1.5,
         "spread_cover_prob": 0.26,
         "total_line": 8.5,
-        "over_prob": 0.507,
+        "over_prob": 0.504,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
         "spread_pick_prob": 0.538,
         "total_pick": "over",
-        "total_pick_prob": 0.507,
+        "total_pick_prob": 0.504,
         "spread_favorite": "away"
       },
       "home": {
@@ -306946,20 +307223,20 @@
       "live_score": null,
       "projection": {
         "game_pk": 824003,
-        "generated_at": "2026-07-26T21:39:21.074444+00:00",
+        "generated_at": "2026-07-26T21:53:51.473850+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 2.82,
         "away_exp_runs": 4.36,
         "home_win_prob": 0.351,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.203,
+        "spread_cover_prob": 0.2,
         "total_line": 6.5,
         "over_prob": 0.514,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
-        "spread_pick_prob": 0.525,
+        "spread_pick_prob": 0.523,
         "total_pick": "over",
         "total_pick_prob": 0.514,
         "spread_favorite": "away"
@@ -315160,7 +315437,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 823275,
-        "generated_at": "2026-07-26T21:39:21.074444+00:00",
+        "generated_at": "2026-07-26T21:53:51.473850+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 5.28,
         "away_exp_runs": 3.54,
@@ -315168,14 +315445,14 @@
         "spread_line": 1.5,
         "spread_cover_prob": 0.497,
         "total_line": 8.5,
-        "over_prob": 0.471,
+        "over_prob": 0.476,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
         "spread_pick_prob": 0.503,
         "total_pick": "under",
-        "total_pick_prob": 0.529,
+        "total_pick_prob": 0.524,
         "spread_favorite": "home"
       },
       "home": {
@@ -323401,22 +323678,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 824976,
-        "generated_at": "2026-07-26T21:39:21.074444+00:00",
+        "generated_at": "2026-07-26T21:53:51.473850+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 2.89,
         "away_exp_runs": 5.18,
-        "home_win_prob": 0.302,
+        "home_win_prob": 0.299,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.17,
+        "spread_cover_prob": 0.169,
         "total_line": 6.5,
-        "over_prob": 0.594,
+        "over_prob": 0.595,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "away",
-        "spread_pick_prob": 0.541,
+        "spread_pick_prob": 0.547,
         "total_pick": "over",
-        "total_pick_prob": 0.594,
+        "total_pick_prob": 0.595,
         "spread_favorite": "away"
       },
       "home": {
@@ -331678,22 +331955,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 823193,
-        "generated_at": "2026-07-26T21:39:21.074444+00:00",
+        "generated_at": "2026-07-26T21:53:51.473850+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 2.86,
         "away_exp_runs": 4.07,
-        "home_win_prob": 0.378,
+        "home_win_prob": 0.376,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.22,
+        "spread_cover_prob": 0.218,
         "total_line": 6.5,
-        "over_prob": 0.494,
+        "over_prob": 0.492,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
-        "spread_pick_prob": 0.555,
+        "spread_pick_prob": 0.557,
         "total_pick": "under",
-        "total_pick_prob": 0.506,
+        "total_pick_prob": 0.508,
         "spread_favorite": "away"
       },
       "home": {
@@ -339945,22 +340222,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 823923,
-        "generated_at": "2026-07-26T21:39:21.074444+00:00",
+        "generated_at": "2026-07-26T21:53:51.473850+00:00",
         "model_version": "v1-log5-negbinom",
-        "home_exp_runs": 4.02,
-        "away_exp_runs": 3.68,
-        "home_win_prob": 0.533,
+        "home_exp_runs": 4.05,
+        "away_exp_runs": 3.7,
+        "home_win_prob": 0.53,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.37,
+        "spread_cover_prob": 0.367,
         "total_line": 6.5,
-        "over_prob": 0.566,
+        "over_prob": 0.574,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.63,
+        "spread_pick_prob": 0.633,
         "total_pick": "over",
-        "total_pick_prob": 0.566,
+        "total_pick_prob": 0.574,
         "spread_favorite": "home"
       },
       "home": {
@@ -343757,11 +344034,11 @@
           "fatigue_ratio": 0.77
         },
         "form": {
-          "streak": -4,
+          "streak": 1,
           "record_games": 10,
-          "wins": 4,
-          "losses": 6,
-          "run_diff": -5
+          "wins": 5,
+          "losses": 5,
+          "run_diff": 2
         },
         "batters": [
           {
@@ -347526,7 +347803,7 @@
         "team": "Atlanta Braves",
         "opponent": "Baltimore Orioles",
         "date": "2026-07-26",
-        "lineup_confirmed": false,
+        "lineup_confirmed": true,
         "score": 4.0,
         "reasons": [
           "real hot streak (not just lucky bloops)",
@@ -347550,7 +347827,7 @@
         "team": "San Diego Padres",
         "opponent": "Miami Marlins",
         "date": "2026-07-26",
-        "lineup_confirmed": false,
+        "lineup_confirmed": true,
         "score": 3.5,
         "reasons": [
           "real hot streak (not just lucky bloops)",
@@ -347574,7 +347851,7 @@
         "team": "Milwaukee Brewers",
         "opponent": "Colorado Rockies",
         "date": "2026-07-26",
-        "lineup_confirmed": false,
+        "lineup_confirmed": true,
         "score": 3.5,
         "reasons": [
           "real hot streak (not just lucky bloops)",
@@ -347598,7 +347875,7 @@
         "team": "Milwaukee Brewers",
         "opponent": "Colorado Rockies",
         "date": "2026-07-26",
-        "lineup_confirmed": false,
+        "lineup_confirmed": true,
         "score": 3.5,
         "reasons": [
           "real hot streak (not just lucky bloops)",
@@ -347622,7 +347899,7 @@
         "team": "Washington Nationals",
         "opponent": "Arizona Diamondbacks",
         "date": "2026-07-26",
-        "lineup_confirmed": false,
+        "lineup_confirmed": true,
         "score": 2.5,
         "reasons": [
           "real hot streak (not just lucky bloops)",
@@ -347646,15 +347923,20 @@
         "team": "Los Angeles Dodgers",
         "opponent": "New York Mets",
         "date": "2026-07-26",
-        "lineup_confirmed": false,
+        "lineup_confirmed": true,
         "score": 2.5,
         "reasons": [
           "favorable matchup vs. tonight's pitcher",
           "6-game hit streak"
         ],
-        "best_category": null,
+        "best_category": {
+          "label": "Total Bases",
+          "line": 1.5,
+          "pct": 30,
+          "n": 10
+        },
         "fallback_angle": "Opposing pitcher allows a .267 average to opposite-handed hitters this season",
-        "result": null
+        "result": "hit"
       },
       {
         "role": "batter",
@@ -347663,7 +347945,7 @@
         "team": "Detroit Tigers",
         "opponent": "Kansas City Royals",
         "date": "2026-07-26",
-        "lineup_confirmed": false,
+        "lineup_confirmed": true,
         "score": 2.5,
         "reasons": [
           "real hot streak (not just lucky bloops)",
@@ -347687,7 +347969,7 @@
         "team": "Kansas City Royals",
         "opponent": "Detroit Tigers",
         "date": "2026-07-26",
-        "lineup_confirmed": false,
+        "lineup_confirmed": true,
         "score": 2.5,
         "reasons": [
           "favorable matchup vs. tonight's pitcher",
@@ -347711,7 +347993,7 @@
         "team": "New York Yankees",
         "opponent": "Philadelphia Phillies",
         "date": "2026-07-26",
-        "lineup_confirmed": false,
+        "lineup_confirmed": true,
         "score": 2.5,
         "reasons": [
           "favorable matchup vs. tonight's pitcher",
@@ -347734,7 +348016,7 @@
         "team": "Atlanta Braves",
         "opponent": "Baltimore Orioles",
         "date": "2026-07-26",
-        "lineup_confirmed": false,
+        "lineup_confirmed": true,
         "score": 2.0,
         "reasons": [
           "favorable matchup vs. tonight's pitcher"
@@ -347757,7 +348039,7 @@
         "team": "Atlanta Braves",
         "opponent": "Baltimore Orioles",
         "date": "2026-07-26",
-        "lineup_confirmed": false,
+        "lineup_confirmed": true,
         "score": 2.0,
         "reasons": [
           "favorable matchup vs. tonight's pitcher"
@@ -347802,7 +348084,7 @@
         "team": "Miami Marlins",
         "opponent": "San Diego Padres",
         "date": "2026-07-26",
-        "lineup_confirmed": false,
+        "lineup_confirmed": true,
         "score": 2.0,
         "reasons": [
           "favorable matchup vs. tonight's pitcher"
@@ -347825,7 +348107,7 @@
         "team": "San Diego Padres",
         "opponent": "Miami Marlins",
         "date": "2026-07-26",
-        "lineup_confirmed": false,
+        "lineup_confirmed": true,
         "score": 2.0,
         "reasons": [
           "real hot streak (not just lucky bloops)"
@@ -348049,7 +348331,7 @@
         "team": "San Francisco Giants",
         "opponent": "Los Angeles Angels",
         "date": "2026-07-26",
-        "lineup_confirmed": false,
+        "lineup_confirmed": true,
         "score": 3.0,
         "reasons": [
           "cold recent stretch (well below season average)",
@@ -348073,15 +348355,20 @@
         "team": "San Francisco Giants",
         "opponent": "Los Angeles Angels",
         "date": "2026-07-26",
-        "lineup_confirmed": false,
+        "lineup_confirmed": true,
         "score": 3.0,
         "reasons": [
           "cold recent stretch (well below season average)",
           "tough matchup vs. tonight's pitcher"
         ],
-        "best_category": null,
+        "best_category": {
+          "label": "Walks",
+          "line": 0.5,
+          "pct": 20,
+          "n": 10
+        },
         "fallback_angle": "Opposing pitcher allows a .194 average to same-handed hitters this season",
-        "result": null
+        "result": "hit"
       },
       {
         "role": "batter",
@@ -348090,7 +348377,7 @@
         "team": "New York Yankees",
         "opponent": "Philadelphia Phillies",
         "date": "2026-07-26",
-        "lineup_confirmed": false,
+        "lineup_confirmed": true,
         "score": 3.0,
         "reasons": [
           "cold recent stretch (well below season average)",
@@ -348113,7 +348400,7 @@
         "team": "New York Yankees",
         "opponent": "Philadelphia Phillies",
         "date": "2026-07-26",
-        "lineup_confirmed": false,
+        "lineup_confirmed": true,
         "score": 3.0,
         "reasons": [
           "cold recent stretch (well below season average)",
@@ -348158,14 +348445,19 @@
         "team": "San Diego Padres",
         "opponent": "Miami Marlins",
         "date": "2026-07-26",
-        "lineup_confirmed": false,
+        "lineup_confirmed": true,
         "score": 1.5,
         "reasons": [
           "tough matchup vs. tonight's pitcher"
         ],
-        "best_category": null,
+        "best_category": {
+          "label": "Hits",
+          "line": 1.5,
+          "pct": 30,
+          "n": 10
+        },
         "fallback_angle": "Opposing pitcher allows a .184 average to same-handed hitters this season",
-        "result": null
+        "result": "hit"
       },
       {
         "role": "batter",
@@ -348174,14 +348466,19 @@
         "team": "San Diego Padres",
         "opponent": "Miami Marlins",
         "date": "2026-07-26",
-        "lineup_confirmed": false,
+        "lineup_confirmed": true,
         "score": 1.5,
         "reasons": [
           "tough matchup vs. tonight's pitcher"
         ],
-        "best_category": null,
+        "best_category": {
+          "label": "Home Runs",
+          "line": 0.5,
+          "pct": 20,
+          "n": 10
+        },
         "fallback_angle": "Opposing pitcher allows a .184 average to same-handed hitters this season",
-        "result": null
+        "result": "miss"
       },
       {
         "role": "batter",
@@ -348213,14 +348510,19 @@
         "team": "San Diego Padres",
         "opponent": "Miami Marlins",
         "date": "2026-07-26",
-        "lineup_confirmed": false,
+        "lineup_confirmed": true,
         "score": 1.5,
         "reasons": [
           "tough matchup vs. tonight's pitcher"
         ],
-        "best_category": null,
+        "best_category": {
+          "label": "Total Bases",
+          "line": 2.5,
+          "pct": 70,
+          "n": 10
+        },
         "fallback_angle": "Opposing pitcher allows a .184 average to same-handed hitters this season",
-        "result": null
+        "result": "hit"
       },
       {
         "role": "batter",
@@ -348229,7 +348531,7 @@
         "team": "Chicago White Sox",
         "opponent": "Houston Astros",
         "date": "2026-07-26",
-        "lineup_confirmed": false,
+        "lineup_confirmed": true,
         "score": 1.5,
         "reasons": [
           "tough matchup vs. tonight's pitcher"
@@ -348252,7 +348554,7 @@
         "team": "Chicago White Sox",
         "opponent": "Houston Astros",
         "date": "2026-07-26",
-        "lineup_confirmed": false,
+        "lineup_confirmed": true,
         "score": 1.5,
         "reasons": [
           "tough matchup vs. tonight's pitcher"
@@ -348275,7 +348577,7 @@
         "team": "Chicago White Sox",
         "opponent": "Houston Astros",
         "date": "2026-07-26",
-        "lineup_confirmed": false,
+        "lineup_confirmed": true,
         "score": 1.5,
         "reasons": [
           "tough matchup vs. tonight's pitcher"
@@ -348298,7 +348600,7 @@
         "team": "San Francisco Giants",
         "opponent": "Los Angeles Angels",
         "date": "2026-07-26",
-        "lineup_confirmed": false,
+        "lineup_confirmed": true,
         "score": 1.5,
         "reasons": [
           "tough matchup vs. tonight's pitcher"
