@@ -1164,8 +1164,15 @@ def best_matchup_lean(categories):
     this, a live/final box score had no visible reminder of which side of a
     line the model actually leaned pre-game, since that only ever lived in
     the click-to-expand category detail.
+
+    Home Runs UNDER is excluded -- a home run is rare enough per game that
+    "under" a low line (usually 0.5) is true almost every time regardless
+    of matchup, making it a near-guaranteed, low-value headline rather
+    than a meaningful call. Home Runs OVER stays eligible: precisely
+    because it's rare, a real OVER lean is the interesting, worth-
+    surfacing case.
     """
-    candidates = [c for c in categories if c.get("lean")]
+    candidates = [c for c in categories if c.get("lean") and not (c["label"] == "Home Runs" and c["lean"] == "under")]
     if not candidates:
         return None
     best = max(candidates, key=lambda c: abs(c["today_projection"] - c["primary_line"]))
