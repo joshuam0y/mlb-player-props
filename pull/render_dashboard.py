@@ -139,13 +139,21 @@ STYLE = """
   .date-heading:first-child { margin-top: 0; }
 
   details.game-card {
+    /* No overflow:hidden here -- it would establish a clipping scroll
+       container that breaks position:sticky on the summary below. Corners
+       are rounded on the summary/body directly instead. */
     background: var(--surface-1); border: 1px solid var(--border); border-radius: 12px;
-    margin-bottom: 10px; box-shadow: var(--shadow); overflow: hidden;
+    margin-bottom: 10px; box-shadow: var(--shadow);
   }
+  details.game-card:not([open]) summary.game-summary { border-radius: 12px; }
   details.game-card[open] summary { border-bottom: 1px solid var(--gridline); }
   summary.game-summary {
     cursor: pointer; padding: 12px 16px; display: flex; justify-content: space-between;
     align-items: center; flex-wrap: wrap; gap: 8px; list-style: none;
+    /* Sticky while a card is open and scrolled into -- the whole point of
+       an open game card is its (long) body, so without this, closing it
+       again meant scrolling all the way back up to find the header. */
+    position: sticky; top: 0; z-index: 3; background: var(--surface-1); border-radius: 12px 12px 0 0;
   }
   summary.game-summary::-webkit-details-marker, summary.picks-summary::-webkit-details-marker { display: none; }
   summary.game-summary::before, summary.picks-summary::before {
@@ -161,7 +169,7 @@ STYLE = """
   .proj-picks { display: flex; gap: 14px; flex-wrap: wrap; font-size: 12px; color: var(--text-secondary); margin-top: 3px; }
   .proj-picks b { color: var(--text-primary); }
   .summary-flags { display: flex; gap: 6px; flex-wrap: wrap; }
-  .game-body { padding: 4px 16px 16px; }
+  .game-body { padding: 4px 16px 16px; border-radius: 0 0 12px 12px; overflow: hidden; }
 
   .teams { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 8px; }
   @media (max-width: 720px) { .teams { grid-template-columns: 1fr; } }
@@ -235,6 +243,21 @@ STYLE = """
   tr.player-row { cursor: pointer; }
   tr.player-row:hover { background: var(--series-1-bg); }
   .name-cell { font-weight: 600; }
+  /* Live-tracker highlights the batter/pitcher currently in the game --
+     set/cleared by highlightActivePlayers() every poll, matched against
+     these rows by the same person id the boxscore uses. */
+  tr.player-row.is-batting, tr.player-row.is-ondeck { box-shadow: inset 3px 0 0 var(--status-good); }
+  tr.player-row.is-ondeck { box-shadow: inset 3px 0 0 var(--status-warning); }
+  tr.player-row.is-batting td.name-cell::after, tr.player-row.is-ondeck td.name-cell::after {
+    margin-left: 6px; font-size: 9.5px; font-weight: 700; letter-spacing: 0.03em;
+    padding: 1px 5px; border-radius: 999px; vertical-align: middle; color: white;
+  }
+  tr.player-row.is-batting td.name-cell::after { content: "AT BAT"; background: var(--status-good); }
+  tr.player-row.is-ondeck td.name-cell::after { content: "ON DECK"; background: var(--status-warning); }
+  .pitcher-line.is-pitching::after {
+    content: "PITCHING"; margin-left: 6px; font-size: 9.5px; font-weight: 700; letter-spacing: 0.03em;
+    padding: 1px 5px; border-radius: 999px; vertical-align: middle; color: white; background: var(--status-good);
+  }
   .expand-arrow {
     display: inline-block; width: 0; height: 0; margin-right: 6px; vertical-align: middle;
     border-top: 3px solid transparent; border-bottom: 3px solid transparent;
@@ -244,6 +267,19 @@ STYLE = """
   .headline-link { color: var(--series-1); text-decoration: none; font-size: 11px; }
   .headline-link:hover { text-decoration: underline; }
   .empty { color: var(--text-muted); font-size: 13px; padding: 40px 20px; text-align: center; }
+
+  /* Relief pitchers / pinch-hitters / defensive subs never get a table row
+     of their own -- only players with a prop projection (the confirmed/
+     projected lineup + probable starter) do. Rather than silently drop
+     their live stats, updatePlayerBoxScores() appends a compact line here
+     for anyone who shows up in the live boxscore without one -- no props
+     for them (nothing was projected), just their actual line. */
+  .subs-list:empty { display: none; }
+  .subs-list { margin-top: 10px; padding-top: 8px; border-top: 1px dashed var(--border); }
+  .subs-list-heading { font-size: 11px; font-weight: 700; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.04em; margin-bottom: 6px; }
+  .sub-player-line { margin-bottom: 8px; }
+  .sub-player-name { font-size: 12.5px; font-weight: 600; margin-bottom: 4px; }
+  .sub-player-name .sub { font-weight: 400; }
 
   .boxscore-line:empty { display: none; }
   .boxscore-line {
@@ -308,6 +344,18 @@ STYLE = """
   .live-outs { display: inline-flex; gap: 3px; align-items: center; }
   .out-dot { width: 9px; height: 9px; border-radius: 50%; border: 1.5px solid var(--status-warning); display: inline-block; }
   .out-dot-filled { background: var(--status-warning); }
+
+  /* Win probability: a statistical estimate from the live score/inning/
+     outs/baserunner state (computeWinProbability in SCRIPT below), not a
+     guarantee -- labeled "Est." throughout so it doesn't read as more
+     certain than it is. */
+  .wp-panel { display: flex; flex-direction: column; gap: 4px; min-width: 140px; flex: 1 1 140px; }
+  .wp-panel-label { font-size: 9.5px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.04em; }
+  .wp-bar { display: flex; height: 8px; border-radius: 999px; overflow: hidden; background: var(--surface-3); }
+  .wp-bar-away { background: var(--text-muted); }
+  .wp-bar-home { background: var(--series-1); }
+  .wp-teams { display: flex; justify-content: space-between; font-size: 11px; color: var(--text-secondary); white-space: nowrap; }
+  .wp-teams b { color: var(--text-primary); }
 
   .sz-panel { display: flex; flex-direction: column; align-items: center; gap: 4px; flex: none; }
   .sz-panel-label { font-size: 9.5px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.04em; }
@@ -471,6 +519,22 @@ function localizeGameTimes() {
     });
   });
 }
+// Accordion: opening one game card closes any other open one. With every
+// card able to expand into a long batter/pitcher/live-tracker body, having
+// several open at once made the page enormous and hard to navigate --
+// only ever one open keeps the page scannable, and (with the sticky
+// summary above) there's always exactly one header to find and click.
+function initGameCardAccordion() {
+  const cards = document.querySelectorAll('details.game-card');
+  cards.forEach(function (card) {
+    card.addEventListener('toggle', function () {
+      if (!card.open) return;
+      cards.forEach(function (other) {
+        if (other !== card) other.open = false;
+      });
+    });
+  });
+}
 function initTheme() {
   const saved = localStorage.getItem('theme');
   if (saved) document.documentElement.setAttribute('data-theme', saved);
@@ -554,6 +618,62 @@ function statCellHtml(label, value) {
   return '<div class="bx-stat"><b>' + value + '</b><small>' + label + '</small></div>';
 }
 
+// Main grid leads with IP then exactly PITCHER_PROP_CATEGORIES (Strikeouts,
+// Runs Allowed = earned runs, Hits Allowed, Walks Allowed) -- see
+// _pitcher_boxscore_html()'s own docstring. Shared by the known-player path
+// (a container already on the page) and the subs path (a player who never
+// got one) below, so the two can't drift out of sync.
+function pitchingGridHtml(pitching) {
+  const grid = [
+    statCellHtml('IP', pitching.inningsPitched), statCellHtml('SO', statOr0(pitching.strikeOuts)),
+    statCellHtml('ER', statOr0(pitching.earnedRuns)), statCellHtml('H', statOr0(pitching.hits)), statCellHtml('BB', statOr0(pitching.baseOnBalls)),
+  ].join('');
+  const extraCells = [];
+  if (statOr0(pitching.runs) !== statOr0(pitching.earnedRuns)) extraCells.push(statCellHtml('R', statOr0(pitching.runs)));
+  if (pitching.homeRuns) extraCells.push(statCellHtml('HR', pitching.homeRuns));
+  const extra = extraCells.length ? '<div class="bx-grid">' + extraCells.join('') + '</div>' : '';
+  return '<div class="bx-grid">' + grid + '</div>' + extra;
+}
+
+// Main grid leads with AB then exactly BATTER_PROP_CATEGORIES (Hits, Total
+// Bases, Home Runs, RBIs, Runs Scored, Walks).
+function battingGridHtml(batting) {
+  const grid = [
+    statCellHtml('AB', statOr0(batting.atBats)), statCellHtml('H', statOr0(batting.hits)), statCellHtml('TB', statOr0(batting.totalBases)),
+    statCellHtml('HR', statOr0(batting.homeRuns)), statCellHtml('RBI', statOr0(batting.rbi)), statCellHtml('R', statOr0(batting.runs)),
+    statCellHtml('BB', statOr0(batting.baseOnBalls)),
+  ].join('');
+  const extraCells = [];
+  if (batting.doubles) extraCells.push(statCellHtml('2B', batting.doubles));
+  if (batting.triples) extraCells.push(statCellHtml('3B', batting.triples));
+  if (batting.stolenBases) extraCells.push(statCellHtml('SB', batting.stolenBases));
+  const extra = extraCells.length ? '<div class="bx-grid">' + extraCells.join('') + '</div>' : '';
+  return '<div class="bx-grid">' + grid + '</div>' + extra;
+}
+
+// A reliever or pinch-hitter/defensive sub never got a table row -- only
+// players with a prop projection (the confirmed/projected lineup + probable
+// starter) do. Rather than silently drop their live stats, append a compact
+// line to that side's .subs-list instead: no props (nothing was projected
+// for them), just their actual line, so they're not just missing.
+function upsertSubLine(el, side, pid, name, gridHtml, isFinal) {
+  const list = el.querySelector('.subs-list[data-side="' + side + '"]');
+  if (!list) return;
+  let line = list.querySelector('.sub-player-line[data-player-id="' + pid + '"]');
+  if (!line) {
+    if (!list.querySelector('.subs-list-heading')) {
+      list.insertAdjacentHTML('afterbegin', '<div class="subs-list-heading">Also appeared</div>');
+    }
+    line = document.createElement('div');
+    line.className = 'sub-player-line';
+    line.dataset.playerId = pid;
+    line.innerHTML = '<div class="sub-player-name">' + escapeHtml(name) + ' <span class="sub">(not projected)</span></div>';
+    list.appendChild(line);
+  }
+  const nameDiv = line.querySelector('.sub-player-name').outerHTML;
+  line.innerHTML = nameDiv + boxHeader(isFinal) + gridHtml;
+}
+
 // Every player in the boxscore (batting AND pitching stats keyed by
 // person.id), re-rendered from the SAME fetch that drives the live strip
 // above -- our own build only refreshes every ~15 minutes, so without
@@ -568,38 +688,21 @@ function updatePlayerBoxScores(el, data, isFinal) {
       const p = players[key];
       const pid = p.person && p.person.id;
       if (!pid) return;
-      const container = el.querySelector('.boxscore-line[data-player-id="' + pid + '"]');
-      if (!container) return;
       const pitching = p.stats && p.stats.pitching;
       const batting = p.stats && p.stats.batting;
-      if (pitching && pitching.inningsPitched && pitching.inningsPitched !== '0.0') {
-        // Main grid leads with IP then exactly PITCHER_PROP_CATEGORIES
-        // (Strikeouts, Runs Allowed = earned runs, Hits Allowed, Walks
-        // Allowed) -- see _pitcher_boxscore_html()'s own docstring.
-        const grid = [
-          statCellHtml('IP', pitching.inningsPitched), statCellHtml('SO', statOr0(pitching.strikeOuts)),
-          statCellHtml('ER', statOr0(pitching.earnedRuns)), statCellHtml('H', statOr0(pitching.hits)), statCellHtml('BB', statOr0(pitching.baseOnBalls)),
-        ].join('');
-        const extraCells = [];
-        if (statOr0(pitching.runs) !== statOr0(pitching.earnedRuns)) extraCells.push(statCellHtml('R', statOr0(pitching.runs)));
-        if (pitching.homeRuns) extraCells.push(statCellHtml('HR', pitching.homeRuns));
-        const extra = extraCells.length ? '<div class="bx-grid">' + extraCells.join('') + '</div>' : '';
-        container.innerHTML = boxHeader(isFinal) + '<div class="bx-grid">' + grid + '</div>' + extra;
-      } else if (batting && batting.atBats != null) {
-        // Main grid leads with AB then exactly BATTER_PROP_CATEGORIES
-        // (Hits, Total Bases, Home Runs, RBIs, Runs Scored, Walks).
-        const grid = [
-          statCellHtml('AB', statOr0(batting.atBats)), statCellHtml('H', statOr0(batting.hits)), statCellHtml('TB', statOr0(batting.totalBases)),
-          statCellHtml('HR', statOr0(batting.homeRuns)), statCellHtml('RBI', statOr0(batting.rbi)), statCellHtml('R', statOr0(batting.runs)),
-          statCellHtml('BB', statOr0(batting.baseOnBalls)),
-        ].join('');
-        const extraCells = [];
-        if (batting.doubles) extraCells.push(statCellHtml('2B', batting.doubles));
-        if (batting.triples) extraCells.push(statCellHtml('3B', batting.triples));
-        if (batting.stolenBases) extraCells.push(statCellHtml('SB', batting.stolenBases));
-        const extra = extraCells.length ? '<div class="bx-grid">' + extraCells.join('') + '</div>' : '';
-        container.innerHTML = boxHeader(isFinal) + '<div class="bx-grid">' + grid + '</div>' + extra;
+      const container = el.querySelector('.boxscore-line[data-player-id="' + pid + '"]');
+      const pitched = pitching && pitching.inningsPitched && (pitching.inningsPitched !== '0.0' || statOr0(pitching.battersFaced) > 0);
+      const batted = batting && (batting.atBats != null) && (batting.atBats > 0 || statOr0(batting.plateAppearances) > 0);
+      if (container) {
+        if (pitched) container.innerHTML = boxHeader(isFinal) + pitchingGridHtml(pitching);
+        else if (batting && batting.atBats != null) container.innerHTML = boxHeader(isFinal) + battingGridHtml(batting);
+        return;
       }
+      // No pre-rendered container for this person id -- a reliever, pinch
+      // hitter, or defensive sub who wasn't in the projected/confirmed
+      // lineup. Only worth a line once they've actually done something.
+      if (pitched) upsertSubLine(el, side, pid, p.person.fullName, pitchingGridHtml(pitching), isFinal);
+      else if (batted) upsertSubLine(el, side, pid, p.person.fullName, battingGridHtml(batting), isFinal);
     });
   });
 }
@@ -749,6 +852,102 @@ function renderPitchSequence(currentPlay) {
   return '<div class="pitch-seq"><div class="pitch-seq-heading">Pitch by pitch</div>' + rows + '</div>';
 }
 
+// Marks the current batter/on-deck hitter/pitcher's row so it's obvious at
+// a glance where in the order the game actually is, instead of having to
+// cross-reference the "Pitching / At bat / On deck" names against the
+// batter table by eye. Cleared and reapplied every poll (nothing tracks
+// its own previous state -- simplest to just recompute from scratch).
+function highlightActivePlayers(el, batterId, onDeckId, pitcherId) {
+  el.querySelectorAll('.player-row.is-batting, .player-row.is-ondeck').forEach(function (row) {
+    row.classList.remove('is-batting', 'is-ondeck');
+  });
+  el.querySelectorAll('.pitcher-row.is-pitching').forEach(function (row) { row.classList.remove('is-pitching'); });
+  if (batterId) {
+    const row = el.querySelector('.player-row[data-player-id="' + batterId + '"]');
+    if (row) row.classList.add('is-batting');
+  }
+  if (onDeckId) {
+    const row = el.querySelector('.player-row[data-player-id="' + onDeckId + '"]');
+    if (row) row.classList.add('is-ondeck');
+  }
+  if (pitcherId) {
+    const row = el.querySelector('.pitcher-row[data-player-id="' + pitcherId + '"]');
+    if (row) row.classList.add('is-pitching');
+  }
+}
+
+// Standard normal CDF via the Abramowitz & Stegun erf approximation --
+// no server round-trip, so this has to be self-contained in the browser.
+function normCdf(x) {
+  const sign = x < 0 ? -1 : 1;
+  const ax = Math.abs(x) / Math.SQRT2;
+  const a1 = 0.254829592, a2 = -0.284496736, a3 = 1.421413741, a4 = -1.453152027, a5 = 1.061405429, p = 0.3275911;
+  const t = 1 / (1 + p * ax);
+  const y = 1 - (((((a5 * t + a4) * t) + a3) * t + a2) * t + a1) * t * Math.exp(-ax * ax);
+  return 0.5 * (1 + sign * y);
+}
+
+// A live in-game win-probability ESTIMATE, not MLB's own (proprietary) model
+// -- built from first principles: treat each team's remaining scoring as
+// normally distributed around the current lead, with variance shrinking as
+// outs run out and a small fixed home-field edge (home teams win ~54% of
+// season openers) that shrinks right along with it. Plus a small same-side
+// bonus for the batting team's current base/out state (e.g. bases loaded,
+// nobody out swings things back toward whoever's up). This is a real
+// approximation, not a lookup from Statcast's actual win-expectancy table --
+// good enough to be directionally right, not precise to the percentage point.
+function computeWinProbability(linescore) {
+  const inning = linescore.currentInning;
+  if (!inning) return null;
+  const isTop = linescore.isTopInning !== undefined ? linescore.isTopInning : (linescore.inningHalf || '') === 'Top';
+  const outs = linescore.outs || 0;
+  const home = (linescore.teams || {}).home || {};
+  const away = (linescore.teams || {}).away || {};
+  if (home.runs == null || away.runs == null) return null;
+  const offense = linescore.offense || {};
+
+  const outsPerSide = 3;
+  const regulationOuts = 54; // 9 innings x 2 halves x 3 outs
+  const outsCompleted = (inning - 1) * 6 + (isTop ? 0 : outsPerSide) + outs;
+  const totalOuts = inning <= 9 ? regulationOuts : regulationOuts + (inning - 9) * 6;
+  let outsRemaining = totalOuts - outsCompleted;
+  const tied = home.runs === away.runs;
+  if (outsRemaining <= 0 && tied) outsRemaining = 3; // heading to extras -- still very much live
+  outsRemaining = Math.max(outsRemaining, 1);
+
+  const baseBonus = (offense.first ? 0.15 : 0) + (offense.second ? 0.3 : 0) + (offense.third ? 0.35 : 0);
+  const outMultiplier = outs === 0 ? 1 : outs === 1 ? 0.65 : 0.35;
+  const runnerBonus = baseBonus * outMultiplier;
+
+  const sigmaFull = 4.5; // ~typical SD of final run differential across a 9-inning game
+  const sigma = Math.max(sigmaFull * Math.sqrt(outsRemaining / regulationOuts), 0.35);
+  const homeEdgeFull = 0.452; // Phi(homeEdgeFull / sigmaFull) ~= 0.54, matching home teams' long-run win rate
+  const homeEdge = homeEdgeFull * Math.sqrt(outsRemaining / regulationOuts);
+
+  const lead = home.runs - away.runs + (isTop ? -runnerBonus : runnerBonus) + homeEdge;
+  const homeWp = normCdf(lead / sigma);
+  // Never claim near-certainty while the game's still live -- this is an
+  // estimate, not an oracle.
+  return Math.min(Math.max(homeWp, 0.02), 0.98);
+}
+
+function winProbHtml(linescore, gameData) {
+  const wp = computeWinProbability(linescore);
+  if (wp == null) return '';
+  const homePct = Math.round(wp * 100);
+  const awayPct = 100 - homePct;
+  const teams = gameData.teams || {};
+  const homeAbbr = (teams.home && (teams.home.abbreviation || teams.home.teamName)) || 'Home';
+  const awayAbbr = (teams.away && (teams.away.abbreviation || teams.away.teamName)) || 'Away';
+  return (
+    '<div class="wp-panel"><span class="wp-panel-label">Win probability (est.)</span>' +
+    '<div class="wp-bar"><div class="wp-bar-away" style="width:' + awayPct + '%"></div>' +
+    '<div class="wp-bar-home" style="width:' + homePct + '%"></div></div>' +
+    '<div class="wp-teams"><span>' + escapeHtml(awayAbbr) + ' <b>' + awayPct + '%</b></span>' +
+    '<span>' + escapeHtml(homeAbbr) + ' <b>' + homePct + '%</b></span></div></div>'
+  );
+}
+
 function renderLiveState(el, data) {
   const container = el.querySelector('.live-tracker');
   const status = ((data.gameData || {}).status || {}).abstractGameState;
@@ -759,6 +958,7 @@ function renderLiveState(el, data) {
     el.dataset.liveDone = 'true';
     updatePlayerBoxScores(el, data, true);
     renderRecentPlays(el, events);
+    highlightActivePlayers(el, null, null, null);
     if (!container) return;
     const home = (linescore.teams || {}).home, away = (linescore.teams || {}).away;
     if (home && away && home.runs != null && away.runs != null) {
@@ -781,6 +981,7 @@ function renderLiveState(el, data) {
   const batter = offense.batter ? offense.batter.fullName : null;
   const onDeck = offense.onDeck ? offense.onDeck.fullName : null;
   const pitcher = defense.pitcher ? defense.pitcher.fullName : null;
+  highlightActivePlayers(el, offense.batter && offense.batter.id, offense.onDeck && offense.onDeck.id, defense.pitcher && defense.pitcher.id);
   const outDots = [0, 1, 2]
     .map(function (i) { return '<span class="out-dot' + (i < outs ? ' out-dot-filled' : '') + '"></span>'; })
     .join('');
@@ -797,6 +998,7 @@ function renderLiveState(el, data) {
   const countText = count.balls != null && count.strikes != null ? count.balls + '-' + count.strikes : '';
   const strikeZoneHtml = renderStrikeZone(currentPlay);
   const pitchSeqHtml = renderPitchSequence(currentPlay);
+  const wpHtml = winProbHtml(linescore, data.gameData || {});
 
   container.innerHTML =
     '<div class="live-top-row">' +
@@ -813,6 +1015,7 @@ function renderLiveState(el, data) {
     '<span class="live-outs">' + outDots + '</span>' +
     '</div>' +
     '</div>' +
+    wpHtml +
     (strikeZoneHtml ? '<div class="sz-panel"><span class="sz-panel-label">Pitch location</span>' + strikeZoneHtml + '</div>' : '') +
     (batter || pitcher
       ? '<div class="live-matchup">' +
@@ -842,6 +1045,7 @@ document.addEventListener('DOMContentLoaded', function () {
   initTheme();
   localizeGameTimes();
   initLiveTracker();
+  initGameCardAccordion();
 });
 </script>
 """
@@ -1200,7 +1404,7 @@ def _pitcher_html(p, row_id, fatigue, status):
     bullets_html = "".join(f"<li>{b}</li>" for b in bullets)
 
     return f"""
-    <div class="pitcher-line pitcher-row" onclick="toggleDetail('{row_id}')">
+    <div class="pitcher-line pitcher-row" data-player-id="{p["player_id"]}" onclick="toggleDetail('{row_id}')">
       <span class="expand-arrow"></span><b>{html.escape(p["name"])}</b> ({html.escape(p["pitch_hand"] or "?")}, throws) {badges}
     </div>
     {boxscore_html}
@@ -1243,7 +1447,7 @@ def _batter_rows(batters, id_prefix, status):
         )
         boxscore_html = _batter_boxscore_html(b.get("game_result"), status, b["player_id"])
         rows.append(
-            f'<tr class="player-row" onclick="toggleDetail(\'{row_id}\')">'
+            f'<tr class="player-row" data-player-id="{b["player_id"]}" onclick="toggleDetail(\'{row_id}\')">'
             f'<td data-label="Order">{order}</td>'
             f'<td data-label="Batter" class="name-cell"><span class="expand-arrow"></span>{html.escape(b["name"])} '
             f'<span class="sub">({html.escape(b["bat_side"] or "?")} handed batter)</span></td>'
@@ -1263,12 +1467,12 @@ def _batter_rows(batters, id_prefix, status):
     return "\n".join(rows)
 
 
-def _team_col_html(side, id_prefix, status):
+def _team_col_html(side, id_prefix, status, side_key):
     tag_kind = "confirmed" if side["lineup_confirmed"] else "projected"
     tag_label = "LINEUP CONFIRMED" if side["lineup_confirmed"] else "PROJECTED (not yet announced)"
     form = side.get("form")
     return f"""
-    <div class="team-col">
+    <div class="team-col" data-side="{side_key}">
       <div class="team-title">{html.escape(side["team_name"] or "?")} {_badge(tag_label, tag_kind)}{_team_form_badge(form)}</div>
       <div class="team-form">{_team_form_text(form)}</div>
       <div class="pitcher-block">
@@ -1282,6 +1486,7 @@ def _team_col_html(side, id_prefix, status):
         </table>
         </div>
       </div>
+      <div class="subs-list" data-side="{side_key}"></div>
     </div>
     """
 
@@ -1425,8 +1630,8 @@ def _game_card_html(g):
       <div class="game-body">
         <div class="recent-plays"></div>
         <div class="teams">
-          {_team_col_html(g["away"], f"{id_prefix}-a", g["status"])}
-          {_team_col_html(g["home"], f"{id_prefix}-h", g["status"])}
+          {_team_col_html(g["away"], f"{id_prefix}-a", g["status"], "away")}
+          {_team_col_html(g["home"], f"{id_prefix}-h", g["status"], "home")}
         </div>
       </div>
     </details>
