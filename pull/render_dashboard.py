@@ -39,9 +39,6 @@ from itertools import groupby
 
 NOTES_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "output", "notes.md")
 
-DEFAULT_BATTER_LABELS = ["Hits", "Total Bases", "Home Runs", "RBIs", "Runs Scored", "Walks"]
-DEFAULT_PITCHER_LABELS = ["Strikeouts", "Runs Allowed", "Hits Allowed", "Walks Allowed"]
-
 STYLE = """
 <style>
   :root, .viz-root {
@@ -275,39 +272,76 @@ STYLE = """
      it in for a game that's actually in progress. */
   .live-tracker:empty { display: none; }
   .live-tracker {
-    display: flex; align-items: center; flex-wrap: wrap; gap: 10px; width: 100%;
-    margin-top: 6px; padding: 6px 10px; border-radius: 8px;
+    width: 100%; margin-top: 8px; padding: 12px 14px; border-radius: 10px;
     background: var(--surface-2); border: 1px solid var(--border); font-size: 12.5px;
   }
-  .live-score-line { font-weight: 700; font-size: 14px; }
-  .live-inning { color: var(--text-secondary); white-space: nowrap; }
-  .live-outs { display: inline-flex; gap: 3px; align-items: center; }
-  .out-dot { width: 8px; height: 8px; border-radius: 50%; border: 1.5px solid var(--status-warning); display: inline-block; }
-  .out-dot-filled { background: var(--status-warning); }
-  .diamond { position: relative; width: 26px; height: 26px; flex: none; }
-  .diamond .base {
-    position: absolute; width: 9px; height: 9px; border: 1.5px solid var(--text-muted);
-    background: var(--surface-1); transform: rotate(45deg);
-  }
-  .diamond .base-2b { top: -2px; left: 9px; }
-  .diamond .base-3b { top: 9px; left: -2px; }
-  .diamond .base-1b { top: 9px; left: 20px; }
-  .diamond .base-occupied { background: var(--status-warning); border-color: var(--status-warning); }
-  .live-count { font-variant-numeric: tabular-nums; font-weight: 600; color: var(--text-secondary); white-space: nowrap; }
-  .strike-zone { flex: none; }
-  .sz-bg { fill: var(--surface-1); stroke: var(--border); stroke-width: 1; }
-  .sz-zone { fill: none; stroke: var(--text-muted); stroke-width: 1.5; stroke-dasharray: 3 2; }
-  .pitch-dot-ball { fill: var(--series-1); }
-  .pitch-dot-strike { fill: var(--status-critical); }
-  .pitch-dot-swing { fill: #b8262f; }
-  .pitch-dot-foul { fill: var(--status-warning); }
-  .pitch-dot-inplay { fill: var(--status-good); }
-  .pitch-dot-hbp { fill: #8e44ad; }
-  .pitch-dot-other { fill: var(--text-muted); }
-  .live-batter { color: var(--text-secondary); }
-  .live-batter b { color: var(--text-primary); }
+  .live-top-row { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin-bottom: 10px; }
+  .live-score-line { font-weight: 700; font-size: 19px; letter-spacing: -0.02em; }
+  .live-inning { color: var(--text-secondary); white-space: nowrap; font-weight: 600; }
   .live-updated { color: var(--text-muted); font-size: 10.5px; margin-left: auto; white-space: nowrap; }
-  .live-notable { width: 100%; font-style: italic; color: var(--text-secondary); font-size: 12px; }
+
+  .live-field-row { display: flex; align-items: center; gap: 16px; flex-wrap: wrap; }
+  .live-state-panel {
+    display: flex; flex-direction: column; align-items: center; gap: 6px;
+    background: var(--surface-1); border: 1px solid var(--border); border-radius: 8px;
+    padding: 8px 12px; flex: none;
+  }
+  /* A thin outlined diamond path (the infield), not a filled background --
+     a filled dirt-colored diamond behind similarly-sized base markers just
+     blended into one cluttered shape instead of reading as "3 bases on a
+     field." */
+  .diamond { position: relative; width: 42px; height: 42px; flex: none; }
+  .diamond::before {
+    content: ""; position: absolute; top: 3px; left: 3px; right: 3px; bottom: 3px;
+    border: 1.5px solid var(--border); transform: rotate(45deg);
+  }
+  .diamond .base {
+    position: absolute; width: 11px; height: 11px; border: 2px solid var(--text-muted);
+    background: var(--surface-2); transform: rotate(45deg); z-index: 1; box-sizing: border-box;
+  }
+  .diamond .base-2b { top: -3px; left: 15.5px; }
+  .diamond .base-3b { top: 15.5px; left: -3px; }
+  .diamond .base-1b { top: 15.5px; left: 34px; }
+  .diamond .base-occupied { background: var(--status-warning); border-color: var(--status-warning); }
+  .live-count-outs { display: flex; align-items: center; gap: 8px; }
+  .live-count { font-variant-numeric: tabular-nums; font-weight: 700; color: var(--text-primary); white-space: nowrap; font-size: 13px; }
+  .live-outs { display: inline-flex; gap: 3px; align-items: center; }
+  .out-dot { width: 9px; height: 9px; border-radius: 50%; border: 1.5px solid var(--status-warning); display: inline-block; }
+  .out-dot-filled { background: var(--status-warning); }
+
+  .sz-panel { display: flex; flex-direction: column; align-items: center; gap: 4px; flex: none; }
+  .sz-panel-label { font-size: 9.5px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.04em; }
+  .strike-zone { flex: none; border-radius: 6px; }
+  .sz-bg { fill: var(--surface-1); stroke: var(--border); stroke-width: 1; }
+  .sz-zone { fill: rgba(127,127,127,0.06); stroke: var(--text-secondary); stroke-width: 1.75; }
+  .pitch-dot-num { font-size: 8px; font-weight: 700; fill: white; pointer-events: none; }
+  .pitch-dot { stroke: var(--surface-1); stroke-width: 1.5; }
+  /* fill colors the SVG pitch-location dots; background colors the same
+     classes reused as small HTML dots in the pitch-by-pitch list below --
+     harmless on the element type that doesn't use it. */
+  .pitch-dot-ball { fill: var(--series-1); background: var(--series-1); }
+  .pitch-dot-strike { fill: var(--status-critical); background: var(--status-critical); }
+  .pitch-dot-swing { fill: #8c1c24; background: #8c1c24; }
+  .pitch-dot-foul { fill: var(--status-warning); background: var(--status-warning); }
+  .pitch-dot-inplay { fill: var(--status-good); background: var(--status-good); }
+  .pitch-dot-hbp { fill: #8e44ad; background: #8e44ad; }
+  .pitch-dot-other { fill: var(--text-muted); background: var(--text-muted); }
+
+  .pitch-seq { margin-top: 10px; padding-top: 8px; border-top: 1px dashed var(--border); display: flex; flex-direction: column; gap: 4px; }
+  .pitch-seq-heading { font-size: 11px; font-weight: 700; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.04em; margin-bottom: 2px; }
+  .pitch-seq-row { display: flex; align-items: center; gap: 7px; font-size: 12px; color: var(--text-secondary); }
+  .pitch-seq-num { color: var(--text-muted); font-variant-numeric: tabular-nums; width: 14px; flex: none; text-align: right; }
+  .pitch-seq-dot { width: 9px; height: 9px; border-radius: 50%; flex: none; }
+  .pitch-seq-speed { font-weight: 600; color: var(--text-primary); white-space: nowrap; }
+
+  .live-matchup { display: flex; flex-direction: column; gap: 3px; font-size: 13px; }
+  .live-matchup .sub { font-size: 12px; }
+  .live-batter { color: var(--text-secondary); }
+  .live-batter b { color: var(--text-primary); font-size: 14px; }
+  .live-notable {
+    display: block; width: 100%; font-style: italic; color: var(--text-secondary); font-size: 12px;
+    margin-top: 10px; padding-top: 8px; border-top: 1px dashed var(--border);
+  }
   .recent-plays:empty { display: none; }
   .recent-plays { margin-bottom: 14px; }
   .plays-heading { font-size: 13px; font-weight: 700; margin-bottom: 6px; }
@@ -417,20 +451,6 @@ function applyFilters() {
   });
   document.getElementById('resultCount').textContent = visible + ' game' + (visible === 1 ? '' : 's') + ' shown';
 }
-function applyCategoryFilter() {
-  const cat = document.getElementById('categoryFilter').value;
-  document.querySelectorAll('.prop-cat').forEach(function (el) {
-    el.style.display = (cat === 'all' || el.dataset.category === cat) ? '' : 'none';
-  });
-  document.querySelectorAll('.prop-detail').forEach(function (row) {
-    if (cat === 'all') {
-      row.style.display = 'none';
-      return;
-    }
-    const match = row.querySelector('.prop-cat[data-category="' + cat + '"]');
-    row.style.display = match ? 'table-row' : 'none';
-  });
-}
 function toggleDetail(id) {
   const row = document.getElementById(id);
   // '' (not a hardcoded 'table-row') so the CSS cascade decides the shown
@@ -529,7 +549,8 @@ function statOr0(v) {
 
 function boxHeader(isFinal, volumeLabel, volumeValue) {
   const badge = isFinal ? '<span class="badge badge-final">FINAL</span>' : '<span class="badge badge-live">LIVE</span>';
-  return '<div class="bx-header">' + badge + '<span class="bx-volume">' + volumeValue + ' ' + volumeLabel + '</span></div>';
+  const volume = volumeLabel ? '<span class="bx-volume">' + volumeValue + ' ' + volumeLabel + '</span>' : '';
+  return '<div class="bx-header">' + badge + volume + '</div>';
 }
 
 function statCellHtml(label, value) {
@@ -555,31 +576,32 @@ function updatePlayerBoxScores(el, data, isFinal) {
       const pitching = p.stats && p.stats.pitching;
       const batting = p.stats && p.stats.batting;
       if (pitching && pitching.inningsPitched && pitching.inningsPitched !== '0.0') {
-        // Main grid matches PITCHER_PROP_CATEGORIES exactly (Strikeouts,
-        // Runs Allowed = earned runs, Hits Allowed, Walks Allowed) -- see
-        // _pitcher_boxscore_html()'s own docstring in render_dashboard.py.
+        // Main grid leads with IP then exactly PITCHER_PROP_CATEGORIES
+        // (Strikeouts, Runs Allowed = earned runs, Hits Allowed, Walks
+        // Allowed) -- see _pitcher_boxscore_html()'s own docstring.
         const grid = [
-          statCellHtml('SO', statOr0(pitching.strikeOuts)), statCellHtml('ER', statOr0(pitching.earnedRuns)),
-          statCellHtml('H', statOr0(pitching.hits)), statCellHtml('BB', statOr0(pitching.baseOnBalls)),
+          statCellHtml('IP', pitching.inningsPitched), statCellHtml('SO', statOr0(pitching.strikeOuts)),
+          statCellHtml('ER', statOr0(pitching.earnedRuns)), statCellHtml('H', statOr0(pitching.hits)), statCellHtml('BB', statOr0(pitching.baseOnBalls)),
         ].join('');
         const extraCells = [];
         if (statOr0(pitching.runs) !== statOr0(pitching.earnedRuns)) extraCells.push(statCellHtml('R', statOr0(pitching.runs)));
         if (pitching.homeRuns) extraCells.push(statCellHtml('HR', pitching.homeRuns));
         const extra = extraCells.length ? '<div class="bx-grid">' + extraCells.join('') + '</div>' : '';
-        container.innerHTML = boxHeader(isFinal, 'IP', pitching.inningsPitched) + '<div class="bx-grid">' + grid + '</div>' + extra;
+        container.innerHTML = boxHeader(isFinal) + '<div class="bx-grid">' + grid + '</div>' + extra;
       } else if (batting && batting.atBats != null) {
-        // Main grid matches BATTER_PROP_CATEGORIES exactly (Hits, Total
-        // Bases, Home Runs, RBIs, Runs Scored, Walks).
+        // Main grid leads with AB then exactly BATTER_PROP_CATEGORIES
+        // (Hits, Total Bases, Home Runs, RBIs, Runs Scored, Walks).
         const grid = [
-          statCellHtml('H', statOr0(batting.hits)), statCellHtml('TB', statOr0(batting.totalBases)), statCellHtml('HR', statOr0(batting.homeRuns)),
-          statCellHtml('RBI', statOr0(batting.rbi)), statCellHtml('R', statOr0(batting.runs)), statCellHtml('BB', statOr0(batting.baseOnBalls)),
+          statCellHtml('AB', statOr0(batting.atBats)), statCellHtml('H', statOr0(batting.hits)), statCellHtml('TB', statOr0(batting.totalBases)),
+          statCellHtml('HR', statOr0(batting.homeRuns)), statCellHtml('RBI', statOr0(batting.rbi)), statCellHtml('R', statOr0(batting.runs)),
+          statCellHtml('BB', statOr0(batting.baseOnBalls)),
         ].join('');
         const extraCells = [];
         if (batting.doubles) extraCells.push(statCellHtml('2B', batting.doubles));
         if (batting.triples) extraCells.push(statCellHtml('3B', batting.triples));
         if (batting.stolenBases) extraCells.push(statCellHtml('SB', batting.stolenBases));
         const extra = extraCells.length ? '<div class="bx-grid">' + extraCells.join('') + '</div>' : '';
-        container.innerHTML = boxHeader(isFinal, 'AB', statOr0(batting.atBats)) + '<div class="bx-grid">' + grid + '</div>' + extra;
+        container.innerHTML = boxHeader(isFinal) + '<div class="bx-grid">' + grid + '</div>' + extra;
       }
     });
   });
@@ -635,9 +657,15 @@ function renderRecentPlays(el, events) {
 // most visitors won't have open -- a pitching change or pinch-hitter is
 // exactly the kind of thing worth surfacing without clicking in, so the
 // SINGLE most recent one also gets a line in the always-visible strip.
+// Only counts as "current" if it's among the last few events overall --
+// otherwise a wild pitch or pitching change from 3 batters ago just sits
+// there looking like old news forever (nothing else notable has to have
+// happened since for the OLD scan-back-to-the-start version to keep
+// re-showing it).
 function latestNotableEvent(events) {
-  for (let i = events.length - 1; i >= 0; i--) {
-    if (events[i].action) return events[i];
+  const recent = events.slice(-3);
+  for (let i = recent.length - 1; i >= 0; i--) {
+    if (recent[i].action) return recent[i];
   }
   return null;
 }
@@ -674,19 +702,51 @@ function renderStrikeZone(currentPlay) {
   const zoneX = toX(-halfWidth), zoneY = toY(top);
   const zoneW = toX(halfWidth) - zoneX, zoneH = toY(bottom) - zoneY;
   const dots = pitchEvents
-    .map(function (pe) {
+    .map(function (pe, i) {
       const c = pe.pitchData.coordinates;
       const cls = pitchDotClass(pe.details && pe.details.description);
-      return '<circle cx="' + toX(c.pX) + '" cy="' + toY(c.pZ) + '" r="4" class="' + cls + '"></circle>';
+      const x = toX(c.pX), y = toY(c.pZ);
+      const isLast = i === pitchEvents.length - 1;
+      return (
+        '<circle cx="' + x + '" cy="' + y + '" r="' + (isLast ? 8 : 7) + '" class="pitch-dot ' + cls + '"' +
+        (isLast ? ' stroke="var(--text-primary)" stroke-width="2"' : '') + '></circle>' +
+        '<text x="' + x + '" y="' + y + '" class="pitch-dot-num" text-anchor="middle" dominant-baseline="central">' + (i + 1) + '</text>'
+      );
     })
     .join('');
   return (
-    '<svg class="strike-zone" viewBox="0 0 100 100" width="54" height="54">' +
+    '<svg class="strike-zone" viewBox="0 0 100 100" width="84" height="84">' +
     '<rect x="0" y="0" width="100" height="100" class="sz-bg"></rect>' +
     '<rect x="' + zoneX + '" y="' + zoneY + '" width="' + zoneW + '" height="' + zoneH + '" class="sz-zone"></rect>' +
     dots +
     '</svg>'
   );
+}
+
+// The same per-pitch data (type + velocity from pitchData/details, the
+// call/result already used to color the strike-zone dots) as a plain-
+// language list, oldest first -- MLB.com's own Gameday shows exactly this
+// alongside its zone plot.
+function renderPitchSequence(currentPlay) {
+  const pitchEvents = ((currentPlay || {}).playEvents || []).filter(function (pe) {
+    return pe.pitchData && pe.details;
+  });
+  if (!pitchEvents.length) return '';
+  const rows = pitchEvents
+    .map(function (pe, i) {
+      const type = (pe.details.type && pe.details.type.description) || 'Pitch';
+      const speed = pe.pitchData.startSpeed;
+      const speedHtml = speed != null ? '<span class="pitch-seq-speed">' + Math.round(speed) + ' mph</span>' : '';
+      const cls = pitchDotClass(pe.details.description);
+      return (
+        '<div class="pitch-seq-row"><span class="pitch-seq-num">' + (i + 1) + '.</span>' +
+        '<span class="pitch-seq-dot ' + cls + '"></span>' +
+        speedHtml +
+        '<span>' + escapeHtml(type) + ' &mdash; ' + escapeHtml(pe.details.description || '') + '</span></div>'
+      );
+    })
+    .join('');
+  return '<div class="pitch-seq"><div class="pitch-seq-heading">Pitch by pitch</div>' + rows + '</div>';
 }
 
 function renderLiveState(el, data) {
@@ -734,20 +794,34 @@ function renderLiveState(el, data) {
   const count = (currentPlay || {}).count || {};
   const countText = count.balls != null && count.strikes != null ? count.balls + '-' + count.strikes : '';
   const strikeZoneHtml = renderStrikeZone(currentPlay);
+  const pitchSeqHtml = renderPitchSequence(currentPlay);
 
   container.innerHTML =
+    '<div class="live-top-row">' +
     '<span class="badge badge-live">LIVE</span>' +
     '<span class="live-score-line">' + away.runs + ' - ' + home.runs + '</span>' +
     '<span class="live-inning">' + escapeHtml(linescore.inningHalf || '') + ' ' + escapeHtml(linescore.currentInningOrdinal || '') + '</span>' +
+    '<span class="live-updated">updated ' + updated + '</span>' +
+    '</div>' +
+    '<div class="live-field-row">' +
+    '<div class="live-state-panel">' +
+    diamond +
+    '<div class="live-count-outs">' +
     (countText ? '<span class="live-count">' + countText + '</span>' : '') +
     '<span class="live-outs">' + outDots + '</span>' +
-    diamond +
-    strikeZoneHtml +
+    '</div>' +
+    '</div>' +
+    (strikeZoneHtml ? '<div class="sz-panel"><span class="sz-panel-label">Pitch location</span>' + strikeZoneHtml + '</div>' : '') +
     (batter
-      ? '<span class="live-batter">At bat: <b>' + escapeHtml(batter) + '</b>' + (onDeck ? ' &middot; On deck: ' + escapeHtml(onDeck) : '') + '</span>'
+      ? '<div class="live-matchup"><span class="live-batter">At bat: <b>' +
+        escapeHtml(batter) +
+        '</b></span>' +
+        (onDeck ? '<span class="live-batter sub">On deck: ' + escapeHtml(onDeck) + '</span>' : '') +
+        '</div>'
       : '') +
-    '<span class="live-updated">updated ' + updated + '</span>' +
-    (latest ? '<span class="live-notable">' + escapeHtml(latest.text) + '</span>' : '');
+    '</div>' +
+    pitchSeqHtml +
+    (latest ? '<div class="live-notable">' + escapeHtml(latest.text) + '</div>' : '');
 }
 
 document.addEventListener('DOMContentLoaded', function () {
@@ -761,9 +835,7 @@ document.addEventListener('DOMContentLoaded', function () {
     document.getElementById('roleFilter').addEventListener('change', applyFilters);
     document.getElementById('searchBox').addEventListener('input', applyFilters);
     document.getElementById('confirmedOnly').addEventListener('change', applyFilters);
-    document.getElementById('categoryFilter').addEventListener('change', applyCategoryFilter);
     applyFilters();
-    applyCategoryFilter();
   }
   initTheme();
   localizeGameTimes();
@@ -983,25 +1055,26 @@ def _boxscore_grid_html(pairs):
     return f'<div class="bx-grid">{cells}</div>'
 
 
-def _boxscore_header_html(status, volume_label, volume_value):
-    return f'<div class="bx-header">{_game_status_badge(status)}<span class="bx-volume">{volume_value} {volume_label}</span></div>'
+def _boxscore_header_html(status, volume_label=None, volume_value=None):
+    volume_html = f'<span class="bx-volume">{volume_value} {volume_label}</span>' if volume_label else ""
+    return f'<div class="bx-header">{_game_status_badge(status)}{volume_html}</div>'
 
 
 def _batter_boxscore_html(gr, status, player_id):
     """
-    A compact MLB.com-style box (badge + AB on one line, a fixed 3-column
+    A compact MLB.com-style box (badge on its own line, a fixed 3-column
     stat grid below) for this player's actual game, instead of a run-on
     sentence -- a grid lays out the same regardless of this column's
     width, where flex-wrap alone wrapped unpredictably in the narrower
     "Recent form" column.
 
-    The main grid is exactly BATTER_PROP_CATEGORIES, same order -- these
-    are the stats the props/grading actually key off, so the box score a
-    reader checks a pick against should show precisely those six numbers,
-    not a generic AB-R-H-RBI-BB-SO line that only partly overlaps them.
-    2B/3B/SB aren't graded prop categories here; kept as a secondary row,
-    shown only when they actually happened, so a 0-for-4 night isn't
-    padded with a wall of zeroes.
+    Main grid leads with AB (essential context -- "how many at-bats") then
+    exactly BATTER_PROP_CATEGORIES, same order: these are the stats the
+    props/grading actually key off, so the box score a reader checks a
+    pick against should show precisely those numbers, not a generic
+    AB-R-H-RBI-BB-SO line that only partly overlaps them. 2B/3B/SB aren't
+    graded prop categories here; kept as a secondary row, shown only when
+    they actually happened, so a 0-for-4 night isn't padded with zeroes.
 
     The outer div (and its data-player-id) is always emitted, even with no
     game_result yet -- our own build only refreshes every ~15 minutes, so
@@ -1013,22 +1086,22 @@ def _batter_boxscore_html(gr, status, player_id):
     inner = ""
     if gr:
         stats = [
-            ("H", gr["hits"]), ("TB", gr["total_bases"]), ("HR", gr["home_runs"]),
-            ("RBI", gr["rbi"]), ("R", gr["runs"]), ("BB", gr["base_on_balls"]),
+            ("AB", gr["at_bats"]), ("H", gr["hits"]), ("TB", gr["total_bases"]),
+            ("HR", gr["home_runs"]), ("RBI", gr["rbi"]), ("R", gr["runs"]), ("BB", gr["base_on_balls"]),
         ]
         extras = [(label, gr.get(key)) for key, label in (("doubles", "2B"), ("triples", "3B"), ("stolen_bases", "SB")) if gr.get(key)]
         extra_html = _boxscore_grid_html(extras) if extras else ""
-        inner = f'{_boxscore_header_html(status, "AB", gr["at_bats"])}{_boxscore_grid_html(stats)}{extra_html}'
+        inner = f'{_boxscore_header_html(status)}{_boxscore_grid_html(stats)}{extra_html}'
     return f'<div class="boxscore-line" data-player-id="{player_id}">{inner}</div>'
 
 
 def _pitcher_boxscore_html(gr, status, player_id):
-    """Main grid is exactly PITCHER_PROP_CATEGORIES (Strikeouts, Runs Allowed -- earned_runs, Hits Allowed, Walks Allowed), same reasoning as the batter box above."""
+    """Main grid leads with IP then exactly PITCHER_PROP_CATEGORIES (Strikeouts, Runs Allowed -- earned_runs, Hits Allowed, Walks Allowed), same reasoning as the batter box above."""
     inner = ""
     if gr:
         stats = [
-            ("SO", gr["strike_outs"]), ("ER", gr["earned_runs"]),
-            ("H", gr["hits"]), ("BB", gr["base_on_balls"]),
+            ("IP", gr["innings_pitched"]), ("SO", gr["strike_outs"]),
+            ("ER", gr["earned_runs"]), ("H", gr["hits"]), ("BB", gr["base_on_balls"]),
         ]
         # R (total runs) and HR aren't graded prop categories here (Runs
         # Allowed is keyed off earned runs specifically) -- shown only when
@@ -1040,7 +1113,7 @@ def _pitcher_boxscore_html(gr, status, player_id):
         if gr.get("home_runs"):
             extras.append(("HR", gr["home_runs"]))
         extra_html = _boxscore_grid_html(extras) if extras else ""
-        inner = f'{_boxscore_header_html(status, "IP", gr["innings_pitched"])}{_boxscore_grid_html(stats)}{extra_html}'
+        inner = f'{_boxscore_header_html(status)}{_boxscore_grid_html(stats)}{extra_html}'
     return f'<div class="boxscore-line" data-player-id="{player_id}">{inner}</div>'
 
 
@@ -1265,22 +1338,17 @@ def _game_line_html(g):
         </div>
         """
 
-    live = g.get("live_score")
+    # A game already in progress gets NO static score line here -- that's
+    # exactly what used to bite us: this only ever reflects whatever our
+    # own build last saw (every ~15-60 min), so it would sit there looking
+    # frozen right next to the client-side .live-tracker below (SCRIPT's
+    # initLiveTracker/renderLiveState), which actually re-fetches MLB's own
+    # feed every ~30s. Two score displays, one stale and one live, reads as
+    # "it's not updating" even when the real one is -- so for a game that's
+    # started but isn't final yet, .live-tracker is the ONLY score shown.
     p = g.get("projection")
-    if live:
-        live_html = (
-            f'<span class="proj-score">'
-            f'{_badge("LIVE", "live")} {html.escape(g["away"]["team_name"] or "?")} {live["away_runs"]} '
-            f'&ndash; {html.escape(g["home"]["team_name"] or "?")} {live["home_runs"]}</span>'
-        )
-        if not p or p.get("home_exp_runs") is None or p.get("away_exp_runs") is None:
-            return f'<div class="game-line">{live_html}</div>'
-        return f"""
-        <div class="game-line">
-          {live_html}
-          <div class="proj-picks"><span>Pre-game projection was: <b>{p["away_exp_runs"]} &ndash; {p["home_exp_runs"]}</b></span></div>
-        </div>
-        """
+    if g.get("live_score"):
+        return ""
 
     if not p:
         return ""
@@ -1431,18 +1499,11 @@ def _injury_report_html(games):
     """
 
 
-def _toolbar(games, batter_labels, pitcher_labels):
+def _toolbar(games):
     dates = sorted({g["date"] for g in games})
     options = ['<option value="all">All dates</option>']
     for d in dates:
         options.append(f'<option value="{html.escape(d)}">{html.escape(d)}</option>')
-
-    batter_cat_options = "".join(
-        f'<option value="{_slug(label)}">{html.escape(label)}</option>' for label in batter_labels
-    )
-    pitcher_cat_options = "".join(
-        f'<option value="{_slug(label)}">{html.escape(label)}</option>' for label in pitcher_labels
-    )
 
     return f"""
     <div class="toolbar">
@@ -1451,11 +1512,6 @@ def _toolbar(games, batter_labels, pitcher_labels):
         <option value="all">Batters &amp; Pitchers</option>
         <option value="batters">Batters only</option>
         <option value="pitchers">Pitchers only</option>
-      </select>
-      <select id="categoryFilter">
-        <option value="all">All prop categories</option>
-        <optgroup label="Batting">{batter_cat_options}</optgroup>
-        <optgroup label="Pitching">{pitcher_cat_options}</optgroup>
       </select>
       <input id="searchBox" type="text" placeholder="Search team or player...">
       <label><input type="checkbox" id="confirmedOnly"> Confirmed lineups only</label>
@@ -1555,8 +1611,6 @@ def render_html(report):
             notes_html = f'<div class="notes"><b>Notes</b>\n{html.escape(notes)}</div>'
 
     games = report["games"]
-    batter_labels = report.get("batter_prop_labels") or DEFAULT_BATTER_LABELS
-    pitcher_labels = report.get("pitcher_prop_labels") or DEFAULT_PITCHER_LABELS
 
     if not games:
         body = '<div class="empty">No games in range.</div>'
@@ -1570,7 +1624,7 @@ def render_html(report):
             # enormous on first load instead of a scannable list to click into.
             cards = "".join(_game_card_html(g) for g in group_games)
             sections.append(f'<div data-date-group><div class="date-heading">{html.escape(date)}</div>{cards}</div>')
-        body = _toolbar(games, batter_labels, pitcher_labels) + "".join(sections)
+        body = _toolbar(games) + "".join(sections)
 
     return f"""<!DOCTYPE html>
 <html lang="en">
