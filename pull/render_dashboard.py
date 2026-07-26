@@ -1666,10 +1666,30 @@ def _game_line_html(g):
         actual_total = g["away_score"] + g["home_score"]
         diff = round(actual_total - proj_total, 1)
         diff_txt = f"+{diff}" if diff >= 0 else str(diff)
+
+        # Same grading rules as grade_picks.py's _grade_games() (the
+        # permanent Track Record verdict) -- mirrored exactly here so the
+        # two can never disagree on what counts as a hit.
+        margin = g["home_score"] - g["away_score"]  # MLB games never end tied
+        ml_pick = p.get("moneyline_pick") or ("home" if p["home_win_prob"] >= 0.5 else "away")
+        ml_team = g["home"]["team_name"] if ml_pick == "home" else g["away"]["team_name"]
+        ml_hit = (ml_pick == "home") == (margin > 0)
+        picks_html = f'<span>Moneyline: <b>{html.escape(ml_team or "?")}</b> {_badge("HIT" if ml_hit else "MISS", "hit" if ml_hit else "miss")}</span>'
+
+        total_line = p.get("total_line")
+        if total_line is not None:
+            total_pick = p.get("total_pick") or ("over" if p.get("over_prob", 0.5) >= 0.5 else "under")
+            total_hit = (actual_total > total_line) == (total_pick == "over")
+            picks_html += (
+                f'<span>Total {total_line}: leaned <b>{total_pick.upper()}</b> '
+                f'{_badge("HIT" if total_hit else "MISS", "hit" if total_hit else "miss")}</span>'
+            )
+
         return f"""
         <div class="game-line">
           {final_html}
           <div class="proj-picks"><span>Projected: <b>{p["away_exp_runs"]} &ndash; {p["home_exp_runs"]}</b> (total off by {diff_txt})</span></div>
+          <div class="proj-picks">{picks_html}</div>
         </div>
         """
 
