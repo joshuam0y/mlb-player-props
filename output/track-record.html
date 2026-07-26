@@ -218,16 +218,21 @@
   .name-cell { font-weight: 600; }
   /* Live-tracker highlights the batter/pitcher currently in the game --
      set/cleared by highlightActivePlayers() every poll, matched against
-     these rows by the same person id the boxscore uses. A plain tinted
-     row background (the same tint already used for :hover, so it reads as
-     "part of this table's own language") plus a real .badge span injected
-     into the existing Flags cell -- NOT a one-off ::after pill glued onto
-     the name -- so it sits and wraps exactly like the HOT/COLD/matchup
-     badges already there instead of looking like a different component. */
-  tr.player-row.is-batting, tr.player-row.is-ondeck { background: var(--series-1-bg); }
-  .badge-atbat { background: var(--status-good); color: white; }
-  .badge-ondeck { background: var(--status-warning); color: #1a1a19; }
-  .badge-pitching { background: var(--series-1); color: white; }
+     these rows by the same person id the boxscore uses. A tinted row
+     background plus a plain colored text label next to the name -- NOT
+     another rounded .badge pill -- so "who's up right now" reads as a
+     highlight on the row itself, distinct from the HOT/COLD/matchup
+     bubbles rather than just one more bubble among them. */
+  tr.player-row.is-batting { background: rgba(15,157,88,0.12); }
+  tr.player-row.is-ondeck { background: rgba(245,166,35,0.12); }
+  tr.player-row.is-batting td.name-cell, tr.player-row.is-ondeck td.name-cell { font-weight: 700; }
+  .live-tag-text {
+    margin-left: 6px; font-size: 10px; font-weight: 800; text-transform: uppercase; letter-spacing: 0.05em;
+  }
+  tr.player-row.is-batting .live-tag-text { color: var(--status-good); }
+  tr.player-row.is-ondeck .live-tag-text { color: var(--status-warning); }
+  .pitcher-line.is-pitching { font-weight: 700; color: var(--text-primary); }
+  .pitcher-line.is-pitching .live-tag-text { color: var(--status-good); }
   .expand-arrow {
     display: inline-block; width: 0; height: 0; margin-right: 6px; vertical-align: middle;
     border-top: 3px solid transparent; border-bottom: 3px solid transparent;
@@ -1049,11 +1054,11 @@ function renderPitchSequence(currentPlay) {
 // a glance where in the order the game actually is, instead of having to
 // cross-reference the "Pitching / At bat / On deck" names against the
 // batter table by eye. Cleared and reapplied every poll (nothing tracks
-// its own previous state -- simplest to just recompute from scratch). The
-// tag is a real .badge span appended into the row's existing Flags cell
-// (or, for the pitcher, its own line) -- the same component already used
-// for HOT/COLD/matchup/injury -- so it wraps and sits exactly like those
-// instead of looking like a one-off decoration bolted onto the name.
+// its own previous state -- simplest to just recompute from scratch). This
+// is a highlight on the row itself (tinted background + a plain colored
+// text label next to the name), not another rounded .badge pill -- it
+// needs to read as distinct from the HOT/COLD/matchup bubbles, not as one
+// more bubble alongside them.
 function clearLiveTags(el) {
   el.querySelectorAll('.live-tag').forEach(function (n) { n.remove(); });
   el.querySelectorAll('.player-row.is-batting, .player-row.is-ondeck').forEach(function (row) {
@@ -1061,9 +1066,9 @@ function clearLiveTags(el) {
   });
   el.querySelectorAll('.pitcher-row.is-pitching').forEach(function (row) { row.classList.remove('is-pitching'); });
 }
-function addLiveTag(cell, badgeClass, label) {
+function addLiveTag(cell, label) {
   if (!cell) return;
-  cell.insertAdjacentHTML('beforeend', ' <span class="badge ' + badgeClass + ' live-tag">' + label + '</span>');
+  cell.insertAdjacentHTML('beforeend', '<span class="live-tag-text live-tag">' + label + '</span>');
 }
 function highlightActivePlayers(el, batterId, onDeckId, pitcherId) {
   clearLiveTags(el);
@@ -1071,21 +1076,21 @@ function highlightActivePlayers(el, batterId, onDeckId, pitcherId) {
     const row = el.querySelector('.player-row[data-player-id="' + batterId + '"]');
     if (row) {
       row.classList.add('is-batting');
-      addLiveTag(row.querySelector('td[data-label="Flags"]'), 'badge-atbat', 'AT BAT');
+      addLiveTag(row.querySelector('td.name-cell'), 'AT BAT');
     }
   }
   if (onDeckId) {
     const row = el.querySelector('.player-row[data-player-id="' + onDeckId + '"]');
     if (row) {
       row.classList.add('is-ondeck');
-      addLiveTag(row.querySelector('td[data-label="Flags"]'), 'badge-ondeck', 'ON DECK');
+      addLiveTag(row.querySelector('td.name-cell'), 'ON DECK');
     }
   }
   if (pitcherId) {
     const row = el.querySelector('.pitcher-row[data-player-id="' + pitcherId + '"]');
     if (row) {
       row.classList.add('is-pitching');
-      addLiveTag(row, 'badge-pitching', 'PITCHING');
+      addLiveTag(row, 'PITCHING');
     }
   }
 }
