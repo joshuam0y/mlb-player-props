@@ -449,6 +449,29 @@ def pitcher_game_result(conn, player_id, game_pk):
     return dict(row) if row else None
 
 
+def live_score(conn, game_pk, home_team_id, away_team_id):
+    """
+    Runs scored so far in a game that's still in progress -- summed from
+    each team's own batters' individual runs-scored column for this game_pk
+    (the same near-real-time data the per-player LIVE box score already
+    uses), NOT from games.home_score/away_score, which is deliberately
+    never set until the game is truly Final (see sync_schedule.py) to
+    avoid a false "0-0 final" for a game that hasn't started. Without this,
+    the game summary line just kept showing the stale pre-game projection
+    for the entire multi-hour duration of a game, with no visible sign
+    anything was even happening. None if there's no in-progress data yet.
+    """
+    home = conn.execute(
+        "SELECT SUM(runs) as r FROM batting_game_logs WHERE game_pk = ? AND team_id = ?", (game_pk, home_team_id)
+    ).fetchone()
+    away = conn.execute(
+        "SELECT SUM(runs) as r FROM batting_game_logs WHERE game_pk = ? AND team_id = ?", (game_pk, away_team_id)
+    ).fetchone()
+    if home["r"] is None and away["r"] is None:
+        return None
+    return {"home_runs": home["r"] or 0, "away_runs": away["r"] or 0}
+
+
 def hand_splits(conn, table, player_id, hand):
     """
     `hand` is the *opponent's* throwing/batting hand: for batting_splits it's
@@ -1217,6 +1240,9 @@ def build_report(conn, days_ahead=2):
                 "park_factor": park_factor_tier(game["venue_name"]),
                 "home_score": game["home_score"],
                 "away_score": game["away_score"],
+                "live_score": live_score(conn, game["game_pk"], game["home_team_id"], game["away_team_id"])
+                if game["home_score"] is None
+                else None,
                 "projection": latest_projection(conn, game["game_pk"]),
                 "home": home_side,
                 "away": away_side,

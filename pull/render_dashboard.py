@@ -385,7 +385,11 @@ function toggleDetail(id) {
   // display value -- a mobile media query turns this same row into a
   // stacked block instead of a table-row, and a hardcoded value here would
   // silently win over that rule (inline styles beat stylesheet rules).
-  if (row) row.style.display = (row.style.display === 'none' || !row.style.display) ? '' : 'none';
+  // Checking ONLY '=== none' (not the old "|| falsy" fallback) matters: an
+  // empty string is falsy too, so that fallback made every row un-closable
+  // after the first click open -- both branches of the old OR were true
+  // forever once display became ''.
+  if (row) row.style.display = (row.style.display === 'none') ? '' : 'none';
 }
 function localizeGameTimes() {
   document.querySelectorAll('.game-time').forEach(function (el) {
@@ -903,7 +907,24 @@ def _game_line_html(g):
           <div class="proj-picks"><span>Projected: <b>{p["away_exp_runs"]} &ndash; {p["home_exp_runs"]}</b> (total off by {diff_txt})</span></div>
         </div>
         """
+
+    live = g.get("live_score")
     p = g.get("projection")
+    if live:
+        live_html = (
+            f'<span class="proj-score">'
+            f'{_badge("LIVE", "live")} {html.escape(g["away"]["team_name"] or "?")} {live["away_runs"]} '
+            f'&ndash; {html.escape(g["home"]["team_name"] or "?")} {live["home_runs"]}</span>'
+        )
+        if not p or p.get("home_exp_runs") is None or p.get("away_exp_runs") is None:
+            return f'<div class="game-line">{live_html}</div>'
+        return f"""
+        <div class="game-line">
+          {live_html}
+          <div class="proj-picks"><span>Pre-game projection was: <b>{p["away_exp_runs"]} &ndash; {p["home_exp_runs"]}</b></span></div>
+        </div>
+        """
+
     if not p:
         return ""
 
