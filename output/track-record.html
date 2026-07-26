@@ -289,10 +289,7 @@
      harmless on the element type that doesn't use it. */
   .pitch-dot-ball { fill: var(--series-1); background: var(--series-1); }
   .pitch-dot-strike { fill: var(--status-critical); background: var(--status-critical); }
-  .pitch-dot-swing { fill: #8c1c24; background: #8c1c24; }
-  .pitch-dot-foul { fill: var(--status-warning); background: var(--status-warning); }
   .pitch-dot-inplay { fill: var(--status-good); background: var(--status-good); }
-  .pitch-dot-hbp { fill: #8e44ad; background: #8e44ad; }
   .pitch-dot-other { fill: var(--text-muted); background: var(--text-muted); }
 
   .pitch-seq { margin-top: 10px; padding-top: 8px; border-top: 1px dashed var(--border); display: flex; flex-direction: column; gap: 4px; }
@@ -820,15 +817,18 @@ function latestNotableEvent(events) {
   return null;
 }
 
+// A foul is a strike (barring the 2-strike exception) -- MLB's own feed
+// agrees: called strike, swinging strike, and foul all carry the exact
+// same "ballColor" in the raw pitch data, distinct only from balls and
+// balls in play. Matching that instead of inventing a 4th "foul" color.
+// Exactly 3 colors: blue (ball, incl. hit-by-pitch -- batter didn't swing,
+// not charged as a strike), red (any kind of strike, fouls included), green
+// (ball in play). Not a 4th color for the rare HBP case.
 function pitchDotClass(desc) {
   if (!desc) return 'pitch-dot-other';
-  if (desc.indexOf('Called Strike') === 0) return 'pitch-dot-strike';
-  if (desc.indexOf('Swinging Strike') === 0) return 'pitch-dot-swing';
-  if (desc.indexOf('Foul') === 0) return 'pitch-dot-foul';
   if (desc.indexOf('In play') === 0) return 'pitch-dot-inplay';
-  if (desc.indexOf('Hit By Pitch') === 0) return 'pitch-dot-hbp';
-  if (desc.indexOf('Ball') === 0 || desc === 'Automatic Ball') return 'pitch-dot-ball';
-  return 'pitch-dot-other';
+  if (desc.indexOf('Ball') === 0 || desc === 'Automatic Ball' || desc.indexOf('Hit By Pitch') === 0) return 'pitch-dot-ball';
+  return 'pitch-dot-strike'; // Called Strike, Swinging Strike, Foul, Foul Tip, Foul Bunt, ...
 }
 
 // MLB's live feed carries full Statcast pitch coordinates (pX/pZ, feet from
@@ -927,8 +927,10 @@ function renderLiveState(el, data) {
   const away = (linescore.teams || {}).away || {};
   const outs = linescore.outs || 0;
   const offense = linescore.offense || {};
+  const defense = linescore.defense || {};
   const batter = offense.batter ? offense.batter.fullName : null;
   const onDeck = offense.onDeck ? offense.onDeck.fullName : null;
+  const pitcher = defense.pitcher ? defense.pitcher.fullName : null;
   const outDots = [0, 1, 2]
     .map(function (i) { return '<span class="out-dot' + (i < outs ? ' out-dot-filled' : '') + '"></span>'; })
     .join('');
@@ -962,10 +964,10 @@ function renderLiveState(el, data) {
     '</div>' +
     '</div>' +
     (strikeZoneHtml ? '<div class="sz-panel"><span class="sz-panel-label">Pitch location</span>' + strikeZoneHtml + '</div>' : '') +
-    (batter
-      ? '<div class="live-matchup"><span class="live-batter">At bat: <b>' +
-        escapeHtml(batter) +
-        '</b></span>' +
+    (batter || pitcher
+      ? '<div class="live-matchup">' +
+        (pitcher ? '<span class="live-batter">Pitching: <b>' + escapeHtml(pitcher) + '</b></span>' : '') +
+        (batter ? '<span class="live-batter">At bat: <b>' + escapeHtml(batter) + '</b></span>' : '') +
         (onDeck ? '<span class="live-batter sub">On deck: ' + escapeHtml(onDeck) + '</span>' : '') +
         '</div>'
       : '') +
