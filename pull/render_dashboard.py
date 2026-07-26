@@ -1676,6 +1676,23 @@ def _game_line_html(g):
         ml_hit = (ml_pick == "home") == (margin > 0)
         picks_html = f'<span>Moneyline: <b>{html.escape(ml_team or "?")}</b> {_badge("HIT" if ml_hit else "MISS", "hit" if ml_hit else "miss")}</span>'
 
+        spread_pick = p.get("spread_pick")
+        spread_favorite = p.get("spread_favorite") or ("home" if p["home_win_prob"] >= 0.5 else "away")
+        if spread_pick is None:
+            cover = p.get("spread_cover_prob") or 0
+            spread_pick = "home" if cover >= 0.5 else "away"
+        if spread_pick:
+            spread_line = p.get("spread_line", 1.5)
+            spread_team = g["home"]["team_name"] if spread_pick == "home" else g["away"]["team_name"]
+            spread_side = f"-{spread_line}" if spread_pick == spread_favorite else f"+{spread_line}"
+            favorite_margin = margin if spread_favorite == "home" else -margin
+            favorite_covers = favorite_margin > spread_line
+            spread_hit = favorite_covers if spread_pick == spread_favorite else not favorite_covers
+            picks_html += (
+                f'<span>Run line: <b>{html.escape(spread_team or "?")} {spread_side}</b> '
+                f'{_badge("HIT" if spread_hit else "MISS", "hit" if spread_hit else "miss")}</span>'
+            )
+
         total_line = p.get("total_line")
         if total_line is not None:
             total_pick = p.get("total_pick") or ("over" if p.get("over_prob", 0.5) >= 0.5 else "under")
