@@ -69,15 +69,38 @@ def _load_day_report(date):
 
 
 def _picks_for_date(top_picks_field, target_date):
-    """Normalizes either the old (flat list, possibly multi-date) or current ({"batters":[], "pitchers":[]}, single-date) shape."""
+    """
+    Normalizes either the old (flat list, possibly multi-date) or current
+    ({"batters": [...], "pitchers": [...]}) shape -- and always filters to
+    target_date regardless of which shape it is. Trusting the dict shape to
+    already be single-date was itself a bug: build_top_picks() only started
+    scoping to a single date partway through this project, so a dict-shaped
+    top_overs/top_unders frozen before that fix landed can still span
+    multiple dates. Confirmed on a real archive: a player who'd cleared his
+    RBI line that day still showed as "no data" because his ACTUAL game
+    (today) sat right next to a phantom entry for a different date's game
+    (tomorrow's, not yet played) that was never supposed to be graded here
+    at all -- both got graded, so he appeared twice, once correctly and
+    once as a false miss.
+    """
     if top_picks_field is None:
         return []
-    if isinstance(top_picks_field, dict):
-        return (top_picks_field.get("batters") or []) + (top_picks_field.get("pitchers") or [])
-    return [p for p in top_picks_field if p.get("date") == target_date]
+    picks = (top_picks_field.get("batters") or []) + (top_picks_field.get("pitchers") or []) if isinstance(top_picks_field, dict) else top_picks_field
+    return [p for p in picks if p.get("date") == target_date]
 
 
 def _grade_pick(conn, pick, direction):
+    """
+    "No data" should mean "didn't play," not "played, but this one column
+    came back empty." The per-game sync pulls a whole stat line from a
+    single API object in one shot, so it's possible for at_bats (batters)
+    or outs (pitchers) to be a real number while some OTHER column in that
+    same row -- the one this particular pick happens to be graded on -- is
+    None (the API omitted that key for this game). Checking the played
+    indicator separately from the graded column means a real appearance
+    with, say, a missing home_runs value grades as a real 0 (a miss on an
+    OVER, a hit on an UNDER) instead of being wrongly written off as DNP.
+    """
     role = pick.get("role", "batter")
     cat = pick.get("best_category")
     if not cat:
@@ -86,13 +109,14 @@ def _grade_pick(conn, pick, direction):
     if not col:
         return "no_data", None
     table = "batting_game_logs" if role == "batter" else "pitching_game_logs"
+    played_col = "at_bats" if role == "batter" else "outs"
     row = conn.execute(
-        f"SELECT {col} as val FROM {table} WHERE player_id = ? AND date = ?",
+        f"SELECT {col} as val, {played_col} as played FROM {table} WHERE player_id = ? AND date = ?",
         (pick["player_id"], pick["date"]),
     ).fetchone()
-    if not row or row["val"] is None:
+    if not row or row["played"] is None:
         return "no_data", None
-    val = row["val"]
+    val = row["val"] if row["val"] is not None else 0
     cleared = val > cat["line"]
     hit = cleared if direction == "over" else not cleared
     return ("hit" if hit else "miss"), val
@@ -200,6 +224,7 @@ def _grade_pitcher_signals(conn, report, date):
 def _collect_player_projection_errors(conn, player, role, date, by_category, examples):
     col_map = BATTER_COL if role == "batter" else PITCHER_COL
     table = "batting_game_logs" if role == "batter" else "pitching_game_logs"
+    played_col = "at_bats" if role == "batter" else "outs"
     player_id = player.get("player_id")
     if player_id is None:
         return
@@ -209,12 +234,12 @@ def _collect_player_projection_errors(conn, player, role, date, by_category, exa
         if not col or projected is None:
             continue
         row = conn.execute(
-            f"SELECT {col} as val FROM {table} WHERE player_id = ? AND date = ?",
+            f"SELECT {col} as val, {played_col} as played FROM {table} WHERE player_id = ? AND date = ?",
             (player_id, date),
         ).fetchone()
-        if not row or row["val"] is None:
+        if not row or row["played"] is None:
             continue  # DNP that day -- no actual to compare the projection against
-        actual = row["val"]
+        actual = row["val"] if row["val"] is not None else 0  # played, just a real 0 in this specific column
         error = actual - projected
         by_category.setdefault(cat["label"], []).append((projected, actual))
         examples.append({

@@ -77,14 +77,22 @@ jobs:
         run: python pull/sync_results.py
         continue-on-error: true
 
-      # Grades yesterday's picks/signals against actual results and
-      # appends to output/track_record.json -- idempotent (re-grading an
-      # already-graded date just recomputes it), so running this every
-      # hour is harmless and self-correcting if an extra-innings game
-      # finishes late. build_props.py (next step) reads track_record.json
-      # to rebuild the Track Record page, so this has to run first.
-      - name: Grade yesterday's picks against results
-        run: python pull/grade_picks.py
+      # Grades yesterday's (and the previous 3 days') picks/signals against
+      # actual results and appends to output/track_record.json --
+      # idempotent (re-grading an already-graded date just recomputes it),
+      # so running this every hour is harmless. The backfill window matters:
+      # sync_stats.py is time-budgeted and can genuinely still be catching
+      # up on some players' game logs by the time this runs, which used to
+      # get permanently recorded as "no data" the moment the date stopped
+      # being "yesterday" (grading a bare --date only ever re-touches that
+      # one day) -- confirmed on a real pick (a Royals batter with a real
+      # HR/RBI game graded "no data" because his box score hadn't synced
+      # yet when grading ran that day). Re-grading the last few days every
+      # hour lets it self-heal instead of freezing a sync race forever.
+      # build_props.py (next step) reads track_record.json to rebuild the
+      # Track Record page, so this has to run first.
+      - name: Grade recent picks against results
+        run: python pull/grade_picks.py --backfill-days 3
         continue-on-error: true
 
       - name: Simulate upcoming games
