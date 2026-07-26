@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-26T21:54:16.123213+00:00",
+  "generated_at": "2026-07-26T22:09:57.040247+00:00",
   "range": [
     "2026-07-26",
     "2026-07-28"
@@ -110146,22 +110146,22 @@
       },
       "projection": {
         "game_pk": 823194,
-        "generated_at": "2026-07-26T21:53:51.473850+00:00",
+        "generated_at": "2026-07-26T22:09:28.966070+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.26,
         "away_exp_runs": 3.73,
-        "home_win_prob": 0.452,
+        "home_win_prob": 0.455,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.282,
+        "spread_cover_prob": 0.286,
         "total_line": 6.5,
-        "over_prob": 0.495,
+        "over_prob": 0.497,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
-        "spread_pick_prob": 0.63,
+        "spread_pick_prob": 0.632,
         "total_pick": "under",
-        "total_pick_prob": 0.505,
+        "total_pick_prob": 0.503,
         "spread_favorite": "away"
       },
       "home": {
@@ -110470,7 +110470,7 @@
             "line": 2.5,
             "direction": "over",
             "projection": 3.0,
-            "result": "hit"
+            "result": null
           },
           "opponent_matchup": {
             "tough_matchups": [
@@ -110932,7 +110932,7 @@
               "line": 0.5,
               "direction": "under",
               "projection": 0.02,
-              "result": "hit"
+              "result": null
             },
             "game_result": {
               "at_bats": 2,
@@ -111364,7 +111364,7 @@
               "line": 1.5,
               "direction": "under",
               "projection": 0.88,
-              "result": "hit"
+              "result": null
             },
             "game_result": {
               "at_bats": 1,
@@ -111796,7 +111796,7 @@
               "line": 0.5,
               "direction": "over",
               "projection": 0.87,
-              "result": "miss"
+              "result": null
             },
             "game_result": {
               "at_bats": 2,
@@ -112228,7 +112228,7 @@
               "line": 0.5,
               "direction": "over",
               "projection": 0.94,
-              "result": "miss"
+              "result": null
             },
             "game_result": {
               "at_bats": 0,
@@ -112653,7 +112653,7 @@
               "line": 0.5,
               "direction": "over",
               "projection": 0.85,
-              "result": "miss"
+              "result": null
             },
             "game_result": {
               "at_bats": 1,
@@ -113085,7 +113085,7 @@
               "line": 1.5,
               "direction": "under",
               "projection": 1.01,
-              "result": "hit"
+              "result": null
             },
             "game_result": {
               "at_bats": 1,
@@ -113517,7 +113517,7 @@
               "line": 0.5,
               "direction": "under",
               "projection": 0.18,
-              "result": "hit"
+              "result": null
             },
             "game_result": {
               "at_bats": 1,
@@ -113949,7 +113949,7 @@
               "line": 0.5,
               "direction": "under",
               "projection": 0.0,
-              "result": "hit"
+              "result": null
             },
             "game_result": {
               "at_bats": 1,
@@ -114381,7 +114381,7 @@
               "line": 0.5,
               "direction": "under",
               "projection": 0.0,
-              "result": "hit"
+              "result": null
             },
             "game_result": {
               "at_bats": 0,
@@ -114719,7 +114719,7 @@
             "line": 5.5,
             "direction": "under",
             "projection": 4.87,
-            "result": "hit"
+            "result": null
           },
           "opponent_matchup": {
             "tough_matchups": [
@@ -115174,7 +115174,7 @@
               "line": 1.5,
               "direction": "over",
               "projection": 2.04,
-              "result": "miss"
+              "result": null
             },
             "game_result": {
               "at_bats": 2,
@@ -115606,7 +115606,7 @@
               "line": 0.5,
               "direction": "over",
               "projection": 1.08,
-              "result": "hit"
+              "result": null
             },
             "game_result": {
               "at_bats": 2,
@@ -116038,7 +116038,7 @@
               "line": 0.5,
               "direction": "over",
               "projection": 1.14,
-              "result": "miss"
+              "result": null
             },
             "game_result": {
               "at_bats": 1,
@@ -116463,7 +116463,7 @@
               "line": 0.5,
               "direction": "under",
               "projection": 0.09,
-              "result": "miss"
+              "result": null
             },
             "game_result": {
               "at_bats": 2,
@@ -116895,7 +116895,7 @@
               "line": 1.5,
               "direction": "under",
               "projection": 0.99,
-              "result": "hit"
+              "result": null
             },
             "game_result": {
               "at_bats": 1,
@@ -117327,7 +117327,7 @@
               "line": 0.5,
               "direction": "over",
               "projection": 1.07,
-              "result": "hit"
+              "result": null
             },
             "game_result": {
               "at_bats": 2,
@@ -117759,7 +117759,7 @@
               "line": 0.5,
               "direction": "over",
               "projection": 0.92,
-              "result": "miss"
+              "result": null
             },
             "game_result": {
               "at_bats": 2,
@@ -118184,7 +118184,7 @@
               "line": 0.5,
               "direction": "over",
               "projection": 1.03,
-              "result": "miss"
+              "result": null
             },
             "game_result": {
               "at_bats": 1,
@@ -118616,7 +118616,7 @@
               "line": 0.5,
               "direction": "under",
               "projection": 0.04,
-              "result": "hit"
+              "result": null
             },
             "game_result": {
               "at_bats": 2,
@@ -118648,22 +118648,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 823433,
-        "generated_at": "2026-07-26T21:53:51.473850+00:00",
+        "generated_at": "2026-07-26T22:09:28.966070+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.71,
         "away_exp_runs": 3.31,
         "home_win_prob": 0.539,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.362,
+        "spread_cover_prob": 0.364,
         "total_line": 6.5,
-        "over_prob": 0.5,
+        "over_prob": 0.501,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.638,
+        "spread_pick_prob": 0.636,
         "total_pick": "over",
-        "total_pick_prob": 0.5,
+        "total_pick_prob": 0.501,
         "spread_favorite": "home"
       },
       "home": {
@@ -126905,22 +126905,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 822868,
-        "generated_at": "2026-07-26T21:53:51.473850+00:00",
+        "generated_at": "2026-07-26T22:09:28.966070+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.71,
         "away_exp_runs": 3.77,
-        "home_win_prob": 0.495,
+        "home_win_prob": 0.494,
         "spread_line": 1.5,
         "spread_cover_prob": 0.33,
         "total_line": 6.5,
-        "over_prob": 0.546,
+        "over_prob": 0.548,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
-        "spread_pick_prob": 0.661,
+        "spread_pick_prob": 0.659,
         "total_pick": "over",
-        "total_pick_prob": 0.546,
+        "total_pick_prob": 0.548,
         "spread_favorite": "away"
       },
       "home": {
@@ -135168,22 +135168,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 823353,
-        "generated_at": "2026-07-26T21:53:51.473850+00:00",
+        "generated_at": "2026-07-26T22:09:28.966070+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 5.66,
         "away_exp_runs": 4.84,
         "home_win_prob": 0.561,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.43,
+        "spread_cover_prob": 0.431,
         "total_line": 10.5,
-        "over_prob": 0.447,
+        "over_prob": 0.445,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.57,
+        "spread_pick_prob": 0.569,
         "total_pick": "under",
-        "total_pick_prob": 0.553,
+        "total_pick_prob": 0.555,
         "spread_favorite": "home"
       },
       "home": {
@@ -143450,22 +143450,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 823839,
-        "generated_at": "2026-07-26T21:53:51.473850+00:00",
+        "generated_at": "2026-07-26T22:09:28.966070+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 2.73,
         "away_exp_runs": 3.36,
-        "home_win_prob": 0.43,
+        "home_win_prob": 0.429,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.248,
+        "spread_cover_prob": 0.246,
         "total_line": 6.5,
-        "over_prob": 0.399,
+        "over_prob": 0.398,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
         "spread_pick_prob": 0.627,
         "total_pick": "under",
-        "total_pick_prob": 0.601,
+        "total_pick_prob": 0.602,
         "spread_favorite": "away"
       },
       "home": {
@@ -151718,20 +151718,20 @@
       "live_score": null,
       "projection": {
         "game_pk": 824245,
-        "generated_at": "2026-07-26T21:53:51.473850+00:00",
+        "generated_at": "2026-07-26T22:09:28.966070+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.3,
         "away_exp_runs": 3.22,
-        "home_win_prob": 0.512,
+        "home_win_prob": 0.51,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.329,
+        "spread_cover_prob": 0.325,
         "total_line": 6.5,
         "over_prob": 0.447,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.671,
+        "spread_pick_prob": 0.675,
         "total_pick": "under",
         "total_pick_prob": 0.553,
         "spread_favorite": "home"
@@ -159968,22 +159968,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 822705,
-        "generated_at": "2026-07-26T21:53:51.473850+00:00",
+        "generated_at": "2026-07-26T22:09:28.966070+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 5.68,
         "away_exp_runs": 3.8,
-        "home_win_prob": 0.647,
+        "home_win_prob": 0.649,
         "spread_line": 1.5,
         "spread_cover_prob": 0.508,
         "total_line": 8.5,
-        "over_prob": 0.529,
+        "over_prob": 0.525,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "home",
         "spread_pick_prob": 0.508,
         "total_pick": "over",
-        "total_pick_prob": 0.529,
+        "total_pick_prob": 0.525,
         "spread_favorite": "home"
       },
       "home": {
@@ -167955,22 +167955,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 823597,
-        "generated_at": "2026-07-26T21:53:51.473850+00:00",
+        "generated_at": "2026-07-26T22:09:28.966070+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.06,
         "away_exp_runs": 3.1,
-        "home_win_prob": 0.496,
+        "home_win_prob": 0.494,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.306,
+        "spread_cover_prob": 0.304,
         "total_line": 6.5,
-        "over_prob": 0.406,
+        "over_prob": 0.408,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
-        "spread_pick_prob": 0.687,
+        "spread_pick_prob": 0.686,
         "total_pick": "under",
-        "total_pick_prob": 0.594,
+        "total_pick_prob": 0.592,
         "spread_favorite": "away"
       },
       "home": {
@@ -176173,22 +176173,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 824490,
-        "generated_at": "2026-07-26T21:53:51.473850+00:00",
+        "generated_at": "2026-07-26T22:09:28.966070+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.9,
         "away_exp_runs": 2.64,
-        "home_win_prob": 0.634,
+        "home_win_prob": 0.633,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.446,
+        "spread_cover_prob": 0.445,
         "total_line": 6.5,
-        "over_prob": 0.448,
+        "over_prob": 0.445,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.554,
+        "spread_pick_prob": 0.555,
         "total_pick": "under",
-        "total_pick_prob": 0.552,
+        "total_pick_prob": 0.555,
         "spread_favorite": "home"
       },
       "home": {
@@ -184415,20 +184415,20 @@
       "live_score": null,
       "projection": {
         "game_pk": 824570,
-        "generated_at": "2026-07-26T21:53:51.473850+00:00",
+        "generated_at": "2026-07-26T22:09:28.966070+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.07,
         "away_exp_runs": 4.92,
-        "home_win_prob": 0.335,
+        "home_win_prob": 0.337,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.198,
+        "spread_cover_prob": 0.199,
         "total_line": 6.5,
         "over_prob": 0.589,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "away",
-        "spread_pick_prob": 0.506,
+        "spread_pick_prob": 0.504,
         "total_pick": "over",
         "total_pick_prob": 0.589,
         "spread_favorite": "away"
@@ -192670,22 +192670,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 823025,
-        "generated_at": "2026-07-26T21:53:51.473850+00:00",
+        "generated_at": "2026-07-26T22:09:28.966070+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.53,
         "away_exp_runs": 5.23,
-        "home_win_prob": 0.446,
+        "home_win_prob": 0.445,
         "spread_line": 1.5,
         "spread_cover_prob": 0.312,
         "total_line": 8.5,
-        "over_prob": 0.551,
+        "over_prob": 0.554,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
-        "spread_pick_prob": 0.585,
+        "spread_pick_prob": 0.583,
         "total_pick": "over",
-        "total_pick_prob": 0.551,
+        "total_pick_prob": 0.554,
         "spread_favorite": "away"
       },
       "home": {
@@ -200589,7 +200589,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 824001,
-        "generated_at": "2026-07-26T21:53:51.473850+00:00",
+        "generated_at": "2026-07-26T22:09:28.966070+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.09,
         "away_exp_runs": 3.61,
@@ -200597,14 +200597,14 @@
         "spread_line": 1.5,
         "spread_cover_prob": 0.38,
         "total_line": 6.5,
-        "over_prob": 0.568,
+        "over_prob": 0.571,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
         "spread_pick_prob": 0.62,
         "total_pick": "over",
-        "total_pick_prob": 0.568,
+        "total_pick_prob": 0.571,
         "spread_favorite": "home"
       },
       "home": {
@@ -208827,20 +208827,20 @@
       "live_score": null,
       "projection": {
         "game_pk": 824977,
-        "generated_at": "2026-07-26T21:53:51.473850+00:00",
+        "generated_at": "2026-07-26T22:09:28.966070+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.34,
         "away_exp_runs": 6.3,
-        "home_win_prob": 0.274,
+        "home_win_prob": 0.277,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.162,
+        "spread_cover_prob": 0.167,
         "total_line": 8.5,
         "over_prob": 0.537,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "away",
-        "spread_pick_prob": 0.594,
+        "spread_pick_prob": 0.59,
         "total_pick": "over",
         "total_pick_prob": 0.537,
         "spread_favorite": "away"
@@ -217092,22 +217092,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 823195,
-        "generated_at": "2026-07-26T21:53:51.473850+00:00",
+        "generated_at": "2026-07-26T22:09:28.966070+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.94,
         "away_exp_runs": 4.94,
-        "home_win_prob": 0.418,
+        "home_win_prob": 0.417,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.279,
+        "spread_cover_prob": 0.276,
         "total_line": 8.5,
-        "over_prob": 0.478,
+        "over_prob": 0.479,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
-        "spread_pick_prob": 0.566,
+        "spread_pick_prob": 0.567,
         "total_pick": "under",
-        "total_pick_prob": 0.522,
+        "total_pick_prob": 0.521,
         "spread_favorite": "away"
       },
       "home": {
@@ -225359,22 +225359,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 822949,
-        "generated_at": "2026-07-26T21:53:51.473850+00:00",
+        "generated_at": "2026-07-26T22:09:28.966070+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 5.23,
         "away_exp_runs": 3.88,
-        "home_win_prob": 0.611,
+        "home_win_prob": 0.612,
         "spread_line": 1.5,
         "spread_cover_prob": 0.466,
         "total_line": 8.5,
-        "over_prob": 0.499,
+        "over_prob": 0.5,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
         "spread_pick_prob": 0.534,
-        "total_pick": "under",
-        "total_pick_prob": 0.501,
+        "total_pick": "over",
+        "total_pick_prob": 0.5,
         "spread_favorite": "home"
       },
       "home": {
@@ -233269,22 +233269,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 823350,
-        "generated_at": "2026-07-26T21:53:51.473850+00:00",
+        "generated_at": "2026-07-26T22:09:28.966070+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 5.15,
         "away_exp_runs": 4.58,
         "home_win_prob": 0.542,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.403,
+        "spread_cover_prob": 0.405,
         "total_line": 8.5,
-        "over_prob": 0.551,
+        "over_prob": 0.549,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.597,
+        "spread_pick_prob": 0.595,
         "total_pick": "over",
-        "total_pick_prob": 0.551,
+        "total_pick_prob": 0.549,
         "spread_favorite": "home"
       },
       "home": {
@@ -241550,22 +241550,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 823838,
-        "generated_at": "2026-07-26T21:53:51.473850+00:00",
+        "generated_at": "2026-07-26T22:09:28.966070+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.64,
         "away_exp_runs": 3.61,
-        "home_win_prob": 0.591,
+        "home_win_prob": 0.588,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.434,
+        "spread_cover_prob": 0.431,
         "total_line": 8.5,
-        "over_prob": 0.422,
+        "over_prob": 0.425,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.566,
+        "spread_pick_prob": 0.569,
         "total_pick": "under",
-        "total_pick_prob": 0.578,
+        "total_pick_prob": 0.575,
         "spread_favorite": "home"
       },
       "home": {
@@ -249810,22 +249810,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 824243,
-        "generated_at": "2026-07-26T21:53:51.473850+00:00",
+        "generated_at": "2026-07-26T22:09:28.966070+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.15,
         "away_exp_runs": 2.55,
-        "home_win_prob": 0.661,
+        "home_win_prob": 0.665,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.479,
+        "spread_cover_prob": 0.483,
         "total_line": 6.5,
-        "over_prob": 0.464,
+        "over_prob": 0.463,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.521,
+        "spread_pick_prob": 0.517,
         "total_pick": "under",
-        "total_pick_prob": 0.536,
+        "total_pick_prob": 0.537,
         "spread_favorite": "home"
       },
       "home": {
@@ -258066,22 +258066,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 822703,
-        "generated_at": "2026-07-26T21:53:51.473850+00:00",
+        "generated_at": "2026-07-26T22:09:28.966070+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 5.37,
         "away_exp_runs": 3.28,
         "home_win_prob": 0.673,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.524,
+        "spread_cover_prob": 0.525,
         "total_line": 8.5,
-        "over_prob": 0.457,
+        "over_prob": 0.459,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "home",
-        "spread_pick_prob": 0.524,
+        "spread_pick_prob": 0.525,
         "total_pick": "under",
-        "total_pick_prob": 0.543,
+        "total_pick_prob": 0.541,
         "spread_favorite": "home"
       },
       "home": {
@@ -266329,22 +266329,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 823598,
-        "generated_at": "2026-07-26T21:53:51.473850+00:00",
+        "generated_at": "2026-07-26T22:09:28.966070+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 2.41,
         "away_exp_runs": 3.97,
-        "home_win_prob": 0.335,
+        "home_win_prob": 0.337,
         "spread_line": 1.5,
         "spread_cover_prob": 0.176,
         "total_line": 6.5,
-        "over_prob": 0.429,
+        "over_prob": 0.43,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
-        "spread_pick_prob": 0.524,
+        "spread_pick_prob": 0.526,
         "total_pick": "under",
-        "total_pick_prob": 0.571,
+        "total_pick_prob": 0.57,
         "spread_favorite": "away"
       },
       "home": {
@@ -274564,22 +274564,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 824489,
-        "generated_at": "2026-07-26T21:53:51.473850+00:00",
+        "generated_at": "2026-07-26T22:09:28.966070+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.44,
         "away_exp_runs": 3.71,
-        "home_win_prob": 0.475,
+        "home_win_prob": 0.473,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.307,
+        "spread_cover_prob": 0.304,
         "total_line": 6.5,
-        "over_prob": 0.515,
+        "over_prob": 0.511,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
-        "spread_pick_prob": 0.648,
+        "spread_pick_prob": 0.647,
         "total_pick": "over",
-        "total_pick_prob": 0.515,
+        "total_pick_prob": 0.511,
         "spread_favorite": "away"
       },
       "home": {
@@ -282814,22 +282814,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 823676,
-        "generated_at": "2026-07-26T21:53:51.473850+00:00",
+        "generated_at": "2026-07-26T22:09:28.966070+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.69,
         "away_exp_runs": 3.61,
-        "home_win_prob": 0.594,
+        "home_win_prob": 0.595,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.438,
+        "spread_cover_prob": 0.437,
         "total_line": 8.5,
-        "over_prob": 0.424,
+        "over_prob": 0.428,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.562,
+        "spread_pick_prob": 0.563,
         "total_pick": "under",
-        "total_pick_prob": 0.576,
+        "total_pick_prob": 0.572,
         "spread_favorite": "home"
       },
       "home": {
@@ -291059,22 +291059,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 824569,
-        "generated_at": "2026-07-26T21:53:51.473850+00:00",
+        "generated_at": "2026-07-26T22:09:28.966070+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.72,
         "away_exp_runs": 3.88,
-        "home_win_prob": 0.485,
+        "home_win_prob": 0.487,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.322,
+        "spread_cover_prob": 0.324,
         "total_line": 6.5,
-        "over_prob": 0.56,
+        "over_prob": 0.559,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
-        "spread_pick_prob": 0.649,
+        "spread_pick_prob": 0.651,
         "total_pick": "over",
-        "total_pick_prob": 0.56,
+        "total_pick_prob": 0.559,
         "spread_favorite": "away"
       },
       "home": {
@@ -299312,22 +299312,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 823026,
-        "generated_at": "2026-07-26T21:53:51.473850+00:00",
+        "generated_at": "2026-07-26T22:09:28.966070+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.92,
         "away_exp_runs": 5.23,
-        "home_win_prob": 0.394,
+        "home_win_prob": 0.393,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.26,
+        "spread_cover_prob": 0.259,
         "total_line": 8.5,
-        "over_prob": 0.504,
+        "over_prob": 0.501,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
-        "spread_pick_prob": 0.538,
+        "spread_pick_prob": 0.539,
         "total_pick": "over",
-        "total_pick_prob": 0.504,
+        "total_pick_prob": 0.501,
         "spread_favorite": "away"
       },
       "home": {
@@ -307223,22 +307223,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 824003,
-        "generated_at": "2026-07-26T21:53:51.473850+00:00",
+        "generated_at": "2026-07-26T22:09:28.966070+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 2.82,
         "away_exp_runs": 4.36,
-        "home_win_prob": 0.351,
+        "home_win_prob": 0.35,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.2,
+        "spread_cover_prob": 0.199,
         "total_line": 6.5,
-        "over_prob": 0.514,
+        "over_prob": 0.517,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
         "spread_pick_prob": 0.523,
         "total_pick": "over",
-        "total_pick_prob": 0.514,
+        "total_pick_prob": 0.517,
         "spread_favorite": "away"
       },
       "home": {
@@ -315437,22 +315437,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 823275,
-        "generated_at": "2026-07-26T21:53:51.473850+00:00",
+        "generated_at": "2026-07-26T22:09:28.966070+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 5.28,
         "away_exp_runs": 3.54,
-        "home_win_prob": 0.646,
+        "home_win_prob": 0.644,
         "spread_line": 1.5,
         "spread_cover_prob": 0.497,
         "total_line": 8.5,
-        "over_prob": 0.476,
+        "over_prob": 0.471,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
         "spread_pick_prob": 0.503,
         "total_pick": "under",
-        "total_pick_prob": 0.524,
+        "total_pick_prob": 0.529,
         "spread_favorite": "home"
       },
       "home": {
@@ -323678,22 +323678,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 824976,
-        "generated_at": "2026-07-26T21:53:51.473850+00:00",
+        "generated_at": "2026-07-26T22:09:28.966070+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 2.89,
         "away_exp_runs": 5.18,
-        "home_win_prob": 0.299,
+        "home_win_prob": 0.3,
         "spread_line": 1.5,
         "spread_cover_prob": 0.169,
         "total_line": 6.5,
-        "over_prob": 0.595,
+        "over_prob": 0.598,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "away",
-        "spread_pick_prob": 0.547,
+        "spread_pick_prob": 0.545,
         "total_pick": "over",
-        "total_pick_prob": 0.595,
+        "total_pick_prob": 0.598,
         "spread_favorite": "away"
       },
       "home": {
@@ -331955,22 +331955,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 823193,
-        "generated_at": "2026-07-26T21:53:51.473850+00:00",
+        "generated_at": "2026-07-26T22:09:28.966070+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 2.86,
         "away_exp_runs": 4.07,
-        "home_win_prob": 0.376,
+        "home_win_prob": 0.38,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.218,
+        "spread_cover_prob": 0.219,
         "total_line": 6.5,
-        "over_prob": 0.492,
+        "over_prob": 0.491,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
         "spread_pick_prob": 0.557,
         "total_pick": "under",
-        "total_pick_prob": 0.508,
+        "total_pick_prob": 0.509,
         "spread_favorite": "away"
       },
       "home": {
@@ -340222,22 +340222,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 823923,
-        "generated_at": "2026-07-26T21:53:51.473850+00:00",
+        "generated_at": "2026-07-26T22:09:28.966070+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.05,
         "away_exp_runs": 3.7,
-        "home_win_prob": 0.53,
+        "home_win_prob": 0.533,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.367,
+        "spread_cover_prob": 0.37,
         "total_line": 6.5,
-        "over_prob": 0.574,
+        "over_prob": 0.569,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.633,
+        "spread_pick_prob": 0.63,
         "total_pick": "over",
-        "total_pick_prob": 0.574,
+        "total_pick_prob": 0.569,
         "spread_favorite": "home"
       },
       "home": {
@@ -347993,7 +347993,7 @@
         "team": "New York Yankees",
         "opponent": "Philadelphia Phillies",
         "date": "2026-07-26",
-        "lineup_confirmed": true,
+        "lineup_confirmed": false,
         "score": 2.5,
         "reasons": [
           "favorable matchup vs. tonight's pitcher",
@@ -348251,7 +348251,7 @@
           "n": 5
         },
         "fallback_angle": null,
-        "result": "miss"
+        "result": null
       },
       {
         "role": "pitcher",
@@ -348346,7 +348346,7 @@
           "delta": -25
         },
         "fallback_angle": null,
-        "result": "miss"
+        "result": null
       },
       {
         "role": "batter",
@@ -348368,7 +348368,7 @@
           "n": 10
         },
         "fallback_angle": "Opposing pitcher allows a .194 average to same-handed hitters this season",
-        "result": "hit"
+        "result": null
       },
       {
         "role": "batter",
@@ -348377,7 +348377,7 @@
         "team": "New York Yankees",
         "opponent": "Philadelphia Phillies",
         "date": "2026-07-26",
-        "lineup_confirmed": true,
+        "lineup_confirmed": false,
         "score": 3.0,
         "reasons": [
           "cold recent stretch (well below season average)",
@@ -348400,7 +348400,7 @@
         "team": "New York Yankees",
         "opponent": "Philadelphia Phillies",
         "date": "2026-07-26",
-        "lineup_confirmed": true,
+        "lineup_confirmed": false,
         "score": 3.0,
         "reasons": [
           "cold recent stretch (well below season average)",
@@ -348472,9 +348472,9 @@
           "tough matchup vs. tonight's pitcher"
         ],
         "best_category": {
-          "label": "Home Runs",
+          "label": "Hits",
           "line": 0.5,
-          "pct": 20,
+          "pct": 60,
           "n": 10
         },
         "fallback_angle": "Opposing pitcher allows a .184 average to same-handed hitters this season",
@@ -348614,7 +348614,7 @@
           "delta": -13
         },
         "fallback_angle": null,
-        "result": "hit"
+        "result": null
       }
     ],
     "pitchers": [
