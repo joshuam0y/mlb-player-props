@@ -429,6 +429,11 @@ STYLE = """
   .best-prop { font-size: 11.5px; margin-top: 4px; padding: 3px 7px; border-radius: 6px; display: inline-block; }
   .best-prop-over { background: var(--series-1-bg); color: var(--series-1); }
   .best-prop-under { background: rgba(224,51,63,0.14); color: var(--status-critical); }
+  /* Deliberately a plain colored line, not a pill like .best-prop above --
+     this is a different signal (today's matchup-adjusted lean, next to
+     the actual box score once the game's started) and shouldn't be
+     visually interchangeable with it. */
+  .matchup-lean { font-size: 11.5px; font-weight: 600; margin: 4px 0; }
   .matchup-explain { font-size: 11.5px; margin-top: 6px; padding: 5px 8px; border-radius: 6px; }
   .matchup-explain-good { background: var(--series-1-bg); color: var(--series-1); }
   .matchup-explain-tough { background: rgba(224,51,63,0.14); color: var(--status-critical); }
@@ -1315,6 +1320,23 @@ def _best_prop_html(entry):
     return f'<div class="best-prop best-prop-{direction}">{text}</div>' if text else ""
 
 
+def _matchup_lean_html(entry):
+    """
+    Once a game has actually started, the box score sits right there but
+    the ONE thing it doesn't say for itself is which side of a line the
+    model actually called pre-game -- that only ever lived behind a click
+    into the category detail. Shown only alongside a real box score (see
+    the gr-gated call sites below), not pre-game, where "Best prop" above
+    already headlines a (different) signal and a second callout would just
+    be clutter before there's anything to check it against yet.
+    """
+    lean = entry.get("matchup_lean")
+    if not lean:
+        return ""
+    verb = "OVER" if lean["direction"] == "over" else "UNDER"
+    return f'<div class="matchup-lean prop-lean-{lean["direction"]}">Predicted: {html.escape(lean["label"])} {verb} {lean["line"]}</div>'
+
+
 def _pitcher_matchup_text(matchup):
     if not matchup:
         return []
@@ -1480,6 +1502,7 @@ def _pitcher_html(p, row_id, fatigue, status):
     )
     badges = " ".join(x for x in [_pitcher_form_badge(p.get("form_trend")), _injury_badge(p["injury"])] if x)
     boxscore_html = _pitcher_boxscore_html(p.get("game_result"), status, p["player_id"])
+    matchup_lean_html = _matchup_lean_html(p) if p.get("game_result") else ""
 
     bullets = [l5_txt]
     best_prop_text = _best_prop_text(p)
@@ -1502,6 +1525,7 @@ def _pitcher_html(p, row_id, fatigue, status):
       <span class="expand-arrow"></span><b>{html.escape(p["name"])}</b> ({html.escape(p["pitch_hand"] or "?")}, throws) {badges}
     </div>
     {boxscore_html}
+    {matchup_lean_html}
     <ul class="team-summary">{bullets_html}</ul>
     <table><tbody>{_prop_categories_html(p.get("prop_categories"), row_id)}</tbody></table>
     """
@@ -1540,13 +1564,14 @@ def _batter_rows(batters, id_prefix, status):
             if x
         )
         boxscore_html = _batter_boxscore_html(b.get("game_result"), status, b["player_id"])
+        matchup_lean_html = _matchup_lean_html(b) if b.get("game_result") else ""
         rows.append(
             f'<tr class="player-row" data-player-id="{b["player_id"]}" onclick="toggleDetail(\'{row_id}\')">'
             f'<td data-label="Order">{order}</td>'
             f'<td data-label="Batter" class="name-cell"><span class="expand-arrow"></span>{html.escape(b["name"])} '
             f'<span class="sub">({html.escape(b["bat_side"] or "?")} handed batter)</span></td>'
             f'<td data-label="Flags">{badges}</td>'
-            f'<td data-label="Recent form">{boxscore_html}{html.escape(l7_txt)}<div class="sub">{season_txt}</div>{_best_prop_html(b)}</td>'
+            f'<td data-label="Recent form">{boxscore_html}{matchup_lean_html}{html.escape(l7_txt)}<div class="sub">{season_txt}</div>{_best_prop_html(b)}</td>'
             f'<td data-label="News" class="col-news">{headline}</td></tr>'
         )
         # The News column is hidden on narrow screens (see .col-news media

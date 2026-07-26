@@ -741,6 +741,7 @@ def build_batter_entry(conn, player_id, opp_hand, opp_pitcher_id, is_home_game, 
         "best_under": best_under,
         "best_prop": best_prop,
         "best_prop_direction": best_prop_direction,
+        "matchup_lean": best_matchup_lean(recent_categories),
         "game_result": batter_game_result(conn, player_id, game_pk) if game_pk else None,
     }
 
@@ -789,6 +790,7 @@ def build_pitcher_entry(conn, player_id, team_id, is_home_game=None, game_pk=Non
         "best_under": best_under,
         "best_prop": best_prop,
         "best_prop_direction": best_prop_direction,
+        "matchup_lean": best_matchup_lean(recent_categories),
         # filled in by build_report() once the opposing lineup for this game
         # is known -- a pitcher's own entry has no visibility into the other
         # team's batters at the point build_team_side() constructs it.
@@ -1026,6 +1028,28 @@ def headline_prop(best_over, best_under):
     if best_under:
         return best_under, "under"
     return None, None
+
+
+def best_matchup_lean(categories):
+    """
+    The single category this player's row should headline once the game has
+    actually started, next to the live/final box score: which prop did the
+    model call over/under for THIS specific matchup, picking whichever
+    category's today-vs-line gap is largest. This is a different signal
+    from "Best prop" above -- that one compares a recent hot/cold trend
+    against this player's own season rate; this one is the matchup-adjusted
+    projection (today_projection, which already factors in today's specific
+    opposing pitcher/handedness) against the prop line itself. The two can
+    and do disagree, and neither is a stand-in for the other -- without
+    this, a live/final box score had no visible reminder of which side of a
+    line the model actually leaned pre-game, since that only ever lived in
+    the click-to-expand category detail.
+    """
+    candidates = [c for c in categories if c.get("lean")]
+    if not candidates:
+        return None
+    best = max(candidates, key=lambda c: abs(c["today_projection"] - c["primary_line"]))
+    return {"label": best["label"], "line": best["primary_line"], "direction": best["lean"], "projection": best["today_projection"]}
 
 
 def fallback_best_prop(recent_categories, season_categories):
