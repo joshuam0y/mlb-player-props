@@ -1030,6 +1030,30 @@ def headline_prop(best_over, best_under):
     return None, None
 
 
+_BATTER_CATEGORY_FIELD = {label: field for field, label in BATTER_PROP_CATEGORIES}
+_PITCHER_CATEGORY_FIELD = {label: field for field, label in PITCHER_PROP_CATEGORIES}
+
+
+def pick_result(role, category, game_result, direction):
+    """
+    Whether a Top Overs/Unders pick has actually hit, missed, or has no
+    result yet -- read straight from this player's own game_result (the
+    same box-score data the dashboard already shows for them), not a fresh
+    query, so it always matches whatever's currently on screen, live game
+    included. Only gradable when there's a real best_category (a line to
+    grade against) and that category's column actually has a value --
+    grade_picks.py's own end-of-day grading is the permanent, authoritative
+    record; this is just a same-glance version for the leaderboard itself.
+    """
+    if not category or not game_result:
+        return None
+    field = (_BATTER_CATEGORY_FIELD if role == "batter" else _PITCHER_CATEGORY_FIELD).get(category["label"])
+    if not field or game_result.get(field) is None:
+        return None
+    cleared = game_result[field] > category["line"]
+    return "hit" if (cleared if direction == "over" else not cleared) else "miss"
+
+
 def best_matchup_lean(categories):
     """
     The single category this player's row should headline once the game has
@@ -1183,14 +1207,16 @@ def build_top_picks(report_games, batter_limit=15, pitcher_limit=8):
                 if over_reasons and over_score > 0:
                     best_over = b.get("best_over")
                     fallback = None if best_over else fallback_pick_angle(b, "batter", "over")
-                    batter_overs.append({**base, "score": over_score, "reasons": over_reasons, "best_category": best_over, "fallback_angle": fallback})
+                    result = pick_result("batter", best_over, b.get("game_result"), "over")
+                    batter_overs.append({**base, "score": over_score, "reasons": over_reasons, "best_category": best_over, "fallback_angle": fallback, "result": result})
 
                 under_score, under_reasons = batter_under_score(b)
                 under_score -= confirmed_penalty
                 if under_reasons and under_score > 0:
                     best_under = b.get("best_under")
                     fallback = None if best_under else fallback_pick_angle(b, "batter", "under")
-                    batter_unders.append({**base, "score": under_score, "reasons": under_reasons, "best_category": best_under, "fallback_angle": fallback})
+                    result = pick_result("batter", best_under, b.get("game_result"), "under")
+                    batter_unders.append({**base, "score": under_score, "reasons": under_reasons, "best_category": best_under, "fallback_angle": fallback, "result": result})
 
             p = side["probable_pitcher"]
             if p and not p["injury"]:
@@ -1207,13 +1233,15 @@ def build_top_picks(report_games, batter_limit=15, pitcher_limit=8):
                 if over_reasons and over_score > 0:
                     best_over = pitcher_best_category(p, "Strikeouts")
                     fallback = None if best_over else fallback_pick_angle(p, "pitcher", "over")
-                    pitcher_overs.append({**base, "score": over_score, "reasons": over_reasons, "best_category": best_over, "fallback_angle": fallback})
+                    result = pick_result("pitcher", best_over, p.get("game_result"), "over")
+                    pitcher_overs.append({**base, "score": over_score, "reasons": over_reasons, "best_category": best_over, "fallback_angle": fallback, "result": result})
 
                 under_score, under_reasons = pitcher_runs_under_score(p)
                 if under_reasons and under_score > 0:
                     best_under = pitcher_best_category(p, "Runs Allowed")
                     fallback = None if best_under else fallback_pick_angle(p, "pitcher", "under")
-                    pitcher_unders.append({**base, "score": under_score, "reasons": under_reasons, "best_category": best_under, "fallback_angle": fallback})
+                    result = pick_result("pitcher", best_under, p.get("game_result"), "under")
+                    pitcher_unders.append({**base, "score": under_score, "reasons": under_reasons, "best_category": best_under, "fallback_angle": fallback, "result": result})
 
     batter_overs.sort(key=lambda c: c["score"], reverse=True)
     batter_unders.sort(key=lambda c: c["score"], reverse=True)

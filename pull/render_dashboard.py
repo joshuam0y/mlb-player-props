@@ -230,6 +230,8 @@ STYLE = """
   .badge-hot { background: var(--status-good); color: white; }
   .badge-cold { background: var(--status-critical); color: white; }
   .badge-injury { background: var(--status-warning); color: #1a1a19; }
+  .badge-hit { background: var(--status-good); color: white; }
+  .badge-miss { background: var(--status-critical); color: white; }
   .badge-matchup { background: var(--series-1); color: white; }
   .badge-streak { background: var(--status-warning); color: #1a1a19; }
   .badge-caveat { background: var(--badge-neutral-bg); color: var(--text-secondary); }
@@ -1872,6 +1874,13 @@ def _pick_card_html(pick, rank, direction):
         lineup_kind = "confirmed" if pick["lineup_confirmed"] else "projected"
         lineup_label = "LINEUP CONFIRMED" if pick["lineup_confirmed"] else "LINEUP PROJECTED"
         badges.append(_badge(lineup_label, lineup_kind))
+    # Read straight off this player's own game_result (pick_result() in
+    # build_props.py) -- once the game's actually happened, no reason to
+    # make someone cross-reference this card against Track Record just to
+    # see whether the pick that got them here actually hit.
+    result = pick.get("result")
+    if result:
+        badges.append(_badge(result.upper(), result))
     tag = "OVER" if direction == "over" else "UNDER"
     return f"""
     <div class="pick-card pick-card-{direction}">
