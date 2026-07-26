@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-26T23:02:23.079752+00:00",
+  "generated_at": "2026-07-26T23:14:39.923895+00:00",
   "range": [
     "2026-07-26",
     "2026-07-28"
@@ -4246,7 +4246,8 @@
             }
           }
         ],
-        "injuries": []
+        "injuries": [],
+        "star_player_id": 656876
       },
       "away": {
         "team_id": 114,
@@ -8464,7 +8465,8 @@
             "status": "IL",
             "description": "Cleveland Guardians placed RHP Shawn Armstrong on the 15-day injured list. Left calf strain."
           }
-        ]
+        ],
+        "star_player_id": 680757
       }
     },
     {
@@ -12751,7 +12753,8 @@
             "status": "IL",
             "description": "Washington Nationals transferred RHP Jake Irvin from the 15-day injured list to the 60-day injured list. Right shoulder strain."
           }
-        ]
+        ],
+        "star_player_id": 571945
       },
       "away": {
         "team_id": 109,
@@ -16954,7 +16957,8 @@
             "status": "IL",
             "description": "Arizona Diamondbacks placed RHP Zac Gallen on the 15-day injured list retroactive to July 9, 2026. Right elbow inflammation."
           }
-        ]
+        ],
+        "star_player_id": 672695
       }
     },
     {
@@ -21069,7 +21073,8 @@
             "status": "IL",
             "description": "Pittsburgh Pirates transferred SS Konnor Griffin from the 10-day injured list to the 60-day injured list. Left ring finger sagittal back injury."
           }
-        ]
+        ],
+        "star_player_id": 677952
       },
       "away": {
         "team_id": 112,
@@ -25294,7 +25299,8 @@
             "status": "IL",
             "description": "Chicago Cubs placed RHP Phil Maton on the 15-day injured list. Right knee tendinitis."
           }
-        ]
+        ],
+        "star_player_id": 664023
       }
     },
     {
@@ -29550,7 +29556,8 @@
             "status": "IL",
             "description": "Boston Red Sox placed RHP Zack Kelly on the 60-day injured list. Right elbow inflammation."
           }
-        ]
+        ],
+        "star_player_id": 655316
       },
       "away": {
         "team_id": 141,
@@ -33780,7 +33787,8 @@
             "status": "IL",
             "description": "Toronto Blue Jays placed LF Jonatan Clase on the 10-day injured list retroactive to July 21, 2026. Left plantar fasciitis."
           }
-        ]
+        ],
+        "star_player_id": 592332
       }
     },
     {
@@ -38075,7 +38083,8 @@
             "status": "IL",
             "description": "Baltimore Orioles transferred LHP Keegan Akin from the 15-day injured list to the 60-day injured list. Left elbow discomfort."
           }
-        ]
+        ],
+        "star_player_id": 681297
       },
       "away": {
         "team_id": 144,
@@ -42293,7 +42302,8 @@
             }
           }
         ],
-        "injuries": []
+        "injuries": [],
+        "star_player_id": 625643
       }
     },
     {
@@ -46541,7 +46551,8 @@
             "status": "IL",
             "description": "New York Mets placed 1B Mark Vientos on the 10-day injured list. Right hand fracture."
           }
-        ]
+        ],
+        "star_player_id": 642547
       },
       "away": {
         "team_id": 119,
@@ -50720,7 +50731,8 @@
             "status": "IL",
             "description": "Los Angeles Dodgers transferred C Will Smith from the 10-day injured list to the 60-day injured list. Neck inflammation."
           }
-        ]
+        ],
+        "star_player_id": 660271
       }
     },
     {
@@ -55000,7 +55012,8 @@
             "status": "IL",
             "description": "Miami Marlins placed RHP William Kempner on the 15-day injured list. Right elbow sprain."
           }
-        ]
+        ],
+        "star_player_id": 669065
       },
       "away": {
         "team_id": 135,
@@ -59218,7 +59231,8 @@
             "status": "IL",
             "description": "San Diego Padres placed DH Miguel Andujar on the 10-day injured list. Right wrist fracture."
           }
-        ]
+        ],
+        "star_player_id": 621111
       }
     },
     {
@@ -63480,7 +63494,8 @@
             "status": "IL",
             "description": "Detroit Tigers transferred RHP Will Vest from the 15-day injured list to the 60-day injured list. Right posterior elbow inflammation."
           }
-        ]
+        ],
+        "star_player_id": 701678
       },
       "away": {
         "team_id": 118,
@@ -67709,7 +67724,8 @@
             "status": "IL",
             "description": "Kansas City Royals transferred RHP Nick Mears from the 15-day injured list to the 60-day injured list. Right shoulder impingement."
           }
-        ]
+        ],
+        "star_player_id": 679883
       }
     },
     {
@@ -71956,7 +71972,8 @@
             "status": "IL",
             "description": "Minnesota Twins placed RHP Mick Abel on the 60-day injured list. Right elbow inflammation."
           }
-        ]
+        ],
+        "star_player_id": 621439
       },
       "away": {
         "team_id": 133,
@@ -76168,7 +76185,8 @@
             "status": "IL",
             "description": "Athletics placed 3B Zack Gelof on the 10-day injured list. Right knee laceration."
           }
-        ]
+        ],
+        "star_player_id": 605488
       }
     },
     {
@@ -80431,7 +80449,8 @@
             "status": "IL",
             "description": "Milwaukee Brewers placed LHP Kyle Harrison on the 15-day injured list retroactive to July 9, 2026. Left forearm tightness."
           }
-        ]
+        ],
+        "star_player_id": 596142
       },
       "away": {
         "team_id": 115,
@@ -84671,7 +84690,8 @@
             "status": "IL",
             "description": "Colorado Rockies placed RHP Jeff Criswell on the 15-day injured list. Right shoulder strain."
           }
-        ]
+        ],
+        "star_player_id": 687859
       }
     },
     {
@@ -88938,7 +88958,8 @@
             "status": "IL",
             "description": "Chicago White Sox placed C Kyle Teel on the 10-day injured list. Left ankle sprain."
           }
-        ]
+        ],
+        "star_player_id": 808959
       },
       "away": {
         "team_id": 117,
@@ -93166,7 +93187,8 @@
             "status": "IL",
             "description": "Houston Astros placed CF Brice Matthews on the 10-day injured list retroactive to July 14, 2026. Left knee sprain."
           }
-        ]
+        ],
+        "star_player_id": 514888
       }
     },
     {
@@ -97426,7 +97448,8 @@
             "status": "IL",
             "description": "St. Louis Cardinals placed LHP JoJo Romero on the 15-day injured list retroactive to July 14, 2026."
           }
-        ]
+        ],
+        "star_player_id": 681517
       },
       "away": {
         "team_id": 113,
@@ -101650,7 +101673,8 @@
             "status": "IL",
             "description": "Cincinnati Reds placed 2B Matt McLain on the 10-day injured list retroactive to July 8, 2026. Left calf strain."
           }
-        ]
+        ],
+        "star_player_id": 682829
       }
     },
     {
@@ -105903,7 +105927,8 @@
             "status": "IL",
             "description": "Texas Rangers transferred LHP Jalen Beeks from the 10-day injured list to the 60-day injured list."
           }
-        ]
+        ],
+        "star_player_id": 594798
       },
       "away": {
         "team_id": 136,
@@ -110128,7 +110153,8 @@
             }
           }
         ],
-        "injuries": []
+        "injuries": [],
+        "star_player_id": 669302
       }
     },
     {
@@ -114408,7 +114434,8 @@
             "status": "IL",
             "description": "San Francisco Giants placed RF Victor Bericoto on the 10-day injured list. Left oblique strain."
           }
-        ]
+        ],
+        "star_player_id": 687551
       },
       "away": {
         "team_id": 108,
@@ -118630,14 +118657,15 @@
             }
           }
         ],
-        "injuries": []
+        "injuries": [],
+        "star_player_id": 545361
       }
     },
     {
       "game_pk": 823433,
       "date": "2026-07-26",
       "game_time_utc": "2026-07-26T23:20:00Z",
-      "status": "Pre-Game",
+      "status": "Warmup",
       "venue": "Citizens Bank Park",
       "park_factor": "hitter",
       "home_score": null,
@@ -118645,22 +118673,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 823433,
-        "generated_at": "2026-07-26T23:01:54.429423+00:00",
+        "generated_at": "2026-07-26T23:14:18.199228+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.71,
         "away_exp_runs": 3.31,
-        "home_win_prob": 0.54,
+        "home_win_prob": 0.542,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.363,
+        "spread_cover_prob": 0.365,
         "total_line": 6.5,
-        "over_prob": 0.504,
+        "over_prob": 0.501,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.637,
+        "spread_pick_prob": 0.635,
         "total_pick": "over",
-        "total_pick_prob": 0.504,
+        "total_pick_prob": 0.501,
         "spread_favorite": "home"
       },
       "home": {
@@ -122782,7 +122810,8 @@
             "status": "IL",
             "description": "Philadelphia Phillies placed C Garrett Stubbs on the 10-day injured list retroactive to July 18, 2026. Left wrist inflammation."
           }
-        ]
+        ],
+        "star_player_id": 650911
       },
       "away": {
         "team_id": 147,
@@ -126887,7 +126916,8 @@
             "status": "IL",
             "description": "New York Yankees placed RF Aaron Judge on the 60-day injured list. Right rib stress fracture."
           }
-        ]
+        ],
+        "star_player_id": 701542
       }
     },
     {
@@ -126902,22 +126932,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 822868,
-        "generated_at": "2026-07-26T23:01:54.429423+00:00",
+        "generated_at": "2026-07-26T23:14:18.199228+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.71,
         "away_exp_runs": 3.77,
-        "home_win_prob": 0.496,
+        "home_win_prob": 0.492,
         "spread_line": 1.5,
         "spread_cover_prob": 0.328,
         "total_line": 6.5,
-        "over_prob": 0.545,
+        "over_prob": 0.547,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
-        "spread_pick_prob": 0.663,
+        "spread_pick_prob": 0.658,
         "total_pick": "over",
-        "total_pick_prob": 0.545,
+        "total_pick_prob": 0.547,
         "spread_favorite": "away"
       },
       "home": {
@@ -131053,7 +131083,8 @@
             "status": "IL",
             "description": "Texas Rangers transferred LHP Jalen Beeks from the 10-day injured list to the 60-day injured list."
           }
-        ]
+        ],
+        "star_player_id": 670032
       },
       "away": {
         "team_id": 136,
@@ -135150,7 +135181,8 @@
             "game_result": null
           }
         ],
-        "injuries": []
+        "injuries": [],
+        "star_player_id": 669923
       }
     },
     {
@@ -135165,22 +135197,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 823353,
-        "generated_at": "2026-07-26T23:01:54.429423+00:00",
+        "generated_at": "2026-07-26T23:14:18.199228+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 5.66,
         "away_exp_runs": 4.84,
-        "home_win_prob": 0.562,
+        "home_win_prob": 0.559,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.431,
+        "spread_cover_prob": 0.429,
         "total_line": 10.5,
-        "over_prob": 0.447,
+        "over_prob": 0.448,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.569,
+        "spread_pick_prob": 0.571,
         "total_pick": "under",
-        "total_pick_prob": 0.553,
+        "total_pick_prob": 0.552,
         "spread_favorite": "home"
       },
       "home": {
@@ -139310,7 +139342,8 @@
             "status": "IL",
             "description": "Pittsburgh Pirates transferred SS Konnor Griffin from the 10-day injured list to the 60-day injured list. Left ring finger sagittal back injury."
           }
-        ]
+        ],
+        "star_player_id": 656605
       },
       "away": {
         "team_id": 109,
@@ -143432,7 +143465,8 @@
             "status": "IL",
             "description": "Arizona Diamondbacks placed RHP Zac Gallen on the 15-day injured list retroactive to July 9, 2026. Right elbow inflammation."
           }
-        ]
+        ],
+        "star_player_id": 518876
       }
     },
     {
@@ -143447,22 +143481,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 823839,
-        "generated_at": "2026-07-26T23:01:54.429423+00:00",
+        "generated_at": "2026-07-26T23:14:18.199228+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 2.73,
         "away_exp_runs": 3.36,
-        "home_win_prob": 0.428,
+        "home_win_prob": 0.431,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.245,
+        "spread_cover_prob": 0.248,
         "total_line": 6.5,
-        "over_prob": 0.397,
+        "over_prob": 0.399,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
-        "spread_pick_prob": 0.626,
+        "spread_pick_prob": 0.628,
         "total_pick": "under",
-        "total_pick_prob": 0.603,
+        "total_pick_prob": 0.601,
         "spread_favorite": "away"
       },
       "home": {
@@ -147579,7 +147613,8 @@
             "status": "IL",
             "description": "Miami Marlins placed RHP William Kempner on the 15-day injured list. Right elbow sprain."
           }
-        ]
+        ],
+        "star_player_id": 663969
       },
       "away": {
         "team_id": 143,
@@ -151700,7 +151735,8 @@
             "status": "IL",
             "description": "Philadelphia Phillies placed C Garrett Stubbs on the 10-day injured list retroactive to July 18, 2026. Left wrist inflammation."
           }
-        ]
+        ],
+        "star_player_id": 554430
       }
     },
     {
@@ -151715,20 +151751,20 @@
       "live_score": null,
       "projection": {
         "game_pk": 824245,
-        "generated_at": "2026-07-26T23:01:54.429423+00:00",
+        "generated_at": "2026-07-26T23:14:18.199228+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.3,
         "away_exp_runs": 3.22,
-        "home_win_prob": 0.506,
+        "home_win_prob": 0.508,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.322,
+        "spread_cover_prob": 0.324,
         "total_line": 6.5,
         "over_prob": 0.447,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.678,
+        "spread_pick_prob": 0.676,
         "total_pick": "under",
         "total_pick_prob": 0.553,
         "spread_favorite": "home"
@@ -155815,7 +155851,8 @@
             "status": "IL",
             "description": "Detroit Tigers transferred RHP Will Vest from the 15-day injured list to the 60-day injured list. Right posterior elbow inflammation."
           }
-        ]
+        ],
+        "star_player_id": 701678
       },
       "away": {
         "team_id": 110,
@@ -159945,7 +159982,8 @@
             "status": "IL",
             "description": "Baltimore Orioles transferred LHP Keegan Akin from the 15-day injured list to the 60-day injured list. Left elbow discomfort."
           }
-        ]
+        ],
+        "star_player_id": 641933
       }
     },
     {
@@ -159960,7 +159998,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 822705,
-        "generated_at": "2026-07-26T23:01:54.429423+00:00",
+        "generated_at": "2026-07-26T23:14:18.199228+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 5.68,
         "away_exp_runs": 3.8,
@@ -159968,14 +160006,14 @@
         "spread_line": 1.5,
         "spread_cover_prob": 0.507,
         "total_line": 8.5,
-        "over_prob": 0.526,
+        "over_prob": 0.528,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "home",
         "spread_pick_prob": 0.507,
         "total_pick": "over",
-        "total_pick_prob": 0.526,
+        "total_pick_prob": 0.528,
         "spread_favorite": "home"
       },
       "home": {
@@ -164100,7 +164138,8 @@
             "status": "IL",
             "description": "Washington Nationals transferred RHP Jake Irvin from the 15-day injured list to the 60-day injured list. Right shoulder strain."
           }
-        ]
+        ],
+        "star_player_id": 682928
       },
       "away": {
         "team_id": 141,
@@ -167932,7 +167971,8 @@
             "status": "IL",
             "description": "Toronto Blue Jays placed LF Jonatan Clase on the 10-day injured list retroactive to July 21, 2026. Left plantar fasciitis."
           }
-        ]
+        ],
+        "star_player_id": 672960
       }
     },
     {
@@ -167947,22 +167987,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 823597,
-        "generated_at": "2026-07-26T23:01:54.429423+00:00",
+        "generated_at": "2026-07-26T23:14:18.199228+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.06,
         "away_exp_runs": 3.1,
-        "home_win_prob": 0.492,
+        "home_win_prob": 0.496,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.305,
+        "spread_cover_prob": 0.307,
         "total_line": 6.5,
-        "over_prob": 0.406,
+        "over_prob": 0.41,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
         "spread_pick_prob": 0.684,
         "total_pick": "under",
-        "total_pick_prob": 0.594,
+        "total_pick_prob": 0.59,
         "spread_favorite": "away"
       },
       "home": {
@@ -172051,7 +172091,8 @@
             "status": "IL",
             "description": "New York Mets placed 1B Mark Vientos on the 10-day injured list. Right hand fracture."
           }
-        ]
+        ],
+        "star_player_id": 621438
       },
       "away": {
         "team_id": 144,
@@ -176150,7 +176191,8 @@
             "game_result": null
           }
         ],
-        "injuries": []
+        "injuries": [],
+        "star_player_id": 527048
       }
     },
     {
@@ -176165,22 +176207,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 824490,
-        "generated_at": "2026-07-26T23:01:54.429423+00:00",
+        "generated_at": "2026-07-26T23:14:18.199228+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.9,
         "away_exp_runs": 2.64,
-        "home_win_prob": 0.63,
+        "home_win_prob": 0.631,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.442,
+        "spread_cover_prob": 0.445,
         "total_line": 6.5,
-        "over_prob": 0.449,
+        "over_prob": 0.448,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.558,
+        "spread_pick_prob": 0.555,
         "total_pick": "under",
-        "total_pick_prob": 0.551,
+        "total_pick_prob": 0.552,
         "spread_favorite": "home"
       },
       "home": {
@@ -180289,7 +180331,8 @@
             "status": "IL",
             "description": "Cincinnati Reds placed 2B Matt McLain on the 10-day injured list retroactive to July 8, 2026. Left calf strain."
           }
-        ]
+        ],
+        "star_player_id": 663886
       },
       "away": {
         "team_id": 114,
@@ -184392,7 +184435,8 @@
             "status": "IL",
             "description": "Cleveland Guardians placed RHP Shawn Armstrong on the 15-day injured list. Left calf strain."
           }
-        ]
+        ],
+        "star_player_id": 680757
       }
     },
     {
@@ -184407,22 +184451,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 824570,
-        "generated_at": "2026-07-26T23:01:54.429423+00:00",
+        "generated_at": "2026-07-26T23:14:18.199228+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.07,
         "away_exp_runs": 4.92,
-        "home_win_prob": 0.332,
+        "home_win_prob": 0.336,
         "spread_line": 1.5,
         "spread_cover_prob": 0.197,
         "total_line": 6.5,
-        "over_prob": 0.591,
+        "over_prob": 0.59,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "away",
-        "spread_pick_prob": 0.509,
+        "spread_pick_prob": 0.504,
         "total_pick": "over",
-        "total_pick_prob": 0.591,
+        "total_pick_prob": 0.59,
         "spread_favorite": "away"
       },
       "home": {
@@ -188536,7 +188580,8 @@
             "status": "IL",
             "description": "Chicago White Sox placed C Kyle Teel on the 10-day injured list. Left ankle sprain."
           }
-        ]
+        ],
+        "star_player_id": 678246
       },
       "away": {
         "team_id": 147,
@@ -192647,7 +192692,8 @@
             "status": "IL",
             "description": "New York Yankees placed RF Aaron Judge on the 60-day injured list. Right rib stress fracture."
           }
-        ]
+        ],
+        "star_player_id": 665862
       }
     },
     {
@@ -192662,22 +192708,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 823025,
-        "generated_at": "2026-07-26T23:01:54.429423+00:00",
+        "generated_at": "2026-07-26T23:14:18.199228+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.54,
         "away_exp_runs": 5.24,
-        "home_win_prob": 0.444,
+        "home_win_prob": 0.446,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.311,
+        "spread_cover_prob": 0.313,
         "total_line": 8.5,
-        "over_prob": 0.553,
+        "over_prob": 0.552,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
-        "spread_pick_prob": 0.582,
+        "spread_pick_prob": 0.583,
         "total_pick": "over",
-        "total_pick_prob": 0.553,
+        "total_pick_prob": 0.552,
         "spread_favorite": "away"
       },
       "home": {
@@ -196463,7 +196509,8 @@
             "status": "IL",
             "description": "St. Louis Cardinals placed LHP JoJo Romero on the 15-day injured list retroactive to July 14, 2026."
           }
-        ]
+        ],
+        "star_player_id": 671056
       },
       "away": {
         "team_id": 112,
@@ -200566,7 +200613,8 @@
             "status": "IL",
             "description": "Chicago Cubs placed RHP Phil Maton on the 15-day injured list. Right knee tendinitis."
           }
-        ]
+        ],
+        "star_player_id": 673548
       }
     },
     {
@@ -200581,22 +200629,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 824001,
-        "generated_at": "2026-07-26T23:01:54.429423+00:00",
+        "generated_at": "2026-07-26T23:14:18.199228+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.12,
         "away_exp_runs": 3.61,
-        "home_win_prob": 0.55,
+        "home_win_prob": 0.547,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.384,
+        "spread_cover_prob": 0.382,
         "total_line": 6.5,
-        "over_prob": 0.566,
+        "over_prob": 0.571,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.616,
+        "spread_pick_prob": 0.618,
         "total_pick": "over",
-        "total_pick_prob": 0.566,
+        "total_pick_prob": 0.571,
         "spread_favorite": "home"
       },
       "home": {
@@ -204690,7 +204738,8 @@
             "game_result": null
           }
         ],
-        "injuries": []
+        "injuries": [],
+        "star_player_id": 545361
       },
       "away": {
         "team_id": 117,
@@ -208804,7 +208853,8 @@
             "status": "IL",
             "description": "Houston Astros placed CF Brice Matthews on the 10-day injured list retroactive to July 14, 2026. Left knee sprain."
           }
-        ]
+        ],
+        "star_player_id": 664774
       }
     },
     {
@@ -208819,22 +208869,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 824977,
-        "generated_at": "2026-07-26T23:01:54.429423+00:00",
+        "generated_at": "2026-07-26T23:14:18.199228+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.34,
         "away_exp_runs": 6.3,
-        "home_win_prob": 0.279,
+        "home_win_prob": 0.276,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.167,
+        "spread_cover_prob": 0.165,
         "total_line": 8.5,
-        "over_prob": 0.536,
+        "over_prob": 0.537,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "away",
-        "spread_pick_prob": 0.59,
+        "spread_pick_prob": 0.592,
         "total_pick": "over",
-        "total_pick_prob": 0.536,
+        "total_pick_prob": 0.537,
         "spread_favorite": "away"
       },
       "home": {
@@ -212963,7 +213013,8 @@
             "status": "IL",
             "description": "Athletics placed 3B Zack Gelof on the 10-day injured list. Right knee laceration."
           }
-        ]
+        ],
+        "star_player_id": 678022
       },
       "away": {
         "team_id": 111,
@@ -217069,7 +217120,8 @@
             "status": "IL",
             "description": "Boston Red Sox placed RHP Zack Kelly on the 60-day injured list. Right elbow inflammation."
           }
-        ]
+        ],
+        "star_player_id": 678882
       }
     },
     {
@@ -217084,20 +217136,20 @@
       "live_score": null,
       "projection": {
         "game_pk": 823195,
-        "generated_at": "2026-07-26T23:01:54.429423+00:00",
+        "generated_at": "2026-07-26T23:14:18.199228+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.94,
         "away_exp_runs": 4.94,
-        "home_win_prob": 0.417,
+        "home_win_prob": 0.415,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.277,
+        "spread_cover_prob": 0.276,
         "total_line": 8.5,
         "over_prob": 0.478,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
-        "spread_pick_prob": 0.564,
+        "spread_pick_prob": 0.562,
         "total_pick": "under",
         "total_pick_prob": 0.522,
         "spread_favorite": "away"
@@ -221212,7 +221264,8 @@
             "status": "IL",
             "description": "San Francisco Giants placed RF Victor Bericoto on the 10-day injured list. Left oblique strain."
           }
-        ]
+        ],
+        "star_player_id": 641816
       },
       "away": {
         "team_id": 158,
@@ -225336,7 +225389,8 @@
             "status": "IL",
             "description": "Milwaukee Brewers placed LHP Kyle Harrison on the 15-day injured list retroactive to July 9, 2026. Left forearm tightness."
           }
-        ]
+        ],
+        "star_player_id": 687075
       }
     },
     {
@@ -225351,22 +225405,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 822949,
-        "generated_at": "2026-07-26T23:01:54.429423+00:00",
+        "generated_at": "2026-07-26T23:14:18.199228+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 5.23,
         "away_exp_runs": 3.88,
-        "home_win_prob": 0.609,
+        "home_win_prob": 0.613,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.464,
+        "spread_cover_prob": 0.468,
         "total_line": 8.5,
-        "over_prob": 0.499,
+        "over_prob": 0.5,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.536,
-        "total_pick": "under",
-        "total_pick_prob": 0.501,
+        "spread_pick_prob": 0.532,
+        "total_pick": "over",
+        "total_pick_prob": 0.5,
         "spread_favorite": "home"
       },
       "home": {
@@ -229436,7 +229490,8 @@
             "game_result": null
           }
         ],
-        "injuries": []
+        "injuries": [],
+        "star_player_id": 643377
       },
       "away": {
         "team_id": 140,
@@ -233246,7 +233301,8 @@
             "status": "IL",
             "description": "Texas Rangers transferred LHP Jalen Beeks from the 10-day injured list to the 60-day injured list."
           }
-        ]
+        ],
+        "star_player_id": 670032
       }
     },
     {
@@ -233261,22 +233317,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 823350,
-        "generated_at": "2026-07-26T23:01:54.429423+00:00",
+        "generated_at": "2026-07-26T23:14:18.199228+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 5.15,
         "away_exp_runs": 4.58,
-        "home_win_prob": 0.545,
+        "home_win_prob": 0.547,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.407,
+        "spread_cover_prob": 0.409,
         "total_line": 8.5,
-        "over_prob": 0.548,
+        "over_prob": 0.551,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.593,
+        "spread_pick_prob": 0.591,
         "total_pick": "over",
-        "total_pick_prob": 0.548,
+        "total_pick_prob": 0.551,
         "spread_favorite": "home"
       },
       "home": {
@@ -237399,7 +237455,8 @@
             "status": "IL",
             "description": "Pittsburgh Pirates transferred SS Konnor Griffin from the 10-day injured list to the 60-day injured list. Left ring finger sagittal back injury."
           }
-        ]
+        ],
+        "star_player_id": 699013
       },
       "away": {
         "team_id": 109,
@@ -241527,7 +241584,8 @@
             "status": "IL",
             "description": "Arizona Diamondbacks placed RHP Zac Gallen on the 15-day injured list retroactive to July 9, 2026. Right elbow inflammation."
           }
-        ]
+        ],
+        "star_player_id": 694297
       }
     },
     {
@@ -241542,22 +241600,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 823838,
-        "generated_at": "2026-07-26T23:01:54.429423+00:00",
+        "generated_at": "2026-07-26T23:14:18.199228+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.64,
         "away_exp_runs": 3.61,
         "home_win_prob": 0.592,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.434,
+        "spread_cover_prob": 0.433,
         "total_line": 8.5,
-        "over_prob": 0.421,
+        "over_prob": 0.423,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.566,
+        "spread_pick_prob": 0.567,
         "total_pick": "under",
-        "total_pick_prob": 0.579,
+        "total_pick_prob": 0.577,
         "spread_favorite": "home"
       },
       "home": {
@@ -245663,7 +245721,8 @@
             "status": "IL",
             "description": "Miami Marlins placed RHP William Kempner on the 15-day injured list. Right elbow sprain."
           }
-        ]
+        ],
+        "star_player_id": 672640
       },
       "away": {
         "team_id": 143,
@@ -249787,7 +249846,8 @@
             "status": "IL",
             "description": "Philadelphia Phillies placed C Garrett Stubbs on the 10-day injured list retroactive to July 18, 2026. Left wrist inflammation."
           }
-        ]
+        ],
+        "star_player_id": 592663
       }
     },
     {
@@ -249802,22 +249862,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 824243,
-        "generated_at": "2026-07-26T23:01:54.429423+00:00",
+        "generated_at": "2026-07-26T23:14:18.199228+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.15,
         "away_exp_runs": 2.55,
         "home_win_prob": 0.664,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.482,
+        "spread_cover_prob": 0.483,
         "total_line": 6.5,
-        "over_prob": 0.465,
+        "over_prob": 0.466,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.518,
+        "spread_pick_prob": 0.517,
         "total_pick": "under",
-        "total_pick_prob": 0.535,
+        "total_pick_prob": 0.534,
         "spread_favorite": "home"
       },
       "home": {
@@ -253895,7 +253955,8 @@
             "status": "IL",
             "description": "Detroit Tigers transferred RHP Will Vest from the 15-day injured list to the 60-day injured list. Right posterior elbow inflammation."
           }
-        ]
+        ],
+        "star_player_id": 675512
       },
       "away": {
         "team_id": 110,
@@ -258038,7 +258099,8 @@
             "status": "IL",
             "description": "Baltimore Orioles transferred LHP Keegan Akin from the 15-day injured list to the 60-day injured list. Left elbow discomfort."
           }
-        ]
+        ],
+        "star_player_id": 641933
       }
     },
     {
@@ -258053,22 +258115,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 822703,
-        "generated_at": "2026-07-26T23:01:54.429423+00:00",
+        "generated_at": "2026-07-26T23:14:18.199228+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 5.37,
         "away_exp_runs": 3.28,
-        "home_win_prob": 0.674,
+        "home_win_prob": 0.675,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.525,
+        "spread_cover_prob": 0.526,
         "total_line": 8.5,
-        "over_prob": 0.455,
+        "over_prob": 0.459,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "home",
-        "spread_pick_prob": 0.525,
+        "spread_pick_prob": 0.526,
         "total_pick": "under",
-        "total_pick_prob": 0.545,
+        "total_pick_prob": 0.541,
         "spread_favorite": "home"
       },
       "home": {
@@ -262197,7 +262259,8 @@
             "status": "IL",
             "description": "Washington Nationals transferred RHP Jake Irvin from the 15-day injured list to the 60-day injured list. Right shoulder strain."
           }
-        ]
+        ],
+        "star_player_id": 682928
       },
       "away": {
         "team_id": 141,
@@ -266301,7 +266364,8 @@
             "status": "IL",
             "description": "Toronto Blue Jays placed LF Jonatan Clase on the 10-day injured list retroactive to July 21, 2026. Left plantar fasciitis."
           }
-        ]
+        ],
+        "star_player_id": 669456
       }
     },
     {
@@ -266316,22 +266380,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 823598,
-        "generated_at": "2026-07-26T23:01:54.429423+00:00",
+        "generated_at": "2026-07-26T23:14:18.199228+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 2.41,
         "away_exp_runs": 3.97,
-        "home_win_prob": 0.337,
+        "home_win_prob": 0.335,
         "spread_line": 1.5,
         "spread_cover_prob": 0.176,
         "total_line": 6.5,
-        "over_prob": 0.43,
+        "over_prob": 0.431,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
         "spread_pick_prob": 0.524,
         "total_pick": "under",
-        "total_pick_prob": 0.57,
+        "total_pick_prob": 0.569,
         "spread_favorite": "away"
       },
       "home": {
@@ -270437,7 +270501,8 @@
             "status": "IL",
             "description": "New York Mets placed 1B Mark Vientos on the 10-day injured list. Right hand fracture."
           }
-        ]
+        ],
+        "star_player_id": 681035
       },
       "away": {
         "team_id": 144,
@@ -274536,7 +274601,8 @@
             "game_result": null
           }
         ],
-        "injuries": []
+        "injuries": [],
+        "star_player_id": 671739
       }
     },
     {
@@ -274551,22 +274617,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 824489,
-        "generated_at": "2026-07-26T23:01:54.429423+00:00",
+        "generated_at": "2026-07-26T23:14:18.199228+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.44,
         "away_exp_runs": 3.71,
-        "home_win_prob": 0.473,
+        "home_win_prob": 0.475,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.304,
+        "spread_cover_prob": 0.305,
         "total_line": 6.5,
-        "over_prob": 0.514,
+        "over_prob": 0.515,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
         "spread_pick_prob": 0.647,
         "total_pick": "over",
-        "total_pick_prob": 0.514,
+        "total_pick_prob": 0.515,
         "spread_favorite": "away"
       },
       "home": {
@@ -278680,7 +278746,8 @@
             "status": "IL",
             "description": "Cincinnati Reds placed 2B Matt McLain on the 10-day injured list retroactive to July 8, 2026. Left calf strain."
           }
-        ]
+        ],
+        "star_player_id": 663903
       },
       "away": {
         "team_id": 114,
@@ -282786,7 +282853,8 @@
             "status": "IL",
             "description": "Cleveland Guardians placed RHP Shawn Armstrong on the 15-day injured list. Left calf strain."
           }
-        ]
+        ],
+        "star_player_id": 680757
       }
     },
     {
@@ -282801,20 +282869,20 @@
       "live_score": null,
       "projection": {
         "game_pk": 823676,
-        "generated_at": "2026-07-26T23:01:54.429423+00:00",
+        "generated_at": "2026-07-26T23:14:18.199228+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.7,
         "away_exp_runs": 3.61,
         "home_win_prob": 0.596,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.439,
+        "spread_cover_prob": 0.438,
         "total_line": 8.5,
         "over_prob": 0.428,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.561,
+        "spread_pick_prob": 0.562,
         "total_pick": "under",
         "total_pick_prob": 0.572,
         "spread_favorite": "home"
@@ -286935,7 +287003,8 @@
             "status": "IL",
             "description": "Minnesota Twins placed RHP Mick Abel on the 60-day injured list. Right elbow inflammation."
           }
-        ]
+        ],
+        "star_player_id": 663616
       },
       "away": {
         "team_id": 118,
@@ -291031,7 +291100,8 @@
             "status": "IL",
             "description": "Kansas City Royals transferred RHP Nick Mears from the 15-day injured list to the 60-day injured list. Right shoulder impingement."
           }
-        ]
+        ],
+        "star_player_id": 607625
       }
     },
     {
@@ -291046,22 +291116,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 824569,
-        "generated_at": "2026-07-26T23:01:54.429423+00:00",
+        "generated_at": "2026-07-26T23:14:18.199228+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.72,
         "away_exp_runs": 3.89,
-        "home_win_prob": 0.487,
+        "home_win_prob": 0.485,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.324,
+        "spread_cover_prob": 0.322,
         "total_line": 6.5,
-        "over_prob": 0.558,
+        "over_prob": 0.56,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
-        "spread_pick_prob": 0.652,
+        "spread_pick_prob": 0.65,
         "total_pick": "over",
-        "total_pick_prob": 0.558,
+        "total_pick_prob": 0.56,
         "spread_favorite": "away"
       },
       "home": {
@@ -295179,7 +295249,8 @@
             "status": "IL",
             "description": "Chicago White Sox placed C Kyle Teel on the 10-day injured list. Left ankle sprain."
           }
-        ]
+        ],
+        "star_player_id": 641743
       },
       "away": {
         "team_id": 147,
@@ -299284,7 +299355,8 @@
             "status": "IL",
             "description": "New York Yankees placed RF Aaron Judge on the 60-day injured list. Right rib stress fracture."
           }
-        ]
+        ],
+        "star_player_id": 665862
       }
     },
     {
@@ -299299,22 +299371,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 823026,
-        "generated_at": "2026-07-26T23:01:54.429423+00:00",
+        "generated_at": "2026-07-26T23:14:18.199228+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.92,
         "away_exp_runs": 5.24,
-        "home_win_prob": 0.391,
+        "home_win_prob": 0.393,
         "spread_line": 1.5,
         "spread_cover_prob": 0.259,
         "total_line": 8.5,
-        "over_prob": 0.504,
+        "over_prob": 0.502,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
         "spread_pick_prob": 0.537,
         "total_pick": "over",
-        "total_pick_prob": 0.504,
+        "total_pick_prob": 0.502,
         "spread_favorite": "away"
       },
       "home": {
@@ -303100,7 +303172,8 @@
             "status": "IL",
             "description": "St. Louis Cardinals placed LHP JoJo Romero on the 15-day injured list retroactive to July 14, 2026."
           }
-        ]
+        ],
+        "star_player_id": 671056
       },
       "away": {
         "team_id": 112,
@@ -307195,7 +307268,8 @@
             "status": "IL",
             "description": "Chicago Cubs placed RHP Phil Maton on the 15-day injured list. Right knee tendinitis."
           }
-        ]
+        ],
+        "star_player_id": 673548
       }
     },
     {
@@ -307210,7 +307284,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 824003,
-        "generated_at": "2026-07-26T23:01:54.429423+00:00",
+        "generated_at": "2026-07-26T23:14:18.199228+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 2.84,
         "away_exp_runs": 4.36,
@@ -307218,14 +307292,14 @@
         "spread_line": 1.5,
         "spread_cover_prob": 0.202,
         "total_line": 6.5,
-        "over_prob": 0.517,
+        "over_prob": 0.518,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
-        "spread_pick_prob": 0.525,
+        "spread_pick_prob": 0.526,
         "total_pick": "over",
-        "total_pick_prob": 0.517,
+        "total_pick_prob": 0.518,
         "spread_favorite": "away"
       },
       "home": {
@@ -311304,7 +311378,8 @@
             "game_result": null
           }
         ],
-        "injuries": []
+        "injuries": [],
+        "star_player_id": 545361
       },
       "away": {
         "team_id": 117,
@@ -315409,7 +315484,8 @@
             "status": "IL",
             "description": "Houston Astros placed CF Brice Matthews on the 10-day injured list retroactive to July 14, 2026. Left knee sprain."
           }
-        ]
+        ],
+        "star_player_id": 663567
       }
     },
     {
@@ -315424,20 +315500,20 @@
       "live_score": null,
       "projection": {
         "game_pk": 823275,
-        "generated_at": "2026-07-26T23:01:54.429423+00:00",
+        "generated_at": "2026-07-26T23:14:18.199228+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 5.28,
         "away_exp_runs": 3.54,
-        "home_win_prob": 0.645,
+        "home_win_prob": 0.646,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.497,
+        "spread_cover_prob": 0.498,
         "total_line": 8.5,
         "over_prob": 0.474,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.503,
+        "spread_pick_prob": 0.502,
         "total_pick": "under",
         "total_pick_prob": 0.526,
         "spread_favorite": "home"
@@ -319539,7 +319615,8 @@
             "status": "IL",
             "description": "San Diego Padres placed DH Miguel Andujar on the 10-day injured list. Right wrist fracture."
           }
-        ]
+        ],
+        "star_player_id": 664034
       },
       "away": {
         "team_id": 115,
@@ -323650,7 +323727,8 @@
             "status": "IL",
             "description": "Colorado Rockies placed RHP Jeff Criswell on the 15-day injured list. Right shoulder strain."
           }
-        ]
+        ],
+        "star_player_id": 547179
       }
     },
     {
@@ -323665,7 +323743,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 824976,
-        "generated_at": "2026-07-26T23:01:54.429423+00:00",
+        "generated_at": "2026-07-26T23:14:18.199228+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 2.89,
         "away_exp_runs": 5.18,
@@ -327823,7 +327901,8 @@
             "status": "IL",
             "description": "Athletics placed 3B Zack Gelof on the 10-day injured list. Right knee laceration."
           }
-        ]
+        ],
+        "star_player_id": 703607
       },
       "away": {
         "team_id": 111,
@@ -331927,7 +332006,8 @@
             "status": "IL",
             "description": "Boston Red Sox placed RHP Zack Kelly on the 60-day injured list. Right elbow inflammation."
           }
-        ]
+        ],
+        "star_player_id": 678882
       }
     },
     {
@@ -331942,22 +332022,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 823193,
-        "generated_at": "2026-07-26T23:01:54.429423+00:00",
+        "generated_at": "2026-07-26T23:14:18.199228+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 2.86,
         "away_exp_runs": 4.07,
-        "home_win_prob": 0.382,
+        "home_win_prob": 0.378,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.222,
+        "spread_cover_prob": 0.218,
         "total_line": 6.5,
-        "over_prob": 0.489,
+        "over_prob": 0.49,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
-        "spread_pick_prob": 0.559,
+        "spread_pick_prob": 0.556,
         "total_pick": "under",
-        "total_pick_prob": 0.511,
+        "total_pick_prob": 0.51,
         "spread_favorite": "away"
       },
       "home": {
@@ -336070,7 +336150,8 @@
             "status": "IL",
             "description": "San Francisco Giants placed RF Victor Bericoto on the 10-day injured list. Left oblique strain."
           }
-        ]
+        ],
+        "star_player_id": 642715
       },
       "away": {
         "team_id": 158,
@@ -340194,7 +340275,8 @@
             "status": "IL",
             "description": "Milwaukee Brewers placed LHP Kyle Harrison on the 15-day injured list retroactive to July 9, 2026. Left forearm tightness."
           }
-        ]
+        ],
+        "star_player_id": 806198
       }
     },
     {
@@ -340209,22 +340291,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 823923,
-        "generated_at": "2026-07-26T23:01:54.429423+00:00",
+        "generated_at": "2026-07-26T23:14:18.199228+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.05,
         "away_exp_runs": 3.71,
-        "home_win_prob": 0.534,
+        "home_win_prob": 0.532,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.369,
+        "spread_cover_prob": 0.367,
         "total_line": 6.5,
-        "over_prob": 0.575,
+        "over_prob": 0.571,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.631,
+        "spread_pick_prob": 0.633,
         "total_pick": "over",
-        "total_pick_prob": 0.575,
+        "total_pick_prob": 0.571,
         "spread_favorite": "home"
       },
       "home": {
@@ -344008,7 +344090,8 @@
             "status": "IL",
             "description": "Los Angeles Dodgers transferred C Will Smith from the 10-day injured list to the 60-day injured list. Neck inflammation."
           }
-        ]
+        ],
+        "star_player_id": 660271
       },
       "away": {
         "team_id": 136,
@@ -347777,7 +347860,8 @@
             "game_result": null
           }
         ],
-        "injuries": []
+        "injuries": [],
+        "star_player_id": 663728
       }
     }
   ],

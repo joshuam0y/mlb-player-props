@@ -226,6 +226,9 @@
     width: 24px; height: 24px; border-radius: 50%; object-fit: cover;
     vertical-align: middle; margin-right: 6px; background: var(--surface-3); flex: none;
   }
+  /* best_prop_star() in build_props.py -- one player per team side, batter
+     or pitcher, with the single strongest pre-game Best prop signal. */
+  .star-badge { color: #f5b400; font-size: 13px; vertical-align: middle; }
   /* Live-tracker highlights the batter/pitcher currently in the game --
      set/cleared by highlightActivePlayers() every poll, matched against
      these rows by the same person id the boxscore uses. A tinted row
@@ -844,6 +847,12 @@ function pitchingGridHtml(pitching) {
   const extraCells = [];
   if (statOr0(pitching.runs) !== statOr0(pitching.earnedRuns)) extraCells.push(statCellHtml('R', statOr0(pitching.runs)));
   if (pitching.homeRuns) extraCells.push(statCellHtml('HR', pitching.homeRuns));
+  // Not a graded prop category (see PITCHER_PROP_CATEGORIES), so it's an
+  // extra rather than in the main 5-cell grid -- but genuinely live-only:
+  // our own synced pitching_game_logs schema has no such column at all,
+  // so this can only ever come from MLB's own live feed, never the
+  // server-rendered initial box.
+  if (pitching.numberOfPitches) extraCells.push(statCellHtml('NP', pitching.numberOfPitches));
   const extra = extraCells.length ? '<div class="bx-grid">' + extraCells.join('') + '</div>' : '';
   return '<div class="bx-grid">' + grid + '</div>' + extra;
 }
