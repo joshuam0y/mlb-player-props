@@ -212,6 +212,33 @@ def teams_active_since(conn, cutoff_date):
     return {r["team_id"] for r in rows}
 
 
+FINAL_STATUSES = ("Final", "Game Over", "Completed Early")
+
+
+def teams_just_finished(conn, cutoff_date):
+    """
+    Teams whose game went Final since `cutoff_date` -- these need a
+    priority resync, not just an eventual one. sync_player() gets called on
+    a shuffled, time-budgeted pass over every active player, so a player
+    whose game finishes can otherwise sit on a stale mid-game snapshot
+    (whatever the last sync happened to catch, e.g. "4 innings, 2 K")
+    labeled FINAL on the site for hours, until the shuffle happens to pick
+    them again -- confirmed on a real game where two starters' final lines
+    were each still their 4th-inning stat line well after the game ended.
+    """
+    rows = conn.execute(
+        f"""
+        SELECT DISTINCT home_team_id as team_id FROM games
+        WHERE official_date >= ? AND status IN {FINAL_STATUSES}
+        UNION
+        SELECT DISTINCT away_team_id as team_id FROM games
+        WHERE official_date >= ? AND status IN {FINAL_STATUSES}
+        """,
+        (cutoff_date, cutoff_date),
+    ).fetchall()
+    return {r["team_id"] for r in rows}
+
+
 def players_with_current_season_data(conn):
     rows = conn.execute(
         "SELECT DISTINCT player_id FROM batting_game_logs WHERE season = ? "
@@ -255,8 +282,16 @@ def run(player_ids=None, only_active=True, time_budget_seconds=None):
 
     # Shuffled so a time-budget cutoff doesn't always starve the same tail of
     # players -- progress rotates across different players run to run instead
-    # of always stalling on whoever sorts last.
+    # of always stalling on whoever sorts last. Stable-sorted afterward so
+    # players from a team whose game JUST went final jump to the front of
+    # the queue (still shuffled amongst themselves) -- otherwise their box
+    # score can sit on a stale mid-game snapshot, mislabeled FINAL on the
+    # site, until the shuffle happens to land on them again.
     random.shuffle(players)
+    if not player_ids:
+        cutoff = (datetime.now(timezone.utc) - timedelta(days=1)).strftime("%Y-%m-%d")
+        priority_teams = teams_just_finished(conn, cutoff)
+        players.sort(key=lambda p: p["current_team_id"] not in priority_teams)
 
     start = time.monotonic()
     print(f"Syncing stats for {len(players)} players...")

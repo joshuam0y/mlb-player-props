@@ -248,6 +248,7 @@ STYLE = """
   .headline-link:hover { text-decoration: underline; }
   .empty { color: var(--text-muted); font-size: 13px; padding: 40px 20px; text-align: center; }
 
+  .boxscore-line:empty { display: none; }
   .boxscore-line {
     background: var(--surface-2); border: 1px solid var(--border); border-radius: 8px;
     padding: 8px 10px; margin-bottom: 6px; max-width: 220px;
@@ -294,6 +295,15 @@ STYLE = """
   .live-batter { color: var(--text-secondary); }
   .live-batter b { color: var(--text-primary); }
   .live-updated { color: var(--text-muted); font-size: 10.5px; margin-left: auto; white-space: nowrap; }
+  .recent-plays:empty { display: none; }
+  .recent-plays { margin-bottom: 14px; }
+  .plays-heading { font-size: 13px; font-weight: 700; margin-bottom: 6px; }
+  .play-row {
+    font-size: 12.5px; padding: 5px 8px; border-radius: 6px; display: flex; gap: 8px;
+    margin-bottom: 3px; background: var(--surface-2);
+  }
+  .play-inning { color: var(--text-muted); font-variant-numeric: tabular-nums; white-space: nowrap; text-transform: capitalize; min-width: 58px; }
+  .play-action { background: var(--badge-neutral-bg); font-style: italic; color: var(--text-secondary); }
   .best-prop { font-size: 11.5px; margin-top: 4px; padding: 3px 7px; border-radius: 6px; display: inline-block; }
   .best-prop-over { background: var(--series-1-bg); color: var(--series-1); }
   .best-prop-under { background: rgba(224,51,63,0.14); color: var(--status-critical); }
@@ -500,14 +510,113 @@ function pollLiveGame(el) {
     .catch(function () { /* transient network hiccup -- keep last known state, just try again next cycle */ });
 }
 
+function statOr0(v) {
+  return v == null ? 0 : v;
+}
+
+function boxHeader(isFinal) {
+  return '<div class="bx-header">' + (isFinal ? '<span class="badge badge-final">FINAL</span>' : '<span class="badge badge-live">LIVE</span>') + '</div>';
+}
+
+function statCellHtml(label, value) {
+  return '<div class="bx-stat"><b>' + value + '</b><small>' + label + '</small></div>';
+}
+
+// Every player in the boxscore (batting AND pitching stats keyed by
+// person.id), re-rendered from the SAME fetch that drives the live strip
+// above -- our own build only refreshes every ~15 minutes, so without
+// this a player's card can sit on whatever partial line it had at the
+// last build (see live_score's own docstring in build_props.py for a
+// real example this bit us on) long after the real number moved on.
+function updatePlayerBoxScores(el, data, isFinal) {
+  const box = ((data.liveData || {}).boxscore || {}).teams || {};
+  ['home', 'away'].forEach(function (side) {
+    const players = (box[side] || {}).players || {};
+    Object.keys(players).forEach(function (key) {
+      const p = players[key];
+      const pid = p.person && p.person.id;
+      if (!pid) return;
+      const container = el.querySelector('.boxscore-line[data-player-id="' + pid + '"]');
+      if (!container) return;
+      const pitching = p.stats && p.stats.pitching;
+      const batting = p.stats && p.stats.batting;
+      if (pitching && pitching.inningsPitched && pitching.inningsPitched !== '0.0') {
+        const grid = [
+          statCellHtml('IP', pitching.inningsPitched), statCellHtml('H', statOr0(pitching.hits)), statCellHtml('R', statOr0(pitching.runs)),
+          statCellHtml('ER', statOr0(pitching.earnedRuns)), statCellHtml('BB', statOr0(pitching.baseOnBalls)), statCellHtml('SO', statOr0(pitching.strikeOuts)),
+        ].join('');
+        const extra = pitching.homeRuns ? '<div class="bx-extra">' + pitching.homeRuns + ' HR allowed</div>' : '';
+        container.innerHTML = boxHeader(isFinal) + '<div class="bx-grid">' + grid + '</div>' + extra;
+      } else if (batting && batting.atBats != null) {
+        const grid = [
+          statCellHtml('AB', statOr0(batting.atBats)), statCellHtml('R', statOr0(batting.runs)), statCellHtml('H', statOr0(batting.hits)),
+          statCellHtml('RBI', statOr0(batting.rbi)), statCellHtml('BB', statOr0(batting.baseOnBalls)), statCellHtml('SO', statOr0(batting.strikeOuts)),
+        ].join('');
+        const extras = [];
+        if (batting.homeRuns) extras.push(batting.homeRuns + ' HR');
+        if (batting.doubles) extras.push(batting.doubles + ' 2B');
+        if (batting.triples) extras.push(batting.triples + ' 3B');
+        if (batting.stolenBases) extras.push(batting.stolenBases + ' SB');
+        const extra = extras.length ? '<div class="bx-extra">' + escapeHtml(extras.join(', ')) + '</div>' : '';
+        container.innerHTML = boxHeader(isFinal) + '<div class="bx-grid">' + grid + '</div>' + extra;
+      }
+    });
+  });
+}
+
+// Only the "something actually happened" action events -- MLB's feed logs
+// a lot of routine noise alongside these (batter timeouts, mound visits,
+// game-status advisories) that isn't worth a line in a recap feed.
+function isNotableAction(event) {
+  if (!event) return false;
+  if (event.indexOf('Stolen Base') === 0 || event.indexOf('Caught Stealing') === 0) return true;
+  return ['Pitching Substitution', 'Offensive Substitution', 'Defensive Sub', 'Defensive Switch', 'Wild Pitch', 'Passed Ball', 'Balk', 'Injury', 'Ejection'].indexOf(event) !== -1;
+}
+
+function renderRecentPlays(el, data) {
+  const container = el.querySelector('.recent-plays');
+  if (!container) return;
+  const allPlays = ((data.liveData || {}).plays || {}).allPlays || [];
+  if (!allPlays.length) return;
+
+  const events = [];
+  allPlays.forEach(function (p) {
+    const inning = (p.about.halfInning || '') + ' ' + (p.about.inning || '');
+    (p.playEvents || []).forEach(function (pe) {
+      if (pe.type === 'action' && pe.details && isNotableAction(pe.details.event) && pe.details.description) {
+        events.push({ inning: inning, text: pe.details.description, action: true });
+      }
+    });
+    if (p.result && p.result.description) {
+      events.push({ inning: inning, text: p.result.description, action: false });
+    }
+  });
+  if (!events.length) return;
+
+  const recent = events.slice(-15).reverse();
+  container.innerHTML =
+    '<div class="plays-heading">Recent plays</div>' +
+    recent
+      .map(function (e) {
+        return (
+          '<div class="play-row' + (e.action ? ' play-action' : '') + '">' +
+          '<span class="play-inning">' + escapeHtml(e.inning) + '</span>' +
+          '<span class="play-text">' + escapeHtml(e.text) + '</span></div>'
+        );
+      })
+      .join('');
+}
+
 function renderLiveState(el, data) {
   const container = el.querySelector('.live-tracker');
-  if (!container) return;
   const status = ((data.gameData || {}).status || {}).abstractGameState;
   const linescore = (data.liveData || {}).linescore || {};
 
   if (status === 'Final') {
     el.dataset.liveDone = 'true';
+    updatePlayerBoxScores(el, data, true);
+    renderRecentPlays(el, data);
+    if (!container) return;
     const home = (linescore.teams || {}).home, away = (linescore.teams || {}).away;
     if (home && away && home.runs != null && away.runs != null) {
       container.innerHTML =
@@ -516,6 +625,10 @@ function renderLiveState(el, data) {
     return;
   }
   if (status !== 'Live') return; // still Preview (Scheduled/Pre-Game/Warmup/Delayed) -- nothing live to show yet
+
+  updatePlayerBoxScores(el, data, false);
+  renderRecentPlays(el, data);
+  if (!container) return;
 
   const home = (linescore.teams || {}).home || {};
   const away = (linescore.teams || {}).away || {};
@@ -779,37 +892,46 @@ def _boxscore_grid_html(pairs):
     return f'<div class="bx-grid">{cells}</div>'
 
 
-def _batter_boxscore_html(gr, status):
+def _batter_boxscore_html(gr, status, player_id):
     """
     A compact MLB.com-style box (badge on its own line, a fixed 3-column
     stat grid below) for this player's actual game, instead of a run-on
     sentence -- a grid lays out the same regardless of this column's
     width, where flex-wrap alone wrapped unpredictably in the narrower
     "Recent form" column.
+
+    The outer div (and its data-player-id) is always emitted, even with no
+    game_result yet -- our own build only refreshes every ~15 minutes, so
+    live_tracker in SCRIPT below re-fetches and re-fills this same element
+    every ~30s directly from MLB's live feed; it needs a container to
+    target regardless of whether this player had a stat line the last time
+    our own pipeline ran.
     """
-    if not gr:
-        return ""
-    stats = [
-        ("AB", gr["at_bats"]), ("R", gr["runs"]), ("H", gr["hits"]),
-        ("RBI", gr["rbi"]), ("BB", gr["base_on_balls"]), ("SO", gr["strike_outs"]),
-    ]
-    extras = []
-    for count, label in ((gr.get("home_runs"), "HR"), (gr.get("doubles"), "2B"), (gr.get("triples"), "3B"), (gr.get("stolen_bases"), "SB")):
-        if count:
-            extras.append(f"{count} {label}")
-    extra_html = f'<div class="bx-extra">{html.escape(", ".join(extras))}</div>' if extras else ""
-    return f'<div class="boxscore-line"><div class="bx-header">{_game_status_badge(status)}</div>{_boxscore_grid_html(stats)}{extra_html}</div>'
+    inner = ""
+    if gr:
+        stats = [
+            ("AB", gr["at_bats"]), ("R", gr["runs"]), ("H", gr["hits"]),
+            ("RBI", gr["rbi"]), ("BB", gr["base_on_balls"]), ("SO", gr["strike_outs"]),
+        ]
+        extras = []
+        for count, label in ((gr.get("home_runs"), "HR"), (gr.get("doubles"), "2B"), (gr.get("triples"), "3B"), (gr.get("stolen_bases"), "SB")):
+            if count:
+                extras.append(f"{count} {label}")
+        extra_html = f'<div class="bx-extra">{html.escape(", ".join(extras))}</div>' if extras else ""
+        inner = f'<div class="bx-header">{_game_status_badge(status)}</div>{_boxscore_grid_html(stats)}{extra_html}'
+    return f'<div class="boxscore-line" data-player-id="{player_id}">{inner}</div>'
 
 
-def _pitcher_boxscore_html(gr, status):
-    if not gr:
-        return ""
-    stats = [
-        ("IP", gr["innings_pitched"]), ("H", gr["hits"]), ("R", gr["runs"]),
-        ("ER", gr["earned_runs"]), ("BB", gr["base_on_balls"]), ("SO", gr["strike_outs"]),
-    ]
-    extra_html = f'<div class="bx-extra">{gr["home_runs"]} HR allowed</div>' if gr.get("home_runs") else ""
-    return f'<div class="boxscore-line"><div class="bx-header">{_game_status_badge(status)}</div>{_boxscore_grid_html(stats)}{extra_html}</div>'
+def _pitcher_boxscore_html(gr, status, player_id):
+    inner = ""
+    if gr:
+        stats = [
+            ("IP", gr["innings_pitched"]), ("H", gr["hits"]), ("R", gr["runs"]),
+            ("ER", gr["earned_runs"]), ("BB", gr["base_on_balls"]), ("SO", gr["strike_outs"]),
+        ]
+        extra_html = f'<div class="bx-extra">{gr["home_runs"]} HR allowed</div>' if gr.get("home_runs") else ""
+        inner = f'<div class="bx-header">{_game_status_badge(status)}</div>{_boxscore_grid_html(stats)}{extra_html}'
+    return f'<div class="boxscore-line" data-player-id="{player_id}">{inner}</div>'
 
 
 def _category_projection_html(cat):
@@ -874,7 +996,7 @@ def _pitcher_html(p, row_id, fatigue, status):
         else "No recent starts on record yet"
     )
     badges = " ".join(x for x in [_pitcher_form_badge(p.get("form_trend")), _injury_badge(p["injury"])] if x)
-    boxscore_html = _pitcher_boxscore_html(p.get("game_result"), status)
+    boxscore_html = _pitcher_boxscore_html(p.get("game_result"), status, p["player_id"])
 
     bullets = [l5_txt]
     best_prop_text = _best_prop_text(p)
@@ -934,7 +1056,7 @@ def _batter_rows(batters, id_prefix, status):
             ]
             if x
         )
-        boxscore_html = _batter_boxscore_html(b.get("game_result"), status)
+        boxscore_html = _batter_boxscore_html(b.get("game_result"), status, b["player_id"])
         rows.append(
             f'<tr class="player-row" onclick="toggleDetail(\'{row_id}\')">'
             f'<td data-label="Order">{order}</td>'
@@ -1121,6 +1243,7 @@ def _game_card_html(g):
         <div class="live-tracker"></div>
       </summary>
       <div class="game-body">
+        <div class="recent-plays"></div>
         <div class="teams">
           {_team_col_html(g["away"], f"{id_prefix}-a", g["status"])}
           {_team_col_html(g["home"], f"{id_prefix}-h", g["status"])}
