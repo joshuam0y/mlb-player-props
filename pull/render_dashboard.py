@@ -674,6 +674,74 @@ function statOr0(v) {
   return v == null ? 0 : v;
 }
 
+// Category label -> live box-score field, mirroring _BATTER_CATEGORY_FIELD/
+// _PITCHER_CATEGORY_FIELD in build_props.py -- MLB's live feed uses
+// camelCase where the synced DB schema uses snake_case, same stats.
+const BATTER_LEAN_FIELD = {
+  'Hits': 'hits', 'Total Bases': 'totalBases', 'Home Runs': 'homeRuns',
+  'RBIs': 'rbi', 'Runs Scored': 'runs', 'Walks': 'baseOnBalls',
+};
+const PITCHER_LEAN_FIELD = {
+  'Strikeouts': 'strikeOuts', 'Runs Allowed': 'earnedRuns',
+  'Hits Allowed': 'hits', 'Walks Allowed': 'baseOnBalls',
+};
+
+// MLB's innings-pitched notation is whole innings + thirds after the
+// decimal, NOT a real decimal ("6.1" = 6 innings + 1 out = 19 outs) --
+// mirrors how the synced outs column is derived from this same raw field.
+function outsFromInningsPitched(ip) {
+  if (ip == null) return null;
+  const parts = String(ip).split('.');
+  const whole = parseInt(parts[0], 10) || 0;
+  const thirds = parts[1] ? (parseInt(parts[1], 10) || 0) : 0;
+  return whole * 3 + thirds;
+}
+
+function liveLeanValue(role, category, batting, pitching) {
+  if (role === 'batter') {
+    if (!batting || batting.atBats == null) return null; // hasn't batted yet
+    const field = BATTER_LEAN_FIELD[category];
+    return field ? statOr0(batting[field]) : null;
+  }
+  if (!pitching || pitching.inningsPitched == null) return null; // hasn't pitched yet
+  if (category === 'Outs Recorded') return outsFromInningsPitched(pitching.inningsPitched);
+  const field = PITCHER_LEAN_FIELD[category];
+  return field ? statOr0(pitching[field]) : null;
+}
+
+// Mirrors pick_result()'s exact asymmetric logic in build_props.py: a
+// cleared OVER/UNDER is a permanent fact the instant it happens (every one
+// of these stats only ever goes up over a game), safe to show live; the
+// reverse only locks in once the game's actually Final.
+function liveLeanResult(value, line, direction, isFinal) {
+  const cleared = value > line;
+  if (!cleared && !isFinal) return null;
+  return (direction === 'over' ? cleared : !cleared) ? 'hit' : 'miss';
+}
+
+// Closes the gap between this live 30s poll and the server-rendered
+// "Predicted: X" verdict, which only updates on the next build_props.py
+// run (up to an hour+ away) -- confirmed on a real case where the box
+// score already showed a clearing hit while the server-side badge still
+// showed nothing at all, because sync_stats.py hadn't synced that at-bat
+// into the DB column pick_result() reads from yet.
+function updateMatchupLeanLive(el, pid, batting, pitching, isFinal) {
+  const leanEl = el.querySelector('[data-player-id="' + pid + '"] .matchup-lean');
+  if (!leanEl) return;
+  const role = leanEl.dataset.role;
+  const category = leanEl.dataset.category;
+  const line = parseFloat(leanEl.dataset.line);
+  const direction = leanEl.dataset.direction;
+  const value = liveLeanValue(role, category, batting, pitching);
+  if (value == null) return;
+  const result = liveLeanResult(value, line, direction, isFinal);
+  if (!result) return;
+  const existing = leanEl.querySelector('.badge');
+  if (existing && existing.textContent === result.toUpperCase()) return;
+  if (existing) existing.remove();
+  leanEl.insertAdjacentHTML('beforeend', ' <span class="badge badge-' + result + '">' + result.toUpperCase() + '</span>');
+}
+
 function boxHeader(isFinal, volumeLabel, volumeValue) {
   const badge = isFinal ? '<span class="badge badge-final">FINAL</span>' : '<span class="badge badge-live">LIVE</span>';
   const volume = volumeLabel ? '<span class="bx-volume">' + volumeValue + ' ' + volumeLabel + '</span>' : '';
@@ -770,6 +838,7 @@ function updatePlayerBoxScores(el, data, isFinal) {
       if (!pid) return;
       const pitching = p.stats && p.stats.pitching;
       const batting = p.stats && p.stats.batting;
+      updateMatchupLeanLive(el, pid, batting, pitching, isFinal);
       const container = el.querySelector('.boxscore-line[data-player-id="' + pid + '"]');
       const pitched = pitching && pitching.inningsPitched && (pitching.inningsPitched !== '0.0' || statOr0(pitching.battersFaced) > 0);
       const batted = batting && (batting.atBats != null) && (batting.atBats > 0 || statOr0(batting.plateAppearances) > 0);
@@ -1370,7 +1439,7 @@ def _best_prop_html(entry):
     return f'<div class="best-prop best-prop-{direction}">{text}</div>' if text else ""
 
 
-def _matchup_lean_html(entry):
+def _matchup_lean_html(entry, role):
     """
     The matchup-adjusted lean itself only needs a confirmed lineup + known
     opposing pitcher, both set well before first pitch -- no reason to
@@ -1387,10 +1456,23 @@ def _matchup_lean_html(entry):
     # against this exact same line, the moment there's a real result to
     # check it against -- otherwise this line just restated the pre-game
     # call forever, even once the box score right next to it already
-    # answered the obvious next question.
+    # answered the obvious next question. That server-side result can lag
+    # the box score right next to it by up to an hour or more, though --
+    # confirmed on a real case: a player's live box score already showed a
+    # clearing hit while this still showed no verdict at all, because
+    # sync_stats.py (the only thing that populates the DB column this
+    # reads from) hadn't caught up to that at-bat yet. data-category/line/
+    # direction let the client-side live tracker (updateMatchupLeanLive())
+    # recompute the SAME verdict itself from the live box score it's
+    # already polling every 30s, closing that gap entirely -- this
+    # server-rendered result is just the pre-live-JS starting point.
     result = lean.get("result")
     result_html = f" {_badge(result.upper(), result)}" if result else ""
-    return f'<div class="matchup-lean prop-lean-{lean["direction"]}">Predicted: {html.escape(lean["label"])} {verb} {lean["line"]}{result_html}</div>'
+    return (
+        f'<div class="matchup-lean prop-lean-{lean["direction"]}" data-role="{role}" '
+        f'data-category="{html.escape(lean["label"])}" data-line="{lean["line"]}" data-direction="{lean["direction"]}">'
+        f'Predicted: {html.escape(lean["label"])} {verb} {lean["line"]}{result_html}</div>'
+    )
 
 
 def _pitcher_matchup_text(matchup):
@@ -1558,7 +1640,7 @@ def _pitcher_html(p, row_id, fatigue, status, star_player_id=None):
     )
     badges = " ".join(x for x in [_pitcher_form_badge(p.get("form_trend")), _injury_badge(p["injury"])] if x)
     boxscore_html = _pitcher_boxscore_html(p.get("game_result"), status, p["player_id"])
-    matchup_lean_html = _matchup_lean_html(p)
+    matchup_lean_html = _matchup_lean_html(p, "pitcher")
 
     bullets = [l5_txt]
     best_prop_text = _best_prop_text(p)
@@ -1620,7 +1702,7 @@ def _batter_rows(batters, id_prefix, status, star_player_id=None):
             if x
         )
         boxscore_html = _batter_boxscore_html(b.get("game_result"), status, b["player_id"])
-        matchup_lean_html = _matchup_lean_html(b)
+        matchup_lean_html = _matchup_lean_html(b, "batter")
         rows.append(
             f'<tr class="player-row" data-player-id="{b["player_id"]}" onclick="toggleDetail(\'{row_id}\')">'
             f'<td data-label="Order">{order}</td>'
