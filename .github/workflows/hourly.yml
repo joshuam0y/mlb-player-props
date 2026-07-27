@@ -2,7 +2,11 @@ name: Hourly sync
 
 on:
   schedule:
-    - cron: "0 * * * *"
+    # GitHub explicitly documents that scheduled runs are delayed most at
+    # round-number times (the top of the hour is the single busiest moment
+    # across all of GitHub Actions) -- offset a few minutes past it instead
+    # of exactly on it to reduce how often this run gets queued/delayed.
+    - cron: "6 * * * *"
   workflow_dispatch: {}
 
 concurrency:

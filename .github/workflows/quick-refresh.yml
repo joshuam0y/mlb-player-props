@@ -17,7 +17,13 @@ name: Quick refresh (lineups + score updates)
 
 on:
   schedule:
-    - cron: "*/15 * * * *"
+    # Offset a few minutes past each 15-minute mark, not exactly on it --
+    # GitHub explicitly documents that scheduled runs are delayed most at
+    # round-number times, since that's when the most workflows across all
+    # of GitHub Actions are queued at once. Confirmed this matters in
+    # practice: the exact :00/:15/:30/:45 schedule was actually landing
+    # every 2-3.5 hours some days, not every 15 minutes.
+    - cron: "3,18,33,48 * * * *"
   workflow_dispatch: {}
 
 concurrency:
