@@ -1,0 +1,1263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<title>MLB Player Props -- My Bets</title>
+
+<style>
+  :root, .viz-root {
+    color-scheme: light;
+    --surface-1: #ffffff; --surface-2: #f1f4f9; --surface-3: #e8edf5;
+    --text-primary: #0b1e33; --text-secondary: #48566b; --text-muted: #8592a6;
+    --gridline: #e1e7ef; --border: rgba(11,30,51,0.09);
+    --status-good: #0f9d58; --status-warning: #f5a623; --status-serious: #ef6c4d; --status-critical: #e0333f;
+    --badge-neutral-bg: #e6ebf3; --badge-neutral-text: #48566b;
+    --series-1: #0057ff; --series-1-bg: rgba(0,87,255,0.10);
+    --header-grad: linear-gradient(135deg, #002d80, #0057ff);
+    --shadow: 0 1px 2px rgba(11,30,51,0.05), 0 6px 16px rgba(11,30,51,0.06);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      color-scheme: dark;
+      --surface-1: #101d34; --surface-2: #0a1626; --surface-3: #16263f;
+      --text-primary: #f4f7fb; --text-secondary: #b7c3d6; --text-muted: #7c8aa2;
+      --gridline: #21324c; --border: rgba(255,255,255,0.09);
+      --badge-neutral-bg: #1b2c46; --badge-neutral-text: #b7c3d6;
+      --series-1: #3d8bff; --series-1-bg: rgba(61,139,255,0.18);
+      --header-grad: linear-gradient(135deg, #041730, #0c2c5c);
+      --shadow: 0 1px 2px rgba(0,0,0,0.3), 0 8px 20px rgba(0,0,0,0.35);
+    }
+  }
+  :root[data-theme="dark"] {
+    color-scheme: dark;
+    --surface-1: #101d34; --surface-2: #0a1626; --surface-3: #16263f;
+    --text-primary: #f4f7fb; --text-secondary: #b7c3d6; --text-muted: #7c8aa2;
+    --gridline: #21324c; --border: rgba(255,255,255,0.09);
+    --badge-neutral-bg: #1b2c46; --badge-neutral-text: #b7c3d6;
+    --series-1: #3d8bff; --series-1-bg: rgba(61,139,255,0.18);
+    --header-grad: linear-gradient(135deg, #041730, #0c2c5c);
+    --shadow: 0 1px 2px rgba(0,0,0,0.3), 0 8px 20px rgba(0,0,0,0.35);
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--surface-2); color: var(--text-primary);
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  }
+  .page { max-width: 1100px; margin: 0 auto; padding: 20px 20px 60px; }
+
+  .header-band {
+    background: var(--header-grad); color: #ffffff; border-radius: 14px;
+    padding: 18px 20px; margin-bottom: 16px; box-shadow: var(--shadow);
+  }
+  .header-top { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px; }
+  .header-band h1 { font-size: 21px; margin: 0; letter-spacing: -0.01em; color: #ffffff; }
+  .header-band .meta { color: rgba(255,255,255,0.78); font-size: 12.5px; margin-top: 2px; }
+  .header-actions { display: flex; align-items: center; gap: 10px; }
+  .theme-toggle {
+    background: rgba(255,255,255,0.14); color: #ffffff; border: 1px solid rgba(255,255,255,0.3);
+    border-radius: 999px; padding: 7px 14px; font-size: 12.5px; font-weight: 600; cursor: pointer;
+    font-family: inherit;
+  }
+  .theme-toggle:hover { background: rgba(255,255,255,0.22); }
+  .nav-link {
+    color: #ffffff; font-size: 12.5px; font-weight: 600; text-decoration: none;
+    border: 1px solid rgba(255,255,255,0.3); border-radius: 999px; padding: 7px 14px;
+  }
+  .nav-link:hover { background: rgba(255,255,255,0.14); }
+
+  .notes, .glossary {
+    background: var(--surface-1); border: 1px solid var(--border); border-radius: 12px;
+    padding: 14px 16px; margin: 14px 0; font-size: 13px; color: var(--text-secondary);
+    box-shadow: var(--shadow);
+  }
+  .notes { white-space: pre-wrap; }
+  .glossary summary { cursor: pointer; font-weight: 600; color: var(--text-primary); }
+  .glossary dl { margin: 12px 0 0; }
+  .glossary dt { font-weight: 600; color: var(--text-primary); margin-top: 8px; }
+  .glossary dd { margin: 2px 0 0; }
+
+  .stat-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 10px; margin: 14px 0; }
+  .stat-tile {
+    background: var(--surface-1); border: 1px solid var(--border); border-radius: 12px;
+    padding: 12px 14px; box-shadow: var(--shadow); border-top: 3px solid var(--series-1);
+  }
+  .stat-value { font-size: 22px; font-weight: 700; line-height: 1.1; font-variant-numeric: tabular-nums; }
+  .stat-label { font-size: 11.5px; color: var(--text-muted); margin-top: 3px; }
+
+  .toolbar {
+    position: sticky; top: 0; z-index: 5; display: flex; gap: 10px; flex-wrap: wrap; align-items: center;
+    background: var(--surface-2); padding: 10px 0 14px; border-bottom: 1px solid var(--gridline); margin-bottom: 16px;
+  }
+  .toolbar select, .toolbar input[type="text"] {
+    background: var(--surface-1); color: var(--text-primary); border: 1px solid var(--border);
+    border-radius: 8px; padding: 7px 10px; font-size: 13px; font-family: inherit;
+  }
+  .toolbar input[type="text"] { min-width: 200px; }
+  .toolbar label { display: flex; align-items: center; gap: 6px; font-size: 13px; color: var(--text-secondary); }
+  .toolbar .count { font-size: 12px; color: var(--text-muted); margin-left: auto; }
+
+  .date-heading {
+    font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.04em;
+    color: var(--text-muted); margin: 22px 0 10px; padding-top: 4px;
+  }
+  .date-heading:first-child { margin-top: 0; }
+
+  details.game-card {
+    /* No overflow:hidden here -- it would establish a clipping scroll
+       container that breaks position:sticky on the summary below. Corners
+       are rounded on the summary/body directly instead. */
+    background: var(--surface-1); border: 1px solid var(--border); border-radius: 12px;
+    margin-bottom: 10px; box-shadow: var(--shadow);
+  }
+  details.game-card:not([open]) summary.game-summary { border-radius: 12px; }
+  details.game-card[open] summary { border-bottom: 1px solid var(--gridline); }
+  summary.game-summary {
+    cursor: pointer; padding: 12px 16px; display: flex; justify-content: space-between;
+    align-items: center; flex-wrap: wrap; gap: 8px; list-style: none;
+    /* Sticky while a card is open and scrolled into -- the whole point of
+       an open game card is its (long) body, so without this, closing it
+       again meant scrolling all the way back up to find the header.
+       top is the *toolbar's own height* (syncStickyOffset in SCRIPT below
+       sets --sticky-offset), not 0 -- the toolbar above is ALSO sticky at
+       top:0 with a higher z-index, so stacking both at top:0 let the
+       toolbar paint over this summary's own title/score instead of
+       sitting above it. Falls back to 0px on pages with no toolbar. */
+    position: sticky; top: var(--sticky-offset, 0px); z-index: 3; background: var(--surface-1); border-radius: 12px 12px 0 0;
+  }
+  summary.game-summary::-webkit-details-marker, summary.picks-summary::-webkit-details-marker { display: none; }
+  summary.game-summary::before, summary.picks-summary::before {
+    content: ""; display: inline-block; width: 0; height: 0; margin-right: 10px; flex-shrink: 0;
+    border-top: 4px solid transparent; border-bottom: 4px solid transparent;
+    border-left: 5px solid var(--text-muted); transition: transform 0.12s;
+  }
+  details[open] summary.game-summary::before, details[open] summary.picks-summary::before { transform: rotate(90deg); }
+  .matchup-title { font-size: 14.5px; font-weight: 600; }
+  .game-meta { color: var(--text-muted); font-size: 12px; }
+  .game-line { color: var(--text-secondary); font-size: 12.5px; width: 100%; margin-top: 4px; }
+  .proj-score { font-weight: 600; color: var(--text-primary); }
+  .proj-picks { display: flex; gap: 14px; flex-wrap: wrap; font-size: 12px; color: var(--text-secondary); margin-top: 3px; }
+  .proj-picks b { color: var(--text-primary); }
+  .summary-flags { display: flex; gap: 6px; flex-wrap: wrap; }
+  .game-body { padding: 4px 16px 16px; border-radius: 0 0 12px 12px; overflow: hidden; }
+
+  .teams { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 8px; }
+  @media (max-width: 720px) { .teams { grid-template-columns: 1fr; } }
+  .headline-mobile-only { display: none; }
+  .team-col { border-top: 1px solid var(--gridline); padding-top: 10px; }
+  .table-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+
+  /* Below 640px, a 5-column batter table has no honest way to fit --
+     shrinking columns squeezes "Recent form" into an unreadable ribbon,
+     and letting the table scroll horizontally (an earlier attempt) just
+     hid that same column off-screen, leaving a tall, apparently-empty gray
+     row with no visible hint there was more to see. A real per-player CARD
+     (each cell stacked full-width, relabeled via ::before since the column
+     headers no longer apply) is the only version of this that's actually
+     readable on a phone -- the same pattern MLB.com's own mobile boxscore
+     uses instead of a cramped table. */
+  @media (max-width: 640px) {
+    .table-scroll { overflow-x: visible; }
+    .table-scroll table { min-width: 0; }
+    .col-news { display: none; }
+    .headline-mobile-only { display: block; margin-bottom: 8px; }
+    .batter-block table, .batter-block tbody { display: block; width: 100%; }
+    .batter-block thead { display: none; }
+    .batter-block tr.player-row {
+      display: block; border: 1px solid var(--border); border-radius: 8px;
+      padding: 10px 12px; margin-bottom: 8px; background: var(--surface-1) !important;
+    }
+    .batter-block tr.prop-detail { display: block; }
+    .batter-block td { display: block; padding: 3px 0; border: none; }
+    .batter-block td[data-label]::before {
+      content: attr(data-label); display: block; font-size: 9.5px; font-weight: 700;
+      color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.03em;
+    }
+    .batter-block td[data-label="Batter"]::before,
+    .batter-block td[data-label="Order"]::before { content: none; }
+    .batter-block td[data-label="Order"] { display: inline; margin-right: 6px; font-weight: 700; color: var(--text-muted); }
+    .batter-block td[data-label="Batter"] { display: inline; }
+    .batter-block td[data-label="Flags"]:empty { display: none; }
+    /* .batter-block td's own display:block above outranks the plain
+       .col-news rule (higher specificity), so it has to be re-stated here
+       against the actual cell selector to still take effect. */
+    .batter-block td.col-news { display: none; }
+  }
+  .team-title { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; font-weight: 600; font-size: 14px; margin-bottom: 2px; }
+  .team-form { margin-bottom: 8px; }
+  .team-form:empty { display: none; }
+  .badge {
+    display: inline-flex; align-items: center; gap: 4px; font-size: 10.5px; font-weight: 700;
+    padding: 2px 7px; border-radius: 999px; line-height: 1.6; white-space: nowrap;
+  }
+  .badge-confirmed { background: var(--series-1); color: white; }
+  .badge-projected { background: var(--badge-neutral-bg); color: var(--badge-neutral-text); }
+  .badge-hot { background: var(--status-good); color: white; }
+  .badge-cold { background: var(--status-critical); color: white; }
+  .badge-injury { background: var(--status-warning); color: #1a1a19; }
+  .badge-hit { background: var(--status-good); color: white; }
+  .badge-miss { background: var(--status-critical); color: white; }
+  .badge-dnp { background: var(--badge-neutral-bg); color: var(--badge-neutral-text); }
+  .badge-matchup { background: var(--series-1); color: white; }
+  .badge-streak { background: var(--status-warning); color: #1a1a19; }
+  .badge-caveat { background: var(--badge-neutral-bg); color: var(--text-secondary); }
+  .badge-alert { background: var(--status-critical); color: white; }
+  .game-time { font-variant-numeric: tabular-nums; }
+  .pitcher-row { cursor: pointer; }
+  .pitcher-line { font-size: 13px; margin-bottom: 4px; color: var(--text-secondary); }
+  .pitcher-line b { color: var(--text-primary); }
+  .team-summary { list-style: disc; margin: 0 0 8px; padding-left: 18px; font-size: 12.5px; color: var(--text-secondary); }
+  .team-summary li { margin-bottom: 3px; }
+  table { width: 100%; border-collapse: collapse; font-size: 12.5px; }
+  th { text-align: left; color: var(--text-muted); font-weight: 500; font-size: 11px; padding: 5px 6px; border-bottom: 1px solid var(--gridline); }
+  td { padding: 6px; border-bottom: 1px solid var(--gridline); vertical-align: top; }
+  tbody tr:last-child td { border-bottom: none; }
+  tbody tr.player-row:nth-child(4n+1), tbody tr.player-row:nth-child(4n+2) { background: var(--surface-3); }
+  tr.player-row { cursor: pointer; }
+  tr.player-row:hover { background: var(--series-1-bg); }
+  .name-cell { font-weight: 600; }
+  /* Fetched straight from MLB's own CDN by permanent player id (see
+     _player_photo_html()'s own comment) -- never cached or stored here,
+     so a trade never leaves a stale photo behind. */
+  .player-photo {
+    width: 24px; height: 24px; border-radius: 50%; object-fit: cover;
+    vertical-align: middle; margin-right: 6px; background: var(--surface-3); flex: none;
+  }
+  /* best_prop_star() in build_props.py -- one player per team side, batter
+     or pitcher, with the single strongest pre-game Best prop signal. */
+  .star-badge { color: #f5b400; font-size: 13px; vertical-align: middle; }
+  /* Live-tracker highlights the batter/pitcher currently in the game --
+     set/cleared by highlightActivePlayers() every poll, matched against
+     these rows by the same person id the boxscore uses. A tinted row
+     background plus a plain colored text label next to the name -- NOT
+     another rounded .badge pill -- so "who's up right now" reads as a
+     highlight on the row itself, distinct from the HOT/COLD/matchup
+     bubbles rather than just one more bubble among them. */
+  tr.player-row.is-batting { background: rgba(15,157,88,0.12); }
+  tr.player-row.is-ondeck { background: rgba(245,166,35,0.12); }
+  tr.player-row.is-batting td.name-cell, tr.player-row.is-ondeck td.name-cell { font-weight: 700; }
+  .live-tag-text {
+    margin-left: 6px; font-size: 10px; font-weight: 800; text-transform: uppercase; letter-spacing: 0.05em;
+  }
+  tr.player-row.is-batting .live-tag-text { color: var(--status-good); }
+  tr.player-row.is-ondeck .live-tag-text { color: var(--status-warning); }
+  .pitcher-line.is-pitching { font-weight: 700; color: var(--text-primary); }
+  .pitcher-line.is-pitching .live-tag-text { color: var(--status-good); }
+  .expand-arrow {
+    display: inline-block; width: 0; height: 0; margin-right: 6px; vertical-align: middle;
+    border-top: 3px solid transparent; border-bottom: 3px solid transparent;
+    border-left: 4px solid var(--text-muted);
+  }
+  .sub { color: var(--text-muted); font-size: 11px; }
+  .headline-link { color: var(--series-1); text-decoration: none; font-size: 11px; }
+  .headline-link:hover { text-decoration: underline; }
+  .empty { color: var(--text-muted); font-size: 13px; padding: 40px 20px; text-align: center; }
+
+  /* Relief pitchers / pinch-hitters / defensive subs never get a table row
+     of their own -- only players with a prop projection (the confirmed/
+     projected lineup + probable starter) do. Rather than silently drop
+     their live stats, updatePlayerBoxScores() appends a compact line here
+     for anyone who shows up in the live boxscore without one -- no props
+     for them (nothing was projected), just their actual line. */
+  .subs-list:empty { display: none; }
+  .subs-list { margin-top: 10px; padding-top: 8px; border-top: 1px dashed var(--border); }
+  .subs-list-heading { font-size: 11px; font-weight: 700; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.04em; margin-bottom: 6px; }
+  /* Pitching always listed before Batting (upsertSubLine creates both up
+     front, in this order); a group with nobody in it yet (e.g. no pinch
+     hitters used, only relievers) just hides instead of showing an empty
+     heading. */
+  .subs-group:not(:has(.sub-player-line)) { display: none; }
+  .subs-group + .subs-group { margin-top: 10px; }
+  .subs-group-heading { font-size: 10.5px; font-weight: 600; color: var(--text-muted); margin-bottom: 6px; }
+  .sub-player-line { margin-bottom: 8px; }
+  .sub-player-name { font-size: 12.5px; font-weight: 600; margin-bottom: 4px; }
+  .sub-player-name .sub { font-weight: 400; }
+
+  .boxscore-line:empty { display: none; }
+  .boxscore-line {
+    background: var(--surface-2); border: 1px solid var(--border); border-radius: 8px;
+    padding: 8px 10px; margin-bottom: 6px; max-width: 220px;
+  }
+  .bx-header { margin-bottom: 6px; display: flex; align-items: center; gap: 6px; }
+  .bx-volume { font-size: 11px; color: var(--text-muted); }
+  .bx-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px 4px; text-align: center; }
+  .bx-grid + .bx-grid { margin-top: 6px; }
+  .bx-stat { display: flex; flex-direction: column; align-items: center; }
+  .bx-stat b { font-size: 13.5px; line-height: 1.15; }
+  .bx-stat small { font-size: 9px; color: var(--text-muted); letter-spacing: 0.03em; }
+  .badge-live { background: var(--status-critical); color: white; }
+  .badge-live::before {
+    content: ""; display: inline-block; width: 6px; height: 6px; border-radius: 50%;
+    background: white; animation: bx-pulse 1.2s ease-in-out infinite;
+  }
+  @keyframes bx-pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.25; } }
+  .badge-final { background: var(--badge-neutral-bg); color: var(--badge-neutral-text); }
+
+  /* Client-side live tracker (live_tracker in SCRIPT below) -- populated by
+     polling MLB's own live-feed API directly from the browser, not by our
+     periodic build pipeline, so it can update on a ~30s cadence instead of
+     waiting on the next scheduled sync. Empty (and hidden) until JS fills
+     it in for a game that's actually in progress.
+
+     Split into two containers, not one: .live-tracker lives in <summary>
+     (sticky + visible even collapsed) and is deliberately kept SHORT --
+     score/inning/diamond/count/win-prob only. The heavier detail (strike
+     zone, full matchup, pitch-by-pitch, recent notable event) lives in
+     .live-detail inside the card body instead. A sticky element with the
+     full detail's height (400px+) would sit pinned over the lineup table
+     as you scroll past it, hiding whatever scrolled up underneath -- this
+     way only the genuinely short summary strip ever gets pinned. */
+  .live-tracker:empty, .live-detail:empty { display: none; }
+  .live-tracker, .live-detail {
+    width: 100%; padding: 12px 14px; border-radius: 10px;
+    background: var(--surface-2); border: 1px solid var(--border); font-size: 12.5px;
+  }
+  .live-tracker { margin-top: 8px; }
+  .live-detail { margin-bottom: 14px; }
+  .live-top-row { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin-bottom: 10px; }
+  .live-score-line { font-weight: 700; font-size: 19px; letter-spacing: -0.02em; }
+  .live-inning { color: var(--text-secondary); white-space: nowrap; font-weight: 600; }
+  .live-updated { color: var(--text-muted); font-size: 10.5px; margin-left: auto; white-space: nowrap; }
+
+  .live-field-row { display: flex; align-items: center; gap: 16px; flex-wrap: wrap; }
+  .live-state-panel {
+    display: flex; flex-direction: column; align-items: center; gap: 6px;
+    background: var(--surface-1); border: 1px solid var(--border); border-radius: 8px;
+    padding: 8px 12px; flex: none;
+  }
+  /* A thin outlined diamond path (the infield), not a filled background --
+     a filled dirt-colored diamond behind similarly-sized base markers just
+     blended into one cluttered shape instead of reading as "3 bases on a
+     field." */
+  .diamond { position: relative; width: 42px; height: 42px; flex: none; }
+  .diamond::before {
+    content: ""; position: absolute; top: 3px; left: 3px; right: 3px; bottom: 3px;
+    border: 1.5px solid var(--border); transform: rotate(45deg);
+  }
+  .diamond .base {
+    position: absolute; width: 11px; height: 11px; border: 2px solid var(--text-muted);
+    background: var(--surface-2); transform: rotate(45deg); z-index: 1; box-sizing: border-box;
+  }
+  .diamond .base-2b { top: -3px; left: 15.5px; }
+  .diamond .base-3b { top: 15.5px; left: -3px; }
+  .diamond .base-1b { top: 15.5px; left: 34px; }
+  .diamond .base-occupied { background: var(--status-warning); border-color: var(--status-warning); }
+  .live-count-outs { display: flex; align-items: center; gap: 8px; }
+  .live-count { font-variant-numeric: tabular-nums; font-weight: 700; color: var(--text-primary); white-space: nowrap; font-size: 13px; }
+  .live-outs { display: inline-flex; gap: 3px; align-items: center; }
+  .out-dot { width: 9px; height: 9px; border-radius: 50%; border: 1.5px solid var(--status-warning); display: inline-block; }
+  .out-dot-filled { background: var(--status-warning); }
+
+  /* Win probability: a statistical estimate from the live score/inning/
+     outs/baserunner state (computeWinProbability in SCRIPT below), not a
+     guarantee -- labeled "Est." throughout so it doesn't read as more
+     certain than it is. */
+  .wp-panel { display: flex; flex-direction: column; gap: 4px; min-width: 140px; flex: 1 1 140px; }
+  .wp-panel-label { font-size: 9.5px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.04em; }
+  .wp-bar { display: flex; height: 8px; border-radius: 999px; overflow: hidden; background: var(--surface-3); }
+  .wp-bar-away { background: var(--text-muted); }
+  .wp-bar-home { background: var(--series-1); }
+  .wp-teams { display: flex; justify-content: space-between; font-size: 11px; color: var(--text-secondary); white-space: nowrap; }
+  .wp-teams b { color: var(--text-primary); }
+
+  .sz-panel { display: flex; flex-direction: column; align-items: center; gap: 4px; flex: none; }
+  .sz-panel-label { font-size: 9.5px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.04em; }
+  .strike-zone { flex: none; border-radius: 6px; }
+  .sz-bg { fill: var(--surface-1); stroke: var(--border); stroke-width: 1; }
+  .sz-zone { fill: rgba(127,127,127,0.06); stroke: var(--text-secondary); stroke-width: 1.75; }
+  .pitch-dot-num { font-size: 8px; font-weight: 700; fill: white; pointer-events: none; }
+  .pitch-dot { stroke: var(--surface-1); stroke-width: 1.5; }
+  /* fill colors the SVG pitch-location dots; background colors the same
+     classes reused as small HTML dots in the pitch-by-pitch list below --
+     harmless on the element type that doesn't use it. */
+  .pitch-dot-ball { fill: var(--series-1); background: var(--series-1); }
+  .pitch-dot-strike { fill: var(--status-critical); background: var(--status-critical); }
+  .pitch-dot-inplay { fill: var(--status-good); background: var(--status-good); }
+  .pitch-dot-other { fill: var(--text-muted); background: var(--text-muted); }
+
+  .pitch-seq { margin-top: 10px; padding-top: 8px; border-top: 1px dashed var(--border); display: flex; flex-direction: column; gap: 4px; }
+  .pitch-seq-heading { font-size: 11px; font-weight: 700; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.04em; margin-bottom: 2px; }
+  .pitch-seq-row { display: flex; align-items: center; gap: 7px; font-size: 12px; color: var(--text-secondary); }
+  .pitch-seq-num { color: var(--text-muted); font-variant-numeric: tabular-nums; width: 14px; flex: none; text-align: right; }
+  .pitch-seq-dot { width: 9px; height: 9px; border-radius: 50%; flex: none; }
+  .pitch-seq-speed { font-weight: 600; color: var(--text-primary); white-space: nowrap; }
+
+  .live-matchup { display: flex; flex-direction: column; gap: 3px; font-size: 13px; }
+  .live-matchup .sub { font-size: 12px; }
+  .live-batter { color: var(--text-secondary); }
+  .live-batter b { color: var(--text-primary); font-size: 14px; }
+  .live-notable {
+    display: block; width: 100%; font-style: italic; color: var(--text-secondary); font-size: 12px;
+    margin-top: 10px; padding-top: 8px; border-top: 1px dashed var(--border);
+  }
+  .recent-plays:empty { display: none; }
+  .recent-plays { margin-bottom: 14px; }
+  .plays-heading { font-size: 13px; font-weight: 700; margin-bottom: 6px; }
+  .play-row {
+    font-size: 12.5px; padding: 5px 8px; border-radius: 6px; display: flex; gap: 8px;
+    margin-bottom: 3px; background: var(--surface-2);
+  }
+  .play-inning { color: var(--text-muted); font-variant-numeric: tabular-nums; white-space: nowrap; text-transform: capitalize; min-width: 58px; }
+  .play-action { background: var(--badge-neutral-bg); font-style: italic; color: var(--text-secondary); }
+  /* A run actually scoring is the one event in this feed worth calling out
+     at a glance -- MLB's own feed already flags it (about.isScoringPlay),
+     no text-sniffing needed. */
+  .play-row.play-scoring { background: rgba(245,166,35,0.22); }
+  .play-row.play-scoring .play-inning { color: var(--text-primary); font-weight: 700; }
+  .best-prop { font-size: 11.5px; margin-top: 4px; padding: 3px 7px; border-radius: 6px; display: inline-block; }
+  .best-prop-over { background: var(--series-1-bg); color: var(--series-1); }
+  .best-prop-under { background: rgba(224,51,63,0.14); color: var(--status-critical); }
+  /* Deliberately a plain colored line, not a pill like .best-prop above --
+     this is a different signal (today's matchup-adjusted lean, next to
+     the actual box score once the game's started) and shouldn't be
+     visually interchangeable with it. */
+  .matchup-lean { font-size: 11.5px; font-weight: 600; margin: 4px 0; }
+  .matchup-explain { font-size: 11.5px; margin-top: 6px; padding: 5px 8px; border-radius: 6px; }
+  .matchup-explain-good { background: var(--series-1-bg); color: var(--series-1); }
+  .matchup-explain-tough { background: rgba(224,51,63,0.14); color: var(--status-critical); }
+  .matchup-explain-caveat { background: var(--badge-neutral-bg); color: var(--text-secondary); }
+  .grade-row { font-size: 12.5px; padding: 6px 8px; border-radius: 6px; margin-top: 4px; display: flex; justify-content: space-between; gap: 10px; }
+  .grade-hit { background: rgba(15,157,88,0.14); color: var(--status-good); }
+  .grade-miss { background: rgba(224,51,63,0.14); color: var(--status-critical); }
+  .grade-no_data { background: var(--badge-neutral-bg); color: var(--text-secondary); }
+  .grade-neutral { background: var(--badge-neutral-bg); color: var(--text-secondary); }
+
+  .prop-detail td { background: var(--surface-2); }
+  .prop-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 10px; padding: 6px 2px; }
+  .prop-cat { background: var(--surface-1); border: 1px solid var(--border); border-radius: 8px; padding: 8px 10px; }
+  .prop-cat-label { font-weight: 600; font-size: 12.5px; margin-bottom: 4px; }
+  .prop-bars { position: relative; display: flex; align-items: flex-end; gap: 3px; height: 36px; margin: 6px 0 6px; }
+  .prop-bar { position: relative; z-index: 1; flex: 1; border-radius: 2px 2px 0 0; min-height: 3px; cursor: default; }
+  .prop-bar-over { background: var(--status-good); }
+  .prop-bar-under { background: var(--status-critical); opacity: 0.85; }
+  .prop-baseline {
+    position: absolute; left: -2px; right: -2px; bottom: var(--baseline); z-index: 2;
+    border-top: 1px dashed var(--text-muted);
+  }
+  .prop-projection { font-size: 11.5px; color: var(--text-secondary); margin-bottom: 2px; }
+  .prop-projection b { color: var(--text-primary); }
+  .prop-lean-over { color: var(--status-good); font-weight: 700; }
+  .prop-lean-under { color: var(--status-critical); font-weight: 700; }
+  .prop-rate { font-size: 11.5px; color: var(--text-secondary); }
+  .prop-avg { font-size: 10.5px; color: var(--text-muted); margin-top: 4px; }
+
+  .injury-report { margin: 14px 0; }
+  .injury-report table { margin-top: 8px; }
+
+  .picks-section {
+    background: var(--surface-1); border: 1px solid var(--border); border-radius: 12px;
+    margin: 14px 0; box-shadow: var(--shadow); overflow: hidden;
+  }
+  .picks-section[open] summary.picks-summary { border-bottom: 1px solid var(--gridline); }
+  summary.picks-summary {
+    cursor: pointer; padding: 13px 16px; display: flex; align-items: center; gap: 10px; list-style: none;
+  }
+  .picks-heading { font-size: 15px; font-weight: 700; }
+  .picks-count { font-size: 12px; color: var(--text-muted); margin-left: auto; }
+  .picks-subheading { font-size: 12px; color: var(--text-muted); padding: 0 16px; margin-top: 10px; }
+  .pick-group-label {
+    font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.04em;
+    color: var(--text-muted); padding: 12px 16px 0;
+  }
+  .picks-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 10px; padding: 10px 16px 16px; }
+  .pick-card {
+    background: var(--surface-2); border: 1px solid var(--border); border-radius: 10px;
+    padding: 12px 14px;
+  }
+  .pick-card-over { border-left: 4px solid var(--status-good); }
+  .pick-card-under { border-left: 4px solid var(--status-critical); }
+  .pick-rank { font-size: 11px; color: var(--text-muted); font-weight: 700; }
+  .pick-name { font-size: 14.5px; font-weight: 700; margin: 2px 0; }
+  .pick-matchup { font-size: 12px; color: var(--text-secondary); margin-bottom: 6px; }
+  .pick-badges { display: flex; gap: 4px; flex-wrap: wrap; margin-bottom: 6px; }
+  .pick-reasons { font-size: 12px; color: var(--text-secondary); margin-bottom: 6px; padding-left: 18px; }
+  .pick-reasons li { margin-bottom: 2px; }
+  .pick-category {
+    font-size: 12.5px; font-weight: 600; border-radius: 6px; padding: 6px 8px; margin-top: 6px;
+  }
+  .pick-category-over { background: var(--series-1-bg); color: var(--series-1); }
+  .pick-category-under { background: rgba(224,51,63,0.14); color: var(--status-critical); }
+</style>
+
+<style>
+  .bet-card { border: 1px solid var(--border); border-radius: 10px; padding: 12px 14px; margin-bottom: 10px; background: var(--surface-2); }
+  .bet-card-head { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 6px; margin-bottom: 8px; }
+  .leg-row { padding: 6px 0; border-top: 1px solid var(--border); }
+  .leg-row:first-of-type { border-top: none; }
+  .leg-main { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+  .leg-prop { color: var(--text-secondary); }
+  .leg-sub { margin-top: 2px; }
+</style>
+</head>
+<body>
+  <div class="page">
+    <div class="header-band">
+      <div class="header-top">
+        <div>
+          <h1>My Bets</h1>
+          <div class="meta">Personal wager tracker &middot; updated 2026-07-27T18:56:33.579661+00:00</div>
+        </div>
+        <div class="header-actions">
+          <a class="nav-link" href="index.html">&larr; Back to Dashboard</a>
+          <button id="themeToggle" class="theme-toggle" type="button">Switch to dark</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="notes">
+      <b>How to read this</b><br>
+      Each leg is graded against real results using the exact same logic
+      as every other pick on this site (an OVER that's already cleared
+      shows HIT immediately, mid-game; a MISS only locks in once the game
+      is Final). A bet only settles WON once every leg has hit, and
+      settles LOST the moment any single leg misses -- same as a real
+      parlay slip. "model" shows this site's own current projection/line
+      for that exact player+category, for comparison against what was
+      actually bet -- it's informational only, grading always uses YOUR
+      actual line and direction, never the model's.
+    </div>
+
+    <div class="stat-row">
+      <div class="stat-tile">
+        <div class="stat-value">+$0.00</div>
+        <div class="stat-label">Total profit/loss (settled bets)</div>
+      </div>
+      <div class="stat-tile">
+        <div class="stat-value">0-0</div>
+        <div class="stat-label">Record (settled bets)</div>
+      </div>
+      <div class="stat-tile">
+        <div class="stat-value">3</div>
+        <div class="stat-label">Pending ($15.00 at stake)</div>
+      </div>
+    </div>
+
+    <div class="date-heading">All bets</div>
+    
+    <div class="bet-card">
+      <div class="bet-card-head">
+        <span><b>2026-07-27</b> (2-leg parlay) &middot; FanDuel &middot; staked $5.00 to win $10.45</span>
+        <span><span class="badge badge-projected">PENDING</span> <b>at stake: $5.00</b></span>
+      </div>
+      
+    <div class="leg-row">
+      <div class="leg-main">
+        <b>George Kirby</b>
+        <span class="leg-prop">Outs Recorded OVER 15.5</span>
+        <span class="badge badge-projected">PENDING</span>
+      </div>
+      <div class="leg-sub sub">model: 20.54 proj vs 18.5 line, leans over </div>
+    </div>
+    
+    <div class="leg-row">
+      <div class="leg-main">
+        <b>Nicky Lopez</b>
+        <span class="leg-prop">Hits OVER 0.5</span>
+        <span class="badge badge-projected">PENDING</span>
+      </div>
+      <div class="leg-sub sub">model: 0.96 proj vs 0.5 line, leans over </div>
+    </div>
+    
+    </div>
+    
+    <div class="bet-card">
+      <div class="bet-card-head">
+        <span><b>2026-07-27</b> &middot; FanDuel &middot; staked $5.00 to win $6.25</span>
+        <span><span class="badge badge-projected">PENDING</span> <b>at stake: $5.00</b></span>
+      </div>
+      
+    <div class="leg-row">
+      <div class="leg-main">
+        <b>George Kirby</b>
+        <span class="leg-prop">Strikeouts OVER 5.5</span>
+        <span class="badge badge-projected">PENDING</span>
+      </div>
+      <div class="leg-sub sub">model: 6.25 proj vs 5.5 line, leans over </div>
+    </div>
+    
+    </div>
+    
+    <div class="bet-card">
+      <div class="bet-card-head">
+        <span><b>2026-07-27</b> &middot; FanDuel &middot; odds +115 &middot; staked $5.00 to win $5.75</span>
+        <span><span class="badge badge-projected">PENDING</span> <b>at stake: $5.00</b></span>
+      </div>
+      
+    <div class="leg-row">
+      <div class="leg-main">
+        <b>Cole Young</b>
+        <span class="leg-prop">Total Bases OVER 1.5</span>
+        <span class="badge badge-projected">PENDING</span>
+      </div>
+      <div class="leg-sub sub">model: 1.75 proj vs 1.5 line, leans over </div>
+    </div>
+    
+    </div>
+    
+  </div>
+
+<script>
+function applyFilters() {
+  const date = document.getElementById('dateFilter').value;
+  const role = document.getElementById('roleFilter').value;
+  const search = document.getElementById('searchBox').value.trim().toLowerCase();
+  const confirmedOnly = document.getElementById('confirmedOnly').checked;
+  let visible = 0;
+  document.querySelectorAll('.game-card').forEach(function (card) {
+    let show = true;
+    if (date !== 'all' && card.dataset.date !== date) show = false;
+    if (confirmedOnly && card.dataset.confirmed !== 'true') show = false;
+    if (search && card.dataset.search.indexOf(search) === -1) show = false;
+    card.style.display = show ? '' : 'none';
+    if (show) visible++;
+    card.querySelectorAll('.pitcher-block').forEach(function (el) {
+      el.style.display = (role === 'pitchers' || role === 'all') ? '' : 'none';
+    });
+    card.querySelectorAll('.batter-block').forEach(function (el) {
+      el.style.display = (role === 'batters' || role === 'all') ? '' : 'none';
+    });
+  });
+  document.querySelectorAll('[data-date-group]').forEach(function (group) {
+    let anyVisible = false;
+    group.querySelectorAll('.game-card').forEach(function (c) { if (c.style.display !== 'none') anyVisible = true; });
+    group.style.display = anyVisible ? '' : 'none';
+  });
+  document.getElementById('resultCount').textContent = visible + ' game' + (visible === 1 ? '' : 's') + ' shown';
+}
+function toggleDetail(id) {
+  const row = document.getElementById(id);
+  // '' (not a hardcoded 'table-row') so the CSS cascade decides the shown
+  // display value -- a mobile media query turns this same row into a
+  // stacked block instead of a table-row, and a hardcoded value here would
+  // silently win over that rule (inline styles beat stylesheet rules).
+  // Checking ONLY '=== none' (not the old "|| falsy" fallback) matters: an
+  // empty string is falsy too, so that fallback made every row un-closable
+  // after the first click open -- both branches of the old OR were true
+  // forever once display became ''.
+  if (row) row.style.display = (row.style.display === 'none') ? '' : 'none';
+}
+function localizeGameTimes() {
+  document.querySelectorAll('.game-time').forEach(function (el) {
+    const iso = el.dataset.utc;
+    if (!iso) return;
+    const d = new Date(iso);
+    if (isNaN(d.getTime())) return;
+    el.textContent = d.toLocaleString([], {
+      weekday: 'short', month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit'
+    });
+  });
+}
+// Accordion: opening one game card closes any other open one. With every
+// card able to expand into a long batter/pitcher/live-tracker body, having
+// several open at once made the page enormous and hard to navigate --
+// only ever one open keeps the page scannable, and (with the sticky
+// summary above) there's always exactly one header to find and click.
+function initGameCardAccordion() {
+  const cards = document.querySelectorAll('details.game-card');
+  cards.forEach(function (card) {
+    card.addEventListener('toggle', function () {
+      if (!card.open) return;
+      cards.forEach(function (other) {
+        if (other !== card) other.open = false;
+      });
+    });
+  });
+}
+function initTheme() {
+  const saved = localStorage.getItem('theme');
+  if (saved) document.documentElement.setAttribute('data-theme', saved);
+  const btn = document.getElementById('themeToggle');
+  if (!btn) return;
+  function updateLabel() {
+    const current = document.documentElement.getAttribute('data-theme');
+    const isDark = current ? current === 'dark' : window.matchMedia('(prefers-color-scheme: dark)').matches;
+    btn.textContent = isDark ? 'Switch to light' : 'Switch to dark';
+  }
+  btn.addEventListener('click', function () {
+    const current = document.documentElement.getAttribute('data-theme');
+    const isDark = current ? current === 'dark' : window.matchMedia('(prefers-color-scheme: dark)').matches;
+    const next = isDark ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-theme', next);
+    localStorage.setItem('theme', next);
+    updateLabel();
+  });
+  updateLabel();
+}
+// Live game tracker: polls MLB's own public live-feed API (CORS-open,
+// verified: access-control-allow-origin: *) directly from the browser, on
+// a short interval -- our own build only regenerates every ~15 minutes,
+// which is far too slow for "is this at-bat still going." Only ever reads
+// from MLB's API; never writes anything, so there's no auth/key needed.
+const LIVE_POLL_MS = 30000;
+let liveTrackedEls = [];
+
+function escapeHtml(s) {
+  return String(s).replace(/[&<>"']/g, function (c) {
+    return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
+  });
+}
+
+// Same MLB CDN as _player_photo_html() in the Python template -- kept in
+// lockstep so a player looks the same whether their card came from the
+// server-rendered build or this client-side live update.
+function playerPhotoHtml(id) {
+  if (!id) return '';
+  const url = 'https://img.mlbstatic.com/mlb-photos/image/upload/w_56,h_56,c_fill,g_face,q_100/v1/people/' + id + '/headshot/67/current';
+  return '<img class="player-photo" src="' + url + '" loading="lazy" alt="" onerror="this.style.display=\'none\'">';
+}
+
+function initLiveTracker() {
+  const now = Date.now();
+  const hasStarted = function (el) {
+    const timeEl = el.querySelector('.game-time');
+    const t = timeEl ? timeEl.dataset.utc : null;
+    if (!t) return false;
+    const startMs = new Date(t).getTime();
+    return !isNaN(startMs) && startMs <= now; // don't waste requests on a game that hasn't started yet
+  };
+  const allCards = Array.from(document.querySelectorAll('details.game-card[data-game-pk]'));
+  liveTrackedEls = allCards.filter(function (el) { return el.dataset.final !== 'true' && hasStarted(el); });
+  // A game already Final as of this build still gets exactly ONE poll of
+  // MLB's real feed (not added to the recurring liveTrackedEls -- no point
+  // re-polling a decided game every 30s forever). Our own server-rendered
+  // box score only has a container for players who had a prop projection
+  // to begin with (the starting lineup + probable pitcher) -- a reliever or
+  // pinch-hitter who never got one needs this one real fetch for
+  // updatePlayerBoxScores' subs-list handling to ever see them.
+  allCards.filter(function (el) { return el.dataset.final === 'true' && hasStarted(el); }).forEach(pollLiveGame);
+  if (!liveTrackedEls.length) return;
+  pollAllLiveGames();
+  setInterval(pollAllLiveGames, LIVE_POLL_MS);
+  // A backgrounded tab shouldn't keep polling every game on its own timer;
+  // catching back up the moment the tab is visible again feels just as
+  // "live" without burning requests the whole time no one's looking.
+  document.addEventListener('visibilitychange', function () {
+    if (document.visibilityState === 'visible') pollAllLiveGames();
+  });
+}
+
+function pollAllLiveGames() {
+  if (document.visibilityState === 'hidden') return;
+  liveTrackedEls.forEach(pollLiveGame);
+}
+
+function pollLiveGame(el) {
+  if (el.dataset.liveDone === 'true') return; // confirmed Final by a previous poll -- stop hitting the API for it
+  const pk = el.dataset.gamePk;
+  fetch('https://statsapi.mlb.com/api/v1.1/game/' + pk + '/feed/live')
+    .then(function (r) { return r.json(); })
+    .then(function (data) { renderLiveState(el, data); })
+    .catch(function () { /* transient network hiccup -- keep last known state, just try again next cycle */ });
+}
+
+function statOr0(v) {
+  return v == null ? 0 : v;
+}
+
+function boxHeader(isFinal, volumeLabel, volumeValue) {
+  const badge = isFinal ? '<span class="badge badge-final">FINAL</span>' : '<span class="badge badge-live">LIVE</span>';
+  const volume = volumeLabel ? '<span class="bx-volume">' + volumeValue + ' ' + volumeLabel + '</span>' : '';
+  return '<div class="bx-header">' + badge + volume + '</div>';
+}
+
+function statCellHtml(label, value) {
+  return '<div class="bx-stat"><b>' + value + '</b><small>' + label + '</small></div>';
+}
+
+// Main grid leads with IP then exactly PITCHER_PROP_CATEGORIES (Strikeouts,
+// Runs Allowed = earned runs, Hits Allowed, Walks Allowed) -- see
+// _pitcher_boxscore_html()'s own docstring. Shared by the known-player path
+// (a container already on the page) and the subs path (a player who never
+// got one) below, so the two can't drift out of sync.
+function pitchingGridHtml(pitching) {
+  const grid = [
+    statCellHtml('IP', pitching.inningsPitched), statCellHtml('SO', statOr0(pitching.strikeOuts)),
+    statCellHtml('ER', statOr0(pitching.earnedRuns)), statCellHtml('H', statOr0(pitching.hits)), statCellHtml('BB', statOr0(pitching.baseOnBalls)),
+  ].join('');
+  const extraCells = [];
+  if (statOr0(pitching.runs) !== statOr0(pitching.earnedRuns)) extraCells.push(statCellHtml('R', statOr0(pitching.runs)));
+  if (pitching.homeRuns) extraCells.push(statCellHtml('HR', pitching.homeRuns));
+  // Not a graded prop category (see PITCHER_PROP_CATEGORIES), so it's an
+  // extra rather than in the main 5-cell grid -- but genuinely live-only:
+  // our own synced pitching_game_logs schema has no such column at all,
+  // so this can only ever come from MLB's own live feed, never the
+  // server-rendered initial box.
+  if (pitching.numberOfPitches) extraCells.push(statCellHtml('NP', pitching.numberOfPitches));
+  const extra = extraCells.length ? '<div class="bx-grid">' + extraCells.join('') + '</div>' : '';
+  return '<div class="bx-grid">' + grid + '</div>' + extra;
+}
+
+// Main grid leads with AB then exactly BATTER_PROP_CATEGORIES (Hits, Total
+// Bases, Home Runs, RBIs, Runs Scored, Walks).
+function battingGridHtml(batting) {
+  const grid = [
+    statCellHtml('AB', statOr0(batting.atBats)), statCellHtml('H', statOr0(batting.hits)), statCellHtml('TB', statOr0(batting.totalBases)),
+    statCellHtml('HR', statOr0(batting.homeRuns)), statCellHtml('RBI', statOr0(batting.rbi)), statCellHtml('R', statOr0(batting.runs)),
+    statCellHtml('BB', statOr0(batting.baseOnBalls)),
+  ].join('');
+  const extraCells = [];
+  if (batting.doubles) extraCells.push(statCellHtml('2B', batting.doubles));
+  if (batting.triples) extraCells.push(statCellHtml('3B', batting.triples));
+  if (batting.stolenBases) extraCells.push(statCellHtml('SB', batting.stolenBases));
+  const extra = extraCells.length ? '<div class="bx-grid">' + extraCells.join('') + '</div>' : '';
+  return '<div class="bx-grid">' + grid + '</div>' + extra;
+}
+
+// A reliever or pinch-hitter/defensive sub never got a table row -- only
+// players with a prop projection (the confirmed/projected lineup + probable
+// starter) do. Rather than silently drop their live stats, append a compact
+// line to that side's .subs-list instead: no props (nothing was projected
+// for them), just their actual line, so they're not just missing. Grouped
+// into its own Pitching/Batting subsection (not one flat list) -- a reliever
+// buried between two pinch-hitters read as a jumbled arrival-order list.
+function upsertSubLine(el, side, pid, name, gridHtml, isFinal, kind) {
+  const list = el.querySelector('.subs-list[data-side="' + side + '"]');
+  if (!list) return;
+  if (!list.querySelector('.subs-list-heading')) {
+    // Both groups created together, in a fixed Pitching-then-Batting order,
+    // regardless of which kind happens to be seen first in this poll.
+    list.innerHTML =
+      '<div class="subs-list-heading">Also appeared</div>' +
+      '<div class="subs-group" data-kind="pitching"><div class="subs-group-heading">Pitching</div></div>' +
+      '<div class="subs-group" data-kind="batting"><div class="subs-group-heading">Batting</div></div>';
+  }
+  const group = list.querySelector('.subs-group[data-kind="' + kind + '"]');
+  let line = group.querySelector('.sub-player-line[data-player-id="' + pid + '"]');
+  if (!line) {
+    line = document.createElement('div');
+    line.className = 'sub-player-line';
+    line.dataset.playerId = pid;
+    line.innerHTML = '<div class="sub-player-name">' + playerPhotoHtml(pid) + escapeHtml(name) + ' <span class="sub">(not projected)</span></div>';
+    group.appendChild(line);
+  }
+  const nameDiv = line.querySelector('.sub-player-name').outerHTML;
+  line.innerHTML = nameDiv + boxHeader(isFinal) + gridHtml;
+}
+
+// Every player in the boxscore (batting AND pitching stats keyed by
+// person.id), re-rendered from the SAME fetch that drives the live strip
+// above -- our own build only refreshes every ~15 minutes, so without
+// this a player's card can sit on whatever partial line it had at the
+// last build (see live_score's own docstring in build_props.py for a
+// real example this bit us on) long after the real number moved on.
+function updatePlayerBoxScores(el, data, isFinal) {
+  const box = ((data.liveData || {}).boxscore || {}).teams || {};
+  ['home', 'away'].forEach(function (side) {
+    const players = (box[side] || {}).players || {};
+    Object.keys(players).forEach(function (key) {
+      const p = players[key];
+      const pid = p.person && p.person.id;
+      if (!pid) return;
+      const pitching = p.stats && p.stats.pitching;
+      const batting = p.stats && p.stats.batting;
+      const container = el.querySelector('.boxscore-line[data-player-id="' + pid + '"]');
+      const pitched = pitching && pitching.inningsPitched && (pitching.inningsPitched !== '0.0' || statOr0(pitching.battersFaced) > 0);
+      const batted = batting && (batting.atBats != null) && (batting.atBats > 0 || statOr0(batting.plateAppearances) > 0);
+      if (container) {
+        if (pitched) container.innerHTML = boxHeader(isFinal) + pitchingGridHtml(pitching);
+        else if (batting && batting.atBats != null) container.innerHTML = boxHeader(isFinal) + battingGridHtml(batting);
+        return;
+      }
+      // No pre-rendered container for this person id -- a reliever, pinch
+      // hitter, or defensive sub who wasn't in the projected/confirmed
+      // lineup. Only worth a line once they've actually done something.
+      if (pitched) upsertSubLine(el, side, pid, p.person.fullName, pitchingGridHtml(pitching), isFinal, 'pitching');
+      else if (batted) upsertSubLine(el, side, pid, p.person.fullName, battingGridHtml(batting), isFinal, 'batting');
+    });
+  });
+}
+
+// Only the "something actually happened" action events -- MLB's feed logs
+// a lot of routine noise alongside these (batter timeouts, mound visits,
+// game-status advisories) that isn't worth a line in a recap feed.
+function isNotableAction(event) {
+  if (!event) return false;
+  if (event.indexOf('Stolen Base') === 0 || event.indexOf('Caught Stealing') === 0) return true;
+  return ['Pitching Substitution', 'Offensive Substitution', 'Defensive Sub', 'Defensive Switch', 'Wild Pitch', 'Passed Ball', 'Balk', 'Injury', 'Ejection'].indexOf(event) !== -1;
+}
+
+// Shared by the full "Recent plays" list (in the expanded card) and the
+// always-visible live strip's "most recent notable event" line below --
+// one pass over the same fetch, not two.
+function collectGameEvents(data) {
+  const allPlays = ((data.liveData || {}).plays || {}).allPlays || [];
+  const events = [];
+  allPlays.forEach(function (p) {
+    const inning = (p.about.halfInning || '') + ' ' + (p.about.inning || '');
+    (p.playEvents || []).forEach(function (pe) {
+      if (pe.type === 'action' && pe.details && isNotableAction(pe.details.event) && pe.details.description) {
+        events.push({ inning: inning, text: pe.details.description, action: true });
+      }
+    });
+    if (p.result && p.result.description) {
+      events.push({ inning: inning, text: p.result.description, action: false, scoring: !!p.about.isScoringPlay });
+    }
+  });
+  return events;
+}
+
+function renderRecentPlays(el, events) {
+  const container = el.querySelector('.recent-plays');
+  if (!container || !events.length) return;
+  const recent = events.slice(-15).reverse();
+  container.innerHTML =
+    '<div class="plays-heading">Recent plays</div>' +
+    recent
+      .map(function (e) {
+        const cls = (e.action ? ' play-action' : '') + (e.scoring ? ' play-scoring' : '');
+        return (
+          '<div class="play-row' + cls + '">' +
+          '<span class="play-inning">' + escapeHtml(e.inning) + '</span>' +
+          '<span class="play-text">' + escapeHtml(e.text) + '</span></div>'
+        );
+      })
+      .join('');
+}
+
+// The full history lives in the expanded card (renderRecentPlays), which
+// most visitors won't have open -- a pitching change or pinch-hitter is
+// exactly the kind of thing worth surfacing without clicking in, so the
+// SINGLE most recent one also gets a line in the always-visible strip.
+// Only counts as "current" if it's among the last few events overall --
+// otherwise a wild pitch or pitching change from 3 batters ago just sits
+// there looking like old news forever (nothing else notable has to have
+// happened since for the OLD scan-back-to-the-start version to keep
+// re-showing it).
+function latestNotableEvent(events) {
+  const recent = events.slice(-3);
+  for (let i = recent.length - 1; i >= 0; i--) {
+    if (recent[i].action) return recent[i];
+  }
+  return null;
+}
+
+// A foul is a strike (barring the 2-strike exception) -- MLB's own feed
+// agrees: called strike, swinging strike, and foul all carry the exact
+// same "ballColor" in the raw pitch data, distinct only from balls and
+// balls in play. Matching that instead of inventing a 4th "foul" color.
+// Exactly 3 colors: blue (ball, incl. hit-by-pitch -- batter didn't swing,
+// not charged as a strike), red (any kind of strike, fouls included), green
+// (ball in play). Not a 4th color for the rare HBP case.
+function pitchDotClass(desc) {
+  if (!desc) return 'pitch-dot-other';
+  if (desc.indexOf('In play') === 0) return 'pitch-dot-inplay';
+  if (desc.indexOf('Ball') === 0 || desc === 'Automatic Ball' || desc.indexOf('Hit By Pitch') === 0) return 'pitch-dot-ball';
+  return 'pitch-dot-strike'; // Called Strike, Swinging Strike, Foul, Foul Tip, Foul Bunt, ...
+}
+
+// MLB's live feed carries full Statcast pitch coordinates (pX/pZ, feet from
+// the plate's center/ground) for every pitch of the CURRENT at-bat, plus
+// this batter's own strike zone top/bottom -- exactly what MLB.com's own
+// Gameday pitch tracker plots. Re-fetched (and so reset to the new
+// at-bat's pitches) every poll, same as everything else in the tracker.
+function renderStrikeZone(currentPlay) {
+  const pitchEvents = ((currentPlay || {}).playEvents || []).filter(function (pe) {
+    return pe.pitchData && pe.pitchData.coordinates && pe.pitchData.coordinates.pX != null;
+  });
+  if (!pitchEvents.length) return '';
+  const last = pitchEvents[pitchEvents.length - 1].pitchData;
+  const top = last.strikeZoneTop || 3.5;
+  const bottom = last.strikeZoneBottom || 1.5;
+  const halfWidth = (last.strikeZoneWidth || 17) / 12 / 2; // inches -> feet -> half-width
+  // viewBox is 5ft wide (-2.5..2.5) by 5ft tall (0..5, ground to well above
+  // the zone), 20px/ft; SVG y grows downward while pZ grows upward, so flip.
+  const toX = function (ft) { return (ft + 2.5) * 20; };
+  const toY = function (ft) { return (5 - ft) * 20; };
+  const zoneX = toX(-halfWidth), zoneY = toY(top);
+  const zoneW = toX(halfWidth) - zoneX, zoneH = toY(bottom) - zoneY;
+  const dots = pitchEvents
+    .map(function (pe, i) {
+      const c = pe.pitchData.coordinates;
+      const cls = pitchDotClass(pe.details && pe.details.description);
+      const x = toX(c.pX), y = toY(c.pZ);
+      const isLast = i === pitchEvents.length - 1;
+      return (
+        '<circle cx="' + x + '" cy="' + y + '" r="' + (isLast ? 8 : 7) + '" class="pitch-dot ' + cls + '"' +
+        (isLast ? ' stroke="var(--text-primary)" stroke-width="2"' : '') + '></circle>' +
+        '<text x="' + x + '" y="' + y + '" class="pitch-dot-num" text-anchor="middle" dominant-baseline="central">' + (i + 1) + '</text>'
+      );
+    })
+    .join('');
+  return (
+    '<svg class="strike-zone" viewBox="0 0 100 100" width="84" height="84">' +
+    '<rect x="0" y="0" width="100" height="100" class="sz-bg"></rect>' +
+    '<rect x="' + zoneX + '" y="' + zoneY + '" width="' + zoneW + '" height="' + zoneH + '" class="sz-zone"></rect>' +
+    dots +
+    '</svg>'
+  );
+}
+
+// The same per-pitch data (type + velocity from pitchData/details, the
+// call/result already used to color the strike-zone dots) as a plain-
+// language list, oldest first -- MLB.com's own Gameday shows exactly this
+// alongside its zone plot.
+function renderPitchSequence(currentPlay) {
+  const pitchEvents = ((currentPlay || {}).playEvents || []).filter(function (pe) {
+    return pe.pitchData && pe.details;
+  });
+  if (!pitchEvents.length) return '';
+  const rows = pitchEvents
+    .map(function (pe, i) {
+      const type = (pe.details.type && pe.details.type.description) || 'Pitch';
+      const speed = pe.pitchData.startSpeed;
+      const speedHtml = speed != null ? '<span class="pitch-seq-speed">' + Math.round(speed) + ' mph</span>' : '';
+      const cls = pitchDotClass(pe.details.description);
+      return (
+        '<div class="pitch-seq-row"><span class="pitch-seq-num">' + (i + 1) + '.</span>' +
+        '<span class="pitch-seq-dot ' + cls + '"></span>' +
+        speedHtml +
+        '<span>' + escapeHtml(type) + ' &mdash; ' + escapeHtml(pe.details.description || '') + '</span></div>'
+      );
+    })
+    .join('');
+  return '<div class="pitch-seq"><div class="pitch-seq-heading">Pitch by pitch</div>' + rows + '</div>';
+}
+
+// Marks the current batter/on-deck hitter/pitcher's row so it's obvious at
+// a glance where in the order the game actually is, instead of having to
+// cross-reference the "Pitching / At bat / On deck" names against the
+// batter table by eye. Cleared and reapplied every poll (nothing tracks
+// its own previous state -- simplest to just recompute from scratch). This
+// is a highlight on the row itself (tinted background + a plain colored
+// text label next to the name), not another rounded .badge pill -- it
+// needs to read as distinct from the HOT/COLD/matchup bubbles, not as one
+// more bubble alongside them.
+function clearLiveTags(el) {
+  el.querySelectorAll('.live-tag').forEach(function (n) { n.remove(); });
+  el.querySelectorAll('.player-row.is-batting, .player-row.is-ondeck').forEach(function (row) {
+    row.classList.remove('is-batting', 'is-ondeck');
+  });
+  el.querySelectorAll('.pitcher-row.is-pitching').forEach(function (row) { row.classList.remove('is-pitching'); });
+}
+function addLiveTag(cell, label) {
+  if (!cell) return;
+  cell.insertAdjacentHTML('beforeend', '<span class="live-tag-text live-tag">' + label + '</span>');
+}
+function highlightActivePlayers(el, batterId, onDeckId, pitcherId) {
+  clearLiveTags(el);
+  if (batterId) {
+    const row = el.querySelector('.player-row[data-player-id="' + batterId + '"]');
+    if (row) {
+      row.classList.add('is-batting');
+      addLiveTag(row.querySelector('td.name-cell'), 'AT BAT');
+    }
+  }
+  if (onDeckId) {
+    const row = el.querySelector('.player-row[data-player-id="' + onDeckId + '"]');
+    if (row) {
+      row.classList.add('is-ondeck');
+      addLiveTag(row.querySelector('td.name-cell'), 'ON DECK');
+    }
+  }
+  if (pitcherId) {
+    const row = el.querySelector('.pitcher-row[data-player-id="' + pitcherId + '"]');
+    if (row) {
+      row.classList.add('is-pitching');
+      addLiveTag(row, 'PITCHING');
+    }
+  }
+}
+
+// Standard normal CDF via the Abramowitz & Stegun erf approximation --
+// no server round-trip, so this has to be self-contained in the browser.
+function normCdf(x) {
+  const sign = x < 0 ? -1 : 1;
+  const ax = Math.abs(x) / Math.SQRT2;
+  const a1 = 0.254829592, a2 = -0.284496736, a3 = 1.421413741, a4 = -1.453152027, a5 = 1.061405429, p = 0.3275911;
+  const t = 1 / (1 + p * ax);
+  const y = 1 - (((((a5 * t + a4) * t) + a3) * t + a2) * t + a1) * t * Math.exp(-ax * ax);
+  return 0.5 * (1 + sign * y);
+}
+
+// A live in-game win-probability ESTIMATE, not MLB's own (proprietary) model
+// -- built from first principles: treat each team's remaining scoring as
+// normally distributed around the current lead, with variance shrinking as
+// outs run out and a small fixed home-field edge (home teams win ~54% of
+// season openers) that shrinks right along with it. Plus a small same-side
+// bonus for the batting team's current base/out state (e.g. bases loaded,
+// nobody out swings things back toward whoever's up). This is a real
+// approximation, not a lookup from Statcast's actual win-expectancy table --
+// good enough to be directionally right, not precise to the percentage point.
+function computeWinProbability(linescore) {
+  const inning = linescore.currentInning;
+  if (!inning) return null;
+  const isTop = linescore.isTopInning !== undefined ? linescore.isTopInning : (linescore.inningHalf || '') === 'Top';
+  const outs = linescore.outs || 0;
+  const home = (linescore.teams || {}).home || {};
+  const away = (linescore.teams || {}).away || {};
+  if (home.runs == null || away.runs == null) return null;
+  const offense = linescore.offense || {};
+
+  const outsPerSide = 3;
+  const regulationOuts = 54; // 9 innings x 2 halves x 3 outs
+  const outsCompleted = (inning - 1) * 6 + (isTop ? 0 : outsPerSide) + outs;
+  const totalOuts = inning <= 9 ? regulationOuts : regulationOuts + (inning - 9) * 6;
+  let outsRemaining = totalOuts - outsCompleted;
+  const tied = home.runs === away.runs;
+  if (outsRemaining <= 0 && tied) outsRemaining = 3; // heading to extras -- still very much live
+  outsRemaining = Math.max(outsRemaining, 1);
+
+  const baseBonus = (offense.first ? 0.15 : 0) + (offense.second ? 0.3 : 0) + (offense.third ? 0.35 : 0);
+  const outMultiplier = outs === 0 ? 1 : outs === 1 ? 0.65 : 0.35;
+  const runnerBonus = baseBonus * outMultiplier;
+
+  const sigmaFull = 4.5; // ~typical SD of final run differential across a 9-inning game
+  const sigma = Math.max(sigmaFull * Math.sqrt(outsRemaining / regulationOuts), 0.35);
+  const homeEdgeFull = 0.452; // Phi(homeEdgeFull / sigmaFull) ~= 0.54, matching home teams' long-run win rate
+  const homeEdge = homeEdgeFull * Math.sqrt(outsRemaining / regulationOuts);
+
+  const lead = home.runs - away.runs + (isTop ? -runnerBonus : runnerBonus) + homeEdge;
+  const homeWp = normCdf(lead / sigma);
+  // Never claim near-certainty while the game's still live -- this is an
+  // estimate, not an oracle.
+  return Math.min(Math.max(homeWp, 0.02), 0.98);
+}
+
+function winProbHtml(linescore, gameData) {
+  const wp = computeWinProbability(linescore);
+  if (wp == null) return '';
+  const homePct = Math.round(wp * 100);
+  const awayPct = 100 - homePct;
+  const teams = gameData.teams || {};
+  const homeAbbr = (teams.home && (teams.home.abbreviation || teams.home.teamName)) || 'Home';
+  const awayAbbr = (teams.away && (teams.away.abbreviation || teams.away.teamName)) || 'Away';
+  return (
+    '<div class="wp-panel"><span class="wp-panel-label">Win probability (est.)</span>' +
+    '<div class="wp-bar"><div class="wp-bar-away" style="width:' + awayPct + '%"></div>' +
+    '<div class="wp-bar-home" style="width:' + homePct + '%"></div></div>' +
+    '<div class="wp-teams"><span>' + escapeHtml(awayAbbr) + ' <b>' + awayPct + '%</b></span>' +
+    '<span>' + escapeHtml(homeAbbr) + ' <b>' + homePct + '%</b></span></div></div>'
+  );
+}
+
+function renderLiveState(el, data) {
+  const container = el.querySelector('.live-tracker'); // compact: sticky, in <summary>, visible even collapsed
+  const detail = el.querySelector('.live-detail'); // heavier detail: NOT sticky, only in the expanded body
+  const status = ((data.gameData || {}).status || {}).abstractGameState;
+  const linescore = (data.liveData || {}).linescore || {};
+  const events = collectGameEvents(data);
+
+  if (status === 'Final') {
+    el.dataset.liveDone = 'true';
+    updatePlayerBoxScores(el, data, true);
+    renderRecentPlays(el, events);
+    highlightActivePlayers(el, null, null, null);
+    if (detail) detail.innerHTML = '';
+    if (!container) return;
+    const home = (linescore.teams || {}).home, away = (linescore.teams || {}).away;
+    if (home && away && home.runs != null && away.runs != null) {
+      container.innerHTML =
+        '<span class="badge badge-final">FINAL</span><span class="live-score-line">' + away.runs + ' - ' + home.runs + '</span>';
+    }
+    return;
+  }
+  if (status !== 'Live') return; // still Preview (Scheduled/Pre-Game/Warmup/Delayed) -- nothing live to show yet
+
+  updatePlayerBoxScores(el, data, false);
+  renderRecentPlays(el, events);
+
+  const home = (linescore.teams || {}).home || {};
+  const away = (linescore.teams || {}).away || {};
+  const outs = linescore.outs || 0;
+  const offense = linescore.offense || {};
+  const defense = linescore.defense || {};
+  const batter = offense.batter ? offense.batter.fullName : null;
+  const onDeck = offense.onDeck ? offense.onDeck.fullName : null;
+  const inHole = offense.inHole ? offense.inHole.fullName : null;
+  const pitcher = defense.pitcher ? defense.pitcher.fullName : null;
+  highlightActivePlayers(el, offense.batter && offense.batter.id, offense.onDeck && offense.onDeck.id, defense.pitcher && defense.pitcher.id);
+  const outDots = [0, 1, 2]
+    .map(function (i) { return '<span class="out-dot' + (i < outs ? ' out-dot-filled' : '') + '"></span>'; })
+    .join('');
+  const diamond =
+    '<div class="diamond">' +
+    '<div class="base base-2b' + (offense.second ? ' base-occupied' : '') + '"></div>' +
+    '<div class="base base-3b' + (offense.third ? ' base-occupied' : '') + '"></div>' +
+    '<div class="base base-1b' + (offense.first ? ' base-occupied' : '') + '"></div>' +
+    '</div>';
+  const updated = new Date().toLocaleTimeString([], { hour: 'numeric', minute: '2-digit' });
+  const latest = latestNotableEvent(events);
+  const currentPlay = ((data.liveData || {}).plays || {}).currentPlay;
+  const count = (currentPlay || {}).count || {};
+  const countText = count.balls != null && count.strikes != null ? count.balls + '-' + count.strikes : '';
+  const strikeZoneHtml = renderStrikeZone(currentPlay);
+  const pitchSeqHtml = renderPitchSequence(currentPlay);
+  const wpHtml = winProbHtml(linescore, data.gameData || {});
+
+  if (container) {
+    container.innerHTML =
+      '<div class="live-top-row">' +
+      '<span class="badge badge-live">LIVE</span>' +
+      '<span class="live-score-line">' + away.runs + ' - ' + home.runs + '</span>' +
+      '<span class="live-inning">' + escapeHtml(linescore.inningHalf || '') + ' ' + escapeHtml(linescore.currentInningOrdinal || '') + '</span>' +
+      '<span class="live-updated">updated ' + updated + '</span>' +
+      '</div>' +
+      '<div class="live-field-row">' +
+      '<div class="live-state-panel">' +
+      diamond +
+      '<div class="live-count-outs">' +
+      (countText ? '<span class="live-count">' + countText + '</span>' : '') +
+      '<span class="live-outs">' + outDots + '</span>' +
+      '</div>' +
+      '</div>' +
+      wpHtml +
+      '</div>';
+  }
+
+  if (detail) {
+    detail.innerHTML =
+      '<div class="live-field-row">' +
+      (strikeZoneHtml ? '<div class="sz-panel"><span class="sz-panel-label">Pitch location</span>' + strikeZoneHtml + '</div>' : '') +
+      (batter || pitcher
+        ? '<div class="live-matchup">' +
+          (pitcher ? '<span class="live-batter">Pitching: ' + playerPhotoHtml(defense.pitcher && defense.pitcher.id) + '<b>' + escapeHtml(pitcher) + '</b></span>' : '') +
+          (batter ? '<span class="live-batter">At bat: ' + playerPhotoHtml(offense.batter && offense.batter.id) + '<b>' + escapeHtml(batter) + '</b></span>' : '') +
+          (onDeck ? '<span class="live-batter sub">On deck: ' + playerPhotoHtml(offense.onDeck && offense.onDeck.id) + escapeHtml(onDeck) + '</span>' : '') +
+          (inHole ? '<span class="live-batter sub">In the hole: ' + playerPhotoHtml(offense.inHole && offense.inHole.id) + escapeHtml(inHole) + '</span>' : '') +
+          '</div>'
+        : '') +
+      '</div>' +
+      pitchSeqHtml +
+      (latest ? '<div class="live-notable">' + escapeHtml(latest.text) + '</div>' : '');
+  }
+}
+
+document.addEventListener('DOMContentLoaded', function () {
+  // Guarded as a whole, not element-by-element: this script is shared with
+  // pages (like track-record.html) that have no filter toolbar at all --
+  // any one of these calling .addEventListener on a missing element would
+  // throw and abort the rest of this handler, silently breaking initTheme()
+  // and localizeGameTimes() too even though neither depends on the toolbar.
+  if (document.getElementById('dateFilter')) {
+    document.getElementById('dateFilter').addEventListener('change', applyFilters);
+    document.getElementById('roleFilter').addEventListener('change', applyFilters);
+    document.getElementById('searchBox').addEventListener('input', applyFilters);
+    document.getElementById('confirmedOnly').addEventListener('change', applyFilters);
+    applyFilters();
+  }
+  initTheme();
+  localizeGameTimes();
+  initLiveTracker();
+  initGameCardAccordion();
+  syncStickyOffset();
+  window.addEventListener('resize', syncStickyOffset);
+});
+
+// The filter toolbar (dropdowns/search) is its own sticky element pinned at
+// top:0 -- an open game card's summary is ALSO sticky, and without this it
+// would stack at the same top:0, letting the toolbar's higher z-index paint
+// over the summary's own title/score. Measured live (not hardcoded) because
+// the toolbar wraps to more rows, and gets taller, on narrow/mobile widths.
+// No-op (falls back to the CSS default of 0px) on pages with no toolbar.
+function syncStickyOffset() {
+  const toolbar = document.querySelector('.toolbar');
+  const height = toolbar ? toolbar.getBoundingClientRect().height : 0;
+  document.documentElement.style.setProperty('--sticky-offset', height + 'px');
+}
+</script>
+
+</body>
+</html>

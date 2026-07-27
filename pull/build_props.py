@@ -1982,6 +1982,22 @@ def run(days_ahead=2, write_archive=True):
     # whatever's in track_record.json, no DB access, effectively free.
     render_track_record.run()
 
+    # Local imports: log_bet.py imports FROM this module (it reuses
+    # pick_result()/batter_game_result()/etc. directly so a bet leg can
+    # never disagree with what the live dashboard says about the same
+    # player+category+line) -- importing it at module level here would be
+    # circular. Regrading on every run (not just when a new bet is
+    # logged) is what lets a bet settle automatically as its game
+    # finishes, the same reasoning as grade_picks.py re-grading recent
+    # days on every hourly run.
+    import log_bet
+    import render_my_bets
+
+    bet_conn = get_conn()
+    log_bet.regrade_all(bet_conn)
+    bet_conn.close()
+    render_my_bets.run()
+
     print(f"Wrote report for {len(report['games'])} games to {json_path}, {md_path}, {html_path}")
 
 
