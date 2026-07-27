@@ -1255,16 +1255,6 @@ def fallback_best_prop(recent_categories, season_categories):
     return prop, direction
 
 
-def pitcher_best_category(p, label):
-    for cat in p.get("prop_categories") or []:
-        if cat["label"] == label and cat["hit_rates"]:
-            hr = cat["hit_rates"][0]
-            return {"label": cat["label"], "line": hr["line"], "pct": hr["pct"], "n": hr["n"]}
-    return None
-
-
-
-
 # Most commonly bet MLB player-prop categories, in priority order -- the
 # guaranteed last-resort fallback below picks the first of these a player
 # has any recent-game data for at all. Home Runs deliberately excluded --
@@ -1346,9 +1336,17 @@ def build_top_picks(report_games, batter_limit=15, pitcher_limit=8):
     a scale mismatch. So each role is ranked separately and returned as its
     own sub-list; the caller renders them as two clearly-labeled rankings
     (batters #1-N, pitchers #1-N) instead of one misleadingly-precise #1-12.
-    "Over" for a pitcher means the strikeout prop; "under" means runs/hits
-    allowed -- i.e. both lists stay true to their heading ("bet the over" /
-    "bet the under"), not "good pitcher / bad pitcher".
+    A pitcher's OVER/UNDER category isn't fixed to strikeouts/runs-allowed --
+    like batters, it's whichever of his 4 categories (Strikeouts, Runs
+    Allowed, Hits Allowed, Walks Allowed) deviates most from his own season
+    norm in that direction (best_over/best_under, from prop_category_delta()
+    in build_pitcher_entry()), falling back to resolve_best_category() the
+    same way batters do. The pitching-well/pitching-poorly SELECTION signal
+    (pitcher_strikeout_over_score()/pitcher_runs_under_score() below) is
+    separate from and doesn't need to match the specific category shown --
+    a pitcher can make the Over list on "pitching well" grounds and still
+    headline, say, a Walks Allowed over if that's his strongest recent
+    trend.
     """
     batter_overs, batter_unders = [], []
     pitcher_overs, pitcher_unders = [], []
@@ -1371,6 +1369,10 @@ def build_top_picks(report_games, batter_limit=15, pitcher_limit=8):
                     "date": g["date"],
                     "game_pk": g["game_pk"],
                     "lineup_confirmed": side["lineup_confirmed"],
+                    # Recorded so a later, real starting-pitcher swap can be
+                    # detected against this and the pick's matchup-dependent
+                    # fields recomputed -- see _refresh_frozen_pick().
+                    "opp_pitcher_id": (opp_side["probable_pitcher"] or {}).get("player_id"),
                 }
 
                 over_score, over_reasons = batter_over_score(b)
@@ -1403,14 +1405,14 @@ def build_top_picks(report_games, batter_limit=15, pitcher_limit=8):
                 }
                 over_score, over_reasons = pitcher_strikeout_over_score(p)
                 if over_reasons and over_score > 0:
-                    best_over = pitcher_best_category(p, "Strikeouts") or resolve_best_category(p.get("prop_categories"), "pitcher", "over")
+                    best_over = p.get("best_over") or resolve_best_category(p.get("prop_categories"), "pitcher", "over")
                     result = pick_result("pitcher", best_over, p.get("game_result"), "over", is_final)
                     dnp = game_started and p.get("game_result") is None
                     pitcher_overs.append({**base, "score": over_score, "reasons": over_reasons, "best_category": best_over, "result": result, "dnp": dnp})
 
                 under_score, under_reasons = pitcher_runs_under_score(p)
                 if under_reasons and under_score > 0:
-                    best_under = pitcher_best_category(p, "Runs Allowed") or resolve_best_category(p.get("prop_categories"), "pitcher", "under")
+                    best_under = p.get("best_under") or resolve_best_category(p.get("prop_categories"), "pitcher", "under")
                     result = pick_result("pitcher", best_under, p.get("game_result"), "under", is_final)
                     dnp = game_started and p.get("game_result") is None
                     pitcher_unders.append({**base, "score": under_score, "reasons": under_reasons, "best_category": best_under, "result": result, "dnp": dnp})
@@ -1544,34 +1546,94 @@ def _regrade_picks(conn, picks_field, direction):
 
 
 def _player_context(todays_games):
-    """Current prop_categories for every player showing up today, keyed by (role, player_id) -- used to backfill an already-frozen pick's best_category without needing to recompute the whole entry."""
+    """
+    Current data for every player showing up today, keyed by (role,
+    player_id) -- used to refresh an already-frozen pick without needing to
+    recompute the whole entry. For batters this also carries which
+    opposing starting pitcher the CURRENT build used, plus the fields
+    batter_over_score()/batter_under_score() need -- compared against the
+    pitcher a frozen pick was originally built against in
+    _refresh_frozen_pick(), so a real late pitcher swap (scratch, bullpen
+    game, etc.) can be detected and the pick's matchup-dependent fields
+    recomputed, rather than silently left stale against a pitcher who's no
+    longer even starting.
+    """
     context = {}
     for g in todays_games:
         for side_key in ("home", "away"):
             side = g[side_key]
+            opp_side = g["away"] if side_key == "home" else g["home"]
+            opp_pitcher_id = (opp_side["probable_pitcher"] or {}).get("player_id")
             for b in side["batters"]:
-                context[("batter", b["player_id"])] = b.get("prop_categories")
+                context[("batter", b["player_id"])] = {
+                    "prop_categories": b.get("prop_categories"),
+                    "best_over": b.get("best_over"),
+                    "best_under": b.get("best_under"),
+                    "trend": b.get("trend"),
+                    "trend_caveat": b.get("trend_caveat"),
+                    "matchup": b.get("matchup"),
+                    "hit_streak": b.get("hit_streak"),
+                    "opp_pitcher_id": opp_pitcher_id,
+                    "lineup_confirmed": side["lineup_confirmed"],
+                }
             p = side["probable_pitcher"]
             if p:
-                context[("pitcher", p["player_id"])] = p.get("prop_categories")
+                context[("pitcher", p["player_id"])] = {
+                    "prop_categories": p.get("prop_categories"),
+                    "best_over": p.get("best_over"),
+                    "best_under": p.get("best_under"),
+                }
     return context
 
 
 def _refresh_frozen_pick(pick, direction, player_context):
     """
-    Backfills best_category on an already-frozen pick using CURRENT (but
-    still as-of-date-safe) data, without touching who's on the list or
-    their rank/score -- for a pick frozen before resolve_best_category()
-    existed (previously a text-remark-only "fallback_angle", or nothing at
-    all). lineup_confirmed is handled separately in _regrade_picks(), via
-    a direct per-player lineups-table lookup rather than this reconstructed
+    Refreshes an already-frozen pick's matchup-dependent fields using
+    CURRENT (but still as-of-date-safe) data, without touching who's on
+    the list or their rank -- two cases:
+
+    1. best_category missing entirely: backfills it (a pick frozen before
+       resolve_best_category() existed -- previously a text-remark-only
+       "fallback_angle", or nothing at all).
+    2. (batters only) the opposing starting pitcher has genuinely changed
+       since this pick was frozen: recomputes score/reasons/best_category
+       against the new pitcher. Still pre-game information, not a result,
+       so this doesn't compromise grading integrity the way reacting to
+       the game's own outcome would -- it just keeps the pick honest about
+       who's actually starting. Picks frozen before this field existed
+       have no opp_pitcher_id to compare against, so they're left alone
+       until the next day's fresh freeze.
+
+    lineup_confirmed is handled separately in _regrade_picks(), via a
+    direct per-player lineups-table lookup rather than this reconstructed
     batters list -- a player who isn't actually starting today wouldn't be
     in it at all, which left him stuck without a real check either way.
     """
-    if pick.get("best_category"):
+    role = pick.get("role", "batter")
+    ctx = player_context.get((role, pick["player_id"]))
+    if not ctx:
         return
-    categories = player_context.get((pick.get("role", "batter"), pick["player_id"]))
-    resolved = resolve_best_category(categories, pick.get("role", "batter"), direction)
+    pitcher_changed = (
+        role == "batter"
+        and pick.get("opp_pitcher_id") is not None
+        and ctx.get("opp_pitcher_id") is not None
+        and pick["opp_pitcher_id"] != ctx["opp_pitcher_id"]
+    )
+    if not pick.get("best_category") and not pitcher_changed:
+        resolved = resolve_best_category(ctx.get("prop_categories"), role, direction)
+        if resolved:
+            pick["best_category"] = resolved
+        return
+    if not pitcher_changed:
+        return
+    score_fn = batter_over_score if direction == "over" else batter_under_score
+    confirmed_penalty = 0 if ctx.get("lineup_confirmed") else 0.5
+    score, reasons = score_fn(ctx)
+    pick["score"] = score - confirmed_penalty
+    pick["reasons"] = reasons
+    pick["opp_pitcher_id"] = ctx["opp_pitcher_id"]
+    best = ctx.get("best_over") if direction == "over" else ctx.get("best_under")
+    resolved = best or resolve_best_category(ctx.get("prop_categories"), role, direction)
     if resolved:
         pick["best_category"] = resolved
 
