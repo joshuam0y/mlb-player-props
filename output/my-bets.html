@@ -499,7 +499,13 @@
   .bet-form-row input { padding: 8px 10px; border-radius: 8px; border: 1px solid var(--border); background: var(--surface-2); color: var(--text-primary); font-family: inherit; font-size: 13.5px; }
   .leg-input-row { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 8px; align-items: center; }
   .leg-input-row input, .leg-input-row select { padding: 8px 10px; border-radius: 8px; border: 1px solid var(--border); background: var(--surface-2); color: var(--text-primary); font-family: inherit; font-size: 13.5px; }
-  .leg-input-row .leg-player { flex: 1; min-width: 140px; }
+  .leg-input-row .leg-player { width: 100%; box-sizing: border-box; }
+  .player-search-wrap { position: relative; flex: 1; min-width: 160px; }
+  .player-suggestions { display: none; position: absolute; top: 100%; left: 0; right: 0; background: var(--surface-1); border: 1px solid var(--border); border-radius: 8px; z-index: 20; max-height: 220px; overflow-y: auto; margin-top: 2px; box-shadow: var(--shadow); }
+  .player-suggestion { padding: 8px 10px; cursor: pointer; font-size: 13.5px; }
+  .player-suggestion:hover, .player-suggestion.active { background: var(--surface-3); }
+  .player-suggestion .sub { color: var(--text-secondary); font-size: 12px; }
+  .leg-input-row.leg-resolved .player-search-wrap .leg-player { border-color: var(--status-good); }
   #bet-form button, #add-leg-btn { padding: 9px 16px; border-radius: 999px; border: none; background: var(--series-1); color: #fff; font-weight: 600; cursor: pointer; font-family: inherit; font-size: 13px; margin-right: 8px; margin-top: 4px; }
   #add-leg-btn { background: var(--surface-3); color: var(--text-primary); }
   #signout-btn { margin-top: 16px; padding: 8px 16px; border-radius: 999px; border: 1px solid var(--border); background: var(--surface-1); color: var(--text-primary); cursor: pointer; font-family: inherit; }
@@ -538,10 +544,14 @@
         shows HIT immediately, mid-game; a MISS only locks in once the game
         is Final). A bet only settles WON once every leg has hit, and
         settles LOST the moment any single leg misses -- same as a real
-        parlay slip. Grading runs automatically every ~15 minutes on the
-        server; "model" shows this site's own current projection/line for
-        that exact player+category, purely for comparison against what was
-        actually bet.
+        parlay slip. This page polls MLB's live feed directly (same as the
+        main dashboard) for every pending leg's game, so a bet can settle
+        right here in real time -- the server-side grading (every ~15
+        minutes) is what actually persists it. "model" shows this site's
+        own current projection/line for that exact player+category, purely
+        for comparison against what was actually bet. Start typing a
+        player's name to search -- pick them from the list so the category
+        options narrow to their actual position.
       </div>
 
       <div class="stat-row" id="summary-tiles"></div>
@@ -1330,7 +1340,7 @@ import {
   getAuth, signInWithEmailAndPassword, onAuthStateChanged, signOut
 } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-auth.js";
 import {
-  getFirestore, collection, addDoc, query, where, orderBy, onSnapshot
+  getFirestore, collection, addDoc, query, where, onSnapshot
 } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js";
 
 const firebaseConfig = {"apiKey": "AIzaSyASxciCTPxSLDWt82n5DCUAhH_JdQ4xoP0", "authDomain": "mlb-props-1b47e.firebaseapp.com", "projectId": "mlb-props-1b47e", "storageBucket": "mlb-props-1b47e.firebasestorage.app", "messagingSenderId": "476096223505", "appId": "1:476096223505:web:d7c02d4393f59f579954b0"};
@@ -1349,10 +1359,82 @@ const CATEGORY_ROLE = {
 const CATEGORIES = Object.keys(CATEGORY_ROLE);
 
 
+// Category label -> live box-score field, and the innings-pitched parser --
+// identical to BATTER_LEAN_FIELD/PITCHER_LEAN_FIELD/outsFromInningsPitched/
+// liveLeanValue/liveLeanResult in render_dashboard.py's own live tracker.
+// Duplicated rather than shared (this is a separate static page with its
+// own script, no bundler to share modules across the two) but must stay
+// in lockstep with pick_result()'s asymmetric grading logic in
+// build_props.py: a cleared OVER/UNDER is permanent the instant it
+// happens, safe to show live; the reverse only locks in once Final.
+const BATTER_LEAN_FIELD = {
+  'Hits': 'hits', 'Total Bases': 'totalBases', 'Home Runs': 'homeRuns',
+  'RBIs': 'rbi', 'Runs Scored': 'runs', 'Walks': 'baseOnBalls',
+};
+const PITCHER_LEAN_FIELD = {
+  'Strikeouts': 'strikeOuts', 'Runs Allowed': 'earnedRuns',
+  'Hits Allowed': 'hits', 'Walks Allowed': 'baseOnBalls',
+};
+
+function outsFromInningsPitched(ip) {
+  if (ip == null) return null;
+  const parts = String(ip).split('.');
+  const whole = parseInt(parts[0], 10) || 0;
+  const thirds = parts[1] ? (parseInt(parts[1], 10) || 0) : 0;
+  return whole * 3 + thirds;
+}
+
+function liveLeanValue(role, category, batting, pitching) {
+  if (role === 'batter') {
+    if (!batting || batting.atBats == null) return null;
+    const field = BATTER_LEAN_FIELD[category];
+    return field ? (batting[field] == null ? 0 : batting[field]) : null;
+  }
+  if (!pitching || pitching.inningsPitched == null) return null;
+  if (category === 'Outs Recorded') return outsFromInningsPitched(pitching.inningsPitched);
+  const field = PITCHER_LEAN_FIELD[category];
+  return field ? (pitching[field] == null ? 0 : pitching[field]) : null;
+}
+
+function liveLeanResult(value, line, direction, isFinal) {
+  const cleared = value > line;
+  if (!cleared && !isFinal) return null;
+  return (direction === 'over' ? cleared : !cleared) ? 'hit' : 'miss';
+}
+
 let reportCache = null;
+let playerIndex = []; // [{player_id, name, role, team, game_pk, prop_categories}]
 
 function easternToday() {
   return new Intl.DateTimeFormat('en-CA', { timeZone: 'America/New_York' }).format(new Date());
+}
+
+function buildPlayerIndex(report) {
+  const seen = new Set();
+  const index = [];
+  (report.games || []).forEach(function (g) {
+    ['home', 'away'].forEach(function (sideKey) {
+      const side = g[sideKey];
+      if (!side) return;
+      const entities = [];
+      (side.batters || []).forEach(function (b) { entities.push({ entity: b, role: 'batter' }); });
+      if (side.probable_pitcher) entities.push({ entity: side.probable_pitcher, role: 'pitcher' });
+      entities.forEach(function (item) {
+        const key = item.entity.player_id + '-' + g.game_pk;
+        if (seen.has(key) || !item.entity.player_id) return;
+        seen.add(key);
+        index.push({
+          player_id: item.entity.player_id,
+          name: item.entity.name,
+          role: item.role,
+          team: side.team_name,
+          game_pk: g.game_pk,
+          prop_categories: item.entity.prop_categories || [],
+        });
+      });
+    });
+  });
+  playerIndex = index;
 }
 
 async function loadReport() {
@@ -1360,48 +1442,17 @@ async function loadReport() {
   try {
     const res = await fetch('latest.json', { cache: 'no-store' });
     reportCache = await res.json();
+    buildPlayerIndex(reportCache);
   } catch (e) {
     reportCache = { games: [] };
   }
   return reportCache;
 }
 
-function findPlayerAndProjection(report, name, category) {
-  const wanted = name.trim().toLowerCase();
-  const tokens = wanted.split(/\s+/);
-  let best = null;
-  for (const g of report.games || []) {
-    for (const sideKey of ['home', 'away']) {
-      const side = g[sideKey];
-      if (!side) continue;
-      const entities = [];
-      (side.batters || []).forEach(function (b) { entities.push({ entity: b, role: 'batter' }); });
-      if (side.probable_pitcher) entities.push({ entity: side.probable_pitcher, role: 'pitcher' });
-      for (const item of entities) {
-        if (CATEGORY_ROLE[category] !== item.role) continue;
-        const entity = item.entity;
-        const fullName = (entity.name || '').toLowerCase();
-        const nameTokens = fullName.split(/\s+/);
-        let match = fullName === wanted || fullName.indexOf(wanted) !== -1;
-        if (!match && tokens.length <= nameTokens.length) {
-          match = tokens.every(function (t, i) { return nameTokens[i] && nameTokens[i].indexOf(t) === 0; });
-        }
-        if (match) {
-          const cat = (entity.prop_categories || []).find(function (c) { return c.label === category; });
-          best = {
-            player_id: entity.player_id,
-            player_name: entity.name,
-            role: item.role,
-            model_projection: cat ? cat.today_projection : null,
-            model_line: cat ? cat.primary_line : null,
-            model_lean: cat ? cat.lean : null,
-          };
-          if (fullName === wanted) return best;
-        }
-      }
-    }
-  }
-  return best;
+function searchPlayers(text) {
+  const wanted = text.trim().toLowerCase();
+  if (!wanted) return [];
+  return playerIndex.filter(function (p) { return p.name.toLowerCase().indexOf(wanted) !== -1; }).slice(0, 8);
 }
 
 function escapeHtml(s) {
@@ -1482,16 +1533,73 @@ function renderBets(bets) {
     : '<div class="empty">No bets logged yet.</div>';
 }
 
+function categoryOptionsHtml(role) {
+  const cats = role ? CATEGORIES.filter(function (c) { return CATEGORY_ROLE[c] === role; }) : CATEGORIES;
+  return '<option value="">Category</option>' + cats.map(function (c) { return '<option value="' + c + '">' + c + '</option>'; }).join('');
+}
+
 function legRowHtml(idx) {
-  const options = CATEGORIES.map(function (c) { return '<option value="' + c + '">' + c + '</option>'; }).join('');
   return (
     '<div class="leg-input-row" data-idx="' + idx + '">' +
-    '<input type="text" class="leg-player" placeholder="Player name" required>' +
-    '<select class="leg-category">' + options + '</select>' +
+    '<div class="player-search-wrap">' +
+    '<input type="text" class="leg-player" placeholder="Search player..." autocomplete="off" required>' +
+    '<div class="player-suggestions"></div>' +
+    '</div>' +
+    '<select class="leg-category">' + categoryOptionsHtml(null) + '</select>' +
     '<input type="number" step="0.5" class="leg-line" placeholder="Line" required style="width:80px">' +
     '<select class="leg-direction"><option value="over">Over</option><option value="under">Under</option></select>' +
     '</div>'
   );
+}
+
+// Selecting a suggestion stores the resolved player_id/role/game_pk as
+// data-* on the row itself -- submission then trusts that resolution
+// directly instead of re-guessing from typed text, and the category
+// dropdown narrows to just that player's real categories (a batter can
+// never accidentally get offered "Strikeouts").
+function wireLegRow(rowEl) {
+  const input = rowEl.querySelector('.leg-player');
+  const suggestionsEl = rowEl.querySelector('.player-suggestions');
+  const categorySelect = rowEl.querySelector('.leg-category');
+
+  input.addEventListener('input', function () {
+    rowEl.dataset.playerId = '';
+    rowEl.dataset.role = '';
+    rowEl.dataset.gamePk = '';
+    rowEl.classList.remove('leg-resolved');
+    const matches = searchPlayers(input.value);
+    if (!matches.length) {
+      suggestionsEl.style.display = 'none';
+      suggestionsEl.innerHTML = '';
+      return;
+    }
+    suggestionsEl.dataset.matches = JSON.stringify(matches);
+    suggestionsEl.innerHTML = matches.map(function (p, i) {
+      return '<div class="player-suggestion" data-i="' + i + '">' + escapeHtml(p.name) +
+        ' <span class="sub">' + escapeHtml(p.team || '') + '</span></div>';
+    }).join('');
+    suggestionsEl.style.display = 'block';
+  });
+
+  suggestionsEl.addEventListener('mousedown', function (e) {
+    const item = e.target.closest('.player-suggestion');
+    if (!item) return;
+    e.preventDefault();
+    const matches = JSON.parse(suggestionsEl.dataset.matches || '[]');
+    const picked = matches[parseInt(item.dataset.i, 10)];
+    if (!picked) return;
+    input.value = picked.name;
+    rowEl.dataset.playerId = picked.player_id;
+    rowEl.dataset.role = picked.role;
+    rowEl.dataset.gamePk = picked.game_pk;
+    rowEl.classList.add('leg-resolved');
+    categorySelect.innerHTML = categoryOptionsHtml(picked.role);
+    suggestionsEl.style.display = 'none';
+  });
+
+  input.addEventListener('blur', function () {
+    setTimeout(function () { suggestionsEl.style.display = 'none'; }, 150);
+  });
 }
 
 let legIdx = 0;
@@ -1499,7 +1607,9 @@ function addLegRow() {
   const container = document.getElementById('legs-container');
   const wrap = document.createElement('div');
   wrap.innerHTML = legRowHtml(legIdx++);
-  container.appendChild(wrap.firstChild);
+  const rowEl = wrap.firstChild;
+  container.appendChild(rowEl);
+  wireLegRow(rowEl);
 }
 function resetLegRows() {
   document.getElementById('legs-container').innerHTML = '';
@@ -1509,6 +1619,69 @@ function resetLegRows() {
 
 let unsubscribeBets = null;
 
+let currentBets = [];
+let livePollTimer = null;
+
+// Live overlay on top of Firestore's own (authoritative but ~15-minutes-
+// behind) grading: polls MLB's live feed directly for every game any
+// pending leg is in, same source and same asymmetric grading logic as
+// the main dashboard's own live tracker. This never writes to Firestore
+// -- it's a read-only, in-memory preview layer for THIS page load; the
+// server-side sync_bets_firestore.py is still the one thing that
+// actually persists a bet's result.
+function pollAllBetGames() {
+  const gamePks = new Set();
+  currentBets.forEach(function (bet) {
+    if (bet.status !== 'pending') return;
+    (bet.legs || []).forEach(function (leg) {
+      if (leg.status === 'pending' && leg.game_pk) gamePks.add(leg.game_pk);
+    });
+  });
+  gamePks.forEach(function (pk) {
+    fetch('https://statsapi.mlb.com/api/v1.1/game/' + pk + '/feed/live')
+      .then(function (r) { return r.json(); })
+      .then(function (data) { applyLiveDataToBets(pk, data); })
+      .catch(function () { /* transient network hiccup -- keep last known state, try again next poll */ });
+  });
+}
+
+function applyLiveDataToBets(gamePk, data) {
+  const isFinal = ((data.gameData || {}).status || {}).abstractGameState === 'Final';
+  const box = ((data.liveData || {}).boxscore || {}).teams || {};
+  let anyChanged = false;
+  currentBets.forEach(function (bet) {
+    if (bet.status !== 'pending') return;
+    let betChanged = false;
+    (bet.legs || []).forEach(function (leg) {
+      if (leg.status !== 'pending' || leg.game_pk !== gamePk || !leg.player_id) return;
+      let batting = null, pitching = null;
+      ['home', 'away'].forEach(function (side) {
+        const players = (box[side] || {}).players || {};
+        Object.keys(players).forEach(function (key) {
+          const p = players[key];
+          if (p.person && p.person.id === leg.player_id) {
+            batting = p.stats && p.stats.batting;
+            pitching = p.stats && p.stats.pitching;
+          }
+        });
+      });
+      const value = liveLeanValue(leg.role, leg.category, batting, pitching);
+      if (value == null) return;
+      const result = liveLeanResult(value, leg.line, leg.direction, isFinal);
+      if (!result) return;
+      leg.status = result;
+      betChanged = true;
+    });
+    if (betChanged) {
+      anyChanged = true;
+      const statuses = bet.legs.map(function (l) { return l.status; });
+      if (statuses.some(function (s) { return s === 'miss'; })) bet.status = 'lost';
+      else if (statuses.every(function (s) { return s === 'hit'; })) bet.status = 'won';
+    }
+  });
+  if (anyChanged) renderBets(currentBets);
+}
+
 onAuthStateChanged(auth, function (user) {
   const signinView = document.getElementById('signin-view');
   const appView = document.getElementById('app-view');
@@ -1516,18 +1689,29 @@ onAuthStateChanged(auth, function (user) {
     signinView.style.display = 'none';
     appView.style.display = 'block';
     if (unsubscribeBets) unsubscribeBets();
-    const q = query(collection(db, 'bets'), where('userId', '==', user.uid), orderBy('placed_date', 'desc'));
+    // No orderBy here on purpose: combining it with the where() below
+    // requires a Firestore composite index (a one-time manual step in
+    // the Firebase console) -- sorting the small per-user result set
+    // client-side avoids that entirely.
+    const q = query(collection(db, 'bets'), where('userId', '==', user.uid));
     unsubscribeBets = onSnapshot(q, function (snap) {
       const bets = [];
       snap.forEach(function (doc) { bets.push(Object.assign({ id: doc.id }, doc.data())); });
-      renderBets(bets);
+      bets.sort(function (a, b) { return (b.placed_date || '').localeCompare(a.placed_date || '') || String(b.id).localeCompare(String(a.id)); });
+      currentBets = bets;
+      renderBets(currentBets);
+      pollAllBetGames();
+      if (!livePollTimer) livePollTimer = setInterval(pollAllBetGames, 30000);
     }, function (err) {
       document.getElementById('bets-list').innerHTML = '<div class="empty">Error loading bets: ' + escapeHtml(err.message) + '</div>';
     });
+    loadReport();
   } else {
     signinView.style.display = 'block';
     appView.style.display = 'none';
     if (unsubscribeBets) { unsubscribeBets(); unsubscribeBets = null; }
+    if (livePollTimer) { clearInterval(livePollTimer); livePollTimer = null; }
+    currentBets = [];
   }
 });
 
@@ -1557,7 +1741,7 @@ document.getElementById('bet-form').addEventListener('submit', async function (e
   const errorEl = document.getElementById('bet-form-error');
   errorEl.textContent = '';
   try {
-    const report = await loadReport();
+    await loadReport();
     const legRows = document.querySelectorAll('#legs-container .leg-input-row');
     const legs = [];
     legRows.forEach(function (row) {
@@ -1565,25 +1749,38 @@ document.getElementById('bet-form').addEventListener('submit', async function (e
       const category = row.querySelector('.leg-category').value;
       const line = parseFloat(row.querySelector('.leg-line').value);
       const direction = row.querySelector('.leg-direction').value;
-      if (!playerName || isNaN(line)) return;
-      const resolved = findPlayerAndProjection(report, playerName, category);
+      if (!playerName || !category || isNaN(line)) return;
+      // Trust the row's own resolved selection (from clicking a search
+      // suggestion) over re-guessing from the typed text -- if the row
+      // was never resolved (typed a name but never picked a suggestion),
+      // fall back to an unresolved leg rather than blocking submission
+      // entirely, same as the old text-only flow.
+      const playerId = row.dataset.playerId ? parseInt(row.dataset.playerId, 10) : null;
+      const role = row.dataset.role || CATEGORY_ROLE[category];
+      const gamePk = row.dataset.gamePk ? parseInt(row.dataset.gamePk, 10) : null;
+      let modelProjection = null, modelLine = null, modelLean = null;
+      if (playerId) {
+        const entry = playerIndex.find(function (p) { return p.player_id === playerId; });
+        const cat = entry ? (entry.prop_categories || []).find(function (c) { return c.label === category; }) : null;
+        if (cat) { modelProjection = cat.today_projection; modelLine = cat.primary_line; modelLean = cat.lean; }
+      }
       legs.push({
-        player_name: resolved ? resolved.player_name : playerName,
-        player_id: resolved ? resolved.player_id : null,
-        role: resolved ? resolved.role : CATEGORY_ROLE[category],
+        player_name: playerName,
+        player_id: playerId,
+        role: role,
         category: category,
         line: line,
         direction: direction,
-        game_pk: null,
+        game_pk: gamePk,
         status: 'pending',
         actual_value: null,
         dnp: false,
-        model_projection: resolved ? resolved.model_projection : null,
-        model_line: resolved ? resolved.model_line : null,
-        model_lean: resolved ? resolved.model_lean : null,
+        model_projection: modelProjection,
+        model_line: modelLine,
+        model_lean: modelLean,
       });
     });
-    if (!legs.length) { errorEl.textContent = 'Add at least one leg.'; return; }
+    if (!legs.length) { errorEl.textContent = 'Add at least one leg (pick a player from the search results, choose a category and line).'; return; }
     const stake = parseFloat(document.getElementById('bet-stake').value);
     const toWin = parseFloat(document.getElementById('bet-to-win').value);
     if (isNaN(stake) || isNaN(toWin)) { errorEl.textContent = 'Stake and to-win must be numbers.'; return; }
