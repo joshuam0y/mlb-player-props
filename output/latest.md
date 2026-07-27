@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-07-27T20:28:15.907578+00:00_
+_Generated 2026-07-27T20:56:20.336563+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -215,7 +215,7 @@ _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.34)_
 ## 2026-07-27 - Atlanta Braves @ New York Mets (Pre-Game)
 _Citi Field_
 Projected score: Atlanta Braves 3.17 - New York Mets 3.06
-Model likes: **Atlanta Braves** to win (51%) | Run line: **New York Mets** +1.5 (68% to cover) | Total 6.5: lean **UNDER** (59%)
+Model likes: **Atlanta Braves** to win (51%) | Run line: **New York Mets** +1.5 (68% to cover) | Total 6.5: lean **UNDER** (58%)
 
 ### Atlanta Braves lineup -- CONFIRMED
 _Facing a taxed bullpen: 8.0 relief IP in last 2 days (ratio 1.53)_
@@ -276,21 +276,21 @@ _Facing a rested bullpen: 2.3 relief IP in last 2 days (ratio 0.49)_
 
 ## 2026-07-27 - New York Yankees @ Chicago White Sox (Pre-Game)
 _Rate Field_
-Projected score: New York Yankees 4.82 - Chicago White Sox 3.24
-Model likes: **New York Yankees** to win (64%) | Run line: **Chicago White Sox** +1.5 (52% to cover) | Total 6.5: lean **OVER** (60%)
+Projected score: New York Yankees 4.71 - Chicago White Sox 3.24
+Model likes: **New York Yankees** to win (63%) | Run line: **Chicago White Sox** +1.5 (53% to cover) | Total 6.5: lean **OVER** (59%)
 
-### New York Yankees lineup -- PROJECTED (unconfirmed)
+### New York Yankees lineup -- CONFIRMED
 _Facing a taxed bullpen: 7.7 relief IP in last 2 days (ratio 1.23)_
 **Probable P: Max Fried (L)** -- L5: 25.3 IP, 25 K, 11 ER, 3.91 ERA
-- Ben Rice (L) -- L7: 5H 2HR 4RBI 13TB (0.172 avg) -- away split: 0.286 avg
-- Jasson Domínguez (S) -- L7: 5H 1HR 3RBI 9TB (0.179 avg) -- away split: 0.21 avg
-- Trent Grisham (L) -- L7: 2H 1HR 1RBI 5TB (0.077 avg) -- away split: 0.177 avg
-- José Caballero (R) -- L7: 3H 0HR 2RBI 4TB (0.115 avg) -- away split: 0.251 avg
-- Ryan McMahon (L) -- L7: 2H 0HR 0RBI 3TB (0.111 avg) -- away split: 0.188 avg
-- Jazz Chisholm Jr. (L) -- L7: 6H 3HR 6RBI 16TB (0.222 avg) -- away split: 0.226 avg
-- Paul Goldschmidt (R) [3-game hit streak] -- L7: 7H 1HR 1RBI 11TB (0.292 avg) -- away split: 0.306 avg
-- Austin Wells (L) [likely BABIP-driven, not a real power uptick] -- L7: 5H 1HR 2RBI 8TB (0.357 avg) -- away split: 0.172 avg
-- Anthony Volpe (R) -- L7: 5H 0HR 3RBI 7TB (0.263 avg) -- away split: 0.259 avg
+- #1 Max Schuemann (R) -- L7: 3H 0HR 0RBI 4TB (0.2 avg) -- away split: 0.243 avg
+- #2 Ben Rice (L) -- L7: 5H 2HR 4RBI 13TB (0.172 avg) -- away split: 0.286 avg
+- #3 Paul Goldschmidt (R) [3-game hit streak] -- L7: 7H 1HR 1RBI 11TB (0.292 avg) -- away split: 0.306 avg
+- #4 Jasson Domínguez (S) -- L7: 5H 1HR 3RBI 9TB (0.179 avg) -- away split: 0.21 avg
+- #5 Anthony Volpe (R) -- L7: 5H 0HR 3RBI 7TB (0.263 avg) -- away split: 0.259 avg
+- #6 Jazz Chisholm Jr. (L) -- L7: 6H 3HR 6RBI 16TB (0.222 avg) -- away split: 0.226 avg
+- #7 José Caballero (R) -- L7: 3H 0HR 2RBI 4TB (0.115 avg) -- away split: 0.251 avg
+- #8 Spencer Jones (L) -- L7: 4H 0HR 0RBI 6TB (0.235 avg) -- away split: 0.186 avg -- news: Bellinger lands on IL with hamstring strain; Spencer Jones recalled
+- #9 Ali Sánchez (R) -- L7: 3H 0HR 0RBI 3TB (0.273 avg) -- away split: 0.318 avg
 
 ### Chicago White Sox lineup -- CONFIRMED
 _Facing a taxed bullpen: 8.3 relief IP in last 2 days (ratio 1.59)_
@@ -399,7 +399,7 @@ _Facing a taxed bullpen: 9.0 relief IP in last 2 days (ratio 1.76)_
 ## 2026-07-27 - Milwaukee Brewers @ San Francisco Giants (Scheduled)
 _Oracle Park [pitcher-friendly park]_
 Projected score: Milwaukee Brewers 4.91 - San Francisco Giants 3.91
-Model likes: **Milwaukee Brewers** to win (58%) | Run line: **San Francisco Giants** +1.5 (57% to cover) | Total 8.5: lean **UNDER** (53%)
+Model likes: **Milwaukee Brewers** to win (58%) | Run line: **San Francisco Giants** +1.5 (56% to cover) | Total 8.5: lean **UNDER** (53%)
 
 ### Milwaukee Brewers lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.83)_
@@ -548,7 +548,7 @@ _Facing a taxed bullpen: 6.7 relief IP in last 2 days (ratio 1.43)_
 ## 2026-07-28 - Toronto Blue Jays @ Washington Nationals (Scheduled)
 _Nationals Park_
 Projected score: Toronto Blue Jays 3.36 - Washington Nationals 5.08
-Model likes: **Washington Nationals** to win (65%) | Run line: **Toronto Blue Jays** +1.5 (50% to cover) | Total 8.5: lean **UNDER** (56%)
+Model likes: **Washington Nationals** to win (65%) | Run line: **Toronto Blue Jays** +1.5 (51% to cover) | Total 8.5: lean **UNDER** (56%)
 
 ### Toronto Blue Jays lineup -- PROJECTED (unconfirmed)
 **Probable P: Shane Bieber (R)** -- L5: 27.0 IP, 20 K, 12 ER, 4.0 ERA
@@ -1026,7 +1026,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-07-29 - Milwaukee Brewers @ San Francisco Giants (Scheduled)
 _Oracle Park [pitcher-friendly park]_
 Projected score: Milwaukee Brewers 4.08 - San Francisco Giants 3.11
-Model likes: **Milwaukee Brewers** to win (60%) | Run line: **San Francisco Giants** +1.5 (58% to cover) | Total 6.5: lean **OVER** (52%)
+Model likes: **Milwaukee Brewers** to win (59%) | Run line: **San Francisco Giants** +1.5 (58% to cover) | Total 6.5: lean **OVER** (52%)
 
 ### Milwaukee Brewers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
