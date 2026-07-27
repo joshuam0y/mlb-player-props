@@ -542,8 +542,12 @@ def grade_day(conn, date):
     player_context = _player_context(report.get("games") or [])
     for pick in top_overs:
         _refresh_frozen_pick(pick, "over", player_context)
+    # exclude_label: never let a refreshed under-pick land on the exact same
+    # category+line this same player's over-pick already has (or vice versa)
+    # -- same reasoning as build_top_picks()'s own exclude_label in build_props.py.
+    over_category_by_player = {p["player_id"]: p["best_category"]["label"] for p in top_overs if p.get("best_category")}
     for pick in top_unders:
-        _refresh_frozen_pick(pick, "under", player_context)
+        _refresh_frozen_pick(pick, "under", player_context, exclude_label=over_category_by_player.get(pick["player_id"]))
     batter_trend, batter_matchup = _grade_batter_signals(conn, report, date)
     pitcher_form = _grade_pitcher_signals(conn, report, date)
     projection_accuracy, projection_examples = _grade_projections(conn, report, date)

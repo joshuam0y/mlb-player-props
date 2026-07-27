@@ -1266,7 +1266,7 @@ POPULAR_BATTER_CATEGORIES = ["Hits", "Total Bases", "RBIs"]
 POPULAR_PITCHER_CATEGORIES = ["Strikeouts", "Hits Allowed"]
 
 
-def _lenient_category_for_direction(categories, direction):
+def _lenient_category_for_direction(categories, direction, exclude_label=None):
     """
     Like fallback_best_prop(), but constrained to the direction this pick
     actually needs: a Top Over/Under pick can qualify on a signal other
@@ -1281,9 +1281,12 @@ def _lenient_category_for_direction(categories, direction):
     volatile/streaky a category to lean on as a generic filler, even
     when it happens to lean the right way; it can still surface on its
     own merits via the stricter best_over/best_under path above this one.
+    exclude_label skips whatever category the SAME player's opposite-
+    direction pick already resolved to -- see resolve_best_category().
     """
     candidates = [
-        c for c in (categories or []) if c.get("lean") == direction and c.get("hit_rates") and c["label"] != "Home Runs"
+        c for c in (categories or [])
+        if c.get("lean") == direction and c.get("hit_rates") and c["label"] != "Home Runs" and c["label"] != exclude_label
     ]
     if not candidates:
         return None
@@ -1292,18 +1295,27 @@ def _lenient_category_for_direction(categories, direction):
     return {"label": best["label"], "line": best["primary_line"], "pct": hr["pct"], "n": hr["n"]}
 
 
-def _popular_prop_category(categories, role):
+def _popular_prop_category(categories, role, exclude_label=None):
     """
     Guaranteed last resort so a Top Over/Under pick NEVER shows as just a
     name with a text remark and no real number: the first category, in
     order of how commonly these are actually bet, this player has any
     recent-game data for. Not scored, doesn't affect ranking or who
     qualifies -- purely ensures every pick has a concrete prop+line to
-    display and grade.
+    display and grade. exclude_label skips whatever category the SAME
+    player's opposite-direction pick already resolved to -- unlike the
+    lenient path above, this one ignores lean/direction entirely (it's the
+    last resort), so without this it would happily hand back the exact
+    same category+line for both a player's over AND under pick whenever
+    neither direction had a real signal -- confirmed on a real case (a
+    pitcher with only 4 recent starts, no deviation either way, showing
+    identical "Strikeouts" on both his Top Overs and Top Unders entries).
     """
     priority = POPULAR_BATTER_CATEGORIES if role == "batter" else POPULAR_PITCHER_CATEGORIES
     by_label = {c["label"]: c for c in (categories or []) if c.get("hit_rates")}
     for label in priority:
+        if label == exclude_label:
+            continue
         cat = by_label.get(label)
         if cat:
             hr = cat["hit_rates"][0]
@@ -1311,9 +1323,40 @@ def _popular_prop_category(categories, role):
     return None
 
 
-def resolve_best_category(categories, role, direction):
-    """Real prop+line for a Top Over/Under pick, even when nothing clears prop_category_delta()'s strict bar -- see the two helpers above."""
-    return _lenient_category_for_direction(categories, direction) or _popular_prop_category(categories, role)
+def resolve_best_category(categories, role, direction, exclude_label=None):
+    """
+    Real prop+line for a Top Over/Under pick, even when nothing clears
+    prop_category_delta()'s strict bar -- see the two helpers above.
+    exclude_label, when given, is the category label the SAME player's
+    opposite-direction pick already settled on -- passed by build_top_picks()
+    so a player never ends up with the identical category+line headlining
+    both his over and his under pick.
+    """
+    return (
+        _lenient_category_for_direction(categories, direction, exclude_label)
+        or _popular_prop_category(categories, role, exclude_label)
+    )
+
+
+def _pick_category(strict, categories, role, direction, exclude_label):
+    """
+    strict is prop_category_delta()'s best_over/best_under (already
+    guaranteed by that function to never equal each other WITHIN one
+    direction pairing) -- but it's a DIFFERENT metric from the lean-based
+    fallback (recent-vs-season hit-rate delta here, vs today's
+    matchup-adjusted projection vs. the line there), so the two can still
+    independently agree on the same category even though they measure
+    different things. Confirmed on a real pitcher: best_under legitimately
+    landed on "Strikeouts" via the delta metric, while the over pick (no
+    strict signal) fell back to "Strikeouts" too via the lean metric --
+    exclude_label alone doesn't catch this, since the truthy strict value
+    short-circuits past the excluding fallback entirely. This discards
+    strict too if it matches what the other direction already has, so the
+    fallback gets a real chance to find something different.
+    """
+    if strict and strict["label"] == exclude_label:
+        strict = None
+    return strict or resolve_best_category(categories, role, direction, exclude_label=exclude_label)
 
 
 def build_top_picks(report_games, batter_limit=15, pitcher_limit=8):
@@ -1375,6 +1418,7 @@ def build_top_picks(report_games, batter_limit=15, pitcher_limit=8):
                     "opp_pitcher_id": (opp_side["probable_pitcher"] or {}).get("player_id"),
                 }
 
+                best_over = None
                 over_score, over_reasons = batter_over_score(b)
                 over_score -= confirmed_penalty
                 if over_reasons and over_score > 0:
@@ -1386,7 +1430,14 @@ def build_top_picks(report_games, batter_limit=15, pitcher_limit=8):
                 under_score, under_reasons = batter_under_score(b)
                 under_score -= confirmed_penalty
                 if under_reasons and under_score > 0:
-                    best_under = b.get("best_under") or resolve_best_category(b.get("prop_categories"), "batter", "under")
+                    # exclude_label: never repeat this same player's own OVER
+                    # category on his UNDER pick (or vice versa) -- confirmed
+                    # this happened for real (a pitcher with no clear trend
+                    # either way landing on the identical fallback category
+                    # for both), which reads as the model contradicting
+                    # itself on the same prop.
+                    exclude = best_over["label"] if best_over else None
+                    best_under = _pick_category(b.get("best_under"), b.get("prop_categories"), "batter", "under", exclude)
                     result = pick_result("batter", best_under, b.get("game_result"), "under", is_final)
                     dnp = game_started and b.get("game_result") is None
                     batter_unders.append({**base, "score": under_score, "reasons": under_reasons, "best_category": best_under, "result": result, "dnp": dnp})
@@ -1403,6 +1454,7 @@ def build_top_picks(report_games, batter_limit=15, pitcher_limit=8):
                     "game_pk": g["game_pk"],
                     "lineup_confirmed": True,  # probable-pitcher assignments come from the schedule, not the lineups table
                 }
+                best_over = None
                 over_score, over_reasons = pitcher_strikeout_over_score(p)
                 if over_reasons and over_score > 0:
                     best_over = p.get("best_over") or resolve_best_category(p.get("prop_categories"), "pitcher", "over")
@@ -1412,7 +1464,8 @@ def build_top_picks(report_games, batter_limit=15, pitcher_limit=8):
 
                 under_score, under_reasons = pitcher_runs_under_score(p)
                 if under_reasons and under_score > 0:
-                    best_under = p.get("best_under") or resolve_best_category(p.get("prop_categories"), "pitcher", "under")
+                    exclude = best_over["label"] if best_over else None
+                    best_under = _pick_category(p.get("best_under"), p.get("prop_categories"), "pitcher", "under", exclude)
                     result = pick_result("pitcher", best_under, p.get("game_result"), "under", is_final)
                     dnp = game_started and p.get("game_result") is None
                     pitcher_unders.append({**base, "score": under_score, "reasons": under_reasons, "best_category": best_under, "result": result, "dnp": dnp})
@@ -1586,7 +1639,7 @@ def _player_context(todays_games):
     return context
 
 
-def _refresh_frozen_pick(pick, direction, player_context):
+def _refresh_frozen_pick(pick, direction, player_context, exclude_label=None):
     """
     Refreshes an already-frozen pick's matchup-dependent fields using
     CURRENT (but still as-of-date-safe) data, without touching who's on
@@ -1604,6 +1657,13 @@ def _refresh_frozen_pick(pick, direction, player_context):
        have no opp_pitcher_id to compare against, so they're left alone
        until the next day's fresh freeze.
 
+    exclude_label is this same player's OTHER pick's already-resolved
+    category (over vs under) -- the caller looks it up across the two
+    lists before calling this, same reasoning as build_top_picks()'s own
+    exclude_label: without it, a fallback resolve here could hand back the
+    identical category+line the player's other-direction pick already
+    has, which reads as the model contradicting itself on the same prop.
+
     lineup_confirmed is handled separately in _regrade_picks(), via a
     direct per-player lineups-table lookup rather than this reconstructed
     batters list -- a player who isn't actually starting today wouldn't be
@@ -1620,7 +1680,7 @@ def _refresh_frozen_pick(pick, direction, player_context):
         and pick["opp_pitcher_id"] != ctx["opp_pitcher_id"]
     )
     if not pick.get("best_category") and not pitcher_changed:
-        resolved = resolve_best_category(ctx.get("prop_categories"), role, direction)
+        resolved = resolve_best_category(ctx.get("prop_categories"), role, direction, exclude_label=exclude_label)
         if resolved:
             pick["best_category"] = resolved
         return
@@ -1632,8 +1692,8 @@ def _refresh_frozen_pick(pick, direction, player_context):
     pick["score"] = score - confirmed_penalty
     pick["reasons"] = reasons
     pick["opp_pitcher_id"] = ctx["opp_pitcher_id"]
-    best = ctx.get("best_over") if direction == "over" else ctx.get("best_under")
-    resolved = best or resolve_best_category(ctx.get("prop_categories"), role, direction)
+    strict = ctx.get("best_over") if direction == "over" else ctx.get("best_under")
+    resolved = _pick_category(strict, ctx.get("prop_categories"), role, direction, exclude_label)
     if resolved:
         pick["best_category"] = resolved
 
@@ -1688,10 +1748,17 @@ def build_report(conn, days_ahead=2):
     if frozen:
         top_overs, top_unders = frozen
         player_context = _player_context(todays_games)
-        for pick in (top_overs.get("batters") or []) + (top_overs.get("pitchers") or []):
+        over_picks = (top_overs.get("batters") or []) + (top_overs.get("pitchers") or [])
+        under_picks = (top_unders.get("batters") or []) + (top_unders.get("pitchers") or [])
+        for pick in over_picks:
             _refresh_frozen_pick(pick, "over", player_context)
-        for pick in (top_unders.get("batters") or []) + (top_unders.get("pitchers") or []):
-            _refresh_frozen_pick(pick, "under", player_context)
+        # exclude_label: never let a refreshed under-pick land on the exact
+        # same category+line this same player's over-pick already has (or
+        # vice versa) -- same reasoning as build_top_picks()'s own
+        # exclude_label.
+        over_category_by_player = {p["player_id"]: p["best_category"]["label"] for p in over_picks if p.get("best_category")}
+        for pick in under_picks:
+            _refresh_frozen_pick(pick, "under", player_context, exclude_label=over_category_by_player.get(pick["player_id"]))
         _regrade_picks(conn, top_overs, "over")
         _regrade_picks(conn, top_unders, "under")
     else:
