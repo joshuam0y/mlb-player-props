@@ -13,7 +13,7 @@ confirmed lineups row before treating a hitter as a starter.
 from datetime import datetime, timedelta, timezone
 
 import api
-from db import get_conn, init_db
+from db import get_conn, init_db, mlb_today
 
 
 def sync_game_lineups(conn, game_pk):
@@ -67,8 +67,8 @@ def run(days_ahead=1):
     init_db()
     conn = get_conn()
 
-    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
-    end = (datetime.now(timezone.utc) + timedelta(days=days_ahead)).strftime("%Y-%m-%d")
+    today = mlb_today()
+    end = (datetime.strptime(today, "%Y-%m-%d") + timedelta(days=days_ahead)).strftime("%Y-%m-%d")
     game_pks = [
         row["game_pk"]
         for row in conn.execute(

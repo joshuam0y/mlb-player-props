@@ -12,10 +12,10 @@ backfills, since that's what the game-simulation calibration needs as
 ground truth.
 """
 
-from datetime import datetime, timedelta, timezone
+from datetime import datetime, timedelta
 
 import api
-from db import get_conn, init_db
+from db import get_conn, init_db, mlb_today
 
 # home.get("score")/away.get("score") come back as 0 (not None/absent) from
 # the moment a game's linescore object exists -- which MLB's API populates
@@ -78,8 +78,8 @@ def sync_range(conn, start, end):
 def run(days_ahead=5):
     init_db()
     conn = get_conn()
-    start = datetime.now(timezone.utc).strftime("%Y-%m-%d")
-    end = (datetime.now(timezone.utc) + timedelta(days=days_ahead)).strftime("%Y-%m-%d")
+    start = mlb_today()
+    end = (datetime.strptime(start, "%Y-%m-%d") + timedelta(days=days_ahead)).strftime("%Y-%m-%d")
     n = sync_range(conn, start, end)
     conn.close()
     print(f"Synced {n} scheduled games from {start} to {end}.")

@@ -11,7 +11,7 @@ import argparse
 from datetime import datetime, timedelta, timezone
 
 from build_props import park_factor_tier
-from db import get_conn, init_db
+from db import get_conn, init_db, mlb_today
 from game_model import project_matchup, simulate
 
 MODEL_VERSION = "v1-log5-negbinom"
@@ -21,8 +21,8 @@ def run(days_ahead=2, n_trials=100000):
     init_db()
     conn = get_conn()
 
-    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
-    end = (datetime.now(timezone.utc) + timedelta(days=days_ahead)).strftime("%Y-%m-%d")
+    today = mlb_today()
+    end = (datetime.strptime(today, "%Y-%m-%d") + timedelta(days=days_ahead)).strftime("%Y-%m-%d")
     games = conn.execute(
         "SELECT * FROM games WHERE official_date BETWEEN ? AND ? AND home_score IS NULL ORDER BY official_date",
         (today, end),

@@ -12,10 +12,10 @@ dashboard shows more than raw stat lines:
 """
 
 import re
-from datetime import datetime, timedelta, timezone
+from datetime import datetime, timedelta
 
 import api
-from db import get_conn, init_db
+from db import get_conn, init_db, mlb_today
 
 
 def _classify_status(description):
@@ -28,8 +28,8 @@ def _classify_status(description):
 
 
 def sync_injuries(conn, days_back=14):
-    end = datetime.now(timezone.utc).strftime("%Y-%m-%d")
-    start = (datetime.now(timezone.utc) - timedelta(days=days_back)).strftime("%Y-%m-%d")
+    end = mlb_today()
+    start = (datetime.strptime(end, "%Y-%m-%d") - timedelta(days=days_back)).strftime("%Y-%m-%d")
     txns = api.get_transactions(start, end)
 
     rows = []

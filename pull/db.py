@@ -15,9 +15,30 @@ uniqueness.
 
 import os
 import sqlite3
+from datetime import datetime
+from zoneinfo import ZoneInfo
 
 DB_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "mlb_props.db")
 CAREER_SEASON = 0  # sentinel used in *_splits.season to mean "career-to-date"
+
+MLB_TZ = ZoneInfo("America/New_York")
+
+
+def mlb_today():
+    """
+    "Today" the way MLB's own schedule means it: the current date in US
+    Eastern time, not raw UTC. UTC crosses midnight 4-5 hours before the
+    Eastern calendar day is actually over (8-9pm ET) -- using UTC's date
+    directly made every "today"-scoped window (the schedule/report date
+    range, Top Overs/Unders, the daily archive freeze, lineup/results
+    syncing) silently flip over to "tomorrow" while a real chunk of
+    tonight's games -- sometimes even East Coast ones -- were still being
+    played, hours before the day was actually over for anyone watching.
+    Not a perfect fix for the latest West Coast games (which can run past
+    Eastern midnight too), but a real improvement over UTC, which was
+    wrong by design for the entire US audience this runs for.
+    """
+    return datetime.now(MLB_TZ).strftime("%Y-%m-%d")
 
 SCHEMA = """
 CREATE TABLE IF NOT EXISTS teams (

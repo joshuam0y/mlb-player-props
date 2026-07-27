@@ -29,7 +29,7 @@ import os
 from datetime import datetime, timedelta, timezone
 
 import api
-from db import CAREER_SEASON, get_conn, init_db
+from db import CAREER_SEASON, MLB_TZ, get_conn, init_db, mlb_today
 from game_model import team_bullpen_fatigue
 import render_track_record
 from render_dashboard import render_html
@@ -38,12 +38,14 @@ from sync_teams_and_roster import upsert_player_bio
 CURRENT_SEASON = datetime.now(timezone.utc).year
 OUT_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "output")
 
-# Hour (UTC) at which the day's Top Overs/Unders archive is allowed to
-# freeze -- see run()'s own comment for the full reasoning. 20:00 UTC is
-# 4pm ET/1pm PT: late enough that most evening games' lineups (typically
-# posted 1-3 hours before a ~7pm ET start) have already posted, early
-# enough that it's still hours before most games actually start.
-TOP_PICKS_FREEZE_HOUR_UTC = 20
+# Hour (US Eastern) at which the day's Top Overs/Unders archive is allowed
+# to freeze -- see run()'s own comment for the full reasoning. 4pm ET/1pm
+# PT is late enough that most evening games' lineups (typically posted
+# 1-3 hours before a ~7pm ET start) have already posted, early enough
+# that it's still hours before most games actually start. Deliberately
+# checked in Eastern time, not UTC -- see mlb_today()'s own docstring for
+# why raw UTC is the wrong clock for "how far into the baseball day is it".
+TOP_PICKS_FREEZE_HOUR_ET = 16
 
 BATTING_COUNT_COLS = [
     "at_bats", "hits", "doubles", "triples", "home_runs", "rbi", "runs",
@@ -1575,8 +1577,8 @@ def _refresh_frozen_pick(pick, direction, player_context):
 
 
 def build_report(conn, days_ahead=2):
-    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
-    end = (datetime.now(timezone.utc) + timedelta(days=days_ahead)).strftime("%Y-%m-%d")
+    today = mlb_today()
+    end = (datetime.strptime(today, "%Y-%m-%d") + timedelta(days=days_ahead)).strftime("%Y-%m-%d")
     games = conn.execute(
         "SELECT * FROM games WHERE official_date BETWEEN ? AND ? ORDER BY official_date, game_date_utc",
         (today, end),
@@ -1768,7 +1770,7 @@ def run(days_ahead=2, write_archive=True):
     conn.close()
 
     os.makedirs(OUT_DIR, exist_ok=True)
-    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    today = mlb_today()
 
     json_path = os.path.join(OUT_DIR, "latest.json")
 
@@ -1809,7 +1811,7 @@ def run(days_ahead=2, write_archive=True):
     # where it'd just get overwritten again in minutes anyway -- every skip
     # halves that run's commit size for zero loss of information. The
     # hourly job still writes it -- but only the FIRST time that day AT OR
-    # AFTER TOP_PICKS_FREEZE_HOUR_UTC (never overwritten again after that),
+    # AFTER TOP_PICKS_FREEZE_HOUR_ET (never overwritten again after that),
     # not simply the first run of the day. Freezing at the very first
     # hourly run (as early as 00:xx UTC) meant every Top Overs/Unders pick
     # started life as PROJECTED regardless of role, since real lineups
@@ -1830,7 +1832,7 @@ def run(days_ahead=2, write_archive=True):
     # before any of today's games actually start).
     if write_archive:
         archive_path = os.path.join(OUT_DIR, f"props_{today}.json")
-        if not os.path.exists(archive_path) and datetime.now(timezone.utc).hour >= TOP_PICKS_FREEZE_HOUR_UTC:
+        if not os.path.exists(archive_path) and datetime.now(MLB_TZ).hour >= TOP_PICKS_FREEZE_HOUR_ET:
             with open(archive_path, "w") as f:
                 json.dump(report, f, indent=2, default=str)
 

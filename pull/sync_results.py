@@ -10,7 +10,7 @@ itself only looks forward, so past scores never get filled in without this.
 import argparse
 from datetime import datetime, timezone
 
-from db import get_conn, init_db
+from db import get_conn, init_db, mlb_today
 from sync_schedule import sync_range
 
 CURRENT_SEASON = datetime.now(timezone.utc).year
@@ -20,7 +20,7 @@ def run(start=None, end=None):
     init_db()
     conn = get_conn()
     start = start or f"{CURRENT_SEASON}-03-01"
-    end = end or datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    end = end or mlb_today()
     n = sync_range(conn, start, end)
     final_count = conn.execute(
         "SELECT COUNT(*) FROM games WHERE official_date BETWEEN ? AND ? AND home_score IS NOT NULL", (start, end)
