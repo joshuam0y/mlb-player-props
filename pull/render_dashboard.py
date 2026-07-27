@@ -742,6 +742,30 @@ function updateMatchupLeanLive(el, pid, batting, pitching, isFinal) {
   leanEl.insertAdjacentHTML('beforeend', ' <span class="badge badge-' + result + '">' + result.toUpperCase() + '</span>');
 }
 
+// Same idea as updateMatchupLeanLive(), for the separate Top Overs/Unders
+// leaderboard cards -- these live outside any single game's card element,
+// so this queries the whole document by game_pk+player_id instead of a
+// scoped .querySelector() within one game's own DOM subtree.
+function updatePickCardLive(gamePk, pid, batting, pitching, isFinal) {
+  const cards = document.querySelectorAll('.pick-card[data-game-pk="' + gamePk + '"][data-player-id="' + pid + '"]');
+  cards.forEach(function (card) {
+    const role = card.dataset.role;
+    const category = card.dataset.category;
+    const line = parseFloat(card.dataset.line);
+    const direction = card.dataset.direction;
+    const value = liveLeanValue(role, category, batting, pitching);
+    if (value == null) return;
+    const result = liveLeanResult(value, line, direction, isFinal);
+    if (!result) return;
+    const badgesEl = card.querySelector('.pick-badges');
+    if (!badgesEl) return;
+    const existing = badgesEl.querySelector('.badge-hit, .badge-miss, .badge-dnp');
+    if (existing && existing.textContent === result.toUpperCase()) return;
+    if (existing) existing.remove();
+    badgesEl.insertAdjacentHTML('beforeend', '<span class="badge badge-' + result + '">' + result.toUpperCase() + '</span>');
+  });
+}
+
 function boxHeader(isFinal, volumeLabel, volumeValue) {
   const badge = isFinal ? '<span class="badge badge-final">FINAL</span>' : '<span class="badge badge-live">LIVE</span>';
   const volume = volumeLabel ? '<span class="bx-volume">' + volumeValue + ' ' + volumeLabel + '</span>' : '';
@@ -830,6 +854,7 @@ function upsertSubLine(el, side, pid, name, gridHtml, isFinal, kind) {
 // real example this bit us on) long after the real number moved on.
 function updatePlayerBoxScores(el, data, isFinal) {
   const box = ((data.liveData || {}).boxscore || {}).teams || {};
+  const gamePk = el.dataset.gamePk;
   ['home', 'away'].forEach(function (side) {
     const players = (box[side] || {}).players || {};
     Object.keys(players).forEach(function (key) {
@@ -839,6 +864,7 @@ function updatePlayerBoxScores(el, data, isFinal) {
       const pitching = p.stats && p.stats.pitching;
       const batting = p.stats && p.stats.batting;
       updateMatchupLeanLive(el, pid, batting, pitching, isFinal);
+      updatePickCardLive(gamePk, pid, batting, pitching, isFinal);
       const container = el.querySelector('.boxscore-line[data-player-id="' + pid + '"]');
       const pitched = pitching && pitching.inningsPitched && (pitching.inningsPitched !== '0.0' || statOr0(pitching.battersFaced) > 0);
       const batted = batting && (batting.atBats != null) && (batting.atBats > 0 || statOr0(batting.plateAppearances) > 0);
@@ -2050,8 +2076,23 @@ def _pick_card_html(pick, rank, direction):
         if result:
             badges.append(_badge(result.upper(), result))
     tag = "OVER" if direction == "over" else "UNDER"
+    # data-* attributes let the client-side live tracker
+    # (updatePickCardLive()) recompute this same HIT/MISS badge itself
+    # from the live box score it's already polling every 30s, instead of
+    # waiting on the next server rebuild -- see _matchup_lean_html()'s own
+    # docstring for the full story on why that gap is real (confirmed on
+    # a real case: a pitcher's live line already cleared his strikeout
+    # prop while this card still showed no verdict at all).
+    live_attrs = ""
+    if pick.get("best_category") and pick.get("game_pk"):
+        c = pick["best_category"]
+        live_attrs = (
+            f' data-player-id="{pick.get("player_id")}" data-game-pk="{pick["game_pk"]}" '
+            f'data-role="{pick.get("role", "batter")}" data-category="{html.escape(c["label"])}" '
+            f'data-line="{c["line"]}" data-direction="{direction}"'
+        )
     return f"""
-    <div class="pick-card pick-card-{direction}">
+    <div class="pick-card pick-card-{direction}"{live_attrs}>
       <div class="pick-rank">#{rank} {tag}</div>
       <div class="pick-name">{_player_photo_html(pick.get("player_id"))}{html.escape(pick["name"])}</div>
       <div class="pick-matchup">{html.escape(pick["team"] or "?")} vs. {html.escape(pick["opponent"] or "?")}</div>
