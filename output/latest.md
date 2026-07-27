@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-07-27T20:56:20.336563+00:00_
+_Generated 2026-07-27T21:02:30.760318+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -215,7 +215,7 @@ _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.34)_
 ## 2026-07-27 - Atlanta Braves @ New York Mets (Pre-Game)
 _Citi Field_
 Projected score: Atlanta Braves 3.17 - New York Mets 3.06
-Model likes: **Atlanta Braves** to win (51%) | Run line: **New York Mets** +1.5 (68% to cover) | Total 6.5: lean **UNDER** (58%)
+Model likes: **Atlanta Braves** to win (51%) | Run line: **New York Mets** +1.5 (68% to cover) | Total 6.5: lean **UNDER** (59%)
 
 ### Atlanta Braves lineup -- CONFIRMED
 _Facing a taxed bullpen: 8.0 relief IP in last 2 days (ratio 1.53)_
@@ -307,24 +307,25 @@ _Facing a taxed bullpen: 8.3 relief IP in last 2 days (ratio 1.59)_
 
 ## 2026-07-27 - Chicago Cubs @ St. Louis Cardinals (Pre-Game)
 _Busch Stadium_
-Projected score: Chicago Cubs 5.23 - St. Louis Cardinals 4.49
-Model likes: **Chicago Cubs** to win (56%) | Run line: **St. Louis Cardinals** +1.5 (58% to cover) | Total 8.5: lean **OVER** (55%)
+Projected score: Chicago Cubs 6.18 - St. Louis Cardinals 4.49
+Model likes: **Chicago Cubs** to win (62%) | Run line: **St. Louis Cardinals** +1.5 (51% to cover) | Total 10.5: lean **UNDER** (54%)
 
-### Chicago Cubs lineup -- PROJECTED (unconfirmed)
+### Chicago Cubs lineup -- CONFIRMED
 _Facing a taxed bullpen: 6.0 relief IP in last 2 days (ratio 1.25)_
 **Probable P: David Peterson (L)** -- L5: 25.0 IP, 16 K, 17 ER, 6.12 ERA
-- Pete Crow-Armstrong (L) [3-game hit streak] -- L7: 10H 2HR 7RBI 24TB (0.37 avg) -- away split: 0.275 avg
-- Michael Busch (L) [likely BABIP-driven, not a real power uptick] -- L7: 11H 1HR 5RBI 15TB (0.333 avg) -- away split: 0.226 avg
-- Seiya Suzuki (R) -- L7: 5H 3HR 10RBI 15TB (0.185 avg) -- away split: 0.249 avg
-- Ian Happ (S) -- L7: 6H 1HR 3RBI 10TB (0.24 avg) -- away split: 0.204 avg
-- Nico Hoerner (R) [3-game hit streak] -- L7: 9H 0HR 5RBI 11TB (0.29 avg) -- away split: 0.234 avg
-- Dansby Swanson (R) [3-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 9H 0HR 3RBI 11TB (0.346 avg) -- away split: 0.222 avg
-- Alex Bregman (R) -- L7: 5H 1HR 3RBI 8TB (0.172 avg) -- away split: 0.256 avg
-- Michael Conforto (L) -- L7: 2H 1HR 2RBI 6TB (0.167 avg) -- away split: 0.239 avg
-- Carson Kelly (R) -- L7: 2H 0HR 4RBI 2TB (0.095 avg) -- away split: 0.228 avg
+- #1 Pete Crow-Armstrong (L) [3-game hit streak] -- L7: 10H 2HR 7RBI 24TB (0.37 avg) -- away split: 0.275 avg
+- #2 Seiya Suzuki (R) [MATCHUP EDGE: pitcher hits 0.281 avg-against vs this hand] -- L7: 5H 3HR 10RBI 15TB (0.185 avg) -- away split: 0.249 avg
+- #3 Alex Bregman (R) [MATCHUP EDGE: pitcher hits 0.281 avg-against vs this hand] -- L7: 5H 1HR 3RBI 8TB (0.172 avg) -- away split: 0.256 avg
+- #4 Carson Kelly (R) [MATCHUP EDGE: pitcher hits 0.281 avg-against vs this hand] -- L7: 2H 0HR 4RBI 2TB (0.095 avg) -- away split: 0.228 avg
+- #5 Michael Busch (L) [likely BABIP-driven, not a real power uptick] -- L7: 11H 1HR 5RBI 15TB (0.333 avg) -- away split: 0.226 avg
+- #6 Nico Hoerner (R) [MATCHUP EDGE: pitcher hits 0.281 avg-against vs this hand] [3-game hit streak] -- L7: 9H 0HR 5RBI 11TB (0.29 avg) -- away split: 0.234 avg
+- #7 Ian Happ (S) [MATCHUP EDGE: pitcher hits 0.281 avg-against vs this hand] -- L7: 6H 1HR 3RBI 10TB (0.24 avg) -- away split: 0.204 avg
+- #8 Dansby Swanson (R) [MATCHUP EDGE: pitcher hits 0.281 avg-against vs this hand] [3-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 9H 0HR 3RBI 11TB (0.346 avg) -- away split: 0.222 avg
+- #9 Miguel Amaya (R) [MATCHUP EDGE: pitcher hits 0.281 avg-against vs this hand] [likely BABIP-driven, not a real power uptick] -- L7: 7H 0HR 4RBI 9TB (0.333 avg) -- away split: 0.261 avg
 
 ### St. Louis Cardinals lineup -- CONFIRMED
 _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.92)_
+**Probable P: Matthew Liberatore (L)** -- L5: 26.7 IP, 28 K, 15 ER, 5.06 ERA
 - #1 JJ Wetherholt (L) -- L7: 3H 1HR 2RBI 6TB (0.115 avg) -- home split: 0.229 avg
 - #2 Jordan Walker (R) [MATCHUP EDGE: pitcher hits 0.292 avg-against vs this hand] -- L7: 6H 0HR 1RBI 9TB (0.214 avg) -- home split: 0.296 avg
 - #3 Iván Herrera (R) [MATCHUP EDGE: pitcher hits 0.292 avg-against vs this hand] -- L7: 8H 1HR 3RBI 12TB (0.267 avg) -- home split: 0.211 avg
@@ -399,7 +400,7 @@ _Facing a taxed bullpen: 9.0 relief IP in last 2 days (ratio 1.76)_
 ## 2026-07-27 - Milwaukee Brewers @ San Francisco Giants (Scheduled)
 _Oracle Park [pitcher-friendly park]_
 Projected score: Milwaukee Brewers 4.91 - San Francisco Giants 3.91
-Model likes: **Milwaukee Brewers** to win (58%) | Run line: **San Francisco Giants** +1.5 (56% to cover) | Total 8.5: lean **UNDER** (53%)
+Model likes: **Milwaukee Brewers** to win (58%) | Run line: **San Francisco Giants** +1.5 (57% to cover) | Total 8.5: lean **UNDER** (53%)
 
 ### Milwaukee Brewers lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.83)_
@@ -488,7 +489,7 @@ Model likes: **Pittsburgh Pirates** to win (55%) | Run line: **Arizona Diamondba
 ## 2026-07-28 - Philadelphia Phillies @ Miami Marlins (Scheduled)
 _loanDepot park [pitcher-friendly park]_
 Projected score: Philadelphia Phillies 3.58 - Miami Marlins 4.63
-Model likes: **Miami Marlins** to win (59%) | Run line: **Philadelphia Phillies** +1.5 (56% to cover) | Total 8.5: lean **UNDER** (58%)
+Model likes: **Miami Marlins** to win (59%) | Run line: **Philadelphia Phillies** +1.5 (57% to cover) | Total 8.5: lean **UNDER** (58%)
 
 ### Philadelphia Phillies lineup -- PROJECTED (unconfirmed)
 **Probable P: Aaron Nola (R)** -- L5: 27.7 IP, 30 K, 20 ER, 6.51 ERA
@@ -548,7 +549,7 @@ _Facing a taxed bullpen: 6.7 relief IP in last 2 days (ratio 1.43)_
 ## 2026-07-28 - Toronto Blue Jays @ Washington Nationals (Scheduled)
 _Nationals Park_
 Projected score: Toronto Blue Jays 3.36 - Washington Nationals 5.08
-Model likes: **Washington Nationals** to win (65%) | Run line: **Toronto Blue Jays** +1.5 (51% to cover) | Total 8.5: lean **UNDER** (56%)
+Model likes: **Washington Nationals** to win (65%) | Run line: **Toronto Blue Jays** +1.5 (50% to cover) | Total 8.5: lean **UNDER** (56%)
 
 ### Toronto Blue Jays lineup -- PROJECTED (unconfirmed)
 **Probable P: Shane Bieber (R)** -- L5: 27.0 IP, 20 K, 12 ER, 4.0 ERA
@@ -1026,7 +1027,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-07-29 - Milwaukee Brewers @ San Francisco Giants (Scheduled)
 _Oracle Park [pitcher-friendly park]_
 Projected score: Milwaukee Brewers 4.08 - San Francisco Giants 3.11
-Model likes: **Milwaukee Brewers** to win (59%) | Run line: **San Francisco Giants** +1.5 (58% to cover) | Total 6.5: lean **OVER** (52%)
+Model likes: **Milwaukee Brewers** to win (60%) | Run line: **San Francisco Giants** +1.5 (58% to cover) | Total 6.5: lean **OVER** (52%)
 
 ### Milwaukee Brewers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1268,7 +1269,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-07-29 - Boston Red Sox @ Athletics (Scheduled)
 _Sutter Health Park_
 Projected score: Boston Red Sox 6.25 - Athletics 3.28
-Model likes: **Boston Red Sox** to win (73%) | Run line: **Boston Red Sox** -1.5 (59% to cover) | Total 8.5: lean **OVER** (53%)
+Model likes: **Boston Red Sox** to win (73%) | Run line: **Boston Red Sox** -1.5 (60% to cover) | Total 8.5: lean **OVER** (53%)
 
 ### Boston Red Sox lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
