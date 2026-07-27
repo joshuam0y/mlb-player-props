@@ -104,6 +104,8 @@ jobs:
         continue-on-error: true
 
       - name: Build props report + dashboard
+        env:
+          FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
         run: python pull/build_props.py
 
       - name: Verify data integrity
