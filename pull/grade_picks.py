@@ -59,7 +59,14 @@ import json
 import os
 from datetime import datetime, timedelta, timezone
 
-from build_props import batter_game_result, build_report, pick_result, pitcher_game_result
+from build_props import (
+    _player_context,
+    _refresh_frozen_pick,
+    batter_game_result,
+    build_report,
+    pick_result,
+    pitcher_game_result,
+)
 from db import get_conn, init_db, mlb_today
 
 OUT_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "output")
@@ -525,6 +532,18 @@ def grade_day(conn, date):
         return None
     top_overs = _picks_for_date(report.get("top_overs"), date)
     top_unders = _picks_for_date(report.get("top_unders"), date)
+    # Backfills best_category on any pick frozen before resolve_best_category()
+    # existed (a text-only "fallback_angle", or nothing at all) using
+    # prop_categories already sitting in this same archived report -- the
+    # live dashboard already self-heals this way (see _refresh_frozen_pick's
+    # own docstring in build_props.py); grading read the raw archive
+    # directly and skipped that step, so a day frozen before the fix shipped
+    # stayed stuck showing "no data" for those picks forever.
+    player_context = _player_context(report.get("games") or [])
+    for pick in top_overs:
+        _refresh_frozen_pick(pick, "over", player_context)
+    for pick in top_unders:
+        _refresh_frozen_pick(pick, "under", player_context)
     batter_trend, batter_matchup = _grade_batter_signals(conn, report, date)
     pitcher_form = _grade_pitcher_signals(conn, report, date)
     projection_accuracy, projection_examples = _grade_projections(conn, report, date)
@@ -720,10 +739,16 @@ def run(dates):
 
 if __name__ == "__main__":
     p = argparse.ArgumentParser()
-    p.add_argument("--date", help="YYYY-MM-DD to grade. Defaults to yesterday (UTC).")
+    p.add_argument("--date", help="YYYY-MM-DD to grade. Defaults to yesterday (US Eastern).")
     p.add_argument("--backfill-days", type=int, default=0, help="Also grade this many days before --date/yesterday.")
     args = p.parse_args()
 
-    base = datetime.strptime(args.date, "%Y-%m-%d") if args.date else (datetime.now(timezone.utc) - timedelta(days=1))
+    # US Eastern, not raw UTC -- UTC rolls over to "tomorrow" 4-5 hours
+    # before the US baseball day is actually done, which used to make this
+    # prematurely grade TODAY (still in progress, most games unplayed) as
+    # if it were a finished day the moment UTC's calendar flipped. See
+    # mlb_today()'s own docstring in db.py for the full story -- every
+    # other "today" cutoff in the pipeline was already fixed this way.
+    base = datetime.strptime(args.date, "%Y-%m-%d") if args.date else (datetime.strptime(mlb_today(), "%Y-%m-%d") - timedelta(days=1))
     dates = [(base - timedelta(days=i)).strftime("%Y-%m-%d") for i in range(args.backfill_days + 1)]
     run(dates)
