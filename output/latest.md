@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-07-27T13:58:14.756698+00:00_
+_Generated 2026-07-27T14:16:40.800629+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -54,8 +54,8 @@ _Generated 2026-07-27T13:58:14.756698+00:00_
 - **Mitch Keller** (Pittsburgh Pirates vs Arizona Diamondbacks): 3 hitters in tonight's lineup are in a tough matchup against him -- try Walks Allowed: 40% over 1.5 recently (vs. 5-game sample)
 - **Tyler Phillips** (Miami Marlins vs Philadelphia Phillies): 4 hitters in tonight's lineup are in a tough matchup against him -- try Strikeouts: 20% over 2.5 recently (vs. 5-game sample)
 - **Zack Wheeler** (Philadelphia Phillies vs Miami Marlins): 3 hitters in tonight's lineup are in a tough matchup against him -- try Walks Allowed: 20% over 1.5 recently (vs. 5-game sample)
-- **Kyle Bradish** (Baltimore Orioles vs Detroit Tigers): allowing fewer runs than usual over his last few starts -- try Strikeouts: 20% over 5.5 recently (vs. 5-game sample)
-- **Zac Thornton** (New York Mets vs Atlanta Braves): 5 hitters in tonight's lineup are in a tough matchup against him -- try Strikeouts: 50% over 4.5 recently (vs. 4-game sample)
+- **Kyle Bradish** (Baltimore Orioles vs Detroit Tigers): allowing fewer runs than usual over his last few starts -- try Hits Allowed: 40% over 4.5 recently (vs. 5-game sample)
+- **Zac Thornton** (New York Mets vs Atlanta Braves): 5 hitters in tonight's lineup are in a tough matchup against him -- try Runs Allowed: 25% over 1.5 recently (vs. 4-game sample)
 
 ## 2026-07-27 - Seattle Mariners @ Texas Rangers (Scheduled)
 _Globe Life Field [hitter-friendly park]_
@@ -399,7 +399,7 @@ _Facing a taxed bullpen: 9.0 relief IP in last 2 days (ratio 1.76)_
 ## 2026-07-27 - Milwaukee Brewers @ San Francisco Giants (Scheduled)
 _Oracle Park [pitcher-friendly park]_
 Projected score: Milwaukee Brewers 4.91 - San Francisco Giants 3.91
-Model likes: **Milwaukee Brewers** to win (58%) | Run line: **San Francisco Giants** +1.5 (56% to cover) | Total 8.5: lean **UNDER** (53%)
+Model likes: **Milwaukee Brewers** to win (58%) | Run line: **San Francisco Giants** +1.5 (57% to cover) | Total 8.5: lean **UNDER** (53%)
 
 ### Milwaukee Brewers lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.83)_
@@ -995,7 +995,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-07-29 - Baltimore Orioles @ Detroit Tigers (Scheduled)
 _Comerica Park [pitcher-friendly park]_
 Projected score: Baltimore Orioles 2.92 - Detroit Tigers 3.42
-Model likes: **Detroit Tigers** to win (55%) | Run line: **Baltimore Orioles** +1.5 (64% to cover) | Total 6.5: lean **UNDER** (57%)
+Model likes: **Detroit Tigers** to win (56%) | Run line: **Baltimore Orioles** +1.5 (64% to cover) | Total 6.5: lean **UNDER** (57%)
 
 ### Baltimore Orioles lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
