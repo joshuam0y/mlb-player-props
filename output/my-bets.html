@@ -1554,13 +1554,75 @@ async function ensureTodayIndex() {
   currentIndexDate = today;
 }
 
+// This site's own "batters" list per game is the CONFIRMED starting
+// lineup (or, when that never got synced, a "likely starters" guess) --
+// never the full roster. A real bet can land on anyone who actually
+// played (a bench bat, a mid-game defensive sub, a reliever), and a
+// lineup-sync gap for one specific game can even drop a genuine starter
+// (confirmed real case: Luis Rengifo batted 6th for the Padres on
+// 2026-07-26, but that game's lineup was never captured, so this site's
+// own report fell back to a guess that excluded him). MLB's own boxscore
+// endpoint always has the true, complete roster for a game regardless of
+// what this site's DB captured, so it's used here purely as a search
+// fallback -- confirmed CORS-open the same way the live-score feed is.
+let boxscoreCacheByGamePk = {};
+async function fetchGameParticipants(gamePk) {
+  if (boxscoreCacheByGamePk[gamePk]) return boxscoreCacheByGamePk[gamePk];
+  const participants = [];
+  try {
+    const res = await fetch('https://statsapi.mlb.com/api/v1/game/' + gamePk + '/boxscore', { cache: 'no-store' });
+    if (res.ok) {
+      const data = await res.json();
+      ['home', 'away'].forEach(function (sideKey) {
+        const side = data.teams && data.teams[sideKey];
+        if (!side) return;
+        const teamName = side.team ? side.team.name : '';
+        Object.keys(side.players || {}).forEach(function (key) {
+          const p = side.players[key];
+          if (!p.person) return;
+          participants.push({
+            player_id: p.person.id,
+            name: p.person.fullName,
+            role: (p.position && p.position.code === '1') ? 'pitcher' : 'batter',
+            team: teamName,
+            game_pk: gamePk,
+            prop_categories: [],
+          });
+        });
+      });
+    }
+  } catch (e) { /* best-effort enrichment only -- search still works from the starters-only index if this fails */ }
+  boxscoreCacheByGamePk[gamePk] = participants;
+  return participants;
+}
+
 // The bet-entry form's own index -- follows whatever date is currently
 // selected in the add-bet form's date field, so player/team search works
-// for a previous day's bet too, not just today's games.
+// for a previous day's bet too, not just today's games. Enriched with
+// every game's full boxscore roster (see fetchGameParticipants above) so
+// a real bet on anyone who actually played can always be found, not just
+// this site's own modeled "starters."
 async function ensureFormIndexForDate(date) {
   if (formIndexDate === date) return;
   const report = await loadReportForDate(date);
-  formPlayerIndex = buildPlayerIndex(report);
+  const starterIndex = buildPlayerIndex(report);
+  // Archives span a few days (this site's own days_ahead window at the
+  // moment they froze), so restricted to games on the exact selected date
+  // -- otherwise a "yesterday" search would also pull in noise from
+  // tomorrow's not-yet-played games.
+  const gamePks = Array.from(new Set((report.games || []).filter(function (g) { return g.date === date; }).map(function (g) { return g.game_pk; })));
+  const boxscoreLists = await Promise.all(gamePks.map(fetchGameParticipants));
+  const seen = new Set(starterIndex.map(function (p) { return p.player_id + '-' + p.game_pk; }));
+  const merged = starterIndex.slice();
+  boxscoreLists.forEach(function (list) {
+    list.forEach(function (p) {
+      const key = p.player_id + '-' + p.game_pk;
+      if (seen.has(key)) return;
+      seen.add(key);
+      merged.push(p);
+    });
+  });
+  formPlayerIndex = merged;
   formTeamIndex = buildTeamIndex(report);
   formIndexDate = date;
 }
