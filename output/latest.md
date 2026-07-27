@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-07-27T17:19:58.860221+00:00_
+_Generated 2026-07-27T17:19:28.830269+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -459,7 +459,7 @@ _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.39)_
 ## 2026-07-28 - Arizona Diamondbacks @ Pittsburgh Pirates (Scheduled)
 _PNC Park_
 Projected score: Arizona Diamondbacks 4.53 - Pittsburgh Pirates 5.1
-Model likes: **Pittsburgh Pirates** to win (55%) | Run line: **Arizona Diamondbacks** +1.5 (59% to cover) | Total 8.5: lean **OVER** (54%)
+Model likes: **Pittsburgh Pirates** to win (54%) | Run line: **Arizona Diamondbacks** +1.5 (60% to cover) | Total 8.5: lean **OVER** (54%)
 
 ### Arizona Diamondbacks lineup -- PROJECTED (unconfirmed)
 **Probable P: Brandon Pfaadt (R)** -- L5: 27.0 IP, 14 K, 7 ER, 2.33 ERA
@@ -867,7 +867,7 @@ Model likes: **Los Angeles Dodgers** to win (53%) | Run line: **Seattle Mariners
 - Kyle Tucker (L) -- L7: 4H 2HR 4RBI 10TB (0.167 avg) -- home split: 0.211 avg
 - Teoscar Hernández (R) [6-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 8H 0HR 1RBI 11TB (0.308 avg) -- home split: 0.235 avg
 - Mookie Betts (R) -- L7: 6H 2HR 3RBI 12TB (0.231 avg) -- home split: 0.212 avg
-- Max Muncy (L) -- L7: 5H 2HR 6RBI 13TB (0.208 avg) -- home split: 0.228 avg
+- Max Muncy (L) -- L7: 5H 2HR 6RBI 13TB (0.208 avg) -- home split: 0.228 avg -- news: 10 questions with Dodgers vet Max Muncy
 
 ## 2026-07-29 - Philadelphia Phillies @ Miami Marlins (Scheduled)
 _loanDepot park [pitcher-friendly park]_
@@ -1323,4 +1323,4 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 - Kyle Tucker (L) -- L7: 4H 2HR 4RBI 10TB (0.167 avg) -- home split: 0.211 avg
 - Teoscar Hernández (R) [6-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 8H 0HR 1RBI 11TB (0.308 avg) -- home split: 0.235 avg
 - Mookie Betts (R) -- L7: 6H 2HR 3RBI 12TB (0.231 avg) -- home split: 0.212 avg
-- Max Muncy (L) -- L7: 5H 2HR 6RBI 13TB (0.208 avg) -- home split: 0.228 avg
+- Max Muncy (L) -- L7: 5H 2HR 6RBI 13TB (0.208 avg) -- home split: 0.228 avg -- news: 10 questions with Dodgers vet Max Muncy
