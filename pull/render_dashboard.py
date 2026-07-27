@@ -2199,6 +2199,7 @@ def render_html(report):
         </div>
         <div class="header-actions">
           <a class="nav-link" href="track-record.html">Track Record</a>
+          <a class="nav-link" href="my-bets.html">My Bets</a>
           <button id="themeToggle" class="theme-toggle" type="button">Switch to dark</button>
         </div>
       </div>

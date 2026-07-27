@@ -9,12 +9,12 @@ so this script only needs to run once, whenever the page's own code
 changes. The server-side half (grading pending bets) lives in
 sync_bets_firestore.py, called from build_props.py's own run().
 
-Deliberately NOT linked from the main dashboard nav -- personal
-financial data, no reason to make it casually discoverable even though
-this is a public static site with no page-level access control either
-way (real security here is Firestore's own rules: only the signed-in
-user's own bets are ever readable, and only the server-side Admin SDK,
-never the client, may update a bet after it's created).
+Linked from the main dashboard and Track Record nav (the user's own
+call -- this is a public static site with no page-level access control
+either way, so linking it doesn't change the real security posture:
+that's Firestore's own rules, which only let the signed-in user read
+their own bets, and only the server-side Admin SDK, never the client,
+update one after it's created).
 
 Reuses the main dashboard's STYLE/SCRIPT so it doesn't look or behave
 like a different site (same theme toggle, same color scheme). The

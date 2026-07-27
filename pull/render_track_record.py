@@ -267,6 +267,7 @@ def render_html():
         </div>
         <div class="header-actions">
           <a class="nav-link" href="index.html">&larr; Back to Dashboard</a>
+          <a class="nav-link" href="my-bets.html">My Bets</a>
           <button id="themeToggle" class="theme-toggle" type="button">Switch to dark</button>
         </div>
       </div>
