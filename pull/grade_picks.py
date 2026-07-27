@@ -27,6 +27,20 @@ Covers:
     graded hit/miss the same way as Top Overs/Unders, plus projected vs.
     actual final score (same magnitude-accuracy idea as the per-stat
     projections above).
+  * Matchup-lean headline ("Predicted: X OVER/UNDER Y" next to each box
+    score) and the per-team Best-prop star -- both graded the same
+    pick_result() logic as Top Overs/Unders. Only gradable for dates whose
+    archive actually has these fields: they were added well after this
+    project started, so older archives simply have nothing to grade (an
+    empty bucket, not an error). TODAY is a special case (see
+    _matchup_lean_source()) -- since build_report()'s own "today" is
+    anchored to right now, a same-day archive written before these fields
+    existed can be backfilled by recomputing a fresh report; both fields
+    are already as_of_date-filtered to exclude today's own game, so
+    recomputing them later in the day gives the exact same answer
+    computing them that morning would have. That trick doesn't extend to
+    older backfilled dates -- there's no safe way to reconstruct a PAST
+    day's version of these after the fact.
 
 Results are appended to output/track_record.json, keyed by date, so
 grading is a running, permanent record rather than a one-off report --
@@ -45,7 +59,8 @@ import json
 import os
 from datetime import datetime, timedelta, timezone
 
-from db import get_conn, init_db
+from build_props import batter_game_result, build_report, pick_result, pitcher_game_result
+from db import get_conn, init_db, mlb_today
 
 OUT_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "output")
 TRACK_RECORD_PATH = os.path.join(OUT_DIR, "track_record.json")
@@ -372,6 +387,138 @@ def _grade_games(conn, report, date):
     }
 
 
+def _grade_matchup_leans(conn, report, date):
+    """
+    Whether the "Predicted: X OVER/UNDER Y" headline (best_matchup_lean()
+    in build_props.py) actually hit, across every batter and probable
+    pitcher shown that day. Games not yet truly Final are skipped
+    entirely (not counted as no_data) -- hourly.yml re-grades the last
+    few days on every run, so a game that finishes late just gets graded
+    on a later pass instead of being locked in early as a premature miss.
+    """
+    hits = misses = no_data = 0
+    examples = []
+    for g in report["games"]:
+        if g["date"] != date:
+            continue
+        row = conn.execute("SELECT home_score, away_score FROM games WHERE game_pk = ?", (g["game_pk"],)).fetchone()
+        if not row or row["home_score"] is None or row["away_score"] is None:
+            continue  # not final yet -- graded on a later pass instead
+        for side_key in ("home", "away"):
+            side = g[side_key]
+            entities = [("batter", b) for b in side["batters"]]
+            p = side.get("probable_pitcher")
+            if p:
+                entities.append(("pitcher", p))
+            for role, entity in entities:
+                lean = entity.get("matchup_lean")
+                if not lean:
+                    continue
+                result_fn = batter_game_result if role == "batter" else pitcher_game_result
+                game_result = result_fn(conn, entity["player_id"], g["game_pk"])
+                if not game_result:
+                    no_data += 1
+                    continue
+                outcome = pick_result(role, lean, game_result, lean["direction"], True)
+                if outcome is None:
+                    no_data += 1
+                    continue
+                if outcome == "hit":
+                    hits += 1
+                else:
+                    misses += 1
+                col = (BATTER_COL if role == "batter" else PITCHER_COL).get(lean["label"])
+                examples.append({
+                    "name": entity["name"], "role": role, "category": f'{lean["label"]} {lean["direction"].upper()}',
+                    "line": lean["line"], "actual": game_result.get(col), "outcome": outcome,
+                })
+    graded = hits + misses
+    return {
+        "n": hits + misses + no_data, "hits": hits, "misses": misses, "no_data": no_data,
+        "hit_rate": round(hits / graded, 3) if graded else None, "examples": examples[:10],
+    }
+
+
+def _grade_best_prop_stars(conn, report, date):
+    """Whether the team's starred Best-prop pick (best_prop_star() in build_props.py -- batter or the probable pitcher, whichever had the strongest signal) actually hit. Games not yet Final skipped, same reasoning as _grade_matchup_leans()."""
+    hits = misses = no_data = 0
+    examples = []
+    for g in report["games"]:
+        if g["date"] != date:
+            continue
+        row = conn.execute("SELECT home_score, away_score FROM games WHERE game_pk = ?", (g["game_pk"],)).fetchone()
+        if not row or row["home_score"] is None or row["away_score"] is None:
+            continue
+        for side_key in ("home", "away"):
+            side = g[side_key]
+            star_id = side.get("star_player_id")
+            if not star_id:
+                continue
+            entity, role = None, None
+            for b in side["batters"]:
+                if b["player_id"] == star_id:
+                    entity, role = b, "batter"
+                    break
+            p = side.get("probable_pitcher")
+            if entity is None and p and p["player_id"] == star_id:
+                entity, role = p, "pitcher"
+            if entity is None:
+                continue
+            best = entity.get("best_prop")
+            direction = entity.get("best_prop_direction")
+            if not best or not direction:
+                continue
+            result_fn = batter_game_result if role == "batter" else pitcher_game_result
+            game_result = result_fn(conn, star_id, g["game_pk"])
+            if not game_result:
+                no_data += 1
+                continue
+            outcome = pick_result(role, best, game_result, direction, True)
+            if outcome is None:
+                no_data += 1
+                continue
+            if outcome == "hit":
+                hits += 1
+            else:
+                misses += 1
+            col = (BATTER_COL if role == "batter" else PITCHER_COL).get(best["label"])
+            examples.append({
+                "name": entity["name"], "role": role, "category": f'{best["label"]} {direction.upper()}',
+                "line": best["line"], "actual": game_result.get(col), "outcome": outcome,
+            })
+    graded = hits + misses
+    return {
+        "n": hits + misses + no_data, "hits": hits, "misses": misses, "no_data": no_data,
+        "hit_rate": round(hits / graded, 3) if graded else None, "examples": examples[:10],
+    }
+
+
+def _has_matchup_lean_data(report):
+    for g in report.get("games") or []:
+        for side_key in ("home", "away"):
+            side = g.get(side_key) or {}
+            for b in side.get("batters") or []:
+                if "matchup_lean" in b:
+                    return True
+    return False
+
+
+def _matchup_lean_source(conn, report, date):
+    """
+    matchup_lean/star_player_id didn't exist in archives written before
+    those features shipped. If this archive already has them (any future
+    day, once a fresh archive naturally includes them), use it directly --
+    otherwise, only for TODAY specifically, recompute a fresh report to
+    source them instead. See this module's own docstring for why that's
+    safe for today but not for a backfilled past date.
+    """
+    if _has_matchup_lean_data(report):
+        return report
+    if date != mlb_today():
+        return report  # nothing to grade; _grade_* will just find no matchup_lean/star_player_id fields and skip everyone
+    return build_report(conn, days_ahead=0)
+
+
 def grade_day(conn, date):
     report = _load_day_report(date)
     if report is None:
@@ -381,6 +528,7 @@ def grade_day(conn, date):
     batter_trend, batter_matchup = _grade_batter_signals(conn, report, date)
     pitcher_form = _grade_pitcher_signals(conn, report, date)
     projection_accuracy, projection_examples = _grade_projections(conn, report, date)
+    lean_source = _matchup_lean_source(conn, report, date)
     return {
         "date": date,
         "graded_at": datetime.now(timezone.utc).isoformat(),
@@ -392,6 +540,8 @@ def grade_day(conn, date):
         "projection_accuracy": projection_accuracy,
         "projection_examples": projection_examples,
         "games": _grade_games(conn, report, date),
+        "matchup_leans": _grade_matchup_leans(conn, lean_source, date),
+        "best_prop_stars": _grade_best_prop_stars(conn, lean_source, date),
     }
 
 
@@ -501,6 +651,20 @@ def _cumulative(days_dict):
         "total": _sum_hit_miss(days, ["games", "total"]),
         "score_accuracy": _sum_accuracy_stats(days, ["games", "score_accuracy"]),
     }
+
+    # Older graded days simply have no "matchup_leans"/"best_prop_stars" key
+    # at all (graded before those signals existed) -- .get() defaults them
+    # to zero contribution rather than erroring.
+    for section in ("matchup_leans", "best_prop_stars"):
+        hits = sum((d.get(section) or {}).get("hits", 0) for d in days)
+        misses = sum((d.get(section) or {}).get("misses", 0) for d in days)
+        no_data = sum((d.get(section) or {}).get("no_data", 0) for d in days)
+        graded = hits + misses
+        result[section] = {
+            "days": len(days), "n": sum((d.get(section) or {}).get("n", 0) for d in days),
+            "hits": hits, "misses": misses, "no_data": no_data,
+            "hit_rate": round(hits / graded, 3) if graded else None,
+        }
 
     all_categories = set()
     for d in days:

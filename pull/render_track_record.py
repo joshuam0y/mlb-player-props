@@ -76,8 +76,8 @@ def _game_pick_tile_html(title, bucket):
     """
 
 
-def _pick_list_html(bucket):
-    picks = (bucket or {}).get("picks") or []
+def _pick_list_html(bucket, key="picks"):
+    picks = (bucket or {}).get(key) or []
     if not picks:
         return '<div class="sub">No picks that day.</div>'
     rows = []
@@ -199,6 +199,10 @@ def _day_card_html(day, open_by_default):
         {_games_table("Game picks that day (moneyline / run line / total)", games)}
         <div class="picks-heading" style="margin-top:16px">Projected score vs actual, that day</div>
         {_game_score_examples_html(games.get("score_examples"))}
+        <div class="picks-heading" style="margin-top:16px">"Predicted: X" matchup-lean picks, that day (biggest misses/hits sample, not every pick)</div>
+        {_pick_list_html(day.get("matchup_leans"), key="examples")}
+        <div class="picks-heading" style="margin-top:16px">Best-prop star picks, that day</div>
+        {_pick_list_html(day.get("best_prop_stars"), key="examples")}
         {_projection_table("Projected stat vs actual, that day (every player shown, by category)", day.get("projection_accuracy"))}
         <div class="picks-heading" style="margin-top:16px">Biggest single-player projection misses that day</div>
         {_projection_examples_html(day.get("projection_examples"))}
@@ -230,6 +234,8 @@ def render_html():
         + _game_pick_tile_html("Run line hit rate, all days", cum_games.get("run_line"))
         + _game_pick_tile_html("Total (O/U) hit rate, all days", cum_games.get("total"))
         + _score_accuracy_tile(cum_games.get("score_accuracy"))
+        + _game_pick_tile_html("Predicted-lean hit rate, all days", cum.get("matchup_leans"))
+        + _game_pick_tile_html("Best-prop star hit rate, all days", cum.get("best_prop_stars"))
     )
     cum_rates = (
         _rate_table("All days: batter trend", cum.get("batter_trend"), [("HOT", "hot"), ("COLD", "cold"), ("NEUTRAL", "neutral")], "batter")
