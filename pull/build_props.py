@@ -262,6 +262,7 @@ BATTER_PROP_CATEGORIES = [
 ]
 PITCHER_PROP_CATEGORIES = [
     ("strike_outs", "Strikeouts"),
+    ("outs", "Outs Recorded"),
     ("earned_runs", "Runs Allowed"),
     ("hits", "Hits Allowed"),
     ("base_on_balls", "Walks Allowed"),
@@ -425,16 +426,22 @@ def batter_matchup_factor(matchup):
 PITCHER_FORM_PROJECTION_FACTOR = 0.10  # +/-10% swing to a category's projection from recent form
 
 
+PITCHER_POSITIVE_CATEGORIES = {"Strikeouts", "Outs Recorded"}  # higher is "pitching well" for these; lower for everything else
+
+
 def pitcher_category_factor(label, form_trend):
     """
     Unlike batters, 'pitching well' doesn't push every category the same
-    direction: a dominant stretch means MORE strikeouts but FEWER runs/
-    hits/walks allowed, so the sign flips depending on the category.
+    direction: a dominant stretch means MORE strikeouts and MORE outs
+    recorded (going deeper into games instead of getting an early hook)
+    but FEWER runs/hits/walks allowed, so the sign flips depending on the
+    category.
     """
+    positive = label in PITCHER_POSITIVE_CATEGORIES
     if form_trend == "dominant":
-        return 1 + PITCHER_FORM_PROJECTION_FACTOR if label == "Strikeouts" else 1 - PITCHER_FORM_PROJECTION_FACTOR
+        return 1 + PITCHER_FORM_PROJECTION_FACTOR if positive else 1 - PITCHER_FORM_PROJECTION_FACTOR
     if form_trend == "rough":
-        return 1 - PITCHER_FORM_PROJECTION_FACTOR if label == "Strikeouts" else 1 + PITCHER_FORM_PROJECTION_FACTOR
+        return 1 - PITCHER_FORM_PROJECTION_FACTOR if positive else 1 + PITCHER_FORM_PROJECTION_FACTOR
     return 1.0
 
 
@@ -496,7 +503,7 @@ def batter_game_result(conn, player_id, game_pk):
 
 def pitcher_game_result(conn, player_id, game_pk):
     row = conn.execute(
-        "SELECT innings_pitched, hits, earned_runs, runs, base_on_balls, strike_outs, home_runs "
+        "SELECT innings_pitched, outs, hits, earned_runs, runs, base_on_balls, strike_outs, home_runs "
         "FROM pitching_game_logs WHERE player_id = ? AND game_pk = ?",
         (player_id, game_pk),
     ).fetchone()
@@ -1263,7 +1270,7 @@ def fallback_best_prop(recent_categories, season_categories):
 # fallback (it can still surface on its own merits via the stricter,
 # deviation-based best_over/best_under path above this one).
 POPULAR_BATTER_CATEGORIES = ["Hits", "Total Bases", "RBIs"]
-POPULAR_PITCHER_CATEGORIES = ["Strikeouts", "Hits Allowed"]
+POPULAR_PITCHER_CATEGORIES = ["Strikeouts", "Outs Recorded", "Hits Allowed"]
 
 
 def _lenient_category_for_direction(categories, direction, exclude_label=None):

@@ -77,7 +77,7 @@ BATTER_COL = {
     "RBIs": "rbi", "Runs Scored": "runs", "Walks": "base_on_balls",
 }
 PITCHER_COL = {
-    "Strikeouts": "strike_outs", "Runs Allowed": "earned_runs",
+    "Strikeouts": "strike_outs", "Outs Recorded": "outs", "Runs Allowed": "earned_runs",
     "Hits Allowed": "hits", "Walks Allowed": "base_on_balls",
 }
 
