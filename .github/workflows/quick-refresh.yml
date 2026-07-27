@@ -78,11 +78,31 @@ jobs:
           git add output/
           git diff --cached --quiet && exit 0
           git commit -m "Quick refresh"
+          # output/ is pure generated data, not hand-edited content -- a
+          # rebase conflict here (e.g. racing the hourly job, a separate
+          # concurrency group this one doesn't share) just means another
+          # job's own regeneration landed first. -X theirs keeps OUR
+          # freshly-built commit's content on conflict (confusingly, during
+          # a rebase "theirs" means the commit being replayed -- i.e. ours;
+          # see git-rebase(1) and hourly.yml's own commit step for the full
+          # story on why every retry aborts any stuck rebase first, and why
+          # this fails loudly instead of silently deploying a conflicted
+          # working tree if it still can't converge after 5 attempts).
+          success=false
           for i in 1 2 3 4 5; do
-            git pull --rebase origin main && git push && break
+            git rebase --abort >/dev/null 2>&1 || true
+            if git pull --rebase -X theirs origin main && git push; then
+              success=true
+              break
+            fi
             echo "Push attempt $i failed, retrying..."
             sleep 5
           done
+          git rebase --abort >/dev/null 2>&1 || true
+          if [ "$success" != true ]; then
+            echo "::error::Could not push output/ after 5 attempts -- deploying this run's own local commit instead of a conflicted working tree."
+            exit 1
+          fi
 
       - name: Configure Pages
         if: always()

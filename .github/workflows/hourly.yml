@@ -150,11 +150,41 @@ jobs:
           # overlapping run) before this push happens -- rebase onto the
           # latest main first, retrying a few times, rather than failing the
           # whole job (and skipping the Pages deploy) on an ordinary race.
+          #
+          # output/ is pure generated data (JSON/HTML snapshots), not
+          # hand-edited content -- a rebase conflict here just means another
+          # job's own regeneration landed first, not a real disagreement
+          # worth resolving by hand. -X theirs keeps OUR freshly-built
+          # commit's content on conflict (confusingly, during a rebase
+          # "theirs" means the commit being replayed -- i.e. ours -- while
+          # "ours" means the upstream tip; see git-rebase(1)).
+          #
+          # Every retry aborts any stuck rebase first: a previous version of
+          # this script didn't, so a conflict on attempt 1 left every
+          # subsequent attempt failing with "unmerged files" instead of
+          # actually retrying, silently exhausted all 5 attempts, and then
+          # proceeded (the deploy steps below use if: always()) to deploy
+          # the still-conflict-marked working tree to Pages as broken
+          # JSON/HTML. Now: if it still can't converge after 5 attempts,
+          # abort back to this run's own clean local commit (deploy fresh
+          # data that's just not yet merged with the other job's, instead
+          # of a half-resolved conflict) and fail the step loudly so a
+          # persistent problem is actually visible.
+          success=false
           for i in 1 2 3 4 5; do
-            git pull --rebase origin main && git push && break
+            git rebase --abort >/dev/null 2>&1 || true
+            if git pull --rebase -X theirs origin main && git push; then
+              success=true
+              break
+            fi
             echo "Push attempt $i failed, retrying..."
             sleep 5
           done
+          git rebase --abort >/dev/null 2>&1 || true
+          if [ "$success" != true ]; then
+            echo "::error::Could not push output/ after 5 attempts -- deploying this run's own local commit instead of a conflicted working tree."
+            exit 1
+          fi
 
       - name: Configure Pages
         if: always()
