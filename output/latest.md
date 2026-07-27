@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-07-27T14:57:11.980821+00:00_
+_Generated 2026-07-27T15:01:10.229660+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -488,7 +488,7 @@ Model likes: **Pittsburgh Pirates** to win (55%) | Run line: **Arizona Diamondba
 ## 2026-07-28 - Philadelphia Phillies @ Miami Marlins (Scheduled)
 _loanDepot park [pitcher-friendly park]_
 Projected score: Philadelphia Phillies 3.58 - Miami Marlins 4.63
-Model likes: **Miami Marlins** to win (59%) | Run line: **Philadelphia Phillies** +1.5 (56% to cover) | Total 8.5: lean **UNDER** (58%)
+Model likes: **Miami Marlins** to win (59%) | Run line: **Philadelphia Phillies** +1.5 (57% to cover) | Total 8.5: lean **UNDER** (58%)
 
 ### Philadelphia Phillies lineup -- PROJECTED (unconfirmed)
 **Probable P: Aaron Nola (R)** -- L5: 27.7 IP, 30 K, 20 ER, 6.51 ERA
@@ -518,7 +518,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.67)_
 ## 2026-07-28 - Baltimore Orioles @ Detroit Tigers (Scheduled)
 _Comerica Park [pitcher-friendly park]_
 Projected score: Baltimore Orioles 2.55 - Detroit Tigers 4.15
-Model likes: **Detroit Tigers** to win (66%) | Run line: **Baltimore Orioles** +1.5 (52% to cover) | Total 6.5: lean **UNDER** (54%)
+Model likes: **Detroit Tigers** to win (66%) | Run line: **Baltimore Orioles** +1.5 (52% to cover) | Total 6.5: lean **UNDER** (53%)
 
 ### Baltimore Orioles lineup -- PROJECTED (unconfirmed)
 **Probable P: Dean Kremer (R)** -- L5: 27.0 IP, 25 K, 16 ER, 5.33 ERA
