@@ -1413,9 +1413,13 @@ function liveLeanResult(value, line, direction, isFinal) {
   return (direction === 'over' ? cleared : !cleared) ? 'hit' : 'miss';
 }
 
-let reportCache = null;
-let playerIndex = []; // [{player_id, name, role, team, game_pk, prop_categories}]
-let teamIndex = []; // [{team_id, name, opponent, game_pk, side}]
+let reportCacheByDate = {}; // date -> report JSON, so switching the bet-date field doesn't re-fetch on every keystroke
+let playerIndex = []; // today's index -- used by backfillMissingGamePks() only
+let teamIndex = [];
+let currentIndexDate = null;
+let formPlayerIndex = []; // follows the add-bet form's own date field -- used by the leg search
+let formTeamIndex = [];
+let formIndexDate = null;
 
 function easternToday() {
   return new Intl.DateTimeFormat('en-CA', { timeZone: 'America/New_York' }).format(new Date());
@@ -1475,7 +1479,7 @@ function buildPlayerIndex(report) {
       });
     });
   });
-  playerIndex = index;
+  return index;
 }
 
 // One entry per (team, game) -- side ('home'/'away') is recorded here so
@@ -1503,32 +1507,74 @@ function buildTeamIndex(report) {
       });
     });
   });
-  teamIndex = index;
+  return index;
 }
 
-async function loadReport() {
-  if (reportCache) return reportCache;
+// latest.json only ever covers today + a couple days ahead -- searching
+// it for a player/team from an earlier date silently finds nothing,
+// which is exactly what made logging a previous day's bet look broken.
+// A past date instead reads that day's own frozen archive
+// (props_{date}.json, written once and kept forever -- see
+// build_props.py's own run()), the same file the rest of this site
+// grades historical days from.
+async function loadReportForDate(date) {
+  if (reportCacheByDate[date]) return reportCacheByDate[date];
+  const isToday = date === easternToday();
+  const url = isToday ? 'latest.json' : ('props_' + date + '.json');
+  let report = null;
   try {
-    const res = await fetch('latest.json', { cache: 'no-store' });
-    reportCache = await res.json();
-    buildPlayerIndex(reportCache);
-    buildTeamIndex(reportCache);
-  } catch (e) {
-    reportCache = { games: [] };
+    const res = await fetch(url, { cache: 'no-store' });
+    if (res.ok) report = await res.json();
+  } catch (e) { /* fall through to the latest.json fallback below */ }
+  if (!report && !isToday) {
+    // A date with no archive yet (e.g. today before this site's own
+    // freeze hour, if picked before local midnight rolled over) --
+    // latest.json is still a reasonable best-effort fallback.
+    try {
+      const res = await fetch('latest.json', { cache: 'no-store' });
+      if (res.ok) report = await res.json();
+    } catch (e) { /* give up below */ }
   }
-  return reportCache;
+  reportCacheByDate[date] = report || { games: [] };
+  return reportCacheByDate[date];
+}
+
+// Today's own index -- used by backfillMissingGamePks() to resolve a
+// missing game_pk on an already-pending bet (almost always today's or a
+// very recent game). Kept separate from the bet-entry form's own index
+// below: those two need to reflect DIFFERENT dates at the same moment
+// whenever someone's filling out a previous-day bet while today's games
+// are still being live-polled.
+async function ensureTodayIndex() {
+  const today = easternToday();
+  if (currentIndexDate === today) return;
+  const report = await loadReportForDate(today);
+  playerIndex = buildPlayerIndex(report);
+  teamIndex = buildTeamIndex(report);
+  currentIndexDate = today;
+}
+
+// The bet-entry form's own index -- follows whatever date is currently
+// selected in the add-bet form's date field, so player/team search works
+// for a previous day's bet too, not just today's games.
+async function ensureFormIndexForDate(date) {
+  if (formIndexDate === date) return;
+  const report = await loadReportForDate(date);
+  formPlayerIndex = buildPlayerIndex(report);
+  formTeamIndex = buildTeamIndex(report);
+  formIndexDate = date;
 }
 
 function searchPlayers(text) {
   const wanted = text.trim().toLowerCase();
   if (!wanted) return [];
-  return playerIndex.filter(function (p) { return p.name.toLowerCase().indexOf(wanted) !== -1; }).slice(0, 8);
+  return formPlayerIndex.filter(function (p) { return p.name.toLowerCase().indexOf(wanted) !== -1; }).slice(0, 8);
 }
 
 function searchTeams(text) {
   const wanted = text.trim().toLowerCase();
   if (!wanted) return [];
-  return teamIndex.filter(function (t) { return t.name.toLowerCase().indexOf(wanted) !== -1; }).slice(0, 8);
+  return formTeamIndex.filter(function (t) { return t.name.toLowerCase().indexOf(wanted) !== -1; }).slice(0, 8);
 }
 
 function escapeHtml(s) {
@@ -1927,7 +1973,7 @@ onAuthStateChanged(auth, function (user) {
     // do anything useful, and without this, the very first poll (right
     // when the snapshot first fires) would run against empty indexes and
     // silently find nothing until the NEXT 30s tick caught up instead.
-    loadReport().then(function () {
+    ensureTodayIndex().then(function () {
       // No orderBy here on purpose: combining it with the where() below
       // requires a Firestore composite index (a one-time manual step in
       // the Firebase console) -- sorting the small per-user result set
@@ -2031,13 +2077,17 @@ document.getElementById('add-leg-btn').addEventListener('click', addLegRow);
 document.getElementById('bet-date').value = easternToday();
 resetLegRows();
 wireAutoToWin(document.getElementById('bet-stake'), document.getElementById('bet-odds'), document.getElementById('bet-to-win'));
+ensureFormIndexForDate(document.getElementById('bet-date').value);
+document.getElementById('bet-date').addEventListener('change', function () {
+  ensureFormIndexForDate(this.value);
+});
 
 document.getElementById('bet-form').addEventListener('submit', async function (e) {
   e.preventDefault();
   const errorEl = document.getElementById('bet-form-error');
   errorEl.textContent = '';
   try {
-    await loadReport();
+    await ensureFormIndexForDate(document.getElementById('bet-date').value);
     const legRows = document.querySelectorAll('#legs-container .leg-input-row');
     const legs = [];
     legRows.forEach(function (row) {
@@ -2081,7 +2131,7 @@ document.getElementById('bet-form').addEventListener('submit', async function (e
       const gamePk = row.dataset.gamePk ? parseInt(row.dataset.gamePk, 10) : null;
       let modelProjection = null, modelLine = null, modelLean = null;
       if (playerId) {
-        const entry = playerIndex.find(function (p) { return p.player_id === playerId; });
+        const entry = formPlayerIndex.find(function (p) { return p.player_id === playerId; });
         const cat = entry ? (entry.prop_categories || []).find(function (c) { return c.label === category; }) : null;
         if (cat) { modelProjection = cat.today_projection; modelLine = cat.primary_line; modelLean = cat.lean; }
       }
@@ -2121,6 +2171,7 @@ document.getElementById('bet-form').addEventListener('submit', async function (e
     document.getElementById('bet-form').reset();
     document.getElementById('bet-date').value = easternToday();
     resetLegRows();
+    ensureFormIndexForDate(document.getElementById('bet-date').value);
   } catch (err) {
     errorEl.textContent = 'Error: ' + err.message;
   }
