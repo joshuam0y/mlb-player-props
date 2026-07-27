@@ -517,6 +517,10 @@
   .edit-save-btn, .edit-cancel-btn { padding: 7px 14px; border-radius: 999px; border: none; cursor: pointer; font-family: inherit; font-size: 12.5px; font-weight: 600; margin-top: 8px; margin-right: 6px; }
   .edit-save-btn { background: var(--series-1); color: #fff; }
   .edit-cancel-btn { background: var(--surface-3); color: var(--text-primary); }
+  .bets-filter-row { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; margin-bottom: 10px; }
+  .bets-filter-row select, .bets-filter-row input { padding: 8px 10px; border-radius: 8px; border: 1px solid var(--border); background: var(--surface-2); color: var(--text-primary); font-family: inherit; font-size: 13px; }
+  .bets-filter-row .sub { font-size: 12.5px; }
+  #bet-filter-clear { padding: 8px 14px; border-radius: 999px; border: 1px solid var(--border); background: var(--surface-1); color: var(--text-primary); cursor: pointer; font-family: inherit; font-size: 12.5px; }
 </style>
 
 </head>
@@ -584,6 +588,26 @@
       </div>
 
       <div class="date-heading">All bets</div>
+      <div class="bets-filter-row">
+        <select id="bet-filter-status">
+          <option value="all">All bets</option>
+          <option value="pending">Pending</option>
+          <option value="won">Won</option>
+          <option value="lost">Lost</option>
+        </select>
+        <input type="date" id="bet-filter-from" title="From date">
+        <span class="sub">to</span>
+        <input type="date" id="bet-filter-to" title="To date">
+        <select id="bet-sort">
+          <option value="date_desc">Date: newest first</option>
+          <option value="date_asc">Date: oldest first</option>
+          <option value="profit_desc">Profit: high to low</option>
+          <option value="profit_asc">Profit: low to high</option>
+          <option value="stake_desc">Stake: high to low</option>
+          <option value="stake_asc">Stake: low to high</option>
+        </select>
+        <button type="button" id="bet-filter-clear">Clear filters</button>
+      </div>
       <div id="bets-list"></div>
       <button id="signout-btn" type="button">Sign out</button>
     </div>
@@ -1737,6 +1761,47 @@ function betCardHtml(bet) {
   );
 }
 
+// Newest-first / oldest-first fall back to the id as a tiebreak so two
+// bets placed on the same date still land in a stable, deterministic
+// order instead of shuffling on every re-render. Profit sort always
+// pushes still-pending bets (profit unknown, not zero) to the bottom
+// regardless of direction -- "highest to lowest" shouldn't be read as
+// "pending counts as zero."
+const BET_SORTERS = {
+  date_desc: function (a, b) { return (b.placed_date || '').localeCompare(a.placed_date || '') || String(b.id).localeCompare(String(a.id)); },
+  date_asc: function (a, b) { return (a.placed_date || '').localeCompare(b.placed_date || '') || String(a.id).localeCompare(String(b.id)); },
+  profit_desc: function (a, b) {
+    const pa = betProfit(a), pb = betProfit(b);
+    if (pa == null) return pb == null ? 0 : 1;
+    if (pb == null) return -1;
+    return pb - pa;
+  },
+  profit_asc: function (a, b) {
+    const pa = betProfit(a), pb = betProfit(b);
+    if (pa == null) return pb == null ? 0 : 1;
+    if (pb == null) return -1;
+    return pa - pb;
+  },
+  stake_desc: function (a, b) { return Number(b.stake) - Number(a.stake); },
+  stake_asc: function (a, b) { return Number(a.stake) - Number(b.stake); },
+};
+
+// Only affects which bets show (and in what order) in the "All bets"
+// list below -- the summary tiles above always reflect every logged
+// bet, since those are meant to be the honest running total, not a
+// number that quietly changes shape when someone's just browsing.
+let betFilters = { status: 'all', dateFrom: '', dateTo: '', sort: 'date_desc' };
+
+function applyBetFilters(bets) {
+  const filtered = bets.filter(function (b) {
+    if (betFilters.status !== 'all' && b.status !== betFilters.status) return false;
+    if (betFilters.dateFrom && b.placed_date < betFilters.dateFrom) return false;
+    if (betFilters.dateTo && b.placed_date > betFilters.dateTo) return false;
+    return true;
+  });
+  return filtered.sort(BET_SORTERS[betFilters.sort] || BET_SORTERS.date_desc);
+}
+
 function renderBets(bets) {
   const settled = bets.filter(function (b) { return b.status === 'won' || b.status === 'lost'; });
   const pending = bets.filter(function (b) { return b.status === 'pending'; });
@@ -1750,9 +1815,10 @@ function renderBets(bets) {
     tileHtml(wins + '-' + losses, 'Record (settled bets)') +
     tileHtml(String(pending.length), 'Pending ($' + pendingStake.toFixed(2) + ' at stake)');
 
-  document.getElementById('bets-list').innerHTML = bets.length
-    ? bets.map(betCardHtml).join('')
-    : '<div class="empty">No bets logged yet.</div>';
+  const visible = applyBetFilters(bets.slice());
+  document.getElementById('bets-list').innerHTML = visible.length
+    ? visible.map(betCardHtml).join('')
+    : ('<div class="empty">' + (bets.length ? 'No bets match these filters.' : 'No bets logged yet.') + '</div>');
 }
 
 function categoryOptionsHtml(role) {
@@ -2135,6 +2201,19 @@ document.getElementById('bets-list').addEventListener('click', async function (e
 });
 
 document.getElementById('add-leg-btn').addEventListener('click', addLegRow);
+
+document.getElementById('bet-filter-status').addEventListener('change', function () { betFilters.status = this.value; renderBets(currentBets); });
+document.getElementById('bet-filter-from').addEventListener('change', function () { betFilters.dateFrom = this.value; renderBets(currentBets); });
+document.getElementById('bet-filter-to').addEventListener('change', function () { betFilters.dateTo = this.value; renderBets(currentBets); });
+document.getElementById('bet-sort').addEventListener('change', function () { betFilters.sort = this.value; renderBets(currentBets); });
+document.getElementById('bet-filter-clear').addEventListener('click', function () {
+  betFilters = { status: 'all', dateFrom: '', dateTo: '', sort: 'date_desc' };
+  document.getElementById('bet-filter-status').value = 'all';
+  document.getElementById('bet-filter-from').value = '';
+  document.getElementById('bet-filter-to').value = '';
+  document.getElementById('bet-sort').value = 'date_desc';
+  renderBets(currentBets);
+});
 
 document.getElementById('bet-date').value = easternToday();
 resetLegRows();
