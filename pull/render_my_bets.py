@@ -487,7 +487,32 @@ let livePollTimer = null;
 // -- it's a read-only, in-memory preview layer for THIS page load; the
 // server-side sync_bets_firestore.py is still the one thing that
 // actually persists a bet's result.
+// Backfills game_pk (in memory only, for this page load's own live-poll
+// use -- the persistent fix is the server-side grading script resolving
+// it the same way) on any pending leg that's missing it, e.g. one
+// entered before this field was captured at submission time. Looked up
+// from the same latest.json-derived index used for search/model-
+// projection, so this only works for legs whose game is in the current
+// report window (today forward) -- an older leg outside that window
+// still needs the server-side resolution to ever settle.
+function backfillMissingGamePks() {{
+  currentBets.forEach(function (bet) {{
+    if (bet.status !== 'pending') return;
+    (bet.legs || []).forEach(function (leg) {{
+      if (leg.status !== 'pending' || leg.game_pk) return;
+      if (leg.kind === 'game' && leg.team_id) {{
+        const entry = teamIndex.find(function (t) {{ return t.team_id === leg.team_id; }});
+        if (entry) {{ leg.game_pk = entry.game_pk; leg.side = leg.side || entry.side; }}
+      }} else if (leg.player_id) {{
+        const entry = playerIndex.find(function (p) {{ return p.player_id === leg.player_id; }});
+        if (entry) leg.game_pk = entry.game_pk;
+      }}
+    }});
+  }});
+}}
+
 function pollAllBetGames() {{
+  backfillMissingGamePks();
   const gamePks = new Set();
   currentBets.forEach(function (bet) {{
     if (bet.status !== 'pending') return;
@@ -574,23 +599,29 @@ onAuthStateChanged(auth, function (user) {{
     signinView.style.display = 'none';
     appView.style.display = 'block';
     if (unsubscribeBets) unsubscribeBets();
-    // No orderBy here on purpose: combining it with the where() below
-    // requires a Firestore composite index (a one-time manual step in
-    // the Firebase console) -- sorting the small per-user result set
-    // client-side avoids that entirely.
-    const q = query(collection(db, 'bets'), where('userId', '==', user.uid));
-    unsubscribeBets = onSnapshot(q, function (snap) {{
-      const bets = [];
-      snap.forEach(function (doc) {{ bets.push(Object.assign({{ id: doc.id }}, doc.data())); }});
-      bets.sort(function (a, b) {{ return (b.placed_date || '').localeCompare(a.placed_date || '') || String(b.id).localeCompare(String(a.id)); }});
-      currentBets = bets;
-      renderBets(currentBets);
-      pollAllBetGames();
-      if (!livePollTimer) livePollTimer = setInterval(pollAllBetGames, 30000);
-    }}, function (err) {{
-      document.getElementById('bets-list').innerHTML = '<div class="empty">Error loading bets: ' + escapeHtml(err.message) + '</div>';
+    // Waits for latest.json (playerIndex/teamIndex) before attaching the
+    // bets listener -- backfillMissingGamePks() needs those populated to
+    // do anything useful, and without this, the very first poll (right
+    // when the snapshot first fires) would run against empty indexes and
+    // silently find nothing until the NEXT 30s tick caught up instead.
+    loadReport().then(function () {{
+      // No orderBy here on purpose: combining it with the where() below
+      // requires a Firestore composite index (a one-time manual step in
+      // the Firebase console) -- sorting the small per-user result set
+      // client-side avoids that entirely.
+      const q = query(collection(db, 'bets'), where('userId', '==', user.uid));
+      unsubscribeBets = onSnapshot(q, function (snap) {{
+        const bets = [];
+        snap.forEach(function (doc) {{ bets.push(Object.assign({{ id: doc.id }}, doc.data())); }});
+        bets.sort(function (a, b) {{ return (b.placed_date || '').localeCompare(a.placed_date || '') || String(b.id).localeCompare(String(a.id)); }});
+        currentBets = bets;
+        renderBets(currentBets);
+        pollAllBetGames();
+        if (!livePollTimer) livePollTimer = setInterval(pollAllBetGames, 30000);
+      }}, function (err) {{
+        document.getElementById('bets-list').innerHTML = '<div class="empty">Error loading bets: ' + escapeHtml(err.message) + '</div>';
+      }});
     }});
-    loadReport();
   }} else {{
     signinView.style.display = 'block';
     appView.style.display = 'none';
