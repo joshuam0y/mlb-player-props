@@ -499,13 +499,13 @@
   .bet-form-row input { padding: 8px 10px; border-radius: 8px; border: 1px solid var(--border); background: var(--surface-2); color: var(--text-primary); font-family: inherit; font-size: 13.5px; }
   .leg-input-row { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 8px; align-items: center; }
   .leg-input-row input, .leg-input-row select { padding: 8px 10px; border-radius: 8px; border: 1px solid var(--border); background: var(--surface-2); color: var(--text-primary); font-family: inherit; font-size: 13.5px; }
-  .leg-input-row .leg-player { width: 100%; box-sizing: border-box; }
-  .player-search-wrap { position: relative; flex: 1; min-width: 160px; }
-  .player-suggestions { display: none; position: absolute; top: 100%; left: 0; right: 0; background: var(--surface-1); border: 1px solid var(--border); border-radius: 8px; z-index: 20; max-height: 220px; overflow-y: auto; margin-top: 2px; box-shadow: var(--shadow); }
-  .player-suggestion { padding: 8px 10px; cursor: pointer; font-size: 13.5px; }
-  .player-suggestion:hover, .player-suggestion.active { background: var(--surface-3); }
-  .player-suggestion .sub { color: var(--text-secondary); font-size: 12px; }
-  .leg-input-row.leg-resolved .player-search-wrap .leg-player { border-color: var(--status-good); }
+  .leg-input-row .leg-entity { width: 100%; box-sizing: border-box; }
+  .entity-search-wrap { position: relative; flex: 1; min-width: 160px; }
+  .entity-suggestions { display: none; position: absolute; top: 100%; left: 0; right: 0; background: var(--surface-1); border: 1px solid var(--border); border-radius: 8px; z-index: 20; max-height: 220px; overflow-y: auto; margin-top: 2px; box-shadow: var(--shadow); }
+  .entity-suggestion { padding: 8px 10px; cursor: pointer; font-size: 13.5px; }
+  .entity-suggestion:hover, .entity-suggestion.active { background: var(--surface-3); }
+  .entity-suggestion .sub { color: var(--text-secondary); font-size: 12px; }
+  .leg-input-row.leg-resolved .entity-search-wrap .leg-entity { border-color: var(--status-good); }
   #bet-form button, #add-leg-btn { padding: 9px 16px; border-radius: 999px; border: none; background: var(--series-1); color: #fff; font-weight: 600; cursor: pointer; font-family: inherit; font-size: 13px; margin-right: 8px; margin-top: 4px; }
   #add-leg-btn { background: var(--surface-3); color: var(--text-primary); }
   #signout-btn { margin-top: 16px; padding: 8px 16px; border-radius: 999px; border: 1px solid var(--border); background: var(--surface-1); color: var(--text-primary); cursor: pointer; font-family: inherit; }
@@ -551,7 +551,11 @@
         own current projection/line for that exact player+category, purely
         for comparison against what was actually bet. Start typing a
         player's name to search -- pick them from the list so the category
-        options narrow to their actual position.
+        options narrow to their actual position. Switch a leg to "Team" for
+        a moneyline/run line/total game prop instead of a player prop --
+        those never grade early even if a team is currently leading, since
+        (unlike a player's own stat total) a lead can still get blown before
+        the final out.
       </div>
 
       <div class="stat-row" id="summary-tiles"></div>
@@ -1404,6 +1408,7 @@ function liveLeanResult(value, line, direction, isFinal) {
 
 let reportCache = null;
 let playerIndex = []; // [{player_id, name, role, team, game_pk, prop_categories}]
+let teamIndex = []; // [{team_id, name, opponent, game_pk, side}]
 
 function easternToday() {
   return new Intl.DateTimeFormat('en-CA', { timeZone: 'America/New_York' }).format(new Date());
@@ -1437,12 +1442,41 @@ function buildPlayerIndex(report) {
   playerIndex = index;
 }
 
+// One entry per (team, game) -- side ('home'/'away') is recorded here so
+// a game-prop leg can be graded (server-side) or live-overlaid
+// (client-side) without a separate DB lookup: home_score/away_score plus
+// which side this team was on is everything Moneyline/Run Line/Total
+// grading needs.
+function buildTeamIndex(report) {
+  const seen = new Set();
+  const index = [];
+  (report.games || []).forEach(function (g) {
+    ['home', 'away'].forEach(function (sideKey) {
+      const side = g[sideKey];
+      const oppSide = g[sideKey === 'home' ? 'away' : 'home'];
+      if (!side || !side.team_id) return;
+      const key = side.team_id + '-' + g.game_pk;
+      if (seen.has(key)) return;
+      seen.add(key);
+      index.push({
+        team_id: side.team_id,
+        name: side.team_name,
+        opponent: oppSide ? oppSide.team_name : '',
+        game_pk: g.game_pk,
+        side: sideKey,
+      });
+    });
+  });
+  teamIndex = index;
+}
+
 async function loadReport() {
   if (reportCache) return reportCache;
   try {
     const res = await fetch('latest.json', { cache: 'no-store' });
     reportCache = await res.json();
     buildPlayerIndex(reportCache);
+    buildTeamIndex(reportCache);
   } catch (e) {
     reportCache = { games: [] };
   }
@@ -1453,6 +1487,12 @@ function searchPlayers(text) {
   const wanted = text.trim().toLowerCase();
   if (!wanted) return [];
   return playerIndex.filter(function (p) { return p.name.toLowerCase().indexOf(wanted) !== -1; }).slice(0, 8);
+}
+
+function searchTeams(text) {
+  const wanted = text.trim().toLowerCase();
+  if (!wanted) return [];
+  return teamIndex.filter(function (t) { return t.name.toLowerCase().indexOf(wanted) !== -1; }).slice(0, 8);
 }
 
 function escapeHtml(s) {
@@ -1489,6 +1529,19 @@ function betProfit(bet) {
 }
 
 function legRowDisplayHtml(leg) {
+  if (leg.kind === 'game') {
+    const propTxt = leg.category === 'Moneyline'
+      ? leg.category
+      : leg.category + ' ' + (leg.direction ? leg.direction.toUpperCase() + ' ' : '') + leg.line;
+    const oppTxt = leg.opponent_name ? ' vs ' + escapeHtml(leg.opponent_name) : '';
+    const actualTxt = leg.actual_value != null ? ' &middot; actual margin/total: ' + leg.actual_value : '';
+    return (
+      '<div class="leg-row"><div class="leg-main"><b>' + escapeHtml(leg.team_name) + '</b>' + oppTxt + ' ' +
+      '<span class="leg-prop">' + escapeHtml(propTxt) + '</span> ' +
+      legStatusBadge(leg) + '</div>' +
+      '<div class="leg-sub sub">Team prop -- grades only once the game is Final' + actualTxt + '</div></div>'
+    );
+  }
   const modelTxt = leg.model_projection != null
     ? 'model: ' + leg.model_projection + ' proj vs ' + leg.model_line + ' line, leans ' + (leg.model_lean || '\u2014')
     : 'model: no current projection for this player/category';
@@ -1538,12 +1591,18 @@ function categoryOptionsHtml(role) {
   return '<option value="">Category</option>' + cats.map(function (c) { return '<option value="' + c + '">' + c + '</option>'; }).join('');
 }
 
+const GAME_CATEGORIES = ['Moneyline', 'Run Line', 'Total'];
+function gameCategoryOptionsHtml() {
+  return '<option value="">Category</option>' + GAME_CATEGORIES.map(function (c) { return '<option value="' + c + '">' + c + '</option>'; }).join('');
+}
+
 function legRowHtml(idx) {
   return (
-    '<div class="leg-input-row" data-idx="' + idx + '">' +
-    '<div class="player-search-wrap">' +
-    '<input type="text" class="leg-player" placeholder="Search player..." autocomplete="off" required>' +
-    '<div class="player-suggestions"></div>' +
+    '<div class="leg-input-row" data-idx="' + idx + '" data-kind="player">' +
+    '<select class="leg-kind"><option value="player">Player</option><option value="team">Team</option></select>' +
+    '<div class="entity-search-wrap">' +
+    '<input type="text" class="leg-entity" placeholder="Search player..." autocomplete="off" required>' +
+    '<div class="entity-suggestions"></div>' +
     '</div>' +
     '<select class="leg-category">' + categoryOptionsHtml(null) + '</select>' +
     '<input type="number" step="0.5" class="leg-line" placeholder="Line" required style="width:80px">' +
@@ -1552,54 +1611,115 @@ function legRowHtml(idx) {
   );
 }
 
-// Selecting a suggestion stores the resolved player_id/role/game_pk as
-// data-* on the row itself -- submission then trusts that resolution
-// directly instead of re-guessing from typed text, and the category
-// dropdown narrows to just that player's real categories (a batter can
-// never accidentally get offered "Strikeouts").
+// Selecting a suggestion (player OR team, depending on the row's current
+// "kind") stores the resolved id/role/game_pk/side as data-* on the row
+// itself -- submission then trusts that resolution directly instead of
+// re-guessing from typed text, and the category dropdown narrows to
+// either that player's real categories (a batter can never accidentally
+// get offered "Strikeouts") or the 3 game-prop categories.
 function wireLegRow(rowEl) {
-  const input = rowEl.querySelector('.leg-player');
-  const suggestionsEl = rowEl.querySelector('.player-suggestions');
+  const kindSelect = rowEl.querySelector('.leg-kind');
+  const input = rowEl.querySelector('.leg-entity');
+  const suggestionsEl = rowEl.querySelector('.entity-suggestions');
   const categorySelect = rowEl.querySelector('.leg-category');
+  const lineInput = rowEl.querySelector('.leg-line');
+  const directionSelect = rowEl.querySelector('.leg-direction');
 
-  input.addEventListener('input', function () {
+  function clearResolution() {
     rowEl.dataset.playerId = '';
     rowEl.dataset.role = '';
+    rowEl.dataset.teamId = '';
+    rowEl.dataset.opponent = '';
+    rowEl.dataset.side = '';
     rowEl.dataset.gamePk = '';
     rowEl.classList.remove('leg-resolved');
-    const matches = searchPlayers(input.value);
+  }
+
+  // Moneyline has no line/direction at all (just which team); Run Line
+  // needs a signed line (e.g. -1.5) but no direction (the team picked IS
+  // the direction); Total needs both, same as a player prop.
+  function updateFieldVisibility() {
+    const kind = kindSelect.value;
+    const category = categorySelect.value;
+    if (kind === 'player') {
+      lineInput.style.display = '';
+      directionSelect.style.display = '';
+      lineInput.required = true;
+    } else if (category === 'Moneyline') {
+      lineInput.style.display = 'none';
+      directionSelect.style.display = 'none';
+      lineInput.required = false;
+    } else if (category === 'Run Line') {
+      lineInput.style.display = '';
+      directionSelect.style.display = 'none';
+      lineInput.required = true;
+    } else {
+      lineInput.style.display = '';
+      directionSelect.style.display = '';
+      lineInput.required = true;
+    }
+  }
+
+  kindSelect.addEventListener('change', function () {
+    const kind = kindSelect.value;
+    rowEl.dataset.kind = kind;
+    input.value = '';
+    input.placeholder = kind === 'player' ? 'Search player...' : 'Search team...';
+    clearResolution();
+    categorySelect.innerHTML = kind === 'player' ? categoryOptionsHtml(null) : gameCategoryOptionsHtml();
+    updateFieldVisibility();
+  });
+
+  categorySelect.addEventListener('change', updateFieldVisibility);
+
+  input.addEventListener('input', function () {
+    clearResolution();
+    const kind = kindSelect.value;
+    const matches = kind === 'player' ? searchPlayers(input.value) : searchTeams(input.value);
     if (!matches.length) {
       suggestionsEl.style.display = 'none';
       suggestionsEl.innerHTML = '';
       return;
     }
     suggestionsEl.dataset.matches = JSON.stringify(matches);
-    suggestionsEl.innerHTML = matches.map(function (p, i) {
-      return '<div class="player-suggestion" data-i="' + i + '">' + escapeHtml(p.name) +
-        ' <span class="sub">' + escapeHtml(p.team || '') + '</span></div>';
+    suggestionsEl.innerHTML = matches.map(function (m, i) {
+      const sub = kind === 'player' ? (m.team || '') : ('vs ' + (m.opponent || ''));
+      return '<div class="entity-suggestion" data-i="' + i + '">' + escapeHtml(m.name) +
+        ' <span class="sub">' + escapeHtml(sub) + '</span></div>';
     }).join('');
     suggestionsEl.style.display = 'block';
   });
 
   suggestionsEl.addEventListener('mousedown', function (e) {
-    const item = e.target.closest('.player-suggestion');
+    const item = e.target.closest('.entity-suggestion');
     if (!item) return;
     e.preventDefault();
     const matches = JSON.parse(suggestionsEl.dataset.matches || '[]');
     const picked = matches[parseInt(item.dataset.i, 10)];
     if (!picked) return;
     input.value = picked.name;
-    rowEl.dataset.playerId = picked.player_id;
-    rowEl.dataset.role = picked.role;
-    rowEl.dataset.gamePk = picked.game_pk;
+    const kind = kindSelect.value;
+    if (kind === 'player') {
+      rowEl.dataset.playerId = picked.player_id;
+      rowEl.dataset.role = picked.role;
+      rowEl.dataset.gamePk = picked.game_pk;
+      categorySelect.innerHTML = categoryOptionsHtml(picked.role);
+    } else {
+      rowEl.dataset.teamId = picked.team_id;
+      rowEl.dataset.opponent = picked.opponent;
+      rowEl.dataset.side = picked.side;
+      rowEl.dataset.gamePk = picked.game_pk;
+    }
     rowEl.classList.add('leg-resolved');
-    categorySelect.innerHTML = categoryOptionsHtml(picked.role);
     suggestionsEl.style.display = 'none';
+    updateFieldVisibility();
   });
 
   input.addEventListener('blur', function () {
     setTimeout(function () { suggestionsEl.style.display = 'none'; }, 150);
   });
+
+  updateFieldVisibility();
 }
 
 let legIdx = 0;
@@ -1648,12 +1768,39 @@ function pollAllBetGames() {
 function applyLiveDataToBets(gamePk, data) {
   const isFinal = ((data.gameData || {}).status || {}).abstractGameState === 'Final';
   const box = ((data.liveData || {}).boxscore || {}).teams || {};
+  const linescore = (data.liveData || {}).linescore || {};
+  const homeRuns = ((linescore.teams || {}).home || {}).runs;
+  const awayRuns = ((linescore.teams || {}).away || {}).runs;
   let anyChanged = false;
   currentBets.forEach(function (bet) {
     if (bet.status !== 'pending') return;
     let betChanged = false;
     (bet.legs || []).forEach(function (leg) {
-      if (leg.status !== 'pending' || leg.game_pk !== gamePk || !leg.player_id) return;
+      if (leg.status !== 'pending' || leg.game_pk !== gamePk) return;
+
+      if (leg.kind === 'game') {
+        // Never grade a game-outcome prop before it's actually Final --
+        // unlike a player stat, a game lead isn't a permanent fact until
+        // the last out (see _grade_game_leg()'s own docstring server-side).
+        if (!isFinal || homeRuns == null || awayRuns == null) return;
+        const teamRuns = leg.side === 'home' ? homeRuns : awayRuns;
+        const oppRuns = leg.side === 'home' ? awayRuns : homeRuns;
+        let result = null;
+        if (leg.category === 'Moneyline') {
+          result = teamRuns > oppRuns ? 'hit' : 'miss';
+        } else if (leg.category === 'Run Line') {
+          result = (teamRuns - oppRuns) > -leg.line ? 'hit' : 'miss';
+        } else if (leg.category === 'Total') {
+          const cleared = (homeRuns + awayRuns) > leg.line;
+          result = (leg.direction === 'over' ? cleared : !cleared) ? 'hit' : 'miss';
+        }
+        if (!result) return;
+        leg.status = result;
+        betChanged = true;
+        return;
+      }
+
+      if (!leg.player_id) return;
       let batting = null, pitching = null;
       ['home', 'away'].forEach(function (side) {
         const players = (box[side] || {}).players || {};
@@ -1745,16 +1892,41 @@ document.getElementById('bet-form').addEventListener('submit', async function (e
     const legRows = document.querySelectorAll('#legs-container .leg-input-row');
     const legs = [];
     legRows.forEach(function (row) {
-      const playerName = row.querySelector('.leg-player').value.trim();
+      const kind = row.querySelector('.leg-kind').value;
+      const entityName = row.querySelector('.leg-entity').value.trim();
       const category = row.querySelector('.leg-category').value;
-      const line = parseFloat(row.querySelector('.leg-line').value);
+      const lineRaw = row.querySelector('.leg-line').value;
       const direction = row.querySelector('.leg-direction').value;
-      if (!playerName || !category || isNaN(line)) return;
-      // Trust the row's own resolved selection (from clicking a search
-      // suggestion) over re-guessing from the typed text -- if the row
-      // was never resolved (typed a name but never picked a suggestion),
-      // fall back to an unresolved leg rather than blocking submission
-      // entirely, same as the old text-only flow.
+      if (!entityName || !category) return;
+
+      if (kind === 'team') {
+        const teamId = row.dataset.teamId ? parseInt(row.dataset.teamId, 10) : null;
+        const needsLine = category !== 'Moneyline';
+        const line = lineRaw === '' ? null : parseFloat(lineRaw);
+        if (needsLine && (line == null || isNaN(line))) return;
+        legs.push({
+          kind: 'game',
+          team_name: entityName,
+          team_id: teamId,
+          opponent_name: row.dataset.opponent || null,
+          side: row.dataset.side || null,
+          game_pk: row.dataset.gamePk ? parseInt(row.dataset.gamePk, 10) : null,
+          category: category,
+          line: needsLine ? line : null,
+          direction: category === 'Total' ? direction : null,
+          status: 'pending',
+          actual_value: null,
+        });
+        return;
+      }
+
+      // Player leg. Trust the row's own resolved selection (from clicking
+      // a search suggestion) over re-guessing from the typed text -- if
+      // the row was never resolved (typed a name but never picked a
+      // suggestion), fall back to an unresolved leg rather than blocking
+      // submission entirely, same as the old text-only flow.
+      const line = parseFloat(lineRaw);
+      if (isNaN(line)) return;
       const playerId = row.dataset.playerId ? parseInt(row.dataset.playerId, 10) : null;
       const role = row.dataset.role || CATEGORY_ROLE[category];
       const gamePk = row.dataset.gamePk ? parseInt(row.dataset.gamePk, 10) : null;
@@ -1765,7 +1937,8 @@ document.getElementById('bet-form').addEventListener('submit', async function (e
         if (cat) { modelProjection = cat.today_projection; modelLine = cat.primary_line; modelLean = cat.lean; }
       }
       legs.push({
-        player_name: playerName,
+        kind: 'player',
+        player_name: entityName,
         player_id: playerId,
         role: role,
         category: category,
@@ -1780,7 +1953,7 @@ document.getElementById('bet-form').addEventListener('submit', async function (e
         model_lean: modelLean,
       });
     });
-    if (!legs.length) { errorEl.textContent = 'Add at least one leg (pick a player from the search results, choose a category and line).'; return; }
+    if (!legs.length) { errorEl.textContent = 'Add at least one leg (pick a player or team from the search results, choose a category and line).'; return; }
     const stake = parseFloat(document.getElementById('bet-stake').value);
     const toWin = parseFloat(document.getElementById('bet-to-win').value);
     if (isNaN(stake) || isNaN(toWin)) { errorEl.textContent = 'Stake and to-win must be numbers.'; return; }

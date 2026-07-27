@@ -52,7 +52,7 @@ def _leg_field(role, category):
     return (_BATTER_CATEGORY_FIELD if role == "batter" else _PITCHER_CATEGORY_FIELD).get(category)
 
 
-def _grade_leg(conn, leg, placed_date):
+def _grade_player_leg(conn, leg, placed_date):
     """Mutates leg in place; returns True if anything about it changed."""
     from build_props import (
         FINAL_STATUSES,
@@ -89,6 +89,69 @@ def _grade_leg(conn, leg, placed_date):
         leg["dnp"] = True
         return True
     return changed
+
+
+def _game_pk_and_side_for_team(conn, team_id, date):
+    row = conn.execute(
+        "SELECT game_pk, home_team_id FROM games WHERE official_date = ? AND ? IN (home_team_id, away_team_id)",
+        (date, team_id),
+    ).fetchone()
+    if not row:
+        return None, None
+    return row["game_pk"], ("home" if row["home_team_id"] == team_id else "away")
+
+
+def _grade_game_leg(conn, leg, placed_date):
+    """
+    Mutates leg in place; returns True if anything about it changed.
+    Deliberately does NOT use pick_result()'s "cleared is permanent, safe
+    to show early" asymmetry -- that relies on the graded stat only ever
+    increasing over a game (a hit total can't go down), which is true for
+    every player prop category but NOT true for a team's game outcome: a
+    5th-inning lead can still get blown, a run differential can shrink,
+    so "currently ahead" is never a safe permanent fact the way "already
+    has 2 hits" is. Every game-prop category here only ever grades once
+    the game is genuinely Final, no early exception.
+    """
+    from build_props import FINAL_STATUSES
+
+    if leg.get("status") != "pending" or not leg.get("team_id"):
+        return False
+    game_pk, side = leg.get("game_pk"), leg.get("side")
+    if not game_pk or not side:
+        game_pk, side = _game_pk_and_side_for_team(conn, leg["team_id"], placed_date)
+        if not game_pk:
+            return False
+    changed = leg.get("game_pk") != game_pk
+    leg["game_pk"], leg["side"] = game_pk, side
+    row = conn.execute("SELECT home_score, away_score, status FROM games WHERE game_pk = ?", (game_pk,)).fetchone()
+    if not row or row["status"] not in FINAL_STATUSES or row["home_score"] is None or row["away_score"] is None:
+        return changed
+    home_score, away_score = row["home_score"], row["away_score"]
+    team_score = home_score if side == "home" else away_score
+    opp_score = away_score if side == "home" else home_score
+    category = leg["category"]
+    if category == "Moneyline":
+        leg["status"] = "hit" if team_score > opp_score else "miss"
+        leg["actual_value"] = team_score - opp_score
+    elif category == "Run Line":
+        margin = team_score - opp_score
+        leg["status"] = "hit" if margin > -leg["line"] else "miss"
+        leg["actual_value"] = margin
+    elif category == "Total":
+        total = home_score + away_score
+        cleared = total > leg["line"]
+        leg["status"] = "hit" if (cleared if leg["direction"] == "over" else not cleared) else "miss"
+        leg["actual_value"] = total
+    else:
+        return changed
+    return True
+
+
+def _grade_leg(conn, leg, placed_date):
+    if leg.get("kind") == "game":
+        return _grade_game_leg(conn, leg, placed_date)
+    return _grade_player_leg(conn, leg, placed_date)
 
 
 def regrade_all_pending(conn):
