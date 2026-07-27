@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-07-27T21:19:46.935122+00:00_
+_Generated 2026-07-27T21:39:06.528973+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -213,8 +213,8 @@ _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.34)_
 
 ## 2026-07-27 - Atlanta Braves @ New York Mets (Pre-Game)
 _Citi Field_
-Projected score: Atlanta Braves 3.17 - New York Mets 3.06
-Model likes: **Atlanta Braves** to win (51%) | Run line: **New York Mets** +1.5 (68% to cover) | Total 6.5: lean **UNDER** (58%)
+Projected score: Atlanta Braves 3.17 - New York Mets 3.21
+Model likes: **New York Mets** to win (50%) | Run line: **Atlanta Braves** +1.5 (68% to cover) | Total 6.5: lean **UNDER** (57%)
 
 ### Atlanta Braves lineup -- CONFIRMED
 _Facing a taxed bullpen: 8.0 relief IP in last 2 days (ratio 1.53)_
@@ -229,23 +229,23 @@ _Facing a taxed bullpen: 8.0 relief IP in last 2 days (ratio 1.53)_
 - #8 Joey Bart (R) -- L7: 3H 0HR 1RBI 5TB (0.2 avg) -- away split: 0.245 avg
 - #9 Jim Jarvis (L) [TOUGH MATCHUP: pitcher holds this hand to 0.143 avg-against] -- L7: 4H 0HR 4RBI 7TB (0.211 avg) -- away split: 0.269 avg
 
-### New York Mets lineup -- PROJECTED (unconfirmed)
+### New York Mets lineup -- CONFIRMED
 _Facing a taxed bullpen: 9.0 relief IP in last 2 days (ratio 2.04)_
 **Probable P: Zac Thornton (L)** -- L5: 23.3 IP, 17 K, 5 ER, 1.93 ERA
-- A.J. Ewing (L) -- L7: 6H 0HR 0RBI 8TB (0.194 avg) -- home split: 0.281 avg
-- Francisco Lindor (S) [likely BABIP-driven, not a real power uptick] -- L7: 9H 1HR 5RBI 14TB (0.333 avg) -- home split: 0.221 avg
-- Carson Benge (L) -- L7: 5H 0HR 3RBI 6TB (0.192 avg) -- home split: 0.267 avg
-- Bo Bichette (R) -- L7: 10H 0HR 1RBI 11TB (0.345 avg) -- home split: 0.242 avg
-- Jared Young (L) -- L7: 5H 1HR 1RBI 9TB (0.312 avg) -- home split: 0.269 avg
-- Brett Baty (L) -- L7: 5H 2HR 2RBI 11TB (0.2 avg) -- home split: 0.237 avg
-- Tyrone Taylor (R) -- L7: 6H 2HR 6RBI 15TB (0.429 avg) -- home split: 0.283 avg
-- Jorge Polanco (S) -- L7: 1H 0HR 1RBI 1TB (0.045 avg) -- home split: 0.132 avg
-- Francisco Alvarez (R) [4-game hit streak] -- L7: 8H 3HR 4RBI 17TB (0.381 avg) -- home split: 0.245 avg
+- #1 A.J. Ewing (L) -- L7: 6H 0HR 0RBI 8TB (0.194 avg) -- home split: 0.281 avg
+- #2 Francisco Lindor (S) [likely BABIP-driven, not a real power uptick] -- L7: 9H 1HR 5RBI 14TB (0.333 avg) -- home split: 0.221 avg
+- #3 Bo Bichette (R) -- L7: 10H 0HR 1RBI 11TB (0.345 avg) -- home split: 0.242 avg
+- #4 Luis Robert Jr. (R) -- L7: 2H 2HR 2RBI 8TB (0.111 avg) -- home split: 0.229 avg
+- #5 Francisco Alvarez (R) [4-game hit streak] -- L7: 8H 3HR 4RBI 17TB (0.381 avg) -- home split: 0.245 avg
+- #6 Jared Young (L) -- L7: 5H 1HR 1RBI 9TB (0.312 avg) -- home split: 0.269 avg
+- #7 Tyrone Taylor (R) -- L7: 6H 2HR 6RBI 15TB (0.429 avg) -- home split: 0.283 avg
+- #8 Marcus Semien (R) -- L7: 3H 2HR 4RBI 9TB (0.125 avg) -- home split: 0.184 avg
+- #9 Luis Torrens (R) -- L7: 6H 0HR 1RBI 7TB (0.25 avg) -- home split: 0.198 avg
 
 ## 2026-07-27 - Cleveland Guardians @ Cincinnati Reds (Pre-Game)
 _Great American Ball Park [hitter-friendly park]_
 Projected score: Cleveland Guardians 2.69 - Cincinnati Reds 3.63
-Model likes: **Cincinnati Reds** to win (60%) | Run line: **Cleveland Guardians** +1.5 (59% to cover) | Total 6.5: lean **UNDER** (57%)
+Model likes: **Cincinnati Reds** to win (60%) | Run line: **Cleveland Guardians** +1.5 (59% to cover) | Total 6.5: lean **UNDER** (58%)
 
 ### Cleveland Guardians lineup -- CONFIRMED
 _Facing a taxed bullpen: 6.7 relief IP in last 2 days (ratio 1.73)_
@@ -396,10 +396,10 @@ _Facing a taxed bullpen: 9.0 relief IP in last 2 days (ratio 1.76)_
 - Carlos Cortes (L) -- L7: 3H 1HR 4RBI 7TB (0.158 avg) -- home split: 0.245 avg
 - Colby Thomas (R) -- L7: 1H 0HR 0RBI 1TB (0.083 avg) -- home split: 0.23 avg
 
-## 2026-07-27 - Milwaukee Brewers @ San Francisco Giants (Scheduled)
+## 2026-07-27 - Milwaukee Brewers @ San Francisco Giants (Pre-Game)
 _Oracle Park [pitcher-friendly park]_
-Projected score: Milwaukee Brewers 4.91 - San Francisco Giants 3.91
-Model likes: **Milwaukee Brewers** to win (58%) | Run line: **San Francisco Giants** +1.5 (56% to cover) | Total 8.5: lean **UNDER** (53%)
+Projected score: Milwaukee Brewers 4.91 - San Francisco Giants 3.84
+Model likes: **Milwaukee Brewers** to win (59%) | Run line: **San Francisco Giants** +1.5 (56% to cover) | Total 8.5: lean **UNDER** (53%)
 
 ### Milwaukee Brewers lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.83)_
@@ -414,18 +414,18 @@ _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.83)_
 - Andrew Vaughn (R) [3-game hit streak] -- L7: 6H 2HR 4RBI 13TB (0.286 avg) -- away split: 0.354 avg
 - Christian Yelich (L) [4-game hit streak] -- L7: 7H 1HR 6RBI 16TB (0.241 avg) -- away split: 0.215 avg
 
-### San Francisco Giants lineup -- PROJECTED (unconfirmed)
+### San Francisco Giants lineup -- CONFIRMED
 _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.41)_
 **Probable P: Tyler Mahle (R)** -- L5: 26.3 IP, 20 K, 11 ER, 3.76 ERA
-- Bryce Eldridge (L) -- L7: 3H 1HR 1RBI 7TB (0.13 avg) -- home split: 0.24 avg
-- Heliot Ramos (R) -- L7: 4H 1HR 3RBI 7TB (0.138 avg) -- home split: 0.276 avg
-- Casey Schmitt (R) -- L7: 4H 2HR 5RBI 10TB (0.148 avg) -- home split: 0.228 avg
-- Rafael Devers (L) -- L7: 7H 2HR 7RBI 15TB (0.28 avg) -- home split: 0.249 avg
-- Willy Adames (R) -- L7: 4H 1HR 3RBI 10TB (0.16 avg) -- home split: 0.207 avg
-- Jung Hoo Lee (L) -- L7: 6H 1HR 4RBI 12TB (0.231 avg) -- home split: 0.268 avg
-- Luis Arraez (L) [3-game hit streak] -- L7: 9H 0HR 5RBI 11TB (0.31 avg) -- home split: 0.354 avg
-- Drew Gilbert (L) -- L7: 5H 0HR 1RBI 5TB (0.238 avg) -- home split: 0.22 avg
-- Drew Cavanaugh (L) [likely BABIP-driven, not a real power uptick] -- L7: 4H 0HR 0RBI 4TB (0.4 avg) -- home split: 0.273 avg
+- #1 Luis Arraez (L) [3-game hit streak] -- L7: 9H 0HR 5RBI 11TB (0.31 avg) -- home split: 0.354 avg
+- #2 Heliot Ramos (R) -- L7: 4H 1HR 3RBI 7TB (0.138 avg) -- home split: 0.276 avg
+- #3 Bryce Eldridge (L) -- L7: 3H 1HR 1RBI 7TB (0.13 avg) -- home split: 0.24 avg
+- #4 Rafael Devers (L) -- L7: 7H 2HR 7RBI 15TB (0.28 avg) -- home split: 0.249 avg
+- #5 Casey Schmitt (R) -- L7: 4H 2HR 5RBI 10TB (0.148 avg) -- home split: 0.228 avg
+- #6 Drew Gilbert (L) -- L7: 5H 0HR 1RBI 5TB (0.238 avg) -- home split: 0.22 avg
+- #7 Willy Adames (R) -- L7: 4H 1HR 3RBI 10TB (0.16 avg) -- home split: 0.207 avg
+- #8 Grant McCray (L) -- L7: 0H 0HR 0RBI 0TB (0.0 avg) -- home split: 0.0 avg
+- #9 Jesus Rodriguez (R) -- L7: 3H 1HR 3RBI 8TB (0.25 avg) -- home split: 0.3 avg
 
 ## 2026-07-28 - Texas Rangers @ Tampa Bay Rays (Scheduled)
 _Tropicana Field_
@@ -1026,7 +1026,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-07-29 - Milwaukee Brewers @ San Francisco Giants (Scheduled)
 _Oracle Park [pitcher-friendly park]_
 Projected score: Milwaukee Brewers 4.08 - San Francisco Giants 3.11
-Model likes: **Milwaukee Brewers** to win (60%) | Run line: **San Francisco Giants** +1.5 (58% to cover) | Total 6.5: lean **OVER** (52%)
+Model likes: **Milwaukee Brewers** to win (59%) | Run line: **San Francisco Giants** +1.5 (58% to cover) | Total 6.5: lean **OVER** (52%)
 
 ### Milwaukee Brewers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1299,7 +1299,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-07-29 - Seattle Mariners @ Los Angeles Dodgers (Scheduled)
 _UNIQLO Field at Dodger Stadium_
 Projected score: Seattle Mariners 3.7 - Los Angeles Dodgers 3.54
-Model likes: **Seattle Mariners** to win (52%) | Run line: **Los Angeles Dodgers** +1.5 (66% to cover) | Total 6.5: lean **OVER** (52%)
+Model likes: **Seattle Mariners** to win (52%) | Run line: **Los Angeles Dodgers** +1.5 (65% to cover) | Total 6.5: lean **OVER** (52%)
 
 ### Seattle Mariners lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
