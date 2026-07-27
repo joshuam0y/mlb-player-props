@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-07-27T20:04:56.452907+00:00_
+_Generated 2026-07-27T20:22:49.413286+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -215,7 +215,7 @@ _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.34)_
 ## 2026-07-27 - Atlanta Braves @ New York Mets (Pre-Game)
 _Citi Field_
 Projected score: Atlanta Braves 3.17 - New York Mets 3.06
-Model likes: **Atlanta Braves** to win (51%) | Run line: **New York Mets** +1.5 (68% to cover) | Total 6.5: lean **UNDER** (58%)
+Model likes: **Atlanta Braves** to win (51%) | Run line: **New York Mets** +1.5 (68% to cover) | Total 6.5: lean **UNDER** (59%)
 
 ### Atlanta Braves lineup -- CONFIRMED
 _Facing a taxed bullpen: 8.0 relief IP in last 2 days (ratio 1.53)_
@@ -307,8 +307,8 @@ _Facing a taxed bullpen: 8.3 relief IP in last 2 days (ratio 1.59)_
 
 ## 2026-07-27 - Chicago Cubs @ St. Louis Cardinals (Pre-Game)
 _Busch Stadium_
-Projected score: Chicago Cubs 5.23 - St. Louis Cardinals 4.53
-Model likes: **Chicago Cubs** to win (55%) | Run line: **St. Louis Cardinals** +1.5 (58% to cover) | Total 8.5: lean **OVER** (55%)
+Projected score: Chicago Cubs 5.23 - St. Louis Cardinals 4.49
+Model likes: **Chicago Cubs** to win (56%) | Run line: **St. Louis Cardinals** +1.5 (58% to cover) | Total 8.5: lean **OVER** (55%)
 
 ### Chicago Cubs lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 6.0 relief IP in last 2 days (ratio 1.25)_
@@ -323,17 +323,17 @@ _Facing a taxed bullpen: 6.0 relief IP in last 2 days (ratio 1.25)_
 - Michael Conforto (L) -- L7: 2H 1HR 2RBI 6TB (0.167 avg) -- away split: 0.239 avg
 - Carson Kelly (R) -- L7: 2H 0HR 4RBI 2TB (0.095 avg) -- away split: 0.228 avg
 
-### St. Louis Cardinals lineup -- PROJECTED (unconfirmed)
+### St. Louis Cardinals lineup -- CONFIRMED
 _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.92)_
-- Nathan Church (L) -- L7: 3H 0HR 2RBI 3TB (0.214 avg) -- home split: 0.228 avg
-- Masyn Winn (R) [MATCHUP EDGE: pitcher hits 0.292 avg-against vs this hand] -- L7: 4H 0HR 0RBI 4TB (0.167 avg) -- home split: 0.235 avg
-- Jordan Walker (R) [MATCHUP EDGE: pitcher hits 0.292 avg-against vs this hand] -- L7: 6H 0HR 1RBI 9TB (0.214 avg) -- home split: 0.296 avg
-- Alec Burleson (L) [likely BABIP-driven, not a real power uptick] -- L7: 12H 0HR 2RBI 15TB (0.414 avg) -- home split: 0.275 avg
-- JJ Wetherholt (L) -- L7: 3H 1HR 2RBI 6TB (0.115 avg) -- home split: 0.229 avg
-- Iván Herrera (R) [MATCHUP EDGE: pitcher hits 0.292 avg-against vs this hand] -- L7: 8H 1HR 3RBI 12TB (0.267 avg) -- home split: 0.211 avg
-- Lars Nootbaar (L) -- L7: 3H 0HR 3RBI 3TB (0.143 avg) -- home split: 0.277 avg
-- José Fermín (R) [MATCHUP EDGE: pitcher hits 0.292 avg-against vs this hand] -- L7: 3H 0HR 1RBI 3TB (0.231 avg) -- home split: 0.25 avg
-- Blaze Jordan (R) [MATCHUP EDGE: pitcher hits 0.292 avg-against vs this hand] -- L7: 4H 0HR 5RBI 5TB (0.167 avg) -- home split: 0.157 avg
+- #1 JJ Wetherholt (L) -- L7: 3H 1HR 2RBI 6TB (0.115 avg) -- home split: 0.229 avg
+- #2 Jordan Walker (R) [MATCHUP EDGE: pitcher hits 0.292 avg-against vs this hand] -- L7: 6H 0HR 1RBI 9TB (0.214 avg) -- home split: 0.296 avg
+- #3 Iván Herrera (R) [MATCHUP EDGE: pitcher hits 0.292 avg-against vs this hand] -- L7: 8H 1HR 3RBI 12TB (0.267 avg) -- home split: 0.211 avg
+- #4 Alec Burleson (L) [likely BABIP-driven, not a real power uptick] -- L7: 12H 0HR 2RBI 15TB (0.414 avg) -- home split: 0.275 avg
+- #5 Masyn Winn (R) [MATCHUP EDGE: pitcher hits 0.292 avg-against vs this hand] -- L7: 4H 0HR 0RBI 4TB (0.167 avg) -- home split: 0.235 avg
+- #6 Nelson Velázquez (R) [MATCHUP EDGE: pitcher hits 0.292 avg-against vs this hand] -- L7: 0H 0HR 0RBI 0TB (0.0 avg) -- home split: 0.22 avg
+- #7 José Fermín (R) [MATCHUP EDGE: pitcher hits 0.292 avg-against vs this hand] -- L7: 3H 0HR 1RBI 3TB (0.231 avg) -- home split: 0.25 avg
+- #8 Lars Nootbaar (L) -- L7: 3H 0HR 3RBI 3TB (0.143 avg) -- home split: 0.277 avg
+- #9 Blaze Jordan (R) [MATCHUP EDGE: pitcher hits 0.292 avg-against vs this hand] -- L7: 4H 0HR 5RBI 5TB (0.167 avg) -- home split: 0.157 avg
 
 ## 2026-07-27 - Houston Astros @ Los Angeles Angels (Scheduled)
 _Angel Stadium_
@@ -399,7 +399,7 @@ _Facing a taxed bullpen: 9.0 relief IP in last 2 days (ratio 1.76)_
 ## 2026-07-27 - Milwaukee Brewers @ San Francisco Giants (Scheduled)
 _Oracle Park [pitcher-friendly park]_
 Projected score: Milwaukee Brewers 4.91 - San Francisco Giants 3.91
-Model likes: **Milwaukee Brewers** to win (58%) | Run line: **San Francisco Giants** +1.5 (56% to cover) | Total 8.5: lean **UNDER** (53%)
+Model likes: **Milwaukee Brewers** to win (58%) | Run line: **San Francisco Giants** +1.5 (57% to cover) | Total 8.5: lean **UNDER** (53%)
 
 ### Milwaukee Brewers lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.83)_
@@ -459,7 +459,7 @@ _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.39)_
 ## 2026-07-28 - Arizona Diamondbacks @ Pittsburgh Pirates (Scheduled)
 _PNC Park_
 Projected score: Arizona Diamondbacks 4.53 - Pittsburgh Pirates 5.1
-Model likes: **Pittsburgh Pirates** to win (54%) | Run line: **Arizona Diamondbacks** +1.5 (59% to cover) | Total 8.5: lean **OVER** (54%)
+Model likes: **Pittsburgh Pirates** to win (55%) | Run line: **Arizona Diamondbacks** +1.5 (59% to cover) | Total 8.5: lean **OVER** (54%)
 
 ### Arizona Diamondbacks lineup -- PROJECTED (unconfirmed)
 **Probable P: Brandon Pfaadt (R)** -- L5: 27.0 IP, 14 K, 7 ER, 2.33 ERA
@@ -785,7 +785,7 @@ _Facing a rested bullpen: 1.7 relief IP in last 2 days (ratio 0.34)_
 ## 2026-07-28 - Boston Red Sox @ Athletics (Scheduled)
 _Sutter Health Park_
 Projected score: Boston Red Sox 5.18 - Athletics 2.89
-Model likes: **Boston Red Sox** to win (70%) | Run line: **Boston Red Sox** -1.5 (54% to cover) | Total 6.5: lean **OVER** (59%)
+Model likes: **Boston Red Sox** to win (70%) | Run line: **Boston Red Sox** -1.5 (55% to cover) | Total 6.5: lean **OVER** (60%)
 
 ### Boston Red Sox lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 6.7 relief IP in last 2 days (ratio 1.55)_
@@ -872,7 +872,7 @@ Model likes: **Los Angeles Dodgers** to win (57%) | Run line: **Seattle Mariners
 ## 2026-07-29 - Philadelphia Phillies @ Miami Marlins (Scheduled)
 _loanDepot park [pitcher-friendly park]_
 Projected score: Philadelphia Phillies 3.41 - Miami Marlins 3.13
-Model likes: **Philadelphia Phillies** to win (53%) | Run line: **Miami Marlins** +1.5 (66% to cover) | Total 6.5: lean **UNDER** (55%)
+Model likes: **Philadelphia Phillies** to win (53%) | Run line: **Miami Marlins** +1.5 (65% to cover) | Total 6.5: lean **UNDER** (55%)
 
 ### Philadelphia Phillies lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -995,7 +995,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-07-29 - Baltimore Orioles @ Detroit Tigers (Scheduled)
 _Comerica Park [pitcher-friendly park]_
 Projected score: Baltimore Orioles 2.92 - Detroit Tigers 3.42
-Model likes: **Detroit Tigers** to win (55%) | Run line: **Baltimore Orioles** +1.5 (64% to cover) | Total 6.5: lean **UNDER** (57%)
+Model likes: **Detroit Tigers** to win (56%) | Run line: **Baltimore Orioles** +1.5 (64% to cover) | Total 6.5: lean **UNDER** (57%)
 
 ### Baltimore Orioles lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
