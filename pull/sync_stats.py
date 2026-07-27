@@ -19,7 +19,7 @@ import time
 from datetime import datetime, timedelta, timezone
 
 import api
-from db import CAREER_SEASON, get_conn, init_db
+from db import CAREER_SEASON, get_conn, init_db, mlb_today
 
 CURRENT_SEASON = datetime.now(timezone.utc).year
 
@@ -270,7 +270,7 @@ def run(player_ids=None, only_active=True, time_budget_seconds=None):
     # bootstrapped at least once. Skipped only when explicit --player-id was
     # NOT given (a manual single-player run should always process it).
     if not player_ids:
-        cutoff = (datetime.now(timezone.utc) - timedelta(days=1)).strftime("%Y-%m-%d")
+        cutoff = (datetime.strptime(mlb_today(), "%Y-%m-%d") - timedelta(days=1)).strftime("%Y-%m-%d")
         active_teams = teams_active_since(conn, cutoff)
         bootstrapped = players_with_current_season_data(conn)
         before = len(players)
@@ -289,7 +289,7 @@ def run(player_ids=None, only_active=True, time_budget_seconds=None):
     # site, until the shuffle happens to land on them again.
     random.shuffle(players)
     if not player_ids:
-        cutoff = (datetime.now(timezone.utc) - timedelta(days=1)).strftime("%Y-%m-%d")
+        cutoff = (datetime.strptime(mlb_today(), "%Y-%m-%d") - timedelta(days=1)).strftime("%Y-%m-%d")
         priority_teams = teams_just_finished(conn, cutoff)
         players.sort(key=lambda p: p["current_team_id"] not in priority_teams)
 
