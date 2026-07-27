@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-07-27T13:27:11.917676+00:00_
+_Generated 2026-07-27T13:58:14.756698+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -22,12 +22,12 @@ _Generated 2026-07-27T13:27:11.917676+00:00_
 ### Pitchers
 - **Keider Montero** (Detroit Tigers vs Baltimore Orioles): pitching well above his season norm over his last few starts, 4 hitters in tonight's lineup are in a tough matchup against him -- try Strikeouts: 60% over 3.5 recently (vs. 5-game sample)
 - **Tatsuya Imai** (Houston Astros vs Los Angeles Angels): pitching well above his season norm over his last few starts, 8 hitters in tonight's lineup are in a tough matchup against him -- try Strikeouts: 60% over 5.5 recently (vs. 5-game sample)
-- **Mitch Keller** (Pittsburgh Pirates vs Arizona Diamondbacks): 3 hitters in tonight's lineup are in a tough matchup against him -- try Strikeouts: 60% over 3.5 recently (vs. 5-game sample)
-- **Tyler Phillips** (Miami Marlins vs Philadelphia Phillies): 4 hitters in tonight's lineup are in a tough matchup against him -- try Strikeouts: 20% over 2.5 recently (vs. 5-game sample)
+- **Mitch Keller** (Pittsburgh Pirates vs Arizona Diamondbacks): 3 hitters in tonight's lineup are in a tough matchup against him -- try Runs Allowed: 80% over 2.5 recently (vs. 5-game sample)
+- **Tyler Phillips** (Miami Marlins vs Philadelphia Phillies): 4 hitters in tonight's lineup are in a tough matchup against him -- try Hits Allowed: 80% over 3.5 recently (vs. 5-game sample)
 - **Zack Wheeler** (Philadelphia Phillies vs Miami Marlins): 3 hitters in tonight's lineup are in a tough matchup against him -- try Strikeouts: 80% over 8.5 recently (vs. 5-game sample)
 - **Zac Thornton** (New York Mets vs Atlanta Braves): 5 hitters in tonight's lineup are in a tough matchup against him -- try Strikeouts: 50% over 4.5 recently (vs. 4-game sample)
 - **Walbert Ureña** (Los Angeles Angels vs Houston Astros): 7 hitters in tonight's lineup are in a tough matchup against him -- try Strikeouts: 80% over 4.5 recently (vs. 5-game sample)
-- **Chase Burns** (Cincinnati Reds vs Cleveland Guardians): 2 hitter(s) in tonight's lineup are in a tough matchup against him, opposing lineup has struck out at an elevated rate over their last 2 games (32% vs their own 24% season rate) -- try Strikeouts: 40% over 6.5 recently (vs. 5-game sample)
+- **Chase Burns** (Cincinnati Reds vs Cleveland Guardians): 2 hitter(s) in tonight's lineup are in a tough matchup against him, opposing lineup has struck out at an elevated rate over their last 2 games (32% vs their own 24% season rate) -- try Runs Allowed: 60% over 1.5 recently (vs. 5-game sample)
 
 ## Today's Top Unders
 ### Batters
@@ -48,14 +48,14 @@ _Generated 2026-07-27T13:27:11.917676+00:00_
 - **Alec Bohm** (Philadelphia Phillies vs Miami Marlins): tough matchup vs. tonight's pitcher -- try Walks: 10% over 0.5 recently (vs. 10-game sample)
 
 ### Pitchers
-- **Keider Montero** (Detroit Tigers vs Baltimore Orioles): allowing fewer runs than usual over his last few starts, 4 hitters in tonight's lineup are in a tough matchup against him -- try Runs Allowed: 20% over 1.5 recently (vs. 5-game sample)
+- **Keider Montero** (Detroit Tigers vs Baltimore Orioles): allowing fewer runs than usual over his last few starts, 4 hitters in tonight's lineup are in a tough matchup against him -- try Hits Allowed: 40% over 2.5 recently (vs. 5-game sample)
 - **Tatsuya Imai** (Houston Astros vs Los Angeles Angels): allowing fewer runs than usual over his last few starts, 8 hitters in tonight's lineup are in a tough matchup against him -- try Runs Allowed: 40% over 2.5 recently (vs. 5-game sample)
 - **George Kirby** (Seattle Mariners vs Texas Rangers): allowing fewer runs than usual over his last few starts -- try Runs Allowed: 20% over 2.5 recently (vs. 5-game sample)
-- **Mitch Keller** (Pittsburgh Pirates vs Arizona Diamondbacks): 3 hitters in tonight's lineup are in a tough matchup against him -- try Runs Allowed: 80% over 2.5 recently (vs. 5-game sample)
-- **Tyler Phillips** (Miami Marlins vs Philadelphia Phillies): 4 hitters in tonight's lineup are in a tough matchup against him -- try Runs Allowed: 80% over 1.5 recently (vs. 5-game sample)
-- **Zack Wheeler** (Philadelphia Phillies vs Miami Marlins): 3 hitters in tonight's lineup are in a tough matchup against him -- try Runs Allowed: 40% over 1.5 recently (vs. 5-game sample)
-- **Kyle Bradish** (Baltimore Orioles vs Detroit Tigers): allowing fewer runs than usual over his last few starts -- try Runs Allowed: 40% over 1.5 recently (vs. 5-game sample)
-- **Zac Thornton** (New York Mets vs Atlanta Braves): 5 hitters in tonight's lineup are in a tough matchup against him -- try Runs Allowed: 25% over 1.5 recently (vs. 4-game sample)
+- **Mitch Keller** (Pittsburgh Pirates vs Arizona Diamondbacks): 3 hitters in tonight's lineup are in a tough matchup against him -- try Walks Allowed: 40% over 1.5 recently (vs. 5-game sample)
+- **Tyler Phillips** (Miami Marlins vs Philadelphia Phillies): 4 hitters in tonight's lineup are in a tough matchup against him -- try Strikeouts: 20% over 2.5 recently (vs. 5-game sample)
+- **Zack Wheeler** (Philadelphia Phillies vs Miami Marlins): 3 hitters in tonight's lineup are in a tough matchup against him -- try Walks Allowed: 20% over 1.5 recently (vs. 5-game sample)
+- **Kyle Bradish** (Baltimore Orioles vs Detroit Tigers): allowing fewer runs than usual over his last few starts -- try Strikeouts: 20% over 5.5 recently (vs. 5-game sample)
+- **Zac Thornton** (New York Mets vs Atlanta Braves): 5 hitters in tonight's lineup are in a tough matchup against him -- try Strikeouts: 50% over 4.5 recently (vs. 4-game sample)
 
 ## 2026-07-27 - Seattle Mariners @ Texas Rangers (Scheduled)
 _Globe Life Field [hitter-friendly park]_
@@ -995,7 +995,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-07-29 - Baltimore Orioles @ Detroit Tigers (Scheduled)
 _Comerica Park [pitcher-friendly park]_
 Projected score: Baltimore Orioles 2.92 - Detroit Tigers 3.42
-Model likes: **Detroit Tigers** to win (56%) | Run line: **Baltimore Orioles** +1.5 (64% to cover) | Total 6.5: lean **UNDER** (57%)
+Model likes: **Detroit Tigers** to win (55%) | Run line: **Baltimore Orioles** +1.5 (64% to cover) | Total 6.5: lean **UNDER** (57%)
 
 ### Baltimore Orioles lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1116,7 +1116,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-07-29 - Cleveland Guardians @ Cincinnati Reds (Scheduled)
 _Great American Ball Park [hitter-friendly park]_
 Projected score: Cleveland Guardians 4.26 - Cincinnati Reds 3.45
-Model likes: **Cleveland Guardians** to win (57%) | Run line: **Cincinnati Reds** +1.5 (59% to cover) | Total 6.5: lean **OVER** (57%)
+Model likes: **Cleveland Guardians** to win (58%) | Run line: **Cincinnati Reds** +1.5 (59% to cover) | Total 6.5: lean **OVER** (57%)
 
 ### Cleveland Guardians lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
