@@ -53,6 +53,14 @@ def run(days_ahead=2, n_trials=1000000):
             game["home_probable_pitcher_id"],
             game["away_probable_pitcher_id"],
             park_factor_tier(game["venue_name"]),
+            # Every other caller (backtest.py, calibrate.py) passes the
+            # game's own date; leaving this as the default None sent
+            # team_bullpen_fatigue() down its datetime.now(timezone.utc)
+            # branch -- wrong for the same reason every other "today" cutoff
+            # in this pipeline already got fixed (see db.mlb_today()) -- and
+            # also left its recent-innings window with no upper bound at all
+            # (as_of_date=None skips _date_filter()'s upper bound entirely).
+            as_of_date=today,
             home_batter_ids=home_batter_ids,
             away_batter_ids=away_batter_ids,
         )
