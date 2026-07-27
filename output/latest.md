@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-07-27T21:40:26.345041+00:00_
+_Generated 2026-07-27T22:03:57.533203+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -121,7 +121,7 @@ _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.41)_
 ## 2026-07-27 - Philadelphia Phillies @ Miami Marlins (Pre-Game)
 _loanDepot park [pitcher-friendly park]_
 Projected score: Philadelphia Phillies 3.42 - Miami Marlins 2.68
-Model likes: **Philadelphia Phillies** to win (58%) | Run line: **Miami Marlins** +1.5 (62% to cover) | Total 6.5: lean **UNDER** (60%)
+Model likes: **Philadelphia Phillies** to win (58%) | Run line: **Miami Marlins** +1.5 (61% to cover) | Total 6.5: lean **UNDER** (60%)
 
 ### Philadelphia Phillies lineup -- CONFIRMED
 _Facing a taxed bullpen: 6.3 relief IP in last 2 days (ratio 1.27)_
@@ -365,9 +365,9 @@ _Facing a taxed bullpen: 7.7 relief IP in last 2 days (ratio 1.45)_
 - #8 Denzer Guzman (R) [TOUGH MATCHUP: pitcher holds this hand to 0.169 avg-against] -- L7: 3H 0HR 0RBI 3TB (0.136 avg) -- home split: 0.203 avg
 - #9 Tyler Heineman (S) -- L7: 4H 0HR 2RBI 6TB (0.222 avg) -- home split: 0.158 avg
 
-## 2026-07-27 - Boston Red Sox @ Athletics (Scheduled)
+## 2026-07-27 - Boston Red Sox @ Athletics (Pre-Game)
 _Sutter Health Park_
-Projected score: Boston Red Sox 6.3 - Athletics 3.34
+Projected score: Boston Red Sox 6.3 - Athletics 3.38
 Model likes: **Boston Red Sox** to win (72%) | Run line: **Boston Red Sox** -1.5 (59% to cover) | Total 8.5: lean **OVER** (54%)
 
 ### Boston Red Sox lineup -- PROJECTED (unconfirmed)
@@ -383,23 +383,23 @@ _Facing a taxed bullpen: 12.3 relief IP in last 2 days (ratio 2.87)_
 - Connor Wong (R) -- L7: 2H 0HR 0RBI 2TB (0.133 avg) -- away split: 0.31 avg
 - Willson Contreras (R) [likely BABIP-driven, not a real power uptick] -- L7: 8H 1HR 4RBI 13TB (0.364 avg) -- away split: 0.261 avg
 
-### Athletics lineup -- PROJECTED (unconfirmed)
+### Athletics lineup -- CONFIRMED
 _Facing a taxed bullpen: 9.0 relief IP in last 2 days (ratio 1.76)_
 **Probable P: Jack Perkins (R)** -- L5: 21.7 IP, 27 K, 19 ER, 7.89 ERA
-- Jacob Wilson (R) -- L7: 6H 2HR 4RBI 12TB (0.2 avg) -- home split: 0.299 avg
-- Lawrence Butler (L) [likely BABIP-driven, not a real power uptick] -- L7: 4H 0HR 2RBI 6TB (0.286 avg) -- home split: 0.215 avg
-- Henry Bolte (R) -- L7: 2H 0HR 0RBI 2TB (0.111 avg) -- home split: 0.298 avg
-- Tyler Soderstrom (L) [9-game hit streak] -- L7: 9H 0HR 3RBI 10TB (0.321 avg) -- home split: 0.278 avg
-- Jeff McNeil (L) -- L7: 7H 1HR 5RBI 12TB (0.412 avg) -- home split: 0.233 avg
-- Jonah Heim (S) -- L7: 6H 0HR 3RBI 7TB (0.207 avg) -- home split: 0.244 avg
-- Alika Williams (R) -- L7: 4H 0HR 2RBI 6TB (0.333 avg) -- home split: 0.333 avg
-- Carlos Cortes (L) -- L7: 3H 1HR 4RBI 7TB (0.158 avg) -- home split: 0.245 avg
-- Colby Thomas (R) -- L7: 1H 0HR 0RBI 1TB (0.083 avg) -- home split: 0.23 avg
+- #1 Jacob Wilson (R) -- L7: 6H 2HR 4RBI 12TB (0.2 avg) -- home split: 0.299 avg
+- #2 Tyler Soderstrom (L) [9-game hit streak] -- L7: 9H 0HR 3RBI 10TB (0.321 avg) -- home split: 0.278 avg
+- #3 Jonah Heim (S) -- L7: 6H 0HR 3RBI 7TB (0.207 avg) -- home split: 0.244 avg
+- #4 Colby Thomas (R) -- L7: 1H 0HR 0RBI 1TB (0.083 avg) -- home split: 0.23 avg
+- #5 Tommy White (R) -- L7: 9H 0HR 0RBI 10TB (0.333 avg) -- home split: 0.167 avg
+- #6 Jeff McNeil (L) -- L7: 7H 1HR 5RBI 12TB (0.412 avg) -- home split: 0.233 avg
+- #7 Henry Bolte (R) -- L7: 2H 0HR 0RBI 2TB (0.111 avg) -- home split: 0.298 avg
+- #8 Alika Williams (R) -- L7: 4H 0HR 2RBI 6TB (0.333 avg) -- home split: 0.333 avg
+- #9 Lawrence Butler (L) [likely BABIP-driven, not a real power uptick] -- L7: 4H 0HR 2RBI 6TB (0.286 avg) -- home split: 0.215 avg
 
 ## 2026-07-27 - Milwaukee Brewers @ San Francisco Giants (Pre-Game)
 _Oracle Park [pitcher-friendly park]_
-Projected score: Milwaukee Brewers 4.91 - San Francisco Giants 3.91
-Model likes: **Milwaukee Brewers** to win (58%) | Run line: **San Francisco Giants** +1.5 (56% to cover) | Total 8.5: lean **UNDER** (52%)
+Projected score: Milwaukee Brewers 4.91 - San Francisco Giants 3.84
+Model likes: **Milwaukee Brewers** to win (59%) | Run line: **San Francisco Giants** +1.5 (56% to cover) | Total 8.5: lean **UNDER** (53%)
 
 ### Milwaukee Brewers lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.83)_
@@ -460,7 +460,7 @@ _Facing a taxed bullpen: 6.3 relief IP in last 2 days (ratio 1.44)_
 ## 2026-07-28 - Arizona Diamondbacks @ Pittsburgh Pirates (Scheduled)
 _PNC Park_
 Projected score: Arizona Diamondbacks 4.53 - Pittsburgh Pirates 5.1
-Model likes: **Pittsburgh Pirates** to win (55%) | Run line: **Arizona Diamondbacks** +1.5 (60% to cover) | Total 8.5: lean **OVER** (54%)
+Model likes: **Pittsburgh Pirates** to win (55%) | Run line: **Arizona Diamondbacks** +1.5 (59% to cover) | Total 8.5: lean **OVER** (54%)
 
 ### Arizona Diamondbacks lineup -- PROJECTED (unconfirmed)
 **Probable P: Brandon Pfaadt (R)** -- L5: 27.0 IP, 14 K, 7 ER, 2.33 ERA
@@ -755,7 +755,7 @@ _Facing a rested bullpen: 2.7 relief IP in last 2 days (ratio 0.5)_
 ## 2026-07-28 - Colorado Rockies @ San Diego Padres (Scheduled)
 _Petco Park [pitcher-friendly park]_
 Projected score: Colorado Rockies 3.54 - San Diego Padres 5.02
-Model likes: **San Diego Padres** to win (63%) | Run line: **Colorado Rockies** +1.5 (52% to cover) | Total 8.5: lean **UNDER** (55%)
+Model likes: **San Diego Padres** to win (63%) | Run line: **Colorado Rockies** +1.5 (53% to cover) | Total 8.5: lean **UNDER** (55%)
 
 ### Colorado Rockies lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.7 relief IP in last 2 days (ratio 0.63)_
@@ -1028,7 +1028,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-07-29 - Milwaukee Brewers @ San Francisco Giants (Scheduled)
 _Oracle Park [pitcher-friendly park]_
 Projected score: Milwaukee Brewers 4.08 - San Francisco Giants 3.11
-Model likes: **Milwaukee Brewers** to win (59%) | Run line: **San Francisco Giants** +1.5 (58% to cover) | Total 6.5: lean **OVER** (52%)
+Model likes: **Milwaukee Brewers** to win (60%) | Run line: **San Francisco Giants** +1.5 (58% to cover) | Total 6.5: lean **OVER** (52%)
 
 ### Milwaukee Brewers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1118,7 +1118,7 @@ _Facing a rested bullpen: 2.3 relief IP in last 2 days (ratio 0.53)_
 ## 2026-07-29 - Cleveland Guardians @ Cincinnati Reds (Scheduled)
 _Great American Ball Park [hitter-friendly park]_
 Projected score: Cleveland Guardians 4.26 - Cincinnati Reds 3.45
-Model likes: **Cleveland Guardians** to win (57%) | Run line: **Cincinnati Reds** +1.5 (59% to cover) | Total 6.5: lean **OVER** (57%)
+Model likes: **Cleveland Guardians** to win (58%) | Run line: **Cincinnati Reds** +1.5 (59% to cover) | Total 6.5: lean **OVER** (57%)
 
 ### Cleveland Guardians lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1270,7 +1270,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-07-29 - Boston Red Sox @ Athletics (Scheduled)
 _Sutter Health Park_
 Projected score: Boston Red Sox 6.25 - Athletics 3.28
-Model likes: **Boston Red Sox** to win (73%) | Run line: **Boston Red Sox** -1.5 (60% to cover) | Total 8.5: lean **OVER** (53%)
+Model likes: **Boston Red Sox** to win (73%) | Run line: **Boston Red Sox** -1.5 (59% to cover) | Total 8.5: lean **OVER** (53%)
 
 ### Boston Red Sox lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1301,7 +1301,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-07-29 - Seattle Mariners @ Los Angeles Dodgers (Scheduled)
 _UNIQLO Field at Dodger Stadium_
 Projected score: Seattle Mariners 3.7 - Los Angeles Dodgers 3.54
-Model likes: **Seattle Mariners** to win (52%) | Run line: **Los Angeles Dodgers** +1.5 (65% to cover) | Total 6.5: lean **OVER** (52%)
+Model likes: **Seattle Mariners** to win (52%) | Run line: **Los Angeles Dodgers** +1.5 (66% to cover) | Total 6.5: lean **OVER** (52%)
 
 ### Seattle Mariners lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
