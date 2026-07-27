@@ -510,6 +510,13 @@
   #add-leg-btn { background: var(--surface-3); color: var(--text-primary); }
   #signout-btn { margin-top: 16px; padding: 8px 16px; border-radius: 999px; border: 1px solid var(--border); background: var(--surface-1); color: var(--text-primary); cursor: pointer; font-family: inherit; }
   .form-error { color: var(--status-critical); font-size: 13px; margin-top: 6px; }
+  .bet-edit-btn, .bet-delete-btn { padding: 4px 10px; border-radius: 999px; border: 1px solid var(--border); background: var(--surface-1); color: var(--text-primary); cursor: pointer; font-family: inherit; font-size: 12px; margin-left: 6px; }
+  .bet-delete-btn { color: var(--status-critical); }
+  .bet-edit-form { margin: 10px 0; padding: 10px; border-radius: 8px; background: var(--surface-1); border: 1px solid var(--border); }
+  .bet-edit-form input { padding: 8px 10px; border-radius: 8px; border: 1px solid var(--border); background: var(--surface-2); color: var(--text-primary); font-family: inherit; font-size: 13.5px; }
+  .edit-save-btn, .edit-cancel-btn { padding: 7px 14px; border-radius: 999px; border: none; cursor: pointer; font-family: inherit; font-size: 12.5px; font-weight: 600; margin-top: 8px; margin-right: 6px; }
+  .edit-save-btn { background: var(--series-1); color: #fff; }
+  .edit-cancel-btn { background: var(--surface-3); color: var(--text-primary); }
 </style>
 
 </head>
@@ -1344,7 +1351,7 @@ import {
   getAuth, signInWithEmailAndPassword, onAuthStateChanged, signOut
 } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-auth.js";
 import {
-  getFirestore, collection, addDoc, query, where, onSnapshot
+  getFirestore, collection, addDoc, doc, updateDoc, deleteDoc, query, where, onSnapshot
 } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js";
 
 const firebaseConfig = {"apiKey": "AIzaSyASxciCTPxSLDWt82n5DCUAhH_JdQ4xoP0", "authDomain": "mlb-props-1b47e.firebaseapp.com", "projectId": "mlb-props-1b47e", "storageBucket": "mlb-props-1b47e.firebasestorage.app", "messagingSenderId": "476096223505", "appId": "1:476096223505:web:d7c02d4393f59f579954b0"};
@@ -1412,6 +1419,35 @@ let teamIndex = []; // [{team_id, name, opponent, game_pk, side}]
 
 function easternToday() {
   return new Intl.DateTimeFormat('en-CA', { timeZone: 'America/New_York' }).format(new Date());
+}
+
+// American odds -> profit on the given stake (standard formula: positive
+// odds pay that much per $100 staked; negative odds require that much
+// staked to win $100). Confirmed real bug this fixes: typing the raw
+// odds number into the "to win" field by mistake (e.g. entering 392
+// instead of computing 5 * 3.92 = 19.60) -- auto-computing removes that
+// whole class of manual-arithmetic error, while staying editable
+// afterward for a real promo-boosted payout that genuinely differs from
+// the plain formula.
+function computeToWinFromOdds(stake, oddsText) {
+  if (isNaN(stake) || !oddsText) return null;
+  const odds = parseFloat(String(oddsText).replace(/[^0-9.+-]/g, ''));
+  if (isNaN(odds) || odds === 0) return null;
+  const profit = odds > 0 ? stake * (odds / 100) : stake * (100 / Math.abs(odds));
+  return Math.round(profit * 100) / 100;
+}
+
+// Wires "auto-fill to-win from stake+odds" onto a given set of
+// stake/odds/to-win inputs -- shared by the add-bet form and each bet's
+// inline edit form so both behave identically.
+function wireAutoToWin(stakeEl, oddsEl, toWinEl) {
+  function recompute() {
+    const stake = parseFloat(stakeEl.value);
+    const computed = computeToWinFromOdds(stake, oddsEl.value);
+    if (computed != null) toWinEl.value = computed;
+  }
+  stakeEl.addEventListener('input', recompute);
+  oddsEl.addEventListener('input', recompute);
 }
 
 function buildPlayerIndex(report) {
@@ -1554,17 +1590,42 @@ function legRowDisplayHtml(leg) {
   );
 }
 
+function editFormHtml(bet) {
+  return (
+    '<div class="bet-form-row">' +
+    '<input type="date" class="edit-date" value="' + escapeHtml(bet.placed_date) + '">' +
+    '<input type="number" step="0.01" class="edit-stake" value="' + bet.stake + '" placeholder="Stake ($)" style="width:110px">' +
+    '<input type="number" step="0.01" class="edit-to-win" value="' + bet.to_win + '" placeholder="To win ($)" style="width:150px">' +
+    '<input type="text" class="edit-odds" value="' + escapeHtml(bet.odds || '') + '" placeholder="Odds (e.g. +115)" style="width:140px">' +
+    '</div>' +
+    '<button type="button" class="edit-save-btn">Save</button>' +
+    '<button type="button" class="edit-cancel-btn">Cancel</button>' +
+    '<div class="form-error edit-error"></div>'
+  );
+}
+
+// Edit/Delete only offered on still-pending bets -- a settled one is a
+// real historical record at that point, not something to quietly rewrite.
+// Editing intentionally only covers date/stake/odds/to-win, not the legs
+// themselves (player/category/line) -- fixing a wrong leg means
+// deleting and re-adding the bet, simpler than reusing the full
+// player/team-search leg-row UI inline in an edit form.
 function betCardHtml(bet) {
   const profit = betProfit(bet);
   const profitTxt = profit != null ? ((profit >= 0 ? '+$' : '-$') + Math.abs(profit).toFixed(2)) : ('at stake: $' + Number(bet.stake).toFixed(2));
   const legsHtml = (bet.legs || []).map(legRowDisplayHtml).join('');
   const oddsTxt = bet.odds ? ' &middot; odds ' + escapeHtml(bet.odds) : '';
   const parlayTxt = (bet.legs || []).length > 1 ? ' (' + bet.legs.length + '-leg parlay)' : '';
+  const actionsHtml = bet.status === 'pending'
+    ? ' <button type="button" class="bet-edit-btn">Edit</button><button type="button" class="bet-delete-btn">Delete</button>'
+    : '';
   return (
-    '<div class="bet-card"><div class="bet-card-head">' +
+    '<div class="bet-card" data-bet-id="' + bet.id + '"><div class="bet-card-head">' +
     '<span><b>' + escapeHtml(bet.placed_date) + '</b>' + parlayTxt + ' &middot; ' + escapeHtml(bet.sportsbook || 'FanDuel') + oddsTxt +
     ' &middot; staked $' + Number(bet.stake).toFixed(2) + ' to win $' + Number(bet.to_win).toFixed(2) + '</span>' +
-    '<span>' + betStatusBadge(bet) + ' <b>' + profitTxt + '</b></span></div>' + legsHtml + '</div>'
+    '<span>' + betStatusBadge(bet) + ' <b>' + profitTxt + '</b>' + actionsHtml + '</span></div>' +
+    '<div class="bet-edit-form" style="display:none"></div>' +
+    legsHtml + '</div>'
   );
 }
 
@@ -1909,10 +1970,67 @@ document.getElementById('signout-btn').addEventListener('click', function () {
   signOut(auth);
 });
 
+// Event delegation on the whole list (not one listener per card) since
+// renderBets() rebuilds the DOM from scratch on every Firestore/live-poll
+// update -- per-card listeners would just leak and re-attach constantly.
+document.getElementById('bets-list').addEventListener('click', async function (e) {
+  const card = e.target.closest('.bet-card');
+  if (!card) return;
+  const betId = card.dataset.betId;
+
+  if (e.target.classList.contains('bet-delete-btn')) {
+    if (!confirm('Delete this bet? This cannot be undone.')) return;
+    try {
+      await deleteDoc(doc(db, 'bets', betId));
+    } catch (err) {
+      alert('Error deleting: ' + err.message);
+    }
+    return;
+  }
+
+  if (e.target.classList.contains('bet-edit-btn')) {
+    const bet = currentBets.find(function (b) { return b.id === betId; });
+    if (!bet) return;
+    const formEl = card.querySelector('.bet-edit-form');
+    formEl.innerHTML = editFormHtml(bet);
+    formEl.style.display = 'block';
+    wireAutoToWin(formEl.querySelector('.edit-stake'), formEl.querySelector('.edit-odds'), formEl.querySelector('.edit-to-win'));
+    return;
+  }
+
+  if (e.target.classList.contains('edit-cancel-btn')) {
+    const formEl = card.querySelector('.bet-edit-form');
+    formEl.style.display = 'none';
+    formEl.innerHTML = '';
+    return;
+  }
+
+  if (e.target.classList.contains('edit-save-btn')) {
+    const formEl = card.querySelector('.bet-edit-form');
+    const errorEl = formEl.querySelector('.edit-error');
+    const date = formEl.querySelector('.edit-date').value;
+    const stake = parseFloat(formEl.querySelector('.edit-stake').value);
+    const toWin = parseFloat(formEl.querySelector('.edit-to-win').value);
+    const odds = formEl.querySelector('.edit-odds').value || null;
+    if (!date || isNaN(stake) || isNaN(toWin)) {
+      errorEl.textContent = 'Date, stake, and to-win are all required.';
+      return;
+    }
+    try {
+      await updateDoc(doc(db, 'bets', betId), { placed_date: date, stake: stake, to_win: toWin, odds: odds });
+      formEl.style.display = 'none';
+      formEl.innerHTML = '';
+    } catch (err) {
+      errorEl.textContent = 'Error saving: ' + err.message;
+    }
+  }
+});
+
 document.getElementById('add-leg-btn').addEventListener('click', addLegRow);
 
 document.getElementById('bet-date').value = easternToday();
 resetLegRows();
+wireAutoToWin(document.getElementById('bet-stake'), document.getElementById('bet-odds'), document.getElementById('bet-to-win'));
 
 document.getElementById('bet-form').addEventListener('submit', async function (e) {
   e.preventDefault();
