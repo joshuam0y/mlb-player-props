@@ -1,59 +1,59 @@
 # MLB Player Props Context Report
-_Generated 2026-07-27T18:57:41.735342+00:00_
+_Generated 2026-07-27T20:04:56.452907+00:00_
 
 ## Today's Top Overs
 ### Batters
 - **Joc Pederson** (Texas Rangers vs Seattle Mariners): real hot streak (not just lucky bloops), favorable matchup vs. tonight's pitcher, 7-game hit streak -- try Total Bases: 70% over 1.5 recently (vs. 10-game sample)
+- **CJ Abrams** (Washington Nationals vs Toronto Blue Jays): real hot streak (not just lucky bloops), favorable matchup vs. tonight's pitcher, 7-game hit streak -- try Hits: 70% over 1.5 recently (vs. 10-game sample)
 - **Nathaniel Lowe** (Cincinnati Reds vs Cleveland Guardians): real hot streak (not just lucky bloops), favorable matchup vs. tonight's pitcher -- try RBIs: 50% over 0.5 recently (vs. 10-game sample)
+- **Gabriel Moreno** (Arizona Diamondbacks vs Pittsburgh Pirates): real hot streak (not just lucky bloops), 7-game hit streak -- try RBIs: 60% over 0.5 recently (vs. 10-game sample)
 - **Hao-Yu Lee** (Detroit Tigers vs Baltimore Orioles): real hot streak (not just lucky bloops), 11-game hit streak -- try Hits: 100% over 0.5 recently (vs. 10-game sample)
-- **CJ Abrams** (Washington Nationals vs Toronto Blue Jays): real hot streak (not just lucky bloops), 7-game hit streak -- try Hits: 70% over 1.5 recently (vs. 10-game sample)
 - **Wyatt Langford** (Texas Rangers vs Seattle Mariners): real hot streak (not just lucky bloops) -- try RBIs: 50% over 0.5 recently (vs. 10-game sample)
 - **Nicky Lopez** (Texas Rangers vs Seattle Mariners): favorable matchup vs. tonight's pitcher -- try RBIs: 60% over 0.5 recently (vs. 10-game sample)
 - **Colt Emerson** (Seattle Mariners vs Texas Rangers): favorable matchup vs. tonight's pitcher -- try Total Bases: 50% over 0.5 recently (vs. 10-game sample)
-- **Gabriel Moreno** (Arizona Diamondbacks vs Pittsburgh Pirates): real hot streak (not just lucky bloops), 7-game hit streak -- try RBIs: 60% over 0.5 recently (vs. 10-game sample)
+- **Jake Mangum** (Pittsburgh Pirates vs Arizona Diamondbacks): favorable matchup vs. tonight's pitcher -- try Total Bases: 40% over 1.5 recently (vs. 10-game sample)
+- **Ryan O'Hearn** (Pittsburgh Pirates vs Arizona Diamondbacks): favorable matchup vs. tonight's pitcher -- try Walks: 40% over 0.5 recently (vs. 10-game sample)
+- **Kyle Schwarber** (Philadelphia Phillies vs Miami Marlins): favorable matchup vs. tonight's pitcher -- try Hits: 70% over 0.5 recently (vs. 10-game sample)
+- **James Wood** (Washington Nationals vs Toronto Blue Jays): favorable matchup vs. tonight's pitcher -- try RBIs: 50% over 0.5 recently (vs. 10-game sample)
 - **Elly De La Cruz** (Cincinnati Reds vs Cleveland Guardians): favorable matchup vs. tonight's pitcher -- try Walks: 60% over 0.5 recently (vs. 10-game sample)
 - **Jeremy Peña** (Houston Astros vs Los Angeles Angels): real hot streak (not just lucky bloops), 8-game hit streak -- try Runs Scored: 80% over 0.5 recently (vs. 10-game sample)
 - **Brandon Nimmo** (Texas Rangers vs Seattle Mariners): favorable matchup vs. tonight's pitcher -- try Runs Scored: 50% over 0.5 recently (vs. 10-game sample)
-- **Evan Carter** (Texas Rangers vs Seattle Mariners): favorable matchup vs. tonight's pitcher -- try RBIs: 40% over 0.5 recently (vs. 10-game sample)
-- **Josh Smith** (Texas Rangers vs Seattle Mariners): favorable matchup vs. tonight's pitcher -- try Total Bases: 70% over 0.5 recently (vs. 10-game sample)
-- **Cole Young** (Seattle Mariners vs Texas Rangers): favorable matchup vs. tonight's pitcher -- try Total Bases: 40% over 1.5 recently (vs. 10-game sample)
-- **Dominic Canzone** (Seattle Mariners vs Texas Rangers): favorable matchup vs. tonight's pitcher -- try Hits: 60% over 0.5 recently (vs. 10-game sample)
 
 ### Pitchers
-- **Keider Montero** (Detroit Tigers vs Baltimore Orioles): pitching well above his season norm over his last few starts, 4 hitters in tonight's lineup are in a tough matchup against him -- try Strikeouts: 60% over 3.5 recently (vs. 5-game sample)
+- **Keider Montero** (Detroit Tigers vs Baltimore Orioles): pitching well above his season norm over his last few starts, 5 hitters in tonight's lineup are in a tough matchup against him -- try Strikeouts: 60% over 3.5 recently (vs. 5-game sample)
 - **Tatsuya Imai** (Houston Astros vs Los Angeles Angels): pitching well above his season norm over his last few starts, 8 hitters in tonight's lineup are in a tough matchup against him -- try Strikeouts: 60% over 5.5 recently (vs. 5-game sample)
 - **Kumar Rocker** (Texas Rangers vs Seattle Mariners): 3 hitters in tonight's lineup are in a tough matchup against him -- try Strikeouts: 60% over 5.5 recently (vs. 5-game sample)
 - **Mitch Keller** (Pittsburgh Pirates vs Arizona Diamondbacks): 3 hitters in tonight's lineup are in a tough matchup against him -- try Runs Allowed: 80% over 2.5 recently (vs. 5-game sample)
-- **Tyler Phillips** (Miami Marlins vs Philadelphia Phillies): 4 hitters in tonight's lineup are in a tough matchup against him -- try Hits Allowed: 80% over 3.5 recently (vs. 5-game sample)
+- **Tyler Phillips** (Miami Marlins vs Philadelphia Phillies): 3 hitters in tonight's lineup are in a tough matchup against him -- try Hits Allowed: 80% over 3.5 recently (vs. 5-game sample)
 - **Zack Wheeler** (Philadelphia Phillies vs Miami Marlins): 3 hitters in tonight's lineup are in a tough matchup against him -- try Strikeouts: 80% over 8.5 recently (vs. 5-game sample)
-- **Eddy Yean** (Washington Nationals vs Toronto Blue Jays): 6 hitters in tonight's lineup are in a tough matchup against him -- try Walks Allowed: 67% over 0.5 recently (vs. 3-game sample)
-- **Zac Thornton** (New York Mets vs Atlanta Braves): 5 hitters in tonight's lineup are in a tough matchup against him -- try Strikeouts: 50% over 4.5 recently (vs. 4-game sample)
+- **Eddy Yean** (Washington Nationals vs Toronto Blue Jays): 7 hitters in tonight's lineup are in a tough matchup against him -- try Walks Allowed: 67% over 0.5 recently (vs. 3-game sample)
+- **Zac Thornton** (New York Mets vs Atlanta Braves): 4 hitters in tonight's lineup are in a tough matchup against him -- try Strikeouts: 50% over 4.5 recently (vs. 4-game sample)
 
 ## Today's Top Unders
 ### Batters
 - **Mitch Garver** (Seattle Mariners vs Texas Rangers): cold recent stretch (well below season average), tough matchup vs. tonight's pitcher -- try Hits: 30% over 0.5 recently (vs. 10-game sample)
-- **Derek Hill** (Philadelphia Phillies vs Miami Marlins): cold recent stretch (well below season average), tough matchup vs. tonight's pitcher -- try Hits: 30% over 0.5 recently (vs. 10-game sample)
 - **Kazuma Okamoto** (Toronto Blue Jays vs Washington Nationals): cold recent stretch (well below season average), tough matchup vs. tonight's pitcher -- try Hits: 20% over 0.5 recently (vs. 10-game sample)
 - **Myles Straw** (Toronto Blue Jays vs Washington Nationals): cold recent stretch (well below season average), tough matchup vs. tonight's pitcher -- try Hits: 10% over 0.5 recently (vs. 10-game sample)
-- **Tristan Peters** (Chicago White Sox vs New York Yankees): cold recent stretch (well below season average), tough matchup vs. tonight's pitcher -- try Total Bases: 10% over 1.5 recently (vs. 10-game sample)
 - **Denzer Guzman** (Los Angeles Angels vs Houston Astros): cold recent stretch (well below season average), tough matchup vs. tonight's pitcher -- try Total Bases: 10% over 1.5 recently (vs. 10-game sample)
 - **Cam Smith** (Houston Astros vs Los Angeles Angels): cold recent stretch (well below season average), tough matchup vs. tonight's pitcher -- try Hits: 20% over 0.5 recently (vs. 10-game sample)
 - **Christian Walker** (Houston Astros vs Los Angeles Angels): cold recent stretch (well below season average), tough matchup vs. tonight's pitcher -- try RBIs: 10% over 0.5 recently (vs. 10-game sample)
 - **Yainer Diaz** (Houston Astros vs Los Angeles Angels): cold recent stretch (well below season average), tough matchup vs. tonight's pitcher -- try RBIs: 10% over 0.5 recently (vs. 10-game sample)
 - **Julio Rodríguez** (Seattle Mariners vs Texas Rangers): tough matchup vs. tonight's pitcher -- try Hits: 10% over 1.5 recently (vs. 10-game sample)
 - **Randy Arozarena** (Seattle Mariners vs Texas Rangers): tough matchup vs. tonight's pitcher -- try Total Bases: 30% over 1.5 recently (vs. 10-game sample)
+- **Gabriel Moreno** (Arizona Diamondbacks vs Pittsburgh Pirates): tough matchup vs. tonight's pitcher -- try Hits: 50% over 1.5 recently (vs. 10-game sample)
+- **Tyler Locklear** (Arizona Diamondbacks vs Pittsburgh Pirates): tough matchup vs. tonight's pitcher -- try Total Bases: 10% over 1.5 recently (vs. 10-game sample)
+- **Ryan Waldschmidt** (Arizona Diamondbacks vs Pittsburgh Pirates): tough matchup vs. tonight's pitcher -- try Walks: 10% over 0.5 recently (vs. 10-game sample)
 - **Otto Lopez** (Miami Marlins vs Philadelphia Phillies): tough matchup vs. tonight's pitcher -- try Runs Scored: 10% over 0.5 recently (vs. 10-game sample)
 - **Heriberto Hernández** (Miami Marlins vs Philadelphia Phillies): tough matchup vs. tonight's pitcher -- try Walks: 10% over 0.5 recently (vs. 10-game sample)
 - **Javier Sanoja** (Miami Marlins vs Philadelphia Phillies): tough matchup vs. tonight's pitcher -- try Walks: 0% over 0.5 recently (vs. 10-game sample)
-- **Gabriel Moreno** (Arizona Diamondbacks vs Pittsburgh Pirates): tough matchup vs. tonight's pitcher -- try Hits: 50% over 1.5 recently (vs. 10-game sample)
 
 ### Pitchers
-- **Keider Montero** (Detroit Tigers vs Baltimore Orioles): allowing fewer runs than usual over his last few starts, 4 hitters in tonight's lineup are in a tough matchup against him -- try Outs Recorded: 20% over 12.5 recently (vs. 5-game sample)
+- **Keider Montero** (Detroit Tigers vs Baltimore Orioles): allowing fewer runs than usual over his last few starts, 5 hitters in tonight's lineup are in a tough matchup against him -- try Outs Recorded: 20% over 12.5 recently (vs. 5-game sample)
 - **Tatsuya Imai** (Houston Astros vs Los Angeles Angels): allowing fewer runs than usual over his last few starts, 8 hitters in tonight's lineup are in a tough matchup against him -- try Runs Allowed: 40% over 2.5 recently (vs. 5-game sample)
 - **Kumar Rocker** (Texas Rangers vs Seattle Mariners): 3 hitters in tonight's lineup are in a tough matchup against him -- try Walks Allowed: 40% over 1.5 recently (vs. 5-game sample)
 - **George Kirby** (Seattle Mariners vs Texas Rangers): allowing fewer runs than usual over his last few starts -- try Runs Allowed: 20% over 2.5 recently (vs. 5-game sample)
 - **Mitch Keller** (Pittsburgh Pirates vs Arizona Diamondbacks): 3 hitters in tonight's lineup are in a tough matchup against him -- try Walks Allowed: 40% over 1.5 recently (vs. 5-game sample)
-- **Tyler Phillips** (Miami Marlins vs Philadelphia Phillies): 4 hitters in tonight's lineup are in a tough matchup against him -- try Strikeouts: 20% over 2.5 recently (vs. 5-game sample)
+- **Tyler Phillips** (Miami Marlins vs Philadelphia Phillies): 3 hitters in tonight's lineup are in a tough matchup against him -- try Strikeouts: 20% over 2.5 recently (vs. 5-game sample)
 - **Zack Wheeler** (Philadelphia Phillies vs Miami Marlins): 3 hitters in tonight's lineup are in a tough matchup against him -- try Walks Allowed: 20% over 1.5 recently (vs. 5-game sample)
 - **Kyle Bradish** (Baltimore Orioles vs Detroit Tigers): allowing fewer runs than usual over his last few starts -- try Strikeouts: 20% over 5.5 recently (vs. 5-game sample)
 
@@ -65,77 +65,77 @@ Model likes: **Seattle Mariners** to win (52%) | Run line: **Texas Rangers** +1.
 ### Seattle Mariners lineup -- CONFIRMED
 _Facing a taxed bullpen: 6.0 relief IP in last 2 days (ratio 1.36)_
 **Probable P: George Kirby (R)** -- L5: 32.0 IP, 30 K, 8 ER, 2.25 ERA
-- #1 Cole Young (L) [MATCHUP EDGE: pitcher hits 0.277 avg-against vs this hand] -- L7: 8H 1HR 2RBI 13TB (0.276 avg) -- away split: 0.26 avg
-- #2 Julio Rodríguez (R) [TOUGH MATCHUP: pitcher holds this hand to 0.204 avg-against] -- L7: 6H 1HR 3RBI 10TB (0.231 avg) -- away split: 0.242 avg
-- #3 Dominic Canzone (L) [MATCHUP EDGE: pitcher hits 0.277 avg-against vs this hand] -- L7: 7H 1HR 6RBI 12TB (0.25 avg) -- away split: 0.239 avg
-- #4 Randy Arozarena (R) [TOUGH MATCHUP: pitcher holds this hand to 0.204 avg-against] [4-game hit streak] -- L7: 9H 1HR 1RBI 12TB (0.321 avg) -- away split: 0.321 avg
-- #5 Josh Naylor (L) [MATCHUP EDGE: pitcher hits 0.277 avg-against vs this hand] [likely BABIP-driven, not a real power uptick] -- L7: 10H 0HR 1RBI 11TB (0.357 avg) -- away split: 0.267 avg
-- #6 Luke Raley (L) [MATCHUP EDGE: pitcher hits 0.277 avg-against vs this hand] -- L7: 4H 1HR 3RBI 7TB (0.267 avg) -- away split: 0.224 avg
-- #7 Mitch Garver (R) [TOUGH MATCHUP: pitcher holds this hand to 0.204 avg-against] -- L7: 2H 1HR 2RBI 6TB (0.111 avg) -- away split: 0.234 avg
-- #8 J.P. Crawford (L) [MATCHUP EDGE: pitcher hits 0.277 avg-against vs this hand] -- L7: 6H 0HR 4RBI 9TB (0.25 avg) -- away split: 0.225 avg
-- #9 Colt Emerson (L) [MATCHUP EDGE: pitcher hits 0.277 avg-against vs this hand] [3-game hit streak] -- L7: 6H 0HR 1RBI 7TB (0.25 avg) -- away split: 0.23 avg
+- #1 Cole Young (L) [MATCHUP EDGE: pitcher hits 0.277 avg-against vs this hand] -- L7: 8H 1HR 2RBI 13TB (0.276 avg) -- away split: 0.262 avg
+- #2 Julio Rodríguez (R) [TOUGH MATCHUP: pitcher holds this hand to 0.204 avg-against] -- L7: 6H 1HR 3RBI 10TB (0.231 avg) -- away split: 0.241 avg
+- #3 Dominic Canzone (L) [MATCHUP EDGE: pitcher hits 0.277 avg-against vs this hand] -- L7: 7H 1HR 6RBI 12TB (0.25 avg) -- away split: 0.235 avg
+- #4 Randy Arozarena (R) [TOUGH MATCHUP: pitcher holds this hand to 0.204 avg-against] [4-game hit streak] -- L7: 9H 1HR 1RBI 12TB (0.321 avg) -- away split: 0.323 avg
+- #5 Josh Naylor (L) [MATCHUP EDGE: pitcher hits 0.277 avg-against vs this hand] [likely BABIP-driven, not a real power uptick] -- L7: 10H 0HR 1RBI 11TB (0.357 avg) -- away split: 0.265 avg
+- #6 Luke Raley (L) [MATCHUP EDGE: pitcher hits 0.277 avg-against vs this hand] -- L7: 4H 1HR 3RBI 7TB (0.267 avg) -- away split: 0.222 avg
+- #7 Mitch Garver (R) [TOUGH MATCHUP: pitcher holds this hand to 0.204 avg-against] -- L7: 2H 1HR 2RBI 6TB (0.111 avg) -- away split: 0.227 avg
+- #8 J.P. Crawford (L) [MATCHUP EDGE: pitcher hits 0.277 avg-against vs this hand] -- L7: 6H 0HR 4RBI 9TB (0.25 avg) -- away split: 0.222 avg
+- #9 Colt Emerson (L) [MATCHUP EDGE: pitcher hits 0.277 avg-against vs this hand] [3-game hit streak] -- L7: 6H 0HR 1RBI 7TB (0.25 avg) -- away split: 0.236 avg
 
 ### Texas Rangers lineup -- CONFIRMED
 _Facing a taxed bullpen: 6.3 relief IP in last 2 days (ratio 1.43)_
 **Probable P: Kumar Rocker (R)** -- L5: 27.0 IP, 30 K, 12 ER, 4.0 ERA
-- #1 Joc Pederson (L) [MATCHUP EDGE: pitcher hits 0.261 avg-against vs this hand] [7-game hit streak] -- L7: 11H 2HR 4RBI 21TB (0.407 avg) -- home split: 0.205 avg
-- #2 Wyatt Langford (R) [3-game hit streak] -- L7: 11H 3HR 6RBI 23TB (0.393 avg) -- home split: 0.292 avg
-- #3 Ezequiel Duran (R) [6-game hit streak] -- L7: 8H 1HR 5RBI 16TB (0.296 avg) -- home split: 0.273 avg
-- #4 Brandon Nimmo (L) [MATCHUP EDGE: pitcher hits 0.261 avg-against vs this hand] -- L7: 8H 1HR 2RBI 12TB (0.308 avg) -- home split: 0.247 avg
-- #5 Evan Carter (L) [MATCHUP EDGE: pitcher hits 0.261 avg-against vs this hand] -- L7: 5H 1HR 5RBI 9TB (0.263 avg) -- home split: 0.22 avg
-- #6 Jake Burger (R) -- L7: 7H 2HR 6RBI 14TB (0.25 avg) -- home split: 0.22 avg
-- #7 Nicky Lopez (L) [MATCHUP EDGE: pitcher hits 0.261 avg-against vs this hand] [3-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 8H 0HR 4RBI 8TB (0.381 avg) -- home split: 0.333 avg
-- #8 Josh Smith (L) [MATCHUP EDGE: pitcher hits 0.261 avg-against vs this hand] -- L7: 5H 1HR 2RBI 10TB (0.2 avg) -- home split: 0.186 avg
-- #9 Elias Díaz (R) -- L7: 4H 0HR 0RBI 5TB (0.182 avg) -- home split: 0.206 avg
+- #1 Joc Pederson (L) [MATCHUP EDGE: pitcher hits 0.261 avg-against vs this hand] [7-game hit streak] -- L7: 11H 2HR 4RBI 21TB (0.407 avg) -- home split: 0.214 avg
+- #2 Wyatt Langford (R) [3-game hit streak] -- L7: 11H 3HR 6RBI 23TB (0.393 avg) -- home split: 0.283 avg
+- #3 Ezequiel Duran (R) [6-game hit streak] -- L7: 8H 1HR 5RBI 16TB (0.296 avg) -- home split: 0.276 avg
+- #4 Brandon Nimmo (L) [MATCHUP EDGE: pitcher hits 0.261 avg-against vs this hand] -- L7: 8H 1HR 2RBI 12TB (0.308 avg) -- home split: 0.25 avg
+- #5 Evan Carter (L) [MATCHUP EDGE: pitcher hits 0.261 avg-against vs this hand] -- L7: 5H 1HR 5RBI 9TB (0.263 avg) -- home split: 0.223 avg
+- #6 Jake Burger (R) -- L7: 7H 2HR 6RBI 14TB (0.25 avg) -- home split: 0.223 avg
+- #7 Nicky Lopez (L) [MATCHUP EDGE: pitcher hits 0.261 avg-against vs this hand] [3-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 8H 0HR 4RBI 8TB (0.381 avg) -- home split: 0.338 avg
+- #8 Josh Smith (L) [MATCHUP EDGE: pitcher hits 0.261 avg-against vs this hand] -- L7: 5H 1HR 2RBI 10TB (0.2 avg) -- home split: 0.181 avg
+- #9 Elias Díaz (R) -- L7: 4H 0HR 0RBI 5TB (0.182 avg) -- home split: 0.203 avg
 
-## 2026-07-27 - Arizona Diamondbacks @ Pittsburgh Pirates (Scheduled)
+## 2026-07-27 - Arizona Diamondbacks @ Pittsburgh Pirates (Pre-Game)
 _PNC Park_
-Projected score: Arizona Diamondbacks 4.79 - Pittsburgh Pirates 5.61
-Model likes: **Pittsburgh Pirates** to win (56%) | Run line: **Arizona Diamondbacks** +1.5 (57% to cover) | Total 10.5: lean **UNDER** (56%)
+Projected score: Arizona Diamondbacks 4.87 - Pittsburgh Pirates 5.51
+Model likes: **Pittsburgh Pirates** to win (55%) | Run line: **Arizona Diamondbacks** +1.5 (58% to cover) | Total 10.5: lean **UNDER** (56%)
 
-### Arizona Diamondbacks lineup -- PROJECTED (unconfirmed)
+### Arizona Diamondbacks lineup -- CONFIRMED
 _Facing a taxed bullpen: 5.7 relief IP in last 2 days (ratio 1.41)_
 **Probable P: Merrill Kelly (R)** -- L5: 28.0 IP, 21 K, 11 ER, 3.54 ERA
-- Gabriel Moreno (R) [TOUGH MATCHUP: pitcher holds this hand to 0.204 avg-against] [7-game hit streak] -- L7: 11H 1HR 8RBI 17TB (0.423 avg) -- away split: 0.366 avg
-- Nolan Arenado (R) [TOUGH MATCHUP: pitcher holds this hand to 0.204 avg-against] -- L7: 5H 1HR 5RBI 9TB (0.227 avg) -- away split: 0.211 avg
-- Tim Tawa (R) [TOUGH MATCHUP: pitcher holds this hand to 0.204 avg-against] -- L7: 8H 0HR 4RBI 10TB (0.286 avg) -- away split: 0.25 avg
-- Corbin Carroll (L) [MATCHUP EDGE: pitcher hits 0.278 avg-against vs this hand] -- L7: 7H 1HR 2RBI 16TB (0.25 avg) -- away split: 0.228 avg
-- Geraldo Perdomo (S) [MATCHUP EDGE: pitcher hits 0.278 avg-against vs this hand] -- L7: 4H 1HR 1RBI 8TB (0.167 avg) -- away split: 0.247 avg
-- Ketel Marte (S) [MATCHUP EDGE: pitcher hits 0.278 avg-against vs this hand] -- L7: 6H 2HR 6RBI 13TB (0.2 avg) -- away split: 0.226 avg
-- Ildemaro Vargas (S) [MATCHUP EDGE: pitcher hits 0.278 avg-against vs this hand] [likely BABIP-driven, not a real power uptick] -- L7: 10H 0HR 2RBI 11TB (0.455 avg) -- away split: 0.282 avg
-- Jorge Barrosa (S) [MATCHUP EDGE: pitcher hits 0.278 avg-against vs this hand] [likely BABIP-driven, not a real power uptick] -- L7: 2H 0HR 0RBI 3TB (0.333 avg) -- away split: 0.236 avg
-- Max Kepler (L) [MATCHUP EDGE: pitcher hits 0.278 avg-against vs this hand] -- L7: 5H 1HR 4RBI 10TB (0.238 avg) -- away split: 0.182 avg
+- #1 Corbin Carroll (L) [MATCHUP EDGE: pitcher hits 0.278 avg-against vs this hand] -- L7: 7H 1HR 2RBI 16TB (0.25 avg) -- away split: 0.228 avg
+- #2 Geraldo Perdomo (S) [MATCHUP EDGE: pitcher hits 0.278 avg-against vs this hand] -- L7: 4H 1HR 1RBI 8TB (0.167 avg) -- away split: 0.247 avg
+- #3 Gabriel Moreno (R) [TOUGH MATCHUP: pitcher holds this hand to 0.204 avg-against] [7-game hit streak] -- L7: 11H 1HR 8RBI 17TB (0.423 avg) -- away split: 0.366 avg
+- #4 Ketel Marte (S) [MATCHUP EDGE: pitcher hits 0.278 avg-against vs this hand] -- L7: 6H 2HR 6RBI 13TB (0.2 avg) -- away split: 0.226 avg
+- #5 Max Kepler (L) [MATCHUP EDGE: pitcher hits 0.278 avg-against vs this hand] -- L7: 5H 1HR 4RBI 10TB (0.238 avg) -- away split: 0.182 avg
+- #6 Tyler Locklear (R) [TOUGH MATCHUP: pitcher holds this hand to 0.204 avg-against] -- L7: 6H 1HR 6RBI 10TB (0.273 avg) -- away split: 0.364 avg
+- #7 Adrian Del Castillo (L) [MATCHUP EDGE: pitcher hits 0.278 avg-against vs this hand] [likely BABIP-driven, not a real power uptick] -- L7: 8H 1HR 4RBI 13TB (0.333 avg) -- away split: 0.231 avg
+- #8 Ildemaro Vargas (S) [MATCHUP EDGE: pitcher hits 0.278 avg-against vs this hand] [likely BABIP-driven, not a real power uptick] -- L7: 10H 0HR 2RBI 11TB (0.455 avg) -- away split: 0.282 avg
+- #9 Ryan Waldschmidt (R) [TOUGH MATCHUP: pitcher holds this hand to 0.204 avg-against] -- L7: 8H 1HR 4RBI 13TB (0.364 avg) -- away split: 0.171 avg
 
-### Pittsburgh Pirates lineup -- PROJECTED (unconfirmed)
+### Pittsburgh Pirates lineup -- CONFIRMED
 _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.41)_
 **Probable P: Mitch Keller (R)** -- L5: 26.0 IP, 18 K, 14 ER, 4.85 ERA
-- Esmerlyn Valdez (R) -- L7: 5H 3HR 6RBI 14TB (0.238 avg) -- home split: 0.322 avg
-- Nick Gonzales (R) [11-game hit streak] -- L7: 11H 1HR 3RBI 16TB (0.355 avg) -- home split: 0.289 avg
-- Bryan Reynolds (S) [MATCHUP EDGE: pitcher hits 0.271 avg-against vs this hand] -- L7: 2H 0HR 0RBI 3TB (0.069 avg) -- home split: 0.306 avg
-- Ryan O'Hearn (L) [MATCHUP EDGE: pitcher hits 0.271 avg-against vs this hand] [3-game hit streak] -- L7: 6H 1HR 4RBI 9TB (0.24 avg) -- home split: 0.312 avg
-- Jake Mangum (S) [MATCHUP EDGE: pitcher hits 0.271 avg-against vs this hand] [4-game hit streak] -- L7: 8H 0HR 2RBI 8TB (0.267 avg) -- home split: 0.331 avg
-- Jared Triolo (R) [likely BABIP-driven, not a real power uptick] -- L7: 6H 0HR 3RBI 7TB (0.333 avg) -- home split: 0.24 avg
-- Brandon Lowe (L) [MATCHUP EDGE: pitcher hits 0.271 avg-against vs this hand] -- L7: 6H 0HR 1RBI 7TB (0.24 avg) -- home split: 0.235 avg
-- Billy Cook (R) -- L7: 3H 0HR 2RBI 5TB (0.3 avg) -- home split: 0.385 avg
-- Henry Davis (R) [likely BABIP-driven, not a real power uptick] -- L7: 7H 1HR 4RBI 10TB (0.304 avg) -- home split: 0.2 avg
+- #1 Jake Mangum (S) [MATCHUP EDGE: pitcher hits 0.271 avg-against vs this hand] [4-game hit streak] -- L7: 8H 0HR 2RBI 8TB (0.267 avg) -- home split: 0.331 avg
+- #2 Brandon Lowe (L) [MATCHUP EDGE: pitcher hits 0.271 avg-against vs this hand] -- L7: 6H 0HR 1RBI 7TB (0.24 avg) -- home split: 0.235 avg
+- #3 Bryan Reynolds (S) [MATCHUP EDGE: pitcher hits 0.271 avg-against vs this hand] -- L7: 2H 0HR 0RBI 3TB (0.069 avg) -- home split: 0.306 avg
+- #4 Esmerlyn Valdez (R) -- L7: 5H 3HR 6RBI 14TB (0.238 avg) -- home split: 0.322 avg
+- #5 Ryan O'Hearn (L) [MATCHUP EDGE: pitcher hits 0.271 avg-against vs this hand] [3-game hit streak] -- L7: 6H 1HR 4RBI 9TB (0.24 avg) -- home split: 0.312 avg
+- #6 Nick Gonzales (R) [11-game hit streak] -- L7: 11H 1HR 3RBI 16TB (0.355 avg) -- home split: 0.289 avg
+- #7 Jacob Gonzalez (L) [MATCHUP EDGE: pitcher hits 0.271 avg-against vs this hand] -- L7: 5H 2HR 5RBI 12TB (0.227 avg) -- home split: 0.196 avg
+- #8 Tyler Callihan (L) [MATCHUP EDGE: pitcher hits 0.271 avg-against vs this hand] -- L7: 1H 0HR 0RBI 2TB (0.077 avg) -- home split: 0.271 avg
+- #9 Henry Davis (R) [likely BABIP-driven, not a real power uptick] -- L7: 7H 1HR 4RBI 10TB (0.304 avg) -- home split: 0.2 avg
 
 ## 2026-07-27 - Philadelphia Phillies @ Miami Marlins (Pre-Game)
 _loanDepot park [pitcher-friendly park]_
-Projected score: Philadelphia Phillies 3.32 - Miami Marlins 2.68
-Model likes: **Philadelphia Phillies** to win (57%) | Run line: **Miami Marlins** +1.5 (63% to cover) | Total 6.5: lean **UNDER** (61%)
+Projected score: Philadelphia Phillies 3.42 - Miami Marlins 2.68
+Model likes: **Philadelphia Phillies** to win (58%) | Run line: **Miami Marlins** +1.5 (62% to cover) | Total 6.5: lean **UNDER** (60%)
 
-### Philadelphia Phillies lineup -- PROJECTED (unconfirmed)
+### Philadelphia Phillies lineup -- CONFIRMED
 _Facing a taxed bullpen: 6.3 relief IP in last 2 days (ratio 1.27)_
 **Probable P: Zack Wheeler (R)** -- L5: 31.7 IP, 48 K, 8 ER, 2.27 ERA
-- Bryson Stott (L) [MATCHUP EDGE: pitcher hits 0.282 avg-against vs this hand] -- L7: 8H 1HR 5RBI 14TB (0.32 avg) -- away split: 0.232 avg
-- Brandon Marsh (L) [MATCHUP EDGE: pitcher hits 0.282 avg-against vs this hand] -- L7: 4H 1HR 1RBI 7TB (0.182 avg) -- away split: 0.267 avg
-- Alec Bohm (R) [TOUGH MATCHUP: pitcher holds this hand to 0.201 avg-against] -- L7: 8H 2HR 9RBI 16TB (0.296 avg) -- away split: 0.2 avg
-- Kyle Schwarber (L) [MATCHUP EDGE: pitcher hits 0.282 avg-against vs this hand] [4-game hit streak] -- L7: 5H 0HR 1RBI 7TB (0.208 avg) -- away split: 0.241 avg
-- Bryce Harper (L) [MATCHUP EDGE: pitcher hits 0.282 avg-against vs this hand] -- L7: 3H 1HR 2RBI 8TB (0.12 avg) -- away split: 0.243 avg
-- Trea Turner (R) [TOUGH MATCHUP: pitcher holds this hand to 0.201 avg-against] -- L7: 8H 2HR 6RBI 18TB (0.286 avg) -- away split: 0.203 avg
-- J.T. Realmuto (R) [TOUGH MATCHUP: pitcher holds this hand to 0.201 avg-against] [likely BABIP-driven, not a real power uptick] -- L7: 8H 0HR 1RBI 9TB (0.348 avg) -- away split: 0.205 avg
-- Justin Crawford (L) [MATCHUP EDGE: pitcher hits 0.282 avg-against vs this hand] -- L7: 2H 0HR 1RBI 2TB (0.154 avg) -- away split: 0.224 avg
-- Derek Hill (R) [TOUGH MATCHUP: pitcher holds this hand to 0.201 avg-against] -- L7: 1H 1HR 1RBI 4TB (0.062 avg) -- away split: 0.28 avg
+- #1 Trea Turner (R) [TOUGH MATCHUP: pitcher holds this hand to 0.201 avg-against] -- L7: 8H 2HR 6RBI 18TB (0.286 avg) -- away split: 0.203 avg
+- #2 Kyle Schwarber (L) [MATCHUP EDGE: pitcher hits 0.282 avg-against vs this hand] [4-game hit streak] -- L7: 5H 0HR 1RBI 7TB (0.208 avg) -- away split: 0.241 avg
+- #3 Bryce Harper (L) [MATCHUP EDGE: pitcher hits 0.282 avg-against vs this hand] -- L7: 3H 1HR 2RBI 8TB (0.12 avg) -- away split: 0.243 avg
+- #4 Brandon Marsh (L) [MATCHUP EDGE: pitcher hits 0.282 avg-against vs this hand] -- L7: 4H 1HR 1RBI 7TB (0.182 avg) -- away split: 0.267 avg
+- #5 Alec Bohm (R) [TOUGH MATCHUP: pitcher holds this hand to 0.201 avg-against] -- L7: 8H 2HR 9RBI 16TB (0.296 avg) -- away split: 0.2 avg
+- #6 Bryson Stott (L) [MATCHUP EDGE: pitcher hits 0.282 avg-against vs this hand] -- L7: 8H 1HR 5RBI 14TB (0.32 avg) -- away split: 0.232 avg
+- #7 J.T. Realmuto (R) [TOUGH MATCHUP: pitcher holds this hand to 0.201 avg-against] [likely BABIP-driven, not a real power uptick] -- L7: 8H 0HR 1RBI 9TB (0.348 avg) -- away split: 0.205 avg
+- #8 Gabriel Rincones Jr. (L) [MATCHUP EDGE: pitcher hits 0.282 avg-against vs this hand] -- L7: 2H 0HR 1RBI 3TB (0.125 avg) -- away split: 0.195 avg
+- #9 Justin Crawford (L) [MATCHUP EDGE: pitcher hits 0.282 avg-against vs this hand] -- L7: 2H 0HR 1RBI 2TB (0.154 avg) -- away split: 0.224 avg
 
 ### Miami Marlins lineup -- CONFIRMED
 _Facing a taxed bullpen: 10.0 relief IP in last 2 days (ratio 2.24)_
@@ -152,21 +152,21 @@ _Facing a taxed bullpen: 10.0 relief IP in last 2 days (ratio 2.24)_
 
 ## 2026-07-27 - Baltimore Orioles @ Detroit Tigers (Pre-Game)
 _Comerica Park [pitcher-friendly park]_
-Projected score: Baltimore Orioles 3.22 - Detroit Tigers 3.39
-Model likes: **Detroit Tigers** to win (52%) | Run line: **Baltimore Orioles** +1.5 (66% to cover) | Total 6.5: lean **UNDER** (54%)
+Projected score: Baltimore Orioles 3.37 - Detroit Tigers 3.39
+Model likes: **Detroit Tigers** to win (50%) | Run line: **Baltimore Orioles** +1.5 (68% to cover) | Total 6.5: lean **UNDER** (53%)
 
-### Baltimore Orioles lineup -- PROJECTED (unconfirmed)
+### Baltimore Orioles lineup -- CONFIRMED
 _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.68)_
 **Probable P: Kyle Bradish (R)** -- L5: 32.3 IP, 25 K, 8 ER, 2.23 ERA
-- Jackson Holliday (L) -- L7: 6H 0HR 2RBI 7TB (0.3 avg) -- away split: 0.182 avg
-- Gunnar Henderson (L) -- L7: 7H 1HR 2RBI 15TB (0.241 avg) -- away split: 0.227 avg
-- Pete Alonso (R) [TOUGH MATCHUP: pitcher holds this hand to 0.21 avg-against] -- L7: 8H 1HR 1RBI 14TB (0.267 avg) -- away split: 0.251 avg
-- Taylor Ward (R) [TOUGH MATCHUP: pitcher holds this hand to 0.21 avg-against] [6-game hit streak] -- L7: 7H 0HR 0RBI 8TB (0.25 avg) -- away split: 0.258 avg
-- Dylan Beavers (L) [likely BABIP-driven, not a real power uptick] -- L7: 7H 0HR 3RBI 8TB (0.318 avg) -- away split: 0.257 avg
-- Colton Cowser (L) -- L7: 1H 0HR 0RBI 1TB (0.111 avg) -- away split: 0.189 avg
-- Leody Taveras (S) -- L7: 3H 0HR 3RBI 3TB (0.136 avg) -- away split: 0.22 avg
-- Tyler O'Neill (R) [TOUGH MATCHUP: pitcher holds this hand to 0.21 avg-against] [likely BABIP-driven, not a real power uptick] -- L7: 6H 0HR 4RBI 8TB (0.286 avg) -- away split: 0.2 avg
-- Coby Mayo (R) [TOUGH MATCHUP: pitcher holds this hand to 0.21 avg-against] -- L7: 4H 1HR 1RBI 8TB (0.235 avg) -- away split: 0.188 avg
+- #1 Dylan Beavers (L) [likely BABIP-driven, not a real power uptick] -- L7: 7H 0HR 3RBI 8TB (0.318 avg) -- away split: 0.257 avg
+- #2 Pete Alonso (R) [TOUGH MATCHUP: pitcher holds this hand to 0.21 avg-against] -- L7: 8H 1HR 1RBI 14TB (0.267 avg) -- away split: 0.251 avg
+- #3 Gunnar Henderson (L) -- L7: 7H 1HR 2RBI 15TB (0.241 avg) -- away split: 0.227 avg
+- #4 Taylor Ward (R) [TOUGH MATCHUP: pitcher holds this hand to 0.21 avg-against] [6-game hit streak] -- L7: 7H 0HR 0RBI 8TB (0.25 avg) -- away split: 0.258 avg
+- #5 Leody Taveras (S) -- L7: 3H 0HR 3RBI 3TB (0.136 avg) -- away split: 0.22 avg
+- #6 Jackson Holliday (L) -- L7: 6H 0HR 2RBI 7TB (0.3 avg) -- away split: 0.182 avg
+- #7 Coby Mayo (R) [TOUGH MATCHUP: pitcher holds this hand to 0.21 avg-against] -- L7: 4H 1HR 1RBI 8TB (0.235 avg) -- away split: 0.188 avg
+- #8 Jeremiah Jackson (R) [TOUGH MATCHUP: pitcher holds this hand to 0.21 avg-against] -- L7: 3H 0HR 6RBI 5TB (0.333 avg) -- away split: 0.22 avg
+- #9 Chadwick Tromp (R) [TOUGH MATCHUP: pitcher holds this hand to 0.21 avg-against] -- L7: 3H 0HR 1RBI 3TB (0.158 avg) -- away split: 0.143 avg
 
 ### Detroit Tigers lineup -- CONFIRMED
 _Facing a taxed bullpen: 9.3 relief IP in last 2 days (ratio 2.01)_
@@ -183,52 +183,52 @@ _Facing a taxed bullpen: 9.3 relief IP in last 2 days (ratio 2.01)_
 
 ## 2026-07-27 - Toronto Blue Jays @ Washington Nationals (Pre-Game)
 _Nationals Park_
-Projected score: Toronto Blue Jays 4.69 - Washington Nationals 5.36
-Model likes: **Washington Nationals** to win (55%) | Run line: **Toronto Blue Jays** +1.5 (58% to cover) | Total 8.5: lean **OVER** (57%)
+Projected score: Toronto Blue Jays 4.85 - Washington Nationals 8.73
+Model likes: **Washington Nationals** to win (72%) | Run line: **Washington Nationals** -1.5 (62% to cover) | Total 12.5: lean **OVER** (51%)
 
-### Toronto Blue Jays lineup -- PROJECTED (unconfirmed)
-_Facing a taxed bullpen: 7.3 relief IP in last 2 days (ratio 1.87)_
-**Probable P: Max Scherzer (R)** -- L5: no data
-- Ernie Clement (R) [TOUGH MATCHUP: pitcher holds this hand to 0.0 avg-against] -- L7: 9H 0HR 1RBI 11TB (0.321 avg) -- away split: 0.285 avg
-- Kazuma Okamoto (R) [TOUGH MATCHUP: pitcher holds this hand to 0.0 avg-against] -- L7: 3H 1HR 3RBI 7TB (0.12 avg) -- away split: 0.212 avg
-- Vladimir Guerrero Jr. (R) [TOUGH MATCHUP: pitcher holds this hand to 0.0 avg-against] -- L7: 8H 0HR 3RBI 9TB (0.286 avg) -- away split: 0.274 avg
-- Daulton Varsho (L) [3-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 8H 0HR 1RBI 8TB (0.364 avg) -- away split: 0.266 avg
-- Andrés Giménez (L) -- L7: 5H 0HR 2RBI 6TB (0.278 avg) -- away split: 0.224 avg
-- Nathan Lukes (L) -- L7: 6H 0HR 0RBI 9TB (0.273 avg) -- away split: 0.312 avg
-- Myles Straw (R) [TOUGH MATCHUP: pitcher holds this hand to 0.0 avg-against] -- L7: 1H 0HR 0RBI 1TB (0.071 avg) -- away split: 0.228 avg
-- Alejandro Kirk (R) [TOUGH MATCHUP: pitcher holds this hand to 0.0 avg-against] [5-game hit streak] -- L7: 7H 1HR 3RBI 10TB (0.318 avg) -- away split: 0.188 avg
-- George Springer (R) [TOUGH MATCHUP: pitcher holds this hand to 0.0 avg-against] [likely BABIP-driven, not a real power uptick] -- L7: 10H 1HR 5RBI 15TB (0.37 avg) -- away split: 0.218 avg
+### Toronto Blue Jays lineup -- CONFIRMED
+_Facing a taxed bullpen: 7.3 relief IP in last 2 days (ratio 1.67)_
+**Probable P: Max Scherzer (R)** -- L5: 16.0 IP, 10 K, 24 ER, 13.5 ERA
+- #1 Ernie Clement (R) [TOUGH MATCHUP: pitcher holds this hand to 0.0 avg-against] -- L7: 9H 0HR 1RBI 11TB (0.321 avg) -- away split: 0.285 avg
+- #2 Nathan Lukes (L) -- L7: 6H 0HR 0RBI 9TB (0.273 avg) -- away split: 0.312 avg
+- #3 Vladimir Guerrero Jr. (R) [TOUGH MATCHUP: pitcher holds this hand to 0.0 avg-against] -- L7: 8H 0HR 3RBI 9TB (0.286 avg) -- away split: 0.274 avg
+- #4 George Springer (R) [TOUGH MATCHUP: pitcher holds this hand to 0.0 avg-against] [likely BABIP-driven, not a real power uptick] -- L7: 10H 1HR 5RBI 15TB (0.37 avg) -- away split: 0.218 avg
+- #5 Alejandro Kirk (R) [TOUGH MATCHUP: pitcher holds this hand to 0.0 avg-against] [5-game hit streak] -- L7: 7H 1HR 3RBI 10TB (0.318 avg) -- away split: 0.188 avg
+- #6 Kazuma Okamoto (R) [TOUGH MATCHUP: pitcher holds this hand to 0.0 avg-against] -- L7: 3H 1HR 3RBI 7TB (0.12 avg) -- away split: 0.212 avg
+- #7 Daulton Varsho (L) [3-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 8H 0HR 1RBI 8TB (0.364 avg) -- away split: 0.266 avg
+- #8 Luis Urías (R) [TOUGH MATCHUP: pitcher holds this hand to 0.0 avg-against] -- L7: 2H 1HR 1RBI 5TB (0.154 avg) -- away split: 0.083 avg
+- #9 Myles Straw (R) [TOUGH MATCHUP: pitcher holds this hand to 0.0 avg-against] -- L7: 1H 0HR 0RBI 1TB (0.071 avg) -- away split: 0.228 avg
 
 ### Washington Nationals lineup -- CONFIRMED
 _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.34)_
 **Probable P: Eddy Yean (R)** -- L5: 5.3 IP, 4 K, 0 ER, 0.0 ERA
-- #1 James Wood (L) [3-game hit streak] -- L7: 7H 2HR 6RBI 15TB (0.226 avg) -- home split: 0.295 avg
-- #2 Luis García Jr. (L) -- L7: 6H 1HR 2RBI 12TB (0.25 avg) -- home split: 0.253 avg
-- #3 José Tena (L) [likely BABIP-driven, not a real power uptick] -- L7: 6H 0HR 0RBI 7TB (0.4 avg) -- home split: 0.264 avg
-- #4 CJ Abrams (L) [7-game hit streak] -- L7: 17H 7HR 14RBI 41TB (0.567 avg) -- home split: 0.281 avg
+- #1 James Wood (L) [MATCHUP EDGE: pitcher hits 0.322 avg-against vs this hand] [3-game hit streak] -- L7: 7H 2HR 6RBI 15TB (0.226 avg) -- home split: 0.295 avg
+- #2 Luis García Jr. (L) [MATCHUP EDGE: pitcher hits 0.322 avg-against vs this hand] -- L7: 6H 1HR 2RBI 12TB (0.25 avg) -- home split: 0.253 avg
+- #3 José Tena (L) [MATCHUP EDGE: pitcher hits 0.322 avg-against vs this hand] [likely BABIP-driven, not a real power uptick] -- L7: 6H 0HR 0RBI 7TB (0.4 avg) -- home split: 0.264 avg
+- #4 CJ Abrams (L) [MATCHUP EDGE: pitcher hits 0.322 avg-against vs this hand] [7-game hit streak] -- L7: 17H 7HR 14RBI 41TB (0.567 avg) -- home split: 0.281 avg
 - #5 Dylan Crews (R) -- L7: 8H 2HR 4RBI 15TB (0.364 avg) -- home split: 0.224 avg
-- #6 Daylen Lile (L) -- L7: 4H 0HR 3RBI 9TB (0.182 avg) -- home split: 0.215 avg
-- #7 Keibert Ruiz (S) -- L7: 4H 0HR 0RBI 7TB (0.2 avg) -- home split: 0.307 avg
-- #8 Jorbit Vivas (L) -- L7: 3H 0HR 2RBI 5TB (0.2 avg) -- home split: 0.198 avg
-- #9 Nasim Nuñez (S) -- L7: 6H 0HR 2RBI 6TB (0.25 avg) -- home split: 0.226 avg
+- #6 Daylen Lile (L) [MATCHUP EDGE: pitcher hits 0.322 avg-against vs this hand] -- L7: 4H 0HR 3RBI 9TB (0.182 avg) -- home split: 0.215 avg
+- #7 Keibert Ruiz (S) [MATCHUP EDGE: pitcher hits 0.322 avg-against vs this hand] -- L7: 4H 0HR 0RBI 7TB (0.2 avg) -- home split: 0.307 avg
+- #8 Jorbit Vivas (L) [MATCHUP EDGE: pitcher hits 0.322 avg-against vs this hand] -- L7: 3H 0HR 2RBI 5TB (0.2 avg) -- home split: 0.198 avg
+- #9 Nasim Nuñez (S) [MATCHUP EDGE: pitcher hits 0.322 avg-against vs this hand] -- L7: 6H 0HR 2RBI 6TB (0.25 avg) -- home split: 0.226 avg
 
-## 2026-07-27 - Atlanta Braves @ New York Mets (Scheduled)
+## 2026-07-27 - Atlanta Braves @ New York Mets (Pre-Game)
 _Citi Field_
-Projected score: Atlanta Braves 3.1 - New York Mets 3.06
-Model likes: **Atlanta Braves** to win (50%) | Run line: **New York Mets** +1.5 (69% to cover) | Total 6.5: lean **UNDER** (59%)
+Projected score: Atlanta Braves 3.17 - New York Mets 3.06
+Model likes: **Atlanta Braves** to win (51%) | Run line: **New York Mets** +1.5 (68% to cover) | Total 6.5: lean **UNDER** (58%)
 
-### Atlanta Braves lineup -- PROJECTED (unconfirmed)
+### Atlanta Braves lineup -- CONFIRMED
 _Facing a taxed bullpen: 8.0 relief IP in last 2 days (ratio 1.53)_
 **Probable P: Martín Pérez (L)** -- L5: 23.3 IP, 14 K, 12 ER, 4.63 ERA
-- Drake Baldwin (L) [TOUGH MATCHUP: pitcher holds this hand to 0.143 avg-against] [5-game hit streak] -- L7: 7H 2HR 2RBI 13TB (0.28 avg) -- away split: 0.253 avg
-- Michael Harris II (L) [TOUGH MATCHUP: pitcher holds this hand to 0.143 avg-against] [4-game hit streak] -- L7: 8H 2HR 3RBI 17TB (0.267 avg) -- away split: 0.309 avg
-- Austin Riley (R) -- L7: 6H 0HR 3RBI 7TB (0.222 avg) -- away split: 0.184 avg
-- Ozzie Albies (S) -- L7: 7H 3HR 4RBI 16TB (0.219 avg) -- away split: 0.249 avg
-- Mauricio Dubón (R) -- L7: 5H 0HR 2RBI 6TB (0.2 avg) -- away split: 0.24 avg
-- Matt Olson (L) [TOUGH MATCHUP: pitcher holds this hand to 0.143 avg-against] -- L7: 6H 1HR 4RBI 10TB (0.222 avg) -- away split: 0.267 avg
-- Jim Jarvis (L) [TOUGH MATCHUP: pitcher holds this hand to 0.143 avg-against] -- L7: 4H 0HR 4RBI 7TB (0.211 avg) -- away split: 0.269 avg
-- Dominic Smith (L) [TOUGH MATCHUP: pitcher holds this hand to 0.143 avg-against] -- L7: 5H 1HR 6RBI 8TB (0.294 avg) -- away split: 0.235 avg
-- Eli White (R) -- L7: 1H 0HR 0RBI 2TB (0.111 avg) -- away split: 0.274 avg
+- #1 Ronald Acuña Jr. (R) -- L7: 6H 0HR 1RBI 7TB (0.24 avg) -- away split: 0.274 avg
+- #2 Drake Baldwin (L) [TOUGH MATCHUP: pitcher holds this hand to 0.143 avg-against] [5-game hit streak] -- L7: 7H 2HR 2RBI 13TB (0.28 avg) -- away split: 0.253 avg
+- #3 Matt Olson (L) [TOUGH MATCHUP: pitcher holds this hand to 0.143 avg-against] -- L7: 6H 1HR 4RBI 10TB (0.222 avg) -- away split: 0.267 avg
+- #4 Ozzie Albies (S) -- L7: 7H 3HR 4RBI 16TB (0.219 avg) -- away split: 0.249 avg
+- #5 Michael Harris II (L) [TOUGH MATCHUP: pitcher holds this hand to 0.143 avg-against] [4-game hit streak] -- L7: 8H 2HR 3RBI 17TB (0.267 avg) -- away split: 0.309 avg
+- #6 Mauricio Dubón (R) -- L7: 5H 0HR 2RBI 6TB (0.2 avg) -- away split: 0.24 avg
+- #7 Austin Riley (R) -- L7: 6H 0HR 3RBI 7TB (0.222 avg) -- away split: 0.184 avg
+- #8 Joey Bart (R) -- L7: 3H 0HR 1RBI 5TB (0.2 avg) -- away split: 0.245 avg
+- #9 Jim Jarvis (L) [TOUGH MATCHUP: pitcher holds this hand to 0.143 avg-against] -- L7: 4H 0HR 4RBI 7TB (0.211 avg) -- away split: 0.269 avg
 
 ### New York Mets lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 9.0 relief IP in last 2 days (ratio 2.04)_
@@ -245,21 +245,21 @@ _Facing a taxed bullpen: 9.0 relief IP in last 2 days (ratio 2.04)_
 
 ## 2026-07-27 - Cleveland Guardians @ Cincinnati Reds (Pre-Game)
 _Great American Ball Park [hitter-friendly park]_
-Projected score: Cleveland Guardians 2.63 - Cincinnati Reds 3.63
-Model likes: **Cincinnati Reds** to win (61%) | Run line: **Cleveland Guardians** +1.5 (58% to cover) | Total 6.5: lean **UNDER** (58%)
+Projected score: Cleveland Guardians 2.69 - Cincinnati Reds 3.63
+Model likes: **Cincinnati Reds** to win (60%) | Run line: **Cleveland Guardians** +1.5 (59% to cover) | Total 6.5: lean **UNDER** (58%)
 
-### Cleveland Guardians lineup -- PROJECTED (unconfirmed)
+### Cleveland Guardians lineup -- CONFIRMED
 _Facing a taxed bullpen: 6.7 relief IP in last 2 days (ratio 1.73)_
 **Probable P: Slade Cecconi (R)** -- L5: 25.3 IP, 17 K, 13 ER, 4.62 ERA
-- Travis Bazzana (L) -- L7: 6H 1HR 2RBI 9TB (0.24 avg) -- away split: 0.241 avg
-- Brayan Rocchio (S) -- L7: 7H 1HR 5RBI 12TB (0.226 avg) -- away split: 0.227 avg
-- Chase DeLauter (L) -- L7: 9H 0HR 3RBI 13TB (0.346 avg) -- away split: 0.267 avg
-- Kyle Manzardo (L) -- L7: 4H 1HR 2RBI 9TB (0.2 avg) -- away split: 0.2 avg
-- Steven Kwan (L) [5-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 10H 0HR 2RBI 12TB (0.37 avg) -- away split: 0.241 avg
-- Petey Halpin (L) -- L7: 4H 2HR 4RBI 11TB (0.182 avg) -- away split: 0.16 avg
-- Gabriel Arias (R) [TOUGH MATCHUP: pitcher holds this hand to 0.194 avg-against] [likely BABIP-driven, not a real power uptick] -- L7: 6H 0HR 0RBI 6TB (0.316 avg) -- away split: 0.222 avg
-- Patrick Bailey (S) -- L7: 7H 2HR 4RBI 13TB (0.318 avg) -- away split: 0.189 avg
-- Rhys Hoskins (R) [TOUGH MATCHUP: pitcher holds this hand to 0.194 avg-against] -- L7: 3H 2HR 2RBI 9TB (0.136 avg) -- away split: 0.174 avg
+- #1 Steven Kwan (L) [5-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 10H 0HR 2RBI 12TB (0.37 avg) -- away split: 0.241 avg
+- #2 José Ramírez (S) -- L7: 5H 0HR 2RBI 6TB (0.185 avg) -- away split: 0.216 avg
+- #3 Chase DeLauter (L) -- L7: 9H 0HR 3RBI 13TB (0.346 avg) -- away split: 0.267 avg
+- #4 Travis Bazzana (L) -- L7: 6H 1HR 2RBI 9TB (0.24 avg) -- away split: 0.241 avg
+- #5 Brayan Rocchio (S) -- L7: 7H 1HR 5RBI 12TB (0.226 avg) -- away split: 0.227 avg
+- #6 Kyle Manzardo (L) -- L7: 4H 1HR 2RBI 9TB (0.2 avg) -- away split: 0.2 avg
+- #7 Gabriel Arias (R) [TOUGH MATCHUP: pitcher holds this hand to 0.194 avg-against] [likely BABIP-driven, not a real power uptick] -- L7: 6H 0HR 0RBI 6TB (0.316 avg) -- away split: 0.222 avg
+- #8 Patrick Bailey (S) -- L7: 7H 2HR 4RBI 13TB (0.318 avg) -- away split: 0.189 avg
+- #9 Petey Halpin (L) -- L7: 4H 2HR 4RBI 11TB (0.182 avg) -- away split: 0.16 avg
 
 ### Cincinnati Reds lineup -- CONFIRMED
 _Facing a rested bullpen: 2.3 relief IP in last 2 days (ratio 0.49)_
@@ -274,10 +274,10 @@ _Facing a rested bullpen: 2.3 relief IP in last 2 days (ratio 0.49)_
 - #8 Edwin Arroyo (S) [MATCHUP EDGE: pitcher hits 0.281 avg-against vs this hand] -- L7: 5H 0HR 0RBI 5TB (0.294 avg) -- home split: 0.179 avg
 - #9 TJ Friedl (L) [MATCHUP EDGE: pitcher hits 0.281 avg-against vs this hand] -- L7: 3H 0HR 0RBI 3TB (0.167 avg) -- home split: 0.158 avg
 
-## 2026-07-27 - New York Yankees @ Chicago White Sox (Scheduled)
+## 2026-07-27 - New York Yankees @ Chicago White Sox (Pre-Game)
 _Rate Field_
-Projected score: New York Yankees 4.82 - Chicago White Sox 3.31
-Model likes: **New York Yankees** to win (63%) | Run line: **Chicago White Sox** +1.5 (52% to cover) | Total 8.5: lean **UNDER** (59%)
+Projected score: New York Yankees 4.82 - Chicago White Sox 3.24
+Model likes: **New York Yankees** to win (64%) | Run line: **Chicago White Sox** +1.5 (52% to cover) | Total 6.5: lean **OVER** (60%)
 
 ### New York Yankees lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 7.7 relief IP in last 2 days (ratio 1.23)_
@@ -292,20 +292,20 @@ _Facing a taxed bullpen: 7.7 relief IP in last 2 days (ratio 1.23)_
 - Austin Wells (L) [likely BABIP-driven, not a real power uptick] -- L7: 5H 1HR 2RBI 8TB (0.357 avg) -- away split: 0.172 avg
 - Anthony Volpe (R) -- L7: 5H 0HR 3RBI 7TB (0.263 avg) -- away split: 0.259 avg
 
-### Chicago White Sox lineup -- PROJECTED (unconfirmed)
+### Chicago White Sox lineup -- CONFIRMED
 _Facing a taxed bullpen: 8.3 relief IP in last 2 days (ratio 1.59)_
 **Probable P: Noah Schultz (L)** -- L5: 22.0 IP, 17 K, 19 ER, 7.77 ERA
-- Miguel Vargas (R) -- L7: 6H 1HR 4RBI 12TB (0.207 avg) -- home split: 0.262 avg
-- Tristan Peters (L) [TOUGH MATCHUP: pitcher holds this hand to 0.138 avg-against] -- L7: 3H 0HR 0RBI 4TB (0.13 avg) -- home split: 0.28 avg
-- Chase Meidroth (R) -- L7: 8H 1HR 5RBI 12TB (0.348 avg) -- home split: 0.28 avg
-- Sam Antonacci (L) [TOUGH MATCHUP: pitcher holds this hand to 0.138 avg-against] -- L7: 6H 0HR 1RBI 8TB (0.261 avg) -- home split: 0.306 avg
-- Braden Montgomery (S) -- L7: 8H 0HR 3RBI 9TB (0.308 avg) -- home split: 0.271 avg
-- Colson Montgomery (L) [TOUGH MATCHUP: pitcher holds this hand to 0.138 avg-against] -- L7: 5H 1HR 6RBI 9TB (0.192 avg) -- home split: 0.225 avg
-- Andrew Benintendi (L) [TOUGH MATCHUP: pitcher holds this hand to 0.138 avg-against] -- L7: 5H 0HR 7RBI 7TB (0.238 avg) -- home split: 0.229 avg
-- Munetaka Murakami (L) [TOUGH MATCHUP: pitcher holds this hand to 0.138 avg-against] [3-game hit streak] -- L7: 7H 2HR 6RBI 15TB (0.28 avg) -- home split: 0.221 avg
-- Luisangel Acuña (R) -- L7: 3H 0HR 2RBI 3TB (0.3 avg) -- home split: 0.253 avg
+- #1 Randal Grichuk (R) -- L7: 3H 0HR 1RBI 5TB (0.25 avg) -- home split: 0.243 avg
+- #2 Munetaka Murakami (L) [TOUGH MATCHUP: pitcher holds this hand to 0.138 avg-against] [3-game hit streak] -- L7: 7H 2HR 6RBI 15TB (0.28 avg) -- home split: 0.221 avg
+- #3 Miguel Vargas (R) -- L7: 6H 1HR 4RBI 12TB (0.207 avg) -- home split: 0.262 avg
+- #4 Colson Montgomery (L) [TOUGH MATCHUP: pitcher holds this hand to 0.138 avg-against] -- L7: 5H 1HR 6RBI 9TB (0.192 avg) -- home split: 0.225 avg
+- #5 Chase Meidroth (R) -- L7: 8H 1HR 5RBI 12TB (0.348 avg) -- home split: 0.28 avg
+- #6 Braden Montgomery (S) -- L7: 8H 0HR 3RBI 9TB (0.308 avg) -- home split: 0.271 avg
+- #7 Everson Pereira (R) -- L7: 2H 0HR 1RBI 2TB (0.1 avg) -- home split: 0.25 avg
+- #8 Edgar Quero (S) -- L7: 4H 0HR 0RBI 4TB (0.174 avg) -- home split: 0.235 avg
+- #9 Luisangel Acuña (R) -- L7: 3H 0HR 2RBI 3TB (0.3 avg) -- home split: 0.253 avg
 
-## 2026-07-27 - Chicago Cubs @ St. Louis Cardinals (Scheduled)
+## 2026-07-27 - Chicago Cubs @ St. Louis Cardinals (Pre-Game)
 _Busch Stadium_
 Projected score: Chicago Cubs 5.23 - St. Louis Cardinals 4.53
 Model likes: **Chicago Cubs** to win (55%) | Run line: **St. Louis Cardinals** +1.5 (58% to cover) | Total 8.5: lean **OVER** (55%)
@@ -399,7 +399,7 @@ _Facing a taxed bullpen: 9.0 relief IP in last 2 days (ratio 1.76)_
 ## 2026-07-27 - Milwaukee Brewers @ San Francisco Giants (Scheduled)
 _Oracle Park [pitcher-friendly park]_
 Projected score: Milwaukee Brewers 4.91 - San Francisco Giants 3.91
-Model likes: **Milwaukee Brewers** to win (58%) | Run line: **San Francisco Giants** +1.5 (57% to cover) | Total 8.5: lean **UNDER** (53%)
+Model likes: **Milwaukee Brewers** to win (58%) | Run line: **San Francisco Giants** +1.5 (56% to cover) | Total 8.5: lean **UNDER** (53%)
 
 ### Milwaukee Brewers lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.83)_
@@ -434,15 +434,15 @@ Model likes: **Tampa Bay Rays** to win (63%) | Run line: **Texas Rangers** +1.5 
 
 ### Texas Rangers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.39)_
-- Ezequiel Duran (R) [6-game hit streak] -- L7: 8H 1HR 5RBI 16TB (0.296 avg) -- away split: 0.268 avg
-- Nicky Lopez (L) [3-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 8H 0HR 4RBI 8TB (0.381 avg) -- away split: 0.292 avg
-- Brandon Nimmo (L) -- L7: 8H 1HR 2RBI 12TB (0.308 avg) -- away split: 0.289 avg
-- Evan Carter (L) -- L7: 5H 1HR 5RBI 9TB (0.263 avg) -- away split: 0.168 avg
+- Ezequiel Duran (R) [7-game hit streak] -- L7: 9H 2HR 6RBI 20TB (0.36 avg) -- away split: 0.268 avg
+- Nicky Lopez (L) [4-game hit streak] -- L7: 6H 0HR 4RBI 6TB (0.316 avg) -- away split: 0.292 avg
+- Brandon Nimmo (L) [likely BABIP-driven, not a real power uptick] -- L7: 9H 1HR 2RBI 14TB (0.36 avg) -- away split: 0.289 avg
+- Wyatt Langford (R) -- L7: 8H 2HR 4RBI 16TB (0.308 avg) -- away split: 0.288 avg
+- Evan Carter (L) [3-game hit streak] -- L7: 4H 0HR 3RBI 6TB (0.222 avg) -- away split: 0.168 avg
+- Jake Burger (R) -- L7: 7H 3HR 8RBI 17TB (0.28 avg) -- away split: 0.254 avg
 - Justin Foscue (R) -- L7: 2H 0HR 0RBI 2TB (0.143 avg) -- away split: 0.328 avg
-- Jake Burger (R) -- L7: 7H 2HR 6RBI 14TB (0.25 avg) -- away split: 0.254 avg
-- Wyatt Langford (R) [3-game hit streak] -- L7: 11H 3HR 6RBI 23TB (0.393 avg) -- away split: 0.288 avg
-- Alejandro Osuna (L) -- L7: 5H 0HR 5RBI 6TB (0.312 avg) -- away split: 0.258 avg
-- Cam Cauley (R) -- L7: 4H 1HR 1RBI 9TB (0.267 avg) -- away split: 0.154 avg
+- Joc Pederson (L) [8-game hit streak] -- L7: 12H 4HR 6RBI 27TB (0.444 avg) -- away split: 0.306 avg
+- Elias Díaz (R) -- L7: 4H 0HR 0RBI 5TB (0.182 avg) -- away split: 0.326 avg
 
 ### Tampa Bay Rays lineup -- PROJECTED (unconfirmed)
 **Probable P: Griffin Jax (R)** -- L5: 27.0 IP, 29 K, 15 ER, 5.0 ERA
@@ -459,7 +459,7 @@ _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.39)_
 ## 2026-07-28 - Arizona Diamondbacks @ Pittsburgh Pirates (Scheduled)
 _PNC Park_
 Projected score: Arizona Diamondbacks 4.53 - Pittsburgh Pirates 5.1
-Model likes: **Pittsburgh Pirates** to win (54%) | Run line: **Arizona Diamondbacks** +1.5 (60% to cover) | Total 8.5: lean **OVER** (54%)
+Model likes: **Pittsburgh Pirates** to win (54%) | Run line: **Arizona Diamondbacks** +1.5 (59% to cover) | Total 8.5: lean **OVER** (54%)
 
 ### Arizona Diamondbacks lineup -- PROJECTED (unconfirmed)
 **Probable P: Brandon Pfaadt (R)** -- L5: 27.0 IP, 14 K, 7 ER, 2.33 ERA
@@ -547,11 +547,10 @@ _Facing a taxed bullpen: 6.7 relief IP in last 2 days (ratio 1.43)_
 
 ## 2026-07-28 - Toronto Blue Jays @ Washington Nationals (Scheduled)
 _Nationals Park_
-Projected score: Toronto Blue Jays 3.28 - Washington Nationals 5.08
-Model likes: **Washington Nationals** to win (66%) | Run line: **Washington Nationals** -1.5 (50% to cover) | Total 8.5: lean **UNDER** (57%)
+Projected score: Toronto Blue Jays 3.36 - Washington Nationals 5.08
+Model likes: **Washington Nationals** to win (65%) | Run line: **Toronto Blue Jays** +1.5 (51% to cover) | Total 8.5: lean **UNDER** (56%)
 
 ### Toronto Blue Jays lineup -- PROJECTED (unconfirmed)
-_Facing a taxed bullpen: 5.0 relief IP in last 2 days (ratio 1.28)_
 **Probable P: Shane Bieber (R)** -- L5: 27.0 IP, 20 K, 12 ER, 4.0 ERA
 - Ernie Clement (R) -- L7: 9H 0HR 1RBI 11TB (0.321 avg) -- away split: 0.285 avg
 - Kazuma Okamoto (R) -- L7: 3H 1HR 3RBI 7TB (0.12 avg) -- away split: 0.212 avg
@@ -631,15 +630,15 @@ _Facing a rested bullpen: 0.3 relief IP in last 2 days (ratio 0.07)_
 - JJ Bleday (L) -- L7: 4H 1HR 1RBI 7TB (0.154 avg) -- home split: 0.259 avg
 - Edwin Arroyo (S) -- L7: 5H 0HR 0RBI 5TB (0.294 avg) -- home split: 0.179 avg
 - Eugenio Suárez (R) -- L7: 4H 2HR 3RBI 10TB (0.148 avg) -- home split: 0.209 avg
-- Spencer Steer (R) -- L7: 3H 2HR 3RBI 10TB (0.125 avg) -- home split: 0.253 avg
 - Tyler Stephenson (R) -- L7: 7H 2HR 4RBI 16TB (0.304 avg) -- home split: 0.195 avg
 - Noelvi Marte (R) -- L7: 4H 0HR 0RBI 5TB (0.19 avg) -- home split: 0.132 avg
 - Ke'Bryan Hayes (R) -- L7: 3H 1HR 1RBI 6TB (0.25 avg) -- home split: 0.149 avg
+- TJ Friedl (L) -- L7: 3H 0HR 0RBI 3TB (0.167 avg) -- home split: 0.158 avg
 
 ## 2026-07-28 - Kansas City Royals @ Minnesota Twins (Scheduled)
 _Target Field_
 Projected score: Kansas City Royals 3.6 - Minnesota Twins 4.63
-Model likes: **Minnesota Twins** to win (59%) | Run line: **Kansas City Royals** +1.5 (56% to cover) | Total 8.5: lean **UNDER** (58%)
+Model likes: **Minnesota Twins** to win (59%) | Run line: **Kansas City Royals** +1.5 (57% to cover) | Total 8.5: lean **UNDER** (58%)
 
 ### Kansas City Royals lineup -- PROJECTED (unconfirmed)
 **Probable P: Seth Lugo (R)** -- L5: 27.3 IP, 25 K, 15 ER, 4.94 ERA
@@ -754,7 +753,7 @@ _Facing a rested bullpen: 2.7 relief IP in last 2 days (ratio 0.5)_
 
 ## 2026-07-28 - Colorado Rockies @ San Diego Padres (Scheduled)
 _Petco Park [pitcher-friendly park]_
-Projected score: Colorado Rockies 3.54 - San Diego Padres 5.0
+Projected score: Colorado Rockies 3.54 - San Diego Padres 5.02
 Model likes: **San Diego Padres** to win (63%) | Run line: **Colorado Rockies** +1.5 (53% to cover) | Total 8.5: lean **UNDER** (55%)
 
 ### Colorado Rockies lineup -- PROJECTED (unconfirmed)
@@ -786,7 +785,7 @@ _Facing a rested bullpen: 1.7 relief IP in last 2 days (ratio 0.34)_
 ## 2026-07-28 - Boston Red Sox @ Athletics (Scheduled)
 _Sutter Health Park_
 Projected score: Boston Red Sox 5.18 - Athletics 2.89
-Model likes: **Boston Red Sox** to win (70%) | Run line: **Boston Red Sox** -1.5 (55% to cover) | Total 6.5: lean **OVER** (60%)
+Model likes: **Boston Red Sox** to win (70%) | Run line: **Boston Red Sox** -1.5 (54% to cover) | Total 6.5: lean **OVER** (59%)
 
 ### Boston Red Sox lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 6.7 relief IP in last 2 days (ratio 1.55)_
@@ -849,15 +848,15 @@ Model likes: **Los Angeles Dodgers** to win (57%) | Run line: **Seattle Mariners
 
 ### Seattle Mariners lineup -- PROJECTED (unconfirmed)
 **Probable P: Luis Castillo (R)** -- L5: 28.0 IP, 19 K, 14 ER, 4.5 ERA
-- Cole Young (L) -- L7: 8H 1HR 2RBI 13TB (0.276 avg) -- away split: 0.26 avg
-- Randy Arozarena (R) [4-game hit streak] -- L7: 9H 1HR 1RBI 12TB (0.321 avg) -- away split: 0.321 avg
+- Cole Young (L) -- L7: 6H 0HR 0RBI 8TB (0.222 avg) -- away split: 0.262 avg
+- Randy Arozarena (R) [5-game hit streak] -- L7: 9H 2HR 2RBI 15TB (0.346 avg) -- away split: 0.323 avg
+- Josh Naylor (L) -- L7: 8H 0HR 0RBI 9TB (0.308 avg) -- away split: 0.265 avg
+- Luke Raley (L) -- L7: 3H 0HR 2RBI 3TB (0.214 avg) -- away split: 0.222 avg
 - Cal Raleigh (S) -- L7: 4H 1HR 6RBI 7TB (0.16 avg) -- away split: 0.168 avg
-- Josh Naylor (L) [likely BABIP-driven, not a real power uptick] -- L7: 10H 0HR 1RBI 11TB (0.357 avg) -- away split: 0.267 avg
-- Luke Raley (L) -- L7: 4H 1HR 3RBI 7TB (0.267 avg) -- away split: 0.224 avg
-- Colt Emerson (L) [3-game hit streak] -- L7: 6H 0HR 1RBI 7TB (0.25 avg) -- away split: 0.23 avg
-- Dominic Canzone (L) -- L7: 7H 1HR 6RBI 12TB (0.25 avg) -- away split: 0.239 avg
+- Colt Emerson (L) [4-game hit streak] -- L7: 6H 0HR 1RBI 7TB (0.273 avg) -- away split: 0.236 avg
+- Dominic Canzone (L) -- L7: 6H 1HR 6RBI 11TB (0.231 avg) -- away split: 0.235 avg
 - Victor Robles (R) [likely BABIP-driven, not a real power uptick] -- L7: 6H 0HR 0RBI 6TB (0.5 avg) -- away split: 0.236 avg
-- J.P. Crawford (L) -- L7: 6H 0HR 4RBI 9TB (0.25 avg) -- away split: 0.225 avg
+- J.P. Crawford (L) -- L7: 6H 0HR 4RBI 9TB (0.273 avg) -- away split: 0.222 avg
 
 ### Los Angeles Dodgers lineup -- PROJECTED (unconfirmed)
 - Andy Pages (R) -- L7: 6H 0HR 3RBI 9TB (0.214 avg) -- home split: 0.29 avg
@@ -933,8 +932,8 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 
 ## 2026-07-29 - Toronto Blue Jays @ Washington Nationals (Scheduled)
 _Nationals Park_
-Projected score: Toronto Blue Jays 4.07 - Washington Nationals 4.49
-Model likes: **Washington Nationals** to win (54%) | Run line: **Toronto Blue Jays** +1.5 (62% to cover) | Total 8.5: lean **UNDER** (55%)
+Projected score: Toronto Blue Jays 4.14 - Washington Nationals 4.49
+Model likes: **Washington Nationals** to win (53%) | Run line: **Toronto Blue Jays** +1.5 (62% to cover) | Total 8.5: lean **UNDER** (54%)
 
 ### Toronto Blue Jays lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1057,7 +1056,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 
 ## 2026-07-29 - Colorado Rockies @ San Diego Padres (Scheduled)
 _Petco Park [pitcher-friendly park]_
-Projected score: Colorado Rockies 4.03 - San Diego Padres 3.08
+Projected score: Colorado Rockies 4.03 - San Diego Padres 3.09
 Model likes: **Colorado Rockies** to win (59%) | Run line: **San Diego Padres** +1.5 (58% to cover) | Total 6.5: lean **OVER** (51%)
 
 ### Colorado Rockies lineup -- PROJECTED (unconfirmed)
@@ -1092,15 +1091,15 @@ Model likes: **Tampa Bay Rays** to win (60%) | Run line: **Texas Rangers** +1.5 
 
 ### Texas Rangers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
-- Ezequiel Duran (R) [6-game hit streak] -- L7: 8H 1HR 5RBI 16TB (0.296 avg) -- away split: 0.268 avg
-- Nicky Lopez (L) [3-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 8H 0HR 4RBI 8TB (0.381 avg) -- away split: 0.292 avg
-- Brandon Nimmo (L) -- L7: 8H 1HR 2RBI 12TB (0.308 avg) -- away split: 0.289 avg
-- Evan Carter (L) -- L7: 5H 1HR 5RBI 9TB (0.263 avg) -- away split: 0.168 avg
+- Ezequiel Duran (R) [7-game hit streak] -- L7: 9H 2HR 6RBI 20TB (0.36 avg) -- away split: 0.268 avg
+- Nicky Lopez (L) [4-game hit streak] -- L7: 6H 0HR 4RBI 6TB (0.316 avg) -- away split: 0.292 avg
+- Brandon Nimmo (L) [likely BABIP-driven, not a real power uptick] -- L7: 9H 1HR 2RBI 14TB (0.36 avg) -- away split: 0.289 avg
+- Wyatt Langford (R) -- L7: 8H 2HR 4RBI 16TB (0.308 avg) -- away split: 0.288 avg
+- Evan Carter (L) [3-game hit streak] -- L7: 4H 0HR 3RBI 6TB (0.222 avg) -- away split: 0.168 avg
+- Jake Burger (R) -- L7: 7H 3HR 8RBI 17TB (0.28 avg) -- away split: 0.254 avg
 - Justin Foscue (R) -- L7: 2H 0HR 0RBI 2TB (0.143 avg) -- away split: 0.328 avg
-- Jake Burger (R) -- L7: 7H 2HR 6RBI 14TB (0.25 avg) -- away split: 0.254 avg
-- Wyatt Langford (R) [3-game hit streak] -- L7: 11H 3HR 6RBI 23TB (0.393 avg) -- away split: 0.288 avg
-- Alejandro Osuna (L) -- L7: 5H 0HR 5RBI 6TB (0.312 avg) -- away split: 0.258 avg
-- Cam Cauley (R) -- L7: 4H 1HR 1RBI 9TB (0.267 avg) -- away split: 0.154 avg
+- Joc Pederson (L) [8-game hit streak] -- L7: 12H 4HR 6RBI 27TB (0.444 avg) -- away split: 0.306 avg
+- Elias Díaz (R) -- L7: 4H 0HR 0RBI 5TB (0.182 avg) -- away split: 0.326 avg
 
 ### Tampa Bay Rays lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1140,10 +1139,10 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 - JJ Bleday (L) -- L7: 4H 1HR 1RBI 7TB (0.154 avg) -- home split: 0.259 avg
 - Edwin Arroyo (S) [MATCHUP EDGE: pitcher hits 0.265 avg-against vs this hand] -- L7: 5H 0HR 0RBI 5TB (0.294 avg) -- home split: 0.179 avg
 - Eugenio Suárez (R) [MATCHUP EDGE: pitcher hits 0.265 avg-against vs this hand] -- L7: 4H 2HR 3RBI 10TB (0.148 avg) -- home split: 0.209 avg
-- Spencer Steer (R) [MATCHUP EDGE: pitcher hits 0.265 avg-against vs this hand] -- L7: 3H 2HR 3RBI 10TB (0.125 avg) -- home split: 0.253 avg
 - Tyler Stephenson (R) [MATCHUP EDGE: pitcher hits 0.265 avg-against vs this hand] -- L7: 7H 2HR 4RBI 16TB (0.304 avg) -- home split: 0.195 avg
 - Noelvi Marte (R) [MATCHUP EDGE: pitcher hits 0.265 avg-against vs this hand] -- L7: 4H 0HR 0RBI 5TB (0.19 avg) -- home split: 0.132 avg
 - Ke'Bryan Hayes (R) [MATCHUP EDGE: pitcher hits 0.265 avg-against vs this hand] -- L7: 3H 1HR 1RBI 6TB (0.25 avg) -- home split: 0.149 avg
+- TJ Friedl (L) -- L7: 3H 0HR 0RBI 3TB (0.167 avg) -- home split: 0.158 avg
 
 ## 2026-07-29 - Kansas City Royals @ Minnesota Twins (Scheduled)
 _Target Field_
@@ -1305,15 +1304,15 @@ Model likes: **Seattle Mariners** to win (52%) | Run line: **Los Angeles Dodgers
 ### Seattle Mariners lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 **Probable P: Emerson Hancock (R)** -- L5: 25.7 IP, 22 K, 8 ER, 2.81 ERA
-- Cole Young (L) -- L7: 8H 1HR 2RBI 13TB (0.276 avg) -- away split: 0.26 avg
-- Randy Arozarena (R) [4-game hit streak] -- L7: 9H 1HR 1RBI 12TB (0.321 avg) -- away split: 0.321 avg
+- Cole Young (L) -- L7: 6H 0HR 0RBI 8TB (0.222 avg) -- away split: 0.262 avg
+- Randy Arozarena (R) [5-game hit streak] -- L7: 9H 2HR 2RBI 15TB (0.346 avg) -- away split: 0.323 avg
+- Josh Naylor (L) -- L7: 8H 0HR 0RBI 9TB (0.308 avg) -- away split: 0.265 avg
+- Luke Raley (L) -- L7: 3H 0HR 2RBI 3TB (0.214 avg) -- away split: 0.222 avg
 - Cal Raleigh (S) -- L7: 4H 1HR 6RBI 7TB (0.16 avg) -- away split: 0.168 avg
-- Josh Naylor (L) [likely BABIP-driven, not a real power uptick] -- L7: 10H 0HR 1RBI 11TB (0.357 avg) -- away split: 0.267 avg
-- Luke Raley (L) -- L7: 4H 1HR 3RBI 7TB (0.267 avg) -- away split: 0.224 avg
-- Colt Emerson (L) [3-game hit streak] -- L7: 6H 0HR 1RBI 7TB (0.25 avg) -- away split: 0.23 avg
-- Dominic Canzone (L) -- L7: 7H 1HR 6RBI 12TB (0.25 avg) -- away split: 0.239 avg
+- Colt Emerson (L) [4-game hit streak] -- L7: 6H 0HR 1RBI 7TB (0.273 avg) -- away split: 0.236 avg
+- Dominic Canzone (L) -- L7: 6H 1HR 6RBI 11TB (0.231 avg) -- away split: 0.235 avg
 - Victor Robles (R) [likely BABIP-driven, not a real power uptick] -- L7: 6H 0HR 0RBI 6TB (0.5 avg) -- away split: 0.236 avg
-- J.P. Crawford (L) -- L7: 6H 0HR 4RBI 9TB (0.25 avg) -- away split: 0.225 avg
+- J.P. Crawford (L) -- L7: 6H 0HR 4RBI 9TB (0.273 avg) -- away split: 0.222 avg
 
 ### Los Angeles Dodgers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
