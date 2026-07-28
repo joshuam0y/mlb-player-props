@@ -791,7 +791,7 @@ def build_batter_entry(conn, player_id, opp_hand, opp_pitcher_id, is_home_game, 
     factor_fn = lambda label: batter_matchup_factor(matchup)  # noqa: E731 -- same factor for every batting category
     recent_categories = batter_prop_categories(conn, player_id, baselines, factor_fn=factor_fn, as_of_date=as_of_date)
     season_categories = batter_prop_categories(conn, player_id, baselines, factor_fn=factor_fn, n=200, include_values=False, as_of_date=as_of_date)
-    best_over, best_under = prop_category_delta(recent_categories, season_categories)
+    best_over, best_under = prop_category_delta(recent_categories, season_categories, require_lean_agreement=True)
     best_prop, best_prop_direction = headline_prop(best_over, best_under)
     if best_prop is None:
         best_prop, best_prop_direction = fallback_best_prop(recent_categories, season_categories)
@@ -1067,14 +1067,34 @@ def pitcher_runs_under_score(p):
     return score, reasons
 
 
-def prop_category_delta(recent_categories, season_categories, min_games=8):
+def prop_category_delta(recent_categories, season_categories, min_games=8, require_lean_agreement=False):
     """
     The category where recent performance deviates most from this player's
     OWN season norm, in each direction -- not the category with the
     highest raw hit-rate. Comparing raw rates across categories always
     picks "1+ hits" (the easiest bar to clear for almost any hitter), which
     isn't a meaningful "best angle," just an artifact of it being the
-    lowest threshold. Returns (most_over, most_under), either possibly None.
+    lowest threshold.
+
+    require_lean_agreement (batters only -- see build_batter_entry()) adds
+    a second, independent bar: a raw recent-vs-season deviation alone is
+    exactly the "hot streak" signal backtest_props.py already found has
+    near-zero single-game predictive power on its own -- confirmed live,
+    not just in that backtest: the Top Overs leaderboard, built from this
+    exact signal, hit only ~34% across its first 4 tracked days, worse
+    than a coin flip. A category only qualifies here if its own `lean`
+    (today's matchup-adjusted projection vs. line, which DOES fold in the
+    real, backtest-validated matchup-edge factor -- see
+    batter_matchup_factor()) agrees with the deviation's direction. A
+    category that merely ran hot recently with no supporting matchup edge
+    tonight no longer qualifies as a confident "best" angle -- callers
+    fall back to resolve_best_category()'s own lean/popularity chain
+    instead, which is the intended effect: an uncorroborated hot streak
+    shouldn't headline with false confidence. Pitchers don't get this
+    (their own `lean` is driven by recent form_trend, not an opposing-
+    lineup matchup edge -- the same kind of streak signal being
+    questioned here, not an independent check on it).
+    Returns (most_over, most_under), either possibly None.
     """
     if not recent_categories or not season_categories:
         return None, None
@@ -1090,28 +1110,21 @@ def prop_category_delta(recent_categories, season_categories, min_games=8):
         s_line = next((x for x in sc["hit_rates"] if x["line"] == r_line["line"]), None)
         if not s_line:
             continue
-        deltas.append((r_line["pct"] - s_line["pct"], rc["label"], r_line))
+        deltas.append((r_line["pct"] - s_line["pct"], rc["label"], r_line, rc.get("lean")))
     if not deltas:
         return None, None
-    deltas.sort(key=lambda d: d[0])
-    most_under_delta, most_under_label, most_under_line = deltas[0]
-    most_over_delta, most_over_label, most_over_line = deltas[-1]
-    most_over = (
-        {
-            "label": most_over_label, "line": most_over_line["line"], "pct": most_over_line["pct"],
-            "n": most_over_line["n"], "season_pct": most_over_line["pct"] - most_over_delta, "delta": most_over_delta,
-        }
-        if most_over_delta > 0
-        else None
-    )
-    most_under = (
-        {
-            "label": most_under_label, "line": most_under_line["line"], "pct": most_under_line["pct"],
-            "n": most_under_line["n"], "season_pct": most_under_line["pct"] - most_under_delta, "delta": most_under_delta,
-        }
-        if most_under_delta < 0
-        else None
-    )
+
+    over_pool = [d for d in deltas if d[0] > 0 and (not require_lean_agreement or d[3] == "over")]
+    under_pool = [d for d in deltas if d[0] < 0 and (not require_lean_agreement or d[3] == "under")]
+
+    most_over = None
+    if over_pool:
+        delta, label, line, _ = max(over_pool, key=lambda d: d[0])
+        most_over = {"label": label, "line": line["line"], "pct": line["pct"], "n": line["n"], "season_pct": line["pct"] - delta, "delta": delta}
+    most_under = None
+    if under_pool:
+        delta, label, line, _ = min(under_pool, key=lambda d: d[0])
+        most_under = {"label": label, "line": line["line"], "pct": line["pct"], "n": line["n"], "season_pct": line["pct"] - delta, "delta": delta}
     return most_over, most_under
 
 
