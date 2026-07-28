@@ -167,6 +167,22 @@ function easternToday() {{
   return new Intl.DateTimeFormat('en-CA', {{ timeZone: 'America/New_York' }}).format(new Date());
 }}
 
+// Shown next to every player/team search suggestion specifically so a
+// doubleheader (the same two teams, or the same player, showing up twice
+// for one calendar date) is actually distinguishable in the dropdown --
+// confirmed real case: a postponed game folded into a same-day
+// doubleheader left two "Cincinnati Reds vs Cleveland Guardians" entries
+// with no way to tell which one a bet meant, so the leg could never
+// resolve to the right specific game.
+function formatGameTime(gameTimeUtc) {{
+  if (!gameTimeUtc) return '';
+  const d = new Date(gameTimeUtc);
+  if (isNaN(d.getTime())) return '';
+  return new Intl.DateTimeFormat('en-US', {{
+    timeZone: 'America/New_York', month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit',
+  }}).format(d);
+}}
+
 // American odds -> profit on the given stake (standard formula: positive
 // odds pay that much per $100 staked; negative odds require that much
 // staked to win $100). Confirmed real bug this fixes: typing the raw
@@ -216,6 +232,7 @@ function buildPlayerIndex(report) {{
           role: item.role,
           team: side.team_name,
           game_pk: g.game_pk,
+          game_time_utc: g.game_time_utc,
           prop_categories: item.entity.prop_categories || [],
         }});
       }});
@@ -245,6 +262,7 @@ function buildTeamIndex(report) {{
         name: side.team_name,
         opponent: oppSide ? oppSide.team_name : '',
         game_pk: g.game_pk,
+        game_time_utc: g.game_time_utc,
         side: sideKey,
       }});
     }});
@@ -636,7 +654,9 @@ function wireLegRow(rowEl) {{
     }}
     suggestionsEl.dataset.matches = JSON.stringify(matches);
     suggestionsEl.innerHTML = matches.map(function (m, i) {{
-      const sub = kind === 'player' ? (m.team || '') : ('vs ' + (m.opponent || ''));
+      const base = kind === 'player' ? (m.team || '') : ('vs ' + (m.opponent || ''));
+      const timeTxt = formatGameTime(m.game_time_utc);
+      const sub = base + (timeTxt ? ' · ' + timeTxt : '');
       return '<div class="entity-suggestion" data-i="' + i + '">' + escapeHtml(m.name) +
         ' <span class="sub">' + escapeHtml(sub) + '</span></div>';
     }}).join('');
