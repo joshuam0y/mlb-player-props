@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-07-28T16:30:12.527055+00:00_
+_Generated 2026-07-28T17:04:31.328544+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -90,7 +90,7 @@ _Facing a rested bullpen: 0.3 relief IP in last 2 days (ratio 0.07)_
 ## 2026-07-28 - Texas Rangers @ Tampa Bay Rays (Scheduled)
 _Tropicana Field_
 Projected score: Texas Rangers 3.52 - Tampa Bay Rays 5.24
-Model likes: **Tampa Bay Rays** to win (64%) | Run line: **Texas Rangers** +1.5 (50% to cover) | Total 8.5: lean **UNDER** (53%)
+Model likes: **Tampa Bay Rays** to win (64%) | Run line: **Texas Rangers** +1.5 (51% to cover) | Total 8.5: lean **UNDER** (53%)
 
 ### Texas Rangers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.38)_
@@ -213,7 +213,7 @@ _Facing a taxed bullpen: 11.0 relief IP in last 2 days (ratio 2.35)_
 ## 2026-07-28 - Toronto Blue Jays @ Washington Nationals (Scheduled)
 _Nationals Park_
 Projected score: Toronto Blue Jays 3.25 - Washington Nationals 5.43
-Model likes: **Washington Nationals** to win (68%) | Run line: **Washington Nationals** -1.5 (54% to cover) | Total 8.5: lean **UNDER** (54%)
+Model likes: **Washington Nationals** to win (68%) | Run line: **Washington Nationals** -1.5 (53% to cover) | Total 8.5: lean **UNDER** (54%)
 
 ### Toronto Blue Jays lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 11.7 relief IP in last 2 days (ratio 2.61)_
@@ -244,7 +244,7 @@ _Facing a taxed bullpen: 8.3 relief IP in last 2 days (ratio 1.41)_
 ## 2026-07-28 - Atlanta Braves @ New York Mets (Scheduled)
 _Citi Field_
 Projected score: Atlanta Braves 3.91 - New York Mets 2.76
-Model likes: **Atlanta Braves** to win (62%) | Run line: **New York Mets** +1.5 (56% to cover) | Total 6.5: lean **UNDER** (54%)
+Model likes: **Atlanta Braves** to win (62%) | Run line: **New York Mets** +1.5 (57% to cover) | Total 6.5: lean **UNDER** (54%)
 
 ### Atlanta Braves lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 7.7 relief IP in last 2 days (ratio 1.47)_
@@ -425,7 +425,7 @@ _Facing a taxed bullpen: 11.0 relief IP in last 2 days (ratio 2.03)_
 ## 2026-07-28 - Colorado Rockies @ San Diego Padres (Scheduled)
 _Petco Park [pitcher-friendly park]_
 Projected score: Colorado Rockies 3.17 - San Diego Padres 4.79
-Model likes: **San Diego Padres** to win (65%) | Run line: **Colorado Rockies** +1.5 (52% to cover) | Total 6.5: lean **OVER** (59%)
+Model likes: **San Diego Padres** to win (64%) | Run line: **Colorado Rockies** +1.5 (51% to cover) | Total 6.5: lean **OVER** (59%)
 
 ### Colorado Rockies lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.7 relief IP in last 2 days (ratio 0.63)_
@@ -634,7 +634,7 @@ _Facing a taxed bullpen: 6.7 relief IP in last 2 days (ratio 1.49)_
 ## 2026-07-29 - Atlanta Braves @ New York Mets (Scheduled)
 _Citi Field_
 Projected score: Atlanta Braves 4.76 - New York Mets 3.74
-Model likes: **Atlanta Braves** to win (59%) | Run line: **New York Mets** +1.5 (56% to cover) | Total 8.5: lean **UNDER** (56%)
+Model likes: **Atlanta Braves** to win (59%) | Run line: **New York Mets** +1.5 (57% to cover) | Total 8.5: lean **UNDER** (56%)
 
 ### Atlanta Braves lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.7 relief IP in last 2 days (ratio 0.51)_
@@ -665,7 +665,7 @@ _Facing a rested bullpen: 2.7 relief IP in last 2 days (ratio 0.6)_
 ## 2026-07-29 - Baltimore Orioles @ Detroit Tigers (Scheduled)
 _Comerica Park [pitcher-friendly park]_
 Projected score: Baltimore Orioles 2.98 - Detroit Tigers 3.4
-Model likes: **Detroit Tigers** to win (54%) | Run line: **Baltimore Orioles** +1.5 (64% to cover) | Total 6.5: lean **UNDER** (57%)
+Model likes: **Detroit Tigers** to win (55%) | Run line: **Baltimore Orioles** +1.5 (64% to cover) | Total 6.5: lean **UNDER** (57%)
 
 ### Baltimore Orioles lineup -- PROJECTED (unconfirmed)
 **Probable P: Trevor Rogers (L)** -- L5: 30.7 IP, 29 K, 5 ER, 1.47 ERA
@@ -960,7 +960,7 @@ Model likes: **Boston Red Sox** to win (73%) | Run line: **Boston Red Sox** -1.5
 ## 2026-07-29 - Seattle Mariners @ Los Angeles Dodgers (Scheduled)
 _UNIQLO Field at Dodger Stadium_
 Projected score: Seattle Mariners 3.61 - Los Angeles Dodgers 3.54
-Model likes: **Seattle Mariners** to win (51%) | Run line: **Los Angeles Dodgers** +1.5 (67% to cover) | Total 6.5: lean **OVER** (51%)
+Model likes: **Seattle Mariners** to win (51%) | Run line: **Los Angeles Dodgers** +1.5 (66% to cover) | Total 6.5: lean **OVER** (52%)
 
 ### Seattle Mariners lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1227,7 +1227,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-07-30 - Boston Red Sox @ Athletics (Scheduled)
 _Sutter Health Park_
 Projected score: Boston Red Sox 7.48 - Athletics 3.09
-Model likes: **Boston Red Sox** to win (80%) | Run line: **Boston Red Sox** -1.5 (69% to cover) | Total 10.5: lean **UNDER** (55%)
+Model likes: **Boston Red Sox** to win (80%) | Run line: **Boston Red Sox** -1.5 (68% to cover) | Total 10.5: lean **UNDER** (56%)
 
 ### Boston Red Sox lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
