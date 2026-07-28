@@ -11,6 +11,11 @@ public news RSS feed -- no paid odds API, no scraping of betting sites.
 
 _Updated with every change going forward._
 
+- **2026-07-28** -- Fixed the live HIT/MISS badge never appearing on a
+  pitcher's "Predicted: X" line, even after the live box score had clearly
+  cleared it -- the DOM lookup relied on nesting that only held for
+  batters, not pitchers (confirmed real case: Slade Cecconi, 6 hits
+  allowed vs. a 5.5 line, still showing no verdict).
 - **2026-07-28** -- Added each player's position everywhere a name shows up
   (batter table rows, Top Overs/Unders pick cards, Track Record's pick
   lists, My Bets search/leg display) -- batters get their real per-game
