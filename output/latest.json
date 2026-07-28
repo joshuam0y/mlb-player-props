@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-28T15:45:24.972329+00:00",
+  "generated_at": "2026-07-28T15:48:48.841357+00:00",
   "range": [
     "2026-07-28",
     "2026-07-30"
@@ -17,7 +17,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 824490,
-        "generated_at": "2026-07-28T15:42:50.486137+00:00",
+        "generated_at": "2026-07-28T15:46:13.593207+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.63,
         "away_exp_runs": 2.53,
@@ -3100,13 +3100,13 @@
               {
                 "label": "Total Bases",
                 "average": 1.0,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.79,
-                "lean": "over",
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 60,
+                    "line": 1.5,
+                    "pct": 30,
                     "n": 10
                   }
                 ],
@@ -3289,7 +3289,7 @@
               }
             ],
             "best_over": {
-              "label": "Total Bases",
+              "label": "Hits",
               "line": 0.5,
               "pct": 60,
               "n": 10,
@@ -3305,7 +3305,7 @@
               "delta": -6
             },
             "best_prop": {
-              "label": "Total Bases",
+              "label": "Hits",
               "line": 0.5,
               "pct": 60,
               "n": 10,
@@ -3315,8 +3315,8 @@
             "best_prop_direction": "over",
             "matchup_lean": {
               "label": "Total Bases",
-              "line": 0.5,
-              "direction": "over",
+              "line": 1.5,
+              "direction": "under",
               "projection": 0.79
             },
             "game_result": null
@@ -3519,13 +3519,13 @@
               {
                 "label": "Total Bases",
                 "average": 0.7,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.97,
-                "lean": "over",
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 60,
+                    "line": 1.5,
+                    "pct": 10,
                     "n": 10
                   }
                 ],
@@ -3734,8 +3734,8 @@
             "best_prop_direction": "under",
             "matchup_lean": {
               "label": "Total Bases",
-              "line": 0.5,
-              "direction": "over",
+              "line": 1.5,
+              "direction": "under",
               "projection": 0.97
             },
             "game_result": null
@@ -3938,13 +3938,13 @@
               {
                 "label": "Total Bases",
                 "average": 0.3,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.9,
-                "lean": "over",
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 20,
+                    "line": 1.5,
+                    "pct": 10,
                     "n": 10
                   }
                 ],
@@ -4146,8 +4146,8 @@
             "best_prop_direction": "under",
             "matchup_lean": {
               "label": "Total Bases",
-              "line": 0.5,
-              "direction": "over",
+              "line": 1.5,
+              "direction": "under",
               "projection": 0.9
             },
             "game_result": null
@@ -6827,13 +6827,13 @@
               {
                 "label": "Total Bases",
                 "average": 1.0,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.96,
-                "lean": "over",
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 30,
+                    "line": 1.5,
+                    "pct": 20,
                     "n": 10
                   }
                 ],
@@ -7042,8 +7042,8 @@
             "best_prop_direction": "under",
             "matchup_lean": {
               "label": "Total Bases",
-              "line": 0.5,
-              "direction": "over",
+              "line": 1.5,
+              "direction": "under",
               "projection": 0.96
             },
             "game_result": null
@@ -8077,13 +8077,13 @@
               {
                 "label": "Total Bases",
                 "average": 1.5,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.87,
-                "lean": "over",
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 50,
+                    "line": 1.5,
+                    "pct": 20,
                     "n": 10
                   }
                 ],
@@ -8266,7 +8266,7 @@
               }
             ],
             "best_over": {
-              "label": "Total Bases",
+              "label": "Hits",
               "line": 0.5,
               "pct": 50,
               "n": 10,
@@ -8282,7 +8282,7 @@
               "delta": -8
             },
             "best_prop": {
-              "label": "Total Bases",
+              "label": "Hits",
               "line": 0.5,
               "pct": 50,
               "n": 10,
@@ -8291,10 +8291,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Walks",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.06
+              "projection": 0.87
             },
             "game_result": null
           }
@@ -8322,22 +8322,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 822949,
-        "generated_at": "2026-07-28T15:42:50.486137+00:00",
+        "generated_at": "2026-07-28T15:46:13.593207+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 5.24,
         "away_exp_runs": 3.52,
-        "home_win_prob": 0.644,
+        "home_win_prob": 0.643,
         "spread_line": 1.5,
         "spread_cover_prob": 0.495,
         "total_line": 8.5,
-        "over_prob": 0.468,
+        "over_prob": 0.467,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
         "spread_pick_prob": 0.505,
         "total_pick": "under",
-        "total_pick_prob": 0.532,
+        "total_pick_prob": 0.533,
         "spread_favorite": "home"
       },
       "home": {
@@ -10548,13 +10548,13 @@
               {
                 "label": "Total Bases",
                 "average": 1.0,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.81,
-                "lean": "over",
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 50,
+                    "line": 1.5,
+                    "pct": 30,
                     "n": 10
                   }
                 ],
@@ -10736,7 +10736,14 @@
                 ]
               }
             ],
-            "best_over": null,
+            "best_over": {
+              "label": "Total Bases",
+              "line": 1.5,
+              "pct": 30,
+              "n": 10,
+              "season_pct": 21,
+              "delta": 9
+            },
             "best_under": {
               "label": "RBIs",
               "line": 0.5,
@@ -10755,10 +10762,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "RBIs",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.18
+              "projection": 0.81
             },
             "game_result": null
           },
@@ -13073,13 +13080,13 @@
               {
                 "label": "Total Bases",
                 "average": 1.0,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.94,
-                "lean": "over",
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 70,
+                    "line": 1.5,
+                    "pct": 20,
                     "n": 10
                   }
                 ],
@@ -13288,8 +13295,8 @@
             "best_prop_direction": "over",
             "matchup_lean": {
               "label": "Total Bases",
-              "line": 0.5,
-              "direction": "over",
+              "line": 1.5,
+              "direction": "under",
               "projection": 0.94
             },
             "game_result": null
@@ -15992,13 +15999,13 @@
               {
                 "label": "Total Bases",
                 "average": 0.6,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.84,
-                "lean": "over",
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 40,
+                    "line": 1.5,
+                    "pct": 20,
                     "n": 10
                   }
                 ],
@@ -16199,10 +16206,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Walks",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.03
+              "projection": 0.84
             },
             "game_result": null
           }
@@ -16248,7 +16255,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 823350,
-        "generated_at": "2026-07-28T15:42:50.486137+00:00",
+        "generated_at": "2026-07-28T15:46:13.593207+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 5.07,
         "away_exp_runs": 4.48,
@@ -16256,14 +16263,14 @@
         "spread_line": 1.5,
         "spread_cover_prob": 0.407,
         "total_line": 8.5,
-        "over_prob": 0.536,
+        "over_prob": 0.535,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
         "spread_pick_prob": 0.593,
         "total_pick": "over",
-        "total_pick_prob": 0.536,
+        "total_pick_prob": 0.535,
         "spread_favorite": "home"
       },
       "home": {
@@ -18909,13 +18916,13 @@
               {
                 "label": "Total Bases",
                 "average": 1.2,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.77,
-                "lean": "over",
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 70,
+                    "line": 1.5,
+                    "pct": 30,
                     "n": 10
                   }
                 ],
@@ -19098,7 +19105,7 @@
               }
             ],
             "best_over": {
-              "label": "Total Bases",
+              "label": "Hits",
               "line": 0.5,
               "pct": 70,
               "n": 10,
@@ -19114,7 +19121,7 @@
               "delta": -6
             },
             "best_prop": {
-              "label": "Total Bases",
+              "label": "Hits",
               "line": 0.5,
               "pct": 70,
               "n": 10,
@@ -19124,8 +19131,8 @@
             "best_prop_direction": "over",
             "matchup_lean": {
               "label": "Total Bases",
-              "line": 0.5,
-              "direction": "over",
+              "line": 1.5,
+              "direction": "under",
               "projection": 0.77
             },
             "game_result": null
@@ -19747,12 +19754,12 @@
               {
                 "label": "Total Bases",
                 "average": 0.5,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.23,
                 "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
+                    "line": 1.5,
                     "pct": 10,
                     "n": 10
                   }
@@ -19961,10 +19968,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Walks",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.0
+              "projection": 0.23
             },
             "game_result": null
           },
@@ -20166,13 +20173,13 @@
               {
                 "label": "Total Bases",
                 "average": 1.1,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.84,
-                "lean": "over",
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 60,
+                    "line": 1.5,
+                    "pct": 20,
                     "n": 10
                   }
                 ],
@@ -20355,7 +20362,7 @@
               }
             ],
             "best_over": {
-              "label": "Total Bases",
+              "label": "Hits",
               "line": 0.5,
               "pct": 60,
               "n": 10,
@@ -20371,7 +20378,7 @@
               "delta": -4
             },
             "best_prop": {
-              "label": "Total Bases",
+              "label": "Hits",
               "line": 0.5,
               "pct": 60,
               "n": 10,
@@ -20381,8 +20388,8 @@
             "best_prop_direction": "over",
             "matchup_lean": {
               "label": "Total Bases",
-              "line": 0.5,
-              "direction": "over",
+              "line": 1.5,
+              "direction": "under",
               "projection": 0.84
             },
             "game_result": null
@@ -23905,13 +23912,13 @@
               {
                 "label": "Total Bases",
                 "average": 0.3,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.45,
-                "lean": null,
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 20,
+                    "line": 1.5,
+                    "pct": 10,
                     "n": 10
                   }
                 ],
@@ -24119,10 +24126,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "RBIs",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.08
+              "projection": 0.45
             },
             "game_result": null
           },
@@ -24587,20 +24594,20 @@
       "live_score": null,
       "projection": {
         "game_pk": 823838,
-        "generated_at": "2026-07-28T15:42:50.486137+00:00",
+        "generated_at": "2026-07-28T15:46:13.593207+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.76,
         "away_exp_runs": 3.7,
-        "home_win_prob": 0.591,
+        "home_win_prob": 0.593,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.438,
+        "spread_cover_prob": 0.439,
         "total_line": 8.5,
         "over_prob": 0.442,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.562,
+        "spread_pick_prob": 0.561,
         "total_pick": "under",
         "total_pick_prob": 0.558,
         "spread_favorite": "home"
@@ -27656,13 +27663,13 @@
               {
                 "label": "Total Bases",
                 "average": 0.6,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 1.06,
-                "lean": "over",
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 40,
+                    "line": 1.5,
+                    "pct": 10,
                     "n": 10
                   }
                 ],
@@ -27853,26 +27860,26 @@
               "delta": 1
             },
             "best_under": {
-              "label": "Runs Scored",
-              "line": 0.5,
-              "pct": 20,
+              "label": "Total Bases",
+              "line": 1.5,
+              "pct": 10,
               "n": 10,
-              "season_pct": 39,
-              "delta": -19
+              "season_pct": 34,
+              "delta": -24
             },
             "best_prop": {
-              "label": "Runs Scored",
-              "line": 0.5,
-              "pct": 20,
+              "label": "Total Bases",
+              "line": 1.5,
+              "pct": 10,
               "n": 10,
-              "season_pct": 39,
-              "delta": -19
+              "season_pct": 34,
+              "delta": -24
             },
             "best_prop_direction": "under",
             "matchup_lean": {
               "label": "Total Bases",
-              "line": 0.5,
-              "direction": "over",
+              "line": 1.5,
+              "direction": "under",
               "projection": 1.06
             },
             "game_result": null
@@ -32216,13 +32223,13 @@
               {
                 "label": "Total Bases",
                 "average": 0.4,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.92,
-                "lean": "over",
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 40,
+                    "line": 1.5,
+                    "pct": 0,
                     "n": 10
                   }
                 ],
@@ -32413,26 +32420,26 @@
               "delta": 9
             },
             "best_under": {
-              "label": "Runs Scored",
-              "line": 0.5,
-              "pct": 10,
+              "label": "Total Bases",
+              "line": 1.5,
+              "pct": 0,
               "n": 10,
-              "season_pct": 28,
-              "delta": -18
+              "season_pct": 25,
+              "delta": -25
             },
             "best_prop": {
-              "label": "Runs Scored",
-              "line": 0.5,
-              "pct": 10,
+              "label": "Total Bases",
+              "line": 1.5,
+              "pct": 0,
               "n": 10,
-              "season_pct": 28,
-              "delta": -18
+              "season_pct": 25,
+              "delta": -25
             },
             "best_prop_direction": "under",
             "matchup_lean": {
               "label": "Total Bases",
-              "line": 0.5,
-              "direction": "over",
+              "line": 1.5,
+              "direction": "under",
               "projection": 0.92
             },
             "game_result": null
@@ -32635,13 +32642,13 @@
               {
                 "label": "Total Bases",
                 "average": 0.3,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.89,
-                "lean": "over",
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 20,
+                    "line": 1.5,
+                    "pct": 10,
                     "n": 10
                   }
                 ],
@@ -32842,10 +32849,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Walks",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.04
+              "projection": 0.89
             },
             "game_result": null
           }
@@ -32891,7 +32898,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 824243,
-        "generated_at": "2026-07-28T15:42:50.486137+00:00",
+        "generated_at": "2026-07-28T15:46:13.593207+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.13,
         "away_exp_runs": 2.61,
@@ -35560,12 +35567,12 @@
               {
                 "label": "Total Bases",
                 "average": 0.4,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.77,
-                "lean": "over",
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
+                    "line": 1.5,
                     "pct": 20,
                     "n": 10
                   }
@@ -35767,10 +35774,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Walks",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.18
+              "projection": 0.77
             },
             "game_result": null
           },
@@ -36796,13 +36803,13 @@
               {
                 "label": "Total Bases",
                 "average": 0.8,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.74,
-                "lean": "over",
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 50,
+                    "line": 1.5,
+                    "pct": 10,
                     "n": 10
                   }
                 ],
@@ -36985,7 +36992,7 @@
               }
             ],
             "best_over": {
-              "label": "Total Bases",
+              "label": "Hits",
               "line": 0.5,
               "pct": 50,
               "n": 10,
@@ -37001,7 +37008,7 @@
               "delta": -18
             },
             "best_prop": {
-              "label": "Total Bases",
+              "label": "Hits",
               "line": 0.5,
               "pct": 50,
               "n": 10,
@@ -37010,10 +37017,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Walks",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.08
+              "projection": 0.74
             },
             "game_result": null
           }
@@ -39699,13 +39706,13 @@
               {
                 "label": "Total Bases",
                 "average": 0.2,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.51,
-                "lean": null,
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 20,
+                    "line": 1.5,
+                    "pct": 0,
                     "n": 10
                   }
                 ],
@@ -39913,10 +39920,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "RBIs",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.17
+              "projection": 0.51
             },
             "game_result": null
           },
@@ -40118,13 +40125,13 @@
               {
                 "label": "Total Bases",
                 "average": 1.2,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.97,
-                "lean": "over",
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 50,
+                    "line": 1.5,
+                    "pct": 20,
                     "n": 10
                   }
                 ],
@@ -40314,7 +40321,14 @@
               "season_pct": 23,
               "delta": 27
             },
-            "best_under": null,
+            "best_under": {
+              "label": "Total Bases",
+              "line": 1.5,
+              "pct": 20,
+              "n": 10,
+              "season_pct": 26,
+              "delta": -6
+            },
             "best_prop": {
               "label": "Walks",
               "line": 0.5,
@@ -40326,8 +40340,8 @@
             "best_prop_direction": "over",
             "matchup_lean": {
               "label": "Total Bases",
-              "line": 0.5,
-              "direction": "over",
+              "line": 1.5,
+              "direction": "under",
               "projection": 0.97
             },
             "game_result": null
@@ -41218,11 +41232,11 @@
       "live_score": null,
       "projection": {
         "game_pk": 822703,
-        "generated_at": "2026-07-28T15:42:50.486137+00:00",
+        "generated_at": "2026-07-28T15:46:13.593207+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 5.43,
         "away_exp_runs": 3.25,
-        "home_win_prob": 0.682,
+        "home_win_prob": 0.681,
         "spread_line": 1.5,
         "spread_cover_prob": 0.535,
         "total_line": 8.5,
@@ -43460,13 +43474,13 @@
               {
                 "label": "Total Bases",
                 "average": 1.1,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.96,
-                "lean": "over",
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 60,
+                    "line": 1.5,
+                    "pct": 40,
                     "n": 10
                   }
                 ],
@@ -43675,8 +43689,8 @@
             "best_prop_direction": "over",
             "matchup_lean": {
               "label": "Total Bases",
-              "line": 0.5,
-              "direction": "over",
+              "line": 1.5,
+              "direction": "under",
               "projection": 0.96
             },
             "game_result": null
@@ -47613,13 +47627,13 @@
               {
                 "label": "Total Bases",
                 "average": 0.7,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 1.1,
-                "lean": "over",
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 30,
+                    "line": 1.5,
+                    "pct": 20,
                     "n": 10
                   }
                 ],
@@ -47820,10 +47834,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Total Bases",
+              "label": "Walks",
               "line": 0.5,
-              "direction": "over",
-              "projection": 1.1
+              "direction": "under",
+              "projection": 0.08
             },
             "game_result": null
           },
@@ -48863,13 +48877,13 @@
               {
                 "label": "Total Bases",
                 "average": 0.4,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.5,
-                "lean": null,
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 20,
+                    "line": 1.5,
+                    "pct": 10,
                     "n": 10
                   }
                 ],
@@ -49070,10 +49084,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Walks",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.12
+              "projection": 0.5
             },
             "game_result": null
           },
@@ -49532,7 +49546,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 823598,
-        "generated_at": "2026-07-28T15:42:50.486137+00:00",
+        "generated_at": "2026-07-28T15:46:13.593207+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 2.76,
         "away_exp_runs": 3.91,
@@ -49540,14 +49554,14 @@
         "spread_line": 1.5,
         "spread_cover_prob": 0.216,
         "total_line": 6.5,
-        "over_prob": 0.463,
+        "over_prob": 0.462,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
         "spread_pick_prob": 0.566,
         "total_pick": "under",
-        "total_pick_prob": 0.537,
+        "total_pick_prob": 0.538,
         "spread_favorite": "away"
       },
       "home": {
@@ -53446,13 +53460,13 @@
               {
                 "label": "Total Bases",
                 "average": 0.3,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.77,
-                "lean": "over",
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 30,
+                    "line": 1.5,
+                    "pct": 0,
                     "n": 10
                   }
                 ],
@@ -53636,27 +53650,27 @@
             ],
             "best_over": null,
             "best_under": {
-              "label": "Hits",
-              "line": 0.5,
-              "pct": 30,
+              "label": "Total Bases",
+              "line": 1.5,
+              "pct": 0,
               "n": 10,
-              "season_pct": 60,
-              "delta": -30
+              "season_pct": 34,
+              "delta": -34
             },
             "best_prop": {
-              "label": "Hits",
-              "line": 0.5,
-              "pct": 30,
+              "label": "Total Bases",
+              "line": 1.5,
+              "pct": 0,
               "n": 10,
-              "season_pct": 60,
-              "delta": -30
+              "season_pct": 34,
+              "delta": -34
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "RBIs",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.18
+              "projection": 0.77
             },
             "game_result": null
           }
@@ -57168,13 +57182,13 @@
               {
                 "label": "Total Bases",
                 "average": 0.7,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.82,
-                "lean": "over",
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 30,
+                    "line": 1.5,
+                    "pct": 20,
                     "n": 10
                   }
                 ],
@@ -57382,10 +57396,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Walks",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.16
+              "projection": 0.82
             },
             "game_result": null
           },
@@ -57587,13 +57601,13 @@
               {
                 "label": "Total Bases",
                 "average": 0.9,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.94,
-                "lean": "over",
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 40,
+                    "line": 1.5,
+                    "pct": 20,
                     "n": 10
                   }
                 ],
@@ -57802,8 +57816,8 @@
             "best_prop_direction": "under",
             "matchup_lean": {
               "label": "Total Bases",
-              "line": 0.5,
-              "direction": "over",
+              "line": 1.5,
+              "direction": "under",
               "projection": 0.94
             },
             "game_result": null
@@ -57825,7 +57839,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 824489,
-        "generated_at": "2026-07-28T15:42:50.486137+00:00",
+        "generated_at": "2026-07-28T15:46:13.593207+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.11,
         "away_exp_runs": 4.04,
@@ -59316,13 +59330,13 @@
               {
                 "label": "Total Bases",
                 "average": 0.7,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.85,
-                "lean": "over",
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 60,
+                    "line": 1.5,
+                    "pct": 10,
                     "n": 10
                   }
                 ],
@@ -59530,10 +59544,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "RBIs",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.06
+              "projection": 0.85
             },
             "game_result": null
           },
@@ -60978,13 +60992,13 @@
               {
                 "label": "Total Bases",
                 "average": 0.7,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.59,
-                "lean": null,
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 40,
+                    "line": 1.5,
+                    "pct": 10,
                     "n": 10
                   }
                 ],
@@ -61192,10 +61206,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "RBIs",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.09
+              "projection": 0.59
             },
             "game_result": null
           },
@@ -61397,13 +61411,13 @@
               {
                 "label": "Total Bases",
                 "average": 0.3,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.78,
-                "lean": "over",
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 20,
+                    "line": 1.5,
+                    "pct": 10,
                     "n": 10
                   }
                 ],
@@ -61604,10 +61618,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "RBIs",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.18
+              "projection": 0.78
             },
             "game_result": null
           }
@@ -63445,13 +63459,13 @@
               {
                 "label": "Total Bases",
                 "average": 1.0,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.96,
-                "lean": "over",
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 30,
+                    "line": 1.5,
+                    "pct": 20,
                     "n": 10
                   }
                 ],
@@ -63660,8 +63674,8 @@
             "best_prop_direction": "under",
             "matchup_lean": {
               "label": "Total Bases",
-              "line": 0.5,
-              "direction": "over",
+              "line": 1.5,
+              "direction": "under",
               "projection": 0.96
             },
             "game_result": null
@@ -64281,13 +64295,13 @@
               {
                 "label": "Total Bases",
                 "average": 1.5,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.87,
-                "lean": "over",
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 50,
+                    "line": 1.5,
+                    "pct": 20,
                     "n": 10
                   }
                 ],
@@ -64470,7 +64484,7 @@
               }
             ],
             "best_over": {
-              "label": "Total Bases",
+              "label": "Hits",
               "line": 0.5,
               "pct": 50,
               "n": 10,
@@ -64486,7 +64500,7 @@
               "delta": -8
             },
             "best_prop": {
-              "label": "Total Bases",
+              "label": "Hits",
               "line": 0.5,
               "pct": 50,
               "n": 10,
@@ -64495,10 +64509,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Walks",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.06
+              "projection": 0.87
             },
             "game_result": null
           },
@@ -65773,7 +65787,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 823676,
-        "generated_at": "2026-07-28T15:42:50.486137+00:00",
+        "generated_at": "2026-07-28T15:46:13.593207+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.41,
         "away_exp_runs": 3.35,
@@ -67599,13 +67613,13 @@
               {
                 "label": "Total Bases",
                 "average": 0.5,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.7,
-                "lean": "over",
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 30,
+                    "line": 1.5,
+                    "pct": 20,
                     "n": 10
                   }
                 ],
@@ -67813,10 +67827,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "RBIs",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.21
+              "projection": 0.7
             },
             "game_result": null
           },
@@ -69275,13 +69289,13 @@
               {
                 "label": "Total Bases",
                 "average": 0.5,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.62,
-                "lean": null,
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 50,
+                    "line": 1.5,
+                    "pct": 0,
                     "n": 10
                   }
                 ],
@@ -69472,12 +69486,12 @@
               "delta": 21
             },
             "best_under": {
-              "label": "Home Runs",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "pct": 0,
               "n": 10,
-              "season_pct": 3,
-              "delta": -3
+              "season_pct": 19,
+              "delta": -19
             },
             "best_prop": {
               "label": "RBIs",
@@ -69489,10 +69503,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Runs Scored",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.25
+              "projection": 0.62
             },
             "game_result": null
           },
@@ -73400,13 +73414,13 @@
               {
                 "label": "Total Bases",
                 "average": 0.1,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.93,
-                "lean": "over",
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 10,
+                    "line": 1.5,
+                    "pct": 0,
                     "n": 10
                   }
                 ],
@@ -73615,8 +73629,8 @@
             "best_prop_direction": "under",
             "matchup_lean": {
               "label": "Total Bases",
-              "line": 0.5,
-              "direction": "over",
+              "line": 1.5,
+              "direction": "under",
               "projection": 0.93
             },
             "game_result": null
@@ -74076,7 +74090,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 824569,
-        "generated_at": "2026-07-28T15:42:50.486137+00:00",
+        "generated_at": "2026-07-28T15:46:13.593207+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.98,
         "away_exp_runs": 4.08,
@@ -78008,13 +78022,13 @@
               {
                 "label": "Total Bases",
                 "average": 0.8,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.66,
-                "lean": "over",
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 60,
+                    "line": 1.5,
+                    "pct": 10,
                     "n": 10
                   }
                 ],
@@ -78197,7 +78211,7 @@
               }
             ],
             "best_over": {
-              "label": "Total Bases",
+              "label": "Hits",
               "line": 0.5,
               "pct": 60,
               "n": 10,
@@ -78213,7 +78227,7 @@
               "delta": -11
             },
             "best_prop": {
-              "label": "Total Bases",
+              "label": "Hits",
               "line": 0.5,
               "pct": 60,
               "n": 10,
@@ -78222,10 +78236,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Walks",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.06
+              "projection": 0.66
             },
             "game_result": null
           }
@@ -81717,13 +81731,13 @@
               {
                 "label": "Total Bases",
                 "average": 1.6,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.79,
-                "lean": "over",
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 60,
+                    "line": 1.5,
+                    "pct": 40,
                     "n": 10
                   }
                 ],
@@ -81924,10 +81938,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "RBIs",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.19
+              "projection": 0.79
             },
             "game_result": null
           },
@@ -82129,13 +82143,13 @@
               {
                 "label": "Total Bases",
                 "average": 1.0,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 1.1,
-                "lean": "over",
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 70,
+                    "line": 1.5,
+                    "pct": 10,
                     "n": 10
                   }
                 ],
@@ -82318,7 +82332,7 @@
               }
             ],
             "best_over": {
-              "label": "Total Bases",
+              "label": "Hits",
               "line": 0.5,
               "pct": 70,
               "n": 10,
@@ -82344,8 +82358,8 @@
             "best_prop_direction": "under",
             "matchup_lean": {
               "label": "Total Bases",
-              "line": 0.5,
-              "direction": "over",
+              "line": 1.5,
+              "direction": "under",
               "projection": 1.1
             },
             "game_result": null
@@ -82380,7 +82394,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 823026,
-        "generated_at": "2026-07-28T15:42:50.486137+00:00",
+        "generated_at": "2026-07-28T15:46:13.593207+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.9,
         "away_exp_runs": 5.4,
@@ -82393,7 +82407,7 @@
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
-        "spread_pick_prob": 0.523,
+        "spread_pick_prob": 0.522,
         "total_pick": "over",
         "total_pick_prob": 0.514,
         "spread_favorite": "away"
@@ -83033,13 +83047,13 @@
               {
                 "label": "Total Bases",
                 "average": 0.7,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.93,
-                "lean": "over",
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 50,
+                    "line": 1.5,
+                    "pct": 20,
                     "n": 10
                   }
                 ],
@@ -83248,8 +83262,8 @@
             "best_prop_direction": "over",
             "matchup_lean": {
               "label": "Total Bases",
-              "line": 0.5,
-              "direction": "over",
+              "line": 1.5,
+              "direction": "under",
               "projection": 0.93
             },
             "game_result": null
@@ -84290,13 +84304,13 @@
               {
                 "label": "Total Bases",
                 "average": 0.3,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.84,
-                "lean": "over",
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 20,
+                    "line": 1.5,
+                    "pct": 10,
                     "n": 10
                   }
                 ],
@@ -84497,10 +84511,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Walks",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.14
+              "projection": 0.84
             },
             "game_result": null
           },
@@ -85533,13 +85547,13 @@
               {
                 "label": "Total Bases",
                 "average": 0.8,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.95,
-                "lean": "over",
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 40,
+                    "line": 1.5,
+                    "pct": 20,
                     "n": 10
                   }
                 ],
@@ -85748,8 +85762,8 @@
             "best_prop_direction": "over",
             "matchup_lean": {
               "label": "Total Bases",
-              "line": 0.5,
-              "direction": "over",
+              "line": 1.5,
+              "direction": "under",
               "projection": 0.95
             },
             "game_result": null
@@ -90328,11 +90342,11 @@
       "live_score": null,
       "projection": {
         "game_pk": 824003,
-        "generated_at": "2026-07-28T15:42:50.486137+00:00",
+        "generated_at": "2026-07-28T15:46:13.593207+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 2.82,
         "away_exp_runs": 4.29,
-        "home_win_prob": 0.356,
+        "home_win_prob": 0.355,
         "spread_line": 1.5,
         "spread_cover_prob": 0.203,
         "total_line": 6.5,
@@ -92566,13 +92580,13 @@
               {
                 "label": "Total Bases",
                 "average": 0.3,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.78,
-                "lean": "over",
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 20,
+                    "line": 1.5,
+                    "pct": 10,
                     "n": 10
                   }
                 ],
@@ -92780,10 +92794,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Walks",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.12
+              "projection": 0.78
             },
             "game_result": null
           },
@@ -93816,13 +93830,13 @@
               {
                 "label": "Total Bases",
                 "average": 0.7,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.77,
-                "lean": "over",
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 30,
+                    "line": 1.5,
+                    "pct": 20,
                     "n": 10
                   }
                 ],
@@ -94023,10 +94037,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Walks",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.11
+              "projection": 0.77
             },
             "game_result": null
           },
@@ -95004,12 +95018,12 @@
               {
                 "label": "Total Bases",
                 "average": 0.4,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.92,
-                "lean": "over",
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
+                    "line": 1.5,
                     "pct": 10,
                     "n": 10
                   }
@@ -95219,8 +95233,8 @@
             "best_prop_direction": "under",
             "matchup_lean": {
               "label": "Total Bases",
-              "line": 0.5,
-              "direction": "over",
+              "line": 1.5,
+              "direction": "under",
               "projection": 0.92
             },
             "game_result": null
@@ -96680,13 +96694,13 @@
               {
                 "label": "Total Bases",
                 "average": 0.3,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.51,
-                "lean": null,
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 30,
+                    "line": 1.5,
+                    "pct": 0,
                     "n": 10
                   }
                 ],
@@ -96894,10 +96908,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Walks",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.12
+              "projection": 0.51
             },
             "game_result": null
           },
@@ -97099,13 +97113,13 @@
               {
                 "label": "Total Bases",
                 "average": 0.2,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.78,
-                "lean": "over",
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 20,
+                    "line": 1.5,
+                    "pct": 0,
                     "n": 10
                   }
                 ],
@@ -97314,8 +97328,8 @@
             "best_prop_direction": "over",
             "matchup_lean": {
               "label": "Total Bases",
-              "line": 0.5,
-              "direction": "over",
+              "line": 1.5,
+              "direction": "under",
               "projection": 0.78
             },
             "game_result": null
@@ -98356,13 +98370,13 @@
               {
                 "label": "Total Bases",
                 "average": 1.1,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.93,
-                "lean": "over",
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 40,
+                    "line": 1.5,
+                    "pct": 20,
                     "n": 10
                   }
                 ],
@@ -98571,8 +98585,8 @@
             "best_prop_direction": "under",
             "matchup_lean": {
               "label": "Total Bases",
-              "line": 0.5,
-              "direction": "over",
+              "line": 1.5,
+              "direction": "under",
               "projection": 0.93
             },
             "game_result": null
@@ -98607,7 +98621,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 823275,
-        "generated_at": "2026-07-28T15:42:50.486137+00:00",
+        "generated_at": "2026-07-28T15:46:13.593207+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.79,
         "away_exp_runs": 3.17,
@@ -98615,14 +98629,14 @@
         "spread_line": 1.5,
         "spread_cover_prob": 0.485,
         "total_line": 6.5,
-        "over_prob": 0.589,
+        "over_prob": 0.588,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
         "spread_pick_prob": 0.515,
         "total_pick": "over",
-        "total_pick_prob": 0.589,
+        "total_pick_prob": 0.588,
         "spread_favorite": "home"
       },
       "home": {
@@ -100014,13 +100028,13 @@
               {
                 "label": "Total Bases",
                 "average": 0.4,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.97,
-                "lean": "over",
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 40,
+                    "line": 1.5,
+                    "pct": 0,
                     "n": 10
                   }
                 ],
@@ -100211,26 +100225,26 @@
               "delta": 6
             },
             "best_under": {
-              "label": "Walks",
-              "line": 0.5,
-              "pct": 10,
+              "label": "Total Bases",
+              "line": 1.5,
+              "pct": 0,
               "n": 10,
-              "season_pct": 33,
-              "delta": -23
+              "season_pct": 32,
+              "delta": -32
             },
             "best_prop": {
-              "label": "Walks",
-              "line": 0.5,
-              "pct": 10,
+              "label": "Total Bases",
+              "line": 1.5,
+              "pct": 0,
               "n": 10,
-              "season_pct": 33,
-              "delta": -23
+              "season_pct": 32,
+              "delta": -32
             },
             "best_prop_direction": "under",
             "matchup_lean": {
               "label": "Total Bases",
-              "line": 0.5,
-              "direction": "over",
+              "line": 1.5,
+              "direction": "under",
               "projection": 0.97
             },
             "game_result": null
@@ -101683,13 +101697,13 @@
               {
                 "label": "Total Bases",
                 "average": 0.4,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.3,
                 "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 20,
+                    "line": 1.5,
+                    "pct": 10,
                     "n": 10
                   }
                 ],
@@ -101897,10 +101911,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Walks",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.03
+              "projection": 0.3
             },
             "game_result": null
           },
@@ -102521,13 +102535,13 @@
               {
                 "label": "Total Bases",
                 "average": 0.5,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.61,
-                "lean": null,
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 20,
+                    "line": 1.5,
+                    "pct": 10,
                     "n": 10
                   }
                 ],
@@ -102735,10 +102749,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Walks",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.35
+              "projection": 0.61
             },
             "game_result": null
           }
@@ -105823,13 +105837,13 @@
               {
                 "label": "Total Bases",
                 "average": 0.5,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.9,
-                "lean": "over",
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 40,
+                    "line": 1.5,
+                    "pct": 10,
                     "n": 10
                   }
                 ],
@@ -106038,8 +106052,8 @@
             "best_prop_direction": "under",
             "matchup_lean": {
               "label": "Total Bases",
-              "line": 0.5,
-              "direction": "over",
+              "line": 1.5,
+              "direction": "under",
               "projection": 0.9
             },
             "game_result": null
@@ -106661,13 +106675,13 @@
               {
                 "label": "Total Bases",
                 "average": 0.4,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.89,
-                "lean": "over",
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 30,
+                    "line": 1.5,
+                    "pct": 10,
                     "n": 10
                   }
                 ],
@@ -106876,8 +106890,8 @@
             "best_prop_direction": "under",
             "matchup_lean": {
               "label": "Total Bases",
-              "line": 0.5,
-              "direction": "over",
+              "line": 1.5,
+              "direction": "under",
               "projection": 0.89
             },
             "game_result": null
@@ -106906,7 +106920,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 824976,
-        "generated_at": "2026-07-28T15:42:50.486137+00:00",
+        "generated_at": "2026-07-28T15:46:13.593207+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 2.84,
         "away_exp_runs": 5.2,
@@ -107908,13 +107922,13 @@
               {
                 "label": "Total Bases",
                 "average": 0.7,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.63,
-                "lean": null,
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 40,
+                    "line": 1.5,
+                    "pct": 20,
                     "n": 10
                   }
                 ],
@@ -108122,10 +108136,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "RBIs",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.2
+              "projection": 0.63
             },
             "game_result": null
           },
@@ -108327,13 +108341,13 @@
               {
                 "label": "Total Bases",
                 "average": 0.4,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.83,
-                "lean": "over",
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 30,
+                    "line": 1.5,
+                    "pct": 10,
                     "n": 10
                   }
                 ],
@@ -108535,8 +108549,8 @@
             "best_prop_direction": "under",
             "matchup_lean": {
               "label": "Total Bases",
-              "line": 0.5,
-              "direction": "over",
+              "line": 1.5,
+              "direction": "under",
               "projection": 0.83
             },
             "game_result": null
@@ -109577,13 +109591,13 @@
               {
                 "label": "Total Bases",
                 "average": 0.7,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.92,
-                "lean": "over",
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 40,
+                    "line": 1.5,
+                    "pct": 10,
                     "n": 10
                   }
                 ],
@@ -109791,10 +109805,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Walks",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.07
+              "projection": 0.92
             },
             "game_result": null
           },
@@ -110834,13 +110848,13 @@
               {
                 "label": "Total Bases",
                 "average": 0.6,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.84,
-                "lean": "over",
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 30,
+                    "line": 1.5,
+                    "pct": 20,
                     "n": 10
                   }
                 ],
@@ -111049,8 +111063,8 @@
             "best_prop_direction": "over",
             "matchup_lean": {
               "label": "Total Bases",
-              "line": 0.5,
-              "direction": "over",
+              "line": 1.5,
+              "direction": "under",
               "projection": 0.84
             },
             "game_result": null
@@ -114180,13 +114194,13 @@
               {
                 "label": "Total Bases",
                 "average": 0.5,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.96,
-                "lean": "over",
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 40,
+                    "line": 1.5,
+                    "pct": 10,
                     "n": 10
                   }
                 ],
@@ -114388,8 +114402,8 @@
             "best_prop_direction": "under",
             "matchup_lean": {
               "label": "Total Bases",
-              "line": 0.5,
-              "direction": "over",
+              "line": 1.5,
+              "direction": "under",
               "projection": 0.96
             },
             "game_result": null
@@ -115249,7 +115263,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 823193,
-        "generated_at": "2026-07-28T15:42:50.486137+00:00",
+        "generated_at": "2026-07-28T15:46:13.593207+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 2.72,
         "away_exp_runs": 3.9,
@@ -119177,13 +119191,13 @@
               {
                 "label": "Total Bases",
                 "average": 0.7,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.59,
-                "lean": null,
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 40,
+                    "line": 1.5,
+                    "pct": 30,
                     "n": 10
                   }
                 ],
@@ -119391,10 +119405,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "RBIs",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.09
+              "projection": 0.59
             },
             "game_result": null
           }
@@ -123304,13 +123318,13 @@
               {
                 "label": "Total Bases",
                 "average": 0.9,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 1.0,
-                "lean": "over",
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 40,
+                    "line": 1.5,
+                    "pct": 20,
                     "n": 10
                   }
                 ],
@@ -123512,8 +123526,8 @@
             "best_prop_direction": "under",
             "matchup_lean": {
               "label": "Total Bases",
-              "line": 0.5,
-              "direction": "over",
+              "line": 1.5,
+              "direction": "under",
               "projection": 1.0
             },
             "game_result": null
@@ -123560,7 +123574,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 823923,
-        "generated_at": "2026-07-28T15:42:50.486137+00:00",
+        "generated_at": "2026-07-28T15:46:13.593207+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.55,
         "away_exp_runs": 3.61,
@@ -130025,13 +130039,13 @@
               {
                 "label": "Total Bases",
                 "average": 0.8,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.95,
-                "lean": "over",
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 60,
+                    "line": 1.5,
+                    "pct": 10,
                     "n": 10
                   }
                 ],
@@ -130214,7 +130228,7 @@
               }
             ],
             "best_over": {
-              "label": "Total Bases",
+              "label": "Hits",
               "line": 0.5,
               "pct": 60,
               "n": 10,
@@ -130222,16 +130236,16 @@
               "delta": 11
             },
             "best_under": {
-              "label": "RBIs",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "pct": 10,
               "n": 10,
               "season_pct": 25,
               "delta": -15
             },
             "best_prop": {
-              "label": "RBIs",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "pct": 10,
               "n": 10,
               "season_pct": 25,
@@ -130240,8 +130254,8 @@
             "best_prop_direction": "under",
             "matchup_lean": {
               "label": "Total Bases",
-              "line": 0.5,
-              "direction": "over",
+              "line": 1.5,
+              "direction": "under",
               "projection": 0.95
             },
             "game_result": null
@@ -130861,13 +130875,13 @@
               {
                 "label": "Total Bases",
                 "average": 0.8,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.64,
-                "lean": null,
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 40,
+                    "line": 1.5,
+                    "pct": 20,
                     "n": 10
                   }
                 ],
@@ -131068,10 +131082,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Walks",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.09
+              "projection": 0.64
             },
             "game_result": null
           },
@@ -131510,7 +131524,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 823837,
-        "generated_at": "2026-07-28T15:42:50.486137+00:00",
+        "generated_at": "2026-07-28T15:46:13.593207+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.21,
         "away_exp_runs": 3.44,
@@ -131518,14 +131532,14 @@
         "spread_line": 1.5,
         "spread_cover_prob": 0.297,
         "total_line": 6.5,
-        "over_prob": 0.462,
+        "over_prob": 0.461,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
-        "spread_pick_prob": 0.657,
+        "spread_pick_prob": 0.658,
         "total_pick": "under",
-        "total_pick_prob": 0.538,
+        "total_pick_prob": 0.539,
         "spread_favorite": "away"
       },
       "home": {
@@ -134237,13 +134251,13 @@
               {
                 "label": "Total Bases",
                 "average": 0.6,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.78,
-                "lean": "over",
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 40,
+                    "line": 1.5,
+                    "pct": 10,
                     "n": 10
                   }
                 ],
@@ -134434,26 +134448,26 @@
               "delta": 1
             },
             "best_under": {
-              "label": "Runs Scored",
-              "line": 0.5,
-              "pct": 20,
+              "label": "Total Bases",
+              "line": 1.5,
+              "pct": 10,
               "n": 10,
-              "season_pct": 39,
-              "delta": -19
+              "season_pct": 34,
+              "delta": -24
             },
             "best_prop": {
-              "label": "Runs Scored",
-              "line": 0.5,
-              "pct": 20,
+              "label": "Total Bases",
+              "line": 1.5,
+              "pct": 10,
               "n": 10,
-              "season_pct": 39,
-              "delta": -19
+              "season_pct": 34,
+              "delta": -24
             },
             "best_prop_direction": "under",
             "matchup_lean": {
               "label": "Total Bases",
-              "line": 0.5,
-              "direction": "over",
+              "line": 1.5,
+              "direction": "under",
               "projection": 0.78
             },
             "game_result": null
@@ -138788,13 +138802,13 @@
               {
                 "label": "Total Bases",
                 "average": 0.4,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.92,
-                "lean": "over",
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 40,
+                    "line": 1.5,
+                    "pct": 0,
                     "n": 10
                   }
                 ],
@@ -138985,26 +138999,26 @@
               "delta": 9
             },
             "best_under": {
-              "label": "Runs Scored",
-              "line": 0.5,
-              "pct": 10,
+              "label": "Total Bases",
+              "line": 1.5,
+              "pct": 0,
               "n": 10,
-              "season_pct": 28,
-              "delta": -18
+              "season_pct": 25,
+              "delta": -25
             },
             "best_prop": {
-              "label": "Runs Scored",
-              "line": 0.5,
-              "pct": 10,
+              "label": "Total Bases",
+              "line": 1.5,
+              "pct": 0,
               "n": 10,
-              "season_pct": 28,
-              "delta": -18
+              "season_pct": 25,
+              "delta": -25
             },
             "best_prop_direction": "under",
             "matchup_lean": {
               "label": "Total Bases",
-              "line": 0.5,
-              "direction": "over",
+              "line": 1.5,
+              "direction": "under",
               "projection": 0.92
             },
             "game_result": null
@@ -139206,13 +139220,13 @@
               {
                 "label": "Total Bases",
                 "average": 0.3,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.89,
-                "lean": "over",
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 20,
+                    "line": 1.5,
+                    "pct": 10,
                     "n": 10
                   }
                 ],
@@ -139413,10 +139427,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Walks",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.04
+              "projection": 0.89
             },
             "game_result": null
           }
@@ -139462,11 +139476,11 @@
       "live_score": null,
       "projection": {
         "game_pk": 823351,
-        "generated_at": "2026-07-28T15:42:50.486137+00:00",
+        "generated_at": "2026-07-28T15:46:13.593207+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.43,
         "away_exp_runs": 4.03,
-        "home_win_prob": 0.442,
+        "home_win_prob": 0.443,
         "spread_line": 1.5,
         "spread_cover_prob": 0.281,
         "total_line": 6.5,
@@ -142123,13 +142137,13 @@
               {
                 "label": "Total Bases",
                 "average": 1.2,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.91,
-                "lean": "over",
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 70,
+                    "line": 1.5,
+                    "pct": 30,
                     "n": 10
                   }
                 ],
@@ -142312,7 +142326,7 @@
               }
             ],
             "best_over": {
-              "label": "Total Bases",
+              "label": "Hits",
               "line": 0.5,
               "pct": 70,
               "n": 10,
@@ -142328,7 +142342,7 @@
               "delta": -6
             },
             "best_prop": {
-              "label": "Total Bases",
+              "label": "Hits",
               "line": 0.5,
               "pct": 70,
               "n": 10,
@@ -142338,8 +142352,8 @@
             "best_prop_direction": "over",
             "matchup_lean": {
               "label": "Total Bases",
-              "line": 0.5,
-              "direction": "over",
+              "line": 1.5,
+              "direction": "under",
               "projection": 0.91
             },
             "game_result": null
@@ -142961,12 +142975,12 @@
               {
                 "label": "Total Bases",
                 "average": 0.5,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.27,
                 "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
+                    "line": 1.5,
                     "pct": 10,
                     "n": 10
                   }
@@ -143175,10 +143189,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Walks",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.0
+              "projection": 0.27
             },
             "game_result": null
           },
@@ -143380,13 +143394,13 @@
               {
                 "label": "Total Bases",
                 "average": 1.1,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.98,
-                "lean": "over",
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 60,
+                    "line": 1.5,
+                    "pct": 20,
                     "n": 10
                   }
                 ],
@@ -143569,7 +143583,7 @@
               }
             ],
             "best_over": {
-              "label": "Total Bases",
+              "label": "Hits",
               "line": 0.5,
               "pct": 60,
               "n": 10,
@@ -143585,7 +143599,7 @@
               "delta": -4
             },
             "best_prop": {
-              "label": "Total Bases",
+              "label": "Hits",
               "line": 0.5,
               "pct": 60,
               "n": 10,
@@ -143595,8 +143609,8 @@
             "best_prop_direction": "over",
             "matchup_lean": {
               "label": "Total Bases",
-              "line": 0.5,
-              "direction": "over",
+              "line": 1.5,
+              "direction": "under",
               "projection": 0.98
             },
             "game_result": null
@@ -147108,13 +147122,13 @@
               {
                 "label": "Total Bases",
                 "average": 0.3,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.45,
-                "lean": null,
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 20,
+                    "line": 1.5,
+                    "pct": 10,
                     "n": 10
                   }
                 ],
@@ -147322,10 +147336,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "RBIs",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.08
+              "projection": 0.45
             },
             "game_result": null
           },
@@ -147790,22 +147804,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 822702,
-        "generated_at": "2026-07-28T15:42:50.486137+00:00",
+        "generated_at": "2026-07-28T15:46:13.593207+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.86,
         "away_exp_runs": 4.02,
-        "home_win_prob": 0.57,
+        "home_win_prob": 0.571,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.421,
+        "spread_cover_prob": 0.422,
         "total_line": 8.5,
-        "over_prob": 0.48,
+        "over_prob": 0.479,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.579,
+        "spread_pick_prob": 0.578,
         "total_pick": "under",
-        "total_pick_prob": 0.52,
+        "total_pick_prob": 0.521,
         "spread_favorite": "home"
       },
       "home": {
@@ -150032,13 +150046,13 @@
               {
                 "label": "Total Bases",
                 "average": 1.1,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.96,
-                "lean": "over",
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 60,
+                    "line": 1.5,
+                    "pct": 40,
                     "n": 10
                   }
                 ],
@@ -150247,8 +150261,8 @@
             "best_prop_direction": "over",
             "matchup_lean": {
               "label": "Total Bases",
-              "line": 0.5,
-              "direction": "over",
+              "line": 1.5,
+              "direction": "under",
               "projection": 0.96
             },
             "game_result": null
@@ -154183,13 +154197,13 @@
               {
                 "label": "Total Bases",
                 "average": 0.7,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 1.1,
-                "lean": "over",
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 30,
+                    "line": 1.5,
+                    "pct": 20,
                     "n": 10
                   }
                 ],
@@ -154390,10 +154404,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Total Bases",
+              "label": "Walks",
               "line": 0.5,
-              "direction": "over",
-              "projection": 1.1
+              "direction": "under",
+              "projection": 0.08
             },
             "game_result": null
           },
@@ -155433,13 +155447,13 @@
               {
                 "label": "Total Bases",
                 "average": 0.4,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.5,
-                "lean": null,
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 20,
+                    "line": 1.5,
+                    "pct": 10,
                     "n": 10
                   }
                 ],
@@ -155640,10 +155654,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Walks",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.12
+              "projection": 0.5
             },
             "game_result": null
           },
@@ -156102,11 +156116,11 @@
       "live_score": null,
       "projection": {
         "game_pk": 823596,
-        "generated_at": "2026-07-28T15:42:50.486137+00:00",
+        "generated_at": "2026-07-28T15:46:13.593207+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.74,
         "away_exp_runs": 4.76,
-        "home_win_prob": 0.412,
+        "home_win_prob": 0.41,
         "spread_line": 1.5,
         "spread_cover_prob": 0.269,
         "total_line": 8.5,
@@ -160021,13 +160035,13 @@
               {
                 "label": "Total Bases",
                 "average": 0.3,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.77,
-                "lean": "over",
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 30,
+                    "line": 1.5,
+                    "pct": 0,
                     "n": 10
                   }
                 ],
@@ -160211,27 +160225,27 @@
             ],
             "best_over": null,
             "best_under": {
-              "label": "Hits",
-              "line": 0.5,
-              "pct": 30,
+              "label": "Total Bases",
+              "line": 1.5,
+              "pct": 0,
               "n": 10,
-              "season_pct": 60,
-              "delta": -30
+              "season_pct": 34,
+              "delta": -34
             },
             "best_prop": {
-              "label": "Hits",
-              "line": 0.5,
-              "pct": 30,
+              "label": "Total Bases",
+              "line": 1.5,
+              "pct": 0,
               "n": 10,
-              "season_pct": 60,
-              "delta": -30
+              "season_pct": 34,
+              "delta": -34
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "RBIs",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.18
+              "projection": 0.77
             },
             "game_result": null
           }
@@ -163743,13 +163757,13 @@
               {
                 "label": "Total Bases",
                 "average": 0.7,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.94,
-                "lean": "over",
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 30,
+                    "line": 1.5,
+                    "pct": 20,
                     "n": 10
                   }
                 ],
@@ -163958,8 +163972,8 @@
             "best_prop_direction": "over",
             "matchup_lean": {
               "label": "Total Bases",
-              "line": 0.5,
-              "direction": "over",
+              "line": 1.5,
+              "direction": "under",
               "projection": 0.94
             },
             "game_result": null
@@ -164162,13 +164176,13 @@
               {
                 "label": "Total Bases",
                 "average": 0.9,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.94,
-                "lean": "over",
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 40,
+                    "line": 1.5,
+                    "pct": 20,
                     "n": 10
                   }
                 ],
@@ -164377,8 +164391,8 @@
             "best_prop_direction": "under",
             "matchup_lean": {
               "label": "Total Bases",
-              "line": 0.5,
-              "direction": "over",
+              "line": 1.5,
+              "direction": "under",
               "projection": 0.94
             },
             "game_result": null
@@ -164400,7 +164414,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 824242,
-        "generated_at": "2026-07-28T15:42:50.486137+00:00",
+        "generated_at": "2026-07-28T15:46:13.593207+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.4,
         "away_exp_runs": 2.98,
@@ -167071,12 +167085,12 @@
               {
                 "label": "Total Bases",
                 "average": 0.4,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.88,
-                "lean": "over",
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
+                    "line": 1.5,
                     "pct": 20,
                     "n": 10
                   }
@@ -167279,8 +167293,8 @@
             "best_prop_direction": "under",
             "matchup_lean": {
               "label": "Total Bases",
-              "line": 0.5,
-              "direction": "over",
+              "line": 1.5,
+              "direction": "under",
               "projection": 0.88
             },
             "game_result": null
@@ -168307,13 +168321,13 @@
               {
                 "label": "Total Bases",
                 "average": 0.8,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.55,
-                "lean": null,
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 50,
+                    "line": 1.5,
+                    "pct": 10,
                     "n": 10
                   }
                 ],
@@ -168496,7 +168510,7 @@
               }
             ],
             "best_over": {
-              "label": "Total Bases",
+              "label": "Hits",
               "line": 0.5,
               "pct": 50,
               "n": 10,
@@ -168512,7 +168526,7 @@
               "delta": -18
             },
             "best_prop": {
-              "label": "Total Bases",
+              "label": "Hits",
               "line": 0.5,
               "pct": 50,
               "n": 10,
@@ -168521,10 +168535,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Walks",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.06
+              "projection": 0.55
             },
             "game_result": null
           }
@@ -171215,13 +171229,13 @@
               {
                 "label": "Total Bases",
                 "average": 0.2,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.51,
-                "lean": null,
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 20,
+                    "line": 1.5,
+                    "pct": 0,
                     "n": 10
                   }
                 ],
@@ -171429,10 +171443,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "RBIs",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.17
+              "projection": 0.51
             },
             "game_result": null
           },
@@ -171634,13 +171648,13 @@
               {
                 "label": "Total Bases",
                 "average": 1.2,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.97,
-                "lean": "over",
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 50,
+                    "line": 1.5,
+                    "pct": 20,
                     "n": 10
                   }
                 ],
@@ -171830,7 +171844,14 @@
               "season_pct": 23,
               "delta": 27
             },
-            "best_under": null,
+            "best_under": {
+              "label": "Total Bases",
+              "line": 1.5,
+              "pct": 20,
+              "n": 10,
+              "season_pct": 26,
+              "delta": -6
+            },
             "best_prop": {
               "label": "Walks",
               "line": 0.5,
@@ -171842,8 +171863,8 @@
             "best_prop_direction": "over",
             "matchup_lean": {
               "label": "Total Bases",
-              "line": 0.5,
-              "direction": "over",
+              "line": 1.5,
+              "direction": "under",
               "projection": 0.97
             },
             "game_result": null
@@ -172734,7 +172755,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 823192,
-        "generated_at": "2026-07-28T15:42:50.486137+00:00",
+        "generated_at": "2026-07-28T15:46:13.593207+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.01,
         "away_exp_runs": 3.93,
@@ -176668,13 +176689,13 @@
               {
                 "label": "Total Bases",
                 "average": 0.7,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.59,
-                "lean": null,
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 40,
+                    "line": 1.5,
+                    "pct": 30,
                     "n": 10
                   }
                 ],
@@ -176882,10 +176903,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "RBIs",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.09
+              "projection": 0.59
             },
             "game_result": null
           }
@@ -180788,13 +180809,13 @@
               {
                 "label": "Total Bases",
                 "average": 0.9,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 1.0,
-                "lean": "over",
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 40,
+                    "line": 1.5,
+                    "pct": 20,
                     "n": 10
                   }
                 ],
@@ -180996,8 +181017,8 @@
             "best_prop_direction": "under",
             "matchup_lean": {
               "label": "Total Bases",
-              "line": 0.5,
-              "direction": "over",
+              "line": 1.5,
+              "direction": "under",
               "projection": 1.0
             },
             "game_result": null
@@ -181044,22 +181065,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 823273,
-        "generated_at": "2026-07-28T15:42:50.486137+00:00",
+        "generated_at": "2026-07-28T15:46:13.593207+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 2.86,
         "away_exp_runs": 4.02,
         "home_win_prob": 0.383,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.221,
+        "spread_cover_prob": 0.222,
         "total_line": 6.5,
-        "over_prob": 0.485,
+        "over_prob": 0.484,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
         "spread_pick_prob": 0.563,
         "total_pick": "under",
-        "total_pick_prob": 0.515,
+        "total_pick_prob": 0.516,
         "spread_favorite": "away"
       },
       "home": {
@@ -182109,13 +182130,13 @@
               {
                 "label": "Total Bases",
                 "average": 0.4,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.97,
-                "lean": "over",
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 40,
+                    "line": 1.5,
+                    "pct": 0,
                     "n": 10
                   }
                 ],
@@ -182306,26 +182327,26 @@
               "delta": 6
             },
             "best_under": {
-              "label": "Walks",
-              "line": 0.5,
-              "pct": 10,
+              "label": "Total Bases",
+              "line": 1.5,
+              "pct": 0,
               "n": 10,
-              "season_pct": 33,
-              "delta": -23
+              "season_pct": 32,
+              "delta": -32
             },
             "best_prop": {
-              "label": "Walks",
-              "line": 0.5,
-              "pct": 10,
+              "label": "Total Bases",
+              "line": 1.5,
+              "pct": 0,
               "n": 10,
-              "season_pct": 33,
-              "delta": -23
+              "season_pct": 32,
+              "delta": -32
             },
             "best_prop_direction": "under",
             "matchup_lean": {
               "label": "Total Bases",
-              "line": 0.5,
-              "direction": "over",
+              "line": 1.5,
+              "direction": "under",
               "projection": 0.97
             },
             "game_result": null
@@ -183778,13 +183799,13 @@
               {
                 "label": "Total Bases",
                 "average": 0.4,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.25,
                 "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 20,
+                    "line": 1.5,
+                    "pct": 10,
                     "n": 10
                   }
                 ],
@@ -183992,10 +184013,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Walks",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.03
+              "projection": 0.25
             },
             "game_result": null
           },
@@ -184616,13 +184637,13 @@
               {
                 "label": "Total Bases",
                 "average": 0.5,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.61,
-                "lean": null,
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 20,
+                    "line": 1.5,
+                    "pct": 10,
                     "n": 10
                   }
                 ],
@@ -184830,10 +184851,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Walks",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.35
+              "projection": 0.61
             },
             "game_result": null
           }
@@ -187899,13 +187920,13 @@
               {
                 "label": "Total Bases",
                 "average": 0.5,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.9,
-                "lean": "over",
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 40,
+                    "line": 1.5,
+                    "pct": 10,
                     "n": 10
                   }
                 ],
@@ -188114,8 +188135,8 @@
             "best_prop_direction": "under",
             "matchup_lean": {
               "label": "Total Bases",
-              "line": 0.5,
-              "direction": "over",
+              "line": 1.5,
+              "direction": "under",
               "projection": 0.9
             },
             "game_result": null
@@ -188735,13 +188756,13 @@
               {
                 "label": "Total Bases",
                 "average": 0.4,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.89,
-                "lean": "over",
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 30,
+                    "line": 1.5,
+                    "pct": 10,
                     "n": 10
                   }
                 ],
@@ -188950,8 +188971,8 @@
             "best_prop_direction": "under",
             "matchup_lean": {
               "label": "Total Bases",
-              "line": 0.5,
-              "direction": "over",
+              "line": 1.5,
+              "direction": "under",
               "projection": 0.89
             },
             "game_result": null
@@ -188980,20 +189001,20 @@
       "live_score": null,
       "projection": {
         "game_pk": 822947,
-        "generated_at": "2026-07-28T15:42:50.486137+00:00",
+        "generated_at": "2026-07-28T15:46:13.593207+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 5.24,
         "away_exp_runs": 4.05,
-        "home_win_prob": 0.596,
+        "home_win_prob": 0.595,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.453,
+        "spread_cover_prob": 0.452,
         "total_line": 8.5,
         "over_prob": 0.514,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.547,
+        "spread_pick_prob": 0.548,
         "total_pick": "over",
         "total_pick_prob": 0.514,
         "spread_favorite": "home"
@@ -190871,13 +190892,13 @@
               {
                 "label": "Total Bases",
                 "average": 1.0,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.81,
-                "lean": "over",
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 50,
+                    "line": 1.5,
+                    "pct": 30,
                     "n": 10
                   }
                 ],
@@ -191059,7 +191080,14 @@
                 ]
               }
             ],
-            "best_over": null,
+            "best_over": {
+              "label": "Total Bases",
+              "line": 1.5,
+              "pct": 30,
+              "n": 10,
+              "season_pct": 21,
+              "delta": 9
+            },
             "best_under": {
               "label": "RBIs",
               "line": 0.5,
@@ -191078,10 +191106,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "RBIs",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.18
+              "projection": 0.81
             },
             "game_result": null
           },
@@ -193394,13 +193422,13 @@
               {
                 "label": "Total Bases",
                 "average": 1.0,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.94,
-                "lean": "over",
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 70,
+                    "line": 1.5,
+                    "pct": 20,
                     "n": 10
                   }
                 ],
@@ -193609,8 +193637,8 @@
             "best_prop_direction": "over",
             "matchup_lean": {
               "label": "Total Bases",
-              "line": 0.5,
-              "direction": "over",
+              "line": 1.5,
+              "direction": "under",
               "projection": 0.94
             },
             "game_result": null
@@ -196306,13 +196334,13 @@
               {
                 "label": "Total Bases",
                 "average": 0.6,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.84,
-                "lean": "over",
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 40,
+                    "line": 1.5,
+                    "pct": 20,
                     "n": 10
                   }
                 ],
@@ -196513,10 +196541,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Walks",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.03
+              "projection": 0.84
             },
             "game_result": null
           }
@@ -196562,7 +196590,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 824487,
-        "generated_at": "2026-07-28T15:42:50.486137+00:00",
+        "generated_at": "2026-07-28T15:46:13.593207+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.45,
         "away_exp_runs": 4.09,
@@ -196570,14 +196598,14 @@
         "spread_line": 1.5,
         "spread_cover_prob": 0.28,
         "total_line": 6.5,
-        "over_prob": 0.552,
+        "over_prob": 0.553,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
         "spread_pick_prob": 0.607,
         "total_pick": "over",
-        "total_pick_prob": 0.552,
+        "total_pick_prob": 0.553,
         "spread_favorite": "away"
       },
       "home": {
@@ -198396,13 +198424,13 @@
               {
                 "label": "Total Bases",
                 "average": 0.7,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.97,
-                "lean": "over",
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 60,
+                    "line": 1.5,
+                    "pct": 10,
                     "n": 10
                   }
                 ],
@@ -198611,8 +198639,8 @@
             "best_prop_direction": "under",
             "matchup_lean": {
               "label": "Total Bases",
-              "line": 0.5,
-              "direction": "over",
+              "line": 1.5,
+              "direction": "under",
               "projection": 0.97
             },
             "game_result": null
@@ -200058,13 +200086,13 @@
               {
                 "label": "Total Bases",
                 "average": 0.7,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.68,
-                "lean": "over",
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 40,
+                    "line": 1.5,
+                    "pct": 10,
                     "n": 10
                   }
                 ],
@@ -200272,10 +200300,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "RBIs",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.11
+              "projection": 0.68
             },
             "game_result": null
           },
@@ -200477,13 +200505,13 @@
               {
                 "label": "Total Bases",
                 "average": 0.3,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.78,
-                "lean": "over",
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 20,
+                    "line": 1.5,
+                    "pct": 10,
                     "n": 10
                   }
                 ],
@@ -200684,10 +200712,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "RBIs",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.18
+              "projection": 0.78
             },
             "game_result": null
           }
@@ -202530,13 +202558,13 @@
               {
                 "label": "Total Bases",
                 "average": 1.0,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 1.1,
-                "lean": "over",
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 30,
+                    "line": 1.5,
+                    "pct": 20,
                     "n": 10
                   }
                 ],
@@ -202745,8 +202773,8 @@
             "best_prop_direction": "under",
             "matchup_lean": {
               "label": "Total Bases",
-              "line": 0.5,
-              "direction": "over",
+              "line": 1.5,
+              "direction": "under",
               "projection": 1.1
             },
             "game_result": null
@@ -203368,13 +203396,13 @@
               {
                 "label": "Total Bases",
                 "average": 1.5,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 1.0,
-                "lean": "over",
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 50,
+                    "line": 1.5,
+                    "pct": 20,
                     "n": 10
                   }
                 ],
@@ -203557,7 +203585,7 @@
               }
             ],
             "best_over": {
-              "label": "Total Bases",
+              "label": "Hits",
               "line": 0.5,
               "pct": 50,
               "n": 10,
@@ -203573,7 +203601,7 @@
               "delta": -8
             },
             "best_prop": {
-              "label": "Total Bases",
+              "label": "Hits",
               "line": 0.5,
               "pct": 50,
               "n": 10,
@@ -203583,8 +203611,8 @@
             "best_prop_direction": "over",
             "matchup_lean": {
               "label": "Total Bases",
-              "line": 0.5,
-              "direction": "over",
+              "line": 1.5,
+              "direction": "under",
               "projection": 1.0
             },
             "game_result": null
@@ -204863,20 +204891,20 @@
       "live_score": null,
       "projection": {
         "game_pk": 823677,
-        "generated_at": "2026-07-28T15:42:50.486137+00:00",
+        "generated_at": "2026-07-28T15:46:13.593207+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 5.32,
         "away_exp_runs": 3.19,
-        "home_win_prob": 0.68,
+        "home_win_prob": 0.681,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.53,
+        "spread_cover_prob": 0.531,
         "total_line": 8.5,
         "over_prob": 0.444,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "home",
-        "spread_pick_prob": 0.53,
+        "spread_pick_prob": 0.531,
         "total_pick": "under",
         "total_pick_prob": 0.556,
         "spread_favorite": "home"
@@ -206685,13 +206713,13 @@
               {
                 "label": "Total Bases",
                 "average": 0.5,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.7,
-                "lean": "over",
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 30,
+                    "line": 1.5,
+                    "pct": 20,
                     "n": 10
                   }
                 ],
@@ -206899,10 +206927,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "RBIs",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.21
+              "projection": 0.7
             },
             "game_result": null
           },
@@ -208357,13 +208385,13 @@
               {
                 "label": "Total Bases",
                 "average": 0.5,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.54,
-                "lean": null,
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 50,
+                    "line": 1.5,
+                    "pct": 0,
                     "n": 10
                   }
                 ],
@@ -208554,12 +208582,12 @@
               "delta": 21
             },
             "best_under": {
-              "label": "Home Runs",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "pct": 0,
               "n": 10,
-              "season_pct": 3,
-              "delta": -3
+              "season_pct": 19,
+              "delta": -19
             },
             "best_prop": {
               "label": "RBIs",
@@ -208571,10 +208599,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Runs Scored",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.22
+              "projection": 0.54
             },
             "game_result": null
           },
@@ -212140,13 +212168,13 @@
               {
                 "label": "Total Bases",
                 "average": 0.1,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.93,
-                "lean": "over",
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 10,
+                    "line": 1.5,
+                    "pct": 0,
                     "n": 10
                   }
                 ],
@@ -212355,8 +212383,8 @@
             "best_prop_direction": "under",
             "matchup_lean": {
               "label": "Total Bases",
-              "line": 0.5,
-              "direction": "over",
+              "line": 1.5,
+              "direction": "under",
               "projection": 0.93
             },
             "game_result": null
@@ -212816,7 +212844,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 824567,
-        "generated_at": "2026-07-28T15:42:50.486137+00:00",
+        "generated_at": "2026-07-28T15:46:13.593207+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 2.78,
         "away_exp_runs": 3.55,
@@ -212829,7 +212857,7 @@
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
-        "spread_pick_prob": 0.608,
+        "spread_pick_prob": 0.609,
         "total_pick": "under",
         "total_pick_prob": 0.575,
         "spread_favorite": "away"
@@ -216744,13 +216772,13 @@
               {
                 "label": "Total Bases",
                 "average": 0.8,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.56,
-                "lean": null,
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 60,
+                    "line": 1.5,
+                    "pct": 10,
                     "n": 10
                   }
                 ],
@@ -216933,7 +216961,7 @@
               }
             ],
             "best_over": {
-              "label": "Total Bases",
+              "label": "Hits",
               "line": 0.5,
               "pct": 60,
               "n": 10,
@@ -216949,7 +216977,7 @@
               "delta": -11
             },
             "best_prop": {
-              "label": "Total Bases",
+              "label": "Hits",
               "line": 0.5,
               "pct": 60,
               "n": 10,
@@ -216958,10 +216986,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Walks",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.05
+              "projection": 0.56
             },
             "game_result": null
           }
@@ -220457,13 +220485,13 @@
               {
                 "label": "Total Bases",
                 "average": 1.6,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.93,
-                "lean": "over",
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 60,
+                    "line": 1.5,
+                    "pct": 40,
                     "n": 10
                   }
                 ],
@@ -220665,8 +220693,8 @@
             "best_prop_direction": "over",
             "matchup_lean": {
               "label": "Total Bases",
-              "line": 0.5,
-              "direction": "over",
+              "line": 1.5,
+              "direction": "under",
               "projection": 0.93
             },
             "game_result": null
@@ -220869,13 +220897,13 @@
               {
                 "label": "Total Bases",
                 "average": 1.0,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.96,
-                "lean": "over",
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 70,
+                    "line": 1.5,
+                    "pct": 10,
                     "n": 10
                   }
                 ],
@@ -221058,7 +221086,7 @@
               }
             ],
             "best_over": {
-              "label": "Total Bases",
+              "label": "Hits",
               "line": 0.5,
               "pct": 70,
               "n": 10,
@@ -221084,8 +221112,8 @@
             "best_prop_direction": "under",
             "matchup_lean": {
               "label": "Total Bases",
-              "line": 0.5,
-              "direction": "over",
+              "line": 1.5,
+              "direction": "under",
               "projection": 0.96
             },
             "game_result": null
@@ -221120,7 +221148,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 823022,
-        "generated_at": "2026-07-28T15:42:50.486137+00:00",
+        "generated_at": "2026-07-28T15:46:13.593207+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.39,
         "away_exp_runs": 5.4,
@@ -221773,13 +221801,13 @@
               {
                 "label": "Total Bases",
                 "average": 0.7,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 1.07,
-                "lean": "over",
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 50,
+                    "line": 1.5,
+                    "pct": 20,
                     "n": 10
                   }
                 ],
@@ -221988,8 +222016,8 @@
             "best_prop_direction": "over",
             "matchup_lean": {
               "label": "Total Bases",
-              "line": 0.5,
-              "direction": "over",
+              "line": 1.5,
+              "direction": "under",
               "projection": 1.07
             },
             "game_result": null
@@ -223030,13 +223058,13 @@
               {
                 "label": "Total Bases",
                 "average": 0.3,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.62,
-                "lean": null,
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 20,
+                    "line": 1.5,
+                    "pct": 10,
                     "n": 10
                   }
                 ],
@@ -223237,10 +223265,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Walks",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.1
+              "projection": 0.62
             },
             "game_result": null
           },
@@ -224273,13 +224301,13 @@
               {
                 "label": "Total Bases",
                 "average": 0.8,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 1.09,
-                "lean": "over",
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 40,
+                    "line": 1.5,
+                    "pct": 20,
                     "n": 10
                   }
                 ],
@@ -224488,8 +224516,8 @@
             "best_prop_direction": "over",
             "matchup_lean": {
               "label": "Total Bases",
-              "line": 0.5,
-              "direction": "over",
+              "line": 1.5,
+              "direction": "under",
               "projection": 1.09
             },
             "game_result": null
@@ -229074,7 +229102,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 824002,
-        "generated_at": "2026-07-28T15:42:50.486137+00:00",
+        "generated_at": "2026-07-28T15:46:13.593207+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.06,
         "away_exp_runs": 7.18,
@@ -231318,13 +231346,13 @@
               {
                 "label": "Total Bases",
                 "average": 0.3,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.78,
-                "lean": "over",
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 20,
+                    "line": 1.5,
+                    "pct": 10,
                     "n": 10
                   }
                 ],
@@ -231532,10 +231560,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Walks",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.12
+              "projection": 0.78
             },
             "game_result": null
           },
@@ -232565,13 +232593,13 @@
               {
                 "label": "Total Bases",
                 "average": 0.7,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.77,
-                "lean": "over",
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 30,
+                    "line": 1.5,
+                    "pct": 20,
                     "n": 10
                   }
                 ],
@@ -232772,10 +232800,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Walks",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.11
+              "projection": 0.77
             },
             "game_result": null
           },
@@ -233410,12 +233438,12 @@
               {
                 "label": "Total Bases",
                 "average": 0.4,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.92,
-                "lean": "over",
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
+                    "line": 1.5,
                     "pct": 10,
                     "n": 10
                   }
@@ -233625,8 +233653,8 @@
             "best_prop_direction": "under",
             "matchup_lean": {
               "label": "Total Bases",
-              "line": 0.5,
-              "direction": "over",
+              "line": 1.5,
+              "direction": "under",
               "projection": 0.92
             },
             "game_result": null
@@ -235086,13 +235114,13 @@
               {
                 "label": "Total Bases",
                 "average": 0.3,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.51,
-                "lean": null,
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 30,
+                    "line": 1.5,
+                    "pct": 0,
                     "n": 10
                   }
                 ],
@@ -235300,10 +235328,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Walks",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.12
+              "projection": 0.51
             },
             "game_result": null
           },
@@ -235505,13 +235533,13 @@
               {
                 "label": "Total Bases",
                 "average": 0.2,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.9,
-                "lean": "over",
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 20,
+                    "line": 1.5,
+                    "pct": 0,
                     "n": 10
                   }
                 ],
@@ -235720,8 +235748,8 @@
             "best_prop_direction": "over",
             "matchup_lean": {
               "label": "Total Bases",
-              "line": 0.5,
-              "direction": "over",
+              "line": 1.5,
+              "direction": "under",
               "projection": 0.9
             },
             "game_result": null
@@ -236762,13 +236790,13 @@
               {
                 "label": "Total Bases",
                 "average": 1.1,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 1.07,
-                "lean": "over",
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 40,
+                    "line": 1.5,
+                    "pct": 20,
                     "n": 10
                   }
                 ],
@@ -236977,8 +237005,8 @@
             "best_prop_direction": "under",
             "matchup_lean": {
               "label": "Total Bases",
-              "line": 0.5,
-              "direction": "over",
+              "line": 1.5,
+              "direction": "under",
               "projection": 1.07
             },
             "game_result": null
@@ -237013,7 +237041,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 824973,
-        "generated_at": "2026-07-28T15:42:50.486137+00:00",
+        "generated_at": "2026-07-28T15:46:13.593207+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.22,
         "away_exp_runs": 6.28,
@@ -237026,7 +237054,7 @@
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "away",
-        "spread_pick_prob": 0.602,
+        "spread_pick_prob": 0.601,
         "total_pick": "over",
         "total_pick_prob": 0.526,
         "spread_favorite": "away"
@@ -238015,13 +238043,13 @@
               {
                 "label": "Total Bases",
                 "average": 0.7,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.74,
-                "lean": "over",
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 40,
+                    "line": 1.5,
+                    "pct": 20,
                     "n": 10
                   }
                 ],
@@ -238229,10 +238257,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "RBIs",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.23
+              "projection": 0.74
             },
             "game_result": null
           },
@@ -238434,13 +238462,13 @@
               {
                 "label": "Total Bases",
                 "average": 0.4,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.83,
-                "lean": "over",
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 30,
+                    "line": 1.5,
+                    "pct": 10,
                     "n": 10
                   }
                 ],
@@ -238642,8 +238670,8 @@
             "best_prop_direction": "under",
             "matchup_lean": {
               "label": "Total Bases",
-              "line": 0.5,
-              "direction": "over",
+              "line": 1.5,
+              "direction": "under",
               "projection": 0.83
             },
             "game_result": null
@@ -239684,13 +239712,13 @@
               {
                 "label": "Total Bases",
                 "average": 0.7,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.92,
-                "lean": "over",
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 40,
+                    "line": 1.5,
+                    "pct": 10,
                     "n": 10
                   }
                 ],
@@ -239898,10 +239926,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Walks",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.07
+              "projection": 0.92
             },
             "game_result": null
           },
@@ -240941,13 +240969,13 @@
               {
                 "label": "Total Bases",
                 "average": 0.6,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.98,
-                "lean": "over",
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 30,
+                    "line": 1.5,
+                    "pct": 20,
                     "n": 10
                   }
                 ],
@@ -241156,8 +241184,8 @@
             "best_prop_direction": "over",
             "matchup_lean": {
               "label": "Total Bases",
-              "line": 0.5,
-              "direction": "over",
+              "line": 1.5,
+              "direction": "under",
               "projection": 0.98
             },
             "game_result": null
@@ -244281,13 +244309,13 @@
               {
                 "label": "Total Bases",
                 "average": 0.5,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.96,
-                "lean": "over",
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 40,
+                    "line": 1.5,
+                    "pct": 10,
                     "n": 10
                   }
                 ],
@@ -244489,8 +244517,8 @@
             "best_prop_direction": "under",
             "matchup_lean": {
               "label": "Total Bases",
-              "line": 0.5,
-              "direction": "over",
+              "line": 1.5,
+              "direction": "under",
               "projection": 0.96
             },
             "game_result": null
@@ -245350,7 +245378,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 823924,
-        "generated_at": "2026-07-28T15:42:50.486137+00:00",
+        "generated_at": "2026-07-28T15:46:13.593207+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.54,
         "away_exp_runs": 3.61,
@@ -245358,14 +245386,14 @@
         "spread_line": 1.5,
         "spread_cover_prob": 0.322,
         "total_line": 6.5,
-        "over_prob": 0.513,
+        "over_prob": 0.515,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
         "spread_pick_prob": 0.665,
         "total_pick": "over",
-        "total_pick_prob": 0.513,
+        "total_pick_prob": 0.515,
         "spread_favorite": "away"
       },
       "home": {
@@ -251808,13 +251836,13 @@
               {
                 "label": "Total Bases",
                 "average": 0.8,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.95,
-                "lean": "over",
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 60,
+                    "line": 1.5,
+                    "pct": 10,
                     "n": 10
                   }
                 ],
@@ -251997,7 +252025,7 @@
               }
             ],
             "best_over": {
-              "label": "Total Bases",
+              "label": "Hits",
               "line": 0.5,
               "pct": 60,
               "n": 10,
@@ -252005,16 +252033,16 @@
               "delta": 11
             },
             "best_under": {
-              "label": "RBIs",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "pct": 10,
               "n": 10,
               "season_pct": 25,
               "delta": -15
             },
             "best_prop": {
-              "label": "RBIs",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "pct": 10,
               "n": 10,
               "season_pct": 25,
@@ -252023,8 +252051,8 @@
             "best_prop_direction": "under",
             "matchup_lean": {
               "label": "Total Bases",
-              "line": 0.5,
-              "direction": "over",
+              "line": 1.5,
+              "direction": "under",
               "projection": 0.95
             },
             "game_result": null
@@ -252644,13 +252672,13 @@
               {
                 "label": "Total Bases",
                 "average": 0.8,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.64,
-                "lean": null,
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 40,
+                    "line": 1.5,
+                    "pct": 20,
                     "n": 10
                   }
                 ],
@@ -252851,10 +252879,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Walks",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.09
+              "projection": 0.64
             },
             "game_result": null
           },
@@ -253293,11 +253321,11 @@
       "live_score": null,
       "projection": {
         "game_pk": 822946,
-        "generated_at": "2026-07-28T15:42:50.486137+00:00",
+        "generated_at": "2026-07-28T15:46:13.593207+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 5.24,
         "away_exp_runs": 4.05,
-        "home_win_prob": 0.595,
+        "home_win_prob": 0.597,
         "spread_line": 1.5,
         "spread_cover_prob": 0.451,
         "total_line": 8.5,
@@ -255184,13 +255212,13 @@
               {
                 "label": "Total Bases",
                 "average": 1.0,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.81,
-                "lean": "over",
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 50,
+                    "line": 1.5,
+                    "pct": 30,
                     "n": 10
                   }
                 ],
@@ -255372,7 +255400,14 @@
                 ]
               }
             ],
-            "best_over": null,
+            "best_over": {
+              "label": "Total Bases",
+              "line": 1.5,
+              "pct": 30,
+              "n": 10,
+              "season_pct": 21,
+              "delta": 9
+            },
             "best_under": {
               "label": "RBIs",
               "line": 0.5,
@@ -255391,10 +255426,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "RBIs",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.18
+              "projection": 0.81
             },
             "game_result": null
           },
@@ -257707,13 +257742,13 @@
               {
                 "label": "Total Bases",
                 "average": 1.0,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.94,
-                "lean": "over",
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 70,
+                    "line": 1.5,
+                    "pct": 20,
                     "n": 10
                   }
                 ],
@@ -257922,8 +257957,8 @@
             "best_prop_direction": "over",
             "matchup_lean": {
               "label": "Total Bases",
-              "line": 0.5,
-              "direction": "over",
+              "line": 1.5,
+              "direction": "under",
               "projection": 0.94
             },
             "game_result": null
@@ -260619,13 +260654,13 @@
               {
                 "label": "Total Bases",
                 "average": 0.6,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.84,
-                "lean": "over",
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 40,
+                    "line": 1.5,
+                    "pct": 20,
                     "n": 10
                   }
                 ],
@@ -260826,10 +260861,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Walks",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.03
+              "projection": 0.84
             },
             "game_result": null
           }
@@ -260875,7 +260910,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 823674,
-        "generated_at": "2026-07-28T15:42:50.486137+00:00",
+        "generated_at": "2026-07-28T15:46:13.593207+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 5.32,
         "away_exp_runs": 3.81,
@@ -260883,14 +260918,14 @@
         "spread_line": 1.5,
         "spread_cover_prob": 0.478,
         "total_line": 8.5,
-        "over_prob": 0.499,
+        "over_prob": 0.5,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
         "spread_pick_prob": 0.522,
-        "total_pick": "under",
-        "total_pick_prob": 0.501,
+        "total_pick": "over",
+        "total_pick_prob": 0.5,
         "spread_favorite": "home"
       },
       "home": {
@@ -262697,13 +262732,13 @@
               {
                 "label": "Total Bases",
                 "average": 0.5,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.7,
-                "lean": "over",
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 30,
+                    "line": 1.5,
+                    "pct": 20,
                     "n": 10
                   }
                 ],
@@ -262911,10 +262946,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "RBIs",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.21
+              "projection": 0.7
             },
             "game_result": null
           },
@@ -264369,13 +264404,13 @@
               {
                 "label": "Total Bases",
                 "average": 0.5,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.54,
-                "lean": null,
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 50,
+                    "line": 1.5,
+                    "pct": 0,
                     "n": 10
                   }
                 ],
@@ -264566,12 +264601,12 @@
               "delta": 21
             },
             "best_under": {
-              "label": "Home Runs",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "pct": 0,
               "n": 10,
-              "season_pct": 3,
-              "delta": -3
+              "season_pct": 19,
+              "delta": -19
             },
             "best_prop": {
               "label": "RBIs",
@@ -264583,10 +264618,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Runs Scored",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.22
+              "projection": 0.54
             },
             "game_result": null
           },
@@ -268152,13 +268187,13 @@
               {
                 "label": "Total Bases",
                 "average": 0.1,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.93,
-                "lean": "over",
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 10,
+                    "line": 1.5,
+                    "pct": 0,
                     "n": 10
                   }
                 ],
@@ -268367,8 +268402,8 @@
             "best_prop_direction": "under",
             "matchup_lean": {
               "label": "Total Bases",
-              "line": 0.5,
-              "direction": "over",
+              "line": 1.5,
+              "direction": "under",
               "projection": 0.93
             },
             "game_result": null
@@ -268828,7 +268863,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 824568,
-        "generated_at": "2026-07-28T15:42:50.486137+00:00",
+        "generated_at": "2026-07-28T15:46:13.593207+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.15,
         "away_exp_runs": 3.39,
@@ -272756,13 +272791,13 @@
               {
                 "label": "Total Bases",
                 "average": 0.8,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.66,
-                "lean": "over",
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 60,
+                    "line": 1.5,
+                    "pct": 10,
                     "n": 10
                   }
                 ],
@@ -272945,7 +272980,7 @@
               }
             ],
             "best_over": {
-              "label": "Total Bases",
+              "label": "Hits",
               "line": 0.5,
               "pct": 60,
               "n": 10,
@@ -272961,7 +272996,7 @@
               "delta": -11
             },
             "best_prop": {
-              "label": "Total Bases",
+              "label": "Hits",
               "line": 0.5,
               "pct": 60,
               "n": 10,
@@ -272970,10 +273005,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Walks",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.06
+              "projection": 0.66
             },
             "game_result": null
           }
@@ -276465,13 +276500,13 @@
               {
                 "label": "Total Bases",
                 "average": 1.6,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.93,
-                "lean": "over",
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 60,
+                    "line": 1.5,
+                    "pct": 40,
                     "n": 10
                   }
                 ],
@@ -276673,8 +276708,8 @@
             "best_prop_direction": "over",
             "matchup_lean": {
               "label": "Total Bases",
-              "line": 0.5,
-              "direction": "over",
+              "line": 1.5,
+              "direction": "under",
               "projection": 0.93
             },
             "game_result": null
@@ -276877,13 +276912,13 @@
               {
                 "label": "Total Bases",
                 "average": 1.0,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.96,
-                "lean": "over",
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 70,
+                    "line": 1.5,
+                    "pct": 10,
                     "n": 10
                   }
                 ],
@@ -277066,7 +277101,7 @@
               }
             ],
             "best_over": {
-              "label": "Total Bases",
+              "label": "Hits",
               "line": 0.5,
               "pct": 70,
               "n": 10,
@@ -277092,8 +277127,8 @@
             "best_prop_direction": "under",
             "matchup_lean": {
               "label": "Total Bases",
-              "line": 0.5,
-              "direction": "over",
+              "line": 1.5,
+              "direction": "under",
               "projection": 0.96
             },
             "game_result": null
@@ -277128,7 +277163,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 823023,
-        "generated_at": "2026-07-28T15:42:50.486137+00:00",
+        "generated_at": "2026-07-28T15:46:13.593207+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.34,
         "away_exp_runs": 5.4,
@@ -277781,13 +277816,13 @@
               {
                 "label": "Total Bases",
                 "average": 0.7,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.93,
-                "lean": "over",
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 50,
+                    "line": 1.5,
+                    "pct": 20,
                     "n": 10
                   }
                 ],
@@ -277996,8 +278031,8 @@
             "best_prop_direction": "over",
             "matchup_lean": {
               "label": "Total Bases",
-              "line": 0.5,
-              "direction": "over",
+              "line": 1.5,
+              "direction": "under",
               "projection": 0.93
             },
             "game_result": null
@@ -279038,13 +279073,13 @@
               {
                 "label": "Total Bases",
                 "average": 0.3,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.62,
-                "lean": null,
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 20,
+                    "line": 1.5,
+                    "pct": 10,
                     "n": 10
                   }
                 ],
@@ -279245,10 +279280,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Walks",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.1
+              "projection": 0.62
             },
             "game_result": null
           },
@@ -280281,13 +280316,13 @@
               {
                 "label": "Total Bases",
                 "average": 0.8,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.95,
-                "lean": "over",
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 40,
+                    "line": 1.5,
+                    "pct": 20,
                     "n": 10
                   }
                 ],
@@ -280496,8 +280531,8 @@
             "best_prop_direction": "over",
             "matchup_lean": {
               "label": "Total Bases",
-              "line": 0.5,
-              "direction": "over",
+              "line": 1.5,
+              "direction": "under",
               "projection": 0.95
             },
             "game_result": null
@@ -285076,22 +285111,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 823595,
-        "generated_at": "2026-07-28T15:42:50.486137+00:00",
+        "generated_at": "2026-07-28T15:46:13.593207+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 5.35,
         "away_exp_runs": 3.46,
         "home_win_prob": 0.657,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.509,
+        "spread_cover_prob": 0.51,
         "total_line": 8.5,
-        "over_prob": 0.471,
+        "over_prob": 0.47,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "home",
-        "spread_pick_prob": 0.509,
+        "spread_pick_prob": 0.51,
         "total_pick": "under",
-        "total_pick_prob": 0.529,
+        "total_pick_prob": 0.53,
         "spread_favorite": "home"
       },
       "home": {
@@ -288985,13 +289020,13 @@
               {
                 "label": "Total Bases",
                 "average": 0.3,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.77,
-                "lean": "over",
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 30,
+                    "line": 1.5,
+                    "pct": 0,
                     "n": 10
                   }
                 ],
@@ -289175,27 +289210,27 @@
             ],
             "best_over": null,
             "best_under": {
-              "label": "Hits",
-              "line": 0.5,
-              "pct": 30,
+              "label": "Total Bases",
+              "line": 1.5,
+              "pct": 0,
               "n": 10,
-              "season_pct": 60,
-              "delta": -30
+              "season_pct": 34,
+              "delta": -34
             },
             "best_prop": {
-              "label": "Hits",
-              "line": 0.5,
-              "pct": 30,
+              "label": "Total Bases",
+              "line": 1.5,
+              "pct": 0,
               "n": 10,
-              "season_pct": 60,
-              "delta": -30
+              "season_pct": 34,
+              "delta": -34
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "RBIs",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.18
+              "projection": 0.77
             },
             "game_result": null
           }
@@ -291925,13 +291960,13 @@
               {
                 "label": "Total Bases",
                 "average": 0.6,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.92,
-                "lean": "over",
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 40,
+                    "line": 1.5,
+                    "pct": 10,
                     "n": 10
                   }
                 ],
@@ -292122,26 +292157,26 @@
               "delta": 1
             },
             "best_under": {
-              "label": "Runs Scored",
-              "line": 0.5,
-              "pct": 20,
+              "label": "Total Bases",
+              "line": 1.5,
+              "pct": 10,
               "n": 10,
-              "season_pct": 39,
-              "delta": -19
+              "season_pct": 34,
+              "delta": -24
             },
             "best_prop": {
-              "label": "Runs Scored",
-              "line": 0.5,
-              "pct": 20,
+              "label": "Total Bases",
+              "line": 1.5,
+              "pct": 10,
               "n": 10,
-              "season_pct": 39,
-              "delta": -19
+              "season_pct": 34,
+              "delta": -24
             },
             "best_prop_direction": "under",
             "matchup_lean": {
               "label": "Total Bases",
-              "line": 0.5,
-              "direction": "over",
+              "line": 1.5,
+              "direction": "under",
               "projection": 0.92
             },
             "game_result": null
@@ -293014,7 +293049,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 824488,
-        "generated_at": "2026-07-28T15:42:50.486137+00:00",
+        "generated_at": "2026-07-28T15:46:13.593207+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.13,
         "away_exp_runs": 6.91,
@@ -294843,13 +294878,13 @@
               {
                 "label": "Total Bases",
                 "average": 0.7,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.85,
-                "lean": "over",
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 60,
+                    "line": 1.5,
+                    "pct": 10,
                     "n": 10
                   }
                 ],
@@ -295057,10 +295092,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "RBIs",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.06
+              "projection": 0.85
             },
             "game_result": null
           },
@@ -296501,13 +296536,13 @@
               {
                 "label": "Total Bases",
                 "average": 0.7,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.59,
-                "lean": null,
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 40,
+                    "line": 1.5,
+                    "pct": 10,
                     "n": 10
                   }
                 ],
@@ -296715,10 +296750,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "RBIs",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.09
+              "projection": 0.59
             },
             "game_result": null
           },
@@ -296919,13 +296954,13 @@
               {
                 "label": "Total Bases",
                 "average": 0.3,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.78,
-                "lean": "over",
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 20,
+                    "line": 1.5,
+                    "pct": 10,
                     "n": 10
                   }
                 ],
@@ -297126,10 +297161,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "RBIs",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.18
+              "projection": 0.78
             },
             "game_result": null
           }
@@ -299453,13 +299488,13 @@
               {
                 "label": "Total Bases",
                 "average": 1.2,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.91,
-                "lean": "over",
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 70,
+                    "line": 1.5,
+                    "pct": 30,
                     "n": 10
                   }
                 ],
@@ -299642,7 +299677,7 @@
               }
             ],
             "best_over": {
-              "label": "Total Bases",
+              "label": "Hits",
               "line": 0.5,
               "pct": 70,
               "n": 10,
@@ -299658,7 +299693,7 @@
               "delta": -6
             },
             "best_prop": {
-              "label": "Total Bases",
+              "label": "Hits",
               "line": 0.5,
               "pct": 70,
               "n": 10,
@@ -299668,8 +299703,8 @@
             "best_prop_direction": "over",
             "matchup_lean": {
               "label": "Total Bases",
-              "line": 0.5,
-              "direction": "over",
+              "line": 1.5,
+              "direction": "under",
               "projection": 0.91
             },
             "game_result": null
@@ -300291,12 +300326,12 @@
               {
                 "label": "Total Bases",
                 "average": 0.5,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.27,
                 "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
+                    "line": 1.5,
                     "pct": 10,
                     "n": 10
                   }
@@ -300505,10 +300540,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Walks",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.0
+              "projection": 0.27
             },
             "game_result": null
           },
@@ -300710,13 +300745,13 @@
               {
                 "label": "Total Bases",
                 "average": 1.1,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.98,
-                "lean": "over",
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 60,
+                    "line": 1.5,
+                    "pct": 20,
                     "n": 10
                   }
                 ],
@@ -300899,7 +300934,7 @@
               }
             ],
             "best_over": {
-              "label": "Total Bases",
+              "label": "Hits",
               "line": 0.5,
               "pct": 60,
               "n": 10,
@@ -300915,7 +300950,7 @@
               "delta": -4
             },
             "best_prop": {
-              "label": "Total Bases",
+              "label": "Hits",
               "line": 0.5,
               "pct": 60,
               "n": 10,
@@ -300925,8 +300960,8 @@
             "best_prop_direction": "over",
             "matchup_lean": {
               "label": "Total Bases",
-              "line": 0.5,
-              "direction": "over",
+              "line": 1.5,
+              "direction": "under",
               "projection": 0.98
             },
             "game_result": null
@@ -300967,7 +301002,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 824894,
-        "generated_at": "2026-07-28T15:42:50.486137+00:00",
+        "generated_at": "2026-07-28T15:46:13.593207+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 5.54,
         "away_exp_runs": 5.78,
@@ -304126,13 +304161,13 @@
               {
                 "label": "Total Bases",
                 "average": 0.7,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.82,
-                "lean": "over",
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 30,
+                    "line": 1.5,
+                    "pct": 20,
                     "n": 10
                   }
                 ],
@@ -304340,10 +304375,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Walks",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.16
+              "projection": 0.82
             },
             "game_result": null
           },
@@ -304544,13 +304579,13 @@
               {
                 "label": "Total Bases",
                 "average": 0.9,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.94,
-                "lean": "over",
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 40,
+                    "line": 1.5,
+                    "pct": 20,
                     "n": 10
                   }
                 ],
@@ -304759,8 +304794,8 @@
             "best_prop_direction": "under",
             "matchup_lean": {
               "label": "Total Bases",
-              "line": 0.5,
-              "direction": "over",
+              "line": 1.5,
+              "direction": "under",
               "projection": 0.94
             },
             "game_result": null
@@ -306642,13 +306677,13 @@
               {
                 "label": "Total Bases",
                 "average": 1.1,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.96,
-                "lean": "over",
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 60,
+                    "line": 1.5,
+                    "pct": 40,
                     "n": 10
                   }
                 ],
@@ -306857,8 +306892,8 @@
             "best_prop_direction": "over",
             "matchup_lean": {
               "label": "Total Bases",
-              "line": 0.5,
-              "direction": "over",
+              "line": 1.5,
+              "direction": "under",
               "projection": 0.96
             },
             "game_result": null
@@ -308577,7 +308612,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 823271,
-        "generated_at": "2026-07-28T15:42:50.486137+00:00",
+        "generated_at": "2026-07-28T15:46:13.593207+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.18,
         "away_exp_runs": 3.74,
@@ -309639,13 +309674,13 @@
               {
                 "label": "Total Bases",
                 "average": 0.4,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.84,
-                "lean": "over",
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 40,
+                    "line": 1.5,
+                    "pct": 0,
                     "n": 10
                   }
                 ],
@@ -309836,26 +309871,26 @@
               "delta": 6
             },
             "best_under": {
-              "label": "Walks",
-              "line": 0.5,
-              "pct": 10,
+              "label": "Total Bases",
+              "line": 1.5,
+              "pct": 0,
               "n": 10,
-              "season_pct": 33,
-              "delta": -23
+              "season_pct": 32,
+              "delta": -32
             },
             "best_prop": {
-              "label": "Walks",
-              "line": 0.5,
-              "pct": 10,
+              "label": "Total Bases",
+              "line": 1.5,
+              "pct": 0,
               "n": 10,
-              "season_pct": 33,
-              "delta": -23
+              "season_pct": 32,
+              "delta": -32
             },
             "best_prop_direction": "under",
             "matchup_lean": {
               "label": "Total Bases",
-              "line": 0.5,
-              "direction": "over",
+              "line": 1.5,
+              "direction": "under",
               "projection": 0.84
             },
             "game_result": null
@@ -311304,13 +311339,13 @@
               {
                 "label": "Total Bases",
                 "average": 0.4,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.3,
                 "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 20,
+                    "line": 1.5,
+                    "pct": 10,
                     "n": 10
                   }
                 ],
@@ -311518,10 +311553,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "Walks",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.03
+              "projection": 0.3
             },
             "game_result": null
           },
@@ -312140,13 +312175,13 @@
               {
                 "label": "Total Bases",
                 "average": 0.5,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.53,
-                "lean": null,
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 20,
+                    "line": 1.5,
+                    "pct": 10,
                     "n": 10
                   }
                 ],
@@ -312354,10 +312389,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Walks",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.3
+              "projection": 0.53
             },
             "game_result": null
           }
@@ -315931,13 +315966,13 @@
               {
                 "label": "Total Bases",
                 "average": 0.7,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.59,
-                "lean": null,
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 40,
+                    "line": 1.5,
+                    "pct": 30,
                     "n": 10
                   }
                 ],
@@ -316145,10 +316180,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "RBIs",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.09
+              "projection": 0.59
             },
             "game_result": null
           }
@@ -316182,7 +316217,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 824974,
-        "generated_at": "2026-07-28T15:42:50.486137+00:00",
+        "generated_at": "2026-07-28T15:46:13.593207+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.09,
         "away_exp_runs": 7.48,
@@ -316835,13 +316870,13 @@
               {
                 "label": "Total Bases",
                 "average": 0.7,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.74,
-                "lean": "over",
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 40,
+                    "line": 1.5,
+                    "pct": 20,
                     "n": 10
                   }
                 ],
@@ -317049,10 +317084,10 @@
             },
             "best_prop_direction": "over",
             "matchup_lean": {
-              "label": "RBIs",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.23
+              "projection": 0.74
             },
             "game_result": null
           },
@@ -317254,13 +317289,13 @@
               {
                 "label": "Total Bases",
                 "average": 0.4,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.83,
-                "lean": "over",
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 30,
+                    "line": 1.5,
+                    "pct": 10,
                     "n": 10
                   }
                 ],
@@ -317462,8 +317497,8 @@
             "best_prop_direction": "under",
             "matchup_lean": {
               "label": "Total Bases",
-              "line": 0.5,
-              "direction": "over",
+              "line": 1.5,
+              "direction": "under",
               "projection": 0.83
             },
             "game_result": null
@@ -318504,13 +318539,13 @@
               {
                 "label": "Total Bases",
                 "average": 0.7,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.92,
-                "lean": "over",
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 40,
+                    "line": 1.5,
+                    "pct": 10,
                     "n": 10
                   }
                 ],
@@ -318718,10 +318753,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Walks",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.07
+              "projection": 0.92
             },
             "game_result": null
           },
@@ -319761,13 +319796,13 @@
               {
                 "label": "Total Bases",
                 "average": 0.6,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.98,
-                "lean": "over",
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 30,
+                    "line": 1.5,
+                    "pct": 20,
                     "n": 10
                   }
                 ],
@@ -319976,8 +320011,8 @@
             "best_prop_direction": "over",
             "matchup_lean": {
               "label": "Total Bases",
-              "line": 0.5,
-              "direction": "over",
+              "line": 1.5,
+              "direction": "under",
               "projection": 0.98
             },
             "game_result": null
@@ -323094,13 +323129,13 @@
               {
                 "label": "Total Bases",
                 "average": 0.5,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.83,
-                "lean": "over",
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 40,
+                    "line": 1.5,
+                    "pct": 10,
                     "n": 10
                   }
                 ],
@@ -323302,8 +323337,8 @@
             "best_prop_direction": "under",
             "matchup_lean": {
               "label": "Total Bases",
-              "line": 0.5,
-              "direction": "over",
+              "line": 1.5,
+              "direction": "under",
               "projection": 0.83
             },
             "game_result": null
@@ -324161,7 +324196,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 823921,
-        "generated_at": "2026-07-28T15:42:50.486137+00:00",
+        "generated_at": "2026-07-28T15:46:13.593207+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.3,
         "away_exp_runs": 3.61,
@@ -324169,14 +324204,14 @@
         "spread_line": 1.5,
         "spread_cover_prob": 0.295,
         "total_line": 6.5,
-        "over_prob": 0.489,
+        "over_prob": 0.488,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
         "spread_pick_prob": 0.646,
         "total_pick": "under",
-        "total_pick_prob": 0.511,
+        "total_pick_prob": 0.512,
         "spread_favorite": "away"
       },
       "home": {
@@ -330623,13 +330658,13 @@
               {
                 "label": "Total Bases",
                 "average": 0.8,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.95,
-                "lean": "over",
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 60,
+                    "line": 1.5,
+                    "pct": 10,
                     "n": 10
                   }
                 ],
@@ -330812,7 +330847,7 @@
               }
             ],
             "best_over": {
-              "label": "Total Bases",
+              "label": "Hits",
               "line": 0.5,
               "pct": 60,
               "n": 10,
@@ -330820,16 +330855,16 @@
               "delta": 11
             },
             "best_under": {
-              "label": "RBIs",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "pct": 10,
               "n": 10,
               "season_pct": 25,
               "delta": -15
             },
             "best_prop": {
-              "label": "RBIs",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "pct": 10,
               "n": 10,
               "season_pct": 25,
@@ -330838,8 +330873,8 @@
             "best_prop_direction": "under",
             "matchup_lean": {
               "label": "Total Bases",
-              "line": 0.5,
-              "direction": "over",
+              "line": 1.5,
+              "direction": "under",
               "projection": 0.95
             },
             "game_result": null
@@ -331459,13 +331494,13 @@
               {
                 "label": "Total Bases",
                 "average": 0.8,
-                "primary_line": 0.5,
+                "primary_line": 1.5,
                 "today_projection": 0.64,
-                "lean": null,
+                "lean": "under",
                 "hit_rates": [
                   {
-                    "line": 0.5,
-                    "pct": 40,
+                    "line": 1.5,
+                    "pct": 20,
                     "n": 10
                   }
                 ],
@@ -331666,10 +331701,10 @@
             },
             "best_prop_direction": "under",
             "matchup_lean": {
-              "label": "Walks",
-              "line": 0.5,
+              "label": "Total Bases",
+              "line": 1.5,
               "direction": "under",
-              "projection": 0.09
+              "projection": 0.64
             },
             "game_result": null
           },
