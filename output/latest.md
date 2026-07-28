@@ -1,23 +1,23 @@
 # MLB Player Props Context Report
-_Generated 2026-07-28T15:48:48.841357+00:00_
+_Generated 2026-07-28T16:06:36.683585+00:00_
 
 ## Today's Top Overs
 ### Batters
-- **Andruw Monasterio** (Boston Red Sox vs Athletics): real hot streak (not just lucky bloops), favorable matchup vs. tonight's pitcher, 9-game hit streak -- try Total Bases: 70% over 1.5 recently (vs. 10-game sample)
-- **Nathaniel Lowe** (Cincinnati Reds vs Cleveland Guardians): real hot streak (not just lucky bloops), favorable matchup vs. tonight's pitcher -- try RBIs: 50% over 0.5 recently (vs. 10-game sample)
-- **Jackson Merrill** (San Diego Padres vs Colorado Rockies): real hot streak (not just lucky bloops), favorable matchup vs. tonight's pitcher -- try Home Runs: 40% over 0.5 recently (vs. 10-game sample)
-- **Elly De La Cruz** (Cincinnati Reds vs Cleveland Guardians): favorable matchup vs. tonight's pitcher -- try Walks: 60% over 0.5 recently (vs. 10-game sample)
-- **Ezequiel Duran** (Texas Rangers vs Tampa Bay Rays): real hot streak (not just lucky bloops), 7-game hit streak -- try Runs Scored: 70% over 0.5 recently (vs. 10-game sample)
+- **Andruw Monasterio** (Boston Red Sox vs Athletics): real hot streak (not just lucky bloops), favorable matchup vs. tonight's pitcher, 9-game hit streak -- try Hits: 90% over 0.5 recently (vs. 10-game sample)
+- **Nathaniel Lowe** (Cincinnati Reds vs Cleveland Guardians): real hot streak (not just lucky bloops), favorable matchup vs. tonight's pitcher -- try Total Bases: 50% over 1.5 recently (vs. 10-game sample)
+- **Jackson Merrill** (San Diego Padres vs Colorado Rockies): real hot streak (not just lucky bloops), favorable matchup vs. tonight's pitcher -- try RBIs: 50% over 0.5 recently (vs. 10-game sample)
+- **Elly De La Cruz** (Cincinnati Reds vs Cleveland Guardians): favorable matchup vs. tonight's pitcher -- try Runs Scored: 60% over 0.5 recently (vs. 10-game sample)
+- **Ezequiel Duran** (Texas Rangers vs Tampa Bay Rays): real hot streak (not just lucky bloops), 7-game hit streak -- try Total Bases: 70% over 1.5 recently (vs. 10-game sample)
 - **Joc Pederson** (Texas Rangers vs Tampa Bay Rays): real hot streak (not just lucky bloops), 8-game hit streak -- try Total Bases: 80% over 1.5 recently (vs. 10-game sample)
-- **Jake Mangum** (Pittsburgh Pirates vs Arizona Diamondbacks): favorable matchup vs. tonight's pitcher, 5-game hit streak -- try Total Bases: 40% over 1.5 recently (vs. 10-game sample)
+- **Jake Mangum** (Pittsburgh Pirates vs Arizona Diamondbacks): favorable matchup vs. tonight's pitcher, 5-game hit streak -- try Hits: 30% over 1.5 recently (vs. 10-game sample)
 - **Hao-Yu Lee** (Detroit Tigers vs Baltimore Orioles): real hot streak (not just lucky bloops), 12-game hit streak -- try Hits: 100% over 0.5 recently (vs. 10-game sample)
-- **Francisco Alvarez** (New York Mets vs Atlanta Braves): real hot streak (not just lucky bloops), 5-game hit streak -- try Walks: 60% over 0.5 recently (vs. 10-game sample)
+- **Francisco Alvarez** (New York Mets vs Atlanta Braves): real hot streak (not just lucky bloops), 5-game hit streak -- try Hits: 80% over 0.5 recently (vs. 10-game sample)
 - **Trevor Larnach** (Minnesota Twins vs Kansas City Royals): favorable matchup vs. tonight's pitcher, 5-game hit streak -- try Hits: 90% over 0.5 recently (vs. 10-game sample)
 - **Jeremy Peña** (Houston Astros vs Los Angeles Angels): real hot streak (not just lucky bloops), 9-game hit streak -- try Runs Scored: 80% over 0.5 recently (vs. 10-game sample)
-- **Hunter Goodman** (Colorado Rockies vs San Diego Padres): real hot streak (not just lucky bloops), 5-game hit streak -- try RBIs: 40% over 0.5 recently (vs. 10-game sample)
-- **Freddie Freeman** (Los Angeles Dodgers vs Seattle Mariners): favorable matchup vs. tonight's pitcher, 7-game hit streak -- try Hits: 40% over 1.5 recently (vs. 10-game sample)
-- **JJ Bleday** (Cincinnati Reds vs Cleveland Guardians): favorable matchup vs. tonight's pitcher -- try Runs Scored: 50% over 0.5 recently (vs. 10-game sample)
-- **Edwin Arroyo** (Cincinnati Reds vs Cleveland Guardians): favorable matchup vs. tonight's pitcher -- try Walks: 20% over 0.5 recently (vs. 10-game sample)
+- **Hunter Goodman** (Colorado Rockies vs San Diego Padres): real hot streak (not just lucky bloops), 5-game hit streak -- try Hits: 30% over 1.5 recently (vs. 10-game sample)
+- **Freddie Freeman** (Los Angeles Dodgers vs Seattle Mariners): favorable matchup vs. tonight's pitcher, 7-game hit streak -- try Total Bases: 40% over 1.5 recently (vs. 10-game sample)
+- **JJ Bleday** (Cincinnati Reds vs Cleveland Guardians): favorable matchup vs. tonight's pitcher -- try Hits: 70% over 0.5 recently (vs. 10-game sample)
+- **Edwin Arroyo** (Cincinnati Reds vs Cleveland Guardians): favorable matchup vs. tonight's pitcher -- try Hits: 60% over 0.5 recently (vs. 10-game sample)
 
 ### Pitchers
 - **Brandon Pfaadt** (Arizona Diamondbacks vs Pittsburgh Pirates): pitching well above his season norm over his last few starts, 5 hitters in tonight's lineup are in a tough matchup against him -- try Outs Recorded: 100% over 12.5 recently (vs. 5-game sample)
@@ -31,18 +31,18 @@ _Generated 2026-07-28T15:48:48.841357+00:00_
 
 ## Today's Top Unders
 ### Batters
-- **Esmerlyn Valdez** (Pittsburgh Pirates vs Arizona Diamondbacks): cold recent stretch (well below season average), tough matchup vs. tonight's pitcher -- try Runs Scored: 40% over 0.5 recently (vs. 10-game sample)
-- **Trent Grisham** (New York Yankees vs Chicago White Sox): cold recent stretch (well below season average), tough matchup vs. tonight's pitcher -- try Hits: 20% over 0.5 recently (vs. 10-game sample)
+- **Esmerlyn Valdez** (Pittsburgh Pirates vs Arizona Diamondbacks): cold recent stretch (well below season average), tough matchup vs. tonight's pitcher -- try Total Bases: 40% over 2.5 recently (vs. 10-game sample)
+- **Trent Grisham** (New York Yankees vs Chicago White Sox): cold recent stretch (well below season average), tough matchup vs. tonight's pitcher -- try Total Bases: 10% over 1.5 recently (vs. 10-game sample)
 - **Ryan McMahon** (New York Yankees vs Chicago White Sox): cold recent stretch (well below season average), tough matchup vs. tonight's pitcher -- try Walks: 0% over 0.5 recently (vs. 10-game sample)
-- **Carlos Cortes** (Athletics vs Boston Red Sox): cold recent stretch (well below season average), tough matchup vs. tonight's pitcher -- try Hits: 30% over 0.5 recently (vs. 10-game sample)
+- **Carlos Cortes** (Athletics vs Boston Red Sox): cold recent stretch (well below season average), tough matchup vs. tonight's pitcher -- try Total Bases: 10% over 1.5 recently (vs. 10-game sample)
 - **Nick Gonzales** (Pittsburgh Pirates vs Arizona Diamondbacks): tough matchup vs. tonight's pitcher -- try Walks: 0% over 0.5 recently (vs. 10-game sample)
 - **Jared Triolo** (Pittsburgh Pirates vs Arizona Diamondbacks): tough matchup vs. tonight's pitcher -- try Walks: 20% over 0.5 recently (vs. 10-game sample)
-- **Billy Cook** (Pittsburgh Pirates vs Arizona Diamondbacks): tough matchup vs. tonight's pitcher -- try Hits: 10% over 0.5 recently (vs. 10-game sample)
+- **Billy Cook** (Pittsburgh Pirates vs Arizona Diamondbacks): tough matchup vs. tonight's pitcher -- try Total Bases: 10% over 1.5 recently (vs. 10-game sample)
 - **Henry Davis** (Pittsburgh Pirates vs Arizona Diamondbacks): tough matchup vs. tonight's pitcher -- try Walks: 20% over 0.5 recently (vs. 10-game sample)
 - **Tim Tawa** (Arizona Diamondbacks vs Pittsburgh Pirates): tough matchup vs. tonight's pitcher -- try Walks: 10% over 0.5 recently (vs. 10-game sample)
-- **Gabriel Moreno** (Arizona Diamondbacks vs Pittsburgh Pirates): tough matchup vs. tonight's pitcher -- try Hits: 40% over 1.5 recently (vs. 10-game sample)
-- **Nolan Arenado** (Arizona Diamondbacks vs Pittsburgh Pirates): tough matchup vs. tonight's pitcher -- try Runs Scored: 20% over 0.5 recently (vs. 10-game sample)
-- **Pete Alonso** (Baltimore Orioles vs Detroit Tigers): tough matchup vs. tonight's pitcher -- try RBIs: 20% over 0.5 recently (vs. 10-game sample)
+- **Gabriel Moreno** (Arizona Diamondbacks vs Pittsburgh Pirates): tough matchup vs. tonight's pitcher -- try Total Bases: 50% over 1.5 recently (vs. 10-game sample)
+- **Nolan Arenado** (Arizona Diamondbacks vs Pittsburgh Pirates): tough matchup vs. tonight's pitcher -- try Total Bases: 50% over 1.5 recently (vs. 10-game sample)
+- **Pete Alonso** (Baltimore Orioles vs Detroit Tigers): tough matchup vs. tonight's pitcher -- try Home Runs: 10% over 0.5 recently (vs. 10-game sample)
 - **Taylor Ward** (Baltimore Orioles vs Detroit Tigers): tough matchup vs. tonight's pitcher -- try RBIs: 20% over 0.5 recently (vs. 10-game sample)
 - **Tyler O'Neill** (Baltimore Orioles vs Detroit Tigers): tough matchup vs. tonight's pitcher -- try Walks: 0% over 0.5 recently (vs. 10-game sample)
 - **Coby Mayo** (Baltimore Orioles vs Detroit Tigers): tough matchup vs. tonight's pitcher -- try Walks: 0% over 0.5 recently (vs. 10-game sample)
@@ -425,7 +425,7 @@ _Facing a taxed bullpen: 11.0 relief IP in last 2 days (ratio 2.03)_
 ## 2026-07-28 - Colorado Rockies @ San Diego Padres (Scheduled)
 _Petco Park [pitcher-friendly park]_
 Projected score: Colorado Rockies 3.17 - San Diego Padres 4.79
-Model likes: **San Diego Padres** to win (64%) | Run line: **Colorado Rockies** +1.5 (52% to cover) | Total 6.5: lean **OVER** (59%)
+Model likes: **San Diego Padres** to win (65%) | Run line: **Colorado Rockies** +1.5 (51% to cover) | Total 6.5: lean **OVER** (59%)
 
 ### Colorado Rockies lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.7 relief IP in last 2 days (ratio 0.63)_
@@ -634,7 +634,7 @@ _Facing a taxed bullpen: 6.7 relief IP in last 2 days (ratio 1.49)_
 ## 2026-07-29 - Atlanta Braves @ New York Mets (Scheduled)
 _Citi Field_
 Projected score: Atlanta Braves 4.76 - New York Mets 3.74
-Model likes: **Atlanta Braves** to win (59%) | Run line: **New York Mets** +1.5 (56% to cover) | Total 8.5: lean **UNDER** (56%)
+Model likes: **Atlanta Braves** to win (59%) | Run line: **New York Mets** +1.5 (57% to cover) | Total 8.5: lean **UNDER** (55%)
 
 ### Atlanta Braves lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.7 relief IP in last 2 days (ratio 0.51)_
@@ -931,7 +931,7 @@ _Facing a taxed bullpen: 8.3 relief IP in last 2 days (ratio 1.53)_
 ## 2026-07-29 - Boston Red Sox @ Athletics (Scheduled)
 _Sutter Health Park_
 Projected score: Boston Red Sox 6.28 - Athletics 3.22
-Model likes: **Boston Red Sox** to win (73%) | Run line: **Boston Red Sox** -1.5 (60% to cover) | Total 8.5: lean **OVER** (53%)
+Model likes: **Boston Red Sox** to win (74%) | Run line: **Boston Red Sox** -1.5 (60% to cover) | Total 8.5: lean **OVER** (53%)
 
 ### Boston Red Sox lineup -- PROJECTED (unconfirmed)
 **Probable P: Patrick Sandoval (L)** -- L5: 21.3 IP, 19 K, 8 ER, 3.38 ERA
@@ -960,7 +960,7 @@ Model likes: **Boston Red Sox** to win (73%) | Run line: **Boston Red Sox** -1.5
 ## 2026-07-29 - Seattle Mariners @ Los Angeles Dodgers (Scheduled)
 _UNIQLO Field at Dodger Stadium_
 Projected score: Seattle Mariners 3.61 - Los Angeles Dodgers 3.54
-Model likes: **Seattle Mariners** to win (51%) | Run line: **Los Angeles Dodgers** +1.5 (66% to cover) | Total 6.5: lean **OVER** (52%)
+Model likes: **Seattle Mariners** to win (51%) | Run line: **Los Angeles Dodgers** +1.5 (67% to cover) | Total 6.5: lean **OVER** (51%)
 
 ### Seattle Mariners lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1227,7 +1227,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-07-30 - Boston Red Sox @ Athletics (Scheduled)
 _Sutter Health Park_
 Projected score: Boston Red Sox 7.48 - Athletics 3.09
-Model likes: **Boston Red Sox** to win (80%) | Run line: **Boston Red Sox** -1.5 (69% to cover) | Total 10.5: lean **UNDER** (55%)
+Model likes: **Boston Red Sox** to win (80%) | Run line: **Boston Red Sox** -1.5 (69% to cover) | Total 10.5: lean **UNDER** (56%)
 
 ### Boston Red Sox lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
