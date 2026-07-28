@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-07-28T11:49:07.468079+00:00_
+_Generated 2026-07-28T12:24:13.557599+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -90,7 +90,7 @@ _Facing a taxed bullpen: 6.3 relief IP in last 2 days (ratio 1.44)_
 ## 2026-07-28 - Arizona Diamondbacks @ Pittsburgh Pirates (Scheduled)
 _PNC Park_
 Projected score: Arizona Diamondbacks 4.48 - Pittsburgh Pirates 5.07
-Model likes: **Pittsburgh Pirates** to win (55%) | Run line: **Arizona Diamondbacks** +1.5 (59% to cover) | Total 8.5: lean **OVER** (54%)
+Model likes: **Pittsburgh Pirates** to win (55%) | Run line: **Arizona Diamondbacks** +1.5 (59% to cover) | Total 8.5: lean **OVER** (53%)
 
 ### Arizona Diamondbacks lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 7.7 relief IP in last 2 days (ratio 1.89)_
@@ -152,7 +152,7 @@ _Facing a taxed bullpen: 8.3 relief IP in last 2 days (ratio 1.85)_
 ## 2026-07-28 - Baltimore Orioles @ Detroit Tigers (Scheduled)
 _Comerica Park [pitcher-friendly park]_
 Projected score: Baltimore Orioles 2.61 - Detroit Tigers 4.13
-Model likes: **Detroit Tigers** to win (65%) | Run line: **Baltimore Orioles** +1.5 (53% to cover) | Total 6.5: lean **UNDER** (53%)
+Model likes: **Detroit Tigers** to win (66%) | Run line: **Baltimore Orioles** +1.5 (53% to cover) | Total 6.5: lean **UNDER** (53%)
 
 ### Baltimore Orioles lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 8.7 relief IP in last 2 days (ratio 2.06)_
@@ -183,7 +183,7 @@ _Facing a taxed bullpen: 11.0 relief IP in last 2 days (ratio 2.35)_
 ## 2026-07-28 - Toronto Blue Jays @ Washington Nationals (Scheduled)
 _Nationals Park_
 Projected score: Toronto Blue Jays 3.25 - Washington Nationals 5.43
-Model likes: **Washington Nationals** to win (68%) | Run line: **Washington Nationals** -1.5 (53% to cover) | Total 8.5: lean **UNDER** (54%)
+Model likes: **Washington Nationals** to win (68%) | Run line: **Washington Nationals** -1.5 (54% to cover) | Total 8.5: lean **UNDER** (54%)
 
 ### Toronto Blue Jays lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 11.7 relief IP in last 2 days (ratio 2.61)_
@@ -395,7 +395,7 @@ _Facing a taxed bullpen: 11.0 relief IP in last 2 days (ratio 2.03)_
 ## 2026-07-28 - Colorado Rockies @ San Diego Padres (Scheduled)
 _Petco Park [pitcher-friendly park]_
 Projected score: Colorado Rockies 3.17 - San Diego Padres 4.79
-Model likes: **San Diego Padres** to win (64%) | Run line: **Colorado Rockies** +1.5 (52% to cover) | Total 6.5: lean **OVER** (59%)
+Model likes: **San Diego Padres** to win (65%) | Run line: **Colorado Rockies** +1.5 (51% to cover) | Total 6.5: lean **OVER** (59%)
 
 ### Colorado Rockies lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.7 relief IP in last 2 days (ratio 0.63)_
@@ -488,7 +488,7 @@ _Facing a taxed bullpen: 6.0 relief IP in last 2 days (ratio 1.21)_
 ## 2026-07-28 - Seattle Mariners @ Los Angeles Dodgers (Scheduled)
 _UNIQLO Field at Dodger Stadium_
 Projected score: Seattle Mariners 3.61 - Los Angeles Dodgers 4.55
-Model likes: **Los Angeles Dodgers** to win (58%) | Run line: **Seattle Mariners** +1.5 (57% to cover) | Total 8.5: lean **UNDER** (58%)
+Model likes: **Los Angeles Dodgers** to win (58%) | Run line: **Seattle Mariners** +1.5 (57% to cover) | Total 8.5: lean **UNDER** (59%)
 
 ### Seattle Mariners lineup -- PROJECTED (unconfirmed)
 **Probable P: Luis Castillo (R)** -- L5: 28.0 IP, 19 K, 14 ER, 4.5 ERA
@@ -545,7 +545,7 @@ Model likes: **Philadelphia Phillies** to win (52%) | Run line: **Miami Marlins*
 ## 2026-07-29 - Arizona Diamondbacks @ Pittsburgh Pirates (Scheduled)
 _PNC Park_
 Projected score: Arizona Diamondbacks 4.03 - Pittsburgh Pirates 3.43
-Model likes: **Arizona Diamondbacks** to win (56%) | Run line: **Pittsburgh Pirates** +1.5 (61% to cover) | Total 6.5: lean **OVER** (54%)
+Model likes: **Arizona Diamondbacks** to win (56%) | Run line: **Pittsburgh Pirates** +1.5 (61% to cover) | Total 6.5: lean **OVER** (55%)
 
 ### Arizona Diamondbacks lineup -- PROJECTED (unconfirmed)
 **Probable P: Eduardo Rodriguez (L)** -- L5: 27.7 IP, 16 K, 12 ER, 3.9 ERA
@@ -604,7 +604,7 @@ _Facing a taxed bullpen: 6.7 relief IP in last 2 days (ratio 1.49)_
 ## 2026-07-29 - Atlanta Braves @ New York Mets (Scheduled)
 _Citi Field_
 Projected score: Atlanta Braves 4.76 - New York Mets 3.74
-Model likes: **Atlanta Braves** to win (59%) | Run line: **New York Mets** +1.5 (56% to cover) | Total 8.5: lean **UNDER** (55%)
+Model likes: **Atlanta Braves** to win (59%) | Run line: **New York Mets** +1.5 (57% to cover) | Total 8.5: lean **UNDER** (55%)
 
 ### Atlanta Braves lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.7 relief IP in last 2 days (ratio 0.51)_
@@ -901,7 +901,7 @@ _Facing a taxed bullpen: 8.3 relief IP in last 2 days (ratio 1.53)_
 ## 2026-07-29 - Boston Red Sox @ Athletics (Scheduled)
 _Sutter Health Park_
 Projected score: Boston Red Sox 6.28 - Athletics 3.22
-Model likes: **Boston Red Sox** to win (73%) | Run line: **Boston Red Sox** -1.5 (60% to cover) | Total 8.5: lean **OVER** (52%)
+Model likes: **Boston Red Sox** to win (73%) | Run line: **Boston Red Sox** -1.5 (60% to cover) | Total 8.5: lean **OVER** (53%)
 
 ### Boston Red Sox lineup -- PROJECTED (unconfirmed)
 **Probable P: Patrick Sandoval (L)** -- L5: 21.3 IP, 19 K, 8 ER, 3.38 ERA
@@ -988,7 +988,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-07-30 - Kansas City Royals @ Minnesota Twins (Scheduled)
 _Target Field_
 Projected score: Kansas City Royals 3.81 - Minnesota Twins 5.32
-Model likes: **Minnesota Twins** to win (62%) | Run line: **Kansas City Royals** +1.5 (52% to cover) | Total 8.5: lean **OVER** (50%)
+Model likes: **Minnesota Twins** to win (62%) | Run line: **Kansas City Royals** +1.5 (52% to cover) | Total 8.5: lean **UNDER** (50%)
 
 ### Kansas City Royals lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1139,7 +1139,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-07-30 - Washington Nationals @ Atlanta Braves (Scheduled)
 _Truist Park_
 Projected score: Washington Nationals 5.78 - Atlanta Braves 5.54
-Model likes: **Washington Nationals** to win (52%) | Run line: **Atlanta Braves** +1.5 (60% to cover) | Total 10.5: lean **OVER** (51%)
+Model likes: **Washington Nationals** to win (52%) | Run line: **Atlanta Braves** +1.5 (61% to cover) | Total 10.5: lean **OVER** (51%)
 
 ### Washington Nationals lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1197,7 +1197,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-07-30 - Boston Red Sox @ Athletics (Scheduled)
 _Sutter Health Park_
 Projected score: Boston Red Sox 7.48 - Athletics 3.09
-Model likes: **Boston Red Sox** to win (80%) | Run line: **Boston Red Sox** -1.5 (69% to cover) | Total 10.5: lean **UNDER** (55%)
+Model likes: **Boston Red Sox** to win (80%) | Run line: **Boston Red Sox** -1.5 (69% to cover) | Total 10.5: lean **UNDER** (56%)
 
 ### Boston Red Sox lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
