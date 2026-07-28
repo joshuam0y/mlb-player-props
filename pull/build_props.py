@@ -341,7 +341,16 @@ def category_baselines(recent_rolling, season_avgs, stats):
         # matchup-adjusted "today" projection used it), which is exactly
         # backwards: a truly cold bat should show a truly low projection,
         # not get rounded up to a coin flip.
-        out[stat] = (avg, round_to_half(avg))
+        line = round_to_half(avg)
+        # Total Bases specifically has a real floor of 1.5, not 0.5: any
+        # single (the most common hit) already clears 0.5 total bases, so
+        # "Over 0.5 Total Bases" and "Over 0.5 Hits" are the exact same
+        # event (both true iff the player gets >=1 hit) -- a 0.5 TB line
+        # carries zero information the Hits category doesn't already show,
+        # which is why real sportsbooks never post one below 1.5.
+        if stat == "total_bases":
+            line = max(line, 1.5)
+        out[stat] = (avg, line)
     return out
 
 
