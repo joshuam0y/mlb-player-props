@@ -11,6 +11,8 @@ public news RSS feed -- no paid odds API, no scraping of betting sites.
 
 _Updated with every change going forward._
 
+- **2026-07-28** -- Added a "Potential winnings" summary tile to My Bets --
+  total profit across every still-pending bet if all of them hit.
 - **2026-07-28** -- Fixed Top Overs/Unders structurally favoring earlier
   games: the confirmed-lineup penalty now only applies once a game is
   actually inside its own lineup-posting window (first pitch <=3 hours
