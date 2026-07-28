@@ -177,7 +177,26 @@ STYLE = """
   .game-body { padding: 4px 16px 16px; border-radius: 0 0 12px 12px; overflow: hidden; }
 
   .teams { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 8px; }
-  @media (max-width: 720px) { .teams { grid-template-columns: 1fr; } }
+  /* Below 720px, side-by-side becomes stacked -- both teams' full batter
+     tables one after another is roughly double the scroll of the desktop
+     layout for the exact same content, which reads as a very long scroll
+     to get through one game. team-tabs (below) shows only one team's
+     column at a time on mobile instead, same "one thing expanded" idea
+     already used for game cards themselves; desktop keeps the side-by-
+     side layout untouched since there's no scroll problem to fix there. */
+  .team-tabs { display: none; gap: 8px; margin-top: 8px; }
+  @media (max-width: 720px) {
+    .teams { grid-template-columns: 1fr; }
+    .team-tabs { display: flex; }
+    .teams[data-active-side="away"] .team-col[data-side="home"] { display: none; }
+    .teams[data-active-side="home"] .team-col[data-side="away"] { display: none; }
+  }
+  .team-tab {
+    flex: 1; padding: 8px 10px; border-radius: 8px; border: 1px solid var(--border);
+    background: var(--surface-2); color: var(--text-secondary); font-family: inherit;
+    font-size: 12.5px; font-weight: 600; cursor: pointer; text-align: center;
+  }
+  .team-tab.active { background: var(--series-1); color: #fff; border-color: var(--series-1); }
   .headline-mobile-only { display: none; }
   .team-col { border-top: 1px solid var(--gridline); padding-top: 10px; }
   .table-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; }
@@ -555,6 +574,13 @@ function toggleDetail(id) {
   // after the first click open -- both branches of the old OR were true
   // forever once display became ''.
   if (row) row.style.display = (row.style.display === 'none') ? '' : 'none';
+}
+function switchTeamTab(btn, side) {
+  const tabsRow = btn.parentElement;
+  tabsRow.querySelectorAll('.team-tab').forEach(function (b) { b.classList.remove('active'); });
+  btn.classList.add('active');
+  const teamsDiv = tabsRow.nextElementSibling;
+  if (teamsDiv) teamsDiv.dataset.activeSide = side;
 }
 function localizeGameTimes() {
   document.querySelectorAll('.game-time').forEach(function (el) {
@@ -1951,7 +1977,11 @@ def _game_card_html(g):
       <div class="game-body">
         <div class="live-detail"></div>
         <div class="recent-plays"></div>
-        <div class="teams">
+        <div class="team-tabs">
+          <button type="button" class="team-tab active" onclick="switchTeamTab(this, 'away')">{html.escape(g["away"]["team_name"] or "Away")}</button>
+          <button type="button" class="team-tab" onclick="switchTeamTab(this, 'home')">{html.escape(g["home"]["team_name"] or "Home")}</button>
+        </div>
+        <div class="teams" data-active-side="away">
           {_team_col_html(g["away"], f"{id_prefix}-a", g["status"], "away")}
           {_team_col_html(g["home"], f"{id_prefix}-h", g["status"], "home")}
         </div>
