@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-07-27T23:47:34.900515+00:00_
+_Generated 2026-07-28T01:07:21.694842+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -121,7 +121,7 @@ _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.41)_
 ## 2026-07-27 - Philadelphia Phillies @ Miami Marlins (In Progress)
 _loanDepot park [pitcher-friendly park]_
 Projected score: Philadelphia Phillies 3.42 - Miami Marlins 2.68
-Model likes: **Philadelphia Phillies** to win (58%) | Run line: **Miami Marlins** +1.5 (62% to cover) | Total 6.5: lean **UNDER** (60%)
+Model likes: **Philadelphia Phillies** to win (58%) | Run line: **Miami Marlins** +1.5 (61% to cover) | Total 6.5: lean **UNDER** (60%)
 
 ### Philadelphia Phillies lineup -- CONFIRMED
 _Facing a taxed bullpen: 6.3 relief IP in last 2 days (ratio 1.27)_
@@ -242,7 +242,7 @@ _Facing a taxed bullpen: 9.0 relief IP in last 2 days (ratio 2.04)_
 - #8 Marcus Semien (R) -- L7: 3H 2HR 4RBI 9TB (0.125 avg) -- home split: 0.184 avg
 - #9 Luis Torrens (R) -- L7: 6H 0HR 1RBI 7TB (0.25 avg) -- home split: 0.198 avg
 
-## 2026-07-27 - Cleveland Guardians @ Cincinnati Reds (Delayed Start)
+## 2026-07-27 - Cleveland Guardians @ Cincinnati Reds (Scheduled)
 _Great American Ball Park [hitter-friendly park]_
 Projected score: Cleveland Guardians 2.69 - Cincinnati Reds 3.63
 Model likes: **Cincinnati Reds** to win (60%) | Run line: **Cleveland Guardians** +1.5 (59% to cover) | Total 6.5: lean **UNDER** (58%)
@@ -273,7 +273,7 @@ _Facing a rested bullpen: 2.3 relief IP in last 2 days (ratio 0.49)_
 - #8 Edwin Arroyo (S) [MATCHUP EDGE: pitcher hits 0.281 avg-against vs this hand] -- L7: 5H 0HR 0RBI 5TB (0.294 avg) -- home split: 0.179 avg
 - #9 TJ Friedl (L) [MATCHUP EDGE: pitcher hits 0.281 avg-against vs this hand] -- L7: 3H 0HR 0RBI 3TB (0.167 avg) -- home split: 0.158 avg
 
-## 2026-07-27 - New York Yankees @ Chicago White Sox (Warmup)
+## 2026-07-27 - New York Yankees @ Chicago White Sox (In Progress)
 _Rate Field_
 Projected score: New York Yankees 4.71 - Chicago White Sox 3.24
 Model likes: **New York Yankees** to win (63%) | Run line: **Chicago White Sox** +1.5 (53% to cover) | Total 6.5: lean **OVER** (59%)
@@ -460,7 +460,7 @@ _Facing a taxed bullpen: 6.3 relief IP in last 2 days (ratio 1.44)_
 ## 2026-07-28 - Arizona Diamondbacks @ Pittsburgh Pirates (Scheduled)
 _PNC Park_
 Projected score: Arizona Diamondbacks 4.53 - Pittsburgh Pirates 5.1
-Model likes: **Pittsburgh Pirates** to win (55%) | Run line: **Arizona Diamondbacks** +1.5 (60% to cover) | Total 8.5: lean **OVER** (54%)
+Model likes: **Pittsburgh Pirates** to win (55%) | Run line: **Arizona Diamondbacks** +1.5 (59% to cover) | Total 8.5: lean **OVER** (54%)
 
 ### Arizona Diamondbacks lineup -- PROJECTED (unconfirmed)
 **Probable P: Brandon Pfaadt (R)** -- L5: 27.0 IP, 14 K, 7 ER, 2.33 ERA
@@ -549,7 +549,7 @@ _Facing a taxed bullpen: 6.7 relief IP in last 2 days (ratio 1.43)_
 ## 2026-07-28 - Toronto Blue Jays @ Washington Nationals (Scheduled)
 _Nationals Park_
 Projected score: Toronto Blue Jays 3.36 - Washington Nationals 5.08
-Model likes: **Washington Nationals** to win (65%) | Run line: **Toronto Blue Jays** +1.5 (50% to cover) | Total 8.5: lean **UNDER** (56%)
+Model likes: **Washington Nationals** to win (65%) | Run line: **Toronto Blue Jays** +1.5 (51% to cover) | Total 8.5: lean **UNDER** (56%)
 
 ### Toronto Blue Jays lineup -- PROJECTED (unconfirmed)
 **Probable P: Shane Bieber (R)** -- L5: 27.0 IP, 20 K, 12 ER, 4.0 ERA
@@ -608,24 +608,23 @@ _Facing a taxed bullpen: 5.3 relief IP in last 2 days (ratio 1.21)_
 
 ## 2026-07-28 - Cleveland Guardians @ Cincinnati Reds (Scheduled)
 _Great American Ball Park [hitter-friendly park]_
-Projected score: Cleveland Guardians 3.7 - Cincinnati Reds 3.11
-Model likes: **Cleveland Guardians** to win (56%) | Run line: **Cincinnati Reds** +1.5 (62% to cover) | Total 6.5: lean **UNDER** (52%)
+Projected score: Cleveland Guardians 4.04 - Cincinnati Reds 3.11
+Model likes: **Cleveland Guardians** to win (59%) | Run line: **Cincinnati Reds** +1.5 (58% to cover) | Total 6.5: lean **OVER** (51%)
 
 ### Cleveland Guardians lineup -- PROJECTED (unconfirmed)
 **Probable P: Gavin Williams (R)** -- L5: 29.7 IP, 45 K, 12 ER, 3.64 ERA
-- Travis Bazzana (L) [MATCHUP EDGE: pitcher hits 0.295 avg-against vs this hand] -- L7: 6H 1HR 2RBI 9TB (0.24 avg) -- away split: 0.241 avg
-- Brayan Rocchio (S) [MATCHUP EDGE: pitcher hits 0.295 avg-against vs this hand] -- L7: 7H 1HR 5RBI 12TB (0.226 avg) -- away split: 0.227 avg
-- Chase DeLauter (L) [MATCHUP EDGE: pitcher hits 0.295 avg-against vs this hand] -- L7: 9H 0HR 3RBI 13TB (0.346 avg) -- away split: 0.267 avg
-- Kyle Manzardo (L) [MATCHUP EDGE: pitcher hits 0.295 avg-against vs this hand] -- L7: 4H 1HR 2RBI 9TB (0.2 avg) -- away split: 0.2 avg
-- Steven Kwan (L) [MATCHUP EDGE: pitcher hits 0.295 avg-against vs this hand] [5-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 10H 0HR 2RBI 12TB (0.37 avg) -- away split: 0.241 avg
-- Petey Halpin (L) [MATCHUP EDGE: pitcher hits 0.295 avg-against vs this hand] -- L7: 4H 2HR 4RBI 11TB (0.182 avg) -- away split: 0.16 avg
+- Travis Bazzana (L) -- L7: 6H 1HR 2RBI 9TB (0.24 avg) -- away split: 0.241 avg
+- Brayan Rocchio (S) -- L7: 7H 1HR 5RBI 12TB (0.226 avg) -- away split: 0.227 avg
+- Chase DeLauter (L) -- L7: 9H 0HR 3RBI 13TB (0.346 avg) -- away split: 0.267 avg
+- Kyle Manzardo (L) -- L7: 4H 1HR 2RBI 9TB (0.2 avg) -- away split: 0.2 avg
+- Steven Kwan (L) [5-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 10H 0HR 2RBI 12TB (0.37 avg) -- away split: 0.241 avg
+- Petey Halpin (L) -- L7: 4H 2HR 4RBI 11TB (0.182 avg) -- away split: 0.16 avg
 - Gabriel Arias (R) [likely BABIP-driven, not a real power uptick] -- L7: 6H 0HR 0RBI 6TB (0.316 avg) -- away split: 0.222 avg
-- Patrick Bailey (S) [MATCHUP EDGE: pitcher hits 0.295 avg-against vs this hand] -- L7: 7H 2HR 4RBI 13TB (0.318 avg) -- away split: 0.189 avg
+- Patrick Bailey (S) -- L7: 7H 2HR 4RBI 13TB (0.318 avg) -- away split: 0.189 avg
 - Rhys Hoskins (R) -- L7: 3H 2HR 2RBI 9TB (0.136 avg) -- away split: 0.174 avg
 
 ### Cincinnati Reds lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.3 relief IP in last 2 days (ratio 0.07)_
-**Probable P: Brady Singer (R)** -- L5: 30.3 IP, 29 K, 13 ER, 3.86 ERA
 - Sal Stewart (R) [4-game hit streak] -- L7: 6H 2HR 9RBI 12TB (0.231 avg) -- home split: 0.247 avg
 - Elly De La Cruz (S) [3-game hit streak] -- L7: 6H 2HR 2RBI 12TB (0.231 avg) -- home split: 0.323 avg
 - JJ Bleday (L) -- L7: 4H 1HR 1RBI 7TB (0.154 avg) -- home split: 0.259 avg
@@ -997,7 +996,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-07-29 - Baltimore Orioles @ Detroit Tigers (Scheduled)
 _Comerica Park [pitcher-friendly park]_
 Projected score: Baltimore Orioles 2.92 - Detroit Tigers 3.42
-Model likes: **Detroit Tigers** to win (56%) | Run line: **Baltimore Orioles** +1.5 (64% to cover) | Total 6.5: lean **UNDER** (57%)
+Model likes: **Detroit Tigers** to win (55%) | Run line: **Baltimore Orioles** +1.5 (64% to cover) | Total 6.5: lean **UNDER** (57%)
 
 ### Baltimore Orioles lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
