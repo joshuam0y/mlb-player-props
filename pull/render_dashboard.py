@@ -1277,7 +1277,7 @@ GLOSSARY_HTML = """
   <summary>What do these terms mean?</summary>
   <dl>
     <dt>Confirmed vs. Projected lineup</dt>
-    <dd>CONFIRMED means MLB has officially posted tonight's batting order (usually 1-2 hours before first pitch), and only the 9 players actually in that order are shown -- bench players are never included once a lineup is confirmed. PROJECTED means the game hasn't posted a lineup yet, so we're showing who's played most recently for that team as a best guess -- treat these as a bit less certain.</dd>
+    <dd>CONFIRMED means MLB has officially posted tonight's batting order (usually 1-2 hours before first pitch), and only the 9 players actually in that order are shown -- bench players are never included once a lineup is confirmed. PROJECTED means the game hasn't posted a lineup yet, so we're showing who's played most recently for that team as a best guess -- treat these as a bit less certain. A probable pitcher gets the same CONFIRMED/PROJECTED tag on a different basis: MLB doesn't post a separate "confirmed starter" announcement the way it does a batting order, so CONFIRMED here means the game itself is close enough to first pitch (bullpens already loose) that a late rotation swap is essentially off the table -- a pitcher still listed for a game a day or more out is PROJECTED, since a rainout, doubleheader reshuffle, or rotation change can still swap him out.</dd>
     <dt>HOT / COLD</dt>
     <dd>This player's batting average over their last 7 games is notably higher (HOT) or lower (COLD) than their season average. Backtested result: on its own this barely predicts what happens in the very next game -- short hot/cold streaks are mostly random noise, not a reliable signal by itself.</dd>
     <dt>"Likely luck" tag</dt>
@@ -1664,7 +1664,8 @@ def _pitcher_html(p, row_id, fatigue, status, star_player_id=None):
         if l5
         else "No recent starts on record yet"
     )
-    badges = " ".join(x for x in [_pitcher_form_badge(p.get("form_trend")), _injury_badge(p["injury"])] if x)
+    confirmed_badge = _badge("CONFIRMED", "confirmed") if p.get("lineup_confirmed") else _badge("PROJECTED", "projected")
+    badges = " ".join(x for x in [confirmed_badge, _pitcher_form_badge(p.get("form_trend")), _injury_badge(p["injury"])] if x)
     boxscore_html = _pitcher_boxscore_html(p.get("game_result"), status, p["player_id"])
     matchup_lean_html = _matchup_lean_html(p, "pitcher")
 

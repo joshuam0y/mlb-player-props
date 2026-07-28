@@ -860,6 +860,18 @@ def build_pitcher_entry(conn, player_id, team_id, is_home_game=None, game_pk=Non
         "name": player["full_name"],
         "pitch_hand": player["pitch_hand"],
         "injury": injury_status(conn, player_id),
+        # MLB's schedule API has no real "confirmed starter" flag for a
+        # probable pitcher the way a posted batting lineup does -- but a
+        # game's own status transitioning past Scheduled/Preview (usually
+        # ~1-2 hours before first pitch, same rough window as batting
+        # lineups posting) is a real, if approximate, signal that this
+        # start is locked in: bullpens are already getting loose by then,
+        # far too late for a rotation reshuffle. A probable pitcher still
+        # listed for a game days out (status still Scheduled) is
+        # genuinely less certain -- confirmed real case: the Guardians/Reds
+        # doubleheader created by a 7/27 postponement reshuffled who
+        # started which game.
+        "lineup_confirmed": status not in (None, "Scheduled", "Preview"),
         "l3": pitching_rolling(conn, player_id, 3, as_of_date=as_of_date),
         "l5": l5,
         "season": season,
@@ -1473,6 +1485,12 @@ def build_top_picks(report_games, batter_limit=15, pitcher_limit=8):
 
             p = side["probable_pitcher"]
             if p and not p["injury"]:
+                # Same confirmed_penalty treatment as batters above -- a
+                # probable pitcher still days out (lineup_confirmed False,
+                # see build_pitcher_entry()) is a real guess, not a lock,
+                # so he shouldn't rank into Top Overs/Unders on equal
+                # footing with a start that's essentially already locked in.
+                pitcher_confirmed_penalty = 0 if p.get("lineup_confirmed", True) else 0.5
                 base = {
                     "role": "pitcher",
                     "player_id": p["player_id"],
@@ -1481,10 +1499,11 @@ def build_top_picks(report_games, batter_limit=15, pitcher_limit=8):
                     "opponent": opp_side["team_name"],
                     "date": g["date"],
                     "game_pk": g["game_pk"],
-                    "lineup_confirmed": True,  # probable-pitcher assignments come from the schedule, not the lineups table
+                    "lineup_confirmed": p.get("lineup_confirmed", True),
                 }
                 best_over = None
                 over_score, over_reasons = pitcher_strikeout_over_score(p)
+                over_score -= pitcher_confirmed_penalty
                 if over_reasons and over_score > 0:
                     best_over = p.get("best_over") or resolve_best_category(p.get("prop_categories"), "pitcher", "over")
                     result = pick_result("pitcher", best_over, p.get("game_result"), "over", is_final)
@@ -1492,6 +1511,7 @@ def build_top_picks(report_games, batter_limit=15, pitcher_limit=8):
                     pitcher_overs.append({**base, "score": over_score, "reasons": over_reasons, "best_category": best_over, "result": result, "dnp": dnp})
 
                 under_score, under_reasons = pitcher_runs_under_score(p)
+                under_score -= pitcher_confirmed_penalty
                 if under_reasons and under_score > 0:
                     exclude = best_over["label"] if best_over else None
                     best_under = _pick_category(p.get("best_under"), p.get("prop_categories"), "pitcher", "under", exclude)
@@ -1597,11 +1617,11 @@ def _lineup_confirmed_for_player(conn, game_pk, player_id):
 
 def _regrade_picks(conn, picks_field, direction):
     """
-    Refreshes the hit/miss verdict and (for batters) the lineup-confirmed
-    status on an already-frozen pick list, against each pick's own frozen
-    best_category/line -- never touches who made the list, their rank, or
-    that line itself. The verdict stays None (pick_result()'s own gate)
-    until the game the pick belongs to is actually Final.
+    Refreshes the hit/miss verdict and the lineup-confirmed status on an
+    already-frozen pick list, against each pick's own frozen best_category/
+    line -- never touches who made the list, their rank, or that line
+    itself. The verdict stays None (pick_result()'s own gate) until the
+    game the pick belongs to is actually Final.
     """
     if not picks_field:
         return
@@ -1615,9 +1635,14 @@ def _regrade_picks(conn, picks_field, direction):
             )
             if not game_pk:
                 continue
+            status = _game_status(conn, game_pk)
             if role == "batter":
                 pick["lineup_confirmed"] = _lineup_confirmed_for_player(conn, game_pk, pick["player_id"])
-            status = _game_status(conn, game_pk)
+            else:
+                # No lineups-table equivalent for a probable pitcher -- see
+                # build_pitcher_entry()'s own comment on this same status-
+                # based proxy.
+                pick["lineup_confirmed"] = status not in (None, "Scheduled", "Preview")
             game_result = (batter_game_result if role == "batter" else pitcher_game_result)(conn, pick["player_id"], game_pk)
             pick["result"] = pick_result(role, pick.get("best_category"), game_result, direction, status in FINAL_STATUSES)
             # DNP: the game's underway or over and this player still has no
