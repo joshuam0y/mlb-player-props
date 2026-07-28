@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-07-28T10:00:33.549096+00:00_
+_Generated 2026-07-28T11:49:07.468079+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -303,7 +303,7 @@ Model likes: **Minnesota Twins** to win (60%) | Run line: **Kansas City Royals**
 ## 2026-07-28 - New York Yankees @ Chicago White Sox (Scheduled)
 _Rate Field_
 Projected score: New York Yankees 4.08 - Chicago White Sox 3.98
-Model likes: **New York Yankees** to win (51%) | Run line: **Chicago White Sox** +1.5 (65% to cover) | Total 6.5: lean **OVER** (60%)
+Model likes: **New York Yankees** to win (51%) | Run line: **Chicago White Sox** +1.5 (65% to cover) | Total 8.5: lean **UNDER** (59%)
 
 ### New York Yankees lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 10.3 relief IP in last 2 days (ratio 1.65)_
@@ -604,7 +604,7 @@ _Facing a taxed bullpen: 6.7 relief IP in last 2 days (ratio 1.49)_
 ## 2026-07-29 - Atlanta Braves @ New York Mets (Scheduled)
 _Citi Field_
 Projected score: Atlanta Braves 4.76 - New York Mets 3.74
-Model likes: **Atlanta Braves** to win (59%) | Run line: **New York Mets** +1.5 (57% to cover) | Total 8.5: lean **UNDER** (56%)
+Model likes: **Atlanta Braves** to win (59%) | Run line: **New York Mets** +1.5 (56% to cover) | Total 8.5: lean **UNDER** (55%)
 
 ### Atlanta Braves lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.7 relief IP in last 2 days (ratio 0.51)_
@@ -784,7 +784,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-07-29 - Kansas City Royals @ Minnesota Twins (Scheduled)
 _Target Field_
 Projected score: Kansas City Royals 3.19 - Minnesota Twins 5.32
-Model likes: **Minnesota Twins** to win (68%) | Run line: **Minnesota Twins** -1.5 (53% to cover) | Total 8.5: lean **UNDER** (55%)
+Model likes: **Minnesota Twins** to win (68%) | Run line: **Minnesota Twins** -1.5 (53% to cover) | Total 8.5: lean **UNDER** (56%)
 
 ### Kansas City Royals lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -901,7 +901,7 @@ _Facing a taxed bullpen: 8.3 relief IP in last 2 days (ratio 1.53)_
 ## 2026-07-29 - Boston Red Sox @ Athletics (Scheduled)
 _Sutter Health Park_
 Projected score: Boston Red Sox 6.28 - Athletics 3.22
-Model likes: **Boston Red Sox** to win (73%) | Run line: **Boston Red Sox** -1.5 (60% to cover) | Total 8.5: lean **OVER** (53%)
+Model likes: **Boston Red Sox** to win (73%) | Run line: **Boston Red Sox** -1.5 (60% to cover) | Total 8.5: lean **OVER** (52%)
 
 ### Boston Red Sox lineup -- PROJECTED (unconfirmed)
 **Probable P: Patrick Sandoval (L)** -- L5: 21.3 IP, 19 K, 8 ER, 3.38 ERA
@@ -930,7 +930,7 @@ Model likes: **Boston Red Sox** to win (73%) | Run line: **Boston Red Sox** -1.5
 ## 2026-07-29 - Seattle Mariners @ Los Angeles Dodgers (Scheduled)
 _UNIQLO Field at Dodger Stadium_
 Projected score: Seattle Mariners 3.61 - Los Angeles Dodgers 3.54
-Model likes: **Seattle Mariners** to win (51%) | Run line: **Los Angeles Dodgers** +1.5 (67% to cover) | Total 6.5: lean **OVER** (51%)
+Model likes: **Seattle Mariners** to win (51%) | Run line: **Los Angeles Dodgers** +1.5 (66% to cover) | Total 6.5: lean **OVER** (51%)
 
 ### Seattle Mariners lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -988,7 +988,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-07-30 - Kansas City Royals @ Minnesota Twins (Scheduled)
 _Target Field_
 Projected score: Kansas City Royals 3.81 - Minnesota Twins 5.32
-Model likes: **Minnesota Twins** to win (62%) | Run line: **Kansas City Royals** +1.5 (52% to cover) | Total 8.5: lean **UNDER** (50%)
+Model likes: **Minnesota Twins** to win (62%) | Run line: **Kansas City Royals** +1.5 (52% to cover) | Total 8.5: lean **OVER** (50%)
 
 ### Kansas City Royals lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1049,7 +1049,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-07-30 - Chicago Cubs @ St. Louis Cardinals (Scheduled)
 _Busch Stadium_
 Projected score: Chicago Cubs 5.4 - St. Louis Cardinals 3.34
-Model likes: **Chicago Cubs** to win (67%) | Run line: **Chicago Cubs** -1.5 (52% to cover) | Total 8.5: lean **UNDER** (53%)
+Model likes: **Chicago Cubs** to win (67%) | Run line: **Chicago Cubs** -1.5 (52% to cover) | Total 8.5: lean **UNDER** (54%)
 
 ### Chicago Cubs lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
