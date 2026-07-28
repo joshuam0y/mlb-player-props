@@ -145,7 +145,26 @@
   .game-body { padding: 4px 16px 16px; border-radius: 0 0 12px 12px; overflow: hidden; }
 
   .teams { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 8px; }
-  @media (max-width: 720px) { .teams { grid-template-columns: 1fr; } }
+  /* Below 720px, side-by-side becomes stacked -- both teams' full batter
+     tables one after another is roughly double the scroll of the desktop
+     layout for the exact same content, which reads as a very long scroll
+     to get through one game. team-tabs (below) shows only one team's
+     column at a time on mobile instead, same "one thing expanded" idea
+     already used for game cards themselves; desktop keeps the side-by-
+     side layout untouched since there's no scroll problem to fix there. */
+  .team-tabs { display: none; gap: 8px; margin-top: 8px; }
+  @media (max-width: 720px) {
+    .teams { grid-template-columns: 1fr; }
+    .team-tabs { display: flex; }
+    .teams[data-active-side="away"] .team-col[data-side="home"] { display: none; }
+    .teams[data-active-side="home"] .team-col[data-side="away"] { display: none; }
+  }
+  .team-tab {
+    flex: 1; padding: 8px 10px; border-radius: 8px; border: 1px solid var(--border);
+    background: var(--surface-2); color: var(--text-secondary); font-family: inherit;
+    font-size: 12.5px; font-weight: 600; cursor: pointer; text-align: center;
+  }
+  .team-tab.active { background: var(--series-1); color: #fff; border-color: var(--series-1); }
   .headline-mobile-only { display: none; }
   .team-col { border-top: 1px solid var(--gridline); padding-top: 10px; }
   .table-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; }
@@ -653,6 +672,13 @@ function toggleDetail(id) {
   // forever once display became ''.
   if (row) row.style.display = (row.style.display === 'none') ? '' : 'none';
 }
+function switchTeamTab(btn, side) {
+  const tabsRow = btn.parentElement;
+  tabsRow.querySelectorAll('.team-tab').forEach(function (b) { b.classList.remove('active'); });
+  btn.classList.add('active');
+  const teamsDiv = tabsRow.nextElementSibling;
+  if (teamsDiv) teamsDiv.dataset.activeSide = side;
+}
 function localizeGameTimes() {
   document.querySelectorAll('.game-time').forEach(function (el) {
     const iso = el.dataset.utc;
@@ -823,7 +849,7 @@ function liveLeanResult(value, line, direction, isFinal) {
 // showed nothing at all, because sync_stats.py hadn't synced that at-bat
 // into the DB column pick_result() reads from yet.
 function updateMatchupLeanLive(el, pid, batting, pitching, isFinal) {
-  const leanEl = el.querySelector('[data-player-id="' + pid + '"] .matchup-lean');
+  const leanEl = el.querySelector('.matchup-lean[data-player-id="' + pid + '"]');
   if (!leanEl) return;
   const role = leanEl.dataset.role;
   const category = leanEl.dataset.category;
@@ -1723,11 +1749,12 @@ function legRowDisplayHtml(leg) {
       : leg.category + ' ' + (leg.direction ? leg.direction.toUpperCase() + ' ' : '') + leg.line;
     const oppTxt = leg.opponent_name ? ' vs ' + escapeHtml(leg.opponent_name) : '';
     const actualTxt = leg.actual_value != null ? ' &middot; actual margin/total: ' + leg.actual_value : '';
+    const timeTxt = formatGameTime(leg.game_time_utc);
     return (
       '<div class="leg-row"><div class="leg-main"><b>' + escapeHtml(leg.team_name) + '</b>' + oppTxt + ' ' +
       '<span class="leg-prop">' + escapeHtml(propTxt) + '</span> ' +
       legStatusBadge(leg) + '</div>' +
-      '<div class="leg-sub sub">Team prop -- grades only once the game is Final' + actualTxt + '</div></div>'
+      '<div class="leg-sub sub">' + (timeTxt ? timeTxt + ' &middot; ' : '') + 'Team prop -- grades only once the game is Final' + actualTxt + '</div></div>'
     );
   }
   const modelTxt = leg.model_projection != null
@@ -1735,11 +1762,12 @@ function legRowDisplayHtml(leg) {
     : 'model: no current projection for this player/category';
   const actualTxt = leg.actual_value != null ? ' &middot; actual: ' + leg.actual_value : '';
   const positionTxt = leg.position ? ' <span class="sub">(' + escapeHtml(leg.position) + ')</span>' : '';
+  const timeTxt = formatGameTime(leg.game_time_utc);
   return (
     '<div class="leg-row"><div class="leg-main"><b>' + escapeHtml(leg.player_name) + '</b>' + positionTxt + ' ' +
     '<span class="leg-prop">' + escapeHtml(leg.category) + ' ' + leg.direction.toUpperCase() + ' ' + leg.line + '</span> ' +
     legStatusBadge(leg) + '</div>' +
-    '<div class="leg-sub sub">' + escapeHtml(modelTxt) + actualTxt + '</div></div>'
+    '<div class="leg-sub sub">' + (timeTxt ? timeTxt + ' &middot; ' : '') + escapeHtml(modelTxt) + actualTxt + '</div></div>'
   );
 }
 
@@ -1897,6 +1925,7 @@ function wireLegRow(rowEl) {
     rowEl.dataset.opponent = '';
     rowEl.dataset.side = '';
     rowEl.dataset.gamePk = '';
+    rowEl.dataset.gameTimeUtc = '';
     rowEl.classList.remove('leg-resolved');
   }
 
@@ -1972,12 +2001,14 @@ function wireLegRow(rowEl) {
       rowEl.dataset.role = picked.role;
       rowEl.dataset.position = picked.position || '';
       rowEl.dataset.gamePk = picked.game_pk;
+      rowEl.dataset.gameTimeUtc = picked.game_time_utc || '';
       categorySelect.innerHTML = categoryOptionsHtml(picked.role);
     } else {
       rowEl.dataset.teamId = picked.team_id;
       rowEl.dataset.opponent = picked.opponent;
       rowEl.dataset.side = picked.side;
       rowEl.dataset.gamePk = picked.game_pk;
+      rowEl.dataset.gameTimeUtc = picked.game_time_utc || '';
     }
     rowEl.classList.add('leg-resolved');
     suggestionsEl.style.display = 'none';
@@ -2285,6 +2316,7 @@ document.getElementById('bet-form').addEventListener('submit', async function (e
           opponent_name: row.dataset.opponent || null,
           side: row.dataset.side || null,
           game_pk: row.dataset.gamePk ? parseInt(row.dataset.gamePk, 10) : null,
+          game_time_utc: row.dataset.gameTimeUtc || null,
           category: category,
           line: needsLine ? line : null,
           direction: category === 'Total' ? direction : null,
@@ -2305,6 +2337,7 @@ document.getElementById('bet-form').addEventListener('submit', async function (e
       const role = row.dataset.role || CATEGORY_ROLE[category];
       const position = row.dataset.position || null;
       const gamePk = row.dataset.gamePk ? parseInt(row.dataset.gamePk, 10) : null;
+      const gameTimeUtc = row.dataset.gameTimeUtc || null;
       let modelProjection = null, modelLine = null, modelLean = null;
       if (playerId) {
         const entry = formPlayerIndex.find(function (p) { return p.player_id === playerId; });
@@ -2321,6 +2354,7 @@ document.getElementById('bet-form').addEventListener('submit', async function (e
         line: line,
         direction: direction,
         game_pk: gamePk,
+        game_time_utc: gameTimeUtc,
         status: 'pending',
         actual_value: null,
         dnp: false,

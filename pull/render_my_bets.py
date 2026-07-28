@@ -441,11 +441,12 @@ function legRowDisplayHtml(leg) {{
       : leg.category + ' ' + (leg.direction ? leg.direction.toUpperCase() + ' ' : '') + leg.line;
     const oppTxt = leg.opponent_name ? ' vs ' + escapeHtml(leg.opponent_name) : '';
     const actualTxt = leg.actual_value != null ? ' &middot; actual margin/total: ' + leg.actual_value : '';
+    const timeTxt = formatGameTime(leg.game_time_utc);
     return (
       '<div class="leg-row"><div class="leg-main"><b>' + escapeHtml(leg.team_name) + '</b>' + oppTxt + ' ' +
       '<span class="leg-prop">' + escapeHtml(propTxt) + '</span> ' +
       legStatusBadge(leg) + '</div>' +
-      '<div class="leg-sub sub">Team prop -- grades only once the game is Final' + actualTxt + '</div></div>'
+      '<div class="leg-sub sub">' + (timeTxt ? timeTxt + ' &middot; ' : '') + 'Team prop -- grades only once the game is Final' + actualTxt + '</div></div>'
     );
   }}
   const modelTxt = leg.model_projection != null
@@ -453,11 +454,12 @@ function legRowDisplayHtml(leg) {{
     : 'model: no current projection for this player/category';
   const actualTxt = leg.actual_value != null ? ' &middot; actual: ' + leg.actual_value : '';
   const positionTxt = leg.position ? ' <span class="sub">(' + escapeHtml(leg.position) + ')</span>' : '';
+  const timeTxt = formatGameTime(leg.game_time_utc);
   return (
     '<div class="leg-row"><div class="leg-main"><b>' + escapeHtml(leg.player_name) + '</b>' + positionTxt + ' ' +
     '<span class="leg-prop">' + escapeHtml(leg.category) + ' ' + leg.direction.toUpperCase() + ' ' + leg.line + '</span> ' +
     legStatusBadge(leg) + '</div>' +
-    '<div class="leg-sub sub">' + escapeHtml(modelTxt) + actualTxt + '</div></div>'
+    '<div class="leg-sub sub">' + (timeTxt ? timeTxt + ' &middot; ' : '') + escapeHtml(modelTxt) + actualTxt + '</div></div>'
   );
 }}
 
@@ -615,6 +617,7 @@ function wireLegRow(rowEl) {{
     rowEl.dataset.opponent = '';
     rowEl.dataset.side = '';
     rowEl.dataset.gamePk = '';
+    rowEl.dataset.gameTimeUtc = '';
     rowEl.classList.remove('leg-resolved');
   }}
 
@@ -690,12 +693,14 @@ function wireLegRow(rowEl) {{
       rowEl.dataset.role = picked.role;
       rowEl.dataset.position = picked.position || '';
       rowEl.dataset.gamePk = picked.game_pk;
+      rowEl.dataset.gameTimeUtc = picked.game_time_utc || '';
       categorySelect.innerHTML = categoryOptionsHtml(picked.role);
     }} else {{
       rowEl.dataset.teamId = picked.team_id;
       rowEl.dataset.opponent = picked.opponent;
       rowEl.dataset.side = picked.side;
       rowEl.dataset.gamePk = picked.game_pk;
+      rowEl.dataset.gameTimeUtc = picked.game_time_utc || '';
     }}
     rowEl.classList.add('leg-resolved');
     suggestionsEl.style.display = 'none';
@@ -1003,6 +1008,7 @@ document.getElementById('bet-form').addEventListener('submit', async function (e
           opponent_name: row.dataset.opponent || null,
           side: row.dataset.side || null,
           game_pk: row.dataset.gamePk ? parseInt(row.dataset.gamePk, 10) : null,
+          game_time_utc: row.dataset.gameTimeUtc || null,
           category: category,
           line: needsLine ? line : null,
           direction: category === 'Total' ? direction : null,
@@ -1023,6 +1029,7 @@ document.getElementById('bet-form').addEventListener('submit', async function (e
       const role = row.dataset.role || CATEGORY_ROLE[category];
       const position = row.dataset.position || null;
       const gamePk = row.dataset.gamePk ? parseInt(row.dataset.gamePk, 10) : null;
+      const gameTimeUtc = row.dataset.gameTimeUtc || null;
       let modelProjection = null, modelLine = null, modelLean = null;
       if (playerId) {{
         const entry = formPlayerIndex.find(function (p) {{ return p.player_id === playerId; }});
@@ -1039,6 +1046,7 @@ document.getElementById('bet-form').addEventListener('submit', async function (e
         line: line,
         direction: direction,
         game_pk: gamePk,
+        game_time_utc: gameTimeUtc,
         status: 'pending',
         actual_value: null,
         dnp: false,

@@ -2137,11 +2137,20 @@ def _pick_card_html(pick, rank, direction):
             f'data-role="{pick.get("role", "batter")}" data-category="{html.escape(c["label"])}" '
             f'data-line="{c["line"]}" data-direction="{direction}"'
         )
+    # .game-time/data-utc is the same class/attribute pair localizeGameTimes()
+    # already localizes for every game card's own summary line -- reused
+    # here so a pick's game time shows in the viewer's own local time
+    # without a second JS helper.
+    game_time_html = (
+        f' &middot; <span class="game-time" data-utc="{html.escape(pick["game_time_utc"])}">{html.escape(pick["game_time_utc"])}</span>'
+        if pick.get("game_time_utc")
+        else ""
+    )
     return f"""
     <div class="pick-card pick-card-{direction}"{live_attrs}>
       <div class="pick-rank">#{rank} {tag}</div>
       <div class="pick-name">{_player_photo_html(pick.get("player_id"))}{html.escape(pick["name"])} <span class="sub">{html.escape(pick.get("position") or "?")}</span></div>
-      <div class="pick-matchup">{html.escape(pick["team"] or "?")} vs. {html.escape(pick["opponent"] or "?")}</div>
+      <div class="pick-matchup">{html.escape(pick["team"] or "?")} vs. {html.escape(pick["opponent"] or "?")}{game_time_html}</div>
       <div class="pick-badges">{"".join(badges)}</div>
       <ul class="pick-reasons">{reasons_html}</ul>
       {category_html}

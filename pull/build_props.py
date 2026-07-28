@@ -1488,6 +1488,7 @@ def build_top_picks(report_games, batter_limit=15, pitcher_limit=8):
                     "team": side["team_name"],
                     "opponent": opp_side["team_name"],
                     "date": g["date"],
+                    "game_time_utc": g["game_time_utc"],
                     "game_pk": g["game_pk"],
                     "lineup_confirmed": side["lineup_confirmed"],
                     # Recorded so a later, real starting-pitcher swap can be
@@ -1541,6 +1542,7 @@ def build_top_picks(report_games, batter_limit=15, pitcher_limit=8):
                     "team": side["team_name"],
                     "opponent": opp_side["team_name"],
                     "date": g["date"],
+                    "game_time_utc": g["game_time_utc"],
                     "game_pk": g["game_pk"],
                     "lineup_confirmed": p.get("lineup_confirmed", True),
                 }
