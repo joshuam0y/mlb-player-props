@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-07-28T09:50:11.975780+00:00_
+_Generated 2026-07-28T10:00:33.549096+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -395,7 +395,7 @@ _Facing a taxed bullpen: 11.0 relief IP in last 2 days (ratio 2.03)_
 ## 2026-07-28 - Colorado Rockies @ San Diego Padres (Scheduled)
 _Petco Park [pitcher-friendly park]_
 Projected score: Colorado Rockies 3.17 - San Diego Padres 4.79
-Model likes: **San Diego Padres** to win (65%) | Run line: **Colorado Rockies** +1.5 (52% to cover) | Total 6.5: lean **OVER** (59%)
+Model likes: **San Diego Padres** to win (64%) | Run line: **Colorado Rockies** +1.5 (52% to cover) | Total 6.5: lean **OVER** (59%)
 
 ### Colorado Rockies lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.7 relief IP in last 2 days (ratio 0.63)_
@@ -604,7 +604,7 @@ _Facing a taxed bullpen: 6.7 relief IP in last 2 days (ratio 1.49)_
 ## 2026-07-29 - Atlanta Braves @ New York Mets (Scheduled)
 _Citi Field_
 Projected score: Atlanta Braves 4.76 - New York Mets 3.74
-Model likes: **Atlanta Braves** to win (59%) | Run line: **New York Mets** +1.5 (56% to cover) | Total 8.5: lean **UNDER** (55%)
+Model likes: **Atlanta Braves** to win (59%) | Run line: **New York Mets** +1.5 (57% to cover) | Total 8.5: lean **UNDER** (56%)
 
 ### Atlanta Braves lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.7 relief IP in last 2 days (ratio 0.51)_
@@ -784,7 +784,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-07-29 - Kansas City Royals @ Minnesota Twins (Scheduled)
 _Target Field_
 Projected score: Kansas City Royals 3.19 - Minnesota Twins 5.32
-Model likes: **Minnesota Twins** to win (68%) | Run line: **Minnesota Twins** -1.5 (53% to cover) | Total 8.5: lean **UNDER** (56%)
+Model likes: **Minnesota Twins** to win (68%) | Run line: **Minnesota Twins** -1.5 (53% to cover) | Total 8.5: lean **UNDER** (55%)
 
 ### Kansas City Royals lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
