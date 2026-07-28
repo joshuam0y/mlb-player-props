@@ -230,6 +230,7 @@ function buildPlayerIndex(report) {{
           player_id: item.entity.player_id,
           name: item.entity.name,
           role: item.role,
+          position: item.entity.position || (item.role === 'pitcher' ? 'P' : null),
           team: side.team_name,
           game_pk: g.game_pk,
           game_time_utc: g.game_time_utc,
@@ -344,6 +345,7 @@ async function fetchGameParticipants(gamePk) {{
             player_id: p.person.id,
             name: p.person.fullName,
             role: (p.position && p.position.code === '1') ? 'pitcher' : 'batter',
+            position: (p.position && p.position.abbreviation) || null,
             team: teamName,
             game_pk: gamePk,
             prop_categories: [],
@@ -450,8 +452,9 @@ function legRowDisplayHtml(leg) {{
     ? 'model: ' + leg.model_projection + ' proj vs ' + leg.model_line + ' line, leans ' + (leg.model_lean || '\\u2014')
     : 'model: no current projection for this player/category';
   const actualTxt = leg.actual_value != null ? ' &middot; actual: ' + leg.actual_value : '';
+  const positionTxt = leg.position ? ' <span class="sub">(' + escapeHtml(leg.position) + ')</span>' : '';
   return (
-    '<div class="leg-row"><div class="leg-main"><b>' + escapeHtml(leg.player_name) + '</b> ' +
+    '<div class="leg-row"><div class="leg-main"><b>' + escapeHtml(leg.player_name) + '</b>' + positionTxt + ' ' +
     '<span class="leg-prop">' + escapeHtml(leg.category) + ' ' + leg.direction.toUpperCase() + ' ' + leg.line + '</span> ' +
     legStatusBadge(leg) + '</div>' +
     '<div class="leg-sub sub">' + escapeHtml(modelTxt) + actualTxt + '</div></div>'
@@ -607,6 +610,7 @@ function wireLegRow(rowEl) {{
   function clearResolution() {{
     rowEl.dataset.playerId = '';
     rowEl.dataset.role = '';
+    rowEl.dataset.position = '';
     rowEl.dataset.teamId = '';
     rowEl.dataset.opponent = '';
     rowEl.dataset.side = '';
@@ -662,9 +666,10 @@ function wireLegRow(rowEl) {{
     }}
     suggestionsEl.dataset.matches = JSON.stringify(matches);
     suggestionsEl.innerHTML = matches.map(function (m, i) {{
+      const positionTxt = (kind === 'player' && m.position) ? (m.position + ' · ') : '';
       const base = kind === 'player' ? (m.team || '') : ('vs ' + (m.opponent || ''));
       const timeTxt = formatGameTime(m.game_time_utc);
-      const sub = base + (timeTxt ? ' · ' + timeTxt : '');
+      const sub = positionTxt + base + (timeTxt ? ' · ' + timeTxt : '');
       return '<div class="entity-suggestion" data-i="' + i + '">' + escapeHtml(m.name) +
         ' <span class="sub">' + escapeHtml(sub) + '</span></div>';
     }}).join('');
@@ -683,6 +688,7 @@ function wireLegRow(rowEl) {{
     if (kind === 'player') {{
       rowEl.dataset.playerId = picked.player_id;
       rowEl.dataset.role = picked.role;
+      rowEl.dataset.position = picked.position || '';
       rowEl.dataset.gamePk = picked.game_pk;
       categorySelect.innerHTML = categoryOptionsHtml(picked.role);
     }} else {{
@@ -1015,6 +1021,7 @@ document.getElementById('bet-form').addEventListener('submit', async function (e
       if (isNaN(line)) return;
       const playerId = row.dataset.playerId ? parseInt(row.dataset.playerId, 10) : null;
       const role = row.dataset.role || CATEGORY_ROLE[category];
+      const position = row.dataset.position || null;
       const gamePk = row.dataset.gamePk ? parseInt(row.dataset.gamePk, 10) : null;
       let modelProjection = null, modelLine = null, modelLean = null;
       if (playerId) {{
@@ -1027,6 +1034,7 @@ document.getElementById('bet-form').addEventListener('submit', async function (e
         player_name: entityName,
         player_id: playerId,
         role: role,
+        position: position,
         category: category,
         line: line,
         direction: direction,

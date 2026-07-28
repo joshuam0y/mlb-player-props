@@ -764,7 +764,7 @@ def _ensure_player(conn, player_id, team_id):
     return conn.execute("SELECT * FROM players WHERE player_id = ?", (player_id,)).fetchone()
 
 
-def build_batter_entry(conn, player_id, opp_hand, opp_pitcher_id, is_home_game, team_id, batting_order=None, game_pk=None, as_of_date=None, status=None):
+def build_batter_entry(conn, player_id, opp_hand, opp_pitcher_id, is_home_game, team_id, batting_order=None, game_pk=None, as_of_date=None, status=None, position=None):
     """
     as_of_date is this game's own date -- passed down into every rolling/
     recent-form/streak lookup below so none of them can ever include THIS
@@ -774,6 +774,12 @@ def build_batter_entry(conn, player_id, opp_hand, opp_pitcher_id, is_home_game, 
     one's supposed to be this specific game's actual result. status is
     this game's current status, used only to gate matchup_lean's hit/miss
     verdict to real, final results (see pick_result()'s own docstring).
+    position is this specific game's CONFIRMED lineup position (from the
+    lineups table, e.g. a normal 2B playing 3B tonight) -- a player's
+    position genuinely changes game to game, so the roster's own static
+    primary_position is only used as a fallback guess when there's no
+    confirmed lineup yet for this game (the projected/likely_starters()
+    path, which has no per-game position to draw from).
     """
     player = conn.execute("SELECT * FROM players WHERE player_id = ?", (player_id,)).fetchone()
     if not player:
@@ -803,6 +809,7 @@ def build_batter_entry(conn, player_id, opp_hand, opp_pitcher_id, is_home_game, 
         "player_id": player_id,
         "name": player["full_name"],
         "bat_side": player["bat_side"],
+        "position": position or player["primary_position"],
         "batting_order": batting_order,
         "injury": injury_status(conn, player_id),
         "l7": l7,
@@ -859,6 +866,7 @@ def build_pitcher_entry(conn, player_id, team_id, is_home_game=None, game_pk=Non
         "player_id": player_id,
         "name": player["full_name"],
         "pitch_hand": player["pitch_hand"],
+        "position": "P",
         "injury": injury_status(conn, player_id),
         # MLB's schedule API has no real "confirmed starter" flag for a
         # probable pitcher the way a posted batting lineup does -- but a
@@ -913,7 +921,7 @@ def build_team_side(conn, game, side):
     is_home_game = side == "home"
 
     confirmed = conn.execute(
-        "SELECT player_id, batting_order FROM lineups WHERE game_pk = ? AND team_id = ? ORDER BY batting_order",
+        "SELECT player_id, batting_order, position FROM lineups WHERE game_pk = ? AND team_id = ? ORDER BY batting_order",
         (game["game_pk"], team_id),
     ).fetchall()
 
@@ -927,7 +935,7 @@ def build_team_side(conn, game, side):
         batters = [
             build_batter_entry(
                 conn, r["player_id"], opp_hand, opp_pitcher_id, is_home_game, team_id, r["batting_order"], game["game_pk"],
-                as_of_date=as_of_date, status=game["status"],
+                as_of_date=as_of_date, status=game["status"], position=r["position"],
             )
             for r in confirmed
         ]
@@ -1476,6 +1484,7 @@ def build_top_picks(report_games, batter_limit=15, pitcher_limit=8):
                     "role": "batter",
                     "player_id": b["player_id"],
                     "name": b["name"],
+                    "position": b.get("position"),
                     "team": side["team_name"],
                     "opponent": opp_side["team_name"],
                     "date": g["date"],
@@ -1528,6 +1537,7 @@ def build_top_picks(report_games, batter_limit=15, pitcher_limit=8):
                     "role": "pitcher",
                     "player_id": p["player_id"],
                     "name": p["name"],
+                    "position": p.get("position", "P"),
                     "team": side["team_name"],
                     "opponent": opp_side["team_name"],
                     "date": g["date"],

@@ -157,7 +157,7 @@ def _grade_picks_bucket(conn, picks, direction):
             misses += 1
         cat = p.get("best_category") or {}
         details.append({
-            "name": p["name"], "role": p.get("role", "batter"),
+            "name": p["name"], "role": p.get("role", "batter"), "position": p.get("position"),
             "category": cat.get("label"), "line": cat.get("line"),
             "actual": val, "outcome": outcome,
         })
@@ -265,7 +265,7 @@ def _collect_player_projection_errors(conn, player, role, date, by_category, exa
         error = actual - projected
         by_category.setdefault(cat["label"], []).append((projected, actual))
         examples.append({
-            "name": player["name"], "role": role, "category": cat["label"],
+            "name": player["name"], "role": role, "position": player.get("position"), "category": cat["label"],
             "projected": projected, "actual": actual, "error": round(error, 2),
         })
 
@@ -436,7 +436,8 @@ def _grade_matchup_leans(conn, report, date):
                     misses += 1
                 col = (BATTER_COL if role == "batter" else PITCHER_COL).get(lean["label"])
                 examples.append({
-                    "name": entity["name"], "role": role, "category": f'{lean["label"]} {lean["direction"].upper()}',
+                    "name": entity["name"], "role": role, "position": entity.get("position"),
+                    "category": f'{lean["label"]} {lean["direction"].upper()}',
                     "line": lean["line"], "actual": game_result.get(col), "outcome": outcome,
                 })
     graded = hits + misses
@@ -490,7 +491,8 @@ def _grade_best_prop_stars(conn, report, date):
                 misses += 1
             col = (BATTER_COL if role == "batter" else PITCHER_COL).get(best["label"])
             examples.append({
-                "name": entity["name"], "role": role, "category": f'{best["label"]} {direction.upper()}',
+                "name": entity["name"], "role": role, "position": entity.get("position"),
+                "category": f'{best["label"]} {direction.upper()}',
                 "line": best["line"], "actual": game_result.get(col), "outcome": outcome,
             })
     graded = hits + misses

@@ -83,9 +83,10 @@ def _pick_list_html(bucket, key="picks"):
     rows = []
     for p in picks:
         actual = p["actual"] if p["actual"] is not None else "DNP"
+        role_txt = f'{p["position"]}, {p.get("role", "batter")}' if p.get("position") else p.get("role", "batter")
         rows.append(
             f'<div class="grade-row grade-{p["outcome"]}">'
-            f'<span><b>{html.escape(p["name"])}</b> ({html.escape(p.get("role", "batter"))}) '
+            f'<span><b>{html.escape(p["name"])}</b> ({html.escape(role_txt)}) '
             f'&mdash; {html.escape(p["category"] or "?")} {p["line"]}</span>'
             f'<span>actual: {actual} &middot; {p["outcome"].replace("_", " ").upper()}</span></div>'
         )
@@ -164,9 +165,10 @@ def _projection_examples_html(examples):
         return '<div class="sub">No graded projections that day.</div>'
     rows = []
     for e in examples:
+        role_txt = f'{e["position"]}, {e["role"]}' if e.get("position") else e["role"]
         rows.append(
             f'<div class="grade-row grade-neutral">'
-            f'<span><b>{html.escape(e["name"])}</b> ({html.escape(e["role"])}) &mdash; {html.escape(e["category"])}</span>'
+            f'<span><b>{html.escape(e["name"])}</b> ({html.escape(role_txt)}) &mdash; {html.escape(e["category"])}</span>'
             f'<span>projected {e["projected"]} &middot; actual {e["actual"]}</span></div>'
         )
     return "".join(rows)

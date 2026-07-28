@@ -1734,7 +1734,7 @@ def _batter_rows(batters, id_prefix, status, star_player_id=None):
             f'<tr class="player-row" data-player-id="{b["player_id"]}" onclick="toggleDetail(\'{row_id}\')">'
             f'<td data-label="Order">{order}</td>'
             f'<td data-label="Batter" class="name-cell"><span class="expand-arrow"></span>{_player_photo_html(b["player_id"])}{html.escape(b["name"])} '
-            f'<span class="sub">({html.escape(b["bat_side"] or "?")} handed batter)</span> {_star_html(b["player_id"], star_player_id)}</td>'
+            f'<span class="sub">({html.escape(b.get("position") or "?")}, {html.escape(b["bat_side"] or "?")} handed)</span> {_star_html(b["player_id"], star_player_id)}</td>'
             f'<td data-label="Flags">{badges}</td>'
             f'<td data-label="Recent form">{boxscore_html}{matchup_lean_html}{html.escape(l7_txt)}<div class="sub">{season_txt}</div>{_best_prop_html(b)}</td>'
             f'<td data-label="News" class="col-news">{headline}</td></tr>'
@@ -2062,10 +2062,15 @@ def _pick_card_html(pick, rank, direction):
         )
     is_pitcher = pick.get("role") == "pitcher"
     badges = [_badge("PITCHER PROP", "matchup") if is_pitcher else _badge("BATTER PROP", "caveat")]
-    if not is_pitcher:
-        lineup_kind = "confirmed" if pick["lineup_confirmed"] else "projected"
-        lineup_label = "LINEUP CONFIRMED" if pick["lineup_confirmed"] else "LINEUP PROJECTED"
-        badges.append(_badge(lineup_label, lineup_kind))
+    # Used to be batter-only -- back when a pitcher's own lineup_confirmed
+    # was hardcoded True everywhere (see build_top_picks()'s own history),
+    # showing this badge on every single pitcher pick would've been
+    # meaningless noise. Now that pitchers get a real, game-status-based
+    # confirmed/projected value too, hiding it here would bury genuinely
+    # useful information instead.
+    lineup_kind = "confirmed" if pick["lineup_confirmed"] else "projected"
+    lineup_label = "LINEUP CONFIRMED" if pick["lineup_confirmed"] else "LINEUP PROJECTED"
+    badges.append(_badge(lineup_label, lineup_kind))
     # Read straight off this player's own game_result (pick_result() in
     # build_props.py) -- once the game's actually happened, no reason to
     # make someone cross-reference this card against Track Record just to
@@ -2095,7 +2100,7 @@ def _pick_card_html(pick, rank, direction):
     return f"""
     <div class="pick-card pick-card-{direction}"{live_attrs}>
       <div class="pick-rank">#{rank} {tag}</div>
-      <div class="pick-name">{_player_photo_html(pick.get("player_id"))}{html.escape(pick["name"])}</div>
+      <div class="pick-name">{_player_photo_html(pick.get("player_id"))}{html.escape(pick["name"])} <span class="sub">{html.escape(pick.get("position") or "?")}</span></div>
       <div class="pick-matchup">{html.escape(pick["team"] or "?")} vs. {html.escape(pick["opponent"] or "?")}</div>
       <div class="pick-badges">{"".join(badges)}</div>
       <ul class="pick-reasons">{reasons_html}</ul>
