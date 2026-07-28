@@ -472,11 +472,16 @@ function editFormHtml(bet) {{
   );
 }}
 
-// Edit/Delete only offered on still-pending bets -- a settled one is a
-// real historical record at that point, not something to quietly rewrite.
-// Editing intentionally only covers date/stake/odds/to-win, not the legs
-// themselves (player/category/line) -- fixing a wrong leg means
-// deleting and re-adding the bet, simpler than reusing the full
+// Edit/Delete offered on every bet, settled or not -- this is a personal
+// tracker, not a public ledger, so correcting a real mistake (wrong
+// stake/date/odds, or a leg that graded against the wrong game entirely --
+// see the doubleheader-ambiguity fix) matters more than treating a settled
+// bet as untouchable. Editing a settled bet doesn't trigger any
+// re-grading (regrade_all_pending only ever touches still-pending bets),
+// so it's purely a correction to the displayed record, never a live
+// re-verdict. Editing intentionally only covers date/stake/odds/to-win,
+// not the legs themselves (player/category/line) -- fixing a wrong leg
+// means deleting and re-adding the bet, simpler than reusing the full
 // player/team-search leg-row UI inline in an edit form.
 function betCardHtml(bet) {{
   const profit = betProfit(bet);
@@ -484,9 +489,7 @@ function betCardHtml(bet) {{
   const legsHtml = (bet.legs || []).map(legRowDisplayHtml).join('');
   const oddsTxt = bet.odds ? ' &middot; odds ' + escapeHtml(bet.odds) : '';
   const parlayTxt = (bet.legs || []).length > 1 ? ' (' + bet.legs.length + '-leg parlay)' : '';
-  const actionsHtml = bet.status === 'pending'
-    ? ' <button type="button" class="bet-edit-btn">Edit</button><button type="button" class="bet-delete-btn">Delete</button>'
-    : '';
+  const actionsHtml = ' <button type="button" class="bet-edit-btn">Edit</button><button type="button" class="bet-delete-btn">Delete</button>';
   return (
     '<div class="bet-card" data-bet-id="' + bet.id + '"><div class="bet-card-head">' +
     '<span><b>' + escapeHtml(bet.placed_date) + '</b>' + parlayTxt + ' &middot; ' + escapeHtml(bet.sportsbook || 'FanDuel') + oddsTxt +
