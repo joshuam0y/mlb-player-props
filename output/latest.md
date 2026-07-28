@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-07-28T12:24:13.557599+00:00_
+_Generated 2026-07-28T13:23:15.506764+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -60,7 +60,7 @@ _Generated 2026-07-28T12:24:13.557599+00:00_
 ## 2026-07-28 - Texas Rangers @ Tampa Bay Rays (Scheduled)
 _Tropicana Field_
 Projected score: Texas Rangers 3.52 - Tampa Bay Rays 5.24
-Model likes: **Tampa Bay Rays** to win (64%) | Run line: **Texas Rangers** +1.5 (50% to cover) | Total 8.5: lean **UNDER** (53%)
+Model likes: **Tampa Bay Rays** to win (64%) | Run line: **Texas Rangers** +1.5 (51% to cover) | Total 8.5: lean **UNDER** (53%)
 
 ### Texas Rangers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.38)_
@@ -90,7 +90,7 @@ _Facing a taxed bullpen: 6.3 relief IP in last 2 days (ratio 1.44)_
 ## 2026-07-28 - Arizona Diamondbacks @ Pittsburgh Pirates (Scheduled)
 _PNC Park_
 Projected score: Arizona Diamondbacks 4.48 - Pittsburgh Pirates 5.07
-Model likes: **Pittsburgh Pirates** to win (55%) | Run line: **Arizona Diamondbacks** +1.5 (59% to cover) | Total 8.5: lean **OVER** (53%)
+Model likes: **Pittsburgh Pirates** to win (55%) | Run line: **Arizona Diamondbacks** +1.5 (59% to cover) | Total 8.5: lean **OVER** (54%)
 
 ### Arizona Diamondbacks lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 7.7 relief IP in last 2 days (ratio 1.89)_
@@ -214,7 +214,7 @@ _Facing a taxed bullpen: 8.3 relief IP in last 2 days (ratio 1.41)_
 ## 2026-07-28 - Atlanta Braves @ New York Mets (Scheduled)
 _Citi Field_
 Projected score: Atlanta Braves 3.91 - New York Mets 2.76
-Model likes: **Atlanta Braves** to win (62%) | Run line: **New York Mets** +1.5 (57% to cover) | Total 6.5: lean **UNDER** (54%)
+Model likes: **Atlanta Braves** to win (62%) | Run line: **New York Mets** +1.5 (56% to cover) | Total 6.5: lean **UNDER** (54%)
 
 ### Atlanta Braves lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 7.7 relief IP in last 2 days (ratio 1.47)_
@@ -488,7 +488,7 @@ _Facing a taxed bullpen: 6.0 relief IP in last 2 days (ratio 1.21)_
 ## 2026-07-28 - Seattle Mariners @ Los Angeles Dodgers (Scheduled)
 _UNIQLO Field at Dodger Stadium_
 Projected score: Seattle Mariners 3.61 - Los Angeles Dodgers 4.55
-Model likes: **Los Angeles Dodgers** to win (58%) | Run line: **Seattle Mariners** +1.5 (57% to cover) | Total 8.5: lean **UNDER** (59%)
+Model likes: **Los Angeles Dodgers** to win (58%) | Run line: **Seattle Mariners** +1.5 (57% to cover) | Total 8.5: lean **UNDER** (58%)
 
 ### Seattle Mariners lineup -- PROJECTED (unconfirmed)
 **Probable P: Luis Castillo (R)** -- L5: 28.0 IP, 19 K, 14 ER, 4.5 ERA
@@ -604,7 +604,7 @@ _Facing a taxed bullpen: 6.7 relief IP in last 2 days (ratio 1.49)_
 ## 2026-07-29 - Atlanta Braves @ New York Mets (Scheduled)
 _Citi Field_
 Projected score: Atlanta Braves 4.76 - New York Mets 3.74
-Model likes: **Atlanta Braves** to win (59%) | Run line: **New York Mets** +1.5 (57% to cover) | Total 8.5: lean **UNDER** (55%)
+Model likes: **Atlanta Braves** to win (59%) | Run line: **New York Mets** +1.5 (56% to cover) | Total 8.5: lean **UNDER** (55%)
 
 ### Atlanta Braves lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.7 relief IP in last 2 days (ratio 0.51)_
@@ -1049,7 +1049,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-07-30 - Chicago Cubs @ St. Louis Cardinals (Scheduled)
 _Busch Stadium_
 Projected score: Chicago Cubs 5.4 - St. Louis Cardinals 3.34
-Model likes: **Chicago Cubs** to win (67%) | Run line: **Chicago Cubs** -1.5 (52% to cover) | Total 8.5: lean **UNDER** (54%)
+Model likes: **Chicago Cubs** to win (67%) | Run line: **Chicago Cubs** -1.5 (52% to cover) | Total 8.5: lean **UNDER** (53%)
 
 ### Chicago Cubs lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1197,7 +1197,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-07-30 - Boston Red Sox @ Athletics (Scheduled)
 _Sutter Health Park_
 Projected score: Boston Red Sox 7.48 - Athletics 3.09
-Model likes: **Boston Red Sox** to win (80%) | Run line: **Boston Red Sox** -1.5 (69% to cover) | Total 10.5: lean **UNDER** (56%)
+Model likes: **Boston Red Sox** to win (80%) | Run line: **Boston Red Sox** -1.5 (69% to cover) | Total 10.5: lean **UNDER** (55%)
 
 ### Boston Red Sox lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
