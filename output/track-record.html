@@ -1019,7 +1019,7 @@ function liveLeanResult(value, line, direction, isFinal) {
 // showed nothing at all, because sync_stats.py hadn't synced that at-bat
 // into the DB column pick_result() reads from yet.
 function updateMatchupLeanLive(el, pid, batting, pitching, isFinal) {
-  const leanEl = el.querySelector('[data-player-id="' + pid + '"] .matchup-lean');
+  const leanEl = el.querySelector('.matchup-lean[data-player-id="' + pid + '"]');
   if (!leanEl) return;
   const role = leanEl.dataset.role;
   const category = leanEl.dataset.category;
