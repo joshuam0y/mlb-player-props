@@ -11,6 +11,12 @@ public news RSS feed -- no paid odds API, no scraping of betting sites.
 
 _Updated with every change going forward._
 
+- **2026-07-28** -- Added each player's position everywhere a name shows up
+  (batter table rows, Top Overs/Unders pick cards, Track Record's pick
+  lists, My Bets search/leg display) -- batters get their real per-game
+  lineup position when confirmed, roster position as a fallback; pitchers
+  get "P". Also fixed the LINEUP CONFIRMED/PROJECTED badge on pick cards
+  being hardcoded batter-only, hiding pitchers' now-real confirmed status.
 - **2026-07-28** -- Added a "Potential winnings" summary tile to My Bets --
   total profit across every still-pending bet if all of them hit.
 - **2026-07-28** -- Fixed Top Overs/Unders structurally favoring earlier
