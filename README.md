@@ -11,6 +11,9 @@ public news RSS feed -- no paid odds API, no scraping of betting sites.
 
 _Updated with every change going forward._
 
+- **2026-07-28** -- My Bets now allows editing/deleting settled (won/lost)
+  bets too, not just pending ones -- for fixing a real mistake (wrong
+  stake/date/odds, or a bet that graded against the wrong game).
 - **2026-07-28** -- My Bets player/team search suggestions now show each
   game's date/time, so a doubleheader (two games between the same teams,
   or the same player appearing twice, on one calendar date) is always
