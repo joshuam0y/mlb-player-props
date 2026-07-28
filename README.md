@@ -11,6 +11,8 @@ public news RSS feed -- no paid odds API, no scraping of betting sites.
 
 _Updated with every change going forward._
 
+- **2026-07-28** -- Added each game's local time to Top Overs/Unders pick
+  cards and to My Bets (both player and team-prop legs).
 - **2026-07-28** -- Fixed the live HIT/MISS badge never appearing on a
   pitcher's "Predicted: X" line, even after the live box score had clearly
   cleared it -- the DOM lookup relied on nesting that only held for
