@@ -2,7 +2,7 @@
   "days": {
     "2026-07-24": {
       "date": "2026-07-24",
-      "graded_at": "2026-07-28T17:01:57.209081+00:00",
+      "graded_at": "2026-07-28T18:39:08.224546+00:00",
       "top_overs": {
         "n": 7,
         "hits": 1,
@@ -13,6 +13,7 @@
           {
             "name": "Nolan Arenado",
             "role": "batter",
+            "position": null,
             "category": "RBIs",
             "line": 0.5,
             "actual": 0,
@@ -21,6 +22,7 @@
           {
             "name": "Nick Gonzales",
             "role": "batter",
+            "position": null,
             "category": "Hits",
             "line": 1.5,
             "actual": 1,
@@ -29,6 +31,7 @@
           {
             "name": "Billy Cook",
             "role": "batter",
+            "position": null,
             "category": "RBIs",
             "line": 0.5,
             "actual": null,
@@ -37,6 +40,7 @@
           {
             "name": "Tommy Edman",
             "role": "batter",
+            "position": null,
             "category": "Total Bases",
             "line": 1.5,
             "actual": 0,
@@ -45,6 +49,7 @@
           {
             "name": "Jeff McNeil",
             "role": "batter",
+            "position": null,
             "category": "RBIs",
             "line": 0.5,
             "actual": 0,
@@ -53,6 +58,7 @@
           {
             "name": "Jared Jones",
             "role": "pitcher",
+            "position": null,
             "category": "Strikeouts",
             "line": 5.5,
             "actual": 5,
@@ -61,6 +67,7 @@
           {
             "name": "Jes\u00fas Luzardo",
             "role": "pitcher",
+            "position": null,
             "category": "Strikeouts",
             "line": 7.5,
             "actual": 9,
@@ -78,6 +85,7 @@
           {
             "name": "Ryan O'Hearn",
             "role": "batter",
+            "position": null,
             "category": "Hits",
             "line": 0.5,
             "actual": 2,
@@ -86,6 +94,7 @@
           {
             "name": "Trent Grisham",
             "role": "batter",
+            "position": null,
             "category": "Runs Scored",
             "line": 0.5,
             "actual": 0,
@@ -94,6 +103,7 @@
           {
             "name": "Romy Gonzalez",
             "role": "batter",
+            "position": null,
             "category": "Hits",
             "line": 0.5,
             "actual": 1,
@@ -102,6 +112,7 @@
           {
             "name": "Connor Wong",
             "role": "batter",
+            "position": null,
             "category": "Runs Scored",
             "line": 0.5,
             "actual": 0,
@@ -110,6 +121,7 @@
           {
             "name": "Jo Adell",
             "role": "batter",
+            "position": null,
             "category": "Hits",
             "line": 0.5,
             "actual": 1,
@@ -118,6 +130,7 @@
           {
             "name": "Jorge Soler",
             "role": "batter",
+            "position": null,
             "category": "Home Runs",
             "line": 0.5,
             "actual": 0,
@@ -126,6 +139,7 @@
           {
             "name": "Jared Jones",
             "role": "pitcher",
+            "position": null,
             "category": "Runs Allowed",
             "line": 1.5,
             "actual": 1,
@@ -134,6 +148,7 @@
           {
             "name": "Jes\u00fas Luzardo",
             "role": "pitcher",
+            "position": null,
             "category": "Runs Allowed",
             "line": 1.5,
             "actual": 1,
@@ -268,6 +283,7 @@
         {
           "name": "Anthony Seigler",
           "role": "batter",
+          "position": null,
           "category": "Total Bases",
           "projected": 1.23,
           "actual": 9,
@@ -276,6 +292,7 @@
         {
           "name": "Bryce Miller",
           "role": "pitcher",
+          "position": null,
           "category": "Strikeouts",
           "projected": 6.67,
           "actual": 0,
@@ -284,6 +301,7 @@
         {
           "name": "Cam Schlittler",
           "role": "pitcher",
+          "position": null,
           "category": "Strikeouts",
           "projected": 6.32,
           "actual": 12,
@@ -292,6 +310,7 @@
         {
           "name": "Spencer Arrighetti",
           "role": "pitcher",
+          "position": null,
           "category": "Strikeouts",
           "projected": 4.88,
           "actual": 0,
@@ -300,6 +319,7 @@
         {
           "name": "Rhett Lowder",
           "role": "pitcher",
+          "position": null,
           "category": "Hits Allowed",
           "projected": 5.6,
           "actual": 1,
@@ -308,6 +328,7 @@
         {
           "name": "Tarik Skubal",
           "role": "pitcher",
+          "position": null,
           "category": "Strikeouts",
           "projected": 7.48,
           "actual": 12,
@@ -316,6 +337,7 @@
         {
           "name": "Kazuma Okamoto",
           "role": "batter",
+          "position": null,
           "category": "Total Bases",
           "projected": 1.62,
           "actual": 6,
@@ -324,6 +346,7 @@
         {
           "name": "Roki Sasaki",
           "role": "pitcher",
+          "position": null,
           "category": "Strikeouts",
           "projected": 4.68,
           "actual": 9,
@@ -332,6 +355,7 @@
         {
           "name": "Pete Crow-Armstrong",
           "role": "batter",
+          "position": null,
           "category": "Total Bases",
           "projected": 1.79,
           "actual": 6,
@@ -340,6 +364,7 @@
         {
           "name": "Heriberto Hern\u00e1ndez",
           "role": "batter",
+          "position": null,
           "category": "Total Bases",
           "projected": 1.93,
           "actual": 6,
@@ -463,6 +488,7 @@
           {
             "name": "Christian Yelich",
             "role": "batter",
+            "position": null,
             "category": "Hits OVER",
             "line": 0.5,
             "actual": 1,
@@ -471,6 +497,7 @@
           {
             "name": "Jackson Chourio",
             "role": "batter",
+            "position": null,
             "category": "Hits UNDER",
             "line": 1.5,
             "actual": 1,
@@ -479,6 +506,7 @@
           {
             "name": "Brice Turang",
             "role": "batter",
+            "position": null,
             "category": "Total Bases OVER",
             "line": 1.5,
             "actual": 6,
@@ -487,6 +515,7 @@
           {
             "name": "William Contreras",
             "role": "batter",
+            "position": null,
             "category": "Hits OVER",
             "line": 0.5,
             "actual": 2,
@@ -495,6 +524,7 @@
           {
             "name": "Garrett Mitchell",
             "role": "batter",
+            "position": null,
             "category": "Hits OVER",
             "line": 0.5,
             "actual": 0,
@@ -503,6 +533,7 @@
           {
             "name": "Luis Lara",
             "role": "batter",
+            "position": null,
             "category": "Total Bases OVER",
             "line": 0.5,
             "actual": 0,
@@ -511,6 +542,7 @@
           {
             "name": "Jake Bauers",
             "role": "batter",
+            "position": null,
             "category": "Hits OVER",
             "line": 0.5,
             "actual": 1,
@@ -519,6 +551,7 @@
           {
             "name": "Joey Ortiz",
             "role": "batter",
+            "position": null,
             "category": "Hits OVER",
             "line": 0.5,
             "actual": 0,
@@ -527,6 +560,7 @@
           {
             "name": "Shane Drohan",
             "role": "pitcher",
+            "position": null,
             "category": "Walks Allowed UNDER",
             "line": 1.5,
             "actual": 2,
@@ -535,6 +569,7 @@
           {
             "name": "Jake McCarthy",
             "role": "batter",
+            "position": null,
             "category": "Hits UNDER",
             "line": 1.5,
             "actual": 1,
@@ -552,6 +587,7 @@
           {
             "name": "Shane Drohan",
             "role": "pitcher",
+            "position": null,
             "category": "Hits Allowed OVER",
             "line": 4.5,
             "actual": 6,
@@ -560,6 +596,7 @@
           {
             "name": "Ezequiel Tovar",
             "role": "batter",
+            "position": null,
             "category": "Hits UNDER",
             "line": 0.5,
             "actual": 1,
@@ -568,6 +605,7 @@
           {
             "name": "Jared Jones",
             "role": "pitcher",
+            "position": null,
             "category": "Runs Allowed UNDER",
             "line": 1.5,
             "actual": 1,
@@ -576,6 +614,7 @@
           {
             "name": "Seiya Suzuki",
             "role": "batter",
+            "position": null,
             "category": "Runs Scored OVER",
             "line": 0.5,
             "actual": 0,
@@ -584,6 +623,7 @@
           {
             "name": "Tarik Skubal",
             "role": "pitcher",
+            "position": null,
             "category": "Strikeouts OVER",
             "line": 7.5,
             "actual": 12,
@@ -592,6 +632,7 @@
           {
             "name": "Isaac Collins",
             "role": "batter",
+            "position": null,
             "category": "RBIs OVER",
             "line": 0.5,
             "actual": 0,
@@ -600,6 +641,7 @@
           {
             "name": "Carson Palmquist",
             "role": "pitcher",
+            "position": null,
             "category": "Walks Allowed UNDER",
             "line": 0.5,
             "actual": 3,
@@ -608,6 +650,7 @@
           {
             "name": "Nolan Arenado",
             "role": "batter",
+            "position": null,
             "category": "RBIs OVER",
             "line": 0.5,
             "actual": 0,
@@ -616,6 +659,7 @@
           {
             "name": "Jes\u00fas Luzardo",
             "role": "pitcher",
+            "position": null,
             "category": "Runs Allowed UNDER",
             "line": 1.5,
             "actual": 1,
@@ -624,6 +668,7 @@
           {
             "name": "Jasson Dom\u00ednguez",
             "role": "batter",
+            "position": null,
             "category": "Hits OVER",
             "line": 0.5,
             "actual": 1,
@@ -634,7 +679,7 @@
     },
     "2026-07-25": {
       "date": "2026-07-25",
-      "graded_at": "2026-07-28T17:01:56.977201+00:00",
+      "graded_at": "2026-07-28T18:39:07.994017+00:00",
       "top_overs": {
         "n": 6,
         "hits": 2,
@@ -645,6 +690,7 @@
           {
             "name": "Curtis Mead",
             "role": "batter",
+            "position": null,
             "category": "Total Bases",
             "line": 2.5,
             "actual": 0,
@@ -653,6 +699,7 @@
           {
             "name": "Nick Loftin",
             "role": "batter",
+            "position": null,
             "category": "RBIs",
             "line": 0.5,
             "actual": 1,
@@ -661,6 +708,7 @@
           {
             "name": "Eury P\u00e9rez",
             "role": "pitcher",
+            "position": null,
             "category": "Strikeouts",
             "line": 6.5,
             "actual": 2,
@@ -669,6 +717,7 @@
           {
             "name": "Foster Griffin",
             "role": "pitcher",
+            "position": null,
             "category": "Strikeouts",
             "line": 5.5,
             "actual": 2,
@@ -677,6 +726,7 @@
           {
             "name": "JP Sears",
             "role": "pitcher",
+            "position": null,
             "category": "Strikeouts",
             "line": 4.5,
             "actual": 3,
@@ -685,6 +735,7 @@
           {
             "name": "Hunter Brown",
             "role": "pitcher",
+            "position": null,
             "category": "Strikeouts",
             "line": 4.5,
             "actual": 7,
@@ -702,6 +753,7 @@
           {
             "name": "Kyle Stowers",
             "role": "batter",
+            "position": null,
             "category": "Runs Scored",
             "line": 0.5,
             "actual": 0,
@@ -710,6 +762,7 @@
           {
             "name": "Jakob Marsee",
             "role": "batter",
+            "position": null,
             "category": "Runs Scored",
             "line": 0.5,
             "actual": 0,
@@ -718,6 +771,7 @@
           {
             "name": "Xander Bogaerts",
             "role": "batter",
+            "position": null,
             "category": "RBIs",
             "line": 0.5,
             "actual": 0,
@@ -726,6 +780,7 @@
           {
             "name": "Luis Campusano",
             "role": "batter",
+            "position": null,
             "category": "Total Bases",
             "line": 1.5,
             "actual": null,
@@ -734,6 +789,7 @@
           {
             "name": "Ryan O'Hearn",
             "role": "batter",
+            "position": null,
             "category": "Hits",
             "line": 0.5,
             "actual": 1,
@@ -742,6 +798,7 @@
           {
             "name": "Brandon Lowe",
             "role": "batter",
+            "position": null,
             "category": "RBIs",
             "line": 0.5,
             "actual": null,
@@ -750,6 +807,7 @@
           {
             "name": "Eury P\u00e9rez",
             "role": "pitcher",
+            "position": null,
             "category": "Runs Allowed",
             "line": 1.5,
             "actual": 3,
@@ -758,6 +816,7 @@
           {
             "name": "Foster Griffin",
             "role": "pitcher",
+            "position": null,
             "category": "Runs Allowed",
             "line": 1.5,
             "actual": 3,
@@ -766,6 +825,7 @@
           {
             "name": "Robbie Ray",
             "role": "pitcher",
+            "position": null,
             "category": "Runs Allowed",
             "line": 1.5,
             "actual": 0,
@@ -774,6 +834,7 @@
           {
             "name": "Ryan Johnson",
             "role": "pitcher",
+            "position": null,
             "category": "Runs Allowed",
             "line": 2.5,
             "actual": 8,
@@ -908,6 +969,7 @@
         {
           "name": "Pete Crow-Armstrong",
           "role": "batter",
+          "position": null,
           "category": "Total Bases",
           "projected": 1.92,
           "actual": 9,
@@ -916,6 +978,7 @@
         {
           "name": "Ryan Johnson",
           "role": "pitcher",
+          "position": null,
           "category": "Runs Allowed",
           "projected": 1.91,
           "actual": 8,
@@ -924,6 +987,7 @@
         {
           "name": "Sonny Gray",
           "role": "pitcher",
+          "position": null,
           "category": "Hits Allowed",
           "projected": 4.09,
           "actual": 10,
@@ -932,6 +996,7 @@
         {
           "name": "Hunter Greene",
           "role": "pitcher",
+          "position": null,
           "category": "Strikeouts",
           "projected": 8.56,
           "actual": 3,
@@ -940,6 +1005,7 @@
         {
           "name": "Paul Skenes",
           "role": "pitcher",
+          "position": null,
           "category": "Strikeouts",
           "projected": 5.78,
           "actual": 11,
@@ -948,6 +1014,7 @@
         {
           "name": "Rafael Devers",
           "role": "batter",
+          "position": null,
           "category": "Total Bases",
           "projected": 2.14,
           "actual": 7,
@@ -956,6 +1023,7 @@
         {
           "name": "Eury P\u00e9rez",
           "role": "pitcher",
+          "position": null,
           "category": "Strikeouts",
           "projected": 6.85,
           "actual": 2,
@@ -964,6 +1032,7 @@
         {
           "name": "Cooper Pratt",
           "role": "batter",
+          "position": null,
           "category": "Total Bases",
           "projected": 1.25,
           "actual": 6,
@@ -972,6 +1041,7 @@
         {
           "name": "Ryan Johnson",
           "role": "pitcher",
+          "position": null,
           "category": "Hits Allowed",
           "projected": 3.26,
           "actual": 8,
@@ -980,6 +1050,7 @@
         {
           "name": "CJ Abrams",
           "role": "batter",
+          "position": null,
           "category": "Total Bases",
           "projected": 2.4,
           "actual": 7,
@@ -1112,7 +1183,7 @@
     },
     "2026-07-26": {
       "date": "2026-07-26",
-      "graded_at": "2026-07-28T17:01:56.751185+00:00",
+      "graded_at": "2026-07-28T18:39:07.758498+00:00",
       "top_overs": {
         "n": 21,
         "hits": 8,
@@ -1123,6 +1194,7 @@
           {
             "name": "Drake Baldwin",
             "role": "batter",
+            "position": null,
             "category": "Home Runs",
             "line": 0.5,
             "actual": 0,
@@ -1131,6 +1203,7 @@
           {
             "name": "Jackson Merrill",
             "role": "batter",
+            "position": null,
             "category": "Home Runs",
             "line": 0.5,
             "actual": 1,
@@ -1139,6 +1212,7 @@
           {
             "name": "Joey Ortiz",
             "role": "batter",
+            "position": null,
             "category": "Runs Scored",
             "line": 0.5,
             "actual": 0,
@@ -1147,6 +1221,7 @@
           {
             "name": "Cooper Pratt",
             "role": "batter",
+            "position": null,
             "category": "RBIs",
             "line": 0.5,
             "actual": 2,
@@ -1155,6 +1230,7 @@
           {
             "name": "CJ Abrams",
             "role": "batter",
+            "position": null,
             "category": "Hits",
             "line": 1.5,
             "actual": 3,
@@ -1163,6 +1239,7 @@
           {
             "name": "Freddie Freeman",
             "role": "batter",
+            "position": null,
             "category": "Total Bases",
             "line": 1.5,
             "actual": 3,
@@ -1171,6 +1248,7 @@
           {
             "name": "Hao-Yu Lee",
             "role": "batter",
+            "position": null,
             "category": "Hits",
             "line": 0.5,
             "actual": 1,
@@ -1179,6 +1257,7 @@
           {
             "name": "Nick Loftin",
             "role": "batter",
+            "position": null,
             "category": "RBIs",
             "line": 0.5,
             "actual": 0,
@@ -1187,6 +1266,7 @@
           {
             "name": "Jasson Dom\u00ednguez",
             "role": "batter",
+            "position": null,
             "category": "Hits",
             "line": 0.5,
             "actual": 0,
@@ -1195,6 +1275,7 @@
           {
             "name": "Michael Harris II",
             "role": "batter",
+            "position": null,
             "category": "RBIs",
             "line": 0.5,
             "actual": 0,
@@ -1203,6 +1284,7 @@
           {
             "name": "Ozzie Albies",
             "role": "batter",
+            "position": null,
             "category": "Runs Scored",
             "line": 0.5,
             "actual": 0,
@@ -1211,6 +1293,7 @@
           {
             "name": "Francisco Alvarez",
             "role": "batter",
+            "position": null,
             "category": "Walks",
             "line": 0.5,
             "actual": null,
@@ -1219,6 +1302,7 @@
           {
             "name": "Joe Mack",
             "role": "batter",
+            "position": null,
             "category": "RBIs",
             "line": 0.5,
             "actual": 0,
@@ -1227,6 +1311,7 @@
           {
             "name": "Manny Machado",
             "role": "batter",
+            "position": null,
             "category": "Runs Scored",
             "line": 0.5,
             "actual": 1,
@@ -1235,6 +1320,7 @@
           {
             "name": "Zach McKinstry",
             "role": "batter",
+            "position": null,
             "category": "Total Bases",
             "line": 0.5,
             "actual": 0,
@@ -1243,6 +1329,7 @@
           {
             "name": "Ronel Blanco",
             "role": "pitcher",
+            "position": null,
             "category": "Strikeouts",
             "line": 7.5,
             "actual": 4,
@@ -1251,6 +1338,7 @@
           {
             "name": "Erick Fedde",
             "role": "pitcher",
+            "position": null,
             "category": "Strikeouts",
             "line": 3.5,
             "actual": 2,
@@ -1259,6 +1347,7 @@
           {
             "name": "Kyle Leahy",
             "role": "pitcher",
+            "position": null,
             "category": "Strikeouts",
             "line": 4.5,
             "actual": 9,
@@ -1267,6 +1356,7 @@
           {
             "name": "Janson Junk",
             "role": "pitcher",
+            "position": null,
             "category": "Strikeouts",
             "line": 3.5,
             "actual": 6,
@@ -1275,6 +1365,7 @@
           {
             "name": "Jos\u00e9 Soriano",
             "role": "pitcher",
+            "position": null,
             "category": "Strikeouts",
             "line": 5.5,
             "actual": 5,
@@ -1283,6 +1374,7 @@
           {
             "name": "Cristopher S\u00e1nchez",
             "role": "pitcher",
+            "position": null,
             "category": "Strikeouts",
             "line": 6.5,
             "actual": 6,
@@ -1300,6 +1392,7 @@
           {
             "name": "Rhys Hoskins",
             "role": "batter",
+            "position": null,
             "category": "Walks",
             "line": 0.5,
             "actual": 0,
@@ -1308,6 +1401,7 @@
           {
             "name": "Xander Bogaerts",
             "role": "batter",
+            "position": null,
             "category": "RBIs",
             "line": 0.5,
             "actual": null,
@@ -1316,6 +1410,7 @@
           {
             "name": "Heliot Ramos",
             "role": "batter",
+            "position": null,
             "category": "Walks",
             "line": 0.5,
             "actual": 1,
@@ -1324,6 +1419,7 @@
           {
             "name": "Casey Schmitt",
             "role": "batter",
+            "position": null,
             "category": "Walks",
             "line": 0.5,
             "actual": 0,
@@ -1332,6 +1428,7 @@
           {
             "name": "Ben Rice",
             "role": "batter",
+            "position": null,
             "category": "Runs Scored",
             "line": 0.5,
             "actual": 2,
@@ -1340,6 +1437,7 @@
           {
             "name": "Trent Grisham",
             "role": "batter",
+            "position": null,
             "category": "Hits",
             "line": 0.5,
             "actual": 0,
@@ -1348,6 +1446,7 @@
           {
             "name": "Gabriel Arias",
             "role": "batter",
+            "position": null,
             "category": "RBIs",
             "line": 0.5,
             "actual": null,
@@ -1356,6 +1455,7 @@
           {
             "name": "Fernando Tatis Jr.",
             "role": "batter",
+            "position": null,
             "category": "Hits",
             "line": 1.5,
             "actual": 0,
@@ -1364,6 +1464,7 @@
           {
             "name": "Manny Machado",
             "role": "batter",
+            "position": null,
             "category": "Hits",
             "line": 0.5,
             "actual": 2,
@@ -1372,6 +1473,7 @@
           {
             "name": "Jase Bowen",
             "role": "batter",
+            "position": null,
             "category": "Walks",
             "line": 0.5,
             "actual": 0,
@@ -1380,6 +1482,7 @@
           {
             "name": "Ty France",
             "role": "batter",
+            "position": null,
             "category": "Hits",
             "line": 1.5,
             "actual": 2,
@@ -1388,6 +1491,7 @@
           {
             "name": "Miguel Vargas",
             "role": "batter",
+            "position": null,
             "category": "Walks",
             "line": 0.5,
             "actual": 0,
@@ -1396,6 +1500,7 @@
           {
             "name": "Chase Meidroth",
             "role": "batter",
+            "position": null,
             "category": "Runs Scored",
             "line": 0.5,
             "actual": 2,
@@ -1404,6 +1509,7 @@
           {
             "name": "Luisangel Acu\u00f1a",
             "role": "batter",
+            "position": null,
             "category": "Walks",
             "line": 0.5,
             "actual": 0,
@@ -1412,6 +1518,7 @@
           {
             "name": "Willy Adames",
             "role": "batter",
+            "position": null,
             "category": "Walks",
             "line": 0.5,
             "actual": 0,
@@ -1420,6 +1527,7 @@
           {
             "name": "Erick Fedde",
             "role": "pitcher",
+            "position": null,
             "category": "Runs Allowed",
             "line": 1.5,
             "actual": 3,
@@ -1428,6 +1536,7 @@
           {
             "name": "Ronel Blanco",
             "role": "pitcher",
+            "position": null,
             "category": "Runs Allowed",
             "line": 3.5,
             "actual": 5,
@@ -1436,6 +1545,7 @@
           {
             "name": "Kyle Leahy",
             "role": "pitcher",
+            "position": null,
             "category": "Runs Allowed",
             "line": 1.5,
             "actual": 2,
@@ -1570,6 +1680,7 @@
         {
           "name": "Munetaka Murakami",
           "role": "batter",
+          "position": null,
           "category": "Total Bases",
           "projected": 1.67,
           "actual": 9,
@@ -1578,6 +1689,7 @@
         {
           "name": "CJ Abrams",
           "role": "batter",
+          "position": null,
           "category": "Total Bases",
           "projected": 2.61,
           "actual": 9,
@@ -1586,6 +1698,7 @@
         {
           "name": "Ryan Kreidler",
           "role": "batter",
+          "position": null,
           "category": "Total Bases",
           "projected": 0.95,
           "actual": 7,
@@ -1594,6 +1707,7 @@
         {
           "name": "James Wood",
           "role": "batter",
+          "position": null,
           "category": "Total Bases",
           "projected": 2.16,
           "actual": 8,
@@ -1602,6 +1716,7 @@
         {
           "name": "Dominic Canzone",
           "role": "batter",
+          "position": null,
           "category": "Total Bases",
           "projected": 1.31,
           "actual": 7,
@@ -1610,6 +1725,7 @@
         {
           "name": "Munetaka Murakami",
           "role": "batter",
+          "position": null,
           "category": "RBIs",
           "projected": 0.5,
           "actual": 6,
@@ -1618,6 +1734,7 @@
         {
           "name": "Bryson Stott",
           "role": "batter",
+          "position": null,
           "category": "Total Bases",
           "projected": 1.53,
           "actual": 7,
@@ -1626,6 +1743,7 @@
         {
           "name": "Kody Clemens",
           "role": "batter",
+          "position": null,
           "category": "Total Bases",
           "projected": 1.6,
           "actual": 7,
@@ -1634,6 +1752,7 @@
         {
           "name": "Drew Rasmussen",
           "role": "pitcher",
+          "position": null,
           "category": "Strikeouts",
           "projected": 4.3,
           "actual": 9,
@@ -1642,6 +1761,7 @@
         {
           "name": "Bryson Stott",
           "role": "batter",
+          "position": null,
           "category": "RBIs",
           "projected": 0.35,
           "actual": 5,
@@ -1774,7 +1894,7 @@
     },
     "2026-07-27": {
       "date": "2026-07-27",
-      "graded_at": "2026-07-28T17:01:56.511190+00:00",
+      "graded_at": "2026-07-28T18:39:07.514223+00:00",
       "top_overs": {
         "n": 23,
         "hits": 7,
@@ -1785,6 +1905,7 @@
           {
             "name": "Joc Pederson",
             "role": "batter",
+            "position": null,
             "category": "Total Bases",
             "line": 1.5,
             "actual": 8,
@@ -1793,6 +1914,7 @@
           {
             "name": "CJ Abrams",
             "role": "batter",
+            "position": null,
             "category": "Hits",
             "line": 1.5,
             "actual": 0,
@@ -1801,6 +1923,7 @@
           {
             "name": "Nathaniel Lowe",
             "role": "batter",
+            "position": null,
             "category": "RBIs",
             "line": 0.5,
             "actual": null,
@@ -1809,6 +1932,7 @@
           {
             "name": "Gabriel Moreno",
             "role": "batter",
+            "position": null,
             "category": "RBIs",
             "line": 0.5,
             "actual": 0,
@@ -1817,6 +1941,7 @@
           {
             "name": "Hao-Yu Lee",
             "role": "batter",
+            "position": null,
             "category": "Hits",
             "line": 0.5,
             "actual": 1,
@@ -1825,6 +1950,7 @@
           {
             "name": "Wyatt Langford",
             "role": "batter",
+            "position": null,
             "category": "RBIs",
             "line": 0.5,
             "actual": 0,
@@ -1833,6 +1959,7 @@
           {
             "name": "Nicky Lopez",
             "role": "batter",
+            "position": null,
             "category": "RBIs",
             "line": 0.5,
             "actual": 0,
@@ -1841,6 +1968,7 @@
           {
             "name": "Colt Emerson",
             "role": "batter",
+            "position": null,
             "category": "Total Bases",
             "line": 0.5,
             "actual": 1,
@@ -1849,6 +1977,7 @@
           {
             "name": "Jake Mangum",
             "role": "batter",
+            "position": null,
             "category": "Total Bases",
             "line": 1.5,
             "actual": 1,
@@ -1857,6 +1986,7 @@
           {
             "name": "Ryan O'Hearn",
             "role": "batter",
+            "position": null,
             "category": "Walks",
             "line": 0.5,
             "actual": 0,
@@ -1865,6 +1995,7 @@
           {
             "name": "Kyle Schwarber",
             "role": "batter",
+            "position": null,
             "category": "Hits",
             "line": 0.5,
             "actual": 1,
@@ -1873,6 +2004,7 @@
           {
             "name": "James Wood",
             "role": "batter",
+            "position": null,
             "category": "RBIs",
             "line": 0.5,
             "actual": 0,
@@ -1881,6 +2013,7 @@
           {
             "name": "Elly De La Cruz",
             "role": "batter",
+            "position": null,
             "category": "Walks",
             "line": 0.5,
             "actual": null,
@@ -1889,6 +2022,7 @@
           {
             "name": "Jeremy Pe\u00f1a",
             "role": "batter",
+            "position": null,
             "category": "Runs Scored",
             "line": 0.5,
             "actual": 2,
@@ -1897,6 +2031,7 @@
           {
             "name": "Brandon Nimmo",
             "role": "batter",
+            "position": null,
             "category": "Runs Scored",
             "line": 0.5,
             "actual": 0,
@@ -1905,6 +2040,7 @@
           {
             "name": "Keider Montero",
             "role": "pitcher",
+            "position": null,
             "category": "Strikeouts",
             "line": 3.5,
             "actual": 1,
@@ -1913,6 +2049,7 @@
           {
             "name": "Tatsuya Imai",
             "role": "pitcher",
+            "position": null,
             "category": "Strikeouts",
             "line": 5.5,
             "actual": 1,
@@ -1921,6 +2058,7 @@
           {
             "name": "Kumar Rocker",
             "role": "pitcher",
+            "position": null,
             "category": "Strikeouts",
             "line": 5.5,
             "actual": 7,
@@ -1929,6 +2067,7 @@
           {
             "name": "Mitch Keller",
             "role": "pitcher",
+            "position": null,
             "category": "Runs Allowed",
             "line": 2.5,
             "actual": 2,
@@ -1937,6 +2076,7 @@
           {
             "name": "Tyler Phillips",
             "role": "pitcher",
+            "position": null,
             "category": "Hits Allowed",
             "line": 3.5,
             "actual": 3,
@@ -1945,6 +2085,7 @@
           {
             "name": "Zack Wheeler",
             "role": "pitcher",
+            "position": null,
             "category": "Strikeouts",
             "line": 8.5,
             "actual": 6,
@@ -1953,6 +2094,7 @@
           {
             "name": "Eddy Yean",
             "role": "pitcher",
+            "position": null,
             "category": "Walks Allowed",
             "line": 0.5,
             "actual": 0,
@@ -1961,6 +2103,7 @@
           {
             "name": "Zac Thornton",
             "role": "pitcher",
+            "position": null,
             "category": "Strikeouts",
             "line": 4.5,
             "actual": 5,
@@ -1978,6 +2121,7 @@
           {
             "name": "Mitch Garver",
             "role": "batter",
+            "position": null,
             "category": "Hits",
             "line": 0.5,
             "actual": 1,
@@ -1986,6 +2130,7 @@
           {
             "name": "Kazuma Okamoto",
             "role": "batter",
+            "position": null,
             "category": "Hits",
             "line": 0.5,
             "actual": 1,
@@ -1994,6 +2139,7 @@
           {
             "name": "Myles Straw",
             "role": "batter",
+            "position": null,
             "category": "Hits",
             "line": 0.5,
             "actual": 2,
@@ -2002,6 +2148,7 @@
           {
             "name": "Denzer Guzman",
             "role": "batter",
+            "position": null,
             "category": "Total Bases",
             "line": 1.5,
             "actual": 0,
@@ -2010,6 +2157,7 @@
           {
             "name": "Cam Smith",
             "role": "batter",
+            "position": null,
             "category": "Hits",
             "line": 0.5,
             "actual": 0,
@@ -2018,6 +2166,7 @@
           {
             "name": "Christian Walker",
             "role": "batter",
+            "position": null,
             "category": "RBIs",
             "line": 0.5,
             "actual": 0,
@@ -2026,6 +2175,7 @@
           {
             "name": "Yainer Diaz",
             "role": "batter",
+            "position": null,
             "category": "RBIs",
             "line": 0.5,
             "actual": null,
@@ -2034,6 +2184,7 @@
           {
             "name": "Julio Rodr\u00edguez",
             "role": "batter",
+            "position": null,
             "category": "Hits",
             "line": 1.5,
             "actual": 1,
@@ -2042,6 +2193,7 @@
           {
             "name": "Randy Arozarena",
             "role": "batter",
+            "position": null,
             "category": "Total Bases",
             "line": 1.5,
             "actual": 4,
@@ -2050,6 +2202,7 @@
           {
             "name": "Gabriel Moreno",
             "role": "batter",
+            "position": null,
             "category": "Hits",
             "line": 1.5,
             "actual": 0,
@@ -2058,6 +2211,7 @@
           {
             "name": "Tyler Locklear",
             "role": "batter",
+            "position": null,
             "category": "Total Bases",
             "line": 1.5,
             "actual": 0,
@@ -2066,6 +2220,7 @@
           {
             "name": "Ryan Waldschmidt",
             "role": "batter",
+            "position": null,
             "category": "Walks",
             "line": 0.5,
             "actual": 0,
@@ -2074,6 +2229,7 @@
           {
             "name": "Otto Lopez",
             "role": "batter",
+            "position": null,
             "category": "Runs Scored",
             "line": 0.5,
             "actual": 2,
@@ -2082,6 +2238,7 @@
           {
             "name": "Heriberto Hern\u00e1ndez",
             "role": "batter",
+            "position": null,
             "category": "Walks",
             "line": 0.5,
             "actual": 0,
@@ -2090,6 +2247,7 @@
           {
             "name": "Javier Sanoja",
             "role": "batter",
+            "position": null,
             "category": "Walks",
             "line": 0.5,
             "actual": 1,
@@ -2098,6 +2256,7 @@
           {
             "name": "Keider Montero",
             "role": "pitcher",
+            "position": null,
             "category": "Outs Recorded",
             "line": 12.5,
             "actual": 13,
@@ -2106,6 +2265,7 @@
           {
             "name": "Tatsuya Imai",
             "role": "pitcher",
+            "position": null,
             "category": "Runs Allowed",
             "line": 2.5,
             "actual": 2,
@@ -2114,6 +2274,7 @@
           {
             "name": "Kumar Rocker",
             "role": "pitcher",
+            "position": null,
             "category": "Walks Allowed",
             "line": 1.5,
             "actual": 2,
@@ -2122,6 +2283,7 @@
           {
             "name": "George Kirby",
             "role": "pitcher",
+            "position": null,
             "category": "Runs Allowed",
             "line": 2.5,
             "actual": 7,
@@ -2130,6 +2292,7 @@
           {
             "name": "Mitch Keller",
             "role": "pitcher",
+            "position": null,
             "category": "Walks Allowed",
             "line": 1.5,
             "actual": 1,
@@ -2138,6 +2301,7 @@
           {
             "name": "Tyler Phillips",
             "role": "pitcher",
+            "position": null,
             "category": "Strikeouts",
             "line": 2.5,
             "actual": 5,
@@ -2146,6 +2310,7 @@
           {
             "name": "Zack Wheeler",
             "role": "pitcher",
+            "position": null,
             "category": "Walks Allowed",
             "line": 1.5,
             "actual": 1,
@@ -2154,6 +2319,7 @@
           {
             "name": "Kyle Bradish",
             "role": "pitcher",
+            "position": null,
             "category": "Strikeouts",
             "line": 5.5,
             "actual": 4,
@@ -2295,6 +2461,7 @@
         {
           "name": "Tatsuya Imai",
           "role": "pitcher",
+          "position": null,
           "category": "Outs Recorded",
           "projected": 14.27,
           "actual": 2,
@@ -2303,6 +2470,7 @@
         {
           "name": "Zack Wheeler",
           "role": "pitcher",
+          "position": null,
           "category": "Outs Recorded",
           "projected": 18.85,
           "actual": 9,
@@ -2311,6 +2479,7 @@
         {
           "name": "Francisco Lindor",
           "role": "batter",
+          "position": null,
           "category": "Total Bases",
           "projected": 1.46,
           "actual": 11,
@@ -2319,6 +2488,7 @@
         {
           "name": "George Kirby",
           "role": "pitcher",
+          "position": null,
           "category": "Outs Recorded",
           "projected": 20.54,
           "actual": 12,
@@ -2327,6 +2497,7 @@
         {
           "name": "Jack Perkins",
           "role": "pitcher",
+          "position": null,
           "category": "Outs Recorded",
           "projected": 8.74,
           "actual": 17,
@@ -2335,6 +2506,7 @@
         {
           "name": "Alex Bregman",
           "role": "batter",
+          "position": null,
           "category": "Total Bases",
           "projected": 1.47,
           "actual": 9,
@@ -2343,6 +2515,7 @@
         {
           "name": "Keider Montero",
           "role": "pitcher",
+          "position": null,
           "category": "Hits Allowed",
           "projected": 2.68,
           "actual": 9,
@@ -2351,6 +2524,7 @@
         {
           "name": "Max Fried",
           "role": "pitcher",
+          "position": null,
           "category": "Outs Recorded",
           "projected": 15.29,
           "actual": 9,
@@ -2359,6 +2533,7 @@
         {
           "name": "Joc Pederson",
           "role": "batter",
+          "position": null,
           "category": "Total Bases",
           "projected": 1.82,
           "actual": 8,
@@ -2367,6 +2542,7 @@
         {
           "name": "Kyle Bradish",
           "role": "pitcher",
+          "position": null,
           "category": "Hits Allowed",
           "projected": 3.97,
           "actual": 10,
@@ -2490,6 +2666,7 @@
           {
             "name": "Joc Pederson",
             "role": "batter",
+            "position": null,
             "category": "Hits OVER",
             "line": 0.5,
             "actual": 2,
@@ -2498,6 +2675,7 @@
           {
             "name": "Wyatt Langford",
             "role": "batter",
+            "position": null,
             "category": "Walks UNDER",
             "line": 0.5,
             "actual": 0,
@@ -2506,6 +2684,7 @@
           {
             "name": "Ezequiel Duran",
             "role": "batter",
+            "position": null,
             "category": "Hits OVER",
             "line": 0.5,
             "actual": 2,
@@ -2514,6 +2693,7 @@
           {
             "name": "Brandon Nimmo",
             "role": "batter",
+            "position": null,
             "category": "Total Bases OVER",
             "line": 1.5,
             "actual": 4,
@@ -2522,6 +2702,7 @@
           {
             "name": "Evan Carter",
             "role": "batter",
+            "position": null,
             "category": "Total Bases OVER",
             "line": 0.5,
             "actual": 3,
@@ -2530,6 +2711,7 @@
           {
             "name": "Jake Burger",
             "role": "batter",
+            "position": null,
             "category": "Hits OVER",
             "line": 0.5,
             "actual": 1,
@@ -2538,6 +2720,7 @@
           {
             "name": "Nicky Lopez",
             "role": "batter",
+            "position": null,
             "category": "Total Bases OVER",
             "line": 0.5,
             "actual": 1,
@@ -2546,6 +2729,7 @@
           {
             "name": "Josh Smith",
             "role": "batter",
+            "position": null,
             "category": "Total Bases OVER",
             "line": 0.5,
             "actual": 1,
@@ -2554,6 +2738,7 @@
           {
             "name": "Elias D\u00edaz",
             "role": "batter",
+            "position": null,
             "category": "Total Bases UNDER",
             "line": 1.5,
             "actual": 0,
@@ -2562,6 +2747,7 @@
           {
             "name": "Kumar Rocker",
             "role": "pitcher",
+            "position": null,
             "category": "Strikeouts UNDER",
             "line": 5.5,
             "actual": 7,
@@ -2579,6 +2765,7 @@
           {
             "name": "Nicky Lopez",
             "role": "batter",
+            "position": null,
             "category": "RBIs OVER",
             "line": 0.5,
             "actual": 0,
@@ -2587,6 +2774,7 @@
           {
             "name": "George Kirby",
             "role": "pitcher",
+            "position": null,
             "category": "Hits Allowed OVER",
             "line": 6.5,
             "actual": 7,
@@ -2595,6 +2783,7 @@
           {
             "name": "Mitch Keller",
             "role": "pitcher",
+            "position": null,
             "category": "Runs Allowed OVER",
             "line": 2.5,
             "actual": 2,
@@ -2603,6 +2792,7 @@
           {
             "name": "Merrill Kelly",
             "role": "pitcher",
+            "position": null,
             "category": "Strikeouts UNDER",
             "line": 3.5,
             "actual": 6,
@@ -2611,6 +2801,7 @@
           {
             "name": "Tyler Phillips",
             "role": "pitcher",
+            "position": null,
             "category": "Hits Allowed OVER",
             "line": 3.5,
             "actual": 3,
@@ -2619,6 +2810,7 @@
           {
             "name": "Zack Wheeler",
             "role": "pitcher",
+            "position": null,
             "category": "Strikeouts OVER",
             "line": 8.5,
             "actual": 6,
@@ -2627,6 +2819,7 @@
           {
             "name": "Keider Montero",
             "role": "pitcher",
+            "position": null,
             "category": "Outs Recorded UNDER",
             "line": 12.5,
             "actual": 13,
@@ -2635,6 +2828,7 @@
           {
             "name": "Kyle Bradish",
             "role": "pitcher",
+            "position": null,
             "category": "Outs Recorded OVER",
             "line": 17.5,
             "actual": 14,
@@ -2643,6 +2837,7 @@
           {
             "name": "CJ Abrams",
             "role": "batter",
+            "position": null,
             "category": "Hits OVER",
             "line": 1.5,
             "actual": 0,
@@ -2651,6 +2846,7 @@
           {
             "name": "Max Scherzer",
             "role": "pitcher",
+            "position": null,
             "category": "Outs Recorded UNDER",
             "line": 10.5,
             "actual": 8,
@@ -2772,68 +2968,12 @@
       "hit_rate": 0.431
     },
     "projection_accuracy": {
-      "Runs Scored": {
-        "n": 906,
-        "mae": 0.55,
-        "bias": -0.03,
-        "avg_projected": 0.47,
-        "avg_actual": 0.43
-      },
-      "Walks Allowed": {
+      "Hits Allowed": {
         "n": 103,
-        "mae": 0.85,
-        "bias": -0.11,
-        "avg_projected": 1.75,
-        "avg_actual": 1.64
-      },
-      "Home Runs": {
-        "n": 906,
-        "mae": 0.19,
-        "bias": -0.03,
-        "avg_projected": 0.13,
-        "avg_actual": 0.1
-      },
-      "Walks": {
-        "n": 906,
-        "mae": 0.46,
-        "bias": -0.01,
-        "avg_projected": 0.34,
-        "avg_actual": 0.33
-      },
-      "RBIs": {
-        "n": 906,
-        "mae": 0.61,
-        "bias": -0.04,
-        "avg_projected": 0.45,
-        "avg_actual": 0.4
-      },
-      "Strikeouts": {
-        "n": 103,
-        "mae": 2.0,
-        "bias": -0.08,
-        "avg_projected": 4.8,
-        "avg_actual": 4.72
-      },
-      "Total Bases": {
-        "n": 906,
-        "mae": 1.31,
-        "bias": -0.09,
-        "avg_projected": 1.41,
-        "avg_actual": 1.32
-      },
-      "Runs Allowed": {
-        "n": 103,
-        "mae": 1.65,
-        "bias": -0.06,
-        "avg_projected": 2.44,
-        "avg_actual": 2.38
-      },
-      "Hits": {
-        "n": 906,
-        "mae": 0.71,
-        "bias": -0.02,
-        "avg_projected": 0.85,
-        "avg_actual": 0.82
+        "mae": 1.94,
+        "bias": 0.07,
+        "avg_projected": 4.78,
+        "avg_actual": 4.85
       },
       "Outs Recorded": {
         "n": 21,
@@ -2842,15 +2982,71 @@
         "avg_projected": 14.43,
         "avg_actual": 13.81
       },
-      "Hits Allowed": {
+      "Hits": {
+        "n": 906,
+        "mae": 0.71,
+        "bias": -0.02,
+        "avg_projected": 0.85,
+        "avg_actual": 0.82
+      },
+      "Walks Allowed": {
         "n": 103,
-        "mae": 1.94,
-        "bias": 0.07,
-        "avg_projected": 4.78,
-        "avg_actual": 4.85
+        "mae": 0.85,
+        "bias": -0.11,
+        "avg_projected": 1.75,
+        "avg_actual": 1.64
+      },
+      "Walks": {
+        "n": 906,
+        "mae": 0.46,
+        "bias": -0.01,
+        "avg_projected": 0.34,
+        "avg_actual": 0.33
+      },
+      "Runs Scored": {
+        "n": 906,
+        "mae": 0.55,
+        "bias": -0.03,
+        "avg_projected": 0.47,
+        "avg_actual": 0.43
+      },
+      "Runs Allowed": {
+        "n": 103,
+        "mae": 1.65,
+        "bias": -0.06,
+        "avg_projected": 2.44,
+        "avg_actual": 2.38
+      },
+      "Total Bases": {
+        "n": 906,
+        "mae": 1.31,
+        "bias": -0.09,
+        "avg_projected": 1.41,
+        "avg_actual": 1.32
+      },
+      "Strikeouts": {
+        "n": 103,
+        "mae": 2.0,
+        "bias": -0.08,
+        "avg_projected": 4.8,
+        "avg_actual": 4.72
+      },
+      "Home Runs": {
+        "n": 906,
+        "mae": 0.19,
+        "bias": -0.03,
+        "avg_projected": 0.13,
+        "avg_actual": 0.1
+      },
+      "RBIs": {
+        "n": 906,
+        "mae": 0.61,
+        "bias": -0.04,
+        "avg_projected": 0.45,
+        "avg_actual": 0.4
       }
     },
     "days_tracked": 4
   },
-  "updated_at": "2026-07-28T17:01:57.229336+00:00"
+  "updated_at": "2026-07-28T18:39:08.241833+00:00"
 }
