@@ -11,6 +11,12 @@ public news RSS feed -- no paid odds API, no scraping of betting sites.
 
 _Updated with every change going forward._
 
+- **2026-07-28** -- My Bets player/team search suggestions now show each
+  game's date/time, so a doubleheader (two games between the same teams,
+  or the same player appearing twice, on one calendar date) is always
+  distinguishable before picking one -- confirmed real case: a postponed
+  game folded into a same-day doubleheader left two identical-looking
+  search results with no way to tell which one a leg meant.
 - **2026-07-28** -- Probable pitchers now get a real CONFIRMED/PROJECTED
   status (own badge on the pitcher card, factored into Top Overs/Unders
   scoring) instead of being hardcoded "confirmed" everywhere -- a rotation
