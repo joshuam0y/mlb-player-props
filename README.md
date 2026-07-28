@@ -11,6 +11,18 @@ public news RSS feed -- no paid odds API, no scraping of betting sites.
 
 _Updated with every change going forward._
 
+- **2026-07-28** -- Top Overs/Best-prop star were hitting worse than a coin
+  flip (~34%/43% across the first 4 tracked Track Record days) -- traced to
+  their category-of-the-day being chosen purely by "biggest recent-vs-season
+  hot streak," a signal `backtest_props.py` had already shown barely
+  predicts anything. A batter's pick now also has to agree with that
+  category's matchup-adjusted `lean` (the signal behind "Predicted-lean hit
+  rate," this site's best-performing metric at 65%) before it can headline;
+  an uncorroborated hot streak falls back to a safer default category
+  instead.
+- **2026-07-28** -- Total Bases prop lines never show 0.5 anymore -- that
+  was mathematically identical to a Hits 0.5 line (both true iff the player
+  gets >=1 hit), so it carried no real signal. Floored at 1.5 now.
 - **2026-07-28** -- Fixed a bug where a postponed/rescheduled game stayed
   stuck under its original date forever: `sync_schedule.py`'s upsert wasn't
   updating `official_date`/`game_date_utc` on an already-known `game_pk`, so
