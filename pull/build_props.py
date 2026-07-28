@@ -1400,6 +1400,19 @@ def _pick_category(strict, categories, role, direction, exclude_label):
     return strict or resolve_best_category(categories, role, direction, exclude_label=exclude_label)
 
 
+LINEUP_WINDOW_HOURS = 3  # matches the "typically 1-3 hours before first pitch" window referenced elsewhere
+
+
+def _hours_until_first_pitch(game_time_utc):
+    if not game_time_utc:
+        return None
+    try:
+        start = datetime.fromisoformat(game_time_utc.replace("Z", "+00:00"))
+    except ValueError:
+        return None
+    return (start - datetime.now(timezone.utc)).total_seconds() / 3600
+
+
 def build_top_picks(report_games, batter_limit=15, pitcher_limit=8):
     """
     Cross-game leaderboards: the best OVER and UNDER candidates across the
@@ -1437,13 +1450,28 @@ def build_top_picks(report_games, batter_limit=15, pitcher_limit=8):
     for g in report_games:
         is_final = g["status"] in FINAL_STATUSES
         game_started = g["status"] not in (None, "Scheduled", "Pre-Game", "Preview", "Warmup")
+        # Being unconfirmed is only a real signal once we're actually
+        # inside the window a lineup/pitcher assignment would normally
+        # post in -- outside it, EVERY game is unconfirmed regardless of
+        # pick quality, purely because it's too early in the day to know
+        # yet. Without this gate, the Top Overs/Unders freeze (one fixed
+        # daily clock time -- see TOP_PICKS_FREEZE_HOUR_ET) structurally
+        # favored whichever games happened to start earliest that day
+        # (their window had already passed by freeze time) over anything
+        # starting significantly later -- confirmed real case: every West
+        # Coast night game was still unconfirmed at the freeze moment,
+        # every single time, regardless of the underlying pick. hours is
+        # None (missing/malformed game time) falls back to the old
+        # always-penalize behavior rather than silently waiving it.
+        hours_until_first_pitch = _hours_until_first_pitch(g.get("game_time_utc"))
+        lineup_window_open = hours_until_first_pitch is None or hours_until_first_pitch <= LINEUP_WINDOW_HOURS
         for side_key in ("home", "away"):
             side = g[side_key]
             opp_side = g["away"] if side_key == "home" else g["home"]
             for b in side["batters"]:
                 if b["injury"]:
                     continue
-                confirmed_penalty = 0 if side["lineup_confirmed"] else 0.5
+                confirmed_penalty = 0 if (side["lineup_confirmed"] or not lineup_window_open) else 0.5
                 base = {
                     "role": "batter",
                     "player_id": b["player_id"],
@@ -1489,8 +1517,13 @@ def build_top_picks(report_games, batter_limit=15, pitcher_limit=8):
                 # probable pitcher still days out (lineup_confirmed False,
                 # see build_pitcher_entry()) is a real guess, not a lock,
                 # so he shouldn't rank into Top Overs/Unders on equal
-                # footing with a start that's essentially already locked in.
-                pitcher_confirmed_penalty = 0 if p.get("lineup_confirmed", True) else 0.5
+                # footing with a start that's essentially already locked
+                # in. Same lineup_window_open gate too -- pitcher
+                # confirmation is itself just this same game's own status
+                # crossing into Pre-Game, which is exactly as vulnerable
+                # to the early-vs-late-game freeze-time bias as a batting
+                # lineup is.
+                pitcher_confirmed_penalty = 0 if (p.get("lineup_confirmed", True) or not lineup_window_open) else 0.5
                 base = {
                     "role": "pitcher",
                     "player_id": p["player_id"],
