@@ -11,6 +11,13 @@ public news RSS feed -- no paid odds API, no scraping of betting sites.
 
 _Updated with every change going forward._
 
+- **2026-07-28** -- Probable pitchers now get a real CONFIRMED/PROJECTED
+  status (own badge on the pitcher card, factored into Top Overs/Unders
+  scoring) instead of being hardcoded "confirmed" everywhere -- a rotation
+  change, rainout, or doubleheader reshuffle can still swap a probable
+  starter (confirmed real case: the Guardians/Reds 7/28 doubleheader). MLB's
+  API has no explicit flag for this, so it uses the game's own status
+  (Scheduled/Preview vs. later) as a proxy.
 - **2026-07-28** -- Top Overs/Best-prop star were hitting worse than a coin
   flip (~34%/43% across the first 4 tracked Track Record days) -- traced to
   their category-of-the-day being chosen purely by "biggest recent-vs-season
