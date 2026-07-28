@@ -548,11 +548,16 @@ function renderBets(bets) {{
   const wins = settled.filter(function (b) {{ return b.status === 'won'; }}).length;
   const losses = settled.filter(function (b) {{ return b.status === 'lost'; }}).length;
   const pendingStake = pending.reduce(function (sum, b) {{ return sum + b.stake; }}, 0);
+  // Profit only (matches to_win's own meaning and "Total profit/loss"
+  // above), not the gross payout including stake back -- keeps this tile
+  // consistent with every other profit figure on the page.
+  const pendingPotentialWinnings = pending.reduce(function (sum, b) {{ return sum + Number(b.to_win); }}, 0);
 
   document.getElementById('summary-tiles').innerHTML =
     tileHtml((totalProfit >= 0 ? '+$' : '-$') + Math.abs(totalProfit).toFixed(2), 'Total profit/loss (settled bets)') +
     tileHtml(wins + '-' + losses, 'Record (settled bets)') +
-    tileHtml(String(pending.length), 'Pending ($' + pendingStake.toFixed(2) + ' at stake)');
+    tileHtml(String(pending.length), 'Pending ($' + pendingStake.toFixed(2) + ' at stake)') +
+    tileHtml('+$' + pendingPotentialWinnings.toFixed(2), 'Potential winnings if all pending bets hit');
 
   const visible = applyBetFilters(bets.slice());
   document.getElementById('bets-list').innerHTML = visible.length
