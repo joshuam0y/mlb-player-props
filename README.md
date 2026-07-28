@@ -11,6 +11,12 @@ public news RSS feed -- no paid odds API, no scraping of betting sites.
 
 _Updated with every change going forward._
 
+- **2026-07-28** -- Fixed Top Overs/Unders structurally favoring earlier
+  games: the confirmed-lineup penalty now only applies once a game is
+  actually inside its own lineup-posting window (first pitch <=3 hours
+  out) -- verified every West Coast night game was unfairly penalized at
+  the daily freeze moment purely for starting late, regardless of pick
+  quality.
 - **2026-07-28** -- My Bets now allows editing/deleting settled (won/lost)
   bets too, not just pending ones -- for fixing a real mistake (wrong
   stake/date/odds, or a bet that graded against the wrong game).
