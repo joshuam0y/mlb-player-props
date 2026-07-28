@@ -7,6 +7,33 @@ total bases, strikeouts, etc.) on markets like Sleeper and FanDuel. Pulls
 everything from MLB's own public Stats API (no key, no cost) and MLB.com's
 public news RSS feed -- no paid odds API, no scraping of betting sites.
 
+## Changelog
+
+_Updated with every change going forward._
+
+- **2026-07-28** -- Fixed a bug where a postponed/rescheduled game stayed
+  stuck under its original date forever: `sync_schedule.py`'s upsert wasn't
+  updating `official_date`/`game_date_utc` on an already-known `game_pk`, so
+  a game MLB pushed to a new date (e.g. a rainout becoming a same-day
+  doubleheader) silently never showed up once the calendar moved past its
+  old date.
+- **2026-07-27** -- Added filter/sort controls (status, date range, sort by
+  date/profit/stake) to the My Bets list.
+- **2026-07-27** -- My Bets player search now also falls back to MLB's live
+  boxscore, so a real bet on anyone who actually played can be logged, not
+  just this site's own modeled "starters" (surfaced a real lineup-sync gap
+  for one specific game in the process).
+- **2026-07-27** -- Fixed My Bets player/team search not working for
+  previous-day bets (it only ever searched today's data).
+- **2026-07-27** -- Added auto-computed to-win-from-odds, and the ability to
+  edit/delete a still-pending bet, to My Bets.
+- **2026-07-27** -- Added team-level props (Moneyline, Run Line, Total) to
+  the bet tracker, on top of player props.
+- **2026-07-27** -- Rebuilt My Bets as a real personal bet tracker: sign-in
+  + cross-device sync (Firebase Auth/Firestore), player/team search with
+  autocomplete, and live hit/miss grading against the same box-score feed
+  the main dashboard uses.
+
 **This is a research/context tool, not a prediction engine.** It does not
 pull actual sportsbook lines, so it can't tell you "our number beats their
 number." What it does do: aggregate, in one place, the things that actually

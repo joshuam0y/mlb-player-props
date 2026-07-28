@@ -55,6 +55,13 @@ def sync_range(conn, start, end):
                 )
             )
 
+    # official_date/game_date_utc ARE updated on conflict, not just inserted
+    # once -- a postponed/rained-out game keeps the same game_pk but MLB
+    # reassigns it a new date (often a same-day doubleheader with the
+    # originally-scheduled game), and this sync's own date window
+    # (mlb_today() forward) is what decides which games show up as "today."
+    # Without this, a rescheduled game stays permanently stuck under its
+    # old date and silently never appears once the calendar moves past it.
     conn.executemany(
         """
         INSERT INTO games (game_pk, official_date, game_date_utc, status, home_team_id,
@@ -62,6 +69,8 @@ def sync_range(conn, start, end):
                             venue_name, home_score, away_score)
         VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
         ON CONFLICT(game_pk) DO UPDATE SET
+            official_date=excluded.official_date,
+            game_date_utc=excluded.game_date_utc,
             status=excluded.status,
             home_probable_pitcher_id=excluded.home_probable_pitcher_id,
             away_probable_pitcher_id=excluded.away_probable_pitcher_id,
