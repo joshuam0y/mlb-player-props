@@ -752,7 +752,7 @@ function liveLeanResult(value, line, direction, isFinal) {
 // showed nothing at all, because sync_stats.py hadn't synced that at-bat
 // into the DB column pick_result() reads from yet.
 function updateMatchupLeanLive(el, pid, batting, pitching, isFinal) {
-  const leanEl = el.querySelector('[data-player-id="' + pid + '"] .matchup-lean');
+  const leanEl = el.querySelector('.matchup-lean[data-player-id="' + pid + '"]');
   if (!leanEl) return;
   const role = leanEl.dataset.role;
   const category = leanEl.dataset.category;
@@ -1520,8 +1520,18 @@ def _matchup_lean_html(entry, role):
     # server-rendered result is just the pre-live-JS starting point.
     result = lean.get("result")
     result_html = f" {_badge(result.upper(), result)}" if result else ""
+    # data-player-id lives directly on THIS element (not just inherited from
+    # some ancestor row) so updateMatchupLeanLive() can find it with a
+    # single self-contained selector, the same pattern .boxscore-line
+    # already uses -- confirmed real bug this fixes: a batter's row nests
+    # this div inside the same <tr data-player-id=...>, so the old
+    # ancestor-based selector happened to work there, but a pitcher's own
+    # card puts this div as a SIBLING of (not nested inside) its
+    # data-player-id div, so the live HIT/MISS badge could never attach
+    # for any pitcher no matter how clearly the box score next to it had
+    # already cleared the line.
     return (
-        f'<div class="matchup-lean prop-lean-{lean["direction"]}" data-role="{role}" '
+        f'<div class="matchup-lean prop-lean-{lean["direction"]}" data-role="{role}" data-player-id="{entry["player_id"]}" '
         f'data-category="{html.escape(lean["label"])}" data-line="{lean["line"]}" data-direction="{lean["direction"]}">'
         f'Predicted: {html.escape(lean["label"])} {verb} {lean["line"]}{result_html}</div>'
     )
