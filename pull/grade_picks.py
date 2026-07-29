@@ -172,7 +172,7 @@ def _grade_picks_bucket(conn, picks, direction):
 def _batter_bucket_stats(rows):
     n = len(rows)
     if n == 0:
-        return {"games": 0, "avg": None, "tb_per_game": None}
+        return {"games": 0, "avg": None, "tb_per_game": None, "examples": []}
     hits = sum(r["hits"] or 0 for r in rows)
     at_bats = sum(r["at_bats"] or 0 for r in rows)
     total_bases = sum(r["total_bases"] or 0 for r in rows)
@@ -180,13 +180,21 @@ def _batter_bucket_stats(rows):
         "games": n,
         "avg": round(hits / at_bats, 3) if at_bats else None,
         "tb_per_game": round(total_bases / n, 2),
+        # Biggest performances first (most hits that game) -- a HOT/COLD or
+        # matchup bucket is a categorization, not a graded pick with its
+        # own line, so there's no hit/miss to show here, just who actually
+        # played and what they did.
+        "examples": [
+            {"name": r.get("name"), "player_id": r.get("player_id"), "line": f"{r['hits'] or 0}-for-{r['at_bats'] or 0}, {r['total_bases'] or 0} TB"}
+            for r in sorted(rows, key=lambda r: -(r["hits"] or 0))[:10]
+        ],
     }
 
 
 def _pitcher_bucket_stats(rows):
     n = len(rows)
     if n == 0:
-        return {"games": 0, "era": None, "k_per_game": None}
+        return {"games": 0, "era": None, "k_per_game": None, "examples": []}
     outs = sum(r["outs"] or 0 for r in rows)
     earned_runs = sum(r["earned_runs"] or 0 for r in rows)
     strike_outs = sum(r["strike_outs"] or 0 for r in rows)
@@ -195,6 +203,13 @@ def _pitcher_bucket_stats(rows):
         "games": n,
         "era": round(earned_runs * 9 / innings, 2) if innings else None,
         "k_per_game": round(strike_outs / n, 2),
+        "examples": [
+            {
+                "name": r.get("name"), "player_id": r.get("player_id"),
+                "line": f"{round((r['outs'] or 0) / 3, 1)} IP, {r['strike_outs'] or 0} K, {r['earned_runs'] or 0} ER",
+            }
+            for r in sorted(rows, key=lambda r: -(r["strike_outs"] or 0))[:10]
+        ],
     }
 
 
@@ -212,11 +227,14 @@ def _grade_batter_signals(conn, report, date):
                 ).fetchone()
                 if not row or row["at_bats"] is None:
                     continue  # DNP that day -- excludes both a hot/cold AND matchup read, same as a real prop would grade "no action"
+                entry = dict(row)
+                entry["name"] = b["name"]
+                entry["player_id"] = b["player_id"]
                 trend_key = b.get("trend") or "neutral"
-                trend_buckets.setdefault(trend_key, []).append(row)
+                trend_buckets.setdefault(trend_key, []).append(entry)
                 m = b.get("matchup") or {}
                 matchup_key = "favorable" if m.get("favorable") else ("unfavorable" if m.get("unfavorable") else "neutral")
-                matchup_buckets[matchup_key].append(row)
+                matchup_buckets[matchup_key].append(entry)
     return (
         {k: _batter_bucket_stats(v) for k, v in trend_buckets.items()},
         {k: _batter_bucket_stats(v) for k, v in matchup_buckets.items()},
@@ -238,8 +256,11 @@ def _grade_pitcher_signals(conn, report, date):
             ).fetchone()
             if not row or row["outs"] is None:
                 continue  # scratched/didn't start that day
+            entry = dict(row)
+            entry["name"] = p["name"]
+            entry["player_id"] = p["player_id"]
             key = p.get("form_trend") or "neutral"
-            form_buckets.setdefault(key, []).append(row)
+            form_buckets.setdefault(key, []).append(entry)
     return {k: _pitcher_bucket_stats(v) for k, v in form_buckets.items()}
 
 
@@ -320,6 +341,9 @@ def _grade_games(conn, report, date):
     total_hits = total_misses = 0
     score_errors = []
     score_examples = []
+    ml_examples = []
+    run_line_examples = []
+    total_examples = []
     for g in report["games"]:
         if g["date"] != date:
             continue
@@ -333,12 +357,19 @@ def _grade_games(conn, report, date):
             continue  # not final (postponed/suspended) -- can't grade yet
         home_score, away_score = row["home_score"], row["away_score"]
         margin = home_score - away_score  # MLB games never end tied
+        matchup = f"{g['away']['team_name']} @ {g['home']['team_name']}"
 
         ml_pick = proj.get("moneyline_pick") or ("home" if proj["home_win_prob"] >= 0.5 else "away")
-        if (ml_pick == "home") == (margin > 0):
+        ml_hit = (ml_pick == "home") == (margin > 0)
+        if ml_hit:
             ml_hits += 1
         else:
             ml_misses += 1
+        ml_team = g["home"]["team_name"] if ml_pick == "home" else g["away"]["team_name"]
+        ml_examples.append({
+            "matchup": matchup, "pick": f"{ml_team} to win", "actual": f"{away_score}-{home_score}",
+            "outcome": "hit" if ml_hit else "miss",
+        })
 
         spread_pick = proj.get("spread_pick")
         if spread_pick:
@@ -351,16 +382,27 @@ def _grade_games(conn, report, date):
                 spread_hits += 1
             else:
                 spread_misses += 1
+            spread_team = g["home"]["team_name"] if spread_pick == "home" else g["away"]["team_name"]
+            spread_side = f"-{spread_line}" if spread_pick == favorite else f"+{spread_line}"
+            run_line_examples.append({
+                "matchup": matchup, "pick": f"{spread_team} {spread_side}", "actual": f"margin {margin:+d}",
+                "outcome": "hit" if covered else "miss",
+            })
 
         total_line = proj.get("total_line")
         if total_line is not None:
             actual_total = home_score + away_score
             total_pick = proj.get("total_pick") or ("over" if proj.get("over_prob", 0.5) >= 0.5 else "under")
             actual_over = actual_total > total_line
-            if actual_over == (total_pick == "over"):
+            total_hit = actual_over == (total_pick == "over")
+            if total_hit:
                 total_hits += 1
             else:
                 total_misses += 1
+            total_examples.append({
+                "matchup": matchup, "pick": f"{total_pick.upper()} {total_line}", "actual": f"{actual_total} runs",
+                "outcome": "hit" if total_hit else "miss",
+            })
 
         if proj.get("home_exp_runs") is not None and proj.get("away_exp_runs") is not None:
             actual_total = home_score + away_score
@@ -374,9 +416,13 @@ def _grade_games(conn, report, date):
                 "error": round(error, 2),
             })
 
-    def _bucket(hits, misses):
+    def _bucket(hits, misses, examples):
         graded = hits + misses
-        return {"n": graded, "hits": hits, "misses": misses, "hit_rate": round(hits / graded, 3) if graded else None}
+        return {
+            "n": graded, "hits": hits, "misses": misses,
+            "hit_rate": round(hits / graded, 3) if graded else None,
+            "examples": examples[:10],
+        }
 
     score_examples.sort(key=lambda e: -abs(e["error"]))
     n = len(score_errors)
@@ -386,9 +432,9 @@ def _grade_games(conn, report, date):
         "bias": round(sum(score_errors) / n, 2) if n else None,
     }
     return {
-        "moneyline": _bucket(ml_hits, ml_misses),
-        "run_line": _bucket(spread_hits, spread_misses),
-        "total": _bucket(total_hits, total_misses),
+        "moneyline": _bucket(ml_hits, ml_misses, ml_examples),
+        "run_line": _bucket(spread_hits, spread_misses, run_line_examples),
+        "total": _bucket(total_hits, total_misses, total_examples),
         "score_accuracy": score_accuracy,
         "score_examples": score_examples[:10],
     }

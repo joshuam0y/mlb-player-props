@@ -49,6 +49,44 @@ def _rate_table(heading, bucket_dict, labels, kind):
     """
 
 
+def _signal_examples_html(bucket_dict, labels):
+    """
+    Player-level detail for the batter trend / batter matchup / pitcher
+    form buckets -- these are categorizations (HOT/COLD, favorable/
+    unfavorable, dominant/rough), not a graded pick with its own line, so
+    there's no hit/miss to show, just who actually landed in each bucket
+    and what they did that game.
+    """
+    rows = []
+    for label, key in labels:
+        examples = ((bucket_dict or {}).get(key) or {}).get("examples") or []
+        if not examples:
+            continue
+        rows.append(f'<div class="sub" style="margin:6px 0 2px">{html.escape(label)}</div>')
+        for e in examples:
+            rows.append(
+                f'<div class="grade-row grade-neutral"><span><b>{html.escape(e.get("name") or "?")}</b></span>'
+                f'<span>{html.escape(e.get("line") or "")}</span></div>'
+            )
+    if not rows:
+        return '<div class="sub">No graded games yet.</div>'
+    return "".join(rows)
+
+
+def _game_pick_examples_html(examples):
+    examples = examples or []
+    if not examples:
+        return '<div class="sub">No graded games that day.</div>'
+    rows = []
+    for e in examples:
+        rows.append(
+            f'<div class="grade-row grade-{e["outcome"]}">'
+            f'<span><b>{html.escape(e["matchup"])}</b> &mdash; {html.escape(e["pick"])}</span>'
+            f'<span>actual: {html.escape(e["actual"])} &middot; {e["outcome"].upper()}</span></div>'
+        )
+    return "".join(rows)
+
+
 def _picks_tile_html(title, bucket):
     bucket = bucket or {}
     graded = (bucket.get("hits") or 0) + (bucket.get("misses") or 0)
@@ -222,9 +260,18 @@ def _day_card_html(day, open_by_default):
         <div class="picks-heading" style="margin-top:14px">Top Unders picks</div>
         {_pick_list_html(tu)}
         {_rate_table("Batter trend that day (every flagged batter, not just Top Picks)", day.get("batter_trend"), [("HOT", "hot"), ("COLD", "cold"), ("NEUTRAL", "neutral")], "batter")}
+        {_signal_examples_html(day.get("batter_trend"), [("HOT", "hot"), ("COLD", "cold")])}
         {_rate_table("Batter matchup edge that day", day.get("batter_matchup"), [("Favorable", "favorable"), ("Unfavorable", "unfavorable"), ("Neutral", "neutral")], "batter")}
+        {_signal_examples_html(day.get("batter_matchup"), [("Favorable", "favorable"), ("Unfavorable", "unfavorable")])}
         {_rate_table("Pitcher form trend that day", day.get("pitcher_form"), [("Dominant", "dominant"), ("Rough", "rough"), ("Neutral", "neutral")], "pitcher")}
+        {_signal_examples_html(day.get("pitcher_form"), [("Dominant", "dominant"), ("Rough", "rough")])}
         {_games_table("Game picks that day (moneyline / run line / total)", games)}
+        <div class="picks-heading" style="margin-top:10px">Moneyline picks, that day</div>
+        {_game_pick_examples_html((games.get("moneyline") or {}).get("examples"))}
+        <div class="picks-heading" style="margin-top:10px">Run line picks, that day</div>
+        {_game_pick_examples_html((games.get("run_line") or {}).get("examples"))}
+        <div class="picks-heading" style="margin-top:10px">Total (O/U) picks, that day</div>
+        {_game_pick_examples_html((games.get("total") or {}).get("examples"))}
         <div class="picks-heading" style="margin-top:16px">Projected score vs actual, that day</div>
         {_game_score_examples_html(games.get("score_examples"))}
         <div class="picks-heading" style="margin-top:16px">"Predicted: X" matchup-lean picks, that day: {_pct(ml.get("hit_rate"))} ({ml.get("hits", 0)}/{ml_graded}) -- biggest misses/hits sample below, not every pick</div>
