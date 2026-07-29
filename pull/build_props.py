@@ -1148,7 +1148,16 @@ def prop_category_delta(recent_categories, season_categories, min_games=8, requi
         return None, None
 
     over_pool = [d for d in deltas if d[0] > 0 and (not require_lean_agreement or d[3] == "over")]
-    under_pool = [d for d in deltas if d[0] < 0 and (not require_lean_agreement or d[3] == "under")]
+    # Home Runs UNDER excluded here too (see best_matchup_lean()'s own
+    # docstring) -- a home run is rare enough per game that clearing
+    # "under" a typical 0.5 line is true almost every time regardless of
+    # any real recent-form deviation, so it's a near-guaranteed, low-value
+    # "best under" rather than a meaningful angle. Home Runs OVER stays
+    # fully eligible -- precisely because it's rare, a real over lean is
+    # the interesting case. Every other UNDER category (Walks, RBIs, Runs
+    # Scored, etc.) stays eligible even though those also tend to clear
+    # more often than not -- Home Runs is a distinctly more extreme case.
+    under_pool = [d for d in deltas if d[0] < 0 and d[1] != "Home Runs" and (not require_lean_agreement or d[3] == "under")]
 
     most_over = None
     if over_pool:
