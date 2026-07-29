@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-07-29T19:57:19.714305+00:00_
+_Generated 2026-07-29T20:02:48.109832+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -212,7 +212,7 @@ _Facing a taxed bullpen: 7.3 relief IP in last 2 days (ratio 1.56)_
 ## 2026-07-29 - Milwaukee Brewers @ San Francisco Giants (In Progress)
 _Oracle Park [pitcher-friendly park]_
 Projected score: Milwaukee Brewers 4.01 - San Francisco Giants 3.59
-Model likes: **Milwaukee Brewers** to win (54%) | Run line: **San Francisco Giants** +1.5 (63% to cover) | Total 7.5: lean **UNDER** (55%)
+Model likes: **Milwaukee Brewers** to win (54%) | Run line: **San Francisco Giants** +1.5 (63% to cover) | Total 7.5: lean **UNDER** (54%)
 
 ### Milwaukee Brewers lineup -- CONFIRMED
 _Facing a taxed bullpen: 8.3 relief IP in last 2 days (ratio 2.14)_
@@ -239,7 +239,7 @@ _Facing a taxed bullpen: 8.3 relief IP in last 2 days (ratio 2.14)_
 - #8 Grant McCray (L) -- L7: 2H 1HR 2RBI 5TB (0.2 avg) -- home split: 0.222 avg
 - #9 Christian Koss (R) -- L7: 2H 0HR 0RBI 2TB (0.167 avg) -- home split: 0.0 avg
 
-## 2026-07-29 - Colorado Rockies @ San Diego Padres (Pre-Game)
+## 2026-07-29 - Colorado Rockies @ San Diego Padres (Warmup)
 _Petco Park [pitcher-friendly park]_
 Projected score: Colorado Rockies 4.07 - San Diego Padres 3.35
 Model likes: **Colorado Rockies** to win (57%) | Run line: **San Diego Padres** +1.5 (60% to cover) | Total 6.5: lean **OVER** (54%)
@@ -333,21 +333,21 @@ _Facing a rested bullpen: 2.7 relief IP in last 2 days (ratio 0.6)_
 
 ## 2026-07-29 - Cleveland Guardians @ Cincinnati Reds (Pre-Game)
 _Great American Ball Park [hitter-friendly park]_
-Projected score: Cleveland Guardians 3.65 - Cincinnati Reds 3.91
-Model likes: **Cincinnati Reds** to win (52%) | Run line: **Cleveland Guardians** +1.5 (64% to cover) | Total 7.5: lean **UNDER** (55%)
+Projected score: Cleveland Guardians 3.75 - Cincinnati Reds 3.91
+Model likes: **Cincinnati Reds** to win (52%) | Run line: **Cleveland Guardians** +1.5 (65% to cover) | Total 7.5: lean **UNDER** (54%)
 
-### Cleveland Guardians lineup -- PROJECTED (unconfirmed)
+### Cleveland Guardians lineup -- CONFIRMED
 _Facing a taxed bullpen: 11.3 relief IP in last 2 days (ratio 2.67)_
 **Probable P: Joey Cantillo (L)** -- L5: 23.7 IP, 31 K, 12 ER, 4.56 ERA
-- Travis Bazzana (L) [MATCHUP EDGE: pitcher hits 0.295 avg-against vs this hand] -- L7: 4H 0HR 0RBI 4TB (0.167 avg) -- away split: 0.245 avg
-- Brayan Rocchio (S) [MATCHUP EDGE: pitcher hits 0.295 avg-against vs this hand] -- L7: 5H 0HR 3RBI 7TB (0.179 avg) -- away split: 0.225 avg
-- Chase DeLauter (L) [MATCHUP EDGE: pitcher hits 0.295 avg-against vs this hand] -- L7: 5H 0HR 1RBI 6TB (0.2 avg) -- away split: 0.261 avg
-- Kyle Manzardo (L) [MATCHUP EDGE: pitcher hits 0.295 avg-against vs this hand] -- L7: 4H 2HR 6RBI 11TB (0.2 avg) -- away split: 0.201 avg
-- Steven Kwan (L) [MATCHUP EDGE: pitcher hits 0.295 avg-against vs this hand] -- L7: 9H 0HR 1RBI 11TB (0.321 avg) -- away split: 0.236 avg
-- Petey Halpin (L) [MATCHUP EDGE: pitcher hits 0.295 avg-against vs this hand] -- L7: 3H 0HR 0RBI 3TB (0.143 avg) -- away split: 0.179 avg
-- Gabriel Arias (R) [3-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 7H 0HR 0RBI 7TB (0.318 avg) -- away split: 0.224 avg
-- Patrick Bailey (S) [MATCHUP EDGE: pitcher hits 0.295 avg-against vs this hand] -- L7: 6H 2HR 4RBI 12TB (0.273 avg) -- away split: 0.18 avg
-- Rhys Hoskins (R) -- L7: 3H 2HR 2RBI 9TB (0.143 avg) -- away split: 0.173 avg
+- #1 Steven Kwan (L) [MATCHUP EDGE: pitcher hits 0.295 avg-against vs this hand] -- L7: 9H 0HR 1RBI 11TB (0.321 avg) -- away split: 0.236 avg
+- #2 José Ramírez (S) [MATCHUP EDGE: pitcher hits 0.295 avg-against vs this hand] -- L7: 6H 0HR 2RBI 7TB (0.214 avg) -- away split: 0.217 avg
+- #3 Chase DeLauter (L) [MATCHUP EDGE: pitcher hits 0.295 avg-against vs this hand] -- L7: 5H 0HR 1RBI 6TB (0.2 avg) -- away split: 0.261 avg
+- #4 Travis Bazzana (L) [MATCHUP EDGE: pitcher hits 0.295 avg-against vs this hand] -- L7: 4H 0HR 0RBI 4TB (0.167 avg) -- away split: 0.245 avg
+- #5 Brayan Rocchio (S) [MATCHUP EDGE: pitcher hits 0.295 avg-against vs this hand] -- L7: 5H 0HR 3RBI 7TB (0.179 avg) -- away split: 0.225 avg
+- #6 Kyle Manzardo (L) [MATCHUP EDGE: pitcher hits 0.295 avg-against vs this hand] -- L7: 4H 2HR 6RBI 11TB (0.2 avg) -- away split: 0.201 avg
+- #7 Gabriel Arias (R) [3-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 7H 0HR 0RBI 7TB (0.318 avg) -- away split: 0.224 avg
+- #8 Patrick Bailey (S) [MATCHUP EDGE: pitcher hits 0.295 avg-against vs this hand] -- L7: 6H 2HR 4RBI 12TB (0.273 avg) -- away split: 0.18 avg
+- #9 Petey Halpin (L) [MATCHUP EDGE: pitcher hits 0.295 avg-against vs this hand] -- L7: 3H 0HR 0RBI 3TB (0.143 avg) -- away split: 0.179 avg
 
 ### Cincinnati Reds lineup -- CONFIRMED
 _Facing a taxed bullpen: 6.3 relief IP in last 2 days (ratio 1.3)_
@@ -394,8 +394,8 @@ _Facing a rested bullpen: 2.7 relief IP in last 2 days (ratio 0.56)_
 
 ## 2026-07-29 - New York Yankees @ Chicago White Sox (Pre-Game)
 _Rate Field_
-Projected score: New York Yankees 3.51 - Chicago White Sox 2.75
-Model likes: **New York Yankees** to win (58%) | Run line: **Chicago White Sox** +1.5 (61% to cover) | Total 5.5: lean **OVER** (53%)
+Projected score: New York Yankees 3.51 - Chicago White Sox 2.71
+Model likes: **New York Yankees** to win (59%) | Run line: **Chicago White Sox** +1.5 (61% to cover) | Total 5.5: lean **OVER** (53%)
 
 ### New York Yankees lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 9.3 relief IP in last 2 days (ratio 1.49)_
@@ -410,18 +410,18 @@ _Facing a taxed bullpen: 9.3 relief IP in last 2 days (ratio 1.49)_
 - Anthony Volpe (R) [3-game hit streak] -- L7: 6H 0HR 5RBI 9TB (0.273 avg) -- away split: 0.258 avg
 - Austin Wells (L) -- L7: 4H 1HR 1RBI 7TB (0.25 avg) -- away split: 0.167 avg
 
-### Chicago White Sox lineup -- PROJECTED (unconfirmed)
+### Chicago White Sox lineup -- CONFIRMED
 _Facing a taxed bullpen: 9.0 relief IP in last 2 days (ratio 1.7)_
 **Probable P: Davis Martin (R)** -- L5: 23.3 IP, 13 K, 12 ER, 4.63 ERA
-- Braden Montgomery (S) [likely BABIP-driven, not a real power uptick] -- L7: 8H 0HR 2RBI 10TB (0.333 avg) -- home split: 0.289 avg
-- Miguel Vargas (R) [TOUGH MATCHUP: pitcher holds this hand to 0.192 avg-against] [4-game hit streak] -- L7: 5H 1HR 2RBI 10TB (0.179 avg) -- home split: 0.261 avg
-- Tristan Peters (L) -- L7: 2H 0HR 0RBI 2TB (0.095 avg) -- home split: 0.268 avg
-- Munetaka Murakami (L) [5-game hit streak] -- L7: 8H 2HR 6RBI 16TB (0.308 avg) -- home split: 0.225 avg
-- Chase Meidroth (R) [TOUGH MATCHUP: pitcher holds this hand to 0.192 avg-against] [3-game hit streak] -- L7: 8H 2HR 8RBI 16TB (0.32 avg) -- home split: 0.279 avg
-- Sam Antonacci (L) -- L7: 4H 0HR 0RBI 6TB (0.19 avg) -- home split: 0.295 avg
-- Andrew Benintendi (L) -- L7: 4H 0HR 3RBI 4TB (0.19 avg) -- home split: 0.228 avg
-- Colson Montgomery (L) -- L7: 6H 1HR 5RBI 9TB (0.222 avg) -- home split: 0.232 avg
-- Randal Grichuk (R) [TOUGH MATCHUP: pitcher holds this hand to 0.192 avg-against] -- L7: 3H 0HR 1RBI 6TB (0.273 avg) -- home split: 0.243 avg
+- #1 Sam Antonacci (L) -- L7: 4H 0HR 0RBI 6TB (0.19 avg) -- home split: 0.295 avg
+- #2 Munetaka Murakami (L) [5-game hit streak] -- L7: 8H 2HR 6RBI 16TB (0.308 avg) -- home split: 0.225 avg
+- #3 Miguel Vargas (R) [TOUGH MATCHUP: pitcher holds this hand to 0.192 avg-against] [4-game hit streak] -- L7: 5H 1HR 2RBI 10TB (0.179 avg) -- home split: 0.261 avg
+- #4 Colson Montgomery (L) -- L7: 6H 1HR 5RBI 9TB (0.222 avg) -- home split: 0.232 avg
+- #5 Andrew Benintendi (L) -- L7: 4H 0HR 3RBI 4TB (0.19 avg) -- home split: 0.228 avg
+- #6 Braden Montgomery (S) [likely BABIP-driven, not a real power uptick] -- L7: 8H 0HR 2RBI 10TB (0.333 avg) -- home split: 0.289 avg
+- #7 Tristan Peters (L) -- L7: 2H 0HR 0RBI 2TB (0.095 avg) -- home split: 0.268 avg
+- #8 Chase Meidroth (R) [TOUGH MATCHUP: pitcher holds this hand to 0.192 avg-against] [3-game hit streak] -- L7: 8H 2HR 8RBI 16TB (0.32 avg) -- home split: 0.279 avg
+- #9 Drew Romo (S) -- L7: 3H 0HR 0RBI 4TB (0.136 avg) -- home split: 0.155 avg
 
 ## 2026-07-29 - Chicago Cubs @ St. Louis Cardinals (Scheduled)
 _Busch Stadium_
