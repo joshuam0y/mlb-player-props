@@ -11,6 +11,26 @@ public news RSS feed -- no paid odds API, no scraping of betting sites.
 
 _Updated with every change going forward._
 
+- **2026-07-29** -- Fixed a real bug from a full-codebase audit: the live
+  in-game tracker never started polling at all if you opened the dashboard
+  before any of today's games had thrown a first pitch (a very common case
+  -- checking props in the morning) -- it now always starts polling and
+  re-checks which games have gone live on every 30s tick, instead of
+  freezing that list once at page load.
+- **2026-07-29** -- My Bets: a leg saved without picking a search suggestion
+  (typed a name, hit submit before the dropdown resolved it) has no
+  player/team id, so it could never auto-grade and silently sat there
+  looking like an ordinary pending bet forever. Now shows a distinct
+  "UNRESOLVED" badge (hover for why) so it's obvious it needs to be
+  deleted and re-added correctly.
+- **2026-07-29** -- Smaller fixes from the same audit: `latest.md`'s Top
+  Unders list was mislabeling every entry's hit rate as "X% over" instead
+  of the correct "(100-X)% under"; the strike-zone chart's "current pitch"
+  ring highlight never actually rendered (an SVG presentation attribute
+  can't resolve a CSS variable); the glossary said 100,000 simulation
+  trials instead of the real 1,000,000; home/away splits didn't exclude
+  today's own game like every other rolling stat does; and a dead unused
+  CSS selector was removed.
 - **2026-07-29** -- Trimmed extraneous words from every game card's picks
   line and badges: "Projected score:" -> "Projected:", "to win"/"to cover"/
   "lean"/"leaned" dropped (team/line/side already say it), and "LINEUP

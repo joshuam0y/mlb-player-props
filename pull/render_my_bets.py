@@ -414,14 +414,29 @@ function tileHtml(value, label) {{
   return '<div class="stat-tile"><div class="stat-value">' + value + '</div><div class="stat-label">' + escapeHtml(label) + '</div></div>';
 }}
 
-function badgeHtml(label, kind) {{
-  return '<span class="badge badge-' + kind + '">' + escapeHtml(label) + '</span>';
+function badgeHtml(label, kind, title) {{
+  return '<span class="badge badge-' + kind + '"' + (title ? ' title="' + escapeHtml(title) + '"' : '') + '>' + escapeHtml(label) + '</span>';
+}}
+
+// A leg submitted without ever picking an autocomplete suggestion (typed a
+// name, then hit "Add bet" before clicking a result) has no player_id/
+// team_id -- allowed through deliberately (see the submit handler's own
+// comment) rather than blocking submission, but it means sync_bets_firestore.py's
+// grading functions bail out on it forever (their very first guard is
+// "not leg.player_id" / "not leg.team_id"). Without this, it just sat there
+// looking exactly like an ordinary PENDING bet with no hint it would never
+// resolve on its own.
+function legIsUnresolved(leg) {{
+  return leg.kind === 'player' ? !leg.player_id : !leg.team_id;
 }}
 
 function legStatusBadge(leg) {{
   if (leg.status === 'hit') return badgeHtml('HIT', 'hit');
   if (leg.status === 'miss') return badgeHtml('MISS', 'miss');
   if (leg.dnp) return badgeHtml('DNP', 'dnp');
+  if (legIsUnresolved(leg)) {{
+    return badgeHtml('UNRESOLVED', 'alert', 'This leg was saved without picking a search suggestion, so it can\\'t be auto-graded -- delete and re-add it, picking a result from the dropdown this time.');
+  }}
   return badgeHtml('PENDING', 'projected');
 }}
 

@@ -41,7 +41,7 @@ NOTES_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "out
 
 STYLE = """
 <style>
-  :root, .viz-root {
+  :root {
     color-scheme: light;
     --surface-1: #ffffff; --surface-2: #f1f4f9; --surface-3: #e8edf5;
     --text-primary: #0b1e33; --text-secondary: #48566b; --text-muted: #8592a6;
@@ -481,6 +481,13 @@ STYLE = """
   .pitch-dot-strike { fill: var(--status-critical); background: var(--status-critical); }
   .pitch-dot-inplay { fill: var(--status-good); background: var(--status-good); }
   .pitch-dot-other { fill: var(--text-muted); background: var(--text-muted); }
+  /* The most recent pitch's ring highlight -- a real CSS class, not the
+     inline stroke="var(--text-primary)" SVG presentation attribute this
+     used to be: presentation attributes take a literal <paint> value, not
+     a CSS custom property, so that never actually resolved and every dot
+     silently fell back to .pitch-dot's own thin stroke above (the larger
+     radius was the only visible difference). */
+  .pitch-dot-current { stroke: var(--text-primary); stroke-width: 2; }
 
   .pitch-seq { margin-top: 10px; padding-top: 8px; border-top: 1px dashed var(--border); display: flex; flex-direction: column; gap: 4px; }
   .pitch-seq-heading { font-size: 11px; font-weight: 700; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.04em; margin-bottom: 2px; }
@@ -841,7 +848,14 @@ function initTheme() {
 // which is far too slow for "is this at-bat still going." Only ever reads
 // from MLB's API; never writes anything, so there's no auth/key needed.
 const LIVE_POLL_MS = 30000;
-let liveTrackedEls = [];
+
+function gameHasStarted(el) {
+  const timeEl = el.querySelector('.game-time');
+  const t = timeEl ? timeEl.dataset.utc : null;
+  if (!t) return false;
+  const startMs = new Date(t).getTime();
+  return !isNaN(startMs) && startMs <= Date.now(); // don't waste requests on a game that hasn't started yet
+}
 
 function escapeHtml(s) {
   return String(s).replace(/[&<>"']/g, function (c) {
@@ -859,25 +873,23 @@ function playerPhotoHtml(id) {
 }
 
 function initLiveTracker() {
-  const now = Date.now();
-  const hasStarted = function (el) {
-    const timeEl = el.querySelector('.game-time');
-    const t = timeEl ? timeEl.dataset.utc : null;
-    if (!t) return false;
-    const startMs = new Date(t).getTime();
-    return !isNaN(startMs) && startMs <= now; // don't waste requests on a game that hasn't started yet
-  };
   const allCards = Array.from(document.querySelectorAll('details.game-card[data-game-pk]'));
-  liveTrackedEls = allCards.filter(function (el) { return el.dataset.final !== 'true' && hasStarted(el); });
   // A game already Final as of this build still gets exactly ONE poll of
-  // MLB's real feed (not added to the recurring liveTrackedEls -- no point
-  // re-polling a decided game every 30s forever). Our own server-rendered
-  // box score only has a container for players who had a prop projection
-  // to begin with (the starting lineup + probable pitcher) -- a reliever or
-  // pinch-hitter who never got one needs this one real fetch for
-  // updatePlayerBoxScores' subs-list handling to ever see them.
-  allCards.filter(function (el) { return el.dataset.final === 'true' && hasStarted(el); }).forEach(pollLiveGame);
-  if (!liveTrackedEls.length) return;
+  // MLB's real feed (not part of the recurring pollAllLiveGames sweep below
+  // -- no point re-polling a decided game every 30s forever). Our own
+  // server-rendered box score only has a container for players who had a
+  // prop projection to begin with (the starting lineup + probable pitcher)
+  // -- a reliever or pinch-hitter who never got one needs this one real
+  // fetch for updatePlayerBoxScores' subs-list handling to ever see them.
+  allCards.filter(function (el) { return el.dataset.final === 'true' && gameHasStarted(el); }).forEach(pollLiveGame);
+  // Always start the recurring poll, even if every game is still Scheduled
+  // right now -- pollAllLiveGames() re-checks which cards have started on
+  // every tick instead of trusting a list frozen at page-load time. That
+  // used to matter a lot: a morning visit (every game still hours from
+  // first pitch) made the old liveTrackedEls list empty, which returned
+  // here before setInterval/visibilitychange were ever registered -- so a
+  // tab left open all day never picked up games that went live later
+  // without a manual reload.
   pollAllLiveGames();
   setInterval(pollAllLiveGames, LIVE_POLL_MS);
   // A backgrounded tab shouldn't keep polling every game on its own timer;
@@ -890,7 +902,14 @@ function initLiveTracker() {
 
 function pollAllLiveGames() {
   if (document.visibilityState === 'hidden') return;
-  liveTrackedEls.forEach(pollLiveGame);
+  document.querySelectorAll('details.game-card[data-game-pk]').forEach(function (el) {
+    // data-final ones are handled by the one-time poll in initLiveTracker;
+    // pollLiveGame's own data-live-done check (below) already skips a game
+    // that went Final *during* this session, so re-checking gameHasStarted
+    // here is the only additional filter this recurring sweep needs.
+    if (el.dataset.final === 'true' || !gameHasStarted(el)) return;
+    pollLiveGame(el);
+  });
 }
 
 function pollLiveGame(el) {
@@ -1219,8 +1238,7 @@ function renderStrikeZone(currentPlay) {
       const x = toX(c.pX), y = toY(c.pZ);
       const isLast = i === pitchEvents.length - 1;
       return (
-        '<circle cx="' + x + '" cy="' + y + '" r="' + (isLast ? 8 : 7) + '" class="pitch-dot ' + cls + '"' +
-        (isLast ? ' stroke="var(--text-primary)" stroke-width="2"' : '') + '></circle>' +
+        '<circle cx="' + x + '" cy="' + y + '" r="' + (isLast ? 8 : 7) + '" class="pitch-dot ' + cls + (isLast ? ' pitch-dot-current' : '') + '"></circle>' +
         '<text x="' + x + '" y="' + y + '" class="pitch-dot-num" text-anchor="middle" dominant-baseline="central">' + (i + 1) + '</text>'
       );
     })
@@ -1533,7 +1551,7 @@ GLOSSARY_HTML = """
     <dt>Hit rate (in the prop breakdown)</dt>
     <dd>Out of this player's recent games, the percentage where they went OVER a given number. E.g. "80% over 1.5 total bases" means 8 of their last 10 games had 2+ total bases. We don't pull actual FanDuel/Sleeper lines, so compare this rate to whatever number the app shows you. In the bar chart, the dashed line marks that threshold -- green bars cleared it, red bars didn't -- and hovering a bar shows the exact number and date.</dd>
     <dt>Moneyline / Run line / Total pick</dt>
-    <dd>Moneyline = which team our simulation (100,000 Monte Carlo trials per game) thinks is more likely to win outright. Run line = the standard MLB spread (always +/-1.5 runs, whichever side is the moneyline favorite) and which side is more likely to cover it. Total = the projected combined-runs line (the median of the simulated outcomes, rounded to a half-run so it can't push) and whether the model leans over or under it. All three come from the same simulation, which uses each team's season-long scoring record (home/away split), the probable starters' season stats, actual bullpen quality plus recent bullpen fatigue, and -- once a lineup is confirmed -- a small adjustment for how those specific 9 hitters have actually been hitting lately.</dd>
+    <dd>Moneyline = which team our simulation (1,000,000 Monte Carlo trials per game) thinks is more likely to win outright. Run line = the standard MLB spread (always +/-1.5 runs, whichever side is the moneyline favorite) and which side is more likely to cover it. Total = the projected combined-runs line (the median of the simulated outcomes, rounded to a half-run so it can't push) and whether the model leans over or under it. All three come from the same simulation, which uses each team's season-long scoring record (home/away split), the probable starters' season stats, actual bullpen quality plus recent bullpen fatigue, and -- once a lineup is confirmed -- a small adjustment for how those specific 9 hitters have actually been hitting lately.</dd>
     <dt>Why does the +1.5 underdog get picked so often?</dt>
     <dd>Because that's genuinely how MLB run lines behave, not a bug: most games are decided by 1 run, so "lose by only 1" (which still covers +1.5) is a much lower bar than "win by 2+" (needed to cover -1.5). Real sportsbooks don't change the 1.5 number for this -- they price it in with worse moneyline odds on the +1.5 side. Since this project doesn't pull real odds, a run-line pick here is a directional lean only, not a claim that it's a great-value bet.</dd>
   </dl>

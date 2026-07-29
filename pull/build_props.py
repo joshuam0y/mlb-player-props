@@ -488,11 +488,14 @@ def pitching_rolling(conn, player_id, n, as_of_date=None):
     }
 
 
-def home_away_split(conn, table, player_id, is_home):
+def home_away_split(conn, table, player_id, is_home, as_of_date=None):
+    """as_of_date restricts to games strictly before it, same reasoning as batting_rolling() -- every other rolling-stat helper in this file takes this to exclude today's own (possibly still in-progress, or same-day-synced) game; this one didn't, so a home/away split could silently include today's result the moment it synced."""
     cols = BATTING_COUNT_COLS if table == "batting_game_logs" else PITCHING_COUNT_COLS
+    date_frag = " AND date < ?" if as_of_date else ""
+    params = (player_id, CURRENT_SEASON, 1 if is_home else 0, as_of_date) if as_of_date else (player_id, CURRENT_SEASON, 1 if is_home else 0)
     rows = conn.execute(
-        f"SELECT * FROM {table} WHERE player_id = ? AND season = ? AND is_home = ?",
-        (player_id, CURRENT_SEASON, 1 if is_home else 0),
+        f"SELECT * FROM {table} WHERE player_id = ? AND season = ? AND is_home = ?{date_frag}",
+        params,
     ).fetchall()
     if not rows:
         return None
@@ -835,8 +838,8 @@ def build_batter_entry(conn, player_id, opp_hand, opp_pitcher_id, is_home_game, 
         "matchup": matchup,
         "home_away": {
             "this_game": "home" if is_home_game else "away",
-            "home": home_away_split(conn, "batting_game_logs", player_id, True),
-            "away": home_away_split(conn, "batting_game_logs", player_id, False),
+            "home": home_away_split(conn, "batting_game_logs", player_id, True, as_of_date=as_of_date),
+            "away": home_away_split(conn, "batting_game_logs", player_id, False, as_of_date=as_of_date),
         },
         "headlines": recent_headlines(conn, player_id),
         "prop_categories": recent_categories,
@@ -899,8 +902,8 @@ def build_pitcher_entry(conn, player_id, team_id, is_home_game=None, game_pk=Non
         "form_trend": form_trend_value,
         "home_away": {
             "this_game": "home" if is_home_game else "away",
-            "home": home_away_split(conn, "pitching_game_logs", player_id, True),
-            "away": home_away_split(conn, "pitching_game_logs", player_id, False),
+            "home": home_away_split(conn, "pitching_game_logs", player_id, True, as_of_date=as_of_date),
+            "away": home_away_split(conn, "pitching_game_logs", player_id, False, as_of_date=as_of_date),
         },
         "splits_vs_lhb": hand_splits(conn, "pitching_splits", player_id, "L"),
         "splits_vs_rhb": hand_splits(conn, "pitching_splits", player_id, "R"),
@@ -1896,7 +1899,7 @@ def build_report(conn, days_ahead=2):
     }
 
 
-def _render_pick_list(lines, subheading, picks):
+def _render_pick_list(lines, subheading, picks, direction):
     if not picks:
         return
     lines.append(f"### {subheading}")
@@ -1904,12 +1907,19 @@ def _render_pick_list(lines, subheading, picks):
         cat_txt = ""
         if pick["best_category"]:
             c = pick["best_category"]
-            cat_txt = f" -- try {c['label']}: {c['pct']}% over {c['line']} recently (vs. {c['n']}-game sample)"
+            # best_category's own pct is always the raw OVER rate regardless
+            # of this list's direction -- flip it for unders (same fix
+            # render_dashboard.py's _pick_card_html already applies), or a
+            # Top Unders entry here would print something like "30% over
+            # 1.5 recently" for what's actually a 70%-under pick.
+            verb = "over" if direction == "over" else "under"
+            pct = c["pct"] if direction == "over" else 100 - c["pct"]
+            cat_txt = f" -- try {c['label']}: {pct}% {verb} {c['line']} recently (vs. {c['n']}-game sample)"
         lines.append(f"- **{pick['name']}** ({pick['team']} vs {pick['opponent']}): {', '.join(pick['reasons'])}{cat_txt}")
     lines.append("")
 
 
-def _render_picks_section(lines, heading, picks):
+def _render_picks_section(lines, heading, picks, direction):
     """
     `picks` is {"batters": [...], "pitchers": [...]} -- rendered as two
     separately-ranked lists rather than one merged list, since batter and
@@ -1918,14 +1928,14 @@ def _render_picks_section(lines, heading, picks):
     if not picks or not (picks.get("batters") or picks.get("pitchers")):
         return
     lines.append(f"## {heading}")
-    _render_pick_list(lines, "Batters", picks.get("batters"))
-    _render_pick_list(lines, "Pitchers", picks.get("pitchers"))
+    _render_pick_list(lines, "Batters", picks.get("batters"), direction)
+    _render_pick_list(lines, "Pitchers", picks.get("pitchers"), direction)
 
 
 def render_markdown(report):
     lines = [f"# MLB Player Props Context Report", f"_Generated {report['generated_at']}_", ""]
-    _render_picks_section(lines, "Today's Top Overs", report.get("top_overs"))
-    _render_picks_section(lines, "Today's Top Unders", report.get("top_unders"))
+    _render_picks_section(lines, "Today's Top Overs", report.get("top_overs"), "over")
+    _render_picks_section(lines, "Today's Top Unders", report.get("top_unders"), "under")
     for g in report["games"]:
         lines.append(f"## {g['date']} - {g['away']['team_name']} @ {g['home']['team_name']} ({g['status']})")
         park_note = f" [{g['park_factor']}-friendly park]" if g["park_factor"] != "neutral" else ""
