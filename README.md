@@ -11,6 +11,10 @@ public news RSS feed -- no paid odds API, no scraping of betting sites.
 
 _Updated with every change going forward._
 
+- **2026-07-29** -- Added a favorites feature for props on the main
+  dashboard -- a heart-toggle on every batter/pitcher and Top Overs/Unders
+  pick card, persisted per-browser (localStorage, no account needed), with
+  a floating panel to jump straight to a favorited player's expanded row.
 - **2026-07-29** -- Added profit boost tokens (20/25/30/50%, applied to
   the profit portion only) and a "2-up early win" token to My Bets -- a
   Moneyline pick with the token locks in a win the instant the team leads
