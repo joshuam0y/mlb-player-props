@@ -25,6 +25,7 @@ it reflects the latest data.
 
 import argparse
 import json
+import math
 import os
 from datetime import datetime, timedelta, timezone
 
@@ -272,8 +273,20 @@ RECENT_WEIGHT = 0.4  # how much of the projected line comes from recent form vs.
 
 
 def round_to_half(x):
-    """Sportsbook-style line: always ends in .5 (never a whole number), so a push is impossible."""
-    return round(x - 0.5) + 0.5
+    """
+    Sportsbook-style line: always ends in .5 (never a whole number), so a
+    push is impossible. round(x - 0.5) + 0.5 looked equivalent but isn't:
+    whenever x lands exactly on a whole number, x - 0.5 hits an exact .5
+    tie, and Python's round() breaks .5 ties to the nearest EVEN integer
+    ("banker's rounding") -- silently rounding down for an odd x and up for
+    an even one, for no reason connected to the actual stat. Confirmed as a
+    real, always-on bug for game_model.py's own equivalent function (same
+    formula, called with an always-whole-number simulated median) -- fixed
+    there too. Rare to actually hit here (avg is a real weighted average,
+    essentially never landing on an exact whole number), but the same
+    latent flaw, so fixed the same way for consistency.
+    """
+    return math.floor(x) + 0.5
 
 
 def _per_game_avg(rolling, stat):

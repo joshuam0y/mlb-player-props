@@ -438,8 +438,23 @@ def _sample_neg_binomial(mean, dispersion_r, rng):
 
 
 def _round_to_half(x):
-    """Sportsbook-style line: always ends in .5 (never a whole number), so a push is impossible."""
-    return round(x - 0.5) + 0.5
+    """
+    Sportsbook-style line: always ends in .5 (never a whole number), so a
+    push is impossible. The simulated median fed into this from simulate()
+    below is always a whole number (a literal run count), which put x - 0.5
+    on an exact .5 tie EVERY time -- Python's round() breaks .5 ties to the
+    nearest EVEN integer ("banker's rounding"), which silently alternated
+    which side of the median the line landed on based on whether the
+    median happened to be odd or even, nothing to do with the actual
+    distribution. Confirmed real case: a 5-run median (odd) rounded DOWN to
+    4.5, giving a 61%/39% over/under split instead of the fair ~49%/51%
+    split 5.5 actually gives -- the tie mass sitting AT the median (usually
+    the single most common value in a unimodal distribution) needs to land
+    on the UNDER side of the line consistently, not get silently included
+    or excluded based on parity. math.floor(x) + 0.5 rounds any half-integer
+    tie up instead, with no banker's-rounding ambiguity.
+    """
+    return math.floor(x) + 0.5
 
 
 def simulate(projection, n_trials=1000000, spread_line=1.5, total_line=None, seed=None):
