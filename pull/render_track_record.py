@@ -174,11 +174,35 @@ def _projection_examples_html(examples):
     return "".join(rows)
 
 
+def _day_tiles_html(day):
+    """
+    The exact same 8 stat tiles as the "All days" cumulative row at the
+    bottom of the page, computed for just this ONE day -- reuses the same
+    tile helpers (they already handle a missing/zero-graded bucket
+    gracefully), so a day with nothing graded yet in some category just
+    shows the same "&mdash;" placeholder the cumulative tiles already do,
+    not a crash or a blank gap.
+    """
+    games = day.get("games") or {}
+    return (
+        _picks_tile_html("Top Overs hit rate", day.get("top_overs"))
+        + _picks_tile_html("Top Unders hit rate", day.get("top_unders"))
+        + _game_pick_tile_html("Moneyline hit rate", games.get("moneyline"))
+        + _game_pick_tile_html("Run line hit rate", games.get("run_line"))
+        + _game_pick_tile_html("Total (O/U) hit rate", games.get("total"))
+        + _score_accuracy_tile(games.get("score_accuracy"))
+        + _game_pick_tile_html("Predicted-lean hit rate", day.get("matchup_leans"))
+        + _game_pick_tile_html("Best-prop star hit rate", day.get("best_prop_stars"))
+    )
+
+
 def _day_card_html(day, open_by_default):
     date = day["date"]
     to, tu = day["top_overs"], day["top_unders"]
     to_graded = to["hits"] + to["misses"]
     tu_graded = tu["hits"] + tu["misses"]
+    ml = day.get("matchup_leans") or {}
+    ml_graded = (ml.get("hits") or 0) + (ml.get("misses") or 0)
     open_attr = " open" if open_by_default else ""
     games = day.get("games") or {}
     return f"""
@@ -187,10 +211,12 @@ def _day_card_html(day, open_by_default):
         <span class="matchup-title">{html.escape(date)}</span>
         <span class="game-meta">
           Top Overs: {_pct(to["hit_rate"])} ({to["hits"]}/{to_graded}) &middot;
-          Top Unders: {_pct(tu["hit_rate"])} ({tu["hits"]}/{tu_graded})
+          Top Unders: {_pct(tu["hit_rate"])} ({tu["hits"]}/{tu_graded}) &middot;
+          Predicted-lean: {_pct(ml.get("hit_rate"))} ({ml.get("hits", 0)}/{ml_graded})
         </span>
       </summary>
       <div class="game-body">
+        <div class="stat-row">{_day_tiles_html(day)}</div>
         <div class="picks-heading">Top Overs picks</div>
         {_pick_list_html(to)}
         <div class="picks-heading" style="margin-top:14px">Top Unders picks</div>
@@ -201,7 +227,7 @@ def _day_card_html(day, open_by_default):
         {_games_table("Game picks that day (moneyline / run line / total)", games)}
         <div class="picks-heading" style="margin-top:16px">Projected score vs actual, that day</div>
         {_game_score_examples_html(games.get("score_examples"))}
-        <div class="picks-heading" style="margin-top:16px">"Predicted: X" matchup-lean picks, that day (biggest misses/hits sample, not every pick)</div>
+        <div class="picks-heading" style="margin-top:16px">"Predicted: X" matchup-lean picks, that day: {_pct(ml.get("hit_rate"))} ({ml.get("hits", 0)}/{ml_graded}) -- biggest misses/hits sample below, not every pick</div>
         {_pick_list_html(day.get("matchup_leans"), key="examples")}
         <div class="picks-heading" style="margin-top:16px">Best-prop star picks, that day</div>
         {_pick_list_html(day.get("best_prop_stars"), key="examples")}
