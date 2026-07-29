@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-07-29T17:41:44.823297+00:00_
+_Generated 2026-07-29T18:44:10.446178+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -57,10 +57,9 @@ _Generated 2026-07-29T17:41:44.823297+00:00_
 - **Trevor Rogers** (Baltimore Orioles vs Detroit Tigers): allowing fewer runs than usual over his last few starts -- try Runs Allowed: 80% under 1.5 recently (vs. 5-game sample)
 - **Kyle Hart** (San Diego Padres vs Colorado Rockies): allowing fewer runs than usual over his last few starts -- try Outs Recorded: 80% under 3.5 recently (vs. 5-game sample)
 
-## 2026-07-29 - Philadelphia Phillies @ Miami Marlins (In Progress)
+## 2026-07-29 - Philadelphia Phillies @ Miami Marlins (Game Over)
 _loanDepot park [pitcher-friendly park]_
-Projected score: Philadelphia Phillies 3.96 - Miami Marlins 3.06
-Model likes: **Philadelphia Phillies** to win (59%) | Run line: **Miami Marlins** +1.5 (59% to cover) | Total 6.5: lean **OVER** (50%)
+Final: Philadelphia Phillies 6 - Miami Marlins 8
 
 ### Philadelphia Phillies lineup -- CONFIRMED
 _Facing a taxed bullpen: 6.0 relief IP in last 2 days (ratio 1.2)_
@@ -184,7 +183,7 @@ _Facing a rested bullpen: 2.7 relief IP in last 2 days (ratio 0.6)_
 ## 2026-07-29 - Baltimore Orioles @ Detroit Tigers (In Progress)
 _Comerica Park [pitcher-friendly park]_
 Projected score: Baltimore Orioles 2.93 - Detroit Tigers 3.61
-Model likes: **Detroit Tigers** to win (57%) | Run line: **Baltimore Orioles** +1.5 (61% to cover) | Total 6.5: lean **UNDER** (55%)
+Model likes: **Detroit Tigers** to win (57%) | Run line: **Baltimore Orioles** +1.5 (62% to cover) | Total 6.5: lean **UNDER** (55%)
 
 ### Baltimore Orioles lineup -- CONFIRMED
 _Facing a taxed bullpen: 6.7 relief IP in last 2 days (ratio 1.58)_
@@ -215,7 +214,7 @@ _Facing a taxed bullpen: 7.3 relief IP in last 2 days (ratio 1.56)_
 ## 2026-07-29 - Milwaukee Brewers @ San Francisco Giants (Pre-Game)
 _Oracle Park [pitcher-friendly park]_
 Projected score: Milwaukee Brewers 4.01 - San Francisco Giants 3.59
-Model likes: **Milwaukee Brewers** to win (54%) | Run line: **San Francisco Giants** +1.5 (63% to cover) | Total 7.5: lean **UNDER** (55%)
+Model likes: **Milwaukee Brewers** to win (54%) | Run line: **San Francisco Giants** +1.5 (63% to cover) | Total 7.5: lean **UNDER** (54%)
 
 ### Milwaukee Brewers lineup -- CONFIRMED
 _Facing a taxed bullpen: 8.3 relief IP in last 2 days (ratio 2.14)_
@@ -272,10 +271,10 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.52)_
 - #8 Xander Bogaerts (R) [TOUGH MATCHUP: pitcher holds this hand to 0.167 avg-against] -- L7: 4H 0HR 1RBI 5TB (0.174 avg) -- home split: 0.212 avg
 - #9 Freddy Fermin (R) [TOUGH MATCHUP: pitcher holds this hand to 0.167 avg-against] -- L7: 4H 0HR 0RBI 5TB (0.286 avg) -- home split: 0.145 avg
 
-## 2026-07-29 - Texas Rangers @ Tampa Bay Rays (Scheduled)
+## 2026-07-29 - Texas Rangers @ Tampa Bay Rays (Pre-Game)
 _Tropicana Field_
-Projected score: Texas Rangers 3.62 - Tampa Bay Rays 4.55
-Model likes: **Tampa Bay Rays** to win (58%) | Run line: **Texas Rangers** +1.5 (58% to cover) | Total 7.5: lean **OVER** (51%)
+Projected score: Texas Rangers 3.62 - Tampa Bay Rays 4.36
+Model likes: **Tampa Bay Rays** to win (57%) | Run line: **Texas Rangers** +1.5 (59% to cover) | Total 7.5: lean **UNDER** (51%)
 
 ### Texas Rangers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.3 relief IP in last 2 days (ratio 0.64)_
@@ -290,18 +289,18 @@ _Facing a rested bullpen: 3.3 relief IP in last 2 days (ratio 0.64)_
 - Joc Pederson (L) [9-game hit streak] -- L7: 11H 3HR 5RBI 23TB (0.379 avg) -- away split: 0.302 avg
 - Elias Díaz (R) -- L7: 4H 0HR 0RBI 5TB (0.167 avg) -- away split: 0.326 avg
 
-### Tampa Bay Rays lineup -- PROJECTED (unconfirmed)
+### Tampa Bay Rays lineup -- CONFIRMED
 _Facing a taxed bullpen: 6.0 relief IP in last 2 days (ratio 1.35)_
 **Probable P: Casey Legumina (R)** -- L5: 7.0 IP, 5 K, 5 ER, 6.43 ERA
-- Junior Caminero (R) -- L7: 8H 0HR 3RBI 12TB (0.286 avg) -- home split: 0.306 avg
-- Yandy Díaz (R) -- L7: 5H 1HR 4RBI 9TB (0.167 avg) -- home split: 0.351 avg
-- Chandler Simpson (L) [likely BABIP-driven, not a real power uptick] -- L7: 11H 0HR 3RBI 12TB (0.44 avg) -- home split: 0.284 avg
-- Jonathan Aranda (L) [3-game hit streak] -- L7: 7H 0HR 1RBI 7TB (0.226 avg) -- home split: 0.309 avg
-- Richie Palacios (L) -- L7: 2H 1HR 3RBI 5TB (0.111 avg) -- home split: 0.234 avg
-- Taylor Walls (S) -- L7: 5H 0HR 0RBI 7TB (0.278 avg) -- home split: 0.234 avg
-- Cedric Mullins (L) -- L7: 6H 1HR 3RBI 13TB (0.222 avg) -- home split: 0.207 avg
-- Ben Williamson (R) [likely BABIP-driven, not a real power uptick] -- L7: 7H 0HR 2RBI 8TB (0.333 avg) -- home split: 0.252 avg
-- Victor Mesa Jr. (L) -- L7: 6H 3HR 5RBI 15TB (0.261 avg) -- home split: 0.231 avg
+- #1 Yandy Díaz (R) -- L7: 5H 1HR 4RBI 9TB (0.167 avg) -- home split: 0.351 avg
+- #2 Jonathan Aranda (L) [3-game hit streak] -- L7: 7H 0HR 1RBI 7TB (0.226 avg) -- home split: 0.309 avg
+- #3 Junior Caminero (R) -- L7: 8H 0HR 3RBI 12TB (0.286 avg) -- home split: 0.306 avg
+- #4 Ryan Vilade (R) -- L7: 5H 2HR 5RBI 12TB (0.263 avg) -- home split: 0.263 avg
+- #5 Jonny DeLuca (R) -- L7: 7H 1HR 5RBI 12TB (0.269 avg) -- home split: 0.215 avg
+- #6 Chandler Simpson (L) [likely BABIP-driven, not a real power uptick] -- L7: 11H 0HR 3RBI 12TB (0.44 avg) -- home split: 0.284 avg
+- #7 Ben Williamson (R) [likely BABIP-driven, not a real power uptick] -- L7: 7H 0HR 2RBI 8TB (0.333 avg) -- home split: 0.252 avg
+- #8 Nick Fortes (R) -- L7: 12H 2HR 8RBI 20TB (0.522 avg) -- home split: 0.263 avg
+- #9 Taylor Walls (S) -- L7: 5H 0HR 0RBI 7TB (0.278 avg) -- home split: 0.234 avg
 
 ## 2026-07-29 - Atlanta Braves @ New York Mets (Scheduled)
 _Citi Field_
@@ -910,7 +909,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-07-31 - Philadelphia Phillies @ Baltimore Orioles (Scheduled)
 _Oriole Park at Camden Yards_
 Projected score: Philadelphia Phillies 3.09 - Baltimore Orioles 4.45
-Model likes: **Baltimore Orioles** to win (63%) | Run line: **Philadelphia Phillies** +1.5 (54% to cover) | Total 7.5: lean **UNDER** (55%)
+Model likes: **Baltimore Orioles** to win (63%) | Run line: **Philadelphia Phillies** +1.5 (54% to cover) | Total 6.5: lean **OVER** (55%)
 
 ### Philadelphia Phillies lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -940,7 +939,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-07-31 - St. Louis Cardinals @ Toronto Blue Jays (Scheduled)
 _Rogers Centre_
 Projected score: St. Louis Cardinals 4.97 - Toronto Blue Jays 3.41
-Model likes: **St. Louis Cardinals** to win (63%) | Run line: **Toronto Blue Jays** +1.5 (52% to cover) | Total 7.5: lean **OVER** (53%)
+Model likes: **St. Louis Cardinals** to win (64%) | Run line: **Toronto Blue Jays** +1.5 (52% to cover) | Total 7.5: lean **OVER** (53%)
 
 ### St. Louis Cardinals lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -970,7 +969,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-07-31 - Chicago White Sox @ Tampa Bay Rays (Scheduled)
 _Tropicana Field_
 Projected score: Chicago White Sox 3.97 - Tampa Bay Rays 4.49
-Model likes: **Tampa Bay Rays** to win (55%) | Run line: **Chicago White Sox** +1.5 (61% to cover) | Total 7.5: lean **OVER** (54%)
+Model likes: **Tampa Bay Rays** to win (54%) | Run line: **Chicago White Sox** +1.5 (61% to cover) | Total 7.5: lean **OVER** (54%)
 
 ### Chicago White Sox lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1121,7 +1120,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-07-31 - Kansas City Royals @ Colorado Rockies (Scheduled)
 _Coors Field [hitter-friendly park]_
 Projected score: Kansas City Royals 5.57 - Colorado Rockies 6.01
-Model likes: **Colorado Rockies** to win (53%) | Run line: **Kansas City Royals** +1.5 (59% to cover) | Total 10.5: lean **OVER** (52%)
+Model likes: **Colorado Rockies** to win (53%) | Run line: **Kansas City Royals** +1.5 (59% to cover) | Total 10.5: lean **OVER** (53%)
 
 ### Kansas City Royals lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1149,11 +1148,12 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 
 ## 2026-07-31 - Milwaukee Brewers @ Los Angeles Angels (Scheduled)
 _Angel Stadium_
-Projected score: Milwaukee Brewers 4.89 - Los Angeles Angels 3.16
-Model likes: **Milwaukee Brewers** to win (65%) | Run line: **Los Angeles Angels** +1.5 (51% to cover) | Total 7.5: lean **UNDER** (50%)
+Projected score: Milwaukee Brewers 4.89 - Los Angeles Angels 2.95
+Model likes: **Milwaukee Brewers** to win (68%) | Run line: **Milwaukee Brewers** -1.5 (52% to cover) | Total 7.5: lean **UNDER** (52%)
 
 ### Milwaukee Brewers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
+**Probable P: Shane Drohan (L)** -- L5: 30.0 IP, 30 K, 14 ER, 4.2 ERA
 - Jackson Chourio (R) [7-game hit streak] -- L7: 9H 0HR 3RBI 11TB (0.29 avg) -- away split: 0.284 avg
 - Garrett Mitchell (L) -- L7: 3H 0HR 1RBI 4TB (0.136 avg) -- away split: 0.256 avg
 - William Contreras (R) -- L7: 6H 0HR 0RBI 9TB (0.214 avg) -- away split: 0.281 avg
