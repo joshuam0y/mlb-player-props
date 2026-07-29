@@ -11,6 +11,16 @@ public news RSS feed -- no paid odds API, no scraping of betting sites.
 
 _Updated with every change going forward._
 
+- **2026-07-29** -- Home Runs UNDER can no longer win a Top Overs/Unders or
+  "Best prop" pick (near-guaranteed, low-value -- matches the exclusion
+  "Predicted: X" already had, extended to the picks that were missing it).
+  Other UNDER categories (Walks, RBIs, Runs Scored) are unaffected.
+- **2026-07-29** -- Track Record's per-day recap now shows player+stat-line
+  detail for batter trend/matchup and pitcher form (who landed HOT/COLD/
+  etc. and what they did), plus which specific games hit/missed on
+  moneyline/run line/total. Also surgically backfilled 2026-07-25's frozen
+  archive, which predated Predicted-lean/Best-prop star and showed 0
+  graded picks for both -- diff-verified as touching only those two fields.
 - **2026-07-29** -- Track Record now shows the full 8-stat recap (Top
   Overs/Unders, Moneyline, Run line, Total O/U, score accuracy,
   Predicted-lean, Best-prop star) for every individual day, not just the
