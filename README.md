@@ -11,6 +11,10 @@ public news RSS feed -- no paid odds API, no scraping of betting sites.
 
 _Updated with every change going forward._
 
+- **2026-07-29** -- Fixed each game card's time/status/venue line wrapping
+  onto a second line -- it now truncates with an ellipsis instead, keeping
+  every collapsed card the same compact height regardless of venue name
+  length or screen width.
 - **2026-07-29** -- Fixed the dashboard defaulting to "All dates" (today +
   2 days ahead, ~40 games) on every page load -- now defaults to just
   today's slate ("All dates" is still one click away), cutting the

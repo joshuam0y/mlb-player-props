@@ -143,7 +143,16 @@
   }
   details[open] summary.game-summary::before, details[open] summary.picks-summary::before { transform: rotate(90deg); }
   .matchup-title { font-size: 14.5px; font-weight: 600; }
-  .game-meta { color: var(--text-muted); font-size: 12px; }
+  /* Always its own full-width row (like .game-line below) with nowrap +
+     ellipsis, so time/status/venue truncate instead of wrapping onto a
+     second line -- min-width:0 is required here because it's a flex item:
+     without it, flexbox's default min-width:auto floors its shrink at the
+     full (nowrap) text width, and the ellipsis never gets a chance to
+     engage. */
+  .game-meta {
+    color: var(--text-muted); font-size: 12px; width: 100%; min-width: 0;
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+  }
   .game-line { color: var(--text-secondary); font-size: 12.5px; width: 100%; margin-top: 4px; }
   .proj-score { font-weight: 600; color: var(--text-primary); }
   .proj-picks { display: flex; gap: 14px; flex-wrap: wrap; font-size: 12px; color: var(--text-secondary); margin-top: 3px; }
