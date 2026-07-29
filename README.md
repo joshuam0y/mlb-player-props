@@ -11,6 +11,13 @@ public news RSS feed -- no paid odds API, no scraping of betting sites.
 
 _Updated with every change going forward._
 
+- **2026-07-29** -- Fixed the total-runs line being silently off by a full
+  run about half the time -- Python's banker's-rounding on exact .5 ties
+  (the simulated median is always a whole run count) rounded the line down
+  for an odd median and up for an even one, producing lopsided "leans"
+  (e.g. 62% over) that were really just a rounding artifact, not a real
+  signal (user-reported and confirmed: Braves @ Mets showing "Total 4.5"
+  against a 5.88-run projection).
 - **2026-07-28** -- Added each game's local time to Top Overs/Unders pick
   cards and to My Bets (both player and team-prop legs).
 - **2026-07-28** -- Fixed the live HIT/MISS badge never appearing on a
