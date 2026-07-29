@@ -632,52 +632,55 @@ function saveFavorites(ids) {
 }
 
 function syncFavoriteButtons() {
-  const ids = loadFavorites();
+  const keys = loadFavorites();
   document.querySelectorAll('.favorite-toggle').forEach(function (btn) {
-    const pid = parseInt(btn.dataset.playerId, 10);
-    const active = ids.indexOf(pid) !== -1;
+    const key = btn.dataset.favoriteKey;
+    const active = keys.indexOf(key) !== -1;
     btn.classList.toggle('active', active);
     btn.innerHTML = active ? '&#9829;' : '&#9825;';
   });
   const countEl = document.getElementById('favorites-count');
-  if (countEl) countEl.textContent = ids.length;
+  if (countEl) countEl.textContent = keys.length;
 }
 
-function toggleFavorite(e, playerId) {
+function toggleFavorite(e, key) {
   e.stopPropagation(); // don't also trigger the row's own toggleDetail() expand/collapse
-  let ids = loadFavorites();
-  if (ids.indexOf(playerId) === -1) {
-    ids.push(playerId);
+  e.preventDefault(); // moneyline/run line/total hearts sit inside <summary>, which natively
+  // toggles the whole game card open/closed on any click -- stopPropagation alone doesn't
+  // stop that native behavior, only a JS listener further up the tree
+  let keys = loadFavorites();
+  if (keys.indexOf(key) === -1) {
+    keys.push(key);
   } else {
-    ids = ids.filter(function (id) { return id !== playerId; });
+    keys = keys.filter(function (k) { return k !== key; });
   }
-  saveFavorites(ids);
+  saveFavorites(keys);
   syncFavoriteButtons();
   renderFavoritesPanel();
 }
 
-function removeFavorite(e, playerId) {
+function removeFavorite(e, key) {
   e.stopPropagation();
-  saveFavorites(loadFavorites().filter(function (id) { return id !== playerId; }));
+  saveFavorites(loadFavorites().filter(function (k) { return k !== key; }));
   syncFavoriteButtons();
   renderFavoritesPanel();
 }
 
 function renderFavoritesPanel() {
-  const ids = loadFavorites();
+  const keys = loadFavorites();
   const listEl = document.getElementById('favorites-list');
   if (!listEl) return;
-  if (!ids.length) {
-    listEl.innerHTML = '<div class="favorite-empty">No favorites yet -- tap the heart next to any player to add one.</div>';
+  if (!keys.length) {
+    listEl.innerHTML = '<div class="favorite-empty">No favorites yet -- tap the heart next to any player or moneyline/run line/total pick to add one.</div>';
     return;
   }
-  listEl.innerHTML = ids.map(function (pid) {
-    const el = document.querySelector('[data-player-id="' + pid + '"][data-name]');
-    const name = el ? el.dataset.name : ('Player ' + pid);
+  listEl.innerHTML = keys.map(function (key) {
+    const el = document.querySelector('[data-favorite-key="' + key + '"][data-name]');
+    const name = el ? el.dataset.name : ('Not in today\\'s games (' + key + ')');
     const sub = el ? '' : '<div class="sub">Not in today\\'s games</div>';
     return (
-      '<div class="favorite-item' + (el ? '' : ' favorite-item-missing') + '" onclick="jumpToFavorite(' + pid + ')">' +
-      '<button type="button" class="favorite-item-remove" onclick="removeFavorite(event, ' + pid + ')" title="Remove favorite">&times;</button>' +
+      '<div class="favorite-item' + (el ? '' : ' favorite-item-missing') + '" onclick="jumpToFavorite(\\'' + key + '\\')">' +
+      '<button type="button" class="favorite-item-remove" onclick="removeFavorite(event, \\'' + key + '\\')" title="Remove favorite">&times;</button>' +
       '<b>' + escapeHtml(name) + '</b>' + sub + '</div>'
     );
   }).join('');
@@ -687,14 +690,15 @@ function toggleFavoritesPanel() {
   document.getElementById('favorites-panel').classList.toggle('open');
 }
 
-// "Tap into it just like the game stuff": a favorited player already on
-// the page (a game-card row or a Top Overs/Unders pick card) gets
-// scrolled to and, for a row with its own expandable detail, opened the
-// same way clicking it directly would -- reusing toggleDetail()'s own
-// row rather than re-deriving a parallel view.
-function jumpToFavorite(playerId) {
-  const row = document.querySelector('.player-row[data-player-id="' + playerId + '"], .pitcher-row[data-player-id="' + playerId + '"]');
+// "Tap into it just like the game stuff": a favorited player or team pick
+// already on the page (a game-card row, a Top Overs/Unders pick card, or
+// a moneyline/run line/total line) gets scrolled to and, for a row with
+// its own expandable detail, opened the same way clicking it directly
+// would -- reusing toggleDetail()'s own row rather than re-deriving a
+// parallel view.
+function jumpToFavorite(key) {
   document.getElementById('favorites-panel').classList.remove('open');
+  const row = document.querySelector('.player-row[data-favorite-key="' + key + '"], .pitcher-row[data-favorite-key="' + key + '"]');
   if (row) {
     const details = row.closest('details.game-card');
     if (details && !details.open) details.open = true;
@@ -705,8 +709,19 @@ function jumpToFavorite(playerId) {
     });
     return;
   }
-  const card = document.querySelector('.pick-card[data-player-id="' + playerId + '"]');
-  if (card) card.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  const card = document.querySelector('.pick-card[data-favorite-key="' + key + '"]');
+  if (card) {
+    card.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    return;
+  }
+  // A moneyline/run line/total favorite has no row of its own to expand --
+  // just open that game's card (if collapsed) and scroll to its line.
+  const teamPick = document.querySelector('[data-favorite-key="' + key + '"]');
+  if (teamPick) {
+    const details = teamPick.closest('details.game-card');
+    if (details && !details.open) details.open = true;
+    requestAnimationFrame(function () { teamPick.scrollIntoView({ behavior: 'smooth', block: 'center' }); });
+  }
 }
 function switchTeamTab(btn, side) {
   const tabsRow = btn.parentElement;
@@ -1857,9 +1872,9 @@ def _pitcher_html(p, row_id, fatigue, status, star_player_id=None):
     bullets_html = "".join(f"<li>{b}</li>" for b in bullets)
 
     return f"""
-    <div class="pitcher-line pitcher-row" data-player-id="{p["player_id"]}" data-row-id="{row_id}" data-name="{html.escape(p["name"])}" onclick="toggleDetail('{row_id}')">
+    <div class="pitcher-line pitcher-row" data-player-id="{p["player_id"]}" data-favorite-key="{p["player_id"]}" data-row-id="{row_id}" data-name="{html.escape(p["name"])}" onclick="toggleDetail('{row_id}')">
       <span class="expand-arrow"></span>{_player_photo_html(p["player_id"])}<b>{html.escape(p["name"])}</b> ({html.escape(p["pitch_hand"] or "?")}, throws) {_star_html(p["player_id"], star_player_id)}
-      <button type="button" class="favorite-toggle" data-player-id="{p["player_id"]}" onclick="toggleFavorite(event, {p["player_id"]})">&#9825;</button>
+      <button type="button" class="favorite-toggle" data-favorite-key="{p["player_id"]}" onclick="toggleFavorite(event, '{p["player_id"]}')">&#9825;</button>
       {badges}
     </div>
     {boxscore_html}
@@ -1904,11 +1919,11 @@ def _batter_rows(batters, id_prefix, status, star_player_id=None):
         boxscore_html = _batter_boxscore_html(b.get("game_result"), status, b["player_id"])
         matchup_lean_html = _matchup_lean_html(b, "batter")
         rows.append(
-            f'<tr class="player-row" data-player-id="{b["player_id"]}" data-row-id="{row_id}" data-name="{html.escape(b["name"])}" onclick="toggleDetail(\'{row_id}\')">'
+            f'<tr class="player-row" data-player-id="{b["player_id"]}" data-favorite-key="{b["player_id"]}" data-row-id="{row_id}" data-name="{html.escape(b["name"])}" onclick="toggleDetail(\'{row_id}\')">'
             f'<td data-label="Order">{order}</td>'
             f'<td data-label="Batter" class="name-cell"><span class="expand-arrow"></span>{_player_photo_html(b["player_id"])}{html.escape(b["name"])} '
             f'<span class="sub">({html.escape(b.get("position") or "?")}, {html.escape(b["bat_side"] or "?")} handed)</span> {_star_html(b["player_id"], star_player_id)}'
-            f'<button type="button" class="favorite-toggle" data-player-id="{b["player_id"]}" onclick="toggleFavorite(event, {b["player_id"]})">&#9825;</button></td>'
+            f'<button type="button" class="favorite-toggle" data-favorite-key="{b["player_id"]}" onclick="toggleFavorite(event, \'{b["player_id"]}\')">&#9825;</button></td>'
             f'<td data-label="Flags">{badges}</td>'
             f'<td data-label="Recent form">{boxscore_html}{matchup_lean_html}{html.escape(l7_txt)}<div class="sub">{season_txt}</div>{_best_prop_html(b)}</td>'
             f'<td data-label="News" class="col-news">{headline}</td></tr>'
@@ -2086,13 +2101,20 @@ def _game_line_html(g):
     if total_prob is None:
         total_prob = max(p["over_prob"], 1 - p["over_prob"])
 
+    game_pk = g["game_pk"]
+    ml_key, ml_name = f"{game_pk}:moneyline", f"{ml_team or '?'} to win"
+    rl_key, rl_name = f"{game_pk}:run_line", f"{spread_team or '?'} {spread_side}"
+    tot_key, tot_name = f"{game_pk}:total", f"Total {p['total_line']} {total_pick.upper()}"
     return f"""
     <div class="game-line">
       <span class="proj-score">Projected score: {html.escape(g["away"]["team_name"] or "?")} {away_score} &ndash; {html.escape(g["home"]["team_name"] or "?")} {home_score}</span>
       <div class="proj-picks">
-        <span>Moneyline: <b>{html.escape(ml_team or "?")}</b> to win ({round(ml_prob * 100)}%)</span>
-        <span>Run line: <b>{html.escape(spread_team or "?")} {spread_side}</b> ({round(spread_prob * 100)}% to cover)</span>
-        <span>Total {p['total_line']}: lean <b>{total_pick.upper()}</b> ({round(total_prob * 100)}%)</span>
+        <span data-favorite-key="{ml_key}" data-name="{html.escape(ml_name)}">Moneyline: <b>{html.escape(ml_team or "?")}</b> to win ({round(ml_prob * 100)}%)
+          <button type="button" class="favorite-toggle" data-favorite-key="{ml_key}" onclick="toggleFavorite(event, '{ml_key}')">&#9825;</button></span>
+        <span data-favorite-key="{rl_key}" data-name="{html.escape(rl_name)}">Run line: <b>{html.escape(spread_team or "?")} {spread_side}</b> ({round(spread_prob * 100)}% to cover)
+          <button type="button" class="favorite-toggle" data-favorite-key="{rl_key}" onclick="toggleFavorite(event, '{rl_key}')">&#9825;</button></span>
+        <span data-favorite-key="{tot_key}" data-name="{html.escape(tot_name)}">Total {p['total_line']}: lean <b>{total_pick.upper()}</b> ({round(total_prob * 100)}%)
+          <button type="button" class="favorite-toggle" data-favorite-key="{tot_key}" onclick="toggleFavorite(event, '{tot_key}')">&#9825;</button></span>
       </div>
     </div>
     """
@@ -2285,10 +2307,10 @@ def _pick_card_html(pick, rank, direction):
         else ""
     )
     return f"""
-    <div class="pick-card pick-card-{direction}" data-player-id="{pick.get("player_id")}" data-name="{html.escape(pick["name"])}"{live_attrs}>
+    <div class="pick-card pick-card-{direction}" data-player-id="{pick.get("player_id")}" data-favorite-key="{pick.get("player_id")}" data-name="{html.escape(pick["name"])}"{live_attrs}>
       <div class="pick-rank">#{rank} {tag}</div>
       <div class="pick-name">{_player_photo_html(pick.get("player_id"))}{html.escape(pick["name"])} <span class="sub">{html.escape(pick.get("position") or "?")}</span>
-        <button type="button" class="favorite-toggle" data-player-id="{pick.get("player_id")}" onclick="toggleFavorite(event, {pick.get("player_id")})">&#9825;</button>
+        <button type="button" class="favorite-toggle" data-favorite-key="{pick.get("player_id")}" onclick="toggleFavorite(event, '{pick.get("player_id")}')">&#9825;</button>
       </div>
       <div class="pick-matchup">{html.escape(pick["team"] or "?")} vs. {html.escape(pick["opponent"] or "?")}{game_time_html}</div>
       <div class="pick-badges">{"".join(badges)}</div>
