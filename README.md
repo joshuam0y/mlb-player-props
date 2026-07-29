@@ -11,6 +11,15 @@ public news RSS feed -- no paid odds API, no scraping of betting sites.
 
 _Updated with every change going forward._
 
+- **2026-07-29** -- Live in-game win probability now uses MLB's own
+  official win-probability feed (computed from real historical game-flow
+  outcomes -- score, inning, outs, baserunners) instead of a hand-rolled
+  normal-distribution approximation. Falls back to the old estimate only
+  for the handful of polls where MLB's feed doesn't have a play yet (very
+  start of a game) or that one fetch specifically fails -- labeled "(est.)"
+  only in that fallback case, plain "Win probability" otherwise. Pre-game
+  projections (Moneyline/Run line/Total, before first pitch) are
+  unaffected -- there's no "game flow" yet for them to react to.
 - **2026-07-29** -- Fixed the rest of the full-codebase audit's real
   findings: (1) news headlines matching two active players with the exact
   same full name now disambiguate by team mentioned in the title instead

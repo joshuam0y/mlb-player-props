@@ -1019,12 +1019,33 @@ function pollAllLiveGames() {
   });
 }
 
+// MLB's own official win-probability endpoint -- computed from real
+// historical play-by-play outcome frequencies (score/inning/outs/base-
+// state), not a hand-rolled approximation. Free, keyless, same domain as
+// everything else this tracker already polls. Updates once per COMPLETED
+// play (not mid-at-bat), so it can lag the very latest pitch by one at-bat
+// -- traded deliberately for being the more accurate number the rest of
+// the time; computeWinProbability() below is the fallback for whenever
+// this hasn't got a play yet (very start of a game) or the fetch fails.
+function fetchGameWinProbability(gamePk) {
+  return fetch('https://statsapi.mlb.com/api/v1/game/' + gamePk + '/winProbability')
+    .then(function (r) { return r.json(); })
+    .then(function (plays) {
+      if (!Array.isArray(plays) || !plays.length) return null;
+      const last = plays[plays.length - 1];
+      return last.homeTeamWinProbability != null ? last.homeTeamWinProbability / 100 : null;
+    })
+    .catch(function () { return null; }); // never blocks the main live update below on this alone
+}
+
 function pollLiveGame(el) {
   if (el.dataset.liveDone === 'true') return; // confirmed Final by a previous poll -- stop hitting the API for it
   const pk = el.dataset.gamePk;
-  fetch('https://statsapi.mlb.com/api/v1.1/game/' + pk + '/feed/live')
-    .then(function (r) { return r.json(); })
-    .then(function (data) { renderLiveState(el, data); })
+  Promise.all([
+    fetch('https://statsapi.mlb.com/api/v1.1/game/' + pk + '/feed/live').then(function (r) { return r.json(); }),
+    fetchGameWinProbability(pk),
+  ])
+    .then(function (results) { renderLiveState(el, results[0], results[1]); })
     .catch(function () { /* transient network hiccup -- keep last known state, just try again next cycle */ });
 }
 
@@ -1485,16 +1506,23 @@ function computeWinProbability(linescore) {
   return Math.min(Math.max(homeWp, 0.02), 0.98);
 }
 
-function winProbHtml(linescore, gameData) {
-  const wp = computeWinProbability(linescore);
+function winProbHtml(linescore, gameData, realWp) {
+  // realWp (from MLB's own winProbability endpoint, fetched alongside the
+  // live feed in pollLiveGame) wins whenever it's available -- it's the
+  // more accurate number, built from real historical game-flow outcomes
+  // rather than a normal-distribution approximation. computeWinProbability()
+  // is just the fallback for the handful of polls where it isn't (no
+  // completed play yet, or that fetch specifically failed this cycle).
+  const wp = realWp != null ? realWp : computeWinProbability(linescore);
   if (wp == null) return '';
   const homePct = Math.round(wp * 100);
   const awayPct = 100 - homePct;
   const teams = gameData.teams || {};
   const homeAbbr = (teams.home && (teams.home.abbreviation || teams.home.teamName)) || 'Home';
   const awayAbbr = (teams.away && (teams.away.abbreviation || teams.away.teamName)) || 'Away';
+  const label = realWp != null ? 'Win probability' : 'Win probability (est.)';
   return (
-    '<div class="wp-panel"><span class="wp-panel-label">Win probability (est.)</span>' +
+    '<div class="wp-panel"><span class="wp-panel-label">' + escapeHtml(label) + '</span>' +
     '<div class="wp-bar"><div class="wp-bar-away" style="width:' + awayPct + '%"></div>' +
     '<div class="wp-bar-home" style="width:' + homePct + '%"></div></div>' +
     '<div class="wp-teams"><span>' + escapeHtml(awayAbbr) + ' <b>' + awayPct + '%</b></span>' +
@@ -1502,7 +1530,7 @@ function winProbHtml(linescore, gameData) {
   );
 }
 
-function renderLiveState(el, data) {
+function renderLiveState(el, data, realWp) {
   const container = el.querySelector('.live-tracker'); // compact: sticky, in <summary>, visible even collapsed
   const detail = el.querySelector('.live-detail'); // heavier detail: NOT sticky, only in the expanded body
   const status = ((data.gameData || {}).status || {}).abstractGameState;
@@ -1554,7 +1582,7 @@ function renderLiveState(el, data) {
   const countText = count.balls != null && count.strikes != null ? count.balls + '-' + count.strikes : '';
   const strikeZoneHtml = renderStrikeZone(currentPlay);
   const pitchSeqHtml = renderPitchSequence(currentPlay);
-  const wpHtml = winProbHtml(linescore, data.gameData || {});
+  const wpHtml = winProbHtml(linescore, data.gameData || {}, realWp);
 
   if (container) {
     container.innerHTML =
