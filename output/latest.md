@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-07-29T13:07:58.736901+00:00_
+_Generated 2026-07-29T13:25:27.059747+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -8,15 +8,15 @@ _Generated 2026-07-29T13:07:58.736901+00:00_
 - **Tyler Stephenson** (Cincinnati Reds vs Cleveland Guardians): real hot streak (not just lucky bloops), favorable matchup vs. tonight's pitcher -- try Total Bases: 40% over 1.5 recently (vs. 10-game sample)
 - **Pete Crow-Armstrong** (Chicago Cubs vs St. Louis Cardinals): real hot streak (not just lucky bloops), favorable matchup vs. tonight's pitcher -- try RBIs: 50% over 0.5 recently (vs. 10-game sample)
 - **Taylor Trammell** (Houston Astros vs Los Angeles Angels): real hot streak (not just lucky bloops), favorable matchup vs. tonight's pitcher -- try Hits: 40% over 0.5 recently (vs. 10-game sample)
-- **Kyle Schwarber** (Philadelphia Phillies vs Miami Marlins): favorable matchup vs. tonight's pitcher, 5-game hit streak -- try Hits: 70% over 0.5 recently (vs. 10-game sample)
 - **Francisco Alvarez** (New York Mets vs Atlanta Braves): real hot streak (not just lucky bloops), 5-game hit streak -- try Hits: 80% over 0.5 recently (vs. 10-game sample)
 - **Manny Machado** (San Diego Padres vs Colorado Rockies): real hot streak (not just lucky bloops), 5-game hit streak -- try Hits: 60% over 1.5 recently (vs. 10-game sample)
 - **Ezequiel Duran** (Texas Rangers vs Tampa Bay Rays): real hot streak (not just lucky bloops), 8-game hit streak -- try Total Bases: 70% over 1.5 recently (vs. 10-game sample)
 - **Joc Pederson** (Texas Rangers vs Tampa Bay Rays): real hot streak (not just lucky bloops), 9-game hit streak -- try Hits: 90% over 0.5 recently (vs. 10-game sample)
 - **Francisco Alvarez** (New York Mets vs Atlanta Braves): real hot streak (not just lucky bloops), 5-game hit streak -- try Hits: 80% over 0.5 recently (vs. 10-game sample)
 - **Jeremy Peña** (Houston Astros vs Los Angeles Angels): real hot streak (not just lucky bloops), 10-game hit streak -- try Runs Scored: 80% over 0.5 recently (vs. 10-game sample)
-- **Bryce Harper** (Philadelphia Phillies vs Miami Marlins): favorable matchup vs. tonight's pitcher -- try Hits: 60% over 0.5 recently (vs. 10-game sample)
+- **Kyle Schwarber** (Philadelphia Phillies vs Miami Marlins): favorable matchup vs. tonight's pitcher, 5-game hit streak -- try Hits: 70% over 0.5 recently (vs. 10-game sample)
 - **Dylan Crews** (Washington Nationals vs Toronto Blue Jays): real hot streak (not just lucky bloops) -- try Hits: 70% over 0.5 recently (vs. 10-game sample)
+- **Tyrone Taylor** (New York Mets vs Atlanta Braves): real hot streak (not just lucky bloops) -- try Hits: 60% over 0.5 recently (vs. 10-game sample)
 - **Tyrone Taylor** (New York Mets vs Atlanta Braves): real hot streak (not just lucky bloops) -- try Hits: 60% over 0.5 recently (vs. 10-game sample)
 
 ### Pitchers
@@ -32,11 +32,6 @@ _Generated 2026-07-29T13:07:58.736901+00:00_
 ## Today's Top Unders
 ### Batters
 - **Nathan Church** (St. Louis Cardinals vs Chicago Cubs): cold recent stretch (well below season average), tough matchup vs. tonight's pitcher -- try Total Bases: 10% over 1.5 recently (vs. 10-game sample)
-- **Liam Hicks** (Miami Marlins vs Philadelphia Phillies): tough matchup vs. tonight's pitcher -- try Walks: 30% over 0.5 recently (vs. 10-game sample)
-- **Kyle Stowers** (Miami Marlins vs Philadelphia Phillies): tough matchup vs. tonight's pitcher -- try Runs Scored: 20% over 0.5 recently (vs. 10-game sample)
-- **Griffin Conine** (Miami Marlins vs Philadelphia Phillies): tough matchup vs. tonight's pitcher -- try Walks: 20% over 0.5 recently (vs. 10-game sample)
-- **Jakob Marsee** (Miami Marlins vs Philadelphia Phillies): tough matchup vs. tonight's pitcher -- try Total Bases: 10% over 1.5 recently (vs. 10-game sample)
-- **Joe Mack** (Miami Marlins vs Philadelphia Phillies): tough matchup vs. tonight's pitcher -- try Walks: 10% over 0.5 recently (vs. 10-game sample)
 - **Tim Tawa** (Arizona Diamondbacks vs Pittsburgh Pirates): tough matchup vs. tonight's pitcher -- try Walks: 10% over 0.5 recently (vs. 10-game sample)
 - **Gabriel Moreno** (Arizona Diamondbacks vs Pittsburgh Pirates): tough matchup vs. tonight's pitcher -- try Hits: 30% over 1.5 recently (vs. 10-game sample)
 - **Nolan Arenado** (Arizona Diamondbacks vs Pittsburgh Pirates): tough matchup vs. tonight's pitcher -- try Total Bases: 50% over 1.5 recently (vs. 10-game sample)
@@ -46,6 +41,11 @@ _Generated 2026-07-29T13:07:58.736901+00:00_
 - **Riley Greene** (Detroit Tigers vs Baltimore Orioles): tough matchup vs. tonight's pitcher -- try Hits: 60% over 0.5 recently (vs. 10-game sample)
 - **Zach McKinstry** (Detroit Tigers vs Baltimore Orioles): tough matchup vs. tonight's pitcher -- try Runs Scored: 20% over 0.5 recently (vs. 10-game sample)
 - **Kevin McGonigle** (Detroit Tigers vs Baltimore Orioles): tough matchup vs. tonight's pitcher -- try RBIs: 20% over 0.5 recently (vs. 10-game sample)
+- **James Outman** (Detroit Tigers vs Baltimore Orioles): tough matchup vs. tonight's pitcher -- try Walks: 0% over 0.5 recently (vs. 10-game sample)
+- **Jackson Chourio** (Milwaukee Brewers vs San Francisco Giants): tough matchup vs. tonight's pitcher -- try Home Runs: 0% over 0.5 recently (vs. 10-game sample)
+- **William Contreras** (Milwaukee Brewers vs San Francisco Giants): tough matchup vs. tonight's pitcher -- try Walks: 10% over 0.5 recently (vs. 10-game sample)
+- **Cooper Pratt** (Milwaukee Brewers vs San Francisco Giants): tough matchup vs. tonight's pitcher -- try Walks: 20% over 0.5 recently (vs. 10-game sample)
+- **Joey Ortiz** (Milwaukee Brewers vs San Francisco Giants): tough matchup vs. tonight's pitcher -- try Total Bases: 40% over 1.5 recently (vs. 10-game sample)
 
 ### Pitchers
 - **Jesús Luzardo** (Philadelphia Phillies vs Miami Marlins): allowing fewer runs than usual over his last few starts, 5 hitters in tonight's lineup are in a tough matchup against him -- try Runs Allowed: 0% over 1.5 recently (vs. 5-game sample)
@@ -57,7 +57,7 @@ _Generated 2026-07-29T13:07:58.736901+00:00_
 - **Gabriel Hughes** (Colorado Rockies vs San Diego Padres): 5 hitters in tonight's lineup are in a tough matchup against him -- try Hits Allowed: 50% over 4.5 recently (vs. 4-game sample)
 - **Randy Dobnak** (Kansas City Royals vs Minnesota Twins): allowing fewer runs than usual over his last few starts -- try Hits Allowed: 20% over 4.5 recently (vs. 5-game sample)
 
-## 2026-07-29 - Philadelphia Phillies @ Miami Marlins (Scheduled)
+## 2026-07-29 - Philadelphia Phillies @ Miami Marlins (Pre-Game)
 _loanDepot park [pitcher-friendly park]_
 Projected score: Philadelphia Phillies 3.75 - Miami Marlins 3.15
 Model likes: **Philadelphia Phillies** to win (56%) | Run line: **Miami Marlins** +1.5 (62% to cover) | Total 6.5: lean **UNDER** (51%)
@@ -122,7 +122,7 @@ _Facing a taxed bullpen: 8.7 relief IP in last 2 days (ratio 1.73)_
 ## 2026-07-29 - Toronto Blue Jays @ Washington Nationals (Scheduled)
 _Nationals Park_
 Projected score: Toronto Blue Jays 4.19 - Washington Nationals 4.92
-Model likes: **Washington Nationals** to win (56%) | Run line: **Toronto Blue Jays** +1.5 (58% to cover) | Total 8.5: lean **UNDER** (50%)
+Model likes: **Washington Nationals** to win (56%) | Run line: **Toronto Blue Jays** +1.5 (59% to cover) | Total 8.5: lean **OVER** (50%)
 
 ### Toronto Blue Jays lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 9.7 relief IP in last 2 days (ratio 1.94)_
@@ -245,7 +245,7 @@ _Facing a taxed bullpen: 8.3 relief IP in last 2 days (ratio 2.14)_
 ## 2026-07-29 - Colorado Rockies @ San Diego Padres (Scheduled)
 _Petco Park [pitcher-friendly park]_
 Projected score: Colorado Rockies 4.03 - San Diego Padres 3.16
-Model likes: **Colorado Rockies** to win (58%) | Run line: **San Diego Padres** +1.5 (59% to cover) | Total 6.5: lean **OVER** (52%)
+Model likes: **Colorado Rockies** to win (59%) | Run line: **San Diego Padres** +1.5 (59% to cover) | Total 6.5: lean **OVER** (52%)
 
 ### Colorado Rockies lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.52)_
@@ -274,7 +274,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.52)_
 ## 2026-07-29 - Texas Rangers @ Tampa Bay Rays (Scheduled)
 _Tropicana Field_
 Projected score: Texas Rangers 3.62 - Tampa Bay Rays 4.55
-Model likes: **Tampa Bay Rays** to win (58%) | Run line: **Texas Rangers** +1.5 (58% to cover) | Total 7.5: lean **OVER** (51%)
+Model likes: **Tampa Bay Rays** to win (58%) | Run line: **Texas Rangers** +1.5 (57% to cover) | Total 7.5: lean **OVER** (51%)
 
 ### Texas Rangers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.3 relief IP in last 2 days (ratio 0.64)_
