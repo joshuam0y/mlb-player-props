@@ -11,6 +11,11 @@ public news RSS feed -- no paid odds API, no scraping of betting sites.
 
 _Updated with every change going forward._
 
+- **2026-07-29** -- Track Record now shows the full 8-stat recap (Top
+  Overs/Unders, Moneyline, Run line, Total O/U, score accuracy,
+  Predicted-lean, Best-prop star) for every individual day, not just the
+  all-time cumulative row -- applies retroactively to every already-
+  tracked day too, since the underlying per-day data already existed.
 - **2026-07-29** -- Added a favorites feature for props on the main
   dashboard -- a heart-toggle on every batter/pitcher and Top Overs/Unders
   pick card, persisted per-browser (localStorage, no account needed), with
