@@ -679,7 +679,7 @@
     },
     "2026-07-25": {
       "date": "2026-07-25",
-      "graded_at": "2026-07-29T17:39:08.816349+00:00",
+      "graded_at": "2026-07-29T19:54:54.489928+00:00",
       "top_overs": {
         "n": 6,
         "hits": 2,
@@ -1969,13 +1969,13 @@
     },
     "2026-07-26": {
       "date": "2026-07-26",
-      "graded_at": "2026-07-29T17:39:08.590183+00:00",
+      "graded_at": "2026-07-29T19:54:54.256351+00:00",
       "top_overs": {
         "n": 21,
-        "hits": 8,
+        "hits": 7,
         "misses": 12,
-        "no_data": 1,
-        "hit_rate": 0.4,
+        "no_data": 2,
+        "hit_rate": 0.368,
         "picks": [
           {
             "name": "Drake Baldwin",
@@ -2026,10 +2026,10 @@
             "name": "Freddie Freeman",
             "role": "batter",
             "position": null,
-            "category": "Total Bases",
-            "line": 1.5,
-            "actual": 3,
-            "outcome": "hit"
+            "category": null,
+            "line": null,
+            "actual": null,
+            "outcome": "no_data"
           },
           {
             "name": "Hao-Yu Lee",
@@ -2170,9 +2170,9 @@
       },
       "top_unders": {
         "n": 18,
-        "hits": 8,
-        "misses": 8,
-        "no_data": 2,
+        "hits": 6,
+        "misses": 6,
+        "no_data": 6,
         "hit_rate": 0.5,
         "picks": [
           {
@@ -2206,10 +2206,10 @@
             "name": "Casey Schmitt",
             "role": "batter",
             "position": null,
-            "category": "Walks",
-            "line": 0.5,
-            "actual": 0,
-            "outcome": "hit"
+            "category": null,
+            "line": null,
+            "actual": null,
+            "outcome": "no_data"
           },
           {
             "name": "Ben Rice",
@@ -2242,19 +2242,19 @@
             "name": "Fernando Tatis Jr.",
             "role": "batter",
             "position": null,
-            "category": "Hits",
-            "line": 1.5,
-            "actual": 0,
-            "outcome": "hit"
+            "category": null,
+            "line": null,
+            "actual": null,
+            "outcome": "no_data"
           },
           {
             "name": "Manny Machado",
             "role": "batter",
             "position": null,
-            "category": "Hits",
-            "line": 0.5,
-            "actual": 2,
-            "outcome": "miss"
+            "category": null,
+            "line": null,
+            "actual": null,
+            "outcome": "no_data"
           },
           {
             "name": "Jase Bowen",
@@ -2269,10 +2269,10 @@
             "name": "Ty France",
             "role": "batter",
             "position": null,
-            "category": "Hits",
-            "line": 1.5,
-            "actual": 2,
-            "outcome": "miss"
+            "category": null,
+            "line": null,
+            "actual": null,
+            "outcome": "no_data"
           },
           {
             "name": "Miguel Vargas",
@@ -3294,7 +3294,7 @@
     },
     "2026-07-27": {
       "date": "2026-07-27",
-      "graded_at": "2026-07-29T17:39:08.357610+00:00",
+      "graded_at": "2026-07-29T19:54:54.019537+00:00",
       "top_overs": {
         "n": 23,
         "hits": 7,
@@ -4861,7 +4861,7 @@
     },
     "2026-07-28": {
       "date": "2026-07-28",
-      "graded_at": "2026-07-29T17:39:08.147034+00:00",
+      "graded_at": "2026-07-29T19:54:53.806426+00:00",
       "top_overs": {
         "n": 23,
         "hits": 11,
@@ -5116,16 +5116,16 @@
             "name": "Esmerlyn Valdez",
             "role": "batter",
             "position": "RF",
-            "category": "RBIs",
-            "line": 1.5,
-            "actual": 0,
+            "category": "Total Bases",
+            "line": 2.5,
+            "actual": 2,
             "outcome": "hit"
           },
           {
             "name": "Gabriel Moreno",
             "role": "batter",
             "position": "DH",
-            "category": "Hits",
+            "category": "Total Bases",
             "line": 1.5,
             "actual": 1,
             "outcome": "hit"
@@ -6451,18 +6451,18 @@
     "top_overs": {
       "days": 5,
       "n": 80,
-      "hits": 29,
+      "hits": 28,
       "misses": 47,
-      "no_data": 4,
-      "hit_rate": 0.382
+      "no_data": 5,
+      "hit_rate": 0.373
     },
     "top_unders": {
       "days": 5,
       "n": 82,
-      "hits": 42,
-      "misses": 34,
-      "no_data": 6,
-      "hit_rate": 0.553
+      "hits": 40,
+      "misses": 32,
+      "no_data": 10,
+      "hit_rate": 0.556
     },
     "batter_trend": {
       "hot": {
@@ -6559,26 +6559,12 @@
       "hit_rate": 0.505
     },
     "projection_accuracy": {
-      "Outs Recorded": {
-        "n": 50,
-        "mae": 3.79,
-        "bias": -0.46,
-        "avg_projected": 15.36,
-        "avg_actual": 14.9
-      },
-      "Runs Scored": {
+      "RBIs": {
         "n": 1164,
-        "mae": 0.55,
-        "bias": -0.02,
-        "avg_projected": 0.46,
-        "avg_actual": 0.44
-      },
-      "Hits Allowed": {
-        "n": 132,
-        "mae": 1.94,
-        "bias": 0.14,
-        "avg_projected": 4.79,
-        "avg_actual": 4.93
+        "mae": 0.61,
+        "bias": -0.03,
+        "avg_projected": 0.45,
+        "avg_actual": 0.42
       },
       "Walks Allowed": {
         "n": 132,
@@ -6587,26 +6573,26 @@
         "avg_projected": 1.74,
         "avg_actual": 1.7
       },
-      "Runs Allowed": {
+      "Hits": {
+        "n": 1164,
+        "mae": 0.71,
+        "bias": 0.0,
+        "avg_projected": 0.84,
+        "avg_actual": 0.85
+      },
+      "Hits Allowed": {
         "n": 132,
-        "mae": 1.67,
-        "bias": -0.02,
-        "avg_projected": 2.41,
-        "avg_actual": 2.39
+        "mae": 1.94,
+        "bias": 0.14,
+        "avg_projected": 4.79,
+        "avg_actual": 4.93
       },
-      "RBIs": {
-        "n": 1164,
-        "mae": 0.61,
-        "bias": -0.03,
-        "avg_projected": 0.45,
-        "avg_actual": 0.42
-      },
-      "Walks": {
-        "n": 1164,
-        "mae": 0.46,
-        "bias": -0.01,
-        "avg_projected": 0.34,
-        "avg_actual": 0.33
+      "Strikeouts": {
+        "n": 132,
+        "mae": 2.03,
+        "bias": -0.07,
+        "avg_projected": 4.84,
+        "avg_actual": 4.77
       },
       "Total Bases": {
         "n": 1164,
@@ -6615,13 +6601,6 @@
         "avg_projected": 1.41,
         "avg_actual": 1.34
       },
-      "Hits": {
-        "n": 1164,
-        "mae": 0.71,
-        "bias": 0.0,
-        "avg_projected": 0.84,
-        "avg_actual": 0.85
-      },
       "Home Runs": {
         "n": 1164,
         "mae": 0.19,
@@ -6629,15 +6608,36 @@
         "avg_projected": 0.12,
         "avg_actual": 0.1
       },
-      "Strikeouts": {
+      "Runs Scored": {
+        "n": 1164,
+        "mae": 0.55,
+        "bias": -0.02,
+        "avg_projected": 0.46,
+        "avg_actual": 0.44
+      },
+      "Outs Recorded": {
+        "n": 50,
+        "mae": 3.79,
+        "bias": -0.46,
+        "avg_projected": 15.36,
+        "avg_actual": 14.9
+      },
+      "Walks": {
+        "n": 1164,
+        "mae": 0.46,
+        "bias": -0.01,
+        "avg_projected": 0.34,
+        "avg_actual": 0.33
+      },
+      "Runs Allowed": {
         "n": 132,
-        "mae": 2.03,
-        "bias": -0.07,
-        "avg_projected": 4.84,
-        "avg_actual": 4.77
+        "mae": 1.67,
+        "bias": -0.02,
+        "avg_projected": 2.41,
+        "avg_actual": 2.39
       }
     },
     "days_tracked": 5
   },
-  "updated_at": "2026-07-29T17:39:08.835170+00:00"
+  "updated_at": "2026-07-29T19:54:54.506052+00:00"
 }
