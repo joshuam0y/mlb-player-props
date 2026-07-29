@@ -280,6 +280,38 @@ STYLE = """
   /* best_prop_star() in build_props.py -- one player per team side, batter
      or pitcher, with the single strongest pre-game Best prop signal. */
   .star-badge { color: #f5b400; font-size: 13px; vertical-align: middle; }
+  /* User-toggled favorite -- a heart, not a star, so it's never visually
+     confused with the model's own read-only "Best prop" star badge above. */
+  .favorite-toggle {
+    background: none; border: none; cursor: pointer; font-size: 15px; padding: 0 3px;
+    color: var(--text-muted); line-height: 1; vertical-align: middle;
+  }
+  .favorite-toggle.active { color: var(--status-critical); }
+  #favorites-btn {
+    position: fixed; bottom: 20px; right: 20px; z-index: 50;
+    background: var(--series-1); color: #fff; border: none; border-radius: 999px;
+    padding: 12px 18px; font-weight: 700; font-size: 13px; cursor: pointer; box-shadow: var(--shadow);
+  }
+  #favorites-panel {
+    position: fixed; bottom: 72px; right: 20px; z-index: 50; width: 320px; max-height: 60vh;
+    overflow-y: auto; background: var(--surface-1); border: 1px solid var(--border);
+    border-radius: 12px; box-shadow: var(--shadow); padding: 10px; display: none;
+  }
+  #favorites-panel.open { display: block; }
+  #favorites-panel .picks-heading { margin: 2px 6px 8px; }
+  .favorite-item { padding: 8px 6px; border-bottom: 1px solid var(--gridline); cursor: pointer; font-size: 13px; }
+  .favorite-item:last-child { border-bottom: none; }
+  .favorite-item:hover { background: var(--surface-2); }
+  .favorite-item .sub { color: var(--text-secondary); font-size: 11.5px; }
+  .favorite-item-missing { cursor: default; color: var(--text-muted); }
+  .favorite-item-remove {
+    float: right; background: none; border: none; color: var(--text-muted); cursor: pointer; font-size: 12px;
+  }
+  .favorite-empty { color: var(--text-muted); font-size: 13px; padding: 8px 6px; }
+  @media (max-width: 640px) {
+    #favorites-panel { left: 12px; right: 12px; width: auto; bottom: 72px; }
+    #favorites-btn { right: 12px; bottom: 12px; }
+  }
   /* Live-tracker highlights the batter/pitcher currently in the game --
      set/cleared by highlightActivePlayers() every poll, matched against
      these rows by the same person id the boxscore uses. A tinted row
@@ -574,6 +606,107 @@ function toggleDetail(id) {
   // after the first click open -- both branches of the old OR were true
   // forever once display became ''.
   if (row) row.style.display = (row.style.display === 'none') ? '' : 'none';
+}
+
+// Favorites are pure client-side (localStorage, per-browser) -- this is
+// the anonymous public dashboard, not the signed-in My Bets page, so
+// there's no account to sync them against. A player_id is enough to
+// persist: everything else (name, whether they're playing today) is
+// read fresh off whatever the SAME page already rendered for them,
+// rather than caching a second, potentially-stale copy of their info.
+const FAVORITES_KEY = 'mlbPropsFavorites';
+
+function loadFavorites() {
+  try {
+    const raw = localStorage.getItem(FAVORITES_KEY);
+    return raw ? JSON.parse(raw) : [];
+  } catch (e) {
+    return [];
+  }
+}
+
+function saveFavorites(ids) {
+  try {
+    localStorage.setItem(FAVORITES_KEY, JSON.stringify(ids));
+  } catch (e) { /* private-browsing/quota -- favorites just won't persist past this session */ }
+}
+
+function syncFavoriteButtons() {
+  const ids = loadFavorites();
+  document.querySelectorAll('.favorite-toggle').forEach(function (btn) {
+    const pid = parseInt(btn.dataset.playerId, 10);
+    const active = ids.indexOf(pid) !== -1;
+    btn.classList.toggle('active', active);
+    btn.innerHTML = active ? '&#9829;' : '&#9825;';
+  });
+  const countEl = document.getElementById('favorites-count');
+  if (countEl) countEl.textContent = ids.length;
+}
+
+function toggleFavorite(e, playerId) {
+  e.stopPropagation(); // don't also trigger the row's own toggleDetail() expand/collapse
+  let ids = loadFavorites();
+  if (ids.indexOf(playerId) === -1) {
+    ids.push(playerId);
+  } else {
+    ids = ids.filter(function (id) { return id !== playerId; });
+  }
+  saveFavorites(ids);
+  syncFavoriteButtons();
+  renderFavoritesPanel();
+}
+
+function removeFavorite(e, playerId) {
+  e.stopPropagation();
+  saveFavorites(loadFavorites().filter(function (id) { return id !== playerId; }));
+  syncFavoriteButtons();
+  renderFavoritesPanel();
+}
+
+function renderFavoritesPanel() {
+  const ids = loadFavorites();
+  const listEl = document.getElementById('favorites-list');
+  if (!listEl) return;
+  if (!ids.length) {
+    listEl.innerHTML = '<div class="favorite-empty">No favorites yet -- tap the heart next to any player to add one.</div>';
+    return;
+  }
+  listEl.innerHTML = ids.map(function (pid) {
+    const el = document.querySelector('[data-player-id="' + pid + '"][data-name]');
+    const name = el ? el.dataset.name : ('Player ' + pid);
+    const sub = el ? '' : '<div class="sub">Not in today\\'s games</div>';
+    return (
+      '<div class="favorite-item' + (el ? '' : ' favorite-item-missing') + '" onclick="jumpToFavorite(' + pid + ')">' +
+      '<button type="button" class="favorite-item-remove" onclick="removeFavorite(event, ' + pid + ')" title="Remove favorite">&times;</button>' +
+      '<b>' + escapeHtml(name) + '</b>' + sub + '</div>'
+    );
+  }).join('');
+}
+
+function toggleFavoritesPanel() {
+  document.getElementById('favorites-panel').classList.toggle('open');
+}
+
+// "Tap into it just like the game stuff": a favorited player already on
+// the page (a game-card row or a Top Overs/Unders pick card) gets
+// scrolled to and, for a row with its own expandable detail, opened the
+// same way clicking it directly would -- reusing toggleDetail()'s own
+// row rather than re-deriving a parallel view.
+function jumpToFavorite(playerId) {
+  const row = document.querySelector('.player-row[data-player-id="' + playerId + '"], .pitcher-row[data-player-id="' + playerId + '"]');
+  document.getElementById('favorites-panel').classList.remove('open');
+  if (row) {
+    const details = row.closest('details.game-card');
+    if (details && !details.open) details.open = true;
+    requestAnimationFrame(function () {
+      const detailRow = document.getElementById(row.dataset.rowId);
+      if (detailRow && detailRow.style.display === 'none') row.click();
+      row.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    });
+    return;
+  }
+  const card = document.querySelector('.pick-card[data-player-id="' + playerId + '"]');
+  if (card) card.scrollIntoView({ behavior: 'smooth', block: 'center' });
 }
 function switchTeamTab(btn, side) {
   const tabsRow = btn.parentElement;
@@ -1282,6 +1415,8 @@ document.addEventListener('DOMContentLoaded', function () {
   initGameCardAccordion();
   syncStickyOffset();
   window.addEventListener('resize', syncStickyOffset);
+  syncFavoriteButtons();
+  renderFavoritesPanel();
 });
 
 // The filter toolbar (dropdowns/search) is its own sticky element pinned at
@@ -1722,8 +1857,10 @@ def _pitcher_html(p, row_id, fatigue, status, star_player_id=None):
     bullets_html = "".join(f"<li>{b}</li>" for b in bullets)
 
     return f"""
-    <div class="pitcher-line pitcher-row" data-player-id="{p["player_id"]}" onclick="toggleDetail('{row_id}')">
-      <span class="expand-arrow"></span>{_player_photo_html(p["player_id"])}<b>{html.escape(p["name"])}</b> ({html.escape(p["pitch_hand"] or "?")}, throws) {_star_html(p["player_id"], star_player_id)}{badges}
+    <div class="pitcher-line pitcher-row" data-player-id="{p["player_id"]}" data-row-id="{row_id}" data-name="{html.escape(p["name"])}" onclick="toggleDetail('{row_id}')">
+      <span class="expand-arrow"></span>{_player_photo_html(p["player_id"])}<b>{html.escape(p["name"])}</b> ({html.escape(p["pitch_hand"] or "?")}, throws) {_star_html(p["player_id"], star_player_id)}
+      <button type="button" class="favorite-toggle" data-player-id="{p["player_id"]}" onclick="toggleFavorite(event, {p["player_id"]})">&#9825;</button>
+      {badges}
     </div>
     {boxscore_html}
     {matchup_lean_html}
@@ -1767,10 +1904,11 @@ def _batter_rows(batters, id_prefix, status, star_player_id=None):
         boxscore_html = _batter_boxscore_html(b.get("game_result"), status, b["player_id"])
         matchup_lean_html = _matchup_lean_html(b, "batter")
         rows.append(
-            f'<tr class="player-row" data-player-id="{b["player_id"]}" onclick="toggleDetail(\'{row_id}\')">'
+            f'<tr class="player-row" data-player-id="{b["player_id"]}" data-row-id="{row_id}" data-name="{html.escape(b["name"])}" onclick="toggleDetail(\'{row_id}\')">'
             f'<td data-label="Order">{order}</td>'
             f'<td data-label="Batter" class="name-cell"><span class="expand-arrow"></span>{_player_photo_html(b["player_id"])}{html.escape(b["name"])} '
-            f'<span class="sub">({html.escape(b.get("position") or "?")}, {html.escape(b["bat_side"] or "?")} handed)</span> {_star_html(b["player_id"], star_player_id)}</td>'
+            f'<span class="sub">({html.escape(b.get("position") or "?")}, {html.escape(b["bat_side"] or "?")} handed)</span> {_star_html(b["player_id"], star_player_id)}'
+            f'<button type="button" class="favorite-toggle" data-player-id="{b["player_id"]}" onclick="toggleFavorite(event, {b["player_id"]})">&#9825;</button></td>'
             f'<td data-label="Flags">{badges}</td>'
             f'<td data-label="Recent form">{boxscore_html}{matchup_lean_html}{html.escape(l7_txt)}<div class="sub">{season_txt}</div>{_best_prop_html(b)}</td>'
             f'<td data-label="News" class="col-news">{headline}</td></tr>'
@@ -2147,9 +2285,11 @@ def _pick_card_html(pick, rank, direction):
         else ""
     )
     return f"""
-    <div class="pick-card pick-card-{direction}"{live_attrs}>
+    <div class="pick-card pick-card-{direction}" data-player-id="{pick.get("player_id")}" data-name="{html.escape(pick["name"])}"{live_attrs}>
       <div class="pick-rank">#{rank} {tag}</div>
-      <div class="pick-name">{_player_photo_html(pick.get("player_id"))}{html.escape(pick["name"])} <span class="sub">{html.escape(pick.get("position") or "?")}</span></div>
+      <div class="pick-name">{_player_photo_html(pick.get("player_id"))}{html.escape(pick["name"])} <span class="sub">{html.escape(pick.get("position") or "?")}</span>
+        <button type="button" class="favorite-toggle" data-player-id="{pick.get("player_id")}" onclick="toggleFavorite(event, {pick.get("player_id")})">&#9825;</button>
+      </div>
       <div class="pick-matchup">{html.escape(pick["team"] or "?")} vs. {html.escape(pick["opponent"] or "?")}{game_time_html}</div>
       <div class="pick-badges">{"".join(badges)}</div>
       <ul class="pick-reasons">{reasons_html}</ul>
@@ -2265,6 +2405,11 @@ def render_html(report):
     {GLOSSARY_HTML}
     {notes_html}
     {body}
+  </div>
+  <button type="button" id="favorites-btn" onclick="toggleFavoritesPanel()">&#9825; Favorites (<span id="favorites-count">0</span>)</button>
+  <div id="favorites-panel">
+    <div class="picks-heading">Favorited props</div>
+    <div id="favorites-list"></div>
   </div>
 {SCRIPT}
 </body>
