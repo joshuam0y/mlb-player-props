@@ -11,6 +11,9 @@ public news RSS feed -- no paid odds API, no scraping of betting sites.
 
 _Updated with every change going forward._
 
+- **2026-07-29** -- Added a remove ("x") button to each leg row in My Bets'
+  "Add a bet" form, so accidentally clicking "+ Add leg" one extra time no
+  longer blocks submission with an empty required field you can't get rid of.
 - **2026-07-29** -- Fixed a real regression: an earlier same-day backfill
   fix accidentally re-graded all of 2026-07-25 against a stale local
   database, wiping out good pitcher/batter data production already had.

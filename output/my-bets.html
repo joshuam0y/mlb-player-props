@@ -248,6 +248,38 @@
   /* best_prop_star() in build_props.py -- one player per team side, batter
      or pitcher, with the single strongest pre-game Best prop signal. */
   .star-badge { color: #f5b400; font-size: 13px; vertical-align: middle; }
+  /* User-toggled favorite -- a heart, not a star, so it's never visually
+     confused with the model's own read-only "Best prop" star badge above. */
+  .favorite-toggle {
+    background: none; border: none; cursor: pointer; font-size: 15px; padding: 0 3px;
+    color: var(--text-muted); line-height: 1; vertical-align: middle;
+  }
+  .favorite-toggle.active { color: var(--status-critical); }
+  #favorites-btn {
+    position: fixed; bottom: 20px; right: 20px; z-index: 50;
+    background: var(--series-1); color: #fff; border: none; border-radius: 999px;
+    padding: 12px 18px; font-weight: 700; font-size: 13px; cursor: pointer; box-shadow: var(--shadow);
+  }
+  #favorites-panel {
+    position: fixed; bottom: 72px; right: 20px; z-index: 50; width: 320px; max-height: 60vh;
+    overflow-y: auto; background: var(--surface-1); border: 1px solid var(--border);
+    border-radius: 12px; box-shadow: var(--shadow); padding: 10px; display: none;
+  }
+  #favorites-panel.open { display: block; }
+  #favorites-panel .picks-heading { margin: 2px 6px 8px; }
+  .favorite-item { padding: 8px 6px; border-bottom: 1px solid var(--gridline); cursor: pointer; font-size: 13px; }
+  .favorite-item:last-child { border-bottom: none; }
+  .favorite-item:hover { background: var(--surface-2); }
+  .favorite-item .sub { color: var(--text-secondary); font-size: 11.5px; }
+  .favorite-item-missing { cursor: default; color: var(--text-muted); }
+  .favorite-item-remove {
+    float: right; background: none; border: none; color: var(--text-muted); cursor: pointer; font-size: 12px;
+  }
+  .favorite-empty { color: var(--text-muted); font-size: 13px; padding: 8px 6px; }
+  @media (max-width: 640px) {
+    #favorites-panel { left: 12px; right: 12px; width: auto; bottom: 72px; }
+    #favorites-btn { right: 12px; bottom: 12px; }
+  }
   /* Live-tracker highlights the batter/pitcher currently in the game --
      set/cleared by highlightActivePlayers() every poll, matched against
      these rows by the same person id the boxscore uses. A tinted row
@@ -526,6 +558,8 @@
   .entity-suggestion:hover, .entity-suggestion.active { background: var(--surface-3); }
   .entity-suggestion .sub { color: var(--text-secondary); font-size: 12px; }
   .leg-input-row.leg-resolved .entity-search-wrap .leg-entity { border-color: var(--status-good); }
+  .leg-remove-btn { width: 28px; height: 28px; border-radius: 999px; border: 1px solid var(--border); background: var(--surface-1); color: var(--text-secondary); cursor: pointer; font-family: inherit; font-size: 16px; line-height: 1; padding: 0; }
+  .leg-remove-btn:hover { background: var(--status-critical); border-color: var(--status-critical); color: #fff; }
   #bet-form button, #add-leg-btn { padding: 9px 16px; border-radius: 999px; border: none; background: var(--series-1); color: #fff; font-weight: 600; cursor: pointer; font-family: inherit; font-size: 13px; margin-right: 8px; margin-top: 4px; }
   #add-leg-btn { background: var(--surface-3); color: var(--text-primary); }
   #signout-btn { margin-top: 16px; padding: 8px 16px; border-radius: 999px; border: 1px solid var(--border); background: var(--surface-1); color: var(--text-primary); cursor: pointer; font-family: inherit; }
@@ -679,6 +713,122 @@ function toggleDetail(id) {
   // after the first click open -- both branches of the old OR were true
   // forever once display became ''.
   if (row) row.style.display = (row.style.display === 'none') ? '' : 'none';
+}
+
+// Favorites are pure client-side (localStorage, per-browser) -- this is
+// the anonymous public dashboard, not the signed-in My Bets page, so
+// there's no account to sync them against. A player_id is enough to
+// persist: everything else (name, whether they're playing today) is
+// read fresh off whatever the SAME page already rendered for them,
+// rather than caching a second, potentially-stale copy of their info.
+const FAVORITES_KEY = 'mlbPropsFavorites';
+
+function loadFavorites() {
+  try {
+    const raw = localStorage.getItem(FAVORITES_KEY);
+    return raw ? JSON.parse(raw) : [];
+  } catch (e) {
+    return [];
+  }
+}
+
+function saveFavorites(ids) {
+  try {
+    localStorage.setItem(FAVORITES_KEY, JSON.stringify(ids));
+  } catch (e) { /* private-browsing/quota -- favorites just won't persist past this session */ }
+}
+
+function syncFavoriteButtons() {
+  const keys = loadFavorites();
+  document.querySelectorAll('.favorite-toggle').forEach(function (btn) {
+    const key = btn.dataset.favoriteKey;
+    const active = keys.indexOf(key) !== -1;
+    btn.classList.toggle('active', active);
+    btn.innerHTML = active ? '&#9829;' : '&#9825;';
+  });
+  const countEl = document.getElementById('favorites-count');
+  if (countEl) countEl.textContent = keys.length;
+}
+
+function toggleFavorite(e, key) {
+  e.stopPropagation(); // don't also trigger the row's own toggleDetail() expand/collapse
+  e.preventDefault(); // moneyline/run line/total hearts sit inside <summary>, which natively
+  // toggles the whole game card open/closed on any click -- stopPropagation alone doesn't
+  // stop that native behavior, only a JS listener further up the tree
+  let keys = loadFavorites();
+  if (keys.indexOf(key) === -1) {
+    keys.push(key);
+  } else {
+    keys = keys.filter(function (k) { return k !== key; });
+  }
+  saveFavorites(keys);
+  syncFavoriteButtons();
+  renderFavoritesPanel();
+}
+
+function removeFavorite(e, key) {
+  e.stopPropagation();
+  saveFavorites(loadFavorites().filter(function (k) { return k !== key; }));
+  syncFavoriteButtons();
+  renderFavoritesPanel();
+}
+
+function renderFavoritesPanel() {
+  const keys = loadFavorites();
+  const listEl = document.getElementById('favorites-list');
+  if (!listEl) return;
+  if (!keys.length) {
+    listEl.innerHTML = '<div class="favorite-empty">No favorites yet -- tap the heart next to any player or moneyline/run line/total pick to add one.</div>';
+    return;
+  }
+  listEl.innerHTML = keys.map(function (key) {
+    const el = document.querySelector('[data-favorite-key="' + key + '"][data-name]');
+    const name = el ? el.dataset.name : ('Not in today\'s games (' + key + ')');
+    const sub = el ? '' : '<div class="sub">Not in today\'s games</div>';
+    return (
+      '<div class="favorite-item' + (el ? '' : ' favorite-item-missing') + '" onclick="jumpToFavorite(\'' + key + '\')">' +
+      '<button type="button" class="favorite-item-remove" onclick="removeFavorite(event, \'' + key + '\')" title="Remove favorite">&times;</button>' +
+      '<b>' + escapeHtml(name) + '</b>' + sub + '</div>'
+    );
+  }).join('');
+}
+
+function toggleFavoritesPanel() {
+  document.getElementById('favorites-panel').classList.toggle('open');
+}
+
+// "Tap into it just like the game stuff": a favorited player or team pick
+// already on the page (a game-card row, a Top Overs/Unders pick card, or
+// a moneyline/run line/total line) gets scrolled to and, for a row with
+// its own expandable detail, opened the same way clicking it directly
+// would -- reusing toggleDetail()'s own row rather than re-deriving a
+// parallel view.
+function jumpToFavorite(key) {
+  document.getElementById('favorites-panel').classList.remove('open');
+  const row = document.querySelector('.player-row[data-favorite-key="' + key + '"], .pitcher-row[data-favorite-key="' + key + '"]');
+  if (row) {
+    const details = row.closest('details.game-card');
+    if (details && !details.open) details.open = true;
+    requestAnimationFrame(function () {
+      const detailRow = document.getElementById(row.dataset.rowId);
+      if (detailRow && detailRow.style.display === 'none') row.click();
+      row.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    });
+    return;
+  }
+  const card = document.querySelector('.pick-card[data-favorite-key="' + key + '"]');
+  if (card) {
+    card.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    return;
+  }
+  // A moneyline/run line/total favorite has no row of its own to expand --
+  // just open that game's card (if collapsed) and scroll to its line.
+  const teamPick = document.querySelector('[data-favorite-key="' + key + '"]');
+  if (teamPick) {
+    const details = teamPick.closest('details.game-card');
+    if (details && !details.open) details.open = true;
+    requestAnimationFrame(function () { teamPick.scrollIntoView({ behavior: 'smooth', block: 'center' }); });
+  }
 }
 function switchTeamTab(btn, side) {
   const tabsRow = btn.parentElement;
@@ -1387,6 +1537,8 @@ document.addEventListener('DOMContentLoaded', function () {
   initGameCardAccordion();
   syncStickyOffset();
   window.addEventListener('resize', syncStickyOffset);
+  syncFavoriteButtons();
+  renderFavoritesPanel();
 });
 
 // The filter toolbar (dropdowns/search) is its own sticky element pinned at
@@ -1942,6 +2094,7 @@ function legRowHtml(idx) {
     '<label class="leg-early-win-label" style="display:none">' +
     '<input type="checkbox" class="leg-early-win-token"> 2-up early win token' +
     '</label>' +
+    '<button type="button" class="leg-remove-btn" title="Remove this leg">&times;</button>' +
     '</div>'
   );
 }
@@ -1961,6 +2114,11 @@ function wireLegRow(rowEl) {
   const directionSelect = rowEl.querySelector('.leg-direction');
   const earlyWinLabel = rowEl.querySelector('.leg-early-win-label');
   const earlyWinCheckbox = rowEl.querySelector('.leg-early-win-token');
+  const removeBtn = rowEl.querySelector('.leg-remove-btn');
+
+  removeBtn.addEventListener('click', function () {
+    rowEl.remove();
+  });
 
   function clearResolution() {
     rowEl.dataset.playerId = '';

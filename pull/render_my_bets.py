@@ -67,6 +67,8 @@ PAGE_STYLE = """
   .entity-suggestion:hover, .entity-suggestion.active { background: var(--surface-3); }
   .entity-suggestion .sub { color: var(--text-secondary); font-size: 12px; }
   .leg-input-row.leg-resolved .entity-search-wrap .leg-entity { border-color: var(--status-good); }
+  .leg-remove-btn { width: 28px; height: 28px; border-radius: 999px; border: 1px solid var(--border); background: var(--surface-1); color: var(--text-secondary); cursor: pointer; font-family: inherit; font-size: 16px; line-height: 1; padding: 0; }
+  .leg-remove-btn:hover { background: var(--status-critical); border-color: var(--status-critical); color: #fff; }
   #bet-form button, #add-leg-btn { padding: 9px 16px; border-radius: 999px; border: none; background: var(--series-1); color: #fff; font-weight: 600; cursor: pointer; font-family: inherit; font-size: 13px; margin-right: 8px; margin-top: 4px; }
   #add-leg-btn { background: var(--surface-3); color: var(--text-primary); }
   #signout-btn { margin-top: 16px; padding: 8px 16px; border-radius: 999px; border: 1px solid var(--border); background: var(--surface-1); color: var(--text-primary); cursor: pointer; font-family: inherit; }
@@ -627,6 +629,7 @@ function legRowHtml(idx) {{
     '<label class="leg-early-win-label" style="display:none">' +
     '<input type="checkbox" class="leg-early-win-token"> 2-up early win token' +
     '</label>' +
+    '<button type="button" class="leg-remove-btn" title="Remove this leg">&times;</button>' +
     '</div>'
   );
 }}
@@ -646,6 +649,11 @@ function wireLegRow(rowEl) {{
   const directionSelect = rowEl.querySelector('.leg-direction');
   const earlyWinLabel = rowEl.querySelector('.leg-early-win-label');
   const earlyWinCheckbox = rowEl.querySelector('.leg-early-win-token');
+  const removeBtn = rowEl.querySelector('.leg-remove-btn');
+
+  removeBtn.addEventListener('click', function () {{
+    rowEl.remove();
+  }});
 
   function clearResolution() {{
     rowEl.dataset.playerId = '';
