@@ -237,6 +237,17 @@ STYLE = """
        against the actual cell selector to still take effect. */
     .batter-block td.col-news { display: none; }
   }
+  /* Every collapsed game card's summary still renders its full projected
+     picks (the whole point is browsing today's picks without opening each
+     game) -- on a phone, the confidence percentage and venue are the least
+     essential parts of that line and the first things pushing a pick onto
+     its own extra wrapped line. Trimming them (not the actual pick/team/
+     line, which stays) keeps every collapsed card shorter without losing
+     the "at a glance" picks themselves. */
+  @media (max-width: 640px) {
+    .pick-pct, .game-venue { display: none; }
+    .proj-picks { gap: 8px 12px; }
+  }
   .team-title { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; font-weight: 600; font-size: 14px; margin-bottom: 2px; }
   .team-form { margin-bottom: 8px; }
   .team-form:empty { display: none; }
@@ -2152,11 +2163,11 @@ def _game_line_html(g):
     <div class="game-line">
       <span class="proj-score">Projected score: {html.escape(g["away"]["team_name"] or "?")} {away_score} &ndash; {html.escape(g["home"]["team_name"] or "?")} {home_score}</span>
       <div class="proj-picks">
-        <span data-favorite-key="{ml_key}" data-name="{html.escape(ml_name)}"{game_time_attr}>Moneyline: <b>{html.escape(ml_team or "?")}</b> to win ({round(ml_prob * 100)}%)
+        <span data-favorite-key="{ml_key}" data-name="{html.escape(ml_name)}"{game_time_attr}>Moneyline: <b>{html.escape(ml_team or "?")}</b> to win <span class="pick-pct">({round(ml_prob * 100)}%)</span>
           <button type="button" class="favorite-toggle" data-favorite-key="{ml_key}" onclick="toggleFavorite(event, '{ml_key}')">&#9825;</button></span>
-        <span data-favorite-key="{rl_key}" data-name="{html.escape(rl_name)}"{game_time_attr}>Run line: <b>{html.escape(spread_team or "?")} {spread_side}</b> ({round(spread_prob * 100)}% to cover)
+        <span data-favorite-key="{rl_key}" data-name="{html.escape(rl_name)}"{game_time_attr}>Run line: <b>{html.escape(spread_team or "?")} {spread_side}</b> <span class="pick-pct">({round(spread_prob * 100)}% to cover)</span>
           <button type="button" class="favorite-toggle" data-favorite-key="{rl_key}" onclick="toggleFavorite(event, '{rl_key}')">&#9825;</button></span>
-        <span data-favorite-key="{tot_key}" data-name="{html.escape(tot_name)}"{game_time_attr}>Total {p['total_line']}: lean <b>{total_pick.upper()}</b> ({round(total_prob * 100)}%)
+        <span data-favorite-key="{tot_key}" data-name="{html.escape(tot_name)}"{game_time_attr}>Total {p['total_line']}: lean <b>{total_pick.upper()}</b> <span class="pick-pct">({round(total_prob * 100)}%)</span>
           <button type="button" class="favorite-toggle" data-favorite-key="{tot_key}" onclick="toggleFavorite(event, '{tot_key}')">&#9825;</button></span>
       </div>
     </div>
@@ -2184,7 +2195,7 @@ def _game_card_html(g):
         <span class="game-meta">
           <span class="game-time" data-utc="{html.escape(g["game_time_utc"] or "")}">{html.escape(g["game_time_utc"] or "")}</span>
           {f" &middot; {html.escape(g['status'])}" if g["status"] and g["status"] != "Scheduled" else ""}
-          &middot; {html.escape(g["venue"] or "")}
+          <span class="game-venue">&middot; {html.escape(g["venue"] or "")}</span>
         </span>
         {_game_line_html(g)}
         <div class="live-tracker"></div>
@@ -2275,9 +2286,19 @@ def _injury_report_html(games):
 
 def _toolbar(games):
     dates = sorted({g["date"] for g in games})
+    # build_report() pulls today + 2 days ahead, so "All dates" as the
+    # default landed a first-time (and every-time) visitor on ~40+ collapsed
+    # game cards to scroll through -- brutal on mobile, since even a
+    # collapsed card isn't free (matchup, badges, projected picks all still
+    # render in the summary). Defaulting to the earliest date in range
+    # (today, whenever today has games) cuts that to one day's slate;
+    # "All dates" stays one click away in the dropdown for anyone who wants
+    # the full window.
+    default_date = dates[0] if dates else "all"
     options = ['<option value="all">All dates</option>']
     for d in dates:
-        options.append(f'<option value="{html.escape(d)}">{html.escape(d)}</option>')
+        selected = ' selected' if d == default_date else ''
+        options.append(f'<option value="{html.escape(d)}"{selected}>{html.escape(d)}</option>')
 
     return f"""
     <div class="toolbar">
@@ -2337,9 +2358,10 @@ def _pick_card_html(pick, rank, direction):
     live_attrs = ""
     if pick.get("best_category") and pick.get("game_pk"):
         c = pick["best_category"]
+        # data-player-id is already on the outer div below (unconditionally) --
+        # not repeated here.
         live_attrs = (
-            f' data-player-id="{pick.get("player_id")}" '
-            f'data-role="{pick.get("role", "batter")}" data-category="{html.escape(c["label"])}" '
+            f' data-role="{pick.get("role", "batter")}" data-category="{html.escape(c["label"])}" '
             f'data-line="{c["line"]}" data-direction="{direction}"'
         )
     # Unconditional (unlike live_attrs above) -- updateFavoriteCounts() needs

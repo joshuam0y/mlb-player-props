@@ -11,6 +11,14 @@ public news RSS feed -- no paid odds API, no scraping of betting sites.
 
 _Updated with every change going forward._
 
+- **2026-07-29** -- Fixed the dashboard defaulting to "All dates" (today +
+  2 days ahead, ~40 games) on every page load -- now defaults to just
+  today's slate ("All dates" is still one click away), cutting the
+  collapsed-card scroll a mobile visitor hits by more than half. Also
+  trimmed the confidence percentage and venue out of each collapsed
+  card's summary on mobile (the pick/team/line itself still shows), and
+  removed a harmless but sloppy duplicate `data-player-id` attribute on
+  pick cards.
 - **2026-07-29** -- Favorited moneyline/run line/total picks now show the
   matchup and game time (not just the pick itself) in the favorites panel,
   and every game card shows a "♥ N favorites" badge for how many of your

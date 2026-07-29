@@ -205,6 +205,17 @@
        against the actual cell selector to still take effect. */
     .batter-block td.col-news { display: none; }
   }
+  /* Every collapsed game card's summary still renders its full projected
+     picks (the whole point is browsing today's picks without opening each
+     game) -- on a phone, the confidence percentage and venue are the least
+     essential parts of that line and the first things pushing a pick onto
+     its own extra wrapped line. Trimming them (not the actual pick/team/
+     line, which stays) keeps every collapsed card shorter without losing
+     the "at a glance" picks themselves. */
+  @media (max-width: 640px) {
+    .pick-pct, .game-venue { display: none; }
+    .proj-picks { gap: 8px 12px; }
+  }
   .team-title { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; font-weight: 600; font-size: 14px; margin-bottom: 2px; }
   .team-form { margin-bottom: 8px; }
   .team-form:empty { display: none; }
