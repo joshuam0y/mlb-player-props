@@ -140,6 +140,19 @@ def get_boxscore(game_pk):
     return _get(f"/game/{game_pk}/feed/live", base=LIVE_BASE).get("liveData", {}).get("boxscore", {})
 
 
+def get_linescore(game_pk):
+    """
+    Per-inning score breakdown (linescore.innings, each a {home: {runs},
+    away: {runs}} pair) -- unlike home_score/away_score in the `games`
+    table (final only), this is the only way to reconstruct the running
+    score at any point during the game, needed for a "team led by N runs
+    at any point" check (the My Bets early-win token). Retained on MLB's
+    own feed even for an already-completed game, so this works whether
+    called live or well after the final out.
+    """
+    return _get(f"/game/{game_pk}/feed/live", base=LIVE_BASE).get("liveData", {}).get("linescore", {})
+
+
 def get_transactions(start_date, end_date, sport_id=1):
     """Free-agent signings, trades, IL placements/activations, etc."""
     data = _get("/transactions", {"sportId": sport_id, "startDate": start_date, "endDate": end_date})

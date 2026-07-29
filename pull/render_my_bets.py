@@ -56,9 +56,10 @@ PAGE_STYLE = """
   #signin-view input { display: block; width: 100%; box-sizing: border-box; margin-bottom: 10px; padding: 9px 11px; border-radius: 8px; border: 1px solid var(--border); background: var(--surface-2); color: var(--text-primary); font-family: inherit; font-size: 14px; }
   #signin-view button { width: 100%; padding: 10px; border-radius: 8px; border: none; background: var(--series-1); color: #fff; font-weight: 600; cursor: pointer; font-family: inherit; font-size: 14px; }
   .bet-form-row { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 8px; }
-  .bet-form-row input { padding: 8px 10px; border-radius: 8px; border: 1px solid var(--border); background: var(--surface-2); color: var(--text-primary); font-family: inherit; font-size: 13.5px; }
+  .bet-form-row input, .bet-form-row select { padding: 8px 10px; border-radius: 8px; border: 1px solid var(--border); background: var(--surface-2); color: var(--text-primary); font-family: inherit; font-size: 13.5px; }
   .leg-input-row { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 8px; align-items: center; }
   .leg-input-row input, .leg-input-row select { padding: 8px 10px; border-radius: 8px; border: 1px solid var(--border); background: var(--surface-2); color: var(--text-primary); font-family: inherit; font-size: 13.5px; }
+  .leg-early-win-label { display: flex; align-items: center; gap: 6px; font-size: 12.5px; color: var(--text-secondary); }
   .leg-input-row .leg-entity { width: 100%; box-sizing: border-box; }
   .entity-search-wrap { position: relative; flex: 1; min-width: 160px; }
   .entity-suggestions { display: none; position: absolute; top: 100%; left: 0; right: 0; background: var(--surface-1); border: 1px solid var(--border); border-radius: 8px; z-index: 20; max-height: 220px; overflow-y: auto; margin-top: 2px; box-shadow: var(--shadow); }
@@ -428,8 +429,18 @@ function betStatusBadge(bet) {{
   return badgeHtml('PENDING', 'projected');
 }}
 
+// bet.to_win is always the plain, unboosted profit (matches the odds
+// entered) -- a profit boost token multiplies the PROFIT portion only
+// (real FanDuel behavior: stake is never boosted, just the winnings on
+// top of it), applied here rather than mutating to_win itself so the
+// entered odds/stake relationship stays honest and auditable.
+function boostedToWin(bet) {{
+  const pct = Number(bet.profit_boost_pct) || 0;
+  return bet.to_win * (1 + pct / 100);
+}}
+
 function betProfit(bet) {{
-  if (bet.status === 'won') return bet.to_win;
+  if (bet.status === 'won') return boostedToWin(bet);
   if (bet.status === 'lost') return -bet.stake;
   return null;
 }}
@@ -442,11 +453,19 @@ function legRowDisplayHtml(leg) {{
     const oppTxt = leg.opponent_name ? ' vs ' + escapeHtml(leg.opponent_name) : '';
     const actualTxt = leg.actual_value != null ? ' &middot; actual margin/total: ' + leg.actual_value : '';
     const timeTxt = formatGameTime(leg.game_time_utc);
+    let gradingTxt;
+    if (leg.early_win_triggered) {{
+      gradingTxt = 'Won early -- ' + EARLY_WIN_LEAD_THRESHOLD + '-up token triggered';
+    }} else if (leg.category === 'Moneyline' && leg.early_win_token) {{
+      gradingTxt = EARLY_WIN_LEAD_THRESHOLD + '-up early win token active -- wins instantly on a ' + EARLY_WIN_LEAD_THRESHOLD + '-run lead';
+    }} else {{
+      gradingTxt = 'Team prop -- grades only once the game is Final';
+    }}
     return (
       '<div class="leg-row"><div class="leg-main"><b>' + escapeHtml(leg.team_name) + '</b>' + oppTxt + ' ' +
       '<span class="leg-prop">' + escapeHtml(propTxt) + '</span> ' +
       legStatusBadge(leg) + '</div>' +
-      '<div class="leg-sub sub">' + (timeTxt ? timeTxt + ' &middot; ' : '') + 'Team prop -- grades only once the game is Final' + actualTxt + '</div></div>'
+      '<div class="leg-sub sub">' + (timeTxt ? timeTxt + ' &middot; ' : '') + gradingTxt + actualTxt + '</div></div>'
     );
   }}
   const modelTxt = leg.model_projection != null
@@ -470,6 +489,7 @@ function editFormHtml(bet) {{
     '<input type="number" step="0.01" class="edit-stake" value="' + bet.stake + '" placeholder="Stake ($)" style="width:110px">' +
     '<input type="number" step="0.01" class="edit-to-win" value="' + bet.to_win + '" placeholder="To win ($)" style="width:150px">' +
     '<input type="text" class="edit-odds" value="' + escapeHtml(bet.odds || '') + '" placeholder="Odds (e.g. +115)" style="width:140px">' +
+    '<select class="edit-boost" title="Profit boost token">' + boostOptionsHtml(bet.profit_boost_pct) + '</select>' +
     '</div>' +
     '<button type="button" class="edit-save-btn">Save</button>' +
     '<button type="button" class="edit-cancel-btn">Cancel</button>' +
@@ -494,11 +514,15 @@ function betCardHtml(bet) {{
   const legsHtml = (bet.legs || []).map(legRowDisplayHtml).join('');
   const oddsTxt = bet.odds ? ' &middot; odds ' + escapeHtml(bet.odds) : '';
   const parlayTxt = (bet.legs || []).length > 1 ? ' (' + bet.legs.length + '-leg parlay)' : '';
+  const boostPct = Number(bet.profit_boost_pct) || 0;
+  const toWinTxt = boostPct > 0
+    ? 'to win $' + Number(bet.to_win).toFixed(2) + ' <span class="sub">(+' + boostPct + '% boost &rarr; $' + boostedToWin(bet).toFixed(2) + ')</span>'
+    : 'to win $' + Number(bet.to_win).toFixed(2);
   const actionsHtml = ' <button type="button" class="bet-edit-btn">Edit</button><button type="button" class="bet-delete-btn">Delete</button>';
   return (
     '<div class="bet-card" data-bet-id="' + bet.id + '"><div class="bet-card-head">' +
     '<span><b>' + escapeHtml(bet.placed_date) + '</b>' + parlayTxt + ' &middot; ' + escapeHtml(bet.sportsbook || 'FanDuel') + oddsTxt +
-    ' &middot; staked $' + Number(bet.stake).toFixed(2) + ' to win $' + Number(bet.to_win).toFixed(2) + '</span>' +
+    ' &middot; staked $' + Number(bet.stake).toFixed(2) + ' ' + toWinTxt + '</span>' +
     '<span>' + betStatusBadge(bet) + ' <b>' + profitTxt + '</b>' + actionsHtml + '</span></div>' +
     '<div class="bet-edit-form" style="display:none"></div>' +
     legsHtml + '</div>'
@@ -556,7 +580,7 @@ function renderBets(bets) {{
   // Profit only (matches to_win's own meaning and "Total profit/loss"
   // above), not the gross payout including stake back -- keeps this tile
   // consistent with every other profit figure on the page.
-  const pendingPotentialWinnings = pending.reduce(function (sum, b) {{ return sum + Number(b.to_win); }}, 0);
+  const pendingPotentialWinnings = pending.reduce(function (sum, b) {{ return sum + boostedToWin(b); }}, 0);
 
   document.getElementById('summary-tiles').innerHTML =
     tileHtml((totalProfit >= 0 ? '+$' : '-$') + Math.abs(totalProfit).toFixed(2), 'Total profit/loss (settled bets)') +
@@ -568,6 +592,15 @@ function renderBets(bets) {{
   document.getElementById('bets-list').innerHTML = visible.length
     ? visible.map(betCardHtml).join('')
     : ('<div class="empty">' + (bets.length ? 'No bets match these filters.' : 'No bets logged yet.') + '</div>');
+}}
+
+const BOOST_OPTIONS = [0, 20, 25, 30, 50];
+function boostOptionsHtml(selectedPct) {{
+  const selected = Number(selectedPct) || 0;
+  return BOOST_OPTIONS.map(function (pct) {{
+    const label = pct === 0 ? 'No profit boost' : ('+' + pct + '% profit boost');
+    return '<option value="' + pct + '"' + (pct === selected ? ' selected' : '') + '>' + label + '</option>';
+  }}).join('');
 }}
 
 function categoryOptionsHtml(role) {{
@@ -591,6 +624,9 @@ function legRowHtml(idx) {{
     '<select class="leg-category">' + categoryOptionsHtml(null) + '</select>' +
     '<input type="number" step="0.5" class="leg-line" placeholder="Line" required style="width:80px">' +
     '<select class="leg-direction"><option value="over">Over</option><option value="under">Under</option></select>' +
+    '<label class="leg-early-win-label" style="display:none">' +
+    '<input type="checkbox" class="leg-early-win-token"> 2-up early win token' +
+    '</label>' +
     '</div>'
   );
 }}
@@ -608,6 +644,8 @@ function wireLegRow(rowEl) {{
   const categorySelect = rowEl.querySelector('.leg-category');
   const lineInput = rowEl.querySelector('.leg-line');
   const directionSelect = rowEl.querySelector('.leg-direction');
+  const earlyWinLabel = rowEl.querySelector('.leg-early-win-label');
+  const earlyWinCheckbox = rowEl.querySelector('.leg-early-win-token');
 
   function clearResolution() {{
     rowEl.dataset.playerId = '';
@@ -644,6 +682,13 @@ function wireLegRow(rowEl) {{
       directionSelect.style.display = '';
       lineInput.required = true;
     }}
+    // The early-win token only makes sense for a team's own Moneyline pick
+    // (see applyLiveDataToBets()) -- hidden AND unchecked for every other
+    // kind/category so switching away from Moneyline never silently
+    // leaves a stale checked token attached to a leg it doesn't apply to.
+    const showEarlyWin = kind === 'team' && category === 'Moneyline';
+    earlyWinLabel.style.display = showEarlyWin ? '' : 'none';
+    if (!showEarlyWin) earlyWinCheckbox.checked = false;
   }}
 
   kindSelect.addEventListener('change', function () {{
@@ -782,6 +827,33 @@ function pollAllBetGames() {{
   }});
 }}
 
+const EARLY_WIN_LEAD_THRESHOLD = 2; // runs -- matches sync_bets_firestore.py's own constant
+
+// The biggest lead `side` ('home'/'away') ever held at any point in the
+// game -- reconstructed from each half-inning's own runs, the only field
+// that captures game HISTORY (the live feed's home/away totals are just
+// the current/final score). Same logic as
+// sync_bets_firestore.py's _max_lead_from_linescore(), duplicated
+// client-side for the same reason as liveLeanValue/liveLeanResult above:
+// no bundler to share code between this page and the server script.
+function maxLeadFromLinescore(linescore, side) {{
+  const innings = (linescore && linescore.innings) || [];
+  let homeCum = 0, awayCum = 0, maxLead = 0;
+  innings.forEach(function (inn) {{
+    const awayRuns = inn.away && inn.away.runs;
+    if (awayRuns != null) {{
+      awayCum += awayRuns;
+      maxLead = Math.max(maxLead, side === 'away' ? (awayCum - homeCum) : (homeCum - awayCum));
+    }}
+    const homeRuns = inn.home && inn.home.runs;
+    if (homeRuns != null) {{
+      homeCum += homeRuns;
+      maxLead = Math.max(maxLead, side === 'home' ? (homeCum - awayCum) : (awayCum - homeCum));
+    }}
+  }});
+  return maxLead;
+}}
+
 function applyLiveDataToBets(gamePk, data) {{
   const isFinal = ((data.gameData || {{}}).status || {{}}).abstractGameState === 'Final';
   const box = ((data.liveData || {{}}).boxscore || {{}}).teams || {{}};
@@ -796,6 +868,21 @@ function applyLiveDataToBets(gamePk, data) {{
       if (leg.status !== 'pending' || leg.game_pk !== gamePk) return;
 
       if (leg.kind === 'game') {{
+        // 2-up early win token: deliberate, explicit exception to "never
+        // grade before Final" below -- a real FanDuel promo mechanic
+        // where the picked team leading by 2+ runs at ANY point locks in
+        // a win immediately, even if they later lose. Checked first and
+        // regardless of isFinal, since the whole point is catching it
+        // before the game ends.
+        if (leg.category === 'Moneyline' && leg.early_win_token && !leg.early_win_triggered) {{
+          const maxLead = maxLeadFromLinescore(linescore, leg.side);
+          if (maxLead >= EARLY_WIN_LEAD_THRESHOLD) {{
+            leg.status = 'hit';
+            leg.early_win_triggered = true;
+            betChanged = true;
+            return;
+          }}
+        }}
         // Never grade a game-outcome prop before it's actually Final --
         // unlike a player stat, a game lead isn't a permanent fact until
         // the last out (see _grade_game_leg()'s own docstring server-side).
@@ -943,12 +1030,13 @@ document.getElementById('bets-list').addEventListener('click', async function (e
     const stake = parseFloat(formEl.querySelector('.edit-stake').value);
     const toWin = parseFloat(formEl.querySelector('.edit-to-win').value);
     const odds = formEl.querySelector('.edit-odds').value || null;
+    const boostPct = parseInt(formEl.querySelector('.edit-boost').value, 10) || 0;
     if (!date || isNaN(stake) || isNaN(toWin)) {{
       errorEl.textContent = 'Date, stake, and to-win are all required.';
       return;
     }}
     try {{
-      await updateDoc(doc(db, 'bets', betId), {{ placed_date: date, stake: stake, to_win: toWin, odds: odds }});
+      await updateDoc(doc(db, 'bets', betId), {{ placed_date: date, stake: stake, to_win: toWin, odds: odds, profit_boost_pct: boostPct }});
       formEl.style.display = 'none';
       formEl.innerHTML = '';
     }} catch (err) {{
@@ -1001,6 +1089,8 @@ document.getElementById('bet-form').addEventListener('submit', async function (e
         const needsLine = category !== 'Moneyline';
         const line = lineRaw === '' ? null : parseFloat(lineRaw);
         if (needsLine && (line == null || isNaN(line))) return;
+        const earlyWinCheckbox = row.querySelector('.leg-early-win-token');
+        const earlyWinToken = category === 'Moneyline' && earlyWinCheckbox && earlyWinCheckbox.checked;
         legs.push({{
           kind: 'game',
           team_name: entityName,
@@ -1012,6 +1102,8 @@ document.getElementById('bet-form').addEventListener('submit', async function (e
           category: category,
           line: needsLine ? line : null,
           direction: category === 'Total' ? direction : null,
+          early_win_token: earlyWinToken,
+          early_win_triggered: false,
           status: 'pending',
           actual_value: null,
         }});
@@ -1066,6 +1158,7 @@ document.getElementById('bet-form').addEventListener('submit', async function (e
       stake: stake,
       to_win: toWin,
       odds: document.getElementById('bet-odds').value || null,
+      profit_boost_pct: parseInt(document.getElementById('bet-boost').value, 10) || 0,
       status: 'pending',
       created_at: new Date().toISOString(),
       graded_at: null,
@@ -1157,6 +1250,13 @@ def render_html():
             <input type="number" step="0.01" id="bet-stake" placeholder="Stake ($)" required style="width:110px">
             <input type="number" step="0.01" id="bet-to-win" placeholder="To win ($, profit only)" required style="width:170px">
             <input type="text" id="bet-odds" placeholder="Odds (e.g. +115, optional)" style="width:180px">
+            <select id="bet-boost" title="Profit boost token">
+              <option value="0">No profit boost</option>
+              <option value="20">+20% profit boost</option>
+              <option value="25">+25% profit boost</option>
+              <option value="30">+30% profit boost</option>
+              <option value="50">+50% profit boost</option>
+            </select>
           </div>
           <div id="legs-container"></div>
           <button type="button" id="add-leg-btn">+ Add leg</button>

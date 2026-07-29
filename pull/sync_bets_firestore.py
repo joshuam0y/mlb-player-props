@@ -28,7 +28,11 @@ import json
 import os
 from datetime import datetime, timezone
 
+import api
+
 _firebase_app = None
+
+EARLY_WIN_LEAD_THRESHOLD = 2  # runs -- the "2-up early win" token's own trigger
 
 
 def _get_firestore_client():
@@ -101,6 +105,30 @@ def _game_pk_and_side_for_team(conn, team_id, date):
     return row["game_pk"], ("home" if row["home_team_id"] == team_id else "away")
 
 
+def _max_lead_from_linescore(linescore, side):
+    """
+    The biggest lead `side` ('home'/'away') ever held at any point in the
+    game -- reconstructed by walking each half-inning's own runs (the only
+    field games.home_score/away_score never captures, since that table
+    only ever records the FINAL score). Needed for the "2-up early win"
+    token: whether a team went up 2+ at some point is a fact about the
+    game's whole history, not just how it ended.
+    """
+    innings = (linescore or {}).get("innings") or []
+    home_cum = away_cum = 0
+    max_lead = 0
+    for inn in innings:
+        away_runs = (inn.get("away") or {}).get("runs")
+        if away_runs is not None:
+            away_cum += away_runs
+            max_lead = max(max_lead, (away_cum - home_cum) if side == "away" else (home_cum - away_cum))
+        home_runs = (inn.get("home") or {}).get("runs")
+        if home_runs is not None:
+            home_cum += home_runs
+            max_lead = max(max_lead, (home_cum - away_cum) if side == "home" else (away_cum - home_cum))
+    return max_lead
+
+
 def _grade_game_leg(conn, leg, placed_date):
     """
     Mutates leg in place; returns True if anything about it changed.
@@ -111,7 +139,13 @@ def _grade_game_leg(conn, leg, placed_date):
     5th-inning lead can still get blown, a run differential can shrink,
     so "currently ahead" is never a safe permanent fact the way "already
     has 2 hits" is. Every game-prop category here only ever grades once
-    the game is genuinely Final, no early exception.
+    the game is genuinely Final, no early exception -- EXCEPT the
+    "2-up early win" token below, a deliberate, explicit override: a real
+    FanDuel promo mechanic where a Moneyline pick is locked in as a win
+    the instant the picked team leads by 2+ runs at any point, even if
+    they go on to lose. That's not a loophole in the reasoning above --
+    it's the one case where a blown lead genuinely doesn't matter anymore,
+    because the token already paid out on the lead itself.
     """
     from build_props import FINAL_STATUSES
 
@@ -124,6 +158,17 @@ def _grade_game_leg(conn, leg, placed_date):
             return False
     changed = leg.get("game_pk") != game_pk
     leg["game_pk"], leg["side"] = game_pk, side
+
+    if leg["category"] == "Moneyline" and leg.get("early_win_token") and not leg.get("early_win_triggered"):
+        try:
+            linescore = api.get_linescore(game_pk)
+        except Exception:
+            linescore = None
+        if linescore and _max_lead_from_linescore(linescore, side) >= EARLY_WIN_LEAD_THRESHOLD:
+            leg["status"] = "hit"
+            leg["early_win_triggered"] = True
+            return True
+
     row = conn.execute("SELECT home_score, away_score, status FROM games WHERE game_pk = ?", (game_pk,)).fetchone()
     if not row or row["status"] not in FINAL_STATUSES or row["home_score"] is None or row["away_score"] is None:
         return changed
