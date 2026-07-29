@@ -11,6 +11,21 @@ public news RSS feed -- no paid odds API, no scraping of betting sites.
 
 _Updated with every change going forward._
 
+- **2026-07-29** -- Fixed the rest of the full-codebase audit's real
+  findings: (1) news headlines matching two active players with the exact
+  same full name now disambiguate by team mentioned in the title instead
+  of silently crediting whichever player the DB happened to return last --
+  confirmed this isn't hypothetical, both Athletics' and Dodgers' Max
+  Muncy are active right now; (2) a same-day doubleheader no longer lets
+  the second game's matchup context silently overwrite the first's for a
+  shared player when refreshing an already-frozen pick; (3) the data-
+  completeness publish-guard now has a 24h cap on how long it can keep
+  refusing to publish -- previously a genuine persistent regression (not
+  just a transient recovery hiccup) would wedge the site at the same
+  stale snapshot forever, silently; (4) corrected calibrate.py's docstring,
+  which implied its Platt-scaling calibration feeds into live predictions
+  -- it doesn't, nothing reads its output yet, left as a standalone
+  research tool rather than wired in without validation.
 - **2026-07-29** -- Fixed a real bug from a full-codebase audit: the live
   in-game tracker never started polling at all if you opened the dashboard
   before any of today's games had thrown a first pitch (a very common case

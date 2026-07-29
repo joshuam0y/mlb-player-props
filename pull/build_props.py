@@ -1725,15 +1725,21 @@ def _regrade_picks(conn, picks_field, direction):
 def _player_context(todays_games):
     """
     Current data for every player showing up today, keyed by (role,
-    player_id) -- used to refresh an already-frozen pick without needing to
-    recompute the whole entry. For batters this also carries which
-    opposing starting pitcher the CURRENT build used, plus the fields
+    player_id, game_pk) -- used to refresh an already-frozen pick without
+    needing to recompute the whole entry. For batters this also carries
+    which opposing starting pitcher the CURRENT build used, plus the fields
     batter_over_score()/batter_under_score() need -- compared against the
     pitcher a frozen pick was originally built against in
     _refresh_frozen_pick(), so a real late pitcher swap (scratch, bullpen
     game, etc.) can be detected and the pick's matchup-dependent fields
     recomputed, rather than silently left stale against a pitcher who's no
     longer even starting.
+
+    game_pk is part of the key (not just role+player_id) because a same-day
+    doubleheader is two separate games with two separate contexts for the
+    same player -- without it, the second game silently overwrote the
+    first's entry for any shared player, so a frozen pick could get
+    "refreshed" against the wrong game's opposing starter entirely.
     """
     context = {}
     for g in todays_games:
@@ -1742,7 +1748,7 @@ def _player_context(todays_games):
             opp_side = g["away"] if side_key == "home" else g["home"]
             opp_pitcher_id = (opp_side["probable_pitcher"] or {}).get("player_id")
             for b in side["batters"]:
-                context[("batter", b["player_id"])] = {
+                context[("batter", b["player_id"], g["game_pk"])] = {
                     "prop_categories": b.get("prop_categories"),
                     "best_over": b.get("best_over"),
                     "best_under": b.get("best_under"),
@@ -1755,7 +1761,7 @@ def _player_context(todays_games):
                 }
             p = side["probable_pitcher"]
             if p:
-                context[("pitcher", p["player_id"])] = {
+                context[("pitcher", p["player_id"], g["game_pk"])] = {
                     "prop_categories": p.get("prop_categories"),
                     "best_over": p.get("best_over"),
                     "best_under": p.get("best_under"),
@@ -1794,7 +1800,7 @@ def _refresh_frozen_pick(pick, direction, player_context, exclude_label=None):
     in it at all, which left him stuck without a real check either way.
     """
     role = pick.get("role", "batter")
-    ctx = player_context.get((role, pick["player_id"]))
+    ctx = player_context.get((role, pick["player_id"], pick.get("game_pk")))
     if not ctx:
         return
     pitcher_changed = (
@@ -2003,6 +2009,15 @@ def render_markdown(report):
 
 
 MAX_COMPLETENESS_REGRESSION = 0.15  # refuse to publish if data completeness drops by more than this
+# ...but never refuse indefinitely: this guard compares against whatever's
+# CURRENTLY published, which never advances while it keeps refusing -- a
+# transient recovery hiccup clears on its own within a run or two, but a
+# genuine, persistent regression (a real schema/query bug, not a recovering
+# cache) would otherwise wedge the site at the same stale snapshot forever,
+# silently, with only a print() in a cron log to notice it by. Past this
+# many hours of the live report's own age, a thinner-but-current report
+# becomes the safer thing to publish than an ever-more-stale "complete" one.
+MAX_STALE_HOURS = 24
 
 
 def _data_completeness(report):
@@ -2048,7 +2063,18 @@ def run(days_ahead=2, write_archive=True):
                 previous_report = json.load(f)
             previous_completeness = _data_completeness(previous_report)
             new_completeness = _data_completeness(report)
-            if previous_completeness - new_completeness > MAX_COMPLETENESS_REGRESSION:
+            previous_age_hours = None
+            previous_generated_at = previous_report.get("generated_at")
+            if previous_generated_at:
+                try:
+                    previous_age_hours = (
+                        datetime.now(timezone.utc) - datetime.fromisoformat(previous_generated_at)
+                    ).total_seconds() / 3600
+                except ValueError:
+                    previous_age_hours = None  # malformed timestamp -- treat as unknown, not stale
+            regressed = previous_completeness - new_completeness > MAX_COMPLETENESS_REGRESSION
+            live_is_stale = previous_age_hours is not None and previous_age_hours >= MAX_STALE_HOURS
+            if regressed and not live_is_stale:
                 print(
                     f"Refusing to publish: new report's batter data completeness "
                     f"({new_completeness:.0%}) is a big regression from the current live one "
@@ -2056,6 +2082,14 @@ def run(days_ahead=2, write_archive=True):
                     f"against is still mid-recovery -- leaving the existing, better output in place."
                 )
                 return
+            if regressed and live_is_stale:
+                print(
+                    f"Publishing despite a data completeness regression ({new_completeness:.0%} vs. "
+                    f"{previous_completeness:.0%}): the currently-live report is already "
+                    f"{previous_age_hours:.0f}h old, past the {MAX_STALE_HOURS}h cap on how long this "
+                    f"guard is allowed to keep it around -- a thinner but current report beats an "
+                    f"ever-staler 'complete' one at this point."
+                )
         except (json.JSONDecodeError, KeyError, OSError):
             pass  # no usable previous report to compare against -- proceed normally
 

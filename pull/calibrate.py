@@ -16,7 +16,15 @@ information a real forward-looking calibration could never have had.
 
 If calibration doesn't measurably beat the raw probability on the held-out
 test set, that's reported plainly, not hidden -- and nothing is written to
-output/calibration.json, so simulate_games.py keeps using raw probabilities.
+output/calibration.json.
+
+NOTE: even when it IS written, nothing currently reads output/calibration.json
+back -- simulate_games.py/game_model.py always use the raw probability, and
+this script isn't wired into any of the 3 GitHub Actions workflows. This is
+a standalone research/validation tool for now, not a live calibration layer;
+actually wiring a fitted correction into the live win probabilities the
+dashboard shows is a real decision that hasn't been made yet, not an
+oversight to silently "finish" here.
 """
 
 import argparse

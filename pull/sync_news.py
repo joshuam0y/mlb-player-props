@@ -68,14 +68,41 @@ def sync_injuries(conn, days_back=14):
 
 def sync_headlines(conn):
     items = api.get_league_news()
-    players = conn.execute("SELECT player_id, full_name FROM players WHERE active = 1").fetchall()
-    # crude but effective: match whole player names as a substring of the headline title
-    name_to_id = {row["full_name"]: row["player_id"] for row in players}
+    players = conn.execute(
+        """
+        SELECT p.player_id, p.full_name, t.name AS team_name
+        FROM players p LEFT JOIN teams t ON t.team_id = p.current_team_id
+        WHERE p.active = 1
+        """
+    ).fetchall()
+    # crude but effective: match whole player names as a substring of the
+    # headline title -- grouped by name (not a plain name->id dict) because
+    # two active players can share an exact full name (a real, recurring
+    # MLB occurrence); a dict comprehension would silently keep only
+    # whichever one was iterated last and attribute every matching
+    # headline to them, even when it's actually about the other player.
+    by_name = {}
+    for row in players:
+        by_name.setdefault(row["full_name"], []).append((row["player_id"], row["team_name"]))
 
     rows = []
     for item in items:
         title = item["title"]
-        matched = [str(pid) for name, pid in name_to_id.items() if name and re.search(re.escape(name), title)]
+        matched = []
+        for name, candidates in by_name.items():
+            if not name or not re.search(re.escape(name), title):
+                continue
+            if len(candidates) == 1:
+                matched.append(str(candidates[0][0]))
+                continue
+            # Shared name: only attribute the headline to a candidate whose
+            # own team is also named in the title. If that's ambiguous too
+            # (none or more than one team matches), there's no reliable way
+            # to tell them apart from the title text alone -- skip rather
+            # than guess and risk crediting the wrong player's news.
+            team_matches = [pid for pid, team_name in candidates if team_name and re.search(re.escape(team_name), title)]
+            if len(team_matches) == 1:
+                matched.append(str(team_matches[0]))
         rows.append((item["link"], title, item["pub_date"], item["creator"], ",".join(matched)))
 
     if rows:
