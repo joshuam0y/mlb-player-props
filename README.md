@@ -11,6 +11,12 @@ public news RSS feed -- no paid odds API, no scraping of betting sites.
 
 _Updated with every change going forward._
 
+- **2026-07-29** -- Added profit boost tokens (20/25/30/50%, applied to
+  the profit portion only) and a "2-up early win" token to My Bets -- a
+  Moneyline pick with the token locks in a win the instant the team leads
+  by 2+ runs at any point, even if they later lose, graded both server-
+  side (authoritative) and live client-side from MLB's per-inning score
+  history.
 - **2026-07-29** -- Refined the total-line fix below: instead of always
   rounding the median up (which just traded one systematic bias for
   another -- every game leaning UNDER), it now picks whichever of the two
