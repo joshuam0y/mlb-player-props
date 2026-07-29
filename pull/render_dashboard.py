@@ -256,6 +256,7 @@ STYLE = """
   .badge-streak { background: var(--status-warning); color: #1a1a19; }
   .badge-caveat { background: var(--badge-neutral-bg); color: var(--text-secondary); }
   .badge-alert { background: var(--status-critical); color: white; }
+  .badge-favorite { background: var(--status-critical); color: white; }
   .game-time { font-variant-numeric: tabular-nums; }
   .pitcher-row { cursor: pointer; }
   .pitcher-line { font-size: 13px; margin-bottom: 4px; color: var(--text-secondary); }
@@ -643,6 +644,34 @@ function syncFavoriteButtons() {
   if (countEl) countEl.textContent = keys.length;
 }
 
+// A game-pk badge next to each game's own matchup title, so "how many of
+// my favorites are in THIS game" doesn't require opening the favorites
+// panel and cross-referencing team names by eye. Player rows/pitcher rows/
+// moneyline-run line-total spans all live inside their own game's
+// .game-card, so closest('.game-card') resolves those; a pick card (Top
+// Overs/Unders) sits outside every .game-card's DOM subtree, so it carries
+// its own data-game-pk directly instead.
+function updateFavoriteCounts() {
+  const counts = {};
+  loadFavorites().forEach(function (key) {
+    const el = document.querySelector('[data-favorite-key="' + key + '"][data-name]');
+    if (!el) return;
+    const card = el.closest('.game-card');
+    const gamePk = el.dataset.gamePk || (card && card.dataset.gamePk);
+    if (!gamePk) return;
+    counts[gamePk] = (counts[gamePk] || 0) + 1;
+  });
+  document.querySelectorAll('.fav-count-badge').forEach(function (badge) {
+    const n = counts[badge.dataset.gamePk] || 0;
+    if (n > 0) {
+      badge.textContent = '♥ ' + n + (n === 1 ? ' favorite' : ' favorites');
+      badge.style.display = '';
+    } else {
+      badge.style.display = 'none';
+    }
+  });
+}
+
 function toggleFavorite(e, key) {
   e.stopPropagation(); // don't also trigger the row's own toggleDetail() expand/collapse
   e.preventDefault(); // moneyline/run line/total hearts sit inside <summary>, which natively
@@ -677,13 +706,22 @@ function renderFavoritesPanel() {
   listEl.innerHTML = keys.map(function (key) {
     const el = document.querySelector('[data-favorite-key="' + key + '"][data-name]');
     const name = el ? el.dataset.name : ('Not in today\\'s games (' + key + ')');
-    const sub = el ? '' : '<div class="sub">Not in today\\'s games</div>';
+    let sub = el ? '' : '<div class="sub">Not in today\\'s games</div>';
+    if (el && el.dataset.gameTimeUtc) {
+      sub = '<div class="sub game-time" data-utc="' + el.dataset.gameTimeUtc + '">' + el.dataset.gameTimeUtc + '</div>';
+    }
     return (
       '<div class="favorite-item' + (el ? '' : ' favorite-item-missing') + '" onclick="jumpToFavorite(\\'' + key + '\\')">' +
       '<button type="button" class="favorite-item-remove" onclick="removeFavorite(event, \\'' + key + '\\')" title="Remove favorite">&times;</button>' +
       '<b>' + escapeHtml(name) + '</b>' + sub + '</div>'
     );
   }).join('');
+  // New .game-time spans just introduced above need the same UTC->local
+  // pass the rest of the page already got at DOMContentLoaded -- this
+  // function is idempotent (re-reads data-utc, never mutates it), so
+  // calling it again here is safe.
+  localizeGameTimes();
+  updateFavoriteCounts();
 }
 
 function toggleFavoritesPanel() {
@@ -2102,18 +2140,23 @@ def _game_line_html(g):
         total_prob = max(p["over_prob"], 1 - p["over_prob"])
 
     game_pk = g["game_pk"]
-    ml_key, ml_name = f"{game_pk}:moneyline", f"{ml_team or '?'} to win"
-    rl_key, rl_name = f"{game_pk}:run_line", f"{spread_team or '?'} {spread_side}"
-    tot_key, tot_name = f"{game_pk}:total", f"Total {p['total_line']} {total_pick.upper()}"
+    matchup = f"{g['away']['team_name'] or '?'} @ {g['home']['team_name'] or '?'}"
+    ml_key, ml_name = f"{game_pk}:moneyline", f"{matchup}: {ml_team or '?'} to win"
+    rl_key, rl_name = f"{game_pk}:run_line", f"{matchup}: {spread_team or '?'} {spread_side}"
+    tot_key, tot_name = f"{game_pk}:total", f"{matchup}: Total {p['total_line']} {total_pick.upper()}"
+    # Carried as a plain data-* attribute (not rendered here) so the
+    # favorites panel can show each pick's own game time -- renderFavoritesPanel()
+    # reads it straight off the matching element, same as data-name.
+    game_time_attr = f' data-game-time-utc="{html.escape(g["game_time_utc"] or "")}"'
     return f"""
     <div class="game-line">
       <span class="proj-score">Projected score: {html.escape(g["away"]["team_name"] or "?")} {away_score} &ndash; {html.escape(g["home"]["team_name"] or "?")} {home_score}</span>
       <div class="proj-picks">
-        <span data-favorite-key="{ml_key}" data-name="{html.escape(ml_name)}">Moneyline: <b>{html.escape(ml_team or "?")}</b> to win ({round(ml_prob * 100)}%)
+        <span data-favorite-key="{ml_key}" data-name="{html.escape(ml_name)}"{game_time_attr}>Moneyline: <b>{html.escape(ml_team or "?")}</b> to win ({round(ml_prob * 100)}%)
           <button type="button" class="favorite-toggle" data-favorite-key="{ml_key}" onclick="toggleFavorite(event, '{ml_key}')">&#9825;</button></span>
-        <span data-favorite-key="{rl_key}" data-name="{html.escape(rl_name)}">Run line: <b>{html.escape(spread_team or "?")} {spread_side}</b> ({round(spread_prob * 100)}% to cover)
+        <span data-favorite-key="{rl_key}" data-name="{html.escape(rl_name)}"{game_time_attr}>Run line: <b>{html.escape(spread_team or "?")} {spread_side}</b> ({round(spread_prob * 100)}% to cover)
           <button type="button" class="favorite-toggle" data-favorite-key="{rl_key}" onclick="toggleFavorite(event, '{rl_key}')">&#9825;</button></span>
-        <span data-favorite-key="{tot_key}" data-name="{html.escape(tot_name)}">Total {p['total_line']}: lean <b>{total_pick.upper()}</b> ({round(total_prob * 100)}%)
+        <span data-favorite-key="{tot_key}" data-name="{html.escape(tot_name)}"{game_time_attr}>Total {p['total_line']}: lean <b>{total_pick.upper()}</b> ({round(total_prob * 100)}%)
           <button type="button" class="favorite-toggle" data-favorite-key="{tot_key}" onclick="toggleFavorite(event, '{tot_key}')">&#9825;</button></span>
       </div>
     </div>
@@ -2135,7 +2178,9 @@ def _game_card_html(g):
               data-search="{_game_search_blob(g)}" data-game-pk="{g["game_pk"]}" data-final="{is_final}">
       <summary class="game-summary">
         <span class="matchup-title">{html.escape(g["away"]["team_name"] or "?")} @ {html.escape(g["home"]["team_name"] or "?")}</span>
-        <span class="summary-flags">{_game_summary_flags(g)}{_status_badge(g["status"])}</span>
+        <span class="summary-flags">{_game_summary_flags(g)}{_status_badge(g["status"])}
+          <span class="badge badge-favorite fav-count-badge" data-game-pk="{g["game_pk"]}" style="display:none"></span>
+        </span>
         <span class="game-meta">
           <span class="game-time" data-utc="{html.escape(g["game_time_utc"] or "")}">{html.escape(g["game_time_utc"] or "")}</span>
           {f" &middot; {html.escape(g['status'])}" if g["status"] and g["status"] != "Scheduled" else ""}
@@ -2293,10 +2338,15 @@ def _pick_card_html(pick, rank, direction):
     if pick.get("best_category") and pick.get("game_pk"):
         c = pick["best_category"]
         live_attrs = (
-            f' data-player-id="{pick.get("player_id")}" data-game-pk="{pick["game_pk"]}" '
+            f' data-player-id="{pick.get("player_id")}" '
             f'data-role="{pick.get("role", "batter")}" data-category="{html.escape(c["label"])}" '
             f'data-line="{c["line"]}" data-direction="{direction}"'
         )
+    # Unconditional (unlike live_attrs above) -- updateFavoriteCounts() needs
+    # a game_pk off every pick card, not just ones with a live-trackable
+    # best_category, since a pick card sits outside any .game-card's own
+    # DOM subtree and so can't fall back to closest('.game-card').
+    game_pk_attr = f' data-game-pk="{pick["game_pk"]}"' if pick.get("game_pk") else ""
     # .game-time/data-utc is the same class/attribute pair localizeGameTimes()
     # already localizes for every game card's own summary line -- reused
     # here so a pick's game time shows in the viewer's own local time
@@ -2307,7 +2357,7 @@ def _pick_card_html(pick, rank, direction):
         else ""
     )
     return f"""
-    <div class="pick-card pick-card-{direction}" data-player-id="{pick.get("player_id")}" data-favorite-key="{pick.get("player_id")}" data-name="{html.escape(pick["name"])}"{live_attrs}>
+    <div class="pick-card pick-card-{direction}" data-player-id="{pick.get("player_id")}" data-favorite-key="{pick.get("player_id")}" data-name="{html.escape(pick["name"])}"{game_pk_attr}{live_attrs}>
       <div class="pick-rank">#{rank} {tag}</div>
       <div class="pick-name">{_player_photo_html(pick.get("player_id"))}{html.escape(pick["name"])} <span class="sub">{html.escape(pick.get("position") or "?")}</span>
         <button type="button" class="favorite-toggle" data-favorite-key="{pick.get("player_id")}" onclick="toggleFavorite(event, '{pick.get("player_id")}')">&#9825;</button>

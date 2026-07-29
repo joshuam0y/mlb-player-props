@@ -11,6 +11,12 @@ public news RSS feed -- no paid odds API, no scraping of betting sites.
 
 _Updated with every change going forward._
 
+- **2026-07-29** -- Favorited moneyline/run line/total picks now show the
+  matchup and game time (not just the pick itself) in the favorites panel,
+  and every game card shows a "♥ N favorites" badge for how many of your
+  favorites belong to it -- previously a favorited team pick just showed
+  the bare pick text (e.g. "Total 6.5 UNDER") with no way to tell which
+  game it was for.
 - **2026-07-29** -- Added a remove ("x") button to each leg row in My Bets'
   "Add a bet" form, so accidentally clicking "+ Add leg" one extra time no
   longer blocks submission with an empty required field you can't get rid of.
