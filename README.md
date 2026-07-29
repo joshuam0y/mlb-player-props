@@ -11,6 +11,11 @@ public news RSS feed -- no paid odds API, no scraping of betting sites.
 
 _Updated with every change going forward._
 
+- **2026-07-29** -- Refined the total-line fix below: instead of always
+  rounding the median up (which just traded one systematic bias for
+  another -- every game leaning UNDER), it now picks whichever of the two
+  candidate lines is actually closer to a fair 50/50 split, verified
+  unbiased across random matchups (mean over_prob 0.498).
 - **2026-07-29** -- Fixed the total-runs line being silently off by a full
   run about half the time -- Python's banker's-rounding on exact .5 ties
   (the simulated median is always a whole run count) rounded the line down
