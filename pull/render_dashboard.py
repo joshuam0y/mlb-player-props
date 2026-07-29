@@ -2000,7 +2000,7 @@ def _batter_rows(batters, id_prefix, status, star_player_id=None):
 
 def _team_col_html(side, id_prefix, status, side_key):
     tag_kind = "confirmed" if side["lineup_confirmed"] else "projected"
-    tag_label = "LINEUP CONFIRMED" if side["lineup_confirmed"] else "PROJECTED (not yet announced)"
+    tag_label = "CONFIRMED" if side["lineup_confirmed"] else "PROJECTED"
     form = side.get("form")
     return f"""
     <div class="team-col" data-side="{side_key}">
@@ -2101,7 +2101,7 @@ def _game_line_html(g):
             total_pick = p.get("total_pick") or ("over" if p.get("over_prob", 0.5) >= 0.5 else "under")
             total_hit = (actual_total > total_line) == (total_pick == "over")
             picks_html += (
-                f'<span>Total {total_line}: leaned <b>{total_pick.upper()}</b> '
+                f'<span>Total {total_line}: <b>{total_pick.upper()}</b> '
                 f'{_badge("HIT" if total_hit else "MISS", "hit" if total_hit else "miss")}</span>'
             )
 
@@ -2170,13 +2170,13 @@ def _game_line_html(g):
     game_time_attr = f' data-game-time-utc="{html.escape(g["game_time_utc"] or "")}"'
     return f"""
     <div class="game-line">
-      <span class="proj-score">Projected score: {html.escape(g["away"]["team_name"] or "?")} {away_score} &ndash; {html.escape(g["home"]["team_name"] or "?")} {home_score}</span>
+      <span class="proj-score">Projected: {html.escape(g["away"]["team_name"] or "?")} {away_score} &ndash; {html.escape(g["home"]["team_name"] or "?")} {home_score}</span>
       <div class="proj-picks">
-        <span data-favorite-key="{ml_key}" data-name="{html.escape(ml_name)}"{game_time_attr}>Moneyline: <b>{html.escape(ml_team or "?")}</b> to win <span class="pick-pct">({round(ml_prob * 100)}%)</span>
+        <span data-favorite-key="{ml_key}" data-name="{html.escape(ml_name)}"{game_time_attr}>Moneyline: <b>{html.escape(ml_team or "?")}</b> <span class="pick-pct">({round(ml_prob * 100)}%)</span>
           <button type="button" class="favorite-toggle" data-favorite-key="{ml_key}" onclick="toggleFavorite(event, '{ml_key}')">&#9825;</button></span>
-        <span data-favorite-key="{rl_key}" data-name="{html.escape(rl_name)}"{game_time_attr}>Run line: <b>{html.escape(spread_team or "?")} {spread_side}</b> <span class="pick-pct">({round(spread_prob * 100)}% to cover)</span>
+        <span data-favorite-key="{rl_key}" data-name="{html.escape(rl_name)}"{game_time_attr}>Run line: <b>{html.escape(spread_team or "?")} {spread_side}</b> <span class="pick-pct">({round(spread_prob * 100)}%)</span>
           <button type="button" class="favorite-toggle" data-favorite-key="{rl_key}" onclick="toggleFavorite(event, '{rl_key}')">&#9825;</button></span>
-        <span data-favorite-key="{tot_key}" data-name="{html.escape(tot_name)}"{game_time_attr}>Total {p['total_line']}: lean <b>{total_pick.upper()}</b> <span class="pick-pct">({round(total_prob * 100)}%)</span>
+        <span data-favorite-key="{tot_key}" data-name="{html.escape(tot_name)}"{game_time_attr}>Total {p['total_line']}: <b>{total_pick.upper()}</b> <span class="pick-pct">({round(total_prob * 100)}%)</span>
           <button type="button" class="favorite-toggle" data-favorite-key="{tot_key}" onclick="toggleFavorite(event, '{tot_key}')">&#9825;</button></span>
       </div>
     </div>
@@ -2344,7 +2344,7 @@ def _pick_card_html(pick, rank, direction):
     # confirmed/projected value too, hiding it here would bury genuinely
     # useful information instead.
     lineup_kind = "confirmed" if pick["lineup_confirmed"] else "projected"
-    lineup_label = "LINEUP CONFIRMED" if pick["lineup_confirmed"] else "LINEUP PROJECTED"
+    lineup_label = "CONFIRMED" if pick["lineup_confirmed"] else "PROJECTED"
     badges.append(_badge(lineup_label, lineup_kind))
     # Read straight off this player's own game_result (pick_result() in
     # build_props.py) -- once the game's actually happened, no reason to

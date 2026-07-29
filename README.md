@@ -11,6 +11,11 @@ public news RSS feed -- no paid odds API, no scraping of betting sites.
 
 _Updated with every change going forward._
 
+- **2026-07-29** -- Trimmed extraneous words from every game card's picks
+  line and badges: "Projected score:" -> "Projected:", "to win"/"to cover"/
+  "lean"/"leaned" dropped (team/line/side already say it), and "LINEUP
+  CONFIRMED"/"PROJECTED (not yet announced)" shortened to plain CONFIRMED/
+  PROJECTED to match the badge wording used everywhere else on the page.
 - **2026-07-29** -- Fixed each game card's time/status/venue line wrapping
   onto a second line -- it now truncates with an ellipsis instead, keeping
   every collapsed card the same compact height regardless of venue name
