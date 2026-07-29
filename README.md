@@ -11,6 +11,13 @@ public news RSS feed -- no paid odds API, no scraping of betting sites.
 
 _Updated with every change going forward._
 
+- **2026-07-29** -- Fixed a real regression: an earlier same-day backfill
+  fix accidentally re-graded all of 2026-07-25 against a stale local
+  database, wiping out good pitcher/batter data production already had.
+  Restored from the last known-good commit, keeping only the intended fix.
+- **2026-07-29** -- Moneyline/Run line/Total picks can now be favorited too
+  (previously player props only) -- same heart-toggle and floating panel,
+  generalized to a string key so team picks and players share one system.
 - **2026-07-29** -- Home Runs UNDER can no longer win a Top Overs/Unders or
   "Best prop" pick (near-guaranteed, low-value -- matches the exclusion
   "Predicted: X" already had, extended to the picks that were missing it).
