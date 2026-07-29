@@ -437,26 +437,6 @@ def _sample_neg_binomial(mean, dispersion_r, rng):
     return _sample_poisson(gamma_sample, rng)
 
 
-def _round_to_half(x):
-    """
-    Sportsbook-style line: always ends in .5 (never a whole number), so a
-    push is impossible. The simulated median fed into this from simulate()
-    below is always a whole number (a literal run count), which put x - 0.5
-    on an exact .5 tie EVERY time -- Python's round() breaks .5 ties to the
-    nearest EVEN integer ("banker's rounding"), which silently alternated
-    which side of the median the line landed on based on whether the
-    median happened to be odd or even, nothing to do with the actual
-    distribution. Confirmed real case: a 5-run median (odd) rounded DOWN to
-    4.5, giving a 61%/39% over/under split instead of the fair ~49%/51%
-    split 5.5 actually gives -- the tie mass sitting AT the median (usually
-    the single most common value in a unimodal distribution) needs to land
-    on the UNDER side of the line consistently, not get silently included
-    or excluded based on parity. math.floor(x) + 0.5 rounds any half-integer
-    tie up instead, with no banker's-rounding ambiguity.
-    """
-    return math.floor(x) + 0.5
-
-
 def simulate(projection, n_trials=1000000, spread_line=1.5, total_line=None, seed=None):
     """
     n_trials defaults to 1,000,000 Monte Carlo trials per game (well above the
@@ -496,9 +476,27 @@ def simulate(projection, n_trials=1000000, spread_line=1.5, total_line=None, see
         # single game regardless of the two teams involved, which isn't a
         # real signal -- just an artifact of comparing actual outcomes
         # against a line that was never a fair 50/50 split to begin with.
+        #
+        # median_total is always a whole run count, so it sits exactly
+        # halfway between two valid .5 lines (median-0.5 and median+0.5) --
+        # naively always rounding the SAME direction (e.g. always up)
+        # reintroduces the exact "systematically favors one side" problem
+        # this median-based approach exists to avoid, just shifted onto
+        # whichever tie mass sits at the median (usually the single most
+        # common value in a unimodal distribution). Picking whichever of
+        # the two candidates lands closer to an actual 50/50 split -- using
+        # the real simulated counts, not an assumption -- is what a
+        # sportsbook actually optimizes for when it sets a total.
         totals_sorted = sorted(totals)
         median_total = totals_sorted[len(totals_sorted) // 2]
-        total_line = _round_to_half(median_total)
+        count_above_median = sum(1 for t in totals if t > median_total)
+        count_at_median = sum(1 for t in totals if t == median_total)
+        over_prob_lower_line = (count_above_median + count_at_median) / n_trials  # line = median - 0.5
+        over_prob_upper_line = count_above_median / n_trials  # line = median + 0.5
+        if abs(over_prob_lower_line - 0.5) <= abs(over_prob_upper_line - 0.5):
+            total_line = median_total - 0.5
+        else:
+            total_line = median_total + 0.5
     over = sum(1 for t in totals if t > total_line)
 
     home_win_prob = round(home_wins / n_trials, 3)
