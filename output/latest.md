@@ -1,15 +1,14 @@
 # MLB Player Props Context Report
-_Generated 2026-07-30T14:33:57.632200+00:00_
+_Generated 2026-07-30T14:44:59.948099+00:00_
 
 ## Today's Top Overs
 ### Batters
 - **Ryan Kreidler** (Minnesota Twins vs Kansas City Royals): real hot streak (not just lucky bloops), favorable matchup vs. tonight's pitcher -- try Hits: 50% over 0.5 recently (vs. 10-game sample)
 - **Austin Martin** (Minnesota Twins vs Kansas City Royals): real hot streak (not just lucky bloops), favorable matchup vs. tonight's pitcher -- try Hits: 40% over 0.5 recently (vs. 10-game sample)
-- **Nick Loftin** (Kansas City Royals vs Minnesota Twins): real hot streak (not just lucky bloops), 9-game hit streak -- try Hits: 90% over 0.5 recently (vs. 10-game sample)
 - **Jake Mangum** (Pittsburgh Pirates vs Cincinnati Reds): favorable matchup vs. tonight's pitcher, 6-game hit streak -- try Hits: 40% over 1.5 recently (vs. 10-game sample)
 - **Willy Adames** (San Francisco Giants vs San Diego Padres): favorable matchup vs. tonight's pitcher, 5-game hit streak -- try Runs Scored: 60% over 0.5 recently (vs. 10-game sample)
 - **Jonathan Aranda** (Tampa Bay Rays vs Texas Rangers): favorable matchup vs. tonight's pitcher -- try Total Bases: 30% over 1.5 recently (vs. 10-game sample)
-- **Royce Lewis** (Minnesota Twins vs Kansas City Royals): favorable matchup vs. tonight's pitcher -- try Hits: 70% over 0.5 recently (vs. 10-game sample)
+- **Nick Loftin** (Kansas City Royals vs Minnesota Twins): real hot streak (not just lucky bloops), 9-game hit streak -- try Hits: 90% over 0.5 recently (vs. 10-game sample)
 - **Chase Meidroth** (Chicago White Sox vs New York Yankees): real hot streak (not just lucky bloops) -- try Total Bases: 60% over 1.5 recently (vs. 10-game sample)
 - **Bryan Reynolds** (Pittsburgh Pirates vs Cincinnati Reds): favorable matchup vs. tonight's pitcher -- try Hits: 50% over 0.5 recently (vs. 10-game sample)
 - **Brandon Lowe** (Pittsburgh Pirates vs Cincinnati Reds): favorable matchup vs. tonight's pitcher -- try Total Bases: 40% over 1.5 recently (vs. 10-game sample)
@@ -18,6 +17,7 @@ _Generated 2026-07-30T14:33:57.632200+00:00_
 - **Jeff McNeil** (Athletics vs Boston Red Sox): real hot streak (not just lucky bloops) -- try Hits: 70% over 0.5 recently (vs. 10-game sample)
 - **Dalton Rushing** (Los Angeles Dodgers vs Seattle Mariners): real hot streak (not just lucky bloops) -- try Hits: 50% over 0.5 recently (vs. 10-game sample)
 - **Cedric Mullins** (Tampa Bay Rays vs Texas Rangers): favorable matchup vs. tonight's pitcher -- try Hits: 50% over 0.5 recently (vs. 10-game sample)
+- **Victor Mesa Jr.** (Tampa Bay Rays vs Texas Rangers): favorable matchup vs. tonight's pitcher -- try Total Bases: 40% over 1.5 recently (vs. 10-game sample)
 
 ### Pitchers
 - **Nolan McLean** (New York Mets vs Miami Marlins): pitching well above his season norm over his last few starts, 3 hitters in tonight's lineup are in a tough matchup against him -- try Outs Recorded: 100% over 17.5 recently (vs. 5-game sample)
@@ -182,7 +182,7 @@ _Facing a taxed bullpen: 5.3 relief IP in last 2 days (ratio 1.43)_
 ## 2026-07-30 - Miami Marlins @ New York Mets (Scheduled)
 _Citi Field_
 Projected score: Miami Marlins 3.24 - New York Mets 3.78
-Model likes: **New York Mets** to win (55%) | Run line: **Miami Marlins** +1.5 (62% to cover) | Total 6.5: lean **OVER** (50%)
+Model likes: **New York Mets** to win (56%) | Run line: **Miami Marlins** +1.5 (62% to cover) | Total 6.5: lean **OVER** (50%)
 
 ### Miami Marlins lineup -- PROJECTED (unconfirmed)
 **Probable P: Eury Pérez (R)** -- L5: 31.3 IP, 33 K, 6 ER, 1.72 ERA
@@ -303,7 +303,7 @@ _Facing a taxed bullpen: 8.3 relief IP in last 2 days (ratio 2.13)_
 ## 2026-07-30 - Boston Red Sox @ Athletics (Scheduled)
 _Sutter Health Park_
 Projected score: Boston Red Sox 5.02 - Athletics 2.93
-Model likes: **Boston Red Sox** to win (69%) | Run line: **Boston Red Sox** -1.5 (53% to cover) | Total 7.5: lean **UNDER** (51%)
+Model likes: **Boston Red Sox** to win (69%) | Run line: **Boston Red Sox** -1.5 (53% to cover) | Total 7.5: lean **UNDER** (52%)
 
 ### Boston Red Sox lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 7.7 relief IP in last 2 days (ratio 1.75)_
@@ -746,7 +746,7 @@ Model likes: **San Diego Padres** to win (53%) | Run line: **San Francisco Giant
 ## 2026-07-31 - Minnesota Twins @ Seattle Mariners (Scheduled)
 _T-Mobile Park [pitcher-friendly park]_
 Projected score: Minnesota Twins 3.24 - Seattle Mariners 4.3
-Model likes: **Seattle Mariners** to win (60%) | Run line: **Minnesota Twins** +1.5 (57% to cover) | Total 6.5: lean **OVER** (55%)
+Model likes: **Seattle Mariners** to win (60%) | Run line: **Minnesota Twins** +1.5 (57% to cover) | Total 7.5: lean **UNDER** (55%)
 
 ### Minnesota Twins lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.67)_
@@ -891,7 +891,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-01 - Miami Marlins @ New York Mets (Scheduled)
 _Citi Field_
 Projected score: Miami Marlins 2.62 - New York Mets 3.76
-Model likes: **New York Mets** to win (62%) | Run line: **Miami Marlins** +1.5 (57% to cover) | Total 5.5: lean **OVER** (55%)
+Model likes: **New York Mets** to win (62%) | Run line: **Miami Marlins** +1.5 (57% to cover) | Total 5.5: lean **OVER** (54%)
 
 ### Miami Marlins lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1014,7 +1014,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-01 - Arizona Diamondbacks @ Cleveland Guardians (Scheduled)
 _Progressive Field_
 Projected score: Arizona Diamondbacks 3.38 - Cleveland Guardians 4.16
-Model likes: **Cleveland Guardians** to win (57%) | Run line: **Arizona Diamondbacks** +1.5 (60% to cover) | Total 7.5: lean **UNDER** (55%)
+Model likes: **Cleveland Guardians** to win (57%) | Run line: **Arizona Diamondbacks** +1.5 (59% to cover) | Total 7.5: lean **UNDER** (55%)
 
 ### Arizona Diamondbacks lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
