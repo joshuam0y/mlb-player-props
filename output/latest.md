@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-07-30T12:05:42.959237+00:00_
+_Generated 2026-07-30T12:19:08.021631+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -242,7 +242,7 @@ _Facing a taxed bullpen: 11.0 relief IP in last 2 days (ratio 2.52)_
 ## 2026-07-30 - Washington Nationals @ Atlanta Braves (Scheduled)
 _Truist Park_
 Projected score: Washington Nationals 4.61 - Atlanta Braves 5.24
-Model likes: **Atlanta Braves** to win (55%) | Run line: **Washington Nationals** +1.5 (59% to cover) | Total 9.5: lean **UNDER** (52%)
+Model likes: **Atlanta Braves** to win (55%) | Run line: **Washington Nationals** +1.5 (59% to cover) | Total 9.5: lean **UNDER** (53%)
 
 ### Washington Nationals lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 6.7 relief IP in last 2 days (ratio 1.5)_
@@ -394,7 +394,7 @@ _Facing a rested bullpen: 2.3 relief IP in last 2 days (ratio 0.62)_
 ## 2026-07-31 - Pittsburgh Pirates @ Cincinnati Reds (Scheduled)
 _Great American Ball Park [hitter-friendly park]_
 Projected score: Pittsburgh Pirates 7.08 - Cincinnati Reds 3.65
-Model likes: **Pittsburgh Pirates** to win (74%) | Run line: **Pittsburgh Pirates** -1.5 (62% to cover) | Total 9.5: lean **OVER** (54%)
+Model likes: **Pittsburgh Pirates** to win (74%) | Run line: **Pittsburgh Pirates** -1.5 (62% to cover) | Total 9.5: lean **OVER** (53%)
 
 ### Pittsburgh Pirates lineup -- PROJECTED (unconfirmed)
 **Probable P: Paul Skenes (R)** -- L5: 27.7 IP, 35 K, 17 ER, 5.53 ERA
