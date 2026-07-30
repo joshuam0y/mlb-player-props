@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-07-30T20:38:36.090781+00:00_
+_Generated 2026-07-30T21:44:22.718979+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -32,7 +32,6 @@ _Generated 2026-07-30T20:38:36.090781+00:00_
 ## Today's Top Unders
 ### Batters
 - **Bryce Eldridge** (San Francisco Giants vs San Diego Padres): cold recent stretch (well below season average), tough matchup vs. tonight's pitcher -- try Total Bases: 70% under 1.5 recently (vs. 10-game sample)
-- **Javier Sanoja** (Miami Marlins vs New York Mets): cold recent stretch (well below season average), tough matchup vs. tonight's pitcher -- try RBIs: 90% under 0.5 recently (vs. 10-game sample)
 - **Brandon Nimmo** (Texas Rangers vs Tampa Bay Rays): tough matchup vs. tonight's pitcher -- try Walks: 80% under 0.5 recently (vs. 10-game sample)
 - **Nicky Lopez** (Texas Rangers vs Tampa Bay Rays): tough matchup vs. tonight's pitcher -- try Total Bases: 80% under 1.5 recently (vs. 10-game sample)
 - **Alejandro Osuna** (Texas Rangers vs Tampa Bay Rays): tough matchup vs. tonight's pitcher -- try Walks: 100% under 0.5 recently (vs. 10-game sample)
@@ -116,10 +115,9 @@ _Facing a taxed bullpen: 6.0 relief IP in last 2 days (ratio 1.63)_
 - #8 Alex Jackson (R) [likely BABIP-driven, not a real power uptick] -- L7: 5H 0HR 1RBI 6TB (0.417 avg) -- home split: 0.261 avg
 - #9 Ryan Kreidler (R) [4-game hit streak] -- L7: 6H 0HR 1RBI 12TB (0.273 avg) -- home split: 0.284 avg
 
-## 2026-07-30 - New York Yankees @ Chicago White Sox (In Progress)
+## 2026-07-30 - New York Yankees @ Chicago White Sox (Final)
 _Rate Field_
-Projected score: New York Yankees 3.45 - Chicago White Sox 4.1
-Model likes: **Chicago White Sox** to win (56%) | Run line: **New York Yankees** +1.5 (61% to cover) | Total 7.5: lean **UNDER** (55%)
+Final: New York Yankees 1 - Chicago White Sox 2
 
 ### New York Yankees lineup -- CONFIRMED
 _Facing a taxed bullpen: 9.7 relief IP in last 2 days (ratio 1.53)_
@@ -147,10 +145,9 @@ _Facing a taxed bullpen: 8.0 relief IP in last 2 days (ratio 1.5)_
 - #8 Luisangel Acuña (R) -- L7: 4H 0HR 2RBI 4TB (0.286 avg) -- home split: 0.253 avg
 - #9 Edgar Quero (S) -- L7: 3H 0HR 1RBI 3TB (0.136 avg) -- home split: 0.24 avg
 
-## 2026-07-30 - Chicago Cubs @ St. Louis Cardinals (In Progress)
+## 2026-07-30 - Chicago Cubs @ St. Louis Cardinals (Final)
 _Busch Stadium_
-Projected score: Chicago Cubs 5.11 - St. Louis Cardinals 3.4
-Model likes: **Chicago Cubs** to win (65%) | Run line: **St. Louis Cardinals** +1.5 (50% to cover) | Total 7.5: lean **OVER** (54%)
+Final: Chicago Cubs 4 - St. Louis Cardinals 2
 
 ### Chicago Cubs lineup -- CONFIRMED
 _Facing a taxed bullpen: 12.3 relief IP in last 2 days (ratio 2.47)_
@@ -181,7 +178,7 @@ _Facing a taxed bullpen: 5.3 relief IP in last 2 days (ratio 1.43)_
 ## 2026-07-30 - Miami Marlins @ New York Mets (Pre-Game)
 _Citi Field_
 Projected score: Miami Marlins 3.2 - New York Mets 4.01
-Model likes: **New York Mets** to win (58%) | Run line: **Miami Marlins** +1.5 (60% to cover) | Total 6.5: lean **OVER** (52%)
+Model likes: **New York Mets** to win (58%) | Run line: **Miami Marlins** +1.5 (59% to cover) | Total 6.5: lean **OVER** (52%)
 
 ### Miami Marlins lineup -- CONFIRMED
 **Probable P: Eury Pérez (R)** -- L5: 31.3 IP, 33 K, 6 ER, 1.72 ERA
@@ -210,7 +207,7 @@ Model likes: **New York Mets** to win (58%) | Run line: **Miami Marlins** +1.5 (
 ## 2026-07-30 - Pittsburgh Pirates @ Cincinnati Reds (Pre-Game)
 _Great American Ball Park [hitter-friendly park]_
 Projected score: Pittsburgh Pirates 5.83 - Cincinnati Reds 4.04
-Model likes: **Pittsburgh Pirates** to win (64%) | Run line: **Pittsburgh Pirates** -1.5 (50% to cover) | Total 9.5: lean **UNDER** (52%)
+Model likes: **Pittsburgh Pirates** to win (64%) | Run line: **Pittsburgh Pirates** -1.5 (50% to cover) | Total 9.5: lean **UNDER** (53%)
 
 ### Pittsburgh Pirates lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 16.0 relief IP in last 2 days (ratio 3.68)_
@@ -269,10 +266,10 @@ _Facing a taxed bullpen: 7.3 relief IP in last 2 days (ratio 1.46)_
 - #8 Mike Yastrzemski (L) -- L7: 2H 0HR 0RBI 2TB (0.143 avg) -- home split: 0.246 avg
 - #9 Jim Jarvis (L) -- L7: 3H 0HR 2RBI 5TB (0.15 avg) -- home split: 0.257 avg
 
-## 2026-07-30 - San Francisco Giants @ San Diego Padres (Scheduled)
+## 2026-07-30 - San Francisco Giants @ San Diego Padres (Pre-Game)
 _Petco Park [pitcher-friendly park]_
-Projected score: San Francisco Giants 3.82 - San Diego Padres 4.24
-Model likes: **San Diego Padres** to win (54%) | Run line: **San Francisco Giants** +1.5 (62% to cover) | Total 7.5: lean **OVER** (50%)
+Projected score: San Francisco Giants 3.82 - San Diego Padres 4.43
+Model likes: **San Diego Padres** to win (55%) | Run line: **San Francisco Giants** +1.5 (60% to cover) | Total 7.5: lean **OVER** (52%)
 
 ### San Francisco Giants lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 9.3 relief IP in last 2 days (ratio 1.51)_
@@ -286,18 +283,18 @@ _Facing a taxed bullpen: 9.3 relief IP in last 2 days (ratio 1.51)_
 - Drew Cavanaugh (L) [TOUGH MATCHUP: pitcher holds this hand to 0.107 avg-against] -- L7: 3H 0HR 1RBI 3TB (0.25 avg) -- away split: 0.25 avg
 - Grant McCray (L) [TOUGH MATCHUP: pitcher holds this hand to 0.107 avg-against] -- L7: 2H 1HR 2RBI 5TB (0.2 avg) -- away split: 0.0 avg
 
-### San Diego Padres lineup -- PROJECTED (unconfirmed)
+### San Diego Padres lineup -- CONFIRMED
 _Facing a taxed bullpen: 8.3 relief IP in last 2 days (ratio 2.13)_
 **Probable P: JP Sears (L)** -- L5: 22.3 IP, 18 K, 10 ER, 4.03 ERA
-- Jackson Merrill (L) [4-game hit streak] -- L7: 11H 2HR 5RBI 19TB (0.458 avg) -- home split: 0.237 avg
-- Fernando Tatis Jr. (R) -- L7: 8H 0HR 5RBI 11TB (0.286 avg) -- home split: 0.325 avg
-- Ty France (R) [6-game hit streak] -- L7: 9H 1HR 5RBI 13TB (0.31 avg) -- home split: 0.265 avg
-- Gavin Sheets (L) -- L7: 4H 0HR 3RBI 4TB (0.211 avg) -- home split: 0.168 avg
-- Manny Machado (R) [6-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 11H 1HR 5RBI 16TB (0.355 avg) -- home split: 0.231 avg
-- Jake Cronenworth (L) [likely BABIP-driven, not a real power uptick] -- L7: 8H 0HR 1RBI 9TB (0.32 avg) -- home split: 0.19 avg
-- Xander Bogaerts (R) -- L7: 4H 0HR 1RBI 5TB (0.182 avg) -- home split: 0.208 avg
-- Jase Bowen (R) -- L7: 1H 0HR 2RBI 1TB (0.143 avg) -- home split: 0.19 avg
-- Luis Rengifo (S) -- L7: 7H 2HR 7RBI 14TB (0.292 avg) -- home split: 0.212 avg
+- #1 Fernando Tatis Jr. (R) -- L7: 8H 0HR 5RBI 11TB (0.286 avg) -- home split: 0.325 avg
+- #2 Luis Rengifo (S) -- L7: 7H 2HR 7RBI 14TB (0.292 avg) -- home split: 0.212 avg
+- #3 Manny Machado (R) [6-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 11H 1HR 5RBI 16TB (0.355 avg) -- home split: 0.231 avg
+- #4 Ty France (R) [6-game hit streak] -- L7: 9H 1HR 5RBI 13TB (0.31 avg) -- home split: 0.265 avg
+- #5 Jackson Merrill (L) [4-game hit streak] -- L7: 11H 2HR 5RBI 19TB (0.458 avg) -- home split: 0.237 avg
+- #6 Luis Campusano (R) -- L7: 5H 0HR 3RBI 6TB (0.263 avg) -- home split: 0.292 avg
+- #7 Xander Bogaerts (R) -- L7: 4H 0HR 1RBI 5TB (0.182 avg) -- home split: 0.208 avg
+- #8 Jake Cronenworth (L) [likely BABIP-driven, not a real power uptick] -- L7: 8H 0HR 1RBI 9TB (0.32 avg) -- home split: 0.19 avg
+- #9 Jase Bowen (R) -- L7: 1H 0HR 2RBI 1TB (0.143 avg) -- home split: 0.19 avg
 
 ## 2026-07-30 - Boston Red Sox @ Athletics (Scheduled)
 _Sutter Health Park_
@@ -333,7 +330,7 @@ _Facing a taxed bullpen: 6.7 relief IP in last 2 days (ratio 1.29)_
 ## 2026-07-30 - Seattle Mariners @ Los Angeles Dodgers (Scheduled)
 _UNIQLO Field at Dodger Stadium_
 Projected score: Seattle Mariners 3.87 - Los Angeles Dodgers 4.26
-Model likes: **Los Angeles Dodgers** to win (54%) | Run line: **Seattle Mariners** +1.5 (62% to cover) | Total 7.5: lean **OVER** (50%)
+Model likes: **Los Angeles Dodgers** to win (54%) | Run line: **Seattle Mariners** +1.5 (62% to cover) | Total 7.5: lean **OVER** (51%)
 
 ### Seattle Mariners lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 6.0 relief IP in last 2 days (ratio 1.51)_
@@ -393,7 +390,7 @@ Model likes: **Chicago Cubs** to win (57%) | Run line: **New York Yankees** +1.5
 ## 2026-07-31 - Pittsburgh Pirates @ Cincinnati Reds (Scheduled)
 _Great American Ball Park [hitter-friendly park]_
 Projected score: Pittsburgh Pirates 7.1 - Cincinnati Reds 3.65
-Model likes: **Pittsburgh Pirates** to win (74%) | Run line: **Pittsburgh Pirates** -1.5 (62% to cover) | Total 10.5: lean **UNDER** (54%)
+Model likes: **Pittsburgh Pirates** to win (74%) | Run line: **Pittsburgh Pirates** -1.5 (62% to cover) | Total 9.5: lean **OVER** (54%)
 
 ### Pittsburgh Pirates lineup -- PROJECTED (unconfirmed)
 **Probable P: Paul Skenes (R)** -- L5: 27.7 IP, 35 K, 17 ER, 5.53 ERA
@@ -513,7 +510,7 @@ _Facing a taxed bullpen: 13.3 relief IP in last 2 days (ratio 2.51)_
 ## 2026-07-31 - Miami Marlins @ New York Mets (Scheduled)
 _Citi Field_
 Projected score: Miami Marlins 4.16 - New York Mets 4.57
-Model likes: **New York Mets** to win (53%) | Run line: **Miami Marlins** +1.5 (62% to cover) | Total 8.5: lean **UNDER** (53%)
+Model likes: **New York Mets** to win (54%) | Run line: **Miami Marlins** +1.5 (62% to cover) | Total 8.5: lean **UNDER** (53%)
 
 ### Miami Marlins lineup -- PROJECTED (unconfirmed)
 **Probable P: Janson Junk (R)** -- L5: 23.7 IP, 20 K, 17 ER, 6.46 ERA
@@ -722,7 +719,7 @@ _Facing a taxed bullpen: 5.3 relief IP in last 2 days (ratio 1.25)_
 ## 2026-07-31 - San Francisco Giants @ San Diego Padres (Scheduled)
 _Petco Park [pitcher-friendly park]_
 Projected score: San Francisco Giants 3.89 - San Diego Padres 4.24
-Model likes: **San Diego Padres** to win (53%) | Run line: **San Francisco Giants** +1.5 (62% to cover) | Total 7.5: lean **OVER** (51%)
+Model likes: **San Diego Padres** to win (53%) | Run line: **San Francisco Giants** +1.5 (63% to cover) | Total 7.5: lean **OVER** (50%)
 
 ### San Francisco Giants lineup -- PROJECTED (unconfirmed)
 - Bryce Eldridge (L) -- L7: 2H 1HR 3RBI 6TB (0.08 avg) -- away split: 0.275 avg
@@ -1021,7 +1018,7 @@ _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.55)_
 ## 2026-08-01 - Arizona Diamondbacks @ Cleveland Guardians (Scheduled)
 _Progressive Field_
 Projected score: Arizona Diamondbacks 3.38 - Cleveland Guardians 4.16
-Model likes: **Cleveland Guardians** to win (57%) | Run line: **Arizona Diamondbacks** +1.5 (59% to cover) | Total 7.5: lean **UNDER** (55%)
+Model likes: **Cleveland Guardians** to win (57%) | Run line: **Arizona Diamondbacks** +1.5 (60% to cover) | Total 6.5: lean **OVER** (55%)
 
 ### Arizona Diamondbacks lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
