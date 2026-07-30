@@ -48,6 +48,8 @@ LINEUP_ADJUSTMENT_CAP = 0.06  # max +/-6% swing to offense idx from confirmed-li
 SHORT_REST_DAYS_THRESHOLD = 4  # normal 5-man rotation rest; fewer days than this is "short rest"
 SHORT_REST_PENALTY_PER_DAY = 0.03  # extra runs-allowed % per day short of normal rest
 SHORT_REST_PENALTY_CAP = 0.08  # never more than an 8% penalty, however short the rest
+WORKLOAD_MIN_APPEARANCES = 3  # need at least this many appearances this season before trusting an outs-share over the flat STARTER_WEIGHT
+GAME_OUTS = 27  # a 9-inning game's total outs, used to turn "average outs per appearance" into a fraction of the game
 
 
 def _date_filter(column, as_of_date):
@@ -235,6 +237,40 @@ def starter_run_rate(conn, pitcher_id, as_of_date=None):
     return row["er"] * 9 / innings
 
 
+def pitcher_expected_outs_share(conn, pitcher_id, as_of_date=None):
+    """
+    Fraction of a 9-inning game's outs (GAME_OUTS=27) this pitcher is
+    expected to record himself, from his own average outs per mound
+    appearance this season (every appearance, not just games_started=1
+    ones). combined_defense_index() caps STARTER_WEIGHT at this, so a
+    short-outing arm nominally "starting" tonight (an opener, piggyback/
+    bulk arm, or bullpen game) no longer gets credited/blamed for the
+    game's run environment as if he'll pitch like a real 5-6 inning
+    starter -- the team's actual bullpen rate picks up the rest of the
+    weight instead.
+
+    Deliberately reimplemented here rather than importing build_props.py's
+    own pitcher_workload_tier() (same underlying idea, continuous instead
+    of three buckets) -- game_model.py is kept dependency-free from the
+    rest of the pipeline on purpose (see this module's own docstring).
+
+    None if there isn't enough of a track record yet to say (a rookie's
+    first few appearances, early season) -- callers fall back to the
+    existing flat STARTER_WEIGHT rather than guess from too little data.
+    """
+    if not pitcher_id:
+        return None
+    frag, params = _date_filter("date", as_of_date)
+    rows = conn.execute(
+        f"SELECT outs FROM pitching_game_logs WHERE player_id = ? AND season = ?{frag}",
+        (pitcher_id, CURRENT_SEASON, *params),
+    ).fetchall()
+    if len(rows) < WORKLOAD_MIN_APPEARANCES:
+        return None
+    avg_outs = sum(r["outs"] or 0 for r in rows) / len(rows)
+    return min(avg_outs / GAME_OUTS, 1.0)
+
+
 def pitcher_rest_days(conn, pitcher_id, game_date):
     """
     Days between this pitcher's most recent START (games_started=1) this
@@ -387,11 +423,16 @@ def lineup_strength_adjustment(conn, batter_ids, as_of_date=None, cap=LINEUP_ADJ
     return 1.0 + max(-cap, min(cap, avg_delta))
 
 
-def combined_defense_index(starter_rate, bullpen_rate, team_def_idx_fallback, avg):
+def combined_defense_index(starter_rate, bullpen_rate, team_def_idx_fallback, avg, outs_share=None):
+    # Capped at STARTER_WEIGHT, never raised above it -- outs_share only
+    # ever pulls weight AWAY from a short-outing "starter" toward the
+    # team's own bullpen rate, never gives a real workhorse MORE credit
+    # than the existing, already-tuned 0.6 default.
+    weight = STARTER_WEIGHT if outs_share is None else min(STARTER_WEIGHT, outs_share)
     if starter_rate is not None and bullpen_rate is not None:
-        return STARTER_WEIGHT * (starter_rate / avg) + (1 - STARTER_WEIGHT) * (bullpen_rate / avg)
+        return weight * (starter_rate / avg) + (1 - weight) * (bullpen_rate / avg)
     if starter_rate is not None:
-        return STARTER_WEIGHT * (starter_rate / avg) + (1 - STARTER_WEIGHT) * team_def_idx_fallback
+        return weight * (starter_rate / avg) + (1 - weight) * team_def_idx_fallback
     return team_def_idx_fallback
 
 
@@ -451,9 +492,11 @@ def project_matchup(
     home_bullpen_fatigue = team_bullpen_fatigue(conn, home_team_id, as_of_date)
     away_bullpen = fatigue_adjusted_rate(team_bullpen_rate(conn, away_team_id, as_of_date), away_bullpen_fatigue)
     home_bullpen = fatigue_adjusted_rate(team_bullpen_rate(conn, home_team_id, as_of_date), home_bullpen_fatigue)
+    away_outs_share = pitcher_expected_outs_share(conn, away_pitcher_id, as_of_date)
+    home_outs_share = pitcher_expected_outs_share(conn, home_pitcher_id, as_of_date)
 
-    away_def_idx = combined_defense_index(away_starter, away_bullpen, away_def_idx_fallback, avg)
-    home_def_idx = combined_defense_index(home_starter, home_bullpen, home_def_idx_fallback, avg)
+    away_def_idx = combined_defense_index(away_starter, away_bullpen, away_def_idx_fallback, avg, away_outs_share)
+    home_def_idx = combined_defense_index(home_starter, home_bullpen, home_def_idx_fallback, avg, home_outs_share)
 
     park_mult = PARK_MULTIPLIER.get(park_tier, 1.0)
 

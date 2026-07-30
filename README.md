@@ -11,6 +11,17 @@ public news RSS feed -- no paid odds API, no scraping of betting sites.
 
 _Updated with every change going forward._
 
+- **2026-07-30** -- Extended the bullpen-game fix below to the actual
+  score/win-probability model, not just the matchup badge: the probable
+  starter's own run rate used to get a flat 60% weight in the run-
+  environment calc regardless of whether he's a real workhorse or
+  tonight's opener. Now capped at his own expected share of the game's
+  outs (from his season average outs/appearance) -- a real bullpen-game
+  arm now gets correctly little individual weight, with the team's actual
+  bullpen rate picking up the rest. Never raises weight above the
+  existing 60% for a normal starter. Verified against a full-season
+  backtest before shipping: Brier score 0.2626 -> 0.2620, total-runs MAE
+  3.85 -> 3.84 -- a small but real, repeatable improvement in both.
 - **2026-07-30** -- Fixed a real problem with the batter-vs-pitcher
   matchup badge: it always read as if tonight's probable pitcher will
   face the lineup like a normal starter, even when he's actually a
