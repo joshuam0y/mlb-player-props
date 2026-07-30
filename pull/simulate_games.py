@@ -63,6 +63,12 @@ def run(days_ahead=2, n_trials=1000000):
             as_of_date=today,
             home_batter_ids=home_batter_ids,
             away_batter_ids=away_batter_ids,
+            # Unlike as_of_date above (always today, for the data-recency
+            # cutoff), a starter's rest days need the game's OWN date -- this
+            # loop covers today plus days_ahead more days in one pass, and a
+            # game 2 days out would otherwise look artificially short-rested
+            # by however many days haven't happened yet.
+            game_date=game["official_date"],
         )
         if projection is None:
             continue

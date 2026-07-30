@@ -45,6 +45,9 @@ STARTER_WEIGHT = 0.6  # fraction of "defense" attributed to the probable starter
 PARK_MULTIPLIER = {"hitter": 1.05, "neutral": 1.0, "pitcher": 0.95}
 FATIGUE_ADJUSTMENT_CAP = 0.15  # max +/-15% swing to bullpen rate from recent workload
 LINEUP_ADJUSTMENT_CAP = 0.06  # max +/-6% swing to offense idx from confirmed-lineup recent form
+SHORT_REST_DAYS_THRESHOLD = 4  # normal 5-man rotation rest; fewer days than this is "short rest"
+SHORT_REST_PENALTY_PER_DAY = 0.03  # extra runs-allowed % per day short of normal rest
+SHORT_REST_PENALTY_CAP = 0.08  # never more than an 8% penalty, however short the rest
 
 
 def _date_filter(column, as_of_date):
@@ -232,6 +235,49 @@ def starter_run_rate(conn, pitcher_id, as_of_date=None):
     return row["er"] * 9 / innings
 
 
+def pitcher_rest_days(conn, pitcher_id, game_date):
+    """
+    Days between this pitcher's most recent START (games_started=1) this
+    season and game_date -- the date he's actually pitching, NOT
+    necessarily "today": project_matchup() is called once with as_of_date
+    fixed to today for the whole days_ahead window (simulate_games.py), so
+    a game 2 days out would otherwise look artificially short-rested by
+    however many days haven't happened yet. None if there's no prior start
+    to measure against (his first start of the season).
+    """
+    if not pitcher_id or not game_date:
+        return None
+    row = conn.execute(
+        "SELECT date FROM pitching_game_logs "
+        "WHERE player_id = ? AND season = ? AND games_started = 1 AND date < ? "
+        "ORDER BY date DESC LIMIT 1",
+        (pitcher_id, CURRENT_SEASON, game_date),
+    ).fetchone()
+    if not row:
+        return None
+    last_start = datetime.strptime(row["date"], "%Y-%m-%d").date()
+    ref_date = datetime.strptime(game_date, "%Y-%m-%d").date()
+    return (ref_date - last_start).days
+
+
+def rest_adjusted_starter_rate(starter_rate, rest_days):
+    """
+    A starting pitcher on short rest (fewer than SHORT_REST_DAYS_THRESHOLD
+    days since his last start -- a scratch start, bullpen game, or
+    doubleheader reshuffle, not the normal 5-man rotation) has historically
+    pitched somewhat worse on average. Deliberately only ever a penalty,
+    never a bonus for MORE rest than normal: the evidence that extra rest
+    actually helps is much weaker and more mixed in the research than the
+    evidence that short rest hurts, so this doesn't guess a direction for
+    rest_days above the threshold.
+    """
+    if starter_rate is None or rest_days is None or rest_days >= SHORT_REST_DAYS_THRESHOLD:
+        return starter_rate
+    days_short = SHORT_REST_DAYS_THRESHOLD - rest_days
+    penalty = min(days_short * SHORT_REST_PENALTY_PER_DAY, SHORT_REST_PENALTY_CAP)
+    return starter_rate * (1 + penalty)
+
+
 def team_bullpen_rate(conn, team_id, as_of_date=None):
     """
     Season ERA-as-runs-per-9 across this team's *relief* appearances only
@@ -351,8 +397,18 @@ def combined_defense_index(starter_rate, bullpen_rate, team_def_idx_fallback, av
 
 def project_matchup(
     conn, home_team_id, away_team_id, home_pitcher_id, away_pitcher_id, park_tier,
-    as_of_date=None, home_batter_ids=None, away_batter_ids=None,
+    as_of_date=None, home_batter_ids=None, away_batter_ids=None, game_date=None,
 ):
+    # game_date is the date this specific game is actually played -- distinct
+    # from as_of_date, which simulate_games.py pins to TODAY for every game
+    # in its whole days_ahead window (a data-recency cutoff, not "the day
+    # of the game"). Every other caller already passes as_of_date as the
+    # game's own real date (a point-in-time backtest iterating one real
+    # historical game at a time), so defaulting to it here keeps them
+    # correct without having to pass this explicitly.
+    if game_date is None:
+        game_date = as_of_date
+
     league = league_run_distribution(conn, as_of_date)
     if league is None:
         return None
@@ -389,6 +445,8 @@ def project_matchup(
 
     away_starter = starter_run_rate(conn, away_pitcher_id, as_of_date)
     home_starter = starter_run_rate(conn, home_pitcher_id, as_of_date)
+    away_starter = rest_adjusted_starter_rate(away_starter, pitcher_rest_days(conn, away_pitcher_id, game_date))
+    home_starter = rest_adjusted_starter_rate(home_starter, pitcher_rest_days(conn, home_pitcher_id, game_date))
     away_bullpen_fatigue = team_bullpen_fatigue(conn, away_team_id, as_of_date)
     home_bullpen_fatigue = team_bullpen_fatigue(conn, home_team_id, as_of_date)
     away_bullpen = fatigue_adjusted_rate(team_bullpen_rate(conn, away_team_id, as_of_date), away_bullpen_fatigue)

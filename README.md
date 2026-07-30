@@ -11,6 +11,16 @@ public news RSS feed -- no paid odds API, no scraping of betting sites.
 
 _Updated with every change going forward._
 
+- **2026-07-30** -- Added a starting-pitcher short-rest penalty to the game
+  model: a starter working on fewer than 4 days' rest (a scratch start,
+  bullpen game, or doubleheader reshuffle -- not the normal 5-man rotation)
+  now gets a small, capped runs-allowed penalty instead of being projected
+  identically to a normal-rest start. Verified against this season's real
+  games first: only 9 of 3,142 starter-slots actually had short rest, so
+  the season-aggregate backtest Brier score/MAE came back byte-identical
+  before and after (too rare to move a season-wide average) -- correct and
+  safe for the specific games it applies to, just not a broad accuracy
+  swing. No bonus for extra rest -- the evidence there is much weaker.
 - **2026-07-29** -- Live in-game win probability now uses MLB's own
   official win-probability feed (computed from real historical game-flow
   outcomes -- score, inning, outs, baserunners) instead of a hand-rolled
