@@ -11,6 +11,12 @@ public news RSS feed -- no paid odds API, no scraping of betting sites.
 
 _Updated with every change going forward._
 
+- **2026-07-30** -- Favorites now clear automatically on a new day instead
+  of persisting forever -- a player favorited yesterday (who also plays
+  today) no longer silently shows as favorited today too, and a team
+  pick's favorite no longer just accumulates as a permanent "missing"
+  entry once that game's date passes. Checked on the first read after
+  midnight (next click or page load), same-day activity unaffected.
 - **2026-07-30** -- Added a starting-pitcher short-rest penalty to the game
   model: a starter working on fewer than 4 days' rest (a scratch start,
   bullpen game, or doubleheader reshuffle -- not the normal 5-man rotation)

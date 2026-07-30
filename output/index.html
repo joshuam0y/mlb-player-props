@@ -56963,9 +56963,27 @@ function toggleDetail(id) {
 // read fresh off whatever the SAME page already rendered for them,
 // rather than caching a second, potentially-stale copy of their info.
 const FAVORITES_KEY = 'mlbPropsFavorites';
+// Favorites are explicitly a same-day-only scratchpad, not a persistent
+// watchlist -- a player_id favorited today would otherwise silently keep
+// showing as favorited tomorrow too (anyone who plays daily), and a team-
+// pick favorite (keyed by that game's own game_pk) would just accumulate
+// forever as "missing" entries once each game's date passes. Stamped
+// alongside the favorites themselves; checked on every read, so the first
+// read after midnight (the next click, page load, etc. -- there's no
+// interval ticking this over mid-session) wipes yesterday's list instead
+// of carrying it into a new day.
+const FAVORITES_DATE_KEY = 'mlbPropsFavoritesDate';
+
+function todayLocalDateString() {
+  return new Date().toDateString();
+}
 
 function loadFavorites() {
   try {
+    if (localStorage.getItem(FAVORITES_DATE_KEY) !== todayLocalDateString()) {
+      localStorage.removeItem(FAVORITES_KEY);
+      return [];
+    }
     const raw = localStorage.getItem(FAVORITES_KEY);
     return raw ? JSON.parse(raw) : [];
   } catch (e) {
@@ -56976,6 +56994,7 @@ function loadFavorites() {
 function saveFavorites(ids) {
   try {
     localStorage.setItem(FAVORITES_KEY, JSON.stringify(ids));
+    localStorage.setItem(FAVORITES_DATE_KEY, todayLocalDateString());
   } catch (e) { /* private-browsing/quota -- favorites just won't persist past this session */ }
 }
 
