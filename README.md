@@ -11,6 +11,15 @@ public news RSS feed -- no paid odds API, no scraping of betting sites.
 
 _Updated with every change going forward._
 
+- **2026-07-30** -- Fixed a real problem with the batter-vs-pitcher
+  matchup badge: it always read as if tonight's probable pitcher will
+  face the lineup like a normal starter, even when he's actually a
+  short-outing arm (an opener, piggyback/bulk arm, or bullpen game) who'll
+  mostly hand the game off to several other, unpredictable relievers.
+  Added a workload classifier (average outs per appearance this season,
+  not just games-started) -- a "reliever"-tier probable pitcher now skips
+  the Matchup edge/Tough matchup read entirely for every batter facing
+  him, and gets a "BULLPEN GAME" badge on his own card explaining why.
 - **2026-07-30** -- Favorites now clear automatically on a new day instead
   of persisting forever -- a player favorited yesterday (who also plays
   today) no longer silently shows as favorited today too, and a team

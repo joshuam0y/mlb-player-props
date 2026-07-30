@@ -1582,7 +1582,9 @@ GLOSSARY_HTML = """
     <dt>"Likely luck" tag</dt>
     <dd>A hot streak driven by bloop hits falling in (measured by BABIP, the rate of batted balls that go for hits) rather than actually hitting the ball harder. These streaks tend to cool off faster than "real" hot streaks.</dd>
     <dt>Matchup edge</dt>
-    <dd>This batter's handedness (lefty/righty) is a good matchup against tonight's specific opposing pitcher, who has historically struggled against that side.</dd>
+    <dd>This batter's handedness (lefty/righty) is a good matchup against tonight's specific opposing pitcher, who has historically struggled against that side. Skipped entirely against a "BULLPEN GAME" probable pitcher (see below) -- there's no reliable single-pitcher matchup to read when he likely won't face the lineup more than once.</dd>
+    <dt>BULLPEN GAME</dt>
+    <dd>Tonight's probable pitcher averages short outings this season (classified from his own innings/outs per appearance, not just his games-started count) -- an opener, piggyback/bulk arm, or otherwise not a real multi-time-through-the-order starter. Since he likely won't face the lineup more than once, opposing batters don't get a Matchup edge/Tough matchup read against him specifically -- there's no way to predict which relievers follow him.</dd>
     <dt>Best prop</dt>
     <dd>The single category where this player's last several games deviate the most from their own season norm -- e.g. "trending OVER 1.5 Total Bases (80% recently vs. 55% this season)". Not a guarantee, just the angle with the biggest recent shift.</dd>
     <dt>Bullpen taxed / rested</dt>
@@ -1720,6 +1722,21 @@ def _matchup_text(bat_side, matchup):
 
 def _streak_badge(streak):
     return _badge(f"{streak}-GAME HIT STREAK", "streak") if streak and streak >= 3 else ""
+
+
+def _workload_badge(workload_tier):
+    """pitcher_workload_tier() in build_props.py -- flags a short-outing arm nominally starting tonight (an opener/bulk/bullpen-game situation), which is also why opposing batters below show no Matchup edge/Tough matchup badge against him specifically."""
+    return _badge("BULLPEN GAME", "caveat") if workload_tier == "reliever" else ""
+
+
+def _workload_text(workload_tier):
+    if workload_tier != "reliever":
+        return None
+    return (
+        "Averages short outings this season -- likely won't face the lineup more than once, so opposing "
+        "batters' Matchup edge/Tough matchup reads don't apply the way they would against a real starter "
+        "(no way to predict which relievers follow him)."
+    )
 
 
 def _team_form_badge(form):
@@ -1974,11 +1991,19 @@ def _pitcher_html(p, row_id, fatigue, status, star_player_id=None):
         else "No recent starts on record yet"
     )
     confirmed_badge = _badge("CONFIRMED", "confirmed") if p.get("lineup_confirmed") else _badge("PROJECTED", "projected")
-    badges = " ".join(x for x in [confirmed_badge, _pitcher_form_badge(p.get("form_trend")), _injury_badge(p["injury"])] if x)
+    badges = " ".join(
+        x for x in [
+            confirmed_badge, _pitcher_form_badge(p.get("form_trend")), _injury_badge(p["injury"]),
+            _workload_badge(p.get("workload_tier")),
+        ] if x
+    )
     boxscore_html = _pitcher_boxscore_html(p.get("game_result"), status, p["player_id"])
     matchup_lean_html = _matchup_lean_html(p, "pitcher")
 
     bullets = [l5_txt]
+    workload_text = _workload_text(p.get("workload_tier"))
+    if workload_text:
+        bullets.append(workload_text)
     best_prop_text = _best_prop_text(p)
     if best_prop_text:
         bullets.append(best_prop_text)

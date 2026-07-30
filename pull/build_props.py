@@ -719,6 +719,48 @@ def pitcher_form_trend(l5, season, min_starts=PITCHER_FORM_MIN_STARTS, threshold
 PITCHER_WEAK_AVG_AGAINST = 0.260  # opposing avg this high or above => pitcher struggles vs that batter hand
 PITCHER_TOUGH_AVG_AGAINST = 0.210  # opposing avg this low or below => pitcher dominates that batter hand
 
+PITCHER_WORKLOAD_MIN_APPEARANCES = 3  # need at least this many appearances this season before classifying at all
+PITCHER_HEAVY_OUTS_PER_APP = 15  # >= 5.0 IP/appearance -- a genuine multi-time-through-the-order starter
+PITCHER_RELIEVER_OUTS_PER_APP = 10  # < 3.33 IP/appearance -- a short-outing arm even on nights he's the nominal starter
+
+
+def pitcher_workload_tier(conn, pitcher_id, as_of_date=None):
+    """
+    Classifies a pitcher by how many outs he actually averages per mound
+    appearance this season (every appearance, not just games where
+    games_started=1) -- "heavy" (a real starter who'll face the lineup
+    multiple times), "medium" (in between), or "reliever" (a short-outing
+    arm even on nights he's the nominal probable pitcher -- an opener,
+    piggyback/bulk arm, or bullpen game). None if there isn't enough of a
+    track record yet to say (a rookie's first few appearances, early
+    season) -- callers should treat that the same as "heavy" (the default,
+    pre-existing assumption that a probable pitcher is a real starter)
+    rather than guess from too little data.
+
+    This is what matchup_edge() uses to decide whether a platoon read
+    against this one pitcher is even meaningful: a batter facing tonight's
+    nominal "starter" in a bullpen game will mostly face several OTHER,
+    unpredictable relievers as the game goes on, so a matchup read against
+    just that one guy is misleading in exactly the way it isn't for a real
+    starter who'll actually face the lineup two or three times.
+    """
+    if not pitcher_id:
+        return None
+    date_frag = " AND date < ?" if as_of_date else ""
+    params = (pitcher_id, CURRENT_SEASON, as_of_date) if as_of_date else (pitcher_id, CURRENT_SEASON)
+    rows = conn.execute(
+        f"SELECT outs FROM pitching_game_logs WHERE player_id = ? AND season = ?{date_frag}",
+        params,
+    ).fetchall()
+    if len(rows) < PITCHER_WORKLOAD_MIN_APPEARANCES:
+        return None
+    avg_outs = sum(r["outs"] or 0 for r in rows) / len(rows)
+    if avg_outs >= PITCHER_HEAVY_OUTS_PER_APP:
+        return "heavy"
+    if avg_outs < PITCHER_RELIEVER_OUTS_PER_APP:
+        return "reliever"
+    return "medium"
+
 
 def effective_bat_side(bat_side, pitcher_hand):
     """A switch hitter always takes the platoon side, batting opposite whichever hand the pitcher throws."""
@@ -727,14 +769,26 @@ def effective_bat_side(bat_side, pitcher_hand):
     return bat_side
 
 
-def matchup_edge(conn, bat_side, pitcher_hand, opp_pitcher_id):
+def matchup_edge(conn, bat_side, pitcher_hand, opp_pitcher_id, as_of_date=None):
     """
     The signal FanDuel/Sleeper prop lines don't surface directly: is this
     specific opposing pitcher unusually hittable by this batter's hand,
     not just "batter has the platoon advantage" in the generic sense.
+
+    Deliberately skipped (bullpen_game=True, everything else neutral) when
+    the opposing probable pitcher is actually a short-outing arm
+    (pitcher_workload_tier() == "reliever") -- see that function's own
+    docstring for why a platoon read against just that one guy is
+    misleading in a bullpen game.
     """
+    neutral = {
+        "platoon": None, "pitcher_avg_against": None, "pitcher_era_vs_hand": None,
+        "favorable": None, "unfavorable": None, "bullpen_game": False,
+    }
     if not opp_pitcher_id or not pitcher_hand:
-        return {"platoon": None, "pitcher_avg_against": None, "pitcher_era_vs_hand": None, "favorable": None}
+        return neutral
+    if pitcher_workload_tier(conn, opp_pitcher_id, as_of_date=as_of_date) == "reliever":
+        return {**neutral, "bullpen_game": True}
 
     eff_side = effective_bat_side(bat_side, pitcher_hand)
     platoon = "opposite-hand" if eff_side != pitcher_hand else "same-hand"
@@ -759,6 +813,7 @@ def matchup_edge(conn, bat_side, pitcher_hand, opp_pitcher_id):
         "pitcher_era_vs_hand": split["era"] if split else None,
         "favorable": platoon == "opposite-hand" and pitcher_weak,
         "unfavorable": platoon == "same-hand" and pitcher_tough,
+        "bullpen_game": False,
     }
 
 
@@ -806,7 +861,7 @@ def build_batter_entry(conn, player_id, opp_hand, opp_pitcher_id, is_home_game, 
     l15 = batting_rolling(conn, player_id, 15, as_of_date=as_of_date)
     season = batting_rolling(conn, player_id, 162, as_of_date=as_of_date)
     trend = form_trend(l7, season)
-    matchup = matchup_edge(conn, player["bat_side"], opp_hand, opp_pitcher_id)
+    matchup = matchup_edge(conn, player["bat_side"], opp_hand, opp_pitcher_id, as_of_date=as_of_date)
 
     season_avgs = season_stat_averages(conn, "batting_game_logs", player_id, BATTER_PROP_CATEGORIES, as_of_date=as_of_date)
     baselines = category_baselines(l15, season_avgs, BATTER_PROP_CATEGORIES)
@@ -896,6 +951,13 @@ def build_pitcher_entry(conn, player_id, team_id, is_home_game=None, game_pk=Non
         # doubleheader created by a 7/27 postponement reshuffled who
         # started which game.
         "lineup_confirmed": status not in (None, "Scheduled", "Preview"),
+        # See pitcher_workload_tier()'s own docstring -- this is what tells
+        # matchup_edge() (called from the OPPOSING batters' own entries,
+        # not here) to skip the platoon matchup read against this pitcher
+        # entirely when he's a short-outing arm. Surfaced on his own card
+        # too (a "BULLPEN GAME" badge) so it's clear why his opponents'
+        # rows show no matchup badge, rather than looking like a data gap.
+        "workload_tier": pitcher_workload_tier(conn, player_id, as_of_date=as_of_date),
         "l3": pitching_rolling(conn, player_id, 3, as_of_date=as_of_date),
         "l5": l5,
         "season": season,
@@ -1980,7 +2042,8 @@ def render_markdown(report):
                 inj = f" [INJURY: {p['injury']['status']}]" if p["injury"] else ""
                 l5 = p["l5"]
                 l5_txt = f"L5: {l5['innings_pitched']} IP, {l5['strike_outs']} K, {l5['earned_runs']} ER, {l5['era']} ERA" if l5 else "L5: no data"
-                lines.append(f"**Probable P: {p['name']} ({p['pitch_hand']})**{inj} -- {l5_txt}")
+                bullpen_txt = " [BULLPEN GAME: short-outing arm, no reliable individual matchup below]" if p.get("workload_tier") == "reliever" else ""
+                lines.append(f"**Probable P: {p['name']} ({p['pitch_hand']})**{inj}{bullpen_txt} -- {l5_txt}")
             for b in side["batters"]:
                 order = f"#{b['batting_order']} " if b["batting_order"] else ""
                 inj = f" [INJURY: {b['injury']['status']}]" if b["injury"] else ""
