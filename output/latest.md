@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-07-30T22:48:46.874579+00:00_
+_Generated 2026-07-30T23:46:12.347337+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -178,7 +178,7 @@ _Facing a taxed bullpen: 5.3 relief IP in last 2 days (ratio 1.43)_
 ## 2026-07-30 - Miami Marlins @ New York Mets (Delayed Start)
 _Citi Field_
 Projected score: Miami Marlins 3.2 - New York Mets 4.01
-Model likes: **New York Mets** to win (58%) | Run line: **Miami Marlins** +1.5 (59% to cover) | Total 6.5: lean **OVER** (52%)
+Model likes: **New York Mets** to win (58%) | Run line: **Miami Marlins** +1.5 (60% to cover) | Total 6.5: lean **OVER** (52%)
 
 ### Miami Marlins lineup -- CONFIRMED
 **Probable P: Eury Pérez (R)** -- L5: 31.3 IP, 33 K, 6 ER, 1.72 ERA
@@ -204,7 +204,7 @@ Model likes: **New York Mets** to win (58%) | Run line: **Miami Marlins** +1.5 (
 - #8 Jorge Polanco (S) -- L7: 1H 0HR 1RBI 1TB (0.042 avg) -- home split: 0.125 avg
 - #9 Francisco Alvarez (R) -- L7: 6H 1HR 3RBI 10TB (0.286 avg) -- home split: 0.244 avg
 
-## 2026-07-30 - Pittsburgh Pirates @ Cincinnati Reds (Pre-Game)
+## 2026-07-30 - Pittsburgh Pirates @ Cincinnati Reds (In Progress)
 _Great American Ball Park [hitter-friendly park]_
 Projected score: Pittsburgh Pirates 5.67 - Cincinnati Reds 4.04
 Model likes: **Pittsburgh Pirates** to win (63%) | Run line: **Cincinnati Reds** +1.5 (51% to cover) | Total 9.5: lean **UNDER** (54%)
@@ -235,10 +235,10 @@ _Facing a taxed bullpen: 11.0 relief IP in last 2 days (ratio 2.52)_
 - #8 Noelvi Marte (R) -- L7: 4H 0HR 1RBI 5TB (0.167 avg) -- home split: 0.133 avg
 - #9 Matt McLain (R) -- L7: 1H 0HR 0RBI 1TB (0.067 avg) -- home split: 0.167 avg
 
-## 2026-07-30 - Washington Nationals @ Atlanta Braves (Pre-Game)
+## 2026-07-30 - Washington Nationals @ Atlanta Braves (In Progress)
 _Truist Park_
 Projected score: Washington Nationals 4.36 - Atlanta Braves 5.69
-Model likes: **Atlanta Braves** to win (60%) | Run line: **Washington Nationals** +1.5 (53% to cover) | Total 9.5: lean **UNDER** (51%)
+Model likes: **Atlanta Braves** to win (60%) | Run line: **Washington Nationals** +1.5 (54% to cover) | Total 9.5: lean **UNDER** (51%)
 
 ### Washington Nationals lineup -- CONFIRMED
 _Facing a taxed bullpen: 6.7 relief IP in last 2 days (ratio 1.5)_
@@ -298,8 +298,8 @@ _Facing a taxed bullpen: 8.3 relief IP in last 2 days (ratio 2.13)_
 
 ## 2026-07-30 - Boston Red Sox @ Athletics (Pre-Game)
 _Sutter Health Park_
-Projected score: Boston Red Sox 5.31 - Athletics 2.93
-Model likes: **Boston Red Sox** to win (70%) | Run line: **Boston Red Sox** -1.5 (55% to cover) | Total 7.5: lean **OVER** (51%)
+Projected score: Boston Red Sox 5.31 - Athletics 2.97
+Model likes: **Boston Red Sox** to win (70%) | Run line: **Boston Red Sox** -1.5 (55% to cover) | Total 7.5: lean **OVER** (52%)
 
 ### Boston Red Sox lineup -- CONFIRMED
 _Facing a taxed bullpen: 7.7 relief IP in last 2 days (ratio 1.75)_
@@ -314,18 +314,18 @@ _Facing a taxed bullpen: 7.7 relief IP in last 2 days (ratio 1.75)_
 - #8 Andruw Monasterio (R) [likely BABIP-driven, not a real power uptick] -- L7: 9H 1HR 3RBI 14TB (0.409 avg) -- away split: 0.27 avg
 - #9 Connor Wong (R) -- L7: 3H 1HR 2RBI 7TB (0.188 avg) -- away split: 0.308 avg
 
-### Athletics lineup -- PROJECTED (unconfirmed)
+### Athletics lineup -- CONFIRMED
 _Facing a taxed bullpen: 6.7 relief IP in last 2 days (ratio 1.29)_
 **Probable P: Mason Barnett (R)** [BULLPEN GAME: short-outing arm, no reliable individual matchup below] -- L5: 9.3 IP, 4 K, 11 ER, 10.61 ERA
-- Jacob Wilson (R) -- L7: 3H 0HR 0RBI 4TB (0.103 avg) -- home split: 0.285 avg
-- Lawrence Butler (L) -- L7: 4H 1HR 4RBI 9TB (0.308 avg) -- home split: 0.226 avg
-- Henry Bolte (R) -- L7: 3H 0HR 1RBI 3TB (0.158 avg) -- home split: 0.289 avg
-- Tyler Soderstrom (L) -- L7: 6H 1HR 3RBI 10TB (0.231 avg) -- home split: 0.263 avg
-- Alika Williams (R) -- L7: 3H 0HR 2RBI 3TB (0.2 avg) -- home split: 0.3 avg
-- Jonah Heim (S) -- L7: 7H 2HR 4RBI 14TB (0.259 avg) -- home split: 0.255 avg
-- Jeff McNeil (L) [4-game hit streak] -- L7: 9H 1HR 3RBI 14TB (0.391 avg) -- home split: 0.244 avg
-- Tommy White (R) -- L7: 7H 0HR 0RBI 8TB (0.25 avg) -- home split: 0.263 avg
-- Carlos Cortes (L) -- L7: 2H 1HR 4RBI 6TB (0.118 avg) -- home split: 0.241 avg
+- #1 Nick Kurtz (L) -- L7: 1H 1HR 3RBI 4TB (0.059 avg) -- home split: 0.287 avg
+- #2 Jacob Wilson (R) -- L7: 3H 0HR 0RBI 4TB (0.103 avg) -- home split: 0.285 avg
+- #3 Tyler Soderstrom (L) -- L7: 6H 1HR 3RBI 10TB (0.231 avg) -- home split: 0.263 avg
+- #4 Jonah Heim (S) -- L7: 7H 2HR 4RBI 14TB (0.259 avg) -- home split: 0.255 avg
+- #5 Tommy White (R) -- L7: 7H 0HR 0RBI 8TB (0.25 avg) -- home split: 0.263 avg
+- #6 Lawrence Butler (L) -- L7: 4H 1HR 4RBI 9TB (0.308 avg) -- home split: 0.226 avg
+- #7 Jeff McNeil (L) [4-game hit streak] -- L7: 9H 1HR 3RBI 14TB (0.391 avg) -- home split: 0.244 avg
+- #8 Carlos Cortes (L) -- L7: 2H 1HR 4RBI 6TB (0.118 avg) -- home split: 0.241 avg
+- #9 Donovan Walton (L) -- L7: 3H 0HR 1RBI 6TB (0.273 avg) -- home split: 0.245 avg
 
 ## 2026-07-30 - Seattle Mariners @ Los Angeles Dodgers (Pre-Game)
 _UNIQLO Field at Dodger Stadium_
@@ -1021,7 +1021,7 @@ _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.55)_
 ## 2026-08-01 - Arizona Diamondbacks @ Cleveland Guardians (Scheduled)
 _Progressive Field_
 Projected score: Arizona Diamondbacks 3.38 - Cleveland Guardians 4.16
-Model likes: **Cleveland Guardians** to win (57%) | Run line: **Arizona Diamondbacks** +1.5 (60% to cover) | Total 6.5: lean **OVER** (55%)
+Model likes: **Cleveland Guardians** to win (57%) | Run line: **Arizona Diamondbacks** +1.5 (59% to cover) | Total 6.5: lean **OVER** (55%)
 
 ### Arizona Diamondbacks lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_

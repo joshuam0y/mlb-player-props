@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T22:48:46.874579+00:00",
+  "generated_at": "2026-07-30T23:46:12.347337+00:00",
   "range": [
     "2026-07-30",
     "2026-08-01"
@@ -34085,22 +34085,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 823595,
-        "generated_at": "2026-07-30T22:46:24.278047+00:00",
+        "generated_at": "2026-07-30T23:43:49.858427+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.01,
         "away_exp_runs": 3.2,
         "home_win_prob": 0.579,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.406,
+        "spread_cover_prob": 0.405,
         "total_line": 6.5,
-        "over_prob": 0.52,
+        "over_prob": 0.519,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.594,
+        "spread_pick_prob": 0.595,
         "total_pick": "over",
-        "total_pick_prob": 0.52,
+        "total_pick_prob": 0.519,
         "spread_favorite": "home"
       },
       "home": {
@@ -42327,7 +42327,7 @@
       "game_pk": 824488,
       "date": "2026-07-30",
       "game_time_utc": "2026-07-30T23:10:00Z",
-      "status": "Pre-Game",
+      "status": "In Progress",
       "venue": "Great American Ball Park",
       "park_factor": "hitter",
       "home_score": null,
@@ -42335,7 +42335,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 824488,
-        "generated_at": "2026-07-30T22:46:24.278047+00:00",
+        "generated_at": "2026-07-30T23:43:49.858427+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.04,
         "away_exp_runs": 5.67,
@@ -50594,7 +50594,7 @@
       "game_pk": 824894,
       "date": "2026-07-30",
       "game_time_utc": "2026-07-30T23:15:00Z",
-      "status": "Pre-Game",
+      "status": "In Progress",
       "venue": "Truist Park",
       "park_factor": "neutral",
       "home_score": null,
@@ -50602,20 +50602,20 @@
       "live_score": null,
       "projection": {
         "game_pk": 824894,
-        "generated_at": "2026-07-30T22:46:24.278047+00:00",
+        "generated_at": "2026-07-30T23:43:49.858427+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 5.69,
         "away_exp_runs": 4.36,
         "home_win_prob": 0.6,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.466,
+        "spread_cover_prob": 0.465,
         "total_line": 9.5,
         "over_prob": 0.49,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.534,
+        "spread_pick_prob": 0.535,
         "total_pick": "under",
         "total_pick_prob": 0.51,
         "spread_favorite": "home"
@@ -58848,22 +58848,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 823271,
-        "generated_at": "2026-07-30T22:46:24.278047+00:00",
+        "generated_at": "2026-07-30T23:43:49.858427+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.43,
         "away_exp_runs": 3.9,
-        "home_win_prob": 0.546,
+        "home_win_prob": 0.547,
         "spread_line": 1.5,
         "spread_cover_prob": 0.391,
         "total_line": 7.5,
-        "over_prob": 0.524,
+        "over_prob": 0.523,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
         "spread_pick_prob": 0.609,
         "total_pick": "over",
-        "total_pick_prob": 0.524,
+        "total_pick_prob": 0.523,
         "spread_favorite": "home"
       },
       "home": {
@@ -66763,28 +66763,28 @@
       "live_score": null,
       "projection": {
         "game_pk": 824974,
-        "generated_at": "2026-07-30T22:46:24.278047+00:00",
+        "generated_at": "2026-07-30T23:43:49.858427+00:00",
         "model_version": "v1-log5-negbinom",
-        "home_exp_runs": 2.93,
+        "home_exp_runs": 2.97,
         "away_exp_runs": 5.31,
-        "home_win_prob": 0.295,
+        "home_win_prob": 0.299,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.169,
+        "spread_cover_prob": 0.172,
         "total_line": 7.5,
-        "over_prob": 0.512,
+        "over_prob": 0.515,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "away",
-        "spread_pick_prob": 0.553,
+        "spread_pick_prob": 0.549,
         "total_pick": "over",
-        "total_pick_prob": 0.512,
+        "total_pick_prob": 0.515,
         "spread_favorite": "away"
       },
       "home": {
         "team_id": 133,
         "team_name": "Athletics",
-        "lineup_confirmed": false,
+        "lineup_confirmed": true,
         "probable_pitcher": {
           "player_id": 686930,
           "name": "Mason Barnett",
@@ -67145,11 +67145,417 @@
         },
         "batters": [
           {
+            "player_id": 701762,
+            "name": "Nick Kurtz",
+            "bat_side": "L",
+            "position": "1B",
+            "batting_order": 1,
+            "injury": null,
+            "l7": {
+              "games": 7,
+              "at_bats": 17,
+              "hits": 1,
+              "doubles": 0,
+              "triples": 0,
+              "home_runs": 1,
+              "rbi": 3,
+              "runs": 1,
+              "base_on_balls": 1,
+              "strike_outs": 9,
+              "total_bases": 4,
+              "hit_by_pitch": 1,
+              "stolen_bases": 0,
+              "avg": 0.059,
+              "slg": 0.235,
+              "babip": 0.0,
+              "iso": 0.176
+            },
+            "l15": {
+              "games": 15,
+              "at_bats": 46,
+              "hits": 6,
+              "doubles": 0,
+              "triples": 0,
+              "home_runs": 2,
+              "rbi": 5,
+              "runs": 3,
+              "base_on_balls": 4,
+              "strike_outs": 23,
+              "total_bases": 12,
+              "hit_by_pitch": 1,
+              "stolen_bases": 0,
+              "avg": 0.13,
+              "slg": 0.261,
+              "babip": 0.19,
+              "iso": 0.131
+            },
+            "season": {
+              "games": 162,
+              "at_bats": 581,
+              "hits": 167,
+              "doubles": 34,
+              "triples": 2,
+              "home_runs": 44,
+              "rbi": 120,
+              "runs": 127,
+              "base_on_balls": 119,
+              "strike_outs": 218,
+              "total_bases": 337,
+              "hit_by_pitch": 5,
+              "stolen_bases": 9,
+              "avg": 0.287,
+              "slg": 0.58,
+              "babip": 0.386,
+              "iso": 0.293
+            },
+            "trend": "cold",
+            "trend_caveat": null,
+            "hit_streak": 0,
+            "splits_vs_opp_hand": {
+              "vs_hand": "vr",
+              "season": {
+                "player_id": 701762,
+                "split_code": "vr",
+                "season": 2026,
+                "games": 85,
+                "plate_appearances": 271,
+                "at_bats": 212,
+                "hits": 58,
+                "doubles": 12,
+                "triples": 1,
+                "home_runs": 15,
+                "rbi": 47,
+                "runs": null,
+                "base_on_balls": 58,
+                "strike_outs": 79,
+                "total_bases": 117,
+                "avg": 0.274,
+                "obp": 0.432,
+                "slg": 0.552,
+                "ops": 0.984
+              },
+              "career": {
+                "player_id": 701762,
+                "split_code": "vr",
+                "season": 0,
+                "games": 191,
+                "plate_appearances": 607,
+                "at_bats": 495,
+                "hits": 153,
+                "doubles": 34,
+                "triples": 3,
+                "home_runs": 42,
+                "rbi": 111,
+                "runs": null,
+                "base_on_balls": 109,
+                "strike_outs": 176,
+                "total_bases": 319,
+                "avg": 0.309,
+                "obp": 0.436,
+                "slg": 0.644,
+                "ops": 1.08
+              }
+            },
+            "matchup": {
+              "platoon": "opposite-hand",
+              "pitcher_avg_against": 0.241,
+              "pitcher_era_vs_hand": null,
+              "favorable": false,
+              "unfavorable": false,
+              "bullpen_game": false
+            },
+            "home_away": {
+              "this_game": "home",
+              "home": {
+                "games": 50,
+                "at_bats": 174,
+                "hits": 50,
+                "doubles": 9,
+                "triples": 0,
+                "home_runs": 14,
+                "rbi": 41,
+                "runs": 30,
+                "base_on_balls": 43,
+                "strike_outs": 70,
+                "total_bases": 101,
+                "hit_by_pitch": 3,
+                "stolen_bases": 1,
+                "avg": 0.287,
+                "slg": 0.58
+              },
+              "away": {
+                "games": 47,
+                "at_bats": 172,
+                "hits": 40,
+                "doubles": 6,
+                "triples": 1,
+                "home_runs": 7,
+                "rbi": 28,
+                "runs": 32,
+                "base_on_balls": 34,
+                "strike_outs": 67,
+                "total_bases": 69,
+                "hit_by_pitch": 0,
+                "stolen_bases": 6,
+                "avg": 0.233,
+                "slg": 0.401
+              }
+            },
+            "headlines": [],
+            "prop_categories": [
+              {
+                "label": "Hits",
+                "average": 0.1,
+                "primary_line": 0.5,
+                "today_projection": 0.72,
+                "lean": "over",
+                "hit_rates": [
+                  {
+                    "line": 0.5,
+                    "pct": 10,
+                    "n": 10
+                  }
+                ],
+                "values": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  0,
+                  0
+                ],
+                "dates": [
+                  "2026-07-04",
+                  "2026-07-05",
+                  "2026-07-07",
+                  "2026-07-08",
+                  "2026-07-09",
+                  "2026-07-25",
+                  "2026-07-26",
+                  "2026-07-27",
+                  "2026-07-28",
+                  "2026-07-29"
+                ]
+              },
+              {
+                "label": "Total Bases",
+                "average": 0.4,
+                "primary_line": 1.5,
+                "today_projection": 1.37,
+                "lean": null,
+                "hit_rates": [
+                  {
+                    "line": 1.5,
+                    "pct": 10,
+                    "n": 10
+                  }
+                ],
+                "values": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  4,
+                  0,
+                  0,
+                  0
+                ],
+                "dates": [
+                  "2026-07-04",
+                  "2026-07-05",
+                  "2026-07-07",
+                  "2026-07-08",
+                  "2026-07-09",
+                  "2026-07-25",
+                  "2026-07-26",
+                  "2026-07-27",
+                  "2026-07-28",
+                  "2026-07-29"
+                ]
+              },
+              {
+                "label": "Home Runs",
+                "average": 0.1,
+                "primary_line": 0.5,
+                "today_projection": 0.18,
+                "lean": "under",
+                "hit_rates": [
+                  {
+                    "line": 0.5,
+                    "pct": 10,
+                    "n": 10
+                  }
+                ],
+                "values": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  0,
+                  0
+                ],
+                "dates": [
+                  "2026-07-04",
+                  "2026-07-05",
+                  "2026-07-07",
+                  "2026-07-08",
+                  "2026-07-09",
+                  "2026-07-25",
+                  "2026-07-26",
+                  "2026-07-27",
+                  "2026-07-28",
+                  "2026-07-29"
+                ]
+              },
+              {
+                "label": "RBIs",
+                "average": 0.3,
+                "primary_line": 0.5,
+                "today_projection": 0.56,
+                "lean": null,
+                "hit_rates": [
+                  {
+                    "line": 0.5,
+                    "pct": 10,
+                    "n": 10
+                  }
+                ],
+                "values": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  3,
+                  0,
+                  0,
+                  0
+                ],
+                "dates": [
+                  "2026-07-04",
+                  "2026-07-05",
+                  "2026-07-07",
+                  "2026-07-08",
+                  "2026-07-09",
+                  "2026-07-25",
+                  "2026-07-26",
+                  "2026-07-27",
+                  "2026-07-28",
+                  "2026-07-29"
+                ]
+              },
+              {
+                "label": "Runs Scored",
+                "average": 0.1,
+                "primary_line": 0.5,
+                "today_projection": 0.46,
+                "lean": null,
+                "hit_rates": [
+                  {
+                    "line": 0.5,
+                    "pct": 10,
+                    "n": 10
+                  }
+                ],
+                "values": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  0,
+                  0
+                ],
+                "dates": [
+                  "2026-07-04",
+                  "2026-07-05",
+                  "2026-07-07",
+                  "2026-07-08",
+                  "2026-07-09",
+                  "2026-07-25",
+                  "2026-07-26",
+                  "2026-07-27",
+                  "2026-07-28",
+                  "2026-07-29"
+                ]
+              },
+              {
+                "label": "Walks",
+                "average": 0.1,
+                "primary_line": 0.5,
+                "today_projection": 0.58,
+                "lean": null,
+                "hit_rates": [
+                  {
+                    "line": 0.5,
+                    "pct": 10,
+                    "n": 10
+                  }
+                ],
+                "values": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  0,
+                  0
+                ],
+                "dates": [
+                  "2026-07-04",
+                  "2026-07-05",
+                  "2026-07-07",
+                  "2026-07-08",
+                  "2026-07-09",
+                  "2026-07-25",
+                  "2026-07-26",
+                  "2026-07-27",
+                  "2026-07-28",
+                  "2026-07-29"
+                ]
+              }
+            ],
+            "best_over": null,
+            "best_under": null,
+            "best_prop": {
+              "label": "Hits",
+              "line": 0.5,
+              "pct": 10,
+              "n": 10,
+              "season_pct": 64
+            },
+            "best_prop_direction": "under",
+            "matchup_lean": {
+              "label": "Hits",
+              "line": 0.5,
+              "direction": "over",
+              "projection": 0.72
+            },
+            "game_result": null
+          },
+          {
             "player_id": 805779,
             "name": "Jacob Wilson",
             "bat_side": "R",
-            "position": "SS",
-            "batting_order": null,
+            "position": "DH",
+            "batting_order": 2,
             "injury": null,
             "l7": {
               "games": 7,
@@ -67559,831 +67965,11 @@
             "game_result": null
           },
           {
-            "player_id": 671732,
-            "name": "Lawrence Butler",
-            "bat_side": "L",
-            "position": "RF",
-            "batting_order": null,
-            "injury": null,
-            "l7": {
-              "games": 7,
-              "at_bats": 13,
-              "hits": 4,
-              "doubles": 2,
-              "triples": 0,
-              "home_runs": 1,
-              "rbi": 4,
-              "runs": 2,
-              "base_on_balls": 5,
-              "strike_outs": 2,
-              "total_bases": 9,
-              "hit_by_pitch": 0,
-              "stolen_bases": 0,
-              "avg": 0.308,
-              "slg": 0.692,
-              "babip": 0.3,
-              "iso": 0.384
-            },
-            "l15": {
-              "games": 15,
-              "at_bats": 38,
-              "hits": 9,
-              "doubles": 2,
-              "triples": 1,
-              "home_runs": 1,
-              "rbi": 5,
-              "runs": 5,
-              "base_on_balls": 9,
-              "strike_outs": 11,
-              "total_bases": 16,
-              "hit_by_pitch": 0,
-              "stolen_bases": 0,
-              "avg": 0.237,
-              "slg": 0.421,
-              "babip": 0.308,
-              "iso": 0.184
-            },
-            "season": {
-              "games": 162,
-              "at_bats": 481,
-              "hits": 98,
-              "doubles": 17,
-              "triples": 1,
-              "home_runs": 14,
-              "rbi": 51,
-              "runs": 65,
-              "base_on_balls": 61,
-              "strike_outs": 152,
-              "total_bases": 159,
-              "hit_by_pitch": 1,
-              "stolen_bases": 14,
-              "avg": 0.204,
-              "slg": 0.331,
-              "babip": 0.267,
-              "iso": 0.127
-            },
-            "trend": "hot",
-            "trend_caveat": null,
-            "hit_streak": 2,
-            "splits_vs_opp_hand": {
-              "vs_hand": "vr",
-              "season": {
-                "player_id": 671732,
-                "split_code": "vr",
-                "season": 2026,
-                "games": 89,
-                "plate_appearances": 241,
-                "at_bats": 210,
-                "hits": 42,
-                "doubles": 9,
-                "triples": 0,
-                "home_runs": 5,
-                "rbi": 23,
-                "runs": null,
-                "base_on_balls": 30,
-                "strike_outs": 62,
-                "total_bases": 66,
-                "avg": 0.2,
-                "obp": 0.299,
-                "slg": 0.314,
-                "ops": 0.613
-              },
-              "career": {
-                "player_id": 671732,
-                "split_code": "vr",
-                "season": 0,
-                "games": 387,
-                "plate_appearances": 1217,
-                "at_bats": 1090,
-                "hits": 258,
-                "doubles": 58,
-                "triples": 3,
-                "home_runs": 43,
-                "rbi": 135,
-                "runs": null,
-                "base_on_balls": 118,
-                "strike_outs": 306,
-                "total_bases": 451,
-                "avg": 0.237,
-                "obp": 0.31,
-                "slg": 0.414,
-                "ops": 0.724
-              }
-            },
-            "matchup": {
-              "platoon": "opposite-hand",
-              "pitcher_avg_against": 0.241,
-              "pitcher_era_vs_hand": null,
-              "favorable": false,
-              "unfavorable": false,
-              "bullpen_game": false
-            },
-            "home_away": {
-              "this_game": "home",
-              "home": {
-                "games": 50,
-                "at_bats": 137,
-                "hits": 31,
-                "doubles": 8,
-                "triples": 0,
-                "home_runs": 6,
-                "rbi": 20,
-                "runs": 23,
-                "base_on_balls": 17,
-                "strike_outs": 41,
-                "total_bases": 57,
-                "hit_by_pitch": 0,
-                "stolen_bases": 3,
-                "avg": 0.226,
-                "slg": 0.416
-              },
-              "away": {
-                "games": 50,
-                "at_bats": 132,
-                "hits": 24,
-                "doubles": 3,
-                "triples": 1,
-                "home_runs": 0,
-                "rbi": 7,
-                "runs": 13,
-                "base_on_balls": 22,
-                "strike_outs": 40,
-                "total_bases": 29,
-                "hit_by_pitch": 1,
-                "stolen_bases": 3,
-                "avg": 0.182,
-                "slg": 0.22
-              }
-            },
-            "headlines": [],
-            "prop_categories": [
-              {
-                "label": "Hits",
-                "average": 0.7,
-                "primary_line": 0.5,
-                "today_projection": 0.57,
-                "lean": null,
-                "hit_rates": [
-                  {
-                    "line": 0.5,
-                    "pct": 50,
-                    "n": 10
-                  }
-                ],
-                "values": [
-                  0,
-                  2,
-                  1,
-                  1,
-                  0,
-                  0,
-                  0,
-                  0,
-                  1,
-                  2
-                ],
-                "dates": [
-                  "2026-07-19",
-                  "2026-07-20",
-                  "2026-07-21",
-                  "2026-07-22",
-                  "2026-07-24",
-                  "2026-07-25",
-                  "2026-07-26",
-                  "2026-07-27",
-                  "2026-07-28",
-                  "2026-07-29"
-                ]
-              },
-              {
-                "label": "Total Bases",
-                "average": 1.4,
-                "primary_line": 1.5,
-                "today_projection": 0.94,
-                "lean": "under",
-                "hit_rates": [
-                  {
-                    "line": 1.5,
-                    "pct": 40,
-                    "n": 10
-                  }
-                ],
-                "values": [
-                  0,
-                  2,
-                  3,
-                  1,
-                  0,
-                  0,
-                  0,
-                  0,
-                  2,
-                  6
-                ],
-                "dates": [
-                  "2026-07-19",
-                  "2026-07-20",
-                  "2026-07-21",
-                  "2026-07-22",
-                  "2026-07-24",
-                  "2026-07-25",
-                  "2026-07-26",
-                  "2026-07-27",
-                  "2026-07-28",
-                  "2026-07-29"
-                ]
-              },
-              {
-                "label": "Home Runs",
-                "average": 0.1,
-                "primary_line": 0.5,
-                "today_projection": 0.06,
-                "lean": "under",
-                "hit_rates": [
-                  {
-                    "line": 0.5,
-                    "pct": 10,
-                    "n": 10
-                  }
-                ],
-                "values": [
-                  0,
-                  0,
-                  0,
-                  0,
-                  0,
-                  0,
-                  0,
-                  0,
-                  0,
-                  1
-                ],
-                "dates": [
-                  "2026-07-19",
-                  "2026-07-20",
-                  "2026-07-21",
-                  "2026-07-22",
-                  "2026-07-24",
-                  "2026-07-25",
-                  "2026-07-26",
-                  "2026-07-27",
-                  "2026-07-28",
-                  "2026-07-29"
-                ]
-              },
-              {
-                "label": "RBIs",
-                "average": 0.4,
-                "primary_line": 0.5,
-                "today_projection": 0.3,
-                "lean": "under",
-                "hit_rates": [
-                  {
-                    "line": 0.5,
-                    "pct": 40,
-                    "n": 10
-                  }
-                ],
-                "values": [
-                  0,
-                  0,
-                  0,
-                  1,
-                  1,
-                  0,
-                  0,
-                  0,
-                  1,
-                  1
-                ],
-                "dates": [
-                  "2026-07-19",
-                  "2026-07-20",
-                  "2026-07-21",
-                  "2026-07-22",
-                  "2026-07-24",
-                  "2026-07-25",
-                  "2026-07-26",
-                  "2026-07-27",
-                  "2026-07-28",
-                  "2026-07-29"
-                ]
-              },
-              {
-                "label": "Runs Scored",
-                "average": 0.4,
-                "primary_line": 0.5,
-                "today_projection": 0.35,
-                "lean": "under",
-                "hit_rates": [
-                  {
-                    "line": 0.5,
-                    "pct": 40,
-                    "n": 10
-                  }
-                ],
-                "values": [
-                  0,
-                  1,
-                  1,
-                  0,
-                  0,
-                  0,
-                  1,
-                  0,
-                  0,
-                  1
-                ],
-                "dates": [
-                  "2026-07-19",
-                  "2026-07-20",
-                  "2026-07-21",
-                  "2026-07-22",
-                  "2026-07-24",
-                  "2026-07-25",
-                  "2026-07-26",
-                  "2026-07-27",
-                  "2026-07-28",
-                  "2026-07-29"
-                ]
-              },
-              {
-                "label": "Walks",
-                "average": 0.5,
-                "primary_line": 0.5,
-                "today_projection": 0.47,
-                "lean": null,
-                "hit_rates": [
-                  {
-                    "line": 0.5,
-                    "pct": 40,
-                    "n": 10
-                  }
-                ],
-                "values": [
-                  0,
-                  0,
-                  0,
-                  1,
-                  0,
-                  2,
-                  1,
-                  0,
-                  0,
-                  1
-                ],
-                "dates": [
-                  "2026-07-19",
-                  "2026-07-20",
-                  "2026-07-21",
-                  "2026-07-22",
-                  "2026-07-24",
-                  "2026-07-25",
-                  "2026-07-26",
-                  "2026-07-27",
-                  "2026-07-28",
-                  "2026-07-29"
-                ]
-              }
-            ],
-            "best_over": null,
-            "best_under": null,
-            "best_prop": {
-              "label": "Hits",
-              "line": 0.5,
-              "pct": 50,
-              "n": 10,
-              "season_pct": 50
-            },
-            "best_prop_direction": "over",
-            "matchup_lean": {
-              "label": "Total Bases",
-              "line": 1.5,
-              "direction": "under",
-              "projection": 0.94
-            },
-            "game_result": null
-          },
-          {
-            "player_id": 703607,
-            "name": "Henry Bolte",
-            "bat_side": "R",
-            "position": "CF",
-            "batting_order": null,
-            "injury": null,
-            "l7": {
-              "games": 7,
-              "at_bats": 19,
-              "hits": 3,
-              "doubles": 0,
-              "triples": 0,
-              "home_runs": 0,
-              "rbi": 1,
-              "runs": 2,
-              "base_on_balls": 3,
-              "strike_outs": 6,
-              "total_bases": 3,
-              "hit_by_pitch": 0,
-              "stolen_bases": 1,
-              "avg": 0.158,
-              "slg": 0.158,
-              "babip": 0.231,
-              "iso": 0.0
-            },
-            "l15": {
-              "games": 15,
-              "at_bats": 43,
-              "hits": 5,
-              "doubles": 1,
-              "triples": 0,
-              "home_runs": 0,
-              "rbi": 3,
-              "runs": 2,
-              "base_on_balls": 3,
-              "strike_outs": 14,
-              "total_bases": 6,
-              "hit_by_pitch": 1,
-              "stolen_bases": 1,
-              "avg": 0.116,
-              "slg": 0.14,
-              "babip": 0.172,
-              "iso": 0.024
-            },
-            "season": {
-              "games": 65,
-              "at_bats": 208,
-              "hits": 51,
-              "doubles": 7,
-              "triples": 0,
-              "home_runs": 3,
-              "rbi": 18,
-              "runs": 20,
-              "base_on_balls": 18,
-              "strike_outs": 66,
-              "total_bases": 67,
-              "hit_by_pitch": 8,
-              "stolen_bases": 12,
-              "avg": 0.245,
-              "slg": 0.322,
-              "babip": 0.345,
-              "iso": 0.077
-            },
-            "trend": "cold",
-            "trend_caveat": null,
-            "hit_streak": 0,
-            "splits_vs_opp_hand": {
-              "vs_hand": "vr",
-              "season": {
-                "player_id": 703607,
-                "split_code": "vr",
-                "season": 2026,
-                "games": 58,
-                "plate_appearances": 148,
-                "at_bats": 127,
-                "hits": 31,
-                "doubles": 5,
-                "triples": 0,
-                "home_runs": 0,
-                "rbi": 8,
-                "runs": null,
-                "base_on_balls": 13,
-                "strike_outs": 34,
-                "total_bases": 36,
-                "avg": 0.244,
-                "obp": 0.333,
-                "slg": 0.283,
-                "ops": 0.616
-              },
-              "career": {
-                "player_id": 703607,
-                "split_code": "vr",
-                "season": 0,
-                "games": 58,
-                "plate_appearances": 148,
-                "at_bats": 127,
-                "hits": 31,
-                "doubles": 5,
-                "triples": 0,
-                "home_runs": 0,
-                "rbi": 8,
-                "runs": null,
-                "base_on_balls": 13,
-                "strike_outs": 34,
-                "total_bases": 36,
-                "avg": 0.244,
-                "obp": 0.333,
-                "slg": 0.283,
-                "ops": 0.616
-              }
-            },
-            "matchup": {
-              "platoon": "same-hand",
-              "pitcher_avg_against": 0.242,
-              "pitcher_era_vs_hand": null,
-              "favorable": false,
-              "unfavorable": false,
-              "bullpen_game": false
-            },
-            "home_away": {
-              "this_game": "home",
-              "home": {
-                "games": 34,
-                "at_bats": 114,
-                "hits": 33,
-                "doubles": 2,
-                "triples": 0,
-                "home_runs": 2,
-                "rbi": 11,
-                "runs": 10,
-                "base_on_balls": 9,
-                "strike_outs": 31,
-                "total_bases": 41,
-                "hit_by_pitch": 4,
-                "stolen_bases": 8,
-                "avg": 0.289,
-                "slg": 0.36
-              },
-              "away": {
-                "games": 31,
-                "at_bats": 94,
-                "hits": 18,
-                "doubles": 5,
-                "triples": 0,
-                "home_runs": 1,
-                "rbi": 7,
-                "runs": 10,
-                "base_on_balls": 9,
-                "strike_outs": 35,
-                "total_bases": 26,
-                "hit_by_pitch": 4,
-                "stolen_bases": 4,
-                "avg": 0.191,
-                "slg": 0.277
-              }
-            },
-            "headlines": [],
-            "prop_categories": [
-              {
-                "label": "Hits",
-                "average": 0.4,
-                "primary_line": 0.5,
-                "today_projection": 0.6,
-                "lean": null,
-                "hit_rates": [
-                  {
-                    "line": 0.5,
-                    "pct": 30,
-                    "n": 10
-                  }
-                ],
-                "values": [
-                  1,
-                  0,
-                  0,
-                  0,
-                  1,
-                  0,
-                  0,
-                  0,
-                  2,
-                  0
-                ],
-                "dates": [
-                  "2026-07-19",
-                  "2026-07-20",
-                  "2026-07-21",
-                  "2026-07-22",
-                  "2026-07-24",
-                  "2026-07-25",
-                  "2026-07-26",
-                  "2026-07-27",
-                  "2026-07-28",
-                  "2026-07-29"
-                ]
-              },
-              {
-                "label": "Total Bases",
-                "average": 0.4,
-                "primary_line": 1.5,
-                "today_projection": 0.78,
-                "lean": "under",
-                "hit_rates": [
-                  {
-                    "line": 1.5,
-                    "pct": 10,
-                    "n": 10
-                  }
-                ],
-                "values": [
-                  1,
-                  0,
-                  0,
-                  0,
-                  1,
-                  0,
-                  0,
-                  0,
-                  2,
-                  0
-                ],
-                "dates": [
-                  "2026-07-19",
-                  "2026-07-20",
-                  "2026-07-21",
-                  "2026-07-22",
-                  "2026-07-24",
-                  "2026-07-25",
-                  "2026-07-26",
-                  "2026-07-27",
-                  "2026-07-28",
-                  "2026-07-29"
-                ]
-              },
-              {
-                "label": "Home Runs",
-                "average": 0.0,
-                "primary_line": 0.5,
-                "today_projection": 0.03,
-                "lean": "under",
-                "hit_rates": [
-                  {
-                    "line": 0.5,
-                    "pct": 0,
-                    "n": 10
-                  }
-                ],
-                "values": [
-                  0,
-                  0,
-                  0,
-                  0,
-                  0,
-                  0,
-                  0,
-                  0,
-                  0,
-                  0
-                ],
-                "dates": [
-                  "2026-07-19",
-                  "2026-07-20",
-                  "2026-07-21",
-                  "2026-07-22",
-                  "2026-07-24",
-                  "2026-07-25",
-                  "2026-07-26",
-                  "2026-07-27",
-                  "2026-07-28",
-                  "2026-07-29"
-                ]
-              },
-              {
-                "label": "RBIs",
-                "average": 0.1,
-                "primary_line": 0.5,
-                "today_projection": 0.25,
-                "lean": "under",
-                "hit_rates": [
-                  {
-                    "line": 0.5,
-                    "pct": 10,
-                    "n": 10
-                  }
-                ],
-                "values": [
-                  0,
-                  0,
-                  0,
-                  0,
-                  0,
-                  0,
-                  0,
-                  0,
-                  1,
-                  0
-                ],
-                "dates": [
-                  "2026-07-19",
-                  "2026-07-20",
-                  "2026-07-21",
-                  "2026-07-22",
-                  "2026-07-24",
-                  "2026-07-25",
-                  "2026-07-26",
-                  "2026-07-27",
-                  "2026-07-28",
-                  "2026-07-29"
-                ]
-              },
-              {
-                "label": "Runs Scored",
-                "average": 0.2,
-                "primary_line": 0.5,
-                "today_projection": 0.24,
-                "lean": "under",
-                "hit_rates": [
-                  {
-                    "line": 0.5,
-                    "pct": 20,
-                    "n": 10
-                  }
-                ],
-                "values": [
-                  0,
-                  0,
-                  0,
-                  0,
-                  1,
-                  0,
-                  0,
-                  0,
-                  1,
-                  0
-                ],
-                "dates": [
-                  "2026-07-19",
-                  "2026-07-20",
-                  "2026-07-21",
-                  "2026-07-22",
-                  "2026-07-24",
-                  "2026-07-25",
-                  "2026-07-26",
-                  "2026-07-27",
-                  "2026-07-28",
-                  "2026-07-29"
-                ]
-              },
-              {
-                "label": "Walks",
-                "average": 0.3,
-                "primary_line": 0.5,
-                "today_projection": 0.25,
-                "lean": "under",
-                "hit_rates": [
-                  {
-                    "line": 0.5,
-                    "pct": 30,
-                    "n": 10
-                  }
-                ],
-                "values": [
-                  0,
-                  0,
-                  0,
-                  0,
-                  0,
-                  1,
-                  0,
-                  0,
-                  1,
-                  1
-                ],
-                "dates": [
-                  "2026-07-19",
-                  "2026-07-20",
-                  "2026-07-21",
-                  "2026-07-22",
-                  "2026-07-24",
-                  "2026-07-25",
-                  "2026-07-26",
-                  "2026-07-27",
-                  "2026-07-28",
-                  "2026-07-29"
-                ]
-              }
-            ],
-            "best_over": null,
-            "best_under": {
-              "label": "Total Bases",
-              "line": 1.5,
-              "pct": 10,
-              "n": 10,
-              "season_pct": 28,
-              "delta": -18
-            },
-            "best_prop": {
-              "label": "Total Bases",
-              "line": 1.5,
-              "pct": 10,
-              "n": 10,
-              "season_pct": 28,
-              "delta": -18
-            },
-            "best_prop_direction": "under",
-            "matchup_lean": {
-              "label": "Total Bases",
-              "line": 1.5,
-              "direction": "under",
-              "projection": 0.78
-            },
-            "game_result": null
-          },
-          {
             "player_id": 691016,
             "name": "Tyler Soderstrom",
             "bat_side": "L",
             "position": "LF",
-            "batting_order": null,
+            "batting_order": 3,
             "injury": null,
             "l7": {
               "games": 7,
@@ -68793,425 +68379,11 @@
             "game_result": null
           },
           {
-            "player_id": 675961,
-            "name": "Alika Williams",
-            "bat_side": "R",
-            "position": "SS",
-            "batting_order": null,
-            "injury": null,
-            "l7": {
-              "games": 7,
-              "at_bats": 15,
-              "hits": 3,
-              "doubles": 0,
-              "triples": 0,
-              "home_runs": 0,
-              "rbi": 2,
-              "runs": 0,
-              "base_on_balls": 0,
-              "strike_outs": 4,
-              "total_bases": 3,
-              "hit_by_pitch": 0,
-              "stolen_bases": 0,
-              "avg": 0.2,
-              "slg": 0.2,
-              "babip": 0.273,
-              "iso": 0.0
-            },
-            "l15": {
-              "games": 15,
-              "at_bats": 32,
-              "hits": 5,
-              "doubles": 2,
-              "triples": 0,
-              "home_runs": 0,
-              "rbi": 2,
-              "runs": 1,
-              "base_on_balls": 0,
-              "strike_outs": 8,
-              "total_bases": 7,
-              "hit_by_pitch": 1,
-              "stolen_bases": 0,
-              "avg": 0.156,
-              "slg": 0.219,
-              "babip": 0.208,
-              "iso": 0.063
-            },
-            "season": {
-              "games": 129,
-              "at_bats": 293,
-              "hits": 65,
-              "doubles": 18,
-              "triples": 2,
-              "home_runs": 2,
-              "rbi": 21,
-              "runs": 33,
-              "base_on_balls": 15,
-              "strike_outs": 88,
-              "total_bases": 93,
-              "hit_by_pitch": 3,
-              "stolen_bases": 1,
-              "avg": 0.222,
-              "slg": 0.317,
-              "babip": 0.31,
-              "iso": 0.095
-            },
-            "trend": null,
-            "trend_caveat": null,
-            "hit_streak": 0,
-            "splits_vs_opp_hand": {
-              "vs_hand": "vr",
-              "season": {
-                "player_id": 675961,
-                "split_code": "vr",
-                "season": 2026,
-                "games": 27,
-                "plate_appearances": 52,
-                "at_bats": 48,
-                "hits": 11,
-                "doubles": 3,
-                "triples": 0,
-                "home_runs": 1,
-                "rbi": 6,
-                "runs": null,
-                "base_on_balls": 1,
-                "strike_outs": 18,
-                "total_bases": 17,
-                "avg": 0.229,
-                "obp": 0.255,
-                "slg": 0.354,
-                "ops": 0.609
-              },
-              "career": {
-                "player_id": 675961,
-                "split_code": "vr",
-                "season": 0,
-                "games": 87,
-                "plate_appearances": 188,
-                "at_bats": 175,
-                "hits": 40,
-                "doubles": 9,
-                "triples": 0,
-                "home_runs": 1,
-                "rbi": 11,
-                "runs": null,
-                "base_on_balls": 7,
-                "strike_outs": 54,
-                "total_bases": 52,
-                "avg": 0.229,
-                "obp": 0.269,
-                "slg": 0.297,
-                "ops": 0.566
-              }
-            },
-            "matchup": {
-              "platoon": "same-hand",
-              "pitcher_avg_against": 0.242,
-              "pitcher_era_vs_hand": null,
-              "favorable": false,
-              "unfavorable": false,
-              "bullpen_game": false
-            },
-            "home_away": {
-              "this_game": "home",
-              "home": {
-                "games": 24,
-                "at_bats": 60,
-                "hits": 18,
-                "doubles": 8,
-                "triples": 0,
-                "home_runs": 2,
-                "rbi": 4,
-                "runs": 7,
-                "base_on_balls": 2,
-                "strike_outs": 17,
-                "total_bases": 32,
-                "hit_by_pitch": 0,
-                "stolen_bases": 0,
-                "avg": 0.3,
-                "slg": 0.533
-              },
-              "away": {
-                "games": 22,
-                "at_bats": 45,
-                "hits": 9,
-                "doubles": 1,
-                "triples": 0,
-                "home_runs": 0,
-                "rbi": 6,
-                "runs": 6,
-                "base_on_balls": 1,
-                "strike_outs": 14,
-                "total_bases": 10,
-                "hit_by_pitch": 1,
-                "stolen_bases": 0,
-                "avg": 0.2,
-                "slg": 0.222
-              }
-            },
-            "headlines": [],
-            "prop_categories": [
-              {
-                "label": "Hits",
-                "average": 0.5,
-                "primary_line": 0.5,
-                "today_projection": 0.49,
-                "lean": null,
-                "hit_rates": [
-                  {
-                    "line": 0.5,
-                    "pct": 40,
-                    "n": 10
-                  }
-                ],
-                "values": [
-                  0,
-                  2,
-                  0,
-                  1,
-                  0,
-                  1,
-                  0,
-                  1,
-                  0,
-                  0
-                ],
-                "dates": [
-                  "2026-07-17",
-                  "2026-07-19",
-                  "2026-07-20",
-                  "2026-07-21",
-                  "2026-07-22",
-                  "2026-07-24",
-                  "2026-07-26",
-                  "2026-07-27",
-                  "2026-07-28",
-                  "2026-07-29"
-                ]
-              },
-              {
-                "label": "Total Bases",
-                "average": 0.7,
-                "primary_line": 1.5,
-                "today_projection": 0.73,
-                "lean": "under",
-                "hit_rates": [
-                  {
-                    "line": 1.5,
-                    "pct": 10,
-                    "n": 10
-                  }
-                ],
-                "values": [
-                  0,
-                  4,
-                  0,
-                  1,
-                  0,
-                  1,
-                  0,
-                  1,
-                  0,
-                  0
-                ],
-                "dates": [
-                  "2026-07-17",
-                  "2026-07-19",
-                  "2026-07-20",
-                  "2026-07-21",
-                  "2026-07-22",
-                  "2026-07-24",
-                  "2026-07-26",
-                  "2026-07-27",
-                  "2026-07-28",
-                  "2026-07-29"
-                ]
-              },
-              {
-                "label": "Home Runs",
-                "average": 0.0,
-                "primary_line": 0.5,
-                "today_projection": 0.03,
-                "lean": "under",
-                "hit_rates": [
-                  {
-                    "line": 0.5,
-                    "pct": 0,
-                    "n": 10
-                  }
-                ],
-                "values": [
-                  0,
-                  0,
-                  0,
-                  0,
-                  0,
-                  0,
-                  0,
-                  0,
-                  0,
-                  0
-                ],
-                "dates": [
-                  "2026-07-17",
-                  "2026-07-19",
-                  "2026-07-20",
-                  "2026-07-21",
-                  "2026-07-22",
-                  "2026-07-24",
-                  "2026-07-26",
-                  "2026-07-27",
-                  "2026-07-28",
-                  "2026-07-29"
-                ]
-              },
-              {
-                "label": "RBIs",
-                "average": 0.2,
-                "primary_line": 0.5,
-                "today_projection": 0.18,
-                "lean": "under",
-                "hit_rates": [
-                  {
-                    "line": 0.5,
-                    "pct": 20,
-                    "n": 10
-                  }
-                ],
-                "values": [
-                  0,
-                  0,
-                  0,
-                  1,
-                  1,
-                  0,
-                  0,
-                  0,
-                  0,
-                  0
-                ],
-                "dates": [
-                  "2026-07-17",
-                  "2026-07-19",
-                  "2026-07-20",
-                  "2026-07-21",
-                  "2026-07-22",
-                  "2026-07-24",
-                  "2026-07-26",
-                  "2026-07-27",
-                  "2026-07-28",
-                  "2026-07-29"
-                ]
-              },
-              {
-                "label": "Runs Scored",
-                "average": 0.1,
-                "primary_line": 0.5,
-                "today_projection": 0.2,
-                "lean": "under",
-                "hit_rates": [
-                  {
-                    "line": 0.5,
-                    "pct": 10,
-                    "n": 10
-                  }
-                ],
-                "values": [
-                  0,
-                  1,
-                  0,
-                  0,
-                  0,
-                  0,
-                  0,
-                  0,
-                  0,
-                  0
-                ],
-                "dates": [
-                  "2026-07-17",
-                  "2026-07-19",
-                  "2026-07-20",
-                  "2026-07-21",
-                  "2026-07-22",
-                  "2026-07-24",
-                  "2026-07-26",
-                  "2026-07-27",
-                  "2026-07-28",
-                  "2026-07-29"
-                ]
-              },
-              {
-                "label": "Walks",
-                "average": 0.0,
-                "primary_line": 0.5,
-                "today_projection": 0.04,
-                "lean": "under",
-                "hit_rates": [
-                  {
-                    "line": 0.5,
-                    "pct": 0,
-                    "n": 10
-                  }
-                ],
-                "values": [
-                  0,
-                  0,
-                  0,
-                  0,
-                  0,
-                  0,
-                  0,
-                  0,
-                  0,
-                  0
-                ],
-                "dates": [
-                  "2026-07-17",
-                  "2026-07-19",
-                  "2026-07-20",
-                  "2026-07-21",
-                  "2026-07-22",
-                  "2026-07-24",
-                  "2026-07-26",
-                  "2026-07-27",
-                  "2026-07-28",
-                  "2026-07-29"
-                ]
-              }
-            ],
-            "best_over": null,
-            "best_under": {
-              "label": "Runs Scored",
-              "line": 0.5,
-              "pct": 10,
-              "n": 10,
-              "season_pct": 23,
-              "delta": -13
-            },
-            "best_prop": {
-              "label": "Runs Scored",
-              "line": 0.5,
-              "pct": 10,
-              "n": 10,
-              "season_pct": 23,
-              "delta": -13
-            },
-            "best_prop_direction": "under",
-            "matchup_lean": {
-              "label": "Total Bases",
-              "line": 1.5,
-              "direction": "under",
-              "projection": 0.73
-            },
-            "game_result": null
-          },
-          {
             "player_id": 641680,
             "name": "Jonah Heim",
             "bat_side": "S",
             "position": "C",
-            "batting_order": null,
+            "batting_order": 4,
             "injury": null,
             "l7": {
               "games": 7,
@@ -69628,11 +68800,823 @@
             "game_result": null
           },
           {
+            "player_id": 695720,
+            "name": "Tommy White",
+            "bat_side": "R",
+            "position": "3B",
+            "batting_order": 5,
+            "injury": null,
+            "l7": {
+              "games": 7,
+              "at_bats": 28,
+              "hits": 7,
+              "doubles": 1,
+              "triples": 0,
+              "home_runs": 0,
+              "rbi": 0,
+              "runs": 5,
+              "base_on_balls": 1,
+              "strike_outs": 7,
+              "total_bases": 8,
+              "hit_by_pitch": 0,
+              "stolen_bases": 0,
+              "avg": 0.25,
+              "slg": 0.286,
+              "babip": 0.333,
+              "iso": 0.036
+            },
+            "l15": {
+              "games": 11,
+              "at_bats": 44,
+              "hits": 14,
+              "doubles": 2,
+              "triples": 0,
+              "home_runs": 0,
+              "rbi": 0,
+              "runs": 6,
+              "base_on_balls": 2,
+              "strike_outs": 7,
+              "total_bases": 16,
+              "hit_by_pitch": 0,
+              "stolen_bases": 0,
+              "avg": 0.318,
+              "slg": 0.364,
+              "babip": 0.378,
+              "iso": 0.046
+            },
+            "season": {
+              "games": 11,
+              "at_bats": 44,
+              "hits": 14,
+              "doubles": 2,
+              "triples": 0,
+              "home_runs": 0,
+              "rbi": 0,
+              "runs": 6,
+              "base_on_balls": 2,
+              "strike_outs": 7,
+              "total_bases": 16,
+              "hit_by_pitch": 0,
+              "stolen_bases": 0,
+              "avg": 0.318,
+              "slg": 0.364,
+              "babip": 0.378,
+              "iso": 0.046
+            },
+            "trend": null,
+            "trend_caveat": null,
+            "hit_streak": 0,
+            "splits_vs_opp_hand": {
+              "vs_hand": "vr",
+              "season": {
+                "player_id": 695720,
+                "split_code": "vr",
+                "season": 2026,
+                "games": 10,
+                "plate_appearances": 24,
+                "at_bats": 23,
+                "hits": 8,
+                "doubles": 2,
+                "triples": 0,
+                "home_runs": 0,
+                "rbi": 0,
+                "runs": null,
+                "base_on_balls": 1,
+                "strike_outs": 2,
+                "total_bases": 10,
+                "avg": 0.348,
+                "obp": 0.375,
+                "slg": 0.435,
+                "ops": 0.81
+              },
+              "career": {
+                "player_id": 695720,
+                "split_code": "vr",
+                "season": 0,
+                "games": 10,
+                "plate_appearances": 24,
+                "at_bats": 23,
+                "hits": 8,
+                "doubles": 2,
+                "triples": 0,
+                "home_runs": 0,
+                "rbi": 0,
+                "runs": null,
+                "base_on_balls": 1,
+                "strike_outs": 2,
+                "total_bases": 10,
+                "avg": 0.348,
+                "obp": 0.375,
+                "slg": 0.435,
+                "ops": 0.81
+              }
+            },
+            "matchup": {
+              "platoon": "same-hand",
+              "pitcher_avg_against": 0.242,
+              "pitcher_era_vs_hand": null,
+              "favorable": false,
+              "unfavorable": false,
+              "bullpen_game": false
+            },
+            "home_away": {
+              "this_game": "home",
+              "home": {
+                "games": 5,
+                "at_bats": 19,
+                "hits": 5,
+                "doubles": 1,
+                "triples": 0,
+                "home_runs": 0,
+                "rbi": 0,
+                "runs": 2,
+                "base_on_balls": 1,
+                "strike_outs": 5,
+                "total_bases": 6,
+                "hit_by_pitch": 0,
+                "stolen_bases": 0,
+                "avg": 0.263,
+                "slg": 0.316
+              },
+              "away": {
+                "games": 6,
+                "at_bats": 25,
+                "hits": 9,
+                "doubles": 1,
+                "triples": 0,
+                "home_runs": 0,
+                "rbi": 0,
+                "runs": 4,
+                "base_on_balls": 1,
+                "strike_outs": 2,
+                "total_bases": 10,
+                "hit_by_pitch": 0,
+                "stolen_bases": 0,
+                "avg": 0.36,
+                "slg": 0.4
+              }
+            },
+            "headlines": [],
+            "prop_categories": [
+              {
+                "label": "Hits",
+                "average": 1.3,
+                "primary_line": 1.5,
+                "today_projection": 1.27,
+                "lean": "under",
+                "hit_rates": [
+                  {
+                    "line": 1.5,
+                    "pct": 40,
+                    "n": 10
+                  }
+                ],
+                "values": [
+                  0,
+                  4,
+                  2,
+                  0,
+                  1,
+                  0,
+                  2,
+                  0,
+                  4,
+                  0
+                ],
+                "dates": [
+                  "2026-07-19",
+                  "2026-07-20",
+                  "2026-07-21",
+                  "2026-07-22",
+                  "2026-07-24",
+                  "2026-07-25",
+                  "2026-07-26",
+                  "2026-07-27",
+                  "2026-07-28",
+                  "2026-07-29"
+                ]
+              },
+              {
+                "label": "Total Bases",
+                "average": 1.4,
+                "primary_line": 1.5,
+                "today_projection": 1.45,
+                "lean": null,
+                "hit_rates": [
+                  {
+                    "line": 1.5,
+                    "pct": 50,
+                    "n": 10
+                  }
+                ],
+                "values": [
+                  0,
+                  4,
+                  2,
+                  0,
+                  2,
+                  0,
+                  2,
+                  0,
+                  4,
+                  0
+                ],
+                "dates": [
+                  "2026-07-19",
+                  "2026-07-20",
+                  "2026-07-21",
+                  "2026-07-22",
+                  "2026-07-24",
+                  "2026-07-25",
+                  "2026-07-26",
+                  "2026-07-27",
+                  "2026-07-28",
+                  "2026-07-29"
+                ]
+              },
+              {
+                "label": "Home Runs",
+                "average": 0.0,
+                "primary_line": 0.5,
+                "today_projection": 0.0,
+                "lean": "under",
+                "hit_rates": [
+                  {
+                    "line": 0.5,
+                    "pct": 0,
+                    "n": 10
+                  }
+                ],
+                "values": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "dates": [
+                  "2026-07-19",
+                  "2026-07-20",
+                  "2026-07-21",
+                  "2026-07-22",
+                  "2026-07-24",
+                  "2026-07-25",
+                  "2026-07-26",
+                  "2026-07-27",
+                  "2026-07-28",
+                  "2026-07-29"
+                ]
+              },
+              {
+                "label": "RBIs",
+                "average": 0.0,
+                "primary_line": 0.5,
+                "today_projection": 0.0,
+                "lean": "under",
+                "hit_rates": [
+                  {
+                    "line": 0.5,
+                    "pct": 0,
+                    "n": 10
+                  }
+                ],
+                "values": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "dates": [
+                  "2026-07-19",
+                  "2026-07-20",
+                  "2026-07-21",
+                  "2026-07-22",
+                  "2026-07-24",
+                  "2026-07-25",
+                  "2026-07-26",
+                  "2026-07-27",
+                  "2026-07-28",
+                  "2026-07-29"
+                ]
+              },
+              {
+                "label": "Runs Scored",
+                "average": 0.6,
+                "primary_line": 0.5,
+                "today_projection": 0.55,
+                "lean": null,
+                "hit_rates": [
+                  {
+                    "line": 0.5,
+                    "pct": 40,
+                    "n": 10
+                  }
+                ],
+                "values": [
+                  0,
+                  1,
+                  0,
+                  1,
+                  0,
+                  0,
+                  2,
+                  0,
+                  2,
+                  0
+                ],
+                "dates": [
+                  "2026-07-19",
+                  "2026-07-20",
+                  "2026-07-21",
+                  "2026-07-22",
+                  "2026-07-24",
+                  "2026-07-25",
+                  "2026-07-26",
+                  "2026-07-27",
+                  "2026-07-28",
+                  "2026-07-29"
+                ]
+              },
+              {
+                "label": "Walks",
+                "average": 0.2,
+                "primary_line": 0.5,
+                "today_projection": 0.18,
+                "lean": "under",
+                "hit_rates": [
+                  {
+                    "line": 0.5,
+                    "pct": 20,
+                    "n": 10
+                  }
+                ],
+                "values": [
+                  1,
+                  0,
+                  0,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "dates": [
+                  "2026-07-19",
+                  "2026-07-20",
+                  "2026-07-21",
+                  "2026-07-22",
+                  "2026-07-24",
+                  "2026-07-25",
+                  "2026-07-26",
+                  "2026-07-27",
+                  "2026-07-28",
+                  "2026-07-29"
+                ]
+              }
+            ],
+            "best_over": null,
+            "best_under": null,
+            "best_prop": {
+              "label": "Hits",
+              "line": 1.5,
+              "pct": 40,
+              "n": 10,
+              "season_pct": 36
+            },
+            "best_prop_direction": "over",
+            "matchup_lean": {
+              "label": "RBIs",
+              "line": 0.5,
+              "direction": "under",
+              "projection": 0.0
+            },
+            "game_result": null
+          },
+          {
+            "player_id": 671732,
+            "name": "Lawrence Butler",
+            "bat_side": "L",
+            "position": "CF",
+            "batting_order": 6,
+            "injury": null,
+            "l7": {
+              "games": 7,
+              "at_bats": 13,
+              "hits": 4,
+              "doubles": 2,
+              "triples": 0,
+              "home_runs": 1,
+              "rbi": 4,
+              "runs": 2,
+              "base_on_balls": 5,
+              "strike_outs": 2,
+              "total_bases": 9,
+              "hit_by_pitch": 0,
+              "stolen_bases": 0,
+              "avg": 0.308,
+              "slg": 0.692,
+              "babip": 0.3,
+              "iso": 0.384
+            },
+            "l15": {
+              "games": 15,
+              "at_bats": 38,
+              "hits": 9,
+              "doubles": 2,
+              "triples": 1,
+              "home_runs": 1,
+              "rbi": 5,
+              "runs": 5,
+              "base_on_balls": 9,
+              "strike_outs": 11,
+              "total_bases": 16,
+              "hit_by_pitch": 0,
+              "stolen_bases": 0,
+              "avg": 0.237,
+              "slg": 0.421,
+              "babip": 0.308,
+              "iso": 0.184
+            },
+            "season": {
+              "games": 162,
+              "at_bats": 481,
+              "hits": 98,
+              "doubles": 17,
+              "triples": 1,
+              "home_runs": 14,
+              "rbi": 51,
+              "runs": 65,
+              "base_on_balls": 61,
+              "strike_outs": 152,
+              "total_bases": 159,
+              "hit_by_pitch": 1,
+              "stolen_bases": 14,
+              "avg": 0.204,
+              "slg": 0.331,
+              "babip": 0.267,
+              "iso": 0.127
+            },
+            "trend": "hot",
+            "trend_caveat": null,
+            "hit_streak": 2,
+            "splits_vs_opp_hand": {
+              "vs_hand": "vr",
+              "season": {
+                "player_id": 671732,
+                "split_code": "vr",
+                "season": 2026,
+                "games": 89,
+                "plate_appearances": 241,
+                "at_bats": 210,
+                "hits": 42,
+                "doubles": 9,
+                "triples": 0,
+                "home_runs": 5,
+                "rbi": 23,
+                "runs": null,
+                "base_on_balls": 30,
+                "strike_outs": 62,
+                "total_bases": 66,
+                "avg": 0.2,
+                "obp": 0.299,
+                "slg": 0.314,
+                "ops": 0.613
+              },
+              "career": {
+                "player_id": 671732,
+                "split_code": "vr",
+                "season": 0,
+                "games": 387,
+                "plate_appearances": 1217,
+                "at_bats": 1090,
+                "hits": 258,
+                "doubles": 58,
+                "triples": 3,
+                "home_runs": 43,
+                "rbi": 135,
+                "runs": null,
+                "base_on_balls": 118,
+                "strike_outs": 306,
+                "total_bases": 451,
+                "avg": 0.237,
+                "obp": 0.31,
+                "slg": 0.414,
+                "ops": 0.724
+              }
+            },
+            "matchup": {
+              "platoon": "opposite-hand",
+              "pitcher_avg_against": 0.241,
+              "pitcher_era_vs_hand": null,
+              "favorable": false,
+              "unfavorable": false,
+              "bullpen_game": false
+            },
+            "home_away": {
+              "this_game": "home",
+              "home": {
+                "games": 50,
+                "at_bats": 137,
+                "hits": 31,
+                "doubles": 8,
+                "triples": 0,
+                "home_runs": 6,
+                "rbi": 20,
+                "runs": 23,
+                "base_on_balls": 17,
+                "strike_outs": 41,
+                "total_bases": 57,
+                "hit_by_pitch": 0,
+                "stolen_bases": 3,
+                "avg": 0.226,
+                "slg": 0.416
+              },
+              "away": {
+                "games": 50,
+                "at_bats": 132,
+                "hits": 24,
+                "doubles": 3,
+                "triples": 1,
+                "home_runs": 0,
+                "rbi": 7,
+                "runs": 13,
+                "base_on_balls": 22,
+                "strike_outs": 40,
+                "total_bases": 29,
+                "hit_by_pitch": 1,
+                "stolen_bases": 3,
+                "avg": 0.182,
+                "slg": 0.22
+              }
+            },
+            "headlines": [],
+            "prop_categories": [
+              {
+                "label": "Hits",
+                "average": 0.7,
+                "primary_line": 0.5,
+                "today_projection": 0.57,
+                "lean": null,
+                "hit_rates": [
+                  {
+                    "line": 0.5,
+                    "pct": 50,
+                    "n": 10
+                  }
+                ],
+                "values": [
+                  0,
+                  2,
+                  1,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  2
+                ],
+                "dates": [
+                  "2026-07-19",
+                  "2026-07-20",
+                  "2026-07-21",
+                  "2026-07-22",
+                  "2026-07-24",
+                  "2026-07-25",
+                  "2026-07-26",
+                  "2026-07-27",
+                  "2026-07-28",
+                  "2026-07-29"
+                ]
+              },
+              {
+                "label": "Total Bases",
+                "average": 1.4,
+                "primary_line": 1.5,
+                "today_projection": 0.94,
+                "lean": "under",
+                "hit_rates": [
+                  {
+                    "line": 1.5,
+                    "pct": 40,
+                    "n": 10
+                  }
+                ],
+                "values": [
+                  0,
+                  2,
+                  3,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  2,
+                  6
+                ],
+                "dates": [
+                  "2026-07-19",
+                  "2026-07-20",
+                  "2026-07-21",
+                  "2026-07-22",
+                  "2026-07-24",
+                  "2026-07-25",
+                  "2026-07-26",
+                  "2026-07-27",
+                  "2026-07-28",
+                  "2026-07-29"
+                ]
+              },
+              {
+                "label": "Home Runs",
+                "average": 0.1,
+                "primary_line": 0.5,
+                "today_projection": 0.06,
+                "lean": "under",
+                "hit_rates": [
+                  {
+                    "line": 0.5,
+                    "pct": 10,
+                    "n": 10
+                  }
+                ],
+                "values": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "dates": [
+                  "2026-07-19",
+                  "2026-07-20",
+                  "2026-07-21",
+                  "2026-07-22",
+                  "2026-07-24",
+                  "2026-07-25",
+                  "2026-07-26",
+                  "2026-07-27",
+                  "2026-07-28",
+                  "2026-07-29"
+                ]
+              },
+              {
+                "label": "RBIs",
+                "average": 0.4,
+                "primary_line": 0.5,
+                "today_projection": 0.3,
+                "lean": "under",
+                "hit_rates": [
+                  {
+                    "line": 0.5,
+                    "pct": 40,
+                    "n": 10
+                  }
+                ],
+                "values": [
+                  0,
+                  0,
+                  0,
+                  1,
+                  1,
+                  0,
+                  0,
+                  0,
+                  1,
+                  1
+                ],
+                "dates": [
+                  "2026-07-19",
+                  "2026-07-20",
+                  "2026-07-21",
+                  "2026-07-22",
+                  "2026-07-24",
+                  "2026-07-25",
+                  "2026-07-26",
+                  "2026-07-27",
+                  "2026-07-28",
+                  "2026-07-29"
+                ]
+              },
+              {
+                "label": "Runs Scored",
+                "average": 0.4,
+                "primary_line": 0.5,
+                "today_projection": 0.35,
+                "lean": "under",
+                "hit_rates": [
+                  {
+                    "line": 0.5,
+                    "pct": 40,
+                    "n": 10
+                  }
+                ],
+                "values": [
+                  0,
+                  1,
+                  1,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  0,
+                  1
+                ],
+                "dates": [
+                  "2026-07-19",
+                  "2026-07-20",
+                  "2026-07-21",
+                  "2026-07-22",
+                  "2026-07-24",
+                  "2026-07-25",
+                  "2026-07-26",
+                  "2026-07-27",
+                  "2026-07-28",
+                  "2026-07-29"
+                ]
+              },
+              {
+                "label": "Walks",
+                "average": 0.5,
+                "primary_line": 0.5,
+                "today_projection": 0.47,
+                "lean": null,
+                "hit_rates": [
+                  {
+                    "line": 0.5,
+                    "pct": 40,
+                    "n": 10
+                  }
+                ],
+                "values": [
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  2,
+                  1,
+                  0,
+                  0,
+                  1
+                ],
+                "dates": [
+                  "2026-07-19",
+                  "2026-07-20",
+                  "2026-07-21",
+                  "2026-07-22",
+                  "2026-07-24",
+                  "2026-07-25",
+                  "2026-07-26",
+                  "2026-07-27",
+                  "2026-07-28",
+                  "2026-07-29"
+                ]
+              }
+            ],
+            "best_over": null,
+            "best_under": null,
+            "best_prop": {
+              "label": "Hits",
+              "line": 0.5,
+              "pct": 50,
+              "n": 10,
+              "season_pct": 50
+            },
+            "best_prop_direction": "over",
+            "matchup_lean": {
+              "label": "Total Bases",
+              "line": 1.5,
+              "direction": "under",
+              "projection": 0.94
+            },
+            "game_result": null
+          },
+          {
             "player_id": 643446,
             "name": "Jeff McNeil",
             "bat_side": "L",
             "position": "2B",
-            "batting_order": null,
+            "batting_order": 7,
             "injury": null,
             "l7": {
               "games": 7,
@@ -70049,417 +70033,11 @@
             "game_result": null
           },
           {
-            "player_id": 695720,
-            "name": "Tommy White",
-            "bat_side": "R",
-            "position": "3B",
-            "batting_order": null,
-            "injury": null,
-            "l7": {
-              "games": 7,
-              "at_bats": 28,
-              "hits": 7,
-              "doubles": 1,
-              "triples": 0,
-              "home_runs": 0,
-              "rbi": 0,
-              "runs": 5,
-              "base_on_balls": 1,
-              "strike_outs": 7,
-              "total_bases": 8,
-              "hit_by_pitch": 0,
-              "stolen_bases": 0,
-              "avg": 0.25,
-              "slg": 0.286,
-              "babip": 0.333,
-              "iso": 0.036
-            },
-            "l15": {
-              "games": 11,
-              "at_bats": 44,
-              "hits": 14,
-              "doubles": 2,
-              "triples": 0,
-              "home_runs": 0,
-              "rbi": 0,
-              "runs": 6,
-              "base_on_balls": 2,
-              "strike_outs": 7,
-              "total_bases": 16,
-              "hit_by_pitch": 0,
-              "stolen_bases": 0,
-              "avg": 0.318,
-              "slg": 0.364,
-              "babip": 0.378,
-              "iso": 0.046
-            },
-            "season": {
-              "games": 11,
-              "at_bats": 44,
-              "hits": 14,
-              "doubles": 2,
-              "triples": 0,
-              "home_runs": 0,
-              "rbi": 0,
-              "runs": 6,
-              "base_on_balls": 2,
-              "strike_outs": 7,
-              "total_bases": 16,
-              "hit_by_pitch": 0,
-              "stolen_bases": 0,
-              "avg": 0.318,
-              "slg": 0.364,
-              "babip": 0.378,
-              "iso": 0.046
-            },
-            "trend": null,
-            "trend_caveat": null,
-            "hit_streak": 0,
-            "splits_vs_opp_hand": {
-              "vs_hand": "vr",
-              "season": {
-                "player_id": 695720,
-                "split_code": "vr",
-                "season": 2026,
-                "games": 10,
-                "plate_appearances": 24,
-                "at_bats": 23,
-                "hits": 8,
-                "doubles": 2,
-                "triples": 0,
-                "home_runs": 0,
-                "rbi": 0,
-                "runs": null,
-                "base_on_balls": 1,
-                "strike_outs": 2,
-                "total_bases": 10,
-                "avg": 0.348,
-                "obp": 0.375,
-                "slg": 0.435,
-                "ops": 0.81
-              },
-              "career": {
-                "player_id": 695720,
-                "split_code": "vr",
-                "season": 0,
-                "games": 10,
-                "plate_appearances": 24,
-                "at_bats": 23,
-                "hits": 8,
-                "doubles": 2,
-                "triples": 0,
-                "home_runs": 0,
-                "rbi": 0,
-                "runs": null,
-                "base_on_balls": 1,
-                "strike_outs": 2,
-                "total_bases": 10,
-                "avg": 0.348,
-                "obp": 0.375,
-                "slg": 0.435,
-                "ops": 0.81
-              }
-            },
-            "matchup": {
-              "platoon": "same-hand",
-              "pitcher_avg_against": 0.242,
-              "pitcher_era_vs_hand": null,
-              "favorable": false,
-              "unfavorable": false,
-              "bullpen_game": false
-            },
-            "home_away": {
-              "this_game": "home",
-              "home": {
-                "games": 5,
-                "at_bats": 19,
-                "hits": 5,
-                "doubles": 1,
-                "triples": 0,
-                "home_runs": 0,
-                "rbi": 0,
-                "runs": 2,
-                "base_on_balls": 1,
-                "strike_outs": 5,
-                "total_bases": 6,
-                "hit_by_pitch": 0,
-                "stolen_bases": 0,
-                "avg": 0.263,
-                "slg": 0.316
-              },
-              "away": {
-                "games": 6,
-                "at_bats": 25,
-                "hits": 9,
-                "doubles": 1,
-                "triples": 0,
-                "home_runs": 0,
-                "rbi": 0,
-                "runs": 4,
-                "base_on_balls": 1,
-                "strike_outs": 2,
-                "total_bases": 10,
-                "hit_by_pitch": 0,
-                "stolen_bases": 0,
-                "avg": 0.36,
-                "slg": 0.4
-              }
-            },
-            "headlines": [],
-            "prop_categories": [
-              {
-                "label": "Hits",
-                "average": 1.3,
-                "primary_line": 1.5,
-                "today_projection": 1.27,
-                "lean": "under",
-                "hit_rates": [
-                  {
-                    "line": 1.5,
-                    "pct": 40,
-                    "n": 10
-                  }
-                ],
-                "values": [
-                  0,
-                  4,
-                  2,
-                  0,
-                  1,
-                  0,
-                  2,
-                  0,
-                  4,
-                  0
-                ],
-                "dates": [
-                  "2026-07-19",
-                  "2026-07-20",
-                  "2026-07-21",
-                  "2026-07-22",
-                  "2026-07-24",
-                  "2026-07-25",
-                  "2026-07-26",
-                  "2026-07-27",
-                  "2026-07-28",
-                  "2026-07-29"
-                ]
-              },
-              {
-                "label": "Total Bases",
-                "average": 1.4,
-                "primary_line": 1.5,
-                "today_projection": 1.45,
-                "lean": null,
-                "hit_rates": [
-                  {
-                    "line": 1.5,
-                    "pct": 50,
-                    "n": 10
-                  }
-                ],
-                "values": [
-                  0,
-                  4,
-                  2,
-                  0,
-                  2,
-                  0,
-                  2,
-                  0,
-                  4,
-                  0
-                ],
-                "dates": [
-                  "2026-07-19",
-                  "2026-07-20",
-                  "2026-07-21",
-                  "2026-07-22",
-                  "2026-07-24",
-                  "2026-07-25",
-                  "2026-07-26",
-                  "2026-07-27",
-                  "2026-07-28",
-                  "2026-07-29"
-                ]
-              },
-              {
-                "label": "Home Runs",
-                "average": 0.0,
-                "primary_line": 0.5,
-                "today_projection": 0.0,
-                "lean": "under",
-                "hit_rates": [
-                  {
-                    "line": 0.5,
-                    "pct": 0,
-                    "n": 10
-                  }
-                ],
-                "values": [
-                  0,
-                  0,
-                  0,
-                  0,
-                  0,
-                  0,
-                  0,
-                  0,
-                  0,
-                  0
-                ],
-                "dates": [
-                  "2026-07-19",
-                  "2026-07-20",
-                  "2026-07-21",
-                  "2026-07-22",
-                  "2026-07-24",
-                  "2026-07-25",
-                  "2026-07-26",
-                  "2026-07-27",
-                  "2026-07-28",
-                  "2026-07-29"
-                ]
-              },
-              {
-                "label": "RBIs",
-                "average": 0.0,
-                "primary_line": 0.5,
-                "today_projection": 0.0,
-                "lean": "under",
-                "hit_rates": [
-                  {
-                    "line": 0.5,
-                    "pct": 0,
-                    "n": 10
-                  }
-                ],
-                "values": [
-                  0,
-                  0,
-                  0,
-                  0,
-                  0,
-                  0,
-                  0,
-                  0,
-                  0,
-                  0
-                ],
-                "dates": [
-                  "2026-07-19",
-                  "2026-07-20",
-                  "2026-07-21",
-                  "2026-07-22",
-                  "2026-07-24",
-                  "2026-07-25",
-                  "2026-07-26",
-                  "2026-07-27",
-                  "2026-07-28",
-                  "2026-07-29"
-                ]
-              },
-              {
-                "label": "Runs Scored",
-                "average": 0.6,
-                "primary_line": 0.5,
-                "today_projection": 0.55,
-                "lean": null,
-                "hit_rates": [
-                  {
-                    "line": 0.5,
-                    "pct": 40,
-                    "n": 10
-                  }
-                ],
-                "values": [
-                  0,
-                  1,
-                  0,
-                  1,
-                  0,
-                  0,
-                  2,
-                  0,
-                  2,
-                  0
-                ],
-                "dates": [
-                  "2026-07-19",
-                  "2026-07-20",
-                  "2026-07-21",
-                  "2026-07-22",
-                  "2026-07-24",
-                  "2026-07-25",
-                  "2026-07-26",
-                  "2026-07-27",
-                  "2026-07-28",
-                  "2026-07-29"
-                ]
-              },
-              {
-                "label": "Walks",
-                "average": 0.2,
-                "primary_line": 0.5,
-                "today_projection": 0.18,
-                "lean": "under",
-                "hit_rates": [
-                  {
-                    "line": 0.5,
-                    "pct": 20,
-                    "n": 10
-                  }
-                ],
-                "values": [
-                  1,
-                  0,
-                  0,
-                  1,
-                  0,
-                  0,
-                  0,
-                  0,
-                  0,
-                  0
-                ],
-                "dates": [
-                  "2026-07-19",
-                  "2026-07-20",
-                  "2026-07-21",
-                  "2026-07-22",
-                  "2026-07-24",
-                  "2026-07-25",
-                  "2026-07-26",
-                  "2026-07-27",
-                  "2026-07-28",
-                  "2026-07-29"
-                ]
-              }
-            ],
-            "best_over": null,
-            "best_under": null,
-            "best_prop": {
-              "label": "Hits",
-              "line": 1.5,
-              "pct": 40,
-              "n": 10,
-              "season_pct": 36
-            },
-            "best_prop_direction": "over",
-            "matchup_lean": {
-              "label": "RBIs",
-              "line": 0.5,
-              "direction": "under",
-              "projection": 0.0
-            },
-            "game_result": null
-          },
-          {
             "player_id": 666126,
             "name": "Carlos Cortes",
             "bat_side": "L",
             "position": "RF",
-            "batting_order": null,
+            "batting_order": 8,
             "injury": null,
             "l7": {
               "games": 7,
@@ -70865,6 +70443,420 @@
               "line": 1.5,
               "direction": "under",
               "projection": 1.13
+            },
+            "game_result": null
+          },
+          {
+            "player_id": 622268,
+            "name": "Donovan Walton",
+            "bat_side": "L",
+            "position": "SS",
+            "batting_order": 9,
+            "injury": null,
+            "l7": {
+              "games": 7,
+              "at_bats": 11,
+              "hits": 3,
+              "doubles": 1,
+              "triples": 1,
+              "home_runs": 0,
+              "rbi": 1,
+              "runs": 4,
+              "base_on_balls": 4,
+              "strike_outs": 2,
+              "total_bases": 6,
+              "hit_by_pitch": 0,
+              "stolen_bases": 0,
+              "avg": 0.273,
+              "slg": 0.545,
+              "babip": 0.333,
+              "iso": 0.272
+            },
+            "l15": {
+              "games": 15,
+              "at_bats": 24,
+              "hits": 5,
+              "doubles": 2,
+              "triples": 1,
+              "home_runs": 0,
+              "rbi": 1,
+              "runs": 7,
+              "base_on_balls": 10,
+              "strike_outs": 6,
+              "total_bases": 9,
+              "hit_by_pitch": 1,
+              "stolen_bases": 0,
+              "avg": 0.208,
+              "slg": 0.375,
+              "babip": 0.278,
+              "iso": 0.167
+            },
+            "season": {
+              "games": 115,
+              "at_bats": 307,
+              "hits": 66,
+              "doubles": 20,
+              "triples": 2,
+              "home_runs": 7,
+              "rbi": 36,
+              "runs": 41,
+              "base_on_balls": 24,
+              "strike_outs": 72,
+              "total_bases": 111,
+              "hit_by_pitch": 3,
+              "stolen_bases": 1,
+              "avg": 0.215,
+              "slg": 0.362,
+              "babip": 0.259,
+              "iso": 0.147
+            },
+            "trend": null,
+            "trend_caveat": null,
+            "hit_streak": 0,
+            "splits_vs_opp_hand": {
+              "vs_hand": "vr",
+              "season": {
+                "player_id": 622268,
+                "split_code": "vr",
+                "season": 2026,
+                "games": 37,
+                "plate_appearances": 111,
+                "at_bats": 97,
+                "hits": 30,
+                "doubles": 9,
+                "triples": 1,
+                "home_runs": 2,
+                "rbi": 12,
+                "runs": null,
+                "base_on_balls": 13,
+                "strike_outs": 21,
+                "total_bases": 47,
+                "avg": 0.309,
+                "obp": 0.396,
+                "slg": 0.485,
+                "ops": 0.881
+              },
+              "career": {
+                "player_id": 622268,
+                "split_code": "vr",
+                "season": 0,
+                "games": 99,
+                "plate_appearances": 280,
+                "at_bats": 252,
+                "hits": 55,
+                "doubles": 16,
+                "triples": 2,
+                "home_runs": 3,
+                "rbi": 27,
+                "runs": null,
+                "base_on_balls": 22,
+                "strike_outs": 64,
+                "total_bases": 84,
+                "avg": 0.218,
+                "obp": 0.289,
+                "slg": 0.333,
+                "ops": 0.622
+              }
+            },
+            "matchup": {
+              "platoon": "opposite-hand",
+              "pitcher_avg_against": 0.241,
+              "pitcher_era_vs_hand": null,
+              "favorable": false,
+              "unfavorable": false,
+              "bullpen_game": false
+            },
+            "home_away": {
+              "this_game": "home",
+              "home": {
+                "games": 23,
+                "at_bats": 53,
+                "hits": 13,
+                "doubles": 4,
+                "triples": 0,
+                "home_runs": 1,
+                "rbi": 4,
+                "runs": 9,
+                "base_on_balls": 8,
+                "strike_outs": 13,
+                "total_bases": 20,
+                "hit_by_pitch": 1,
+                "stolen_bases": 0,
+                "avg": 0.245,
+                "slg": 0.377
+              },
+              "away": {
+                "games": 20,
+                "at_bats": 56,
+                "hits": 19,
+                "doubles": 5,
+                "triples": 1,
+                "home_runs": 2,
+                "rbi": 9,
+                "runs": 11,
+                "base_on_balls": 5,
+                "strike_outs": 10,
+                "total_bases": 32,
+                "hit_by_pitch": 0,
+                "stolen_bases": 0,
+                "avg": 0.339,
+                "slg": 0.571
+              }
+            },
+            "headlines": [],
+            "prop_categories": [
+              {
+                "label": "Hits",
+                "average": 0.3,
+                "primary_line": 0.5,
+                "today_projection": 0.58,
+                "lean": null,
+                "hit_rates": [
+                  {
+                    "line": 0.5,
+                    "pct": 30,
+                    "n": 10
+                  }
+                ],
+                "values": [
+                  0,
+                  0,
+                  0,
+                  1,
+                  1,
+                  0,
+                  0,
+                  1,
+                  0,
+                  0
+                ],
+                "dates": [
+                  "2026-07-18",
+                  "2026-07-19",
+                  "2026-07-20",
+                  "2026-07-21",
+                  "2026-07-22",
+                  "2026-07-24",
+                  "2026-07-25",
+                  "2026-07-26",
+                  "2026-07-27",
+                  "2026-07-29"
+                ]
+              },
+              {
+                "label": "Total Bases",
+                "average": 0.6,
+                "primary_line": 1.5,
+                "today_projection": 0.97,
+                "lean": "under",
+                "hit_rates": [
+                  {
+                    "line": 1.5,
+                    "pct": 20,
+                    "n": 10
+                  }
+                ],
+                "values": [
+                  0,
+                  0,
+                  0,
+                  3,
+                  2,
+                  0,
+                  0,
+                  1,
+                  0,
+                  0
+                ],
+                "dates": [
+                  "2026-07-18",
+                  "2026-07-19",
+                  "2026-07-20",
+                  "2026-07-21",
+                  "2026-07-22",
+                  "2026-07-24",
+                  "2026-07-25",
+                  "2026-07-26",
+                  "2026-07-27",
+                  "2026-07-29"
+                ]
+              },
+              {
+                "label": "Home Runs",
+                "average": 0.0,
+                "primary_line": 0.5,
+                "today_projection": 0.04,
+                "lean": "under",
+                "hit_rates": [
+                  {
+                    "line": 0.5,
+                    "pct": 0,
+                    "n": 10
+                  }
+                ],
+                "values": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "dates": [
+                  "2026-07-18",
+                  "2026-07-19",
+                  "2026-07-20",
+                  "2026-07-21",
+                  "2026-07-22",
+                  "2026-07-24",
+                  "2026-07-25",
+                  "2026-07-26",
+                  "2026-07-27",
+                  "2026-07-29"
+                ]
+              },
+              {
+                "label": "RBIs",
+                "average": 0.1,
+                "primary_line": 0.5,
+                "today_projection": 0.21,
+                "lean": "under",
+                "hit_rates": [
+                  {
+                    "line": 0.5,
+                    "pct": 10,
+                    "n": 10
+                  }
+                ],
+                "values": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  0
+                ],
+                "dates": [
+                  "2026-07-18",
+                  "2026-07-19",
+                  "2026-07-20",
+                  "2026-07-21",
+                  "2026-07-22",
+                  "2026-07-24",
+                  "2026-07-25",
+                  "2026-07-26",
+                  "2026-07-27",
+                  "2026-07-29"
+                ]
+              },
+              {
+                "label": "Runs Scored",
+                "average": 0.6,
+                "primary_line": 0.5,
+                "today_projection": 0.47,
+                "lean": null,
+                "hit_rates": [
+                  {
+                    "line": 0.5,
+                    "pct": 50,
+                    "n": 10
+                  }
+                ],
+                "values": [
+                  2,
+                  0,
+                  0,
+                  1,
+                  1,
+                  1,
+                  0,
+                  1,
+                  0,
+                  0
+                ],
+                "dates": [
+                  "2026-07-18",
+                  "2026-07-19",
+                  "2026-07-20",
+                  "2026-07-21",
+                  "2026-07-22",
+                  "2026-07-24",
+                  "2026-07-25",
+                  "2026-07-26",
+                  "2026-07-27",
+                  "2026-07-29"
+                ]
+              },
+              {
+                "label": "Walks",
+                "average": 0.7,
+                "primary_line": 0.5,
+                "today_projection": 0.45,
+                "lean": null,
+                "hit_rates": [
+                  {
+                    "line": 0.5,
+                    "pct": 50,
+                    "n": 10
+                  }
+                ],
+                "values": [
+                  3,
+                  0,
+                  0,
+                  1,
+                  1,
+                  1,
+                  0,
+                  1,
+                  0,
+                  0
+                ],
+                "dates": [
+                  "2026-07-18",
+                  "2026-07-19",
+                  "2026-07-20",
+                  "2026-07-21",
+                  "2026-07-22",
+                  "2026-07-24",
+                  "2026-07-25",
+                  "2026-07-26",
+                  "2026-07-27",
+                  "2026-07-29"
+                ]
+              }
+            ],
+            "best_over": null,
+            "best_under": {
+              "label": "RBIs",
+              "line": 0.5,
+              "pct": 10,
+              "n": 10,
+              "season_pct": 18,
+              "delta": -8
+            },
+            "best_prop": {
+              "label": "RBIs",
+              "line": 0.5,
+              "pct": 10,
+              "n": 10,
+              "season_pct": 18,
+              "delta": -8
+            },
+            "best_prop_direction": "under",
+            "matchup_lean": {
+              "label": "Total Bases",
+              "line": 1.5,
+              "direction": "under",
+              "projection": 0.97
             },
             "game_result": null
           }
@@ -75017,22 +75009,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 823921,
-        "generated_at": "2026-07-30T22:46:24.278047+00:00",
+        "generated_at": "2026-07-30T23:43:49.858427+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.33,
         "away_exp_runs": 3.97,
         "home_win_prob": 0.532,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.377,
+        "spread_cover_prob": 0.376,
         "total_line": 7.5,
-        "over_prob": 0.522,
+        "over_prob": 0.521,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.623,
+        "spread_pick_prob": 0.624,
         "total_pick": "over",
-        "total_pick_prob": 0.522,
+        "total_pick_prob": 0.521,
         "spread_favorite": "home"
       },
       "home": {
@@ -83252,22 +83244,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 824651,
-        "generated_at": "2026-07-30T22:46:24.278047+00:00",
+        "generated_at": "2026-07-30T23:43:49.858427+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.64,
         "away_exp_runs": 3.83,
         "home_win_prob": 0.57,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.415,
+        "spread_cover_prob": 0.416,
         "total_line": 7.5,
-        "over_prob": 0.536,
+        "over_prob": 0.535,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.585,
+        "spread_pick_prob": 0.584,
         "total_pick": "over",
-        "total_pick_prob": 0.536,
+        "total_pick_prob": 0.535,
         "spread_favorite": "home"
       },
       "home": {
@@ -91520,13 +91512,13 @@
       "live_score": null,
       "projection": {
         "game_pk": 824486,
-        "generated_at": "2026-07-30T22:46:24.278047+00:00",
+        "generated_at": "2026-07-30T23:43:49.858427+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.65,
         "away_exp_runs": 7.1,
-        "home_win_prob": 0.262,
+        "home_win_prob": 0.263,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.162,
+        "spread_cover_prob": 0.163,
         "total_line": 9.5,
         "over_prob": 0.537,
         "home_score_line": null,
@@ -99787,22 +99779,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 824809,
-        "generated_at": "2026-07-30T22:46:24.278047+00:00",
+        "generated_at": "2026-07-30T23:43:49.858427+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.75,
         "away_exp_runs": 3.1,
         "home_win_prob": 0.649,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.487,
+        "spread_cover_prob": 0.488,
         "total_line": 7.5,
-        "over_prob": 0.477,
+        "over_prob": 0.478,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.513,
+        "spread_pick_prob": 0.512,
         "total_pick": "under",
-        "total_pick_prob": 0.523,
+        "total_pick_prob": 0.522,
         "spread_favorite": "home"
       },
       "home": {
@@ -107722,22 +107714,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 822782,
-        "generated_at": "2026-07-30T22:46:24.278047+00:00",
+        "generated_at": "2026-07-30T23:43:49.858427+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.5,
         "away_exp_runs": 3.11,
-        "home_win_prob": 0.542,
+        "home_win_prob": 0.541,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.358,
+        "spread_cover_prob": 0.357,
         "total_line": 6.5,
-        "over_prob": 0.456,
+        "over_prob": 0.457,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.642,
+        "spread_pick_prob": 0.643,
         "total_pick": "under",
-        "total_pick_prob": 0.544,
+        "total_pick_prob": 0.543,
         "spread_favorite": "home"
       },
       "home": {
@@ -115974,7 +115966,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 822945,
-        "generated_at": "2026-07-30T22:46:24.278047+00:00",
+        "generated_at": "2026-07-30T23:43:49.858427+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.08,
         "away_exp_runs": 3.35,
@@ -124186,7 +124178,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 823593,
-        "generated_at": "2026-07-30T22:46:24.278047+00:00",
+        "generated_at": "2026-07-30T23:43:49.858427+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.57,
         "away_exp_runs": 4.16,
@@ -132465,20 +132457,20 @@
       "live_score": null,
       "projection": {
         "game_pk": 824407,
-        "generated_at": "2026-07-30T22:46:24.278047+00:00",
+        "generated_at": "2026-07-30T23:43:49.858427+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.47,
         "away_exp_runs": 3.94,
         "home_win_prob": 0.546,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.392,
+        "spread_cover_prob": 0.391,
         "total_line": 7.5,
         "over_prob": 0.531,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.608,
+        "spread_pick_prob": 0.609,
         "total_pick": "over",
         "total_pick_prob": 0.531,
         "spread_favorite": "home"
@@ -140706,22 +140698,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 824892,
-        "generated_at": "2026-07-30T22:46:24.278047+00:00",
+        "generated_at": "2026-07-30T23:43:49.858427+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.92,
         "away_exp_runs": 4.74,
-        "home_win_prob": 0.429,
+        "home_win_prob": 0.43,
         "spread_line": 1.5,
         "spread_cover_prob": 0.286,
         "total_line": 8.5,
-        "over_prob": 0.46,
+        "over_prob": 0.459,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
-        "spread_pick_prob": 0.58,
+        "spread_pick_prob": 0.582,
         "total_pick": "under",
-        "total_pick_prob": 0.54,
+        "total_pick_prob": 0.541,
         "spread_favorite": "away"
       },
       "home": {
@@ -148959,11 +148951,11 @@
       "live_score": null,
       "projection": {
         "game_pk": 824164,
-        "generated_at": "2026-07-30T22:46:24.278047+00:00",
+        "generated_at": "2026-07-30T23:43:49.858427+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.91,
         "away_exp_runs": 3.28,
-        "home_win_prob": 0.563,
+        "home_win_prob": 0.562,
         "spread_line": 1.5,
         "spread_cover_prob": 0.388,
         "total_line": 6.5,
@@ -157240,22 +157232,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 824325,
-        "generated_at": "2026-07-30T22:46:24.278047+00:00",
+        "generated_at": "2026-07-30T23:43:49.858427+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.27,
         "away_exp_runs": 4.74,
         "home_win_prob": 0.461,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.319,
+        "spread_cover_prob": 0.318,
         "total_line": 8.5,
-        "over_prob": 0.491,
+        "over_prob": 0.49,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
         "spread_pick_prob": 0.607,
         "total_pick": "under",
-        "total_pick_prob": 0.509,
+        "total_pick_prob": 0.51,
         "spread_favorite": "away"
       },
       "home": {
@@ -165503,7 +165495,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 823999,
-        "generated_at": "2026-07-30T22:46:24.278047+00:00",
+        "generated_at": "2026-07-30T23:43:49.858427+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.32,
         "away_exp_runs": 6.15,
@@ -165511,14 +165503,14 @@
         "spread_line": 1.5,
         "spread_cover_prob": 0.17,
         "total_line": 8.5,
-        "over_prob": 0.523,
+        "over_prob": 0.524,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "away",
-        "spread_pick_prob": 0.583,
+        "spread_pick_prob": 0.582,
         "total_pick": "over",
-        "total_pick_prob": 0.523,
+        "total_pick_prob": 0.524,
         "spread_favorite": "away"
       },
       "home": {
@@ -173733,11 +173725,11 @@
       "live_score": null,
       "projection": {
         "game_pk": 824975,
-        "generated_at": "2026-07-30T22:46:24.278047+00:00",
+        "generated_at": "2026-07-30T23:43:49.858427+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.26,
         "away_exp_runs": 6.75,
-        "home_win_prob": 0.248,
+        "home_win_prob": 0.247,
         "spread_line": 1.5,
         "spread_cover_prob": 0.146,
         "total_line": 9.5,
@@ -181647,20 +181639,20 @@
       "live_score": null,
       "projection": {
         "game_pk": 823272,
-        "generated_at": "2026-07-30T22:46:24.278047+00:00",
+        "generated_at": "2026-07-30T23:43:49.858427+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.24,
         "away_exp_runs": 3.89,
         "home_win_prob": 0.532,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.373,
+        "spread_cover_prob": 0.374,
         "total_line": 7.5,
         "over_prob": 0.506,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.627,
+        "spread_pick_prob": 0.626,
         "total_pick": "over",
         "total_pick_prob": 0.506,
         "spread_favorite": "home"
@@ -189212,7 +189204,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 823111,
-        "generated_at": "2026-07-30T22:46:24.278047+00:00",
+        "generated_at": "2026-07-30T23:43:49.858427+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.16,
         "away_exp_runs": 3.24,
@@ -189220,14 +189212,14 @@
         "spread_line": 1.5,
         "spread_cover_prob": 0.418,
         "total_line": 6.5,
-        "over_prob": 0.538,
+        "over_prob": 0.537,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
         "spread_pick_prob": 0.582,
         "total_pick": "over",
-        "total_pick_prob": 0.538,
+        "total_pick_prob": 0.537,
         "spread_favorite": "home"
       },
       "home": {
@@ -197477,22 +197469,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 823922,
-        "generated_at": "2026-07-30T22:46:24.278047+00:00",
+        "generated_at": "2026-07-30T23:43:49.858427+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.11,
         "away_exp_runs": 4.27,
-        "home_win_prob": 0.388,
+        "home_win_prob": 0.389,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.233,
+        "spread_cover_prob": 0.234,
         "total_line": 6.5,
-        "over_prob": 0.535,
+        "over_prob": 0.536,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
-        "spread_pick_prob": 0.559,
+        "spread_pick_prob": 0.56,
         "total_pick": "over",
-        "total_pick_prob": 0.535,
+        "total_pick_prob": 0.536,
         "spread_favorite": "away"
       },
       "home": {
@@ -205373,22 +205365,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 822781,
-        "generated_at": "2026-07-30T22:46:24.278047+00:00",
+        "generated_at": "2026-07-30T23:43:49.858427+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.02,
         "away_exp_runs": 4.34,
-        "home_win_prob": 0.473,
+        "home_win_prob": 0.472,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.321,
+        "spread_cover_prob": 0.32,
         "total_line": 7.5,
-        "over_prob": 0.526,
+        "over_prob": 0.527,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
-        "spread_pick_prob": 0.628,
+        "spread_pick_prob": 0.626,
         "total_pick": "over",
-        "total_pick_prob": 0.526,
+        "total_pick_prob": 0.527,
         "spread_favorite": "away"
       },
       "home": {
@@ -213321,7 +213313,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 822944,
-        "generated_at": "2026-07-30T22:46:24.278047+00:00",
+        "generated_at": "2026-07-30T23:43:49.858427+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 5.25,
         "away_exp_runs": 3.73,
@@ -213329,14 +213321,14 @@
         "spread_line": 1.5,
         "spread_cover_prob": 0.478,
         "total_line": 8.5,
-        "over_prob": 0.487,
+        "over_prob": 0.486,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
         "spread_pick_prob": 0.522,
         "total_pick": "under",
-        "total_pick_prob": 0.513,
+        "total_pick_prob": 0.514,
         "spread_favorite": "home"
       },
       "home": {
@@ -221530,11 +221522,11 @@
       "live_score": null,
       "projection": {
         "game_pk": 823109,
-        "generated_at": "2026-07-30T22:46:24.278047+00:00",
+        "generated_at": "2026-07-30T23:43:49.858427+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.94,
         "away_exp_runs": 3.64,
-        "home_win_prob": 0.528,
+        "home_win_prob": 0.529,
         "spread_line": 1.5,
         "spread_cover_prob": 0.362,
         "total_line": 7.5,
@@ -229430,20 +229422,20 @@
       "live_score": null,
       "projection": {
         "game_pk": 823594,
-        "generated_at": "2026-07-30T22:46:24.278047+00:00",
+        "generated_at": "2026-07-30T23:43:49.858427+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.93,
         "away_exp_runs": 2.62,
-        "home_win_prob": 0.637,
+        "home_win_prob": 0.636,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.45,
+        "spread_cover_prob": 0.449,
         "total_line": 6.5,
         "over_prob": 0.449,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.55,
+        "spread_pick_prob": 0.551,
         "total_pick": "under",
         "total_pick_prob": 0.551,
         "spread_favorite": "home"
@@ -237674,20 +237666,20 @@
       "live_score": null,
       "projection": {
         "game_pk": 824485,
-        "generated_at": "2026-07-30T22:46:24.278047+00:00",
+        "generated_at": "2026-07-30T23:43:49.858427+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.87,
         "away_exp_runs": 4.3,
-        "home_win_prob": 0.46,
+        "home_win_prob": 0.462,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.308,
+        "spread_cover_prob": 0.309,
         "total_line": 7.5,
         "over_prob": 0.51,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
-        "spread_pick_prob": 0.618,
+        "spread_pick_prob": 0.62,
         "total_pick": "over",
         "total_pick_prob": 0.51,
         "spread_favorite": "away"
@@ -245934,13 +245926,13 @@
       "live_score": null,
       "projection": {
         "game_pk": 824808,
-        "generated_at": "2026-07-30T22:46:24.278047+00:00",
+        "generated_at": "2026-07-30T23:43:49.858427+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.34,
         "away_exp_runs": 3.56,
-        "home_win_prob": 0.478,
+        "home_win_prob": 0.477,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.304,
+        "spread_cover_prob": 0.303,
         "total_line": 6.5,
         "over_prob": 0.488,
         "home_score_line": null,
@@ -254247,22 +254239,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 824162,
-        "generated_at": "2026-07-30T22:46:24.278047+00:00",
+        "generated_at": "2026-07-30T23:43:49.858427+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.68,
         "away_exp_runs": 5.85,
-        "home_win_prob": 0.331,
+        "home_win_prob": 0.332,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.21,
+        "spread_cover_prob": 0.211,
         "total_line": 8.5,
-        "over_prob": 0.531,
+        "over_prob": 0.53,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "away",
-        "spread_pick_prob": 0.532,
+        "spread_pick_prob": 0.53,
         "total_pick": "over",
-        "total_pick_prob": 0.531,
+        "total_pick_prob": 0.53,
         "spread_favorite": "away"
       },
       "home": {
@@ -262524,20 +262516,20 @@
       "live_score": null,
       "projection": {
         "game_pk": 824405,
-        "generated_at": "2026-07-30T22:46:24.278047+00:00",
+        "generated_at": "2026-07-30T23:43:49.858427+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.16,
         "away_exp_runs": 3.38,
-        "home_win_prob": 0.573,
+        "home_win_prob": 0.574,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.405,
+        "spread_cover_prob": 0.406,
         "total_line": 6.5,
         "over_prob": 0.551,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.595,
+        "spread_pick_prob": 0.594,
         "total_pick": "over",
         "total_pick_prob": 0.551,
         "spread_favorite": "home"
@@ -270740,13 +270732,13 @@
       "live_score": null,
       "projection": {
         "game_pk": 824649,
-        "generated_at": "2026-07-30T22:46:24.278047+00:00",
+        "generated_at": "2026-07-30T23:43:49.858427+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.88,
         "away_exp_runs": 4.9,
         "home_win_prob": 0.414,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.274,
+        "spread_cover_prob": 0.273,
         "total_line": 8.5,
         "over_prob": 0.47,
         "home_score_line": null,
@@ -278989,22 +278981,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 824890,
-        "generated_at": "2026-07-30T22:46:24.278047+00:00",
+        "generated_at": "2026-07-30T23:43:49.858427+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 5.82,
         "away_exp_runs": 4.49,
-        "home_win_prob": 0.6,
+        "home_win_prob": 0.598,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.467,
+        "spread_cover_prob": 0.466,
         "total_line": 9.5,
-        "over_prob": 0.51,
+        "over_prob": 0.509,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.533,
+        "spread_pick_prob": 0.534,
         "total_pick": "over",
-        "total_pick_prob": 0.51,
+        "total_pick_prob": 0.509,
         "spread_favorite": "home"
       },
       "home": {
@@ -287251,13 +287243,13 @@
       "live_score": null,
       "projection": {
         "game_pk": 824326,
-        "generated_at": "2026-07-30T22:46:24.278047+00:00",
+        "generated_at": "2026-07-30T23:43:49.858427+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.92,
         "away_exp_runs": 5.31,
         "home_win_prob": 0.471,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.341,
+        "spread_cover_prob": 0.34,
         "total_line": 9.5,
         "over_prob": 0.504,
         "home_score_line": null,
@@ -295521,22 +295513,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 823269,
-        "generated_at": "2026-07-30T22:46:24.278047+00:00",
+        "generated_at": "2026-07-30T23:43:49.858427+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.24,
         "away_exp_runs": 4.26,
-        "home_win_prob": 0.497,
+        "home_win_prob": 0.498,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.347,
+        "spread_cover_prob": 0.348,
         "total_line": 7.5,
-        "over_prob": 0.539,
+        "over_prob": 0.54,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
         "spread_pick_prob": 0.649,
         "total_pick": "over",
-        "total_pick_prob": 0.539,
+        "total_pick_prob": 0.54,
         "spread_favorite": "away"
       },
       "home": {
@@ -303461,22 +303453,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 823920,
-        "generated_at": "2026-07-30T22:46:24.278047+00:00",
+        "generated_at": "2026-07-30T23:43:49.858427+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.29,
         "away_exp_runs": 3.11,
-        "home_win_prob": 0.52,
+        "home_win_prob": 0.519,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.334,
+        "spread_cover_prob": 0.332,
         "total_line": 5.5,
-        "over_prob": 0.549,
+        "over_prob": 0.548,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.666,
+        "spread_pick_prob": 0.668,
         "total_pick": "over",
-        "total_pick_prob": 0.549,
+        "total_pick_prob": 0.548,
         "spread_favorite": "home"
       },
       "home": {
@@ -311701,7 +311693,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 824000,
-        "generated_at": "2026-07-30T22:46:24.278047+00:00",
+        "generated_at": "2026-07-30T23:43:49.858427+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.88,
         "away_exp_runs": 4.07,
@@ -311709,14 +311701,14 @@
         "spread_line": 1.5,
         "spread_cover_prob": 0.325,
         "total_line": 7.5,
-        "over_prob": 0.489,
+        "over_prob": 0.49,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
-        "spread_pick_prob": 0.643,
+        "spread_pick_prob": 0.642,
         "total_pick": "under",
-        "total_pick_prob": 0.511,
+        "total_pick_prob": 0.51,
         "spread_favorite": "away"
       },
       "home": {
@@ -319950,11 +319942,11 @@
       "live_score": null,
       "projection": {
         "game_pk": 824972,
-        "generated_at": "2026-07-30T22:46:24.278047+00:00",
+        "generated_at": "2026-07-30T23:43:49.858427+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.17,
         "away_exp_runs": 6.75,
-        "home_win_prob": 0.32,
+        "home_win_prob": 0.321,
         "spread_line": 1.5,
         "spread_cover_prob": 0.212,
         "total_line": 10.5,
@@ -327987,7 +327979,7 @@
           "n": 10
         },
         "result": null,
-        "dnp": false
+        "dnp": true
       },
       {
         "role": "batter",
@@ -328014,7 +328006,7 @@
           "delta": 15
         },
         "result": null,
-        "dnp": false
+        "dnp": true
       },
       {
         "role": "batter",
@@ -328053,7 +328045,7 @@
         "date": "2026-07-30",
         "game_time_utc": "2026-07-31T01:40:00Z",
         "game_pk": 824974,
-        "lineup_confirmed": false,
+        "lineup_confirmed": true,
         "opp_pitcher_id": 543243,
         "score": 2.5,
         "reasons": [
@@ -328251,7 +328243,7 @@
           "n": 10
         },
         "result": null,
-        "dnp": false
+        "dnp": true
       }
     ],
     "pitchers": [
@@ -328334,7 +328326,7 @@
           "delta": 8
         },
         "result": null,
-        "dnp": false
+        "dnp": true
       },
       {
         "role": "pitcher",
@@ -328463,7 +328455,7 @@
           "delta": 34
         },
         "result": null,
-        "dnp": false
+        "dnp": true
       }
     ]
   },
@@ -329019,7 +329011,7 @@
           "delta": -25
         },
         "result": null,
-        "dnp": false
+        "dnp": true
       },
       {
         "role": "pitcher",
@@ -329045,7 +329037,7 @@
           "delta": -16
         },
         "result": null,
-        "dnp": false
+        "dnp": true
       },
       {
         "role": "pitcher",
