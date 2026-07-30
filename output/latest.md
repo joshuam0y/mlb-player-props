@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-07-30T09:55:43.544433+00:00_
+_Generated 2026-07-30T10:06:44.965800+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -60,7 +60,7 @@ _Generated 2026-07-30T09:55:43.544433+00:00_
 ## 2026-07-30 - Texas Rangers @ Tampa Bay Rays (Scheduled)
 _Tropicana Field_
 Projected score: Texas Rangers 3.56 - Tampa Bay Rays 5.02
-Model likes: **Tampa Bay Rays** to win (62%) | Run line: **Texas Rangers** +1.5 (53% to cover) | Total 7.5: lean **OVER** (54%)
+Model likes: **Tampa Bay Rays** to win (62%) | Run line: **Texas Rangers** +1.5 (53% to cover) | Total 7.5: lean **OVER** (55%)
 
 ### Texas Rangers lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 10.7 relief IP in last 2 days (ratio 2.03)_
@@ -303,7 +303,7 @@ _Facing a taxed bullpen: 8.3 relief IP in last 2 days (ratio 2.13)_
 ## 2026-07-30 - Boston Red Sox @ Athletics (Scheduled)
 _Sutter Health Park_
 Projected score: Boston Red Sox 5.02 - Athletics 2.93
-Model likes: **Boston Red Sox** to win (69%) | Run line: **Boston Red Sox** -1.5 (53% to cover) | Total 7.5: lean **UNDER** (51%)
+Model likes: **Boston Red Sox** to win (68%) | Run line: **Boston Red Sox** -1.5 (53% to cover) | Total 7.5: lean **UNDER** (51%)
 
 ### Boston Red Sox lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 7.7 relief IP in last 2 days (ratio 1.75)_
@@ -394,7 +394,7 @@ _Facing a rested bullpen: 2.3 relief IP in last 2 days (ratio 0.62)_
 ## 2026-07-31 - Pittsburgh Pirates @ Cincinnati Reds (Scheduled)
 _Great American Ball Park [hitter-friendly park]_
 Projected score: Pittsburgh Pirates 7.08 - Cincinnati Reds 3.65
-Model likes: **Pittsburgh Pirates** to win (74%) | Run line: **Pittsburgh Pirates** -1.5 (62% to cover) | Total 9.5: lean **OVER** (53%)
+Model likes: **Pittsburgh Pirates** to win (74%) | Run line: **Pittsburgh Pirates** -1.5 (62% to cover) | Total 9.5: lean **OVER** (54%)
 
 ### Pittsburgh Pirates lineup -- PROJECTED (unconfirmed)
 **Probable P: Paul Skenes (R)** -- L5: 27.7 IP, 35 K, 17 ER, 5.53 ERA
@@ -719,7 +719,7 @@ _Facing a taxed bullpen: 5.3 relief IP in last 2 days (ratio 1.25)_
 ## 2026-07-31 - San Francisco Giants @ San Diego Padres (Scheduled)
 _Petco Park [pitcher-friendly park]_
 Projected score: San Francisco Giants 3.89 - San Diego Padres 4.24
-Model likes: **San Diego Padres** to win (53%) | Run line: **San Francisco Giants** +1.5 (63% to cover) | Total 7.5: lean **OVER** (51%)
+Model likes: **San Diego Padres** to win (53%) | Run line: **San Francisco Giants** +1.5 (63% to cover) | Total 7.5: lean **OVER** (50%)
 
 ### San Francisco Giants lineup -- PROJECTED (unconfirmed)
 - Bryce Eldridge (L) -- L7: 2H 1HR 3RBI 6TB (0.08 avg) -- away split: 0.275 avg
@@ -746,7 +746,7 @@ Model likes: **San Diego Padres** to win (53%) | Run line: **San Francisco Giant
 ## 2026-07-31 - Minnesota Twins @ Seattle Mariners (Scheduled)
 _T-Mobile Park [pitcher-friendly park]_
 Projected score: Minnesota Twins 3.24 - Seattle Mariners 4.3
-Model likes: **Seattle Mariners** to win (60%) | Run line: **Minnesota Twins** +1.5 (57% to cover) | Total 7.5: lean **UNDER** (55%)
+Model likes: **Seattle Mariners** to win (60%) | Run line: **Minnesota Twins** +1.5 (57% to cover) | Total 6.5: lean **OVER** (55%)
 
 ### Minnesota Twins lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.67)_
@@ -833,7 +833,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-01 - Chicago White Sox @ Tampa Bay Rays (Scheduled)
 _Tropicana Field_
 Projected score: Chicago White Sox 3.93 - Tampa Bay Rays 4.55
-Model likes: **Tampa Bay Rays** to win (56%) | Run line: **Chicago White Sox** +1.5 (60% to cover) | Total 7.5: lean **OVER** (54%)
+Model likes: **Tampa Bay Rays** to win (55%) | Run line: **Chicago White Sox** +1.5 (60% to cover) | Total 7.5: lean **OVER** (54%)
 
 ### Chicago White Sox lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -891,7 +891,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-01 - Miami Marlins @ New York Mets (Scheduled)
 _Citi Field_
 Projected score: Miami Marlins 2.62 - New York Mets 3.76
-Model likes: **New York Mets** to win (62%) | Run line: **Miami Marlins** +1.5 (57% to cover) | Total 5.5: lean **OVER** (55%)
+Model likes: **New York Mets** to win (62%) | Run line: **Miami Marlins** +1.5 (57% to cover) | Total 5.5: lean **OVER** (54%)
 
 ### Miami Marlins lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -953,7 +953,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-01 - Philadelphia Phillies @ Baltimore Orioles (Scheduled)
 _Oriole Park at Camden Yards_
 Projected score: Philadelphia Phillies 3.56 - Baltimore Orioles 3.34
-Model likes: **Philadelphia Phillies** to win (52%) | Run line: **Baltimore Orioles** +1.5 (65% to cover) | Total 6.5: lean **UNDER** (51%)
+Model likes: **Philadelphia Phillies** to win (52%) | Run line: **Baltimore Orioles** +1.5 (66% to cover) | Total 6.5: lean **UNDER** (51%)
 
 ### Philadelphia Phillies lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1045,7 +1045,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-01 - New York Yankees @ Chicago Cubs (Scheduled)
 _Wrigley Field_
 Projected score: New York Yankees 5.05 - Chicago Cubs 4.22
-Model likes: **New York Yankees** to win (57%) | Run line: **Chicago Cubs** +1.5 (58% to cover) | Total 8.5: lean **OVER** (51%)
+Model likes: **New York Yankees** to win (57%) | Run line: **Chicago Cubs** +1.5 (57% to cover) | Total 8.5: lean **OVER** (51%)
 
 ### New York Yankees lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
