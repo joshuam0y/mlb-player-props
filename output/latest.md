@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-07-30T22:33:58.485411+00:00_
+_Generated 2026-07-30T22:48:46.874579+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -329,21 +329,21 @@ _Facing a taxed bullpen: 6.7 relief IP in last 2 days (ratio 1.29)_
 
 ## 2026-07-30 - Seattle Mariners @ Los Angeles Dodgers (Pre-Game)
 _UNIQLO Field at Dodger Stadium_
-Projected score: Seattle Mariners 3.87 - Los Angeles Dodgers 4.33
-Model likes: **Los Angeles Dodgers** to win (54%) | Run line: **Seattle Mariners** +1.5 (62% to cover) | Total 7.5: lean **OVER** (51%)
+Projected score: Seattle Mariners 3.97 - Los Angeles Dodgers 4.33
+Model likes: **Los Angeles Dodgers** to win (53%) | Run line: **Seattle Mariners** +1.5 (62% to cover) | Total 7.5: lean **OVER** (52%)
 
-### Seattle Mariners lineup -- PROJECTED (unconfirmed)
+### Seattle Mariners lineup -- CONFIRMED
 _Facing a taxed bullpen: 6.0 relief IP in last 2 days (ratio 1.51)_
 **Probable P: Bryan Woo (R)** -- L5: 26.3 IP, 26 K, 17 ER, 5.81 ERA
-- Cole Young (L) [4-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 9H 0HR 1RBI 11TB (0.333 avg) -- away split: 0.267 avg
-- Randy Arozarena (R) -- L7: 7H 2HR 2RBI 13TB (0.233 avg) -- away split: 0.307 avg
-- Josh Naylor (L) [4-game hit streak] -- L7: 8H 0HR 1RBI 11TB (0.296 avg) -- away split: 0.271 avg
-- Luke Raley (L) -- L7: 2H 0HR 2RBI 2TB (0.167 avg) -- away split: 0.219 avg
-- Cal Raleigh (S) -- L7: 4H 1HR 2RBI 7TB (0.174 avg) -- away split: 0.167 avg
-- Dominic Canzone (L) [4-game hit streak] -- L7: 9H 3HR 9RBI 21TB (0.321 avg) -- away split: 0.248 avg
-- Colt Emerson (L) -- L7: 5H 0HR 0RBI 6TB (0.217 avg) -- away split: 0.226 avg
-- Julio Rodríguez (R) -- L7: 6H 1HR 3RBI 10TB (0.214 avg) -- away split: 0.244 avg
-- Victor Robles (R) [likely BABIP-driven, not a real power uptick] -- L7: 6H 0HR 0RBI 6TB (0.667 avg) -- away split: 0.236 avg
+- #1 Cole Young (L) [4-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 9H 0HR 1RBI 11TB (0.333 avg) -- away split: 0.267 avg
+- #2 Randy Arozarena (R) -- L7: 7H 2HR 2RBI 13TB (0.233 avg) -- away split: 0.307 avg
+- #3 Dominic Canzone (L) [4-game hit streak] -- L7: 9H 3HR 9RBI 21TB (0.321 avg) -- away split: 0.248 avg
+- #4 Julio Rodríguez (R) -- L7: 6H 1HR 3RBI 10TB (0.214 avg) -- away split: 0.244 avg
+- #5 Josh Naylor (L) [4-game hit streak] -- L7: 8H 0HR 1RBI 11TB (0.296 avg) -- away split: 0.271 avg
+- #6 Cal Raleigh (S) -- L7: 4H 1HR 2RBI 7TB (0.174 avg) -- away split: 0.167 avg
+- #7 Luke Raley (L) -- L7: 2H 0HR 2RBI 2TB (0.167 avg) -- away split: 0.219 avg
+- #8 Weston Wilson (R) -- L7: 3H 1HR 2RBI 7TB (0.176 avg) -- away split: 0.242 avg
+- #9 Colt Emerson (L) -- L7: 5H 0HR 0RBI 6TB (0.217 avg) -- away split: 0.226 avg
 
 ### Los Angeles Dodgers lineup -- CONFIRMED
 _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.56)_
@@ -392,7 +392,7 @@ _Facing a taxed bullpen: 8.7 relief IP in last 2 days (ratio 1.62)_
 ## 2026-07-31 - Pittsburgh Pirates @ Cincinnati Reds (Scheduled)
 _Great American Ball Park [hitter-friendly park]_
 Projected score: Pittsburgh Pirates 7.1 - Cincinnati Reds 3.65
-Model likes: **Pittsburgh Pirates** to win (74%) | Run line: **Pittsburgh Pirates** -1.5 (62% to cover) | Total 10.5: lean **UNDER** (54%)
+Model likes: **Pittsburgh Pirates** to win (74%) | Run line: **Pittsburgh Pirates** -1.5 (62% to cover) | Total 9.5: lean **OVER** (54%)
 
 ### Pittsburgh Pirates lineup -- PROJECTED (unconfirmed)
 **Probable P: Paul Skenes (R)** -- L5: 27.7 IP, 35 K, 17 ER, 5.53 ERA
@@ -808,8 +808,8 @@ Model likes: **Boston Red Sox** to win (61%) | Run line: **Los Angeles Dodgers**
 
 ## 2026-08-01 - St. Louis Cardinals @ Toronto Blue Jays (Scheduled)
 _Rogers Centre_
-Projected score: St. Louis Cardinals 4.34 - Toronto Blue Jays 3.9
-Model likes: **St. Louis Cardinals** to win (54%) | Run line: **Toronto Blue Jays** +1.5 (62% to cover) | Total 7.5: lean **OVER** (52%)
+Projected score: St. Louis Cardinals 4.34 - Toronto Blue Jays 4.02
+Model likes: **St. Louis Cardinals** to win (53%) | Run line: **Toronto Blue Jays** +1.5 (63% to cover) | Total 7.5: lean **OVER** (53%)
 
 ### St. Louis Cardinals lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1021,7 +1021,7 @@ _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.55)_
 ## 2026-08-01 - Arizona Diamondbacks @ Cleveland Guardians (Scheduled)
 _Progressive Field_
 Projected score: Arizona Diamondbacks 3.38 - Cleveland Guardians 4.16
-Model likes: **Cleveland Guardians** to win (57%) | Run line: **Arizona Diamondbacks** +1.5 (59% to cover) | Total 7.5: lean **UNDER** (55%)
+Model likes: **Cleveland Guardians** to win (57%) | Run line: **Arizona Diamondbacks** +1.5 (60% to cover) | Total 6.5: lean **OVER** (55%)
 
 ### Arizona Diamondbacks lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
