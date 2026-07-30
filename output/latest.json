@@ -49,7 +49,7 @@
           "position": "P",
           "injury": null,
           "lineup_confirmed": true,
-          "workload_tier": "heavy",
+          "workload_tier": null,
           "l3": {
             "games": 3,
             "outs": 49,
@@ -528,12 +528,11 @@
               }
             },
             "matchup": {
-              "platoon": null,
-              "pitcher_avg_against": null,
+              "platoon": "same-hand",
+              "pitcher_avg_against": 0.259,
               "pitcher_era_vs_hand": null,
-              "favorable": null,
-              "unfavorable": null,
-              "bullpen_game": true
+              "favorable": false,
+              "unfavorable": false
             },
             "home_away": {
               "this_game": "home",
@@ -955,12 +954,11 @@
               }
             },
             "matchup": {
-              "platoon": null,
-              "pitcher_avg_against": null,
+              "platoon": "opposite-hand",
+              "pitcher_avg_against": 0.276,
               "pitcher_era_vs_hand": null,
-              "favorable": null,
-              "unfavorable": null,
-              "bullpen_game": true
+              "favorable": true,
+              "unfavorable": false
             },
             "home_away": {
               "this_game": "home",
@@ -1382,12 +1380,11 @@
               }
             },
             "matchup": {
-              "platoon": null,
-              "pitcher_avg_against": null,
+              "platoon": "same-hand",
+              "pitcher_avg_against": 0.259,
               "pitcher_era_vs_hand": null,
-              "favorable": null,
-              "unfavorable": null,
-              "bullpen_game": true
+              "favorable": false,
+              "unfavorable": false
             },
             "home_away": {
               "this_game": "home",
@@ -1809,12 +1806,11 @@
               }
             },
             "matchup": {
-              "platoon": null,
-              "pitcher_avg_against": null,
+              "platoon": "opposite-hand",
+              "pitcher_avg_against": 0.276,
               "pitcher_era_vs_hand": null,
-              "favorable": null,
-              "unfavorable": null,
-              "bullpen_game": true
+              "favorable": true,
+              "unfavorable": false
             },
             "home_away": {
               "this_game": "home",
@@ -2228,12 +2224,11 @@
               }
             },
             "matchup": {
-              "platoon": null,
-              "pitcher_avg_against": null,
+              "platoon": "same-hand",
+              "pitcher_avg_against": 0.259,
               "pitcher_era_vs_hand": null,
-              "favorable": null,
-              "unfavorable": null,
-              "bullpen_game": true
+              "favorable": false,
+              "unfavorable": false
             },
             "home_away": {
               "this_game": "home",
@@ -2655,12 +2650,11 @@
               }
             },
             "matchup": {
-              "platoon": null,
-              "pitcher_avg_against": null,
+              "platoon": "opposite-hand",
+              "pitcher_avg_against": 0.276,
               "pitcher_era_vs_hand": null,
-              "favorable": null,
-              "unfavorable": null,
-              "bullpen_game": true
+              "favorable": true,
+              "unfavorable": false
             },
             "home_away": {
               "this_game": "home",
@@ -3089,12 +3083,11 @@
               }
             },
             "matchup": {
-              "platoon": null,
-              "pitcher_avg_against": null,
+              "platoon": "same-hand",
+              "pitcher_avg_against": 0.259,
               "pitcher_era_vs_hand": null,
-              "favorable": null,
-              "unfavorable": null,
-              "bullpen_game": true
+              "favorable": false,
+              "unfavorable": false
             },
             "home_away": {
               "this_game": "home",
@@ -3516,12 +3509,11 @@
               }
             },
             "matchup": {
-              "platoon": null,
-              "pitcher_avg_against": null,
+              "platoon": "opposite-hand",
+              "pitcher_avg_against": 0.276,
               "pitcher_era_vs_hand": null,
-              "favorable": null,
-              "unfavorable": null,
-              "bullpen_game": true
+              "favorable": true,
+              "unfavorable": false
             },
             "home_away": {
               "this_game": "home",
@@ -3943,12 +3935,11 @@
               }
             },
             "matchup": {
-              "platoon": null,
-              "pitcher_avg_against": null,
+              "platoon": "opposite-hand",
+              "pitcher_avg_against": 0.276,
               "pitcher_era_vs_hand": null,
-              "favorable": null,
-              "unfavorable": null,
-              "bullpen_game": true
+              "favorable": true,
+              "unfavorable": false
             },
             "home_away": {
               "this_game": "home",
@@ -4279,7 +4270,7 @@
           "position": "P",
           "injury": null,
           "lineup_confirmed": true,
-          "workload_tier": "reliever",
+          "workload_tier": null,
           "l3": {
             "games": 3,
             "outs": 6,
@@ -4751,8 +4742,7 @@
               "pitcher_avg_against": 0.234,
               "pitcher_era_vs_hand": null,
               "favorable": false,
-              "unfavorable": false,
-              "bullpen_game": false
+              "unfavorable": false
             },
             "home_away": {
               "this_game": "away",
@@ -5178,8 +5168,7 @@
               "pitcher_avg_against": 0.234,
               "pitcher_era_vs_hand": null,
               "favorable": false,
-              "unfavorable": false,
-              "bullpen_game": false
+              "unfavorable": false
             },
             "home_away": {
               "this_game": "away",
@@ -5612,8 +5601,7 @@
               "pitcher_avg_against": 0.13,
               "pitcher_era_vs_hand": null,
               "favorable": false,
-              "unfavorable": true,
-              "bullpen_game": false
+              "unfavorable": true
             },
             "home_away": {
               "this_game": "away",
@@ -6039,8 +6027,7 @@
               "pitcher_avg_against": 0.234,
               "pitcher_era_vs_hand": null,
               "favorable": false,
-              "unfavorable": false,
-              "bullpen_game": false
+              "unfavorable": false
             },
             "home_away": {
               "this_game": "away",
@@ -6466,8 +6453,7 @@
               "pitcher_avg_against": 0.234,
               "pitcher_era_vs_hand": null,
               "favorable": false,
-              "unfavorable": false,
-              "bullpen_game": false
+              "unfavorable": false
             },
             "home_away": {
               "this_game": "away",
@@ -6893,8 +6879,7 @@
               "pitcher_avg_against": 0.234,
               "pitcher_era_vs_hand": null,
               "favorable": false,
-              "unfavorable": false,
-              "bullpen_game": false
+              "unfavorable": false
             },
             "home_away": {
               "this_game": "away",
@@ -7320,8 +7305,7 @@
               "pitcher_avg_against": 0.13,
               "pitcher_era_vs_hand": null,
               "favorable": false,
-              "unfavorable": true,
-              "bullpen_game": false
+              "unfavorable": true
             },
             "home_away": {
               "this_game": "away",
@@ -7747,8 +7731,7 @@
               "pitcher_avg_against": 0.234,
               "pitcher_era_vs_hand": null,
               "favorable": false,
-              "unfavorable": false,
-              "bullpen_game": false
+              "unfavorable": false
             },
             "home_away": {
               "this_game": "away",
@@ -8174,8 +8157,7 @@
               "pitcher_avg_against": 0.13,
               "pitcher_era_vs_hand": null,
               "favorable": false,
-              "unfavorable": true,
-              "bullpen_game": false
+              "unfavorable": true
             },
             "home_away": {
               "this_game": "away",
