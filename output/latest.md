@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-07-31T00:29:44.650462+00:00_
+_Generated 2026-07-31T01:16:21.780030+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -178,7 +178,7 @@ _Facing a taxed bullpen: 5.3 relief IP in last 2 days (ratio 1.43)_
 ## 2026-07-30 - Miami Marlins @ New York Mets (In Progress)
 _Citi Field_
 Projected score: Miami Marlins 3.2 - New York Mets 4.01
-Model likes: **New York Mets** to win (58%) | Run line: **Miami Marlins** +1.5 (60% to cover) | Total 6.5: lean **OVER** (52%)
+Model likes: **New York Mets** to win (58%) | Run line: **Miami Marlins** +1.5 (59% to cover) | Total 6.5: lean **OVER** (52%)
 
 ### Miami Marlins lineup -- CONFIRMED
 **Probable P: Eury Pérez (R)** -- L5: 31.3 IP, 33 K, 6 ER, 1.72 ERA
@@ -207,7 +207,7 @@ Model likes: **New York Mets** to win (58%) | Run line: **Miami Marlins** +1.5 (
 ## 2026-07-30 - Pittsburgh Pirates @ Cincinnati Reds (In Progress)
 _Great American Ball Park [hitter-friendly park]_
 Projected score: Pittsburgh Pirates 5.67 - Cincinnati Reds 4.04
-Model likes: **Pittsburgh Pirates** to win (62%) | Run line: **Cincinnati Reds** +1.5 (51% to cover) | Total 9.5: lean **UNDER** (54%)
+Model likes: **Pittsburgh Pirates** to win (63%) | Run line: **Cincinnati Reds** +1.5 (51% to cover) | Total 9.5: lean **UNDER** (54%)
 
 ### Pittsburgh Pirates lineup -- CONFIRMED
 _Facing a taxed bullpen: 16.0 relief IP in last 2 days (ratio 3.68)_
@@ -269,7 +269,7 @@ _Facing a taxed bullpen: 7.3 relief IP in last 2 days (ratio 1.46)_
 ## 2026-07-30 - San Francisco Giants @ San Diego Padres (Pre-Game)
 _Petco Park [pitcher-friendly park]_
 Projected score: San Francisco Giants 3.9 - San Diego Padres 3.43
-Model likes: **San Francisco Giants** to win (55%) | Run line: **San Diego Padres** +1.5 (62% to cover) | Total 6.5: lean **OVER** (53%)
+Model likes: **San Francisco Giants** to win (55%) | Run line: **San Diego Padres** +1.5 (63% to cover) | Total 6.5: lean **OVER** (53%)
 
 ### San Francisco Giants lineup -- CONFIRMED
 _Facing a taxed bullpen: 9.3 relief IP in last 2 days (ratio 1.51)_
@@ -514,7 +514,7 @@ _Facing a taxed bullpen: 11.0 relief IP in last 2 days (ratio 1.73)_
 ## 2026-07-31 - Miami Marlins @ New York Mets (Scheduled)
 _Citi Field_
 Projected score: Miami Marlins 4.16 - New York Mets 4.57
-Model likes: **New York Mets** to win (53%) | Run line: **Miami Marlins** +1.5 (62% to cover) | Total 8.5: lean **UNDER** (53%)
+Model likes: **New York Mets** to win (54%) | Run line: **Miami Marlins** +1.5 (62% to cover) | Total 8.5: lean **UNDER** (53%)
 
 ### Miami Marlins lineup -- PROJECTED (unconfirmed)
 **Probable P: Janson Junk (R)** -- L5: 23.7 IP, 20 K, 17 ER, 6.46 ERA
@@ -693,23 +693,24 @@ Model likes: **Milwaukee Brewers** to win (72%) | Run line: **Milwaukee Brewers*
 
 ## 2026-07-31 - Detroit Tigers @ Athletics (Scheduled)
 _Sutter Health Park_
-Projected score: Detroit Tigers 6.75 - Athletics 3.26
-Model likes: **Detroit Tigers** to win (75%) | Run line: **Detroit Tigers** -1.5 (63% to cover) | Total 9.5: lean **UNDER** (52%)
+Projected score: Detroit Tigers 5.58 - Athletics 3.26
+Model likes: **Detroit Tigers** to win (69%) | Run line: **Detroit Tigers** -1.5 (55% to cover) | Total 8.5: lean **UNDER** (53%)
 
 ### Detroit Tigers lineup -- PROJECTED (unconfirmed)
 **Probable P: Casey Mize (R)** -- L5: 28.7 IP, 27 K, 7 ER, 2.2 ERA
-- Dillon Dingler (R) -- L7: 6H 0HR 3RBI 7TB (0.231 avg) -- away split: 0.278 avg
+- Dillon Dingler (R) [MATCHUP EDGE: pitcher hits 0.28 avg-against vs this hand] -- L7: 6H 0HR 3RBI 7TB (0.231 avg) -- away split: 0.278 avg
 - Colt Keith (L) [6-game hit streak] -- L7: 9H 0HR 2RBI 15TB (0.409 avg) -- away split: 0.263 avg
 - Riley Greene (L) -- L7: 4H 0HR 2RBI 6TB (0.16 avg) -- away split: 0.288 avg
-- Spencer Torkelson (R) -- L7: 5H 1HR 4RBI 8TB (0.227 avg) -- away split: 0.208 avg
+- Spencer Torkelson (R) [MATCHUP EDGE: pitcher hits 0.28 avg-against vs this hand] -- L7: 5H 1HR 4RBI 8TB (0.227 avg) -- away split: 0.208 avg
 - Zach McKinstry (L) [3-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 8H 0HR 3RBI 12TB (0.381 avg) -- away split: 0.132 avg
 - Kevin McGonigle (L) -- L7: 10H 0HR 2RBI 10TB (0.323 avg) -- away split: 0.294 avg
-- Hao-Yu Lee (R) -- L7: 7H 1HR 6RBI 13TB (0.438 avg) -- away split: 0.283 avg
-- Matt Vierling (R) -- L7: 4H 0HR 1RBI 7TB (0.235 avg) -- away split: 0.213 avg
+- Hao-Yu Lee (R) [MATCHUP EDGE: pitcher hits 0.28 avg-against vs this hand] -- L7: 7H 1HR 6RBI 13TB (0.438 avg) -- away split: 0.283 avg
+- Matt Vierling (R) [MATCHUP EDGE: pitcher hits 0.28 avg-against vs this hand] -- L7: 4H 0HR 1RBI 7TB (0.235 avg) -- away split: 0.213 avg
 - James Outman (L) -- L7: 4H 1HR 3RBI 7TB (0.235 avg) -- away split: 0.114 avg
 
 ### Athletics lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 5.3 relief IP in last 2 days (ratio 1.25)_
+**Probable P: Jeffrey Springs (L)** -- L5: 21.3 IP, 14 K, 21 ER, 8.86 ERA
 - Jacob Wilson (R) -- L7: 3H 0HR 0RBI 4TB (0.103 avg) -- home split: 0.285 avg
 - Lawrence Butler (L) -- L7: 4H 1HR 4RBI 9TB (0.308 avg) -- home split: 0.226 avg
 - Henry Bolte (R) -- L7: 3H 0HR 1RBI 3TB (0.158 avg) -- home split: 0.289 avg
@@ -839,7 +840,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-01 - Chicago White Sox @ Tampa Bay Rays (Scheduled)
 _Tropicana Field_
 Projected score: Chicago White Sox 3.73 - Tampa Bay Rays 5.25
-Model likes: **Tampa Bay Rays** to win (62%) | Run line: **Chicago White Sox** +1.5 (52% to cover) | Total 8.5: lean **UNDER** (51%)
+Model likes: **Tampa Bay Rays** to win (63%) | Run line: **Chicago White Sox** +1.5 (52% to cover) | Total 8.5: lean **UNDER** (51%)
 
 ### Chicago White Sox lineup -- PROJECTED (unconfirmed)
 **Probable P: Noah Schultz (L)** -- L5: 21.3 IP, 21 K, 16 ER, 6.75 ERA
@@ -1021,7 +1022,7 @@ _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.55)_
 ## 2026-08-01 - Arizona Diamondbacks @ Cleveland Guardians (Scheduled)
 _Progressive Field_
 Projected score: Arizona Diamondbacks 3.38 - Cleveland Guardians 4.16
-Model likes: **Cleveland Guardians** to win (57%) | Run line: **Arizona Diamondbacks** +1.5 (59% to cover) | Total 6.5: lean **OVER** (55%)
+Model likes: **Cleveland Guardians** to win (57%) | Run line: **Arizona Diamondbacks** +1.5 (59% to cover) | Total 7.5: lean **UNDER** (55%)
 
 ### Arizona Diamondbacks lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1236,8 +1237,8 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 
 ## 2026-08-01 - Detroit Tigers @ Athletics (Scheduled)
 _Sutter Health Park_
-Projected score: Detroit Tigers 6.75 - Athletics 4.17
-Model likes: **Detroit Tigers** to win (68%) | Run line: **Detroit Tigers** -1.5 (56% to cover) | Total 10.5: lean **UNDER** (52%)
+Projected score: Detroit Tigers 5.85 - Athletics 4.17
+Model likes: **Detroit Tigers** to win (63%) | Run line: **Athletics** +1.5 (51% to cover) | Total 9.5: lean **UNDER** (51%)
 
 ### Detroit Tigers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1254,6 +1255,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 
 ### Athletics lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
+**Probable P: Jack Perkins (R)** [BULLPEN GAME: short-outing arm, no reliable individual matchup below] -- L5: 22.3 IP, 23 K, 17 ER, 6.85 ERA
 - Jacob Wilson (R) -- L7: 3H 0HR 0RBI 4TB (0.103 avg) -- home split: 0.285 avg
 - Lawrence Butler (L) -- L7: 4H 1HR 4RBI 9TB (0.308 avg) -- home split: 0.226 avg
 - Henry Bolte (R) -- L7: 3H 0HR 1RBI 3TB (0.158 avg) -- home split: 0.289 avg
