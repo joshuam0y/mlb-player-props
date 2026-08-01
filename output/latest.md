@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-01T08:42:07.185993+00:00_
+_Generated 2026-08-01T10:23:44.421898+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -180,7 +180,7 @@ _Facing a taxed bullpen: 7.7 relief IP in last 2 days (ratio 1.38)_
 ## 2026-08-01 - Pittsburgh Pirates @ Cincinnati Reds (Scheduled)
 _Great American Ball Park [hitter-friendly park]_
 Projected score: Pittsburgh Pirates 4.15 - Cincinnati Reds 4.0
-Model likes: **Pittsburgh Pirates** to win (52%) | Run line: **Cincinnati Reds** +1.5 (64% to cover) | Total 7.5: lean **OVER** (51%)
+Model likes: **Pittsburgh Pirates** to win (51%) | Run line: **Cincinnati Reds** +1.5 (64% to cover) | Total 7.5: lean **OVER** (51%)
 
 ### Pittsburgh Pirates lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 6.0 relief IP in last 2 days (ratio 1.37)_
@@ -211,7 +211,7 @@ _Facing a taxed bullpen: 10.7 relief IP in last 2 days (ratio 2.35)_
 ## 2026-08-01 - Philadelphia Phillies @ Baltimore Orioles (Scheduled)
 _Oriole Park at Camden Yards_
 Projected score: Philadelphia Phillies 3.28 - Baltimore Orioles 3.2
-Model likes: **Philadelphia Phillies** to win (51%) | Run line: **Baltimore Orioles** +1.5 (68% to cover) | Total 5.5: lean **OVER** (56%)
+Model likes: **Philadelphia Phillies** to win (51%) | Run line: **Baltimore Orioles** +1.5 (68% to cover) | Total 6.5: lean **UNDER** (56%)
 
 ### Philadelphia Phillies lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.3 relief IP in last 2 days (ratio 0.7)_
@@ -759,7 +759,7 @@ _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.43)_
 ## 2026-08-02 - New York Yankees @ Chicago Cubs (Scheduled)
 _Wrigley Field_
 Projected score: New York Yankees 4.18 - Chicago Cubs 3.81
-Model likes: **New York Yankees** to win (53%) | Run line: **Chicago Cubs** +1.5 (62% to cover) | Total 7.5: lean **UNDER** (51%)
+Model likes: **New York Yankees** to win (53%) | Run line: **Chicago Cubs** +1.5 (63% to cover) | Total 7.5: lean **UNDER** (51%)
 
 ### New York Yankees lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.3 relief IP in last 2 days (ratio 0.61)_
@@ -821,7 +821,7 @@ _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.42)_
 ## 2026-08-02 - Milwaukee Brewers @ Los Angeles Angels (Scheduled)
 _Angel Stadium_
 Projected score: Milwaukee Brewers 3.46 - Los Angeles Angels 1.78
-Model likes: **Milwaukee Brewers** to win (70%) | Run line: **Los Angeles Angels** +1.5 (52% to cover) | Total 4.5: lean **OVER** (54%)
+Model likes: **Milwaukee Brewers** to win (70%) | Run line: **Los Angeles Angels** +1.5 (51% to cover) | Total 4.5: lean **OVER** (54%)
 
 ### Milwaukee Brewers lineup -- PROJECTED (unconfirmed)
 **Probable P: Jacob Misiorowski (R)** -- L5: 27.0 IP, 47 K, 6 ER, 2.0 ERA
