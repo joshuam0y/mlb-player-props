@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-07-31T23:17:59.094107+00:00_
+_Generated 2026-08-01T00:15:34.777707+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -214,7 +214,7 @@ _Facing a taxed bullpen: 11.0 relief IP in last 2 days (ratio 1.73)_
 ## 2026-07-31 - Miami Marlins @ New York Mets (In Progress)
 _Citi Field_
 Projected score: Miami Marlins 5.32 - New York Mets 4.78
-Model likes: **Miami Marlins** to win (54%) | Run line: **New York Mets** +1.5 (59% to cover) | Total 9.5: lean **UNDER** (50%)
+Model likes: **Miami Marlins** to win (54%) | Run line: **New York Mets** +1.5 (59% to cover) | Total 9.5: lean **UNDER** (51%)
 
 ### Miami Marlins lineup -- CONFIRMED
 _Facing a taxed bullpen: 8.7 relief IP in last 2 days (ratio 1.57)_
@@ -272,10 +272,10 @@ _Facing a rested bullpen: 1.0 relief IP in last 2 days (ratio 0.2)_
 - #8 Austin Hedges (R) [MATCHUP EDGE: pitcher hits 0.279 avg-against vs this hand] -- L7: 4H 1HR 3RBI 7TB (0.235 avg) -- home split: 0.267 avg
 - #9 Steven Kwan (L) [likely BABIP-driven, not a real power uptick] -- L7: 10H 0HR 1RBI 11TB (0.333 avg) -- home split: 0.255 avg
 
-## 2026-07-31 - Washington Nationals @ Atlanta Braves (Warmup)
+## 2026-07-31 - Washington Nationals @ Atlanta Braves (In Progress)
 _Truist Park_
 Projected score: Washington Nationals 4.45 - Atlanta Braves 4.0
-Model likes: **Washington Nationals** to win (54%) | Run line: **Atlanta Braves** +1.5 (61% to cover) | Total 7.5: lean **OVER** (54%)
+Model likes: **Washington Nationals** to win (54%) | Run line: **Atlanta Braves** +1.5 (62% to cover) | Total 7.5: lean **OVER** (53%)
 
 ### Washington Nationals lineup -- CONFIRMED
 _Facing a taxed bullpen: 11.0 relief IP in last 2 days (ratio 2.45)_
@@ -303,7 +303,7 @@ _Facing a taxed bullpen: 7.3 relief IP in last 2 days (ratio 1.46)_
 - #8 Joey Bart (R) [3-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 5H 0HR 1RBI 7TB (0.333 avg) -- home split: 0.2 avg
 - #9 Jim Jarvis (L) [TOUGH MATCHUP: pitcher holds this hand to 0.151 avg-against] -- L7: 1H 0HR 1RBI 2TB (0.056 avg) -- home split: 0.243 avg
 
-## 2026-07-31 - Texas Rangers @ Houston Astros (Pre-Game)
+## 2026-07-31 - Texas Rangers @ Houston Astros (Warmup)
 _Daikin Park_
 Projected score: Texas Rangers 3.13 - Houston Astros 4.22
 Model likes: **Houston Astros** to win (60%) | Run line: **Texas Rangers** +1.5 (57% to cover) | Total 6.5: lean **OVER** (53%)
@@ -551,7 +551,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-01 - Chicago White Sox @ Tampa Bay Rays (Scheduled)
 _Tropicana Field_
 Projected score: Chicago White Sox 3.71 - Tampa Bay Rays 5.25
-Model likes: **Tampa Bay Rays** to win (63%) | Run line: **Chicago White Sox** +1.5 (52% to cover) | Total 8.5: lean **UNDER** (52%)
+Model likes: **Tampa Bay Rays** to win (63%) | Run line: **Chicago White Sox** +1.5 (52% to cover) | Total 8.5: lean **UNDER** (51%)
 
 ### Chicago White Sox lineup -- PROJECTED (unconfirmed)
 **Probable P: Noah Schultz (L)** -- L5: 21.3 IP, 21 K, 16 ER, 6.75 ERA
@@ -610,7 +610,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.67)_
 ## 2026-08-01 - Miami Marlins @ New York Mets (Scheduled)
 _Citi Field_
 Projected score: Miami Marlins 2.71 - New York Mets 3.9
-Model likes: **New York Mets** to win (62%) | Run line: **Miami Marlins** +1.5 (56% to cover) | Total 6.5: lean **UNDER** (54%)
+Model likes: **New York Mets** to win (62%) | Run line: **Miami Marlins** +1.5 (56% to cover) | Total 6.5: lean **UNDER** (55%)
 
 ### Miami Marlins lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.7 relief IP in last 2 days (ratio 0.48)_
@@ -765,7 +765,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-01 - New York Yankees @ Chicago Cubs (Scheduled)
 _Wrigley Field_
 Projected score: New York Yankees 4.88 - Chicago Cubs 3.84
-Model likes: **New York Yankees** to win (59%) | Run line: **Chicago Cubs** +1.5 (56% to cover) | Total 8.5: lean **UNDER** (54%)
+Model likes: **New York Yankees** to win (59%) | Run line: **Chicago Cubs** +1.5 (56% to cover) | Total 8.5: lean **UNDER** (53%)
 
 ### New York Yankees lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 8.0 relief IP in last 2 days (ratio 2.1)_
@@ -795,7 +795,7 @@ _Facing a taxed bullpen: 8.0 relief IP in last 2 days (ratio 2.1)_
 ## 2026-08-01 - Washington Nationals @ Atlanta Braves (Scheduled)
 _Truist Park_
 Projected score: Washington Nationals 4.48 - Atlanta Braves 5.79
-Model likes: **Atlanta Braves** to win (60%) | Run line: **Washington Nationals** +1.5 (54% to cover) | Total 9.5: lean **OVER** (51%)
+Model likes: **Atlanta Braves** to win (60%) | Run line: **Washington Nationals** +1.5 (53% to cover) | Total 9.5: lean **OVER** (51%)
 
 ### Washington Nationals lineup -- PROJECTED (unconfirmed)
 **Probable P: Miles Mikolas (R)** -- L5: 24.7 IP, 8 K, 19 ER, 6.93 ERA
@@ -855,10 +855,11 @@ _Facing a rested bullpen: 0.7 relief IP in last 2 days (ratio 0.14)_
 
 ## 2026-08-01 - San Francisco Giants @ San Diego Padres (Scheduled)
 _Petco Park [pitcher-friendly park]_
-Projected score: San Francisco Giants 4.23 - San Diego Padres 4.01
-Model likes: **San Francisco Giants** to win (52%) | Run line: **San Diego Padres** +1.5 (64% to cover) | Total 7.5: lean **OVER** (52%)
+Projected score: San Francisco Giants 4.23 - San Diego Padres 3.91
+Model likes: **San Francisco Giants** to win (53%) | Run line: **San Diego Padres** +1.5 (63% to cover) | Total 7.5: lean **OVER** (51%)
 
 ### San Francisco Giants lineup -- PROJECTED (unconfirmed)
+**Probable P: Tyler Mahle (R)** -- L5: 26.7 IP, 19 K, 11 ER, 3.71 ERA
 - Bryce Eldridge (L) [MATCHUP EDGE: pitcher hits 0.275 avg-against vs this hand] -- L7: 4H 1HR 3RBI 8TB (0.154 avg) -- away split: 0.28 avg
 - Heliot Ramos (R) [3-game hit streak] -- L7: 8H 0HR 3RBI 8TB (0.258 avg) -- away split: 0.248 avg
 - Rafael Devers (L) [MATCHUP EDGE: pitcher hits 0.275 avg-against vs this hand] [likely BABIP-driven, not a real power uptick] -- L7: 9H 2HR 8RBI 16TB (0.346 avg) -- away split: 0.256 avg
@@ -945,7 +946,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-01 - Detroit Tigers @ Athletics (Scheduled)
 _Sutter Health Park_
 Projected score: Detroit Tigers 5.85 - Athletics 4.09
-Model likes: **Detroit Tigers** to win (63%) | Run line: **Athletics** +1.5 (50% to cover) | Total 9.5: lean **UNDER** (52%)
+Model likes: **Detroit Tigers** to win (63%) | Run line: **Detroit Tigers** -1.5 (50% to cover) | Total 9.5: lean **UNDER** (52%)
 
 ### Detroit Tigers lineup -- PROJECTED (unconfirmed)
 **Probable P: Framber Valdez (L)** -- L5: 23.7 IP, 17 K, 18 ER, 6.85 ERA
@@ -1129,7 +1130,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-02 - Arizona Diamondbacks @ Cleveland Guardians (Scheduled)
 _Progressive Field_
 Projected score: Arizona Diamondbacks 3.64 - Cleveland Guardians 3.43
-Model likes: **Arizona Diamondbacks** to win (52%) | Run line: **Cleveland Guardians** +1.5 (65% to cover) | Total 6.5: lean **OVER** (50%)
+Model likes: **Arizona Diamondbacks** to win (52%) | Run line: **Cleveland Guardians** +1.5 (65% to cover) | Total 6.5: lean **OVER** (51%)
 
 ### Arizona Diamondbacks lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1314,7 +1315,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-02 - Detroit Tigers @ Athletics (Scheduled)
 _Sutter Health Park_
 Projected score: Detroit Tigers 4.39 - Athletics 3.61
-Model likes: **Detroit Tigers** to win (57%) | Run line: **Athletics** +1.5 (59% to cover) | Total 7.5: lean **UNDER** (51%)
+Model likes: **Detroit Tigers** to win (57%) | Run line: **Athletics** +1.5 (59% to cover) | Total 7.5: lean **UNDER** (50%)
 
 ### Detroit Tigers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1375,11 +1376,12 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 
 ## 2026-08-02 - San Francisco Giants @ San Diego Padres (Scheduled)
 _Petco Park [pitcher-friendly park]_
-Projected score: San Francisco Giants 3.33 - San Diego Padres 4.01
-Model likes: **San Diego Padres** to win (56%) | Run line: **San Francisco Giants** +1.5 (61% to cover) | Total 6.5: lean **OVER** (53%)
+Projected score: San Francisco Giants 3.33 - San Diego Padres 3.49
+Model likes: **San Diego Padres** to win (52%) | Run line: **San Francisco Giants** +1.5 (66% to cover) | Total 6.5: lean **UNDER** (52%)
 
 ### San Francisco Giants lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
+**Probable P: Landen Roupp (R)** -- L5: 27.3 IP, 19 K, 13 ER, 4.28 ERA
 - Bryce Eldridge (L) -- L7: 4H 1HR 3RBI 8TB (0.154 avg) -- away split: 0.28 avg
 - Heliot Ramos (R) [3-game hit streak] -- L7: 8H 0HR 3RBI 8TB (0.258 avg) -- away split: 0.248 avg
 - Rafael Devers (L) [likely BABIP-driven, not a real power uptick] -- L7: 9H 2HR 8RBI 16TB (0.346 avg) -- away split: 0.256 avg
