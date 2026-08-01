@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-01T12:26:32.218362+00:00_
+_Generated 2026-08-01T12:41:54.011415+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -58,7 +58,7 @@ _Generated 2026-08-01T12:26:32.218362+00:00_
 ## 2026-08-01 - St. Louis Cardinals @ Toronto Blue Jays (Scheduled)
 _Rogers Centre_
 Projected score: St. Louis Cardinals 3.84 - Toronto Blue Jays 3.93
-Model likes: **Toronto Blue Jays** to win (51%) | Run line: **St. Louis Cardinals** +1.5 (66% to cover) | Total 7.5: lean **UNDER** (53%)
+Model likes: **Toronto Blue Jays** to win (51%) | Run line: **St. Louis Cardinals** +1.5 (65% to cover) | Total 7.5: lean **UNDER** (53%)
 
 ### St. Louis Cardinals lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.5)_
@@ -759,7 +759,7 @@ _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.43)_
 ## 2026-08-02 - New York Yankees @ Chicago Cubs (Scheduled)
 _Wrigley Field_
 Projected score: New York Yankees 4.18 - Chicago Cubs 3.81
-Model likes: **New York Yankees** to win (53%) | Run line: **Chicago Cubs** +1.5 (63% to cover) | Total 7.5: lean **UNDER** (51%)
+Model likes: **New York Yankees** to win (53%) | Run line: **Chicago Cubs** +1.5 (62% to cover) | Total 7.5: lean **UNDER** (51%)
 
 ### New York Yankees lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.3 relief IP in last 2 days (ratio 0.61)_
@@ -790,7 +790,7 @@ _Facing a rested bullpen: 2.3 relief IP in last 2 days (ratio 0.44)_
 ## 2026-08-02 - Kansas City Royals @ Colorado Rockies (Scheduled)
 _Coors Field [hitter-friendly park]_
 Projected score: Kansas City Royals 5.31 - Colorado Rockies 4.46
-Model likes: **Kansas City Royals** to win (57%) | Run line: **Colorado Rockies** +1.5 (57% to cover) | Total 9.5: lean **UNDER** (53%)
+Model likes: **Kansas City Royals** to win (56%) | Run line: **Colorado Rockies** +1.5 (57% to cover) | Total 9.5: lean **UNDER** (53%)
 
 ### Kansas City Royals lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.3 relief IP in last 2 days (ratio 0.48)_
@@ -1115,7 +1115,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-03 - Toronto Blue Jays @ Houston Astros (Scheduled)
 _Daikin Park_
 Projected score: Toronto Blue Jays 4.13 - Houston Astros 4.66
-Model likes: **Houston Astros** to win (55%) | Run line: **Toronto Blue Jays** +1.5 (60% to cover) | Total 8.5: lean **UNDER** (53%)
+Model likes: **Houston Astros** to win (54%) | Run line: **Toronto Blue Jays** +1.5 (60% to cover) | Total 8.5: lean **UNDER** (53%)
 
 ### Toronto Blue Jays lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
