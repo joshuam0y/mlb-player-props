@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-01T22:21:29.923791+00:00_
+_Generated 2026-08-01T22:29:02.630016+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -84,10 +84,9 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.5)_
 - #8 Myles Straw (R) [MATCHUP EDGE: pitcher hits 0.294 avg-against vs this hand] -- L7: 2H 0HR 1RBI 3TB (0.167 avg) -- home split: 0.2 avg
 - #9 Davis Schneider (R) [MATCHUP EDGE: pitcher hits 0.294 avg-against vs this hand] -- L7: 1H 0HR 0RBI 2TB (0.091 avg) -- home split: 0.135 avg
 
-## 2026-08-01 - Chicago White Sox @ Tampa Bay Rays (In Progress)
+## 2026-08-01 - Chicago White Sox @ Tampa Bay Rays (Game Over)
 _Tropicana Field_
-Projected score: Chicago White Sox 3.71 - Tampa Bay Rays 3.47
-Model likes: **Chicago White Sox** to win (52%) | Run line: **Tampa Bay Rays** +1.5 (65% to cover) | Total 6.5: lean **OVER** (52%)
+Final: Chicago White Sox 0 - Tampa Bay Rays 1
 
 ### Chicago White Sox lineup -- CONFIRMED
 _Facing a taxed bullpen: 9.0 relief IP in last 2 days (ratio 1.69)_
@@ -179,7 +178,7 @@ _Facing a taxed bullpen: 7.7 relief IP in last 2 days (ratio 1.38)_
 ## 2026-08-01 - Pittsburgh Pirates @ Cincinnati Reds (Warmup)
 _Great American Ball Park [hitter-friendly park]_
 Projected score: Pittsburgh Pirates 4.21 - Cincinnati Reds 4.14
-Model likes: **Pittsburgh Pirates** to win (51%) | Run line: **Cincinnati Reds** +1.5 (65% to cover) | Total 7.5: lean **OVER** (52%)
+Model likes: **Pittsburgh Pirates** to win (51%) | Run line: **Cincinnati Reds** +1.5 (65% to cover) | Total 7.5: lean **OVER** (53%)
 
 ### Pittsburgh Pirates lineup -- CONFIRMED
 _Facing a taxed bullpen: 6.0 relief IP in last 2 days (ratio 1.37)_
@@ -332,7 +331,7 @@ _Facing a taxed bullpen: 8.0 relief IP in last 2 days (ratio 2.1)_
 ## 2026-08-01 - Washington Nationals @ Atlanta Braves (Pre-Game)
 _Truist Park_
 Projected score: Washington Nationals 4.14 - Atlanta Braves 5.8
-Model likes: **Atlanta Braves** to win (63%) | Run line: **Washington Nationals** +1.5 (51% to cover) | Total 9.5: lean **UNDER** (52%)
+Model likes: **Atlanta Braves** to win (62%) | Run line: **Washington Nationals** +1.5 (51% to cover) | Total 9.5: lean **UNDER** (52%)
 
 ### Washington Nationals lineup -- CONFIRMED
 _Facing a taxed bullpen: 7.3 relief IP in last 2 days (ratio 1.57)_
@@ -484,21 +483,21 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.52)_
 
 ## 2026-08-01 - Detroit Tigers @ Athletics (Pre-Game)
 _Sutter Health Park_
-Projected score: Detroit Tigers 6.29 - Athletics 3.99
-Model likes: **Detroit Tigers** to win (67%) | Run line: **Detroit Tigers** -1.5 (54% to cover) | Total 9.5: lean **OVER** (51%)
+Projected score: Detroit Tigers 6.27 - Athletics 3.99
+Model likes: **Detroit Tigers** to win (67%) | Run line: **Detroit Tigers** -1.5 (54% to cover) | Total 9.5: lean **OVER** (50%)
 
-### Detroit Tigers lineup -- PROJECTED (unconfirmed)
+### Detroit Tigers lineup -- CONFIRMED
 _Facing a taxed bullpen: 9.0 relief IP in last 2 days (ratio 2.02)_
 **Probable P: Framber Valdez (L)** -- L5: 23.7 IP, 17 K, 18 ER, 6.85 ERA
-- Dillon Dingler (R) -- L7: 6H 1HR 6RBI 9TB (0.207 avg) -- away split: 0.28 avg
-- Colt Keith (L) -- L7: 9H 0HR 2RBI 15TB (0.429 avg) -- away split: 0.261 avg
-- Riley Greene (L) -- L7: 4H 0HR 3RBI 7TB (0.16 avg) -- away split: 0.282 avg
-- Spencer Torkelson (R) [likely BABIP-driven, not a real power uptick] -- L7: 8H 1HR 4RBI 11TB (0.364 avg) -- away split: 0.22 avg
-- Zach McKinstry (L) -- L7: 6H 0HR 3RBI 10TB (0.316 avg) -- away split: 0.13 avg
-- Kevin McGonigle (L) -- L7: 10H 1HR 4RBI 13TB (0.333 avg) -- away split: 0.294 avg
-- Hao-Yu Lee (R) -- L7: 6H 1HR 6RBI 12TB (0.353 avg) -- away split: 0.277 avg
-- James Outman (L) [likely BABIP-driven, not a real power uptick] -- L7: 4H 1HR 3RBI 7TB (0.25 avg) -- away split: 0.114 avg
-- Gleyber Torres (R) -- L7: 4H 1HR 5RBI 9TB (0.154 avg) -- away split: 0.258 avg
+- #1 Kevin McGonigle (L) -- L7: 10H 1HR 4RBI 13TB (0.333 avg) -- away split: 0.294 avg
+- #2 Gleyber Torres (R) -- L7: 4H 1HR 5RBI 9TB (0.154 avg) -- away split: 0.258 avg
+- #3 Dillon Dingler (R) -- L7: 6H 1HR 6RBI 9TB (0.207 avg) -- away split: 0.28 avg
+- #4 Riley Greene (L) -- L7: 4H 0HR 3RBI 7TB (0.16 avg) -- away split: 0.282 avg
+- #5 Colt Keith (L) -- L7: 9H 0HR 2RBI 15TB (0.429 avg) -- away split: 0.261 avg
+- #6 Spencer Torkelson (R) [likely BABIP-driven, not a real power uptick] -- L7: 8H 1HR 4RBI 11TB (0.364 avg) -- away split: 0.22 avg
+- #7 Max Clark (L) -- L7: 3H 0HR 1RBI 5TB (0.75 avg) -- away split: 0.75 avg -- news: Mayo: Don't judge a book by its cover -- especially Max Clark
+- #8 Javier Báez (R) [3-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 9H 1HR 6RBI 13TB (0.375 avg) -- away split: 0.314 avg
+- #9 Zach McKinstry (L) -- L7: 6H 0HR 3RBI 10TB (0.316 avg) -- away split: 0.13 avg
 
 ### Athletics lineup -- CONFIRMED
 _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.46)_
@@ -756,7 +755,7 @@ _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.43)_
 ## 2026-08-02 - New York Yankees @ Chicago Cubs (Scheduled)
 _Wrigley Field_
 Projected score: New York Yankees 4.18 - Chicago Cubs 3.79
-Model likes: **New York Yankees** to win (54%) | Run line: **Chicago Cubs** +1.5 (62% to cover) | Total 7.5: lean **UNDER** (51%)
+Model likes: **New York Yankees** to win (53%) | Run line: **Chicago Cubs** +1.5 (63% to cover) | Total 7.5: lean **UNDER** (51%)
 
 ### New York Yankees lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.3 relief IP in last 2 days (ratio 0.61)_
