@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-01T16:18:37.322025+00:00_
+_Generated 2026-08-01T16:31:22.909382+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -58,7 +58,7 @@ _Generated 2026-08-01T16:18:37.322025+00:00_
 ## 2026-08-01 - St. Louis Cardinals @ Toronto Blue Jays (Pre-Game)
 _Rogers Centre_
 Projected score: St. Louis Cardinals 3.82 - Toronto Blue Jays 4.11
-Model likes: **Toronto Blue Jays** to win (53%) | Run line: **St. Louis Cardinals** +1.5 (64% to cover) | Total 7.5: lean **UNDER** (51%)
+Model likes: **Toronto Blue Jays** to win (53%) | Run line: **St. Louis Cardinals** +1.5 (63% to cover) | Total 7.5: lean **UNDER** (51%)
 
 ### St. Louis Cardinals lineup -- CONFIRMED
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.5)_
@@ -119,7 +119,7 @@ _Facing a taxed bullpen: 9.0 relief IP in last 2 days (ratio 1.41)_
 ## 2026-08-01 - Minnesota Twins @ Seattle Mariners (Scheduled)
 _T-Mobile Park [pitcher-friendly park]_
 Projected score: Minnesota Twins 3.58 - Seattle Mariners 3.77
-Model likes: **Seattle Mariners** to win (52%) | Run line: **Minnesota Twins** +1.5 (65% to cover) | Total 6.5: lean **OVER** (53%)
+Model likes: **Seattle Mariners** to win (52%) | Run line: **Minnesota Twins** +1.5 (65% to cover) | Total 6.5: lean **OVER** (54%)
 
 ### Minnesota Twins lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 6.7 relief IP in last 2 days (ratio 1.47)_
@@ -242,7 +242,7 @@ _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.43)_
 ## 2026-08-01 - Texas Rangers @ Houston Astros (Scheduled)
 _Daikin Park_
 Projected score: Texas Rangers 5.54 - Houston Astros 4.07
-Model likes: **Texas Rangers** to win (62%) | Run line: **Houston Astros** +1.5 (52% to cover) | Total 8.5: lean **OVER** (54%)
+Model likes: **Texas Rangers** to win (61%) | Run line: **Houston Astros** +1.5 (52% to cover) | Total 8.5: lean **OVER** (54%)
 
 ### Texas Rangers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.3 relief IP in last 2 days (ratio 0.61)_
@@ -821,7 +821,7 @@ _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.42)_
 ## 2026-08-02 - Milwaukee Brewers @ Los Angeles Angels (Scheduled)
 _Angel Stadium_
 Projected score: Milwaukee Brewers 3.46 - Los Angeles Angels 1.78
-Model likes: **Milwaukee Brewers** to win (70%) | Run line: **Los Angeles Angels** +1.5 (52% to cover) | Total 4.5: lean **OVER** (54%)
+Model likes: **Milwaukee Brewers** to win (70%) | Run line: **Los Angeles Angels** +1.5 (51% to cover) | Total 4.5: lean **OVER** (54%)
 
 ### Milwaukee Brewers lineup -- PROJECTED (unconfirmed)
 **Probable P: Jacob Misiorowski (R)** -- L5: 27.0 IP, 47 K, 6 ER, 2.0 ERA
@@ -1057,7 +1057,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-03 - San Francisco Giants @ Texas Rangers (Scheduled)
 _Globe Life Field [hitter-friendly park]_
 Projected score: San Francisco Giants 4.72 - Texas Rangers 4.58
-Model likes: **San Francisco Giants** to win (51%) | Run line: **Texas Rangers** +1.5 (63% to cover) | Total 8.5: lean **OVER** (52%)
+Model likes: **San Francisco Giants** to win (51%) | Run line: **Texas Rangers** +1.5 (63% to cover) | Total 8.5: lean **OVER** (51%)
 
 ### San Francisco Giants lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
