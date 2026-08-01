@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-01T10:23:44.421898+00:00_
+_Generated 2026-08-01T10:24:07.059651+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -150,7 +150,7 @@ _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.88)_
 ## 2026-08-01 - Miami Marlins @ New York Mets (Scheduled)
 _Citi Field_
 Projected score: Miami Marlins 2.63 - New York Mets 3.8
-Model likes: **New York Mets** to win (62%) | Run line: **Miami Marlins** +1.5 (57% to cover) | Total 5.5: lean **OVER** (55%)
+Model likes: **New York Mets** to win (62%) | Run line: **Miami Marlins** +1.5 (56% to cover) | Total 5.5: lean **OVER** (55%)
 
 ### Miami Marlins lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 7.7 relief IP in last 2 days (ratio 1.38)_
@@ -333,7 +333,7 @@ _Facing a taxed bullpen: 8.0 relief IP in last 2 days (ratio 2.1)_
 ## 2026-08-01 - Washington Nationals @ Atlanta Braves (Scheduled)
 _Truist Park_
 Projected score: Washington Nationals 4.41 - Atlanta Braves 5.58
-Model likes: **Atlanta Braves** to win (59%) | Run line: **Washington Nationals** +1.5 (55% to cover) | Total 9.5: lean **UNDER** (51%)
+Model likes: **Atlanta Braves** to win (59%) | Run line: **Washington Nationals** +1.5 (55% to cover) | Total 9.5: lean **UNDER** (52%)
 
 ### Washington Nationals lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 7.3 relief IP in last 2 days (ratio 1.63)_
@@ -486,7 +486,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.52)_
 ## 2026-08-01 - Detroit Tigers @ Athletics (Scheduled)
 _Sutter Health Park_
 Projected score: Detroit Tigers 6.26 - Athletics 4.03
-Model likes: **Detroit Tigers** to win (66%) | Run line: **Detroit Tigers** -1.5 (53% to cover) | Total 9.5: lean **OVER** (51%)
+Model likes: **Detroit Tigers** to win (66%) | Run line: **Detroit Tigers** -1.5 (54% to cover) | Total 9.5: lean **OVER** (51%)
 
 ### Detroit Tigers lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 9.0 relief IP in last 2 days (ratio 2.02)_
@@ -790,7 +790,7 @@ _Facing a rested bullpen: 2.3 relief IP in last 2 days (ratio 0.44)_
 ## 2026-08-02 - Kansas City Royals @ Colorado Rockies (Scheduled)
 _Coors Field [hitter-friendly park]_
 Projected score: Kansas City Royals 5.31 - Colorado Rockies 4.46
-Model likes: **Kansas City Royals** to win (57%) | Run line: **Colorado Rockies** +1.5 (57% to cover) | Total 9.5: lean **UNDER** (53%)
+Model likes: **Kansas City Royals** to win (56%) | Run line: **Colorado Rockies** +1.5 (57% to cover) | Total 9.5: lean **UNDER** (53%)
 
 ### Kansas City Royals lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.3 relief IP in last 2 days (ratio 0.48)_
@@ -1115,7 +1115,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-03 - Toronto Blue Jays @ Houston Astros (Scheduled)
 _Daikin Park_
 Projected score: Toronto Blue Jays 4.13 - Houston Astros 4.66
-Model likes: **Houston Astros** to win (55%) | Run line: **Toronto Blue Jays** +1.5 (60% to cover) | Total 8.5: lean **UNDER** (53%)
+Model likes: **Houston Astros** to win (54%) | Run line: **Toronto Blue Jays** +1.5 (60% to cover) | Total 8.5: lean **UNDER** (53%)
 
 ### Toronto Blue Jays lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
