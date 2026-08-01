@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-01T18:14:05.982570+00:00_
+_Generated 2026-08-01T18:25:46.553634+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -211,7 +211,7 @@ _Facing a taxed bullpen: 10.7 relief IP in last 2 days (ratio 2.35)_
 ## 2026-08-01 - Philadelphia Phillies @ Baltimore Orioles (Scheduled)
 _Oriole Park at Camden Yards_
 Projected score: Philadelphia Phillies 3.28 - Baltimore Orioles 3.2
-Model likes: **Philadelphia Phillies** to win (51%) | Run line: **Baltimore Orioles** +1.5 (68% to cover) | Total 6.5: lean **UNDER** (56%)
+Model likes: **Philadelphia Phillies** to win (51%) | Run line: **Baltimore Orioles** +1.5 (68% to cover) | Total 5.5: lean **OVER** (56%)
 
 ### Philadelphia Phillies lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.3 relief IP in last 2 days (ratio 0.7)_
@@ -332,11 +332,11 @@ _Facing a taxed bullpen: 8.0 relief IP in last 2 days (ratio 2.1)_
 
 ## 2026-08-01 - Washington Nationals @ Atlanta Braves (Scheduled)
 _Truist Park_
-Projected score: Washington Nationals 4.41 - Atlanta Braves 5.58
-Model likes: **Atlanta Braves** to win (59%) | Run line: **Washington Nationals** +1.5 (55% to cover) | Total 9.5: lean **UNDER** (52%)
+Projected score: Washington Nationals 4.38 - Atlanta Braves 5.58
+Model likes: **Atlanta Braves** to win (59%) | Run line: **Washington Nationals** +1.5 (54% to cover) | Total 9.5: lean **UNDER** (52%)
 
 ### Washington Nationals lineup -- PROJECTED (unconfirmed)
-_Facing a taxed bullpen: 7.3 relief IP in last 2 days (ratio 1.63)_
+_Facing a taxed bullpen: 7.3 relief IP in last 2 days (ratio 1.57)_
 **Probable P: Miles Mikolas (R)** -- L5: 24.7 IP, 8 K, 19 ER, 6.93 ERA
 - Daylen Lile (L) [7-game hit streak] -- L7: 8H 2HR 5RBI 16TB (0.308 avg) -- away split: 0.276 avg
 - James Wood (L) -- L7: 7H 2HR 3RBI 14TB (0.259 avg) -- away split: 0.244 avg
@@ -547,11 +547,11 @@ _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.43)_
 
 ## 2026-08-02 - Washington Nationals @ Atlanta Braves (Scheduled)
 _Truist Park_
-Projected score: Washington Nationals 4.54 - Atlanta Braves 4.35
-Model likes: **Washington Nationals** to win (52%) | Run line: **Atlanta Braves** +1.5 (63% to cover) | Total 8.5: lean **UNDER** (52%)
+Projected score: Washington Nationals 4.51 - Atlanta Braves 4.35
+Model likes: **Washington Nationals** to win (51%) | Run line: **Atlanta Braves** +1.5 (63% to cover) | Total 8.5: lean **UNDER** (52%)
 
 ### Washington Nationals lineup -- PROJECTED (unconfirmed)
-_Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.67)_
+_Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.64)_
 **Probable P: Cade Cavalli (R)** -- L5: 26.3 IP, 28 K, 9 ER, 3.08 ERA
 - Daylen Lile (L) [7-game hit streak] -- L7: 8H 2HR 5RBI 16TB (0.308 avg) -- away split: 0.276 avg
 - James Wood (L) -- L7: 7H 2HR 3RBI 14TB (0.259 avg) -- away split: 0.244 avg
@@ -1028,7 +1028,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-03 - Pittsburgh Pirates @ Milwaukee Brewers (Scheduled)
 _American Family Field_
 Projected score: Pittsburgh Pirates 4.15 - Milwaukee Brewers 5.24
-Model likes: **Milwaukee Brewers** to win (59%) | Run line: **Pittsburgh Pirates** +1.5 (56% to cover) | Total 8.5: lean **OVER** (52%)
+Model likes: **Milwaukee Brewers** to win (59%) | Run line: **Pittsburgh Pirates** +1.5 (55% to cover) | Total 8.5: lean **OVER** (52%)
 
 ### Pittsburgh Pirates lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
