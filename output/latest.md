@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-01T23:23:47.576686+00:00_
+_Generated 2026-08-01T23:30:54.607989+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -114,7 +114,7 @@ _Facing a taxed bullpen: 9.0 relief IP in last 2 days (ratio 1.41)_
 - #8 Nick Fortes (R) -- L7: 11H 2HR 7RBI 19TB (0.5 avg) -- home split: 0.256 avg
 - #9 Taylor Walls (S) -- L7: 2H 0HR 0RBI 3TB (0.133 avg) -- home split: 0.221 avg
 
-## 2026-08-01 - Minnesota Twins @ Seattle Mariners (Game Over)
+## 2026-08-01 - Minnesota Twins @ Seattle Mariners (Final)
 _T-Mobile Park [pitcher-friendly park]_
 Final: Minnesota Twins 3 - Seattle Mariners 4
 
@@ -144,7 +144,7 @@ _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.88)_
 - #8 Weston Wilson (R) -- L7: 3H 0HR 1RBI 4TB (0.176 avg) -- home split: 0.188 avg
 - #9 Colt Emerson (L) -- L7: 5H 0HR 0RBI 6TB (0.208 avg) -- home split: 0.165 avg
 
-## 2026-08-01 - Miami Marlins @ New York Mets (Game Over)
+## 2026-08-01 - Miami Marlins @ New York Mets (Final)
 _Citi Field_
 Final: Miami Marlins 6 - New York Mets 2
 
@@ -390,7 +390,7 @@ _Facing a rested bullpen: 2.7 relief IP in last 2 days (ratio 0.56)_
 ## 2026-08-01 - San Francisco Giants @ San Diego Padres (Pre-Game)
 _Petco Park [pitcher-friendly park]_
 Projected score: San Francisco Giants 4.08 - San Diego Padres 4.25
-Model likes: **San Diego Padres** to win (52%) | Run line: **San Francisco Giants** +1.5 (64% to cover) | Total 7.5: lean **OVER** (52%)
+Model likes: **San Diego Padres** to win (51%) | Run line: **San Francisco Giants** +1.5 (64% to cover) | Total 7.5: lean **OVER** (52%)
 
 ### San Francisco Giants lineup -- CONFIRMED
 _Facing a taxed bullpen: 13.3 relief IP in last 2 days (ratio 2.12)_
@@ -543,8 +543,8 @@ _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.43)_
 
 ## 2026-08-02 - Washington Nationals @ Atlanta Braves (Scheduled)
 _Truist Park_
-Projected score: Washington Nationals 4.51 - Atlanta Braves 4.35
-Model likes: **Washington Nationals** to win (51%) | Run line: **Atlanta Braves** +1.5 (63% to cover) | Total 8.5: lean **UNDER** (52%)
+Projected score: Washington Nationals 5.04 - Atlanta Braves 4.35
+Model likes: **Washington Nationals** to win (55%) | Run line: **Atlanta Braves** +1.5 (59% to cover) | Total 8.5: lean **OVER** (52%)
 
 ### Washington Nationals lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.64)_
@@ -561,7 +561,6 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.64)_
 
 ### Atlanta Braves lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.7 relief IP in last 2 days (ratio 0.53)_
-**Probable P: Martín Pérez (L)** -- L5: 22.3 IP, 13 K, 14 ER, 5.64 ERA
 - Drake Baldwin (L) [MATCHUP EDGE: pitcher hits 0.271 avg-against vs this hand] -- L7: 8H 0HR 0RBI 9TB (0.296 avg) -- home split: 0.284 avg
 - Michael Harris II (L) [MATCHUP EDGE: pitcher hits 0.271 avg-against vs this hand] -- L7: 5H 1HR 3RBI 9TB (0.185 avg) -- home split: 0.284 avg
 - Ozzie Albies (S) [MATCHUP EDGE: pitcher hits 0.271 avg-against vs this hand] -- L7: 7H 2HR 6RBI 13TB (0.25 avg) -- home split: 0.277 avg
@@ -755,7 +754,7 @@ _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.43)_
 ## 2026-08-02 - New York Yankees @ Chicago Cubs (Scheduled)
 _Wrigley Field_
 Projected score: New York Yankees 4.18 - Chicago Cubs 3.79
-Model likes: **New York Yankees** to win (53%) | Run line: **Chicago Cubs** +1.5 (63% to cover) | Total 7.5: lean **UNDER** (51%)
+Model likes: **New York Yankees** to win (54%) | Run line: **Chicago Cubs** +1.5 (62% to cover) | Total 7.5: lean **UNDER** (51%)
 
 ### New York Yankees lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.3 relief IP in last 2 days (ratio 0.61)_
@@ -1026,7 +1025,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.6)_
 ## 2026-08-03 - Pittsburgh Pirates @ Milwaukee Brewers (Scheduled)
 _American Family Field_
 Projected score: Pittsburgh Pirates 4.15 - Milwaukee Brewers 5.24
-Model likes: **Milwaukee Brewers** to win (59%) | Run line: **Pittsburgh Pirates** +1.5 (56% to cover) | Total 8.5: lean **OVER** (52%)
+Model likes: **Milwaukee Brewers** to win (59%) | Run line: **Pittsburgh Pirates** +1.5 (55% to cover) | Total 8.5: lean **OVER** (52%)
 
 ### Pittsburgh Pirates lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
