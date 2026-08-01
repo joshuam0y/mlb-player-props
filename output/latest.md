@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-01T14:57:39.419860+00:00_
+_Generated 2026-08-01T15:21:01.308177+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -211,7 +211,7 @@ _Facing a taxed bullpen: 10.7 relief IP in last 2 days (ratio 2.35)_
 ## 2026-08-01 - Philadelphia Phillies @ Baltimore Orioles (Scheduled)
 _Oriole Park at Camden Yards_
 Projected score: Philadelphia Phillies 3.28 - Baltimore Orioles 3.2
-Model likes: **Philadelphia Phillies** to win (51%) | Run line: **Baltimore Orioles** +1.5 (68% to cover) | Total 5.5: lean **OVER** (56%)
+Model likes: **Philadelphia Phillies** to win (51%) | Run line: **Baltimore Orioles** +1.5 (68% to cover) | Total 6.5: lean **UNDER** (56%)
 
 ### Philadelphia Phillies lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.3 relief IP in last 2 days (ratio 0.7)_
@@ -333,7 +333,7 @@ _Facing a taxed bullpen: 8.0 relief IP in last 2 days (ratio 2.1)_
 ## 2026-08-01 - Washington Nationals @ Atlanta Braves (Scheduled)
 _Truist Park_
 Projected score: Washington Nationals 4.41 - Atlanta Braves 5.58
-Model likes: **Atlanta Braves** to win (59%) | Run line: **Washington Nationals** +1.5 (55% to cover) | Total 9.5: lean **UNDER** (52%)
+Model likes: **Atlanta Braves** to win (59%) | Run line: **Washington Nationals** +1.5 (55% to cover) | Total 9.5: lean **UNDER** (51%)
 
 ### Washington Nationals lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 7.3 relief IP in last 2 days (ratio 1.63)_
@@ -790,7 +790,7 @@ _Facing a rested bullpen: 2.3 relief IP in last 2 days (ratio 0.44)_
 ## 2026-08-02 - Kansas City Royals @ Colorado Rockies (Scheduled)
 _Coors Field [hitter-friendly park]_
 Projected score: Kansas City Royals 5.31 - Colorado Rockies 4.46
-Model likes: **Kansas City Royals** to win (56%) | Run line: **Colorado Rockies** +1.5 (57% to cover) | Total 9.5: lean **UNDER** (53%)
+Model likes: **Kansas City Royals** to win (57%) | Run line: **Colorado Rockies** +1.5 (57% to cover) | Total 9.5: lean **UNDER** (53%)
 
 ### Kansas City Royals lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.3 relief IP in last 2 days (ratio 0.48)_
@@ -1028,7 +1028,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-03 - Pittsburgh Pirates @ Milwaukee Brewers (Scheduled)
 _American Family Field_
 Projected score: Pittsburgh Pirates 4.15 - Milwaukee Brewers 5.24
-Model likes: **Milwaukee Brewers** to win (59%) | Run line: **Pittsburgh Pirates** +1.5 (55% to cover) | Total 8.5: lean **OVER** (52%)
+Model likes: **Milwaukee Brewers** to win (59%) | Run line: **Pittsburgh Pirates** +1.5 (56% to cover) | Total 8.5: lean **OVER** (52%)
 
 ### Pittsburgh Pirates lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1115,7 +1115,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-03 - Toronto Blue Jays @ Houston Astros (Scheduled)
 _Daikin Park_
 Projected score: Toronto Blue Jays 4.13 - Houston Astros 4.66
-Model likes: **Houston Astros** to win (54%) | Run line: **Toronto Blue Jays** +1.5 (60% to cover) | Total 8.5: lean **UNDER** (53%)
+Model likes: **Houston Astros** to win (55%) | Run line: **Toronto Blue Jays** +1.5 (60% to cover) | Total 8.5: lean **UNDER** (53%)
 
 ### Toronto Blue Jays lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
