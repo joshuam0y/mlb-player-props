@@ -11,6 +11,16 @@ public news RSS feed -- no paid odds API, no scraping of betting sites.
 
 _Updated with every change going forward._
 
+- **2026-08-01** -- Fixed a real gap: a game that went Final showed the
+  final score but no Moneyline/Run line/Total HIT/MISS verdict for
+  however long it took until the NEXT full page rebuild (every ~15-60
+  min) -- that grading logic only existed in the server-rendered HTML,
+  which a game usually outlives (a ~3 hour game vs. a 15-60 min rebuild
+  cycle almost always means the pre-game picks line has already been
+  removed from the page by the time the game actually ends). The client-
+  side live tracker now grades all three itself the moment MLB's feed
+  reports Final, using the same rules as the two existing (server-side)
+  copies of this logic, so they can never disagree.
 - **2026-07-30** -- Extended the bullpen-game fix below to the actual
   score/win-probability model, not just the matchup badge: the probable
   starter's own run rate used to get a flat 60% weight in the run-

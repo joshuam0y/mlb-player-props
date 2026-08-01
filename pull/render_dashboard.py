@@ -1442,6 +1442,68 @@ function winProbHtml(linescore, gameData, realWp) {
   );
 }
 
+// Mirrors _game_line_html()'s own Final branch in the Python template
+// (and grade_picks.py's _grade_games() grading rules) exactly, so the
+// three can never disagree on what counts as a hit -- see this project's
+// established pattern for keeping duplicated grading logic in lockstep.
+// Needed client-side at all because that Python version only ever
+// reaches the page on the NEXT full rebuild (every ~15-60 min); without
+// this, a game that just went Final showed a bare score with no
+// Moneyline/Run line/Total verdict for however long that gap lasted.
+function gradeFinalGameLine(el, homeRuns, awayRuns) {
+  if (el.dataset.mlPick === undefined) return; // no pre-game projection to grade against
+  // .game-line only exists in the DOM if the game was still Scheduled (or
+  // already Final) as of the last full rebuild -- _game_line_html() omits
+  // it entirely once a game is seen as Live, and it only comes back,
+  // freshly rendered, on the NEXT rebuild. A real game takes ~3 hours and
+  // rebuilds happen every ~15-60 min, so by the time a game actually goes
+  // Final, .game-line has almost always already been removed -- create it
+  // fresh in that case rather than silently doing nothing.
+  let line = el.querySelector('.game-line');
+  if (!line) {
+    const tracker = el.querySelector('.live-tracker');
+    if (!tracker) return;
+    line = document.createElement('div');
+    line.className = 'game-line';
+    tracker.parentNode.insertBefore(line, tracker);
+  }
+
+  const homeExp = parseFloat(el.dataset.homeExpRuns);
+  const awayExp = parseFloat(el.dataset.awayExpRuns);
+  const margin = homeRuns - awayRuns; // MLB games never end tied
+  const badge = function (hit) { return '<span class="badge badge-' + (hit ? 'hit' : 'miss') + '">' + (hit ? 'HIT' : 'MISS') + '</span>'; };
+
+  const mlPick = el.dataset.mlPick;
+  const mlTeam = mlPick === 'home' ? el.dataset.homeTeam : el.dataset.awayTeam;
+  const mlHit = (mlPick === 'home') === (margin > 0);
+  let picksHtml = '<span>Moneyline: <b>' + escapeHtml(mlTeam) + '</b> ' + badge(mlHit) + '</span>';
+
+  const spreadPick = el.dataset.spreadPick;
+  const spreadFavorite = el.dataset.spreadFavorite;
+  const spreadLine = parseFloat(el.dataset.spreadLine);
+  const spreadTeam = spreadPick === 'home' ? el.dataset.homeTeam : el.dataset.awayTeam;
+  const spreadSide = (spreadPick === spreadFavorite ? '-' : '+') + spreadLine;
+  const favoriteMargin = spreadFavorite === 'home' ? margin : -margin;
+  const favoriteCovers = favoriteMargin > spreadLine;
+  const spreadHit = spreadPick === spreadFavorite ? favoriteCovers : !favoriteCovers;
+  picksHtml += '<span>Run line: <b>' + escapeHtml(spreadTeam) + ' ' + spreadSide + '</b> ' + badge(spreadHit) + '</span>';
+
+  const totalLine = parseFloat(el.dataset.totalLine);
+  const totalPick = el.dataset.totalPick;
+  const actualTotal = homeRuns + awayRuns;
+  const totalHit = (actualTotal > totalLine) === (totalPick === 'over');
+  picksHtml += '<span>Total ' + totalLine + ': <b>' + totalPick.toUpperCase() + '</b> ' + badge(totalHit) + '</span>';
+
+  const diff = Math.round((actualTotal - (homeExp + awayExp)) * 10) / 10;
+  const diffTxt = diff >= 0 ? ('+' + diff) : String(diff);
+
+  line.innerHTML =
+    '<span class="proj-score">Final score: ' + escapeHtml(el.dataset.awayTeam) + ' ' + awayRuns +
+    ' &ndash; ' + escapeHtml(el.dataset.homeTeam) + ' ' + homeRuns + '</span>' +
+    '<div class="proj-picks"><span>Projected: <b>' + awayExp + ' &ndash; ' + homeExp + '</b> (total off by ' + diffTxt + ')</span></div>' +
+    '<div class="proj-picks">' + picksHtml + '</div>';
+}
+
 function renderLiveState(el, data, realWp) {
   const container = el.querySelector('.live-tracker'); // compact: sticky, in <summary>, visible even collapsed
   const detail = el.querySelector('.live-detail'); // heavier detail: NOT sticky, only in the expanded body
@@ -1455,8 +1517,11 @@ function renderLiveState(el, data, realWp) {
     renderRecentPlays(el, events);
     highlightActivePlayers(el, null, null, null);
     if (detail) detail.innerHTML = '';
-    if (!container) return;
     const home = (linescore.teams || {}).home, away = (linescore.teams || {}).away;
+    if (home && away && home.runs != null && away.runs != null) {
+      gradeFinalGameLine(el, home.runs, away.runs);
+    }
+    if (!container) return;
     if (home && away && home.runs != null && away.runs != null) {
       container.innerHTML =
         '<span class="badge badge-final">FINAL</span><span class="live-score-line">' + away.runs + ' - ' + home.runs + '</span>';
@@ -2142,6 +2207,42 @@ def _game_summary_flags(g):
     return "".join(flags)
 
 
+def _grading_attrs_html(g):
+    """
+    Moneyline/Run line/Total pick fields (same derivation _game_line_html()
+    itself uses for the pre-game picks text below), embedded as data-*
+    attributes on the OUTER game-card element -- not on .game-line, which
+    disappears entirely once a game goes live (see _game_line_html()'s own
+    comment) and only reappears, freshly rendered, on the NEXT full
+    rebuild. A real game takes ~3 hours; a rebuild happens every ~15-60
+    min, so .game-line is essentially always gone well before a game
+    actually finishes. Embedding these on the card itself instead means
+    they survive scheduled -> live -> final untouched, so the client-side
+    live tracker can grade Moneyline/Run line/Total the moment a game goes
+    Final (renderLiveState's own gradeFinalGameLine(), SCRIPT below)
+    instead of only showing a verdict after that next rebuild -- a real
+    gap otherwise, right when someone's actually looking at a game that
+    just ended.
+    """
+    p = g.get("projection")
+    if not p or p.get("home_exp_runs") is None or p.get("away_exp_runs") is None:
+        return ""
+    home_win_prob = p["home_win_prob"]
+    ml_pick = p.get("moneyline_pick") or ("home" if home_win_prob >= 0.5 else "away")
+    spread_favorite = p.get("spread_favorite") or ("home" if home_win_prob >= 0.5 else "away")
+    spread_pick = p.get("spread_pick")
+    if spread_pick is None:
+        cover = p.get("spread_cover_prob") or 0
+        spread_pick = "home" if cover >= 0.5 else "away"
+    total_pick = p.get("total_pick") or ("over" if p.get("over_prob", 0.5) >= 0.5 else "under")
+    return (
+        f' data-home-team="{html.escape(g["home"]["team_name"] or "?")}" data-away-team="{html.escape(g["away"]["team_name"] or "?")}"'
+        f' data-home-exp-runs="{p["home_exp_runs"]}" data-away-exp-runs="{p["away_exp_runs"]}"'
+        f' data-ml-pick="{ml_pick}" data-spread-pick="{spread_pick}" data-spread-favorite="{spread_favorite}"'
+        f' data-spread-line="{p.get("spread_line", 1.5)}" data-total-line="{p["total_line"]}" data-total-pick="{total_pick}"'
+    )
+
+
 def _game_line_html(g):
     if g.get("home_score") is not None:
         final_html = (
@@ -2285,7 +2386,7 @@ def _game_card_html(g):
     is_final = "true" if g.get("home_score") is not None else "false"
     return f"""
     <details class="game-card" data-date="{html.escape(g["date"])}" data-confirmed="{is_confirmed}"
-              data-search="{_game_search_blob(g)}" data-game-pk="{g["game_pk"]}" data-final="{is_final}">
+              data-search="{_game_search_blob(g)}" data-game-pk="{g["game_pk"]}" data-final="{is_final}"{_grading_attrs_html(g)}>
       <summary class="game-summary">
         <span class="matchup-title">{html.escape(g["away"]["team_name"] or "?")} @ {html.escape(g["home"]["team_name"] or "?")}</span>
         <span class="summary-flags">{_game_summary_flags(g)}{_status_badge(g["status"])}
