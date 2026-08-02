@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-01T23:30:54.607989+00:00_
+_Generated 2026-08-02T01:08:32.918957+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -173,7 +173,7 @@ _Facing a taxed bullpen: 7.7 relief IP in last 2 days (ratio 1.38)_
 - #8 Tyrone Taylor (R) -- L7: 5H 2HR 8RBI 12TB (0.312 avg) -- home split: 0.281 avg
 - #9 Luis Torrens (R) -- L7: 6H 0HR 2RBI 8TB (0.261 avg) -- home split: 0.193 avg
 
-## 2026-08-01 - Pittsburgh Pirates @ Cincinnati Reds (In Progress)
+## 2026-08-01 - Pittsburgh Pirates @ Cincinnati Reds (Delayed)
 _Great American Ball Park [hitter-friendly park]_
 Projected score: Pittsburgh Pirates 4.21 - Cincinnati Reds 4.14
 Model likes: **Pittsburgh Pirates** to win (51%) | Run line: **Cincinnati Reds** +1.5 (65% to cover) | Total 7.5: lean **OVER** (53%)
@@ -356,7 +356,7 @@ _Facing a taxed bullpen: 7.3 relief IP in last 2 days (ratio 1.57)_
 - #8 Mike Yastrzemski (L) [MATCHUP EDGE: pitcher hits 0.289 avg-against vs this hand] -- L7: 3H 1HR 2RBI 6TB (0.231 avg) -- home split: 0.25 avg
 - #9 Jim Jarvis (L) [MATCHUP EDGE: pitcher hits 0.289 avg-against vs this hand] -- L7: 4H 0HR 3RBI 5TB (0.222 avg) -- home split: 0.3 avg
 
-## 2026-08-01 - Kansas City Royals @ Colorado Rockies (Pre-Game)
+## 2026-08-01 - Kansas City Royals @ Colorado Rockies (In Progress)
 _Coors Field [hitter-friendly park]_
 Projected score: Kansas City Royals 4.15 - Colorado Rockies 4.54
 Model likes: **Colorado Rockies** to win (53%) | Run line: **Kansas City Royals** +1.5 (62% to cover) | Total 8.5: lean **UNDER** (54%)
@@ -387,23 +387,23 @@ _Facing a rested bullpen: 2.7 relief IP in last 2 days (ratio 0.56)_
 - #8 Tyler Freeman (R) -- L7: 3H 0HR 0RBI 3TB (0.143 avg) -- home split: 0.299 avg
 - #9 Brenton Doyle (R) -- L7: 5H 0HR 2RBI 7TB (0.294 avg) -- home split: 0.2 avg
 
-## 2026-08-01 - San Francisco Giants @ San Diego Padres (Pre-Game)
+## 2026-08-01 - San Francisco Giants @ San Diego Padres (In Progress)
 _Petco Park [pitcher-friendly park]_
-Projected score: San Francisco Giants 4.08 - San Diego Padres 4.25
-Model likes: **San Diego Padres** to win (51%) | Run line: **San Francisco Giants** +1.5 (64% to cover) | Total 7.5: lean **OVER** (52%)
+Projected score: San Francisco Giants 4.11 - San Diego Padres 4.25
+Model likes: **San Diego Padres** to win (51%) | Run line: **San Francisco Giants** +1.5 (64% to cover) | Total 7.5: lean **OVER** (53%)
 
 ### San Francisco Giants lineup -- CONFIRMED
 _Facing a taxed bullpen: 13.3 relief IP in last 2 days (ratio 2.12)_
 **Probable P: Tyler Mahle (R)** -- L5: 26.7 IP, 19 K, 11 ER, 3.71 ERA
-- #1 Luis Arraez (L) [MATCHUP EDGE: pitcher hits 0.275 avg-against vs this hand] -- L7: 11H 0HR 6RBI 12TB (0.379 avg) -- away split: 0.299 avg
-- #2 Bryce Eldridge (L) [MATCHUP EDGE: pitcher hits 0.275 avg-against vs this hand] -- L7: 3H 1HR 3RBI 6TB (0.115 avg) -- away split: 0.273 avg
+- #1 Bryce Eldridge (L) [MATCHUP EDGE: pitcher hits 0.275 avg-against vs this hand] -- L7: 3H 1HR 3RBI 6TB (0.115 avg) -- away split: 0.273 avg
+- #2 Jung Hoo Lee (L) [MATCHUP EDGE: pitcher hits 0.275 avg-against vs this hand] -- L7: 7H 1HR 7RBI 15TB (0.259 avg) -- away split: 0.324 avg
 - #3 Heliot Ramos (R) -- L7: 8H 0HR 3RBI 8TB (0.276 avg) -- away split: 0.243 avg
 - #4 Rafael Devers (L) [MATCHUP EDGE: pitcher hits 0.275 avg-against vs this hand] -- L7: 7H 1HR 5RBI 11TB (0.292 avg) -- away split: 0.253 avg
-- #5 Jung Hoo Lee (L) [MATCHUP EDGE: pitcher hits 0.275 avg-against vs this hand] -- L7: 7H 1HR 7RBI 15TB (0.259 avg) -- away split: 0.324 avg
-- #6 Willy Adames (R) -- L7: 6H 0HR 0RBI 8TB (0.24 avg) -- away split: 0.237 avg
-- #7 Daniel Susac (R) -- L7: 3H 3HR 8RBI 12TB (0.214 avg) -- away split: 0.257 avg
-- #8 Drew Gilbert (L) [MATCHUP EDGE: pitcher hits 0.275 avg-against vs this hand] [likely BABIP-driven, not a real power uptick] -- L7: 5H 0HR 0RBI 5TB (0.357 avg) -- away split: 0.24 avg
-- #9 Christian Koss (R) [3-game hit streak] -- L7: 5H 0HR 1RBI 5TB (0.263 avg) -- away split: 0.278 avg
+- #5 Willy Adames (R) -- L7: 6H 0HR 0RBI 8TB (0.24 avg) -- away split: 0.237 avg
+- #6 Daniel Susac (R) -- L7: 3H 3HR 8RBI 12TB (0.214 avg) -- away split: 0.257 avg
+- #7 Drew Gilbert (L) [MATCHUP EDGE: pitcher hits 0.275 avg-against vs this hand] [likely BABIP-driven, not a real power uptick] -- L7: 5H 0HR 0RBI 5TB (0.357 avg) -- away split: 0.24 avg
+- #8 Christian Koss (R) [3-game hit streak] -- L7: 5H 0HR 1RBI 5TB (0.263 avg) -- away split: 0.278 avg
+- #9 Osleivis Basabe (R) -- L7: 3H 0HR 0RBI 3TB (0.214 avg) -- away split: 0.0 avg
 
 ### San Diego Padres lineup -- CONFIRMED
 _Facing a taxed bullpen: 7.7 relief IP in last 2 days (ratio 1.93)_
@@ -418,7 +418,7 @@ _Facing a taxed bullpen: 7.7 relief IP in last 2 days (ratio 1.93)_
 - #8 Freddy Fermin (R) [likely BABIP-driven, not a real power uptick] -- L7: 5H 0HR 0RBI 5TB (0.312 avg) -- home split: 0.158 avg
 - #9 Jase Bowen (R) -- L7: 3H 1HR 3RBI 6TB (0.273 avg) -- home split: 0.222 avg
 
-## 2026-08-01 - Boston Red Sox @ Los Angeles Dodgers (Pre-Game)
+## 2026-08-01 - Boston Red Sox @ Los Angeles Dodgers (Warmup)
 _UNIQLO Field at Dodger Stadium_
 Projected score: Boston Red Sox 3.19 - Los Angeles Dodgers 3.21
 Model likes: **Los Angeles Dodgers** to win (50%) | Run line: **Boston Red Sox** +1.5 (68% to cover) | Total 5.5: lean **OVER** (55%)
@@ -544,7 +544,7 @@ _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.43)_
 ## 2026-08-02 - Washington Nationals @ Atlanta Braves (Scheduled)
 _Truist Park_
 Projected score: Washington Nationals 5.04 - Atlanta Braves 4.35
-Model likes: **Washington Nationals** to win (55%) | Run line: **Atlanta Braves** +1.5 (59% to cover) | Total 8.5: lean **OVER** (52%)
+Model likes: **Washington Nationals** to win (56%) | Run line: **Atlanta Braves** +1.5 (59% to cover) | Total 8.5: lean **OVER** (52%)
 
 ### Washington Nationals lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.64)_
@@ -650,6 +650,7 @@ _Facing a taxed bullpen: 9.3 relief IP in last 2 days (ratio 1.67)_
 
 ### New York Mets lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.39)_
+**Probable P: Robert Stock (R)** -- L5: no data
 - Bo Bichette (R) -- L7: 8H 0HR 1RBI 9TB (0.276 avg) -- home split: 0.242 avg
 - Francisco Lindor (S) [3-game hit streak] -- L7: 9H 3HR 9RBI 20TB (0.333 avg) -- home split: 0.25 avg
 - A.J. Ewing (L) -- L7: 7H 0HR 3RBI 8TB (0.259 avg) -- home split: 0.286 avg
@@ -785,7 +786,7 @@ _Facing a rested bullpen: 2.3 relief IP in last 2 days (ratio 0.43)_
 ## 2026-08-02 - Kansas City Royals @ Colorado Rockies (Scheduled)
 _Coors Field [hitter-friendly park]_
 Projected score: Kansas City Royals 5.31 - Colorado Rockies 4.46
-Model likes: **Kansas City Royals** to win (57%) | Run line: **Colorado Rockies** +1.5 (57% to cover) | Total 9.5: lean **UNDER** (53%)
+Model likes: **Kansas City Royals** to win (56%) | Run line: **Colorado Rockies** +1.5 (57% to cover) | Total 9.5: lean **UNDER** (53%)
 
 ### Kansas City Royals lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.3 relief IP in last 2 days (ratio 0.48)_
@@ -816,7 +817,7 @@ _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.42)_
 ## 2026-08-02 - Milwaukee Brewers @ Los Angeles Angels (Scheduled)
 _Angel Stadium_
 Projected score: Milwaukee Brewers 3.46 - Los Angeles Angels 1.78
-Model likes: **Milwaukee Brewers** to win (70%) | Run line: **Los Angeles Angels** +1.5 (51% to cover) | Total 4.5: lean **OVER** (54%)
+Model likes: **Milwaukee Brewers** to win (70%) | Run line: **Los Angeles Angels** +1.5 (52% to cover) | Total 4.5: lean **OVER** (54%)
 
 ### Milwaukee Brewers lineup -- PROJECTED (unconfirmed)
 **Probable P: Jacob Misiorowski (R)** -- L5: 27.0 IP, 47 K, 6 ER, 2.0 ERA
@@ -1024,8 +1025,8 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.6)_
 
 ## 2026-08-03 - Pittsburgh Pirates @ Milwaukee Brewers (Scheduled)
 _American Family Field_
-Projected score: Pittsburgh Pirates 4.15 - Milwaukee Brewers 5.24
-Model likes: **Milwaukee Brewers** to win (59%) | Run line: **Pittsburgh Pirates** +1.5 (55% to cover) | Total 8.5: lean **OVER** (52%)
+Projected score: Pittsburgh Pirates 4.49 - Milwaukee Brewers 5.24
+Model likes: **Milwaukee Brewers** to win (56%) | Run line: **Pittsburgh Pirates** +1.5 (58% to cover) | Total 9.5: lean **UNDER** (54%)
 
 ### Pittsburgh Pirates lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1041,6 +1042,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 
 ### Milwaukee Brewers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
+**Probable P: Brandon Sproat (R)** -- L5: 23.0 IP, 23 K, 10 ER, 3.91 ERA
 - Jackson Chourio (R) -- L7: 8H 0HR 3RBI 10TB (0.242 avg) -- home split: 0.273 avg
 - Luis Lara (S) -- L7: 6H 0HR 8RBI 12TB (0.286 avg) -- home split: 0.316 avg
 - Garrett Mitchell (L) -- L7: 3H 0HR 1RBI 4TB (0.13 avg) -- home split: 0.284 avg
