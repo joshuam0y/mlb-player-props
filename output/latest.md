@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-02T07:20:36.672506+00:00_
+_Generated 2026-08-02T09:27:29.694434+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -118,7 +118,7 @@ Model likes: **Washington Nationals** to win (55%) | Run line: **Atlanta Braves*
 ## 2026-08-02 - St. Louis Cardinals @ Toronto Blue Jays (Scheduled)
 _Rogers Centre_
 Projected score: St. Louis Cardinals 5.65 - Toronto Blue Jays 4.4
-Model likes: **St. Louis Cardinals** to win (60%) | Run line: **Toronto Blue Jays** +1.5 (54% to cover) | Total 9.5: lean **UNDER** (51%)
+Model likes: **St. Louis Cardinals** to win (59%) | Run line: **Toronto Blue Jays** +1.5 (54% to cover) | Total 9.5: lean **UNDER** (51%)
 
 ### St. Louis Cardinals lineup -- PROJECTED (unconfirmed)
 **Probable P: Matthew Liberatore (L)** -- L5: 25.0 IP, 30 K, 12 ER, 4.32 ERA
@@ -516,7 +516,7 @@ _Facing a taxed bullpen: 7.3 relief IP in last 2 days (ratio 1.41)_
 ## 2026-08-03 - Washington Nationals @ Philadelphia Phillies (Scheduled)
 _Citizens Bank Park [hitter-friendly park]_
 Projected score: Washington Nationals 5.79 - Philadelphia Phillies 4.93
-Model likes: **Washington Nationals** to win (56%) | Run line: **Philadelphia Phillies** +1.5 (57% to cover) | Total 10.5: lean **UNDER** (54%)
+Model likes: **Washington Nationals** to win (56%) | Run line: **Philadelphia Phillies** +1.5 (56% to cover) | Total 10.5: lean **UNDER** (54%)
 
 ### Washington Nationals lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.65)_
@@ -772,7 +772,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-04 - Washington Nationals @ Philadelphia Phillies (Scheduled)
 _Citizens Bank Park [hitter-friendly park]_
 Projected score: Washington Nationals 5.79 - Philadelphia Phillies 4.93
-Model likes: **Washington Nationals** to win (56%) | Run line: **Philadelphia Phillies** +1.5 (56% to cover) | Total 10.5: lean **UNDER** (54%)
+Model likes: **Washington Nationals** to win (56%) | Run line: **Philadelphia Phillies** +1.5 (57% to cover) | Total 10.5: lean **UNDER** (54%)
 
 ### Washington Nationals lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -949,7 +949,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-04 - Pittsburgh Pirates @ Milwaukee Brewers (Scheduled)
 _American Family Field_
 Projected score: Pittsburgh Pirates 3.37 - Milwaukee Brewers 5.12
-Model likes: **Milwaukee Brewers** to win (65%) | Run line: **Pittsburgh Pirates** +1.5 (50% to cover) | Total 7.5: lean **OVER** (54%)
+Model likes: **Milwaukee Brewers** to win (65%) | Run line: **Pittsburgh Pirates** +1.5 (50% to cover) | Total 7.5: lean **OVER** (53%)
 
 ### Pittsburgh Pirates lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -979,7 +979,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-04 - Minnesota Twins @ Kansas City Royals (Scheduled)
 _Kauffman Stadium [pitcher-friendly park]_
 Projected score: Minnesota Twins 4.74 - Kansas City Royals 4.57
-Model likes: **Minnesota Twins** to win (51%) | Run line: **Kansas City Royals** +1.5 (63% to cover) | Total 8.5: lean **OVER** (52%)
+Model likes: **Minnesota Twins** to win (52%) | Run line: **Kansas City Royals** +1.5 (63% to cover) | Total 8.5: lean **OVER** (52%)
 
 ### Minnesota Twins lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
