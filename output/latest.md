@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-02T12:02:07.029483+00:00_
+_Generated 2026-08-02T13:24:14.125644+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -105,6 +105,7 @@ Model likes: **Washington Nationals** to win (55%) | Run line: **Atlanta Braves*
 - Andrés Chaparro (R) -- L7: 4H 2HR 2RBI 12TB (0.267 avg) -- away split: 0.231 avg
 
 ### Atlanta Braves lineup -- PROJECTED (unconfirmed)
+**Probable P: JR Ritchie (R)** -- L5: no data
 - Drake Baldwin (L) [MATCHUP EDGE: pitcher hits 0.271 avg-against vs this hand] -- L7: 8H 0HR 1RBI 9TB (0.296 avg) -- home split: 0.283 avg
 - Michael Harris II (L) [MATCHUP EDGE: pitcher hits 0.271 avg-against vs this hand] -- L7: 4H 1HR 3RBI 7TB (0.148 avg) -- home split: 0.278 avg
 - Ozzie Albies (S) [MATCHUP EDGE: pitcher hits 0.271 avg-against vs this hand] [3-game hit streak] -- L7: 7H 1HR 5RBI 10TB (0.25 avg) -- home split: 0.276 avg
@@ -301,7 +302,7 @@ _Facing a taxed bullpen: 6.7 relief IP in last 2 days (ratio 1.42)_
 ## 2026-08-02 - New York Yankees @ Chicago Cubs (Scheduled)
 _Wrigley Field_
 Projected score: New York Yankees 4.04 - Chicago Cubs 3.76
-Model likes: **New York Yankees** to win (53%) | Run line: **Chicago Cubs** +1.5 (64% to cover) | Total 7.5: lean **UNDER** (52%)
+Model likes: **New York Yankees** to win (53%) | Run line: **Chicago Cubs** +1.5 (64% to cover) | Total 7.5: lean **UNDER** (53%)
 
 ### New York Yankees lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 5.0 relief IP in last 2 days (ratio 1.31)_
@@ -392,7 +393,7 @@ _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.2)_
 ## 2026-08-02 - Detroit Tigers @ Athletics (Scheduled)
 _Sutter Health Park_
 Projected score: Detroit Tigers 4.88 - Athletics 3.73
-Model likes: **Detroit Tigers** to win (60%) | Run line: **Athletics** +1.5 (56% to cover) | Total 8.5: lean **UNDER** (55%)
+Model likes: **Detroit Tigers** to win (60%) | Run line: **Athletics** +1.5 (55% to cover) | Total 8.5: lean **UNDER** (54%)
 
 ### Detroit Tigers lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 8.7 relief IP in last 2 days (ratio 1.94)_
@@ -516,7 +517,7 @@ _Facing a taxed bullpen: 7.3 relief IP in last 2 days (ratio 1.41)_
 ## 2026-08-03 - Washington Nationals @ Philadelphia Phillies (Scheduled)
 _Citizens Bank Park [hitter-friendly park]_
 Projected score: Washington Nationals 5.79 - Philadelphia Phillies 4.93
-Model likes: **Washington Nationals** to win (56%) | Run line: **Philadelphia Phillies** +1.5 (57% to cover) | Total 10.5: lean **UNDER** (54%)
+Model likes: **Washington Nationals** to win (56%) | Run line: **Philadelphia Phillies** +1.5 (56% to cover) | Total 10.5: lean **UNDER** (54%)
 
 ### Washington Nationals lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.65)_
@@ -687,7 +688,7 @@ _Facing a rested bullpen: 3.3 relief IP in last 2 days (ratio 0.56)_
 ## 2026-08-03 - Tampa Bay Rays @ Colorado Rockies (Scheduled)
 _Coors Field [hitter-friendly park]_
 Projected score: Tampa Bay Rays 5.69 - Colorado Rockies 4.66
-Model likes: **Tampa Bay Rays** to win (58%) | Run line: **Colorado Rockies** +1.5 (55% to cover) | Total 9.5: lean **OVER** (51%)
+Model likes: **Tampa Bay Rays** to win (58%) | Run line: **Colorado Rockies** +1.5 (56% to cover) | Total 9.5: lean **OVER** (51%)
 
 ### Tampa Bay Rays lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.62)_
@@ -1037,7 +1038,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-04 - Los Angeles Dodgers @ Chicago Cubs (Scheduled)
 _Wrigley Field_
 Projected score: Los Angeles Dodgers 4.73 - Chicago Cubs 4.52
-Model likes: **Los Angeles Dodgers** to win (52%) | Run line: **Chicago Cubs** +1.5 (62% to cover) | Total 8.5: lean **OVER** (51%)
+Model likes: **Los Angeles Dodgers** to win (52%) | Run line: **Chicago Cubs** +1.5 (63% to cover) | Total 8.5: lean **OVER** (51%)
 
 ### Los Angeles Dodgers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1095,7 +1096,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-04 - Tampa Bay Rays @ Colorado Rockies (Scheduled)
 _Coors Field [hitter-friendly park]_
 Projected score: Tampa Bay Rays 5.69 - Colorado Rockies 4.66
-Model likes: **Tampa Bay Rays** to win (57%) | Run line: **Colorado Rockies** +1.5 (56% to cover) | Total 9.5: lean **OVER** (51%)
+Model likes: **Tampa Bay Rays** to win (58%) | Run line: **Colorado Rockies** +1.5 (56% to cover) | Total 9.5: lean **OVER** (51%)
 
 ### Tampa Bay Rays lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
