@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-02T22:26:09.820837+00:00_
+_Generated 2026-08-02T22:55:23.426372+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -413,7 +413,7 @@ _Facing a taxed bullpen: 9.0 relief IP in last 2 days (ratio 1.87)_
 ## 2026-08-02 - Minnesota Twins @ Seattle Mariners (In Progress)
 _T-Mobile Park [pitcher-friendly park]_
 Projected score: Minnesota Twins 3.66 - Seattle Mariners 3.36
-Model likes: **Minnesota Twins** to win (53%) | Run line: **Seattle Mariners** +1.5 (64% to cover) | Total 6.5: lean **OVER** (50%)
+Model likes: **Minnesota Twins** to win (53%) | Run line: **Seattle Mariners** +1.5 (65% to cover) | Total 6.5: lean **OVER** (50%)
 
 ### Minnesota Twins lineup -- CONFIRMED
 _Facing a taxed bullpen: 5.7 relief IP in last 2 days (ratio 1.24)_
@@ -444,7 +444,7 @@ _Facing a taxed bullpen: 7.3 relief IP in last 2 days (ratio 1.95)_
 ## 2026-08-02 - San Francisco Giants @ San Diego Padres (In Progress)
 _Petco Park [pitcher-friendly park]_
 Projected score: San Francisco Giants 3.79 - San Diego Padres 3.74
-Model likes: **San Francisco Giants** to win (50%) | Run line: **San Diego Padres** +1.5 (66% to cover) | Total 7.5: lean **UNDER** (55%)
+Model likes: **San Francisco Giants** to win (50%) | Run line: **San Diego Padres** +1.5 (66% to cover) | Total 6.5: lean **OVER** (55%)
 
 ### San Francisco Giants lineup -- CONFIRMED
 _Facing a taxed bullpen: 12.7 relief IP in last 2 days (ratio 2.01)_
@@ -472,7 +472,7 @@ _Facing a taxed bullpen: 7.7 relief IP in last 2 days (ratio 1.92)_
 - #8 Xander Bogaerts (R) [3-game hit streak] -- L7: 6H 0HR 2RBI 7TB (0.25 avg) -- home split: 0.216 avg
 - #9 Sung-Mun Song (L) -- L7: 0H 0HR 0RBI 0TB (0.0 avg) -- home split: 0.17 avg
 
-## 2026-08-02 - Boston Red Sox @ Los Angeles Dodgers (Pre-Game)
+## 2026-08-02 - Boston Red Sox @ Los Angeles Dodgers (Warmup)
 _UNIQLO Field at Dodger Stadium_
 Projected score: Boston Red Sox 4.55 - Los Angeles Dodgers 3.01
 Model likes: **Boston Red Sox** to win (64%) | Run line: **Los Angeles Dodgers** +1.5 (52% to cover) | Total 7.5: lean **UNDER** (55%)
@@ -595,7 +595,7 @@ _Facing a taxed bullpen: 10.0 relief IP in last 2 days (ratio 2.17)_
 ## 2026-08-03 - San Francisco Giants @ Texas Rangers (Scheduled)
 _Globe Life Field [hitter-friendly park]_
 Projected score: San Francisco Giants 4.8 - Texas Rangers 3.65
-Model likes: **San Francisco Giants** to win (60%) | Run line: **Texas Rangers** +1.5 (55% to cover) | Total 7.5: lean **OVER** (53%)
+Model likes: **San Francisco Giants** to win (60%) | Run line: **Texas Rangers** +1.5 (56% to cover) | Total 7.5: lean **OVER** (53%)
 
 ### San Francisco Giants lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 7.3 relief IP in last 2 days (ratio 1.56)_
@@ -684,7 +684,7 @@ _Facing a taxed bullpen: 7.7 relief IP in last 2 days (ratio 1.4)_
 ## 2026-08-03 - Tampa Bay Rays @ Colorado Rockies (Scheduled)
 _Coors Field [hitter-friendly park]_
 Projected score: Tampa Bay Rays 5.6 - Colorado Rockies 4.41
-Model likes: **Tampa Bay Rays** to win (59%) | Run line: **Colorado Rockies** +1.5 (55% to cover) | Total 9.5: lean **UNDER** (51%)
+Model likes: **Tampa Bay Rays** to win (59%) | Run line: **Colorado Rockies** +1.5 (54% to cover) | Total 9.5: lean **UNDER** (51%)
 
 ### Tampa Bay Rays lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.62)_
@@ -715,7 +715,7 @@ _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.31)_
 ## 2026-08-03 - San Diego Padres @ Arizona Diamondbacks (Scheduled)
 _Chase Field [hitter-friendly park]_
 Projected score: San Diego Padres 4.33 - Arizona Diamondbacks 4.13
-Model likes: **San Diego Padres** to win (52%) | Run line: **Arizona Diamondbacks** +1.5 (63% to cover) | Total 7.5: lean **OVER** (54%)
+Model likes: **San Diego Padres** to win (52%) | Run line: **Arizona Diamondbacks** +1.5 (64% to cover) | Total 7.5: lean **OVER** (54%)
 
 ### San Diego Padres lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 8.0 relief IP in last 2 days (ratio 1.59)_
@@ -897,7 +897,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.6)_
 ## 2026-08-04 - Chicago White Sox @ Boston Red Sox (Scheduled)
 _Fenway Park_
 Projected score: Chicago White Sox 3.63 - Boston Red Sox 3.97
-Model likes: **Boston Red Sox** to win (53%) | Run line: **Chicago White Sox** +1.5 (63% to cover) | Total 7.5: lean **UNDER** (55%)
+Model likes: **Boston Red Sox** to win (53%) | Run line: **Chicago White Sox** +1.5 (63% to cover) | Total 7.5: lean **UNDER** (54%)
 
 ### Chicago White Sox lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
