@@ -103,6 +103,12 @@ def batting_rolling(conn, player_id, n, as_of_date=None):
     if not rows:
         return None
     sums = {c: sum((r[c] or 0) for r in rows) for c in BATTING_COUNT_COLS}
+    # Derived-category sums (see BATTER_PROP_CATEGORIES_EXTRA) -- computed
+    # here in Python from the columns already summed above, rather than a
+    # separate SQL expression, since this function already fetches every
+    # column via SELECT *.
+    sums["hits_or_more"] = sums["hits"]
+    sums["h_r_rbi"] = sums["hits"] + sums["runs"] + sums["rbi"]
     ab = sums["at_bats"]
     avg = round(sums["hits"] / ab, 3) if ab else None
     slg = round(sums["total_bases"] / ab, 3) if ab else None
@@ -269,6 +275,35 @@ PITCHER_PROP_CATEGORIES = [
     ("base_on_balls", "Walks Allowed"),
 ]
 
+# Two derived (not-a-raw-column) categories, added ONLY for games dated
+# after today (see build_batter_entry()'s own gating) -- new categories
+# reshuffle prop_category_delta()'s pick among a player's own categories,
+# and today's Top Overs/Unders / Best-prop star are already frozen for the
+# day; this way, adding these can't retroactively shift a pick that's
+# already been shown. "hits_or_more" is the real "To Record A Hit" market
+# (a fixed 0.5 line -- always "did he get at least one hit", not the
+# variable-line "Hits" category above); "h_r_rbi" is the popular combined
+# Hits+Runs+RBIs prop. Both reuse the SAME raw hits/runs/rbi columns under
+# a distinct key -- see _stat_sql_expr() for how each maps back to real SQL.
+BATTER_PROP_CATEGORIES_EXTRA = [
+    ("hits_or_more", "To Record A Hit"),
+    ("h_r_rbi", "Hits + Runs + RBIs"),
+]
+BATTER_PROP_CATEGORIES_EXTENDED = BATTER_PROP_CATEGORIES + BATTER_PROP_CATEGORIES_EXTRA
+
+# Real SQL expression for a derived category stat that isn't a literal
+# column in batting_game_logs -- identity (the stat name itself) for
+# every real-column stat, an explicit mapping for the derived ones above.
+_DERIVED_STAT_SQL = {
+    "hits_or_more": "hits",
+    "h_r_rbi": "(hits + runs + rbi)",
+}
+
+
+def _stat_sql_expr(stat):
+    return _DERIVED_STAT_SQL.get(stat, stat)
+
+
 RECENT_WEIGHT = 0.4  # how much of the projected line comes from recent form vs. full-season rate
 
 
@@ -308,7 +343,7 @@ def season_stat_averages(conn, table, player_id, stats, season=CURRENT_SEASON, a
     as_of_date, if given, restricts to games strictly before it -- see
     batting_rolling()'s own docstring for why.
     """
-    cols = ", ".join(f"SUM({stat}) as {stat}" for stat, _ in stats)
+    cols = ", ".join(f"SUM({_stat_sql_expr(stat)}) as {stat}" for stat, _ in stats)
     date_frag = " AND date < ?" if as_of_date else ""
     params = (player_id, season, as_of_date) if as_of_date else (player_id, season)
     row = conn.execute(
@@ -363,6 +398,11 @@ def category_baselines(recent_rolling, season_avgs, stats):
         # which is why real sportsbooks never post one below 1.5.
         if stat == "total_bases":
             line = max(line, 1.5)
+        # "To Record A Hit" is a fixed-line market by definition (see
+        # BATTER_PROP_CATEGORIES_EXTRA) -- always evaluated at 0.5,
+        # regardless of this player's own average.
+        if stat == "hits_or_more":
+            line = 0.5
         out[stat] = (avg, line)
     return out
 
@@ -408,15 +448,15 @@ def _prop_categories(rows, stats, baselines, factor_fn=None, include_values=True
     return out
 
 
-def batter_prop_categories(conn, player_id, baselines, factor_fn=None, n=10, include_values=True, as_of_date=None):
-    cols = [c for c, _ in BATTER_PROP_CATEGORIES]
+def batter_prop_categories(conn, player_id, baselines, factor_fn=None, n=10, include_values=True, as_of_date=None, stats=BATTER_PROP_CATEGORIES):
+    cols = [f"{_stat_sql_expr(c)} AS {c}" for c, _ in stats]
     date_frag = " AND date < ?" if as_of_date else ""
     params = (player_id, as_of_date, n) if as_of_date else (player_id, n)
     rows = conn.execute(
         f"SELECT {', '.join(cols)}, date FROM batting_game_logs WHERE player_id = ?{date_frag} ORDER BY date DESC LIMIT ?",
         params,
     ).fetchall()
-    return _prop_categories(rows, BATTER_PROP_CATEGORIES, baselines, factor_fn=factor_fn, include_values=include_values)
+    return _prop_categories(rows, stats, baselines, factor_fn=factor_fn, include_values=include_values)
 
 
 def pitcher_prop_categories(conn, player_id, baselines, factor_fn=None, n=5, include_values=True, as_of_date=None):
@@ -523,7 +563,15 @@ def batter_game_result(conn, player_id, game_pk):
         "FROM batting_game_logs WHERE player_id = ? AND game_pk = ?",
         (player_id, game_pk),
     ).fetchone()
-    return dict(row) if row else None
+    if not row:
+        return None
+    result = dict(row)
+    # Derived-category keys (see BATTER_PROP_CATEGORIES_EXTRA) -- computed
+    # here so pick_result()'s _BATTER_CATEGORY_FIELD lookup (and grade_picks.py's
+    # own mirror) can read them exactly like any other real stat.
+    result["hits_or_more"] = result["hits"]
+    result["h_r_rbi"] = result["hits"] + result["runs"] + result["rbi"]
+    return result
 
 
 def pitcher_game_result(conn, player_id, game_pk):
@@ -863,11 +911,19 @@ def build_batter_entry(conn, player_id, opp_hand, opp_pitcher_id, is_home_game, 
     trend = form_trend(l7, season)
     matchup = matchup_edge(conn, player["bat_side"], opp_hand, opp_pitcher_id, as_of_date=as_of_date)
 
-    season_avgs = season_stat_averages(conn, "batting_game_logs", player_id, BATTER_PROP_CATEGORIES, as_of_date=as_of_date)
-    baselines = category_baselines(l15, season_avgs, BATTER_PROP_CATEGORIES)
+    # BATTER_PROP_CATEGORIES_EXTRA (To Record A Hit, Hits + Runs + RBIs)
+    # only ever shows up for a game dated AFTER today -- as_of_date here is
+    # this game's own date (see this function's own docstring), so this is
+    # a straight date compare, not a "how much data exists yet" check.
+    # Today's Top Overs/Unders and Best-prop star are already frozen for
+    # the day; gating new categories to future games means shipping them
+    # can never retroactively reshuffle a pick that's already been shown.
+    stats = BATTER_PROP_CATEGORIES_EXTENDED if (as_of_date and as_of_date > mlb_today()) else BATTER_PROP_CATEGORIES
+    season_avgs = season_stat_averages(conn, "batting_game_logs", player_id, stats, as_of_date=as_of_date)
+    baselines = category_baselines(l15, season_avgs, stats)
     factor_fn = lambda label: batter_matchup_factor(matchup)  # noqa: E731 -- same factor for every batting category
-    recent_categories = batter_prop_categories(conn, player_id, baselines, factor_fn=factor_fn, as_of_date=as_of_date)
-    season_categories = batter_prop_categories(conn, player_id, baselines, factor_fn=factor_fn, n=200, include_values=False, as_of_date=as_of_date)
+    recent_categories = batter_prop_categories(conn, player_id, baselines, factor_fn=factor_fn, as_of_date=as_of_date, stats=stats)
+    season_categories = batter_prop_categories(conn, player_id, baselines, factor_fn=factor_fn, n=200, include_values=False, as_of_date=as_of_date, stats=stats)
     best_over, best_under = prop_category_delta(recent_categories, season_categories, require_lean_agreement=True)
     best_prop, best_prop_direction = headline_prop(best_over, best_under)
     if best_prop is None:
@@ -1251,7 +1307,7 @@ def headline_prop(best_over, best_under):
     return None, None
 
 
-_BATTER_CATEGORY_FIELD = {label: field for field, label in BATTER_PROP_CATEGORIES}
+_BATTER_CATEGORY_FIELD = {label: field for field, label in BATTER_PROP_CATEGORIES_EXTENDED}
 _PITCHER_CATEGORY_FIELD = {label: field for field, label in PITCHER_PROP_CATEGORIES}
 
 FINAL_STATUSES = {"Final", "Game Over", "Completed Early"}

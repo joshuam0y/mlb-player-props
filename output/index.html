@@ -54656,6 +54656,7 @@ function statOr0(v) {
 const BATTER_LEAN_FIELD = {
   'Hits': 'hits', 'Total Bases': 'totalBases', 'Home Runs': 'homeRuns',
   'RBIs': 'rbi', 'Runs Scored': 'runs', 'Walks': 'baseOnBalls',
+  'To Record A Hit': 'hits', // same live field as 'Hits' -- only the line (fixed 0.5) differs
 };
 const PITCHER_LEAN_FIELD = {
   'Strikeouts': 'strikeOuts', 'Runs Allowed': 'earnedRuns',
@@ -54676,6 +54677,9 @@ function outsFromInningsPitched(ip) {
 function liveLeanValue(role, category, batting, pitching) {
   if (role === 'batter') {
     if (!batting || batting.atBats == null) return null; // hasn't batted yet
+    // Combined stat -- no single live-feed field for it, mirrors h_r_rbi's
+    // own derivation in build_props.py (hits + runs + rbi).
+    if (category === 'Hits + Runs + RBIs') return statOr0(batting.hits) + statOr0(batting.runs) + statOr0(batting.rbi);
     const field = BATTER_LEAN_FIELD[category];
     return field ? statOr0(batting[field]) : null;
   }

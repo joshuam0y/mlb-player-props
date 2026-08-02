@@ -92,6 +92,7 @@ CATEGORY_ROLE_JS = """
 const CATEGORY_ROLE = {
   'Hits': 'batter', 'Total Bases': 'batter', 'Home Runs': 'batter',
   'RBIs': 'batter', 'Runs Scored': 'batter', 'Walks': 'batter',
+  'To Record A Hit': 'batter', 'Hits + Runs + RBIs': 'batter',
   'Strikeouts': 'pitcher', 'Outs Recorded': 'pitcher', 'Runs Allowed': 'pitcher',
   'Hits Allowed': 'pitcher', 'Walks Allowed': 'pitcher',
 };
@@ -127,6 +128,7 @@ const db = getFirestore(app);
 const BATTER_LEAN_FIELD = {{
   'Hits': 'hits', 'Total Bases': 'totalBases', 'Home Runs': 'homeRuns',
   'RBIs': 'rbi', 'Runs Scored': 'runs', 'Walks': 'baseOnBalls',
+  'To Record A Hit': 'hits', // same live field as 'Hits' -- only the line (fixed 0.5) differs
 }};
 const PITCHER_LEAN_FIELD = {{
   'Strikeouts': 'strikeOuts', 'Runs Allowed': 'earnedRuns',
@@ -144,6 +146,9 @@ function outsFromInningsPitched(ip) {{
 function liveLeanValue(role, category, batting, pitching) {{
   if (role === 'batter') {{
     if (!batting || batting.atBats == null) return null;
+    if (category === 'Hits + Runs + RBIs') {{
+      return (batting.hits || 0) + (batting.runs || 0) + (batting.rbi || 0);
+    }}
     const field = BATTER_LEAN_FIELD[category];
     return field ? (batting[field] == null ? 0 : batting[field]) : null;
   }}

@@ -62,6 +62,7 @@ from datetime import datetime, timedelta, timezone
 from build_props import (
     _player_context,
     _refresh_frozen_pick,
+    _stat_sql_expr,
     batter_game_result,
     build_report,
     pick_result,
@@ -72,9 +73,17 @@ from db import get_conn, init_db, mlb_today
 OUT_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "output")
 TRACK_RECORD_PATH = os.path.join(OUT_DIR, "track_record.json")
 
+# Values are the same keys pick_result()'s own _BATTER_CATEGORY_FIELD uses
+# (batter_game_result()'s dict, read directly at grade_picks.py:487) -- the
+# two raw-SQL query sites below (_grade_pick, _collect_player_projection_errors)
+# convert a key to the real SQL expression via _stat_sql_expr() (imported
+# from build_props.py) rather than storing the SQL text here directly, so
+# there's exactly one place ("hits_or_more" -> "hits", "h_r_rbi" -> "(hits +
+# runs + rbi)") that has to stay right.
 BATTER_COL = {
     "Hits": "hits", "Total Bases": "total_bases", "Home Runs": "home_runs",
     "RBIs": "rbi", "Runs Scored": "runs", "Walks": "base_on_balls",
+    "To Record A Hit": "hits_or_more", "Hits + Runs + RBIs": "h_r_rbi",
 }
 PITCHER_COL = {
     "Strikeouts": "strike_outs", "Outs Recorded": "outs", "Runs Allowed": "earned_runs",
@@ -133,7 +142,7 @@ def _grade_pick(conn, pick, direction):
     table = "batting_game_logs" if role == "batter" else "pitching_game_logs"
     played_col = "at_bats" if role == "batter" else "outs"
     row = conn.execute(
-        f"SELECT {col} as val, {played_col} as played FROM {table} WHERE player_id = ? AND date = ?",
+        f"SELECT {_stat_sql_expr(col)} as val, {played_col} as played FROM {table} WHERE player_id = ? AND date = ?",
         (pick["player_id"], pick["date"]),
     ).fetchone()
     if not row or row["played"] is None:
@@ -277,7 +286,7 @@ def _collect_player_projection_errors(conn, player, role, date, by_category, exa
         if not col or projected is None:
             continue
         row = conn.execute(
-            f"SELECT {col} as val, {played_col} as played FROM {table} WHERE player_id = ? AND date = ?",
+            f"SELECT {_stat_sql_expr(col)} as val, {played_col} as played FROM {table} WHERE player_id = ? AND date = ?",
             (player_id, date),
         ).fetchone()
         if not row or row["played"] is None:

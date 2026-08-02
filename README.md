@@ -11,6 +11,16 @@ public news RSS feed -- no paid odds API, no scraping of betting sites.
 
 _Updated with every change going forward._
 
+- **2026-08-02** -- Added two new batter prop categories, alongside the
+  existing Hits/Total Bases/HR/RBI/Runs/Walks: "To Record A Hit" (the real
+  "at least one hit" market -- always a fixed 0.5 line, unlike the
+  variable-line Hits category above it) and "Hits + Runs + RBIs" (the
+  popular combined stat). Both show up in the same per-player bar chart,
+  are gradeable in My Bets, and are covered by Top Overs/Unders and Best-
+  prop selection -- but only for games dated AFTER today: today's already-
+  frozen Top Overs/Unders and Best-prop picks are untouched, since adding
+  new categories can otherwise reshuffle which category wins for a player
+  whose pick is already locked in and shown.
 - **2026-08-02** -- Added bonus/free bet tracking to My Bets -- a "Bonus
   bet" checkbox (add-bet form and edit form) that changes how a LOSS is
   scored: a normal bet losing costs the full stake, but a bonus bet's
