@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-02T19:40:26.849502+00:00_
+_Generated 2026-08-02T19:55:01.889585+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -60,7 +60,7 @@ _Generated 2026-08-02T19:40:26.849502+00:00_
 ## 2026-08-02 - Philadelphia Phillies @ Baltimore Orioles (Delayed)
 _Oriole Park at Camden Yards_
 Projected score: Philadelphia Phillies 3.6 - Baltimore Orioles 3.39
-Model likes: **Philadelphia Phillies** to win (52%) | Run line: **Baltimore Orioles** +1.5 (66% to cover) | Total 6.5: lean **UNDER** (50%)
+Model likes: **Philadelphia Phillies** to win (52%) | Run line: **Baltimore Orioles** +1.5 (65% to cover) | Total 6.5: lean **UNDER** (50%)
 
 ### Philadelphia Phillies lineup -- CONFIRMED
 _Facing a taxed bullpen: 6.0 relief IP in last 2 days (ratio 1.26)_
@@ -332,7 +332,7 @@ _Facing a taxed bullpen: 5.0 relief IP in last 2 days (ratio 1.31)_
 ## 2026-08-02 - Kansas City Royals @ Colorado Rockies (In Progress)
 _Coors Field [hitter-friendly park]_
 Projected score: Kansas City Royals 5.24 - Colorado Rockies 5.17
-Model likes: **Kansas City Royals** to win (50%) | Run line: **Colorado Rockies** +1.5 (62% to cover) | Total 9.5: lean **OVER** (52%)
+Model likes: **Kansas City Royals** to win (51%) | Run line: **Colorado Rockies** +1.5 (62% to cover) | Total 9.5: lean **OVER** (52%)
 
 ### Kansas City Royals lineup -- CONFIRMED
 **Probable P: Seth Lugo (R)** -- L5: 27.3 IP, 20 K, 13 ER, 4.28 ERA
@@ -390,7 +390,7 @@ _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.2)_
 - #8 Josh Lowe (L) -- L7: 2H 0HR 0RBI 2TB (0.143 avg) -- home split: 0.188 avg
 - #9 Tyler Heineman (S) -- L7: 3H 0HR 2RBI 5TB (0.2 avg) -- home split: 0.156 avg
 
-## 2026-08-02 - Detroit Tigers @ Athletics (Pre-Game)
+## 2026-08-02 - Detroit Tigers @ Athletics (Warmup)
 _Sutter Health Park_
 Projected score: Detroit Tigers 4.9 - Athletics 3.68
 Model likes: **Detroit Tigers** to win (60%) | Run line: **Athletics** +1.5 (55% to cover) | Total 7.5: lean **OVER** (55%)
@@ -421,7 +421,7 @@ _Facing a taxed bullpen: 9.0 relief IP in last 2 days (ratio 1.87)_
 - #8 Jeff McNeil (L) [likely BABIP-driven, not a real power uptick] -- L7: 9H 0HR 3RBI 11TB (0.375 avg) -- home split: 0.243 avg
 - #9 Henry Bolte (R) -- L7: 6H 1HR 4RBI 10TB (0.333 avg) -- home split: 0.308 avg
 
-## 2026-08-02 - Minnesota Twins @ Seattle Mariners (Pre-Game)
+## 2026-08-02 - Minnesota Twins @ Seattle Mariners (Warmup)
 _T-Mobile Park [pitcher-friendly park]_
 Projected score: Minnesota Twins 3.64 - Seattle Mariners 3.36
 Model likes: **Minnesota Twins** to win (53%) | Run line: **Seattle Mariners** +1.5 (65% to cover) | Total 6.5: lean **UNDER** (50%)
@@ -694,7 +694,7 @@ Model likes: **Houston Astros** to win (57%) | Run line: **Toronto Blue Jays** +
 ## 2026-08-03 - Tampa Bay Rays @ Colorado Rockies (Scheduled)
 _Coors Field [hitter-friendly park]_
 Projected score: Tampa Bay Rays 5.6 - Colorado Rockies 4.41
-Model likes: **Tampa Bay Rays** to win (59%) | Run line: **Colorado Rockies** +1.5 (54% to cover) | Total 9.5: lean **UNDER** (51%)
+Model likes: **Tampa Bay Rays** to win (59%) | Run line: **Colorado Rockies** +1.5 (55% to cover) | Total 9.5: lean **UNDER** (51%)
 
 ### Tampa Bay Rays lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.62)_
@@ -874,7 +874,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-04 - St. Louis Cardinals @ New York Yankees (Scheduled)
 _Yankee Stadium [hitter-friendly park]_
 Projected score: St. Louis Cardinals 3.57 - New York Yankees 4.63
-Model likes: **New York Yankees** to win (59%) | Run line: **St. Louis Cardinals** +1.5 (56% to cover) | Total 7.5: lean **OVER** (51%)
+Model likes: **New York Yankees** to win (60%) | Run line: **St. Louis Cardinals** +1.5 (56% to cover) | Total 7.5: lean **OVER** (51%)
 
 ### St. Louis Cardinals lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1174,7 +1174,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-04 - San Diego Padres @ Arizona Diamondbacks (Scheduled)
 _Chase Field [hitter-friendly park]_
 Projected score: San Diego Padres 3.55 - Arizona Diamondbacks 5.45
-Model likes: **Arizona Diamondbacks** to win (65%) | Run line: **Arizona Diamondbacks** -1.5 (51% to cover) | Total 8.5: lean **UNDER** (51%)
+Model likes: **Arizona Diamondbacks** to win (66%) | Run line: **Arizona Diamondbacks** -1.5 (51% to cover) | Total 8.5: lean **UNDER** (51%)
 
 ### San Diego Padres lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
