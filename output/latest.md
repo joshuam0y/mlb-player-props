@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-02T09:27:29.694434+00:00_
+_Generated 2026-08-02T09:34:35.523721+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -177,7 +177,7 @@ _Facing a taxed bullpen: 11.0 relief IP in last 2 days (ratio 1.71)_
 ## 2026-08-02 - Miami Marlins @ New York Mets (Scheduled)
 _Citi Field_
 Projected score: Miami Marlins 3.95 - New York Mets 3.79
-Model likes: **Miami Marlins** to win (51%) | Run line: **New York Mets** +1.5 (65% to cover) | Total 7.5: lean **UNDER** (53%)
+Model likes: **Miami Marlins** to win (52%) | Run line: **New York Mets** +1.5 (65% to cover) | Total 7.5: lean **UNDER** (53%)
 
 ### Miami Marlins lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 9.3 relief IP in last 2 days (ratio 1.67)_
@@ -208,7 +208,7 @@ _Facing a taxed bullpen: 8.0 relief IP in last 2 days (ratio 1.58)_
 ## 2026-08-02 - Arizona Diamondbacks @ Cleveland Guardians (Scheduled)
 _Progressive Field_
 Projected score: Arizona Diamondbacks 4.0 - Cleveland Guardians 3.83
-Model likes: **Arizona Diamondbacks** to win (52%) | Run line: **Cleveland Guardians** +1.5 (65% to cover) | Total 7.5: lean **UNDER** (52%)
+Model likes: **Arizona Diamondbacks** to win (52%) | Run line: **Cleveland Guardians** +1.5 (64% to cover) | Total 7.5: lean **UNDER** (52%)
 
 ### Arizona Diamondbacks lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 6.3 relief IP in last 2 days (ratio 1.29)_
@@ -270,7 +270,7 @@ _Facing a taxed bullpen: 8.0 relief IP in last 2 days (ratio 1.76)_
 ## 2026-08-02 - Texas Rangers @ Houston Astros (Scheduled)
 _Daikin Park_
 Projected score: Texas Rangers 3.01 - Houston Astros 4.27
-Model likes: **Houston Astros** to win (62%) | Run line: **Texas Rangers** +1.5 (55% to cover) | Total 6.5: lean **OVER** (52%)
+Model likes: **Houston Astros** to win (62%) | Run line: **Texas Rangers** +1.5 (55% to cover) | Total 6.5: lean **OVER** (53%)
 
 ### Texas Rangers lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 7.7 relief IP in last 2 days (ratio 1.41)_
@@ -361,7 +361,7 @@ _Facing a taxed bullpen: 7.3 relief IP in last 2 days (ratio 1.53)_
 ## 2026-08-02 - Milwaukee Brewers @ Los Angeles Angels (Scheduled)
 _Angel Stadium_
 Projected score: Milwaukee Brewers 3.8 - Los Angeles Angels 1.96
-Model likes: **Milwaukee Brewers** to win (71%) | Run line: **Milwaukee Brewers** -1.5 (50% to cover) | Total 5.5: lean **UNDER** (53%)
+Model likes: **Milwaukee Brewers** to win (71%) | Run line: **Milwaukee Brewers** -1.5 (51% to cover) | Total 5.5: lean **UNDER** (53%)
 
 ### Milwaukee Brewers lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 11.7 relief IP in last 2 days (ratio 2.14)_
@@ -392,7 +392,7 @@ _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.2)_
 ## 2026-08-02 - Detroit Tigers @ Athletics (Scheduled)
 _Sutter Health Park_
 Projected score: Detroit Tigers 4.88 - Athletics 3.73
-Model likes: **Detroit Tigers** to win (60%) | Run line: **Athletics** +1.5 (55% to cover) | Total 8.5: lean **UNDER** (55%)
+Model likes: **Detroit Tigers** to win (60%) | Run line: **Athletics** +1.5 (55% to cover) | Total 8.5: lean **UNDER** (54%)
 
 ### Detroit Tigers lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 8.7 relief IP in last 2 days (ratio 1.94)_
@@ -423,7 +423,7 @@ _Facing a taxed bullpen: 9.0 relief IP in last 2 days (ratio 1.87)_
 ## 2026-08-02 - Minnesota Twins @ Seattle Mariners (Scheduled)
 _T-Mobile Park [pitcher-friendly park]_
 Projected score: Minnesota Twins 3.77 - Seattle Mariners 3.2
-Model likes: **Minnesota Twins** to win (56%) | Run line: **Seattle Mariners** +1.5 (62% to cover) | Total 6.5: lean **UNDER** (50%)
+Model likes: **Minnesota Twins** to win (56%) | Run line: **Seattle Mariners** +1.5 (62% to cover) | Total 6.5: lean **UNDER** (51%)
 
 ### Minnesota Twins lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 5.7 relief IP in last 2 days (ratio 1.25)_
@@ -630,7 +630,7 @@ Model likes: **San Francisco Giants** to win (53%) | Run line: **Texas Rangers**
 ## 2026-08-03 - Los Angeles Dodgers @ Chicago Cubs (Scheduled)
 _Wrigley Field_
 Projected score: Los Angeles Dodgers 4.73 - Chicago Cubs 4.52
-Model likes: **Los Angeles Dodgers** to win (52%) | Run line: **Chicago Cubs** +1.5 (62% to cover) | Total 8.5: lean **OVER** (51%)
+Model likes: **Los Angeles Dodgers** to win (52%) | Run line: **Chicago Cubs** +1.5 (63% to cover) | Total 8.5: lean **OVER** (51%)
 
 ### Los Angeles Dodgers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.7 relief IP in last 2 days (ratio 0.7)_
@@ -891,7 +891,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-04 - Chicago White Sox @ Boston Red Sox (Scheduled)
 _Fenway Park_
 Projected score: Chicago White Sox 3.63 - Boston Red Sox 3.97
-Model likes: **Boston Red Sox** to win (53%) | Run line: **Chicago White Sox** +1.5 (63% to cover) | Total 7.5: lean **UNDER** (54%)
+Model likes: **Boston Red Sox** to win (53%) | Run line: **Chicago White Sox** +1.5 (63% to cover) | Total 7.5: lean **UNDER** (55%)
 
 ### Chicago White Sox lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -920,7 +920,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-04 - Miami Marlins @ Atlanta Braves (Scheduled)
 _Truist Park_
 Projected score: Miami Marlins 3.76 - Atlanta Braves 5.28
-Model likes: **Atlanta Braves** to win (62%) | Run line: **Miami Marlins** +1.5 (52% to cover) | Total 8.5: lean **UNDER** (51%)
+Model likes: **Atlanta Braves** to win (63%) | Run line: **Miami Marlins** +1.5 (52% to cover) | Total 8.5: lean **UNDER** (51%)
 
 ### Miami Marlins lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
