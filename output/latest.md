@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-02T20:53:27.849479+00:00_
+_Generated 2026-08-02T21:08:38.060987+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -233,10 +233,9 @@ _Facing a taxed bullpen: 9.0 relief IP in last 2 days (ratio 1.79)_
 - #8 Patrick Bailey (S) [MATCHUP EDGE: pitcher hits 0.266 avg-against vs this hand] -- L7: 2H 1HR 4RBI 5TB (0.111 avg) -- home split: 0.208 avg
 - #9 Petey Halpin (L) [MATCHUP EDGE: pitcher hits 0.266 avg-against vs this hand] -- L7: 5H 0HR 2RBI 5TB (0.263 avg) -- home split: 0.25 avg
 
-## 2026-08-02 - Pittsburgh Pirates @ Cincinnati Reds (In Progress)
+## 2026-08-02 - Pittsburgh Pirates @ Cincinnati Reds (Game Over)
 _Great American Ball Park [hitter-friendly park]_
-Projected score: Pittsburgh Pirates 3.48 - Cincinnati Reds 4.5
-Model likes: **Cincinnati Reds** to win (59%) | Run line: **Pittsburgh Pirates** +1.5 (57% to cover) | Total 7.5: lean **UNDER** (51%)
+Final: Pittsburgh Pirates 2 - Cincinnati Reds 10
 
 ### Pittsburgh Pirates lineup -- CONFIRMED
 _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.59)_
@@ -328,7 +327,7 @@ _Facing a taxed bullpen: 5.0 relief IP in last 2 days (ratio 1.31)_
 ## 2026-08-02 - Kansas City Royals @ Colorado Rockies (In Progress)
 _Coors Field [hitter-friendly park]_
 Projected score: Kansas City Royals 5.24 - Colorado Rockies 5.17
-Model likes: **Kansas City Royals** to win (50%) | Run line: **Colorado Rockies** +1.5 (62% to cover) | Total 9.5: lean **OVER** (52%)
+Model likes: **Kansas City Royals** to win (50%) | Run line: **Colorado Rockies** +1.5 (63% to cover) | Total 9.5: lean **OVER** (52%)
 
 ### Kansas City Royals lineup -- CONFIRMED
 **Probable P: Seth Lugo (R)** -- L5: 27.3 IP, 20 K, 13 ER, 4.28 ERA
@@ -720,7 +719,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.62)_
 ## 2026-08-03 - San Diego Padres @ Arizona Diamondbacks (Scheduled)
 _Chase Field [hitter-friendly park]_
 Projected score: San Diego Padres 4.34 - Arizona Diamondbacks 4.13
-Model likes: **San Diego Padres** to win (52%) | Run line: **Arizona Diamondbacks** +1.5 (63% to cover) | Total 7.5: lean **OVER** (54%)
+Model likes: **San Diego Padres** to win (52%) | Run line: **Arizona Diamondbacks** +1.5 (64% to cover) | Total 7.5: lean **OVER** (54%)
 
 ### San Diego Padres lineup -- PROJECTED (unconfirmed)
 **Probable P: Michael King (R)** -- L5: 29.0 IP, 26 K, 9 ER, 2.79 ERA
@@ -901,7 +900,7 @@ _Facing a rested bullpen: 1.0 relief IP in last 2 days (ratio 0.2)_
 ## 2026-08-04 - Chicago White Sox @ Boston Red Sox (Scheduled)
 _Fenway Park_
 Projected score: Chicago White Sox 3.63 - Boston Red Sox 3.97
-Model likes: **Boston Red Sox** to win (53%) | Run line: **Chicago White Sox** +1.5 (63% to cover) | Total 7.5: lean **UNDER** (54%)
+Model likes: **Boston Red Sox** to win (53%) | Run line: **Chicago White Sox** +1.5 (63% to cover) | Total 7.5: lean **UNDER** (55%)
 
 ### Chicago White Sox lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
