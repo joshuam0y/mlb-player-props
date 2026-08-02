@@ -11,6 +11,15 @@ public news RSS feed -- no paid odds API, no scraping of betting sites.
 
 _Updated with every change going forward._
 
+- **2026-08-02** -- Added bonus/free bet tracking to My Bets -- a "Bonus
+  bet" checkbox (add-bet form and edit form) that changes how a LOSS is
+  scored: a normal bet losing costs the full stake, but a bonus bet's
+  stake was never real cash to begin with, so it now correctly shows
+  $0 lost instead of -$stake. A win pays the same either way (profit
+  only, stake never returned -- already how this worked). Also fixed the
+  "Total profit/loss" tile, which had its own separate, boost-unaware
+  copy of the win/loss math instead of reusing betProfit() -- it now
+  can't drift from what each bet's own card shows.
 - **2026-08-01** -- Fixed a real gap: a game that went Final showed the
   final score but no Moneyline/Run line/Total HIT/MISS verdict for
   however long it took until the NEXT full page rebuild (every ~15-60

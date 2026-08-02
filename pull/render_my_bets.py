@@ -60,6 +60,7 @@ PAGE_STYLE = """
   .leg-input-row { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 8px; align-items: center; }
   .leg-input-row input, .leg-input-row select { padding: 8px 10px; border-radius: 8px; border: 1px solid var(--border); background: var(--surface-2); color: var(--text-primary); font-family: inherit; font-size: 13.5px; }
   .leg-early-win-label { display: flex; align-items: center; gap: 6px; font-size: 12.5px; color: var(--text-secondary); }
+  .bet-bonus-label { display: flex; align-items: center; gap: 6px; font-size: 12.5px; color: var(--text-secondary); }
   .leg-input-row .leg-entity { width: 100%; box-sizing: border-box; }
   .entity-search-wrap { position: relative; flex: 1; min-width: 160px; }
   .entity-suggestions { display: none; position: absolute; top: 100%; left: 0; right: 0; background: var(--surface-1); border: 1px solid var(--border); border-radius: 8px; z-index: 20; max-height: 220px; overflow-y: auto; margin-top: 2px; box-shadow: var(--shadow); }
@@ -456,9 +457,14 @@ function boostedToWin(bet) {{
   return bet.to_win * (1 + pct / 100);
 }}
 
+// A bonus/free bet's stake was never real cash to begin with -- a loss
+// costs nothing (unlike a normal bet, where the stake is real money lost).
+// A win still only ever pays the profit either way (bet.to_win, never
+// stake+to_win -- real FanDuel behavior, same reasoning as boostedToWin()
+// above), so winning a bonus bet needs no special case here at all.
 function betProfit(bet) {{
   if (bet.status === 'won') return boostedToWin(bet);
-  if (bet.status === 'lost') return -bet.stake;
+  if (bet.status === 'lost') return bet.is_bonus_bet ? 0 : -bet.stake;
   return null;
 }}
 
@@ -507,6 +513,8 @@ function editFormHtml(bet) {{
     '<input type="number" step="0.01" class="edit-to-win" value="' + bet.to_win + '" placeholder="To win ($)" style="width:150px">' +
     '<input type="text" class="edit-odds" value="' + escapeHtml(bet.odds || '') + '" placeholder="Odds (e.g. +115)" style="width:140px">' +
     '<select class="edit-boost" title="Profit boost token">' + boostOptionsHtml(bet.profit_boost_pct) + '</select>' +
+    '<label class="bet-bonus-label" title="A free/bonus bet credit -- if it wins, only the profit pays out; if it loses, no real cash is lost">' +
+    '<input type="checkbox" class="edit-bonus"' + (bet.is_bonus_bet ? ' checked' : '') + '> Bonus bet</label>' +
     '</div>' +
     '<button type="button" class="edit-save-btn">Save</button>' +
     '<button type="button" class="edit-cancel-btn">Cancel</button>' +
@@ -527,7 +535,8 @@ function editFormHtml(bet) {{
 // player/team-search leg-row UI inline in an edit form.
 function betCardHtml(bet) {{
   const profit = betProfit(bet);
-  const profitTxt = profit != null ? ((profit >= 0 ? '+$' : '-$') + Math.abs(profit).toFixed(2)) : ('at stake: $' + Number(bet.stake).toFixed(2));
+  const stakeNote = bet.is_bonus_bet ? ' (bonus, no cash at risk)' : '';
+  const profitTxt = profit != null ? ((profit >= 0 ? '+$' : '-$') + Math.abs(profit).toFixed(2)) : ('at stake: $' + Number(bet.stake).toFixed(2) + stakeNote);
   const legsHtml = (bet.legs || []).map(legRowDisplayHtml).join('');
   const oddsTxt = bet.odds ? ' &middot; odds ' + escapeHtml(bet.odds) : '';
   const parlayTxt = (bet.legs || []).length > 1 ? ' (' + bet.legs.length + '-leg parlay)' : '';
@@ -535,12 +544,15 @@ function betCardHtml(bet) {{
   const toWinTxt = boostPct > 0
     ? 'to win $' + Number(bet.to_win).toFixed(2) + ' <span class="sub">(+' + boostPct + '% boost &rarr; $' + boostedToWin(bet).toFixed(2) + ')</span>'
     : 'to win $' + Number(bet.to_win).toFixed(2);
+  const bonusBadge = bet.is_bonus_bet
+    ? ' ' + badgeHtml('BONUS BET', 'caveat', 'Free bet credit -- only the profit pays out on a win; a loss costs no real cash')
+    : '';
   const actionsHtml = ' <button type="button" class="bet-edit-btn">Edit</button><button type="button" class="bet-delete-btn">Delete</button>';
   return (
     '<div class="bet-card" data-bet-id="' + bet.id + '"><div class="bet-card-head">' +
     '<span><b>' + escapeHtml(bet.placed_date) + '</b>' + parlayTxt + ' &middot; ' + escapeHtml(bet.sportsbook || 'FanDuel') + oddsTxt +
-    ' &middot; staked $' + Number(bet.stake).toFixed(2) + ' ' + toWinTxt + '</span>' +
-    '<span>' + betStatusBadge(bet) + ' <b>' + profitTxt + '</b>' + actionsHtml + '</span></div>' +
+    ' &middot; staked $' + Number(bet.stake).toFixed(2) + stakeNote + ' ' + toWinTxt + '</span>' +
+    '<span>' + betStatusBadge(bet) + bonusBadge + ' <b>' + profitTxt + '</b>' + actionsHtml + '</span></div>' +
     '<div class="bet-edit-form" style="display:none"></div>' +
     legsHtml + '</div>'
   );
@@ -590,10 +602,15 @@ function applyBetFilters(bets) {{
 function renderBets(bets) {{
   const settled = bets.filter(function (b) {{ return b.status === 'won' || b.status === 'lost'; }});
   const pending = bets.filter(function (b) {{ return b.status === 'pending'; }});
-  const totalProfit = settled.reduce(function (sum, b) {{ return sum + (b.status === 'won' ? b.to_win : -b.stake); }}, 0);
+  // Was its own inline (boost-unaware, bonus-bet-unaware) copy of
+  // betProfit()'s exact logic -- reusing the one real function here means
+  // this can never quietly drift from what each bet's own card shows.
+  const totalProfit = settled.reduce(function (sum, b) {{ return sum + betProfit(b); }}, 0);
   const wins = settled.filter(function (b) {{ return b.status === 'won'; }}).length;
   const losses = settled.filter(function (b) {{ return b.status === 'lost'; }}).length;
-  const pendingStake = pending.reduce(function (sum, b) {{ return sum + b.stake; }}, 0);
+  // A bonus bet's stake is never real cash at risk (see betProfit()'s own
+  // comment) -- excluded here so this tile means what it says.
+  const pendingStake = pending.reduce(function (sum, b) {{ return sum + (b.is_bonus_bet ? 0 : b.stake); }}, 0);
   // Profit only (matches to_win's own meaning and "Total profit/loss"
   // above), not the gross payout including stake back -- keeps this tile
   // consistent with every other profit figure on the page.
@@ -1054,12 +1071,15 @@ document.getElementById('bets-list').addEventListener('click', async function (e
     const toWin = parseFloat(formEl.querySelector('.edit-to-win').value);
     const odds = formEl.querySelector('.edit-odds').value || null;
     const boostPct = parseInt(formEl.querySelector('.edit-boost').value, 10) || 0;
+    const isBonusBet = formEl.querySelector('.edit-bonus').checked;
     if (!date || isNaN(stake) || isNaN(toWin)) {{
       errorEl.textContent = 'Date, stake, and to-win are all required.';
       return;
     }}
     try {{
-      await updateDoc(doc(db, 'bets', betId), {{ placed_date: date, stake: stake, to_win: toWin, odds: odds, profit_boost_pct: boostPct }});
+      await updateDoc(doc(db, 'bets', betId), {{
+        placed_date: date, stake: stake, to_win: toWin, odds: odds, profit_boost_pct: boostPct, is_bonus_bet: isBonusBet,
+      }});
       formEl.style.display = 'none';
       formEl.innerHTML = '';
     }} catch (err) {{
@@ -1182,6 +1202,7 @@ document.getElementById('bet-form').addEventListener('submit', async function (e
       to_win: toWin,
       odds: document.getElementById('bet-odds').value || null,
       profit_boost_pct: parseInt(document.getElementById('bet-boost').value, 10) || 0,
+      is_bonus_bet: document.getElementById('bet-bonus').checked,
       status: 'pending',
       created_at: new Date().toISOString(),
       graded_at: null,
@@ -1280,6 +1301,9 @@ def render_html():
               <option value="30">+30% profit boost</option>
               <option value="50">+50% profit boost</option>
             </select>
+            <label class="bet-bonus-label" title="A free/bonus bet credit -- if it wins, only the profit pays out (the stake itself is never returned); if it loses, no real cash is lost either">
+              <input type="checkbox" id="bet-bonus"> Bonus bet
+            </label>
           </div>
           <div id="legs-container"></div>
           <button type="button" id="add-leg-btn">+ Add leg</button>
