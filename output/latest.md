@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-03T04:57:25.483613+00:00_
+_Generated 2026-08-03T06:00:39.400809+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -625,7 +625,7 @@ _Facing a taxed bullpen: 6.3 relief IP in last 2 days (ratio 1.35)_
 ## 2026-08-04 - Toronto Blue Jays @ Houston Astros (Scheduled)
 _Daikin Park_
 Projected score: Toronto Blue Jays 3.87 - Houston Astros 3.86
-Model likes: **Toronto Blue Jays** to win (50%) | Run line: **Houston Astros** +1.5 (66% to cover) | Total 7.5: lean **UNDER** (53%)
+Model likes: **Houston Astros** to win (50%) | Run line: **Toronto Blue Jays** +1.5 (66% to cover) | Total 7.5: lean **UNDER** (53%)
 
 ### Toronto Blue Jays lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.3 relief IP in last 2 days (ratio 0.61)_
@@ -893,7 +893,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-05 - Washington Nationals @ Philadelphia Phillies (Scheduled)
 _Citizens Bank Park [hitter-friendly park]_
 Projected score: Washington Nationals 6.96 - Philadelphia Phillies 5.19
-Model likes: **Washington Nationals** to win (62%) | Run line: **Washington Nationals** -1.5 (50% to cover) | Total 11.5: lean **UNDER** (51%)
+Model likes: **Washington Nationals** to win (61%) | Run line: **Philadelphia Phillies** +1.5 (50% to cover) | Total 11.5: lean **UNDER** (51%)
 
 ### Washington Nationals lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
