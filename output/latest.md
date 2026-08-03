@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-03T15:20:43.122777+00:00_
+_Generated 2026-08-03T15:33:38.350777+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -417,7 +417,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.68)_
 ## 2026-08-04 - St. Louis Cardinals @ New York Yankees (Scheduled)
 _Yankee Stadium [hitter-friendly park]_
 Projected score: St. Louis Cardinals 3.64 - New York Yankees 4.49
-Model likes: **New York Yankees** to win (58%) | Run line: **St. Louis Cardinals** +1.5 (58% to cover) | Total 7.5: lean **OVER** (51%)
+Model likes: **New York Yankees** to win (58%) | Run line: **St. Louis Cardinals** +1.5 (58% to cover) | Total 7.5: lean **OVER** (50%)
 
 ### St. Louis Cardinals lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.3 relief IP in last 2 days (ratio 0.61)_
@@ -1077,7 +1077,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-05 - Pittsburgh Pirates @ Milwaukee Brewers (Scheduled)
 _American Family Field_
 Projected score: Pittsburgh Pirates 4.01 - Milwaukee Brewers 4.56
-Model likes: **Milwaukee Brewers** to win (55%) | Run line: **Pittsburgh Pirates** +1.5 (60% to cover) | Total 7.5: lean **OVER** (54%)
+Model likes: **Milwaukee Brewers** to win (55%) | Run line: **Pittsburgh Pirates** +1.5 (61% to cover) | Total 7.5: lean **OVER** (55%)
 
 ### Pittsburgh Pirates lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
