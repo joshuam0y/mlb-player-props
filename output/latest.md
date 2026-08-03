@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-03T00:43:23.138202+00:00_
+_Generated 2026-08-03T02:32:46.527842+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -469,10 +469,9 @@ _Facing a taxed bullpen: 7.7 relief IP in last 2 days (ratio 1.92)_
 - #8 Xander Bogaerts (R) [3-game hit streak] -- L7: 6H 0HR 2RBI 7TB (0.25 avg) -- home split: 0.216 avg
 - #9 Sung-Mun Song (L) -- L7: 0H 0HR 0RBI 0TB (0.0 avg) -- home split: 0.17 avg
 
-## 2026-08-02 - Boston Red Sox @ Los Angeles Dodgers (In Progress)
+## 2026-08-02 - Boston Red Sox @ Los Angeles Dodgers (Game Over)
 _UNIQLO Field at Dodger Stadium_
-Projected score: Boston Red Sox 4.55 - Los Angeles Dodgers 3.04
-Model likes: **Boston Red Sox** to win (64%) | Run line: **Los Angeles Dodgers** +1.5 (53% to cover) | Total 7.5: lean **UNDER** (55%)
+Final: Boston Red Sox 8 - Los Angeles Dodgers 4
 
 ### Boston Red Sox lineup -- CONFIRMED
 _Facing a taxed bullpen: 9.0 relief IP in last 2 days (ratio 1.94)_
@@ -592,7 +591,7 @@ _Facing a taxed bullpen: 10.0 relief IP in last 2 days (ratio 2.17)_
 ## 2026-08-03 - San Francisco Giants @ Texas Rangers (Scheduled)
 _Globe Life Field [hitter-friendly park]_
 Projected score: San Francisco Giants 4.8 - Texas Rangers 3.65
-Model likes: **San Francisco Giants** to win (60%) | Run line: **Texas Rangers** +1.5 (55% to cover) | Total 7.5: lean **OVER** (53%)
+Model likes: **San Francisco Giants** to win (60%) | Run line: **Texas Rangers** +1.5 (56% to cover) | Total 7.5: lean **OVER** (53%)
 
 ### San Francisco Giants lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 7.3 relief IP in last 2 days (ratio 1.56)_
@@ -622,7 +621,7 @@ _Facing a taxed bullpen: 6.3 relief IP in last 2 days (ratio 1.58)_
 ## 2026-08-03 - Los Angeles Dodgers @ Chicago Cubs (Scheduled)
 _Wrigley Field_
 Projected score: Los Angeles Dodgers 4.22 - Chicago Cubs 4.52
-Model likes: **Chicago Cubs** to win (53%) | Run line: **Los Angeles Dodgers** +1.5 (62% to cover) | Total 8.5: lean **UNDER** (53%)
+Model likes: **Chicago Cubs** to win (52%) | Run line: **Los Angeles Dodgers** +1.5 (62% to cover) | Total 8.5: lean **UNDER** (53%)
 
 ### Los Angeles Dodgers lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 5.7 relief IP in last 2 days (ratio 1.48)_
@@ -864,7 +863,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.68)_
 ## 2026-08-04 - St. Louis Cardinals @ New York Yankees (Scheduled)
 _Yankee Stadium [hitter-friendly park]_
 Projected score: St. Louis Cardinals 3.57 - New York Yankees 4.63
-Model likes: **New York Yankees** to win (59%) | Run line: **St. Louis Cardinals** +1.5 (56% to cover) | Total 7.5: lean **OVER** (51%)
+Model likes: **New York Yankees** to win (60%) | Run line: **St. Louis Cardinals** +1.5 (56% to cover) | Total 7.5: lean **OVER** (51%)
 
 ### St. Louis Cardinals lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.3 relief IP in last 2 days (ratio 0.61)_
