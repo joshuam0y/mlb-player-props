@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-03T12:51:56.317203+00:00_
+_Generated 2026-08-03T15:12:27.578498+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -8,8 +8,8 @@ _Generated 2026-08-03T12:51:56.317203+00:00_
 - **Shohei Ohtani** (Los Angeles Dodgers vs Chicago Cubs): real hot streak (not just lucky bloops), 6-game hit streak -- try Hits: 40% over 1.5 recently (vs. 10-game sample)
 - **Trea Turner** (Philadelphia Phillies vs Washington Nationals): real hot streak (not just lucky bloops) -- try Runs Scored: 50% over 0.5 recently (vs. 10-game sample)
 - **Taylor Trammell** (Houston Astros vs Toronto Blue Jays): real hot streak (not just lucky bloops) -- try Hits: 60% over 0.5 recently (vs. 10-game sample)
-- **Chandler Simpson** (Tampa Bay Rays vs Colorado Rockies): favorable matchup vs. tonight's pitcher -- try Hits: 40% over 1.5 recently (vs. 10-game sample)
-- **Bryson Stott** (Philadelphia Phillies vs Washington Nationals): real hot streak (not just lucky bloops) -- try Hits: 50% over 0.5 recently (vs. 10-game sample)
+- **Chandler Simpson** (Tampa Bay Rays vs Colorado Rockies): favorable matchup vs. tonight's pitcher -- try Hits + Runs + RBIs: 50% over 1.5 recently (vs. 10-game sample)
+- **Bryson Stott** (Philadelphia Phillies vs Washington Nationals): real hot streak (not just lucky bloops) -- try Hits + Runs + RBIs: 50% over 1.5 recently (vs. 10-game sample)
 - **Daylen Lile** (Washington Nationals vs Philadelphia Phillies): favorable matchup vs. tonight's pitcher -- try Hits: 80% over 0.5 recently (vs. 10-game sample)
 - **James Wood** (Washington Nationals vs Philadelphia Phillies): favorable matchup vs. tonight's pitcher -- try Walks: 60% over 0.5 recently (vs. 10-game sample)
 - **CJ Abrams** (Washington Nationals vs Philadelphia Phillies): favorable matchup vs. tonight's pitcher -- try Runs Scored: 60% over 0.5 recently (vs. 10-game sample)
@@ -17,7 +17,7 @@ _Generated 2026-08-03T12:51:56.317203+00:00_
 - **Jacob Young** (Washington Nationals vs Philadelphia Phillies): real hot streak (not just lucky bloops) -- try Hits: 40% over 0.5 recently (vs. 10-game sample)
 - **José Tena** (Washington Nationals vs Philadelphia Phillies): favorable matchup vs. tonight's pitcher -- try Hits: 40% over 0.5 recently (vs. 10-game sample)
 - **Keibert Ruiz** (Washington Nationals vs Philadelphia Phillies): favorable matchup vs. tonight's pitcher -- try Hits: 40% over 0.5 recently (vs. 10-game sample)
-- **Ali Sánchez** (New York Yankees vs St. Louis Cardinals): real hot streak (not just lucky bloops) -- try Hits: 40% over 0.5 recently (vs. 10-game sample)
+- **Ali Sánchez** (New York Yankees vs St. Louis Cardinals): real hot streak (not just lucky bloops) -- try Hits + Runs + RBIs: 50% over 0.5 recently (vs. 10-game sample)
 
 ### Pitchers
 - **Matthew Boyd** (Chicago Cubs vs Los Angeles Dodgers): pitching well above his season norm over his last few starts, 5 hitters in tonight's lineup are in a tough matchup against him -- try Outs Recorded: 100% over 17.5 recently (vs. 5-game sample)
@@ -41,7 +41,7 @@ _Generated 2026-08-03T12:51:56.317203+00:00_
 - **Ezequiel Duran** (Texas Rangers vs San Francisco Giants): tough matchup vs. tonight's pitcher -- try Walks: 90% under 0.5 recently (vs. 10-game sample)
 - **Jake Burger** (Texas Rangers vs San Francisco Giants): tough matchup vs. tonight's pitcher -- try Walks: 80% under 0.5 recently (vs. 10-game sample)
 - **Freddie Freeman** (Los Angeles Dodgers vs Chicago Cubs): tough matchup vs. tonight's pitcher -- try Walks: 90% under 0.5 recently (vs. 10-game sample)
-- **Shohei Ohtani** (Los Angeles Dodgers vs Chicago Cubs): tough matchup vs. tonight's pitcher -- try Total Bases: 60% under 2.5 recently (vs. 10-game sample)
+- **Shohei Ohtani** (Los Angeles Dodgers vs Chicago Cubs): tough matchup vs. tonight's pitcher -- try Hits + Runs + RBIs: 60% under 2.5 recently (vs. 10-game sample)
 - **Max Muncy** (Los Angeles Dodgers vs Chicago Cubs): tough matchup vs. tonight's pitcher -- try Hits: 40% under 0.5 recently (vs. 10-game sample)
 - **Dalton Rushing** (Los Angeles Dodgers vs Chicago Cubs): tough matchup vs. tonight's pitcher -- try Walks: 100% under 0.5 recently (vs. 10-game sample)
 - **Brandon Marsh** (Philadelphia Phillies vs Washington Nationals): cold recent stretch (well below season average) -- try Total Bases: 90% under 1.5 recently (vs. 10-game sample)
@@ -54,11 +54,12 @@ _Generated 2026-08-03T12:51:56.317203+00:00_
 
 ## 2026-08-03 - Washington Nationals @ Philadelphia Phillies (Scheduled)
 _Citizens Bank Park [hitter-friendly park]_
-Projected score: Washington Nationals 6.31 - Philadelphia Phillies 4.97
-Model likes: **Washington Nationals** to win (59%) | Run line: **Philadelphia Phillies** +1.5 (53% to cover) | Total 10.5: lean **OVER** (50%)
+Projected score: Washington Nationals 6.31 - Philadelphia Phillies 3.98
+Model likes: **Washington Nationals** to win (67%) | Run line: **Washington Nationals** -1.5 (54% to cover) | Total 9.5: lean **OVER** (51%)
 
 ### Washington Nationals lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 6.0 relief IP in last 2 days (ratio 1.29)_
+**Probable P: Andrew Alvarez (L)** -- L5: 21.0 IP, 16 K, 12 ER, 5.14 ERA
 - Daylen Lile (L) [MATCHUP EDGE: pitcher hits 0.283 avg-against vs this hand] -- L7: 7H 2HR 3RBI 13TB (0.304 avg) -- away split: 0.275 avg
 - James Wood (L) [MATCHUP EDGE: pitcher hits 0.283 avg-against vs this hand] -- L7: 4H 0HR 1RBI 5TB (0.167 avg) -- away split: 0.237 avg
 - CJ Abrams (L) [MATCHUP EDGE: pitcher hits 0.283 avg-against vs this hand] -- L7: 3H 1HR 3RBI 6TB (0.125 avg) -- away split: 0.302 avg
@@ -84,7 +85,7 @@ _Facing a taxed bullpen: 6.0 relief IP in last 2 days (ratio 1.29)_
 ## 2026-08-03 - St. Louis Cardinals @ New York Yankees (Scheduled)
 _Yankee Stadium [hitter-friendly park]_
 Projected score: St. Louis Cardinals 2.4 - New York Yankees 4.05
-Model likes: **New York Yankees** to win (67%) | Run line: **St. Louis Cardinals** +1.5 (51% to cover) | Total 5.5: lean **OVER** (55%)
+Model likes: **New York Yankees** to win (67%) | Run line: **St. Louis Cardinals** +1.5 (52% to cover) | Total 5.5: lean **OVER** (55%)
 
 ### St. Louis Cardinals lineup -- PROJECTED (unconfirmed)
 **Probable P: Michael McGreevy (R)** -- L5: 26.7 IP, 19 K, 15 ER, 5.06 ERA
@@ -114,7 +115,7 @@ _Facing a taxed bullpen: 6.0 relief IP in last 2 days (ratio 1.2)_
 ## 2026-08-03 - Pittsburgh Pirates @ Milwaukee Brewers (Scheduled)
 _American Family Field_
 Projected score: Pittsburgh Pirates 4.55 - Milwaukee Brewers 4.99
-Model likes: **Milwaukee Brewers** to win (54%) | Run line: **Pittsburgh Pirates** +1.5 (61% to cover) | Total 8.5: lean **OVER** (53%)
+Model likes: **Milwaukee Brewers** to win (54%) | Run line: **Pittsburgh Pirates** +1.5 (60% to cover) | Total 8.5: lean **OVER** (54%)
 
 ### Pittsburgh Pirates lineup -- PROJECTED (unconfirmed)
 **Probable P: Bubba Chandler (R)** -- L5: 25.3 IP, 20 K, 14 ER, 4.97 ERA
@@ -265,7 +266,7 @@ _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.31)_
 ## 2026-08-03 - San Diego Padres @ Arizona Diamondbacks (Scheduled)
 _Chase Field [hitter-friendly park]_
 Projected score: San Diego Padres 4.26 - Arizona Diamondbacks 4.1
-Model likes: **San Diego Padres** to win (51%) | Run line: **Arizona Diamondbacks** +1.5 (64% to cover) | Total 7.5: lean **OVER** (52%)
+Model likes: **San Diego Padres** to win (51%) | Run line: **Arizona Diamondbacks** +1.5 (64% to cover) | Total 7.5: lean **OVER** (53%)
 
 ### San Diego Padres lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 8.0 relief IP in last 2 days (ratio 1.59)_
@@ -595,7 +596,7 @@ _Facing a rested bullpen: 2.7 relief IP in last 2 days (ratio 0.57)_
 ## 2026-08-04 - Los Angeles Dodgers @ Chicago Cubs (Scheduled)
 _Wrigley Field_
 Projected score: Los Angeles Dodgers 4.46 - Chicago Cubs 3.75
-Model likes: **Los Angeles Dodgers** to win (56%) | Run line: **Chicago Cubs** +1.5 (60% to cover) | Total 7.5: lean **OVER** (51%)
+Model likes: **Los Angeles Dodgers** to win (56%) | Run line: **Chicago Cubs** +1.5 (59% to cover) | Total 7.5: lean **OVER** (51%)
 
 ### Los Angeles Dodgers lineup -- PROJECTED (unconfirmed)
 **Probable P: Tarik Skubal (L)** -- L5: 31.0 IP, 41 K, 7 ER, 2.03 ERA
@@ -714,7 +715,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.62)_
 ## 2026-08-04 - San Diego Padres @ Arizona Diamondbacks (Scheduled)
 _Chase Field [hitter-friendly park]_
 Projected score: San Diego Padres 3.5 - Arizona Diamondbacks 5.38
-Model likes: **Arizona Diamondbacks** to win (65%) | Run line: **Arizona Diamondbacks** -1.5 (51% to cover) | Total 8.5: lean **UNDER** (52%)
+Model likes: **Arizona Diamondbacks** to win (66%) | Run line: **Arizona Diamondbacks** -1.5 (51% to cover) | Total 8.5: lean **UNDER** (52%)
 
 ### San Diego Padres lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.6)_
@@ -893,7 +894,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-05 - Washington Nationals @ Philadelphia Phillies (Scheduled)
 _Citizens Bank Park [hitter-friendly park]_
 Projected score: Washington Nationals 6.96 - Philadelphia Phillies 5.19
-Model likes: **Washington Nationals** to win (61%) | Run line: **Washington Nationals** -1.5 (50% to cover) | Total 11.5: lean **UNDER** (51%)
+Model likes: **Washington Nationals** to win (62%) | Run line: **Washington Nationals** -1.5 (50% to cover) | Total 11.5: lean **UNDER** (51%)
 
 ### Washington Nationals lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1076,7 +1077,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-05 - Pittsburgh Pirates @ Milwaukee Brewers (Scheduled)
 _American Family Field_
 Projected score: Pittsburgh Pirates 4.01 - Milwaukee Brewers 4.56
-Model likes: **Milwaukee Brewers** to win (55%) | Run line: **Pittsburgh Pirates** +1.5 (61% to cover) | Total 7.5: lean **OVER** (54%)
+Model likes: **Milwaukee Brewers** to win (55%) | Run line: **Pittsburgh Pirates** +1.5 (60% to cover) | Total 7.5: lean **OVER** (54%)
 
 ### Pittsburgh Pirates lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
