@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-03T06:00:39.400809+00:00_
+_Generated 2026-08-03T08:55:29.507448+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -446,7 +446,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.6)_
 ## 2026-08-04 - Chicago White Sox @ Boston Red Sox (Scheduled)
 _Fenway Park_
 Projected score: Chicago White Sox 3.86 - Boston Red Sox 3.4
-Model likes: **Chicago White Sox** to win (54%) | Run line: **Boston Red Sox** +1.5 (63% to cover) | Total 6.5: lean **OVER** (52%)
+Model likes: **Chicago White Sox** to win (55%) | Run line: **Boston Red Sox** +1.5 (63% to cover) | Total 6.5: lean **OVER** (52%)
 
 ### Chicago White Sox lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.3 relief IP in last 2 days (ratio 0.64)_
@@ -476,7 +476,7 @@ _Facing a rested bullpen: 1.7 relief IP in last 2 days (ratio 0.26)_
 ## 2026-08-04 - Miami Marlins @ Atlanta Braves (Scheduled)
 _Truist Park_
 Projected score: Miami Marlins 3.5 - Atlanta Braves 5.1
-Model likes: **Atlanta Braves** to win (64%) | Run line: **Miami Marlins** +1.5 (52% to cover) | Total 7.5: lean **OVER** (55%)
+Model likes: **Atlanta Braves** to win (64%) | Run line: **Miami Marlins** +1.5 (52% to cover) | Total 8.5: lean **UNDER** (55%)
 
 ### Miami Marlins lineup -- PROJECTED (unconfirmed)
 - Javier Sanoja (R) -- L7: 4H 1HR 2RBI 8TB (0.211 avg) -- away split: 0.259 avg
@@ -625,7 +625,7 @@ _Facing a taxed bullpen: 6.3 relief IP in last 2 days (ratio 1.35)_
 ## 2026-08-04 - Toronto Blue Jays @ Houston Astros (Scheduled)
 _Daikin Park_
 Projected score: Toronto Blue Jays 3.87 - Houston Astros 3.86
-Model likes: **Houston Astros** to win (50%) | Run line: **Toronto Blue Jays** +1.5 (66% to cover) | Total 7.5: lean **UNDER** (53%)
+Model likes: **Toronto Blue Jays** to win (50%) | Run line: **Houston Astros** +1.5 (66% to cover) | Total 7.5: lean **UNDER** (53%)
 
 ### Toronto Blue Jays lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.3 relief IP in last 2 days (ratio 0.61)_
@@ -714,7 +714,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.62)_
 ## 2026-08-04 - San Diego Padres @ Arizona Diamondbacks (Scheduled)
 _Chase Field [hitter-friendly park]_
 Projected score: San Diego Padres 3.5 - Arizona Diamondbacks 5.38
-Model likes: **Arizona Diamondbacks** to win (66%) | Run line: **Arizona Diamondbacks** -1.5 (51% to cover) | Total 8.5: lean **UNDER** (52%)
+Model likes: **Arizona Diamondbacks** to win (65%) | Run line: **Arizona Diamondbacks** -1.5 (51% to cover) | Total 8.5: lean **UNDER** (52%)
 
 ### San Diego Padres lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.6)_
@@ -774,7 +774,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-05 - Los Angeles Dodgers @ Chicago Cubs (Scheduled)
 _Wrigley Field_
 Projected score: Los Angeles Dodgers 4.41 - Chicago Cubs 4.38
-Model likes: **Los Angeles Dodgers** to win (50%) | Run line: **Chicago Cubs** +1.5 (64% to cover) | Total 8.5: lean **UNDER** (53%)
+Model likes: **Los Angeles Dodgers** to win (50%) | Run line: **Chicago Cubs** +1.5 (65% to cover) | Total 8.5: lean **UNDER** (53%)
 
 ### Los Angeles Dodgers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -893,7 +893,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-05 - Washington Nationals @ Philadelphia Phillies (Scheduled)
 _Citizens Bank Park [hitter-friendly park]_
 Projected score: Washington Nationals 6.96 - Philadelphia Phillies 5.19
-Model likes: **Washington Nationals** to win (61%) | Run line: **Philadelphia Phillies** +1.5 (50% to cover) | Total 11.5: lean **UNDER** (51%)
+Model likes: **Washington Nationals** to win (62%) | Run line: **Washington Nationals** -1.5 (50% to cover) | Total 11.5: lean **UNDER** (51%)
 
 ### Washington Nationals lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1166,7 +1166,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-05 - San Diego Padres @ Arizona Diamondbacks (Scheduled)
 _Chase Field [hitter-friendly park]_
 Projected score: San Diego Padres 5.17 - Arizona Diamondbacks 5.38
-Model likes: **Arizona Diamondbacks** to win (52%) | Run line: **San Diego Padres** +1.5 (61% to cover) | Total 9.5: lean **OVER** (53%)
+Model likes: **Arizona Diamondbacks** to win (51%) | Run line: **San Diego Padres** +1.5 (62% to cover) | Total 9.5: lean **OVER** (53%)
 
 ### San Diego Padres lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
