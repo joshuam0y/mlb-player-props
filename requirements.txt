@@ -1,3 +1,4 @@
 requests
 tzdata
 firebase-admin
+anthropic

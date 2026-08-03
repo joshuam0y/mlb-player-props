@@ -101,16 +101,11 @@ STYLE = """
   }
   .nav-link:hover { background: rgba(255,255,255,0.14); }
 
-  .notes, .glossary {
+  .notes {
     background: var(--surface-1); border: 1px solid var(--border); border-radius: 12px;
     padding: 14px 16px; margin: 14px 0; font-size: 13px; color: var(--text-secondary);
-    box-shadow: var(--shadow);
+    box-shadow: var(--shadow); white-space: pre-wrap;
   }
-  .notes { white-space: pre-wrap; }
-  .glossary summary { cursor: pointer; font-weight: 600; color: var(--text-primary); }
-  .glossary dl { margin: 12px 0 0; }
-  .glossary dt { font-weight: 600; color: var(--text-primary); margin-top: 8px; }
-  .glossary dd { margin: 2px 0 0; }
 
   .stat-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 10px; margin: 14px 0; }
   .stat-tile {
@@ -260,6 +255,11 @@ STYLE = """
   .team-title { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; font-weight: 600; font-size: 14px; margin-bottom: 2px; }
   .team-form { margin-bottom: 8px; }
   .team-form:empty { display: none; }
+  .team-ai-summary {
+    background: var(--surface-2); border-radius: 8px; padding: 8px 10px; margin-bottom: 10px;
+    font-size: 12px; line-height: 1.45; color: var(--text-secondary);
+  }
+  .team-ai-summary b { color: var(--text-primary); }
   .badge {
     display: inline-flex; align-items: center; gap: 4px; font-size: 10.5px; font-weight: 700;
     padding: 2px 7px; border-radius: 999px; line-height: 1.6; white-space: nowrap;
@@ -518,6 +518,28 @@ STYLE = """
      no text-sniffing needed. */
   .play-row.play-scoring { background: rgba(245,166,35,0.22); }
   .play-row.play-scoring .play-inning { color: var(--text-primary); font-weight: 700; }
+  .highlights-strip:empty { display: none; }
+  .highlights-strip { margin-bottom: 14px; }
+  .highlights-heading { font-size: 13px; font-weight: 700; margin-bottom: 6px; }
+  .highlights-row { display: flex; gap: 10px; overflow-x: auto; padding-bottom: 4px; }
+  .highlight-card { flex: none; width: 160px; cursor: pointer; }
+  .highlight-thumb-wrap {
+    position: relative; width: 160px; height: 90px; border-radius: 8px; overflow: hidden; background: var(--surface-2);
+  }
+  .highlight-thumb, .highlight-thumb-wrap video { width: 100%; height: 100%; object-fit: cover; display: block; background: #000; }
+  .highlight-play {
+    position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+    width: 32px; height: 32px; border-radius: 50%; background: rgba(0,0,0,0.55); color: #fff;
+    display: flex; align-items: center; justify-content: center; font-size: 13px; pointer-events: none;
+  }
+  .highlight-duration {
+    position: absolute; right: 4px; bottom: 4px; background: rgba(0,0,0,0.7); color: #fff;
+    font-size: 10.5px; padding: 1px 5px; border-radius: 4px; font-variant-numeric: tabular-nums;
+  }
+  .highlight-title {
+    font-size: 11.5px; color: var(--text-secondary); margin-top: 4px; line-height: 1.3;
+    display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+  }
   .best-prop { font-size: 11.5px; margin-top: 4px; padding: 3px 7px; border-radius: 6px; display: inline-block; }
   .best-prop-over { background: var(--series-1-bg); color: var(--series-1); }
   .best-prop-under { background: rgba(224,51,63,0.14); color: var(--status-critical); }
@@ -813,6 +835,22 @@ function switchTeamTab(btn, side) {
   btn.classList.add('active');
   const teamsDiv = tabsRow.nextElementSibling;
   if (teamsDiv) teamsDiv.dataset.activeSide = side;
+}
+function playHighlight(el) {
+  // Nothing is fetched for a collapsed/unclicked clip -- the <video> element
+  // (and its network request) is only created the moment someone clicks.
+  if (el.dataset.played === 'true') return;
+  const url = el.dataset.videoUrl;
+  const wrap = el.querySelector('.highlight-thumb-wrap');
+  if (!url || !wrap) return;
+  el.dataset.played = 'true';
+  wrap.innerHTML = '';
+  const video = document.createElement('video');
+  video.controls = true;
+  video.autoplay = true;
+  video.playsInline = true;
+  video.src = url;
+  wrap.appendChild(video);
 }
 function localizeGameTimes() {
   document.querySelectorAll('.game-time').forEach(function (el) {
@@ -1639,43 +1677,6 @@ function syncStickyOffset() {
 </script>
 """
 
-GLOSSARY_HTML = """
-<details class="glossary">
-  <summary>What do these terms mean?</summary>
-  <dl>
-    <dt>Confirmed vs. Projected lineup</dt>
-    <dd>CONFIRMED means MLB has officially posted tonight's batting order (usually 1-2 hours before first pitch), and only the 9 players actually in that order are shown -- bench players are never included once a lineup is confirmed. PROJECTED means the game hasn't posted a lineup yet, so we're showing who's played most recently for that team as a best guess -- treat these as a bit less certain. A probable pitcher gets the same CONFIRMED/PROJECTED tag on a different basis: MLB doesn't post a separate "confirmed starter" announcement the way it does a batting order, so CONFIRMED here means the game itself is close enough to first pitch (bullpens already loose) that a late rotation swap is essentially off the table -- a pitcher still listed for a game a day or more out is PROJECTED, since a rainout, doubleheader reshuffle, or rotation change can still swap him out.</dd>
-    <dt>HOT / COLD</dt>
-    <dd>This player's batting average over their last 7 games is notably higher (HOT) or lower (COLD) than their season average. Backtested result: on its own this barely predicts what happens in the very next game -- short hot/cold streaks are mostly random noise, not a reliable signal by itself.</dd>
-    <dt>"Likely luck" tag</dt>
-    <dd>A hot streak driven by bloop hits falling in (measured by BABIP, the rate of batted balls that go for hits) rather than actually hitting the ball harder. These streaks tend to cool off faster than "real" hot streaks.</dd>
-    <dt>Matchup edge</dt>
-    <dd>This batter's handedness (lefty/righty) is a good matchup against tonight's specific opposing pitcher, who has historically struggled against that side. Skipped entirely against a "BULLPEN GAME" probable pitcher (see below) -- there's no reliable single-pitcher matchup to read when he likely won't face the lineup more than once.</dd>
-    <dt>BULLPEN GAME</dt>
-    <dd>Tonight's probable pitcher averages short outings this season (classified from his own innings/outs per appearance, not just his games-started count) -- an opener, piggyback/bulk arm, or otherwise not a real multi-time-through-the-order starter. Since he likely won't face the lineup more than once, opposing batters don't get a Matchup edge/Tough matchup read against him specifically -- there's no way to predict which relievers follow him.</dd>
-    <dt>Best prop</dt>
-    <dd>The single category where this player's last several games deviate the most from their own season norm -- e.g. "trending OVER 1.5 Total Bases (80% recently vs. 55% this season)". Not a guarantee, just the angle with the biggest recent shift.</dd>
-    <dt>Bullpen taxed / rested</dt>
-    <dd>How many innings that team's relief pitchers have thrown in the last 2 days. A taxed bullpen has been used a lot recently and may be less sharp late in the game -- this is factored into the game projection's run environment, not just shown as a note.</dd>
-    <dt>Dominant form / Rough stretch (pitchers)</dt>
-    <dd>This pitcher's ERA over his last several starts is notably better (DOMINANT) or worse (ROUGH) than his season ERA.</dd>
-    <dt>Tough matchup for... (pitcher)</dt>
-    <dd>Specific hitters in tonight's opposing lineup who are in an unfavorable spot against this pitcher (wrong-handed or facing a pitcher who dominates their side) -- the mirror image of a batter's own "matchup edge" tag.</dd>
-    <dt>ERA (earned run average)</dt>
-    <dd>Runs a pitcher allows per 9 innings pitched -- lower is better. Roughly: under 3.5 is very good, 4.5+ is below average.</dd>
-    <dt>WHIP</dt>
-    <dd>Walks + hits allowed per inning pitched -- lower is better, roughly measures how many baserunners a pitcher allows.</dd>
-    <dt>Hit rate (in the prop breakdown)</dt>
-    <dd>Out of this player's recent games, the percentage where they went OVER a given number. E.g. "80% over 1.5 total bases" means 8 of their last 10 games had 2+ total bases. We don't pull actual FanDuel/Sleeper lines, so compare this rate to whatever number the app shows you. In the bar chart, the dashed line marks that threshold -- green bars cleared it, red bars didn't -- and hovering a bar shows the exact number and date.</dd>
-    <dt>Moneyline / Run line / Total pick</dt>
-    <dd>Moneyline = which team our simulation (1,000,000 Monte Carlo trials per game) thinks is more likely to win outright. Run line = the standard MLB spread (always +/-1.5 runs, whichever side is the moneyline favorite) and which side is more likely to cover it. Total = the projected combined-runs line (the median of the simulated outcomes, rounded to a half-run so it can't push) and whether the model leans over or under it. All three come from the same simulation, which uses each team's season-long scoring record (home/away split), the probable starters' season stats, actual bullpen quality plus recent bullpen fatigue, and -- once a lineup is confirmed -- a small adjustment for how those specific 9 hitters have actually been hitting lately.</dd>
-    <dt>Why does the +1.5 underdog get picked so often?</dt>
-    <dd>Because that's genuinely how MLB run lines behave, not a bug: most games are decided by 1 run, so "lose by only 1" (which still covers +1.5) is a much lower bar than "win by 2+" (needed to cover -1.5). Real sportsbooks don't change the 1.5 number for this -- they price it in with worse moneyline odds on the +1.5 side. Since this project doesn't pull real odds, a run-line pick here is a directional lean only, not a claim that it's a great-value bet.</dd>
-  </dl>
-</details>
-"""
-
-
 NORMAL_STATUSES = {"Scheduled", "Pre-Game", "Warmup", "In Progress", "Final", "Game Over", "Completed Early"}
 FINAL_STATUSES = {"Final", "Game Over", "Completed Early"}
 
@@ -2156,6 +2157,13 @@ def _batter_rows(batters, id_prefix, status, star_player_id=None):
     return "\n".join(rows)
 
 
+def _team_summary_html(side):
+    summary = side.get("ai_summary")
+    if not summary:
+        return ""
+    return f'<div class="team-ai-summary"><b>Team snapshot</b><br>{html.escape(summary)}</div>'
+
+
 def _team_col_html(side, id_prefix, status, side_key):
     tag_kind = "confirmed" if side["lineup_confirmed"] else "projected"
     tag_label = "CONFIRMED" if side["lineup_confirmed"] else "PROJECTED"
@@ -2164,6 +2172,7 @@ def _team_col_html(side, id_prefix, status, side_key):
     <div class="team-col" data-side="{side_key}">
       <div class="team-title">{html.escape(side["team_name"] or "?")} {_badge(tag_label, tag_kind)}{_team_form_badge(form)}</div>
       <div class="team-form">{_team_form_text(form)}</div>
+      {_team_summary_html(side)}
       <div class="pitcher-block">
         {_pitcher_html(side["probable_pitcher"], f"{id_prefix}-p", side.get("opponent_bullpen_fatigue"), status, side.get("star_player_id"))}
       </div>
@@ -2377,6 +2386,45 @@ def _game_line_html(g):
     """
 
 
+def _highlight_duration(duration):
+    """MLB gives duration as 'HH:MM:SS' -- drop a leading '00:' hour so a
+    typical ~2 minute clip reads '2:06' instead of '00:02:06'."""
+    if not duration:
+        return ""
+    parts = duration.split(":")
+    if len(parts) == 3 and parts[0] == "00":
+        return f"{int(parts[1])}:{parts[2]}"
+    return duration
+
+
+def _highlight_card_html(h):
+    dur = _highlight_duration(h.get("duration"))
+    duration_html = f'<span class="highlight-duration">{html.escape(dur)}</span>' if dur else ""
+    return f"""
+    <div class="highlight-card" data-video-url="{html.escape(h["video_url"])}" onclick="playHighlight(this)">
+      <div class="highlight-thumb-wrap">
+        <img class="highlight-thumb" src="{html.escape(h["thumbnail_url"] or "")}" loading="lazy" alt="">
+        <span class="highlight-play">&#9658;</span>
+        {duration_html}
+      </div>
+      <div class="highlight-title">{html.escape(h["title"])}</div>
+    </div>
+    """
+
+
+def _highlights_html(g):
+    highlights = g.get("highlights") or []
+    if not highlights:
+        return ""
+    cards = "".join(_highlight_card_html(h) for h in highlights)
+    return f"""
+    <div class="highlights-strip">
+      <div class="highlights-heading">Highlights</div>
+      <div class="highlights-row">{cards}</div>
+    </div>
+    """
+
+
 def _game_card_html(g):
     is_confirmed = "true" if (g["home"]["lineup_confirmed"] or g["away"]["lineup_confirmed"]) else "false"
     id_prefix = f"g{g['game_pk']}"
@@ -2406,6 +2454,7 @@ def _game_card_html(g):
       <div class="game-body">
         <div class="live-detail"></div>
         <div class="recent-plays"></div>
+        {_highlights_html(g)}
         <div class="team-tabs">
           <button type="button" class="team-tab active" onclick="switchTeamTab(this, 'away')">{html.escape(g["away"]["team_name"] or "Away")}</button>
           <button type="button" class="team-tab" onclick="switchTeamTab(this, 'home')">{html.escape(g["home"]["team_name"] or "Home")}</button>
@@ -2699,7 +2748,6 @@ def render_html(report):
     <div class="stat-row">{_stat_tiles(games)}</div>
     {_injury_report_html(games)}
     {_top_picks_html(report.get("top_overs"), report.get("top_unders"))}
-    {GLOSSARY_HTML}
     {notes_html}
     {body}
   </div>

@@ -188,6 +188,14 @@ CREATE TABLE IF NOT EXISTS game_projections (
 );
 CREATE INDEX IF NOT EXISTS idx_projections_game ON game_projections(game_pk);
 
+CREATE TABLE IF NOT EXISTS team_summaries (
+    team_id INTEGER NOT NULL,
+    date TEXT NOT NULL,        -- calendar date (mlb_today()) this summary was generated for
+    summary TEXT NOT NULL,
+    generated_at TEXT NOT NULL,
+    PRIMARY KEY (team_id, date)
+);
+
 CREATE TABLE IF NOT EXISTS sync_state (
     player_id INTEGER NOT NULL,
     season INTEGER NOT NULL,

@@ -11,6 +11,20 @@ public news RSS feed -- no paid odds API, no scraping of betting sites.
 
 _Updated with every change going forward._
 
+- **2026-08-03** -- Three changes: (1) Added official MLB highlight clips
+  directly on each game card (condensed-game recap, key plays) -- click-
+  to-play thumbnails pulled from MLB's own public Content API
+  (`/game/{game_pk}/content`), same official source this project already
+  uses for player photos; nothing is fetched until a clip is actually
+  clicked. (2) Removed the "How to read this" / "What do these terms
+  mean?" glossary blocks from the dashboard, Track Record, and My Bets --
+  they were pure definitional boilerplate nobody was reading. (3) Added an
+  AI-written "Team snapshot" blurb per team (season record, last-10 form,
+  batting/pitching vs. league average, injuries, recent trades/headlines)
+  -- generated once per real day per team (not per sync run) by a new
+  `sync_team_summaries.py` job feeding real synced data into Claude Haiku,
+  never inventing its own facts. Requires an `ANTHROPIC_API_KEY` repo
+  secret; the job no-ops harmlessly if it's not set.
 - **2026-08-02** -- Removed "To Record A Hit" (added earlier today) --
   genuinely redundant with the existing "Hits" category, same reasoning
   "Total Bases" already gets a 1.5 floor for: whenever a player's own Hits

@@ -153,6 +153,18 @@ def get_linescore(game_pk):
     return _get(f"/game/{game_pk}/feed/live", base=LIVE_BASE).get("liveData", {}).get("linescore", {})
 
 
+def get_game_content(game_pk):
+    """
+    MLB's own official editorial/highlights bundle for a game -- condensed-
+    game recaps and key-play clips (home runs, big outs), each with a real
+    playable MP4 URL served from MLB's own CDN (mlb-cuts-diamond.mlb.com),
+    same official source this project already uses for player photos
+    (img.mlbstatic.com) and everything else. Empty for a game that hasn't
+    started yet (nothing's happened to clip).
+    """
+    return _get(f"/game/{game_pk}/content", base=BASE)
+
+
 def get_transactions(start_date, end_date, sport_id=1):
     """Free-agent signings, trades, IL placements/activations, etc."""
     data = _get("/transactions", {"sportId": sport_id, "startDate": start_date, "endDate": end_date})

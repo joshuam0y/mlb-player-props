@@ -605,6 +605,43 @@ def live_score(conn, game_pk, home_team_id, away_team_id):
     return {"home_runs": home["r"] or 0, "away_runs": away["r"] or 0}
 
 
+GAME_HIGHLIGHTS_LIMIT = 4  # most-recent clips shown per game -- a full slate of these is real page weight, keep it tight
+
+
+def game_highlights(game_pk, status):
+    """
+    Official MLB highlight clips for this game (condensed-game recap, key
+    plays) -- titles/short blurbs plus a directly-playable MP4 URL, all
+    served from MLB's own CDN via their own public Content API (same
+    official source this project already uses for player photos and
+    everything else). None until the game has actually started -- nothing
+    exists to clip for a still-Scheduled game, and there's no point paying
+    for the extra API call every single build until then.
+    """
+    if status in (None, "Scheduled", "Preview"):
+        return []
+    try:
+        content = api.get_game_content(game_pk)
+    except Exception:
+        return []  # MLB's content API is a nice-to-have, not core -- a hiccup here shouldn't break the whole build
+    items = ((content.get("highlights") or {}).get("highlights") or {}).get("items") or []
+    items = sorted(items, key=lambda it: it.get("date") or "", reverse=True)[:GAME_HIGHLIGHTS_LIMIT]
+    out = []
+    for it in items:
+        mp4 = next((p["url"] for p in (it.get("playbacks") or []) if p.get("name") == "mp4Avc"), None)
+        if not mp4:
+            continue
+        cuts = (it.get("image") or {}).get("cuts") or []
+        thumb = next((c["src"] for c in cuts if c.get("width") == 640), None) or (cuts[0]["src"] if cuts else None)
+        out.append({
+            "title": it.get("headline") or it.get("title") or "Highlight",
+            "duration": it.get("duration"),
+            "video_url": mp4,
+            "thumbnail_url": thumb,
+        })
+    return out
+
+
 def hand_splits(conn, table, player_id, hand):
     """
     `hand` is the *opponent's* throwing/batting hand: for batting_splits it's
@@ -1039,6 +1076,20 @@ def build_pitcher_entry(conn, player_id, team_id, is_home_game=None, game_pk=Non
     }
 
 
+def latest_team_summary(conn, team_id):
+    """
+    The AI-written team blurb sync_team_summaries.py generates once per
+    real day -- prefers today's row, but falls back to the most recent
+    available one (e.g. that daily job hasn't run yet today, or failed for
+    this team) rather than showing nothing at all.
+    """
+    row = conn.execute(
+        "SELECT summary FROM team_summaries WHERE team_id = ? ORDER BY date DESC LIMIT 1",
+        (team_id,),
+    ).fetchone()
+    return row["summary"] if row else None
+
+
 def build_team_side(conn, game, side):
     opp_side = "away" if side == "home" else "home"
     team_id = game[f"{side}_team_id"]
@@ -1104,6 +1155,7 @@ def build_team_side(conn, game, side):
         "batters": confirmed_batters,
         "injuries": team_injury_report(conn, team_id),
         "star_player_id": best_prop_star(confirmed_batters, pitcher),
+        "ai_summary": latest_team_summary(conn, team_id),
     }
 
 
@@ -1980,6 +2032,7 @@ def build_report(conn, days_ahead=2):
                 if game["home_score"] is None
                 else None,
                 "projection": latest_projection(conn, game["game_pk"]),
+                "highlights": game_highlights(game["game_pk"], game["status"]),
                 "home": home_side,
                 "away": away_side,
             }

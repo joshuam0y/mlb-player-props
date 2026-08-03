@@ -81,6 +81,17 @@ jobs:
         run: python pull/sync_results.py
         continue-on-error: true
 
+      # Once-per-real-day per team (team_summaries has a (team_id, date)
+      # primary key, so re-running this every hour only ever costs an API
+      # call for a team that has no row yet today -- see the script's own
+      # docstring). Needs injuries/headlines/results/stats already synced
+      # above, and must run before build_props so it has fresh rows to read.
+      - name: Generate AI team summaries
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python pull/sync_team_summaries.py
+        continue-on-error: true
+
       # Grades yesterday's (and the previous 3 days') picks/signals against
       # actual results and appends to output/track_record.json --
       # idempotent (re-grading an already-graded date just recomputes it),

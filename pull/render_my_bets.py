@@ -1267,27 +1267,6 @@ def render_html():
     </div>
 
     <div id="app-view" style="display:none">
-      <div class="notes">
-        <b>How to read this</b><br>
-        Each leg is graded against real results using the exact same logic
-        as every other pick on this site (an OVER that's already cleared
-        shows HIT immediately, mid-game; a MISS only locks in once the game
-        is Final). A bet only settles WON once every leg has hit, and
-        settles LOST the moment any single leg misses -- same as a real
-        parlay slip. This page polls MLB's live feed directly (same as the
-        main dashboard) for every pending leg's game, so a bet can settle
-        right here in real time -- the server-side grading (every ~15
-        minutes) is what actually persists it. "model" shows this site's
-        own current projection/line for that exact player+category, purely
-        for comparison against what was actually bet. Start typing a
-        player's name to search -- pick them from the list so the category
-        options narrow to their actual position. Switch a leg to "Team" for
-        a moneyline/run line/total game prop instead of a player prop --
-        those never grade early even if a team is currently leading, since
-        (unlike a player's own stat total) a lead can still get blown before
-        the final out.
-      </div>
-
       <div class="stat-row" id="summary-tiles"></div>
 
       <div class="picks-section" style="padding:16px">

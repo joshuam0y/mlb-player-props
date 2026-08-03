@@ -348,27 +348,6 @@ def render_html():
       </div>
     </div>
 
-    <div class="notes">
-      <b>How to read this</b><br>
-      Each day is graded from the very first report generated that day --
-      frozen before that day's games start, never a later snapshot -- so
-      nothing here can be quietly informed by that same day's own
-      results. Top Overs/Unders hit rate excludes picks where the player
-      didn't end up playing (DNP), shown separately rather than counted
-      as a miss. The trend/matchup/pitcher-form breakdowns cover every
-      flagged player that day, not just the curated Top Picks -- a
-      broader, more honest read on whether those signals predict
-      anything. Small samples (especially a single day) bounce around a
-      lot; judge the signals by the "all days" totals below, not any one
-      day in isolation. Moneyline/run line/total grade each game's pick
-      against the actual final score. "Projected stat vs actual" is a
-      different, more granular cut than hit/miss -- it shows the actual
-      NUMBER projected for every player and category (e.g. "8.0 projected
-      strikeouts") next to what really happened (e.g. "12"), so you can
-      see not just whether a line was cleared but how close the model's
-      numbers actually were.
-    </div>
-
     <div class="stat-row">{cum_tiles}</div>
 
     <div class="picks-section">
