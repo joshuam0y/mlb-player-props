@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-03T15:12:27.578498+00:00_
+_Generated 2026-08-03T15:20:43.122777+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -115,7 +115,7 @@ _Facing a taxed bullpen: 6.0 relief IP in last 2 days (ratio 1.2)_
 ## 2026-08-03 - Pittsburgh Pirates @ Milwaukee Brewers (Scheduled)
 _American Family Field_
 Projected score: Pittsburgh Pirates 4.55 - Milwaukee Brewers 4.99
-Model likes: **Milwaukee Brewers** to win (54%) | Run line: **Pittsburgh Pirates** +1.5 (60% to cover) | Total 8.5: lean **OVER** (54%)
+Model likes: **Milwaukee Brewers** to win (54%) | Run line: **Pittsburgh Pirates** +1.5 (60% to cover) | Total 8.5: lean **OVER** (53%)
 
 ### Pittsburgh Pirates lineup -- PROJECTED (unconfirmed)
 **Probable P: Bubba Chandler (R)** -- L5: 25.3 IP, 20 K, 14 ER, 4.97 ERA
@@ -626,7 +626,7 @@ _Facing a taxed bullpen: 6.3 relief IP in last 2 days (ratio 1.35)_
 ## 2026-08-04 - Toronto Blue Jays @ Houston Astros (Scheduled)
 _Daikin Park_
 Projected score: Toronto Blue Jays 3.87 - Houston Astros 3.86
-Model likes: **Houston Astros** to win (50%) | Run line: **Toronto Blue Jays** +1.5 (66% to cover) | Total 7.5: lean **UNDER** (53%)
+Model likes: **Toronto Blue Jays** to win (50%) | Run line: **Houston Astros** +1.5 (66% to cover) | Total 7.5: lean **UNDER** (53%)
 
 ### Toronto Blue Jays lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.3 relief IP in last 2 days (ratio 0.61)_
