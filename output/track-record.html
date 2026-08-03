@@ -69,16 +69,11 @@
   }
   .nav-link:hover { background: rgba(255,255,255,0.14); }
 
-  .notes, .glossary {
+  .notes {
     background: var(--surface-1); border: 1px solid var(--border); border-radius: 12px;
     padding: 14px 16px; margin: 14px 0; font-size: 13px; color: var(--text-secondary);
-    box-shadow: var(--shadow);
+    box-shadow: var(--shadow); white-space: pre-wrap;
   }
-  .notes { white-space: pre-wrap; }
-  .glossary summary { cursor: pointer; font-weight: 600; color: var(--text-primary); }
-  .glossary dl { margin: 12px 0 0; }
-  .glossary dt { font-weight: 600; color: var(--text-primary); margin-top: 8px; }
-  .glossary dd { margin: 2px 0 0; }
 
   .stat-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 10px; margin: 14px 0; }
   .stat-tile {
@@ -228,6 +223,11 @@
   .team-title { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; font-weight: 600; font-size: 14px; margin-bottom: 2px; }
   .team-form { margin-bottom: 8px; }
   .team-form:empty { display: none; }
+  .team-ai-summary {
+    background: var(--surface-2); border-radius: 8px; padding: 8px 10px; margin-bottom: 10px;
+    font-size: 12px; line-height: 1.45; color: var(--text-secondary);
+  }
+  .team-ai-summary b { color: var(--text-primary); }
   .badge {
     display: inline-flex; align-items: center; gap: 4px; font-size: 10.5px; font-weight: 700;
     padding: 2px 7px; border-radius: 999px; line-height: 1.6; white-space: nowrap;
@@ -486,6 +486,28 @@
      no text-sniffing needed. */
   .play-row.play-scoring { background: rgba(245,166,35,0.22); }
   .play-row.play-scoring .play-inning { color: var(--text-primary); font-weight: 700; }
+  .highlights-strip:empty { display: none; }
+  .highlights-strip { margin-bottom: 14px; }
+  .highlights-heading { font-size: 13px; font-weight: 700; margin-bottom: 6px; }
+  .highlights-row { display: flex; gap: 10px; overflow-x: auto; padding-bottom: 4px; }
+  .highlight-card { flex: none; width: 160px; cursor: pointer; }
+  .highlight-thumb-wrap {
+    position: relative; width: 160px; height: 90px; border-radius: 8px; overflow: hidden; background: var(--surface-2);
+  }
+  .highlight-thumb, .highlight-thumb-wrap video { width: 100%; height: 100%; object-fit: cover; display: block; background: #000; }
+  .highlight-play {
+    position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+    width: 32px; height: 32px; border-radius: 50%; background: rgba(0,0,0,0.55); color: #fff;
+    display: flex; align-items: center; justify-content: center; font-size: 13px; pointer-events: none;
+  }
+  .highlight-duration {
+    position: absolute; right: 4px; bottom: 4px; background: rgba(0,0,0,0.7); color: #fff;
+    font-size: 10.5px; padding: 1px 5px; border-radius: 4px; font-variant-numeric: tabular-nums;
+  }
+  .highlight-title {
+    font-size: 11.5px; color: var(--text-secondary); margin-top: 4px; line-height: 1.3;
+    display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+  }
   .best-prop { font-size: 11.5px; margin-top: 4px; padding: 3px 7px; border-radius: 6px; display: inline-block; }
   .best-prop-over { background: var(--series-1-bg); color: var(--series-1); }
   .best-prop-under { background: rgba(224,51,63,0.14); color: var(--status-critical); }
@@ -576,27 +598,6 @@
           <button id="themeToggle" class="theme-toggle" type="button">Switch to dark</button>
         </div>
       </div>
-    </div>
-
-    <div class="notes">
-      <b>How to read this</b><br>
-      Each day is graded from the very first report generated that day --
-      frozen before that day's games start, never a later snapshot -- so
-      nothing here can be quietly informed by that same day's own
-      results. Top Overs/Unders hit rate excludes picks where the player
-      didn't end up playing (DNP), shown separately rather than counted
-      as a miss. The trend/matchup/pitcher-form breakdowns cover every
-      flagged player that day, not just the curated Top Picks -- a
-      broader, more honest read on whether those signals predict
-      anything. Small samples (especially a single day) bounce around a
-      lot; judge the signals by the "all days" totals below, not any one
-      day in isolation. Moneyline/run line/total grade each game's pick
-      against the actual final score. "Projected stat vs actual" is a
-      different, more granular cut than hit/miss -- it shows the actual
-      NUMBER projected for every player and category (e.g. "8.0 projected
-      strikeouts") next to what really happened (e.g. "12"), so you can
-      see not just whether a line was cleared but how close the model's
-      numbers actually were.
     </div>
 
     <div class="stat-row">
@@ -1774,6 +1775,22 @@ function switchTeamTab(btn, side) {
   btn.classList.add('active');
   const teamsDiv = tabsRow.nextElementSibling;
   if (teamsDiv) teamsDiv.dataset.activeSide = side;
+}
+function playHighlight(el) {
+  // Nothing is fetched for a collapsed/unclicked clip -- the <video> element
+  // (and its network request) is only created the moment someone clicks.
+  if (el.dataset.played === 'true') return;
+  const url = el.dataset.videoUrl;
+  const wrap = el.querySelector('.highlight-thumb-wrap');
+  if (!url || !wrap) return;
+  el.dataset.played = 'true';
+  wrap.innerHTML = '';
+  const video = document.createElement('video');
+  video.controls = true;
+  video.autoplay = true;
+  video.playsInline = true;
+  video.src = url;
+  wrap.appendChild(video);
 }
 function localizeGameTimes() {
   document.querySelectorAll('.game-time').forEach(function (el) {
