@@ -947,14 +947,17 @@ def build_batter_entry(conn, player_id, opp_hand, opp_pitcher_id, is_home_game, 
     trend = form_trend(l7, season)
     matchup = matchup_edge(conn, player["bat_side"], opp_hand, opp_pitcher_id, as_of_date=as_of_date)
 
-    # BATTER_PROP_CATEGORIES_EXTRA (Hits + Runs + RBIs) only ever shows up
-    # for a game dated AFTER today -- as_of_date here is
-    # this game's own date (see this function's own docstring), so this is
-    # a straight date compare, not a "how much data exists yet" check.
-    # Today's Top Overs/Unders and Best-prop star are already frozen for
-    # the day; gating new categories to future games means shipping them
-    # can never retroactively reshuffle a pick that's already been shown.
-    stats = BATTER_PROP_CATEGORIES_EXTENDED if (as_of_date and as_of_date > mlb_today()) else BATTER_PROP_CATEGORIES
+    # BATTER_PROP_CATEGORIES_EXTRA (Hits + Runs + RBIs) shows up for any
+    # game that hasn't been decided yet: a genuinely future date, OR
+    # today's own game as long as it hasn't started (first pitch is when a
+    # pick actually becomes "shown" in any meaningful sense). Today's Top
+    # Overs/Unders/Best-prop archive only freezes once, at
+    # TOP_PICKS_FREEZE_HOUR_ET -- a not-yet-started game today is still
+    # ahead of that freeze, so including it here can't retroactively
+    # reshuffle anything that's already been locked in and shown.
+    game_not_started = status in (None, "Scheduled", "Pre-Game", "Preview", "Warmup")
+    extended_eligible = as_of_date and (as_of_date > mlb_today() or (as_of_date == mlb_today() and game_not_started))
+    stats = BATTER_PROP_CATEGORIES_EXTENDED if extended_eligible else BATTER_PROP_CATEGORIES
     season_avgs = season_stat_averages(conn, "batting_game_logs", player_id, stats, as_of_date=as_of_date)
     baselines = category_baselines(l15, season_avgs, stats)
     factor_fn = lambda label: batter_matchup_factor(matchup)  # noqa: E731 -- same factor for every batting category
