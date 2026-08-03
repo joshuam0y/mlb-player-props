@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-03T20:42:04.700185+00:00_
+_Generated 2026-08-03T21:32:11.207254+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -268,7 +268,7 @@ _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.31)_
 ## 2026-08-03 - San Diego Padres @ Arizona Diamondbacks (Scheduled)
 _Chase Field [hitter-friendly park]_
 Projected score: San Diego Padres 4.26 - Arizona Diamondbacks 4.1
-Model likes: **San Diego Padres** to win (52%) | Run line: **Arizona Diamondbacks** +1.5 (64% to cover) | Total 7.5: lean **OVER** (53%)
+Model likes: **San Diego Padres** to win (51%) | Run line: **Arizona Diamondbacks** +1.5 (64% to cover) | Total 7.5: lean **OVER** (53%)
 
 ### San Diego Padres lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 8.0 relief IP in last 2 days (ratio 1.59)_
@@ -419,7 +419,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.68)_
 ## 2026-08-04 - St. Louis Cardinals @ New York Yankees (Scheduled)
 _Yankee Stadium [hitter-friendly park]_
 Projected score: St. Louis Cardinals 3.64 - New York Yankees 4.49
-Model likes: **New York Yankees** to win (58%) | Run line: **St. Louis Cardinals** +1.5 (58% to cover) | Total 7.5: lean **OVER** (51%)
+Model likes: **New York Yankees** to win (58%) | Run line: **St. Louis Cardinals** +1.5 (58% to cover) | Total 7.5: lean **OVER** (50%)
 
 ### St. Louis Cardinals lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.3 relief IP in last 2 days (ratio 0.61)_
@@ -449,7 +449,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.6)_
 ## 2026-08-04 - Chicago White Sox @ Boston Red Sox (Scheduled)
 _Fenway Park_
 Projected score: Chicago White Sox 3.86 - Boston Red Sox 3.4
-Model likes: **Chicago White Sox** to win (54%) | Run line: **Boston Red Sox** +1.5 (63% to cover) | Total 6.5: lean **OVER** (52%)
+Model likes: **Chicago White Sox** to win (55%) | Run line: **Boston Red Sox** +1.5 (63% to cover) | Total 6.5: lean **OVER** (52%)
 
 ### Chicago White Sox lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.3 relief IP in last 2 days (ratio 0.64)_
@@ -483,7 +483,6 @@ Model likes: **Atlanta Braves** to win (64%) | Run line: **Miami Marlins** +1.5 
 
 ### Miami Marlins lineup -- PROJECTED (unconfirmed)
 - Javier Sanoja (R) -- L7: 4H 1HR 2RBI 8TB (0.211 avg) -- away split: 0.259 avg
-- Liam Hicks (L) [likely BABIP-driven, not a real power uptick] -- L7: 9H 0HR 2RBI 9TB (0.346 avg) -- away split: 0.278 avg -- news: Rays to acquire C/1B Liam Hicks from Marlins (source)
 - Xavier Edwards (S) -- L7: 7H 0HR 4RBI 7TB (0.269 avg) -- away split: 0.275 avg
 - Kyle Stowers (L) -- L7: 6H 3HR 3RBI 17TB (0.24 avg) -- away split: 0.254 avg
 - Esteury Ruiz (R) [likely BABIP-driven, not a real power uptick] -- L7: 4H 0HR 0RBI 5TB (0.364 avg) -- away split: 0.288 avg
@@ -491,6 +490,7 @@ Model likes: **Atlanta Braves** to win (64%) | Run line: **Miami Marlins** +1.5 
 - Heriberto Hernández (R) -- L7: 3H 2HR 5RBI 9TB (0.111 avg) -- away split: 0.226 avg
 - Jakob Marsee (L) -- L7: 4H 1HR 3RBI 9TB (0.235 avg) -- away split: 0.189 avg
 - Joe Mack (L) -- L7: 5H 1HR 3RBI 9TB (0.263 avg) -- away split: 0.26 avg
+- Otto Lopez (R) -- L7: 7H 0HR 4RBI 10TB (0.233 avg) -- away split: 0.316 avg
 
 ### Atlanta Braves lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.59)_
@@ -599,7 +599,7 @@ _Facing a rested bullpen: 2.7 relief IP in last 2 days (ratio 0.57)_
 ## 2026-08-04 - Los Angeles Dodgers @ Chicago Cubs (Scheduled)
 _Wrigley Field_
 Projected score: Los Angeles Dodgers 4.46 - Chicago Cubs 3.75
-Model likes: **Los Angeles Dodgers** to win (56%) | Run line: **Chicago Cubs** +1.5 (60% to cover) | Total 7.5: lean **OVER** (51%)
+Model likes: **Los Angeles Dodgers** to win (56%) | Run line: **Chicago Cubs** +1.5 (59% to cover) | Total 7.5: lean **OVER** (51%)
 
 ### Los Angeles Dodgers lineup -- PROJECTED (unconfirmed)
 **Probable P: Tarik Skubal (L)** -- L5: 31.0 IP, 41 K, 7 ER, 2.03 ERA
@@ -868,7 +868,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-05 - Los Angeles Angels @ Baltimore Orioles (Scheduled)
 _Oriole Park at Camden Yards_
 Projected score: Los Angeles Angels 4.46 - Baltimore Orioles 4.93
-Model likes: **Baltimore Orioles** to win (54%) | Run line: **Los Angeles Angels** +1.5 (60% to cover) | Total 8.5: lean **OVER** (52%)
+Model likes: **Baltimore Orioles** to win (54%) | Run line: **Los Angeles Angels** +1.5 (61% to cover) | Total 8.5: lean **OVER** (52%)
 
 ### Los Angeles Angels lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1055,7 +1055,6 @@ Model likes: **Atlanta Braves** to win (56%) | Run line: **Miami Marlins** +1.5 
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 **Probable P: Eury Pérez (R)** -- L5: 32.0 IP, 31 K, 6 ER, 1.69 ERA
 - Javier Sanoja (R) -- L7: 4H 1HR 2RBI 8TB (0.211 avg) -- away split: 0.259 avg
-- Liam Hicks (L) [likely BABIP-driven, not a real power uptick] -- L7: 9H 0HR 2RBI 9TB (0.346 avg) -- away split: 0.278 avg -- news: Rays to acquire C/1B Liam Hicks from Marlins (source)
 - Xavier Edwards (S) -- L7: 7H 0HR 4RBI 7TB (0.269 avg) -- away split: 0.275 avg
 - Kyle Stowers (L) -- L7: 6H 3HR 3RBI 17TB (0.24 avg) -- away split: 0.254 avg
 - Esteury Ruiz (R) [likely BABIP-driven, not a real power uptick] -- L7: 4H 0HR 0RBI 5TB (0.364 avg) -- away split: 0.288 avg
@@ -1063,6 +1062,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 - Heriberto Hernández (R) -- L7: 3H 2HR 5RBI 9TB (0.111 avg) -- away split: 0.226 avg
 - Jakob Marsee (L) -- L7: 4H 1HR 3RBI 9TB (0.235 avg) -- away split: 0.189 avg
 - Joe Mack (L) -- L7: 5H 1HR 3RBI 9TB (0.263 avg) -- away split: 0.26 avg
+- Otto Lopez (R) -- L7: 7H 0HR 4RBI 10TB (0.233 avg) -- away split: 0.316 avg
 
 ### Atlanta Braves lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_

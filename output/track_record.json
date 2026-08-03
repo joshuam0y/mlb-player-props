@@ -8050,7 +8050,7 @@
     },
     "2026-07-30": {
       "date": "2026-07-30",
-      "graded_at": "2026-08-03T20:04:57.199645+00:00",
+      "graded_at": "2026-08-03T21:29:44.586519+00:00",
       "top_overs": {
         "n": 23,
         "hits": 8,
@@ -9612,7 +9612,7 @@
     },
     "2026-07-31": {
       "date": "2026-07-31",
-      "graded_at": "2026-08-03T20:04:57.010531+00:00",
+      "graded_at": "2026-08-03T21:29:44.397290+00:00",
       "top_overs": {
         "n": 23,
         "hits": 9,
@@ -11214,7 +11214,7 @@
     },
     "2026-08-01": {
       "date": "2026-08-01",
-      "graded_at": "2026-08-03T20:04:56.756459+00:00",
+      "graded_at": "2026-08-03T21:29:44.148760+00:00",
       "top_overs": {
         "n": 23,
         "hits": 12,
@@ -12778,7 +12778,7 @@
     },
     "2026-08-02": {
       "date": "2026-08-02",
-      "graded_at": "2026-08-03T20:04:56.506873+00:00",
+      "graded_at": "2026-08-03T21:29:43.901104+00:00",
       "top_overs": {
         "n": 23,
         "hits": 13,
@@ -14471,33 +14471,12 @@
       "hit_rate": 0.48
     },
     "projection_accuracy": {
-      "Hits": {
-        "n": 2407,
-        "mae": 0.69,
-        "bias": -0.01,
-        "avg_projected": 0.84,
-        "avg_actual": 0.83
-      },
-      "Runs Scored": {
-        "n": 2407,
-        "mae": 0.54,
-        "bias": -0.03,
-        "avg_projected": 0.46,
-        "avg_actual": 0.43
-      },
-      "Walks Allowed": {
+      "Runs Allowed": {
         "n": 269,
-        "mae": 0.93,
-        "bias": 0.06,
-        "avg_projected": 1.68,
-        "avg_actual": 1.74
-      },
-      "Outs Recorded": {
-        "n": 187,
-        "mae": 3.35,
-        "bias": 0.75,
-        "avg_projected": 14.7,
-        "avg_actual": 15.45
+        "mae": 1.62,
+        "bias": -0.1,
+        "avg_projected": 2.34,
+        "avg_actual": 2.24
       },
       "Home Runs": {
         "n": 2407,
@@ -14505,6 +14484,13 @@
         "bias": -0.02,
         "avg_projected": 0.12,
         "avg_actual": 0.1
+      },
+      "Strikeouts": {
+        "n": 269,
+        "mae": 1.96,
+        "bias": 0.06,
+        "avg_projected": 4.7,
+        "avg_actual": 4.76
       },
       "Walks": {
         "n": 2407,
@@ -14520,19 +14506,26 @@
         "avg_projected": 1.4,
         "avg_actual": 1.32
       },
-      "Strikeouts": {
-        "n": 269,
-        "mae": 1.96,
-        "bias": 0.06,
-        "avg_projected": 4.7,
-        "avg_actual": 4.76
+      "Hits": {
+        "n": 2407,
+        "mae": 0.69,
+        "bias": -0.01,
+        "avg_projected": 0.84,
+        "avg_actual": 0.83
       },
-      "Hits Allowed": {
-        "n": 269,
-        "mae": 1.88,
-        "bias": 0.05,
-        "avg_projected": 4.66,
-        "avg_actual": 4.71
+      "Outs Recorded": {
+        "n": 187,
+        "mae": 3.35,
+        "bias": 0.75,
+        "avg_projected": 14.7,
+        "avg_actual": 15.45
+      },
+      "Runs Scored": {
+        "n": 2407,
+        "mae": 0.54,
+        "bias": -0.03,
+        "avg_projected": 0.46,
+        "avg_actual": 0.43
       },
       "RBIs": {
         "n": 2407,
@@ -14541,15 +14534,22 @@
         "avg_projected": 0.44,
         "avg_actual": 0.4
       },
-      "Runs Allowed": {
+      "Walks Allowed": {
         "n": 269,
-        "mae": 1.62,
-        "bias": -0.1,
-        "avg_projected": 2.34,
-        "avg_actual": 2.24
+        "mae": 0.93,
+        "bias": 0.06,
+        "avg_projected": 1.68,
+        "avg_actual": 1.74
+      },
+      "Hits Allowed": {
+        "n": 269,
+        "mae": 1.88,
+        "bias": 0.05,
+        "avg_projected": 4.66,
+        "avg_actual": 4.71
       }
     },
     "days_tracked": 10
   },
-  "updated_at": "2026-08-03T20:04:57.219723+00:00"
+  "updated_at": "2026-08-03T21:29:44.605404+00:00"
 }
