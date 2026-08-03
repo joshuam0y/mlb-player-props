@@ -51,10 +51,27 @@ Three consequences, all of which we walked into:
    Unders graded 61.9% while a blind pick of the same props returned 67.2% —
    a list that looked passable was losing to random.
 
-This is why `grade_picks.py` now records **lift** against a same-day,
+This is why `grade_picks.py` now records **lift** against a
 same-(category, line, side) base rate. Lift is the part of the hit rate the
-ranking is responsible for. Per-day rather than pooled, so a good list can't
-be flattered by a high-scoring slate.
+ranking is responsible for.
+
+The benchmark prefers the **same-day** slate, so a list can't be flattered by
+a high-scoring night, and falls back to the **pooled** record for pairs too
+rare to benchmark within one night. That fallback isn't hypothetical
+tidiness: a strict same-day rule was measured pricing out **every pitcher
+pick, permanently**. Only ~28 pitchers start per day, spread over five
+categories whose lines vary far more than a batter's — Outs Recorded alone
+appears at 10.5, 14.5, 16.5 and 18.5 — so no pitcher pair reaches a 20-sample
+floor in a single night. Verified against a real slate: 2026-08-02 priced
+only 15 of 23 over picks and 12 of 21 unders, and every excluded pick was a
+pitcher. With a prior day's tallies pooled in, both went to 23/23 and 21/21.
+Batter pairs never needed it — Hits 0.5, Total Bases 1.5 and the 0.5 lines
+for RBIs/Runs/Walks/HR each clear the floor on their own every day, so they
+keep the stricter same-day benchmark. Each day's raw tallies are persisted in
+its own `base_rate_samples` so the pool builds itself.
+
+One consequence worth knowing: lift needs a *second* graded day before rare
+pairs can be priced at all, since a day can't pool from itself.
 
 ## Signals, measured
 
@@ -138,6 +155,10 @@ grading each variant against the base rate for the prop it actually picked:
 
 Re-run against the actual shipped `batter_over_score`/`batter_under_score`
 (not a reimplementation): overs +8.3% (z = +2.03), unders +14.4% (z = +3.29).
+Re-run again benchmarked the way `grade_picks.py` actually does it — same-day
+base rate with pooled fallback, rather than the pooled-only rate the table
+above uses — gives +8.3% (z = +2.04) and +14.3% (z = +3.28). The claim isn't
+an artifact of which benchmark it's measured against.
 
 **Inverting the trend was deliberately not shipped.** It buys +0.3% on overs
 and *loses* 1.5% on unders — inside the noise, and betting a fitted
@@ -210,8 +231,18 @@ find a real signal or drop them.
   every historical hit-rate bar on the site for a second-order effect.
 - **The game model.** Moneyline 57.0%, run line 61.7%, total 56.2% over 128
   games. Working; left alone.
-- **`matchup_lean`.** Already the margin signal, already the best-performing
-  tracked metric (64.5% overall, +5.2% lift on the graded batter sample).
+- **`matchup_lean`.** Already the margin signal, and the best hit rate on the
+  board at 64.5%. Its *lift*, though, is the one number here that got worse
+  under scrutiny rather than better: an early +5.2% estimate came from the
+  truncated `examples` list (only the first 10 stored per day) against a
+  pooled benchmark. Measured properly — one full day, 124 priced picks,
+  same-day base rate — it's **+0.9%**. So the lean's headline accuracy is
+  mostly the category mix it lands on, not ranking skill, and the honest
+  read is that it's roughly market-neutral until more days accumulate. It's
+  still the right signal to rank Top Overs/Unders on: the decile table above
+  is what establishes that, and the top-15 extremes of the margin
+  distribution do carry real lift (+8.3% / +14.3%), even if the full
+  population of leans doesn't.
 
 ## Reproducing
 

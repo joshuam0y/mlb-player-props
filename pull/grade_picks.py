@@ -91,11 +91,67 @@ PITCHER_COL = {
 }
 
 
-# A (category, line) pair needs at least this many same-day observations
-# across the slate before it's used as a benchmark -- a rare pair like a 2.5
-# hits line can turn up two or three times in a night, and a base rate off
-# three samples is noise, not a benchmark.
+# A (category, line) pair needs at least this many observations before it's
+# used as a benchmark -- a base rate off three samples is noise, not a
+# benchmark. Applied to the same-day slate first, then to the pooled record
+# (see _merged_base_rates()).
 BASE_RATE_MIN_SAMPLE = 20
+
+
+def _sample_key(label, line):
+    """JSON can't key on a tuple, and these tallies get persisted per day."""
+    return f"{label}|{line}"
+
+
+def _merged_base_rates(today_samples, history_samples):
+    """
+    Base rates preferring the same-day slate, falling back to the pooled
+    record for pairs too rare to benchmark within one night.
+
+    Same-day is preferred because it also controls for how much offense the
+    whole league produced that night, so a pick list can't be flattered by a
+    high-scoring slate. But a strict same-day rule silently priced out every
+    PITCHER pick, permanently: only ~28 pitchers start on a given day, spread
+    across five categories whose lines vary a lot more than a batter's (Outs
+    Recorded alone shows up at 10.5, 14.5, 16.5, 18.5...), so a pitcher pair
+    essentially never reaches the sample floor in one night. That left the
+    pitcher lists with a null lift forever -- the exact lists whose caption
+    says they're waiting on graded history to judge them, unable to ever
+    accumulate it. Batter pairs are unaffected in practice: Hits 0.5, Total
+    Bases 1.5, RBIs/Runs/Walks/HR 0.5 all clear the floor on their own every
+    single day, so they keep the stricter same-day benchmark.
+    """
+    merged = {}
+    for key, tally in (history_samples or {}).items():
+        if tally[1] >= BASE_RATE_MIN_SAMPLE:
+            merged[key] = tally
+    for key, tally in (today_samples or {}).items():
+        if tally[1] >= BASE_RATE_MIN_SAMPLE:
+            merged[key] = tally  # same-day wins whenever it stands on its own
+    return merged
+
+
+def _history_samples(date):
+    """
+    Pooled (category, line) tallies from every day already in the track
+    record, plus nothing else -- read at grading time so a re-grade of an old
+    date benchmarks against the same pooled history a fresh grade would.
+    `date` itself is excluded: its own tallies are recomputed from the DB on
+    this pass and would otherwise be counted twice.
+    """
+    if not os.path.exists(TRACK_RECORD_PATH):
+        return {}
+    with open(TRACK_RECORD_PATH) as f:
+        record = json.load(f)
+    pooled = {}
+    for day_date, day in (record.get("days") or {}).items():
+        if day_date == date:
+            continue
+        for key, tally in (day.get("base_rate_samples") or {}).items():
+            acc = pooled.setdefault(key, [0, 0])
+            acc[0] += tally[0]
+            acc[1] += tally[1]
+    return pooled
 
 
 def _slate_base_rates(conn, report, date):
@@ -152,10 +208,13 @@ def _slate_base_rates(conn, report, date):
                     line = cat.get("primary_line")
                     if not col or line is None or game_result.get(col) is None:
                         continue
-                    tally = cleared.setdefault((cat["label"], line), [0, 0])
+                    tally = cleared.setdefault(_sample_key(cat["label"], line), [0, 0])
                     tally[0] += 1 if game_result[col] > line else 0
                     tally[1] += 1
-    return {k: v for k, v in cleared.items() if v[1] >= BASE_RATE_MIN_SAMPLE}
+    # Raw tallies, unfiltered: the sample floor is applied in
+    # _merged_base_rates(), and these get persisted per day so later grades
+    # can pool them for pairs too rare to benchmark in one night.
+    return cleared
 
 
 def _lift_fields(graded, base_rates):
@@ -174,7 +233,7 @@ def _lift_fields(graded, base_rates):
     expected = 0.0
     priced = priced_hits = 0
     for label, line, direction, is_hit in graded:
-        tally = base_rates.get((label, line))
+        tally = base_rates.get(_sample_key(label, line))
         if not tally:
             continue
         rate = tally[0] / tally[1]
@@ -735,10 +794,14 @@ def grade_day(conn, date):
     lean_source = _matchup_lean_source(conn, report, date)
     # One slate-wide pass, shared by every pick list graded below, so each
     # one's hit rate comes with the benchmark it has to be read against.
-    base_rates = _slate_base_rates(conn, report, date)
+    day_samples = _slate_base_rates(conn, report, date)
+    base_rates = _merged_base_rates(day_samples, _history_samples(date))
     return {
         "date": date,
         "graded_at": datetime.now(timezone.utc).isoformat(),
+        # Persisted so a later day's grading can pool them -- see
+        # _merged_base_rates() for why pitchers depend on it.
+        "base_rate_samples": day_samples,
         "top_overs": _grade_picks_bucket(conn, top_overs, "over", base_rates),
         "top_unders": _grade_picks_bucket(conn, top_unders, "under", base_rates),
         "batter_trend": batter_trend,
