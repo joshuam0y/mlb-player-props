@@ -91,6 +91,105 @@ PITCHER_COL = {
 }
 
 
+# A (category, line) pair needs at least this many same-day observations
+# across the slate before it's used as a benchmark -- a rare pair like a 2.5
+# hits line can turn up two or three times in a night, and a base rate off
+# three samples is noise, not a benchmark.
+BASE_RATE_MIN_SAMPLE = 20
+
+
+def _slate_base_rates(conn, report, date):
+    """
+    How often each (category, line) actually cleared that day across every
+    player shown -- the "what would picking this same prop blind have given
+    you" benchmark that a hit rate has to be read against.
+
+    This is necessary because these lines are the model's OWN
+    (round_to_half of a blended per-game average, see
+    build_props.category_baselines()), not a sportsbook's, and they sit
+    above the median of a right-skewed count distribution. An UNDER on a
+    0.5 walks line clears ~72% of the time no matter who is hitting; the
+    OVER on that same line clears ~28%. Three consequences, all of which
+    bit us:
+
+      * A raw Top Unders hit rate is NOT comparable to a raw Top Overs hit
+        rate. Overs looking worse than unders is mostly the category mix,
+        not the model.
+      * Neither is comparable to a -110 breakeven, because nobody is
+        offering -110 on the model's own line. Reading 52.4% as the bar to
+        clear is a category error.
+      * Whether a pick list is any good is therefore invisible in its hit
+        rate. Top Unders graded 61.9% while a blind pick of the same props
+        would have returned 67.2% -- a list that looked passable was
+        actually losing to random.
+
+    Lift against this base rate is the comparable number: the part of the
+    hit rate the model's ranking is actually responsible for. Computing it
+    per-day rather than pooling across days is deliberate -- it also
+    controls for how much offense the whole league happened to produce that
+    night, so a good pick list can't be flattered by a high-scoring slate.
+    """
+    cleared = {}
+    for g in report["games"]:
+        if g["date"] != date:
+            continue
+        for side_key in ("home", "away"):
+            side = g[side_key]
+            entities = [("batter", b) for b in side["batters"]]
+            p = side.get("probable_pitcher")
+            if p:
+                entities.append(("pitcher", p))
+            for role, entity in entities:
+                if entity.get("player_id") is None or not entity.get("prop_categories"):
+                    continue
+                result_fn = batter_game_result if role == "batter" else pitcher_game_result
+                game_result = result_fn(conn, entity["player_id"], g["game_pk"])
+                if not game_result:
+                    continue  # DNP -- same exclusion a real prop's "no action" gets
+                col_map = BATTER_COL if role == "batter" else PITCHER_COL
+                for cat in entity["prop_categories"]:
+                    col = col_map.get(cat["label"])
+                    line = cat.get("primary_line")
+                    if not col or line is None or game_result.get(col) is None:
+                        continue
+                    tally = cleared.setdefault((cat["label"], line), [0, 0])
+                    tally[0] += 1 if game_result[col] > line else 0
+                    tally[1] += 1
+    return {k: v for k, v in cleared.items() if v[1] >= BASE_RATE_MIN_SAMPLE}
+
+
+def _lift_fields(graded, base_rates):
+    """
+    Lift for one pick list: its hit rate minus what the same props would
+    have returned picked blind (see _slate_base_rates()).
+
+    graded is (label, line, direction, is_hit) per graded pick. Picks whose
+    (category, line) never cleared the sample floor are "unpriced" and sit
+    out of the comparison entirely rather than being scored against a
+    guessed benchmark -- so priced_hits/priced, not the bucket's own
+    hits/graded, are what lift is computed from. Both are stored so the
+    cumulative rollup can re-derive lift exactly by summing instead of
+    averaging daily rates.
+    """
+    expected = 0.0
+    priced = priced_hits = 0
+    for label, line, direction, is_hit in graded:
+        tally = base_rates.get((label, line))
+        if not tally:
+            continue
+        rate = tally[0] / tally[1]
+        expected += rate if direction == "over" else 1 - rate
+        priced += 1
+        priced_hits += 1 if is_hit else 0
+    if not priced:
+        return {"priced": 0, "priced_hits": 0, "expected_hits": None, "base_rate": None, "lift": None}
+    return {
+        "priced": priced, "priced_hits": priced_hits, "expected_hits": round(expected, 2),
+        "base_rate": round(expected / priced, 3),
+        "lift": round(priced_hits / priced - expected / priced, 3),
+    }
+
+
 def _load_day_report(date):
     path = os.path.join(OUT_DIR, f"props_{date}.json")
     if not os.path.exists(path):
@@ -153,9 +252,10 @@ def _grade_pick(conn, pick, direction):
     return ("hit" if hit else "miss"), val
 
 
-def _grade_picks_bucket(conn, picks, direction):
+def _grade_picks_bucket(conn, picks, direction, base_rates=None):
     hits = misses = no_data = 0
     details = []
+    graded_for_lift = []
     for p in picks:
         outcome, val = _grade_pick(conn, p, direction)
         if outcome == "no_data":
@@ -165,6 +265,8 @@ def _grade_picks_bucket(conn, picks, direction):
         else:
             misses += 1
         cat = p.get("best_category") or {}
+        if outcome in ("hit", "miss") and cat.get("label") is not None:
+            graded_for_lift.append((cat["label"], cat.get("line"), direction, outcome == "hit"))
         details.append({
             "name": p["name"], "role": p.get("role", "batter"), "position": p.get("position"),
             "category": cat.get("label"), "line": cat.get("line"),
@@ -174,6 +276,7 @@ def _grade_picks_bucket(conn, picks, direction):
     return {
         "n": len(picks), "hits": hits, "misses": misses, "no_data": no_data,
         "hit_rate": round(hits / graded, 3) if graded else None,
+        **_lift_fields(graded_for_lift, base_rates or {}),
         "picks": details,
     }
 
@@ -449,7 +552,7 @@ def _grade_games(conn, report, date):
     }
 
 
-def _grade_matchup_leans(conn, report, date):
+def _grade_matchup_leans(conn, report, date, base_rates=None):
     """
     Whether the "Predicted: X OVER/UNDER Y" headline (best_matchup_lean()
     in build_props.py) actually hit, across every batter and probable
@@ -460,6 +563,7 @@ def _grade_matchup_leans(conn, report, date):
     """
     hits = misses = no_data = 0
     examples = []
+    graded_for_lift = []
     for g in report["games"]:
         if g["date"] != date:
             continue
@@ -489,6 +593,7 @@ def _grade_matchup_leans(conn, report, date):
                     hits += 1
                 else:
                     misses += 1
+                graded_for_lift.append((lean["label"], lean["line"], lean["direction"], outcome == "hit"))
                 col = (BATTER_COL if role == "batter" else PITCHER_COL).get(lean["label"])
                 examples.append({
                     "name": entity["name"], "role": role, "position": entity.get("position"),
@@ -498,14 +603,30 @@ def _grade_matchup_leans(conn, report, date):
     graded = hits + misses
     return {
         "n": hits + misses + no_data, "hits": hits, "misses": misses, "no_data": no_data,
-        "hit_rate": round(hits / graded, 3) if graded else None, "examples": examples[:10],
+        "hit_rate": round(hits / graded, 3) if graded else None,
+        **_lift_fields(graded_for_lift, base_rates or {}),
+        "examples": examples[:10],
     }
 
 
-def _grade_best_prop_stars(conn, report, date):
-    """Whether the team's starred Best-prop pick (best_prop_star() in build_props.py -- batter or the probable pitcher, whichever had the strongest signal) actually hit. Games not yet Final skipped, same reasoning as _grade_matchup_leans()."""
+def _grade_best_prop_stars(conn, report, date, base_rates=None):
+    """
+    Whether the team's starred pick (best_prop_star() in build_props.py --
+    batter or the probable pitcher, whichever had the strongest signal)
+    actually hit. Games not yet Final skipped, same reasoning as
+    _grade_matchup_leans().
+
+    Graded on the star's matchup_lean, which is the signal best_prop_star()
+    now selects on. It previously graded best_prop/best_prop_direction while
+    the star was chosen by max |delta| -- consistent at the time, but both
+    sides of that pairing measured the recent-vs-season deviation that
+    turned out to be an anti-signal (see best_prop_star()'s docstring for
+    the numbers). Grading the same quantity the star is selected by keeps
+    the metric honest about what the model actually claims.
+    """
     hits = misses = no_data = 0
     examples = []
+    graded_for_lift = []
     for g in report["games"]:
         if g["date"] != date:
             continue
@@ -527,8 +648,8 @@ def _grade_best_prop_stars(conn, report, date):
                 entity, role = p, "pitcher"
             if entity is None:
                 continue
-            best = entity.get("best_prop")
-            direction = entity.get("best_prop_direction")
+            best = entity.get("matchup_lean")
+            direction = (best or {}).get("direction")
             if not best or not direction:
                 continue
             result_fn = batter_game_result if role == "batter" else pitcher_game_result
@@ -544,6 +665,7 @@ def _grade_best_prop_stars(conn, report, date):
                 hits += 1
             else:
                 misses += 1
+            graded_for_lift.append((best["label"], best["line"], direction, outcome == "hit"))
             col = (BATTER_COL if role == "batter" else PITCHER_COL).get(best["label"])
             examples.append({
                 "name": entity["name"], "role": role, "position": entity.get("position"),
@@ -553,7 +675,9 @@ def _grade_best_prop_stars(conn, report, date):
     graded = hits + misses
     return {
         "n": hits + misses + no_data, "hits": hits, "misses": misses, "no_data": no_data,
-        "hit_rate": round(hits / graded, 3) if graded else None, "examples": examples[:10],
+        "hit_rate": round(hits / graded, 3) if graded else None,
+        **_lift_fields(graded_for_lift, base_rates or {}),
+        "examples": examples[:10],
     }
 
 
@@ -609,19 +733,22 @@ def grade_day(conn, date):
     pitcher_form = _grade_pitcher_signals(conn, report, date)
     projection_accuracy, projection_examples = _grade_projections(conn, report, date)
     lean_source = _matchup_lean_source(conn, report, date)
+    # One slate-wide pass, shared by every pick list graded below, so each
+    # one's hit rate comes with the benchmark it has to be read against.
+    base_rates = _slate_base_rates(conn, report, date)
     return {
         "date": date,
         "graded_at": datetime.now(timezone.utc).isoformat(),
-        "top_overs": _grade_picks_bucket(conn, top_overs, "over"),
-        "top_unders": _grade_picks_bucket(conn, top_unders, "under"),
+        "top_overs": _grade_picks_bucket(conn, top_overs, "over", base_rates),
+        "top_unders": _grade_picks_bucket(conn, top_unders, "under", base_rates),
         "batter_trend": batter_trend,
         "batter_matchup": batter_matchup,
         "pitcher_form": pitcher_form,
         "projection_accuracy": projection_accuracy,
         "projection_examples": projection_examples,
         "games": _grade_games(conn, report, date),
-        "matchup_leans": _grade_matchup_leans(conn, lean_source, date),
-        "best_prop_stars": _grade_best_prop_stars(conn, lean_source, date),
+        "matchup_leans": _grade_matchup_leans(conn, lean_source, date, base_rates),
+        "best_prop_stars": _grade_best_prop_stars(conn, lean_source, date, base_rates),
     }
 
 
@@ -702,6 +829,25 @@ def _sum_accuracy_stats(days, path):
     return {"n": n, **{f: round(sums[f] / n, 2) for f in fields}}
 
 
+def _sum_lift(days, section):
+    """
+    Cumulative lift by summing each day's priced picks and expected hits --
+    NOT by averaging daily lifts, which would weight a 3-pick day the same
+    as a 15-pick one. Days graded before lift existed contribute nothing
+    rather than erroring (same .get() treatment as the sections below).
+    """
+    priced = sum((d.get(section) or {}).get("priced") or 0 for d in days)
+    priced_hits = sum((d.get(section) or {}).get("priced_hits") or 0 for d in days)
+    expected = sum((d.get(section) or {}).get("expected_hits") or 0.0 for d in days)
+    if not priced:
+        return {"priced": 0, "priced_hits": 0, "expected_hits": None, "base_rate": None, "lift": None}
+    return {
+        "priced": priced, "priced_hits": priced_hits, "expected_hits": round(expected, 2),
+        "base_rate": round(expected / priced, 3),
+        "lift": round(priced_hits / priced - expected / priced, 3),
+    }
+
+
 def _cumulative(days_dict):
     days = list(days_dict.values())
     if not days:
@@ -716,6 +862,7 @@ def _cumulative(days_dict):
             "days": len(days), "n": sum(d[section]["n"] for d in days),
             "hits": hits, "misses": misses, "no_data": no_data,
             "hit_rate": round(hits / graded, 3) if graded else None,
+            **_sum_lift(days, section),
         }
     result = dict(picks_totals)
     for key in ("hot", "cold", "neutral"):
@@ -744,6 +891,7 @@ def _cumulative(days_dict):
             "days": len(days), "n": sum((d.get(section) or {}).get("n", 0) for d in days),
             "hits": hits, "misses": misses, "no_data": no_data,
             "hit_rate": round(hits / graded, 3) if graded else None,
+            **_sum_lift(days, section),
         }
 
     all_categories = set()

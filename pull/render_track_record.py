@@ -87,6 +87,30 @@ def _game_pick_examples_html(examples):
     return "".join(rows)
 
 
+def _lift_html(bucket):
+    """
+    The "vs. blind pick" line under a hit rate, and the only number on this
+    page that says whether a pick list is any good.
+
+    A raw hit rate here is mostly a function of which categories the picks
+    landed on, because these are the model's own lines rather than a
+    sportsbook's: an UNDER on a 0.5 line clears ~70% of the time no matter
+    who's in the box, an OVER ~30%. So a 62% list can be losing to random
+    while a 42% list is beating it, and neither number is comparable to a
+    -110 breakeven. See grade_picks._slate_base_rates() for the full
+    reasoning. Rendered only when the day was graded with lift available --
+    days graded before it existed just show the hit rate as before.
+    """
+    lift = (bucket or {}).get("lift")
+    if lift is None:
+        return ""
+    colour = "var(--status-good)" if lift > 0 else ("var(--status-critical)" if lift < 0 else "inherit")
+    return (
+        f'<div class="sub" style="margin-top:4px"><span style="color:{colour};font-weight:600">{lift:+.1%}</span>'
+        f' vs {_pct(bucket.get("base_rate"))} picking the same props blind</div>'
+    )
+
+
 def _picks_tile_html(title, bucket):
     bucket = bucket or {}
     graded = (bucket.get("hits") or 0) + (bucket.get("misses") or 0)
@@ -97,6 +121,7 @@ def _picks_tile_html(title, bucket):
     <div class="stat-tile">
       <div class="stat-value">{_pct(bucket.get("hit_rate"))}</div>
       <div class="stat-label">{html.escape(title)} ({bucket['hits']}/{graded}{dnp_txt})</div>
+      {_lift_html(bucket)}
     </div>
     """
 
@@ -110,6 +135,7 @@ def _game_pick_tile_html(title, bucket):
     <div class="stat-tile">
       <div class="stat-value">{_pct(bucket.get("hit_rate"))}</div>
       <div class="stat-label">{html.escape(title)} ({bucket['hits']}/{n})</div>
+      {_lift_html(bucket)}
     </div>
     """
 

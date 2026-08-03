@@ -11,6 +11,39 @@ public news RSS feed -- no paid odds API, no scraping of betting sites.
 
 _Updated with every change going forward._
 
+- **2026-08-03** -- Rebuilt how Top Overs/Unders and the Best-prop star pick
+  and rank, after grading 9 days (13,398 player-game-categories) exposed two
+  signals pointing the wrong way. Full numbers in
+  [`docs/MODEL_NOTES.md`](docs/MODEL_NOTES.md); the short version:
+  - The **HOT/COLD form trend is inverted**, not just weak. A batter flagged
+    hot cleared his OVER 27.1% of the time against 32.9% for one flagged cold
+    (z = -4.75) -- and `batter_over_score()` was awarding hot its
+    joint-largest bonus. Batter picks now rank on how far tonight's
+    matchup-adjusted projection clears the line, the one signal that's
+    monotonic across all ten of its deciles (13.8% -> 53.4%). The trend, the
+    BABIP-luck caveat (no discriminating power, z = -0.45) and the hit streak
+    (noise, z = +0.79) no longer feed any score. Backtested: batter Top Overs
+    go from -2.0% to +9.3% against the base rate for the same prop, Top
+    Unders from +5.3% to +14.7%.
+  - The **Best-prop star was ranking on an anti-signal**. It picked the
+    largest recent-vs-season hit-rate `delta`, and a bigger delta predicts a
+    *worse* result, monotonically (|delta| >= 25 hit 49.2%, < 15 hit 61.6%,
+    z = -4.31) -- so taking the max was deliberately choosing the least
+    reliable call on the team. It now selects on the strongest matchup lean,
+    graded on that same quantity.
+  - **Hit rates on the Track Record page now show lift** next to them: how
+    the picks did against picking the same props blind. These are the model's
+    own lines, not a sportsbook's, so an UNDER clears ~70% of the time by
+    construction and an OVER ~30% -- meaning a raw Top Unders rate was never
+    comparable to a Top Overs rate, nor either to a -110 breakeven. Top
+    Unders' 61.9% was actually *losing* to its own 67.2% base rate.
+  - **Pitcher picks are marked experimental** and cut to 4 per side: they
+    graded below a blind pick in both directions (unders lift -17.4%,
+    z = -2.49) and nothing available ranks them better -- the margin that
+    works for batters is flat for pitchers. Also fixed a real incoherence
+    where a pitcher could rank onto Top Overs for pitching *well* and then
+    headline "Hits Allowed OVER", betting against his own listed reason (18
+    of 60 graded over picks).
 - **2026-08-02** -- Removed "To Record A Hit" (added earlier today) --
   genuinely redundant with the existing "Hits" category, same reasoning
   "Total Bases" already gets a 1.5 floor for: whenever a player's own Hits
@@ -316,10 +349,19 @@ tab-hopping multiple sites before locking in a bet.
   rates, a DOMINANT/ROUGH recent-form flag (L5 ERA vs. season ERA), and a
   matchup summary built from the *opposing* lineup's own platoon edges
   ("tough matchup tonight for: ...") -- surfaced both on the pitcher's own
-  card and in the Top Overs/Unders leaderboards, not just batters.
+  card and in the Top Overs/Unders leaderboards, not just batters. Pitcher
+  entries on those leaderboards are explicitly labelled experimental: they
+  have not yet beaten a blind pick of the same prop in the graded record,
+  and unlike batters there's no signal available that ranks them better
+  yet.
 - **"Best prop" per player** -- the single category (batting or pitching)
   where the last several games deviate the most from that player's own
   season norm, shown inline on every player row, not just in the leaderboard.
+  Read this as a description of a recent stretch, not a recommendation: a
+  bigger deviation grades *worse*, not better (see
+  [`docs/MODEL_NOTES.md`](docs/MODEL_NOTES.md)), which is why nothing ranks
+  or selects on it any more. The "Predicted:" line on a player's row is the
+  actual call.
 
 ## Live, in-game tracking
 
@@ -363,7 +405,14 @@ so closing it back up never means scrolling all the way back to the top.
 
 Every pick this tool has actually made -- player-prop hit rates (HOT/COLD,
 matchup-edge, pitcher-form flags) and full game-level picks (moneyline, run
-line, total) -- graded against what really happened, day by day. Each day is
+line, total) -- graded against what really happened, day by day. Pick lists
+show **lift** underneath the hit rate, which is the number that actually
+matters: how the picks did against picking those same props blind. Because
+the lines are the model's own rather than a sportsbook's, an UNDER clears
+~70% of the time by construction and an OVER ~30%, so raw hit rates aren't
+comparable to each other or to a -110 breakeven -- a 62% list can be losing
+to random while a 42% list beats it. Both really happened here; see
+[`docs/MODEL_NOTES.md`](docs/MODEL_NOTES.md). Each day is
 frozen from the very first report generated that morning, before that day's
 games start, so nothing there can be quietly informed by that same day's
 results. It also shows "projected stat vs. actual" -- the literal number
@@ -530,6 +579,20 @@ player-games: essentially no single-game predictive power on their own
 and not in the "obvious" direction). This matches the sabermetric
 literature's well-known finding that short hot/cold streaks are mostly
 noise -- confirmed here, not just cited.
+
+Grading nine real days settled that more sharply than this backtest could,
+and in a way worth stating plainly: the hot/cold trend isn't merely weak,
+it's **inverted**. A batter flagged hot cleared his OVER 27.1% of the time
+against 32.9% for one flagged cold, z = -4.75 across 13,398 graded
+player-game-categories -- so the "barely different, and not in the obvious
+direction" result above was real signal being read as noise, and the scoring
+kept paying a bonus for the wrong side of it for another week.
+[`docs/MODEL_NOTES.md`](docs/MODEL_NOTES.md) has the whole audit: which
+signals survived (the projection-vs-line margin, monotonic across all ten
+deciles; the platoon matchup edge, z = +3.59), which didn't (the BABIP
+caveat, the hit streak, the recent-vs-season `delta` that used to rank the
+Best-prop star), and why the pitcher lists are labelled experimental instead
+of being either trusted or deleted.
 
 None of this is hidden because it isn't flattering -- it's the actual
 point of backtesting. See the module docstrings in `backtest.py`,

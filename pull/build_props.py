@@ -1107,42 +1107,81 @@ def build_team_side(conn, game, side):
     }
 
 
-def batter_over_score(b):
-    """
-    Signals that point toward this player OUTPERFORMING their normal --
-    weighted by how much we've actually validated each one (our own
-    backtest showed HOT alone barely predicts anything, so a BABIP-luck
-    hot streak counts for very little; a real hot streak and a favorable
-    matchup count for more).
-    """
-    score = 0.0
-    reasons = []
-    if b["trend"] == "hot" and b.get("trend_caveat") != "babip_driven":
-        score += 2.0
-        reasons.append("real hot streak (not just lucky bloops)")
-    if b.get("matchup") and b["matchup"].get("favorable"):
-        score += 2.0
-        reasons.append("favorable matchup vs. tonight's pitcher")
-    streak = b.get("hit_streak") or 0
-    if streak >= 5:
-        score += 1.0
-        reasons.append(f"{streak}-game hit streak")
-    elif streak >= 3:
-        score += 0.5
-    return score, reasons
+# Batter Top Overs/Unders rank on how far tonight's matchup-adjusted
+# projection clears the line -- NOT on the recent hot/cold form signals this
+# used to score. Every claim below is measured against this project's own
+# graded history; see docs/MODEL_NOTES.md for the full numbers.
+#
+#   * The hot/cold form trend is INVERTED at the single-game level. Across
+#     13,398 graded player-game-categories, a batter flagged "hot" cleared
+#     his OVER 27.1% of the time against 32.9% for one flagged "cold"
+#     (z = -4.75). Scoring "hot" as +2.0 toward the OVER was picking the
+#     wrong side of a real effect, which is how Top Overs graded 42% while
+#     adding nothing over just picking that same prop blind (+1.9%,
+#     z = +0.41).
+#   * The BABIP-luck caveat meant to separate a "real" hot streak from a
+#     lucky one has no discriminating power: "real hot" cleared 26.7%,
+#     "babip_driven" hot 27.4% (z = -0.45). It stays on the player's row as
+#     a descriptive note, but it no longer gates a score.
+#   * The hit streak is noise: 5+ game streaks cleared 31.4% against 30.2%
+#     for 0-2 games (z = +0.79).
+#   * The projection-vs-line margin, by contrast, is monotonic across all
+#     ten deciles (13.8% -> 53.4% clear rate). The validated matchup edge
+#     is already inside it via batter_matchup_factor(), which is exactly
+#     why adding a separate matchup bonus on top measured as no further
+#     gain -- it would have been double-counting.
+#
+# Backtested over the 9 graded days, ranking by margin moves batter Top
+# Overs from -2.0% to +9.3% against the base rate for the same prop
+# (z = +2.27), and Top Unders from +5.3% to +14.7% (z = +3.31).
+
+# Same stat units as the margin score below. This was 0.5 back when a score
+# was a 0-5 tally of form/matchup bonuses; on a margin scale, where even a
+# strong pick only clears its line by ~0.3-0.8, 0.5 would have buried every
+# unconfirmed pick no matter how big its edge.
+UNCONFIRMED_LINEUP_PENALTY = 0.05
 
 
-def batter_under_score(b):
-    """The mirror image: signals pointing toward this player UNDERPERFORMING their normal."""
-    score = 0.0
-    reasons = []
-    if b["trend"] == "cold":
-        score += 1.5
-        reasons.append("cold recent stretch (well below season average)")
-    if b.get("matchup") and b["matchup"].get("unfavorable"):
-        score += 2.0
-        reasons.append("tough matchup vs. tonight's pitcher")
-    return score, reasons
+def _margin_score(entity, direction, exclude_label=None):
+    """
+    Scores a Top Over/Under candidate by the margin its best category
+    clears the line by, and hands back that same category as the pick --
+    so a pick's rank and the prop actually shown can never disagree (they
+    were previously two unrelated signals: form/matchup bonuses decided
+    the rank, a recent-vs-season hit-rate deviation decided the prop).
+
+    Returns (score, reasons, category). A score of 0.0 with no reasons
+    means nothing this player has leans `direction` tonight, so he doesn't
+    belong on that list at all -- a real bar, where the old form-trend
+    signals flagged roughly a third of the slate every night.
+    """
+    cat = _lenient_category_for_direction(entity.get("prop_categories"), direction, exclude_label)
+    if not cat:
+        return 0.0, [], None
+    verb = "clearing" if direction == "over" else "staying under"
+    recent_pct = cat["pct"] if direction == "over" else 100 - cat["pct"]
+    reasons = [
+        f"projects {cat['projection']} {cat['label']} tonight, {verb} the "
+        f"{cat['line']} line by {cat['margin']:.2f}",
+        f"went that way in {recent_pct}% of his last {cat['n']} games",
+    ]
+    matchup = entity.get("matchup") or {}
+    if matchup.get("favorable" if direction == "over" else "unfavorable"):
+        # Context for the projection above, not a separate reason to rank
+        # him higher -- batter_matchup_factor() already applied it.
+        edge = "favorable" if direction == "over" else "tough"
+        reasons.append(f"{edge} matchup vs. tonight's pitcher (already reflected in that projection)")
+    return cat["margin"], reasons, cat
+
+
+def batter_over_score(b, exclude_label=None):
+    """Best OVER angle for this batter, scored by its projection-vs-line margin -- see the block comment above."""
+    return _margin_score(b, "over", exclude_label)
+
+
+def batter_under_score(b, exclude_label=None):
+    """The mirror image: his best UNDER angle, scored the same way."""
+    return _margin_score(b, "under", exclude_label)
 
 
 PITCHER_TOUGH_MATCHUP_COUNT = 3  # this many opposing batters in a bad spot => a real pitcher edge
@@ -1220,6 +1259,48 @@ def pitcher_runs_under_score(p):
     return score, reasons
 
 
+# Pitcher Top Overs/Unders are UNVALIDATED and labelled as such on every
+# pick (see PITCHER_PICKS_CAVEAT below). Over the 9 graded days they came in
+# BELOW a blind pick of the same prop in both directions -- overs -11.2%
+# (z = -1.35), unders -17.4% (z = -2.49) -- and unlike batters there is no
+# signal here that ranks them better: the projection-vs-line margin that
+# works so well for batters is flat for pitchers (49.2% clear rate in its
+# bottom quintile, 50.8% in its top), and the form_trend read is confounded
+# by the fact that a "dominant" recent stretch also deflates the pitcher's
+# own runs/hits-allowed line, making the over mechanically easier to clear
+# without predicting anything. Two pitchers per game over 9 days is a thin
+# sample to delete a feature on, so the lists stay, shortened and captioned,
+# until there's enough graded history to either find a real signal or drop
+# them. Do not restore a bonus/penalty here on a hunch -- check the numbers
+# in docs/MODEL_NOTES.md first.
+PITCHER_PICKS_CAVEAT = (
+    "experimental: pitcher picks have not yet beaten a blind pick of the same prop in our graded history"
+)
+
+
+def _pitcher_thesis_categories(categories, direction):
+    """
+    Only the categories where `direction` actually agrees with the "pitching
+    well" thesis both pitcher scores are built on: a strong outing means MORE
+    strikeouts and outs recorded but FEWER runs, hits and walks allowed --
+    the same polarity split pitcher_category_factor() applies to the
+    projection itself.
+
+    Without this filter a pitcher could rank onto Top OVERS for pitching
+    well and then headline "Hits Allowed OVER", a pick betting against the
+    very reason it was selected. That is not hypothetical: 18 of 60 graded
+    pitcher over picks and 11 of 55 unders were internally contradictory
+    that way. Fixing it doesn't rescue the hit rate on its own (the
+    contradictory ones actually graded slightly better, z = -0.53, which is
+    part of why these lists are still marked experimental) -- it's here so
+    the reasons shown next to a pick can't argue against the pick.
+    """
+    if not categories:
+        return []
+    want_positive = direction == "over"
+    return [c for c in categories if (c["label"] in PITCHER_POSITIVE_CATEGORIES) == want_positive]
+
+
 def prop_category_delta(recent_categories, season_categories, min_games=8, require_lean_agreement=False):
     """
     The category where recent performance deviates most from this player's
@@ -1240,13 +1321,25 @@ def prop_category_delta(recent_categories, season_categories, min_games=8, requi
     real, backtest-validated matchup-edge factor -- see
     batter_matchup_factor()) agrees with the deviation's direction. A
     category that merely ran hot recently with no supporting matchup edge
-    tonight no longer qualifies as a confident "best" angle -- callers
-    fall back to resolve_best_category()'s own lean/popularity chain
-    instead, which is the intended effect: an uncorroborated hot streak
-    shouldn't headline with false confidence. Pitchers don't get this
-    (their own `lean` is driven by recent form_trend, not an opposing-
-    lineup matchup edge -- the same kind of streak signal being
-    questioned here, not an independent check on it).
+    tonight no longer qualifies as a confident "best" angle -- which is the
+    intended effect: an uncorroborated hot streak shouldn't headline with
+    false confidence. Pitchers don't get this (their own `lean` is driven
+    by recent form_trend, not an opposing-lineup matchup edge -- the same
+    kind of streak signal being questioned here, not an independent check
+    on it).
+
+    That guard was the right instinct aimed at the wrong target, and this
+    function's output is now DISPLAY ONLY. The deviation it measures isn't
+    merely weak, it's an anti-signal: graded across 2,076 calls, a bigger
+    |delta| predicted a WORSE result, monotonically (>= 25 points hit
+    49.2%, under 15 hit 61.6%, z = -4.31). So nothing ranks or selects on
+    it any more -- Top Overs/Unders score batters on the margin directly
+    (_margin_score()), the Best-prop star ranks on matchup_lean, and the
+    pitcher lists resolve their category without consulting best_over/
+    best_under at all. What's left is a fair descriptive stat for a
+    player's row ("his last 10 games vs. his season rate"), which is all
+    it ever reliably was.
+
     Returns (most_over, most_under), either possibly None.
     """
     if not recent_categories or not season_categories:
@@ -1381,34 +1474,42 @@ def best_matchup_lean(categories):
 
 def best_prop_star(batters, pitcher):
     """
-    One player per team side to headline with a star -- whichever batter
-    OR the probable pitcher has the single strongest "Best prop" signal on
-    the team, batters and pitcher compared directly against each other.
-    Unlike the batter_over_score/pitcher_strikeout_over_score point
-    systems (explicitly NOT comparable across roles -- see
-    build_top_picks()'s own docstring), best_prop's own "delta" (recent
-    hit-rate% minus season hit-rate%) is a plain percentage-point
-    deviation either way, so it's the one signal that's already
-    apples-to-apples between a batter and a pitcher.
+    One player per team side to headline with a star -- whichever batter OR
+    the probable pitcher has the single most confident matchup_lean on the
+    team, measured by how far his matchup-adjusted projection sits from the
+    line (best_matchup_lean()). That margin is in stat units rather than
+    points, so it's directly comparable between a batter and a pitcher,
+    the property the star needs.
 
-    Deliberately pre-game only: only considers entries with a real
-    "delta" key, meaning they cleared prop_category_delta()'s actual
-    8+-recent-games-and-real-deviation bar (headline_prop's path) --
-    fallback_best_prop()'s lenient version has no "delta" at all, so a
-    thin-sample "just show something" pick can never win the star. And
-    since best_prop/delta are built from recent_categories/
-    season_categories, which are already as_of_date-filtered to exclude
-    this game's own result (see build_batter_entry()'s docstring), the
-    star can never be swayed by how the game actually turns out --
-    only ever a pre-game read.
+    This used to rank on best_prop's "delta" (recent hit-rate% minus season
+    hit-rate%), and that was backwards. Graded across 2,076 of those calls,
+    a BIGGER deviation predicted a WORSE outcome, monotonically: picks with
+    |delta| >= 25 points hit 49.2%, 15-24 hit 56.4%, and under 15 hit 61.6%
+    (z = -4.31 comparing the outer buckets). Ranking by max |delta| was
+    therefore selecting, on purpose, the least reliable call on the team --
+    which is how the Best-prop star graded 46.4%, below every other tracked
+    signal. The margin it now ranks on is monotonic in the right direction
+    (13.8% -> 53.4% clear rate across its deciles).
+
+    best_prop/delta stay on the player's row as a descriptive "here's how
+    his recent stretch compares to his season" stat, which is all it ever
+    reliably was; it's no longer treated as a prediction. grade_picks.py
+    grades the star on the matchup_lean it's now selected by, so the
+    metric and the selection can't drift apart again.
+
+    Still pre-game only: matchup_lean is built from recent_categories,
+    already as_of_date-filtered to exclude this game's own result (see
+    build_batter_entry()'s docstring), so the star can never be swayed by
+    how the game actually turns out.
     """
-    candidates = [(b["player_id"], "batter", b["best_prop"]) for b in batters if b.get("best_prop") and "delta" in b["best_prop"]]
-    if pitcher and pitcher.get("best_prop") and "delta" in pitcher["best_prop"]:
-        candidates.append((pitcher["player_id"], "pitcher", pitcher["best_prop"]))
+    candidates = []
+    for entity in list(batters) + ([pitcher] if pitcher else []):
+        lean = entity.get("matchup_lean")
+        if lean and lean.get("projection") is not None:
+            candidates.append((entity["player_id"], abs(lean["projection"] - lean["line"])))
     if not candidates:
         return None
-    player_id, role, prop = max(candidates, key=lambda c: abs(c[2]["delta"]))
-    return player_id
+    return max(candidates, key=lambda c: c[1])[0]
 
 
 def fallback_best_prop(recent_categories, season_categories):
@@ -1474,6 +1575,14 @@ def _lenient_category_for_direction(categories, direction, exclude_label=None):
     own merits via the stricter best_over/best_under path above this one.
     exclude_label skips whatever category the SAME player's opposite-
     direction pick already resolved to -- see resolve_best_category().
+
+    "projection" and "margin" come back on the dict too: this same
+    largest-gap-from-the-line choice is now what RANKS batter Top
+    Overs/Unders (see _margin_score()), not just what fills in their
+    displayed prop, so the gap it selected on has to travel with it.
+    margin is always positive and already oriented to `direction` -- how
+    far the projection clears the line for an over, how far it sits below
+    for an under.
     """
     candidates = [
         c for c in (categories or [])
@@ -1483,7 +1592,12 @@ def _lenient_category_for_direction(categories, direction, exclude_label=None):
         return None
     best = max(candidates, key=lambda c: abs(c["today_projection"] - c["primary_line"]))
     hr = best["hit_rates"][0]
-    return {"label": best["label"], "line": best["primary_line"], "pct": hr["pct"], "n": hr["n"]}
+    margin = best["today_projection"] - best["primary_line"]
+    return {
+        "label": best["label"], "line": best["primary_line"], "pct": hr["pct"], "n": hr["n"],
+        "projection": best["today_projection"],
+        "margin": round(margin if direction == "over" else -margin, 2),
+    }
 
 
 def _popular_prop_category(categories, role, exclude_label=None):
@@ -1529,25 +1643,13 @@ def resolve_best_category(categories, role, direction, exclude_label=None):
     )
 
 
-def _pick_category(strict, categories, role, direction, exclude_label):
-    """
-    strict is prop_category_delta()'s best_over/best_under (already
-    guaranteed by that function to never equal each other WITHIN one
-    direction pairing) -- but it's a DIFFERENT metric from the lean-based
-    fallback (recent-vs-season hit-rate delta here, vs today's
-    matchup-adjusted projection vs. the line there), so the two can still
-    independently agree on the same category even though they measure
-    different things. Confirmed on a real pitcher: best_under legitimately
-    landed on "Strikeouts" via the delta metric, while the over pick (no
-    strict signal) fell back to "Strikeouts" too via the lean metric --
-    exclude_label alone doesn't catch this, since the truthy strict value
-    short-circuits past the excluding fallback entirely. This discards
-    strict too if it matches what the other direction already has, so the
-    fallback gets a real chance to find something different.
-    """
-    if strict and strict["label"] == exclude_label:
-        strict = None
-    return strict or resolve_best_category(categories, role, direction, exclude_label=exclude_label)
+# _pick_category() lived here: it merged prop_category_delta()'s strict
+# best_over/best_under into the category choice, discarding it when both
+# directions collided on the same label. Nothing needs it now -- batters take
+# their category straight from the margin they were scored on, and pitchers
+# resolve from their thesis-consistent categories without the strict path at
+# all, because the recent-vs-season deviation it selected on graded as an
+# anti-signal (see best_prop_star()).
 
 
 LINEUP_WINDOW_HOURS = 3  # matches the "typically 1-3 hours before first pitch" window referenced elsewhere
@@ -1563,7 +1665,7 @@ def _hours_until_first_pitch(game_time_utc):
     return (start - datetime.now(timezone.utc)).total_seconds() / 3600
 
 
-def build_top_picks(report_games, batter_limit=15, pitcher_limit=8):
+def build_top_picks(report_games, batter_limit=15, pitcher_limit=4):
     """
     Cross-game leaderboards: the best OVER and UNDER candidates across the
     *entire* day/date range, not buried inside each game's card. Excludes
@@ -1574,26 +1676,29 @@ def build_top_picks(report_games, batter_limit=15, pitcher_limit=8):
     the day -- but they're scored slightly lower and clearly labeled,
     since "projected" is a real guess.
 
-    Batters and pitchers are scored on two different, NOT directly
-    comparable point scales (a batter's score can run up to ~5.0 stacking
-    hot-streak + matchup + hit-streak bonuses; a pitcher's tops out around
-    3.5-4.0) -- merging both into one score-sorted list would silently put
-    every pitcher below every batter regardless of actual confidence, which
-    looks like "pitchers are always the worst picks" when it's really just
-    a scale mismatch. So each role is ranked separately and returned as its
-    own sub-list; the caller renders them as two clearly-labeled rankings
-    (batters #1-N, pitchers #1-N) instead of one misleadingly-precise #1-12.
-    A pitcher's OVER/UNDER category isn't fixed to strikeouts/runs-allowed --
-    like batters, it's whichever of his 4 categories (Strikeouts, Runs
-    Allowed, Hits Allowed, Walks Allowed) deviates most from his own season
-    norm in that direction (best_over/best_under, from prop_category_delta()
-    in build_pitcher_entry()), falling back to resolve_best_category() the
-    same way batters do. The pitching-well/pitching-poorly SELECTION signal
-    (pitcher_strikeout_over_score()/pitcher_runs_under_score() below) is
-    separate from and doesn't need to match the specific category shown --
-    a pitcher can make the Over list on "pitching well" grounds and still
-    headline, say, a Walks Allowed over if that's his strongest recent
-    trend.
+    Batters and pitchers are scored on two entirely different, NOT
+    comparable scales -- a batter's score is now the margin in stat units
+    that his projection clears the line by (~0.15 to ~0.8; see
+    _margin_score()), a pitcher's is still a 0-4 tally of form/matchup
+    bonuses -- so merging both into one score-sorted list would be
+    meaningless, not merely unfair. Each role is ranked separately and
+    returned as its own sub-list; the caller renders them as two clearly
+    labeled rankings (batters #1-N, pitchers #1-N) rather than one
+    misleadingly precise #1-12. Note the two roles also carry different
+    unconfirmed-lineup penalties for the same reason -- each has to be in
+    its own scale's units (UNCONFIRMED_LINEUP_PENALTY vs the flat 0.5
+    below).
+
+    A batter's displayed prop is the same category his score was computed
+    on, so a pick can never argue against itself. A pitcher's is whichever
+    of his categories both leans the right way AND agrees in polarity with
+    the "pitching well" thesis that selected him (_pitcher_thesis_
+    categories()) -- the old behaviour, where a pitcher could make the Over
+    list for pitching well and then headline a Hits Allowed OVER, was
+    explicitly allowed here and produced real self-contradicting picks.
+    Pitcher lists are shorter than batter lists and every pitcher pick
+    carries PITCHER_PICKS_CAVEAT, because they remain unvalidated -- see
+    that constant's own comment.
     """
     batter_overs, batter_unders = [], []
     pitcher_overs, pitcher_unders = [], []
@@ -1621,7 +1726,7 @@ def build_top_picks(report_games, batter_limit=15, pitcher_limit=8):
             for b in side["batters"]:
                 if b["injury"]:
                     continue
-                confirmed_penalty = 0 if (side["lineup_confirmed"] or not lineup_window_open) else 0.5
+                confirmed_penalty = 0 if (side["lineup_confirmed"] or not lineup_window_open) else UNCONFIRMED_LINEUP_PENALTY
                 base = {
                     "role": "batter",
                     "player_id": b["player_id"],
@@ -1639,26 +1744,29 @@ def build_top_picks(report_games, batter_limit=15, pitcher_limit=8):
                     "opp_pitcher_id": (opp_side["probable_pitcher"] or {}).get("player_id"),
                 }
 
-                best_over = None
-                over_score, over_reasons = batter_over_score(b)
+                # The scorer picks the category and returns it, so there's no
+                # separate resolve step here any more -- rank and displayed
+                # prop are the same decision by construction.
+                over_score, over_reasons, best_over = batter_over_score(b)
                 over_score -= confirmed_penalty
                 if over_reasons and over_score > 0:
-                    best_over = b.get("best_over") or resolve_best_category(b.get("prop_categories"), "batter", "over")
                     result = pick_result("batter", best_over, b.get("game_result"), "over", is_final)
                     dnp = game_started and b.get("game_result") is None
                     batter_overs.append({**base, "score": over_score, "reasons": over_reasons, "best_category": best_over, "result": result, "dnp": dnp})
+                else:
+                    best_over = None
 
-                under_score, under_reasons = batter_under_score(b)
+                # exclude_label: never repeat this same player's own OVER
+                # category on his UNDER pick (or vice versa) -- confirmed
+                # this happened for real (a pitcher with no clear trend
+                # either way landing on the identical fallback category
+                # for both), which reads as the model contradicting
+                # itself on the same prop. Resolved before scoring now,
+                # since the score and the category come from one call.
+                exclude = best_over["label"] if best_over else None
+                under_score, under_reasons, best_under = batter_under_score(b, exclude_label=exclude)
                 under_score -= confirmed_penalty
                 if under_reasons and under_score > 0:
-                    # exclude_label: never repeat this same player's own OVER
-                    # category on his UNDER pick (or vice versa) -- confirmed
-                    # this happened for real (a pitcher with no clear trend
-                    # either way landing on the identical fallback category
-                    # for both), which reads as the model contradicting
-                    # itself on the same prop.
-                    exclude = best_over["label"] if best_over else None
-                    best_under = _pick_category(b.get("best_under"), b.get("prop_categories"), "batter", "under", exclude)
                     result = pick_result("batter", best_under, b.get("game_result"), "under", is_final)
                     dnp = game_started and b.get("game_result") is None
                     batter_unders.append({**base, "score": under_score, "reasons": under_reasons, "best_category": best_under, "result": result, "dnp": dnp})
@@ -1688,23 +1796,33 @@ def build_top_picks(report_games, batter_limit=15, pitcher_limit=8):
                     "game_pk": g["game_pk"],
                     "lineup_confirmed": p.get("lineup_confirmed", True),
                 }
+                # Pitcher categories are restricted to the ones whose
+                # direction agrees with the score's own "pitching well"
+                # thesis, and the delta-based strict pick is deliberately
+                # not used: it selects on the recent-vs-season deviation
+                # that graded as an anti-signal (see best_prop_star()).
                 best_over = None
                 over_score, over_reasons = pitcher_strikeout_over_score(p)
                 over_score -= pitcher_confirmed_penalty
                 if over_reasons and over_score > 0:
-                    best_over = p.get("best_over") or resolve_best_category(p.get("prop_categories"), "pitcher", "over")
+                    best_over = resolve_best_category(_pitcher_thesis_categories(p.get("prop_categories"), "over"), "pitcher", "over")
+                if best_over:
                     result = pick_result("pitcher", best_over, p.get("game_result"), "over", is_final)
                     dnp = game_started and p.get("game_result") is None
-                    pitcher_overs.append({**base, "score": over_score, "reasons": over_reasons, "best_category": best_over, "result": result, "dnp": dnp})
+                    pitcher_overs.append({**base, "score": over_score, "reasons": over_reasons + [PITCHER_PICKS_CAVEAT],
+                                          "best_category": best_over, "result": result, "dnp": dnp, "experimental": True})
 
                 under_score, under_reasons = pitcher_runs_under_score(p)
                 under_score -= pitcher_confirmed_penalty
+                best_under = None
                 if under_reasons and under_score > 0:
                     exclude = best_over["label"] if best_over else None
-                    best_under = _pick_category(p.get("best_under"), p.get("prop_categories"), "pitcher", "under", exclude)
+                    best_under = resolve_best_category(_pitcher_thesis_categories(p.get("prop_categories"), "under"), "pitcher", "under", exclude_label=exclude)
+                if best_under:
                     result = pick_result("pitcher", best_under, p.get("game_result"), "under", is_final)
                     dnp = game_started and p.get("game_result") is None
-                    pitcher_unders.append({**base, "score": under_score, "reasons": under_reasons, "best_category": best_under, "result": result, "dnp": dnp})
+                    pitcher_unders.append({**base, "score": under_score, "reasons": under_reasons + [PITCHER_PICKS_CAVEAT],
+                                           "best_category": best_under, "result": result, "dnp": dnp, "experimental": True})
 
     batter_overs.sort(key=lambda c: c["score"], reverse=True)
     batter_unders.sort(key=lambda c: c["score"], reverse=True)
@@ -1845,7 +1963,7 @@ def _player_context(todays_games):
     player_id, game_pk) -- used to refresh an already-frozen pick without
     needing to recompute the whole entry. For batters this also carries
     which opposing starting pitcher the CURRENT build used, plus the fields
-    batter_over_score()/batter_under_score() need -- compared against the
+    _margin_score() needs -- compared against the
     pitcher a frozen pick was originally built against in
     _refresh_frozen_pick(), so a real late pitcher swap (scratch, bullpen
     game, etc.) can be detected and the pick's matchup-dependent fields
@@ -1866,13 +1984,16 @@ def _player_context(todays_games):
             opp_pitcher_id = (opp_side["probable_pitcher"] or {}).get("player_id")
             for b in side["batters"]:
                 context[("batter", b["player_id"], g["game_pk"])] = {
+                    # prop_categories is the whole scoring input now (its
+                    # today_projection already carries the recompiled matchup
+                    # factor); matchup only annotates the reason text. The
+                    # trend/trend_caveat/hit_streak and delta-based
+                    # best_over/best_under this used to carry were dropped
+                    # along with the signals that read them -- carrying
+                    # fields nothing scores on is how they quietly went
+                    # stale the first time.
                     "prop_categories": b.get("prop_categories"),
-                    "best_over": b.get("best_over"),
-                    "best_under": b.get("best_under"),
-                    "trend": b.get("trend"),
-                    "trend_caveat": b.get("trend_caveat"),
                     "matchup": b.get("matchup"),
-                    "hit_streak": b.get("hit_streak"),
                     "opp_pitcher_id": opp_pitcher_id,
                     "lineup_confirmed": side["lineup_confirmed"],
                 }
@@ -1934,13 +2055,19 @@ def _refresh_frozen_pick(pick, direction, player_context, exclude_label=None):
     if not pitcher_changed:
         return
     score_fn = batter_over_score if direction == "over" else batter_under_score
-    confirmed_penalty = 0 if ctx.get("lineup_confirmed") else 0.5
-    score, reasons = score_fn(ctx)
+    confirmed_penalty = 0 if ctx.get("lineup_confirmed") else UNCONFIRMED_LINEUP_PENALTY
+    # The scorer resolves the category itself now, so a refresh against a
+    # new pitcher moves the score AND the displayed prop together -- the
+    # projection it ranks on is the one batter_matchup_factor() just
+    # recomputed for the pitcher who's actually starting. Only overwrite the
+    # category when it found one: a swap that leaves the player with nothing
+    # leaning this direction shouldn't blank out an already-published pick,
+    # it should just fall to the bottom of the list on score.
+    score, reasons, resolved = score_fn(ctx, exclude_label=exclude_label)
     pick["score"] = score - confirmed_penalty
-    pick["reasons"] = reasons
+    if reasons:
+        pick["reasons"] = reasons
     pick["opp_pitcher_id"] = ctx["opp_pitcher_id"]
-    strict = ctx.get("best_over") if direction == "over" else ctx.get("best_under")
-    resolved = _pick_category(strict, ctx.get("prop_categories"), role, direction, exclude_label)
     if resolved:
         pick["best_category"] = resolved
 

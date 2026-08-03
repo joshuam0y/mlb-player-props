@@ -19,6 +19,20 @@ Reads bucket-level rates (sum hits / sum at-bats across all games in a
 bucket), not an average of per-game averages -- a single game's AVG is a
 0/0.5/1.0-type number and averaging those directly would be dominated by
 small-sample noise.
+
+SUPERSEDED, for the HOT/COLD question specifically. This script's own
+finding -- that HOT and COLD are "barely different, and not in the obvious
+direction" -- was correct but under-read: grading nine real days against the
+prop lines those flags actually feed showed the trend is INVERTED, not
+merely weak (a hot batter clears his OVER 27.1% of the time against 32.9%
+for a cold one, z = -4.75 on 13,398 graded player-game-categories), and the
+BABIP-luck caveat this script also checks has no discriminating power at all
+(z = -0.45). Neither now feeds any pick score. Prefer grade_picks.py's
+running record over this script for anything the graded history covers: it
+measures the flags against the actual lines and directions the model
+publishes, rather than against raw AVG/TB, and it can't leak. See
+docs/MODEL_NOTES.md. This script stays useful for the longer season-wide
+sample and for signals grading hasn't accumulated enough days on yet.
 """
 
 import argparse
