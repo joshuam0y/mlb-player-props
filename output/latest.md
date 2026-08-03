@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-03T00:23:32.754423+00:00_
+_Generated 2026-08-03T00:43:23.138202+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -472,7 +472,7 @@ _Facing a taxed bullpen: 7.7 relief IP in last 2 days (ratio 1.92)_
 ## 2026-08-02 - Boston Red Sox @ Los Angeles Dodgers (In Progress)
 _UNIQLO Field at Dodger Stadium_
 Projected score: Boston Red Sox 4.55 - Los Angeles Dodgers 3.04
-Model likes: **Boston Red Sox** to win (64%) | Run line: **Los Angeles Dodgers** +1.5 (52% to cover) | Total 7.5: lean **UNDER** (55%)
+Model likes: **Boston Red Sox** to win (64%) | Run line: **Los Angeles Dodgers** +1.5 (53% to cover) | Total 7.5: lean **UNDER** (55%)
 
 ### Boston Red Sox lineup -- CONFIRMED
 _Facing a taxed bullpen: 9.0 relief IP in last 2 days (ratio 1.94)_
@@ -592,7 +592,7 @@ _Facing a taxed bullpen: 10.0 relief IP in last 2 days (ratio 2.17)_
 ## 2026-08-03 - San Francisco Giants @ Texas Rangers (Scheduled)
 _Globe Life Field [hitter-friendly park]_
 Projected score: San Francisco Giants 4.8 - Texas Rangers 3.65
-Model likes: **San Francisco Giants** to win (60%) | Run line: **Texas Rangers** +1.5 (56% to cover) | Total 7.5: lean **OVER** (53%)
+Model likes: **San Francisco Giants** to win (60%) | Run line: **Texas Rangers** +1.5 (55% to cover) | Total 7.5: lean **OVER** (53%)
 
 ### San Francisco Giants lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 7.3 relief IP in last 2 days (ratio 1.56)_
@@ -1073,7 +1073,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-04 - Toronto Blue Jays @ Houston Astros (Scheduled)
 _Daikin Park_
 Projected score: Toronto Blue Jays 4.13 - Houston Astros 3.88
-Model likes: **Toronto Blue Jays** to win (52%) | Run line: **Houston Astros** +1.5 (64% to cover) | Total 7.5: lean **UNDER** (50%)
+Model likes: **Toronto Blue Jays** to win (52%) | Run line: **Houston Astros** +1.5 (64% to cover) | Total 7.5: lean **UNDER** (51%)
 
 ### Toronto Blue Jays lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.3 relief IP in last 2 days (ratio 0.61)_
