@@ -103,11 +103,10 @@ def batting_rolling(conn, player_id, n, as_of_date=None):
     if not rows:
         return None
     sums = {c: sum((r[c] or 0) for r in rows) for c in BATTING_COUNT_COLS}
-    # Derived-category sums (see BATTER_PROP_CATEGORIES_EXTRA) -- computed
+    # Derived-category sum (see BATTER_PROP_CATEGORIES_EXTRA) -- computed
     # here in Python from the columns already summed above, rather than a
     # separate SQL expression, since this function already fetches every
     # column via SELECT *.
-    sums["hits_or_more"] = sums["hits"]
     sums["h_r_rbi"] = sums["hits"] + sums["runs"] + sums["rbi"]
     ab = sums["at_bats"]
     avg = round(sums["hits"] / ab, 3) if ab else None
@@ -275,27 +274,33 @@ PITCHER_PROP_CATEGORIES = [
     ("base_on_balls", "Walks Allowed"),
 ]
 
-# Two derived (not-a-raw-column) categories, added ONLY for games dated
-# after today (see build_batter_entry()'s own gating) -- new categories
-# reshuffle prop_category_delta()'s pick among a player's own categories,
+# A derived (not-a-raw-column) category, added ONLY for games dated after
+# today (see build_batter_entry()'s own gating) -- a new category
+# reshuffles prop_category_delta()'s pick among a player's own categories,
 # and today's Top Overs/Unders / Best-prop star are already frozen for the
-# day; this way, adding these can't retroactively shift a pick that's
-# already been shown. "hits_or_more" is the real "To Record A Hit" market
-# (a fixed 0.5 line -- always "did he get at least one hit", not the
-# variable-line "Hits" category above); "h_r_rbi" is the popular combined
-# Hits+Runs+RBIs prop. Both reuse the SAME raw hits/runs/rbi columns under
-# a distinct key -- see _stat_sql_expr() for how each maps back to real SQL.
+# day; this way, adding this can't retroactively shift a pick that's
+# already been shown. "h_r_rbi" is the popular combined Hits+Runs+RBIs
+# prop -- reuses the SAME raw hits/runs/rbi columns under a distinct key,
+# see _stat_sql_expr() for how it maps back to real SQL.
+#
+# NOTE: this used to also have a "To Record A Hit" (hits >= 1, always a
+# fixed 0.5 line) category alongside this one -- removed as genuinely
+# redundant with the "Hits" category above: whenever a player's own Hits
+# line is already 0.5 (a real, common case for a cold/weak hitter --
+# round_to_half() puts it there naturally), "Over 0.5 Hits" and "To
+# Record A Hit" are the exact same event. Same reasoning "Total Bases"
+# already gets a 1.5 floor for, just decided the other direction here:
+# rather than keep a separate category, a hitter whose real line is
+# already 0.5 just shows that through Hits itself.
 BATTER_PROP_CATEGORIES_EXTRA = [
-    ("hits_or_more", "To Record A Hit"),
     ("h_r_rbi", "Hits + Runs + RBIs"),
 ]
 BATTER_PROP_CATEGORIES_EXTENDED = BATTER_PROP_CATEGORIES + BATTER_PROP_CATEGORIES_EXTRA
 
 # Real SQL expression for a derived category stat that isn't a literal
 # column in batting_game_logs -- identity (the stat name itself) for
-# every real-column stat, an explicit mapping for the derived ones above.
+# every real-column stat, an explicit mapping for the derived one above.
 _DERIVED_STAT_SQL = {
-    "hits_or_more": "hits",
     "h_r_rbi": "(hits + runs + rbi)",
 }
 
@@ -398,11 +403,6 @@ def category_baselines(recent_rolling, season_avgs, stats):
         # which is why real sportsbooks never post one below 1.5.
         if stat == "total_bases":
             line = max(line, 1.5)
-        # "To Record A Hit" is a fixed-line market by definition (see
-        # BATTER_PROP_CATEGORIES_EXTRA) -- always evaluated at 0.5,
-        # regardless of this player's own average.
-        if stat == "hits_or_more":
-            line = 0.5
         out[stat] = (avg, line)
     return out
 
@@ -566,10 +566,9 @@ def batter_game_result(conn, player_id, game_pk):
     if not row:
         return None
     result = dict(row)
-    # Derived-category keys (see BATTER_PROP_CATEGORIES_EXTRA) -- computed
+    # Derived-category key (see BATTER_PROP_CATEGORIES_EXTRA) -- computed
     # here so pick_result()'s _BATTER_CATEGORY_FIELD lookup (and grade_picks.py's
-    # own mirror) can read them exactly like any other real stat.
-    result["hits_or_more"] = result["hits"]
+    # own mirror) can read it exactly like any other real stat.
     result["h_r_rbi"] = result["hits"] + result["runs"] + result["rbi"]
     return result
 
@@ -911,8 +910,8 @@ def build_batter_entry(conn, player_id, opp_hand, opp_pitcher_id, is_home_game, 
     trend = form_trend(l7, season)
     matchup = matchup_edge(conn, player["bat_side"], opp_hand, opp_pitcher_id, as_of_date=as_of_date)
 
-    # BATTER_PROP_CATEGORIES_EXTRA (To Record A Hit, Hits + Runs + RBIs)
-    # only ever shows up for a game dated AFTER today -- as_of_date here is
+    # BATTER_PROP_CATEGORIES_EXTRA (Hits + Runs + RBIs) only ever shows up
+    # for a game dated AFTER today -- as_of_date here is
     # this game's own date (see this function's own docstring), so this is
     # a straight date compare, not a "how much data exists yet" check.
     # Today's Top Overs/Unders and Best-prop star are already frozen for

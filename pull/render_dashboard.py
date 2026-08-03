@@ -971,7 +971,6 @@ function statOr0(v) {
 const BATTER_LEAN_FIELD = {
   'Hits': 'hits', 'Total Bases': 'totalBases', 'Home Runs': 'homeRuns',
   'RBIs': 'rbi', 'Runs Scored': 'runs', 'Walks': 'baseOnBalls',
-  'To Record A Hit': 'hits', // same live field as 'Hits' -- only the line (fixed 0.5) differs
 };
 const PITCHER_LEAN_FIELD = {
   'Strikeouts': 'strikeOuts', 'Runs Allowed': 'earnedRuns',

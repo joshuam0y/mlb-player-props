@@ -92,7 +92,7 @@ CATEGORY_ROLE_JS = """
 const CATEGORY_ROLE = {
   'Hits': 'batter', 'Total Bases': 'batter', 'Home Runs': 'batter',
   'RBIs': 'batter', 'Runs Scored': 'batter', 'Walks': 'batter',
-  'To Record A Hit': 'batter', 'Hits + Runs + RBIs': 'batter',
+  'Hits + Runs + RBIs': 'batter',
   'Strikeouts': 'pitcher', 'Outs Recorded': 'pitcher', 'Runs Allowed': 'pitcher',
   'Hits Allowed': 'pitcher', 'Walks Allowed': 'pitcher',
 };
@@ -128,7 +128,6 @@ const db = getFirestore(app);
 const BATTER_LEAN_FIELD = {{
   'Hits': 'hits', 'Total Bases': 'totalBases', 'Home Runs': 'homeRuns',
   'RBIs': 'rbi', 'Runs Scored': 'runs', 'Walks': 'baseOnBalls',
-  'To Record A Hit': 'hits', // same live field as 'Hits' -- only the line (fixed 0.5) differs
 }};
 const PITCHER_LEAN_FIELD = {{
   'Strikeouts': 'strikeOuts', 'Runs Allowed': 'earnedRuns',

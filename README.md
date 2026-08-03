@@ -11,6 +11,12 @@ public news RSS feed -- no paid odds API, no scraping of betting sites.
 
 _Updated with every change going forward._
 
+- **2026-08-02** -- Removed "To Record A Hit" (added earlier today) --
+  genuinely redundant with the existing "Hits" category, same reasoning
+  "Total Bases" already gets a 1.5 floor for: whenever a player's own Hits
+  line is already 0.5 (a real, common case for a cold hitter), "Over 0.5
+  Hits" and "To Record A Hit" are the exact same event. "Hits + Runs +
+  RBIs" stays.
 - **2026-08-02** -- Added two new batter prop categories, alongside the
   existing Hits/Total Bases/HR/RBI/Runs/Walks: "To Record A Hit" (the real
   "at least one hit" market -- always a fixed 0.5 line, unlike the

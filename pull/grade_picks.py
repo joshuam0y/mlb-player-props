@@ -78,12 +78,12 @@ TRACK_RECORD_PATH = os.path.join(OUT_DIR, "track_record.json")
 # two raw-SQL query sites below (_grade_pick, _collect_player_projection_errors)
 # convert a key to the real SQL expression via _stat_sql_expr() (imported
 # from build_props.py) rather than storing the SQL text here directly, so
-# there's exactly one place ("hits_or_more" -> "hits", "h_r_rbi" -> "(hits +
-# runs + rbi)") that has to stay right.
+# there's exactly one place ("h_r_rbi" -> "(hits + runs + rbi)") that has
+# to stay right.
 BATTER_COL = {
     "Hits": "hits", "Total Bases": "total_bases", "Home Runs": "home_runs",
     "RBIs": "rbi", "Runs Scored": "runs", "Walks": "base_on_balls",
-    "To Record A Hit": "hits_or_more", "Hits + Runs + RBIs": "h_r_rbi",
+    "Hits + Runs + RBIs": "h_r_rbi",
 }
 PITCHER_COL = {
     "Strikeouts": "strike_outs", "Outs Recorded": "outs", "Runs Allowed": "earned_runs",
