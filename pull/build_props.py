@@ -103,8 +103,8 @@ def batting_rolling(conn, player_id, n, as_of_date=None):
     if not rows:
         return None
     sums = {c: sum((r[c] or 0) for r in rows) for c in BATTING_COUNT_COLS}
-    # Derived-category sum (see BATTER_PROP_CATEGORIES_EXTRA) -- computed
-    # here in Python from the columns already summed above, rather than a
+    # Derived-category sum (see BATTER_PROP_CATEGORIES' own "h_r_rbi" entry)
+    # -- computed here in Python from the columns already summed above, rather than a
     # separate SQL expression, since this function already fetches every
     # column via SELECT *.
     sums["h_r_rbi"] = sums["hits"] + sums["runs"] + sums["rbi"]
@@ -265,6 +265,25 @@ BATTER_PROP_CATEGORIES = [
     ("rbi", "RBIs"),
     ("runs", "Runs Scored"),
     ("base_on_balls", "Walks"),
+    # A derived (not-a-raw-column) category: the popular combined
+    # Hits+Runs+RBIs prop. Reuses the SAME raw hits/runs/rbi columns under
+    # a distinct key -- see _stat_sql_expr() for how it maps back to real
+    # SQL. (This used to be gated to future-dated games only, to protect
+    # against retroactively reshuffling a pick already shown the day this
+    # category was introduced -- that one-time transition has long since
+    # passed, so it's just a normal permanent category now, like every
+    # other one above.)
+    #
+    # NOTE: this used to also have a "To Record A Hit" (hits >= 1, always a
+    # fixed 0.5 line) category alongside this one -- removed as genuinely
+    # redundant with the "Hits" category above: whenever a player's own Hits
+    # line is already 0.5 (a real, common case for a cold/weak hitter --
+    # round_to_half() puts it there naturally), "Over 0.5 Hits" and "To
+    # Record A Hit" are the exact same event. Same reasoning "Total Bases"
+    # already gets a 1.5 floor for, just decided the other direction here:
+    # rather than keep a separate category, a hitter whose real line is
+    # already 0.5 just shows that through Hits itself.
+    ("h_r_rbi", "Hits + Runs + RBIs"),
 ]
 PITCHER_PROP_CATEGORIES = [
     ("strike_outs", "Strikeouts"),
@@ -273,29 +292,6 @@ PITCHER_PROP_CATEGORIES = [
     ("hits", "Hits Allowed"),
     ("base_on_balls", "Walks Allowed"),
 ]
-
-# A derived (not-a-raw-column) category, added ONLY for games dated after
-# today (see build_batter_entry()'s own gating) -- a new category
-# reshuffles prop_category_delta()'s pick among a player's own categories,
-# and today's Top Overs/Unders / Best-prop star are already frozen for the
-# day; this way, adding this can't retroactively shift a pick that's
-# already been shown. "h_r_rbi" is the popular combined Hits+Runs+RBIs
-# prop -- reuses the SAME raw hits/runs/rbi columns under a distinct key,
-# see _stat_sql_expr() for how it maps back to real SQL.
-#
-# NOTE: this used to also have a "To Record A Hit" (hits >= 1, always a
-# fixed 0.5 line) category alongside this one -- removed as genuinely
-# redundant with the "Hits" category above: whenever a player's own Hits
-# line is already 0.5 (a real, common case for a cold/weak hitter --
-# round_to_half() puts it there naturally), "Over 0.5 Hits" and "To
-# Record A Hit" are the exact same event. Same reasoning "Total Bases"
-# already gets a 1.5 floor for, just decided the other direction here:
-# rather than keep a separate category, a hitter whose real line is
-# already 0.5 just shows that through Hits itself.
-BATTER_PROP_CATEGORIES_EXTRA = [
-    ("h_r_rbi", "Hits + Runs + RBIs"),
-]
-BATTER_PROP_CATEGORIES_EXTENDED = BATTER_PROP_CATEGORIES + BATTER_PROP_CATEGORIES_EXTRA
 
 # Real SQL expression for a derived category stat that isn't a literal
 # column in batting_game_logs -- identity (the stat name itself) for
@@ -566,8 +562,8 @@ def batter_game_result(conn, player_id, game_pk):
     if not row:
         return None
     result = dict(row)
-    # Derived-category key (see BATTER_PROP_CATEGORIES_EXTRA) -- computed
-    # here so pick_result()'s _BATTER_CATEGORY_FIELD lookup (and grade_picks.py's
+    # Derived-category key (see BATTER_PROP_CATEGORIES' own "h_r_rbi" entry)
+    # -- computed here so pick_result()'s _BATTER_CATEGORY_FIELD lookup (and grade_picks.py's
     # own mirror) can read it exactly like any other real stat.
     result["h_r_rbi"] = result["hits"] + result["runs"] + result["rbi"]
     return result
@@ -947,17 +943,7 @@ def build_batter_entry(conn, player_id, opp_hand, opp_pitcher_id, is_home_game, 
     trend = form_trend(l7, season)
     matchup = matchup_edge(conn, player["bat_side"], opp_hand, opp_pitcher_id, as_of_date=as_of_date)
 
-    # BATTER_PROP_CATEGORIES_EXTRA (Hits + Runs + RBIs) shows up for any
-    # game that hasn't been decided yet: a genuinely future date, OR
-    # today's own game as long as it hasn't started (first pitch is when a
-    # pick actually becomes "shown" in any meaningful sense). Today's Top
-    # Overs/Unders/Best-prop archive only freezes once, at
-    # TOP_PICKS_FREEZE_HOUR_ET -- a not-yet-started game today is still
-    # ahead of that freeze, so including it here can't retroactively
-    # reshuffle anything that's already been locked in and shown.
-    game_not_started = status in (None, "Scheduled", "Pre-Game", "Preview", "Warmup")
-    extended_eligible = as_of_date and (as_of_date > mlb_today() or (as_of_date == mlb_today() and game_not_started))
-    stats = BATTER_PROP_CATEGORIES_EXTENDED if extended_eligible else BATTER_PROP_CATEGORIES
+    stats = BATTER_PROP_CATEGORIES
     season_avgs = season_stat_averages(conn, "batting_game_logs", player_id, stats, as_of_date=as_of_date)
     baselines = category_baselines(l15, season_avgs, stats)
     factor_fn = lambda label: batter_matchup_factor(matchup)  # noqa: E731 -- same factor for every batting category
@@ -1361,7 +1347,7 @@ def headline_prop(best_over, best_under):
     return None, None
 
 
-_BATTER_CATEGORY_FIELD = {label: field for field, label in BATTER_PROP_CATEGORIES_EXTENDED}
+_BATTER_CATEGORY_FIELD = {label: field for field, label in BATTER_PROP_CATEGORIES}
 _PITCHER_CATEGORY_FIELD = {label: field for field, label in PITCHER_PROP_CATEGORIES}
 
 FINAL_STATUSES = {"Final", "Game Over", "Completed Early"}
