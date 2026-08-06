@@ -205,15 +205,28 @@ jobs:
 
       - name: Configure Pages
         if: always()
+        continue-on-error: true
         uses: actions/configure-pages@v5
 
       - name: Upload dashboard for Pages
         if: always()
+        continue-on-error: true
         uses: actions/upload-pages-artifact@v3
         with:
           path: output
 
+      # GitHub's own Pages deployment backend occasionally stalls in
+      # "deployment_queued" for the action's full internal timeout (seen
+      # in practice: two back-to-back runs each stuck for a full 10
+      # minutes with zero progress, a platform-side backlog, not anything
+      # this pipeline controls). continue-on-error here means that doesn't
+      # get reported as a failed run -- the data sync + git commit above
+      # already succeeded and is safely pushed by this point, so nothing
+      # is lost; the live site just stays on the previous deploy a little
+      # longer, and self-heals on its own at the very next Quick refresh
+      # run (every 15 min) or the next hourly run after that.
       - name: Deploy to Pages
         if: always()
+        continue-on-error: true
         id: deployment
         uses: actions/deploy-pages@v4
