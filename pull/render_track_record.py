@@ -106,10 +106,18 @@ def _game_pick_tile_html(title, bucket):
     n = bucket.get("n") or 0
     if not n:
         return f'<div class="stat-tile"><div class="stat-value">&mdash;</div><div class="stat-label">{html.escape(title)}</div></div>'
+    # hit_rate itself is hits/(hits+misses) -- graded picks only, no_data/DNP
+    # picks excluded (same convention the Top Overs/Unders line above already
+    # uses). The shown fraction has to use that same denominator (not the
+    # raw `n`, which includes no_data) or it visibly doesn't match the
+    # percentage right next to it -- e.g. hits=196, n=300, no_data=12 would
+    # show "68% (196/300)", but 196/300 is actually 65%, not 68%.
+    graded = bucket.get("hits", 0) + bucket.get("misses", 0)
+    dnp_txt = f", {bucket['no_data']} DNP" if bucket.get("no_data") else ""
     return f"""
     <div class="stat-tile">
       <div class="stat-value">{_pct(bucket.get("hit_rate"))}</div>
-      <div class="stat-label">{html.escape(title)} ({bucket['hits']}/{n})</div>
+      <div class="stat-label">{html.escape(title)} ({bucket.get("hits", 0)}/{graded}{dnp_txt})</div>
     </div>
     """
 
