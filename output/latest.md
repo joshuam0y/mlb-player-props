@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-06T06:58:31.669764+00:00_
+_Generated 2026-08-06T07:19:26.987052+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -301,7 +301,7 @@ _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.35)_
 ## 2026-08-06 - Miami Marlins @ Atlanta Braves (Scheduled)
 _Truist Park_
 Projected score: Miami Marlins 2.79 - Atlanta Braves 4.73
-Model likes: **Atlanta Braves** to win (68%) | Run line: **Atlanta Braves** -1.5 (51% to cover) | Total 6.5: lean **OVER** (55%)
+Model likes: **Atlanta Braves** to win (68%) | Run line: **Atlanta Braves** -1.5 (52% to cover) | Total 6.5: lean **OVER** (55%)
 
 ### Miami Marlins lineup -- PROJECTED (unconfirmed)
 **Probable P: Janson Junk (R)** -- L5: 23.7 IP, 21 K, 9 ER, 3.42 ERA
@@ -592,7 +592,7 @@ _Facing a rested bullpen: 4.0 relief IP in last 2 days (ratio 0.68)_
 ## 2026-08-07 - Cleveland Guardians @ Chicago White Sox (Scheduled)
 _Rate Field_
 Projected score: Cleveland Guardians 3.26 - Chicago White Sox 3.25
-Model likes: **Cleveland Guardians** to win (50%) | Run line: **Chicago White Sox** +1.5 (68% to cover) | Total 6.5: lean **UNDER** (56%)
+Model likes: **Cleveland Guardians** to win (50%) | Run line: **Chicago White Sox** +1.5 (68% to cover) | Total 6.5: lean **UNDER** (55%)
 
 ### Cleveland Guardians lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.7 relief IP in last 2 days (ratio 0.58)_
@@ -852,7 +852,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-08 - Los Angeles Angels @ Miami Marlins (Scheduled)
 _loanDepot park [pitcher-friendly park]_
 Projected score: Los Angeles Angels 3.28 - Miami Marlins 3.95
-Model likes: **Miami Marlins** to win (56%) | Run line: **Los Angeles Angels** +1.5 (61% to cover) | Total 6.5: lean **OVER** (52%)
+Model likes: **Miami Marlins** to win (57%) | Run line: **Los Angeles Angels** +1.5 (61% to cover) | Total 6.5: lean **OVER** (52%)
 
 ### Los Angeles Angels lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -969,7 +969,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-08 - Cincinnati Reds @ Washington Nationals (Scheduled)
 _Nationals Park_
 Projected score: Cincinnati Reds 5.28 - Washington Nationals 3.5
-Model likes: **Cincinnati Reds** to win (65%) | Run line: **Washington Nationals** +1.5 (50% to cover) | Total 8.5: lean **UNDER** (53%)
+Model likes: **Cincinnati Reds** to win (65%) | Run line: **Cincinnati Reds** -1.5 (50% to cover) | Total 8.5: lean **UNDER** (53%)
 
 ### Cincinnati Reds lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1058,7 +1058,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-08 - Baltimore Orioles @ Texas Rangers (Scheduled)
 _Globe Life Field [hitter-friendly park]_
 Projected score: Baltimore Orioles 4.25 - Texas Rangers 4.66
-Model likes: **Texas Rangers** to win (53%) | Run line: **Baltimore Orioles** +1.5 (61% to cover) | Total 8.5: lean **UNDER** (52%)
+Model likes: **Texas Rangers** to win (54%) | Run line: **Baltimore Orioles** +1.5 (61% to cover) | Total 8.5: lean **UNDER** (52%)
 
 ### Baltimore Orioles lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
