@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-06T10:03:18.273812+00:00_
+_Generated 2026-08-06T10:08:06.960050+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -678,7 +678,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.62)_
 ## 2026-08-07 - Colorado Rockies @ St. Louis Cardinals (Scheduled)
 _Busch Stadium_
 Projected score: Colorado Rockies 4.02 - St. Louis Cardinals 4.78
-Model likes: **St. Louis Cardinals** to win (56%) | Run line: **Colorado Rockies** +1.5 (58% to cover) | Total 8.5: lean **UNDER** (53%)
+Model likes: **St. Louis Cardinals** to win (56%) | Run line: **Colorado Rockies** +1.5 (59% to cover) | Total 8.5: lean **UNDER** (53%)
 
 ### Colorado Rockies lineup -- PROJECTED (unconfirmed)
 **Probable P: Ryan Feltner (R)** -- L5: 23.7 IP, 22 K, 23 ER, 8.75 ERA
@@ -736,7 +736,7 @@ Model likes: **San Diego Padres** to win (65%) | Run line: **Houston Astros** +1
 ## 2026-08-07 - Los Angeles Dodgers @ Arizona Diamondbacks (Scheduled)
 _Chase Field [hitter-friendly park]_
 Projected score: Los Angeles Dodgers 5.55 - Arizona Diamondbacks 5.07
-Model likes: **Los Angeles Dodgers** to win (53%) | Run line: **Arizona Diamondbacks** +1.5 (59% to cover) | Total 9.5: lean **OVER** (53%)
+Model likes: **Los Angeles Dodgers** to win (53%) | Run line: **Arizona Diamondbacks** +1.5 (60% to cover) | Total 9.5: lean **OVER** (53%)
 
 ### Los Angeles Dodgers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.39)_
@@ -765,7 +765,7 @@ _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.39)_
 ## 2026-08-07 - Tampa Bay Rays @ Seattle Mariners (Scheduled)
 _T-Mobile Park [pitcher-friendly park]_
 Projected score: Tampa Bay Rays 3.62 - Seattle Mariners 2.89
-Model likes: **Tampa Bay Rays** to win (58%) | Run line: **Seattle Mariners** +1.5 (61% to cover) | Total 6.5: lean **UNDER** (56%)
+Model likes: **Tampa Bay Rays** to win (58%) | Run line: **Seattle Mariners** +1.5 (61% to cover) | Total 6.5: lean **UNDER** (55%)
 
 ### Tampa Bay Rays lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.44)_
@@ -852,7 +852,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-08 - Los Angeles Angels @ Miami Marlins (Scheduled)
 _loanDepot park [pitcher-friendly park]_
 Projected score: Los Angeles Angels 3.28 - Miami Marlins 3.95
-Model likes: **Miami Marlins** to win (57%) | Run line: **Los Angeles Angels** +1.5 (61% to cover) | Total 6.5: lean **OVER** (52%)
+Model likes: **Miami Marlins** to win (56%) | Run line: **Los Angeles Angels** +1.5 (61% to cover) | Total 6.5: lean **OVER** (52%)
 
 ### Los Angeles Angels lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1029,7 +1029,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-08 - Chicago Cubs @ Kansas City Royals (Scheduled)
 _Kauffman Stadium [pitcher-friendly park]_
 Projected score: Chicago Cubs 5.44 - Kansas City Royals 3.54
-Model likes: **Chicago Cubs** to win (66%) | Run line: **Chicago Cubs** -1.5 (51% to cover) | Total 8.5: lean **UNDER** (51%)
+Model likes: **Chicago Cubs** to win (66%) | Run line: **Chicago Cubs** -1.5 (51% to cover) | Total 8.5: lean **UNDER** (52%)
 
 ### Chicago Cubs lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1209,7 +1209,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-08 - Los Angeles Dodgers @ Arizona Diamondbacks (Scheduled)
 _Chase Field [hitter-friendly park]_
 Projected score: Los Angeles Dodgers 5.55 - Arizona Diamondbacks 3.79
-Model likes: **Los Angeles Dodgers** to win (64%) | Run line: **Arizona Diamondbacks** +1.5 (50% to cover) | Total 8.5: lean **OVER** (52%)
+Model likes: **Los Angeles Dodgers** to win (64%) | Run line: **Los Angeles Dodgers** -1.5 (50% to cover) | Total 8.5: lean **OVER** (52%)
 
 ### Los Angeles Dodgers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
