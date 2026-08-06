@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-06T12:06:52.564591+00:00_
+_Generated 2026-08-06T12:28:34.358617+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -271,7 +271,7 @@ _Facing a taxed bullpen: 13.3 relief IP in last 2 days (ratio 2.23)_
 ## 2026-08-06 - Chicago White Sox @ Boston Red Sox (Scheduled)
 _Fenway Park_
 Projected score: Chicago White Sox 3.04 - Boston Red Sox 4.26
-Model likes: **Boston Red Sox** to win (62%) | Run line: **Chicago White Sox** +1.5 (55% to cover) | Total 6.5: lean **OVER** (53%)
+Model likes: **Boston Red Sox** to win (62%) | Run line: **Chicago White Sox** +1.5 (56% to cover) | Total 6.5: lean **OVER** (53%)
 
 ### Chicago White Sox lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.35)_
@@ -301,7 +301,7 @@ _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.35)_
 ## 2026-08-06 - Miami Marlins @ Atlanta Braves (Scheduled)
 _Truist Park_
 Projected score: Miami Marlins 2.79 - Atlanta Braves 4.73
-Model likes: **Atlanta Braves** to win (68%) | Run line: **Atlanta Braves** -1.5 (51% to cover) | Total 6.5: lean **OVER** (55%)
+Model likes: **Atlanta Braves** to win (68%) | Run line: **Atlanta Braves** -1.5 (52% to cover) | Total 6.5: lean **OVER** (55%)
 
 ### Miami Marlins lineup -- PROJECTED (unconfirmed)
 **Probable P: Janson Junk (R)** -- L5: 23.7 IP, 21 K, 9 ER, 3.42 ERA
@@ -621,7 +621,7 @@ _Facing a rested bullpen: 3.7 relief IP in last 2 days (ratio 0.58)_
 ## 2026-08-07 - Chicago Cubs @ Kansas City Royals (Scheduled)
 _Kauffman Stadium [pitcher-friendly park]_
 Projected score: Chicago Cubs 5.44 - Kansas City Royals 3.54
-Model likes: **Chicago Cubs** to win (65%) | Run line: **Chicago Cubs** -1.5 (51% to cover) | Total 8.5: lean **UNDER** (51%)
+Model likes: **Chicago Cubs** to win (66%) | Run line: **Chicago Cubs** -1.5 (51% to cover) | Total 8.5: lean **UNDER** (51%)
 
 ### Chicago Cubs lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 1.0 relief IP in last 2 days (ratio 0.2)_
@@ -678,7 +678,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.62)_
 ## 2026-08-07 - Colorado Rockies @ St. Louis Cardinals (Scheduled)
 _Busch Stadium_
 Projected score: Colorado Rockies 4.02 - St. Louis Cardinals 4.78
-Model likes: **St. Louis Cardinals** to win (56%) | Run line: **Colorado Rockies** +1.5 (59% to cover) | Total 8.5: lean **UNDER** (53%)
+Model likes: **St. Louis Cardinals** to win (56%) | Run line: **Colorado Rockies** +1.5 (58% to cover) | Total 8.5: lean **UNDER** (53%)
 
 ### Colorado Rockies lineup -- PROJECTED (unconfirmed)
 **Probable P: Ryan Feltner (R)** -- L5: 23.7 IP, 22 K, 23 ER, 8.75 ERA
@@ -736,7 +736,7 @@ Model likes: **San Diego Padres** to win (65%) | Run line: **Houston Astros** +1
 ## 2026-08-07 - Los Angeles Dodgers @ Arizona Diamondbacks (Scheduled)
 _Chase Field [hitter-friendly park]_
 Projected score: Los Angeles Dodgers 5.55 - Arizona Diamondbacks 5.07
-Model likes: **Los Angeles Dodgers** to win (53%) | Run line: **Arizona Diamondbacks** +1.5 (59% to cover) | Total 9.5: lean **OVER** (53%)
+Model likes: **Los Angeles Dodgers** to win (54%) | Run line: **Arizona Diamondbacks** +1.5 (59% to cover) | Total 9.5: lean **OVER** (53%)
 
 ### Los Angeles Dodgers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.39)_
@@ -765,7 +765,7 @@ _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.39)_
 ## 2026-08-07 - Tampa Bay Rays @ Seattle Mariners (Scheduled)
 _T-Mobile Park [pitcher-friendly park]_
 Projected score: Tampa Bay Rays 3.62 - Seattle Mariners 2.89
-Model likes: **Tampa Bay Rays** to win (58%) | Run line: **Seattle Mariners** +1.5 (61% to cover) | Total 6.5: lean **UNDER** (56%)
+Model likes: **Tampa Bay Rays** to win (58%) | Run line: **Seattle Mariners** +1.5 (61% to cover) | Total 6.5: lean **UNDER** (55%)
 
 ### Tampa Bay Rays lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.44)_
@@ -822,7 +822,7 @@ Model likes: **Detroit Tigers** to win (58%) | Run line: **San Francisco Giants*
 ## 2026-08-08 - Atlanta Braves @ New York Yankees (Scheduled)
 _Yankee Stadium [hitter-friendly park]_
 Projected score: Atlanta Braves 3.71 - New York Yankees 3.89
-Model likes: **New York Yankees** to win (52%) | Run line: **Atlanta Braves** +1.5 (65% to cover) | Total 7.5: lean **UNDER** (55%)
+Model likes: **New York Yankees** to win (52%) | Run line: **Atlanta Braves** +1.5 (65% to cover) | Total 7.5: lean **UNDER** (54%)
 
 ### Atlanta Braves lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
