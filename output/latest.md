@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-07T22:59:50.302128+00:00_
+_Generated 2026-08-07T23:09:16.066770+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -639,24 +639,24 @@ Model likes: **Pittsburgh Pirates** to win (55%) | Run line: **New York Mets** +
 ### New York Mets lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.57)_
 **Probable P: Robert Stock (R)** -- L5: 12.7 IP, 11 K, 7 ER, 4.97 ERA
-- Bo Bichette (R) [3-game hit streak] -- L7: 8H 1HR 3RBI 13TB (0.267 avg) -- away split: 0.275 avg
-- Francisco Lindor (S) -- L7: 8H 2HR 5RBI 15TB (0.258 avg) -- away split: 0.212 avg
-- A.J. Ewing (L) -- L7: 5H 0HR 1RBI 7TB (0.172 avg) -- away split: 0.246 avg
-- Jared Young (L) -- L7: 5H 0HR 3RBI 9TB (0.25 avg) -- away split: 0.244 avg
-- Marcus Semien (R) -- L7: 6H 1HR 2RBI 10TB (0.273 avg) -- away split: 0.233 avg
-- Carson Benge (L) [3-game hit streak] -- L7: 10H 2HR 3RBI 19TB (0.333 avg) -- away split: 0.256 avg
+- Bo Bichette (R) -- L7: 6H 1HR 3RBI 10TB (0.231 avg) -- away split: 0.275 avg
+- Francisco Lindor (S) -- L7: 7H 2HR 4RBI 14TB (0.25 avg) -- away split: 0.21 avg
+- Marcus Semien (R) -- L7: 5H 1HR 2RBI 9TB (0.263 avg) -- away split: 0.233 avg
+- A.J. Ewing (L) -- L7: 6H 0HR 1RBI 9TB (0.231 avg) -- away split: 0.252 avg
+- Carson Benge (L) -- L7: 9H 2HR 3RBI 18TB (0.346 avg) -- away split: 0.256 avg
+- Jared Young (L) -- L7: 5H 0HR 3RBI 9TB (0.238 avg) -- away split: 0.242 avg
 - Luis Robert Jr. (R) -- L7: 5H 0HR 2RBI 5TB (0.185 avg) -- away split: 0.206 avg
 - Francisco Alvarez (R) -- L7: 4H 0HR 2RBI 7TB (0.174 avg) -- away split: 0.264 avg
-- Brett Baty (L) -- L7: 2H 1HR 1RBI 5TB (0.125 avg) -- away split: 0.208 avg
+- Brett Baty (L) -- L7: 2H 1HR 1RBI 5TB (0.154 avg) -- away split: 0.208 avg
 
 ### Pittsburgh Pirates lineup -- PROJECTED (unconfirmed)
 **Probable P: Bubba Chandler (R)** -- L5: 24.7 IP, 19 K, 11 ER, 4.01 ERA
-- Nick Gonzales (R) [TOUGH MATCHUP: pitcher holds this hand to 0.0 avg-against] -- L7: 5H 0HR 3RBI 5TB (0.192 avg) -- home split: 0.294 avg
-- Jared Triolo (R) [TOUGH MATCHUP: pitcher holds this hand to 0.0 avg-against] -- L7: 1H 0HR 1RBI 1TB (0.111 avg) -- home split: 0.245 avg
-- Bryan Reynolds (S) -- L7: 7H 0HR 2RBI 7TB (0.25 avg) -- home split: 0.305 avg
-- Esmerlyn Valdez (R) [TOUGH MATCHUP: pitcher holds this hand to 0.0 avg-against] -- L7: 1H 0HR 2RBI 2TB (0.05 avg) -- home split: 0.29 avg
-- Brandon Lowe (L) -- L7: 8H 1HR 2RBI 12TB (0.286 avg) -- home split: 0.248 avg
-- Jake Mangum (S) -- L7: 7H 1HR 3RBI 11TB (0.269 avg) -- home split: 0.326 avg
+- Nick Gonzales (R) [TOUGH MATCHUP: pitcher holds this hand to 0.0 avg-against] -- L7: 3H 0HR 1RBI 3TB (0.136 avg) -- home split: 0.294 avg
+- Jared Triolo (R) [TOUGH MATCHUP: pitcher holds this hand to 0.0 avg-against] -- L7: 1H 0HR 1RBI 1TB (0.125 avg) -- home split: 0.245 avg
+- Bryan Reynolds (S) -- L7: 5H 0HR 2RBI 5TB (0.217 avg) -- home split: 0.305 avg
+- Esmerlyn Valdez (R) [TOUGH MATCHUP: pitcher holds this hand to 0.0 avg-against] -- L7: 0H 0HR 2RBI 0TB (0.0 avg) -- home split: 0.29 avg
+- Brandon Lowe (L) -- L7: 5H 1HR 1RBI 8TB (0.217 avg) -- home split: 0.248 avg
+- Jake Mangum (S) -- L7: 5H 0HR 1RBI 6TB (0.227 avg) -- home split: 0.326 avg
 - Jacob Gonzalez (L) -- L7: 3H 1HR 2RBI 7TB (0.176 avg) -- home split: 0.208 avg
 - Endy Rodríguez (S) [4-game hit streak] -- L7: 8H 2HR 3RBI 14TB (0.308 avg) -- home split: 0.234 avg
 - Henry Davis (R) [TOUGH MATCHUP: pitcher holds this hand to 0.0 avg-against] -- L7: 3H 0HR 2RBI 3TB (0.15 avg) -- home split: 0.19 avg
@@ -725,7 +725,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.51)_
 ## 2026-08-08 - Chicago Cubs @ Kansas City Royals (Scheduled)
 _Kauffman Stadium [pitcher-friendly park]_
 Projected score: Chicago Cubs 4.79 - Kansas City Royals 3.52
-Model likes: **Chicago Cubs** to win (61%) | Run line: **Kansas City Royals** +1.5 (55% to cover) | Total 7.5: lean **OVER** (52%)
+Model likes: **Chicago Cubs** to win (61%) | Run line: **Kansas City Royals** +1.5 (54% to cover) | Total 7.5: lean **OVER** (52%)
 
 ### Chicago Cubs lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.3 relief IP in last 2 days (ratio 0.65)_
@@ -945,7 +945,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.66)_
 - Junior Caminero (R) [4-game hit streak] -- L7: 8H 4HR 6RBI 20TB (0.308 avg) -- away split: 0.27 avg
 - Chandler Simpson (L) [MATCHUP EDGE: pitcher hits 0.263 avg-against vs this hand] [6-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 10H 0HR 3RBI 10TB (0.385 avg) -- away split: 0.309 avg
 - Yandy Díaz (R) -- L7: 8H 1HR 3RBI 13TB (0.286 avg) -- away split: 0.253 avg
-- Ben Williamson (R) -- L7: 4H 1HR 1RBI 7TB (0.222 avg) -- away split: 0.25 avg
+- Ben Williamson (R) [INJURY: IL] -- L7: 4H 1HR 1RBI 7TB (0.222 avg) -- away split: 0.25 avg
 - Jonathan Aranda (L) [MATCHUP EDGE: pitcher hits 0.263 avg-against vs this hand] [4-game hit streak] -- L7: 9H 0HR 6RBI 11TB (0.29 avg) -- away split: 0.273 avg
 - Cedric Mullins (L) [MATCHUP EDGE: pitcher hits 0.263 avg-against vs this hand] -- L7: 5H 1HR 2RBI 10TB (0.25 avg) -- away split: 0.203 avg
 - Taylor Walls (S) [MATCHUP EDGE: pitcher hits 0.263 avg-against vs this hand] -- L7: 3H 0HR 2RBI 3TB (0.136 avg) -- away split: 0.212 avg
@@ -1003,25 +1003,25 @@ Model likes: **Pittsburgh Pirates** to win (54%) | Run line: **New York Mets** +
 ### New York Mets lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 **Probable P: Sean Manaea (L)** -- L5: 29.7 IP, 27 K, 11 ER, 3.34 ERA
-- Bo Bichette (R) [TOUGH MATCHUP: pitcher holds this hand to 0.2 avg-against] [3-game hit streak] -- L7: 8H 1HR 3RBI 13TB (0.267 avg) -- away split: 0.275 avg
-- Francisco Lindor (S) -- L7: 8H 2HR 5RBI 15TB (0.258 avg) -- away split: 0.212 avg
-- A.J. Ewing (L) -- L7: 5H 0HR 1RBI 7TB (0.172 avg) -- away split: 0.246 avg
-- Jared Young (L) -- L7: 5H 0HR 3RBI 9TB (0.25 avg) -- away split: 0.244 avg
-- Marcus Semien (R) [TOUGH MATCHUP: pitcher holds this hand to 0.2 avg-against] -- L7: 6H 1HR 2RBI 10TB (0.273 avg) -- away split: 0.233 avg
-- Carson Benge (L) [3-game hit streak] -- L7: 10H 2HR 3RBI 19TB (0.333 avg) -- away split: 0.256 avg
+- Bo Bichette (R) [TOUGH MATCHUP: pitcher holds this hand to 0.2 avg-against] -- L7: 6H 1HR 3RBI 10TB (0.231 avg) -- away split: 0.275 avg
+- Francisco Lindor (S) -- L7: 7H 2HR 4RBI 14TB (0.25 avg) -- away split: 0.21 avg
+- Marcus Semien (R) [TOUGH MATCHUP: pitcher holds this hand to 0.2 avg-against] -- L7: 5H 1HR 2RBI 9TB (0.263 avg) -- away split: 0.233 avg
+- A.J. Ewing (L) -- L7: 6H 0HR 1RBI 9TB (0.231 avg) -- away split: 0.252 avg
+- Carson Benge (L) -- L7: 9H 2HR 3RBI 18TB (0.346 avg) -- away split: 0.256 avg
+- Jared Young (L) -- L7: 5H 0HR 3RBI 9TB (0.238 avg) -- away split: 0.242 avg
 - Luis Robert Jr. (R) [TOUGH MATCHUP: pitcher holds this hand to 0.2 avg-against] -- L7: 5H 0HR 2RBI 5TB (0.185 avg) -- away split: 0.206 avg
 - Francisco Alvarez (R) [TOUGH MATCHUP: pitcher holds this hand to 0.2 avg-against] -- L7: 4H 0HR 2RBI 7TB (0.174 avg) -- away split: 0.264 avg
-- Brett Baty (L) -- L7: 2H 1HR 1RBI 5TB (0.125 avg) -- away split: 0.208 avg
+- Brett Baty (L) -- L7: 2H 1HR 1RBI 5TB (0.154 avg) -- away split: 0.208 avg
 
 ### Pittsburgh Pirates lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 **Probable P: Jared Jones (R)** -- L5: 27.0 IP, 31 K, 8 ER, 2.67 ERA
-- Nick Gonzales (R) [MATCHUP EDGE: pitcher hits 0.273 avg-against vs this hand] -- L7: 5H 0HR 3RBI 5TB (0.192 avg) -- home split: 0.294 avg
-- Jared Triolo (R) [MATCHUP EDGE: pitcher hits 0.273 avg-against vs this hand] -- L7: 1H 0HR 1RBI 1TB (0.111 avg) -- home split: 0.245 avg
-- Bryan Reynolds (S) [MATCHUP EDGE: pitcher hits 0.273 avg-against vs this hand] -- L7: 7H 0HR 2RBI 7TB (0.25 avg) -- home split: 0.305 avg
-- Esmerlyn Valdez (R) [MATCHUP EDGE: pitcher hits 0.273 avg-against vs this hand] -- L7: 1H 0HR 2RBI 2TB (0.05 avg) -- home split: 0.29 avg
-- Brandon Lowe (L) -- L7: 8H 1HR 2RBI 12TB (0.286 avg) -- home split: 0.248 avg
-- Jake Mangum (S) [MATCHUP EDGE: pitcher hits 0.273 avg-against vs this hand] -- L7: 7H 1HR 3RBI 11TB (0.269 avg) -- home split: 0.326 avg
+- Nick Gonzales (R) [MATCHUP EDGE: pitcher hits 0.273 avg-against vs this hand] -- L7: 3H 0HR 1RBI 3TB (0.136 avg) -- home split: 0.294 avg
+- Jared Triolo (R) [MATCHUP EDGE: pitcher hits 0.273 avg-against vs this hand] -- L7: 1H 0HR 1RBI 1TB (0.125 avg) -- home split: 0.245 avg
+- Bryan Reynolds (S) [MATCHUP EDGE: pitcher hits 0.273 avg-against vs this hand] -- L7: 5H 0HR 2RBI 5TB (0.217 avg) -- home split: 0.305 avg
+- Esmerlyn Valdez (R) [MATCHUP EDGE: pitcher hits 0.273 avg-against vs this hand] -- L7: 0H 0HR 2RBI 0TB (0.0 avg) -- home split: 0.29 avg
+- Brandon Lowe (L) -- L7: 5H 1HR 1RBI 8TB (0.217 avg) -- home split: 0.248 avg
+- Jake Mangum (S) [MATCHUP EDGE: pitcher hits 0.273 avg-against vs this hand] -- L7: 5H 0HR 1RBI 6TB (0.227 avg) -- home split: 0.326 avg
 - Jacob Gonzalez (L) -- L7: 3H 1HR 2RBI 7TB (0.176 avg) -- home split: 0.208 avg
 - Endy Rodríguez (S) [MATCHUP EDGE: pitcher hits 0.273 avg-against vs this hand] [4-game hit streak] -- L7: 8H 2HR 3RBI 14TB (0.308 avg) -- home split: 0.234 avg
 - Henry Davis (R) [MATCHUP EDGE: pitcher hits 0.273 avg-against vs this hand] -- L7: 3H 0HR 2RBI 3TB (0.15 avg) -- home split: 0.19 avg
@@ -1344,7 +1344,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 - Junior Caminero (R) [4-game hit streak] -- L7: 8H 4HR 6RBI 20TB (0.308 avg) -- away split: 0.27 avg
 - Chandler Simpson (L) [6-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 10H 0HR 3RBI 10TB (0.385 avg) -- away split: 0.309 avg
 - Yandy Díaz (R) -- L7: 8H 1HR 3RBI 13TB (0.286 avg) -- away split: 0.253 avg
-- Ben Williamson (R) -- L7: 4H 1HR 1RBI 7TB (0.222 avg) -- away split: 0.25 avg
+- Ben Williamson (R) [INJURY: IL] -- L7: 4H 1HR 1RBI 7TB (0.222 avg) -- away split: 0.25 avg
 - Jonathan Aranda (L) [4-game hit streak] -- L7: 9H 0HR 6RBI 11TB (0.29 avg) -- away split: 0.273 avg
 - Cedric Mullins (L) -- L7: 5H 1HR 2RBI 10TB (0.25 avg) -- away split: 0.203 avg
 - Taylor Walls (S) -- L7: 3H 0HR 2RBI 3TB (0.136 avg) -- away split: 0.212 avg
