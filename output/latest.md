@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-07T11:19:53.573199+00:00_
+_Generated 2026-08-07T11:28:27.206249+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -541,7 +541,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-08 - Los Angeles Angels @ Miami Marlins (Scheduled)
 _loanDepot park [pitcher-friendly park]_
 Projected score: Los Angeles Angels 3.41 - Miami Marlins 2.81
-Model likes: **Los Angeles Angels** to win (56%) | Run line: **Miami Marlins** +1.5 (63% to cover) | Total 5.5: lean **OVER** (53%)
+Model likes: **Los Angeles Angels** to win (57%) | Run line: **Miami Marlins** +1.5 (63% to cover) | Total 5.5: lean **OVER** (53%)
 
 ### Los Angeles Angels lineup -- PROJECTED (unconfirmed)
 **Probable P: Walbert Ureña (R)** -- L5: 27.7 IP, 26 K, 3 ER, 0.98 ERA
@@ -601,7 +601,7 @@ _Facing a taxed bullpen: 10.0 relief IP in last 2 days (ratio 1.89)_
 ## 2026-08-08 - Toronto Blue Jays @ Philadelphia Phillies (Scheduled)
 _Citizens Bank Park [hitter-friendly park]_
 Projected score: Toronto Blue Jays 4.33 - Philadelphia Phillies 6.37
-Model likes: **Philadelphia Phillies** to win (65%) | Run line: **Philadelphia Phillies** -1.5 (52% to cover) | Total 9.5: lean **OVER** (54%)
+Model likes: **Philadelphia Phillies** to win (64%) | Run line: **Philadelphia Phillies** -1.5 (52% to cover) | Total 9.5: lean **OVER** (54%)
 
 ### Toronto Blue Jays lineup -- PROJECTED (unconfirmed)
 **Probable P: Max Scherzer (R)** -- L5: 20.3 IP, 14 K, 16 ER, 7.08 ERA
@@ -661,7 +661,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.57)_
 ## 2026-08-08 - Cincinnati Reds @ Washington Nationals (Scheduled)
 _Nationals Park_
 Projected score: Cincinnati Reds 4.3 - Washington Nationals 3.43
-Model likes: **Cincinnati Reds** to win (58%) | Run line: **Washington Nationals** +1.5 (58% to cover) | Total 7.5: lean **UNDER** (53%)
+Model likes: **Cincinnati Reds** to win (58%) | Run line: **Washington Nationals** +1.5 (59% to cover) | Total 7.5: lean **UNDER** (53%)
 
 ### Cincinnati Reds lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.5)_
@@ -965,7 +965,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-09 - Cincinnati Reds @ Washington Nationals (Scheduled)
 _Nationals Park_
 Projected score: Cincinnati Reds 5.37 - Washington Nationals 5.03
-Model likes: **Cincinnati Reds** to win (52%) | Run line: **Washington Nationals** +1.5 (60% to cover) | Total 9.5: lean **OVER** (52%)
+Model likes: **Cincinnati Reds** to win (52%) | Run line: **Washington Nationals** +1.5 (61% to cover) | Total 9.5: lean **OVER** (52%)
 
 ### Cincinnati Reds lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1271,7 +1271,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-09 - Baltimore Orioles @ Texas Rangers (Scheduled)
 _Globe Life Field [hitter-friendly park]_
 Projected score: Baltimore Orioles 4.01 - Texas Rangers 4.0
-Model likes: **Baltimore Orioles** to win (50%) | Run line: **Texas Rangers** +1.5 (66% to cover) | Total 7.5: lean **UNDER** (50%)
+Model likes: **Baltimore Orioles** to win (50%) | Run line: **Texas Rangers** +1.5 (66% to cover) | Total 7.5: lean **UNDER** (51%)
 
 ### Baltimore Orioles lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1333,7 +1333,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-09 - Tampa Bay Rays @ Seattle Mariners (Scheduled)
 _T-Mobile Park [pitcher-friendly park]_
 Projected score: Tampa Bay Rays 3.39 - Seattle Mariners 3.38
-Model likes: **Seattle Mariners** to win (50%) | Run line: **Tampa Bay Rays** +1.5 (68% to cover) | Total 6.5: lean **UNDER** (53%)
+Model likes: **Tampa Bay Rays** to win (50%) | Run line: **Seattle Mariners** +1.5 (68% to cover) | Total 6.5: lean **UNDER** (53%)
 
 ### Tampa Bay Rays lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
