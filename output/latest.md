@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-07T13:41:40.007769+00:00_
+_Generated 2026-08-07T13:43:05.668797+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -601,7 +601,7 @@ _Facing a taxed bullpen: 10.0 relief IP in last 2 days (ratio 1.89)_
 ## 2026-08-08 - Toronto Blue Jays @ Philadelphia Phillies (Scheduled)
 _Citizens Bank Park [hitter-friendly park]_
 Projected score: Toronto Blue Jays 4.33 - Philadelphia Phillies 6.37
-Model likes: **Philadelphia Phillies** to win (65%) | Run line: **Philadelphia Phillies** -1.5 (52% to cover) | Total 9.5: lean **OVER** (54%)
+Model likes: **Philadelphia Phillies** to win (64%) | Run line: **Philadelphia Phillies** -1.5 (52% to cover) | Total 9.5: lean **OVER** (54%)
 
 ### Toronto Blue Jays lineup -- PROJECTED (unconfirmed)
 **Probable P: Max Scherzer (R)** -- L5: 20.3 IP, 14 K, 16 ER, 7.08 ERA
@@ -844,7 +844,7 @@ _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.42)_
 ## 2026-08-08 - Houston Astros @ San Diego Padres (Scheduled)
 _Petco Park [pitcher-friendly park]_
 Projected score: Houston Astros 3.78 - San Diego Padres 2.74
-Model likes: **Houston Astros** to win (61%) | Run line: **San Diego Padres** +1.5 (58% to cover) | Total 6.5: lean **UNDER** (56%)
+Model likes: **Houston Astros** to win (61%) | Run line: **San Diego Padres** +1.5 (58% to cover) | Total 6.5: lean **UNDER** (55%)
 
 ### Houston Astros lineup -- PROJECTED (unconfirmed)
 **Probable P: Peter Lambert (R)** -- L5: 28.7 IP, 34 K, 8 ER, 2.51 ERA
@@ -965,7 +965,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-09 - Cincinnati Reds @ Washington Nationals (Scheduled)
 _Nationals Park_
 Projected score: Cincinnati Reds 5.37 - Washington Nationals 5.03
-Model likes: **Cincinnati Reds** to win (52%) | Run line: **Washington Nationals** +1.5 (61% to cover) | Total 9.5: lean **OVER** (52%)
+Model likes: **Cincinnati Reds** to win (53%) | Run line: **Washington Nationals** +1.5 (60% to cover) | Total 9.5: lean **OVER** (52%)
 
 ### Cincinnati Reds lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1271,7 +1271,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-09 - Baltimore Orioles @ Texas Rangers (Scheduled)
 _Globe Life Field [hitter-friendly park]_
 Projected score: Baltimore Orioles 4.01 - Texas Rangers 4.0
-Model likes: **Baltimore Orioles** to win (50%) | Run line: **Texas Rangers** +1.5 (66% to cover) | Total 7.5: lean **UNDER** (51%)
+Model likes: **Baltimore Orioles** to win (50%) | Run line: **Texas Rangers** +1.5 (66% to cover) | Total 7.5: lean **UNDER** (50%)
 
 ### Baltimore Orioles lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1333,7 +1333,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-09 - Tampa Bay Rays @ Seattle Mariners (Scheduled)
 _T-Mobile Park [pitcher-friendly park]_
 Projected score: Tampa Bay Rays 3.39 - Seattle Mariners 3.38
-Model likes: **Seattle Mariners** to win (50%) | Run line: **Tampa Bay Rays** +1.5 (68% to cover) | Total 6.5: lean **UNDER** (53%)
+Model likes: **Tampa Bay Rays** to win (50%) | Run line: **Seattle Mariners** +1.5 (68% to cover) | Total 6.5: lean **UNDER** (52%)
 
 ### Tampa Bay Rays lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1394,7 +1394,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-09 - Houston Astros @ San Diego Padres (Scheduled)
 _Petco Park [pitcher-friendly park]_
 Projected score: Houston Astros 4.23 - San Diego Padres 4.36
-Model likes: **San Diego Padres** to win (51%) | Run line: **Houston Astros** +1.5 (64% to cover) | Total 7.5: lean **OVER** (55%)
+Model likes: **San Diego Padres** to win (51%) | Run line: **Houston Astros** +1.5 (64% to cover) | Total 8.5: lean **UNDER** (55%)
 
 ### Houston Astros lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
