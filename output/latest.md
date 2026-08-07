@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-07T21:11:55.235849+00:00_
+_Generated 2026-08-07T21:39:08.573666+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -304,20 +304,20 @@ _Facing a taxed bullpen: 8.0 relief IP in last 2 days (ratio 1.62)_
 
 ## 2026-08-07 - Chicago Cubs @ Kansas City Royals (Pre-Game)
 _Kauffman Stadium [pitcher-friendly park]_
-Projected score: Chicago Cubs 4.48 - Kansas City Royals 3.88
-Model likes: **Chicago Cubs** to win (55%) | Run line: **Kansas City Royals** +1.5 (60% to cover) | Total 7.5: lean **OVER** (53%)
+Projected score: Chicago Cubs 4.57 - Kansas City Royals 3.88
+Model likes: **Chicago Cubs** to win (56%) | Run line: **Kansas City Royals** +1.5 (59% to cover) | Total 7.5: lean **OVER** (53%)
 
-### Chicago Cubs lineup -- PROJECTED (unconfirmed)
+### Chicago Cubs lineup -- CONFIRMED
 **Probable P: Kevin Gausman (R)** -- L5: 26.3 IP, 27 K, 15 ER, 5.13 ERA
-- Pete Crow-Armstrong (L) [4-game hit streak] -- L7: 9H 2HR 6RBI 18TB (0.346 avg) -- away split: 0.268 avg
-- Michael Busch (L) -- L7: 6H 1HR 5RBI 10TB (0.214 avg) -- away split: 0.219 avg
-- Ian Happ (S) -- L7: 1H 0HR 0RBI 1TB (0.053 avg) -- away split: 0.202 avg
-- Nico Hoerner (R) -- L7: 8H 2HR 4RBI 15TB (0.308 avg) -- away split: 0.254 avg
-- Seiya Suzuki (R) -- L7: 6H 1HR 4RBI 11TB (0.24 avg) -- away split: 0.259 avg
-- Dansby Swanson (R) -- L7: 6H 1HR 2RBI 11TB (0.24 avg) -- away split: 0.215 avg
-- Alex Bregman (R) [4-game hit streak] -- L7: 7H 1HR 3RBI 12TB (0.25 avg) -- away split: 0.281 avg
-- Pedro Ramírez (S) -- L7: 3H 0HR 0RBI 3TB (0.176 avg) -- away split: 0.298 avg
-- Carson Kelly (R) -- L7: 6H 1HR 3RBI 9TB (0.333 avg) -- away split: 0.235 avg
+- #1 Pete Crow-Armstrong (L) [4-game hit streak] -- L7: 9H 2HR 6RBI 18TB (0.346 avg) -- away split: 0.268 avg
+- #2 Seiya Suzuki (R) -- L7: 6H 1HR 4RBI 11TB (0.24 avg) -- away split: 0.259 avg
+- #3 Alex Bregman (R) [4-game hit streak] -- L7: 7H 1HR 3RBI 12TB (0.25 avg) -- away split: 0.281 avg
+- #4 Michael Busch (L) -- L7: 6H 1HR 5RBI 10TB (0.214 avg) -- away split: 0.219 avg
+- #5 Nico Hoerner (R) -- L7: 8H 2HR 4RBI 15TB (0.308 avg) -- away split: 0.254 avg
+- #6 Ian Happ (S) -- L7: 1H 0HR 0RBI 1TB (0.053 avg) -- away split: 0.202 avg
+- #7 Carson Kelly (R) -- L7: 6H 1HR 3RBI 9TB (0.333 avg) -- away split: 0.235 avg
+- #8 Pedro Ramírez (S) -- L7: 3H 0HR 0RBI 3TB (0.176 avg) -- away split: 0.298 avg
+- #9 Dansby Swanson (R) -- L7: 6H 1HR 2RBI 11TB (0.24 avg) -- away split: 0.215 avg
 
 ### Kansas City Royals lineup -- CONFIRMED
 _Facing a taxed bullpen: 10.0 relief IP in last 2 days (ratio 2.53)_
@@ -423,8 +423,8 @@ _Facing a taxed bullpen: 9.7 relief IP in last 2 days (ratio 1.51)_
 
 ## 2026-08-07 - Los Angeles Dodgers @ Arizona Diamondbacks (Pre-Game)
 _Chase Field [hitter-friendly park]_
-Projected score: Los Angeles Dodgers 5.54 - Arizona Diamondbacks 4.75
-Model likes: **Los Angeles Dodgers** to win (56%) | Run line: **Arizona Diamondbacks** +1.5 (57% to cover) | Total 9.5: lean **OVER** (51%)
+Projected score: Los Angeles Dodgers 5.54 - Arizona Diamondbacks 4.9
+Model likes: **Los Angeles Dodgers** to win (55%) | Run line: **Arizona Diamondbacks** +1.5 (58% to cover) | Total 9.5: lean **OVER** (52%)
 
 ### Los Angeles Dodgers lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 7.3 relief IP in last 2 days (ratio 1.4)_
@@ -439,17 +439,17 @@ _Facing a taxed bullpen: 7.3 relief IP in last 2 days (ratio 1.4)_
 - Max Muncy (L) [MATCHUP EDGE: pitcher hits 0.279 avg-against vs this hand] -- L7: 5H 1HR 3RBI 8TB (0.208 avg) -- away split: 0.272 avg -- news: 10 questions with Dodgers vet Max Muncy
 - Alex Call (R) -- L7: 1H 0HR 0RBI 2TB (0.125 avg) -- away split: 0.273 avg
 
-### Arizona Diamondbacks lineup -- PROJECTED (unconfirmed)
+### Arizona Diamondbacks lineup -- CONFIRMED
 **Probable P: Merrill Kelly (R)** -- L5: 27.7 IP, 23 K, 9 ER, 2.93 ERA
-- Tim Tawa (R) -- L7: 8H 2HR 5RBI 14TB (0.308 avg) -- home split: 0.264 avg
-- Corbin Carroll (L) -- L7: 5H 1HR 4RBI 9TB (0.185 avg) -- home split: 0.266 avg
-- Geraldo Perdomo (S) [likely BABIP-driven, not a real power uptick] -- L7: 12H 1HR 4RBI 15TB (0.414 avg) -- home split: 0.226 avg
-- Nolan Arenado (R) -- L7: 4H 2HR 3RBI 10TB (0.16 avg) -- home split: 0.27 avg
-- Gabriel Moreno (R) -- L7: 6H 1HR 9RBI 10TB (0.214 avg) -- home split: 0.27 avg
-- Ketel Marte (S) -- L7: 4H 0HR 1RBI 5TB (0.16 avg) -- home split: 0.276 avg
-- Max Kepler (L) -- L7: 4H 0HR 1RBI 5TB (0.174 avg) -- home split: 0.211 avg
-- Ildemaro Vargas (S) -- L7: 6H 0HR 6RBI 11TB (0.3 avg) -- home split: 0.265 avg
-- Ryan Waldschmidt (R) [likely BABIP-driven, not a real power uptick] -- L7: 10H 0HR 0RBI 11TB (0.435 avg) -- home split: 0.358 avg
+- #1 Geraldo Perdomo (S) [likely BABIP-driven, not a real power uptick] -- L7: 12H 1HR 4RBI 15TB (0.414 avg) -- home split: 0.226 avg
+- #2 Corbin Carroll (L) -- L7: 5H 1HR 4RBI 9TB (0.185 avg) -- home split: 0.266 avg
+- #3 Gabriel Moreno (R) -- L7: 6H 1HR 9RBI 10TB (0.214 avg) -- home split: 0.27 avg
+- #4 Ketel Marte (S) -- L7: 4H 0HR 1RBI 5TB (0.16 avg) -- home split: 0.276 avg
+- #5 Lars Nootbaar (L) -- L7: 4H 0HR 2RBI 5TB (0.148 avg) -- home split: 0.264 avg
+- #6 Nolan Arenado (R) -- L7: 4H 2HR 3RBI 10TB (0.16 avg) -- home split: 0.27 avg
+- #7 Max Kepler (L) -- L7: 4H 0HR 1RBI 5TB (0.174 avg) -- home split: 0.211 avg
+- #8 Tim Tawa (R) -- L7: 8H 2HR 5RBI 14TB (0.308 avg) -- home split: 0.264 avg
+- #9 Ryan Waldschmidt (R) [likely BABIP-driven, not a real power uptick] -- L7: 10H 0HR 0RBI 11TB (0.435 avg) -- home split: 0.358 avg
 
 ## 2026-08-07 - Tampa Bay Rays @ Seattle Mariners (Scheduled)
 _T-Mobile Park [pitcher-friendly park]_
@@ -544,7 +544,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-08 - Los Angeles Angels @ Miami Marlins (Scheduled)
 _loanDepot park [pitcher-friendly park]_
 Projected score: Los Angeles Angels 3.41 - Miami Marlins 2.81
-Model likes: **Los Angeles Angels** to win (57%) | Run line: **Miami Marlins** +1.5 (63% to cover) | Total 5.5: lean **OVER** (53%)
+Model likes: **Los Angeles Angels** to win (56%) | Run line: **Miami Marlins** +1.5 (63% to cover) | Total 5.5: lean **OVER** (53%)
 
 ### Los Angeles Angels lineup -- PROJECTED (unconfirmed)
 **Probable P: Walbert Ureña (R)** -- L5: 27.7 IP, 26 K, 3 ER, 0.98 ERA
@@ -937,7 +937,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-08 - Tampa Bay Rays @ Seattle Mariners (Scheduled)
 _T-Mobile Park [pitcher-friendly park]_
 Projected score: Tampa Bay Rays 3.63 - Seattle Mariners 2.83
-Model likes: **Tampa Bay Rays** to win (59%) | Run line: **Seattle Mariners** +1.5 (60% to cover) | Total 5.5: lean **OVER** (55%)
+Model likes: **Tampa Bay Rays** to win (58%) | Run line: **Seattle Mariners** +1.5 (60% to cover) | Total 5.5: lean **OVER** (55%)
 
 ### Tampa Bay Rays lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.66)_
@@ -968,7 +968,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-09 - Cincinnati Reds @ Washington Nationals (Scheduled)
 _Nationals Park_
 Projected score: Cincinnati Reds 5.37 - Washington Nationals 5.03
-Model likes: **Cincinnati Reds** to win (53%) | Run line: **Washington Nationals** +1.5 (60% to cover) | Total 9.5: lean **OVER** (52%)
+Model likes: **Cincinnati Reds** to win (52%) | Run line: **Washington Nationals** +1.5 (60% to cover) | Total 9.5: lean **OVER** (52%)
 
 ### Cincinnati Reds lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1059,7 +1059,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-09 - Atlanta Braves @ New York Yankees (Scheduled)
 _Yankee Stadium [hitter-friendly park]_
 Projected score: Atlanta Braves 2.77 - New York Yankees 3.6
-Model likes: **New York Yankees** to win (59%) | Run line: **Atlanta Braves** +1.5 (60% to cover) | Total 5.5: lean **OVER** (54%)
+Model likes: **New York Yankees** to win (59%) | Run line: **Atlanta Braves** +1.5 (60% to cover) | Total 5.5: lean **OVER** (55%)
 
 ### Atlanta Braves lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
