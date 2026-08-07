@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-07T17:23:36.620384+00:00_
+_Generated 2026-08-07T17:36:47.495766+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -633,7 +633,7 @@ _Facing a rested bullpen: 3.3 relief IP in last 2 days (ratio 0.53)_
 ## 2026-08-08 - New York Mets @ Pittsburgh Pirates (Scheduled)
 _PNC Park_
 Projected score: New York Mets 3.87 - Pittsburgh Pirates 4.49
-Model likes: **Pittsburgh Pirates** to win (55%) | Run line: **New York Mets** +1.5 (60% to cover) | Total 7.5: lean **OVER** (52%)
+Model likes: **Pittsburgh Pirates** to win (55%) | Run line: **New York Mets** +1.5 (60% to cover) | Total 7.5: lean **OVER** (53%)
 
 ### New York Mets lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.57)_
@@ -724,7 +724,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.51)_
 ## 2026-08-08 - Chicago Cubs @ Kansas City Royals (Scheduled)
 _Kauffman Stadium [pitcher-friendly park]_
 Projected score: Chicago Cubs 4.84 - Kansas City Royals 3.52
-Model likes: **Chicago Cubs** to win (62%) | Run line: **Kansas City Royals** +1.5 (54% to cover) | Total 7.5: lean **OVER** (52%)
+Model likes: **Chicago Cubs** to win (62%) | Run line: **Kansas City Royals** +1.5 (54% to cover) | Total 7.5: lean **OVER** (53%)
 
 ### Chicago Cubs lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.3 relief IP in last 2 days (ratio 0.68)_
@@ -936,7 +936,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-08 - Tampa Bay Rays @ Seattle Mariners (Scheduled)
 _T-Mobile Park [pitcher-friendly park]_
 Projected score: Tampa Bay Rays 3.63 - Seattle Mariners 2.83
-Model likes: **Tampa Bay Rays** to win (58%) | Run line: **Seattle Mariners** +1.5 (60% to cover) | Total 5.5: lean **OVER** (56%)
+Model likes: **Tampa Bay Rays** to win (58%) | Run line: **Seattle Mariners** +1.5 (60% to cover) | Total 5.5: lean **OVER** (55%)
 
 ### Tampa Bay Rays lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.66)_
@@ -967,7 +967,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-09 - Cincinnati Reds @ Washington Nationals (Scheduled)
 _Nationals Park_
 Projected score: Cincinnati Reds 5.37 - Washington Nationals 5.03
-Model likes: **Cincinnati Reds** to win (53%) | Run line: **Washington Nationals** +1.5 (60% to cover) | Total 9.5: lean **OVER** (52%)
+Model likes: **Cincinnati Reds** to win (52%) | Run line: **Washington Nationals** +1.5 (60% to cover) | Total 9.5: lean **OVER** (52%)
 
 ### Cincinnati Reds lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1058,7 +1058,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-09 - Atlanta Braves @ New York Yankees (Scheduled)
 _Yankee Stadium [hitter-friendly park]_
 Projected score: Atlanta Braves 2.77 - New York Yankees 3.6
-Model likes: **New York Yankees** to win (59%) | Run line: **Atlanta Braves** +1.5 (60% to cover) | Total 5.5: lean **OVER** (54%)
+Model likes: **New York Yankees** to win (59%) | Run line: **Atlanta Braves** +1.5 (60% to cover) | Total 5.5: lean **OVER** (55%)
 
 ### Atlanta Braves lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1304,7 +1304,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-09 - Detroit Tigers @ San Francisco Giants (Scheduled)
 _Oracle Park [pitcher-friendly park]_
 Projected score: Detroit Tigers 3.86 - San Francisco Giants 2.2
-Model likes: **Detroit Tigers** to win (68%) | Run line: **San Francisco Giants** +1.5 (52% to cover) | Total 5.5: lean **OVER** (51%)
+Model likes: **Detroit Tigers** to win (68%) | Run line: **San Francisco Giants** +1.5 (51% to cover) | Total 5.5: lean **OVER** (51%)
 
 ### Detroit Tigers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
