@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-08T21:58:22.896454+00:00_
+_Generated 2026-08-08T22:27:36.850211+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -56,10 +56,9 @@ _Generated 2026-08-08T21:58:22.896454+00:00_
 - **Brandon Pfaadt** (Arizona Diamondbacks vs Los Angeles Dodgers): allowing fewer runs than usual over his last few starts -- try Strikeouts: 40% under 2.5 recently (vs. 5-game sample)
 - **Yoshinobu Yamamoto** (Los Angeles Dodgers vs Arizona Diamondbacks): 5 hitters in tonight's lineup are in a tough matchup against him -- try Strikeouts: 60% under 6.5 recently (vs. 5-game sample)
 
-## 2026-08-08 - Atlanta Braves @ New York Yankees (In Progress)
+## 2026-08-08 - Atlanta Braves @ New York Yankees (Final)
 _Yankee Stadium [hitter-friendly park]_
-Projected score: Atlanta Braves 3.55 - New York Yankees 2.76
-Model likes: **Atlanta Braves** to win (58%) | Run line: **New York Yankees** +1.5 (61% to cover) | Total 5.5: lean **OVER** (54%)
+Final: Atlanta Braves 4 - New York Yankees 5
 
 ### Atlanta Braves lineup -- CONFIRMED
 _Facing a rested bullpen: 3.7 relief IP in last 2 days (ratio 0.65)_
@@ -149,7 +148,7 @@ _Facing a taxed bullpen: 7.7 relief IP in last 2 days (ratio 1.64)_
 - #8 Jarren Duran (L) -- L7: 9H 3HR 6RBI 19TB (0.333 avg) -- home split: 0.229 avg
 - #9 Connor Wong (R) [MATCHUP EDGE: pitcher hits 0.264 avg-against vs this hand] -- L7: 2H 1HR 2RBI 6TB (0.111 avg) -- home split: 0.209 avg
 
-## 2026-08-08 - Toronto Blue Jays @ Philadelphia Phillies (Warmup)
+## 2026-08-08 - Toronto Blue Jays @ Philadelphia Phillies (In Progress)
 _Citizens Bank Park [hitter-friendly park]_
 Projected score: Toronto Blue Jays 4.47 - Philadelphia Phillies 5.95
 Model likes: **Philadelphia Phillies** to win (61%) | Run line: **Toronto Blue Jays** +1.5 (52% to cover) | Total 9.5: lean **OVER** (52%)
@@ -180,7 +179,7 @@ _Facing a taxed bullpen: 7.7 relief IP in last 2 days (ratio 1.22)_
 - #8 Bryan De La Cruz (R) [TOUGH MATCHUP: pitcher holds this hand to 0.2 avg-against] -- L7: 4H 1HR 5RBI 8TB (0.308 avg) -- home split: 0.5 avg
 - #9 Garrett Stubbs (L) [MATCHUP EDGE: pitcher hits 0.333 avg-against vs this hand] -- L7: 1H 0HR 1RBI 1TB (0.1 avg) -- home split: 0.0 avg
 
-## 2026-08-08 - New York Mets @ Pittsburgh Pirates (Pre-Game)
+## 2026-08-08 - New York Mets @ Pittsburgh Pirates (Warmup)
 _PNC Park_
 Projected score: New York Mets 4.33 - Pittsburgh Pirates 4.43
 Model likes: **Pittsburgh Pirates** to win (51%) | Run line: **New York Mets** +1.5 (64% to cover) | Total 8.5: lean **UNDER** (53%)
@@ -211,7 +210,7 @@ _Facing a taxed bullpen: 8.0 relief IP in last 2 days (ratio 1.42)_
 - #8 Jacob Gonzalez (L) -- L7: 4H 1HR 2RBI 8TB (0.235 avg) -- home split: 0.222 avg
 - #9 Henry Davis (R) [TOUGH MATCHUP: pitcher holds this hand to 0.0 avg-against] -- L7: 3H 0HR 2RBI 3TB (0.15 avg) -- home split: 0.19 avg
 
-## 2026-08-08 - Cincinnati Reds @ Washington Nationals (Pre-Game)
+## 2026-08-08 - Cincinnati Reds @ Washington Nationals (Warmup)
 _Nationals Park_
 Projected score: Cincinnati Reds 4.08 - Washington Nationals 3.33
 Model likes: **Cincinnati Reds** to win (57%) | Run line: **Washington Nationals** +1.5 (60% to cover) | Total 6.5: lean **OVER** (54%)
@@ -574,7 +573,7 @@ Model likes: **Pittsburgh Pirates** to win (51%) | Run line: **New York Mets** +
 ## 2026-08-09 - Toronto Blue Jays @ Philadelphia Phillies (Scheduled)
 _Citizens Bank Park [hitter-friendly park]_
 Projected score: Toronto Blue Jays 3.4 - Philadelphia Phillies 4.95
-Model likes: **Philadelphia Phillies** to win (63%) | Run line: **Toronto Blue Jays** +1.5 (52% to cover) | Total 7.5: lean **OVER** (52%)
+Model likes: **Philadelphia Phillies** to win (64%) | Run line: **Toronto Blue Jays** +1.5 (52% to cover) | Total 7.5: lean **OVER** (52%)
 
 ### Toronto Blue Jays lineup -- PROJECTED (unconfirmed)
 **Probable P: Shane Bieber (R)** -- L5: 24.0 IP, 19 K, 8 ER, 3.0 ERA
@@ -633,7 +632,7 @@ Model likes: **New York Yankees** to win (60%) | Run line: **Atlanta Braves** +1
 ## 2026-08-09 - Athletics @ Boston Red Sox (Scheduled)
 _Fenway Park_
 Projected score: Athletics 3.12 - Boston Red Sox 5.15
-Model likes: **Boston Red Sox** to win (68%) | Run line: **Boston Red Sox** -1.5 (52% to cover) | Total 7.5: lean **OVER** (51%)
+Model likes: **Boston Red Sox** to win (68%) | Run line: **Boston Red Sox** -1.5 (52% to cover) | Total 7.5: lean **OVER** (52%)
 
 ### Athletics lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.57)_
@@ -936,7 +935,7 @@ _Facing a rested bullpen: 2.3 relief IP in last 2 days (ratio 0.47)_
 ## 2026-08-09 - Houston Astros @ San Diego Padres (Scheduled)
 _Petco Park [pitcher-friendly park]_
 Projected score: Houston Astros 4.21 - San Diego Padres 4.28
-Model likes: **San Diego Padres** to win (51%) | Run line: **Houston Astros** +1.5 (64% to cover) | Total 7.5: lean **OVER** (54%)
+Model likes: **San Diego Padres** to win (51%) | Run line: **Houston Astros** +1.5 (65% to cover) | Total 7.5: lean **OVER** (54%)
 
 ### Houston Astros lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 4.0 relief IP in last 2 days (ratio 0.62)_
@@ -1053,7 +1052,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-10 - Philadelphia Phillies @ St. Louis Cardinals (Scheduled)
 _Busch Stadium_
 Projected score: Philadelphia Phillies 3.7 - St. Louis Cardinals 3.25
-Model likes: **Philadelphia Phillies** to win (54%) | Run line: **St. Louis Cardinals** +1.5 (63% to cover) | Total 6.5: lean **UNDER** (51%)
+Model likes: **Philadelphia Phillies** to win (55%) | Run line: **St. Louis Cardinals** +1.5 (63% to cover) | Total 6.5: lean **UNDER** (51%)
 
 ### Philadelphia Phillies lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1083,7 +1082,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-10 - Texas Rangers @ Los Angeles Angels (Scheduled)
 _Angel Stadium_
 Projected score: Texas Rangers 3.84 - Los Angeles Angels 3.47
-Model likes: **Texas Rangers** to win (54%) | Run line: **Los Angeles Angels** +1.5 (64% to cover) | Total 6.5: lean **OVER** (53%)
+Model likes: **Texas Rangers** to win (54%) | Run line: **Los Angeles Angels** +1.5 (63% to cover) | Total 6.5: lean **OVER** (53%)
 
 ### Texas Rangers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.35)_
@@ -1112,7 +1111,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-10 - Milwaukee Brewers @ San Diego Padres (Scheduled)
 _Petco Park [pitcher-friendly park]_
 Projected score: Milwaukee Brewers 3.97 - San Diego Padres 3.7
-Model likes: **Milwaukee Brewers** to win (53%) | Run line: **San Diego Padres** +1.5 (64% to cover) | Total 7.5: lean **UNDER** (54%)
+Model likes: **Milwaukee Brewers** to win (52%) | Run line: **San Diego Padres** +1.5 (64% to cover) | Total 7.5: lean **UNDER** (54%)
 
 ### Milwaukee Brewers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1141,7 +1140,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-10 - Tampa Bay Rays @ Athletics (Scheduled)
 _Sutter Health Park_
 Projected score: Tampa Bay Rays 6.92 - Athletics 4.08
-Model likes: **Tampa Bay Rays** to win (70%) | Run line: **Tampa Bay Rays** -1.5 (58% to cover) | Total 10.5: lean **UNDER** (52%)
+Model likes: **Tampa Bay Rays** to win (70%) | Run line: **Tampa Bay Rays** -1.5 (57% to cover) | Total 10.5: lean **UNDER** (52%)
 
 ### Tampa Bay Rays lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1199,7 +1198,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-10 - Houston Astros @ San Francisco Giants (Scheduled)
 _Oracle Park [pitcher-friendly park]_
 Projected score: Houston Astros 4.39 - San Francisco Giants 4.17
-Model likes: **Houston Astros** to win (52%) | Run line: **San Francisco Giants** +1.5 (63% to cover) | Total 7.5: lean **OVER** (55%)
+Model likes: **Houston Astros** to win (52%) | Run line: **San Francisco Giants** +1.5 (63% to cover) | Total 7.5: lean **OVER** (54%)
 
 ### Houston Astros lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
