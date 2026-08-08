@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-08T02:29:26.394985+00:00_
+_Generated 2026-08-08T03:15:58.789934+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -89,7 +89,7 @@ _Facing a taxed bullpen: 9.0 relief IP in last 2 days (ratio 1.6)_
 ## 2026-08-07 - Toronto Blue Jays @ Philadelphia Phillies (In Progress)
 _Citizens Bank Park [hitter-friendly park]_
 Projected score: Toronto Blue Jays 2.9 - Philadelphia Phillies 4.12
-Model likes: **Philadelphia Phillies** to win (62%) | Run line: **Toronto Blue Jays** +1.5 (56% to cover) | Total 6.5: lean **OVER** (50%)
+Model likes: **Philadelphia Phillies** to win (62%) | Run line: **Toronto Blue Jays** +1.5 (56% to cover) | Total 6.5: lean **UNDER** (50%)
 
 ### Toronto Blue Jays lineup -- CONFIRMED
 _Facing a taxed bullpen: 11.0 relief IP in last 2 days (ratio 2.32)_
@@ -117,7 +117,7 @@ _Facing a taxed bullpen: 9.3 relief IP in last 2 days (ratio 1.49)_
 - #8 Bryson Stott (L) [4-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 7H 0HR 3RBI 10TB (0.368 avg) -- home split: 0.287 avg
 - #9 Justin Crawford (L) [likely BABIP-driven, not a real power uptick] -- L7: 7H 0HR 6RBI 8TB (0.368 avg) -- home split: 0.288 avg
 
-## 2026-08-07 - Cincinnati Reds @ Washington Nationals (Game Over)
+## 2026-08-07 - Cincinnati Reds @ Washington Nationals (Final)
 _Nationals Park_
 Final: Cincinnati Reds 3 - Washington Nationals 5
 
@@ -237,10 +237,9 @@ _Facing a taxed bullpen: 6.7 relief IP in last 2 days (ratio 1.45)_
 - #8 Anthony Seigler (S) -- L7: 3H 0HR 3RBI 4TB (0.15 avg) -- home split: 0.295 avg
 - #9 Jake Rogers (R) -- L7: 1H 0HR 1RBI 1TB (0.083 avg) -- home split: 0.244 avg -- news: Orioles get catcher Jake Rogers in trade with Tigers
 
-## 2026-08-07 - Minnesota Twins @ Milwaukee Brewers (In Progress)
+## 2026-08-07 - Minnesota Twins @ Milwaukee Brewers (Final)
 _American Family Field_
-Projected score: Minnesota Twins 3.29 - Milwaukee Brewers 5.27
-Model likes: **Milwaukee Brewers** to win (67%) | Run line: **Milwaukee Brewers** -1.5 (52% to cover) | Total 7.5: lean **OVER** (54%)
+Final: Minnesota Twins 8 - Milwaukee Brewers 6
 
 ### Minnesota Twins lineup -- CONFIRMED
 **Probable P: Zebby Matthews (R)** -- L5: 24.7 IP, 23 K, 21 ER, 7.66 ERA
@@ -297,10 +296,9 @@ _Facing a taxed bullpen: 8.0 relief IP in last 2 days (ratio 1.62)_
 - #8 Edgar Quero (S) [4-game hit streak] -- L7: 6H 0HR 1RBI 6TB (0.25 avg) -- home split: 0.241 avg
 - #9 Luisangel Acuña (R) -- L7: 3H 0HR 0RBI 3TB (0.214 avg) -- home split: 0.244 avg
 
-## 2026-08-07 - Chicago Cubs @ Kansas City Royals (In Progress)
+## 2026-08-07 - Chicago Cubs @ Kansas City Royals (Final)
 _Kauffman Stadium [pitcher-friendly park]_
-Projected score: Chicago Cubs 4.57 - Kansas City Royals 3.88
-Model likes: **Chicago Cubs** to win (56%) | Run line: **Kansas City Royals** +1.5 (59% to cover) | Total 7.5: lean **OVER** (53%)
+Final: Chicago Cubs 6 - Kansas City Royals 4
 
 ### Chicago Cubs lineup -- CONFIRMED
 **Probable P: Kevin Gausman (R)** -- L5: 26.3 IP, 27 K, 15 ER, 5.13 ERA
@@ -327,10 +325,9 @@ _Facing a taxed bullpen: 10.0 relief IP in last 2 days (ratio 2.53)_
 - #8 Starling Marte (R) -- L7: 3H 0HR 3RBI 4TB (0.2 avg) -- home split: 0.31 avg
 - #9 Tyler Tolbert (R) -- L7: 6H 1HR 1RBI 11TB (0.375 avg) -- home split: 0.292 avg
 
-## 2026-08-07 - Baltimore Orioles @ Texas Rangers (In Progress)
+## 2026-08-07 - Baltimore Orioles @ Texas Rangers (Final)
 _Globe Life Field [hitter-friendly park]_
-Projected score: Baltimore Orioles 4.37 - Texas Rangers 3.71
-Model likes: **Baltimore Orioles** to win (56%) | Run line: **Texas Rangers** +1.5 (60% to cover) | Total 7.5: lean **OVER** (50%)
+Final: Baltimore Orioles 1 - Texas Rangers 2
 
 ### Baltimore Orioles lineup -- CONFIRMED
 **Probable P: Shane Baz (R)** -- L5: 27.3 IP, 24 K, 8 ER, 2.63 ERA
@@ -357,10 +354,9 @@ _Facing a taxed bullpen: 7.7 relief IP in last 2 days (ratio 1.57)_
 - #8 Elias Díaz (R) -- L7: 3H 1HR 3RBI 8TB (0.2 avg) -- home split: 0.192 avg
 - #9 Nicky Lopez (L) [MATCHUP EDGE: pitcher hits 0.285 avg-against vs this hand] -- L7: 3H 0HR 1RBI 3TB (0.136 avg) -- home split: 0.326 avg
 
-## 2026-08-07 - Colorado Rockies @ St. Louis Cardinals (In Progress)
+## 2026-08-07 - Colorado Rockies @ St. Louis Cardinals (Final)
 _Busch Stadium_
-Projected score: Colorado Rockies 3.77 - St. Louis Cardinals 4.34
-Model likes: **St. Louis Cardinals** to win (55%) | Run line: **Colorado Rockies** +1.5 (61% to cover) | Total 7.5: lean **OVER** (50%)
+Final: Colorado Rockies 2 - St. Louis Cardinals 3
 
 ### Colorado Rockies lineup -- CONFIRMED
 **Probable P: Ryan Feltner (R)** -- L5: 23.7 IP, 22 K, 23 ER, 8.75 ERA
@@ -601,7 +597,7 @@ _Facing a taxed bullpen: 7.7 relief IP in last 2 days (ratio 1.66)_
 ## 2026-08-08 - Toronto Blue Jays @ Philadelphia Phillies (Scheduled)
 _Citizens Bank Park [hitter-friendly park]_
 Projected score: Toronto Blue Jays 4.33 - Philadelphia Phillies 6.37
-Model likes: **Philadelphia Phillies** to win (64%) | Run line: **Philadelphia Phillies** -1.5 (52% to cover) | Total 9.5: lean **OVER** (54%)
+Model likes: **Philadelphia Phillies** to win (65%) | Run line: **Philadelphia Phillies** -1.5 (52% to cover) | Total 9.5: lean **OVER** (54%)
 
 ### Toronto Blue Jays lineup -- PROJECTED (unconfirmed)
 **Probable P: Max Scherzer (R)** -- L5: 20.3 IP, 14 K, 16 ER, 7.08 ERA
@@ -631,7 +627,7 @@ _Facing a rested bullpen: 3.3 relief IP in last 2 days (ratio 0.53)_
 ## 2026-08-08 - New York Mets @ Pittsburgh Pirates (Scheduled)
 _PNC Park_
 Projected score: New York Mets 3.87 - Pittsburgh Pirates 4.49
-Model likes: **Pittsburgh Pirates** to win (55%) | Run line: **New York Mets** +1.5 (60% to cover) | Total 7.5: lean **OVER** (53%)
+Model likes: **Pittsburgh Pirates** to win (56%) | Run line: **New York Mets** +1.5 (60% to cover) | Total 7.5: lean **OVER** (53%)
 
 ### New York Mets lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 9.0 relief IP in last 2 days (ratio 1.71)_
@@ -722,7 +718,7 @@ _Facing a taxed bullpen: 5.3 relief IP in last 2 days (ratio 1.41)_
 ## 2026-08-08 - Chicago Cubs @ Kansas City Royals (Scheduled)
 _Kauffman Stadium [pitcher-friendly park]_
 Projected score: Chicago Cubs 4.79 - Kansas City Royals 3.45
-Model likes: **Chicago Cubs** to win (62%) | Run line: **Kansas City Royals** +1.5 (54% to cover) | Total 7.5: lean **OVER** (51%)
+Model likes: **Chicago Cubs** to win (62%) | Run line: **Kansas City Royals** +1.5 (54% to cover) | Total 7.5: lean **OVER** (52%)
 
 ### Chicago Cubs lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 8.7 relief IP in last 2 days (ratio 1.67)_
@@ -845,7 +841,7 @@ _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.42)_
 ## 2026-08-08 - Houston Astros @ San Diego Padres (Scheduled)
 _Petco Park [pitcher-friendly park]_
 Projected score: Houston Astros 3.78 - San Diego Padres 2.74
-Model likes: **Houston Astros** to win (61%) | Run line: **San Diego Padres** +1.5 (58% to cover) | Total 6.5: lean **UNDER** (55%)
+Model likes: **Houston Astros** to win (61%) | Run line: **San Diego Padres** +1.5 (58% to cover) | Total 6.5: lean **UNDER** (56%)
 
 ### Houston Astros lineup -- PROJECTED (unconfirmed)
 **Probable P: Peter Lambert (R)** -- L5: 28.7 IP, 34 K, 8 ER, 2.51 ERA
@@ -905,7 +901,7 @@ _Facing a taxed bullpen: 17.0 relief IP in last 2 days (ratio 2.58)_
 ## 2026-08-08 - Los Angeles Dodgers @ Arizona Diamondbacks (Scheduled)
 _Chase Field [hitter-friendly park]_
 Projected score: Los Angeles Dodgers 4.69 - Arizona Diamondbacks 3.5
-Model likes: **Los Angeles Dodgers** to win (60%) | Run line: **Arizona Diamondbacks** +1.5 (55% to cover) | Total 7.5: lean **OVER** (51%)
+Model likes: **Los Angeles Dodgers** to win (61%) | Run line: **Arizona Diamondbacks** +1.5 (55% to cover) | Total 7.5: lean **OVER** (51%)
 
 ### Los Angeles Dodgers lineup -- PROJECTED (unconfirmed)
 **Probable P: Yoshinobu Yamamoto (R)** -- L5: 36.0 IP, 31 K, 12 ER, 3.0 ERA
@@ -1236,7 +1232,7 @@ _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.41)_
 ## 2026-08-09 - Colorado Rockies @ St. Louis Cardinals (Scheduled)
 _Busch Stadium_
 Projected score: Colorado Rockies 3.9 - St. Louis Cardinals 4.83
-Model likes: **St. Louis Cardinals** to win (58%) | Run line: **Colorado Rockies** +1.5 (57% to cover) | Total 8.5: lean **UNDER** (54%)
+Model likes: **St. Louis Cardinals** to win (58%) | Run line: **Colorado Rockies** +1.5 (57% to cover) | Total 8.5: lean **UNDER** (53%)
 
 ### Colorado Rockies lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.4)_
