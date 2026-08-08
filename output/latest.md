@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-07T23:59:54.868973+00:00_
+_Generated 2026-08-08T00:03:14.192413+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -57,7 +57,7 @@ _Generated 2026-08-07T23:59:54.868973+00:00_
 - **Shane Baz** (Baltimore Orioles vs Texas Rangers): allowing fewer runs than usual over his last few starts -- try Runs Allowed: 80% under 2.5 recently (vs. 5-game sample)
 - **Kyle Leahy** (St. Louis Cardinals vs Colorado Rockies): allowing fewer runs than usual over his last few starts -- try Hits Allowed: 60% under 4.5 recently (vs. 5-game sample)
 
-## 2026-08-07 - New York Mets @ Pittsburgh Pirates (In Progress)
+## 2026-08-07 - New York Mets @ Pittsburgh Pirates (Manager challenge)
 _PNC Park_
 Projected score: New York Mets 3.48 - Pittsburgh Pirates 3.2
 Model likes: **New York Mets** to win (53%) | Run line: **Pittsburgh Pirates** +1.5 (65% to cover) | Total 6.5: lean **UNDER** (54%)
@@ -90,7 +90,7 @@ _Facing a taxed bullpen: 9.0 relief IP in last 2 days (ratio 1.6)_
 ## 2026-08-07 - Toronto Blue Jays @ Philadelphia Phillies (Delayed Start)
 _Citizens Bank Park [hitter-friendly park]_
 Projected score: Toronto Blue Jays 2.9 - Philadelphia Phillies 4.12
-Model likes: **Philadelphia Phillies** to win (62%) | Run line: **Toronto Blue Jays** +1.5 (56% to cover) | Total 6.5: lean **UNDER** (50%)
+Model likes: **Philadelphia Phillies** to win (62%) | Run line: **Toronto Blue Jays** +1.5 (56% to cover) | Total 6.5: lean **OVER** (50%)
 
 ### Toronto Blue Jays lineup -- CONFIRMED
 _Facing a taxed bullpen: 11.0 relief IP in last 2 days (ratio 2.32)_
@@ -305,7 +305,7 @@ _Facing a taxed bullpen: 8.0 relief IP in last 2 days (ratio 1.62)_
 ## 2026-08-07 - Chicago Cubs @ Kansas City Royals (Warmup)
 _Kauffman Stadium [pitcher-friendly park]_
 Projected score: Chicago Cubs 4.57 - Kansas City Royals 3.88
-Model likes: **Chicago Cubs** to win (56%) | Run line: **Kansas City Royals** +1.5 (59% to cover) | Total 7.5: lean **OVER** (53%)
+Model likes: **Chicago Cubs** to win (56%) | Run line: **Kansas City Royals** +1.5 (60% to cover) | Total 7.5: lean **OVER** (53%)
 
 ### Chicago Cubs lineup -- CONFIRMED
 **Probable P: Kevin Gausman (R)** -- L5: 26.3 IP, 27 K, 15 ER, 5.13 ERA
@@ -969,7 +969,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-09 - Cincinnati Reds @ Washington Nationals (Scheduled)
 _Nationals Park_
 Projected score: Cincinnati Reds 5.37 - Washington Nationals 5.03
-Model likes: **Cincinnati Reds** to win (53%) | Run line: **Washington Nationals** +1.5 (60% to cover) | Total 9.5: lean **OVER** (52%)
+Model likes: **Cincinnati Reds** to win (52%) | Run line: **Washington Nationals** +1.5 (60% to cover) | Total 9.5: lean **OVER** (52%)
 
 ### Cincinnati Reds lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
