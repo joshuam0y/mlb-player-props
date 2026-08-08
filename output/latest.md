@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-08T05:17:27.785033+00:00_
+_Generated 2026-08-08T06:00:01.756402+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -91,7 +91,7 @@ _Facing a taxed bullpen: 9.7 relief IP in last 2 days (ratio 1.84)_
 ## 2026-08-08 - Los Angeles Angels @ Miami Marlins (Scheduled)
 _loanDepot park [pitcher-friendly park]_
 Projected score: Los Angeles Angels 3.39 - Miami Marlins 2.88
-Model likes: **Los Angeles Angels** to win (55%) | Run line: **Miami Marlins** +1.5 (64% to cover) | Total 5.5: lean **OVER** (53%)
+Model likes: **Los Angeles Angels** to win (55%) | Run line: **Miami Marlins** +1.5 (64% to cover) | Total 5.5: lean **OVER** (54%)
 
 ### Los Angeles Angels lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 9.7 relief IP in last 2 days (ratio 1.87)_
@@ -275,7 +275,7 @@ _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.84)_
 ## 2026-08-08 - Chicago Cubs @ Kansas City Royals (Scheduled)
 _Kauffman Stadium [pitcher-friendly park]_
 Projected score: Chicago Cubs 5.22 - Kansas City Royals 3.45
-Model likes: **Chicago Cubs** to win (65%) | Run line: **Kansas City Royals** +1.5 (50% to cover) | Total 8.5: lean **UNDER** (54%)
+Model likes: **Chicago Cubs** to win (65%) | Run line: **Chicago Cubs** -1.5 (50% to cover) | Total 8.5: lean **UNDER** (54%)
 
 ### Chicago Cubs lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 10.7 relief IP in last 2 days (ratio 2.04)_
@@ -939,7 +939,7 @@ _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.4)_
 ## 2026-08-09 - Houston Astros @ San Diego Padres (Scheduled)
 _Petco Park [pitcher-friendly park]_
 Projected score: Houston Astros 4.23 - San Diego Padres 4.36
-Model likes: **San Diego Padres** to win (51%) | Run line: **Houston Astros** +1.5 (64% to cover) | Total 8.5: lean **UNDER** (55%)
+Model likes: **San Diego Padres** to win (51%) | Run line: **Houston Astros** +1.5 (64% to cover) | Total 7.5: lean **OVER** (55%)
 
 ### Houston Astros lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 4.0 relief IP in last 2 days (ratio 0.62)_
@@ -968,7 +968,7 @@ _Facing a rested bullpen: 3.3 relief IP in last 2 days (ratio 0.61)_
 ## 2026-08-10 - Boston Red Sox @ Toronto Blue Jays (Scheduled)
 _Rogers Centre_
 Projected score: Boston Red Sox 4.95 - Toronto Blue Jays 2.79
-Model likes: **Boston Red Sox** to win (70%) | Run line: **Boston Red Sox** -1.5 (53% to cover) | Total 7.5: lean **UNDER** (53%)
+Model likes: **Boston Red Sox** to win (70%) | Run line: **Boston Red Sox** -1.5 (54% to cover) | Total 7.5: lean **UNDER** (53%)
 
 ### Boston Red Sox lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1056,7 +1056,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-10 - Philadelphia Phillies @ St. Louis Cardinals (Scheduled)
 _Busch Stadium_
 Projected score: Philadelphia Phillies 3.7 - St. Louis Cardinals 3.25
-Model likes: **Philadelphia Phillies** to win (55%) | Run line: **St. Louis Cardinals** +1.5 (63% to cover) | Total 6.5: lean **UNDER** (51%)
+Model likes: **Philadelphia Phillies** to win (54%) | Run line: **St. Louis Cardinals** +1.5 (63% to cover) | Total 6.5: lean **UNDER** (51%)
 
 ### Philadelphia Phillies lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1086,7 +1086,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-10 - Texas Rangers @ Los Angeles Angels (Scheduled)
 _Angel Stadium_
 Projected score: Texas Rangers 3.84 - Los Angeles Angels 3.47
-Model likes: **Texas Rangers** to win (54%) | Run line: **Los Angeles Angels** +1.5 (63% to cover) | Total 6.5: lean **OVER** (53%)
+Model likes: **Texas Rangers** to win (54%) | Run line: **Los Angeles Angels** +1.5 (64% to cover) | Total 6.5: lean **OVER** (53%)
 
 ### Texas Rangers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1202,7 +1202,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-10 - Houston Astros @ San Francisco Giants (Scheduled)
 _Oracle Park [pitcher-friendly park]_
 Projected score: Houston Astros 4.44 - San Francisco Giants 4.14
-Model likes: **Houston Astros** to win (52%) | Run line: **San Francisco Giants** +1.5 (63% to cover) | Total 7.5: lean **OVER** (55%)
+Model likes: **Houston Astros** to win (53%) | Run line: **San Francisco Giants** +1.5 (62% to cover) | Total 7.5: lean **OVER** (55%)
 
 ### Houston Astros lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
