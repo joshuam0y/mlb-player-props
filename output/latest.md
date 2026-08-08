@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-08T15:27:48.918691+00:00_
+_Generated 2026-08-08T15:58:36.740277+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -57,10 +57,10 @@ _Generated 2026-08-08T15:27:48.918691+00:00_
 - **Peter Lambert** (Houston Astros vs San Diego Padres): allowing fewer runs than usual over his last few starts -- try Hits Allowed: 60% under 4.5 recently (vs. 5-game sample)
 - **Gavin Williams** (Cleveland Guardians vs Chicago White Sox): allowing fewer runs than usual over his last few starts -- try Walks Allowed: 100% under 1.5 recently (vs. 5-game sample)
 
-## 2026-08-08 - Atlanta Braves @ New York Yankees (Scheduled)
+## 2026-08-08 - Atlanta Braves @ New York Yankees (Pre-Game)
 _Yankee Stadium [hitter-friendly park]_
-Projected score: Atlanta Braves 3.46 - New York Yankees 2.72
-Model likes: **Atlanta Braves** to win (58%) | Run line: **New York Yankees** +1.5 (61% to cover) | Total 5.5: lean **OVER** (52%)
+Projected score: Atlanta Braves 3.46 - New York Yankees 2.76
+Model likes: **Atlanta Braves** to win (58%) | Run line: **New York Yankees** +1.5 (62% to cover) | Total 5.5: lean **OVER** (53%)
 
 ### Atlanta Braves lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.7 relief IP in last 2 days (ratio 0.65)_
@@ -75,18 +75,18 @@ _Facing a rested bullpen: 3.7 relief IP in last 2 days (ratio 0.65)_
 - Mike Yastrzemski (L) -- L7: 4H 2HR 4RBI 12TB (0.286 avg) -- away split: 0.205 avg
 - Ronald Acuña Jr. (R) [6-game hit streak] -- L7: 8H 3HR 4RBI 17TB (0.267 avg) -- away split: 0.261 avg
 
-### New York Yankees lineup -- PROJECTED (unconfirmed)
+### New York Yankees lineup -- CONFIRMED
 _Facing a taxed bullpen: 9.7 relief IP in last 2 days (ratio 1.84)_
 **Probable P: Gerrit Cole (R)** -- L5: 31.0 IP, 37 K, 9 ER, 2.61 ERA
-- Ben Rice (L) -- L7: 2H 0HR 1RBI 2TB (0.091 avg) -- home split: 0.241 avg
-- Trent Grisham (L) -- L7: 3H 1HR 1RBI 7TB (0.12 avg) -- home split: 0.255 avg
-- Ryan McMahon (L) -- L7: 6H 1HR 2RBI 10TB (0.353 avg) -- home split: 0.252 avg
-- Paul Goldschmidt (R) -- L7: 1H 0HR 0RBI 2TB (0.056 avg) -- home split: 0.205 avg
-- Spencer Jones (L) -- L7: 3H 2HR 2RBI 9TB (0.12 avg) -- home split: 0.188 avg -- news: Bellinger lands on IL with hamstring strain; Spencer Jones recalled
-- José Caballero (R) -- L7: 5H 2HR 4RBI 11TB (0.385 avg) -- home split: 0.222 avg
-- Jazz Chisholm Jr. (L) -- L7: 2H 1HR 2RBI 5TB (0.087 avg) -- home split: 0.209 avg
-- Austin Wells (L) -- L7: 5H 1HR 3RBI 10TB (0.333 avg) -- home split: 0.177 avg
-- Ali Sánchez (R) [likely BABIP-driven, not a real power uptick] -- L7: 3H 0HR 0RBI 3TB (0.333 avg) -- home split: 0.182 avg
+- #1 Paul Goldschmidt (R) -- L7: 1H 0HR 0RBI 2TB (0.056 avg) -- home split: 0.205 avg
+- #2 Heliot Ramos (R) -- L7: 5H 0HR 0RBI 7TB (0.208 avg) -- home split: 0.282 avg
+- #3 Ben Rice (L) -- L7: 2H 0HR 1RBI 2TB (0.091 avg) -- home split: 0.241 avg
+- #4 Amed Rosario (R) -- L7: 5H 1HR 1RBI 9TB (0.278 avg) -- home split: 0.203 avg
+- #5 Trent Grisham (L) -- L7: 3H 1HR 1RBI 7TB (0.12 avg) -- home split: 0.255 avg
+- #6 George Lombard Jr. (R) [3-game hit streak] -- L7: 3H 1HR 1RBI 6TB (0.3 avg) -- home split: 0.3 avg
+- #7 Spencer Jones (L) -- L7: 3H 2HR 2RBI 9TB (0.12 avg) -- home split: 0.188 avg -- news: Bellinger lands on IL with hamstring strain; Spencer Jones recalled
+- #8 José Caballero (R) -- L7: 5H 2HR 4RBI 11TB (0.385 avg) -- home split: 0.222 avg
+- #9 Austin Wells (L) -- L7: 5H 1HR 3RBI 10TB (0.333 avg) -- home split: 0.177 avg
 
 ## 2026-08-08 - Los Angeles Angels @ Miami Marlins (Scheduled)
 _loanDepot park [pitcher-friendly park]_
@@ -965,7 +965,7 @@ _Facing a rested bullpen: 4.0 relief IP in last 2 days (ratio 0.62)_
 ## 2026-08-10 - Boston Red Sox @ Toronto Blue Jays (Scheduled)
 _Rogers Centre_
 Projected score: Boston Red Sox 4.95 - Toronto Blue Jays 2.79
-Model likes: **Boston Red Sox** to win (70%) | Run line: **Boston Red Sox** -1.5 (53% to cover) | Total 7.5: lean **UNDER** (53%)
+Model likes: **Boston Red Sox** to win (70%) | Run line: **Boston Red Sox** -1.5 (54% to cover) | Total 7.5: lean **UNDER** (53%)
 
 ### Boston Red Sox lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1024,7 +1024,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-10 - Baltimore Orioles @ Minnesota Twins (Scheduled)
 _Target Field_
 Projected score: Baltimore Orioles 4.24 - Minnesota Twins 4.54
-Model likes: **Minnesota Twins** to win (52%) | Run line: **Baltimore Orioles** +1.5 (62% to cover) | Total 8.5: lean **UNDER** (53%)
+Model likes: **Minnesota Twins** to win (53%) | Run line: **Baltimore Orioles** +1.5 (62% to cover) | Total 8.5: lean **UNDER** (53%)
 
 ### Baltimore Orioles lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1083,7 +1083,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-10 - Texas Rangers @ Los Angeles Angels (Scheduled)
 _Angel Stadium_
 Projected score: Texas Rangers 3.84 - Los Angeles Angels 3.47
-Model likes: **Texas Rangers** to win (54%) | Run line: **Los Angeles Angels** +1.5 (64% to cover) | Total 6.5: lean **OVER** (53%)
+Model likes: **Texas Rangers** to win (53%) | Run line: **Los Angeles Angels** +1.5 (64% to cover) | Total 6.5: lean **OVER** (53%)
 
 ### Texas Rangers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
