@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-08T22:56:40.859730+00:00_
+_Generated 2026-08-08T23:00:13.878587+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -86,7 +86,7 @@ _Facing a taxed bullpen: 9.7 relief IP in last 2 days (ratio 1.84)_
 - #8 José Caballero (R) -- L7: 5H 2HR 4RBI 11TB (0.385 avg) -- home split: 0.222 avg
 - #9 Austin Wells (L) -- L7: 5H 1HR 3RBI 10TB (0.333 avg) -- home split: 0.177 avg
 
-## 2026-08-08 - Los Angeles Angels @ Miami Marlins (Game Over)
+## 2026-08-08 - Los Angeles Angels @ Miami Marlins (Final)
 _loanDepot park [pitcher-friendly park]_
 Final: Los Angeles Angels 0 - Miami Marlins 7
 
@@ -119,7 +119,7 @@ _Facing a taxed bullpen: 8.3 relief IP in last 2 days (ratio 1.45)_
 ## 2026-08-08 - Athletics @ Boston Red Sox (In Progress)
 _Fenway Park_
 Projected score: Athletics 2.51 - Boston Red Sox 5.8
-Model likes: **Boston Red Sox** to win (77%) | Run line: **Boston Red Sox** -1.5 (63% to cover) | Total 7.5: lean **OVER** (51%)
+Model likes: **Boston Red Sox** to win (77%) | Run line: **Boston Red Sox** -1.5 (63% to cover) | Total 7.5: lean **OVER** (52%)
 
 ### Athletics lineup -- CONFIRMED
 _Facing a taxed bullpen: 13.0 relief IP in last 2 days (ratio 2.45)_
@@ -242,7 +242,7 @@ _Facing a taxed bullpen: 8.7 relief IP in last 2 days (ratio 1.88)_
 ## 2026-08-08 - Minnesota Twins @ Milwaukee Brewers (Warmup)
 _American Family Field_
 Projected score: Minnesota Twins 3.89 - Milwaukee Brewers 4.23
-Model likes: **Milwaukee Brewers** to win (53%) | Run line: **Minnesota Twins** +1.5 (63% to cover) | Total 7.5: lean **OVER** (50%)
+Model likes: **Milwaukee Brewers** to win (53%) | Run line: **Minnesota Twins** +1.5 (63% to cover) | Total 7.5: lean **OVER** (51%)
 
 ### Minnesota Twins lineup -- CONFIRMED
 **Probable P: Taj Bradley (R)** -- L5: 31.0 IP, 29 K, 13 ER, 3.77 ERA
@@ -419,7 +419,7 @@ _Facing a taxed bullpen: 9.0 relief IP in last 2 days (ratio 1.4)_
 - #8 Xander Bogaerts (R) [likely BABIP-driven, not a real power uptick] -- L7: 7H 0HR 1RBI 9TB (0.333 avg) -- home split: 0.209 avg
 - #9 Luis Rengifo (S) -- L7: 6H 0HR 0RBI 6TB (0.231 avg) -- home split: 0.219 avg
 
-## 2026-08-08 - Cleveland Guardians @ Chicago White Sox (Pre-Game)
+## 2026-08-08 - Cleveland Guardians @ Chicago White Sox (Warmup)
 _Rate Field_
 Projected score: Cleveland Guardians 3.74 - Chicago White Sox 3.82
 Model likes: **Chicago White Sox** to win (51%) | Run line: **Cleveland Guardians** +1.5 (66% to cover) | Total 7.5: lean **UNDER** (55%)
@@ -482,20 +482,20 @@ _Facing a rested bullpen: 2.3 relief IP in last 2 days (ratio 0.47)_
 
 ## 2026-08-08 - Tampa Bay Rays @ Seattle Mariners (Pre-Game)
 _T-Mobile Park [pitcher-friendly park]_
-Projected score: Tampa Bay Rays 3.65 - Seattle Mariners 2.78
+Projected score: Tampa Bay Rays 3.63 - Seattle Mariners 2.78
 Model likes: **Tampa Bay Rays** to win (59%) | Run line: **Seattle Mariners** +1.5 (60% to cover) | Total 5.5: lean **OVER** (55%)
 
-### Tampa Bay Rays lineup -- PROJECTED (unconfirmed)
+### Tampa Bay Rays lineup -- CONFIRMED
 **Probable P: Griffin Jax (R)** [BULLPEN GAME: short-outing arm, no reliable individual matchup below] -- L5: 26.7 IP, 32 K, 11 ER, 3.71 ERA
-- Junior Caminero (R) -- L7: 8H 4HR 6RBI 20TB (0.32 avg) -- away split: 0.268 avg
-- Chandler Simpson (L) [MATCHUP EDGE: pitcher hits 0.263 avg-against vs this hand] [likely BABIP-driven, not a real power uptick] -- L7: 10H 0HR 3RBI 10TB (0.37 avg) -- away split: 0.302 avg
-- Yandy Díaz (R) -- L7: 7H 0HR 2RBI 9TB (0.233 avg) -- away split: 0.248 avg
-- Jonathan Aranda (L) [MATCHUP EDGE: pitcher hits 0.263 avg-against vs this hand] [5-game hit streak] -- L7: 10H 1HR 7RBI 14TB (0.323 avg) -- away split: 0.277 avg
-- Victor Mesa Jr. (L) [MATCHUP EDGE: pitcher hits 0.263 avg-against vs this hand] -- L7: 5H 0HR 1RBI 10TB (0.2 avg) -- away split: 0.23 avg
-- Richie Palacios (L) [MATCHUP EDGE: pitcher hits 0.263 avg-against vs this hand] -- L7: 2H 1HR 2RBI 5TB (0.133 avg) -- away split: 0.227 avg
-- Taylor Walls (S) [MATCHUP EDGE: pitcher hits 0.263 avg-against vs this hand] -- L7: 3H 0HR 2RBI 3TB (0.136 avg) -- away split: 0.207 avg
-- Cedric Mullins (L) [MATCHUP EDGE: pitcher hits 0.263 avg-against vs this hand] -- L7: 5H 1HR 2RBI 10TB (0.25 avg) -- away split: 0.203 avg
-- Jonny DeLuca (R) -- L7: 5H 2HR 2RBI 11TB (0.227 avg) -- away split: 0.305 avg
+- #1 Yandy Díaz (R) -- L7: 7H 0HR 2RBI 9TB (0.233 avg) -- away split: 0.248 avg
+- #2 Jonathan Aranda (L) [MATCHUP EDGE: pitcher hits 0.263 avg-against vs this hand] [5-game hit streak] -- L7: 10H 1HR 7RBI 14TB (0.323 avg) -- away split: 0.277 avg
+- #3 Junior Caminero (R) -- L7: 8H 4HR 6RBI 20TB (0.32 avg) -- away split: 0.268 avg
+- #4 Victor Mesa Jr. (L) [MATCHUP EDGE: pitcher hits 0.263 avg-against vs this hand] -- L7: 5H 0HR 1RBI 10TB (0.2 avg) -- away split: 0.23 avg
+- #5 Chandler Simpson (L) [MATCHUP EDGE: pitcher hits 0.263 avg-against vs this hand] [likely BABIP-driven, not a real power uptick] -- L7: 10H 0HR 3RBI 10TB (0.37 avg) -- away split: 0.302 avg
+- #6 Cedric Mullins (L) [MATCHUP EDGE: pitcher hits 0.263 avg-against vs this hand] -- L7: 5H 1HR 2RBI 10TB (0.25 avg) -- away split: 0.203 avg
+- #7 Richie Palacios (L) [MATCHUP EDGE: pitcher hits 0.263 avg-against vs this hand] -- L7: 2H 1HR 2RBI 5TB (0.133 avg) -- away split: 0.227 avg
+- #8 Nick Fortes (R) [likely BABIP-driven, not a real power uptick] -- L7: 7H 0HR 3RBI 10TB (0.368 avg) -- away split: 0.293 avg
+- #9 Taylor Walls (S) [MATCHUP EDGE: pitcher hits 0.263 avg-against vs this hand] -- L7: 3H 0HR 2RBI 3TB (0.136 avg) -- away split: 0.207 avg
 
 ### Seattle Mariners lineup -- CONFIRMED
 _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.37)_
@@ -873,7 +873,7 @@ _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.42)_
 ## 2026-08-09 - Tampa Bay Rays @ Seattle Mariners (Scheduled)
 _T-Mobile Park [pitcher-friendly park]_
 Projected score: Tampa Bay Rays 3.41 - Seattle Mariners 3.1
-Model likes: **Tampa Bay Rays** to win (53%) | Run line: **Seattle Mariners** +1.5 (65% to cover) | Total 6.5: lean **UNDER** (55%)
+Model likes: **Tampa Bay Rays** to win (53%) | Run line: **Seattle Mariners** +1.5 (65% to cover) | Total 6.5: lean **UNDER** (56%)
 
 ### Tampa Bay Rays lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.3 relief IP in last 2 days (ratio 0.51)_
@@ -1022,7 +1022,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-10 - Baltimore Orioles @ Minnesota Twins (Scheduled)
 _Target Field_
 Projected score: Baltimore Orioles 4.24 - Minnesota Twins 4.54
-Model likes: **Minnesota Twins** to win (52%) | Run line: **Baltimore Orioles** +1.5 (62% to cover) | Total 8.5: lean **UNDER** (53%)
+Model likes: **Minnesota Twins** to win (53%) | Run line: **Baltimore Orioles** +1.5 (62% to cover) | Total 8.5: lean **UNDER** (53%)
 
 ### Baltimore Orioles lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1081,7 +1081,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-10 - Texas Rangers @ Los Angeles Angels (Scheduled)
 _Angel Stadium_
 Projected score: Texas Rangers 3.84 - Los Angeles Angels 3.47
-Model likes: **Texas Rangers** to win (54%) | Run line: **Los Angeles Angels** +1.5 (63% to cover) | Total 6.5: lean **OVER** (53%)
+Model likes: **Texas Rangers** to win (54%) | Run line: **Los Angeles Angels** +1.5 (64% to cover) | Total 6.5: lean **OVER** (53%)
 
 ### Texas Rangers lineup -- PROJECTED (unconfirmed)
 - Wyatt Langford (R) -- L7: 3H 1HR 1RBI 7TB (0.12 avg) -- away split: 0.266 avg
@@ -1138,7 +1138,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-10 - Tampa Bay Rays @ Athletics (Scheduled)
 _Sutter Health Park_
 Projected score: Tampa Bay Rays 6.92 - Athletics 4.08
-Model likes: **Tampa Bay Rays** to win (70%) | Run line: **Tampa Bay Rays** -1.5 (57% to cover) | Total 10.5: lean **UNDER** (52%)
+Model likes: **Tampa Bay Rays** to win (69%) | Run line: **Tampa Bay Rays** -1.5 (57% to cover) | Total 10.5: lean **UNDER** (52%)
 
 ### Tampa Bay Rays lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 1.7 relief IP in last 2 days (ratio 0.36)_
