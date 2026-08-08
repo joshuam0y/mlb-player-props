@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-08T09:12:30.329588+00:00_
+_Generated 2026-08-08T09:56:43.748416+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -91,7 +91,7 @@ _Facing a taxed bullpen: 9.7 relief IP in last 2 days (ratio 1.84)_
 ## 2026-08-08 - Los Angeles Angels @ Miami Marlins (Scheduled)
 _loanDepot park [pitcher-friendly park]_
 Projected score: Los Angeles Angels 3.39 - Miami Marlins 2.88
-Model likes: **Los Angeles Angels** to win (55%) | Run line: **Miami Marlins** +1.5 (64% to cover) | Total 5.5: lean **OVER** (54%)
+Model likes: **Los Angeles Angels** to win (56%) | Run line: **Miami Marlins** +1.5 (64% to cover) | Total 5.5: lean **OVER** (53%)
 
 ### Los Angeles Angels lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 9.7 relief IP in last 2 days (ratio 1.87)_
@@ -876,7 +876,7 @@ _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.42)_
 ## 2026-08-09 - Tampa Bay Rays @ Seattle Mariners (Scheduled)
 _T-Mobile Park [pitcher-friendly park]_
 Projected score: Tampa Bay Rays 3.41 - Seattle Mariners 3.1
-Model likes: **Tampa Bay Rays** to win (53%) | Run line: **Seattle Mariners** +1.5 (65% to cover) | Total 6.5: lean **UNDER** (55%)
+Model likes: **Tampa Bay Rays** to win (53%) | Run line: **Seattle Mariners** +1.5 (65% to cover) | Total 6.5: lean **UNDER** (56%)
 
 ### Tampa Bay Rays lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.3 relief IP in last 2 days (ratio 0.51)_
@@ -1112,7 +1112,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-10 - Milwaukee Brewers @ San Diego Padres (Scheduled)
 _Petco Park [pitcher-friendly park]_
 Projected score: Milwaukee Brewers 3.97 - San Diego Padres 3.7
-Model likes: **Milwaukee Brewers** to win (53%) | Run line: **San Diego Padres** +1.5 (64% to cover) | Total 7.5: lean **UNDER** (54%)
+Model likes: **Milwaukee Brewers** to win (52%) | Run line: **San Diego Padres** +1.5 (64% to cover) | Total 7.5: lean **UNDER** (54%)
 
 ### Milwaukee Brewers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
