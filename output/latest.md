@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-08T17:58:50.210857+00:00_
+_Generated 2026-08-08T18:06:15.402024+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -275,7 +275,7 @@ _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.84)_
 ## 2026-08-08 - Chicago Cubs @ Kansas City Royals (Scheduled)
 _Kauffman Stadium [pitcher-friendly park]_
 Projected score: Chicago Cubs 5.22 - Kansas City Royals 3.45
-Model likes: **Chicago Cubs** to win (65%) | Run line: **Kansas City Royals** +1.5 (50% to cover) | Total 8.5: lean **UNDER** (54%)
+Model likes: **Chicago Cubs** to win (65%) | Run line: **Chicago Cubs** -1.5 (50% to cover) | Total 8.5: lean **UNDER** (54%)
 
 ### Chicago Cubs lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 10.7 relief IP in last 2 days (ratio 2.04)_
@@ -455,7 +455,7 @@ _Facing a taxed bullpen: 17.0 relief IP in last 2 days (ratio 2.58)_
 ## 2026-08-08 - Los Angeles Dodgers @ Arizona Diamondbacks (Scheduled)
 _Chase Field [hitter-friendly park]_
 Projected score: Los Angeles Dodgers 4.77 - Arizona Diamondbacks 3.36
-Model likes: **Los Angeles Dodgers** to win (63%) | Run line: **Arizona Diamondbacks** +1.5 (53% to cover) | Total 7.5: lean **OVER** (50%)
+Model likes: **Los Angeles Dodgers** to win (62%) | Run line: **Arizona Diamondbacks** +1.5 (53% to cover) | Total 7.5: lean **OVER** (50%)
 
 ### Los Angeles Dodgers lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 8.7 relief IP in last 2 days (ratio 1.65)_
@@ -516,7 +516,7 @@ _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.37)_
 ## 2026-08-09 - Cincinnati Reds @ Washington Nationals (Scheduled)
 _Nationals Park_
 Projected score: Cincinnati Reds 5.29 - Washington Nationals 4.96
-Model likes: **Cincinnati Reds** to win (52%) | Run line: **Washington Nationals** +1.5 (61% to cover) | Total 9.5: lean **OVER** (50%)
+Model likes: **Cincinnati Reds** to win (52%) | Run line: **Washington Nationals** +1.5 (61% to cover) | Total 9.5: lean **OVER** (51%)
 
 ### Cincinnati Reds lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.5)_
@@ -876,7 +876,7 @@ _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.42)_
 ## 2026-08-09 - Tampa Bay Rays @ Seattle Mariners (Scheduled)
 _T-Mobile Park [pitcher-friendly park]_
 Projected score: Tampa Bay Rays 3.41 - Seattle Mariners 3.1
-Model likes: **Tampa Bay Rays** to win (53%) | Run line: **Seattle Mariners** +1.5 (65% to cover) | Total 6.5: lean **UNDER** (56%)
+Model likes: **Tampa Bay Rays** to win (53%) | Run line: **Seattle Mariners** +1.5 (65% to cover) | Total 6.5: lean **UNDER** (55%)
 
 ### Tampa Bay Rays lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.3 relief IP in last 2 days (ratio 0.51)_
@@ -965,7 +965,7 @@ _Facing a rested bullpen: 4.0 relief IP in last 2 days (ratio 0.62)_
 ## 2026-08-10 - Boston Red Sox @ Toronto Blue Jays (Scheduled)
 _Rogers Centre_
 Projected score: Boston Red Sox 4.95 - Toronto Blue Jays 2.79
-Model likes: **Boston Red Sox** to win (70%) | Run line: **Boston Red Sox** -1.5 (53% to cover) | Total 7.5: lean **UNDER** (54%)
+Model likes: **Boston Red Sox** to win (70%) | Run line: **Boston Red Sox** -1.5 (53% to cover) | Total 7.5: lean **UNDER** (53%)
 
 ### Boston Red Sox lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1083,7 +1083,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-10 - Texas Rangers @ Los Angeles Angels (Scheduled)
 _Angel Stadium_
 Projected score: Texas Rangers 3.84 - Los Angeles Angels 3.47
-Model likes: **Texas Rangers** to win (53%) | Run line: **Los Angeles Angels** +1.5 (64% to cover) | Total 6.5: lean **OVER** (53%)
+Model likes: **Texas Rangers** to win (54%) | Run line: **Los Angeles Angels** +1.5 (64% to cover) | Total 6.5: lean **OVER** (53%)
 
 ### Texas Rangers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
