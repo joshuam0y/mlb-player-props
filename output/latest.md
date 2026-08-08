@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-08T19:55:53.530306+00:00_
+_Generated 2026-08-08T19:55:30.747244+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -213,7 +213,7 @@ _Facing a taxed bullpen: 8.0 relief IP in last 2 days (ratio 1.42)_
 
 ## 2026-08-08 - Cincinnati Reds @ Washington Nationals (Pre-Game)
 _Nationals Park_
-Projected score: Cincinnati Reds 4.08 - Washington Nationals 3.32
+Projected score: Cincinnati Reds 4.08 - Washington Nationals 3.33
 Model likes: **Cincinnati Reds** to win (57%) | Run line: **Washington Nationals** +1.5 (60% to cover) | Total 6.5: lean **OVER** (54%)
 
 ### Cincinnati Reds lineup -- CONFIRMED
@@ -273,8 +273,8 @@ _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.84)_
 
 ## 2026-08-08 - Chicago Cubs @ Kansas City Royals (Pre-Game)
 _Kauffman Stadium [pitcher-friendly park]_
-Projected score: Chicago Cubs 5.22 - Kansas City Royals 3.34
-Model likes: **Chicago Cubs** to win (66%) | Run line: **Chicago Cubs** -1.5 (51% to cover) | Total 7.5: lean **OVER** (54%)
+Projected score: Chicago Cubs 5.22 - Kansas City Royals 3.47
+Model likes: **Chicago Cubs** to win (65%) | Run line: **Kansas City Royals** +1.5 (50% to cover) | Total 8.5: lean **UNDER** (54%)
 
 ### Chicago Cubs lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 10.7 relief IP in last 2 days (ratio 2.04)_
@@ -333,8 +333,8 @@ Model likes: **Baltimore Orioles** to win (52%) | Run line: **Texas Rangers** +1
 
 ## 2026-08-08 - Colorado Rockies @ St. Louis Cardinals (Pre-Game)
 _Busch Stadium_
-Projected score: Colorado Rockies 4.56 - St. Louis Cardinals 4.53
-Model likes: **Colorado Rockies** to win (50%) | Run line: **St. Louis Cardinals** +1.5 (64% to cover) | Total 8.5: lean **UNDER** (50%)
+Projected score: Colorado Rockies 4.59 - St. Louis Cardinals 4.53
+Model likes: **Colorado Rockies** to win (50%) | Run line: **St. Louis Cardinals** +1.5 (64% to cover) | Total 8.5: lean **OVER** (50%)
 
 ### Colorado Rockies lineup -- CONFIRMED
 **Probable P: Kyle Freeland (L)** -- L5: 31.3 IP, 25 K, 20 ER, 5.74 ERA
@@ -424,7 +424,7 @@ _Facing a taxed bullpen: 9.0 relief IP in last 2 days (ratio 1.4)_
 ## 2026-08-08 - Cleveland Guardians @ Chicago White Sox (Pre-Game)
 _Rate Field_
 Projected score: Cleveland Guardians 3.76 - Chicago White Sox 3.82
-Model likes: **Chicago White Sox** to win (50%) | Run line: **Cleveland Guardians** +1.5 (66% to cover) | Total 7.5: lean **UNDER** (55%)
+Model likes: **Chicago White Sox** to win (51%) | Run line: **Cleveland Guardians** +1.5 (66% to cover) | Total 7.5: lean **UNDER** (55%)
 
 ### Cleveland Guardians lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 17.0 relief IP in last 2 days (ratio 2.58)_
@@ -454,7 +454,7 @@ _Facing a taxed bullpen: 17.0 relief IP in last 2 days (ratio 2.58)_
 ## 2026-08-08 - Los Angeles Dodgers @ Arizona Diamondbacks (Pre-Game)
 _Chase Field [hitter-friendly park]_
 Projected score: Los Angeles Dodgers 4.77 - Arizona Diamondbacks 3.37
-Model likes: **Los Angeles Dodgers** to win (62%) | Run line: **Arizona Diamondbacks** +1.5 (54% to cover) | Total 7.5: lean **OVER** (51%)
+Model likes: **Los Angeles Dodgers** to win (62%) | Run line: **Arizona Diamondbacks** +1.5 (54% to cover) | Total 7.5: lean **OVER** (50%)
 
 ### Los Angeles Dodgers lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 8.7 relief IP in last 2 days (ratio 1.65)_
@@ -514,8 +514,8 @@ _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.37)_
 
 ## 2026-08-09 - Cincinnati Reds @ Washington Nationals (Scheduled)
 _Nationals Park_
-Projected score: Cincinnati Reds 5.29 - Washington Nationals 4.96
-Model likes: **Cincinnati Reds** to win (52%) | Run line: **Washington Nationals** +1.5 (61% to cover) | Total 9.5: lean **OVER** (50%)
+Projected score: Cincinnati Reds 5.29 - Washington Nationals 4.97
+Model likes: **Cincinnati Reds** to win (52%) | Run line: **Washington Nationals** +1.5 (61% to cover) | Total 9.5: lean **OVER** (51%)
 
 ### Cincinnati Reds lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.5)_
@@ -531,7 +531,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.5)_
 - Matt McLain (R) -- L7: 5H 2HR 3RBI 13TB (0.238 avg) -- away split: 0.221 avg
 
 ### Washington Nationals lineup -- PROJECTED (unconfirmed)
-_Facing a taxed bullpen: 6.3 relief IP in last 2 days (ratio 1.38)_
+_Facing a taxed bullpen: 6.3 relief IP in last 2 days (ratio 1.37)_
 - Daylen Lile (L) [MATCHUP EDGE: pitcher hits 0.293 avg-against vs this hand] -- L7: 4H 2HR 5RBI 11TB (0.182 avg) -- home split: 0.224 avg
 - CJ Abrams (L) [MATCHUP EDGE: pitcher hits 0.293 avg-against vs this hand] -- L7: 7H 0HR 5RBI 10TB (0.241 avg) -- home split: 0.272 avg
 - Dylan Crews (R) -- L7: 3H 0HR 1RBI 4TB (0.12 avg) -- home split: 0.218 avg
@@ -609,28 +609,28 @@ Model likes: **New York Yankees** to win (60%) | Run line: **Atlanta Braves** +1
 ### Atlanta Braves lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.7 relief IP in last 2 days (ratio 0.65)_
 **Probable P: Grant Holmes (R)** -- L5: 25.7 IP, 21 K, 9 ER, 3.16 ERA
-- Drake Baldwin (L) [3-game hit streak] -- L7: 6H 0HR 3RBI 6TB (0.207 avg) -- away split: 0.271 avg
-- Michael Harris II (L) -- L7: 8H 1HR 5RBI 16TB (0.32 avg) -- away split: 0.296 avg
-- Ozzie Albies (S) -- L7: 5H 1HR 1RBI 8TB (0.227 avg) -- away split: 0.247 avg
-- Matt Olson (L) -- L7: 10H 5HR 5RBI 28TB (0.4 avg) -- away split: 0.262 avg
-- Austin Riley (R) [TOUGH MATCHUP: pitcher holds this hand to 0.192 avg-against] -- L7: 9H 2HR 7RBI 18TB (0.391 avg) -- away split: 0.177 avg
-- Mauricio Dubón (R) [TOUGH MATCHUP: pitcher holds this hand to 0.192 avg-against] [3-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 10H 0HR 3RBI 11TB (0.417 avg) -- away split: 0.237 avg
-- Jim Jarvis (L) -- L7: 4H 0HR 2RBI 4TB (0.2 avg) -- away split: 0.235 avg
-- Mike Yastrzemski (L) -- L7: 4H 2HR 4RBI 12TB (0.286 avg) -- away split: 0.205 avg
-- Ronald Acuña Jr. (R) [TOUGH MATCHUP: pitcher holds this hand to 0.192 avg-against] [6-game hit streak] -- L7: 8H 3HR 4RBI 17TB (0.267 avg) -- away split: 0.261 avg
+- Drake Baldwin (L) -- L7: 6H 0HR 3RBI 6TB (0.24 avg) -- away split: 0.269 avg
+- Michael Harris II (L) -- L7: 6H 0HR 2RBI 11TB (0.273 avg) -- away split: 0.295 avg
+- Ozzie Albies (S) -- L7: 4H 1HR 1RBI 8TB (0.211 avg) -- away split: 0.25 avg
+- Matt Olson (L) -- L7: 8H 4HR 4RBI 22TB (0.364 avg) -- away split: 0.261 avg
+- Austin Riley (R) [TOUGH MATCHUP: pitcher holds this hand to 0.192 avg-against] -- L7: 8H 2HR 7RBI 17TB (0.381 avg) -- away split: 0.176 avg
+- Mauricio Dubón (R) [TOUGH MATCHUP: pitcher holds this hand to 0.192 avg-against] [likely BABIP-driven, not a real power uptick] -- L7: 10H 0HR 3RBI 11TB (0.455 avg) -- away split: 0.236 avg
+- Jim Jarvis (L) -- L7: 4H 0HR 2RBI 4TB (0.222 avg) -- away split: 0.235 avg
+- Mike Yastrzemski (L) -- L7: 4H 2HR 4RBI 12TB (0.286 avg) -- away split: 0.203 avg
+- Ronald Acuña Jr. (R) [TOUGH MATCHUP: pitcher holds this hand to 0.192 avg-against] -- L7: 8H 3HR 4RBI 17TB (0.286 avg) -- away split: 0.257 avg
 
 ### New York Yankees lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.7 relief IP in last 2 days (ratio 0.7)_
 **Probable P: Cam Schlittler (R)** -- L5: 27.7 IP, 40 K, 10 ER, 3.25 ERA
-- Ben Rice (L) -- L7: 2H 0HR 1RBI 2TB (0.091 avg) -- home split: 0.241 avg
-- Trent Grisham (L) -- L7: 3H 1HR 1RBI 7TB (0.12 avg) -- home split: 0.255 avg
+- Ben Rice (L) -- L7: 1H 0HR 1RBI 1TB (0.053 avg) -- home split: 0.24 avg
+- Trent Grisham (L) -- L7: 4H 1HR 1RBI 9TB (0.182 avg) -- home split: 0.26 avg
+- Paul Goldschmidt (R) -- L7: 2H 0HR 0RBI 3TB (0.143 avg) -- home split: 0.211 avg
+- Spencer Jones (L) -- L7: 3H 1HR 2RBI 6TB (0.125 avg) -- home split: 0.204 avg -- news: Bellinger lands on IL with hamstring strain; Spencer Jones recalled
+- José Caballero (R) -- L7: 5H 2HR 4RBI 11TB (0.357 avg) -- home split: 0.221 avg
 - Ryan McMahon (L) -- L7: 6H 1HR 2RBI 10TB (0.353 avg) -- home split: 0.252 avg
-- Paul Goldschmidt (R) -- L7: 1H 0HR 0RBI 2TB (0.056 avg) -- home split: 0.205 avg
-- Spencer Jones (L) -- L7: 3H 2HR 2RBI 9TB (0.12 avg) -- home split: 0.188 avg -- news: Bellinger lands on IL with hamstring strain; Spencer Jones recalled
-- José Caballero (R) -- L7: 5H 2HR 4RBI 11TB (0.385 avg) -- home split: 0.222 avg
+- Austin Wells (L) -- L7: 4H 1HR 3RBI 8TB (0.308 avg) -- home split: 0.177 avg
 - Jazz Chisholm Jr. (L) -- L7: 2H 1HR 2RBI 5TB (0.087 avg) -- home split: 0.209 avg
-- Austin Wells (L) -- L7: 5H 1HR 3RBI 10TB (0.333 avg) -- home split: 0.177 avg
-- Ali Sánchez (R) [likely BABIP-driven, not a real power uptick] -- L7: 3H 0HR 0RBI 3TB (0.333 avg) -- home split: 0.182 avg
+- Amed Rosario (R) -- L7: 4H 1HR 1RBI 7TB (0.222 avg) -- home split: 0.2 avg
 
 ## 2026-08-09 - Athletics @ Boston Red Sox (Scheduled)
 _Fenway Park_
@@ -1012,20 +1012,20 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 
 ### Atlanta Braves lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
-- Drake Baldwin (L) [3-game hit streak] -- L7: 6H 0HR 3RBI 6TB (0.207 avg) -- home split: 0.276 avg
-- Michael Harris II (L) -- L7: 8H 1HR 5RBI 16TB (0.32 avg) -- home split: 0.287 avg
-- Ozzie Albies (S) -- L7: 5H 1HR 1RBI 8TB (0.227 avg) -- home split: 0.271 avg
-- Matt Olson (L) -- L7: 10H 5HR 5RBI 28TB (0.4 avg) -- home split: 0.276 avg
-- Austin Riley (R) -- L7: 9H 2HR 7RBI 18TB (0.391 avg) -- home split: 0.264 avg
-- Mauricio Dubón (R) [3-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 10H 0HR 3RBI 11TB (0.417 avg) -- home split: 0.302 avg
-- Jim Jarvis (L) -- L7: 4H 0HR 2RBI 4TB (0.2 avg) -- home split: 0.241 avg
+- Drake Baldwin (L) -- L7: 6H 0HR 3RBI 6TB (0.24 avg) -- home split: 0.276 avg
+- Michael Harris II (L) -- L7: 6H 0HR 2RBI 11TB (0.273 avg) -- home split: 0.287 avg
+- Ozzie Albies (S) -- L7: 4H 1HR 1RBI 8TB (0.211 avg) -- home split: 0.271 avg
+- Matt Olson (L) -- L7: 8H 4HR 4RBI 22TB (0.364 avg) -- home split: 0.276 avg
+- Austin Riley (R) -- L7: 8H 2HR 7RBI 17TB (0.381 avg) -- home split: 0.264 avg
+- Mauricio Dubón (R) [likely BABIP-driven, not a real power uptick] -- L7: 10H 0HR 3RBI 11TB (0.455 avg) -- home split: 0.302 avg
+- Jim Jarvis (L) -- L7: 4H 0HR 2RBI 4TB (0.222 avg) -- home split: 0.241 avg
 - Mike Yastrzemski (L) -- L7: 4H 2HR 4RBI 12TB (0.286 avg) -- home split: 0.252 avg
-- Ronald Acuña Jr. (R) [6-game hit streak] -- L7: 8H 3HR 4RBI 17TB (0.267 avg) -- home split: 0.234 avg
+- Ronald Acuña Jr. (R) -- L7: 8H 3HR 4RBI 17TB (0.286 avg) -- home split: 0.234 avg
 
 ## 2026-08-10 - Baltimore Orioles @ Minnesota Twins (Scheduled)
 _Target Field_
 Projected score: Baltimore Orioles 4.24 - Minnesota Twins 4.54
-Model likes: **Minnesota Twins** to win (52%) | Run line: **Baltimore Orioles** +1.5 (62% to cover) | Total 8.5: lean **UNDER** (53%)
+Model likes: **Minnesota Twins** to win (53%) | Run line: **Baltimore Orioles** +1.5 (62% to cover) | Total 8.5: lean **UNDER** (53%)
 
 ### Baltimore Orioles lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1084,7 +1084,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-10 - Texas Rangers @ Los Angeles Angels (Scheduled)
 _Angel Stadium_
 Projected score: Texas Rangers 3.84 - Los Angeles Angels 3.47
-Model likes: **Texas Rangers** to win (53%) | Run line: **Los Angeles Angels** +1.5 (64% to cover) | Total 6.5: lean **OVER** (53%)
+Model likes: **Texas Rangers** to win (54%) | Run line: **Los Angeles Angels** +1.5 (64% to cover) | Total 6.5: lean **OVER** (53%)
 
 ### Texas Rangers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
