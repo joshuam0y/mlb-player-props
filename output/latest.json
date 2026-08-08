@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T18:53:37.882203+00:00",
+  "generated_at": "2026-08-08T19:09:51.567707+00:00",
   "range": [
     "2026-08-08",
     "2026-08-10"
@@ -17,22 +17,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 823514,
-        "generated_at": "2026-08-08T18:51:02.378554+00:00",
+        "generated_at": "2026-08-08T19:07:16.362182+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 2.76,
         "away_exp_runs": 3.55,
-        "home_win_prob": 0.415,
+        "home_win_prob": 0.414,
         "spread_line": 1.5,
         "spread_cover_prob": 0.238,
         "total_line": 5.5,
-        "over_prob": 0.539,
+        "over_prob": 0.538,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
         "spread_pick_prob": 0.607,
         "total_pick": "over",
-        "total_pick_prob": 0.539,
+        "total_pick_prob": 0.538,
         "spread_favorite": "away"
       },
       "highlights": [
@@ -8849,7 +8849,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 823834,
-        "generated_at": "2026-08-08T18:51:02.378554+00:00",
+        "generated_at": "2026-08-08T19:07:16.362182+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 2.86,
         "away_exp_runs": 3.52,
@@ -17862,7 +17862,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 824726,
-        "generated_at": "2026-08-08T18:51:02.378554+00:00",
+        "generated_at": "2026-08-08T19:07:16.362182+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 5.8,
         "away_exp_runs": 2.51,
@@ -17882,6 +17882,18 @@
       },
       "highlights": [
         {
+          "title": "Starting lineups for Athletics at Red Sox - August 8, 2026",
+          "duration": "00:00:10",
+          "video_url": "https://darkroom-clips.mlb.com/59aee6ef-a080-4271-99f7-74c19b33ec51.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/rkznx2rujirb5pvxfjwc.jpg"
+        },
+        {
+          "title": "Bench availability for Athletics, August 8 vs Red Sox",
+          "duration": "00:00:08",
+          "video_url": "https://darkroom-clips.mlb.com/7d35f901-7e19-4b83-9720-aa2c8af4d556.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/ohlstpuahjxzojlnlcus.jpg"
+        },
+        {
           "title": "Fielding alignment for Athletics, August 8 vs Red Sox",
           "duration": "00:00:11",
           "video_url": "https://darkroom-clips.mlb.com/a45bb8fa-fbe3-4e70-ab3a-fc8a76139da4.mp4",
@@ -17892,18 +17904,6 @@
           "duration": "00:00:11",
           "video_url": "https://darkroom-clips.mlb.com/d706eee5-4cbc-446e-8ac9-c1978f65a3df.mp4",
           "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/ipy7of03hzbjpmf2aohp.jpg"
-        },
-        {
-          "title": "Bench availability for Boston, August 8 vs Athletics",
-          "duration": "00:00:08",
-          "video_url": "https://darkroom-clips.mlb.com/056cd7d6-2295-45d4-aa01-82664ac8e68a.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/t6mhtcnkk5zs8ezvqwl8.jpg"
-        },
-        {
-          "title": "Bullpen availability for Athletics, August 8 vs Red Sox",
-          "duration": "00:00:09",
-          "video_url": "https://darkroom-clips.mlb.com/b4f98743-cd3d-41f0-8ff6-2c0b1f01442d.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/dgli9mztbazmjru8a6mk.jpg"
         }
       ],
       "home": {
@@ -22383,6 +22383,12 @@
           }
         ],
         "injuries": [
+          {
+            "player_name": "Adley Rutschman",
+            "date": "2026-08-03",
+            "status": "IL",
+            "description": "Boston Red Sox placed C Adley Rutschman on the 10-day injured list. Left wrist inflammation."
+          },
           {
             "player_name": "Curtis Mead",
             "date": "2026-07-29",
@@ -26925,22 +26931,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 823426,
-        "generated_at": "2026-08-08T18:51:02.378554+00:00",
+        "generated_at": "2026-08-08T19:07:16.362182+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 5.95,
         "away_exp_runs": 4.36,
-        "home_win_prob": 0.616,
+        "home_win_prob": 0.618,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.485,
+        "spread_cover_prob": 0.486,
         "total_line": 9.5,
-        "over_prob": 0.51,
+        "over_prob": 0.509,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.515,
+        "spread_pick_prob": 0.514,
         "total_pick": "over",
-        "total_pick_prob": 0.51,
+        "total_pick_prob": 0.509,
         "spread_favorite": "home"
       },
       "highlights": [
@@ -36013,7 +36019,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 823348,
-        "generated_at": "2026-08-08T18:51:02.378554+00:00",
+        "generated_at": "2026-08-08T19:07:16.362182+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.46,
         "away_exp_runs": 4.08,
@@ -36021,14 +36027,14 @@
         "spread_line": 1.5,
         "spread_cover_prob": 0.381,
         "total_line": 7.5,
-        "over_prob": 0.542,
+        "over_prob": 0.541,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
         "spread_pick_prob": 0.619,
         "total_pick": "over",
-        "total_pick_prob": 0.542,
+        "total_pick_prob": 0.541,
         "spread_favorite": "home"
       },
       "highlights": [],
@@ -44997,7 +45003,7 @@
       "game_pk": 822701,
       "date": "2026-08-08",
       "game_time_utc": "2026-08-08T22:45:00Z",
-      "status": "Scheduled",
+      "status": "Pre-Game",
       "venue": "Nationals Park",
       "park_factor": "neutral",
       "home_score": null,
@@ -45005,7 +45011,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 822701,
-        "generated_at": "2026-08-08T18:51:02.378554+00:00",
+        "generated_at": "2026-08-08T19:07:16.362182+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.43,
         "away_exp_runs": 3.96,
@@ -45013,17 +45019,42 @@
         "spread_line": 1.5,
         "spread_cover_prob": 0.286,
         "total_line": 6.5,
-        "over_prob": 0.537,
+        "over_prob": 0.538,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
         "spread_pick_prob": 0.618,
         "total_pick": "over",
-        "total_pick_prob": 0.537,
+        "total_pick_prob": 0.538,
         "spread_favorite": "away"
       },
-      "highlights": [],
+      "highlights": [
+        {
+          "title": "Fielding alignment for Cincinnati, August 8 vs Nationals",
+          "duration": "00:00:11",
+          "video_url": "https://darkroom-clips.mlb.com/57d0e4cc-3ec8-4362-84e5-2c529a7d8b7d.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/vh96dxbuzazvrk2xjgwh.jpg"
+        },
+        {
+          "title": "Bench availability for Cincinnati, August 8 vs Nationals",
+          "duration": "00:00:08",
+          "video_url": "https://darkroom-clips.mlb.com/008a42b5-2a9e-42b4-8e30-2e01d7cbec13.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/smrdjecmxxyixqgeyz4s.jpg"
+        },
+        {
+          "title": "Bench availability for Washington, August 8 vs Reds",
+          "duration": "00:00:08",
+          "video_url": "https://darkroom-clips.mlb.com/856ba7fd-f767-4511-bf80-3713ecd9c3b9.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/gjy3ojxqocddooxpynxp.jpg"
+        },
+        {
+          "title": "Fielding alignment for Washington, August 8 vs Reds",
+          "duration": "00:00:11",
+          "video_url": "https://darkroom-clips.mlb.com/7f8a3746-0f52-4ac3-b4bd-58c86fcc2db6.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/h5bg67y7yh7vhwzerfgt.jpg"
+        }
+      ],
       "home": {
         "team_id": 120,
         "team_name": "Washington Nationals",
@@ -45034,7 +45065,7 @@
           "pitch_hand": "L",
           "position": "P",
           "injury": null,
-          "lineup_confirmed": false,
+          "lineup_confirmed": true,
           "workload_tier": "medium",
           "l3": {
             "games": 3,
@@ -49522,7 +49553,7 @@
           "pitch_hand": "R",
           "position": "P",
           "injury": null,
-          "lineup_confirmed": false,
+          "lineup_confirmed": true,
           "workload_tier": "heavy",
           "l3": {
             "games": 3,
@@ -54018,11 +54049,11 @@
       "live_score": null,
       "projection": {
         "game_pk": 823752,
-        "generated_at": "2026-08-08T18:51:02.378554+00:00",
+        "generated_at": "2026-08-08T19:07:16.362182+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.31,
         "away_exp_runs": 4.01,
-        "home_win_prob": 0.527,
+        "home_win_prob": 0.526,
         "spread_line": 1.5,
         "spread_cover_prob": 0.371,
         "total_line": 7.5,
@@ -63061,7 +63092,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 824079,
-        "generated_at": "2026-08-08T18:51:02.378554+00:00",
+        "generated_at": "2026-08-08T19:07:16.362182+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.45,
         "away_exp_runs": 5.22,
@@ -67678,14 +67709,14 @@
               "doubles": 1,
               "triples": 1,
               "home_runs": 2,
-              "rbi": 7,
+              "rbi": 8,
               "runs": 11,
               "base_on_balls": 7,
               "strike_outs": 8,
               "total_bases": 19,
               "hit_by_pitch": 0,
               "stolen_bases": 4,
-              "h_r_rbi": 28,
+              "h_r_rbi": 29,
               "avg": 0.4,
               "slg": 0.76,
               "babip": 0.533,
@@ -67698,14 +67729,14 @@
               "doubles": 6,
               "triples": 2,
               "home_runs": 5,
-              "rbi": 15,
+              "rbi": 16,
               "runs": 16,
               "base_on_balls": 10,
               "strike_outs": 21,
               "total_bases": 45,
               "hit_by_pitch": 0,
               "stolen_bases": 5,
-              "h_r_rbi": 51,
+              "h_r_rbi": 52,
               "avg": 0.333,
               "slg": 0.75,
               "babip": 0.441,
@@ -67718,14 +67749,14 @@
               "doubles": 28,
               "triples": 7,
               "home_runs": 30,
-              "rbi": 87,
+              "rbi": 88,
               "runs": 99,
               "base_on_balls": 71,
               "strike_outs": 176,
               "total_bases": 290,
               "hit_by_pitch": 15,
               "stolen_bases": 36,
-              "h_r_rbi": 344,
+              "h_r_rbi": 345,
               "avg": 0.266,
               "slg": 0.488,
               "babip": 0.33,
@@ -67813,7 +67844,7 @@
                 "doubles": 16,
                 "triples": 2,
                 "home_runs": 12,
-                "rbi": 34,
+                "rbi": 35,
                 "runs": 41,
                 "base_on_balls": 30,
                 "strike_outs": 76,
@@ -67942,9 +67973,9 @@
               },
               {
                 "label": "RBIs",
-                "average": 0.9,
+                "average": 1.0,
                 "primary_line": 0.5,
-                "today_projection": 0.87,
+                "today_projection": 0.91,
                 "lean": "over",
                 "hit_rates": [
                   {
@@ -67963,7 +67994,7 @@
                   1,
                   4,
                   0,
-                  1
+                  2
                 ],
                 "dates": [
                   "2026-07-29",
@@ -68056,9 +68087,9 @@
               },
               {
                 "label": "Hits + Runs + RBIs",
-                "average": 3.4,
+                "average": 3.5,
                 "primary_line": 2.5,
-                "today_projection": 3.21,
+                "today_projection": 3.25,
                 "lean": "over",
                 "hit_rates": [
                   {
@@ -68077,7 +68108,7 @@
                   4,
                   9,
                   4,
-                  4
+                  5
                 ],
                 "dates": [
                   "2026-07-29",
@@ -68115,7 +68146,7 @@
               "label": "Hits + Runs + RBIs",
               "line": 2.5,
               "direction": "over",
-              "projection": 3.21
+              "projection": 3.25
             },
             "game_result": null
           },
@@ -71822,20 +71853,20 @@
       "live_score": null,
       "projection": {
         "game_pk": 822864,
-        "generated_at": "2026-08-08T18:51:02.378554+00:00",
+        "generated_at": "2026-08-08T19:07:16.362182+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.38,
         "away_exp_runs": 3.75,
         "home_win_prob": 0.462,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.294,
+        "spread_cover_prob": 0.295,
         "total_line": 6.5,
         "over_prob": 0.512,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
-        "spread_pick_prob": 0.637,
+        "spread_pick_prob": 0.638,
         "total_pick": "over",
         "total_pick_prob": 0.512,
         "spread_favorite": "away"
@@ -80800,16 +80831,16 @@
         ],
         "injuries": [
           {
+            "player_name": "Adley Rutschman",
+            "date": "2026-08-03",
+            "status": "IL",
+            "description": "Boston Red Sox placed C Adley Rutschman on the 10-day injured list. Left wrist inflammation."
+          },
+          {
             "player_name": "Samuel Basallo",
             "date": "2026-07-22",
             "status": "IL",
             "description": "Baltimore Orioles placed C Samuel Basallo on the 10-day injured list retroactive to July 20, 2026. Right shoulder inflammation."
-          },
-          {
-            "player_name": "Adley Rutschman",
-            "date": "2026-07-20",
-            "status": "IL",
-            "description": "Baltimore Orioles placed C Adley Rutschman on the 10-day injured list retroactive to July 19, 2026. Left wrist inflammation."
           },
           {
             "player_name": "Ryan Helsley",
@@ -80846,7 +80877,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 823021,
-        "generated_at": "2026-08-08T18:51:02.378554+00:00",
+        "generated_at": "2026-08-08T19:07:16.362182+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.69,
         "away_exp_runs": 4.59,
@@ -80854,14 +80885,14 @@
         "spread_line": 1.5,
         "spread_cover_prob": 0.367,
         "total_line": 8.5,
-        "over_prob": 0.513,
+        "over_prob": 0.514,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
         "spread_pick_prob": 0.633,
         "total_pick": "over",
-        "total_pick_prob": 0.513,
+        "total_pick_prob": 0.514,
         "spread_favorite": "home"
       },
       "highlights": [],
@@ -89840,22 +89871,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 823188,
-        "generated_at": "2026-08-08T18:51:02.378554+00:00",
+        "generated_at": "2026-08-08T19:07:16.362182+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.28,
         "away_exp_runs": 4.39,
-        "home_win_prob": 0.396,
+        "home_win_prob": 0.397,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.244,
+        "spread_cover_prob": 0.245,
         "total_line": 7.5,
-        "over_prob": 0.462,
+        "over_prob": 0.461,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
-        "spread_pick_prob": 0.561,
+        "spread_pick_prob": 0.563,
         "total_pick": "under",
-        "total_pick_prob": 0.538,
+        "total_pick_prob": 0.539,
         "spread_favorite": "away"
       },
       "highlights": [
@@ -98662,7 +98693,7 @@
       "game_pk": 823267,
       "date": "2026-08-08",
       "game_time_utc": "2026-08-08T23:15:00Z",
-      "status": "Scheduled",
+      "status": "Pre-Game",
       "venue": "Petco Park",
       "park_factor": "pitcher",
       "home_score": null,
@@ -98670,7 +98701,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 823267,
-        "generated_at": "2026-08-08T18:51:02.378554+00:00",
+        "generated_at": "2026-08-08T19:07:16.362182+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 2.72,
         "away_exp_runs": 3.73,
@@ -98688,7 +98719,32 @@
         "total_pick_prob": 0.553,
         "spread_favorite": "away"
       },
-      "highlights": [],
+      "highlights": [
+        {
+          "title": "Bench availability for San Diego, August 8 vs Astros",
+          "duration": "00:00:08",
+          "video_url": "https://darkroom-clips.mlb.com/81f48f6e-abc5-4325-9ad4-52723fbeca95.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/cadepj3kvjx2cxvrwtnw.jpg"
+        },
+        {
+          "title": "Fielding alignment for San Diego, August 8 vs Astros",
+          "duration": "00:00:11",
+          "video_url": "https://darkroom-clips.mlb.com/a42cc894-1a9f-473a-b01d-4d788cd155ed.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/skzijxgrqe0bc3yiyzer.jpg"
+        },
+        {
+          "title": "Bullpen availability for Houston, August 8 vs Padres",
+          "duration": "00:00:09",
+          "video_url": "https://darkroom-clips.mlb.com/af088122-7024-4ac4-8266-71122247d450.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/iohxqhcaqvy1huxymcxq.jpg"
+        },
+        {
+          "title": "Bullpen availability for San Diego, August 8 vs Astros",
+          "duration": "00:00:09",
+          "video_url": "https://darkroom-clips.mlb.com/aadc80d9-ed64-4a56-9ec9-61e090d3597f.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/erej74gb0jgan0fueojx.jpg"
+        }
+      ],
       "home": {
         "team_id": 135,
         "team_name": "San Diego Padres",
@@ -98699,7 +98755,7 @@
           "pitch_hand": "R",
           "position": "P",
           "injury": null,
-          "lineup_confirmed": false,
+          "lineup_confirmed": true,
           "workload_tier": "heavy",
           "l3": {
             "games": 3,
@@ -103183,7 +103239,7 @@
           "pitch_hand": "R",
           "position": "P",
           "injury": null,
-          "lineup_confirmed": false,
+          "lineup_confirmed": true,
           "workload_tier": "heavy",
           "l3": {
             "games": 3,
@@ -107673,7 +107729,7 @@
       "game_pk": 824565,
       "date": "2026-08-08",
       "game_time_utc": "2026-08-08T23:15:00Z",
-      "status": "Scheduled",
+      "status": "Pre-Game",
       "venue": "Rate Field",
       "park_factor": "neutral",
       "home_score": null,
@@ -107681,7 +107737,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 824565,
-        "generated_at": "2026-08-08T18:51:02.378554+00:00",
+        "generated_at": "2026-08-08T19:07:16.362182+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.88,
         "away_exp_runs": 3.76,
@@ -107699,7 +107755,32 @@
         "total_pick_prob": 0.542,
         "spread_favorite": "home"
       },
-      "highlights": [],
+      "highlights": [
+        {
+          "title": "Fielding alignment for Chicago, August 8 vs Guardians",
+          "duration": "00:00:11",
+          "video_url": "https://darkroom-clips.mlb.com/ab14db8d-ac86-4b77-9b7e-65dda562c86c.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/asm0oos0hvivigytwgja.jpg"
+        },
+        {
+          "title": "Bench availability for Chicago, August 8 vs Guardians",
+          "duration": "00:00:08",
+          "video_url": "https://darkroom-clips.mlb.com/693d08ca-6afd-4967-a285-56ac94d475b6.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/zpolmi1xeh39shn2qvkq.jpg"
+        },
+        {
+          "title": "Bullpen availability for Cleveland, August 8 vs White Sox",
+          "duration": "00:00:09",
+          "video_url": "https://darkroom-clips.mlb.com/22b34bae-8dd4-4dae-a6a9-bcca370efe4e.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/djov6oesa3b0ntvv3007.jpg"
+        },
+        {
+          "title": "Bullpen availability for Chicago, August 8 vs Guardians",
+          "duration": "00:00:09",
+          "video_url": "https://darkroom-clips.mlb.com/12d8193c-6040-4f01-8525-6324191bce58.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/dxjbklsccb7j1os0e9ju.jpg"
+        }
+      ],
       "home": {
         "team_id": 145,
         "team_name": "Chicago White Sox",
@@ -107710,7 +107791,7 @@
           "pitch_hand": "L",
           "position": "P",
           "injury": null,
-          "lineup_confirmed": false,
+          "lineup_confirmed": true,
           "workload_tier": "medium",
           "l3": {
             "games": 3,
@@ -112209,7 +112290,7 @@
           "pitch_hand": "R",
           "position": "P",
           "injury": null,
-          "lineup_confirmed": false,
+          "lineup_confirmed": true,
           "workload_tier": "heavy",
           "l3": {
             "games": 3,
@@ -116692,7 +116773,7 @@
       "game_pk": 825049,
       "date": "2026-08-08",
       "game_time_utc": "2026-08-09T00:10:00Z",
-      "status": "Scheduled",
+      "status": "Pre-Game",
       "venue": "Chase Field",
       "park_factor": "hitter",
       "home_score": null,
@@ -116700,13 +116781,13 @@
       "live_score": null,
       "projection": {
         "game_pk": 825049,
-        "generated_at": "2026-08-08T18:51:02.378554+00:00",
+        "generated_at": "2026-08-08T19:07:16.362182+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.36,
         "away_exp_runs": 4.77,
         "home_win_prob": 0.375,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.232,
+        "spread_cover_prob": 0.233,
         "total_line": 7.5,
         "over_prob": 0.505,
         "home_score_line": null,
@@ -116718,7 +116799,32 @@
         "total_pick_prob": 0.505,
         "spread_favorite": "away"
       },
-      "highlights": [],
+      "highlights": [
+        {
+          "title": "Bench availability for Arizona, August 8 vs Dodgers",
+          "duration": "00:00:08",
+          "video_url": "https://darkroom-clips.mlb.com/c11d1dc4-d9f7-4a42-9400-84e5493123aa.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/hd3kegnibo0okb8wuwrr.jpg"
+        },
+        {
+          "title": "Fielding alignment for Arizona, August 8 vs Dodgers",
+          "duration": "00:00:11",
+          "video_url": "https://darkroom-clips.mlb.com/9119cf41-9f06-473c-ab5d-db6e898bf594.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/xhny2h8vb2drhn3rcqrx.jpg"
+        },
+        {
+          "title": "Bullpen availability for Los Angeles, August 8 vs Diamondbacks",
+          "duration": "00:00:09",
+          "video_url": "https://darkroom-clips.mlb.com/39207567-432b-4768-9c8b-76185c3b2197.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/uidpdtsh3dhkifnwlaug.jpg"
+        },
+        {
+          "title": "Bullpen availability for Arizona, August 8 vs Dodgers",
+          "duration": "00:00:09",
+          "video_url": "https://darkroom-clips.mlb.com/6eec1f12-daae-4638-8191-893241fd8610.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/bf2e7poycucywa9dqmnc.jpg"
+        }
+      ],
       "home": {
         "team_id": 109,
         "team_name": "Arizona Diamondbacks",
@@ -116729,7 +116835,7 @@
           "pitch_hand": "R",
           "position": "P",
           "injury": null,
-          "lineup_confirmed": false,
+          "lineup_confirmed": true,
           "workload_tier": "medium",
           "l3": {
             "games": 3,
@@ -121212,7 +121318,7 @@
           "pitch_hand": "R",
           "position": "P",
           "injury": null,
-          "lineup_confirmed": false,
+          "lineup_confirmed": true,
           "workload_tier": "heavy",
           "l3": {
             "games": 3,
@@ -125713,7 +125819,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 823102,
-        "generated_at": "2026-08-08T18:51:02.378554+00:00",
+        "generated_at": "2026-08-08T19:07:16.362182+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 2.69,
         "away_exp_runs": 3.65,
@@ -134719,22 +134825,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 822700,
-        "generated_at": "2026-08-08T18:51:02.378554+00:00",
+        "generated_at": "2026-08-08T19:07:16.362182+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.96,
         "away_exp_runs": 5.29,
         "home_win_prob": 0.475,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.346,
+        "spread_cover_prob": 0.345,
         "total_line": 9.5,
-        "over_prob": 0.506,
+        "over_prob": 0.507,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
         "spread_pick_prob": 0.607,
         "total_pick": "over",
-        "total_pick_prob": 0.506,
+        "total_pick_prob": 0.507,
         "spread_favorite": "away"
       },
       "highlights": [],
@@ -143387,7 +143493,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 823345,
-        "generated_at": "2026-08-08T18:51:02.378554+00:00",
+        "generated_at": "2026-08-08T19:07:16.362182+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.96,
         "away_exp_runs": 3.85,
@@ -152422,20 +152528,20 @@
       "live_score": null,
       "projection": {
         "game_pk": 823425,
-        "generated_at": "2026-08-08T18:51:02.378554+00:00",
+        "generated_at": "2026-08-08T19:07:16.362182+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.55,
         "away_exp_runs": 3.4,
         "home_win_prob": 0.604,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.442,
+        "spread_cover_prob": 0.443,
         "total_line": 7.5,
         "over_prob": 0.487,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.558,
+        "spread_pick_prob": 0.557,
         "total_pick": "under",
         "total_pick_prob": 0.513,
         "spread_favorite": "home"
@@ -161129,7 +161235,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 823513,
-        "generated_at": "2026-08-08T18:51:02.378554+00:00",
+        "generated_at": "2026-08-08T19:07:16.362182+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.58,
         "away_exp_runs": 2.68,
@@ -170102,7 +170208,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 824724,
-        "generated_at": "2026-08-08T18:51:02.378554+00:00",
+        "generated_at": "2026-08-08T19:07:16.362182+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 5.15,
         "away_exp_runs": 3.12,
@@ -170110,14 +170216,14 @@
         "spread_line": 1.5,
         "spread_cover_prob": 0.521,
         "total_line": 7.5,
-        "over_prob": 0.515,
+        "over_prob": 0.516,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "home",
         "spread_pick_prob": 0.521,
         "total_pick": "over",
-        "total_pick_prob": 0.515,
+        "total_pick_prob": 0.516,
         "spread_favorite": "home"
       },
       "highlights": [],
@@ -174234,6 +174340,12 @@
           }
         ],
         "injuries": [
+          {
+            "player_name": "Adley Rutschman",
+            "date": "2026-08-03",
+            "status": "IL",
+            "description": "Boston Red Sox placed C Adley Rutschman on the 10-day injured list. Left wrist inflammation."
+          },
           {
             "player_name": "Curtis Mead",
             "date": "2026-07-29",
@@ -178772,7 +178884,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 823835,
-        "generated_at": "2026-08-08T18:51:02.378554+00:00",
+        "generated_at": "2026-08-08T19:07:16.362182+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 5.0,
         "away_exp_runs": 3.9,
@@ -187754,20 +187866,20 @@
       "live_score": null,
       "projection": {
         "game_pk": 823751,
-        "generated_at": "2026-08-08T18:51:02.378554+00:00",
+        "generated_at": "2026-08-08T19:07:16.362182+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 5.01,
         "away_exp_runs": 2.38,
         "home_win_prob": 0.743,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.581,
+        "spread_cover_prob": 0.58,
         "total_line": 6.5,
         "over_prob": 0.53,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "home",
-        "spread_pick_prob": 0.581,
+        "spread_pick_prob": 0.58,
         "total_pick": "over",
         "total_pick_prob": 0.53,
         "spread_favorite": "home"
@@ -196790,7 +196902,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 824078,
-        "generated_at": "2026-08-08T18:51:02.378554+00:00",
+        "generated_at": "2026-08-08T19:07:16.362182+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.48,
         "away_exp_runs": 3.16,
@@ -196798,14 +196910,14 @@
         "spread_line": 1.5,
         "spread_cover_prob": 0.35,
         "total_line": 6.5,
-        "over_prob": 0.46,
+        "over_prob": 0.461,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
         "spread_pick_prob": 0.65,
         "total_pick": "under",
-        "total_pick_prob": 0.54,
+        "total_pick_prob": 0.539,
         "spread_favorite": "home"
       },
       "highlights": [],
@@ -201698,14 +201810,14 @@
               "doubles": 1,
               "triples": 1,
               "home_runs": 2,
-              "rbi": 7,
+              "rbi": 8,
               "runs": 11,
               "base_on_balls": 7,
               "strike_outs": 8,
               "total_bases": 19,
               "hit_by_pitch": 0,
               "stolen_bases": 4,
-              "h_r_rbi": 28,
+              "h_r_rbi": 29,
               "avg": 0.4,
               "slg": 0.76,
               "babip": 0.533,
@@ -201718,14 +201830,14 @@
               "doubles": 6,
               "triples": 2,
               "home_runs": 5,
-              "rbi": 15,
+              "rbi": 16,
               "runs": 16,
               "base_on_balls": 10,
               "strike_outs": 21,
               "total_bases": 45,
               "hit_by_pitch": 0,
               "stolen_bases": 5,
-              "h_r_rbi": 51,
+              "h_r_rbi": 52,
               "avg": 0.333,
               "slg": 0.75,
               "babip": 0.441,
@@ -201738,14 +201850,14 @@
               "doubles": 28,
               "triples": 7,
               "home_runs": 30,
-              "rbi": 87,
+              "rbi": 88,
               "runs": 99,
               "base_on_balls": 71,
               "strike_outs": 176,
               "total_bases": 290,
               "hit_by_pitch": 15,
               "stolen_bases": 36,
-              "h_r_rbi": 344,
+              "h_r_rbi": 345,
               "avg": 0.266,
               "slg": 0.488,
               "babip": 0.33,
@@ -201833,7 +201945,7 @@
                 "doubles": 16,
                 "triples": 2,
                 "home_runs": 12,
-                "rbi": 34,
+                "rbi": 35,
                 "runs": 41,
                 "base_on_balls": 30,
                 "strike_outs": 76,
@@ -201962,9 +202074,9 @@
               },
               {
                 "label": "RBIs",
-                "average": 0.9,
+                "average": 1.0,
                 "primary_line": 0.5,
-                "today_projection": 0.76,
+                "today_projection": 0.79,
                 "lean": "over",
                 "hit_rates": [
                   {
@@ -201983,7 +202095,7 @@
                   1,
                   4,
                   0,
-                  1
+                  2
                 ],
                 "dates": [
                   "2026-07-29",
@@ -202076,9 +202188,9 @@
               },
               {
                 "label": "Hits + Runs + RBIs",
-                "average": 3.4,
+                "average": 3.5,
                 "primary_line": 2.5,
-                "today_projection": 2.79,
+                "today_projection": 2.82,
                 "lean": "over",
                 "hit_rates": [
                   {
@@ -202097,7 +202209,7 @@
                   4,
                   9,
                   4,
-                  4
+                  5
                 ],
                 "dates": [
                   "2026-07-29",
@@ -205850,11 +205962,11 @@
       "live_score": null,
       "projection": {
         "game_pk": 824564,
-        "generated_at": "2026-08-08T18:51:02.378554+00:00",
+        "generated_at": "2026-08-08T19:07:16.362182+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.02,
         "away_exp_runs": 3.48,
-        "home_win_prob": 0.551,
+        "home_win_prob": 0.552,
         "spread_line": 1.5,
         "spread_cover_prob": 0.383,
         "total_line": 6.5,
@@ -214877,20 +214989,20 @@
       "live_score": null,
       "projection": {
         "game_pk": 823020,
-        "generated_at": "2026-08-08T18:51:02.378554+00:00",
+        "generated_at": "2026-08-08T19:07:16.362182+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.61,
         "away_exp_runs": 3.87,
         "home_win_prob": 0.565,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.411,
+        "spread_cover_prob": 0.41,
         "total_line": 7.5,
         "over_prob": 0.536,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.589,
+        "spread_pick_prob": 0.59,
         "total_pick": "over",
         "total_pick_prob": 0.536,
         "spread_favorite": "home"
@@ -223872,7 +223984,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 822862,
-        "generated_at": "2026-08-08T18:51:02.378554+00:00",
+        "generated_at": "2026-08-08T19:07:16.362182+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.68,
         "away_exp_runs": 3.8,
@@ -223880,14 +223992,14 @@
         "spread_line": 1.5,
         "spread_cover_prob": 0.324,
         "total_line": 6.5,
-        "over_prob": 0.548,
+        "over_prob": 0.546,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
         "spread_pick_prob": 0.656,
         "total_pick": "over",
-        "total_pick_prob": 0.548,
+        "total_pick_prob": 0.546,
         "spread_favorite": "away"
       },
       "highlights": [],
@@ -232840,16 +232952,16 @@
         ],
         "injuries": [
           {
+            "player_name": "Adley Rutschman",
+            "date": "2026-08-03",
+            "status": "IL",
+            "description": "Boston Red Sox placed C Adley Rutschman on the 10-day injured list. Left wrist inflammation."
+          },
+          {
             "player_name": "Samuel Basallo",
             "date": "2026-07-22",
             "status": "IL",
             "description": "Baltimore Orioles placed C Samuel Basallo on the 10-day injured list retroactive to July 20, 2026. Right shoulder inflammation."
-          },
-          {
-            "player_name": "Adley Rutschman",
-            "date": "2026-07-20",
-            "status": "IL",
-            "description": "Baltimore Orioles placed C Adley Rutschman on the 10-day injured list retroactive to July 19, 2026. Left wrist inflammation."
           },
           {
             "player_name": "Ryan Helsley",
@@ -232886,7 +232998,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 823190,
-        "generated_at": "2026-08-08T18:51:02.378554+00:00",
+        "generated_at": "2026-08-08T19:07:16.362182+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 2.02,
         "away_exp_runs": 4.02,
@@ -232894,14 +233006,14 @@
         "spread_line": 1.5,
         "spread_cover_prob": 0.132,
         "total_line": 5.5,
-        "over_prob": 0.503,
+        "over_prob": 0.504,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "away",
         "spread_pick_prob": 0.523,
         "total_pick": "over",
-        "total_pick_prob": 0.503,
+        "total_pick_prob": 0.504,
         "spread_favorite": "away"
       },
       "highlights": [],
@@ -241943,7 +242055,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 823104,
-        "generated_at": "2026-08-08T18:51:02.378554+00:00",
+        "generated_at": "2026-08-08T19:07:16.362182+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.1,
         "away_exp_runs": 3.41,
@@ -241956,7 +242068,7 @@
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
-        "spread_pick_prob": 0.653,
+        "spread_pick_prob": 0.652,
         "total_pick": "under",
         "total_pick_prob": 0.554,
         "spread_favorite": "away"
@@ -250605,7 +250717,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 825050,
-        "generated_at": "2026-08-08T18:51:02.378554+00:00",
+        "generated_at": "2026-08-08T19:07:16.362182+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.05,
         "away_exp_runs": 4.04,
@@ -259622,20 +259734,20 @@
       "live_score": null,
       "projection": {
         "game_pk": 823268,
-        "generated_at": "2026-08-08T18:51:02.378554+00:00",
+        "generated_at": "2026-08-08T19:07:16.362182+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.28,
         "away_exp_runs": 4.21,
         "home_win_prob": 0.506,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.355,
+        "spread_cover_prob": 0.354,
         "total_line": 7.5,
         "over_prob": 0.538,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.645,
+        "spread_pick_prob": 0.646,
         "total_pick": "over",
         "total_pick_prob": 0.538,
         "spread_favorite": "home"
@@ -267950,7 +268062,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 822780,
-        "generated_at": "2026-08-08T18:51:02.378554+00:00",
+        "generated_at": "2026-08-08T19:07:16.362182+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 2.79,
         "away_exp_runs": 4.95,
@@ -267958,14 +268070,14 @@
         "spread_line": 1.5,
         "spread_cover_prob": 0.17,
         "total_line": 7.5,
-        "over_prob": 0.467,
+        "over_prob": 0.465,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "away",
         "spread_pick_prob": 0.535,
         "total_pick": "under",
-        "total_pick_prob": 0.533,
+        "total_pick_prob": 0.535,
         "spread_favorite": "away"
       },
       "highlights": [],
@@ -276259,6 +276371,12 @@
         ],
         "injuries": [
           {
+            "player_name": "Adley Rutschman",
+            "date": "2026-08-03",
+            "status": "IL",
+            "description": "Boston Red Sox placed C Adley Rutschman on the 10-day injured list. Left wrist inflammation."
+          },
+          {
             "player_name": "Curtis Mead",
             "date": "2026-07-29",
             "status": "IL",
@@ -276287,7 +276405,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 824887,
-        "generated_at": "2026-08-08T18:51:02.378554+00:00",
+        "generated_at": "2026-08-08T19:07:16.362182+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.85,
         "away_exp_runs": 3.64,
@@ -284938,7 +285056,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 823675,
-        "generated_at": "2026-08-08T18:51:02.378554+00:00",
+        "generated_at": "2026-08-08T19:07:16.362182+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.54,
         "away_exp_runs": 4.24,
@@ -284946,14 +285064,14 @@
         "spread_line": 1.5,
         "spread_cover_prob": 0.377,
         "total_line": 8.5,
-        "over_prob": 0.471,
+        "over_prob": 0.47,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
         "spread_pick_prob": 0.623,
         "total_pick": "under",
-        "total_pick_prob": 0.529,
+        "total_pick_prob": 0.53,
         "spread_favorite": "home"
       },
       "highlights": [],
@@ -293231,16 +293349,16 @@
         ],
         "injuries": [
           {
+            "player_name": "Adley Rutschman",
+            "date": "2026-08-03",
+            "status": "IL",
+            "description": "Boston Red Sox placed C Adley Rutschman on the 10-day injured list. Left wrist inflammation."
+          },
+          {
             "player_name": "Samuel Basallo",
             "date": "2026-07-22",
             "status": "IL",
             "description": "Baltimore Orioles placed C Samuel Basallo on the 10-day injured list retroactive to July 20, 2026. Right shoulder inflammation."
-          },
-          {
-            "player_name": "Adley Rutschman",
-            "date": "2026-07-20",
-            "status": "IL",
-            "description": "Baltimore Orioles placed C Adley Rutschman on the 10-day injured list retroactive to July 19, 2026. Left wrist inflammation."
           },
           {
             "player_name": "Ryan Helsley",
@@ -293277,11 +293395,11 @@
       "live_score": null,
       "projection": {
         "game_pk": 823018,
-        "generated_at": "2026-08-08T18:51:02.378554+00:00",
+        "generated_at": "2026-08-08T19:07:16.362182+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.25,
         "away_exp_runs": 3.7,
-        "home_win_prob": 0.455,
+        "home_win_prob": 0.454,
         "spread_line": 1.5,
         "spread_cover_prob": 0.284,
         "total_line": 6.5,
@@ -301944,13 +302062,13 @@
       "live_score": null,
       "projection": {
         "game_pk": 823998,
-        "generated_at": "2026-08-08T18:51:02.378554+00:00",
+        "generated_at": "2026-08-08T19:07:16.362182+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.47,
         "away_exp_runs": 3.84,
         "home_win_prob": 0.464,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.298,
+        "spread_cover_prob": 0.299,
         "total_line": 6.5,
         "over_prob": 0.53,
         "home_score_line": null,
@@ -310248,7 +310366,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 823265,
-        "generated_at": "2026-08-08T18:51:02.378554+00:00",
+        "generated_at": "2026-08-08T19:07:16.362182+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.7,
         "away_exp_runs": 3.97,
@@ -318574,13 +318692,13 @@
       "live_score": null,
       "projection": {
         "game_pk": 824969,
-        "generated_at": "2026-08-08T18:51:02.378554+00:00",
+        "generated_at": "2026-08-08T19:07:16.362182+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.08,
         "away_exp_runs": 6.92,
-        "home_win_prob": 0.305,
+        "home_win_prob": 0.304,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.2,
+        "spread_cover_prob": 0.199,
         "total_line": 10.5,
         "over_prob": 0.481,
         "home_score_line": null,
@@ -326906,11 +327024,11 @@
       "live_score": null,
       "projection": {
         "game_pk": 825048,
-        "generated_at": "2026-08-08T18:51:02.378554+00:00",
+        "generated_at": "2026-08-08T19:07:16.362182+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 6.49,
         "away_exp_runs": 4.81,
-        "home_win_prob": 0.616,
+        "home_win_prob": 0.617,
         "spread_line": 1.5,
         "spread_cover_prob": 0.494,
         "total_line": 10.5,
@@ -335221,7 +335339,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 823189,
-        "generated_at": "2026-08-08T18:51:02.378554+00:00",
+        "generated_at": "2026-08-08T19:07:16.362182+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.17,
         "away_exp_runs": 4.39,
@@ -343558,7 +343676,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 823918,
-        "generated_at": "2026-08-08T18:51:02.378554+00:00",
+        "generated_at": "2026-08-08T19:07:16.362182+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.82,
         "away_exp_runs": 2.55,
@@ -352699,7 +352817,7 @@
         "date": "2026-08-08",
         "game_time_utc": "2026-08-08T23:15:00Z",
         "game_pk": 824565,
-        "lineup_confirmed": false,
+        "lineup_confirmed": true,
         "score": 3.5,
         "reasons": [
           "pitching well above his season norm over his last few starts",
@@ -352726,7 +352844,7 @@
         "date": "2026-08-08",
         "game_time_utc": "2026-08-08T22:45:00Z",
         "game_pk": 822701,
-        "lineup_confirmed": false,
+        "lineup_confirmed": true,
         "score": 3.0,
         "reasons": [
           "4 hitters in tonight's lineup are in a tough matchup against him",
@@ -352751,7 +352869,7 @@
         "date": "2026-08-08",
         "game_time_utc": "2026-08-09T00:10:00Z",
         "game_pk": 825049,
-        "lineup_confirmed": false,
+        "lineup_confirmed": true,
         "score": 3.0,
         "reasons": [
           "4 hitters in tonight's lineup are in a tough matchup against him",
@@ -352857,7 +352975,7 @@
         "date": "2026-08-08",
         "game_time_utc": "2026-08-08T23:15:00Z",
         "game_pk": 823267,
-        "lineup_confirmed": false,
+        "lineup_confirmed": true,
         "score": 1.5,
         "reasons": [
           "pitching well above his season norm over his last few starts"
@@ -353324,7 +353442,7 @@
         "date": "2026-08-08",
         "game_time_utc": "2026-08-08T23:15:00Z",
         "game_pk": 824565,
-        "lineup_confirmed": false,
+        "lineup_confirmed": true,
         "score": 3.0,
         "reasons": [
           "allowing fewer runs than usual over his last few starts",
@@ -353399,7 +353517,7 @@
         "date": "2026-08-08",
         "game_time_utc": "2026-08-08T22:45:00Z",
         "game_pk": 822701,
-        "lineup_confirmed": false,
+        "lineup_confirmed": true,
         "score": 1.5,
         "reasons": [
           "4 hitters in tonight's lineup are in a tough matchup against him"
@@ -353423,7 +353541,7 @@
         "date": "2026-08-08",
         "game_time_utc": "2026-08-08T23:15:00Z",
         "game_pk": 823267,
-        "lineup_confirmed": false,
+        "lineup_confirmed": true,
         "score": 1.5,
         "reasons": [
           "allowing fewer runs than usual over his last few starts"
@@ -353449,7 +353567,7 @@
         "date": "2026-08-08",
         "game_time_utc": "2026-08-08T23:15:00Z",
         "game_pk": 824565,
-        "lineup_confirmed": false,
+        "lineup_confirmed": true,
         "score": 1.5,
         "reasons": [
           "allowing fewer runs than usual over his last few starts"
@@ -353475,7 +353593,7 @@
         "date": "2026-08-08",
         "game_time_utc": "2026-08-09T00:10:00Z",
         "game_pk": 825049,
-        "lineup_confirmed": false,
+        "lineup_confirmed": true,
         "score": 1.5,
         "reasons": [
           "allowing fewer runs than usual over his last few starts"

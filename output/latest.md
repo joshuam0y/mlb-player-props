@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-08T18:53:37.882203+00:00_
+_Generated 2026-08-08T19:09:51.567707+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -60,7 +60,7 @@ _Generated 2026-08-08T18:53:37.882203+00:00_
 ## 2026-08-08 - Atlanta Braves @ New York Yankees (Warmup)
 _Yankee Stadium [hitter-friendly park]_
 Projected score: Atlanta Braves 3.55 - New York Yankees 2.76
-Model likes: **Atlanta Braves** to win (58%) | Run line: **New York Yankees** +1.5 (61% to cover) | Total 5.5: lean **OVER** (54%)
+Model likes: **Atlanta Braves** to win (59%) | Run line: **New York Yankees** +1.5 (61% to cover) | Total 5.5: lean **OVER** (54%)
 
 ### Atlanta Braves lineup -- CONFIRMED
 _Facing a rested bullpen: 3.7 relief IP in last 2 days (ratio 0.65)_
@@ -153,7 +153,7 @@ _Facing a taxed bullpen: 7.7 relief IP in last 2 days (ratio 1.64)_
 ## 2026-08-08 - Toronto Blue Jays @ Philadelphia Phillies (Pre-Game)
 _Citizens Bank Park [hitter-friendly park]_
 Projected score: Toronto Blue Jays 4.36 - Philadelphia Phillies 5.95
-Model likes: **Philadelphia Phillies** to win (62%) | Run line: **Toronto Blue Jays** +1.5 (52% to cover) | Total 9.5: lean **OVER** (51%)
+Model likes: **Philadelphia Phillies** to win (62%) | Run line: **Toronto Blue Jays** +1.5 (51% to cover) | Total 9.5: lean **OVER** (51%)
 
 ### Toronto Blue Jays lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 7.7 relief IP in last 2 days (ratio 1.61)_
@@ -212,7 +212,7 @@ _Facing a taxed bullpen: 8.0 relief IP in last 2 days (ratio 1.42)_
 - Endy Rodríguez (S) -- L7: 7H 2HR 3RBI 13TB (0.292 avg) -- home split: 0.229 avg
 - Henry Davis (R) [TOUGH MATCHUP: pitcher holds this hand to 0.0 avg-against] -- L7: 3H 0HR 2RBI 3TB (0.15 avg) -- home split: 0.19 avg
 
-## 2026-08-08 - Cincinnati Reds @ Washington Nationals (Scheduled)
+## 2026-08-08 - Cincinnati Reds @ Washington Nationals (Pre-Game)
 _Nationals Park_
 Projected score: Cincinnati Reds 3.96 - Washington Nationals 3.43
 Model likes: **Cincinnati Reds** to win (55%) | Run line: **Washington Nationals** +1.5 (62% to cover) | Total 6.5: lean **OVER** (54%)
@@ -280,7 +280,7 @@ Model likes: **Chicago Cubs** to win (65%) | Run line: **Kansas City Royals** +1
 ### Chicago Cubs lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 10.7 relief IP in last 2 days (ratio 2.04)_
 **Probable P: Clay Holmes (R)** [INJURY: IL] -- L5: no data
-- Pete Crow-Armstrong (L) [MATCHUP EDGE: pitcher hits 0.283 avg-against vs this hand] [5-game hit streak] -- L7: 10H 2HR 7RBI 19TB (0.4 avg) -- away split: 0.269 avg
+- Pete Crow-Armstrong (L) [MATCHUP EDGE: pitcher hits 0.283 avg-against vs this hand] [5-game hit streak] -- L7: 10H 2HR 8RBI 19TB (0.4 avg) -- away split: 0.269 avg
 - Michael Busch (L) [MATCHUP EDGE: pitcher hits 0.283 avg-against vs this hand] -- L7: 8H 1HR 5RBI 12TB (0.296 avg) -- away split: 0.225 avg
 - Ian Happ (S) [MATCHUP EDGE: pitcher hits 0.283 avg-against vs this hand] -- L7: 0H 0HR 0RBI 0TB (0.0 avg) -- away split: 0.198 avg
 - Nico Hoerner (R) -- L7: 8H 2HR 4RBI 15TB (0.286 avg) -- away split: 0.249 avg
@@ -392,7 +392,7 @@ _Facing a taxed bullpen: 8.0 relief IP in last 2 days (ratio 1.8)_
 - #8 Drew Cavanaugh (L) -- L7: 5H 0HR 2RBI 6TB (0.294 avg) -- home split: 0.269 avg
 - #9 Christian Koss (R) -- L7: 3H 0HR 0RBI 3TB (0.15 avg) -- home split: 0.087 avg
 
-## 2026-08-08 - Houston Astros @ San Diego Padres (Scheduled)
+## 2026-08-08 - Houston Astros @ San Diego Padres (Pre-Game)
 _Petco Park [pitcher-friendly park]_
 Projected score: Houston Astros 3.73 - San Diego Padres 2.72
 Model likes: **Houston Astros** to win (61%) | Run line: **San Diego Padres** +1.5 (58% to cover) | Total 5.5: lean **OVER** (55%)
@@ -422,7 +422,7 @@ _Facing a taxed bullpen: 9.0 relief IP in last 2 days (ratio 1.4)_
 - Jase Bowen (R) -- L7: 3H 1HR 1RBI 6TB (0.176 avg) -- home split: 0.182 avg
 - Gavin Sheets (L) -- L7: 1H 0HR 1RBI 1TB (0.083 avg) -- home split: 0.169 avg
 
-## 2026-08-08 - Cleveland Guardians @ Chicago White Sox (Scheduled)
+## 2026-08-08 - Cleveland Guardians @ Chicago White Sox (Pre-Game)
 _Rate Field_
 Projected score: Cleveland Guardians 3.76 - Chicago White Sox 3.88
 Model likes: **Chicago White Sox** to win (51%) | Run line: **Cleveland Guardians** +1.5 (65% to cover) | Total 7.5: lean **UNDER** (54%)
@@ -452,7 +452,7 @@ _Facing a taxed bullpen: 17.0 relief IP in last 2 days (ratio 2.58)_
 - Andrew Benintendi (L) [3-game hit streak] -- L7: 7H 2HR 4RBI 15TB (0.318 avg) -- home split: 0.234 avg
 - Randal Grichuk (R) [likely BABIP-driven, not a real power uptick] -- L7: 6H 0HR 0RBI 8TB (0.4 avg) -- home split: 0.263 avg
 
-## 2026-08-08 - Los Angeles Dodgers @ Arizona Diamondbacks (Scheduled)
+## 2026-08-08 - Los Angeles Dodgers @ Arizona Diamondbacks (Pre-Game)
 _Chase Field [hitter-friendly park]_
 Projected score: Los Angeles Dodgers 4.77 - Arizona Diamondbacks 3.36
 Model likes: **Los Angeles Dodgers** to win (62%) | Run line: **Arizona Diamondbacks** +1.5 (53% to cover) | Total 7.5: lean **OVER** (50%)
@@ -728,7 +728,7 @@ Model likes: **Kansas City Royals** to win (53%) | Run line: **Chicago Cubs** +1
 ### Chicago Cubs lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 7.3 relief IP in last 2 days (ratio 1.4)_
 **Probable P: Matthew Boyd (L)** -- L5: 33.0 IP, 19 K, 10 ER, 2.73 ERA
-- Pete Crow-Armstrong (L) [5-game hit streak] -- L7: 10H 2HR 7RBI 19TB (0.4 avg) -- away split: 0.269 avg
+- Pete Crow-Armstrong (L) [5-game hit streak] -- L7: 10H 2HR 8RBI 19TB (0.4 avg) -- away split: 0.269 avg
 - Michael Busch (L) -- L7: 8H 1HR 5RBI 12TB (0.296 avg) -- away split: 0.225 avg
 - Ian Happ (S) -- L7: 0H 0HR 0RBI 0TB (0.0 avg) -- away split: 0.198 avg
 - Nico Hoerner (R) -- L7: 8H 2HR 4RBI 15TB (0.286 avg) -- away split: 0.249 avg
@@ -937,7 +937,7 @@ _Facing a rested bullpen: 2.3 relief IP in last 2 days (ratio 0.47)_
 ## 2026-08-09 - Houston Astros @ San Diego Padres (Scheduled)
 _Petco Park [pitcher-friendly park]_
 Projected score: Houston Astros 4.21 - San Diego Padres 4.28
-Model likes: **San Diego Padres** to win (51%) | Run line: **Houston Astros** +1.5 (64% to cover) | Total 7.5: lean **OVER** (54%)
+Model likes: **San Diego Padres** to win (51%) | Run line: **Houston Astros** +1.5 (65% to cover) | Total 7.5: lean **OVER** (54%)
 
 ### Houston Astros lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 4.0 relief IP in last 2 days (ratio 0.62)_
@@ -965,7 +965,7 @@ _Facing a rested bullpen: 4.0 relief IP in last 2 days (ratio 0.62)_
 ## 2026-08-10 - Boston Red Sox @ Toronto Blue Jays (Scheduled)
 _Rogers Centre_
 Projected score: Boston Red Sox 4.95 - Toronto Blue Jays 2.79
-Model likes: **Boston Red Sox** to win (70%) | Run line: **Boston Red Sox** -1.5 (54% to cover) | Total 7.5: lean **UNDER** (53%)
+Model likes: **Boston Red Sox** to win (70%) | Run line: **Boston Red Sox** -1.5 (53% to cover) | Total 7.5: lean **UNDER** (54%)
 
 ### Boston Red Sox lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1053,7 +1053,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-10 - Philadelphia Phillies @ St. Louis Cardinals (Scheduled)
 _Busch Stadium_
 Projected score: Philadelphia Phillies 3.7 - St. Louis Cardinals 3.25
-Model likes: **Philadelphia Phillies** to win (54%) | Run line: **St. Louis Cardinals** +1.5 (63% to cover) | Total 6.5: lean **UNDER** (51%)
+Model likes: **Philadelphia Phillies** to win (55%) | Run line: **St. Louis Cardinals** +1.5 (63% to cover) | Total 6.5: lean **UNDER** (51%)
 
 ### Philadelphia Phillies lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
