@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-08T21:01:30.876714+00:00_
+_Generated 2026-08-08T21:29:27.695208+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -182,8 +182,8 @@ _Facing a taxed bullpen: 7.7 relief IP in last 2 days (ratio 1.22)_
 
 ## 2026-08-08 - New York Mets @ Pittsburgh Pirates (Pre-Game)
 _PNC Park_
-Projected score: New York Mets 4.33 - Pittsburgh Pirates 4.36
-Model likes: **Pittsburgh Pirates** to win (50%) | Run line: **New York Mets** +1.5 (65% to cover) | Total 8.5: lean **UNDER** (54%)
+Projected score: New York Mets 4.33 - Pittsburgh Pirates 4.43
+Model likes: **Pittsburgh Pirates** to win (51%) | Run line: **New York Mets** +1.5 (64% to cover) | Total 8.5: lean **UNDER** (53%)
 
 ### New York Mets lineup -- CONFIRMED
 _Facing a taxed bullpen: 9.0 relief IP in last 2 days (ratio 1.71)_
@@ -206,10 +206,10 @@ _Facing a taxed bullpen: 8.0 relief IP in last 2 days (ratio 1.42)_
 - #3 Bryan Reynolds (S) -- L7: 7H 0HR 2RBI 8TB (0.25 avg) -- home split: 0.307 avg
 - #4 Spencer Horwitz (L) -- L7: 3H 0HR 4RBI 4TB (0.143 avg) -- home split: 0.293 avg
 - #5 Nick Gonzales (R) [TOUGH MATCHUP: pitcher holds this hand to 0.0 avg-against] [3-game hit streak] -- L7: 5H 0HR 1RBI 6TB (0.192 avg) -- home split: 0.298 avg
-- #6 Endy Rodríguez (S) -- L7: 7H 2HR 3RBI 13TB (0.292 avg) -- home split: 0.229 avg
+- #6 Ronny Simon (S) -- L7: 6H 0HR 1RBI 7TB (0.273 avg) -- home split: 0.5 avg
 - #7 Esmerlyn Valdez (R) [TOUGH MATCHUP: pitcher holds this hand to 0.0 avg-against] -- L7: 0H 0HR 2RBI 0TB (0.0 avg) -- home split: 0.282 avg
 - #8 Jacob Gonzalez (L) -- L7: 4H 1HR 2RBI 8TB (0.235 avg) -- home split: 0.222 avg
-- #9 Ronny Simon (S) -- L7: 6H 0HR 1RBI 7TB (0.273 avg) -- home split: 0.5 avg
+- #9 Henry Davis (R) [TOUGH MATCHUP: pitcher holds this hand to 0.0 avg-against] -- L7: 3H 0HR 2RBI 3TB (0.15 avg) -- home split: 0.19 avg
 
 ## 2026-08-08 - Cincinnati Reds @ Washington Nationals (Pre-Game)
 _Nationals Park_
@@ -305,7 +305,7 @@ _Facing a taxed bullpen: 8.0 relief IP in last 2 days (ratio 2.03)_
 ## 2026-08-08 - Baltimore Orioles @ Texas Rangers (Pre-Game)
 _Globe Life Field [hitter-friendly park]_
 Projected score: Baltimore Orioles 3.92 - Texas Rangers 3.54
-Model likes: **Baltimore Orioles** to win (54%) | Run line: **Texas Rangers** +1.5 (63% to cover) | Total 6.5: lean **OVER** (54%)
+Model likes: **Baltimore Orioles** to win (54%) | Run line: **Texas Rangers** +1.5 (63% to cover) | Total 6.5: lean **OVER** (55%)
 
 ### Baltimore Orioles lineup -- CONFIRMED
 **Probable P: Kyle Bradish (R)** -- L5: 28.0 IP, 21 K, 12 ER, 3.86 ERA
@@ -453,21 +453,21 @@ _Facing a taxed bullpen: 17.0 relief IP in last 2 days (ratio 2.58)_
 
 ## 2026-08-08 - Los Angeles Dodgers @ Arizona Diamondbacks (Pre-Game)
 _Chase Field [hitter-friendly park]_
-Projected score: Los Angeles Dodgers 4.77 - Arizona Diamondbacks 3.37
-Model likes: **Los Angeles Dodgers** to win (62%) | Run line: **Arizona Diamondbacks** +1.5 (53% to cover) | Total 7.5: lean **OVER** (51%)
+Projected score: Los Angeles Dodgers 4.89 - Arizona Diamondbacks 3.37
+Model likes: **Los Angeles Dodgers** to win (63%) | Run line: **Arizona Diamondbacks** +1.5 (52% to cover) | Total 7.5: lean **OVER** (52%)
 
-### Los Angeles Dodgers lineup -- PROJECTED (unconfirmed)
+### Los Angeles Dodgers lineup -- CONFIRMED
 _Facing a taxed bullpen: 8.7 relief IP in last 2 days (ratio 1.65)_
 **Probable P: Yoshinobu Yamamoto (R)** -- L5: 36.0 IP, 31 K, 12 ER, 3.0 ERA
-- Andy Pages (R) -- L7: 7H 1HR 4RBI 11TB (0.25 avg) -- away split: 0.24 avg
-- Kyle Tucker (L) [MATCHUP EDGE: pitcher hits 0.281 avg-against vs this hand] [5-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 8H 1HR 1RBI 11TB (0.4 avg) -- away split: 0.276 avg
-- Mookie Betts (R) -- L7: 6H 0HR 0RBI 6TB (0.24 avg) -- away split: 0.249 avg
-- Freddie Freeman (L) [MATCHUP EDGE: pitcher hits 0.281 avg-against vs this hand] [likely BABIP-driven, not a real power uptick] -- L7: 10H 0HR 2RBI 10TB (0.4 avg) -- away split: 0.336 avg
-- Tommy Edman (S) [MATCHUP EDGE: pitcher hits 0.281 avg-against vs this hand] -- L7: 4H 1HR 4RBI 7TB (0.154 avg) -- away split: 0.32 avg
-- Shohei Ohtani (L) [MATCHUP EDGE: pitcher hits 0.281 avg-against vs this hand] -- L7: 10H 3HR 5RBI 20TB (0.385 avg) -- away split: 0.294 avg
-- Teoscar Hernández (R) -- L7: 6H 2HR 3RBI 12TB (0.25 avg) -- away split: 0.257 avg
-- Max Muncy (L) [MATCHUP EDGE: pitcher hits 0.281 avg-against vs this hand] -- L7: 4H 1HR 3RBI 7TB (0.174 avg) -- away split: 0.268 avg -- news: 10 questions with Dodgers vet Max Muncy
-- Alex Call (R) -- L7: 1H 0HR 0RBI 2TB (0.125 avg) -- away split: 0.273 avg
+- #1 Shohei Ohtani (L) [MATCHUP EDGE: pitcher hits 0.281 avg-against vs this hand] -- L7: 10H 3HR 5RBI 20TB (0.385 avg) -- away split: 0.294 avg
+- #2 Andy Pages (R) -- L7: 7H 1HR 4RBI 11TB (0.25 avg) -- away split: 0.24 avg
+- #3 Freddie Freeman (L) [MATCHUP EDGE: pitcher hits 0.281 avg-against vs this hand] [likely BABIP-driven, not a real power uptick] -- L7: 10H 0HR 2RBI 10TB (0.4 avg) -- away split: 0.336 avg
+- #4 Max Muncy (L) [MATCHUP EDGE: pitcher hits 0.281 avg-against vs this hand] -- L7: 4H 1HR 3RBI 7TB (0.174 avg) -- away split: 0.268 avg -- news: 10 questions with Dodgers vet Max Muncy
+- #5 Mookie Betts (R) -- L7: 6H 0HR 0RBI 6TB (0.24 avg) -- away split: 0.249 avg
+- #6 Kyle Tucker (L) [MATCHUP EDGE: pitcher hits 0.281 avg-against vs this hand] [5-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 8H 1HR 1RBI 11TB (0.4 avg) -- away split: 0.276 avg
+- #7 Tommy Edman (S) [MATCHUP EDGE: pitcher hits 0.281 avg-against vs this hand] -- L7: 4H 1HR 4RBI 7TB (0.154 avg) -- away split: 0.32 avg
+- #8 Teoscar Hernández (R) -- L7: 6H 2HR 3RBI 12TB (0.25 avg) -- away split: 0.257 avg
+- #9 Hunter Feduccia (L) [MATCHUP EDGE: pitcher hits 0.281 avg-against vs this hand] -- L7: 4H 0HR 1RBI 5TB (0.267 avg) -- away split: 0.228 avg
 
 ### Arizona Diamondbacks lineup -- CONFIRMED
 _Facing a rested bullpen: 2.3 relief IP in last 2 days (ratio 0.47)_
@@ -574,7 +574,7 @@ Model likes: **Pittsburgh Pirates** to win (51%) | Run line: **New York Mets** +
 ## 2026-08-09 - Toronto Blue Jays @ Philadelphia Phillies (Scheduled)
 _Citizens Bank Park [hitter-friendly park]_
 Projected score: Toronto Blue Jays 3.4 - Philadelphia Phillies 4.95
-Model likes: **Philadelphia Phillies** to win (63%) | Run line: **Toronto Blue Jays** +1.5 (52% to cover) | Total 7.5: lean **OVER** (52%)
+Model likes: **Philadelphia Phillies** to win (64%) | Run line: **Toronto Blue Jays** +1.5 (52% to cover) | Total 7.5: lean **OVER** (52%)
 
 ### Toronto Blue Jays lineup -- PROJECTED (unconfirmed)
 **Probable P: Shane Bieber (R)** -- L5: 24.0 IP, 19 K, 8 ER, 3.0 ERA
@@ -876,7 +876,7 @@ _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.42)_
 ## 2026-08-09 - Tampa Bay Rays @ Seattle Mariners (Scheduled)
 _T-Mobile Park [pitcher-friendly park]_
 Projected score: Tampa Bay Rays 3.41 - Seattle Mariners 3.1
-Model likes: **Tampa Bay Rays** to win (53%) | Run line: **Seattle Mariners** +1.5 (65% to cover) | Total 6.5: lean **UNDER** (56%)
+Model likes: **Tampa Bay Rays** to win (53%) | Run line: **Seattle Mariners** +1.5 (65% to cover) | Total 6.5: lean **UNDER** (55%)
 
 ### Tampa Bay Rays lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.3 relief IP in last 2 days (ratio 0.51)_
@@ -937,7 +937,7 @@ _Facing a rested bullpen: 2.3 relief IP in last 2 days (ratio 0.47)_
 ## 2026-08-09 - Houston Astros @ San Diego Padres (Scheduled)
 _Petco Park [pitcher-friendly park]_
 Projected score: Houston Astros 4.21 - San Diego Padres 4.28
-Model likes: **San Diego Padres** to win (51%) | Run line: **Houston Astros** +1.5 (64% to cover) | Total 7.5: lean **OVER** (54%)
+Model likes: **San Diego Padres** to win (51%) | Run line: **Houston Astros** +1.5 (65% to cover) | Total 7.5: lean **OVER** (54%)
 
 ### Houston Astros lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 4.0 relief IP in last 2 days (ratio 0.62)_
@@ -1025,7 +1025,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-10 - Baltimore Orioles @ Minnesota Twins (Scheduled)
 _Target Field_
 Projected score: Baltimore Orioles 4.24 - Minnesota Twins 4.54
-Model likes: **Minnesota Twins** to win (53%) | Run line: **Baltimore Orioles** +1.5 (62% to cover) | Total 8.5: lean **UNDER** (53%)
+Model likes: **Minnesota Twins** to win (52%) | Run line: **Baltimore Orioles** +1.5 (62% to cover) | Total 8.5: lean **UNDER** (53%)
 
 ### Baltimore Orioles lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1171,7 +1171,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-10 - Colorado Rockies @ Arizona Diamondbacks (Scheduled)
 _Chase Field [hitter-friendly park]_
 Projected score: Colorado Rockies 4.81 - Arizona Diamondbacks 6.49
-Model likes: **Arizona Diamondbacks** to win (62%) | Run line: **Colorado Rockies** +1.5 (51% to cover) | Total 10.5: lean **OVER** (51%)
+Model likes: **Arizona Diamondbacks** to win (62%) | Run line: **Colorado Rockies** +1.5 (51% to cover) | Total 10.5: lean **OVER** (50%)
 
 ### Colorado Rockies lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
