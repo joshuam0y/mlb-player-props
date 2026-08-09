@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-09T02:39:42.177379+00:00_
+_Generated 2026-08-09T03:17:28.983086+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -409,7 +409,7 @@ _Facing a taxed bullpen: 9.0 relief IP in last 2 days (ratio 1.4)_
 - #8 Xander Bogaerts (R) [likely BABIP-driven, not a real power uptick] -- L7: 7H 0HR 1RBI 9TB (0.333 avg) -- home split: 0.209 avg
 - #9 Luis Rengifo (S) -- L7: 6H 0HR 0RBI 6TB (0.231 avg) -- home split: 0.219 avg
 
-## 2026-08-08 - Cleveland Guardians @ Chicago White Sox (Game Over)
+## 2026-08-08 - Cleveland Guardians @ Chicago White Sox (Final)
 _Rate Field_
 Final: Cleveland Guardians 3 - Chicago White Sox 6
 
@@ -594,7 +594,7 @@ _Facing a taxed bullpen: 10.0 relief IP in last 2 days (ratio 1.58)_
 ## 2026-08-09 - Atlanta Braves @ New York Yankees (Scheduled)
 _Yankee Stadium [hitter-friendly park]_
 Projected score: Atlanta Braves 2.68 - New York Yankees 3.58
-Model likes: **New York Yankees** to win (60%) | Run line: **Atlanta Braves** +1.5 (59% to cover) | Total 5.5: lean **OVER** (53%)
+Model likes: **New York Yankees** to win (60%) | Run line: **Atlanta Braves** +1.5 (60% to cover) | Total 5.5: lean **OVER** (53%)
 
 ### Atlanta Braves lineup -- PROJECTED (unconfirmed)
 **Probable P: Grant Holmes (R)** -- L5: 25.7 IP, 21 K, 9 ER, 3.16 ERA
@@ -807,7 +807,7 @@ _Facing a taxed bullpen: 7.3 relief IP in last 2 days (ratio 1.48)_
 ## 2026-08-09 - Baltimore Orioles @ Texas Rangers (Scheduled)
 _Globe Life Field [hitter-friendly park]_
 Projected score: Baltimore Orioles 3.8 - Texas Rangers 3.68
-Model likes: **Baltimore Orioles** to win (51%) | Run line: **Texas Rangers** +1.5 (66% to cover) | Total 6.5: lean **OVER** (55%)
+Model likes: **Baltimore Orioles** to win (51%) | Run line: **Texas Rangers** +1.5 (65% to cover) | Total 6.5: lean **OVER** (55%)
 
 ### Baltimore Orioles lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 7.7 relief IP in last 2 days (ratio 1.61)_
@@ -1045,7 +1045,7 @@ _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.41)_
 ## 2026-08-10 - Philadelphia Phillies @ St. Louis Cardinals (Scheduled)
 _Busch Stadium_
 Projected score: Philadelphia Phillies 3.7 - St. Louis Cardinals 3.25
-Model likes: **Philadelphia Phillies** to win (55%) | Run line: **St. Louis Cardinals** +1.5 (63% to cover) | Total 6.5: lean **UNDER** (51%)
+Model likes: **Philadelphia Phillies** to win (54%) | Run line: **St. Louis Cardinals** +1.5 (63% to cover) | Total 6.5: lean **UNDER** (51%)
 
 ### Philadelphia Phillies lineup -- PROJECTED (unconfirmed)
 - Justin Crawford (L) [3-game hit streak] -- L7: 7H 0HR 5RBI 11TB (0.412 avg) -- away split: 0.239 avg
@@ -1101,7 +1101,7 @@ Model likes: **Texas Rangers** to win (54%) | Run line: **Los Angeles Angels** +
 ## 2026-08-10 - Milwaukee Brewers @ San Diego Padres (Scheduled)
 _Petco Park [pitcher-friendly park]_
 Projected score: Milwaukee Brewers 3.97 - San Diego Padres 3.7
-Model likes: **Milwaukee Brewers** to win (52%) | Run line: **San Diego Padres** +1.5 (64% to cover) | Total 7.5: lean **UNDER** (54%)
+Model likes: **Milwaukee Brewers** to win (53%) | Run line: **San Diego Padres** +1.5 (64% to cover) | Total 7.5: lean **UNDER** (54%)
 
 ### Milwaukee Brewers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.47)_
@@ -1129,7 +1129,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.47)_
 ## 2026-08-10 - Tampa Bay Rays @ Athletics (Scheduled)
 _Sutter Health Park_
 Projected score: Tampa Bay Rays 6.92 - Athletics 4.08
-Model likes: **Tampa Bay Rays** to win (70%) | Run line: **Tampa Bay Rays** -1.5 (57% to cover) | Total 10.5: lean **UNDER** (52%)
+Model likes: **Tampa Bay Rays** to win (70%) | Run line: **Tampa Bay Rays** -1.5 (58% to cover) | Total 10.5: lean **UNDER** (52%)
 
 ### Tampa Bay Rays lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.64)_
@@ -1186,7 +1186,7 @@ _Facing a rested bullpen: 0.3 relief IP in last 2 days (ratio 0.06)_
 ## 2026-08-10 - Houston Astros @ San Francisco Giants (Scheduled)
 _Oracle Park [pitcher-friendly park]_
 Projected score: Houston Astros 4.39 - San Francisco Giants 4.17
-Model likes: **Houston Astros** to win (52%) | Run line: **San Francisco Giants** +1.5 (63% to cover) | Total 7.5: lean **OVER** (54%)
+Model likes: **Houston Astros** to win (52%) | Run line: **San Francisco Giants** +1.5 (63% to cover) | Total 7.5: lean **OVER** (55%)
 
 ### Houston Astros lineup -- PROJECTED (unconfirmed)
 - Cam Smith (R) -- L7: 10H 2HR 4RBI 17TB (0.435 avg) -- away split: 0.242 avg
