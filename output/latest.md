@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-09T22:29:27.833181+00:00_
+_Generated 2026-08-09T23:01:33.736332+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -384,10 +384,9 @@ _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.41)_
 - #8 Jonah Bride (R) -- L7: 2H 0HR 0RBI 2TB (0.154 avg)
 - #9 Cam Cauley (R) -- L7: 1H 0HR 0RBI 2TB (0.062 avg) -- home split: 0.241 avg
 
-## 2026-08-09 - Detroit Tigers @ San Francisco Giants (In Progress)
+## 2026-08-09 - Detroit Tigers @ San Francisco Giants (Game Over)
 _Oracle Park [pitcher-friendly park]_
-Projected score: Detroit Tigers 4.18 - San Francisco Giants 2.11
-Model likes: **Detroit Tigers** to win (72%) | Run line: **Detroit Tigers** -1.5 (53% to cover) | Total 5.5: lean **OVER** (53%)
+Final: Detroit Tigers 3 - San Francisco Giants 1
 
 ### Detroit Tigers lineup -- CONFIRMED
 _Facing a taxed bullpen: 11.7 relief IP in last 2 days (ratio 2.62)_
@@ -415,10 +414,9 @@ _Facing a taxed bullpen: 6.0 relief IP in last 2 days (ratio 1.25)_
 - #8 Grant McCray (L) -- L7: 0H 0HR 0RBI 0TB (0.0 avg) -- home split: 0.154 avg
 - #9 Christian Koss (R) [TOUGH MATCHUP: pitcher holds this hand to 0.171 avg-against] -- L7: 2H 0HR 0RBI 2TB (0.105 avg) -- home split: 0.077 avg
 
-## 2026-08-09 - Tampa Bay Rays @ Seattle Mariners (In Progress)
+## 2026-08-09 - Tampa Bay Rays @ Seattle Mariners (Game Over)
 _T-Mobile Park [pitcher-friendly park]_
-Projected score: Tampa Bay Rays 3.45 - Seattle Mariners 3.6
-Model likes: **Seattle Mariners** to win (52%) | Run line: **Tampa Bay Rays** +1.5 (66% to cover) | Total 6.5: lean **OVER** (50%)
+Final: Tampa Bay Rays 4 - Seattle Mariners 1
 
 ### Tampa Bay Rays lineup -- CONFIRMED
 _Facing a taxed bullpen: 6.3 relief IP in last 2 days (ratio 1.38)_
@@ -446,10 +444,9 @@ _Facing a taxed bullpen: 9.7 relief IP in last 2 days (ratio 1.76)_
 - #8 Weston Wilson (R) -- L7: 3H 0HR 0RBI 4TB (0.143 avg) -- home split: 0.182 avg
 - #9 Colt Emerson (L) -- L7: 6H 1HR 2RBI 9TB (0.273 avg) -- home split: 0.186 avg
 
-## 2026-08-09 - Los Angeles Dodgers @ Arizona Diamondbacks (In Progress)
+## 2026-08-09 - Los Angeles Dodgers @ Arizona Diamondbacks (Final)
 _Chase Field [hitter-friendly park]_
-Projected score: Los Angeles Dodgers 4.06 - Arizona Diamondbacks 4.35
-Model likes: **Arizona Diamondbacks** to win (53%) | Run line: **Los Angeles Dodgers** +1.5 (63% to cover) | Total 7.5: lean **OVER** (53%)
+Final: Los Angeles Dodgers 2 - Arizona Diamondbacks 4
 
 ### Los Angeles Dodgers lineup -- CONFIRMED
 _Facing a taxed bullpen: 6.3 relief IP in last 2 days (ratio 1.21)_
@@ -632,7 +629,7 @@ _Facing a taxed bullpen: 11.0 relief IP in last 2 days (ratio 2.19)_
 ## 2026-08-10 - Texas Rangers @ Los Angeles Angels (Scheduled)
 _Angel Stadium_
 Projected score: Texas Rangers 4.1 - Los Angeles Angels 3.51
-Model likes: **Texas Rangers** to win (55%) | Run line: **Los Angeles Angels** +1.5 (61% to cover) | Total 7.5: lean **UNDER** (54%)
+Model likes: **Texas Rangers** to win (56%) | Run line: **Los Angeles Angels** +1.5 (61% to cover) | Total 7.5: lean **UNDER** (54%)
 
 ### Texas Rangers lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 8.7 relief IP in last 2 days (ratio 1.5)_
@@ -662,8 +659,8 @@ _Facing a taxed bullpen: 10.0 relief IP in last 2 days (ratio 2.08)_
 
 ## 2026-08-10 - Milwaukee Brewers @ San Diego Padres (Scheduled)
 _Petco Park [pitcher-friendly park]_
-Projected score: Milwaukee Brewers 3.91 - San Diego Padres 2.81
-Model likes: **Milwaukee Brewers** to win (61%) | Run line: **San Diego Padres** +1.5 (57% to cover) | Total 6.5: lean **UNDER** (53%)
+Projected score: Milwaukee Brewers 3.47 - San Diego Padres 2.81
+Model likes: **Milwaukee Brewers** to win (57%) | Run line: **San Diego Padres** +1.5 (62% to cover) | Total 5.5: lean **OVER** (54%)
 
 ### Milwaukee Brewers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.47)_
@@ -680,6 +677,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.47)_
 
 ### San Diego Padres lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 8.3 relief IP in last 2 days (ratio 1.41)_
+**Probable P: Casey Mize (R)** -- L5: 25.0 IP, 18 K, 15 ER, 5.4 ERA
 - Jackson Merrill (L) [3-game hit streak] -- L7: 10H 2HR 8RBI 18TB (0.357 avg) -- home split: 0.24 avg
 - Ty France (R) [TOUGH MATCHUP: pitcher holds this hand to 0.207 avg-against] -- L7: 5H 0HR 1RBI 7TB (0.208 avg) -- home split: 0.285 avg
 - Luis Rengifo (S) -- L7: 6H 0HR 0RBI 6TB (0.231 avg) -- home split: 0.216 avg
@@ -724,7 +722,7 @@ _Facing a taxed bullpen: 7.7 relief IP in last 2 days (ratio 1.4)_
 ## 2026-08-10 - Colorado Rockies @ Arizona Diamondbacks (Scheduled)
 _Chase Field [hitter-friendly park]_
 Projected score: Colorado Rockies 4.92 - Arizona Diamondbacks 5.31
-Model likes: **Arizona Diamondbacks** to win (53%) | Run line: **Colorado Rockies** +1.5 (60% to cover) | Total 9.5: lean **OVER** (50%)
+Model likes: **Arizona Diamondbacks** to win (53%) | Run line: **Colorado Rockies** +1.5 (60% to cover) | Total 9.5: lean **OVER** (51%)
 
 ### Colorado Rockies lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.57)_
@@ -741,6 +739,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.57)_
 
 ### Arizona Diamondbacks lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 8.3 relief IP in last 2 days (ratio 1.68)_
+**Probable P: Michael Soroka (R)** -- L5: no data
 - Tim Tawa (R) [TOUGH MATCHUP: pitcher holds this hand to 0.195 avg-against] [5-game hit streak] -- L7: 10H 2HR 5RBI 16TB (0.385 avg) -- home split: 0.268 avg
 - Corbin Carroll (L) [MATCHUP EDGE: pitcher hits 0.269 avg-against vs this hand] -- L7: 4H 0HR 2RBI 7TB (0.148 avg) -- home split: 0.257 avg
 - Geraldo Perdomo (S) [MATCHUP EDGE: pitcher hits 0.269 avg-against vs this hand] [3-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 9H 0HR 1RBI 14TB (0.346 avg) -- home split: 0.235 avg
@@ -1113,24 +1112,25 @@ _Facing a taxed bullpen: 6.0 relief IP in last 2 days (ratio 1.25)_
 
 ## 2026-08-11 - Milwaukee Brewers @ San Diego Padres (Scheduled)
 _Petco Park [pitcher-friendly park]_
-Projected score: Milwaukee Brewers 3.91 - San Diego Padres 3.09
-Model likes: **Milwaukee Brewers** to win (58%) | Run line: **San Diego Padres** +1.5 (60% to cover) | Total 6.5: lean **UNDER** (50%)
+Projected score: Milwaukee Brewers 4.35 - San Diego Padres 3.09
+Model likes: **Milwaukee Brewers** to win (62%) | Run line: **San Diego Padres** +1.5 (55% to cover) | Total 6.5: lean **OVER** (54%)
 
 ### Milwaukee Brewers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 **Probable P: Kyle Harrison (L)** -- L5: 23.0 IP, 31 K, 10 ER, 3.91 ERA
 - Jackson Chourio (R) -- L7: 6H 4HR 5RBI 18TB (0.25 avg) -- away split: 0.279 avg
-- Brice Turang (L) [4-game hit streak] -- L7: 8H 0HR 5RBI 10TB (0.296 avg) -- away split: 0.249 avg
-- Garrett Mitchell (L) -- L7: 3H 0HR 1RBI 4TB (0.13 avg) -- away split: 0.247 avg
-- Luis Lara (S) -- L7: 3H 0HR 1RBI 3TB (0.158 avg) -- away split: 0.194 avg
+- Brice Turang (L) [MATCHUP EDGE: pitcher hits 0.291 avg-against vs this hand] [4-game hit streak] -- L7: 8H 0HR 5RBI 10TB (0.296 avg) -- away split: 0.249 avg
+- Garrett Mitchell (L) [MATCHUP EDGE: pitcher hits 0.291 avg-against vs this hand] -- L7: 3H 0HR 1RBI 4TB (0.13 avg) -- away split: 0.247 avg
+- Luis Lara (S) [MATCHUP EDGE: pitcher hits 0.291 avg-against vs this hand] -- L7: 3H 0HR 1RBI 3TB (0.158 avg) -- away split: 0.194 avg
 - William Contreras (R) -- L7: 4H 1HR 2RBI 7TB (0.148 avg) -- away split: 0.276 avg
-- Christian Yelich (L) -- L7: 4H 0HR 1RBI 5TB (0.174 avg) -- away split: 0.208 avg
+- Christian Yelich (L) [MATCHUP EDGE: pitcher hits 0.291 avg-against vs this hand] -- L7: 4H 0HR 1RBI 5TB (0.174 avg) -- away split: 0.208 avg
 - Andrew Vaughn (R) -- L7: 6H 1HR 6RBI 9TB (0.261 avg) -- away split: 0.33 avg
-- David Hamilton (L) -- L7: 5H 0HR 1RBI 7TB (0.263 avg) -- away split: 0.29 avg
-- Jake Bauers (L) -- L7: 8H 3HR 7RBI 17TB (0.333 avg) -- away split: 0.297 avg
+- David Hamilton (L) [MATCHUP EDGE: pitcher hits 0.291 avg-against vs this hand] -- L7: 5H 0HR 1RBI 7TB (0.263 avg) -- away split: 0.29 avg
+- Jake Bauers (L) [MATCHUP EDGE: pitcher hits 0.291 avg-against vs this hand] -- L7: 8H 3HR 7RBI 17TB (0.333 avg) -- away split: 0.297 avg
 
 ### San Diego Padres lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 4.0 relief IP in last 2 days (ratio 0.68)_
+**Probable P: Walker Buehler (R)** -- L5: 21.3 IP, 15 K, 12 ER, 5.06 ERA
 - Jackson Merrill (L) [3-game hit streak] -- L7: 10H 2HR 8RBI 18TB (0.357 avg) -- home split: 0.24 avg
 - Ty France (R) -- L7: 5H 0HR 1RBI 7TB (0.208 avg) -- home split: 0.285 avg
 - Luis Rengifo (S) -- L7: 6H 0HR 0RBI 6TB (0.231 avg) -- home split: 0.216 avg
