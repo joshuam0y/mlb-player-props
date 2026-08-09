@@ -298,7 +298,17 @@ async function loadReportForDate(date) {{
   const url = isToday ? 'latest.json' : ('props_' + date + '.json');
   let report = null;
   try {{
-    const res = await fetch(url, {{ cache: 'no-store' }});
+    // No cache:'no-store' override here (unlike the live-feed polls
+    // elsewhere on this page, which genuinely need every fetch to hit the
+    // network) -- this file is multi-MB, GitHub Pages already sends it
+    // with a real Cache-Control/ETag (max-age=600 for latest.json;
+    // props_{{date}}.json is a frozen, unchanging archive once written, so
+    // effectively cacheable forever), and forcing a full no-store
+    // re-download of it on every single page load/refresh was the main
+    // cause of My Bets feeling slow to open. A refresh within that
+    // freshness window now costs nothing, and one past it costs a cheap
+    // conditional revalidation instead of a full multi-MB re-fetch.
+    const res = await fetch(url);
     if (res.ok) report = await res.json();
   }} catch (e) {{ /* fall through to the latest.json fallback below */ }}
   if (!report && !isToday) {{
@@ -306,7 +316,7 @@ async function loadReportForDate(date) {{
     // freeze hour, if picked before local midnight rolled over) --
     // latest.json is still a reasonable best-effort fallback.
     try {{
-      const res = await fetch('latest.json', {{ cache: 'no-store' }});
+      const res = await fetch('latest.json');
       if (res.ok) report = await res.json();
     }} catch (e) {{ /* give up below */ }}
   }}
@@ -1039,28 +1049,38 @@ onAuthStateChanged(auth, function (user) {{
     signinView.style.display = 'none';
     appView.style.display = 'block';
     if (unsubscribeBets) unsubscribeBets();
-    // Waits for latest.json (playerIndex/teamIndex) before attaching the
-    // bets listener -- backfillMissingGamePks() needs those populated to
-    // do anything useful, and without this, the very first poll (right
-    // when the snapshot first fires) would run against empty indexes and
-    // silently find nothing until the NEXT 30s tick caught up instead.
-    ensureTodayIndex().then(function () {{
-      // No orderBy here on purpose: combining it with the where() below
-      // requires a Firestore composite index (a one-time manual step in
-      // the Firebase console) -- sorting the small per-user result set
-      // client-side avoids that entirely.
-      const q = query(collection(db, 'bets'), where('userId', '==', user.uid));
-      unsubscribeBets = onSnapshot(q, function (snap) {{
-        const bets = [];
-        snap.forEach(function (doc) {{ bets.push(Object.assign({{ id: doc.id }}, doc.data())); }});
-        bets.sort(function (a, b) {{ return (b.placed_date || '').localeCompare(a.placed_date || '') || String(b.id).localeCompare(String(a.id)); }});
-        currentBets = bets;
-        renderBets(currentBets);
+    // Kicked off in parallel with the Firestore listener below, NOT
+    // awaited before it -- ensureTodayIndex() fetches latest.json, a
+    // multi-MB file that (previously fetched with cache:'no-store' on
+    // every single page load) can take anywhere from several seconds to
+    // 15+ seconds depending on network conditions. The bets list itself
+    // doesn't need that index at all; only backfillMissingGamePks() inside
+    // pollAllBetGames() does, so that's the only thing that still waits on
+    // it (see below) -- previously this blocked even SEEING your own bet
+    // list on that slow fetch for no reason.
+    const indexReady = ensureTodayIndex();
+    // No orderBy here on purpose: combining it with the where() below
+    // requires a Firestore composite index (a one-time manual step in
+    // the Firebase console) -- sorting the small per-user result set
+    // client-side avoids that entirely.
+    const q = query(collection(db, 'bets'), where('userId', '==', user.uid));
+    unsubscribeBets = onSnapshot(q, function (snap) {{
+      const bets = [];
+      snap.forEach(function (doc) {{ bets.push(Object.assign({{ id: doc.id }}, doc.data())); }});
+      bets.sort(function (a, b) {{ return (b.placed_date || '').localeCompare(a.placed_date || '') || String(b.id).localeCompare(String(a.id)); }});
+      currentBets = bets;
+      renderBets(currentBets);
+      // Waits for the index here (usually already resolved by the time
+      // Firestore responds) -- backfillMissingGamePks() needs it populated
+      // to do anything useful, and without waiting, the very first poll
+      // would run against empty indexes and silently find nothing until
+      // the NEXT 30s tick caught up instead.
+      indexReady.then(function () {{
         pollAllBetGames();
         if (!livePollTimer) livePollTimer = setInterval(pollAllBetGames, 30000);
-      }}, function (err) {{
-        document.getElementById('bets-list').innerHTML = '<div class="empty">Error loading bets: ' + escapeHtml(err.message) + '</div>';
       }});
+    }}, function (err) {{
+      document.getElementById('bets-list').innerHTML = '<div class="empty">Error loading bets: ' + escapeHtml(err.message) + '</div>';
     }});
   }} else {{
     signinView.style.display = 'block';

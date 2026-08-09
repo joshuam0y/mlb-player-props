@@ -11,6 +11,18 @@ public news RSS feed -- no paid odds API, no scraping of betting sites.
 
 _Updated with every change going forward._
 
+- **2026-08-09** -- Fixed My Bets feeling slow to open. Root cause: every
+  single page load/refresh fetched latest.json (a ~10MB file) with
+  `cache: 'no-store'`, forcing a full multi-second-to-15+-second
+  re-download every time even though GitHub Pages already serves it with
+  a real 10-minute Cache-Control/ETag -- and worse, the bets list itself
+  wasn't even rendered until that fetch finished, even though it doesn't
+  need that data at all (only the search-autocomplete index and a
+  one-time game_pk backfill do). Now the Firestore bets listener attaches
+  immediately (so your bet list shows as fast as Firestore responds,
+  typically near-instant) while the index loads in parallel, and the
+  no-store override is gone so a refresh within the cache window costs no
+  network round-trip at all.
 - **2026-08-09** -- Follow-up audit on the progress-bar change below found
   and fixed four real issues: (1) the more-frequent live re-render could
   silently close/empty an open bet-edit form (and lose whatever was
