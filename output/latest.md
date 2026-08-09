@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-09T19:11:55.876603+00:00_
+_Generated 2026-08-09T19:41:24.124936+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -273,7 +273,7 @@ _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.83)_
 ## 2026-08-09 - Chicago Cubs @ Kansas City Royals (In Progress)
 _Kauffman Stadium [pitcher-friendly park]_
 Projected score: Chicago Cubs 3.16 - Kansas City Royals 3.53
-Model likes: **Kansas City Royals** to win (54%) | Run line: **Chicago Cubs** +1.5 (64% to cover) | Total 6.5: lean **UNDER** (53%)
+Model likes: **Kansas City Royals** to win (54%) | Run line: **Chicago Cubs** +1.5 (64% to cover) | Total 6.5: lean **UNDER** (54%)
 
 ### Chicago Cubs lineup -- CONFIRMED
 _Facing a taxed bullpen: 10.3 relief IP in last 2 days (ratio 1.97)_
@@ -365,7 +365,7 @@ _Facing a taxed bullpen: 7.3 relief IP in last 2 days (ratio 1.48)_
 ## 2026-08-09 - Baltimore Orioles @ Texas Rangers (In Progress)
 _Globe Life Field [hitter-friendly park]_
 Projected score: Baltimore Orioles 4.2 - Texas Rangers 3.5
-Model likes: **Baltimore Orioles** to win (57%) | Run line: **Texas Rangers** +1.5 (60% to cover) | Total 7.5: lean **UNDER** (54%)
+Model likes: **Baltimore Orioles** to win (56%) | Run line: **Texas Rangers** +1.5 (60% to cover) | Total 7.5: lean **UNDER** (54%)
 
 ### Baltimore Orioles lineup -- CONFIRMED
 _Facing a taxed bullpen: 7.7 relief IP in last 2 days (ratio 1.61)_
@@ -489,7 +489,7 @@ _Facing a taxed bullpen: 6.7 relief IP in last 2 days (ratio 1.32)_
 ## 2026-08-09 - Houston Astros @ San Diego Padres (Scheduled)
 _Petco Park [pitcher-friendly park]_
 Projected score: Houston Astros 4.04 - San Diego Padres 4.08
-Model likes: **San Diego Padres** to win (50%) | Run line: **Houston Astros** +1.5 (65% to cover) | Total 7.5: lean **OVER** (51%)
+Model likes: **San Diego Padres** to win (50%) | Run line: **Houston Astros** +1.5 (65% to cover) | Total 7.5: lean **OVER** (50%)
 
 ### Houston Astros lineup -- PROJECTED (unconfirmed)
 **Probable P: Cristian Javier (R)** [BULLPEN GAME: short-outing arm, no reliable individual matchup below] -- L5: 16.0 IP, 15 K, 6 ER, 3.38 ERA
@@ -639,7 +639,7 @@ _Facing a taxed bullpen: 6.0 relief IP in last 2 days (ratio 1.2)_
 ## 2026-08-10 - Texas Rangers @ Los Angeles Angels (Scheduled)
 _Angel Stadium_
 Projected score: Texas Rangers 4.1 - Los Angeles Angels 3.51
-Model likes: **Texas Rangers** to win (55%) | Run line: **Los Angeles Angels** +1.5 (61% to cover) | Total 7.5: lean **UNDER** (54%)
+Model likes: **Texas Rangers** to win (56%) | Run line: **Los Angeles Angels** +1.5 (61% to cover) | Total 7.5: lean **UNDER** (54%)
 
 ### Texas Rangers lineup -- PROJECTED (unconfirmed)
 **Probable P: MacKenzie Gore (L)** -- L5: 27.7 IP, 29 K, 12 ER, 3.9 ERA
@@ -756,7 +756,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.57)_
 ## 2026-08-10 - Houston Astros @ San Francisco Giants (Scheduled)
 _Oracle Park [pitcher-friendly park]_
 Projected score: Houston Astros 3.98 - San Francisco Giants 3.94
-Model likes: **Houston Astros** to win (50%) | Run line: **San Francisco Giants** +1.5 (66% to cover) | Total 7.5: lean **UNDER** (52%)
+Model likes: **Houston Astros** to win (50%) | Run line: **San Francisco Giants** +1.5 (66% to cover) | Total 7.5: lean **UNDER** (51%)
 
 ### Houston Astros lineup -- PROJECTED (unconfirmed)
 - Cam Smith (R) -- L7: 10H 2HR 4RBI 17TB (0.435 avg) -- away split: 0.242 avg
@@ -904,11 +904,12 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 
 ## 2026-08-11 - Seattle Mariners @ New York Yankees (Scheduled)
 _Yankee Stadium [hitter-friendly park]_
-Projected score: Seattle Mariners 3.16 - New York Yankees 4.52
-Model likes: **New York Yankees** to win (63%) | Run line: **Seattle Mariners** +1.5 (54% to cover) | Total 7.5: lean **UNDER** (54%)
+Projected score: Seattle Mariners 3.16 - New York Yankees 4.19
+Model likes: **New York Yankees** to win (60%) | Run line: **Seattle Mariners** +1.5 (57% to cover) | Total 6.5: lean **OVER** (53%)
 
 ### Seattle Mariners lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
+**Probable P: Bryan Woo (R)** -- L5: 28.0 IP, 30 K, 15 ER, 4.82 ERA
 - Cole Young (L) -- L7: 8H 0HR 1RBI 9TB (0.296 avg) -- away split: 0.27 avg
 - Dominic Canzone (L) -- L7: 3H 0HR 0RBI 3TB (0.111 avg) -- away split: 0.243 avg
 - Julio Rodríguez (R) [8-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 10H 2HR 5RBI 16TB (0.4 avg) -- away split: 0.238 avg
@@ -996,7 +997,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-11 - Baltimore Orioles @ Minnesota Twins (Scheduled)
 _Target Field_
 Projected score: Baltimore Orioles 4.11 - Minnesota Twins 3.17
-Model likes: **Baltimore Orioles** to win (59%) | Run line: **Minnesota Twins** +1.5 (58% to cover) | Total 6.5: lean **OVER** (53%)
+Model likes: **Baltimore Orioles** to win (59%) | Run line: **Minnesota Twins** +1.5 (58% to cover) | Total 6.5: lean **OVER** (52%)
 
 ### Baltimore Orioles lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
