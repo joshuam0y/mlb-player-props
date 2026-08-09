@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-09T23:01:13.337295+00:00_
+_Generated 2026-08-09T23:32:40.691268+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -294,10 +294,9 @@ _Facing a taxed bullpen: 6.0 relief IP in last 2 days (ratio 1.51)_
 - #8 Luke Maile (R) [3-game hit streak] -- L7: 6H 1HR 8RBI 11TB (0.316 avg) -- home split: 0.25 avg
 - #9 Kyle Isbel (L) -- L7: 3H 0HR 2RBI 3TB (0.158 avg) -- home split: 0.239 avg
 
-## 2026-08-09 - Cleveland Guardians @ Chicago White Sox (In Progress)
+## 2026-08-09 - Cleveland Guardians @ Chicago White Sox (Game Over)
 _Rate Field_
-Projected score: Cleveland Guardians 3.58 - Chicago White Sox 3.95
-Model likes: **Chicago White Sox** to win (54%) | Run line: **Cleveland Guardians** +1.5 (63% to cover) | Total 7.5: lean **UNDER** (55%)
+Final: Cleveland Guardians 3 - Chicago White Sox 5
 
 ### Cleveland Guardians lineup -- CONFIRMED
 _Facing a taxed bullpen: 11.7 relief IP in last 2 days (ratio 1.77)_
@@ -384,7 +383,7 @@ _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.41)_
 - #8 Jonah Bride (R) -- L7: 2H 0HR 0RBI 2TB (0.154 avg)
 - #9 Cam Cauley (R) -- L7: 1H 0HR 0RBI 2TB (0.062 avg) -- home split: 0.241 avg
 
-## 2026-08-09 - Detroit Tigers @ San Francisco Giants (Game Over)
+## 2026-08-09 - Detroit Tigers @ San Francisco Giants (Final)
 _Oracle Park [pitcher-friendly park]_
 Final: Detroit Tigers 3 - San Francisco Giants 1
 
@@ -414,7 +413,7 @@ _Facing a taxed bullpen: 6.0 relief IP in last 2 days (ratio 1.25)_
 - #8 Grant McCray (L) -- L7: 0H 0HR 0RBI 0TB (0.0 avg) -- home split: 0.154 avg
 - #9 Christian Koss (R) [TOUGH MATCHUP: pitcher holds this hand to 0.171 avg-against] -- L7: 2H 0HR 0RBI 2TB (0.105 avg) -- home split: 0.077 avg
 
-## 2026-08-09 - Tampa Bay Rays @ Seattle Mariners (Game Over)
+## 2026-08-09 - Tampa Bay Rays @ Seattle Mariners (Final)
 _T-Mobile Park [pitcher-friendly park]_
 Final: Tampa Bay Rays 4 - Seattle Mariners 1
 
@@ -660,7 +659,7 @@ _Facing a taxed bullpen: 10.0 relief IP in last 2 days (ratio 2.08)_
 ## 2026-08-10 - Milwaukee Brewers @ San Diego Padres (Scheduled)
 _Petco Park [pitcher-friendly park]_
 Projected score: Milwaukee Brewers 3.47 - San Diego Padres 2.81
-Model likes: **Milwaukee Brewers** to win (57%) | Run line: **San Diego Padres** +1.5 (62% to cover) | Total 5.5: lean **OVER** (53%)
+Model likes: **Milwaukee Brewers** to win (57%) | Run line: **San Diego Padres** +1.5 (62% to cover) | Total 5.5: lean **OVER** (54%)
 
 ### Milwaukee Brewers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.47)_
@@ -722,7 +721,7 @@ _Facing a taxed bullpen: 10.3 relief IP in last 2 days (ratio 1.88)_
 ## 2026-08-10 - Colorado Rockies @ Arizona Diamondbacks (Scheduled)
 _Chase Field [hitter-friendly park]_
 Projected score: Colorado Rockies 4.92 - Arizona Diamondbacks 5.31
-Model likes: **Arizona Diamondbacks** to win (53%) | Run line: **Colorado Rockies** +1.5 (60% to cover) | Total 9.5: lean **OVER** (51%)
+Model likes: **Arizona Diamondbacks** to win (53%) | Run line: **Colorado Rockies** +1.5 (60% to cover) | Total 9.5: lean **OVER** (50%)
 
 ### Colorado Rockies lineup -- PROJECTED (unconfirmed)
 **Probable P: Gabriel Hughes (R)** -- L5: 26.7 IP, 27 K, 14 ER, 4.72 ERA
@@ -738,6 +737,7 @@ Model likes: **Arizona Diamondbacks** to win (53%) | Run line: **Colorado Rockie
 
 ### Arizona Diamondbacks lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 8.3 relief IP in last 2 days (ratio 1.68)_
+**Probable P: Michael Soroka (R)** -- L5: no data
 - Tim Tawa (R) [TOUGH MATCHUP: pitcher holds this hand to 0.195 avg-against] [5-game hit streak] -- L7: 10H 2HR 5RBI 16TB (0.37 avg) -- home split: 0.265 avg
 - Corbin Carroll (L) [MATCHUP EDGE: pitcher hits 0.269 avg-against vs this hand] -- L7: 4H 0HR 2RBI 7TB (0.143 avg) -- home split: 0.256 avg
 - Geraldo Perdomo (S) [MATCHUP EDGE: pitcher hits 0.269 avg-against vs this hand] [3-game hit streak] -- L7: 9H 0HR 1RBI 14TB (0.333 avg) -- home split: 0.234 avg
@@ -960,7 +960,7 @@ _Facing a taxed bullpen: 8.0 relief IP in last 2 days (ratio 1.48)_
 ## 2026-08-11 - New York Mets @ Atlanta Braves (Scheduled)
 _Truist Park_
 Projected score: New York Mets 3.05 - Atlanta Braves 3.92
-Model likes: **Atlanta Braves** to win (59%) | Run line: **New York Mets** +1.5 (59% to cover) | Total 6.5: lean **UNDER** (50%)
+Model likes: **Atlanta Braves** to win (59%) | Run line: **New York Mets** +1.5 (59% to cover) | Total 6.5: lean **UNDER** (51%)
 
 ### New York Mets lineup -- PROJECTED (unconfirmed)
 **Probable P: Nolan McLean (R)** -- L5: 29.3 IP, 38 K, 9 ER, 2.76 ERA
@@ -990,7 +990,7 @@ _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.36)_
 ## 2026-08-11 - Baltimore Orioles @ Minnesota Twins (Scheduled)
 _Target Field_
 Projected score: Baltimore Orioles 4.11 - Minnesota Twins 3.17
-Model likes: **Baltimore Orioles** to win (59%) | Run line: **Minnesota Twins** +1.5 (58% to cover) | Total 6.5: lean **OVER** (53%)
+Model likes: **Baltimore Orioles** to win (59%) | Run line: **Minnesota Twins** +1.5 (58% to cover) | Total 6.5: lean **OVER** (52%)
 
 ### Baltimore Orioles lineup -- PROJECTED (unconfirmed)
 **Probable P: Brandon Young (R)** -- L5: 30.3 IP, 27 K, 12 ER, 3.56 ERA
