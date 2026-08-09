@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-09T07:29:09.460072+00:00_
+_Generated 2026-08-09T07:34:39.878389+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -90,7 +90,7 @@ _Facing a taxed bullpen: 9.0 relief IP in last 2 days (ratio 1.95)_
 ## 2026-08-09 - New York Mets @ Pittsburgh Pirates (Scheduled)
 _PNC Park_
 Projected score: New York Mets 3.75 - Pittsburgh Pirates 3.94
-Model likes: **Pittsburgh Pirates** to win (52%) | Run line: **New York Mets** +1.5 (65% to cover) | Total 7.5: lean **UNDER** (54%)
+Model likes: **Pittsburgh Pirates** to win (52%) | Run line: **New York Mets** +1.5 (64% to cover) | Total 7.5: lean **UNDER** (54%)
 
 ### New York Mets lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 9.0 relief IP in last 2 days (ratio 1.7)_
@@ -488,7 +488,7 @@ _Facing a taxed bullpen: 6.7 relief IP in last 2 days (ratio 1.32)_
 ## 2026-08-09 - Houston Astros @ San Diego Padres (Scheduled)
 _Petco Park [pitcher-friendly park]_
 Projected score: Houston Astros 4.04 - San Diego Padres 4.08
-Model likes: **San Diego Padres** to win (50%) | Run line: **Houston Astros** +1.5 (65% to cover) | Total 7.5: lean **OVER** (51%)
+Model likes: **San Diego Padres** to win (50%) | Run line: **Houston Astros** +1.5 (65% to cover) | Total 7.5: lean **OVER** (50%)
 
 ### Houston Astros lineup -- PROJECTED (unconfirmed)
 **Probable P: Cristian Javier (R)** [BULLPEN GAME: short-outing arm, no reliable individual matchup below] -- L5: 16.0 IP, 15 K, 6 ER, 3.38 ERA
@@ -633,7 +633,7 @@ _Facing a taxed bullpen: 6.0 relief IP in last 2 days (ratio 1.25)_
 ## 2026-08-10 - Texas Rangers @ Los Angeles Angels (Scheduled)
 _Angel Stadium_
 Projected score: Texas Rangers 3.96 - Los Angeles Angels 3.26
-Model likes: **Texas Rangers** to win (57%) | Run line: **Los Angeles Angels** +1.5 (61% to cover) | Total 6.5: lean **OVER** (52%)
+Model likes: **Texas Rangers** to win (57%) | Run line: **Los Angeles Angels** +1.5 (60% to cover) | Total 6.5: lean **OVER** (52%)
 
 ### Texas Rangers lineup -- PROJECTED (unconfirmed)
 - Wyatt Langford (R) -- L7: 2H 1HR 1RBI 6TB (0.087 avg) -- away split: 0.266 avg
@@ -660,7 +660,7 @@ Model likes: **Texas Rangers** to win (57%) | Run line: **Los Angeles Angels** +
 ## 2026-08-10 - Milwaukee Brewers @ San Diego Padres (Scheduled)
 _Petco Park [pitcher-friendly park]_
 Projected score: Milwaukee Brewers 3.91 - San Diego Padres 3.75
-Model likes: **Milwaukee Brewers** to win (52%) | Run line: **San Diego Padres** +1.5 (65% to cover) | Total 7.5: lean **UNDER** (54%)
+Model likes: **Milwaukee Brewers** to win (51%) | Run line: **San Diego Padres** +1.5 (65% to cover) | Total 7.5: lean **UNDER** (54%)
 
 ### Milwaukee Brewers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.47)_
@@ -717,7 +717,7 @@ _Facing a taxed bullpen: 7.7 relief IP in last 2 days (ratio 1.4)_
 ## 2026-08-10 - Colorado Rockies @ Arizona Diamondbacks (Scheduled)
 _Chase Field [hitter-friendly park]_
 Projected score: Colorado Rockies 4.92 - Arizona Diamondbacks 6.4
-Model likes: **Arizona Diamondbacks** to win (60%) | Run line: **Colorado Rockies** +1.5 (52% to cover) | Total 10.5: lean **OVER** (50%)
+Model likes: **Arizona Diamondbacks** to win (60%) | Run line: **Colorado Rockies** +1.5 (52% to cover) | Total 10.5: lean **OVER** (51%)
 
 ### Colorado Rockies lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.57)_
@@ -745,7 +745,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.57)_
 ## 2026-08-10 - Houston Astros @ San Francisco Giants (Scheduled)
 _Oracle Park [pitcher-friendly park]_
 Projected score: Houston Astros 4.51 - San Francisco Giants 3.94
-Model likes: **Houston Astros** to win (55%) | Run line: **San Francisco Giants** +1.5 (60% to cover) | Total 7.5: lean **OVER** (53%)
+Model likes: **Houston Astros** to win (55%) | Run line: **San Francisco Giants** +1.5 (60% to cover) | Total 7.5: lean **OVER** (54%)
 
 ### Houston Astros lineup -- PROJECTED (unconfirmed)
 - Cam Smith (R) -- L7: 10H 2HR 4RBI 17TB (0.435 avg) -- away split: 0.242 avg
@@ -831,7 +831,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-11 - Cleveland Guardians @ Detroit Tigers (Scheduled)
 _Comerica Park [pitcher-friendly park]_
 Projected score: Cleveland Guardians 3.05 - Detroit Tigers 3.97
-Model likes: **Detroit Tigers** to win (59%) | Run line: **Cleveland Guardians** +1.5 (59% to cover) | Total 6.5: lean **UNDER** (50%)
+Model likes: **Detroit Tigers** to win (59%) | Run line: **Cleveland Guardians** +1.5 (59% to cover) | Total 6.5: lean **OVER** (50%)
 
 ### Cleveland Guardians lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1154,7 +1154,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-11 - Colorado Rockies @ Arizona Diamondbacks (Scheduled)
 _Chase Field [hitter-friendly park]_
 Projected score: Colorado Rockies 4.92 - Arizona Diamondbacks 6.4
-Model likes: **Arizona Diamondbacks** to win (60%) | Run line: **Colorado Rockies** +1.5 (52% to cover) | Total 10.5: lean **OVER** (51%)
+Model likes: **Arizona Diamondbacks** to win (60%) | Run line: **Colorado Rockies** +1.5 (52% to cover) | Total 10.5: lean **OVER** (50%)
 
 ### Colorado Rockies lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1183,7 +1183,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-11 - Houston Astros @ San Francisco Giants (Scheduled)
 _Oracle Park [pitcher-friendly park]_
 Projected score: Houston Astros 4.51 - San Francisco Giants 3.94
-Model likes: **Houston Astros** to win (55%) | Run line: **San Francisco Giants** +1.5 (60% to cover) | Total 7.5: lean **OVER** (53%)
+Model likes: **Houston Astros** to win (55%) | Run line: **San Francisco Giants** +1.5 (60% to cover) | Total 7.5: lean **OVER** (54%)
 
 ### Houston Astros lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1212,7 +1212,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-11 - Kansas City Royals @ Los Angeles Dodgers (Scheduled)
 _UNIQLO Field at Dodger Stadium_
 Projected score: Kansas City Royals 3.59 - Los Angeles Dodgers 4.75
-Model likes: **Los Angeles Dodgers** to win (60%) | Run line: **Kansas City Royals** +1.5 (55% to cover) | Total 7.5: lean **OVER** (52%)
+Model likes: **Los Angeles Dodgers** to win (60%) | Run line: **Kansas City Royals** +1.5 (56% to cover) | Total 7.5: lean **OVER** (52%)
 
 ### Kansas City Royals lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
