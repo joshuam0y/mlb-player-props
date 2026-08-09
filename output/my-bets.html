@@ -2163,7 +2163,10 @@ function betProfit(bet) {
 // the site's real hit/green vs. miss/red colors once leg.status actually
 // resolves.
 function legProgressHtml(leg) {
-  if (leg.actual_value == null || leg.line == null) return '';
+  // leg.line isn't validated to be positive at entry (a mistyped 0 passes
+  // the add-bet form's own isNaN-only check) -- dividing by a zero/negative
+  // line would otherwise render a nonsensical Infinity/NaN-width bar.
+  if (leg.actual_value == null || !(leg.line > 0)) return '';
   const ratio = Math.max(0, Math.min(1, leg.actual_value / leg.line));
   const pct = Math.round(ratio * 100);
   let fillClass = 'leg-progress-fill';
@@ -2309,7 +2312,20 @@ function applyBetFilters(bets) {
   return filtered.sort(BET_SORTERS[betFilters.sort] || BET_SORTERS.date_desc);
 }
 
+// Set while a bet's edit form is open (see the bet-edit-btn/cancel/save
+// handlers below) -- renderBets() does a full innerHTML rebuild of the
+// whole list, which would otherwise silently close/empty an open edit
+// form (losing whatever the user was mid-typing) every time ANY leg's
+// live value ticks. Now that the live poll re-renders on every value
+// change rather than only on a HIT/MISS status flip (see
+// applyLiveDataToBets()'s own comment), this used to fire every ~30s for
+// the whole length of any live game a user had a bet on. Cleared (with an
+// immediate catch-up render) the moment editing ends, so nothing skipped
+// while suppressed is ever permanently lost.
+let editingBetId = null;
+
 function renderBets(bets) {
+  if (editingBetId != null) return;
   const settled = bets.filter(function (b) { return b.status === 'won' || b.status === 'lost'; });
   const pending = bets.filter(function (b) { return b.status === 'pending'; });
   // Was its own inline (boost-unaware, bonus-bet-unaware) copy of
@@ -2759,6 +2775,11 @@ document.getElementById('bets-list').addEventListener('click', async function (e
     if (!confirm('Delete this bet? This cannot be undone.')) return;
     try {
       await deleteDoc(doc(db, 'bets', betId));
+      // Deleting the bet currently being edited (clicking Delete instead of
+      // Cancel) would otherwise leave editingBetId pointing at a bet that no
+      // longer exists, permanently suppressing every future renderBets()
+      // call for the rest of the page's life.
+      if (betId === editingBetId) editingBetId = null;
     } catch (err) {
       alert('Error deleting: ' + err.message);
     }
@@ -2768,6 +2789,7 @@ document.getElementById('bets-list').addEventListener('click', async function (e
   if (e.target.classList.contains('bet-edit-btn')) {
     const bet = currentBets.find(function (b) { return b.id === betId; });
     if (!bet) return;
+    editingBetId = betId;
     const formEl = card.querySelector('.bet-edit-form');
     formEl.innerHTML = editFormHtml(bet);
     formEl.style.display = 'block';
@@ -2779,6 +2801,8 @@ document.getElementById('bets-list').addEventListener('click', async function (e
     const formEl = card.querySelector('.bet-edit-form');
     formEl.style.display = 'none';
     formEl.innerHTML = '';
+    editingBetId = null;
+    renderBets(currentBets); // catch up on anything that changed while editing was open
     return;
   }
 
@@ -2801,6 +2825,8 @@ document.getElementById('bets-list').addEventListener('click', async function (e
       });
       formEl.style.display = 'none';
       formEl.innerHTML = '';
+      editingBetId = null;
+      renderBets(currentBets); // catch up on anything that changed while editing was open
     } catch (err) {
       errorEl.textContent = 'Error saving: ' + err.message;
     }

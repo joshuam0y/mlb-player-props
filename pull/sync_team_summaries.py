@@ -191,9 +191,13 @@ def _facts_to_prompt(facts):
             lines.append(f"Current streak: {abs(l10['streak'])}-game {kind} streak")
     tb, lb = facts["team_batting"], facts["league_batting"]
     if tb and lb:
+        # round(), not int() truncation -- truncating silently disagrees with
+        # the rounded AVG/SLG shown everywhere else on the dashboard for the
+        # same team on roughly half of all real ratios (e.g. .1666... reads
+        # as .166 truncated vs. the correct .167).
         lines.append(
-            f"Team batting: .{int(tb['avg']*1000):03d} AVG / .{int(tb['slg']*1000):03d} SLG / {tb['hr']} HR "
-            f"(league average: .{int(lb['avg']*1000):03d} AVG / .{int(lb['slg']*1000):03d} SLG)"
+            f"Team batting: .{round(tb['avg']*1000):03d} AVG / .{round(tb['slg']*1000):03d} SLG / {tb['hr']} HR "
+            f"(league average: .{round(lb['avg']*1000):03d} AVG / .{round(lb['slg']*1000):03d} SLG)"
         )
     tp, lp = facts["team_pitching"], facts["league_pitching"]
     if tp and lp:

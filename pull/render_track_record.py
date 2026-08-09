@@ -103,9 +103,6 @@ def _picks_tile_html(title, bucket):
 
 def _game_pick_tile_html(title, bucket):
     bucket = bucket or {}
-    n = bucket.get("n") or 0
-    if not n:
-        return f'<div class="stat-tile"><div class="stat-value">&mdash;</div><div class="stat-label">{html.escape(title)}</div></div>'
     # hit_rate itself is hits/(hits+misses) -- graded picks only, no_data/DNP
     # picks excluded (same convention the Top Overs/Unders line above already
     # uses). The shown fraction has to use that same denominator (not the
@@ -113,6 +110,14 @@ def _game_pick_tile_html(title, bucket):
     # percentage right next to it -- e.g. hits=196, n=300, no_data=12 would
     # show "68% (196/300)", but 196/300 is actually 65%, not 68%.
     graded = bucket.get("hits", 0) + bucket.get("misses", 0)
+    if not graded:
+        # Guards on `graded`, not the raw `n` -- a bucket can have n > 0
+        # while every single pick in it is no_data/DNP (graded == 0), which
+        # would otherwise fall through to a "0/0" tile below instead of this
+        # placeholder.
+        no_data = bucket.get("no_data") or 0
+        note = f" ({no_data} DNP)" if no_data else ""
+        return f'<div class="stat-tile"><div class="stat-value">&mdash;</div><div class="stat-label">{html.escape(title)}{note}</div></div>'
     dnp_txt = f", {bucket['no_data']} DNP" if bucket.get("no_data") else ""
     return f"""
     <div class="stat-tile">

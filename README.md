@@ -11,6 +11,19 @@ public news RSS feed -- no paid odds API, no scraping of betting sites.
 
 _Updated with every change going forward._
 
+- **2026-08-09** -- Follow-up audit on the progress-bar change below found
+  and fixed four real issues: (1) the more-frequent live re-render could
+  silently close/empty an open bet-edit form (and lose whatever was
+  mid-typed) every ~30s for the whole length of any live game -- edits
+  now suppress re-rendering until Save/Cancel, with a catch-up render
+  once editing ends; (2) deleting the bet currently being edited (instead
+  of clicking Cancel) left that suppression permanently stuck on;
+  (3) the AI team-summary prompt truncated AVG/SLG instead of rounding
+  them, disagreeing with the rounded numbers shown everywhere else on the
+  dashboard on roughly half of all real ratios; (4) a Track Record tile
+  where every pick in a bucket was DNP rendered a nonsensical "0/0"
+  instead of the no-data placeholder, and the progress bar itself could
+  render an Infinity/NaN-width bar for a mistyped 0 or negative line.
 - **2026-08-09** -- Added a live progress bar to each pending player-prop
   leg in My Bets (e.g. a pitcher's strikeout count filling toward the
   line as the game goes). Required fixing a real gap in the live-poll
