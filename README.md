@@ -11,6 +11,28 @@ public news RSS feed -- no paid odds API, no scraping of betting sites.
 
 _Updated with every change going forward._
 
+- **2026-08-09** -- Added a live progress bar to each pending player-prop
+  leg in My Bets (e.g. a pitcher's strikeout count filling toward the
+  line as the game goes). Required fixing a real gap in the live-poll
+  loop: it previously only updated a leg's displayed value at the moment
+  it crossed the line (to flip HIT/MISS), never while still pending --
+  so the on-page number was silently stuck on the ~15-minute-old
+  Firestore snapshot the whole time a game was in progress. Now every
+  poll updates the live count and re-renders whenever it actually
+  changes.
+- **2026-08-06** -- Fixed a real Track Record bug: two summary tiles
+  (Predicted-lean, Best-prop star) showed a fraction using the raw pick
+  count as the denominator instead of excluding DNP/no-data picks, so
+  the fraction shown didn't match the percentage next to it (e.g. "68%
+  (196/300)" when 196/300 is actually 65% -- the correct denominator was
+  288). Also made two GitHub Actions workflows resilient to a real
+  GitHub Pages platform stall: a stuck deploy no longer fails the whole
+  run, since the data sync/commit already succeeded by that point and
+  the next scheduled run redeploys automatically.
+- **2026-08-03** -- Made "Hits + Runs + RBIs" a permanent batter prop
+  category (it had been gated to future-dated games only, a one-time
+  safeguard from when it was first introduced that had long since served
+  its purpose).
 - **2026-08-03** -- Three changes: (1) Added official MLB highlight clips
   directly on each game card (condensed-game recap, key plays) -- click-
   to-play thumbnails pulled from MLB's own public Content API

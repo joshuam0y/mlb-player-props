@@ -51,6 +51,12 @@ PAGE_STYLE = """
   .leg-main { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
   .leg-prop { color: var(--text-secondary); }
   .leg-sub { margin-top: 2px; }
+  .leg-progress { margin-top: 5px; }
+  .leg-progress-track { height: 6px; border-radius: 999px; background: var(--surface-3); overflow: hidden; }
+  .leg-progress-fill { height: 100%; border-radius: 999px; background: var(--series-1); }
+  .leg-progress-fill.leg-progress-hit { background: var(--status-good); }
+  .leg-progress-fill.leg-progress-miss { background: var(--status-critical); }
+  .leg-progress-label { font-size: 10.5px; color: var(--text-muted); margin-top: 2px; }
   #signin-view { max-width: 360px; margin: 40px auto; background: var(--surface-1); border: 1px solid var(--border); border-radius: 12px; padding: 24px; }
   #signin-view h2 { margin-top: 0; }
   #signin-view input { display: block; width: 100%; box-sizing: border-box; margin-bottom: 10px; padding: 9px 11px; border-radius: 8px; border: 1px solid var(--border); background: var(--surface-2); color: var(--text-primary); font-family: inherit; font-size: 14px; }
@@ -472,6 +478,29 @@ function betProfit(bet) {{
   return null;
 }}
 
+// How close a player-prop leg's live count is to its line -- e.g. Luzardo
+// sitting at 4 of a 6.5-strikeout line renders a bar a bit over 60% full.
+// Same fraction (actual/line) regardless of over/under: which direction
+// "filling up" is good for is already spelled out in the leg's own
+// OVER/UNDER text right above the bar, so this doesn't try to guess at
+// favorable/unfavorable framing while still pending -- it only switches to
+// the site's real hit/green vs. miss/red colors once leg.status actually
+// resolves.
+function legProgressHtml(leg) {{
+  if (leg.actual_value == null || leg.line == null) return '';
+  const ratio = Math.max(0, Math.min(1, leg.actual_value / leg.line));
+  const pct = Math.round(ratio * 100);
+  let fillClass = 'leg-progress-fill';
+  if (leg.status === 'hit') fillClass += ' leg-progress-hit';
+  else if (leg.status === 'miss') fillClass += ' leg-progress-miss';
+  return (
+    '<div class="leg-progress">' +
+    '<div class="leg-progress-track"><div class="' + fillClass + '" style="width:' + pct + '%"></div></div>' +
+    '<div class="leg-progress-label">' + leg.actual_value + ' / ' + leg.line + '</div>' +
+    '</div>'
+  );
+}}
+
 function legRowDisplayHtml(leg) {{
   if (leg.kind === 'game') {{
     const propTxt = leg.category === 'Moneyline'
@@ -505,7 +534,8 @@ function legRowDisplayHtml(leg) {{
     '<div class="leg-row"><div class="leg-main"><b>' + escapeHtml(leg.player_name) + '</b>' + positionTxt + ' ' +
     '<span class="leg-prop">' + escapeHtml(leg.category) + ' ' + leg.direction.toUpperCase() + ' ' + leg.line + '</span> ' +
     legStatusBadge(leg) + '</div>' +
-    '<div class="leg-sub sub">' + (timeTxt ? timeTxt + ' &middot; ' : '') + escapeHtml(modelTxt) + actualTxt + '</div></div>'
+    '<div class="leg-sub sub">' + (timeTxt ? timeTxt + ' &middot; ' : '') + escapeHtml(modelTxt) + actualTxt + '</div>' +
+    legProgressHtml(leg) + '</div>'
   );
 }}
 
@@ -962,6 +992,15 @@ function applyLiveDataToBets(gamePk, data) {{
       }});
       const value = liveLeanValue(leg.role, leg.category, batting, pitching);
       if (value == null) return;
+      // Update (and re-render) on every live count change, not just once
+      // the line's actually crossed -- this is what makes legProgressHtml()'s
+      // progress bar move live during the game instead of only jumping
+      // once at HIT/MISS. Previously actual_value only ever came from the
+      // ~15-minutes-behind Firestore snapshot while a leg was pending.
+      if (leg.actual_value !== value) {{
+        leg.actual_value = value;
+        betChanged = true;
+      }}
       const result = liveLeanResult(value, leg.line, leg.direction, isFinal);
       if (!result) return;
       leg.status = result;
