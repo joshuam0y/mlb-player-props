@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-09T21:30:42.171658+00:00_
+_Generated 2026-08-09T21:59:36.740360+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -234,7 +234,7 @@ _Facing a taxed bullpen: 10.7 relief IP in last 2 days (ratio 1.84)_
 - #8 Jakob Marsee (L) [MATCHUP EDGE: pitcher hits 0.325 avg-against vs this hand] -- L7: 5H 0HR 0RBI 8TB (0.357 avg) -- home split: 0.215 avg
 - #9 Javier Sanoja (R) [5-game hit streak] -- L7: 8H 1HR 4RBI 15TB (0.348 avg) -- home split: 0.275 avg
 
-## 2026-08-09 - Minnesota Twins @ Milwaukee Brewers (Game Over)
+## 2026-08-09 - Minnesota Twins @ Milwaukee Brewers (Final)
 _American Family Field_
 Final: Minnesota Twins 3 - Milwaukee Brewers 4
 
@@ -354,10 +354,9 @@ _Facing a taxed bullpen: 7.3 relief IP in last 2 days (ratio 1.48)_
 - #8 José Fermín (R) -- L7: 5H 0HR 4RBI 7TB (0.217 avg) -- home split: 0.25 avg
 - #9 Bryan Torres (L) [MATCHUP EDGE: pitcher hits 0.355 avg-against vs this hand] -- L7: 2H 0HR 1RBI 2TB (0.125 avg) -- home split: 0.214 avg
 
-## 2026-08-09 - Baltimore Orioles @ Texas Rangers (In Progress)
+## 2026-08-09 - Baltimore Orioles @ Texas Rangers (Final)
 _Globe Life Field [hitter-friendly park]_
-Projected score: Baltimore Orioles 4.2 - Texas Rangers 3.5
-Model likes: **Baltimore Orioles** to win (56%) | Run line: **Texas Rangers** +1.5 (60% to cover) | Total 7.5: lean **UNDER** (54%)
+Final: Baltimore Orioles 10 - Texas Rangers 5
 
 ### Baltimore Orioles lineup -- CONFIRMED
 _Facing a taxed bullpen: 7.7 relief IP in last 2 days (ratio 1.61)_
@@ -450,7 +449,7 @@ _Facing a taxed bullpen: 9.7 relief IP in last 2 days (ratio 1.76)_
 ## 2026-08-09 - Los Angeles Dodgers @ Arizona Diamondbacks (In Progress)
 _Chase Field [hitter-friendly park]_
 Projected score: Los Angeles Dodgers 4.06 - Arizona Diamondbacks 4.35
-Model likes: **Arizona Diamondbacks** to win (53%) | Run line: **Los Angeles Dodgers** +1.5 (63% to cover) | Total 7.5: lean **OVER** (53%)
+Model likes: **Arizona Diamondbacks** to win (52%) | Run line: **Los Angeles Dodgers** +1.5 (63% to cover) | Total 7.5: lean **OVER** (53%)
 
 ### Los Angeles Dodgers lineup -- CONFIRMED
 _Facing a taxed bullpen: 6.3 relief IP in last 2 days (ratio 1.21)_
@@ -480,20 +479,20 @@ _Facing a taxed bullpen: 6.7 relief IP in last 2 days (ratio 1.32)_
 
 ## 2026-08-09 - Houston Astros @ San Diego Padres (Pre-Game)
 _Petco Park [pitcher-friendly park]_
-Projected score: Houston Astros 3.94 - San Diego Padres 4.33
-Model likes: **San Diego Padres** to win (53%) | Run line: **Houston Astros** +1.5 (62% to cover) | Total 7.5: lean **OVER** (52%)
+Projected score: Houston Astros 3.93 - San Diego Padres 4.33
+Model likes: **San Diego Padres** to win (54%) | Run line: **Houston Astros** +1.5 (62% to cover) | Total 7.5: lean **OVER** (52%)
 
-### Houston Astros lineup -- PROJECTED (unconfirmed)
+### Houston Astros lineup -- CONFIRMED
 **Probable P: Cristian Javier (R)** [BULLPEN GAME: short-outing arm, no reliable individual matchup below] -- L5: 16.0 IP, 15 K, 6 ER, 3.38 ERA
-- Cam Smith (R) -- L7: 10H 2HR 4RBI 17TB (0.435 avg) -- away split: 0.242 avg
-- Isaac Paredes (R) -- L7: 5H 0HR 0RBI 7TB (0.192 avg) -- away split: 0.255 avg
-- Yordan Alvarez (L) [MATCHUP EDGE: pitcher hits 0.311 avg-against vs this hand] -- L7: 9H 0HR 4RBI 13TB (0.333 avg) -- away split: 0.264 avg
-- Jeremy Peña (R) -- L7: 5H 1HR 3RBI 11TB (0.172 avg) -- away split: 0.266 avg
-- Taylor Trammell (L) [MATCHUP EDGE: pitcher hits 0.311 avg-against vs this hand] -- L7: 5H 2HR 6RBI 12TB (0.217 avg) -- away split: 0.27 avg
-- Christian Walker (R) [11-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 9H 0HR 4RBI 13TB (0.346 avg) -- away split: 0.258 avg
-- Jose Altuve (R) [6-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 11H 1HR 4RBI 15TB (0.407 avg) -- away split: 0.229 avg
-- Nick Allen (R) -- L7: 2H 0HR 0RBI 2TB (0.286 avg) -- away split: 0.333 avg
-- Yainer Diaz (R) -- L7: 5H 0HR 2RBI 5TB (0.238 avg) -- away split: 0.292 avg
+- #1 Jeremy Peña (R) -- L7: 5H 1HR 3RBI 11TB (0.172 avg) -- away split: 0.266 avg
+- #2 Yordan Alvarez (L) [MATCHUP EDGE: pitcher hits 0.311 avg-against vs this hand] -- L7: 9H 0HR 4RBI 13TB (0.333 avg) -- away split: 0.264 avg
+- #3 Isaac Paredes (R) -- L7: 5H 0HR 0RBI 7TB (0.192 avg) -- away split: 0.255 avg
+- #4 Jose Altuve (R) [6-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 11H 1HR 4RBI 15TB (0.407 avg) -- away split: 0.229 avg
+- #5 Taylor Trammell (L) [MATCHUP EDGE: pitcher hits 0.311 avg-against vs this hand] -- L7: 5H 2HR 6RBI 12TB (0.217 avg) -- away split: 0.27 avg
+- #6 Christian Walker (R) [11-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 9H 0HR 4RBI 13TB (0.346 avg) -- away split: 0.258 avg
+- #7 Daulton Varsho (L) [MATCHUP EDGE: pitcher hits 0.311 avg-against vs this hand] -- L7: 3H 0HR 0RBI 3TB (0.125 avg) -- away split: 0.251 avg
+- #8 Yainer Diaz (R) -- L7: 5H 0HR 2RBI 5TB (0.238 avg) -- away split: 0.292 avg
+- #9 LaMonte Wade Jr. (L) [MATCHUP EDGE: pitcher hits 0.311 avg-against vs this hand] [likely BABIP-driven, not a real power uptick] -- L7: 6H 0HR 5RBI 8TB (0.375 avg) -- away split: 0.233 avg
 
 ### San Diego Padres lineup -- CONFIRMED
 _Facing a taxed bullpen: 7.3 relief IP in last 2 days (ratio 1.34)_
@@ -722,7 +721,7 @@ _Facing a taxed bullpen: 7.7 relief IP in last 2 days (ratio 1.4)_
 ## 2026-08-10 - Colorado Rockies @ Arizona Diamondbacks (Scheduled)
 _Chase Field [hitter-friendly park]_
 Projected score: Colorado Rockies 4.92 - Arizona Diamondbacks 5.31
-Model likes: **Arizona Diamondbacks** to win (53%) | Run line: **Colorado Rockies** +1.5 (60% to cover) | Total 9.5: lean **OVER** (50%)
+Model likes: **Arizona Diamondbacks** to win (53%) | Run line: **Colorado Rockies** +1.5 (60% to cover) | Total 9.5: lean **OVER** (51%)
 
 ### Colorado Rockies lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.57)_
