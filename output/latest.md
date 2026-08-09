@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-09T15:03:08.040392+00:00_
+_Generated 2026-08-09T15:03:50.423225+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -59,7 +59,7 @@ _Generated 2026-08-09T15:03:08.040392+00:00_
 
 ## 2026-08-09 - Cincinnati Reds @ Washington Nationals (Pre-Game)
 _Nationals Park_
-Projected score: Cincinnati Reds 4.05 - Washington Nationals 4.96
+Projected score: Cincinnati Reds 4.08 - Washington Nationals 4.96
 Model likes: **Washington Nationals** to win (57%) | Run line: **Cincinnati Reds** +1.5 (57% to cover) | Total 8.5: lean **UNDER** (51%)
 
 ### Cincinnati Reds lineup -- CONFIRMED
@@ -120,11 +120,11 @@ _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.24)_
 
 ## 2026-08-09 - Toronto Blue Jays @ Philadelphia Phillies (Pre-Game)
 _Citizens Bank Park [hitter-friendly park]_
-Projected score: Toronto Blue Jays 3.49 - Philadelphia Phillies 5.3
+Projected score: Toronto Blue Jays 3.5 - Philadelphia Phillies 5.3
 Model likes: **Philadelphia Phillies** to win (65%) | Run line: **Philadelphia Phillies** -1.5 (50% to cover) | Total 8.5: lean **UNDER** (53%)
 
 ### Toronto Blue Jays lineup -- PROJECTED (unconfirmed)
-_Facing a taxed bullpen: 9.7 relief IP in last 2 days (ratio 2.01)_
+_Facing a taxed bullpen: 9.7 relief IP in last 2 days (ratio 1.94)_
 **Probable P: Shane Bieber (R)** -- L5: 24.0 IP, 19 K, 8 ER, 3.0 ERA
 - Ernie Clement (R) -- L7: 5H 1HR 3RBI 8TB (0.185 avg) -- away split: 0.274 avg
 - Kazuma Okamoto (R) -- L7: 5H 0HR 1RBI 5TB (0.172 avg) -- away split: 0.218 avg
@@ -151,8 +151,8 @@ _Facing a taxed bullpen: 10.0 relief IP in last 2 days (ratio 1.58)_
 
 ## 2026-08-09 - Atlanta Braves @ New York Yankees (Pre-Game)
 _Yankee Stadium [hitter-friendly park]_
-Projected score: Atlanta Braves 2.81 - New York Yankees 3.49
-Model likes: **New York Yankees** to win (57%) | Run line: **Atlanta Braves** +1.5 (62% to cover) | Total 5.5: lean **OVER** (54%)
+Projected score: Atlanta Braves 2.88 - New York Yankees 3.49
+Model likes: **New York Yankees** to win (57%) | Run line: **Atlanta Braves** +1.5 (62% to cover) | Total 5.5: lean **OVER** (55%)
 
 ### Atlanta Braves lineup -- PROJECTED (unconfirmed)
 **Probable P: Grant Holmes (R)** -- L5: 25.7 IP, 21 K, 9 ER, 3.16 ERA
@@ -211,8 +211,8 @@ _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.5)_
 
 ## 2026-08-09 - Los Angeles Angels @ Miami Marlins (Pre-Game)
 _loanDepot park [pitcher-friendly park]_
-Projected score: Los Angeles Angels 3.83 - Miami Marlins 5.14
-Model likes: **Miami Marlins** to win (61%) | Run line: **Los Angeles Angels** +1.5 (54% to cover) | Total 8.5: lean **UNDER** (51%)
+Projected score: Los Angeles Angels 3.72 - Miami Marlins 5.14
+Model likes: **Miami Marlins** to win (62%) | Run line: **Los Angeles Angels** +1.5 (53% to cover) | Total 8.5: lean **UNDER** (52%)
 
 ### Los Angeles Angels lineup -- CONFIRMED
 _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.35)_
@@ -305,7 +305,7 @@ _Facing a taxed bullpen: 6.0 relief IP in last 2 days (ratio 1.51)_
 ## 2026-08-09 - Cleveland Guardians @ Chicago White Sox (Pre-Game)
 _Rate Field_
 Projected score: Cleveland Guardians 3.5 - Chicago White Sox 3.95
-Model likes: **Chicago White Sox** to win (54%) | Run line: **Cleveland Guardians** +1.5 (62% to cover) | Total 6.5: lean **OVER** (54%)
+Model likes: **Chicago White Sox** to win (54%) | Run line: **Cleveland Guardians** +1.5 (63% to cover) | Total 6.5: lean **OVER** (54%)
 
 ### Cleveland Guardians lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 11.7 relief IP in last 2 days (ratio 1.77)_
@@ -397,7 +397,7 @@ _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.41)_
 ## 2026-08-09 - Detroit Tigers @ San Francisco Giants (Scheduled)
 _Oracle Park [pitcher-friendly park]_
 Projected score: Detroit Tigers 4.2 - San Francisco Giants 2.09
-Model likes: **Detroit Tigers** to win (72%) | Run line: **Detroit Tigers** -1.5 (54% to cover) | Total 5.5: lean **OVER** (53%)
+Model likes: **Detroit Tigers** to win (72%) | Run line: **Detroit Tigers** -1.5 (53% to cover) | Total 5.5: lean **OVER** (53%)
 
 ### Detroit Tigers lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 11.7 relief IP in last 2 days (ratio 2.62)_
@@ -606,7 +606,7 @@ _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.41)_
 ## 2026-08-10 - Philadelphia Phillies @ St. Louis Cardinals (Scheduled)
 _Busch Stadium_
 Projected score: Philadelphia Phillies 4.16 - St. Louis Cardinals 3.37
-Model likes: **Philadelphia Phillies** to win (57%) | Run line: **St. Louis Cardinals** +1.5 (59% to cover) | Total 6.5: lean **OVER** (55%)
+Model likes: **Philadelphia Phillies** to win (57%) | Run line: **St. Louis Cardinals** +1.5 (59% to cover) | Total 7.5: lean **UNDER** (55%)
 
 ### Philadelphia Phillies lineup -- PROJECTED (unconfirmed)
 - Justin Crawford (L) [3-game hit streak] -- L7: 7H 0HR 5RBI 11TB (0.412 avg) -- away split: 0.239 avg
@@ -620,7 +620,7 @@ Model likes: **Philadelphia Phillies** to win (57%) | Run line: **St. Louis Card
 - Bryan De La Cruz (R) -- L7: 2H 1HR 5RBI 5TB (0.133 avg) -- away split: 0.385 avg
 
 ### St. Louis Cardinals lineup -- PROJECTED (unconfirmed)
-_Facing a taxed bullpen: 6.0 relief IP in last 2 days (ratio 1.25)_
+_Facing a taxed bullpen: 6.0 relief IP in last 2 days (ratio 1.2)_
 **Probable P: Hunter Dobbins (R)** -- L5: 27.0 IP, 22 K, 12 ER, 4.0 ERA
 - Masyn Winn (R) -- L7: 4H 0HR 2RBI 6TB (0.182 avg) -- home split: 0.244 avg
 - Alec Burleson (L) -- L7: 7H 3HR 6RBI 17TB (0.292 avg) -- home split: 0.254 avg -- news: Can Alec Burleson guide Cardinals to contention?
@@ -775,7 +775,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.55)_
 ## 2026-08-10 - Kansas City Royals @ Los Angeles Dodgers (Scheduled)
 _UNIQLO Field at Dodger Stadium_
 Projected score: Kansas City Royals 2.86 - Los Angeles Dodgers 4.75
-Model likes: **Los Angeles Dodgers** to win (68%) | Run line: **Los Angeles Dodgers** -1.5 (51% to cover) | Total 7.5: lean **UNDER** (55%)
+Model likes: **Los Angeles Dodgers** to win (67%) | Run line: **Los Angeles Dodgers** -1.5 (51% to cover) | Total 7.5: lean **UNDER** (55%)
 
 ### Kansas City Royals lineup -- PROJECTED (unconfirmed)
 - Carter Jensen (L) -- L7: 3H 1HR 1RBI 8TB (0.12 avg) -- away split: 0.214 avg
@@ -833,7 +833,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-11 - Cleveland Guardians @ Detroit Tigers (Scheduled)
 _Comerica Park [pitcher-friendly park]_
 Projected score: Cleveland Guardians 3.05 - Detroit Tigers 3.97
-Model likes: **Detroit Tigers** to win (59%) | Run line: **Cleveland Guardians** +1.5 (59% to cover) | Total 6.5: lean **UNDER** (50%)
+Model likes: **Detroit Tigers** to win (59%) | Run line: **Cleveland Guardians** +1.5 (59% to cover) | Total 6.5: lean **OVER** (50%)
 
 ### Cleveland Guardians lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
