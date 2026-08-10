@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-10T18:15:12.823967+00:00_
+_Generated 2026-08-10T18:17:40.640754+00:00_
 
 ## Today's Top Overs
 ### Batters
