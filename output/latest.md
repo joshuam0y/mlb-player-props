@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-10T14:23:11.178838+00:00_
+_Generated 2026-08-10T15:29:15.378532+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -90,7 +90,7 @@ _Facing a taxed bullpen: 11.7 relief IP in last 2 days (ratio 2.16)_
 ## 2026-08-10 - New York Mets @ Atlanta Braves (Scheduled)
 _Truist Park_
 Projected score: New York Mets 3.44 - Atlanta Braves 3.45
-Model likes: **Atlanta Braves** to win (50%) | Run line: **New York Mets** +1.5 (67% to cover) | Total 6.5: lean **UNDER** (51%)
+Model likes: **Atlanta Braves** to win (50%) | Run line: **New York Mets** +1.5 (68% to cover) | Total 6.5: lean **UNDER** (51%)
 
 ### New York Mets lineup -- PROJECTED (unconfirmed)
 **Probable P: Christian Scott (R)** -- L5: 25.3 IP, 32 K, 7 ER, 2.49 ERA
@@ -363,7 +363,7 @@ _Facing a taxed bullpen: 9.0 relief IP in last 2 days (ratio 1.78)_
 ## 2026-08-11 - Pittsburgh Pirates @ Miami Marlins (Scheduled)
 _loanDepot park [pitcher-friendly park]_
 Projected score: Pittsburgh Pirates 3.71 - Miami Marlins 3.7
-Model likes: **Pittsburgh Pirates** to win (50%) | Run line: **Miami Marlins** +1.5 (67% to cover) | Total 6.5: lean **OVER** (54%)
+Model likes: **Miami Marlins** to win (50%) | Run line: **Pittsburgh Pirates** +1.5 (67% to cover) | Total 6.5: lean **OVER** (54%)
 
 ### Pittsburgh Pirates lineup -- PROJECTED (unconfirmed)
 **Probable P: Paul Skenes (R)** -- L5: 26.7 IP, 39 K, 16 ER, 5.4 ERA
@@ -783,7 +783,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.55)_
 ## 2026-08-11 - Kansas City Royals @ Los Angeles Dodgers (Scheduled)
 _UNIQLO Field at Dodger Stadium_
 Projected score: Kansas City Royals 3.57 - Los Angeles Dodgers 3.92
-Model likes: **Los Angeles Dodgers** to win (53%) | Run line: **Kansas City Royals** +1.5 (63% to cover) | Total 6.5: lean **OVER** (55%)
+Model likes: **Los Angeles Dodgers** to win (53%) | Run line: **Kansas City Royals** +1.5 (64% to cover) | Total 6.5: lean **OVER** (55%)
 
 ### Kansas City Royals lineup -- PROJECTED (unconfirmed)
 **Probable P: Michael Wacha (R)** -- L5: 29.3 IP, 21 K, 11 ER, 3.38 ERA
@@ -875,7 +875,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-12 - Tampa Bay Rays @ Athletics (Scheduled)
 _Sutter Health Park_
 Projected score: Tampa Bay Rays 6.54 - Athletics 3.38
-Model likes: **Tampa Bay Rays** to win (73%) | Run line: **Tampa Bay Rays** -1.5 (61% to cover) | Total 9.5: lean **UNDER** (52%)
+Model likes: **Tampa Bay Rays** to win (73%) | Run line: **Tampa Bay Rays** -1.5 (60% to cover) | Total 9.5: lean **UNDER** (52%)
 
 ### Tampa Bay Rays lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
