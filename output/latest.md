@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-10T23:08:42.422652+00:00_
+_Generated 2026-08-10T23:08:31.838019+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -180,8 +180,8 @@ _Facing a taxed bullpen: 11.0 relief IP in last 2 days (ratio 2.19)_
 
 ## 2026-08-10 - Texas Rangers @ Los Angeles Angels (Pre-Game)
 _Angel Stadium_
-Projected score: Texas Rangers 4.1 - Los Angeles Angels 3.59
-Model likes: **Texas Rangers** to win (55%) | Run line: **Los Angeles Angels** +1.5 (62% to cover) | Total 7.5: lean **UNDER** (54%)
+Projected score: Texas Rangers 4.16 - Los Angeles Angels 3.59
+Model likes: **Texas Rangers** to win (55%) | Run line: **Los Angeles Angels** +1.5 (61% to cover) | Total 7.5: lean **UNDER** (53%)
 
 ### Texas Rangers lineup -- CONFIRMED
 _Facing a taxed bullpen: 8.7 relief IP in last 2 days (ratio 1.5)_
@@ -288,7 +288,7 @@ Model likes: **Arizona Diamondbacks** to win (66%) | Run line: **Arizona Diamond
 - #9 Jordan Beck (R) [TOUGH MATCHUP: pitcher holds this hand to 0.177 avg-against] [7-game hit streak] -- L7: 7H 0HR 0RBI 12TB (0.333 avg) -- away split: 0.2 avg
 
 ### Arizona Diamondbacks lineup -- CONFIRMED
-_Facing a taxed bullpen: 8.3 relief IP in last 2 days (ratio 1.68)_
+_Facing a taxed bullpen: 8.3 relief IP in last 2 days (ratio 1.67)_
 **Probable P: Michael Soroka (R)** -- L5: 27.0 IP, 22 K, 8 ER, 2.67 ERA
 - #1 Geraldo Perdomo (S) [MATCHUP EDGE: pitcher hits 0.269 avg-against vs this hand] [3-game hit streak] -- L7: 9H 0HR 1RBI 14TB (0.333 avg) -- home split: 0.234 avg
 - #2 Corbin Carroll (L) [MATCHUP EDGE: pitcher hits 0.269 avg-against vs this hand] -- L7: 4H 0HR 2RBI 7TB (0.143 avg) -- home split: 0.256 avg
@@ -571,7 +571,7 @@ _Facing a taxed bullpen: 6.0 relief IP in last 2 days (ratio 1.22)_
 ## 2026-08-11 - Cincinnati Reds @ Chicago White Sox (Scheduled)
 _Rate Field_
 Projected score: Cincinnati Reds 3.1 - Chicago White Sox 4.98
-Model likes: **Chicago White Sox** to win (67%) | Run line: **Chicago White Sox** -1.5 (51% to cover) | Total 7.5: lean **UNDER** (50%)
+Model likes: **Chicago White Sox** to win (67%) | Run line: **Chicago White Sox** -1.5 (51% to cover) | Total 7.5: lean **OVER** (50%)
 
 ### Cincinnati Reds lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 8.0 relief IP in last 2 days (ratio 1.2)_
@@ -602,7 +602,7 @@ _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.43)_
 ## 2026-08-11 - Philadelphia Phillies @ St. Louis Cardinals (Scheduled)
 _Busch Stadium_
 Projected score: Philadelphia Phillies 4.1 - St. Louis Cardinals 2.97
-Model likes: **Philadelphia Phillies** to win (61%) | Run line: **St. Louis Cardinals** +1.5 (56% to cover) | Total 6.5: lean **OVER** (50%)
+Model likes: **Philadelphia Phillies** to win (61%) | Run line: **St. Louis Cardinals** +1.5 (56% to cover) | Total 6.5: lean **OVER** (51%)
 
 ### Philadelphia Phillies lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.3 relief IP in last 2 days (ratio 0.66)_
@@ -784,7 +784,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.55)_
 ## 2026-08-11 - Kansas City Royals @ Los Angeles Dodgers (Scheduled)
 _UNIQLO Field at Dodger Stadium_
 Projected score: Kansas City Royals 3.57 - Los Angeles Dodgers 3.92
-Model likes: **Los Angeles Dodgers** to win (53%) | Run line: **Kansas City Royals** +1.5 (63% to cover) | Total 6.5: lean **OVER** (55%)
+Model likes: **Los Angeles Dodgers** to win (53%) | Run line: **Kansas City Royals** +1.5 (64% to cover) | Total 6.5: lean **OVER** (55%)
 
 ### Kansas City Royals lineup -- PROJECTED (unconfirmed)
 **Probable P: Michael Wacha (R)** -- L5: 29.3 IP, 21 K, 11 ER, 3.38 ERA
@@ -876,7 +876,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-12 - Tampa Bay Rays @ Athletics (Scheduled)
 _Sutter Health Park_
 Projected score: Tampa Bay Rays 6.54 - Athletics 3.38
-Model likes: **Tampa Bay Rays** to win (73%) | Run line: **Tampa Bay Rays** -1.5 (61% to cover) | Total 9.5: lean **UNDER** (52%)
+Model likes: **Tampa Bay Rays** to win (73%) | Run line: **Tampa Bay Rays** -1.5 (60% to cover) | Total 9.5: lean **UNDER** (52%)
 
 ### Tampa Bay Rays lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1058,7 +1058,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-12 - Chicago Cubs @ Washington Nationals (Scheduled)
 _Nationals Park_
 Projected score: Chicago Cubs 6.28 - Washington Nationals 5.61
-Model likes: **Chicago Cubs** to win (54%) | Run line: **Washington Nationals** +1.5 (57% to cover) | Total 11.5: lean **UNDER** (52%)
+Model likes: **Chicago Cubs** to win (54%) | Run line: **Washington Nationals** +1.5 (57% to cover) | Total 11.5: lean **UNDER** (53%)
 
 ### Chicago Cubs lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
