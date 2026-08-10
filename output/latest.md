@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-10T19:18:51.009948+00:00_
+_Generated 2026-08-10T19:26:42.760607+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -56,7 +56,7 @@ _Generated 2026-08-10T19:18:51.009948+00:00_
 - **Gabriel Hughes** (Colorado Rockies vs Arizona Diamondbacks): 4 hitters in tonight's lineup are in a tough matchup against him -- try Outs Recorded: 40% under 15.5 recently (vs. 5-game sample)
 - **Blade Tidwell** (San Francisco Giants vs Houston Astros): allowing fewer runs than usual over his last few starts -- try Outs Recorded: 80% under 6.5 recently (vs. 5-game sample)
 
-## 2026-08-10 - Boston Red Sox @ Toronto Blue Jays (Scheduled)
+## 2026-08-10 - Boston Red Sox @ Toronto Blue Jays (Pre-Game)
 _Rogers Centre_
 Projected score: Boston Red Sox 5.53 - Toronto Blue Jays 2.43
 Model likes: **Boston Red Sox** to win (77%) | Run line: **Boston Red Sox** -1.5 (62% to cover) | Total 7.5: lean **UNDER** (52%)
@@ -119,7 +119,7 @@ Model likes: **Atlanta Braves** to win (50%) | Run line: **New York Mets** +1.5 
 ## 2026-08-10 - Baltimore Orioles @ Minnesota Twins (Pre-Game)
 _Target Field_
 Projected score: Baltimore Orioles 5.04 - Minnesota Twins 3.91
-Model likes: **Baltimore Orioles** to win (59%) | Run line: **Minnesota Twins** +1.5 (55% to cover) | Total 8.5: lean **UNDER** (52%)
+Model likes: **Baltimore Orioles** to win (59%) | Run line: **Minnesota Twins** +1.5 (55% to cover) | Total 8.5: lean **UNDER** (51%)
 
 ### Baltimore Orioles lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 7.3 relief IP in last 2 days (ratio 1.9)_
@@ -905,7 +905,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-12 - Colorado Rockies @ Arizona Diamondbacks (Scheduled)
 _Chase Field [hitter-friendly park]_
 Projected score: Colorado Rockies 4.86 - Arizona Diamondbacks 6.15
-Model likes: **Arizona Diamondbacks** to win (59%) | Run line: **Colorado Rockies** +1.5 (54% to cover) | Total 10.5: lean **UNDER** (52%)
+Model likes: **Arizona Diamondbacks** to win (59%) | Run line: **Colorado Rockies** +1.5 (53% to cover) | Total 10.5: lean **UNDER** (52%)
 
 ### Colorado Rockies lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1057,7 +1057,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-12 - Chicago Cubs @ Washington Nationals (Scheduled)
 _Nationals Park_
 Projected score: Chicago Cubs 6.28 - Washington Nationals 5.61
-Model likes: **Chicago Cubs** to win (54%) | Run line: **Washington Nationals** +1.5 (57% to cover) | Total 11.5: lean **UNDER** (53%)
+Model likes: **Chicago Cubs** to win (54%) | Run line: **Washington Nationals** +1.5 (57% to cover) | Total 11.5: lean **UNDER** (52%)
 
 ### Chicago Cubs lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_

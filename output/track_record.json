@@ -19020,7 +19020,7 @@
     },
     "2026-08-06": {
       "date": "2026-08-06",
-      "graded_at": "2026-08-10T18:15:05.381707+00:00",
+      "graded_at": "2026-08-10T19:24:05.330668+00:00",
       "top_overs": {
         "n": 23,
         "hits": 11,
@@ -20577,7 +20577,7 @@
     },
     "2026-08-07": {
       "date": "2026-08-07",
-      "graded_at": "2026-08-10T18:15:05.136284+00:00",
+      "graded_at": "2026-08-10T19:24:05.088875+00:00",
       "top_overs": {
         "n": 23,
         "hits": 8,
@@ -22176,7 +22176,7 @@
     },
     "2026-08-08": {
       "date": "2026-08-08",
-      "graded_at": "2026-08-10T18:15:04.825491+00:00",
+      "graded_at": "2026-08-10T19:24:04.777173+00:00",
       "top_overs": {
         "n": 23,
         "hits": 10,
@@ -23746,7 +23746,7 @@
     },
     "2026-08-09": {
       "date": "2026-08-09",
-      "graded_at": "2026-08-10T18:15:04.530563+00:00",
+      "graded_at": "2026-08-10T19:24:04.471897+00:00",
       "top_overs": {
         "n": 23,
         "hits": 13,
@@ -25463,61 +25463,12 @@
         "avg_projected": 0.43,
         "avg_actual": 0.41
       },
-      "Hits": {
-        "n": 4033,
-        "mae": 0.7,
-        "bias": 0.0,
-        "avg_projected": 0.84,
-        "avg_actual": 0.84
-      },
-      "Strikeouts": {
-        "n": 455,
-        "mae": 1.94,
-        "bias": 0.05,
-        "avg_projected": 4.66,
-        "avg_actual": 4.72
-      },
-      "Runs Allowed": {
-        "n": 455,
-        "mae": 1.6,
-        "bias": -0.04,
-        "avg_projected": 2.3,
-        "avg_actual": 2.25
-      },
-      "Walks": {
-        "n": 4033,
-        "mae": 0.47,
-        "bias": 0.02,
-        "avg_projected": 0.33,
-        "avg_actual": 0.35
-      },
-      "Home Runs": {
-        "n": 4033,
-        "mae": 0.2,
-        "bias": -0.01,
-        "avg_projected": 0.12,
-        "avg_actual": 0.11
-      },
-      "Outs Recorded": {
-        "n": 373,
-        "mae": 3.35,
-        "bias": 0.57,
-        "avg_projected": 14.82,
-        "avg_actual": 15.39
-      },
       "Walks Allowed": {
         "n": 455,
         "mae": 0.95,
         "bias": 0.09,
         "avg_projected": 1.68,
         "avg_actual": 1.77
-      },
-      "Total Bases": {
-        "n": 4033,
-        "mae": 1.3,
-        "bias": -0.03,
-        "avg_projected": 1.39,
-        "avg_actual": 1.36
       },
       "Hits + Runs + RBIs": {
         "n": 1626,
@@ -25526,12 +25477,33 @@
         "avg_projected": 1.71,
         "avg_actual": 1.75
       },
-      "Hits Allowed": {
+      "Walks": {
+        "n": 4033,
+        "mae": 0.47,
+        "bias": 0.02,
+        "avg_projected": 0.33,
+        "avg_actual": 0.35
+      },
+      "Runs Allowed": {
         "n": 455,
-        "mae": 1.88,
-        "bias": 0.12,
-        "avg_projected": 4.64,
-        "avg_actual": 4.76
+        "mae": 1.6,
+        "bias": -0.04,
+        "avg_projected": 2.3,
+        "avg_actual": 2.25
+      },
+      "Hits": {
+        "n": 4033,
+        "mae": 0.7,
+        "bias": 0.0,
+        "avg_projected": 0.84,
+        "avg_actual": 0.84
+      },
+      "Outs Recorded": {
+        "n": 373,
+        "mae": 3.35,
+        "bias": 0.57,
+        "avg_projected": 14.82,
+        "avg_actual": 15.39
       },
       "Runs Scored": {
         "n": 4033,
@@ -25539,9 +25511,37 @@
         "bias": -0.02,
         "avg_projected": 0.46,
         "avg_actual": 0.44
+      },
+      "Hits Allowed": {
+        "n": 455,
+        "mae": 1.88,
+        "bias": 0.12,
+        "avg_projected": 4.64,
+        "avg_actual": 4.76
+      },
+      "Home Runs": {
+        "n": 4033,
+        "mae": 0.2,
+        "bias": -0.01,
+        "avg_projected": 0.12,
+        "avg_actual": 0.11
+      },
+      "Total Bases": {
+        "n": 4033,
+        "mae": 1.3,
+        "bias": -0.03,
+        "avg_projected": 1.39,
+        "avg_actual": 1.36
+      },
+      "Strikeouts": {
+        "n": 455,
+        "mae": 1.94,
+        "bias": 0.05,
+        "avg_projected": 4.66,
+        "avg_actual": 4.72
       }
     },
     "days_tracked": 17
   },
-  "updated_at": "2026-08-10T18:15:05.402880+00:00"
+  "updated_at": "2026-08-10T19:24:05.354714+00:00"
 }
