@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-10T10:50:10.724208+00:00_
+_Generated 2026-08-10T11:08:01.518481+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -150,7 +150,7 @@ _Facing a taxed bullpen: 8.0 relief IP in last 2 days (ratio 1.64)_
 ## 2026-08-10 - Philadelphia Phillies @ St. Louis Cardinals (Scheduled)
 _Busch Stadium_
 Projected score: Philadelphia Phillies 4.14 - St. Louis Cardinals 4.82
-Model likes: **St. Louis Cardinals** to win (56%) | Run line: **Philadelphia Phillies** +1.5 (59% to cover) | Total 8.5: lean **UNDER** (51%)
+Model likes: **St. Louis Cardinals** to win (56%) | Run line: **Philadelphia Phillies** +1.5 (59% to cover) | Total 8.5: lean **UNDER** (52%)
 
 ### Philadelphia Phillies lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 7.3 relief IP in last 2 days (ratio 1.45)_
@@ -481,7 +481,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.49)_
 ## 2026-08-11 - Boston Red Sox @ Toronto Blue Jays (Scheduled)
 _Rogers Centre_
 Projected score: Boston Red Sox 3.24 - Toronto Blue Jays 2.83
-Model likes: **Boston Red Sox** to win (54%) | Run line: **Toronto Blue Jays** +1.5 (65% to cover) | Total 5.5: lean **OVER** (51%)
+Model likes: **Boston Red Sox** to win (55%) | Run line: **Toronto Blue Jays** +1.5 (65% to cover) | Total 5.5: lean **OVER** (51%)
 
 ### Boston Red Sox lineup -- PROJECTED (unconfirmed)
 **Probable P: Patrick Sandoval (L)** -- L5: 24.0 IP, 25 K, 9 ER, 3.38 ERA
@@ -511,7 +511,7 @@ _Facing a taxed bullpen: 8.0 relief IP in last 2 days (ratio 1.48)_
 ## 2026-08-11 - New York Mets @ Atlanta Braves (Scheduled)
 _Truist Park_
 Projected score: New York Mets 3.2 - Atlanta Braves 3.67
-Model likes: **Atlanta Braves** to win (55%) | Run line: **New York Mets** +1.5 (63% to cover) | Total 6.5: lean **UNDER** (52%)
+Model likes: **Atlanta Braves** to win (55%) | Run line: **New York Mets** +1.5 (63% to cover) | Total 6.5: lean **UNDER** (51%)
 
 ### New York Mets lineup -- PROJECTED (unconfirmed)
 **Probable P: Nolan McLean (R)** -- L5: 29.3 IP, 38 K, 9 ER, 2.76 ERA
@@ -602,7 +602,7 @@ _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.43)_
 ## 2026-08-11 - Philadelphia Phillies @ St. Louis Cardinals (Scheduled)
 _Busch Stadium_
 Projected score: Philadelphia Phillies 4.1 - St. Louis Cardinals 2.97
-Model likes: **Philadelphia Phillies** to win (61%) | Run line: **St. Louis Cardinals** +1.5 (57% to cover) | Total 6.5: lean **OVER** (50%)
+Model likes: **Philadelphia Phillies** to win (61%) | Run line: **St. Louis Cardinals** +1.5 (56% to cover) | Total 6.5: lean **OVER** (50%)
 
 ### Philadelphia Phillies lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.3 relief IP in last 2 days (ratio 0.66)_
@@ -813,7 +813,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.57)_
 ## 2026-08-12 - Baltimore Orioles @ Minnesota Twins (Scheduled)
 _Target Field_
 Projected score: Baltimore Orioles 4.68 - Minnesota Twins 3.78
-Model likes: **Baltimore Orioles** to win (58%) | Run line: **Minnesota Twins** +1.5 (58% to cover) | Total 7.5: lean **OVER** (54%)
+Model likes: **Baltimore Orioles** to win (58%) | Run line: **Minnesota Twins** +1.5 (58% to cover) | Total 7.5: lean **OVER** (53%)
 
 ### Baltimore Orioles lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -905,7 +905,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-12 - Colorado Rockies @ Arizona Diamondbacks (Scheduled)
 _Chase Field [hitter-friendly park]_
 Projected score: Colorado Rockies 4.86 - Arizona Diamondbacks 6.15
-Model likes: **Arizona Diamondbacks** to win (59%) | Run line: **Colorado Rockies** +1.5 (53% to cover) | Total 10.5: lean **UNDER** (52%)
+Model likes: **Arizona Diamondbacks** to win (59%) | Run line: **Colorado Rockies** +1.5 (54% to cover) | Total 10.5: lean **UNDER** (52%)
 
 ### Colorado Rockies lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1087,7 +1087,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-12 - Seattle Mariners @ New York Yankees (Scheduled)
 _Yankee Stadium [hitter-friendly park]_
 Projected score: Seattle Mariners 3.23 - New York Yankees 3.48
-Model likes: **New York Yankees** to win (53%) | Run line: **Seattle Mariners** +1.5 (66% to cover) | Total 6.5: lean **UNDER** (53%)
+Model likes: **New York Yankees** to win (53%) | Run line: **Seattle Mariners** +1.5 (65% to cover) | Total 6.5: lean **UNDER** (53%)
 
 ### Seattle Mariners lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
