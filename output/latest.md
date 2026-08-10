@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-10T20:56:41.031642+00:00_
+_Generated 2026-08-10T21:14:43.011100+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -27,7 +27,7 @@ _Generated 2026-08-10T20:56:41.031642+00:00_
 - **Bryce Elder** (Atlanta Braves vs New York Mets): pitching well above his season norm over his last few starts -- try Outs Recorded: 60% over 17.5 recently (vs. 5-game sample)
 - **Jacob Lopez** (Athletics vs Tampa Bay Rays): pitching well above his season norm over his last few starts -- try Outs Recorded: 80% over 12.5 recently (vs. 5-game sample)
 - **Blade Tidwell** (San Francisco Giants vs Houston Astros): pitching well above his season norm over his last few starts -- try Hits Allowed: 40% over 1.5 recently (vs. 5-game sample)
-- **Sonny Gray** (Boston Red Sox vs Toronto Blue Jays): opposing lineup has struck out at an elevated rate over their last 2 games (33% vs their own 21% season rate) -- try Outs Recorded: 80% over 17.5 recently (vs. 5-game sample)
+- **Sonny Gray** (Boston Red Sox vs Toronto Blue Jays): opposing lineup has struck out at an elevated rate over their last 2 games (33% vs their own 22% season rate) -- try Outs Recorded: 80% over 17.5 recently (vs. 5-game sample)
 
 ## Today's Top Unders
 ### Batters
@@ -58,11 +58,11 @@ _Generated 2026-08-10T20:56:41.031642+00:00_
 
 ## 2026-08-10 - Boston Red Sox @ Toronto Blue Jays (Pre-Game)
 _Rogers Centre_
-Projected score: Boston Red Sox 5.49 - Toronto Blue Jays 2.55
+Projected score: Boston Red Sox 5.46 - Toronto Blue Jays 2.56
 Model likes: **Boston Red Sox** to win (75%) | Run line: **Boston Red Sox** -1.5 (60% to cover) | Total 7.5: lean **UNDER** (51%)
 
 ### Boston Red Sox lineup -- CONFIRMED
-_Facing a taxed bullpen: 11.3 relief IP in last 2 days (ratio 1.78)_
+_Facing a taxed bullpen: 11.3 relief IP in last 2 days (ratio 1.74)_
 **Probable P: Sonny Gray (R)** -- L5: 30.0 IP, 24 K, 11 ER, 3.3 ERA
 - #1 Nick Sogard (S) -- L7: 7H 0HR 0RBI 10TB (0.241 avg) -- away split: 0.226 avg
 - #2 Ceddanne Rafaela (R) -- L7: 8H 1HR 4RBI 12TB (0.242 avg) -- away split: 0.292 avg
@@ -83,14 +83,14 @@ _Facing a taxed bullpen: 11.7 relief IP in last 2 days (ratio 2.16)_
 - #4 George Springer (R) -- L7: 3H 0HR 0RBI 3TB (0.158 avg) -- home split: 0.251 avg
 - #5 Jesús Sánchez (L) -- L7: 4H 1HR 3RBI 8TB (0.25 avg) -- home split: 0.3 avg
 - #6 Andrés Giménez (L) [4-game hit streak] -- L7: 8H 1HR 6RBI 13TB (0.308 avg) -- home split: 0.25 avg
-- #7 Charles McAdoo (R) -- L7: no data
+- #7 Charles McAdoo (R) -- L7: 3H 0HR 1RBI 3TB (0.143 avg) -- home split: 0.077 avg
 - #8 Josh Smith (L) -- L7: 3H 1HR 1RBI 6TB (0.2 avg) -- home split: 0.189 avg
 - #9 Brandon Valenzuela (S) -- L7: 4H 0HR 0RBI 4TB (0.211 avg) -- home split: 0.255 avg
 
 ## 2026-08-10 - New York Mets @ Atlanta Braves (Pre-Game)
 _Truist Park_
-Projected score: New York Mets 3.65 - Atlanta Braves 3.65
-Model likes: **New York Mets** to win (50%) | Run line: **Atlanta Braves** +1.5 (67% to cover) | Total 6.5: lean **OVER** (53%)
+Projected score: New York Mets 3.64 - Atlanta Braves 3.65
+Model likes: **Atlanta Braves** to win (50%) | Run line: **New York Mets** +1.5 (67% to cover) | Total 6.5: lean **OVER** (53%)
 
 ### New York Mets lineup -- CONFIRMED
 **Probable P: Christian Scott (R)** -- L5: 25.3 IP, 32 K, 7 ER, 2.49 ERA
@@ -118,11 +118,11 @@ Model likes: **New York Mets** to win (50%) | Run line: **Atlanta Braves** +1.5 
 
 ## 2026-08-10 - Baltimore Orioles @ Minnesota Twins (Pre-Game)
 _Target Field_
-Projected score: Baltimore Orioles 5.25 - Minnesota Twins 3.91
+Projected score: Baltimore Orioles 5.23 - Minnesota Twins 3.9
 Model likes: **Baltimore Orioles** to win (61%) | Run line: **Minnesota Twins** +1.5 (54% to cover) | Total 8.5: lean **OVER** (50%)
 
 ### Baltimore Orioles lineup -- CONFIRMED
-_Facing a taxed bullpen: 7.3 relief IP in last 2 days (ratio 1.9)_
+_Facing a taxed bullpen: 7.3 relief IP in last 2 days (ratio 1.88)_
 **Probable P: Trevor Rogers (L)** -- L5: 31.3 IP, 33 K, 10 ER, 2.87 ERA
 - #1 Gunnar Henderson (L) [MATCHUP EDGE: pitcher hits 0.269 avg-against vs this hand] -- L7: 1H 0HR 0RBI 1TB (0.053 avg) -- away split: 0.211 avg
 - #2 Pete Alonso (R) -- L7: 7H 2HR 6RBI 14TB (0.292 avg) -- away split: 0.256 avg
@@ -135,7 +135,7 @@ _Facing a taxed bullpen: 7.3 relief IP in last 2 days (ratio 1.9)_
 - #9 Carlos Narváez (R) -- L7: 2H 0HR 1RBI 2TB (0.1 avg) -- away split: 0.182 avg
 
 ### Minnesota Twins lineup -- CONFIRMED
-_Facing a taxed bullpen: 8.0 relief IP in last 2 days (ratio 1.64)_
+_Facing a taxed bullpen: 8.0 relief IP in last 2 days (ratio 1.63)_
 **Probable P: Dean Kremer (R)** -- L5: 24.0 IP, 20 K, 21 ER, 7.88 ERA
 - #1 Austin Martin (R) [MATCHUP EDGE: pitcher hits 0.274 avg-against vs this hand] -- L7: 2H 0HR 1RBI 3TB (0.118 avg) -- home split: 0.246 avg
 - #2 Ryan Jeffers (R) [MATCHUP EDGE: pitcher hits 0.274 avg-against vs this hand] -- L7: 4H 0HR 1RBI 5TB (0.174 avg) -- home split: 0.305 avg
@@ -273,7 +273,7 @@ _Facing a taxed bullpen: 10.7 relief IP in last 2 days (ratio 1.94)_
 ## 2026-08-10 - Colorado Rockies @ Arizona Diamondbacks (Pre-Game)
 _Chase Field [hitter-friendly park]_
 Projected score: Colorado Rockies 4.71 - Arizona Diamondbacks 5.28
-Model likes: **Arizona Diamondbacks** to win (54%) | Run line: **Colorado Rockies** +1.5 (59% to cover) | Total 9.5: lean **UNDER** (51%)
+Model likes: **Arizona Diamondbacks** to win (54%) | Run line: **Colorado Rockies** +1.5 (59% to cover) | Total 9.5: lean **UNDER** (52%)
 
 ### Colorado Rockies lineup -- CONFIRMED
 **Probable P: Gabriel Hughes (R)** -- L5: 26.7 IP, 27 K, 14 ER, 4.72 ERA
@@ -325,7 +325,7 @@ _Facing a taxed bullpen: 5.7 relief IP in last 2 days (ratio 1.27)_
 - Willy Adames (R) [3-game hit streak] -- L7: 5H 1HR 2RBI 8TB (0.2 avg) -- home split: 0.217 avg
 - Bryce Eldridge (L) -- L7: 6H 0HR 2RBI 6TB (0.231 avg) -- home split: 0.211 avg
 - Jung Hoo Lee (L) -- L7: 8H 2HR 5RBI 16TB (0.296 avg) -- home split: 0.26 avg
-- Drew Gilbert (L) -- L7: 4H 0HR 1RBI 6TB (0.222 avg) -- home split: 0.229 avg
+- Drew Gilbert (L) -- L7: 3H 0HR 1RBI 5TB (0.167 avg) -- home split: 0.219 avg
 - Christian Koss (R) -- L7: 2H 0HR 0RBI 2TB (0.1 avg) -- home split: 0.1 avg
 - Daniel Susac (R) -- L7: 3H 0HR 0RBI 5TB (0.15 avg) -- home split: 0.224 avg
 - Osleivis Basabe (R) -- L7: 6H 2HR 4RBI 12TB (0.24 avg) -- home split: 0.182 avg
@@ -362,8 +362,8 @@ _Facing a taxed bullpen: 9.0 relief IP in last 2 days (ratio 1.78)_
 
 ## 2026-08-11 - Pittsburgh Pirates @ Miami Marlins (Scheduled)
 _loanDepot park [pitcher-friendly park]_
-Projected score: Pittsburgh Pirates 3.71 - Miami Marlins 3.7
-Model likes: **Pittsburgh Pirates** to win (50%) | Run line: **Miami Marlins** +1.5 (67% to cover) | Total 6.5: lean **OVER** (54%)
+Projected score: Pittsburgh Pirates 3.71 - Miami Marlins 3.75
+Model likes: **Miami Marlins** to win (50%) | Run line: **Pittsburgh Pirates** +1.5 (66% to cover) | Total 6.5: lean **OVER** (55%)
 
 ### Pittsburgh Pirates lineup -- PROJECTED (unconfirmed)
 **Probable P: Paul Skenes (R)** -- L5: 26.7 IP, 39 K, 16 ER, 5.4 ERA
@@ -480,8 +480,8 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.49)_
 
 ## 2026-08-11 - Boston Red Sox @ Toronto Blue Jays (Scheduled)
 _Rogers Centre_
-Projected score: Boston Red Sox 3.24 - Toronto Blue Jays 2.83
-Model likes: **Boston Red Sox** to win (55%) | Run line: **Toronto Blue Jays** +1.5 (65% to cover) | Total 5.5: lean **OVER** (51%)
+Projected score: Boston Red Sox 3.21 - Toronto Blue Jays 2.83
+Model likes: **Boston Red Sox** to win (54%) | Run line: **Toronto Blue Jays** +1.5 (65% to cover) | Total 5.5: lean **OVER** (51%)
 
 ### Boston Red Sox lineup -- PROJECTED (unconfirmed)
 **Probable P: Patrick Sandoval (L)** -- L5: 24.0 IP, 25 K, 9 ER, 3.38 ERA
@@ -506,7 +506,7 @@ _Facing a taxed bullpen: 8.0 relief IP in last 2 days (ratio 1.48)_
 - Myles Straw (R) -- L7: 6H 0HR 1RBI 11TB (0.231 avg) -- home split: 0.198 avg
 - Alejandro Kirk (R) -- L7: 8H 1HR 5RBI 11TB (0.348 avg) -- home split: 0.268 avg
 - Vladimir Guerrero Jr. (R) -- L7: 6H 1HR 2RBI 11TB (0.207 avg) -- home split: 0.253 avg
-- Davis Schneider (R) -- L7: 0H 0HR 0RBI 0TB (0.0 avg) -- home split: 0.132 avg
+- Jesús Sánchez (L) -- L7: 4H 1HR 3RBI 8TB (0.25 avg) -- home split: 0.3 avg
 
 ## 2026-08-11 - New York Mets @ Atlanta Braves (Scheduled)
 _Truist Park_
@@ -540,8 +540,8 @@ _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.36)_
 
 ## 2026-08-11 - Baltimore Orioles @ Minnesota Twins (Scheduled)
 _Target Field_
-Projected score: Baltimore Orioles 4.23 - Minnesota Twins 3.59
-Model likes: **Baltimore Orioles** to win (56%) | Run line: **Minnesota Twins** +1.5 (60% to cover) | Total 7.5: lean **UNDER** (52%)
+Projected score: Baltimore Orioles 4.21 - Minnesota Twins 3.58
+Model likes: **Baltimore Orioles** to win (56%) | Run line: **Minnesota Twins** +1.5 (60% to cover) | Total 7.5: lean **UNDER** (53%)
 
 ### Baltimore Orioles lineup -- PROJECTED (unconfirmed)
 **Probable P: Brandon Young (R)** -- L5: 30.3 IP, 27 K, 12 ER, 3.56 ERA
@@ -556,7 +556,7 @@ Model likes: **Baltimore Orioles** to win (56%) | Run line: **Minnesota Twins** 
 - Tyler O'Neill (R) -- L7: 6H 3HR 5RBI 15TB (0.353 avg) -- away split: 0.204 avg
 
 ### Minnesota Twins lineup -- PROJECTED (unconfirmed)
-_Facing a taxed bullpen: 6.0 relief IP in last 2 days (ratio 1.23)_
+_Facing a taxed bullpen: 6.0 relief IP in last 2 days (ratio 1.22)_
 **Probable P: Bailey Ober (R)** -- L5: 26.3 IP, 17 K, 12 ER, 4.1 ERA
 - Ryan Kreidler (R) -- L7: 3H 0HR 0RBI 3TB (0.158 avg) -- home split: 0.277 avg
 - Royce Lewis (R) -- L7: 12H 2HR 7RBI 21TB (0.414 avg) -- home split: 0.231 avg
@@ -602,7 +602,7 @@ _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.43)_
 ## 2026-08-11 - Philadelphia Phillies @ St. Louis Cardinals (Scheduled)
 _Busch Stadium_
 Projected score: Philadelphia Phillies 4.1 - St. Louis Cardinals 2.97
-Model likes: **Philadelphia Phillies** to win (61%) | Run line: **St. Louis Cardinals** +1.5 (56% to cover) | Total 6.5: lean **OVER** (50%)
+Model likes: **Philadelphia Phillies** to win (61%) | Run line: **St. Louis Cardinals** +1.5 (56% to cover) | Total 6.5: lean **OVER** (51%)
 
 ### Philadelphia Phillies lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.3 relief IP in last 2 days (ratio 0.66)_
@@ -723,7 +723,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.55)_
 ## 2026-08-11 - Colorado Rockies @ Arizona Diamondbacks (Scheduled)
 _Chase Field [hitter-friendly park]_
 Projected score: Colorado Rockies 4.16 - Arizona Diamondbacks 5.38
-Model likes: **Arizona Diamondbacks** to win (60%) | Run line: **Colorado Rockies** +1.5 (54% to cover) | Total 8.5: lean **OVER** (54%)
+Model likes: **Arizona Diamondbacks** to win (60%) | Run line: **Colorado Rockies** +1.5 (54% to cover) | Total 8.5: lean **OVER** (53%)
 
 ### Colorado Rockies lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.38)_
@@ -775,7 +775,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.55)_
 - Willy Adames (R) [TOUGH MATCHUP: pitcher holds this hand to 0.183 avg-against] [3-game hit streak] -- L7: 5H 1HR 2RBI 8TB (0.2 avg) -- home split: 0.217 avg
 - Bryce Eldridge (L) -- L7: 6H 0HR 2RBI 6TB (0.231 avg) -- home split: 0.211 avg
 - Jung Hoo Lee (L) -- L7: 8H 2HR 5RBI 16TB (0.296 avg) -- home split: 0.26 avg
-- Drew Gilbert (L) -- L7: 4H 0HR 1RBI 6TB (0.222 avg) -- home split: 0.229 avg
+- Drew Gilbert (L) -- L7: 3H 0HR 1RBI 5TB (0.167 avg) -- home split: 0.219 avg
 - Christian Koss (R) [TOUGH MATCHUP: pitcher holds this hand to 0.183 avg-against] -- L7: 2H 0HR 0RBI 2TB (0.1 avg) -- home split: 0.1 avg
 - Daniel Susac (R) [TOUGH MATCHUP: pitcher holds this hand to 0.183 avg-against] -- L7: 3H 0HR 0RBI 5TB (0.15 avg) -- home split: 0.224 avg
 - Osleivis Basabe (R) [TOUGH MATCHUP: pitcher holds this hand to 0.183 avg-against] -- L7: 6H 2HR 4RBI 12TB (0.24 avg) -- home split: 0.182 avg
@@ -812,8 +812,8 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.57)_
 
 ## 2026-08-12 - Baltimore Orioles @ Minnesota Twins (Scheduled)
 _Target Field_
-Projected score: Baltimore Orioles 4.68 - Minnesota Twins 3.78
-Model likes: **Baltimore Orioles** to win (58%) | Run line: **Minnesota Twins** +1.5 (58% to cover) | Total 7.5: lean **OVER** (54%)
+Projected score: Baltimore Orioles 4.66 - Minnesota Twins 3.77
+Model likes: **Baltimore Orioles** to win (58%) | Run line: **Minnesota Twins** +1.5 (58% to cover) | Total 7.5: lean **OVER** (53%)
 
 ### Baltimore Orioles lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -875,7 +875,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-12 - Tampa Bay Rays @ Athletics (Scheduled)
 _Sutter Health Park_
 Projected score: Tampa Bay Rays 6.54 - Athletics 3.38
-Model likes: **Tampa Bay Rays** to win (73%) | Run line: **Tampa Bay Rays** -1.5 (60% to cover) | Total 9.5: lean **UNDER** (52%)
+Model likes: **Tampa Bay Rays** to win (73%) | Run line: **Tampa Bay Rays** -1.5 (61% to cover) | Total 9.5: lean **UNDER** (52%)
 
 ### Tampa Bay Rays lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -957,7 +957,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 - Willy Adames (R) [3-game hit streak] -- L7: 5H 1HR 2RBI 8TB (0.2 avg) -- home split: 0.217 avg
 - Bryce Eldridge (L) -- L7: 6H 0HR 2RBI 6TB (0.231 avg) -- home split: 0.211 avg
 - Jung Hoo Lee (L) -- L7: 8H 2HR 5RBI 16TB (0.296 avg) -- home split: 0.26 avg
-- Drew Gilbert (L) -- L7: 4H 0HR 1RBI 6TB (0.222 avg) -- home split: 0.229 avg
+- Drew Gilbert (L) -- L7: 3H 0HR 1RBI 5TB (0.167 avg) -- home split: 0.219 avg
 - Christian Koss (R) -- L7: 2H 0HR 0RBI 2TB (0.1 avg) -- home split: 0.1 avg
 - Daniel Susac (R) -- L7: 3H 0HR 0RBI 5TB (0.15 avg) -- home split: 0.224 avg
 - Osleivis Basabe (R) -- L7: 6H 2HR 4RBI 12TB (0.24 avg) -- home split: 0.182 avg
@@ -1117,7 +1117,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 
 ## 2026-08-12 - Boston Red Sox @ Toronto Blue Jays (Scheduled)
 _Rogers Centre_
-Projected score: Boston Red Sox 3.86 - Toronto Blue Jays 2.81
+Projected score: Boston Red Sox 3.84 - Toronto Blue Jays 2.81
 Model likes: **Boston Red Sox** to win (61%) | Run line: **Toronto Blue Jays** +1.5 (58% to cover) | Total 6.5: lean **UNDER** (54%)
 
 ### Boston Red Sox lineup -- PROJECTED (unconfirmed)
@@ -1144,11 +1144,11 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 - Myles Straw (R) -- L7: 6H 0HR 1RBI 11TB (0.231 avg) -- home split: 0.198 avg
 - Alejandro Kirk (R) -- L7: 8H 1HR 5RBI 11TB (0.348 avg) -- home split: 0.268 avg
 - Vladimir Guerrero Jr. (R) -- L7: 6H 1HR 2RBI 11TB (0.207 avg) -- home split: 0.253 avg
-- Davis Schneider (R) -- L7: 0H 0HR 0RBI 0TB (0.0 avg) -- home split: 0.132 avg
+- Jesús Sánchez (L) -- L7: 4H 1HR 3RBI 8TB (0.25 avg) -- home split: 0.3 avg
 
 ## 2026-08-12 - New York Mets @ Atlanta Braves (Scheduled)
 _Truist Park_
-Projected score: New York Mets 4.08 - Atlanta Braves 2.99
+Projected score: New York Mets 4.07 - Atlanta Braves 2.99
 Model likes: **New York Mets** to win (61%) | Run line: **Atlanta Braves** +1.5 (57% to cover) | Total 6.5: lean **OVER** (50%)
 
 ### New York Mets lineup -- PROJECTED (unconfirmed)
@@ -1179,7 +1179,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 
 ## 2026-08-12 - Cincinnati Reds @ Chicago White Sox (Scheduled)
 _Rate Field_
-Projected score: Cincinnati Reds 4.24 - Chicago White Sox 4.82
+Projected score: Cincinnati Reds 4.24 - Chicago White Sox 4.83
 Model likes: **Chicago White Sox** to win (55%) | Run line: **Cincinnati Reds** +1.5 (60% to cover) | Total 8.5: lean **UNDER** (50%)
 
 ### Cincinnati Reds lineup -- PROJECTED (unconfirmed)
