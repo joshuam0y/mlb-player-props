@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-10T20:05:45.904105+00:00_
+_Generated 2026-08-10T20:56:41.031642+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -10,6 +10,7 @@ _Generated 2026-08-10T20:05:45.904105+00:00_
 - **Tyler Soderstrom** (Athletics vs Tampa Bay Rays): favorable matchup vs. tonight's pitcher, 8-game hit streak -- try Total Bases: 60% over 1.5 recently (vs. 10-game sample)
 - **Tim Tawa** (Arizona Diamondbacks vs Colorado Rockies): real hot streak (not just lucky bloops), 5-game hit streak -- try Hits: 70% over 0.5 recently (vs. 10-game sample)
 - **Jake McCarthy** (Colorado Rockies vs Arizona Diamondbacks): real hot streak (not just lucky bloops), 8-game hit streak -- try Runs Scored: 60% over 0.5 recently (vs. 10-game sample)
+- **Jordan Beck** (Colorado Rockies vs Arizona Diamondbacks): real hot streak (not just lucky bloops), 7-game hit streak -- try Hits: 80% over 0.5 recently (vs. 10-game sample)
 - **Kyle Tucker** (Los Angeles Dodgers vs Kansas City Royals): real hot streak (not just lucky bloops), 7-game hit streak -- try Hits + Runs + RBIs: 70% over 1.5 recently (vs. 10-game sample)
 - **Jac Caglianone** (Kansas City Royals vs Los Angeles Dodgers): real hot streak (not just lucky bloops), 8-game hit streak -- try Total Bases: 60% over 1.5 recently (vs. 10-game sample)
 - **Justin Crawford** (Philadelphia Phillies vs St. Louis Cardinals): real hot streak (not just lucky bloops) -- try Hits: 80% over 0.5 recently (vs. 10-game sample)
@@ -17,7 +18,6 @@ _Generated 2026-08-10T20:05:45.904105+00:00_
 - **Geraldo Perdomo** (Arizona Diamondbacks vs Colorado Rockies): favorable matchup vs. tonight's pitcher -- try Total Bases: 60% over 1.5 recently (vs. 10-game sample)
 - **Wilyer Abreu** (Boston Red Sox vs Toronto Blue Jays): real hot streak (not just lucky bloops) -- try RBIs: 70% over 0.5 recently (vs. 10-game sample)
 - **Masataka Yoshida** (Boston Red Sox vs Toronto Blue Jays): real hot streak (not just lucky bloops) -- try Hits + Runs + RBIs: 60% over 1.5 recently (vs. 10-game sample)
-- **Austin Riley** (Atlanta Braves vs New York Mets): real hot streak (not just lucky bloops) -- try Hits: 70% over 0.5 recently (vs. 10-game sample)
 
 ### Pitchers
 - **Christian Scott** (New York Mets vs Atlanta Braves): pitching well above his season norm over his last few starts, opposing lineup has struck out at an elevated rate over their last 2 games (35% vs their own 24% season rate) -- try Strikeouts: 60% over 6.5 recently (vs. 5-game sample)
@@ -58,8 +58,8 @@ _Generated 2026-08-10T20:05:45.904105+00:00_
 
 ## 2026-08-10 - Boston Red Sox @ Toronto Blue Jays (Pre-Game)
 _Rogers Centre_
-Projected score: Boston Red Sox 5.49 - Toronto Blue Jays 2.53
-Model likes: **Boston Red Sox** to win (75%) | Run line: **Boston Red Sox** -1.5 (61% to cover) | Total 7.5: lean **UNDER** (51%)
+Projected score: Boston Red Sox 5.49 - Toronto Blue Jays 2.55
+Model likes: **Boston Red Sox** to win (75%) | Run line: **Boston Red Sox** -1.5 (60% to cover) | Total 7.5: lean **UNDER** (51%)
 
 ### Boston Red Sox lineup -- CONFIRMED
 _Facing a taxed bullpen: 11.3 relief IP in last 2 days (ratio 1.78)_
@@ -83,26 +83,26 @@ _Facing a taxed bullpen: 11.7 relief IP in last 2 days (ratio 2.16)_
 - #4 George Springer (R) -- L7: 3H 0HR 0RBI 3TB (0.158 avg) -- home split: 0.251 avg
 - #5 Jesús Sánchez (L) -- L7: 4H 1HR 3RBI 8TB (0.25 avg) -- home split: 0.3 avg
 - #6 Andrés Giménez (L) [4-game hit streak] -- L7: 8H 1HR 6RBI 13TB (0.308 avg) -- home split: 0.25 avg
-- #7 Kazuma Okamoto (R) -- L7: 5H 0HR 1RBI 5TB (0.172 avg) -- home split: 0.232 avg
+- #7 Charles McAdoo (R) -- L7: no data
 - #8 Josh Smith (L) -- L7: 3H 1HR 1RBI 6TB (0.2 avg) -- home split: 0.189 avg
 - #9 Brandon Valenzuela (S) -- L7: 4H 0HR 0RBI 4TB (0.211 avg) -- home split: 0.255 avg
 
 ## 2026-08-10 - New York Mets @ Atlanta Braves (Pre-Game)
 _Truist Park_
-Projected score: New York Mets 3.44 - Atlanta Braves 3.65
-Model likes: **Atlanta Braves** to win (52%) | Run line: **New York Mets** +1.5 (65% to cover) | Total 6.5: lean **OVER** (51%)
+Projected score: New York Mets 3.65 - Atlanta Braves 3.65
+Model likes: **New York Mets** to win (50%) | Run line: **Atlanta Braves** +1.5 (67% to cover) | Total 6.5: lean **OVER** (53%)
 
-### New York Mets lineup -- PROJECTED (unconfirmed)
+### New York Mets lineup -- CONFIRMED
 **Probable P: Christian Scott (R)** -- L5: 25.3 IP, 32 K, 7 ER, 2.49 ERA
-- Bo Bichette (R) -- L7: 11H 1HR 6RBI 17TB (0.367 avg) -- away split: 0.286 avg
-- Francisco Lindor (S) [4-game hit streak] -- L7: 6H 1HR 4RBI 10TB (0.207 avg) -- away split: 0.22 avg
-- Marcus Semien (R) -- L7: 6H 2HR 6RBI 13TB (0.25 avg) -- away split: 0.23 avg
-- A.J. Ewing (L) -- L7: 6H 0HR 0RBI 9TB (0.214 avg) -- away split: 0.248 avg
-- Jared Young (L) [likely BABIP-driven, not a real power uptick] -- L7: 8H 0HR 4RBI 14TB (0.333 avg) -- away split: 0.255 avg
-- Carson Benge (L) [5-game hit streak] -- L7: 10H 2HR 6RBI 18TB (0.345 avg) -- away split: 0.266 avg
-- Francisco Alvarez (R) [3-game hit streak] -- L7: 5H 1HR 2RBI 10TB (0.208 avg) -- away split: 0.267 avg
-- Luis Robert Jr. (R) [3-game hit streak] -- L7: 7H 1HR 4RBI 10TB (0.259 avg) -- away split: 0.225 avg
-- Brett Baty (L) -- L7: 2H 1HR 1RBI 5TB (0.1 avg) -- away split: 0.199 avg
+- #1 A.J. Ewing (L) -- L7: 6H 0HR 0RBI 9TB (0.214 avg) -- away split: 0.248 avg
+- #2 Francisco Lindor (S) [4-game hit streak] -- L7: 6H 1HR 4RBI 10TB (0.207 avg) -- away split: 0.22 avg
+- #3 Bo Bichette (R) -- L7: 11H 1HR 6RBI 17TB (0.367 avg) -- away split: 0.286 avg
+- #4 Carson Benge (L) [5-game hit streak] -- L7: 10H 2HR 6RBI 18TB (0.345 avg) -- away split: 0.266 avg
+- #5 Jared Young (L) [likely BABIP-driven, not a real power uptick] -- L7: 8H 0HR 4RBI 14TB (0.333 avg) -- away split: 0.255 avg
+- #6 Marcus Semien (R) -- L7: 6H 2HR 6RBI 13TB (0.25 avg) -- away split: 0.23 avg
+- #7 Brett Baty (L) -- L7: 2H 1HR 1RBI 5TB (0.1 avg) -- away split: 0.199 avg
+- #8 Jorge Polanco (S) -- L7: 2H 1HR 1RBI 6TB (0.083 avg) -- away split: 0.173 avg
+- #9 Francisco Alvarez (R) [3-game hit streak] -- L7: 5H 1HR 2RBI 10TB (0.208 avg) -- away split: 0.267 avg
 
 ### Atlanta Braves lineup -- CONFIRMED
 **Probable P: Bryce Elder (R)** -- L5: 28.0 IP, 21 K, 8 ER, 2.57 ERA
@@ -149,21 +149,21 @@ _Facing a taxed bullpen: 8.0 relief IP in last 2 days (ratio 1.64)_
 
 ## 2026-08-10 - Philadelphia Phillies @ St. Louis Cardinals (Pre-Game)
 _Busch Stadium_
-Projected score: Philadelphia Phillies 4.14 - St. Louis Cardinals 4.76
-Model likes: **St. Louis Cardinals** to win (55%) | Run line: **Philadelphia Phillies** +1.5 (60% to cover) | Total 8.5: lean **UNDER** (52%)
+Projected score: Philadelphia Phillies 4.22 - St. Louis Cardinals 4.76
+Model likes: **St. Louis Cardinals** to win (55%) | Run line: **Philadelphia Phillies** +1.5 (60% to cover) | Total 8.5: lean **UNDER** (51%)
 
-### Philadelphia Phillies lineup -- PROJECTED (unconfirmed)
+### Philadelphia Phillies lineup -- CONFIRMED
 _Facing a taxed bullpen: 7.3 relief IP in last 2 days (ratio 1.45)_
 **Probable P: Andrew Painter (R)** -- L5: 21.7 IP, 20 K, 20 ER, 8.31 ERA
-- Justin Crawford (L) [4-game hit streak] -- L7: 6H 0HR 3RBI 9TB (0.375 avg) -- away split: 0.239 avg
-- Bryson Stott (L) [likely BABIP-driven, not a real power uptick] -- L7: 10H 0HR 3RBI 14TB (0.455 avg) -- away split: 0.233 avg
-- Brandon Marsh (L) -- L7: 5H 0HR 3RBI 7TB (0.192 avg) -- away split: 0.255 avg
-- Alec Bohm (R) -- L7: 6H 0HR 3RBI 7TB (0.25 avg) -- away split: 0.21 avg
-- Trea Turner (R) -- L7: 7H 1HR 4RBI 11TB (0.219 avg) -- away split: 0.219 avg
-- Bryce Harper (L) -- L7: 6H 2HR 5RBI 13TB (0.261 avg) -- away split: 0.251 avg
-- Kyle Schwarber (L) [4-game hit streak] -- L7: 6H 2HR 5RBI 13TB (0.25 avg) -- away split: 0.231 avg
-- J.T. Realmuto (R) [4-game hit streak] -- L7: 6H 0HR 1RBI 7TB (0.222 avg) -- away split: 0.206 avg
-- Bryan De La Cruz (R) -- L7: 2H 1HR 5RBI 5TB (0.133 avg) -- away split: 0.385 avg
+- #1 Kyle Schwarber (L) [4-game hit streak] -- L7: 6H 2HR 5RBI 13TB (0.25 avg) -- away split: 0.231 avg
+- #2 Bryson Stott (L) [likely BABIP-driven, not a real power uptick] -- L7: 10H 0HR 3RBI 14TB (0.455 avg) -- away split: 0.233 avg
+- #3 Bryce Harper (L) -- L7: 6H 2HR 5RBI 13TB (0.261 avg) -- away split: 0.251 avg
+- #4 Luis Arraez (L) -- L7: 7H 1HR 5RBI 12TB (0.219 avg) -- away split: 0.293 avg
+- #5 Brandon Marsh (L) -- L7: 5H 0HR 3RBI 7TB (0.192 avg) -- away split: 0.255 avg
+- #6 Derek Hill (R) -- L7: 2H 1HR 5RBI 5TB (0.182 avg) -- away split: 0.274 avg
+- #7 Justin Crawford (L) [4-game hit streak] -- L7: 6H 0HR 3RBI 9TB (0.375 avg) -- away split: 0.239 avg
+- #8 Edmundo Sosa (R) -- L7: 3H 0HR 0RBI 3TB (0.15 avg) -- away split: 0.202 avg
+- #9 Garrett Stubbs (L) -- L7: 1H 0HR 1RBI 1TB (0.071 avg) -- away split: 0.25 avg
 
 ### St. Louis Cardinals lineup -- CONFIRMED
 _Facing a taxed bullpen: 11.0 relief IP in last 2 days (ratio 2.19)_
@@ -270,22 +270,22 @@ _Facing a taxed bullpen: 10.7 relief IP in last 2 days (ratio 1.94)_
 - Donovan Walton (L) [MATCHUP EDGE: pitcher hits 0.279 avg-against vs this hand] -- L7: 2H 0HR 2RBI 3TB (0.2 avg) -- home split: 0.242 avg
 - Jeff McNeil (L) [MATCHUP EDGE: pitcher hits 0.279 avg-against vs this hand] -- L7: 6H 0HR 2RBI 6TB (0.286 avg) -- home split: 0.25 avg
 
-## 2026-08-10 - Colorado Rockies @ Arizona Diamondbacks (Scheduled)
+## 2026-08-10 - Colorado Rockies @ Arizona Diamondbacks (Pre-Game)
 _Chase Field [hitter-friendly park]_
-Projected score: Colorado Rockies 4.9 - Arizona Diamondbacks 5.28
-Model likes: **Arizona Diamondbacks** to win (53%) | Run line: **Colorado Rockies** +1.5 (60% to cover) | Total 9.5: lean **OVER** (50%)
+Projected score: Colorado Rockies 4.71 - Arizona Diamondbacks 5.28
+Model likes: **Arizona Diamondbacks** to win (54%) | Run line: **Colorado Rockies** +1.5 (59% to cover) | Total 9.5: lean **UNDER** (51%)
 
-### Colorado Rockies lineup -- PROJECTED (unconfirmed)
+### Colorado Rockies lineup -- CONFIRMED
 **Probable P: Gabriel Hughes (R)** -- L5: 26.7 IP, 27 K, 14 ER, 4.72 ERA
-- Cole Carrigg (S) -- L7: 9H 0HR 4RBI 13TB (0.321 avg) -- away split: 0.241 avg
-- TJ Rumfield (L) -- L7: 7H 0HR 2RBI 9TB (0.269 avg) -- away split: 0.294 avg
-- Jake McCarthy (L) [8-game hit streak] -- L7: 15H 3HR 8RBI 27TB (0.469 avg) -- away split: 0.293 avg
-- Hunter Goodman (R) -- L7: 8H 3HR 9RBI 17TB (0.296 avg) -- away split: 0.271 avg
-- Mickey Moniak (L) -- L7: 6H 2HR 5RBI 15TB (0.261 avg) -- away split: 0.235 avg
-- Kyle Karros (R) -- L7: 7H 0HR 5RBI 8TB (0.28 avg) -- away split: 0.25 avg
-- Ezequiel Tovar (R) [likely BABIP-driven, not a real power uptick] -- L7: 8H 1HR 3RBI 12TB (0.333 avg) -- away split: 0.206 avg
-- Willi Castro (S) -- L7: 9H 2HR 3RBI 19TB (0.31 avg) -- away split: 0.215 avg
-- Tyler Freeman (R) -- L7: 3H 0HR 0RBI 3TB (0.176 avg) -- away split: 0.213 avg
+- #1 Jake McCarthy (L) [8-game hit streak] -- L7: 15H 3HR 8RBI 27TB (0.469 avg) -- away split: 0.293 avg
+- #2 Cole Carrigg (S) -- L7: 9H 0HR 4RBI 13TB (0.321 avg) -- away split: 0.241 avg
+- #3 TJ Rumfield (L) -- L7: 7H 0HR 2RBI 9TB (0.269 avg) -- away split: 0.294 avg
+- #4 Hunter Goodman (R) -- L7: 8H 3HR 9RBI 17TB (0.296 avg) -- away split: 0.271 avg
+- #5 Mickey Moniak (L) -- L7: 6H 2HR 5RBI 15TB (0.261 avg) -- away split: 0.235 avg
+- #6 Kyle Karros (R) -- L7: 7H 0HR 5RBI 8TB (0.28 avg) -- away split: 0.25 avg
+- #7 Willi Castro (S) -- L7: 9H 2HR 3RBI 19TB (0.31 avg) -- away split: 0.215 avg
+- #8 Troy Johnston (L) -- L7: 3H 0HR 2RBI 4TB (0.143 avg) -- away split: 0.248 avg
+- #9 Jordan Beck (R) [7-game hit streak] -- L7: 7H 0HR 0RBI 12TB (0.333 avg) -- away split: 0.2 avg
 
 ### Arizona Diamondbacks lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 8.3 relief IP in last 2 days (ratio 1.68)_
@@ -905,7 +905,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-12 - Colorado Rockies @ Arizona Diamondbacks (Scheduled)
 _Chase Field [hitter-friendly park]_
 Projected score: Colorado Rockies 4.86 - Arizona Diamondbacks 6.15
-Model likes: **Arizona Diamondbacks** to win (59%) | Run line: **Colorado Rockies** +1.5 (53% to cover) | Total 10.5: lean **UNDER** (52%)
+Model likes: **Arizona Diamondbacks** to win (59%) | Run line: **Colorado Rockies** +1.5 (54% to cover) | Total 10.5: lean **UNDER** (52%)
 
 ### Colorado Rockies lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1057,7 +1057,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-12 - Chicago Cubs @ Washington Nationals (Scheduled)
 _Nationals Park_
 Projected score: Chicago Cubs 6.28 - Washington Nationals 5.61
-Model likes: **Chicago Cubs** to win (54%) | Run line: **Washington Nationals** +1.5 (57% to cover) | Total 11.5: lean **UNDER** (52%)
+Model likes: **Chicago Cubs** to win (54%) | Run line: **Washington Nationals** +1.5 (57% to cover) | Total 11.5: lean **UNDER** (53%)
 
 ### Chicago Cubs lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1241,7 +1241,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-12 - Texas Rangers @ Los Angeles Angels (Scheduled)
 _Angel Stadium_
 Projected score: Texas Rangers 3.92 - Los Angeles Angels 3.34
-Model likes: **Texas Rangers** to win (56%) | Run line: **Los Angeles Angels** +1.5 (62% to cover) | Total 6.5: lean **OVER** (53%)
+Model likes: **Texas Rangers** to win (56%) | Run line: **Los Angeles Angels** +1.5 (62% to cover) | Total 6.5: lean **OVER** (52%)
 
 ### Texas Rangers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
