@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-10T00:01:16.448842+00:00_
+_Generated 2026-08-10T01:43:26.065161+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -473,7 +473,7 @@ _Facing a taxed bullpen: 6.7 relief IP in last 2 days (ratio 1.32)_
 - #8 Tyler Locklear (R) -- L7: 6H 1HR 4RBI 11TB (0.286 avg) -- home split: 0.333 avg
 - #9 Ryan Waldschmidt (R) -- L7: 7H 1HR 2RBI 10TB (0.292 avg) -- home split: 0.337 avg
 
-## 2026-08-09 - Houston Astros @ San Diego Padres (Warmup)
+## 2026-08-09 - Houston Astros @ San Diego Padres (In Progress)
 _Petco Park [pitcher-friendly park]_
 Projected score: Houston Astros 3.93 - San Diego Padres 4.33
 Model likes: **San Diego Padres** to win (54%) | Run line: **Houston Astros** +1.5 (62% to cover) | Total 7.5: lean **OVER** (52%)
@@ -536,8 +536,8 @@ _Facing a taxed bullpen: 11.7 relief IP in last 2 days (ratio 2.16)_
 
 ## 2026-08-10 - New York Mets @ Atlanta Braves (Scheduled)
 _Truist Park_
-Projected score: New York Mets 3.26 - Atlanta Braves 3.72
-Model likes: **Atlanta Braves** to win (55%) | Run line: **New York Mets** +1.5 (63% to cover) | Total 6.5: lean **UNDER** (50%)
+Projected score: New York Mets 3.26 - Atlanta Braves 3.7
+Model likes: **Atlanta Braves** to win (54%) | Run line: **New York Mets** +1.5 (63% to cover) | Total 6.5: lean **UNDER** (51%)
 
 ### New York Mets lineup -- PROJECTED (unconfirmed)
 **Probable P: Christian Scott (R)** -- L5: 25.3 IP, 32 K, 7 ER, 2.49 ERA
@@ -658,8 +658,8 @@ _Facing a taxed bullpen: 10.0 relief IP in last 2 days (ratio 2.08)_
 
 ## 2026-08-10 - Milwaukee Brewers @ San Diego Padres (Scheduled)
 _Petco Park [pitcher-friendly park]_
-Projected score: Milwaukee Brewers 3.47 - San Diego Padres 2.81
-Model likes: **Milwaukee Brewers** to win (57%) | Run line: **San Diego Padres** +1.5 (62% to cover) | Total 5.5: lean **OVER** (53%)
+Projected score: Milwaukee Brewers 3.49 - San Diego Padres 2.81
+Model likes: **Milwaukee Brewers** to win (57%) | Run line: **San Diego Padres** +1.5 (62% to cover) | Total 5.5: lean **OVER** (54%)
 
 ### Milwaukee Brewers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.47)_
@@ -720,8 +720,8 @@ _Facing a taxed bullpen: 10.7 relief IP in last 2 days (ratio 1.94)_
 
 ## 2026-08-10 - Colorado Rockies @ Arizona Diamondbacks (Scheduled)
 _Chase Field [hitter-friendly park]_
-Projected score: Colorado Rockies 4.92 - Arizona Diamondbacks 5.31
-Model likes: **Arizona Diamondbacks** to win (53%) | Run line: **Colorado Rockies** +1.5 (60% to cover) | Total 9.5: lean **OVER** (50%)
+Projected score: Colorado Rockies 4.99 - Arizona Diamondbacks 5.31
+Model likes: **Arizona Diamondbacks** to win (52%) | Run line: **Colorado Rockies** +1.5 (61% to cover) | Total 9.5: lean **OVER** (51%)
 
 ### Colorado Rockies lineup -- PROJECTED (unconfirmed)
 **Probable P: Gabriel Hughes (R)** -- L5: 26.7 IP, 27 K, 14 ER, 4.72 ERA
@@ -750,7 +750,7 @@ _Facing a taxed bullpen: 8.3 relief IP in last 2 days (ratio 1.68)_
 
 ## 2026-08-10 - Houston Astros @ San Francisco Giants (Scheduled)
 _Oracle Park [pitcher-friendly park]_
-Projected score: Houston Astros 3.98 - San Francisco Giants 3.19
+Projected score: Houston Astros 3.98 - San Francisco Giants 3.18
 Model likes: **Houston Astros** to win (58%) | Run line: **San Francisco Giants** +1.5 (60% to cover) | Total 6.5: lean **OVER** (52%)
 
 ### Houston Astros lineup -- PROJECTED (unconfirmed)
@@ -811,7 +811,7 @@ _Facing a taxed bullpen: 9.0 relief IP in last 2 days (ratio 1.78)_
 
 ## 2026-08-11 - Pittsburgh Pirates @ Miami Marlins (Scheduled)
 _loanDepot park [pitcher-friendly park]_
-Projected score: Pittsburgh Pirates 3.8 - Miami Marlins 3.55
+Projected score: Pittsburgh Pirates 3.78 - Miami Marlins 3.55
 Model likes: **Pittsburgh Pirates** to win (52%) | Run line: **Miami Marlins** +1.5 (65% to cover) | Total 6.5: lean **OVER** (53%)
 
 ### Pittsburgh Pirates lineup -- PROJECTED (unconfirmed)
@@ -930,7 +930,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.49)_
 ## 2026-08-11 - Boston Red Sox @ Toronto Blue Jays (Scheduled)
 _Rogers Centre_
 Projected score: Boston Red Sox 3.29 - Toronto Blue Jays 2.67
-Model likes: **Boston Red Sox** to win (57%) | Run line: **Toronto Blue Jays** +1.5 (63% to cover) | Total 5.5: lean **OVER** (50%)
+Model likes: **Boston Red Sox** to win (57%) | Run line: **Toronto Blue Jays** +1.5 (63% to cover) | Total 5.5: lean **UNDER** (50%)
 
 ### Boston Red Sox lineup -- PROJECTED (unconfirmed)
 **Probable P: Patrick Sandoval (L)** -- L5: 24.0 IP, 25 K, 9 ER, 3.38 ERA
@@ -959,8 +959,8 @@ _Facing a taxed bullpen: 8.0 relief IP in last 2 days (ratio 1.48)_
 
 ## 2026-08-11 - New York Mets @ Atlanta Braves (Scheduled)
 _Truist Park_
-Projected score: New York Mets 3.05 - Atlanta Braves 3.92
-Model likes: **Atlanta Braves** to win (59%) | Run line: **New York Mets** +1.5 (59% to cover) | Total 6.5: lean **UNDER** (50%)
+Projected score: New York Mets 3.05 - Atlanta Braves 3.9
+Model likes: **Atlanta Braves** to win (58%) | Run line: **New York Mets** +1.5 (59% to cover) | Total 6.5: lean **UNDER** (51%)
 
 ### New York Mets lineup -- PROJECTED (unconfirmed)
 **Probable P: Nolan McLean (R)** -- L5: 29.3 IP, 38 K, 9 ER, 2.76 ERA
@@ -990,7 +990,7 @@ _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.36)_
 ## 2026-08-11 - Baltimore Orioles @ Minnesota Twins (Scheduled)
 _Target Field_
 Projected score: Baltimore Orioles 4.11 - Minnesota Twins 3.17
-Model likes: **Baltimore Orioles** to win (59%) | Run line: **Minnesota Twins** +1.5 (58% to cover) | Total 6.5: lean **OVER** (53%)
+Model likes: **Baltimore Orioles** to win (59%) | Run line: **Minnesota Twins** +1.5 (58% to cover) | Total 6.5: lean **OVER** (52%)
 
 ### Baltimore Orioles lineup -- PROJECTED (unconfirmed)
 **Probable P: Brandon Young (R)** -- L5: 30.3 IP, 27 K, 12 ER, 3.56 ERA
@@ -1019,8 +1019,8 @@ _Facing a taxed bullpen: 6.0 relief IP in last 2 days (ratio 1.23)_
 
 ## 2026-08-11 - Cincinnati Reds @ Chicago White Sox (Scheduled)
 _Rate Field_
-Projected score: Cincinnati Reds 3.17 - Chicago White Sox 4.94
-Model likes: **Chicago White Sox** to win (66%) | Run line: **Cincinnati Reds** +1.5 (50% to cover) | Total 7.5: lean **OVER** (50%)
+Projected score: Cincinnati Reds 3.16 - Chicago White Sox 4.94
+Model likes: **Chicago White Sox** to win (66%) | Run line: **Chicago White Sox** -1.5 (50% to cover) | Total 7.5: lean **OVER** (50%)
 
 ### Cincinnati Reds lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 8.0 relief IP in last 2 days (ratio 1.2)_
@@ -1051,7 +1051,7 @@ _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.43)_
 ## 2026-08-11 - Philadelphia Phillies @ St. Louis Cardinals (Scheduled)
 _Busch Stadium_
 Projected score: Philadelphia Phillies 4.11 - St. Louis Cardinals 2.95
-Model likes: **Philadelphia Phillies** to win (61%) | Run line: **St. Louis Cardinals** +1.5 (56% to cover) | Total 6.5: lean **OVER** (50%)
+Model likes: **Philadelphia Phillies** to win (62%) | Run line: **St. Louis Cardinals** +1.5 (56% to cover) | Total 6.5: lean **OVER** (50%)
 
 ### Philadelphia Phillies lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.3 relief IP in last 2 days (ratio 0.66)_
@@ -1080,7 +1080,7 @@ _Facing a rested bullpen: 3.3 relief IP in last 2 days (ratio 0.66)_
 
 ## 2026-08-11 - Texas Rangers @ Los Angeles Angels (Scheduled)
 _Angel Stadium_
-Projected score: Texas Rangers 5.06 - Los Angeles Angels 3.26
+Projected score: Texas Rangers 5.04 - Los Angeles Angels 3.26
 Model likes: **Texas Rangers** to win (66%) | Run line: **Texas Rangers** -1.5 (50% to cover) | Total 7.5: lean **OVER** (52%)
 
 ### Texas Rangers lineup -- PROJECTED (unconfirmed)
@@ -1110,7 +1110,7 @@ _Facing a taxed bullpen: 6.0 relief IP in last 2 days (ratio 1.25)_
 
 ## 2026-08-11 - Milwaukee Brewers @ San Diego Padres (Scheduled)
 _Petco Park [pitcher-friendly park]_
-Projected score: Milwaukee Brewers 4.35 - San Diego Padres 3.09
+Projected score: Milwaukee Brewers 4.38 - San Diego Padres 3.09
 Model likes: **Milwaukee Brewers** to win (62%) | Run line: **San Diego Padres** +1.5 (55% to cover) | Total 6.5: lean **OVER** (54%)
 
 ### Milwaukee Brewers lineup -- PROJECTED (unconfirmed)
@@ -1231,8 +1231,8 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 
 ## 2026-08-11 - Kansas City Royals @ Los Angeles Dodgers (Scheduled)
 _UNIQLO Field at Dodger Stadium_
-Projected score: Kansas City Royals 3.59 - Los Angeles Dodgers 4.05
-Model likes: **Los Angeles Dodgers** to win (54%) | Run line: **Kansas City Royals** +1.5 (62% to cover) | Total 7.5: lean **UNDER** (54%)
+Projected score: Kansas City Royals 3.59 - Los Angeles Dodgers 4.06
+Model likes: **Los Angeles Dodgers** to win (55%) | Run line: **Kansas City Royals** +1.5 (62% to cover) | Total 7.5: lean **UNDER** (54%)
 
 ### Kansas City Royals lineup -- PROJECTED (unconfirmed)
 **Probable P: Michael Wacha (R)** -- L5: 29.3 IP, 21 K, 11 ER, 3.38 ERA
