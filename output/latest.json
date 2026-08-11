@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T16:00:40.991975+00:00",
+  "generated_at": "2026-08-11T16:12:43.130965+00:00",
   "range": [
     "2026-08-11",
     "2026-08-13"
@@ -17,7 +17,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 823832,
-        "generated_at": "2026-08-11T15:58:08.855066+00:00",
+        "generated_at": "2026-08-11T16:10:10.760448+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.52,
         "away_exp_runs": 3.54,
@@ -25,14 +25,14 @@
         "spread_line": 1.5,
         "spread_cover_prob": 0.324,
         "total_line": 6.5,
-        "over_prob": 0.506,
+        "over_prob": 0.504,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
-        "spread_pick_prob": 0.671,
+        "spread_pick_prob": 0.672,
         "total_pick": "over",
-        "total_pick_prob": 0.506,
+        "total_pick_prob": 0.504,
         "spread_favorite": "away"
       },
       "highlights": [],
@@ -58,6 +58,8 @@
             "strike_outs": 17,
             "home_runs": 0,
             "batters_faced": 76,
+            "wins": 0,
+            "losses": 2,
             "innings_pitched": 18.0,
             "era": 4.0,
             "whip": 1.22
@@ -72,6 +74,8 @@
             "strike_outs": 32,
             "home_runs": 0,
             "batters_faced": 124,
+            "wins": 0,
+            "losses": 3,
             "innings_pitched": 30.0,
             "era": 3.0,
             "whip": 1.2
@@ -86,6 +90,8 @@
             "strike_outs": 334,
             "home_runs": 40,
             "batters_faced": 1206,
+            "wins": 17,
+            "losses": 21,
             "innings_pitched": 296.3,
             "era": 3.67,
             "whip": 1.1
@@ -103,6 +109,8 @@
               "strike_outs": 47,
               "home_runs": 6,
               "batters_faced": 207,
+              "wins": 3,
+              "losses": 4,
               "innings_pitched": 52.0,
               "era": 3.29,
               "whip": 1.08
@@ -117,6 +125,8 @@
               "strike_outs": 74,
               "home_runs": 7,
               "batters_faced": 240,
+              "wins": 2,
+              "losses": 5,
               "innings_pitched": 57.7,
               "era": 3.9,
               "whip": 1.18
@@ -4540,6 +4550,8 @@
             "strike_outs": 24,
             "home_runs": 2,
             "batters_faced": 67,
+            "wins": 0,
+            "losses": 2,
             "innings_pitched": 14.3,
             "era": 8.16,
             "whip": 1.74
@@ -4554,6 +4566,8 @@
             "strike_outs": 39,
             "home_runs": 2,
             "batters_faced": 112,
+            "wins": 2,
+            "losses": 2,
             "innings_pitched": 26.7,
             "era": 5.4,
             "whip": 1.43
@@ -4568,6 +4582,8 @@
             "strike_outs": 548,
             "home_runs": 34,
             "batters_faced": 1779,
+            "wins": 30,
+            "losses": 23,
             "innings_pitched": 450.3,
             "era": 2.54,
             "whip": 1.0
@@ -4585,6 +4601,8 @@
               "strike_outs": 99,
               "home_runs": 7,
               "batters_faced": 295,
+              "wins": 5,
+              "losses": 5,
               "innings_pitched": 73.3,
               "era": 3.44,
               "whip": 1.01
@@ -4599,6 +4617,8 @@
               "strike_outs": 63,
               "home_runs": 6,
               "batters_faced": 237,
+              "wins": 4,
+              "losses": 5,
               "innings_pitched": 56.3,
               "era": 4.63,
               "whip": 1.26
@@ -9018,7 +9038,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 824240,
-        "generated_at": "2026-08-11T15:58:08.855066+00:00",
+        "generated_at": "2026-08-11T16:10:10.760448+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.19,
         "away_exp_runs": 2.73,
@@ -9059,6 +9079,8 @@
             "strike_outs": 4,
             "home_runs": 0,
             "batters_faced": 25,
+            "wins": 0,
+            "losses": 0,
             "innings_pitched": 6.3,
             "era": 2.84,
             "whip": 1.11
@@ -9073,6 +9095,8 @@
             "strike_outs": 5,
             "home_runs": 0,
             "batters_faced": 35,
+            "wins": 1,
+            "losses": 0,
             "innings_pitched": 9.0,
             "era": 3.0,
             "whip": 1.11
@@ -9087,6 +9111,8 @@
             "strike_outs": 108,
             "home_runs": 13,
             "batters_faced": 493,
+            "wins": 5,
+            "losses": 7,
             "innings_pitched": 111.7,
             "era": 5.0,
             "whip": 1.41
@@ -9104,6 +9130,8 @@
               "strike_outs": 38,
               "home_runs": 3,
               "batters_faced": 137,
+              "wins": 3,
+              "losses": 0,
               "innings_pitched": 33.3,
               "era": 2.97,
               "whip": 0.99
@@ -9118,6 +9146,8 @@
               "strike_outs": 40,
               "home_runs": 6,
               "batters_faced": 152,
+              "wins": 1,
+              "losses": 4,
               "innings_pitched": 34.0,
               "era": 5.03,
               "whip": 1.59
@@ -13531,6 +13561,8 @@
             "strike_outs": 18,
             "home_runs": 3,
             "batters_faced": 77,
+            "wins": 0,
+            "losses": 2,
             "innings_pitched": 19.0,
             "era": 3.79,
             "whip": 1.0
@@ -13545,6 +13577,8 @@
             "strike_outs": 26,
             "home_runs": 3,
             "batters_faced": 129,
+            "wins": 2,
+            "losses": 2,
             "innings_pitched": 31.7,
             "era": 3.13,
             "whip": 1.11
@@ -13559,6 +13593,8 @@
             "strike_outs": 600,
             "home_runs": 85,
             "batters_faced": 2616,
+            "wins": 38,
+            "losses": 34,
             "innings_pitched": 636.0,
             "era": 3.67,
             "whip": 1.17
@@ -13576,6 +13612,8 @@
               "strike_outs": 65,
               "home_runs": 17,
               "batters_faced": 325,
+              "wins": 2,
+              "losses": 6,
               "innings_pitched": 80.3,
               "era": 3.92,
               "whip": 1.06
@@ -13590,6 +13628,8 @@
               "strike_outs": 45,
               "home_runs": 6,
               "batters_faced": 234,
+              "wins": 2,
+              "losses": 5,
               "innings_pitched": 57.7,
               "era": 3.75,
               "whip": 1.23
@@ -18026,7 +18066,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 822697,
-        "generated_at": "2026-08-11T15:58:08.855066+00:00",
+        "generated_at": "2026-08-11T16:10:10.760448+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.99,
         "away_exp_runs": 6.28,
@@ -18034,14 +18074,14 @@
         "spread_line": 1.5,
         "spread_cover_prob": 0.217,
         "total_line": 9.5,
-        "over_prob": 0.505,
+        "over_prob": 0.504,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "away",
         "spread_pick_prob": 0.538,
         "total_pick": "over",
-        "total_pick_prob": 0.505,
+        "total_pick_prob": 0.504,
         "spread_favorite": "away"
       },
       "highlights": [],
@@ -22217,6 +22257,8 @@
             "strike_outs": 16,
             "home_runs": 3,
             "batters_faced": 69,
+            "wins": 2,
+            "losses": 1,
             "innings_pitched": 17.7,
             "era": 1.53,
             "whip": 0.96
@@ -22231,6 +22273,8 @@
             "strike_outs": 25,
             "home_runs": 4,
             "batters_faced": 118,
+            "wins": 3,
+            "losses": 2,
             "innings_pitched": 29.7,
             "era": 1.21,
             "whip": 1.08
@@ -22245,6 +22289,8 @@
             "strike_outs": 416,
             "home_runs": 83,
             "batters_faced": 1794,
+            "wins": 32,
+            "losses": 20,
             "innings_pitched": 450.7,
             "era": 3.38,
             "whip": 1.03
@@ -22262,6 +22308,8 @@
               "strike_outs": 76,
               "home_runs": 16,
               "batters_faced": 335,
+              "wins": 5,
+              "losses": 5,
               "innings_pitched": 82.7,
               "era": 3.81,
               "whip": 1.15
@@ -22276,6 +22324,8 @@
               "strike_outs": 49,
               "home_runs": 9,
               "batters_faced": 198,
+              "wins": 3,
+              "losses": 4,
               "innings_pitched": 50.0,
               "era": 3.24,
               "whip": 1.0
@@ -26729,22 +26779,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 823512,
-        "generated_at": "2026-08-11T15:58:08.855066+00:00",
+        "generated_at": "2026-08-11T16:10:10.760448+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.94,
         "away_exp_runs": 2.95,
-        "home_win_prob": 0.6,
+        "home_win_prob": 0.601,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.419,
+        "spread_cover_prob": 0.42,
         "total_line": 6.5,
-        "over_prob": 0.487,
+        "over_prob": 0.486,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.581,
+        "spread_pick_prob": 0.58,
         "total_pick": "under",
-        "total_pick_prob": 0.513,
+        "total_pick_prob": 0.514,
         "spread_favorite": "home"
       },
       "highlights": [],
@@ -26770,6 +26820,8 @@
             "strike_outs": 17,
             "home_runs": 0,
             "batters_faced": 71,
+            "wins": 2,
+            "losses": 0,
             "innings_pitched": 18.7,
             "era": 0.48,
             "whip": 0.96
@@ -26784,6 +26836,8 @@
             "strike_outs": 28,
             "home_runs": 1,
             "batters_faced": 117,
+            "wins": 2,
+            "losses": 0,
             "innings_pitched": 28.7,
             "era": 2.2,
             "whip": 1.15
@@ -26798,6 +26852,8 @@
             "strike_outs": 367,
             "home_runs": 67,
             "batters_faced": 1715,
+            "wins": 17,
+            "losses": 30,
             "innings_pitched": 402.0,
             "era": 4.59,
             "whip": 1.34
@@ -26815,6 +26871,8 @@
               "strike_outs": 77,
               "home_runs": 11,
               "batters_faced": 292,
+              "wins": 3,
+              "losses": 5,
               "innings_pitched": 70.0,
               "era": 4.11,
               "whip": 1.29
@@ -26829,6 +26887,8 @@
               "strike_outs": 55,
               "home_runs": 6,
               "batters_faced": 211,
+              "wins": 2,
+              "losses": 2,
               "innings_pitched": 51.0,
               "era": 3.35,
               "whip": 1.14
@@ -31229,6 +31289,8 @@
             "strike_outs": 18,
             "home_runs": 1,
             "batters_faced": 73,
+            "wins": 1,
+            "losses": 2,
             "innings_pitched": 17.0,
             "era": 5.29,
             "whip": 1.29
@@ -31243,6 +31305,8 @@
             "strike_outs": 30,
             "home_runs": 4,
             "batters_faced": 124,
+            "wins": 1,
+            "losses": 2,
             "innings_pitched": 28.0,
             "era": 4.82,
             "whip": 1.43
@@ -31257,6 +31321,8 @@
             "strike_outs": 519,
             "home_runs": 66,
             "batters_faced": 2097,
+            "wins": 36,
+            "losses": 23,
             "innings_pitched": 523.0,
             "era": 3.48,
             "whip": 1.01
@@ -31274,6 +31340,8 @@
               "strike_outs": 69,
               "home_runs": 4,
               "batters_faced": 242,
+              "wins": 7,
+              "losses": 0,
               "innings_pitched": 64.3,
               "era": 1.96,
               "whip": 0.75
@@ -31288,6 +31356,8 @@
               "strike_outs": 58,
               "home_runs": 9,
               "batters_faced": 281,
+              "wins": 1,
+              "losses": 8,
               "innings_pitched": 63.0,
               "era": 6.71,
               "whip": 1.49
@@ -35692,7 +35762,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 822778,
-        "generated_at": "2026-08-11T15:58:08.855066+00:00",
+        "generated_at": "2026-08-11T16:10:10.760448+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 2.82,
         "away_exp_runs": 3.13,
@@ -35700,14 +35770,14 @@
         "spread_line": 1.5,
         "spread_cover_prob": 0.274,
         "total_line": 5.5,
-        "over_prob": 0.498,
+        "over_prob": 0.499,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
-        "spread_pick_prob": 0.664,
+        "spread_pick_prob": 0.663,
         "total_pick": "under",
-        "total_pick_prob": 0.502,
+        "total_pick_prob": 0.501,
         "spread_favorite": "away"
       },
       "highlights": [],
@@ -35733,6 +35803,8 @@
             "strike_outs": 29,
             "home_runs": 0,
             "batters_faced": 78,
+            "wins": 1,
+            "losses": 0,
             "innings_pitched": 22.0,
             "era": 0.41,
             "whip": 0.59
@@ -35747,6 +35819,8 @@
             "strike_outs": 47,
             "home_runs": 2,
             "batters_faced": 132,
+            "wins": 2,
+            "losses": 1,
             "innings_pitched": 36.0,
             "era": 1.0,
             "whip": 0.69
@@ -35761,6 +35835,8 @@
             "strike_outs": 1152,
             "home_runs": 88,
             "batters_faced": 3757,
+            "wins": 56,
+            "losses": 46,
             "innings_pitched": 901.7,
             "era": 3.46,
             "whip": 1.2
@@ -35778,6 +35854,8 @@
               "strike_outs": 95,
               "home_runs": 4,
               "batters_faced": 260,
+              "wins": 1,
+              "losses": 4,
               "innings_pitched": 63.0,
               "era": 2.86,
               "whip": 1.16
@@ -35792,6 +35870,8 @@
               "strike_outs": 89,
               "home_runs": 3,
               "batters_faced": 245,
+              "wins": 6,
+              "losses": 1,
               "innings_pitched": 63.3,
               "era": 1.71,
               "whip": 0.93
@@ -40258,6 +40338,8 @@
             "strike_outs": 15,
             "home_runs": 2,
             "batters_faced": 67,
+            "wins": 1,
+            "losses": 0,
             "innings_pitched": 14.7,
             "era": 2.45,
             "whip": 1.64
@@ -40272,6 +40354,8 @@
             "strike_outs": 25,
             "home_runs": 3,
             "batters_faced": 109,
+            "wins": 1,
+            "losses": 0,
             "innings_pitched": 24.0,
             "era": 3.38,
             "whip": 1.67
@@ -40286,6 +40370,8 @@
             "strike_outs": 554,
             "home_runs": 58,
             "batters_faced": 2443,
+            "wins": 20,
+            "losses": 45,
             "innings_pitched": 560.0,
             "era": 3.99,
             "whip": 1.4
@@ -40303,6 +40389,8 @@
               "strike_outs": 13,
               "home_runs": 1,
               "batters_faced": 68,
+              "wins": 1,
+              "losses": 0,
               "innings_pitched": 14.7,
               "era": 3.68,
               "whip": 1.84
@@ -40317,6 +40405,8 @@
               "strike_outs": 12,
               "home_runs": 2,
               "batters_faced": 41,
+              "wins": 0,
+              "losses": 0,
               "innings_pitched": 9.3,
               "era": 2.89,
               "whip": 1.39
@@ -44730,7 +44820,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 824886,
-        "generated_at": "2026-08-11T15:58:08.855066+00:00",
+        "generated_at": "2026-08-11T16:10:10.760448+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.83,
         "away_exp_runs": 3.4,
@@ -44771,6 +44861,8 @@
             "strike_outs": 13,
             "home_runs": 1,
             "batters_faced": 58,
+            "wins": 1,
+            "losses": 0,
             "innings_pitched": 15.0,
             "era": 1.8,
             "whip": 0.87
@@ -44785,6 +44877,8 @@
             "strike_outs": 17,
             "home_runs": 2,
             "batters_faced": 94,
+            "wins": 1,
+            "losses": 1,
             "innings_pitched": 23.3,
             "era": 2.7,
             "whip": 1.11
@@ -44799,6 +44893,8 @@
             "strike_outs": 588,
             "home_runs": 90,
             "batters_faced": 3163,
+            "wins": 42,
+            "losses": 38,
             "innings_pitched": 743.3,
             "era": 3.85,
             "whip": 1.34
@@ -44816,6 +44912,8 @@
               "strike_outs": 40,
               "home_runs": 4,
               "batters_faced": 220,
+              "wins": 4,
+              "losses": 4,
               "innings_pitched": 56.3,
               "era": 2.24,
               "whip": 1.03
@@ -44830,6 +44928,8 @@
               "strike_outs": 38,
               "home_runs": 7,
               "batters_faced": 187,
+              "wins": 3,
+              "losses": 2,
               "innings_pitched": 44.0,
               "era": 4.3,
               "whip": 1.3
@@ -49240,6 +49340,8 @@
             "strike_outs": 21,
             "home_runs": 4,
             "batters_faced": 79,
+            "wins": 1,
+            "losses": 1,
             "innings_pitched": 17.3,
             "era": 4.67,
             "whip": 1.62
@@ -49254,6 +49356,8 @@
             "strike_outs": 38,
             "home_runs": 4,
             "batters_faced": 126,
+            "wins": 2,
+            "losses": 2,
             "innings_pitched": 29.3,
             "era": 2.76,
             "whip": 1.33
@@ -49268,6 +49372,8 @@
             "strike_outs": 213,
             "home_runs": 18,
             "batters_faced": 736,
+            "wins": 13,
+            "losses": 8,
             "innings_pitched": 178.7,
             "era": 3.12,
             "whip": 1.13
@@ -49285,6 +49391,8 @@
               "strike_outs": 83,
               "home_runs": 10,
               "batters_faced": 286,
+              "wins": 2,
+              "losses": 6,
               "innings_pitched": 66.7,
               "era": 4.18,
               "whip": 1.29
@@ -49299,6 +49407,8 @@
               "strike_outs": 73,
               "home_runs": 4,
               "batters_faced": 262,
+              "wins": 6,
+              "losses": 1,
               "innings_pitched": 64.0,
               "era": 2.81,
               "whip": 1.03
@@ -53730,7 +53840,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 823673,
-        "generated_at": "2026-08-11T15:58:08.855066+00:00",
+        "generated_at": "2026-08-11T16:10:10.760448+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.75,
         "away_exp_runs": 4.28,
@@ -53771,6 +53881,8 @@
             "strike_outs": 5,
             "home_runs": 1,
             "batters_faced": 68,
+            "wins": 0,
+            "losses": 0,
             "innings_pitched": 16.0,
             "era": 5.06,
             "whip": 1.31
@@ -53785,6 +53897,8 @@
             "strike_outs": 17,
             "home_runs": 2,
             "batters_faced": 108,
+            "wins": 1,
+            "losses": 0,
             "innings_pitched": 26.3,
             "era": 4.1,
             "whip": 1.22
@@ -53799,6 +53913,8 @@
             "strike_outs": 667,
             "home_runs": 117,
             "batters_faced": 2905,
+            "wins": 38,
+            "losses": 33,
             "innings_pitched": 710.7,
             "era": 4.13,
             "whip": 1.13
@@ -53816,6 +53932,8 @@
               "strike_outs": 41,
               "home_runs": 6,
               "batters_faced": 213,
+              "wins": 5,
+              "losses": 0,
               "innings_pitched": 53.0,
               "era": 2.72,
               "whip": 1.0
@@ -53830,6 +53948,8 @@
               "strike_outs": 22,
               "home_runs": 8,
               "batters_faced": 176,
+              "wins": 2,
+              "losses": 3,
               "innings_pitched": 40.0,
               "era": 6.75,
               "whip": 1.5
@@ -58285,6 +58405,8 @@
             "strike_outs": 15,
             "home_runs": 3,
             "batters_faced": 69,
+            "wins": 0,
+            "losses": 1,
             "innings_pitched": 16.3,
             "era": 4.41,
             "whip": 1.29
@@ -58299,6 +58421,8 @@
             "strike_outs": 27,
             "home_runs": 5,
             "batters_faced": 123,
+            "wins": 1,
+            "losses": 1,
             "innings_pitched": 30.3,
             "era": 3.56,
             "whip": 1.19
@@ -58313,6 +58437,8 @@
             "strike_outs": 136,
             "home_runs": 24,
             "batters_faced": 715,
+            "wins": 9,
+            "losses": 10,
             "innings_pitched": 165.3,
             "era": 4.41,
             "whip": 1.39
@@ -58330,6 +58456,8 @@
               "strike_outs": 56,
               "home_runs": 10,
               "batters_faced": 272,
+              "wins": 2,
+              "losses": 2,
               "innings_pitched": 63.7,
               "era": 3.39,
               "whip": 1.3
@@ -58344,6 +58472,8 @@
               "strike_outs": 33,
               "home_runs": 2,
               "batters_faced": 187,
+              "wins": 6,
+              "losses": 1,
               "innings_pitched": 44.0,
               "era": 3.48,
               "whip": 1.32
@@ -62791,7 +62921,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 824563,
-        "generated_at": "2026-08-11T15:58:08.855066+00:00",
+        "generated_at": "2026-08-11T16:10:10.760448+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.98,
         "away_exp_runs": 2.98,
@@ -62832,6 +62962,8 @@
             "strike_outs": 24,
             "home_runs": 1,
             "batters_faced": 67,
+            "wins": 0,
+            "losses": 2,
             "innings_pitched": 16.3,
             "era": 2.2,
             "whip": 1.04
@@ -62846,6 +62978,8 @@
             "strike_outs": 38,
             "home_runs": 2,
             "batters_faced": 114,
+            "wins": 2,
+            "losses": 2,
             "innings_pitched": 30.0,
             "era": 1.5,
             "whip": 0.8
@@ -62860,6 +62994,8 @@
             "strike_outs": 299,
             "home_runs": 39,
             "batters_faced": 1197,
+            "wins": 13,
+            "losses": 17,
             "innings_pitched": 282.0,
             "era": 3.51,
             "whip": 1.27
@@ -62877,6 +63013,8 @@
               "strike_outs": 80,
               "home_runs": 8,
               "batters_faced": 302,
+              "wins": 2,
+              "losses": 4,
               "innings_pitched": 74.0,
               "era": 3.41,
               "whip": 1.08
@@ -62891,6 +63029,8 @@
               "strike_outs": 64,
               "home_runs": 6,
               "batters_faced": 223,
+              "wins": 5,
+              "losses": 2,
               "innings_pitched": 54.7,
               "era": 2.63,
               "whip": 1.17
@@ -71524,7 +71664,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 823019,
-        "generated_at": "2026-08-11T15:58:08.855066+00:00",
+        "generated_at": "2026-08-11T16:10:10.760448+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.02,
         "away_exp_runs": 4.18,
@@ -71532,14 +71672,14 @@
         "spread_line": 1.5,
         "spread_cover_prob": 0.229,
         "total_line": 6.5,
-        "over_prob": 0.518,
+        "over_prob": 0.517,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
         "spread_pick_prob": 0.561,
         "total_pick": "over",
-        "total_pick_prob": 0.518,
+        "total_pick_prob": 0.517,
         "spread_favorite": "away"
       },
       "highlights": [],
@@ -71565,6 +71705,8 @@
             "strike_outs": 15,
             "home_runs": 0,
             "batters_faced": 72,
+            "wins": 2,
+            "losses": 0,
             "innings_pitched": 18.7,
             "era": 1.45,
             "whip": 0.96
@@ -71579,6 +71721,8 @@
             "strike_outs": 20,
             "home_runs": 1,
             "batters_faced": 119,
+            "wins": 2,
+            "losses": 1,
             "innings_pitched": 29.0,
             "era": 3.72,
             "whip": 1.21
@@ -71593,6 +71737,8 @@
             "strike_outs": 350,
             "home_runs": 46,
             "batters_faced": 2139,
+            "wins": 31,
+            "losses": 31,
             "innings_pitched": 498.0,
             "era": 4.37,
             "whip": 1.37
@@ -71610,6 +71756,8 @@
               "strike_outs": 56,
               "home_runs": 6,
               "batters_faced": 318,
+              "wins": 5,
+              "losses": 6,
               "innings_pitched": 74.7,
               "era": 4.34,
               "whip": 1.33
@@ -71624,6 +71772,8 @@
               "strike_outs": 34,
               "home_runs": 4,
               "batters_faced": 199,
+              "wins": 7,
+              "losses": 0,
               "innings_pitched": 49.3,
               "era": 2.55,
               "whip": 1.05
@@ -76049,6 +76199,8 @@
             "strike_outs": 23,
             "home_runs": 1,
             "batters_faced": 76,
+            "wins": 3,
+            "losses": 0,
             "innings_pitched": 17.0,
             "era": 2.65,
             "whip": 1.41
@@ -76063,6 +76215,8 @@
             "strike_outs": 37,
             "home_runs": 2,
             "batters_faced": 130,
+            "wins": 5,
+            "losses": 0,
             "innings_pitched": 29.3,
             "era": 2.76,
             "whip": 1.43
@@ -76077,6 +76231,8 @@
             "strike_outs": 683,
             "home_runs": 58,
             "batters_faced": 2819,
+            "wins": 45,
+            "losses": 25,
             "innings_pitched": 685.3,
             "era": 3.11,
             "whip": 1.17
@@ -76094,6 +76250,8 @@
               "strike_outs": 104,
               "home_runs": 3,
               "batters_faced": 362,
+              "wins": 10,
+              "losses": 1,
               "innings_pitched": 89.3,
               "era": 1.41,
               "whip": 1.03
@@ -76108,6 +76266,8 @@
               "strike_outs": 70,
               "home_runs": 10,
               "batters_faced": 264,
+              "wins": 5,
+              "losses": 3,
               "innings_pitched": 60.3,
               "era": 4.48,
               "whip": 1.49
@@ -80574,7 +80734,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 823997,
-        "generated_at": "2026-08-11T15:58:08.855066+00:00",
+        "generated_at": "2026-08-11T16:10:10.760448+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.52,
         "away_exp_runs": 4.87,
@@ -80582,14 +80742,14 @@
         "spread_line": 1.5,
         "spread_cover_prob": 0.242,
         "total_line": 7.5,
-        "over_prob": 0.529,
+        "over_prob": 0.528,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
         "spread_pick_prob": 0.538,
         "total_pick": "over",
-        "total_pick_prob": 0.529,
+        "total_pick_prob": 0.528,
         "spread_favorite": "away"
       },
       "highlights": [],
@@ -80615,6 +80775,8 @@
             "strike_outs": 8,
             "home_runs": 3,
             "batters_faced": 62,
+            "wins": 0,
+            "losses": 2,
             "innings_pitched": 12.3,
             "era": 10.22,
             "whip": 2.11
@@ -80629,6 +80791,8 @@
             "strike_outs": 14,
             "home_runs": 5,
             "batters_faced": 100,
+            "wins": 1,
+            "losses": 2,
             "innings_pitched": 22.3,
             "era": 7.25,
             "whip": 1.66
@@ -80643,6 +80807,8 @@
             "strike_outs": 54,
             "home_runs": 17,
             "batters_faced": 303,
+            "wins": 3,
+            "losses": 7,
             "innings_pitched": 65.3,
             "era": 7.16,
             "whip": 1.68
@@ -80660,6 +80826,8 @@
               "strike_outs": 25,
               "home_runs": 6,
               "batters_faced": 107,
+              "wins": 2,
+              "losses": 2,
               "innings_pitched": 24.3,
               "era": 5.92,
               "whip": 1.4
@@ -80674,6 +80842,8 @@
               "strike_outs": 13,
               "home_runs": 7,
               "batters_faced": 124,
+              "wins": 0,
+              "losses": 4,
               "innings_pitched": 26.3,
               "era": 8.2,
               "whip": 1.78
@@ -85103,6 +85273,8 @@
             "strike_outs": 15,
             "home_runs": 0,
             "batters_faced": 67,
+            "wins": 1,
+            "losses": 0,
             "innings_pitched": 15.0,
             "era": 0.6,
             "whip": 1.4
@@ -85117,6 +85289,8 @@
             "strike_outs": 23,
             "home_runs": 3,
             "batters_faced": 109,
+            "wins": 2,
+            "losses": 1,
             "innings_pitched": 24.7,
             "era": 3.65,
             "whip": 1.38
@@ -85131,6 +85305,8 @@
             "strike_outs": 126,
             "home_runs": 21,
             "batters_faced": 562,
+            "wins": 10,
+            "losses": 6,
             "innings_pitched": 136.7,
             "era": 4.15,
             "whip": 1.11
@@ -85148,6 +85324,8 @@
               "strike_outs": 5,
               "home_runs": 0,
               "batters_faced": 20,
+              "wins": 0,
+              "losses": 0,
               "innings_pitched": 4.3,
               "era": 0.0,
               "whip": 1.62
@@ -89608,11 +89786,11 @@
       "live_score": null,
       "projection": {
         "game_pk": 823264,
-        "generated_at": "2026-08-11T15:58:08.855066+00:00",
+        "generated_at": "2026-08-11T16:10:10.760448+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 2.8,
         "away_exp_runs": 4.27,
-        "home_win_prob": 0.355,
+        "home_win_prob": 0.356,
         "spread_line": 1.5,
         "spread_cover_prob": 0.202,
         "total_line": 6.5,
@@ -89649,6 +89827,8 @@
             "strike_outs": 11,
             "home_runs": 2,
             "batters_faced": 61,
+            "wins": 0,
+            "losses": 0,
             "innings_pitched": 13.7,
             "era": 3.95,
             "whip": 1.68
@@ -89663,6 +89843,8 @@
             "strike_outs": 15,
             "home_runs": 3,
             "batters_faced": 98,
+            "wins": 1,
+            "losses": 0,
             "innings_pitched": 21.3,
             "era": 5.06,
             "whip": 1.73
@@ -89677,6 +89859,8 @@
             "strike_outs": 875,
             "home_runs": 115,
             "batters_faced": 3685,
+            "wins": 58,
+            "losses": 32,
             "innings_pitched": 886.3,
             "era": 3.67,
             "whip": 1.19
@@ -89694,6 +89878,8 @@
               "strike_outs": 41,
               "home_runs": 7,
               "batters_faced": 242,
+              "wins": 2,
+              "losses": 3,
               "innings_pitched": 57.3,
               "era": 4.71,
               "whip": 1.36
@@ -89708,6 +89894,8 @@
               "strike_outs": 54,
               "home_runs": 7,
               "batters_faced": 231,
+              "wins": 4,
+              "losses": 2,
               "innings_pitched": 51.0,
               "era": 5.47,
               "whip": 1.57
@@ -94139,6 +94327,8 @@
             "strike_outs": 15,
             "home_runs": 1,
             "batters_faced": 48,
+            "wins": 1,
+            "losses": 1,
             "innings_pitched": 11.7,
             "era": 4.63,
             "whip": 1.03
@@ -94153,6 +94343,8 @@
             "strike_outs": 31,
             "home_runs": 3,
             "batters_faced": 90,
+            "wins": 1,
+            "losses": 1,
             "innings_pitched": 23.0,
             "era": 3.91,
             "whip": 0.87
@@ -94167,6 +94359,8 @@
             "strike_outs": 302,
             "home_runs": 40,
             "batters_faced": 1192,
+            "wins": 18,
+            "losses": 11,
             "innings_pitched": 283.3,
             "era": 3.91,
             "whip": 1.23
@@ -94184,6 +94378,8 @@
               "strike_outs": 70,
               "home_runs": 4,
               "batters_faced": 200,
+              "wins": 6,
+              "losses": 1,
               "innings_pitched": 52.0,
               "era": 1.38,
               "whip": 0.87
@@ -94198,6 +94394,8 @@
               "strike_outs": 41,
               "home_runs": 6,
               "batters_faced": 157,
+              "wins": 3,
+              "losses": 1,
               "innings_pitched": 36.7,
               "era": 4.91,
               "whip": 1.28
@@ -98615,7 +98813,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 824970,
-        "generated_at": "2026-08-11T15:58:08.855066+00:00",
+        "generated_at": "2026-08-11T16:10:10.760448+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.2,
         "away_exp_runs": 5.85,
@@ -98623,14 +98821,14 @@
         "spread_line": 1.5,
         "spread_cover_prob": 0.17,
         "total_line": 8.5,
-        "over_prob": 0.491,
+        "over_prob": 0.49,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "away",
         "spread_pick_prob": 0.572,
         "total_pick": "under",
-        "total_pick_prob": 0.509,
+        "total_pick_prob": 0.51,
         "spread_favorite": "away"
       },
       "highlights": [],
@@ -98656,6 +98854,8 @@
             "strike_outs": 15,
             "home_runs": 3,
             "batters_faced": 57,
+            "wins": 0,
+            "losses": 2,
             "innings_pitched": 12.7,
             "era": 7.11,
             "whip": 1.42
@@ -98670,6 +98870,8 @@
             "strike_outs": 15,
             "home_runs": 3,
             "batters_faced": 69,
+            "wins": 0,
+            "losses": 2,
             "innings_pitched": 14.7,
             "era": 7.98,
             "whip": 1.64
@@ -98684,6 +98886,8 @@
             "strike_outs": 54,
             "home_runs": 11,
             "batters_faced": 251,
+            "wins": 2,
+            "losses": 3,
             "innings_pitched": 56.3,
             "era": 6.07,
             "whip": 1.49
@@ -98701,6 +98905,8 @@
               "strike_outs": 16,
               "home_runs": 5,
               "batters_faced": 74,
+              "wins": 1,
+              "losses": 0,
               "innings_pitched": 17.7,
               "era": 5.09,
               "whip": 1.19
@@ -98715,6 +98921,8 @@
               "strike_outs": 20,
               "home_runs": 3,
               "batters_faced": 73,
+              "wins": 0,
+              "losses": 2,
               "innings_pitched": 16.3,
               "era": 6.06,
               "whip": 1.59
@@ -103204,6 +103412,8 @@
             "strike_outs": 11,
             "home_runs": 4,
             "batters_faced": 67,
+            "wins": 2,
+            "losses": 1,
             "innings_pitched": 17.7,
             "era": 3.06,
             "whip": 0.96
@@ -103218,6 +103428,8 @@
             "strike_outs": 12,
             "home_runs": 5,
             "batters_faced": 111,
+            "wins": 4,
+            "losses": 1,
             "innings_pitched": 29.0,
             "era": 2.79,
             "whip": 1.0
@@ -103232,6 +103444,8 @@
             "strike_outs": 392,
             "home_runs": 58,
             "batters_faced": 2118,
+            "wins": 36,
+            "losses": 27,
             "innings_pitched": 519.7,
             "era": 3.46,
             "whip": 1.14
@@ -103249,6 +103463,8 @@
               "strike_outs": 42,
               "home_runs": 10,
               "batters_faced": 284,
+              "wins": 7,
+              "losses": 2,
               "innings_pitched": 70.7,
               "era": 3.31,
               "whip": 1.12
@@ -103263,6 +103479,8 @@
               "strike_outs": 31,
               "home_runs": 5,
               "batters_faced": 235,
+              "wins": 4,
+              "losses": 1,
               "innings_pitched": 58.3,
               "era": 1.85,
               "whip": 1.08
@@ -107696,22 +107914,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 825046,
-        "generated_at": "2026-08-11T15:58:08.855066+00:00",
+        "generated_at": "2026-08-11T16:10:10.760448+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 5.5,
         "away_exp_runs": 4.26,
-        "home_win_prob": 0.597,
+        "home_win_prob": 0.596,
         "spread_line": 1.5,
         "spread_cover_prob": 0.458,
         "total_line": 9.5,
-        "over_prob": 0.466,
+        "over_prob": 0.468,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
         "spread_pick_prob": 0.542,
         "total_pick": "under",
-        "total_pick_prob": 0.534,
+        "total_pick_prob": 0.532,
         "spread_favorite": "home"
       },
       "highlights": [],
@@ -107737,6 +107955,8 @@
             "strike_outs": 14,
             "home_runs": 1,
             "batters_faced": 71,
+            "wins": 1,
+            "losses": 1,
             "innings_pitched": 17.0,
             "era": 3.18,
             "whip": 1.35
@@ -107751,6 +107971,8 @@
             "strike_outs": 18,
             "home_runs": 4,
             "batters_faced": 109,
+            "wins": 1,
+            "losses": 1,
             "innings_pitched": 24.7,
             "era": 4.01,
             "whip": 1.54
@@ -107765,6 +107987,8 @@
             "strike_outs": 21,
             "home_runs": 4,
             "batters_faced": 122,
+            "wins": 1,
+            "losses": 1,
             "innings_pitched": 27.7,
             "era": 3.9,
             "whip": 1.52
@@ -107782,6 +108006,8 @@
               "strike_outs": 13,
               "home_runs": 2,
               "batters_faced": 47,
+              "wins": 1,
+              "losses": 0,
               "innings_pitched": 11.7,
               "era": 1.54,
               "whip": 1.11
@@ -107796,6 +108022,8 @@
               "strike_outs": 8,
               "home_runs": 2,
               "batters_faced": 75,
+              "wins": 0,
+              "losses": 1,
               "innings_pitched": 16.0,
               "era": 5.62,
               "whip": 1.81
@@ -112237,6 +112465,8 @@
             "strike_outs": 10,
             "home_runs": 4,
             "batters_faced": 69,
+            "wins": 2,
+            "losses": 1,
             "innings_pitched": 17.0,
             "era": 3.18,
             "whip": 1.12
@@ -112251,6 +112481,8 @@
             "strike_outs": 15,
             "home_runs": 8,
             "batters_faced": 116,
+            "wins": 3,
+            "losses": 1,
             "innings_pitched": 28.3,
             "era": 5.08,
             "whip": 1.2
@@ -112265,6 +112497,8 @@
             "strike_outs": 167,
             "home_runs": 55,
             "batters_faced": 1126,
+            "wins": 21,
+            "losses": 15,
             "innings_pitched": 264.7,
             "era": 4.59,
             "whip": 1.3
@@ -112282,6 +112516,8 @@
               "strike_outs": 30,
               "home_runs": 9,
               "batters_faced": 225,
+              "wins": 7,
+              "losses": 3,
               "innings_pitched": 55.0,
               "era": 3.93,
               "whip": 1.2
@@ -112296,6 +112532,8 @@
               "strike_outs": 31,
               "home_runs": 13,
               "batters_faced": 226,
+              "wins": 4,
+              "losses": 2,
               "innings_pitched": 52.7,
               "era": 5.13,
               "whip": 1.33
@@ -116737,7 +116975,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 823186,
-        "generated_at": "2026-08-11T15:58:08.855066+00:00",
+        "generated_at": "2026-08-11T16:10:10.760448+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 2.88,
         "away_exp_runs": 4.54,
@@ -120953,6 +121191,8 @@
             "strike_outs": 20,
             "home_runs": 2,
             "batters_faced": 69,
+            "wins": 2,
+            "losses": 0,
             "innings_pitched": 18.7,
             "era": 2.41,
             "whip": 0.8
@@ -120967,6 +121207,8 @@
             "strike_outs": 28,
             "home_runs": 3,
             "batters_faced": 118,
+            "wins": 2,
+            "losses": 1,
             "innings_pitched": 29.3,
             "era": 3.68,
             "whip": 1.12
@@ -120981,6 +121223,8 @@
             "strike_outs": 648,
             "home_runs": 68,
             "batters_faced": 2432,
+            "wins": 39,
+            "losses": 32,
             "innings_pitched": 590.0,
             "era": 3.49,
             "whip": 1.21
@@ -120998,6 +121242,8 @@
               "strike_outs": 44,
               "home_runs": 4,
               "batters_faced": 156,
+              "wins": 2,
+              "losses": 1,
               "innings_pitched": 36.7,
               "era": 4.17,
               "whip": 1.34
@@ -121012,6 +121258,8 @@
               "strike_outs": 19,
               "home_runs": 3,
               "batters_faced": 90,
+              "wins": 1,
+              "losses": 0,
               "innings_pitched": 22.0,
               "era": 2.45,
               "whip": 1.09
@@ -125444,20 +125692,20 @@
       "live_score": null,
       "projection": {
         "game_pk": 823917,
-        "generated_at": "2026-08-11T15:58:08.855066+00:00",
+        "generated_at": "2026-08-11T16:10:10.760448+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.85,
         "away_exp_runs": 3.67,
         "home_win_prob": 0.517,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.351,
+        "spread_cover_prob": 0.35,
         "total_line": 6.5,
         "over_prob": 0.551,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.649,
+        "spread_pick_prob": 0.65,
         "total_pick": "over",
         "total_pick_prob": 0.551,
         "spread_favorite": "home"
@@ -129679,6 +129927,8 @@
             "strike_outs": 11,
             "home_runs": 2,
             "batters_faced": 75,
+            "wins": 0,
+            "losses": 1,
             "innings_pitched": 18.7,
             "era": 1.93,
             "whip": 1.02
@@ -129693,6 +129943,8 @@
             "strike_outs": 21,
             "home_runs": 4,
             "batters_faced": 121,
+            "wins": 0,
+            "losses": 2,
             "innings_pitched": 29.3,
             "era": 3.38,
             "whip": 1.12
@@ -129707,6 +129959,8 @@
             "strike_outs": 742,
             "home_runs": 110,
             "batters_faced": 3642,
+            "wins": 56,
+            "losses": 42,
             "innings_pitched": 883.7,
             "era": 3.72,
             "whip": 1.19
@@ -129724,6 +129978,8 @@
               "strike_outs": 49,
               "home_runs": 9,
               "batters_faced": 258,
+              "wins": 3,
+              "losses": 3,
               "innings_pitched": 65.0,
               "era": 2.91,
               "whip": 1.05
@@ -129738,6 +129994,8 @@
               "strike_outs": 63,
               "home_runs": 8,
               "batters_faced": 327,
+              "wins": 2,
+              "losses": 5,
               "innings_pitched": 79.0,
               "era": 3.87,
               "whip": 1.24
@@ -134197,7 +134455,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 823672,
-        "generated_at": "2026-08-11T15:58:08.855066+00:00",
+        "generated_at": "2026-08-11T16:10:10.760448+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.95,
         "away_exp_runs": 4.73,
@@ -134205,14 +134463,14 @@
         "spread_line": 1.5,
         "spread_cover_prob": 0.29,
         "total_line": 8.5,
-        "over_prob": 0.461,
+        "over_prob": 0.462,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
         "spread_pick_prob": 0.585,
         "total_pick": "under",
-        "total_pick_prob": 0.539,
+        "total_pick_prob": 0.538,
         "spread_favorite": "away"
       },
       "highlights": [],
@@ -134238,6 +134496,8 @@
             "strike_outs": 15,
             "home_runs": 2,
             "batters_faced": 68,
+            "wins": 1,
+            "losses": 1,
             "innings_pitched": 16.0,
             "era": 4.5,
             "whip": 1.31
@@ -134252,6 +134512,8 @@
             "strike_outs": 22,
             "home_runs": 4,
             "batters_faced": 116,
+            "wins": 1,
+            "losses": 3,
             "innings_pitched": 25.0,
             "era": 7.2,
             "whip": 1.76
@@ -134266,6 +134528,8 @@
             "strike_outs": 204,
             "home_runs": 40,
             "batters_faced": 896,
+            "wins": 11,
+            "losses": 18,
             "innings_pitched": 203.0,
             "era": 5.63,
             "whip": 1.45
@@ -134283,6 +134547,8 @@
               "strike_outs": 22,
               "home_runs": 4,
               "batters_faced": 149,
+              "wins": 2,
+              "losses": 4,
               "innings_pitched": 38.0,
               "era": 2.84,
               "whip": 1.16
@@ -134297,6 +134563,8 @@
               "strike_outs": 51,
               "home_runs": 13,
               "batters_faced": 216,
+              "wins": 3,
+              "losses": 4,
               "innings_pitched": 48.0,
               "era": 7.12,
               "whip": 1.48
@@ -138750,6 +139018,8 @@
             "strike_outs": 15,
             "home_runs": 1,
             "batters_faced": 72,
+            "wins": 0,
+            "losses": 2,
             "innings_pitched": 18.7,
             "era": 1.93,
             "whip": 1.02
@@ -138764,6 +139034,8 @@
             "strike_outs": 30,
             "home_runs": 1,
             "batters_faced": 119,
+            "wins": 0,
+            "losses": 2,
             "innings_pitched": 29.3,
             "era": 2.15,
             "whip": 1.12
@@ -138778,6 +139050,8 @@
             "strike_outs": 413,
             "home_runs": 53,
             "batters_faced": 1775,
+            "wins": 21,
+            "losses": 28,
             "innings_pitched": 422.3,
             "era": 4.09,
             "whip": 1.26
@@ -138795,6 +139069,8 @@
               "strike_outs": 53,
               "home_runs": 3,
               "batters_faced": 264,
+              "wins": 3,
+              "losses": 4,
               "innings_pitched": 61.0,
               "era": 3.69,
               "whip": 1.48
@@ -138809,6 +139085,8 @@
               "strike_outs": 67,
               "home_runs": 7,
               "batters_faced": 315,
+              "wins": 1,
+              "losses": 7,
               "innings_pitched": 75.3,
               "era": 3.82,
               "whip": 1.19
@@ -143237,7 +143515,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 823017,
-        "generated_at": "2026-08-11T15:58:08.855066+00:00",
+        "generated_at": "2026-08-11T16:10:10.760448+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.05,
         "away_exp_runs": 4.12,
@@ -143278,6 +143556,8 @@
             "strike_outs": 20,
             "home_runs": 2,
             "batters_faced": 70,
+            "wins": 1,
+            "losses": 0,
             "innings_pitched": 17.0,
             "era": 2.65,
             "whip": 1.29
@@ -143292,6 +143572,8 @@
             "strike_outs": 26,
             "home_runs": 3,
             "batters_faced": 100,
+            "wins": 1,
+            "losses": 0,
             "innings_pitched": 26.0,
             "era": 2.08,
             "whip": 1.0
@@ -143306,6 +143588,8 @@
             "strike_outs": 214,
             "home_runs": 22,
             "batters_faced": 1047,
+            "wins": 13,
+            "losses": 8,
             "innings_pitched": 250.7,
             "era": 3.55,
             "whip": 1.27
@@ -143323,6 +143607,8 @@
               "strike_outs": 49,
               "home_runs": 2,
               "batters_faced": 254,
+              "wins": 4,
+              "losses": 3,
               "innings_pitched": 60.0,
               "era": 3.0,
               "whip": 1.32
@@ -143337,6 +143623,8 @@
               "strike_outs": 50,
               "home_runs": 10,
               "batters_faced": 224,
+              "wins": 4,
+              "losses": 1,
               "innings_pitched": 52.3,
               "era": 3.96,
               "whip": 1.38
@@ -147782,6 +148070,8 @@
             "strike_outs": 15,
             "home_runs": 3,
             "batters_faced": 51,
+            "wins": 0,
+            "losses": 1,
             "innings_pitched": 10.3,
             "era": 7.84,
             "whip": 1.94
@@ -147796,6 +148086,8 @@
             "strike_outs": 34,
             "home_runs": 4,
             "batters_faced": 98,
+            "wins": 1,
+            "losses": 2,
             "innings_pitched": 23.3,
             "era": 4.24,
             "whip": 1.24
@@ -147810,6 +148102,8 @@
             "strike_outs": 1153,
             "home_runs": 101,
             "batters_faced": 3971,
+            "wins": 74,
+            "losses": 36,
             "innings_pitched": 1000.3,
             "era": 2.88,
             "whip": 1.0
@@ -147827,6 +148121,8 @@
               "strike_outs": 59,
               "home_runs": 6,
               "batters_faced": 194,
+              "wins": 4,
+              "losses": 2,
               "innings_pitched": 48.0,
               "era": 3.19,
               "whip": 1.1
@@ -147841,6 +148137,8 @@
               "strike_outs": 73,
               "home_runs": 8,
               "batters_faced": 237,
+              "wins": 6,
+              "losses": 1,
               "innings_pitched": 62.3,
               "era": 2.31,
               "whip": 0.88
@@ -152288,7 +152586,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 824967,
-        "generated_at": "2026-08-11T15:58:08.855066+00:00",
+        "generated_at": "2026-08-11T16:10:10.760448+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.26,
         "away_exp_runs": 6.99,
@@ -152296,14 +152594,14 @@
         "spread_line": 1.5,
         "spread_cover_prob": 0.138,
         "total_line": 9.5,
-        "over_prob": 0.499,
+        "over_prob": 0.5,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "away",
         "spread_pick_prob": 0.644,
-        "total_pick": "under",
-        "total_pick_prob": 0.501,
+        "total_pick": "over",
+        "total_pick_prob": 0.5,
         "spread_favorite": "away"
       },
       "highlights": [],
@@ -156532,6 +156830,8 @@
             "strike_outs": 27,
             "home_runs": 0,
             "batters_faced": 70,
+            "wins": 3,
+            "losses": 0,
             "innings_pitched": 20.0,
             "era": 0.0,
             "whip": 0.55
@@ -156546,6 +156846,8 @@
             "strike_outs": 34,
             "home_runs": 1,
             "batters_faced": 107,
+            "wins": 4,
+            "losses": 1,
             "innings_pitched": 27.3,
             "era": 2.63,
             "whip": 0.95
@@ -156560,6 +156862,8 @@
             "strike_outs": 558,
             "home_runs": 53,
             "batters_faced": 2325,
+            "wins": 41,
+            "losses": 22,
             "innings_pitched": 585.0,
             "era": 2.86,
             "whip": 1.03
@@ -156577,6 +156881,8 @@
               "strike_outs": 68,
               "home_runs": 4,
               "batters_faced": 242,
+              "wins": 7,
+              "losses": 3,
               "innings_pitched": 61.7,
               "era": 2.77,
               "whip": 0.92
@@ -156591,6 +156897,8 @@
               "strike_outs": 62,
               "home_runs": 8,
               "batters_faced": 243,
+              "wins": 4,
+              "losses": 2,
               "innings_pitched": 62.7,
               "era": 2.73,
               "whip": 0.89
@@ -161029,7 +161337,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 825047,
-        "generated_at": "2026-08-11T15:58:08.855066+00:00",
+        "generated_at": "2026-08-11T16:10:10.760448+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 6.28,
         "away_exp_runs": 4.9,
@@ -161070,6 +161378,8 @@
             "strike_outs": 15,
             "home_runs": 1,
             "batters_faced": 68,
+            "wins": 0,
+            "losses": 1,
             "innings_pitched": 16.3,
             "era": 3.31,
             "whip": 1.41
@@ -161084,6 +161394,8 @@
             "strike_outs": 21,
             "home_runs": 3,
             "batters_faced": 108,
+            "wins": 1,
+            "losses": 1,
             "innings_pitched": 26.3,
             "era": 3.08,
             "whip": 1.33
@@ -161098,6 +161410,8 @@
             "strike_outs": 840,
             "home_runs": 125,
             "batters_faced": 3912,
+            "wins": 61,
+            "losses": 48,
             "innings_pitched": 951.0,
             "era": 3.8,
             "whip": 1.21
@@ -161115,6 +161429,8 @@
               "strike_outs": 39,
               "home_runs": 12,
               "batters_faced": 216,
+              "wins": 4,
+              "losses": 3,
               "innings_pitched": 48.3,
               "era": 5.77,
               "whip": 1.57
@@ -161129,6 +161445,8 @@
               "strike_outs": 41,
               "home_runs": 11,
               "batters_faced": 303,
+              "wins": 4,
+              "losses": 6,
               "innings_pitched": 71.7,
               "era": 4.27,
               "whip": 1.4
@@ -165576,6 +165894,8 @@
             "strike_outs": 9,
             "home_runs": 4,
             "batters_faced": 73,
+            "wins": 1,
+            "losses": 2,
             "innings_pitched": 16.3,
             "era": 6.61,
             "whip": 1.59
@@ -165590,6 +165910,8 @@
             "strike_outs": 15,
             "home_runs": 9,
             "batters_faced": 114,
+            "wins": 1,
+            "losses": 4,
             "innings_pitched": 23.0,
             "era": 9.39,
             "whip": 2.04
@@ -165604,6 +165926,8 @@
             "strike_outs": 350,
             "home_runs": 63,
             "batters_faced": 1847,
+            "wins": 13,
+            "losses": 32,
             "innings_pitched": 421.7,
             "era": 5.29,
             "whip": 1.43
@@ -165621,6 +165945,8 @@
               "strike_outs": 35,
               "home_runs": 10,
               "batters_faced": 211,
+              "wins": 4,
+              "losses": 2,
               "innings_pitched": 49.7,
               "era": 5.62,
               "whip": 1.33
@@ -165635,6 +165961,8 @@
               "strike_outs": 24,
               "home_runs": 8,
               "batters_faced": 147,
+              "wins": 0,
+              "losses": 4,
               "innings_pitched": 32.3,
               "era": 5.85,
               "whip": 1.64
@@ -170069,22 +170397,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 823187,
-        "generated_at": "2026-08-11T15:58:08.855066+00:00",
+        "generated_at": "2026-08-11T16:10:10.760448+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.9,
         "away_exp_runs": 4.54,
         "home_win_prob": 0.444,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.297,
+        "spread_cover_prob": 0.296,
         "total_line": 7.5,
-        "over_prob": 0.534,
+        "over_prob": 0.533,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
         "spread_pick_prob": 0.599,
         "total_pick": "over",
-        "total_pick_prob": 0.534,
+        "total_pick_prob": 0.533,
         "spread_favorite": "away"
       },
       "highlights": [],
@@ -178427,22 +178755,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 823263,
-        "generated_at": "2026-08-11T15:58:08.855066+00:00",
+        "generated_at": "2026-08-11T16:10:10.760448+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.36,
         "away_exp_runs": 3.28,
         "home_win_prob": 0.509,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.327,
+        "spread_cover_prob": 0.328,
         "total_line": 6.5,
-        "over_prob": 0.461,
+        "over_prob": 0.462,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.673,
+        "spread_pick_prob": 0.672,
         "total_pick": "under",
-        "total_pick_prob": 0.539,
+        "total_pick_prob": 0.538,
         "spread_favorite": "home"
       },
       "highlights": [],
@@ -178468,6 +178796,8 @@
             "strike_outs": 13,
             "home_runs": 1,
             "batters_faced": 72,
+            "wins": 2,
+            "losses": 1,
             "innings_pitched": 17.0,
             "era": 2.65,
             "whip": 1.47
@@ -178482,6 +178812,8 @@
             "strike_outs": 23,
             "home_runs": 1,
             "batters_faced": 117,
+            "wins": 2,
+            "losses": 1,
             "innings_pitched": 26.0,
             "era": 2.42,
             "whip": 1.73
@@ -178496,6 +178828,8 @@
             "strike_outs": 1037,
             "home_runs": 148,
             "batters_faced": 3759,
+            "wins": 60,
+            "losses": 49,
             "innings_pitched": 899.7,
             "era": 3.81,
             "whip": 1.25
@@ -178513,6 +178847,8 @@
               "strike_outs": 54,
               "home_runs": 6,
               "batters_faced": 290,
+              "wins": 6,
+              "losses": 2,
               "innings_pitched": 70.0,
               "era": 2.57,
               "whip": 1.27
@@ -178527,6 +178863,8 @@
               "strike_outs": 55,
               "home_runs": 10,
               "batters_faced": 247,
+              "wins": 4,
+              "losses": 5,
               "innings_pitched": 57.7,
               "era": 4.06,
               "whip": 1.4
@@ -182944,6 +183282,8 @@
             "strike_outs": 16,
             "home_runs": 1,
             "batters_faced": 68,
+            "wins": 1,
+            "losses": 0,
             "innings_pitched": 17.0,
             "era": 1.59,
             "whip": 1.0
@@ -182958,6 +183298,8 @@
             "strike_outs": 26,
             "home_runs": 1,
             "batters_faced": 113,
+            "wins": 1,
+            "losses": 1,
             "innings_pitched": 26.0,
             "era": 3.46,
             "whip": 1.35
@@ -182972,6 +183314,8 @@
             "strike_outs": 408,
             "home_runs": 48,
             "batters_faced": 1838,
+            "wins": 25,
+            "losses": 27,
             "innings_pitched": 439.0,
             "era": 3.98,
             "whip": 1.22
@@ -182989,6 +183333,8 @@
               "strike_outs": 69,
               "home_runs": 2,
               "batters_faced": 300,
+              "wins": 4,
+              "losses": 3,
               "innings_pitched": 73.7,
               "era": 3.18,
               "whip": 1.13
@@ -183003,6 +183349,8 @@
               "strike_outs": 42,
               "home_runs": 6,
               "batters_faced": 182,
+              "wins": 2,
+              "losses": 4,
               "innings_pitched": 41.3,
               "era": 6.31,
               "whip": 1.52
@@ -187433,20 +187781,20 @@
       "live_score": null,
       "projection": {
         "game_pk": 823833,
-        "generated_at": "2026-08-11T15:58:08.855066+00:00",
+        "generated_at": "2026-08-11T16:10:10.760448+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.25,
         "away_exp_runs": 4.1,
         "home_win_prob": 0.513,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.358,
+        "spread_cover_prob": 0.359,
         "total_line": 7.5,
         "over_prob": 0.526,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.642,
+        "spread_pick_prob": 0.641,
         "total_pick": "over",
         "total_pick_prob": 0.526,
         "spread_favorite": "home"
@@ -187474,6 +187822,8 @@
             "strike_outs": 11,
             "home_runs": 1,
             "batters_faced": 55,
+            "wins": 1,
+            "losses": 1,
             "innings_pitched": 12.7,
             "era": 2.13,
             "whip": 1.42
@@ -187488,6 +187838,8 @@
             "strike_outs": 19,
             "home_runs": 4,
             "batters_faced": 95,
+            "wins": 2,
+            "losses": 2,
             "innings_pitched": 21.7,
             "era": 4.15,
             "whip": 1.52
@@ -187502,6 +187854,8 @@
             "strike_outs": 173,
             "home_runs": 30,
             "batters_faced": 986,
+            "wins": 12,
+            "losses": 14,
             "innings_pitched": 231.7,
             "era": 4.78,
             "whip": 1.33
@@ -187519,6 +187873,8 @@
               "strike_outs": 39,
               "home_runs": 6,
               "batters_faced": 201,
+              "wins": 2,
+              "losses": 3,
               "innings_pitched": 48.0,
               "era": 4.12,
               "whip": 1.25
@@ -187533,6 +187889,8 @@
               "strike_outs": 23,
               "home_runs": 6,
               "batters_faced": 149,
+              "wins": 3,
+              "losses": 4,
               "innings_pitched": 33.7,
               "era": 5.35,
               "whip": 1.51
@@ -196100,20 +196458,20 @@
       "live_score": null,
       "projection": {
         "game_pk": 824241,
-        "generated_at": "2026-08-11T15:58:08.855066+00:00",
+        "generated_at": "2026-08-11T16:10:10.760448+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.76,
         "away_exp_runs": 3.37,
         "home_win_prob": 0.539,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.365,
+        "spread_cover_prob": 0.364,
         "total_line": 6.5,
         "over_prob": 0.512,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.635,
+        "spread_pick_prob": 0.636,
         "total_pick": "over",
         "total_pick_prob": 0.512,
         "spread_favorite": "home"
@@ -196141,6 +196499,8 @@
             "strike_outs": 15,
             "home_runs": 1,
             "batters_faced": 79,
+            "wins": 2,
+            "losses": 0,
             "innings_pitched": 19.0,
             "era": 1.89,
             "whip": 1.32
@@ -196155,6 +196515,8 @@
             "strike_outs": 25,
             "home_runs": 1,
             "batters_faced": 115,
+            "wins": 3,
+            "losses": 1,
             "innings_pitched": 26.7,
             "era": 3.71,
             "whip": 1.31
@@ -196169,6 +196531,8 @@
             "strike_outs": 954,
             "home_runs": 80,
             "batters_faced": 4168,
+            "wins": 72,
+            "losses": 48,
             "innings_pitched": 1004.3,
             "era": 3.37,
             "whip": 1.2
@@ -196186,6 +196550,8 @@
               "strike_outs": 42,
               "home_runs": 7,
               "batters_faced": 240,
+              "wins": 4,
+              "losses": 3,
               "innings_pitched": 55.0,
               "era": 4.09,
               "whip": 1.27
@@ -196200,6 +196566,8 @@
               "strike_outs": 61,
               "home_runs": 5,
               "batters_faced": 318,
+              "wins": 3,
+              "losses": 4,
               "innings_pitched": 72.3,
               "era": 4.23,
               "whip": 1.44
@@ -200634,6 +201002,8 @@
             "strike_outs": 11,
             "home_runs": 4,
             "batters_faced": 72,
+            "wins": 1,
+            "losses": 2,
             "innings_pitched": 16.0,
             "era": 7.88,
             "whip": 1.69
@@ -200648,6 +201018,8 @@
             "strike_outs": 22,
             "home_runs": 4,
             "batters_faced": 125,
+            "wins": 3,
+            "losses": 2,
             "innings_pitched": 30.0,
             "era": 4.8,
             "whip": 1.37
@@ -200662,6 +201034,8 @@
             "strike_outs": 127,
             "home_runs": 21,
             "batters_faced": 583,
+            "wins": 13,
+            "losses": 4,
             "innings_pitched": 141.3,
             "era": 3.5,
             "whip": 1.13
@@ -200679,6 +201053,8 @@
               "strike_outs": 56,
               "home_runs": 12,
               "batters_faced": 262,
+              "wins": 6,
+              "losses": 2,
               "innings_pitched": 63.0,
               "era": 3.43,
               "whip": 1.17
@@ -200693,6 +201069,8 @@
               "strike_outs": 66,
               "home_runs": 9,
               "batters_faced": 283,
+              "wins": 6,
+              "losses": 2,
               "innings_pitched": 70.3,
               "era": 3.2,
               "whip": 1.05
@@ -205115,13 +205493,13 @@
       "live_score": null,
       "projection": {
         "game_pk": 822698,
-        "generated_at": "2026-08-11T15:58:08.855066+00:00",
+        "generated_at": "2026-08-11T16:10:10.760448+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.99,
         "away_exp_runs": 6.28,
-        "home_win_prob": 0.411,
+        "home_win_prob": 0.41,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.295,
+        "spread_cover_prob": 0.294,
         "total_line": 10.5,
         "over_prob": 0.503,
         "home_score_line": null,
@@ -209313,6 +209691,8 @@
             "strike_outs": 14,
             "home_runs": 2,
             "batters_faced": 70,
+            "wins": 1,
+            "losses": 0,
             "innings_pitched": 17.0,
             "era": 2.12,
             "whip": 1.18
@@ -209327,6 +209707,8 @@
             "strike_outs": 20,
             "home_runs": 3,
             "batters_faced": 114,
+            "wins": 2,
+            "losses": 0,
             "innings_pitched": 28.7,
             "era": 1.57,
             "whip": 1.05
@@ -209341,6 +209723,8 @@
             "strike_outs": 702,
             "home_runs": 73,
             "batters_faced": 3147,
+            "wins": 43,
+            "losses": 37,
             "innings_pitched": 728.7,
             "era": 4.3,
             "whip": 1.39
@@ -209358,6 +209742,8 @@
               "strike_outs": 50,
               "home_runs": 5,
               "batters_faced": 260,
+              "wins": 2,
+              "losses": 4,
               "innings_pitched": 55.7,
               "era": 6.31,
               "whip": 1.69
@@ -209372,6 +209758,8 @@
               "strike_outs": 38,
               "home_runs": 6,
               "batters_faced": 216,
+              "wins": 4,
+              "losses": 3,
               "innings_pitched": 50.3,
               "era": 4.29,
               "whip": 1.29
@@ -213826,22 +214214,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 823511,
-        "generated_at": "2026-08-11T15:58:08.855066+00:00",
+        "generated_at": "2026-08-11T16:10:10.760448+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.23,
         "away_exp_runs": 3.11,
-        "home_win_prob": 0.513,
+        "home_win_prob": 0.514,
         "spread_line": 1.5,
         "spread_cover_prob": 0.326,
         "total_line": 5.5,
-        "over_prob": 0.541,
+        "over_prob": 0.543,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
         "spread_pick_prob": 0.674,
         "total_pick": "over",
-        "total_pick_prob": 0.541,
+        "total_pick_prob": 0.543,
         "spread_favorite": "home"
       },
       "highlights": [],
@@ -213867,6 +214255,8 @@
             "strike_outs": 17,
             "home_runs": 1,
             "batters_faced": 63,
+            "wins": 1,
+            "losses": 2,
             "innings_pitched": 15.0,
             "era": 5.4,
             "whip": 1.33
@@ -213881,6 +214271,8 @@
             "strike_outs": 20,
             "home_runs": 2,
             "batters_faced": 86,
+            "wins": 1,
+            "losses": 2,
             "innings_pitched": 20.7,
             "era": 4.35,
             "whip": 1.35
@@ -213895,6 +214287,8 @@
             "strike_outs": 314,
             "home_runs": 42,
             "batters_faced": 1317,
+            "wins": 17,
+            "losses": 17,
             "innings_pitched": 299.0,
             "era": 4.79,
             "whip": 1.41
@@ -213912,6 +214306,8 @@
               "strike_outs": 68,
               "home_runs": 8,
               "batters_faced": 230,
+              "wins": 4,
+              "losses": 3,
               "innings_pitched": 53.3,
               "era": 3.88,
               "whip": 1.26
@@ -213926,6 +214322,8 @@
               "strike_outs": 46,
               "home_runs": 7,
               "batters_faced": 266,
+              "wins": 4,
+              "losses": 3,
               "innings_pitched": 60.7,
               "era": 4.45,
               "whip": 1.47
@@ -218332,6 +218730,8 @@
             "strike_outs": 8,
             "home_runs": 4,
             "batters_faced": 65,
+            "wins": 0,
+            "losses": 2,
             "innings_pitched": 15.7,
             "era": 6.32,
             "whip": 1.21
@@ -218346,6 +218746,8 @@
             "strike_outs": 17,
             "home_runs": 6,
             "batters_faced": 119,
+            "wins": 0,
+            "losses": 4,
             "innings_pitched": 26.3,
             "era": 5.81,
             "whip": 1.52
@@ -218360,6 +218762,8 @@
             "strike_outs": 443,
             "home_runs": 69,
             "batters_faced": 1939,
+            "wins": 28,
+            "losses": 27,
             "innings_pitched": 481.0,
             "era": 3.85,
             "whip": 1.1
@@ -218377,6 +218781,8 @@
               "strike_outs": 42,
               "home_runs": 4,
               "batters_faced": 144,
+              "wins": 1,
+              "losses": 3,
               "innings_pitched": 38.7,
               "era": 2.09,
               "whip": 0.75
@@ -218391,6 +218797,8 @@
               "strike_outs": 37,
               "home_runs": 9,
               "batters_faced": 162,
+              "wins": 3,
+              "losses": 3,
               "innings_pitched": 40.3,
               "era": 4.02,
               "whip": 1.14
@@ -222807,22 +223215,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 822779,
-        "generated_at": "2026-08-11T15:58:08.855066+00:00",
+        "generated_at": "2026-08-11T16:10:10.760448+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 2.8,
         "away_exp_runs": 3.75,
-        "home_win_prob": 0.399,
+        "home_win_prob": 0.4,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.229,
+        "spread_cover_prob": 0.23,
         "total_line": 6.5,
-        "over_prob": 0.451,
+        "over_prob": 0.45,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
-        "spread_pick_prob": 0.586,
+        "spread_pick_prob": 0.587,
         "total_pick": "under",
-        "total_pick_prob": 0.549,
+        "total_pick_prob": 0.55,
         "spread_favorite": "away"
       },
       "highlights": [],
@@ -222848,6 +223256,8 @@
             "strike_outs": 15,
             "home_runs": 0,
             "batters_faced": 65,
+            "wins": 1,
+            "losses": 0,
             "innings_pitched": 16.7,
             "era": 1.62,
             "whip": 1.08
@@ -222862,6 +223272,8 @@
             "strike_outs": 19,
             "home_runs": 0,
             "batters_faced": 108,
+            "wins": 1,
+            "losses": 1,
             "innings_pitched": 27.7,
             "era": 2.6,
             "whip": 1.05
@@ -222876,6 +223288,8 @@
             "strike_outs": 435,
             "home_runs": 36,
             "batters_faced": 1908,
+            "wins": 26,
+            "losses": 27,
             "innings_pitched": 451.7,
             "era": 3.71,
             "whip": 1.3
@@ -222893,6 +223307,8 @@
               "strike_outs": 63,
               "home_runs": 6,
               "batters_faced": 228,
+              "wins": 3,
+              "losses": 2,
               "innings_pitched": 54.3,
               "era": 3.81,
               "whip": 1.27
@@ -222907,6 +223323,8 @@
               "strike_outs": 67,
               "home_runs": 6,
               "batters_faced": 303,
+              "wins": 6,
+              "losses": 4,
               "innings_pitched": 73.3,
               "era": 2.82,
               "whip": 1.25
@@ -227373,6 +227791,8 @@
             "strike_outs": 11,
             "home_runs": 1,
             "batters_faced": 48,
+            "wins": 0,
+            "losses": 0,
             "innings_pitched": 11.7,
             "era": 4.63,
             "whip": 1.29
@@ -227387,6 +227807,8 @@
             "strike_outs": 24,
             "home_runs": 2,
             "batters_faced": 87,
+            "wins": 1,
+            "losses": 0,
             "innings_pitched": 20.3,
             "era": 5.31,
             "whip": 1.33
@@ -227401,6 +227823,8 @@
             "strike_outs": 756,
             "home_runs": 66,
             "batters_faced": 3313,
+            "wins": 50,
+            "losses": 37,
             "innings_pitched": 795.3,
             "era": 3.27,
             "whip": 1.23
@@ -227418,6 +227842,8 @@
               "strike_outs": 49,
               "home_runs": 4,
               "batters_faced": 204,
+              "wins": 1,
+              "losses": 2,
               "innings_pitched": 49.0,
               "era": 3.86,
               "whip": 1.2
@@ -227432,6 +227858,8 @@
               "strike_outs": 59,
               "home_runs": 2,
               "batters_faced": 220,
+              "wins": 3,
+              "losses": 1,
               "innings_pitched": 54.0,
               "era": 2.83,
               "whip": 1.15
@@ -231852,7 +232280,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 824883,
-        "generated_at": "2026-08-11T15:58:08.855066+00:00",
+        "generated_at": "2026-08-11T16:10:10.760448+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.15,
         "away_exp_runs": 4.27,
@@ -231860,14 +232288,14 @@
         "spread_line": 1.5,
         "spread_cover_prob": 0.238,
         "total_line": 6.5,
-        "over_prob": 0.54,
+        "over_prob": 0.541,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
-        "spread_pick_prob": 0.564,
+        "spread_pick_prob": 0.563,
         "total_pick": "over",
-        "total_pick_prob": 0.54,
+        "total_pick_prob": 0.541,
         "spread_favorite": "away"
       },
       "highlights": [],
@@ -231893,6 +232321,8 @@
             "strike_outs": 21,
             "home_runs": 1,
             "batters_faced": 68,
+            "wins": 1,
+            "losses": 0,
             "innings_pitched": 17.7,
             "era": 2.55,
             "whip": 0.96
@@ -231907,6 +232337,8 @@
             "strike_outs": 29,
             "home_runs": 2,
             "batters_faced": 119,
+            "wins": 2,
+            "losses": 1,
             "innings_pitched": 29.7,
             "era": 2.73,
             "whip": 1.04
@@ -231921,6 +232353,8 @@
             "strike_outs": 851,
             "home_runs": 118,
             "batters_faced": 3549,
+            "wins": 42,
+            "losses": 55,
             "innings_pitched": 835.7,
             "era": 4.16,
             "whip": 1.29
@@ -231938,6 +232372,8 @@
               "strike_outs": 42,
               "home_runs": 5,
               "batters_faced": 202,
+              "wins": 3,
+              "losses": 3,
               "innings_pitched": 51.0,
               "era": 2.65,
               "whip": 1.14
@@ -231952,6 +232388,8 @@
               "strike_outs": 56,
               "home_runs": 9,
               "batters_faced": 225,
+              "wins": 0,
+              "losses": 6,
               "innings_pitched": 49.7,
               "era": 7.07,
               "whip": 1.59
@@ -236361,6 +236799,8 @@
             "strike_outs": 10,
             "home_runs": 2,
             "batters_faced": 66,
+            "wins": 2,
+            "losses": 1,
             "innings_pitched": 16.0,
             "era": 3.38,
             "whip": 1.38
@@ -236375,6 +236815,8 @@
             "strike_outs": 17,
             "home_runs": 2,
             "batters_faced": 111,
+            "wins": 3,
+            "losses": 1,
             "innings_pitched": 29.0,
             "era": 1.86,
             "whip": 1.03
@@ -236389,6 +236831,8 @@
             "strike_outs": 27,
             "home_runs": 3,
             "batters_faced": 153,
+            "wins": 3,
+            "losses": 2,
             "innings_pitched": 39.3,
             "era": 2.52,
             "whip": 1.07
@@ -236406,6 +236850,8 @@
               "strike_outs": 19,
               "home_runs": 2,
               "batters_faced": 95,
+              "wins": 1,
+              "losses": 1,
               "innings_pitched": 24.0,
               "era": 2.62,
               "whip": 1.08
@@ -236420,6 +236866,8 @@
               "strike_outs": 8,
               "home_runs": 1,
               "batters_faced": 58,
+              "wins": 2,
+              "losses": 1,
               "innings_pitched": 15.3,
               "era": 2.35,
               "whip": 1.04
@@ -240853,22 +241301,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 824562,
-        "generated_at": "2026-08-11T15:58:08.855066+00:00",
+        "generated_at": "2026-08-11T16:10:10.760448+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.51,
         "away_exp_runs": 4.11,
         "home_win_prob": 0.535,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.383,
+        "spread_cover_prob": 0.384,
         "total_line": 8.5,
-        "over_prob": 0.456,
+        "over_prob": 0.457,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.617,
+        "spread_pick_prob": 0.616,
         "total_pick": "under",
-        "total_pick_prob": 0.544,
+        "total_pick_prob": 0.543,
         "spread_favorite": "home"
       },
       "highlights": [],
@@ -240894,6 +241342,8 @@
             "strike_outs": 10,
             "home_runs": 5,
             "batters_faced": 71,
+            "wins": 0,
+            "losses": 1,
             "innings_pitched": 16.0,
             "era": 7.31,
             "whip": 1.62
@@ -240908,6 +241358,8 @@
             "strike_outs": 18,
             "home_runs": 8,
             "batters_faced": 122,
+            "wins": 0,
+            "losses": 3,
             "innings_pitched": 27.0,
             "era": 6.33,
             "whip": 1.56
@@ -240922,6 +241374,8 @@
             "strike_outs": 953,
             "home_runs": 116,
             "batters_faced": 3873,
+            "wins": 53,
+            "losses": 52,
             "innings_pitched": 936.3,
             "era": 3.52,
             "whip": 1.18
@@ -240939,6 +241393,8 @@
               "strike_outs": 39,
               "home_runs": 4,
               "batters_faced": 192,
+              "wins": 1,
+              "losses": 4,
               "innings_pitched": 44.7,
               "era": 5.04,
               "whip": 1.28
@@ -240953,6 +241409,8 @@
               "strike_outs": 52,
               "home_runs": 13,
               "batters_faced": 269,
+              "wins": 2,
+              "losses": 5,
               "innings_pitched": 59.0,
               "era": 5.49,
               "whip": 1.51
@@ -245370,6 +245828,8 @@
             "strike_outs": 12,
             "home_runs": 2,
             "batters_faced": 65,
+            "wins": 1,
+            "losses": 0,
             "innings_pitched": 17.0,
             "era": 3.18,
             "whip": 0.82
@@ -245384,6 +245844,8 @@
             "strike_outs": 15,
             "home_runs": 2,
             "batters_faced": 91,
+            "wins": 1,
+            "losses": 1,
             "innings_pitched": 21.3,
             "era": 5.91,
             "whip": 1.27
@@ -245398,6 +245860,8 @@
             "strike_outs": 95,
             "home_runs": 11,
             "batters_faced": 528,
+            "wins": 6,
+            "losses": 9,
             "innings_pitched": 119.7,
             "era": 4.21,
             "whip": 1.43
@@ -245415,6 +245879,8 @@
               "strike_outs": 39,
               "home_runs": 7,
               "batters_faced": 198,
+              "wins": 2,
+              "losses": 1,
               "innings_pitched": 47.0,
               "era": 3.06,
               "whip": 1.17
@@ -245429,6 +245895,8 @@
               "strike_outs": 34,
               "home_runs": 4,
               "batters_faced": 202,
+              "wins": 2,
+              "losses": 6,
               "innings_pitched": 42.0,
               "era": 7.71,
               "whip": 1.83
@@ -249869,7 +250337,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 823916,
-        "generated_at": "2026-08-11T15:58:08.855066+00:00",
+        "generated_at": "2026-08-11T16:10:10.760448+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.35,
         "away_exp_runs": 3.49,
@@ -254059,6 +254527,8 @@
             "strike_outs": 3,
             "home_runs": 0,
             "batters_faced": 18,
+            "wins": 0,
+            "losses": 1,
             "innings_pitched": 3.7,
             "era": 7.36,
             "whip": 1.91
@@ -254073,6 +254543,8 @@
             "strike_outs": 3,
             "home_runs": 0,
             "batters_faced": 25,
+            "wins": 1,
+            "losses": 1,
             "innings_pitched": 5.3,
             "era": 5.06,
             "whip": 1.69
@@ -254087,6 +254559,8 @@
             "strike_outs": 296,
             "home_runs": 51,
             "batters_faced": 1597,
+            "wins": 19,
+            "losses": 25,
             "innings_pitched": 367.0,
             "era": 4.27,
             "whip": 1.36
@@ -254104,6 +254578,8 @@
               "strike_outs": 20,
               "home_runs": 0,
               "batters_faced": 105,
+              "wins": 1,
+              "losses": 1,
               "innings_pitched": 26.3,
               "era": 2.05,
               "whip": 0.91
@@ -254118,6 +254594,8 @@
               "strike_outs": 17,
               "home_runs": 2,
               "batters_faced": 88,
+              "wins": 3,
+              "losses": 2,
               "innings_pitched": 21.3,
               "era": 2.95,
               "whip": 1.12
@@ -258577,7 +259055,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 823994,
-        "generated_at": "2026-08-11T15:58:08.855066+00:00",
+        "generated_at": "2026-08-11T16:10:10.760448+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.21,
         "away_exp_runs": 3.86,
@@ -258618,6 +259096,8 @@
             "strike_outs": 9,
             "home_runs": 1,
             "batters_faced": 52,
+            "wins": 0,
+            "losses": 1,
             "innings_pitched": 8.7,
             "era": 7.27,
             "whip": 2.88
@@ -258632,6 +259112,8 @@
             "strike_outs": 9,
             "home_runs": 1,
             "batters_faced": 52,
+            "wins": 0,
+            "losses": 1,
             "innings_pitched": 8.7,
             "era": 7.27,
             "whip": 2.88
@@ -258646,6 +259128,8 @@
             "strike_outs": 9,
             "home_runs": 1,
             "batters_faced": 52,
+            "wins": 0,
+            "losses": 1,
             "innings_pitched": 8.7,
             "era": 7.27,
             "whip": 2.88
@@ -258663,6 +259147,8 @@
               "strike_outs": 4,
               "home_runs": 0,
               "batters_faced": 16,
+              "wins": 0,
+              "losses": 0,
               "innings_pitched": 2.7,
               "era": 6.75,
               "whip": 3.0
@@ -258677,6 +259163,8 @@
               "strike_outs": 5,
               "home_runs": 1,
               "batters_faced": 36,
+              "wins": 0,
+              "losses": 1,
               "innings_pitched": 6.0,
               "era": 7.5,
               "whip": 2.83
@@ -267246,20 +267734,20 @@
       "live_score": null,
       "projection": {
         "game_pk": 823829,
-        "generated_at": "2026-08-11T15:58:08.855066+00:00",
+        "generated_at": "2026-08-11T16:10:10.760448+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.59,
         "away_exp_runs": 3.53,
         "home_win_prob": 0.506,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.333,
+        "spread_cover_prob": 0.334,
         "total_line": 6.5,
         "over_prob": 0.511,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.667,
+        "spread_pick_prob": 0.666,
         "total_pick": "over",
         "total_pick_prob": 0.511,
         "spread_favorite": "home"
@@ -267287,6 +267775,8 @@
             "strike_outs": 12,
             "home_runs": 3,
             "batters_faced": 59,
+            "wins": 1,
+            "losses": 0,
             "innings_pitched": 14.0,
             "era": 3.21,
             "whip": 1.21
@@ -267301,6 +267791,8 @@
             "strike_outs": 15,
             "home_runs": 4,
             "batters_faced": 83,
+            "wins": 1,
+            "losses": 2,
             "innings_pitched": 19.3,
             "era": 4.19,
             "whip": 1.34
@@ -267315,6 +267807,8 @@
             "strike_outs": 150,
             "home_runs": 29,
             "batters_faced": 874,
+            "wins": 9,
+            "losses": 7,
             "innings_pitched": 207.7,
             "era": 3.81,
             "whip": 1.29
@@ -267332,6 +267826,8 @@
               "strike_outs": 49,
               "home_runs": 4,
               "batters_faced": 225,
+              "wins": 2,
+              "losses": 1,
               "innings_pitched": 53.7,
               "era": 1.68,
               "whip": 1.25
@@ -267346,6 +267842,8 @@
               "strike_outs": 21,
               "home_runs": 8,
               "batters_faced": 176,
+              "wins": 1,
+              "losses": 4,
               "innings_pitched": 39.7,
               "era": 5.9,
               "whip": 1.51
@@ -271762,6 +272260,8 @@
             "strike_outs": 15,
             "home_runs": 3,
             "batters_faced": 65,
+            "wins": 2,
+            "losses": 1,
             "innings_pitched": 16.0,
             "era": 5.06,
             "whip": 1.06
@@ -271776,6 +272276,8 @@
             "strike_outs": 23,
             "home_runs": 7,
             "batters_faced": 107,
+            "wins": 2,
+            "losses": 2,
             "innings_pitched": 24.0,
             "era": 7.88,
             "whip": 1.42
@@ -271790,6 +272292,8 @@
             "strike_outs": 216,
             "home_runs": 22,
             "batters_faced": 838,
+            "wins": 15,
+            "losses": 9,
             "innings_pitched": 202.0,
             "era": 3.61,
             "whip": 1.19
@@ -271807,6 +272311,8 @@
               "strike_outs": 74,
               "home_runs": 6,
               "batters_faced": 267,
+              "wins": 5,
+              "losses": 1,
               "innings_pitched": 64.7,
               "era": 3.9,
               "whip": 1.14
@@ -271821,6 +272327,8 @@
               "strike_outs": 71,
               "home_runs": 13,
               "batters_faced": 279,
+              "wins": 6,
+              "losses": 4,
               "innings_pitched": 67.7,
               "era": 4.26,
               "whip": 1.17
@@ -276240,22 +276748,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 824238,
-        "generated_at": "2026-08-11T15:58:08.855066+00:00",
+        "generated_at": "2026-08-11T16:10:10.760448+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.3,
         "away_exp_runs": 2.68,
         "home_win_prob": 0.57,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.371,
+        "spread_cover_prob": 0.372,
         "total_line": 5.5,
-        "over_prob": 0.501,
+        "over_prob": 0.502,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.629,
+        "spread_pick_prob": 0.628,
         "total_pick": "over",
-        "total_pick_prob": 0.501,
+        "total_pick_prob": 0.502,
         "spread_favorite": "home"
       },
       "highlights": [],
@@ -276281,6 +276789,8 @@
             "strike_outs": 8,
             "home_runs": 3,
             "batters_faced": 73,
+            "wins": 1,
+            "losses": 2,
             "innings_pitched": 16.3,
             "era": 4.96,
             "whip": 1.35
@@ -276295,6 +276805,8 @@
             "strike_outs": 21,
             "home_runs": 4,
             "batters_faced": 105,
+            "wins": 3,
+            "losses": 2,
             "innings_pitched": 25.0,
             "era": 3.6,
             "whip": 1.04
@@ -276309,6 +276821,8 @@
             "strike_outs": 235,
             "home_runs": 48,
             "batters_faced": 1293,
+            "wins": 19,
+            "losses": 16,
             "innings_pitched": 311.3,
             "era": 4.1,
             "whip": 1.22
@@ -276326,6 +276840,8 @@
               "strike_outs": 46,
               "home_runs": 6,
               "batters_faced": 303,
+              "wins": 4,
+              "losses": 4,
               "innings_pitched": 73.7,
               "era": 3.79,
               "whip": 1.15
@@ -276340,6 +276856,8 @@
               "strike_outs": 40,
               "home_runs": 7,
               "batters_faced": 189,
+              "wins": 4,
+              "losses": 3,
               "innings_pitched": 48.7,
               "era": 2.77,
               "whip": 0.8
@@ -280760,6 +281278,8 @@
             "strike_outs": 20,
             "home_runs": 2,
             "batters_faced": 75,
+            "wins": 1,
+            "losses": 1,
             "innings_pitched": 19.0,
             "era": 1.89,
             "whip": 0.95
@@ -280774,6 +281294,8 @@
             "strike_outs": 27,
             "home_runs": 4,
             "batters_faced": 119,
+            "wins": 2,
+            "losses": 1,
             "innings_pitched": 30.7,
             "era": 1.76,
             "whip": 0.88
@@ -280788,6 +281310,8 @@
             "strike_outs": 174,
             "home_runs": 17,
             "batters_faced": 707,
+            "wins": 12,
+            "losses": 7,
             "innings_pitched": 176.3,
             "era": 2.6,
             "whip": 1.1
@@ -280805,6 +281329,8 @@
               "strike_outs": 70,
               "home_runs": 3,
               "batters_faced": 278,
+              "wins": 3,
+              "losses": 2,
               "innings_pitched": 68.3,
               "era": 2.9,
               "whip": 1.14
@@ -280819,6 +281345,8 @@
               "strike_outs": 66,
               "home_runs": 10,
               "batters_faced": 264,
+              "wins": 6,
+              "losses": 4,
               "innings_pitched": 68.3,
               "era": 2.24,
               "whip": 0.94
@@ -285255,22 +285783,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 823508,
-        "generated_at": "2026-08-11T15:58:08.855066+00:00",
+        "generated_at": "2026-08-11T16:10:10.760448+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.43,
         "away_exp_runs": 2.46,
-        "home_win_prob": 0.609,
+        "home_win_prob": 0.61,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.407,
+        "spread_cover_prob": 0.408,
         "total_line": 5.5,
-        "over_prob": 0.489,
+        "over_prob": 0.491,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.593,
+        "spread_pick_prob": 0.592,
         "total_pick": "under",
-        "total_pick_prob": 0.511,
+        "total_pick_prob": 0.509,
         "spread_favorite": "home"
       },
       "highlights": [],
@@ -285296,6 +285824,8 @@
             "strike_outs": 18,
             "home_runs": 0,
             "batters_faced": 56,
+            "wins": 0,
+            "losses": 0,
             "innings_pitched": 14.7,
             "era": 2.45,
             "whip": 1.02
@@ -285310,6 +285840,8 @@
             "strike_outs": 27,
             "home_runs": 0,
             "batters_faced": 85,
+            "wins": 0,
+            "losses": 1,
             "innings_pitched": 22.7,
             "era": 2.78,
             "whip": 1.01
@@ -285324,6 +285856,8 @@
             "strike_outs": 902,
             "home_runs": 68,
             "batters_faced": 3831,
+            "wins": 78,
+            "losses": 35,
             "innings_pitched": 952.0,
             "era": 2.87,
             "whip": 1.09
@@ -285341,6 +285875,8 @@
               "strike_outs": 27,
               "home_runs": 1,
               "batters_faced": 111,
+              "wins": 0,
+              "losses": 1,
               "innings_pitched": 28.7,
               "era": 3.45,
               "whip": 1.05
@@ -285355,6 +285891,8 @@
               "strike_outs": 48,
               "home_runs": 0,
               "batters_faced": 201,
+              "wins": 4,
+              "losses": 2,
               "innings_pitched": 52.7,
               "era": 2.56,
               "whip": 0.93
@@ -289760,6 +290298,8 @@
             "strike_outs": 16,
             "home_runs": 4,
             "batters_faced": 77,
+            "wins": 0,
+            "losses": 1,
             "innings_pitched": 19.3,
             "era": 3.72,
             "whip": 1.09
@@ -289774,6 +290314,8 @@
             "strike_outs": 31,
             "home_runs": 5,
             "batters_faced": 130,
+            "wins": 1,
+            "losses": 2,
             "innings_pitched": 32.0,
             "era": 4.22,
             "whip": 1.16
@@ -289788,6 +290330,8 @@
             "strike_outs": 993,
             "home_runs": 125,
             "batters_faced": 3783,
+            "wins": 53,
+            "losses": 41,
             "innings_pitched": 940.7,
             "era": 3.52,
             "whip": 1.05
@@ -289805,6 +290349,8 @@
               "strike_outs": 94,
               "home_runs": 18,
               "batters_faced": 333,
+              "wins": 7,
+              "losses": 4,
               "innings_pitched": 85.3,
               "era": 4.01,
               "whip": 0.98
@@ -289819,6 +290365,8 @@
               "strike_outs": 51,
               "home_runs": 1,
               "batters_faced": 216,
+              "wins": 1,
+              "losses": 3,
               "innings_pitched": 54.0,
               "era": 2.5,
               "whip": 1.02
@@ -294225,20 +294773,20 @@
       "live_score": null,
       "projection": {
         "game_pk": 824561,
-        "generated_at": "2026-08-11T15:58:08.855066+00:00",
+        "generated_at": "2026-08-11T16:10:10.760448+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.83,
         "away_exp_runs": 3.79,
-        "home_win_prob": 0.503,
+        "home_win_prob": 0.504,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.34,
+        "spread_cover_prob": 0.339,
         "total_line": 7.5,
         "over_prob": 0.457,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.66,
+        "spread_pick_prob": 0.661,
         "total_pick": "under",
         "total_pick_prob": 0.543,
         "spread_favorite": "home"
@@ -298410,6 +298958,8 @@
             "strike_outs": 9,
             "home_runs": 1,
             "batters_faced": 74,
+            "wins": 1,
+            "losses": 1,
             "innings_pitched": 17.7,
             "era": 4.08,
             "whip": 1.36
@@ -298424,6 +298974,8 @@
             "strike_outs": 18,
             "home_runs": 1,
             "batters_faced": 117,
+            "wins": 1,
+            "losses": 2,
             "innings_pitched": 27.7,
             "era": 3.9,
             "whip": 1.34
@@ -298438,6 +298990,8 @@
             "strike_outs": 482,
             "home_runs": 77,
             "batters_faced": 2284,
+            "wins": 34,
+            "losses": 30,
             "innings_pitched": 542.3,
             "era": 3.53,
             "whip": 1.28
@@ -298455,6 +299009,8 @@
               "strike_outs": 50,
               "home_runs": 7,
               "batters_faced": 271,
+              "wins": 3,
+              "losses": 4,
               "innings_pitched": 63.3,
               "era": 4.97,
               "whip": 1.42
@@ -298469,6 +299025,8 @@
               "strike_outs": 49,
               "home_runs": 10,
               "batters_faced": 284,
+              "wins": 3,
+              "losses": 3,
               "innings_pitched": 65.3,
               "era": 2.89,
               "whip": 1.36
@@ -302909,22 +303467,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 822776,
-        "generated_at": "2026-08-11T15:58:08.855066+00:00",
+        "generated_at": "2026-08-11T16:10:10.760448+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 2.74,
         "away_exp_runs": 5.75,
-        "home_win_prob": 0.252,
+        "home_win_prob": 0.251,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.137,
+        "spread_cover_prob": 0.136,
         "total_line": 7.5,
-        "over_prob": 0.531,
+        "over_prob": 0.532,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "away",
-        "spread_pick_prob": 0.605,
+        "spread_pick_prob": 0.606,
         "total_pick": "over",
-        "total_pick_prob": 0.531,
+        "total_pick_prob": 0.532,
         "spread_favorite": "away"
       },
       "highlights": [],
@@ -302950,6 +303508,8 @@
             "strike_outs": 13,
             "home_runs": 2,
             "batters_faced": 59,
+            "wins": 0,
+            "losses": 0,
             "innings_pitched": 14.0,
             "era": 2.57,
             "whip": 1.21
@@ -302964,6 +303524,8 @@
             "strike_outs": 17,
             "home_runs": 7,
             "batters_faced": 93,
+            "wins": 0,
+            "losses": 2,
             "innings_pitched": 19.7,
             "era": 7.32,
             "whip": 1.73
@@ -302978,6 +303540,8 @@
             "strike_outs": 1140,
             "home_runs": 135,
             "batters_faced": 3772,
+            "wins": 66,
+            "losses": 41,
             "innings_pitched": 933.3,
             "era": 3.39,
             "whip": 1.07
@@ -302995,6 +303559,8 @@
               "strike_outs": 18,
               "home_runs": 9,
               "batters_faced": 103,
+              "wins": 1,
+              "losses": 4,
               "innings_pitched": 22.0,
               "era": 9.82,
               "whip": 1.68
@@ -303009,6 +303575,8 @@
               "strike_outs": 9,
               "home_runs": 2,
               "batters_faced": 58,
+              "wins": 0,
+              "losses": 0,
               "innings_pitched": 14.0,
               "era": 3.21,
               "whip": 1.29
@@ -307476,6 +308044,8 @@
             "strike_outs": 28,
             "home_runs": 4,
             "batters_faced": 68,
+            "wins": 2,
+            "losses": 0,
             "innings_pitched": 17.3,
             "era": 2.6,
             "whip": 1.1
@@ -307490,6 +308060,8 @@
             "strike_outs": 44,
             "home_runs": 5,
             "batters_faced": 109,
+            "wins": 2,
+            "losses": 0,
             "innings_pitched": 26.7,
             "era": 3.38,
             "whip": 1.2
@@ -307504,6 +308076,8 @@
             "strike_outs": 143,
             "home_runs": 18,
             "batters_faced": 509,
+            "wins": 7,
+            "losses": 7,
             "innings_pitched": 123.3,
             "era": 3.58,
             "whip": 1.17
@@ -307521,6 +308095,8 @@
               "strike_outs": 77,
               "home_runs": 8,
               "batters_faced": 225,
+              "wins": 3,
+              "losses": 3,
               "innings_pitched": 54.3,
               "era": 3.48,
               "whip": 1.14
@@ -307535,6 +308111,8 @@
               "strike_outs": 47,
               "home_runs": 5,
               "batters_faced": 210,
+              "wins": 4,
+              "losses": 3,
               "innings_pitched": 52.7,
               "era": 2.91,
               "whip": 1.06
@@ -311962,7 +312540,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 822696,
-        "generated_at": "2026-08-11T15:58:08.855066+00:00",
+        "generated_at": "2026-08-11T16:10:10.760448+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.34,
         "away_exp_runs": 6.28,
@@ -311970,14 +312548,14 @@
         "spread_line": 1.5,
         "spread_cover_prob": 0.244,
         "total_line": 9.5,
-        "over_prob": 0.533,
+        "over_prob": 0.532,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "away",
-        "spread_pick_prob": 0.512,
+        "spread_pick_prob": 0.513,
         "total_pick": "over",
-        "total_pick_prob": 0.533,
+        "total_pick_prob": 0.532,
         "spread_favorite": "away"
       },
       "highlights": [],
@@ -316153,6 +316731,8 @@
             "strike_outs": 14,
             "home_runs": 1,
             "batters_faced": 75,
+            "wins": 2,
+            "losses": 1,
             "innings_pitched": 18.7,
             "era": 2.89,
             "whip": 1.12
@@ -316167,6 +316747,8 @@
             "strike_outs": 23,
             "home_runs": 1,
             "batters_faced": 121,
+            "wins": 2,
+            "losses": 2,
             "innings_pitched": 28.0,
             "era": 4.18,
             "whip": 1.39
@@ -316181,6 +316763,8 @@
             "strike_outs": 1011,
             "home_runs": 100,
             "batters_faced": 3884,
+            "wins": 59,
+            "losses": 53,
             "innings_pitched": 938.0,
             "era": 3.63,
             "whip": 1.19
@@ -316198,6 +316782,8 @@
               "strike_outs": 75,
               "home_runs": 10,
               "batters_faced": 305,
+              "wins": 3,
+              "losses": 5,
               "innings_pitched": 73.3,
               "era": 3.68,
               "whip": 1.21
@@ -316212,6 +316798,8 @@
               "strike_outs": 56,
               "home_runs": 6,
               "batters_faced": 261,
+              "wins": 3,
+              "losses": 5,
               "innings_pitched": 61.0,
               "era": 5.02,
               "whip": 1.31
@@ -320660,7 +321248,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 823669,
-        "generated_at": "2026-08-11T15:58:08.855066+00:00",
+        "generated_at": "2026-08-11T16:10:10.760448+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 5.15,
         "away_exp_runs": 4.39,
@@ -320668,14 +321256,14 @@
         "spread_line": 1.5,
         "spread_cover_prob": 0.42,
         "total_line": 8.5,
-        "over_prob": 0.536,
+        "over_prob": 0.535,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
         "spread_pick_prob": 0.58,
         "total_pick": "over",
-        "total_pick_prob": 0.536,
+        "total_pick_prob": 0.535,
         "spread_favorite": "home"
       },
       "highlights": [],
@@ -324862,6 +325450,8 @@
             "strike_outs": 17,
             "home_runs": 4,
             "batters_faced": 69,
+            "wins": 0,
+            "losses": 1,
             "innings_pitched": 16.7,
             "era": 3.24,
             "whip": 1.44
@@ -324876,6 +325466,8 @@
             "strike_outs": 27,
             "home_runs": 9,
             "batters_faced": 119,
+            "wins": 0,
+            "losses": 3,
             "innings_pitched": 28.0,
             "era": 4.5,
             "whip": 1.5
@@ -324890,6 +325482,8 @@
             "strike_outs": 1030,
             "home_runs": 149,
             "batters_faced": 3923,
+            "wins": 51,
+            "losses": 56,
             "innings_pitched": 950.3,
             "era": 4.38,
             "whip": 1.18
@@ -324907,6 +325501,8 @@
               "strike_outs": 67,
               "home_runs": 16,
               "batters_faced": 275,
+              "wins": 0,
+              "losses": 4,
               "innings_pitched": 60.7,
               "era": 6.23,
               "whip": 1.63
@@ -324921,6 +325517,8 @@
               "strike_outs": 62,
               "home_runs": 13,
               "batters_faced": 269,
+              "wins": 3,
+              "losses": 5,
               "innings_pitched": 64.3,
               "era": 4.76,
               "whip": 1.27
@@ -329381,7 +329979,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 823995,
-        "generated_at": "2026-08-11T15:58:08.855066+00:00",
+        "generated_at": "2026-08-11T16:10:10.760448+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.21,
         "away_exp_runs": 3.1,
@@ -329422,6 +330020,8 @@
             "strike_outs": 14,
             "home_runs": 1,
             "batters_faced": 58,
+            "wins": 1,
+            "losses": 1,
             "innings_pitched": 14.3,
             "era": 3.14,
             "whip": 1.19
@@ -329436,6 +330036,8 @@
             "strike_outs": 22,
             "home_runs": 1,
             "batters_faced": 99,
+            "wins": 2,
+            "losses": 1,
             "innings_pitched": 24.3,
             "era": 2.22,
             "whip": 1.23
@@ -329450,6 +330052,8 @@
             "strike_outs": 97,
             "home_runs": 6,
             "batters_faced": 436,
+            "wins": 7,
+            "losses": 8,
             "innings_pitched": 101.7,
             "era": 2.83,
             "whip": 1.29
@@ -329467,6 +330071,8 @@
               "strike_outs": 63,
               "home_runs": 2,
               "batters_faced": 252,
+              "wins": 6,
+              "losses": 2,
               "innings_pitched": 61.3,
               "era": 2.49,
               "whip": 1.12
@@ -329481,6 +330087,8 @@
               "strike_outs": 34,
               "home_runs": 4,
               "batters_faced": 184,
+              "wins": 1,
+              "losses": 6,
               "innings_pitched": 40.3,
               "era": 3.35,
               "whip": 1.54
@@ -338091,7 +338699,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 823915,
-        "generated_at": "2026-08-11T15:58:08.855066+00:00",
+        "generated_at": "2026-08-11T16:10:10.760448+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.83,
         "away_exp_runs": 4.46,
@@ -338099,14 +338707,14 @@
         "spread_line": 1.5,
         "spread_cover_prob": 0.295,
         "total_line": 7.5,
-        "over_prob": 0.521,
+        "over_prob": 0.52,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
         "spread_pick_prob": 0.601,
         "total_pick": "over",
-        "total_pick_prob": 0.521,
+        "total_pick_prob": 0.52,
         "spread_favorite": "away"
       },
       "highlights": [],

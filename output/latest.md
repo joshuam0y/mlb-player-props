@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-11T16:00:40.991975+00:00_
+_Generated 2026-08-11T16:12:43.130965+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -60,7 +60,7 @@ _Generated 2026-08-11T16:00:40.991975+00:00_
 ## 2026-08-11 - Pittsburgh Pirates @ Miami Marlins (Scheduled)
 _loanDepot park [pitcher-friendly park]_
 Projected score: Pittsburgh Pirates 3.54 - Miami Marlins 3.52
-Model likes: **Pittsburgh Pirates** to win (50%) | Run line: **Miami Marlins** +1.5 (67% to cover) | Total 6.5: lean **OVER** (51%)
+Model likes: **Pittsburgh Pirates** to win (50%) | Run line: **Miami Marlins** +1.5 (67% to cover) | Total 6.5: lean **OVER** (50%)
 
 ### Pittsburgh Pirates lineup -- PROJECTED (unconfirmed)
 **Probable P: Paul Skenes (R)** -- L5: 26.7 IP, 39 K, 16 ER, 5.4 ERA
@@ -571,7 +571,7 @@ Model likes: **Philadelphia Phillies** to win (60%) | Run line: **St. Louis Card
 ## 2026-08-12 - Tampa Bay Rays @ Athletics (Scheduled)
 _Sutter Health Park_
 Projected score: Tampa Bay Rays 6.99 - Athletics 3.26
-Model likes: **Tampa Bay Rays** to win (76%) | Run line: **Tampa Bay Rays** -1.5 (64% to cover) | Total 9.5: lean **UNDER** (50%)
+Model likes: **Tampa Bay Rays** to win (76%) | Run line: **Tampa Bay Rays** -1.5 (64% to cover) | Total 9.5: lean **OVER** (50%)
 
 ### Tampa Bay Rays lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.43)_
@@ -1082,7 +1082,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-13 - Boston Red Sox @ Toronto Blue Jays (Scheduled)
 _Rogers Centre_
 Projected score: Boston Red Sox 5.75 - Toronto Blue Jays 2.74
-Model likes: **Boston Red Sox** to win (75%) | Run line: **Boston Red Sox** -1.5 (60% to cover) | Total 7.5: lean **OVER** (53%)
+Model likes: **Boston Red Sox** to win (75%) | Run line: **Boston Red Sox** -1.5 (61% to cover) | Total 7.5: lean **OVER** (53%)
 
 ### Boston Red Sox lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
