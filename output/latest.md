@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-11T11:17:00.022148+00:00_
+_Generated 2026-08-11T11:35:47.175431+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -178,7 +178,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.49)_
 ## 2026-08-11 - Boston Red Sox @ Toronto Blue Jays (Scheduled)
 _Rogers Centre_
 Projected score: Boston Red Sox 3.13 - Toronto Blue Jays 2.82
-Model likes: **Boston Red Sox** to win (53%) | Run line: **Toronto Blue Jays** +1.5 (66% to cover) | Total 5.5: lean **UNDER** (50%)
+Model likes: **Boston Red Sox** to win (54%) | Run line: **Toronto Blue Jays** +1.5 (66% to cover) | Total 5.5: lean **UNDER** (50%)
 
 ### Boston Red Sox lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 10.7 relief IP in last 2 days (ratio 1.63)_
@@ -542,7 +542,7 @@ _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.51)_
 ## 2026-08-12 - Philadelphia Phillies @ St. Louis Cardinals (Scheduled)
 _Busch Stadium_
 Projected score: Philadelphia Phillies 4.12 - St. Louis Cardinals 3.05
-Model likes: **Philadelphia Phillies** to win (60%) | Run line: **St. Louis Cardinals** +1.5 (57% to cover) | Total 6.5: lean **OVER** (51%)
+Model likes: **Philadelphia Phillies** to win (60%) | Run line: **St. Louis Cardinals** +1.5 (57% to cover) | Total 6.5: lean **OVER** (52%)
 
 ### Philadelphia Phillies lineup -- PROJECTED (unconfirmed)
 **Probable P: Zack Wheeler (R)** -- L5: 23.3 IP, 34 K, 11 ER, 4.24 ERA
@@ -930,7 +930,7 @@ _Facing a rested bullpen: 2.3 relief IP in last 2 days (ratio 0.45)_
 ## 2026-08-12 - Texas Rangers @ Los Angeles Angels (Scheduled)
 _Angel Stadium_
 Projected score: Texas Rangers 3.86 - Los Angeles Angels 3.21
-Model likes: **Texas Rangers** to win (56%) | Run line: **Los Angeles Angels** +1.5 (61% to cover) | Total 6.5: lean **OVER** (51%)
+Model likes: **Texas Rangers** to win (56%) | Run line: **Los Angeles Angels** +1.5 (61% to cover) | Total 6.5: lean **OVER** (50%)
 
 ### Texas Rangers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 4.0 relief IP in last 2 days (ratio 0.69)_
