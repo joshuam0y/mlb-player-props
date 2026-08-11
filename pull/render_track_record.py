@@ -35,7 +35,8 @@ def _rate_row(label, bucket, kind):
     if not games:
         return f'<tr><td>{html.escape(label)}</td><td colspan="3" class="sub">No graded games yet</td></tr>'
     if kind == "batter":
-        return f"<tr><td>{html.escape(label)}</td><td>{games}</td><td>{bucket['avg']}</td><td>{bucket['tb_per_game']}</td></tr>"
+        avg_txt = f"{bucket['avg']:.3f}" if bucket["avg"] is not None else "&mdash;"
+        return f"<tr><td>{html.escape(label)}</td><td>{games}</td><td>{avg_txt}</td><td>{bucket['tb_per_game']}</td></tr>"
     return f"<tr><td>{html.escape(label)}</td><td>{games}</td><td>{bucket['era']}</td><td>{bucket['k_per_game']}</td></tr>"
 
 

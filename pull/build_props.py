@@ -81,7 +81,7 @@ def park_factor_tier(venue_name):
     return PARK_FACTORS.get(venue_name, "neutral")
 
 
-def batting_rolling(conn, player_id, n, as_of_date=None):
+def batting_rolling(conn, player_id, n, as_of_date=None, season=None):
     """
     as_of_date, if given, restricts to games strictly before it. Originally
     added for point-in-time backtesting, but just as necessary in the live
@@ -93,11 +93,30 @@ def batting_rolling(conn, player_id, n, as_of_date=None):
     very game being predicted the moment the game goes live, and would keep
     including more of it every rebuild until it's silently just describing
     what already happened instead of what was predicted beforehand.
+
+    season, if given, additionally restricts to that season only. Needed
+    for a genuine season-to-date rollup: n=162 is sized to a batter's real
+    single-season game-count ceiling, but without a season filter it
+    silently reaches back into a PRIOR season to fill out that limit for
+    anyone who hasn't yet played 162 games in the CURRENT season -- in
+    practice, nearly always. Confirmed on real data before this was added:
+    a full-time batter's own "season" window was quietly 103 games from
+    the actual current season and 59 games from last season. L7/L15
+    (small recency windows) deliberately don't pass this -- blending in a
+    few games from the tail of last season early in a new one is
+    legitimate recency signal, unlike a "season" total silently mixing
+    two different seasons together.
     """
     date_frag = " AND date < ?" if as_of_date else ""
-    params = (player_id, as_of_date, n) if as_of_date else (player_id, n)
+    season_frag = " AND season = ?" if season else ""
+    params = [player_id]
+    if season:
+        params.append(season)
+    if as_of_date:
+        params.append(as_of_date)
+    params.append(n)
     rows = conn.execute(
-        f"SELECT * FROM batting_game_logs WHERE player_id = ?{date_frag} ORDER BY date DESC LIMIT ?",
+        f"SELECT * FROM batting_game_logs WHERE player_id = ?{season_frag}{date_frag} ORDER BY date DESC LIMIT ?",
         params,
     ).fetchall()
     if not rows:
@@ -503,12 +522,30 @@ def pitcher_category_factor(label, form_trend):
     return 1.0
 
 
-def pitching_rolling(conn, player_id, n, as_of_date=None):
-    """as_of_date, if given, restricts to games strictly before it -- see batting_rolling()'s own docstring for why this matters."""
+def pitching_rolling(conn, player_id, n, as_of_date=None, season=None):
+    """
+    as_of_date, if given, restricts to games strictly before it -- see
+    batting_rolling()'s own docstring for why this matters. season, if
+    given, additionally restricts to that season only -- same reasoning as
+    batting_rolling()'s own season param, but the effect is even larger
+    here: a pitcher never approaches 162 appearances in a single season
+    (a starter makes ~30-33; even a heavily-used reliever tops out well
+    under 100), so the un-filtered n=162 "season" window was silently
+    spanning as many as 3-4 REAL seasons of career history to fill itself
+    out -- confirmed on real data before this was added: one starter's own
+    "season" win-loss line was a 4-season total (12-12 across 2023-2026),
+    not his actual current-season record.
+    """
     date_frag = " AND date < ?" if as_of_date else ""
-    params = (player_id, as_of_date, n) if as_of_date else (player_id, n)
+    season_frag = " AND season = ?" if season else ""
+    params = [player_id]
+    if season:
+        params.append(season)
+    if as_of_date:
+        params.append(as_of_date)
+    params.append(n)
     rows = conn.execute(
-        f"SELECT * FROM pitching_game_logs WHERE player_id = ?{date_frag} ORDER BY date DESC LIMIT ?",
+        f"SELECT * FROM pitching_game_logs WHERE player_id = ?{season_frag}{date_frag} ORDER BY date DESC LIMIT ?",
         params,
     ).fetchall()
     if not rows:
@@ -939,7 +976,8 @@ def build_batter_entry(conn, player_id, opp_hand, opp_pitcher_id, is_home_game, 
             return None
     l7 = batting_rolling(conn, player_id, 7, as_of_date=as_of_date)
     l15 = batting_rolling(conn, player_id, 15, as_of_date=as_of_date)
-    season = batting_rolling(conn, player_id, 162, as_of_date=as_of_date)
+    season_year = int(as_of_date[:4]) if as_of_date else CURRENT_SEASON
+    season = batting_rolling(conn, player_id, 162, as_of_date=as_of_date, season=season_year)
     trend = form_trend(l7, season)
     matchup = matchup_edge(conn, player["bat_side"], opp_hand, opp_pitcher_id, as_of_date=as_of_date)
 
@@ -998,7 +1036,8 @@ def build_pitcher_entry(conn, player_id, team_id, is_home_game=None, game_pk=Non
         if not player:
             return None
     l5 = pitching_rolling(conn, player_id, 5, as_of_date=as_of_date)
-    season = pitching_rolling(conn, player_id, 162, as_of_date=as_of_date)
+    season_year = int(as_of_date[:4]) if as_of_date else CURRENT_SEASON
+    season = pitching_rolling(conn, player_id, 162, as_of_date=as_of_date, season=season_year)
     form_trend_value = pitcher_form_trend(l5, season)
 
     season_avgs = season_stat_averages(conn, "pitching_game_logs", player_id, PITCHER_PROP_CATEGORIES, as_of_date=as_of_date)
@@ -2145,20 +2184,23 @@ def render_markdown(report):
                 order = f"#{b['batting_order']} " if b["batting_order"] else ""
                 inj = f" [INJURY: {b['injury']['status']}]" if b["injury"] else ""
                 l7 = b["l7"]
+                l7_avg_txt = f"{l7['avg']:.3f}" if l7 and l7["avg"] is not None else "-"
                 l7_txt = (
-                    f"L7: {l7['hits']}H {l7['home_runs']}HR {l7['rbi']}RBI {l7['total_bases']}TB ({l7['avg']} avg)"
+                    f"L7: {l7['hits']}H {l7['home_runs']}HR {l7['rbi']}RBI {l7['total_bases']}TB ({l7_avg_txt} avg)"
                     if l7
                     else "L7: no data"
                 )
+                avg_against = b["matchup"].get("pitcher_avg_against")
+                avg_against_txt = f"{avg_against:.3f}" if avg_against is not None else "-"
                 matchup_txt = ""
                 if b["matchup"].get("favorable"):
-                    matchup_txt = f" [MATCHUP EDGE: pitcher hits {b['matchup']['pitcher_avg_against']} avg-against vs this hand]"
+                    matchup_txt = f" [MATCHUP EDGE: pitcher hits {avg_against_txt} avg-against vs this hand]"
                 elif b["matchup"].get("unfavorable"):
-                    matchup_txt = f" [TOUGH MATCHUP: pitcher holds this hand to {b['matchup']['pitcher_avg_against']} avg-against]"
+                    matchup_txt = f" [TOUGH MATCHUP: pitcher holds this hand to {avg_against_txt} avg-against]"
                 streak_txt = f" [{b['hit_streak']}-game hit streak]" if b["hit_streak"] >= 3 else ""
                 caveat_txt = " [likely BABIP-driven, not a real power uptick]" if b["trend_caveat"] == "babip_driven" else ""
                 ha = b["home_away"][b["home_away"]["this_game"]]
-                ha_txt = f" -- {b['home_away']['this_game']} split: {ha['avg']} avg" if ha and ha["avg"] is not None else ""
+                ha_txt = f" -- {b['home_away']['this_game']} split: {ha['avg']:.3f} avg" if ha and ha["avg"] is not None else ""
                 headline_txt = f" -- news: {b['headlines'][0]['title']}" if b["headlines"] else ""
                 lines.append(
                     f"- {order}{b['name']} ({b['bat_side']}){inj}{matchup_txt}{streak_txt}{caveat_txt}"

@@ -11,6 +11,24 @@ public news RSS feed -- no paid odds API, no scraping of betting sites.
 
 _Updated with every change going forward._
 
+- **2026-08-11** -- Fixed a real, significant bug in the "season stats"
+  just added: `batting_rolling()`/`pitching_rolling()`'s season window
+  (a plain LIMIT 162, sized to a batter's real single-season game-count
+  ceiling) had no actual season filter, so it silently reached back into
+  PRIOR seasons to fill itself out for anyone who hadn't yet played 162
+  games in the current one -- in practice, nearly always, and far worse
+  for pitchers (who never approach 162 appearances in one season at
+  all). Confirmed on real data: one pitcher's displayed "season" record
+  was a 4-season total (12-12 across 2023-2026), not his actual 2026
+  record (2-4). Both functions now take an explicit `season` param that
+  adds a real `season = ?` filter -- L5/L7/L15 recency windows
+  deliberately don't use it, only the actual season-total call sites do.
+  Also: the pitcher season line is now skipped entirely for a
+  reliever-tier probable pitcher (a bullpen-game arm's own decisions and
+  season rate stats aren't the same signal as a real starter's), and
+  every displayed batting average site-wide is now forced to 3 decimal
+  places (.250, not .25).
+
 - **2026-08-11** -- Added full season stats next to each player: a
   probable pitcher's card now shows his season record (W-L), ERA, WHIP,
   strikeouts, and innings pitched (added `wins`/`losses` to the

@@ -2060,11 +2060,16 @@ def _pitcher_html(p, row_id, fatigue, status, star_player_id=None):
         else "No recent starts on record yet"
     )
     season = p["season"]
+    # Skipped entirely for a reliever-tier pitcher (see pitcher_workload_tier()'s
+    # own docstring) -- a "season" W-L/ERA/WHIP line reads as a starter's
+    # record, but a bullpen-game opener/piggyback arm's own decisions and
+    # rate stats over a season of short outings aren't the same kind of
+    # signal and would just be misleading dressed up the same way.
     season_txt = (
         f"Season: {season['wins']}-{season['losses']}, {season['era']} ERA, {season['whip']} WHIP, "
         f"{season['strike_outs']} K in {season['innings_pitched']} IP"
-        if season
-        else "No season stats on record yet"
+        if season and p.get("workload_tier") != "reliever"
+        else None
     )
     confirmed_badge = _badge("CONFIRMED", "confirmed") if p.get("lineup_confirmed") else _badge("PROJECTED", "projected")
     badges = " ".join(
@@ -2076,7 +2081,9 @@ def _pitcher_html(p, row_id, fatigue, status, star_player_id=None):
     boxscore_html = _pitcher_boxscore_html(p.get("game_result"), status, p["player_id"])
     matchup_lean_html = _matchup_lean_html(p, "pitcher")
 
-    bullets = [season_txt, l5_txt]
+    bullets = [l5_txt]
+    if season_txt:
+        bullets.insert(0, season_txt)
     workload_text = _workload_text(p.get("workload_tier"))
     if workload_text:
         bullets.append(workload_text)
@@ -2116,14 +2123,15 @@ def _batter_rows(batters, id_prefix, status, star_player_id=None):
         row_id = f"{id_prefix}-{i}"
         order = f"#{b['batting_order']}" if b["batting_order"] else "-"
         l7 = b["l7"]
+        l7_avg_txt = f"{l7['avg']:.3f}" if l7 and l7["avg"] is not None else "-"
         l7_txt = (
-            f"Last 7 games: {l7['hits']} hits, {l7['home_runs']} home runs, {l7['rbi']} RBIs, batting {l7['avg']}"
+            f"Last 7 games: {l7['hits']} hits, {l7['home_runs']} home runs, {l7['rbi']} RBIs, batting {l7_avg_txt}"
             if l7
             else "No recent games on record yet"
         )
         season = b["season"]
         season_txt = (
-            f"Season: {season['avg']} AVG, {season['home_runs']} HR, {season['rbi']} RBI, {season['runs']} R"
+            f"Season: {season['avg']:.3f} AVG, {season['home_runs']} HR, {season['rbi']} RBI, {season['runs']} R"
             if season and season["avg"] is not None
             else "-"
         )

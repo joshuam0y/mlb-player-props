@@ -59,7 +59,7 @@ def run(start=None, end=None):
 
     for log in logs:
         l7 = batting_rolling(conn, log["player_id"], 7, as_of_date=log["date"])
-        season = batting_rolling(conn, log["player_id"], 162, as_of_date=log["date"])
+        season = batting_rolling(conn, log["player_id"], 162, as_of_date=log["date"], season=int(log["date"][:4]))
         if not l7 or not season or l7["games"] < HOT_COLD_MIN_GAMES:
             skipped += 1
             continue
