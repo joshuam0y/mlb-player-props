@@ -11,6 +11,14 @@ public news RSS feed -- no paid odds API, no scraping of betting sites.
 
 _Updated with every change going forward._
 
+- **2026-08-11** -- Added full season stats next to each player: a
+  probable pitcher's card now shows his season record (W-L), ERA, WHIP,
+  strikeouts, and innings pitched (added `wins`/`losses` to the
+  season-stat sums -- they were already tracked per game but never
+  summed into a season total before). Each batter's row now shows AVG,
+  HR, RBI, and runs for the season instead of just a bare batting
+  average.
+
 - **2026-08-09** -- Fixed My Bets feeling slow to open. Root cause: every
   single page load/refresh fetched latest.json (a ~10MB file) with
   `cache: 'no-store'`, forcing a full multi-second-to-15+-second

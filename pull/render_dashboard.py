@@ -2059,6 +2059,13 @@ def _pitcher_html(p, row_id, fatigue, status, star_player_id=None):
         if l5
         else "No recent starts on record yet"
     )
+    season = p["season"]
+    season_txt = (
+        f"Season: {season['wins']}-{season['losses']}, {season['era']} ERA, {season['whip']} WHIP, "
+        f"{season['strike_outs']} K in {season['innings_pitched']} IP"
+        if season
+        else "No season stats on record yet"
+    )
     confirmed_badge = _badge("CONFIRMED", "confirmed") if p.get("lineup_confirmed") else _badge("PROJECTED", "projected")
     badges = " ".join(
         x for x in [
@@ -2069,7 +2076,7 @@ def _pitcher_html(p, row_id, fatigue, status, star_player_id=None):
     boxscore_html = _pitcher_boxscore_html(p.get("game_result"), status, p["player_id"])
     matchup_lean_html = _matchup_lean_html(p, "pitcher")
 
-    bullets = [l5_txt]
+    bullets = [season_txt, l5_txt]
     workload_text = _workload_text(p.get("workload_tier"))
     if workload_text:
         bullets.append(workload_text)
@@ -2115,7 +2122,11 @@ def _batter_rows(batters, id_prefix, status, star_player_id=None):
             else "No recent games on record yet"
         )
         season = b["season"]
-        season_txt = f"{season['avg']} batting average this season" if season and season["avg"] is not None else "-"
+        season_txt = (
+            f"Season: {season['avg']} AVG, {season['home_runs']} HR, {season['rbi']} RBI, {season['runs']} R"
+            if season and season["avg"] is not None
+            else "-"
+        )
         headline = (
             f'<a class="headline-link" href="{html.escape(b["headlines"][0]["link"])}" target="_blank" rel="noopener" onclick="event.stopPropagation()">'
             f'{html.escape(b["headlines"][0]["title"][:60])}</a>'

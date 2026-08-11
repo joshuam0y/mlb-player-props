@@ -54,7 +54,7 @@ BATTING_COUNT_COLS = [
 ]
 PITCHING_COUNT_COLS = [
     "outs", "hits", "earned_runs", "runs", "base_on_balls", "strike_outs",
-    "home_runs", "batters_faced",
+    "home_runs", "batters_faced", "wins", "losses",
 ]
 
 # Static, illustrative park-factor tiers by long-term reputation (altitude,
