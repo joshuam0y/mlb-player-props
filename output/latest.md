@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-11T00:05:32.188874+00:00_
+_Generated 2026-08-11T01:26:19.532493+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -56,7 +56,7 @@ _Generated 2026-08-11T00:05:32.188874+00:00_
 - **Gabriel Hughes** (Colorado Rockies vs Arizona Diamondbacks): 4 hitters in tonight's lineup are in a tough matchup against him -- try Outs Recorded: 40% under 15.5 recently (vs. 5-game sample)
 - **Blade Tidwell** (San Francisco Giants vs Houston Astros): allowing fewer runs than usual over his last few starts -- try Outs Recorded: 80% under 6.5 recently (vs. 5-game sample)
 
-## 2026-08-10 - Boston Red Sox @ Toronto Blue Jays (In Progress)
+## 2026-08-10 - Boston Red Sox @ Toronto Blue Jays (Manager challenge)
 _Rogers Centre_
 Projected score: Boston Red Sox 5.46 - Toronto Blue Jays 2.56
 Model likes: **Boston Red Sox** to win (75%) | Run line: **Boston Red Sox** -1.5 (60% to cover) | Total 7.5: lean **UNDER** (51%)
@@ -150,7 +150,7 @@ _Facing a taxed bullpen: 8.0 relief IP in last 2 days (ratio 1.63)_
 ## 2026-08-10 - Philadelphia Phillies @ St. Louis Cardinals (In Progress)
 _Busch Stadium_
 Projected score: Philadelphia Phillies 4.22 - St. Louis Cardinals 4.76
-Model likes: **St. Louis Cardinals** to win (54%) | Run line: **Philadelphia Phillies** +1.5 (60% to cover) | Total 8.5: lean **UNDER** (51%)
+Model likes: **St. Louis Cardinals** to win (55%) | Run line: **Philadelphia Phillies** +1.5 (60% to cover) | Total 8.5: lean **UNDER** (51%)
 
 ### Philadelphia Phillies lineup -- CONFIRMED
 _Facing a taxed bullpen: 7.3 relief IP in last 2 days (ratio 1.45)_
@@ -178,7 +178,7 @@ _Facing a taxed bullpen: 11.0 relief IP in last 2 days (ratio 2.19)_
 - #8 Jimmy Crooks (L) [MATCHUP EDGE: pitcher hits 0.302 avg-against vs this hand] -- L7: 5H 1HR 3RBI 9TB (0.227 avg) -- home split: 0.161 avg
 - #9 César Prieto (L) [MATCHUP EDGE: pitcher hits 0.302 avg-against vs this hand] -- L7: 0H 0HR 0RBI 0TB (0.0 avg) -- home split: 0.0 avg
 
-## 2026-08-10 - Texas Rangers @ Los Angeles Angels (Pre-Game)
+## 2026-08-10 - Texas Rangers @ Los Angeles Angels (Warmup)
 _Angel Stadium_
 Projected score: Texas Rangers 4.16 - Los Angeles Angels 3.59
 Model likes: **Texas Rangers** to win (55%) | Run line: **Los Angeles Angels** +1.5 (61% to cover) | Total 7.5: lean **UNDER** (53%)
@@ -209,7 +209,7 @@ _Facing a taxed bullpen: 10.0 relief IP in last 2 days (ratio 2.08)_
 - #8 Travis d'Arnaud (R) -- L7: 5H 1HR 3RBI 8TB (0.357 avg) -- home split: 0.15 avg
 - #9 Wade Meckler (L) -- L7: 9H 1HR 3RBI 13TB (0.36 avg) -- home split: 0.354 avg
 
-## 2026-08-10 - Milwaukee Brewers @ San Diego Padres (Pre-Game)
+## 2026-08-10 - Milwaukee Brewers @ San Diego Padres (Warmup)
 _Petco Park [pitcher-friendly park]_
 Projected score: Milwaukee Brewers 3.39 - San Diego Padres 2.87
 Model likes: **Milwaukee Brewers** to win (56%) | Run line: **San Diego Padres** +1.5 (64% to cover) | Total 5.5: lean **OVER** (53%)
@@ -239,7 +239,7 @@ _Facing a taxed bullpen: 8.3 relief IP in last 2 days (ratio 1.41)_
 - #8 Freddy Fermin (R) [TOUGH MATCHUP: pitcher holds this hand to 0.207 avg-against] [6-game hit streak] -- L7: 9H 1HR 5RBI 13TB (0.375 avg) -- home split: 0.193 avg
 - #9 Sung-Mun Song (L) -- L7: 2H 0HR 0RBI 2TB (0.222 avg) -- home split: 0.17 avg
 
-## 2026-08-10 - Tampa Bay Rays @ Athletics (Pre-Game)
+## 2026-08-10 - Tampa Bay Rays @ Athletics (Warmup)
 _Sutter Health Park_
 Projected score: Tampa Bay Rays 5.8 - Athletics 4.91
 Model likes: **Tampa Bay Rays** to win (56%) | Run line: **Athletics** +1.5 (56% to cover) | Total 10.5: lean **UNDER** (54%)
@@ -270,7 +270,7 @@ _Facing a taxed bullpen: 10.7 relief IP in last 2 days (ratio 1.94)_
 - #8 Donovan Walton (L) [MATCHUP EDGE: pitcher hits 0.279 avg-against vs this hand] -- L7: 2H 0HR 2RBI 3TB (0.2 avg) -- home split: 0.242 avg
 - #9 Zack Gelof (R) -- L7: 5H 0HR 0RBI 7TB (0.208 avg) -- home split: 0.312 avg
 
-## 2026-08-10 - Colorado Rockies @ Arizona Diamondbacks (Pre-Game)
+## 2026-08-10 - Colorado Rockies @ Arizona Diamondbacks (Warmup)
 _Chase Field [hitter-friendly park]_
 Projected score: Colorado Rockies 3.53 - Arizona Diamondbacks 5.45
 Model likes: **Arizona Diamondbacks** to win (66%) | Run line: **Arizona Diamondbacks** -1.5 (51% to cover) | Total 8.5: lean **UNDER** (51%)
@@ -363,7 +363,7 @@ _Facing a taxed bullpen: 9.0 relief IP in last 2 days (ratio 1.78)_
 ## 2026-08-11 - Pittsburgh Pirates @ Miami Marlins (Scheduled)
 _loanDepot park [pitcher-friendly park]_
 Projected score: Pittsburgh Pirates 3.71 - Miami Marlins 3.75
-Model likes: **Miami Marlins** to win (50%) | Run line: **Pittsburgh Pirates** +1.5 (66% to cover) | Total 6.5: lean **OVER** (54%)
+Model likes: **Miami Marlins** to win (50%) | Run line: **Pittsburgh Pirates** +1.5 (66% to cover) | Total 6.5: lean **OVER** (55%)
 
 ### Pittsburgh Pirates lineup -- PROJECTED (unconfirmed)
 **Probable P: Paul Skenes (R)** -- L5: 26.7 IP, 39 K, 16 ER, 5.4 ERA
@@ -541,7 +541,7 @@ _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.36)_
 ## 2026-08-11 - Baltimore Orioles @ Minnesota Twins (Scheduled)
 _Target Field_
 Projected score: Baltimore Orioles 4.21 - Minnesota Twins 3.58
-Model likes: **Baltimore Orioles** to win (56%) | Run line: **Minnesota Twins** +1.5 (61% to cover) | Total 7.5: lean **UNDER** (52%)
+Model likes: **Baltimore Orioles** to win (56%) | Run line: **Minnesota Twins** +1.5 (60% to cover) | Total 7.5: lean **UNDER** (53%)
 
 ### Baltimore Orioles lineup -- PROJECTED (unconfirmed)
 **Probable P: Brandon Young (R)** -- L5: 30.3 IP, 27 K, 12 ER, 3.56 ERA
@@ -632,7 +632,7 @@ _Facing a rested bullpen: 3.3 relief IP in last 2 days (ratio 0.66)_
 ## 2026-08-11 - Texas Rangers @ Los Angeles Angels (Scheduled)
 _Angel Stadium_
 Projected score: Texas Rangers 5.07 - Los Angeles Angels 3.7
-Model likes: **Texas Rangers** to win (62%) | Run line: **Los Angeles Angels** +1.5 (54% to cover) | Total 8.5: lean **UNDER** (53%)
+Model likes: **Texas Rangers** to win (62%) | Run line: **Los Angeles Angels** +1.5 (53% to cover) | Total 8.5: lean **UNDER** (53%)
 
 ### Texas Rangers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.52)_
@@ -877,7 +877,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-12 - Tampa Bay Rays @ Athletics (Scheduled)
 _Sutter Health Park_
 Projected score: Tampa Bay Rays 6.54 - Athletics 3.38
-Model likes: **Tampa Bay Rays** to win (73%) | Run line: **Tampa Bay Rays** -1.5 (60% to cover) | Total 9.5: lean **UNDER** (52%)
+Model likes: **Tampa Bay Rays** to win (73%) | Run line: **Tampa Bay Rays** -1.5 (61% to cover) | Total 9.5: lean **UNDER** (52%)
 
 ### Tampa Bay Rays lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -907,7 +907,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-12 - Colorado Rockies @ Arizona Diamondbacks (Scheduled)
 _Chase Field [hitter-friendly park]_
 Projected score: Colorado Rockies 4.86 - Arizona Diamondbacks 6.15
-Model likes: **Arizona Diamondbacks** to win (59%) | Run line: **Colorado Rockies** +1.5 (54% to cover) | Total 10.5: lean **UNDER** (52%)
+Model likes: **Arizona Diamondbacks** to win (59%) | Run line: **Colorado Rockies** +1.5 (53% to cover) | Total 10.5: lean **UNDER** (52%)
 
 ### Colorado Rockies lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1089,7 +1089,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-12 - Seattle Mariners @ New York Yankees (Scheduled)
 _Yankee Stadium [hitter-friendly park]_
 Projected score: Seattle Mariners 3.23 - New York Yankees 3.48
-Model likes: **New York Yankees** to win (53%) | Run line: **Seattle Mariners** +1.5 (66% to cover) | Total 6.5: lean **UNDER** (53%)
+Model likes: **New York Yankees** to win (52%) | Run line: **Seattle Mariners** +1.5 (66% to cover) | Total 6.5: lean **UNDER** (53%)
 
 ### Seattle Mariners lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
