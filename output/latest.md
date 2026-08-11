@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-11T23:12:58.155807+00:00_
+_Generated 2026-08-11T23:53:35.741666+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -206,7 +206,7 @@ _Facing a taxed bullpen: 10.0 relief IP in last 2 days (ratio 1.85)_
 - #8 Myles Straw (R) -- L7: 4H 0HR 1RBI 8TB (0.167 avg) -- home split: 0.196 avg
 - #9 Nathan Lukes (L) -- L7: 7H 1HR 3RBI 10TB (0.226 avg) -- home split: 0.240 avg
 
-## 2026-08-11 - New York Mets @ Atlanta Braves (Warmup)
+## 2026-08-11 - New York Mets @ Atlanta Braves (In Progress)
 _Truist Park_
 Projected score: New York Mets 3.61 - Atlanta Braves 3.94
 Model likes: **Atlanta Braves** to win (53%) | Run line: **New York Mets** +1.5 (64% to cover) | Total 7.5: lean **UNDER** (55%)
@@ -237,10 +237,10 @@ _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.24)_
 - #8 Austin Riley (R) [TOUGH MATCHUP: pitcher holds this hand to 0.181 avg-against] -- L7: 7H 2HR 5RBI 14TB (0.304 avg) -- home split: 0.265 avg
 - #9 Jim Jarvis (L) -- L7: 1H 0HR 1RBI 1TB (0.053 avg) -- home split: 0.232 avg
 
-## 2026-08-11 - Baltimore Orioles @ Minnesota Twins (Pre-Game)
+## 2026-08-11 - Baltimore Orioles @ Minnesota Twins (In Progress)
 _Target Field_
 Projected score: Baltimore Orioles 4.38 - Minnesota Twins 3.68
-Model likes: **Baltimore Orioles** to win (56%) | Run line: **Minnesota Twins** +1.5 (60% to cover) | Total 7.5: lean **OVER** (50%)
+Model likes: **Baltimore Orioles** to win (56%) | Run line: **Minnesota Twins** +1.5 (60% to cover) | Total 7.5: lean **UNDER** (50%)
 
 ### Baltimore Orioles lineup -- CONFIRMED
 _Facing a taxed bullpen: 6.3 relief IP in last 2 days (ratio 1.62)_
@@ -268,7 +268,7 @@ _Facing a taxed bullpen: 10.0 relief IP in last 2 days (ratio 2.03)_
 - #8 Alan Roden (L) -- L7: 3H 0HR 1RBI 4TB (0.273 avg) -- home split: 0.174 avg
 - #9 Kaelen Culpepper (R) -- L7: 1H 1HR 2RBI 4TB (0.111 avg) -- home split: 0.000 avg
 
-## 2026-08-11 - Cincinnati Reds @ Chicago White Sox (Pre-Game)
+## 2026-08-11 - Cincinnati Reds @ Chicago White Sox (In Progress)
 _Rate Field_
 Projected score: Cincinnati Reds 3.1 - Chicago White Sox 4.31
 Model likes: **Chicago White Sox** to win (62%) | Run line: **Cincinnati Reds** +1.5 (55% to cover) | Total 6.5: lean **OVER** (54%)
@@ -299,7 +299,7 @@ _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.43)_
 - #8 Sam Antonacci (L) -- L7: 4H 0HR 2RBI 5TB (0.190 avg) -- home split: 0.292 avg
 - #9 Luisangel Acuña (R) -- L7: 3H 0HR 0RBI 3TB (0.214 avg) -- home split: 0.245 avg
 
-## 2026-08-11 - Philadelphia Phillies @ St. Louis Cardinals (Pre-Game)
+## 2026-08-11 - Philadelphia Phillies @ St. Louis Cardinals (In Progress)
 _Busch Stadium_
 Projected score: Philadelphia Phillies 4.29 - St. Louis Cardinals 2.94
 Model likes: **Philadelphia Phillies** to win (63%) | Run line: **St. Louis Cardinals** +1.5 (54% to cover) | Total 6.5: lean **OVER** (52%)
@@ -572,7 +572,7 @@ Model likes: **Philadelphia Phillies** to win (60%) | Run line: **St. Louis Card
 ## 2026-08-12 - Tampa Bay Rays @ Athletics (Scheduled)
 _Sutter Health Park_
 Projected score: Tampa Bay Rays 6.99 - Athletics 3.26
-Model likes: **Tampa Bay Rays** to win (76%) | Run line: **Tampa Bay Rays** -1.5 (64% to cover) | Total 9.5: lean **OVER** (50%)
+Model likes: **Tampa Bay Rays** to win (76%) | Run line: **Tampa Bay Rays** -1.5 (64% to cover) | Total 9.5: lean **UNDER** (50%)
 
 ### Tampa Bay Rays lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.43)_
@@ -690,7 +690,7 @@ _Facing a rested bullpen: 1.7 relief IP in last 2 days (ratio 0.28)_
 ## 2026-08-12 - Pittsburgh Pirates @ Miami Marlins (Scheduled)
 _loanDepot park [pitcher-friendly park]_
 Projected score: Pittsburgh Pirates 4.1 - Miami Marlins 4.25
-Model likes: **Miami Marlins** to win (51%) | Run line: **Pittsburgh Pirates** +1.5 (64% to cover) | Total 7.5: lean **OVER** (53%)
+Model likes: **Miami Marlins** to win (51%) | Run line: **Pittsburgh Pirates** +1.5 (64% to cover) | Total 7.5: lean **OVER** (52%)
 
 ### Pittsburgh Pirates lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -931,7 +931,7 @@ _Facing a rested bullpen: 2.3 relief IP in last 2 days (ratio 0.45)_
 ## 2026-08-12 - Texas Rangers @ Los Angeles Angels (Scheduled)
 _Angel Stadium_
 Projected score: Texas Rangers 3.86 - Los Angeles Angels 3.21
-Model likes: **Texas Rangers** to win (56%) | Run line: **Los Angeles Angels** +1.5 (61% to cover) | Total 6.5: lean **OVER** (50%)
+Model likes: **Texas Rangers** to win (56%) | Run line: **Los Angeles Angels** +1.5 (61% to cover) | Total 6.5: lean **OVER** (51%)
 
 ### Texas Rangers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 4.0 relief IP in last 2 days (ratio 0.69)_
@@ -1084,7 +1084,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-13 - Boston Red Sox @ Toronto Blue Jays (Scheduled)
 _Rogers Centre_
 Projected score: Boston Red Sox 5.75 - Toronto Blue Jays 2.74
-Model likes: **Boston Red Sox** to win (75%) | Run line: **Boston Red Sox** -1.5 (60% to cover) | Total 7.5: lean **OVER** (53%)
+Model likes: **Boston Red Sox** to win (75%) | Run line: **Boston Red Sox** -1.5 (61% to cover) | Total 7.5: lean **OVER** (53%)
 
 ### Boston Red Sox lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1146,7 +1146,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-13 - Philadelphia Phillies @ Minnesota Twins (Scheduled)
 _Field of Dreams_
 Projected score: Philadelphia Phillies 4.39 - Minnesota Twins 5.15
-Model likes: **Minnesota Twins** to win (56%) | Run line: **Philadelphia Phillies** +1.5 (58% to cover) | Total 8.5: lean **OVER** (53%)
+Model likes: **Minnesota Twins** to win (56%) | Run line: **Philadelphia Phillies** +1.5 (58% to cover) | Total 8.5: lean **OVER** (54%)
 
 ### Philadelphia Phillies lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
