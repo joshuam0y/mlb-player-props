@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-11T06:16:28.513795+00:00_
+_Generated 2026-08-11T06:38:07.671487+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -60,7 +60,7 @@ _Generated 2026-08-11T06:16:28.513795+00:00_
 ## 2026-08-11 - Pittsburgh Pirates @ Miami Marlins (Scheduled)
 _loanDepot park [pitcher-friendly park]_
 Projected score: Pittsburgh Pirates 3.54 - Miami Marlins 3.52
-Model likes: **Pittsburgh Pirates** to win (50%) | Run line: **Miami Marlins** +1.5 (67% to cover) | Total 6.5: lean **OVER** (50%)
+Model likes: **Pittsburgh Pirates** to win (50%) | Run line: **Miami Marlins** +1.5 (67% to cover) | Total 6.5: lean **OVER** (51%)
 
 ### Pittsburgh Pirates lineup -- PROJECTED (unconfirmed)
 **Probable P: Paul Skenes (R)** -- L5: 26.7 IP, 39 K, 16 ER, 5.4 ERA
@@ -119,7 +119,7 @@ _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.4)_
 ## 2026-08-11 - Chicago Cubs @ Washington Nationals (Scheduled)
 _Nationals Park_
 Projected score: Chicago Cubs 6.28 - Washington Nationals 3.99
-Model likes: **Chicago Cubs** to win (67%) | Run line: **Chicago Cubs** -1.5 (54% to cover) | Total 9.5: lean **OVER** (51%)
+Model likes: **Chicago Cubs** to win (67%) | Run line: **Chicago Cubs** -1.5 (54% to cover) | Total 9.5: lean **OVER** (50%)
 
 ### Chicago Cubs lineup -- PROJECTED (unconfirmed)
 **Probable P: Shota Imanaga (L)** -- L5: 29.7 IP, 25 K, 4 ER, 1.21 ERA
@@ -482,7 +482,7 @@ _Facing a taxed bullpen: 6.3 relief IP in last 2 days (ratio 1.41)_
 ## 2026-08-11 - Kansas City Royals @ Los Angeles Dodgers (Scheduled)
 _UNIQLO Field at Dodger Stadium_
 Projected score: Kansas City Royals 3.67 - Los Angeles Dodgers 3.85
-Model likes: **Los Angeles Dodgers** to win (52%) | Run line: **Kansas City Royals** +1.5 (65% to cover) | Total 7.5: lean **UNDER** (55%)
+Model likes: **Los Angeles Dodgers** to win (52%) | Run line: **Kansas City Royals** +1.5 (65% to cover) | Total 6.5: lean **OVER** (55%)
 
 ### Kansas City Royals lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 8.7 relief IP in last 2 days (ratio 1.7)_
@@ -542,7 +542,7 @@ _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.51)_
 ## 2026-08-12 - Philadelphia Phillies @ St. Louis Cardinals (Scheduled)
 _Busch Stadium_
 Projected score: Philadelphia Phillies 4.12 - St. Louis Cardinals 3.05
-Model likes: **Philadelphia Phillies** to win (60%) | Run line: **St. Louis Cardinals** +1.5 (57% to cover) | Total 6.5: lean **OVER** (52%)
+Model likes: **Philadelphia Phillies** to win (61%) | Run line: **St. Louis Cardinals** +1.5 (57% to cover) | Total 6.5: lean **OVER** (52%)
 
 ### Philadelphia Phillies lineup -- PROJECTED (unconfirmed)
 **Probable P: Zack Wheeler (R)** -- L5: 23.3 IP, 34 K, 11 ER, 4.24 ERA
@@ -959,7 +959,7 @@ _Facing a rested bullpen: 4.0 relief IP in last 2 days (ratio 0.69)_
 ## 2026-08-13 - Pittsburgh Pirates @ Miami Marlins (Scheduled)
 _loanDepot park [pitcher-friendly park]_
 Projected score: Pittsburgh Pirates 3.53 - Miami Marlins 3.59
-Model likes: **Miami Marlins** to win (51%) | Run line: **Pittsburgh Pirates** +1.5 (67% to cover) | Total 6.5: lean **OVER** (51%)
+Model likes: **Miami Marlins** to win (50%) | Run line: **Pittsburgh Pirates** +1.5 (67% to cover) | Total 6.5: lean **OVER** (51%)
 
 ### Pittsburgh Pirates lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1143,7 +1143,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-13 - Philadelphia Phillies @ Minnesota Twins (Scheduled)
 _Field of Dreams_
 Projected score: Philadelphia Phillies 4.39 - Minnesota Twins 5.15
-Model likes: **Minnesota Twins** to win (56%) | Run line: **Philadelphia Phillies** +1.5 (58% to cover) | Total 8.5: lean **OVER** (53%)
+Model likes: **Minnesota Twins** to win (56%) | Run line: **Philadelphia Phillies** +1.5 (58% to cover) | Total 8.5: lean **OVER** (54%)
 
 ### Philadelphia Phillies lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1203,7 +1203,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-13 - Milwaukee Brewers @ Los Angeles Dodgers (Scheduled)
 _UNIQLO Field at Dodger Stadium_
 Projected score: Milwaukee Brewers 4.46 - Los Angeles Dodgers 3.83
-Model likes: **Milwaukee Brewers** to win (55%) | Run line: **Los Angeles Dodgers** +1.5 (60% to cover) | Total 7.5: lean **OVER** (52%)
+Model likes: **Milwaukee Brewers** to win (56%) | Run line: **Los Angeles Dodgers** +1.5 (60% to cover) | Total 7.5: lean **OVER** (52%)
 
 ### Milwaukee Brewers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
