@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-11T07:56:52.349134+00:00_
+_Generated 2026-08-11T08:53:19.659464+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -119,7 +119,7 @@ _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.4)_
 ## 2026-08-11 - Chicago Cubs @ Washington Nationals (Scheduled)
 _Nationals Park_
 Projected score: Chicago Cubs 6.28 - Washington Nationals 3.99
-Model likes: **Chicago Cubs** to win (67%) | Run line: **Chicago Cubs** -1.5 (54% to cover) | Total 9.5: lean **OVER** (50%)
+Model likes: **Chicago Cubs** to win (67%) | Run line: **Chicago Cubs** -1.5 (54% to cover) | Total 9.5: lean **OVER** (51%)
 
 ### Chicago Cubs lineup -- PROJECTED (unconfirmed)
 **Probable P: Shota Imanaga (L)** -- L5: 29.7 IP, 25 K, 4 ER, 1.21 ERA
@@ -148,7 +148,7 @@ _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.5)_
 ## 2026-08-11 - Seattle Mariners @ New York Yankees (Scheduled)
 _Yankee Stadium [hitter-friendly park]_
 Projected score: Seattle Mariners 2.95 - New York Yankees 3.94
-Model likes: **New York Yankees** to win (60%) | Run line: **Seattle Mariners** +1.5 (58% to cover) | Total 6.5: lean **UNDER** (52%)
+Model likes: **New York Yankees** to win (60%) | Run line: **Seattle Mariners** +1.5 (58% to cover) | Total 6.5: lean **UNDER** (51%)
 
 ### Seattle Mariners lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.49)_
@@ -542,7 +542,7 @@ _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.51)_
 ## 2026-08-12 - Philadelphia Phillies @ St. Louis Cardinals (Scheduled)
 _Busch Stadium_
 Projected score: Philadelphia Phillies 4.12 - St. Louis Cardinals 3.05
-Model likes: **Philadelphia Phillies** to win (61%) | Run line: **St. Louis Cardinals** +1.5 (57% to cover) | Total 6.5: lean **OVER** (52%)
+Model likes: **Philadelphia Phillies** to win (60%) | Run line: **St. Louis Cardinals** +1.5 (57% to cover) | Total 6.5: lean **OVER** (52%)
 
 ### Philadelphia Phillies lineup -- PROJECTED (unconfirmed)
 **Probable P: Zack Wheeler (R)** -- L5: 23.3 IP, 34 K, 11 ER, 4.24 ERA
@@ -630,7 +630,7 @@ Model likes: **Arizona Diamondbacks** to win (60%) | Run line: **Colorado Rockie
 ## 2026-08-12 - Houston Astros @ San Francisco Giants (Scheduled)
 _Oracle Park [pitcher-friendly park]_
 Projected score: Houston Astros 4.54 - San Francisco Giants 3.9
-Model likes: **Houston Astros** to win (56%) | Run line: **San Francisco Giants** +1.5 (60% to cover) | Total 7.5: lean **OVER** (53%)
+Model likes: **Houston Astros** to win (55%) | Run line: **San Francisco Giants** +1.5 (60% to cover) | Total 7.5: lean **OVER** (53%)
 
 ### Houston Astros lineup -- PROJECTED (unconfirmed)
 - Isaac Paredes (R) -- L7: 6H 0HR 2RBI 9TB (0.24 avg) -- away split: 0.256 avg
@@ -689,7 +689,7 @@ _Facing a rested bullpen: 1.7 relief IP in last 2 days (ratio 0.28)_
 ## 2026-08-12 - Pittsburgh Pirates @ Miami Marlins (Scheduled)
 _loanDepot park [pitcher-friendly park]_
 Projected score: Pittsburgh Pirates 4.1 - Miami Marlins 4.25
-Model likes: **Miami Marlins** to win (51%) | Run line: **Pittsburgh Pirates** +1.5 (64% to cover) | Total 7.5: lean **OVER** (53%)
+Model likes: **Miami Marlins** to win (51%) | Run line: **Pittsburgh Pirates** +1.5 (64% to cover) | Total 7.5: lean **OVER** (52%)
 
 ### Pittsburgh Pirates lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -780,7 +780,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-12 - Seattle Mariners @ New York Yankees (Scheduled)
 _Yankee Stadium [hitter-friendly park]_
 Projected score: Seattle Mariners 3.11 - New York Yankees 3.23
-Model likes: **New York Yankees** to win (51%) | Run line: **Seattle Mariners** +1.5 (67% to cover) | Total 5.5: lean **OVER** (54%)
+Model likes: **New York Yankees** to win (51%) | Run line: **Seattle Mariners** +1.5 (68% to cover) | Total 5.5: lean **OVER** (54%)
 
 ### Seattle Mariners lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -959,7 +959,7 @@ _Facing a rested bullpen: 4.0 relief IP in last 2 days (ratio 0.69)_
 ## 2026-08-13 - Pittsburgh Pirates @ Miami Marlins (Scheduled)
 _loanDepot park [pitcher-friendly park]_
 Projected score: Pittsburgh Pirates 3.53 - Miami Marlins 3.59
-Model likes: **Miami Marlins** to win (50%) | Run line: **Pittsburgh Pirates** +1.5 (67% to cover) | Total 6.5: lean **OVER** (51%)
+Model likes: **Miami Marlins** to win (51%) | Run line: **Pittsburgh Pirates** +1.5 (67% to cover) | Total 6.5: lean **OVER** (51%)
 
 ### Pittsburgh Pirates lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1082,7 +1082,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-13 - Boston Red Sox @ Toronto Blue Jays (Scheduled)
 _Rogers Centre_
 Projected score: Boston Red Sox 5.75 - Toronto Blue Jays 2.74
-Model likes: **Boston Red Sox** to win (75%) | Run line: **Boston Red Sox** -1.5 (60% to cover) | Total 7.5: lean **OVER** (53%)
+Model likes: **Boston Red Sox** to win (75%) | Run line: **Boston Red Sox** -1.5 (61% to cover) | Total 7.5: lean **OVER** (53%)
 
 ### Boston Red Sox lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
