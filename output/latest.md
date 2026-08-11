@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-11T22:14:18.656999+00:00_
+_Generated 2026-08-11T22:15:50.556961+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -85,7 +85,7 @@ Model likes: **Pittsburgh Pirates** to win (51%) | Run line: **Miami Marlins** +
 - #8 Joe Mack (L) -- L7: 5H 1HR 4RBI 9TB (0.250 avg) -- home split: 0.218 avg
 - #9 Esteury Ruiz (R) [likely BABIP-driven, not a real power uptick] -- L7: 5H 0HR 0RBI 7TB (0.417 avg) -- home split: 0.237 avg
 
-## 2026-08-11 - Cleveland Guardians @ Detroit Tigers (Pre-Game)
+## 2026-08-11 - Cleveland Guardians @ Detroit Tigers (Warmup)
 _Comerica Park [pitcher-friendly park]_
 Projected score: Cleveland Guardians 2.77 - Detroit Tigers 4.19
 Model likes: **Detroit Tigers** to win (64%) | Run line: **Cleveland Guardians** +1.5 (54% to cover) | Total 6.5: lean **UNDER** (51%)
@@ -271,7 +271,7 @@ _Facing a taxed bullpen: 10.0 relief IP in last 2 days (ratio 2.03)_
 ## 2026-08-11 - Cincinnati Reds @ Chicago White Sox (Pre-Game)
 _Rate Field_
 Projected score: Cincinnati Reds 3.1 - Chicago White Sox 4.31
-Model likes: **Chicago White Sox** to win (62%) | Run line: **Cincinnati Reds** +1.5 (55% to cover) | Total 6.5: lean **OVER** (54%)
+Model likes: **Chicago White Sox** to win (62%) | Run line: **Cincinnati Reds** +1.5 (56% to cover) | Total 6.5: lean **OVER** (54%)
 
 ### Cincinnati Reds lineup -- CONFIRMED
 _Facing a taxed bullpen: 8.0 relief IP in last 2 days (ratio 1.2)_
@@ -453,7 +453,7 @@ _Facing a taxed bullpen: 7.7 relief IP in last 2 days (ratio 1.45)_
 ## 2026-08-11 - Houston Astros @ San Francisco Giants (Scheduled)
 _Oracle Park [pitcher-friendly park]_
 Projected score: Houston Astros 5.77 - San Francisco Giants 2.88
-Model likes: **Houston Astros** to win (74%) | Run line: **Houston Astros** -1.5 (59% to cover) | Total 8.5: lean **UNDER** (55%)
+Model likes: **Houston Astros** to win (74%) | Run line: **Houston Astros** -1.5 (60% to cover) | Total 8.5: lean **UNDER** (55%)
 
 ### Houston Astros lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 6.3 relief IP in last 2 days (ratio 1.41)_
@@ -631,7 +631,7 @@ Model likes: **Arizona Diamondbacks** to win (60%) | Run line: **Colorado Rockie
 ## 2026-08-12 - Houston Astros @ San Francisco Giants (Scheduled)
 _Oracle Park [pitcher-friendly park]_
 Projected score: Houston Astros 4.54 - San Francisco Giants 3.9
-Model likes: **Houston Astros** to win (55%) | Run line: **San Francisco Giants** +1.5 (60% to cover) | Total 7.5: lean **OVER** (53%)
+Model likes: **Houston Astros** to win (56%) | Run line: **San Francisco Giants** +1.5 (60% to cover) | Total 7.5: lean **OVER** (54%)
 
 ### Houston Astros lineup -- PROJECTED (unconfirmed)
 - Isaac Paredes (R) -- L7: 6H 0HR 2RBI 9TB (0.240 avg) -- away split: 0.256 avg
@@ -690,7 +690,7 @@ _Facing a rested bullpen: 1.7 relief IP in last 2 days (ratio 0.28)_
 ## 2026-08-12 - Pittsburgh Pirates @ Miami Marlins (Scheduled)
 _loanDepot park [pitcher-friendly park]_
 Projected score: Pittsburgh Pirates 4.1 - Miami Marlins 4.25
-Model likes: **Miami Marlins** to win (51%) | Run line: **Pittsburgh Pirates** +1.5 (64% to cover) | Total 7.5: lean **OVER** (53%)
+Model likes: **Miami Marlins** to win (51%) | Run line: **Pittsburgh Pirates** +1.5 (64% to cover) | Total 7.5: lean **OVER** (52%)
 
 ### Pittsburgh Pirates lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -871,7 +871,7 @@ Model likes: **New York Mets** to win (61%) | Run line: **Atlanta Braves** +1.5 
 ## 2026-08-12 - Cincinnati Reds @ Chicago White Sox (Scheduled)
 _Rate Field_
 Projected score: Cincinnati Reds 4.11 - Chicago White Sox 4.51
-Model likes: **Chicago White Sox** to win (53%) | Run line: **Cincinnati Reds** +1.5 (62% to cover) | Total 8.5: lean **UNDER** (54%)
+Model likes: **Chicago White Sox** to win (54%) | Run line: **Cincinnati Reds** +1.5 (62% to cover) | Total 8.5: lean **UNDER** (54%)
 
 ### Cincinnati Reds lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
