@@ -11,6 +11,14 @@ public news RSS feed -- no paid odds API, no scraping of betting sites.
 
 _Updated with every change going forward._
 
+- **2026-08-11** -- Added an editable line on every player prop's
+  bar-chart card: type in the real line your sportsbook is showing (this
+  project never pulls real odds/lines) and the hit-rate/bar coloring
+  recomputes against that exact number instead of the site's own
+  generated line. Pure client-side, off data already on the page -- no
+  server round-trip. A reset button (&#8635;) snaps back to the site's
+  own projected line.
+
 - **2026-08-11** -- Fixed a real, significant bug in the "season stats"
   just added: `batting_rolling()`/`pitching_rolling()`'s season window
   (a plain LIMIT 162, sized to a batter's real single-season game-count

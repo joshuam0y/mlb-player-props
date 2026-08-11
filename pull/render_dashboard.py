@@ -576,6 +576,18 @@ STYLE = """
   .prop-lean-under { color: var(--status-critical); font-weight: 700; }
   .prop-rate { font-size: 11.5px; color: var(--text-secondary); }
   .prop-avg { font-size: 10.5px; color: var(--text-muted); margin-top: 4px; }
+  .prop-line-input {
+    display: flex; align-items: center; gap: 4px; font-size: 11.5px; color: var(--text-secondary); margin-bottom: 4px;
+  }
+  .prop-line-input input {
+    width: 52px; padding: 2px 5px; border-radius: 5px; border: 1px solid var(--border);
+    background: var(--surface-2); color: var(--text-primary); font-family: inherit; font-size: 11.5px;
+  }
+  .prop-line-reset {
+    border: none; background: none; color: var(--text-muted); cursor: pointer; font-size: 13px;
+    padding: 0 2px; line-height: 1;
+  }
+  .prop-line-reset:hover { color: var(--text-primary); }
 
   .injury-report { margin: 14px 0; }
   .injury-report table { margin-top: 8px; }
@@ -656,6 +668,49 @@ function toggleDetail(id) {
   // after the first click open -- both branches of the old OR were true
   // forever once display became ''.
   if (row) row.style.display = (row.style.display === 'none') ? '' : 'none';
+}
+
+// Lets someone type in the REAL line their sportsbook is showing (this
+// site never pulls real odds/lines -- see the prop-avg caption) and see
+// the hit-rate/bar-chart recompute against that exact number instead of
+// this site's own generated line. Pure client-side, off data already on
+// the page (each bar's own data-value) -- no server round-trip needed.
+function updatePropLine(input) {
+  const newLine = parseFloat(input.value);
+  if (isNaN(newLine)) return;
+  const cat = input.closest('.prop-cat');
+  if (!cat) return;
+  const bars = cat.querySelectorAll('.prop-bar');
+  const values = Array.from(bars).map(function (b) { return parseFloat(b.dataset.value); });
+  const maxV = Math.max(newLine, ...values) || 1;
+  let overCount = 0;
+  bars.forEach(function (bar, i) {
+    const v = values[i];
+    const isOver = v > newLine;
+    if (isOver) overCount++;
+    bar.classList.toggle('prop-bar-over', isOver);
+    bar.classList.toggle('prop-bar-under', !isOver);
+    bar.style.height = Math.max(v / maxV * 100, 4) + '%';
+  });
+  const barsEl = cat.querySelector('.prop-bars');
+  if (barsEl) {
+    const baselinePct = Math.min(Math.max(newLine / maxV * 100, 0), 100);
+    barsEl.style.setProperty('--baseline', baselinePct.toFixed(0) + '%');
+  }
+  const rateEl = cat.querySelector('.prop-rate');
+  if (rateEl) {
+    const n = bars.length;
+    const pct = n ? Math.round(overCount / n * 100) : 0;
+    rateEl.textContent = pct + '% over ' + newLine + ' (last ' + n + ')';
+  }
+}
+
+function resetPropLine(button) {
+  const wrap = button.closest('.prop-line-input');
+  const input = wrap && wrap.querySelector('input');
+  if (!input) return;
+  input.value = input.dataset.modelLine;
+  updatePropLine(input);
 }
 
 // Favorites are pure client-side (localStorage, per-browser) -- this is
@@ -2029,19 +2084,28 @@ def _prop_categories_html(categories, row_id, headline_html=""):
             height = max(v / max_v * 100, 4)
             date_txt = _fmt_date(d)
             tooltip = f"{v} {cat['label'].lower()}" + (f" on {date_txt}" if date_txt else "")
-            bars.append(f'<div class="prop-bar {bar_cls}" style="height:{height:.0f}%" title="{html.escape(tooltip)}"></div>')
+            bars.append(
+                f'<div class="prop-bar {bar_cls}" data-value="{v}" style="height:{height:.0f}%" '
+                f'title="{html.escape(tooltip)}"></div>'
+            )
         rates = " &middot; ".join(f'{r["pct"]}% over {r["line"]}' for r in cat["hit_rates"])
         slug = _slug(cat["label"])
         cats_html.append(f"""
         <div class="prop-cat" data-category="{slug}">
           <div class="prop-cat-label">{html.escape(cat["label"])}</div>
           <div class="prop-projection">{_category_projection_html(cat)}</div>
+          <div class="prop-line-input">
+            <label>Line: <input type="number" step="0.5" value="{line}" data-model-line="{line}"
+              oninput="updatePropLine(this)" onclick="event.stopPropagation()"></label>
+            <button type="button" class="prop-line-reset" onclick="event.stopPropagation(); resetPropLine(this)"
+              title="Reset to this site's own projected line">&#8635;</button>
+          </div>
           <div class="prop-bars" style="--baseline:{baseline_pct:.0f}%">
             <div class="prop-baseline"></div>
             {"".join(bars)}
           </div>
           <div class="prop-rate">{rates} (last {len(values)})</div>
-          <div class="prop-avg">Avg {cat["average"]}/game recently &middot; dashed line = this player's own projected line &middot; hover a bar for the exact game</div>
+          <div class="prop-avg">Avg {cat["average"]}/game recently &middot; dashed line = the line above &middot; hover a bar for the exact game</div>
         </div>
         """)
     return (
