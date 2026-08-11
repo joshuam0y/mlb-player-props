@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-11T04:54:23.994512+00:00_
+_Generated 2026-08-11T05:44:37.701538+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -89,7 +89,7 @@ Model likes: **Pittsburgh Pirates** to win (50%) | Run line: **Miami Marlins** +
 ## 2026-08-11 - Cleveland Guardians @ Detroit Tigers (Scheduled)
 _Comerica Park [pitcher-friendly park]_
 Projected score: Cleveland Guardians 2.73 - Detroit Tigers 4.18
-Model likes: **Detroit Tigers** to win (64%) | Run line: **Cleveland Guardians** +1.5 (54% to cover) | Total 6.5: lean **UNDER** (51%)
+Model likes: **Detroit Tigers** to win (64%) | Run line: **Cleveland Guardians** +1.5 (53% to cover) | Total 6.5: lean **UNDER** (51%)
 
 ### Cleveland Guardians lineup -- PROJECTED (unconfirmed)
 **Probable P: Tanner Bibee (R)** -- L5: 31.7 IP, 26 K, 11 ER, 3.13 ERA
@@ -333,7 +333,7 @@ _Facing a taxed bullpen: 8.7 relief IP in last 2 days (ratio 1.72)_
 ## 2026-08-11 - Texas Rangers @ Los Angeles Angels (Scheduled)
 _Angel Stadium_
 Projected score: Texas Rangers 4.77 - Los Angeles Angels 3.69
-Model likes: **Texas Rangers** to win (59%) | Run line: **Los Angeles Angels** +1.5 (56% to cover) | Total 7.5: lean **OVER** (53%)
+Model likes: **Texas Rangers** to win (59%) | Run line: **Los Angeles Angels** +1.5 (56% to cover) | Total 7.5: lean **OVER** (54%)
 
 ### Texas Rangers lineup -- PROJECTED (unconfirmed)
 **Probable P: Cody Bradford (L)** -- L5: 24.7 IP, 23 K, 10 ER, 3.65 ERA
@@ -391,8 +391,8 @@ Model likes: **Milwaukee Brewers** to win (64%) | Run line: **San Diego Padres**
 
 ## 2026-08-11 - Tampa Bay Rays @ Athletics (Scheduled)
 _Sutter Health Park_
-Projected score: Tampa Bay Rays 6.98 - Athletics 3.2
-Model likes: **Tampa Bay Rays** to win (77%) | Run line: **Tampa Bay Rays** -1.5 (65% to cover) | Total 9.5: lean **UNDER** (50%)
+Projected score: Tampa Bay Rays 5.85 - Athletics 3.2
+Model likes: **Tampa Bay Rays** to win (71%) | Run line: **Tampa Bay Rays** -1.5 (57% to cover) | Total 8.5: lean **UNDER** (51%)
 
 ### Tampa Bay Rays lineup -- PROJECTED (unconfirmed)
 **Probable P: Nick Martinez (R)** -- L5: 29.0 IP, 12 K, 9 ER, 2.79 ERA
@@ -407,6 +407,7 @@ Model likes: **Tampa Bay Rays** to win (77%) | Run line: **Tampa Bay Rays** -1.5
 - Ryan Vilade (R) -- L7: 2H 0HR 0RBI 2TB (0.133 avg) -- away split: 0.227 avg
 
 ### Athletics lineup -- PROJECTED (unconfirmed)
+**Probable P: Mason Barnett (R)** [BULLPEN GAME: short-outing arm, no reliable individual matchup below] -- L5: 14.7 IP, 15 K, 13 ER, 7.98 ERA
 - Henry Bolte (R) [3-game hit streak] -- L7: 9H 1HR 1RBI 13TB (0.31 avg) -- home split: 0.307 avg
 - Tyler Soderstrom (L) [9-game hit streak] -- L7: 7H 2HR 6RBI 17TB (0.28 avg) -- home split: 0.253 avg
 - Lawrence Butler (L) -- L7: 4H 1HR 1RBI 7TB (0.154 avg) -- home split: 0.242 avg
@@ -687,7 +688,7 @@ _Facing a rested bullpen: 1.7 relief IP in last 2 days (ratio 0.28)_
 ## 2026-08-12 - Pittsburgh Pirates @ Miami Marlins (Scheduled)
 _loanDepot park [pitcher-friendly park]_
 Projected score: Pittsburgh Pirates 4.09 - Miami Marlins 4.25
-Model likes: **Miami Marlins** to win (52%) | Run line: **Pittsburgh Pirates** +1.5 (64% to cover) | Total 7.5: lean **OVER** (53%)
+Model likes: **Miami Marlins** to win (51%) | Run line: **Pittsburgh Pirates** +1.5 (64% to cover) | Total 7.5: lean **OVER** (52%)
 
 ### Pittsburgh Pirates lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -868,7 +869,7 @@ Model likes: **New York Mets** to win (61%) | Run line: **Atlanta Braves** +1.5 
 ## 2026-08-12 - Cincinnati Reds @ Chicago White Sox (Scheduled)
 _Rate Field_
 Projected score: Cincinnati Reds 4.11 - Chicago White Sox 4.51
-Model likes: **Chicago White Sox** to win (53%) | Run line: **Cincinnati Reds** +1.5 (62% to cover) | Total 8.5: lean **UNDER** (54%)
+Model likes: **Chicago White Sox** to win (54%) | Run line: **Cincinnati Reds** +1.5 (62% to cover) | Total 8.5: lean **UNDER** (54%)
 
 ### Cincinnati Reds lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1081,7 +1082,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-13 - Boston Red Sox @ Toronto Blue Jays (Scheduled)
 _Rogers Centre_
 Projected score: Boston Red Sox 5.75 - Toronto Blue Jays 2.74
-Model likes: **Boston Red Sox** to win (75%) | Run line: **Boston Red Sox** -1.5 (60% to cover) | Total 7.5: lean **OVER** (53%)
+Model likes: **Boston Red Sox** to win (75%) | Run line: **Boston Red Sox** -1.5 (61% to cover) | Total 7.5: lean **OVER** (53%)
 
 ### Boston Red Sox lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1172,7 +1173,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-13 - Texas Rangers @ Los Angeles Angels (Scheduled)
 _Angel Stadium_
 Projected score: Texas Rangers 3.02 - Los Angeles Angels 3.34
-Model likes: **Los Angeles Angels** to win (53%) | Run line: **Texas Rangers** +1.5 (65% to cover) | Total 5.5: lean **OVER** (54%)
+Model likes: **Los Angeles Angels** to win (54%) | Run line: **Texas Rangers** +1.5 (65% to cover) | Total 5.5: lean **OVER** (55%)
 
 ### Texas Rangers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
