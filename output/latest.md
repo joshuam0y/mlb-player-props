@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-12T02:55:20.552873+00:00_
+_Generated 2026-08-12T03:52:35.625764+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -504,7 +504,7 @@ _Facing a taxed bullpen: 8.7 relief IP in last 2 days (ratio 1.7)_
 ## 2026-08-12 - Baltimore Orioles @ Minnesota Twins (Scheduled)
 _Target Field_
 Projected score: Baltimore Orioles 4.73 - Minnesota Twins 3.95
-Model likes: **Baltimore Orioles** to win (57%) | Run line: **Minnesota Twins** +1.5 (58% to cover) | Total 8.5: lean **UNDER** (54%)
+Model likes: **Baltimore Orioles** to win (57%) | Run line: **Minnesota Twins** +1.5 (59% to cover) | Total 8.5: lean **UNDER** (54%)
 
 ### Baltimore Orioles lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 5.0 relief IP in last 2 days (ratio 1.27)_
@@ -535,7 +535,7 @@ _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.42)_
 ## 2026-08-12 - Philadelphia Phillies @ St. Louis Cardinals (Scheduled)
 _Busch Stadium_
 Projected score: Philadelphia Phillies 4.12 - St. Louis Cardinals 3.05
-Model likes: **Philadelphia Phillies** to win (60%) | Run line: **St. Louis Cardinals** +1.5 (57% to cover) | Total 6.5: lean **OVER** (52%)
+Model likes: **Philadelphia Phillies** to win (61%) | Run line: **St. Louis Cardinals** +1.5 (57% to cover) | Total 6.5: lean **OVER** (52%)
 
 ### Philadelphia Phillies lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.37)_
@@ -565,7 +565,7 @@ _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.37)_
 ## 2026-08-12 - Tampa Bay Rays @ Athletics (Scheduled)
 _Sutter Health Park_
 Projected score: Tampa Bay Rays 6.99 - Athletics 3.26
-Model likes: **Tampa Bay Rays** to win (76%) | Run line: **Tampa Bay Rays** -1.5 (64% to cover) | Total 9.5: lean **OVER** (50%)
+Model likes: **Tampa Bay Rays** to win (76%) | Run line: **Tampa Bay Rays** -1.5 (64% to cover) | Total 9.5: lean **UNDER** (50%)
 
 ### Tampa Bay Rays lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.43)_
@@ -682,11 +682,12 @@ _Facing a rested bullpen: 1.7 relief IP in last 2 days (ratio 0.28)_
 
 ## 2026-08-12 - Pittsburgh Pirates @ Miami Marlins (Scheduled)
 _loanDepot park [pitcher-friendly park]_
-Projected score: Pittsburgh Pirates 4.1 - Miami Marlins 4.25
-Model likes: **Miami Marlins** to win (51%) | Run line: **Pittsburgh Pirates** +1.5 (64% to cover) | Total 7.5: lean **OVER** (53%)
+Projected score: Pittsburgh Pirates 4.1 - Miami Marlins 3.32
+Model likes: **Pittsburgh Pirates** to win (57%) | Run line: **Miami Marlins** +1.5 (60% to cover) | Total 6.5: lean **OVER** (54%)
 
 ### Pittsburgh Pirates lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.39)_
+**Probable P: Carmen Mlodzinski (R)** -- L5: 13.7 IP, 11 K, 9 ER, 5.93 ERA
 - Nick Gonzales (R) [TOUGH MATCHUP: pitcher holds this hand to 0.195 avg-against] -- L7: 6H 0HR 3RBI 8TB (0.231 avg) -- away split: 0.317 avg
 - Bryan Reynolds (S) [MATCHUP EDGE: pitcher hits 0.320 avg-against vs this hand] -- L7: 5H 0HR 0RBI 7TB (0.192 avg) -- away split: 0.229 avg
 - Brandon Lowe (L) [MATCHUP EDGE: pitcher hits 0.320 avg-against vs this hand] -- L7: 5H 2HR 3RBI 11TB (0.200 avg) -- away split: 0.258 avg
@@ -700,15 +701,15 @@ _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.39)_
 ### Miami Marlins lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.55)_
 **Probable P: Janson Junk (R)** -- L5: 21.7 IP, 19 K, 10 ER, 4.15 ERA
-- Jakob Marsee (L) [likely BABIP-driven, not a real power uptick] -- L7: 7H 0HR 0RBI 10TB (0.368 avg) -- home split: 0.217 avg
+- Jakob Marsee (L) [MATCHUP EDGE: pitcher hits 0.274 avg-against vs this hand] [likely BABIP-driven, not a real power uptick] -- L7: 7H 0HR 0RBI 10TB (0.368 avg) -- home split: 0.217 avg
 - Javier Sanoja (R) [7-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 9H 0HR 5RBI 13TB (0.409 avg) -- home split: 0.282 avg
 - Otto Lopez (R) [3-game hit streak] -- L7: 8H 0HR 2RBI 9TB (0.267 avg) -- home split: 0.324 avg
-- Xavier Edwards (S) -- L7: 5H 0HR 3RBI 7TB (0.217 avg) -- home split: 0.290 avg
-- Griffin Conine (L) [3-game hit streak] -- L7: 6H 2HR 5RBI 12TB (0.250 avg) -- home split: 0.324 avg
+- Xavier Edwards (S) [MATCHUP EDGE: pitcher hits 0.274 avg-against vs this hand] -- L7: 5H 0HR 3RBI 7TB (0.217 avg) -- home split: 0.290 avg
+- Griffin Conine (L) [MATCHUP EDGE: pitcher hits 0.274 avg-against vs this hand] [3-game hit streak] -- L7: 6H 2HR 5RBI 12TB (0.250 avg) -- home split: 0.324 avg
 - Heriberto Hernández (R) -- L7: 4H 0HR 1RBI 5TB (0.148 avg) -- home split: 0.227 avg
-- Joe Mack (L) -- L7: 3H 1HR 2RBI 6TB (0.158 avg) -- home split: 0.212 avg
+- Joe Mack (L) [MATCHUP EDGE: pitcher hits 0.274 avg-against vs this hand] -- L7: 3H 1HR 2RBI 6TB (0.158 avg) -- home split: 0.212 avg
 - Esteury Ruiz (R) -- L7: 4H 1HR 1RBI 8TB (0.400 avg) -- home split: 0.246 avg
-- Owen Caissie (L) -- L7: 3H 0HR 1RBI 3TB (0.130 avg) -- home split: 0.262 avg
+- Owen Caissie (L) [MATCHUP EDGE: pitcher hits 0.274 avg-against vs this hand] -- L7: 3H 0HR 1RBI 3TB (0.130 avg) -- home split: 0.262 avg
 
 ## 2026-08-12 - Cleveland Guardians @ Detroit Tigers (Scheduled)
 _Comerica Park [pitcher-friendly park]_
@@ -758,6 +759,7 @@ Model likes: **Chicago Cubs** to win (59%) | Run line: **Washington Nationals** 
 - Carson Kelly (R) [3-game hit streak] -- L7: 7H 1HR 6RBI 11TB (0.318 avg) -- away split: 0.236 avg
 
 ### Washington Nationals lineup -- PROJECTED (unconfirmed)
+**Probable P: Jackson Kent (L)** -- L5: no data
 - Daylen Lile (L) -- L7: 5H 1HR 5RBI 9TB (0.192 avg) -- home split: 0.225 avg
 - CJ Abrams (L) [4-game hit streak] -- L7: 10H 1HR 6RBI 17TB (0.312 avg) -- home split: 0.272 avg
 - Dylan Crews (R) [MATCHUP EDGE: pitcher hits 0.287 avg-against vs this hand] [3-game hit streak] -- L7: 5H 1HR 1RBI 9TB (0.161 avg) -- home split: 0.220 avg
@@ -771,7 +773,7 @@ Model likes: **Chicago Cubs** to win (59%) | Run line: **Washington Nationals** 
 ## 2026-08-12 - Seattle Mariners @ New York Yankees (Scheduled)
 _Yankee Stadium [hitter-friendly park]_
 Projected score: Seattle Mariners 3.11 - New York Yankees 3.23
-Model likes: **New York Yankees** to win (51%) | Run line: **Seattle Mariners** +1.5 (68% to cover) | Total 5.5: lean **OVER** (54%)
+Model likes: **New York Yankees** to win (51%) | Run line: **Seattle Mariners** +1.5 (67% to cover) | Total 5.5: lean **OVER** (54%)
 
 ### Seattle Mariners lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.3 relief IP in last 2 days (ratio 0.55)_
@@ -863,7 +865,7 @@ _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.24)_
 ## 2026-08-12 - Cincinnati Reds @ Chicago White Sox (Scheduled)
 _Rate Field_
 Projected score: Cincinnati Reds 4.11 - Chicago White Sox 4.51
-Model likes: **Chicago White Sox** to win (53%) | Run line: **Cincinnati Reds** +1.5 (62% to cover) | Total 8.5: lean **UNDER** (54%)
+Model likes: **Chicago White Sox** to win (54%) | Run line: **Cincinnati Reds** +1.5 (62% to cover) | Total 8.5: lean **UNDER** (54%)
 
 ### Cincinnati Reds lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.45)_
