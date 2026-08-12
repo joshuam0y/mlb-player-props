@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-12T17:44:39.296270+00:00_
+_Generated 2026-08-12T18:38:33.702453+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -88,10 +88,10 @@ _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.42)_
 - #8 Alan Roden (L) [MATCHUP EDGE: pitcher hits 0.278 avg-against vs this hand] -- L7: 3H 0HR 2RBI 4TB (0.200 avg) -- home split: 0.148 avg
 - #9 Ryan Kreidler (R) -- L7: 4H 0HR 0RBI 4TB (0.200 avg) -- home split: 0.276 avg
 
-## 2026-08-12 - Philadelphia Phillies @ St. Louis Cardinals (Pre-Game)
+## 2026-08-12 - Philadelphia Phillies @ St. Louis Cardinals (In Progress)
 _Busch Stadium_
 Projected score: Philadelphia Phillies 4.02 - St. Louis Cardinals 2.87
-Model likes: **Philadelphia Phillies** to win (62%) | Run line: **St. Louis Cardinals** +1.5 (56% to cover) | Total 6.5: lean **UNDER** (52%)
+Model likes: **Philadelphia Phillies** to win (62%) | Run line: **St. Louis Cardinals** +1.5 (56% to cover) | Total 6.5: lean **UNDER** (51%)
 
 ### Philadelphia Phillies lineup -- CONFIRMED
 _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.37)_
@@ -152,7 +152,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.55)_
 ## 2026-08-12 - Colorado Rockies @ Arizona Diamondbacks (Pre-Game)
 _Chase Field [hitter-friendly park]_
 Projected score: Colorado Rockies 4.7 - Arizona Diamondbacks 6.28
-Model likes: **Arizona Diamondbacks** to win (61%) | Run line: **Colorado Rockies** +1.5 (51% to cover) | Total 10.5: lean **UNDER** (52%)
+Model likes: **Arizona Diamondbacks** to win (61%) | Run line: **Colorado Rockies** +1.5 (52% to cover) | Total 10.5: lean **UNDER** (52%)
 
 ### Colorado Rockies lineup -- CONFIRMED
 _Facing a taxed bullpen: 7.7 relief IP in last 2 days (ratio 1.45)_
@@ -699,7 +699,7 @@ Model likes: **Washington Nationals** to win (51%) | Run line: **Chicago Cubs** 
 ## 2026-08-13 - Philadelphia Phillies @ Minnesota Twins (Scheduled)
 _Field of Dreams_
 Projected score: Philadelphia Phillies 3.77 - Minnesota Twins 4.91
-Model likes: **Minnesota Twins** to win (60%) | Run line: **Philadelphia Phillies** +1.5 (55% to cover) | Total 8.5: lean **UNDER** (54%)
+Model likes: **Minnesota Twins** to win (60%) | Run line: **Philadelphia Phillies** +1.5 (56% to cover) | Total 8.5: lean **UNDER** (54%)
 
 ### Philadelphia Phillies lineup -- PROJECTED (unconfirmed)
 **Probable P: Aaron Nola (R)** -- L5: 28.0 IP, 27 K, 14 ER, 4.5 ERA
@@ -905,7 +905,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-14 - Baltimore Orioles @ Tampa Bay Rays (Scheduled)
 _Tropicana Field_
 Projected score: Baltimore Orioles 3.39 - Tampa Bay Rays 5.23
-Model likes: **Tampa Bay Rays** to win (66%) | Run line: **Tampa Bay Rays** -1.5 (50% to cover) | Total 8.5: lean **UNDER** (54%)
+Model likes: **Tampa Bay Rays** to win (66%) | Run line: **Tampa Bay Rays** -1.5 (50% to cover) | Total 8.5: lean **UNDER** (55%)
 
 ### Baltimore Orioles lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -963,11 +963,12 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 
 ## 2026-08-14 - San Diego Padres @ Cleveland Guardians (Scheduled)
 _Progressive Field_
-Projected score: San Diego Padres 3.43 - Cleveland Guardians 4.04
-Model likes: **Cleveland Guardians** to win (56%) | Run line: **San Diego Padres** +1.5 (61% to cover) | Total 6.5: lean **OVER** (55%)
+Projected score: San Diego Padres 3.43 - Cleveland Guardians 2.99
+Model likes: **San Diego Padres** to win (55%) | Run line: **Cleveland Guardians** +1.5 (64% to cover) | Total 5.5: lean **OVER** (55%)
 
 ### San Diego Padres lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
+**Probable P: Michael King (R)** -- L5: 28.0 IP, 28 K, 10 ER, 3.21 ERA
 - Jackson Merrill (L) [6-game hit streak] -- L7: 9H 3HR 8RBI 21TB (0.333 avg) -- away split: 0.243 avg
 - Ty France (R) [3-game hit streak] -- L7: 8H 1HR 2RBI 13TB (0.333 avg) -- away split: 0.289 avg
 - Luis Rengifo (S) -- L7: 7H 1HR 4RBI 10TB (0.280 avg) -- away split: 0.252 avg
@@ -1023,7 +1024,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-14 - Arizona Diamondbacks @ Atlanta Braves (Scheduled)
 _Truist Park_
 Projected score: Arizona Diamondbacks 3.92 - Atlanta Braves 4.14
-Model likes: **Atlanta Braves** to win (52%) | Run line: **Arizona Diamondbacks** +1.5 (64% to cover) | Total 7.5: lean **OVER** (50%)
+Model likes: **Atlanta Braves** to win (52%) | Run line: **Arizona Diamondbacks** +1.5 (64% to cover) | Total 7.5: lean **UNDER** (50%)
 
 ### Arizona Diamondbacks lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1082,7 +1083,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-14 - Kansas City Royals @ Los Angeles Angels (Scheduled)
 _Angel Stadium_
 Projected score: Kansas City Royals 3.47 - Los Angeles Angels 3.55
-Model likes: **Los Angeles Angels** to win (51%) | Run line: **Kansas City Royals** +1.5 (67% to cover) | Total 6.5: lean **OVER** (50%)
+Model likes: **Los Angeles Angels** to win (51%) | Run line: **Kansas City Royals** +1.5 (66% to cover) | Total 6.5: lean **OVER** (50%)
 
 ### Kansas City Royals lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1169,11 +1170,12 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 
 ## 2026-08-14 - Colorado Rockies @ San Francisco Giants (Scheduled)
 _Oracle Park [pitcher-friendly park]_
-Projected score: Colorado Rockies 4.05 - San Francisco Giants 4.81
-Model likes: **San Francisco Giants** to win (56%) | Run line: **Colorado Rockies** +1.5 (58% to cover) | Total 8.5: lean **UNDER** (52%)
+Projected score: Colorado Rockies 4.05 - San Francisco Giants 5.3
+Model likes: **San Francisco Giants** to win (60%) | Run line: **Colorado Rockies** +1.5 (54% to cover) | Total 8.5: lean **OVER** (52%)
 
 ### Colorado Rockies lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
+**Probable P: Kyle Freeland (L)** -- L5: 30.7 IP, 26 K, 15 ER, 4.4 ERA
 - Cole Carrigg (S) -- L7: 6H 0HR 2RBI 9TB (0.222 avg) -- away split: 0.242 avg
 - TJ Rumfield (L) -- L7: 7H 0HR 1RBI 8TB (0.269 avg) -- away split: 0.291 avg
 - Jake McCarthy (L) [likely BABIP-driven, not a real power uptick] -- L7: 14H 2HR 3RBI 22TB (0.467 avg) -- away split: 0.287 avg
@@ -1189,10 +1191,10 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 **Probable P: Landen Roupp (R)** -- L5: 26.7 IP, 19 K, 12 ER, 4.05 ERA
 - Grant McCray (L) -- L7: 0H 0HR 0RBI 0TB (0.000 avg) -- home split: 0.100 avg
 - Rafael Devers (L) -- L7: 5H 1HR 2RBI 8TB (0.217 avg) -- home split: 0.236 avg
-- Willy Adames (R) -- L7: 6H 1HR 1RBI 10TB (0.250 avg) -- home split: 0.220 avg
+- Willy Adames (R) [MATCHUP EDGE: pitcher hits 0.308 avg-against vs this hand] -- L7: 6H 1HR 1RBI 10TB (0.250 avg) -- home split: 0.220 avg
 - Jung Hoo Lee (L) -- L7: 5H 1HR 3RBI 9TB (0.172 avg) -- home split: 0.258 avg
 - Bryce Eldridge (L) [3-game hit streak] -- L7: 5H 1HR 3RBI 9TB (0.200 avg) -- home split: 0.214 avg
-- Christian Koss (R) [3-game hit streak] -- L7: 4H 0HR 1RBI 5TB (0.167 avg) -- home split: 0.132 avg
+- Christian Koss (R) [MATCHUP EDGE: pitcher hits 0.308 avg-against vs this hand] [3-game hit streak] -- L7: 4H 0HR 1RBI 5TB (0.167 avg) -- home split: 0.132 avg
 - Drew Gilbert (L) [3-game hit streak] -- L7: 4H 1HR 4RBI 9TB (0.222 avg) -- home split: 0.225 avg
-- Osleivis Basabe (R) -- L7: 7H 1HR 2RBI 10TB (0.259 avg) -- home split: 0.263 avg
+- Osleivis Basabe (R) [MATCHUP EDGE: pitcher hits 0.308 avg-against vs this hand] -- L7: 7H 1HR 2RBI 10TB (0.259 avg) -- home split: 0.263 avg
 - Drew Cavanaugh (L) -- L7: 4H 0HR 2RBI 5TB (0.200 avg) -- home split: 0.250 avg
