@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-12T08:17:06.349543+00:00_
+_Generated 2026-08-12T08:53:45.969525+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -212,7 +212,7 @@ _Facing a taxed bullpen: 7.7 relief IP in last 2 days (ratio 1.7)_
 ## 2026-08-12 - Milwaukee Brewers @ San Diego Padres (Scheduled)
 _Petco Park [pitcher-friendly park]_
 Projected score: Milwaukee Brewers 3.16 - San Diego Padres 3.35
-Model likes: **San Diego Padres** to win (52%) | Run line: **Milwaukee Brewers** +1.5 (67% to cover) | Total 6.5: lean **UNDER** (55%)
+Model likes: **San Diego Padres** to win (52%) | Run line: **Milwaukee Brewers** +1.5 (66% to cover) | Total 6.5: lean **UNDER** (55%)
 
 ### Milwaukee Brewers lineup -- PROJECTED (unconfirmed)
 **Probable P: Dustin May (R)** -- L5: 26.0 IP, 26 K, 10 ER, 3.46 ERA
@@ -485,7 +485,7 @@ _Facing a taxed bullpen: 8.0 relief IP in last 2 days (ratio 1.57)_
 ## 2026-08-12 - Texas Rangers @ Los Angeles Angels (Scheduled)
 _Angel Stadium_
 Projected score: Texas Rangers 3.81 - Los Angeles Angels 2.89
-Model likes: **Texas Rangers** to win (60%) | Run line: **Los Angeles Angels** +1.5 (59% to cover) | Total 6.5: lean **UNDER** (53%)
+Model likes: **Texas Rangers** to win (59%) | Run line: **Los Angeles Angels** +1.5 (59% to cover) | Total 6.5: lean **UNDER** (53%)
 
 ### Texas Rangers lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 8.7 relief IP in last 2 days (ratio 1.49)_
@@ -844,7 +844,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-14 - Boston Red Sox @ Pittsburgh Pirates (Scheduled)
 _PNC Park_
 Projected score: Boston Red Sox 5.45 - Pittsburgh Pirates 3.68
-Model likes: **Boston Red Sox** to win (64%) | Run line: **Pittsburgh Pirates** +1.5 (50% to cover) | Total 8.5: lean **UNDER** (50%)
+Model likes: **Boston Red Sox** to win (64%) | Run line: **Boston Red Sox** -1.5 (50% to cover) | Total 8.5: lean **UNDER** (50%)
 
 ### Boston Red Sox lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -902,7 +902,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-14 - Baltimore Orioles @ Tampa Bay Rays (Scheduled)
 _Tropicana Field_
 Projected score: Baltimore Orioles 3.39 - Tampa Bay Rays 5.23
-Model likes: **Tampa Bay Rays** to win (66%) | Run line: **Tampa Bay Rays** -1.5 (50% to cover) | Total 8.5: lean **UNDER** (55%)
+Model likes: **Tampa Bay Rays** to win (66%) | Run line: **Tampa Bay Rays** -1.5 (51% to cover) | Total 8.5: lean **UNDER** (54%)
 
 ### Baltimore Orioles lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
