@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-12T21:16:03.746901+00:00_
+_Generated 2026-08-12T22:03:51.891186+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -116,10 +116,9 @@ _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.37)_
 - #8 José Fermín (R) [TOUGH MATCHUP: pitcher holds this hand to 0.191 avg-against] -- L7: 4H 0HR 3RBI 5TB (0.222 avg) -- home split: 0.250 avg
 - #9 Jimmy Crooks (L) -- L7: 5H 1HR 3RBI 9TB (0.200 avg) -- home split: 0.150 avg
 
-## 2026-08-12 - Tampa Bay Rays @ Athletics (In Progress)
+## 2026-08-12 - Tampa Bay Rays @ Athletics (Final)
 _Sutter Health Park_
-Projected score: Tampa Bay Rays 6.96 - Athletics 2.88
-Model likes: **Tampa Bay Rays** to win (79%) | Run line: **Tampa Bay Rays** -1.5 (67% to cover) | Total 9.5: lean **UNDER** (53%)
+Final: Tampa Bay Rays 8 - Athletics 4
 
 ### Tampa Bay Rays lineup -- CONFIRMED
 _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.48)_
@@ -241,7 +240,7 @@ _Facing a rested bullpen: 4.0 relief IP in last 2 days (ratio 0.67)_
 ## 2026-08-12 - Pittsburgh Pirates @ Miami Marlins (Pre-Game)
 _loanDepot park [pitcher-friendly park]_
 Projected score: Pittsburgh Pirates 3.71 - Miami Marlins 3.07
-Model likes: **Pittsburgh Pirates** to win (56%) | Run line: **Miami Marlins** +1.5 (62% to cover) | Total 6.5: lean **UNDER** (52%)
+Model likes: **Pittsburgh Pirates** to win (57%) | Run line: **Miami Marlins** +1.5 (62% to cover) | Total 6.5: lean **UNDER** (52%)
 
 ### Pittsburgh Pirates lineup -- CONFIRMED
 _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.39)_
@@ -575,7 +574,7 @@ _Facing a rested bullpen: 1.7 relief IP in last 2 days (ratio 0.34)_
 ## 2026-08-13 - Seattle Mariners @ New York Yankees (Scheduled)
 _Yankee Stadium [hitter-friendly park]_
 Projected score: Seattle Mariners 2.4 - New York Yankees 3.35
-Model likes: **New York Yankees** to win (61%) | Run line: **Seattle Mariners** +1.5 (60% to cover) | Total 5.5: lean **UNDER** (52%)
+Model likes: **New York Yankees** to win (61%) | Run line: **Seattle Mariners** +1.5 (60% to cover) | Total 5.5: lean **UNDER** (53%)
 
 ### Seattle Mariners lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.3 relief IP in last 2 days (ratio 0.55)_
@@ -1137,7 +1136,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-14 - Milwaukee Brewers @ Los Angeles Dodgers (Scheduled)
 _UNIQLO Field at Dodger Stadium_
 Projected score: Milwaukee Brewers 4.36 - Los Angeles Dodgers 3.97
-Model likes: **Milwaukee Brewers** to win (53%) | Run line: **Los Angeles Dodgers** +1.5 (62% to cover) | Total 7.5: lean **OVER** (52%)
+Model likes: **Milwaukee Brewers** to win (54%) | Run line: **Los Angeles Dodgers** +1.5 (62% to cover) | Total 7.5: lean **OVER** (52%)
 
 ### Milwaukee Brewers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
