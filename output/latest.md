@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-12T19:50:50.307550+00:00_
+_Generated 2026-08-12T20:28:15.069785+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -57,10 +57,9 @@ _Generated 2026-08-12T19:50:50.307550+00:00_
 - **David Peterson** (Chicago Cubs vs Washington Nationals): allowing fewer runs than usual over his last few starts -- try Runs Allowed: 100% under 2.5 recently (vs. 5-game sample)
 - **José Soriano** (Toronto Blue Jays vs Boston Red Sox): 4 hitters in tonight's lineup are in a tough matchup against him -- try Hits Allowed: 80% under 4.5 recently (vs. 5-game sample)
 
-## 2026-08-12 - Baltimore Orioles @ Minnesota Twins (In Progress)
+## 2026-08-12 - Baltimore Orioles @ Minnesota Twins (Game Over)
 _Target Field_
-Projected score: Baltimore Orioles 4.76 - Minnesota Twins 3.81
-Model likes: **Baltimore Orioles** to win (58%) | Run line: **Minnesota Twins** +1.5 (57% to cover) | Total 7.5: lean **OVER** (55%)
+Final: Baltimore Orioles 5 - Minnesota Twins 7
 
 ### Baltimore Orioles lineup -- CONFIRMED
 _Facing a taxed bullpen: 5.0 relief IP in last 2 days (ratio 1.27)_
@@ -91,7 +90,7 @@ _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.42)_
 ## 2026-08-12 - Philadelphia Phillies @ St. Louis Cardinals (In Progress)
 _Busch Stadium_
 Projected score: Philadelphia Phillies 4.02 - St. Louis Cardinals 2.87
-Model likes: **Philadelphia Phillies** to win (62%) | Run line: **St. Louis Cardinals** +1.5 (56% to cover) | Total 6.5: lean **UNDER** (52%)
+Model likes: **Philadelphia Phillies** to win (62%) | Run line: **St. Louis Cardinals** +1.5 (56% to cover) | Total 6.5: lean **UNDER** (51%)
 
 ### Philadelphia Phillies lineup -- CONFIRMED
 _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.37)_
@@ -210,7 +209,7 @@ _Facing a taxed bullpen: 7.7 relief IP in last 2 days (ratio 1.7)_
 - #8 Drew Cavanaugh (L) -- L7: 4H 0HR 2RBI 5TB (0.200 avg) -- home split: 0.250 avg
 - #9 Christian Koss (R) [3-game hit streak] -- L7: 4H 0HR 1RBI 5TB (0.167 avg) -- home split: 0.132 avg
 
-## 2026-08-12 - Milwaukee Brewers @ San Diego Padres (Warmup)
+## 2026-08-12 - Milwaukee Brewers @ San Diego Padres (In Progress)
 _Petco Park [pitcher-friendly park]_
 Projected score: Milwaukee Brewers 3.05 - San Diego Padres 3.54
 Model likes: **San Diego Padres** to win (55%) | Run line: **Milwaukee Brewers** +1.5 (63% to cover) | Total 6.5: lean **UNDER** (55%)
@@ -243,7 +242,7 @@ _Facing a rested bullpen: 4.0 relief IP in last 2 days (ratio 0.67)_
 ## 2026-08-12 - Pittsburgh Pirates @ Miami Marlins (Pre-Game)
 _loanDepot park [pitcher-friendly park]_
 Projected score: Pittsburgh Pirates 3.71 - Miami Marlins 3.07
-Model likes: **Pittsburgh Pirates** to win (57%) | Run line: **Miami Marlins** +1.5 (62% to cover) | Total 6.5: lean **UNDER** (53%)
+Model likes: **Pittsburgh Pirates** to win (57%) | Run line: **Miami Marlins** +1.5 (62% to cover) | Total 6.5: lean **UNDER** (52%)
 
 ### Pittsburgh Pirates lineup -- CONFIRMED
 _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.39)_
@@ -393,21 +392,21 @@ _Facing a taxed bullpen: 9.0 relief IP in last 2 days (ratio 1.37)_
 
 ## 2026-08-12 - New York Mets @ Atlanta Braves (Pre-Game)
 _Truist Park_
-Projected score: New York Mets 4.14 - Atlanta Braves 3.37
-Model likes: **New York Mets** to win (57%) | Run line: **Atlanta Braves** +1.5 (60% to cover) | Total 6.5: lean **OVER** (55%)
+Projected score: New York Mets 4.29 - Atlanta Braves 3.37
+Model likes: **New York Mets** to win (59%) | Run line: **Atlanta Braves** +1.5 (58% to cover) | Total 7.5: lean **UNDER** (54%)
 
-### New York Mets lineup -- PROJECTED (unconfirmed)
+### New York Mets lineup -- CONFIRMED
 _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.33)_
 **Probable P: Zac Thornton (L)** -- L5: 29.0 IP, 17 K, 6 ER, 1.86 ERA
-- Bo Bichette (R) [likely BABIP-driven, not a real power uptick] -- L7: 10H 0HR 6RBI 13TB (0.357 avg) -- away split: 0.283 avg
-- Francisco Lindor (S) [6-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 9H 2HR 5RBI 16TB (0.321 avg) -- away split: 0.237 avg
-- Marcus Semien (R) -- L7: 6H 2HR 6RBI 13TB (0.231 avg) -- away split: 0.225 avg
-- A.J. Ewing (L) -- L7: 5H 0HR 0RBI 8TB (0.185 avg) -- away split: 0.240 avg
-- Carson Benge (L) -- L7: 11H 2HR 6RBI 19TB (0.379 avg) -- away split: 0.267 avg
-- Jared Young (L) [likely BABIP-driven, not a real power uptick] -- L7: 9H 0HR 6RBI 14TB (0.360 avg) -- away split: 0.264 avg
-- Francisco Alvarez (R) -- L7: 6H 1HR 2RBI 10TB (0.250 avg) -- away split: 0.270 avg
-- Luis Robert Jr. (R) [likely BABIP-driven, not a real power uptick] -- L7: 7H 1HR 4RBI 10TB (0.292 avg) -- away split: 0.224 avg
-- Brett Baty (L) -- L7: 3H 2HR 5RBI 9TB (0.143 avg) -- away split: 0.201 avg
+- #1 A.J. Ewing (L) -- L7: 5H 0HR 0RBI 8TB (0.185 avg) -- away split: 0.240 avg
+- #2 Francisco Lindor (S) [6-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 9H 2HR 5RBI 16TB (0.321 avg) -- away split: 0.237 avg
+- #3 Bo Bichette (R) [likely BABIP-driven, not a real power uptick] -- L7: 10H 0HR 6RBI 13TB (0.357 avg) -- away split: 0.283 avg
+- #4 Carson Benge (L) -- L7: 11H 2HR 6RBI 19TB (0.379 avg) -- away split: 0.267 avg
+- #5 Luis Robert Jr. (R) [likely BABIP-driven, not a real power uptick] -- L7: 7H 1HR 4RBI 10TB (0.292 avg) -- away split: 0.224 avg
+- #6 Jared Young (L) [likely BABIP-driven, not a real power uptick] -- L7: 9H 0HR 6RBI 14TB (0.360 avg) -- away split: 0.264 avg
+- #7 Francisco Alvarez (R) -- L7: 6H 1HR 2RBI 10TB (0.250 avg) -- away split: 0.270 avg
+- #8 Brett Baty (L) -- L7: 3H 2HR 5RBI 9TB (0.143 avg) -- away split: 0.201 avg
+- #9 Luis Torrens (R) -- L7: 6H 2HR 8RBI 13TB (0.250 avg) -- away split: 0.269 avg
 
 ### Atlanta Braves lineup -- CONFIRMED
 _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.24)_
@@ -424,21 +423,21 @@ _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.24)_
 
 ## 2026-08-12 - Cincinnati Reds @ Chicago White Sox (Pre-Game)
 _Rate Field_
-Projected score: Cincinnati Reds 3.8 - Chicago White Sox 5.0
-Model likes: **Chicago White Sox** to win (60%) | Run line: **Cincinnati Reds** +1.5 (55% to cover) | Total 8.5: lean **UNDER** (53%)
+Projected score: Cincinnati Reds 3.94 - Chicago White Sox 5.0
+Model likes: **Chicago White Sox** to win (59%) | Run line: **Cincinnati Reds** +1.5 (56% to cover) | Total 8.5: lean **UNDER** (52%)
 
-### Cincinnati Reds lineup -- PROJECTED (unconfirmed)
+### Cincinnati Reds lineup -- CONFIRMED
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.45)_
 **Probable P: Rhett Lowder (R)** -- L5: 21.3 IP, 15 K, 14 ER, 5.91 ERA
-- Sal Stewart (R) [3-game hit streak] -- L7: 7H 1HR 2RBI 10TB (0.259 avg) -- away split: 0.251 avg
-- Elly De La Cruz (S) [MATCHUP EDGE: pitcher hits 0.288 avg-against vs this hand] -- L7: 5H 2HR 6RBI 11TB (0.200 avg) -- away split: 0.234 avg
-- JJ Bleday (L) [MATCHUP EDGE: pitcher hits 0.288 avg-against vs this hand] -- L7: 4H 1HR 1RBI 8TB (0.174 avg) -- away split: 0.205 avg
-- Eugenio Suárez (R) -- L7: 6H 3HR 5RBI 17TB (0.286 avg) -- away split: 0.213 avg
-- Dane Myers (R) -- L7: 3H 0HR 3RBI 4TB (0.120 avg) -- away split: 0.250 avg
-- Ke'Bryan Hayes (R) -- L7: 1H 0HR 0RBI 1TB (0.067 avg) -- away split: 0.143 avg
-- Noelvi Marte (R) [4-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 7H 0HR 1RBI 8TB (0.292 avg) -- away split: 0.250 avg
-- Tyler Stephenson (R) -- L7: 6H 2HR 6RBI 14TB (0.222 avg) -- away split: 0.275 avg
-- Matt McLain (R) -- L7: 6H 2HR 2RBI 14TB (0.286 avg) -- away split: 0.221 avg
+- #1 Elly De La Cruz (S) [MATCHUP EDGE: pitcher hits 0.288 avg-against vs this hand] -- L7: 5H 2HR 6RBI 11TB (0.200 avg) -- away split: 0.234 avg
+- #2 Sal Stewart (R) [3-game hit streak] -- L7: 7H 1HR 2RBI 10TB (0.259 avg) -- away split: 0.251 avg
+- #3 JJ Bleday (L) [MATCHUP EDGE: pitcher hits 0.288 avg-against vs this hand] -- L7: 4H 1HR 1RBI 8TB (0.174 avg) -- away split: 0.205 avg
+- #4 Eugenio Suárez (R) -- L7: 6H 3HR 5RBI 17TB (0.286 avg) -- away split: 0.213 avg
+- #5 Michael Toglia (S) [MATCHUP EDGE: pitcher hits 0.288 avg-against vs this hand] -- L7: 2H 1HR 1RBI 5TB (0.111 avg) -- away split: 0.500 avg
+- #6 Héctor Rodríguez (L) [MATCHUP EDGE: pitcher hits 0.288 avg-against vs this hand] -- L7: 2H 0HR 0RBI 3TB (0.118 avg) -- away split: 0.167 avg
+- #7 Jose Trevino (R) -- L7: 6H 3HR 4RBI 15TB (0.250 avg) -- away split: 0.238 avg
+- #8 TJ Friedl (L) [MATCHUP EDGE: pitcher hits 0.288 avg-against vs this hand] -- L7: 0H 0HR 0RBI 0TB (0.000 avg) -- away split: 0.182 avg
+- #9 Matt McLain (R) -- L7: 6H 2HR 2RBI 14TB (0.286 avg) -- away split: 0.221 avg
 
 ### Chicago White Sox lineup -- CONFIRMED
 _Facing a taxed bullpen: 6.0 relief IP in last 2 days (ratio 1.3)_
@@ -486,7 +485,7 @@ _Facing a taxed bullpen: 8.0 relief IP in last 2 days (ratio 1.57)_
 ## 2026-08-12 - Texas Rangers @ Los Angeles Angels (Scheduled)
 _Angel Stadium_
 Projected score: Texas Rangers 3.81 - Los Angeles Angels 2.89
-Model likes: **Texas Rangers** to win (60%) | Run line: **Los Angeles Angels** +1.5 (59% to cover) | Total 6.5: lean **UNDER** (54%)
+Model likes: **Texas Rangers** to win (60%) | Run line: **Los Angeles Angels** +1.5 (59% to cover) | Total 6.5: lean **UNDER** (53%)
 
 ### Texas Rangers lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 8.7 relief IP in last 2 days (ratio 1.49)_
@@ -577,7 +576,7 @@ _Facing a rested bullpen: 1.7 relief IP in last 2 days (ratio 0.34)_
 ## 2026-08-13 - Seattle Mariners @ New York Yankees (Scheduled)
 _Yankee Stadium [hitter-friendly park]_
 Projected score: Seattle Mariners 2.4 - New York Yankees 3.35
-Model likes: **New York Yankees** to win (61%) | Run line: **Seattle Mariners** +1.5 (60% to cover) | Total 5.5: lean **UNDER** (52%)
+Model likes: **New York Yankees** to win (61%) | Run line: **Seattle Mariners** +1.5 (60% to cover) | Total 5.5: lean **UNDER** (53%)
 
 ### Seattle Mariners lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.3 relief IP in last 2 days (ratio 0.55)_
@@ -699,7 +698,7 @@ Model likes: **Washington Nationals** to win (51%) | Run line: **Chicago Cubs** 
 ## 2026-08-13 - Philadelphia Phillies @ Minnesota Twins (Scheduled)
 _Field of Dreams_
 Projected score: Philadelphia Phillies 3.77 - Minnesota Twins 4.91
-Model likes: **Minnesota Twins** to win (60%) | Run line: **Philadelphia Phillies** +1.5 (56% to cover) | Total 8.5: lean **UNDER** (54%)
+Model likes: **Minnesota Twins** to win (60%) | Run line: **Philadelphia Phillies** +1.5 (55% to cover) | Total 8.5: lean **UNDER** (54%)
 
 ### Philadelphia Phillies lineup -- PROJECTED (unconfirmed)
 **Probable P: Aaron Nola (R)** -- L5: 28.0 IP, 27 K, 14 ER, 4.5 ERA
@@ -905,7 +904,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-14 - Baltimore Orioles @ Tampa Bay Rays (Scheduled)
 _Tropicana Field_
 Projected score: Baltimore Orioles 3.39 - Tampa Bay Rays 5.23
-Model likes: **Tampa Bay Rays** to win (66%) | Run line: **Tampa Bay Rays** -1.5 (50% to cover) | Total 8.5: lean **UNDER** (54%)
+Model likes: **Tampa Bay Rays** to win (66%) | Run line: **Tampa Bay Rays** -1.5 (51% to cover) | Total 8.5: lean **UNDER** (54%)
 
 ### Baltimore Orioles lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1024,7 +1023,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-14 - Arizona Diamondbacks @ Atlanta Braves (Scheduled)
 _Truist Park_
 Projected score: Arizona Diamondbacks 3.92 - Atlanta Braves 4.14
-Model likes: **Atlanta Braves** to win (52%) | Run line: **Arizona Diamondbacks** +1.5 (64% to cover) | Total 7.5: lean **UNDER** (50%)
+Model likes: **Atlanta Braves** to win (52%) | Run line: **Arizona Diamondbacks** +1.5 (64% to cover) | Total 7.5: lean **OVER** (50%)
 
 ### Arizona Diamondbacks lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
