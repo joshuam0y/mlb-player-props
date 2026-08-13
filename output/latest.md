@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-13T05:17:28.257746+00:00_
+_Generated 2026-08-13T06:42:11.026433+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -140,7 +140,7 @@ _Facing a taxed bullpen: 8.3 relief IP in last 2 days (ratio 1.38)_
 ## 2026-08-13 - Cincinnati Reds @ Chicago White Sox (Scheduled)
 _Rate Field_
 Projected score: Cincinnati Reds 3.35 - Chicago White Sox 4.25
-Model likes: **Chicago White Sox** to win (58%) | Run line: **Cincinnati Reds** +1.5 (58% to cover) | Total 7.5: lean **UNDER** (54%)
+Model likes: **Chicago White Sox** to win (58%) | Run line: **Cincinnati Reds** +1.5 (58% to cover) | Total 7.5: lean **UNDER** (55%)
 
 ### Cincinnati Reds lineup -- PROJECTED (unconfirmed)
 **Probable P: Andrew Abbott (L)** -- L5: 27.7 IP, 18 K, 12 ER, 3.9 ERA
@@ -199,7 +199,7 @@ Model likes: **Boston Red Sox** to win (73%) | Run line: **Boston Red Sox** -1.5
 ## 2026-08-13 - Chicago Cubs @ Washington Nationals (Scheduled)
 _Nationals Park_
 Projected score: Chicago Cubs 5.0 - Washington Nationals 4.84
-Model likes: **Chicago Cubs** to win (51%) | Run line: **Washington Nationals** +1.5 (62% to cover) | Total 9.5: lean **UNDER** (53%)
+Model likes: **Chicago Cubs** to win (51%) | Run line: **Washington Nationals** +1.5 (62% to cover) | Total 9.5: lean **UNDER** (52%)
 
 ### Chicago Cubs lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 10.7 relief IP in last 2 days (ratio 1.76)_
@@ -230,7 +230,7 @@ _Facing a taxed bullpen: 8.3 relief IP in last 2 days (ratio 2.08)_
 ## 2026-08-13 - Philadelphia Phillies @ Minnesota Twins (Scheduled)
 _Field of Dreams_
 Projected score: Philadelphia Phillies 3.82 - Minnesota Twins 4.94
-Model likes: **Minnesota Twins** to win (59%) | Run line: **Philadelphia Phillies** +1.5 (56% to cover) | Total 8.5: lean **UNDER** (53%)
+Model likes: **Minnesota Twins** to win (60%) | Run line: **Philadelphia Phillies** +1.5 (56% to cover) | Total 8.5: lean **UNDER** (53%)
 
 ### Philadelphia Phillies lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.77)_
@@ -406,7 +406,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.56)_
 ## 2026-08-14 - Chicago White Sox @ Detroit Tigers (Scheduled)
 _Comerica Park [pitcher-friendly park]_
 Projected score: Chicago White Sox 3.51 - Detroit Tigers 5.36
-Model likes: **Detroit Tigers** to win (65%) | Run line: **Detroit Tigers** -1.5 (51% to cover) | Total 8.5: lean **UNDER** (52%)
+Model likes: **Detroit Tigers** to win (65%) | Run line: **Detroit Tigers** -1.5 (50% to cover) | Total 8.5: lean **UNDER** (52%)
 
 ### Chicago White Sox lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.3 relief IP in last 2 days (ratio 0.69)_
@@ -435,7 +435,7 @@ _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.3)_
 ## 2026-08-14 - Baltimore Orioles @ Tampa Bay Rays (Scheduled)
 _Tropicana Field_
 Projected score: Baltimore Orioles 3.42 - Tampa Bay Rays 5.18
-Model likes: **Tampa Bay Rays** to win (65%) | Run line: **Baltimore Orioles** +1.5 (50% to cover) | Total 8.5: lean **UNDER** (55%)
+Model likes: **Tampa Bay Rays** to win (65%) | Run line: **Baltimore Orioles** +1.5 (50% to cover) | Total 7.5: lean **OVER** (55%)
 
 ### Baltimore Orioles lineup -- PROJECTED (unconfirmed)
 - Jackson Holliday (L) -- L7: 6H 1HR 2RBI 11TB (0.222 avg) -- away split: 0.267 avg
