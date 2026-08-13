@@ -273,7 +273,7 @@ def regrade_recent(conn, days=3):
     # fetching every resolved bet and filtering here is cheap.
     all_resolved = list(db.collection("bets").where("status", "in", ["won", "lost"]).stream())
     docs = [doc for doc in all_resolved if doc.to_dict().get("placed_date", "") >= cutoff]
-    print(f"regrade_recent: {len(all_resolved)} resolved bets total, {len(docs)} within the last {days} days (cutoff {cutoff}).")
+    corrected = 0
     for doc in docs:
         bet = doc.to_dict()
         legs = bet.get("legs") or []
@@ -290,12 +290,7 @@ def regrade_recent(conn, days=3):
             had_dnp = "dnp" in leg
             previous_dnp = leg.get("dnp")
             leg["status"] = "pending"
-            regraded = _grade_player_leg(conn, leg, bet["placed_date"])
-            print(
-                f"  leg check: {leg.get('player_name')} {leg.get('category')} {leg.get('direction')} {leg.get('line')} "
-                f"| game_pk={leg.get('game_pk')} | regraded={regraded} | new_status={leg.get('status')} "
-                f"new_actual={leg.get('actual_value')} | was={previous_status}/{previous_actual}"
-            )
+            _grade_player_leg(conn, leg, bet["placed_date"])
             if leg["status"] not in ("hit", "miss"):
                 leg["status"] = previous_status
                 leg["actual_value"] = previous_actual
@@ -306,12 +301,19 @@ def regrade_recent(conn, days=3):
                 continue
             if leg["status"] != previous_status or leg.get("actual_value") != previous_actual:
                 any_changed = True
+                print(
+                    f"regrade_recent: corrected {leg.get('player_name')} {leg.get('category')} "
+                    f"{previous_status}/{previous_actual} -> {leg['status']}/{leg.get('actual_value')} "
+                    f"(bet {doc.id})"
+                )
         if not any_changed:
             continue
+        corrected += 1
         statuses = [leg["status"] for leg in legs]
         new_status = "lost" if any(s == "miss" for s in statuses) else ("won" if all(s == "hit" for s in statuses) else bet["status"])
-        print(f"  bet {doc.id} changed -- new status: {new_status} (was {bet['status']})")
         update = {"legs": legs, "graded_at": datetime.now(timezone.utc).isoformat()}
         if new_status != bet["status"]:
             update["status"] = new_status
         doc.reference.update(update)
+    if corrected:
+        print(f"regrade_recent: corrected {corrected} bet(s) out of {len(docs)} checked (of {len(all_resolved)} resolved total).")

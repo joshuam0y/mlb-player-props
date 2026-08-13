@@ -25,7 +25,10 @@ _Updated with every change going forward._
   every already-resolved player leg placed in the last 3 days on every
   pipeline run and corrects it if the DB now shows something different,
   the same self-healing principle grade_picks.py's own --backfill-days
-  already uses for the public dashboard.
+  already uses for the public dashboard. Verified end to end on the real
+  bet that surfaced this: confirmed via production logs that it actually
+  found and corrected the Horwitz leg (hit/1 -> miss/2), flipping that
+  bet from won to lost.
 
 - **2026-08-11** -- Added an editable line on every player prop's
   bar-chart card: type in the real line your sportsbook is showing (this
