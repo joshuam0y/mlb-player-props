@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-13T06:47:32.017105+00:00_
+_Generated 2026-08-13T08:08:15.506578+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -140,7 +140,7 @@ _Facing a taxed bullpen: 8.3 relief IP in last 2 days (ratio 1.38)_
 ## 2026-08-13 - Cincinnati Reds @ Chicago White Sox (Scheduled)
 _Rate Field_
 Projected score: Cincinnati Reds 3.35 - Chicago White Sox 4.25
-Model likes: **Chicago White Sox** to win (59%) | Run line: **Cincinnati Reds** +1.5 (58% to cover) | Total 7.5: lean **UNDER** (55%)
+Model likes: **Chicago White Sox** to win (58%) | Run line: **Cincinnati Reds** +1.5 (58% to cover) | Total 7.5: lean **UNDER** (55%)
 
 ### Cincinnati Reds lineup -- PROJECTED (unconfirmed)
 **Probable P: Andrew Abbott (L)** -- L5: 27.7 IP, 18 K, 12 ER, 3.9 ERA
@@ -199,7 +199,7 @@ Model likes: **Boston Red Sox** to win (73%) | Run line: **Boston Red Sox** -1.5
 ## 2026-08-13 - Chicago Cubs @ Washington Nationals (Scheduled)
 _Nationals Park_
 Projected score: Chicago Cubs 5.0 - Washington Nationals 4.84
-Model likes: **Chicago Cubs** to win (51%) | Run line: **Washington Nationals** +1.5 (62% to cover) | Total 9.5: lean **UNDER** (53%)
+Model likes: **Chicago Cubs** to win (51%) | Run line: **Washington Nationals** +1.5 (62% to cover) | Total 9.5: lean **UNDER** (52%)
 
 ### Chicago Cubs lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 10.7 relief IP in last 2 days (ratio 1.76)_
@@ -230,7 +230,7 @@ _Facing a taxed bullpen: 8.3 relief IP in last 2 days (ratio 2.08)_
 ## 2026-08-13 - Philadelphia Phillies @ Minnesota Twins (Scheduled)
 _Field of Dreams_
 Projected score: Philadelphia Phillies 3.82 - Minnesota Twins 4.94
-Model likes: **Minnesota Twins** to win (59%) | Run line: **Philadelphia Phillies** +1.5 (56% to cover) | Total 8.5: lean **UNDER** (53%)
+Model likes: **Minnesota Twins** to win (60%) | Run line: **Philadelphia Phillies** +1.5 (56% to cover) | Total 8.5: lean **UNDER** (53%)
 
 ### Philadelphia Phillies lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.77)_
@@ -755,7 +755,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-15 - St. Louis Cardinals @ Chicago Cubs (Scheduled)
 _Wrigley Field_
 Projected score: St. Louis Cardinals 4.22 - Chicago Cubs 4.82
-Model likes: **Chicago Cubs** to win (55%) | Run line: **St. Louis Cardinals** +1.5 (60% to cover) | Total 8.5: lean **UNDER** (50%)
+Model likes: **Chicago Cubs** to win (55%) | Run line: **St. Louis Cardinals** +1.5 (60% to cover) | Total 8.5: lean **UNDER** (51%)
 
 ### St. Louis Cardinals lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
