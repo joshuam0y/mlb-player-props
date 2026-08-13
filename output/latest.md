@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-13T13:49:18.043241+00:00_
+_Generated 2026-08-13T13:55:08.242549+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -50,7 +50,7 @@ _Generated 2026-08-13T13:49:18.043241+00:00_
 ## 2026-08-13 - Pittsburgh Pirates @ Miami Marlins (Scheduled)
 _loanDepot park [pitcher-friendly park]_
 Projected score: Pittsburgh Pirates 3.41 - Miami Marlins 3.89
-Model likes: **Miami Marlins** to win (55%) | Run line: **Pittsburgh Pirates** +1.5 (63% to cover) | Total 6.5: lean **OVER** (53%)
+Model likes: **Miami Marlins** to win (55%) | Run line: **Pittsburgh Pirates** +1.5 (62% to cover) | Total 6.5: lean **OVER** (53%)
 
 ### Pittsburgh Pirates lineup -- PROJECTED (unconfirmed)
 **Probable P: Braxton Ashcraft (R)** -- L5: 24.0 IP, 23 K, 21 ER, 7.88 ERA
@@ -230,7 +230,7 @@ _Facing a taxed bullpen: 8.3 relief IP in last 2 days (ratio 2.08)_
 ## 2026-08-13 - Philadelphia Phillies @ Minnesota Twins (Scheduled)
 _Field of Dreams_
 Projected score: Philadelphia Phillies 3.82 - Minnesota Twins 4.94
-Model likes: **Minnesota Twins** to win (60%) | Run line: **Philadelphia Phillies** +1.5 (56% to cover) | Total 8.5: lean **UNDER** (53%)
+Model likes: **Minnesota Twins** to win (59%) | Run line: **Philadelphia Phillies** +1.5 (56% to cover) | Total 8.5: lean **UNDER** (53%)
 
 ### Philadelphia Phillies lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.77)_
