@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-13T21:14:54.848715+00:00_
+_Generated 2026-08-13T22:05:04.711465+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -164,10 +164,9 @@ _Facing a taxed bullpen: 8.3 relief IP in last 2 days (ratio 1.38)_
 - #8 Ryan McMahon (L) [likely BABIP-driven, not a real power uptick] -- L7: 6H 0HR 4RBI 8TB (0.316 avg) -- home split: 0.254 avg
 - #9 Ali Sánchez (R) -- L7: 3H 0HR 0RBI 3TB (0.333 avg) -- home split: 0.174 avg
 
-## 2026-08-13 - Boston Red Sox @ Toronto Blue Jays (In Progress)
+## 2026-08-13 - Boston Red Sox @ Toronto Blue Jays (Final)
 _Rogers Centre_
-Projected score: Boston Red Sox 5.35 - Toronto Blue Jays 2.78
-Model likes: **Boston Red Sox** to win (72%) | Run line: **Boston Red Sox** -1.5 (57% to cover) | Total 7.5: lean **OVER** (50%)
+Final: Boston Red Sox 7 - Toronto Blue Jays 0
 
 ### Boston Red Sox lineup -- CONFIRMED
 **Probable P: Payton Tolle (L)** -- L5: 26.7 IP, 44 K, 10 ER, 3.38 ERA
@@ -284,7 +283,7 @@ _Facing a taxed bullpen: 7.7 relief IP in last 2 days (ratio 1.31)_
 - Josh Lowe (L) -- L7: 2H 0HR 0RBI 2TB (0.125 avg) -- home split: 0.189 avg
 - Tyler Heineman (S) -- L7: 2H 0HR 0RBI 2TB (0.154 avg) -- home split: 0.143 avg
 
-## 2026-08-13 - Milwaukee Brewers @ Los Angeles Dodgers (Scheduled)
+## 2026-08-13 - Milwaukee Brewers @ Los Angeles Dodgers (Pre-Game)
 _UNIQLO Field at Dodger Stadium_
 Projected score: Milwaukee Brewers 4.5 - Los Angeles Dodgers 3.6
 Model likes: **Milwaukee Brewers** to win (58%) | Run line: **Los Angeles Dodgers** +1.5 (58% to cover) | Total 7.5: lean **OVER** (50%)
@@ -302,17 +301,17 @@ _Facing a taxed bullpen: 6.7 relief IP in last 2 days (ratio 1.29)_
 - Christian Yelich (L) -- L7: 5H 1HR 3RBI 9TB (0.238 avg) -- away split: 0.206 avg
 - Jake Bauers (L) -- L7: 6H 1HR 3RBI 10TB (0.250 avg) -- away split: 0.290 avg
 
-### Los Angeles Dodgers lineup -- PROJECTED (unconfirmed)
+### Los Angeles Dodgers lineup -- CONFIRMED
 **Probable P: Roki Sasaki (R)** -- L5: 30.0 IP, 31 K, 8 ER, 2.4 ERA
-- Andy Pages (R) -- L7: 8H 1HR 2RBI 12TB (0.308 avg) -- home split: 0.296 avg
-- Kyle Tucker (L) -- L7: 4H 1HR 2RBI 9TB (0.167 avg) -- home split: 0.200 avg
-- Teoscar Hernández (R) -- L7: 2H 0HR 1RBI 3TB (0.111 avg) -- home split: 0.243 avg
-- Mookie Betts (R) [3-game hit streak] -- L7: 11H 2HR 3RBI 19TB (0.423 avg) -- home split: 0.238 avg
-- Freddie Freeman (L) -- L7: 6H 0HR 3RBI 6TB (0.240 avg) -- home split: 0.282 avg
-- Tommy Edman (S) -- L7: 5H 0HR 1RBI 5TB (0.192 avg) -- home split: 0.258 avg
-- Shohei Ohtani (L) -- L7: 8H 3HR 7RBI 18TB (0.276 avg) -- home split: 0.298 avg
-- Max Muncy (L) -- L7: 4H 1HR 7RBI 8TB (0.182 avg) -- home split: 0.232 avg -- news: 10 questions with Dodgers vet Max Muncy
-- Enrique Hernández (R) -- L7: 1H 0HR 0RBI 1TB (0.083 avg) -- home split: 0.385 avg
+- #1 Shohei Ohtani (L) -- L7: 8H 3HR 7RBI 18TB (0.276 avg) -- home split: 0.298 avg
+- #2 Andy Pages (R) -- L7: 8H 1HR 2RBI 12TB (0.308 avg) -- home split: 0.296 avg
+- #3 Tommy Edman (S) -- L7: 5H 0HR 1RBI 5TB (0.192 avg) -- home split: 0.258 avg
+- #4 Freddie Freeman (L) -- L7: 6H 0HR 3RBI 6TB (0.240 avg) -- home split: 0.282 avg
+- #5 Teoscar Hernández (R) -- L7: 2H 0HR 1RBI 3TB (0.111 avg) -- home split: 0.243 avg
+- #6 Miguel Rojas (R) -- L7: 6H 0HR 0RBI 9TB (0.333 avg) -- home split: 0.313 avg
+- #7 Kyle Tucker (L) -- L7: 4H 1HR 2RBI 9TB (0.167 avg) -- home split: 0.200 avg
+- #8 Enrique Hernández (R) -- L7: 1H 0HR 0RBI 1TB (0.083 avg) -- home split: 0.385 avg
+- #9 Ben Rortvedt (L) -- L7: 1H 0HR 0RBI 1TB (0.083 avg) -- home split: 0.000 avg
 
 ## 2026-08-14 - St. Louis Cardinals @ Chicago Cubs (Scheduled)
 _Wrigley Field_
@@ -584,7 +583,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.57)_
 ## 2026-08-14 - Seattle Mariners @ Houston Astros (Scheduled)
 _Daikin Park_
 Projected score: Seattle Mariners 2.71 - Houston Astros 3.98
-Model likes: **Houston Astros** to win (63%) | Run line: **Seattle Mariners** +1.5 (55% to cover) | Total 6.5: lean **UNDER** (54%)
+Model likes: **Houston Astros** to win (63%) | Run line: **Seattle Mariners** +1.5 (55% to cover) | Total 6.5: lean **UNDER** (53%)
 
 ### Seattle Mariners lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 8.3 relief IP in last 2 days (ratio 1.5)_
@@ -913,7 +912,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-15 - Miami Marlins @ Cincinnati Reds (Scheduled)
 _Great American Ball Park [hitter-friendly park]_
 Projected score: Miami Marlins 4.59 - Cincinnati Reds 3.84
-Model likes: **Miami Marlins** to win (56%) | Run line: **Cincinnati Reds** +1.5 (59% to cover) | Total 7.5: lean **OVER** (53%)
+Model likes: **Miami Marlins** to win (57%) | Run line: **Cincinnati Reds** +1.5 (59% to cover) | Total 7.5: lean **OVER** (53%)
 
 ### Miami Marlins lineup -- PROJECTED (unconfirmed)
 **Probable P: Ryan Gusto (R)** [BULLPEN GAME: short-outing arm, no reliable individual matchup below] -- L5: 20.3 IP, 18 K, 10 ER, 4.43 ERA
@@ -1035,7 +1034,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-15 - Boston Red Sox @ Pittsburgh Pirates (Scheduled)
 _PNC Park_
 Projected score: Boston Red Sox 4.91 - Pittsburgh Pirates 2.97
-Model likes: **Boston Red Sox** to win (68%) | Run line: **Boston Red Sox** -1.5 (52% to cover) | Total 7.5: lean **UNDER** (52%)
+Model likes: **Boston Red Sox** to win (67%) | Run line: **Boston Red Sox** -1.5 (51% to cover) | Total 7.5: lean **UNDER** (52%)
 
 ### Boston Red Sox lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
