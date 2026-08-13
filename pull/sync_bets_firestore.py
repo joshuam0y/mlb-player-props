@@ -26,7 +26,7 @@ anything else from running).
 
 import json
 import os
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 
 import api
 
@@ -229,3 +229,84 @@ def regrade_all_pending(conn):
                 update["status"] = new_status
                 update["graded_at"] = datetime.now(timezone.utc).isoformat()
             doc.reference.update(update)
+
+
+def regrade_recent(conn, days=3):
+    """
+    Self-heals a real failure mode that regrade_all_pending() above can't
+    touch: _grade_player_leg() reads the player's actual stat line from the
+    production DB's batting_game_logs/pitching_game_logs, keyed off that
+    same DB's games.status to decide is_final. If a game's status flips to
+    Final slightly before that specific player's own complete box-score row
+    finishes syncing (a real, confirmed sync-timing gap -- sync_schedule.py
+    and sync_stats.py run as separate, independently-timed steps), a leg
+    can get permanently locked in "hit" against a stat total that was only
+    correct partway through the game. Confirmed on a real case: a batter's
+    game was Final and the DB still held his total-bases count from after
+    his FIRST hit, one hit short of his actual final total -- enough to
+    flip a real bust into a wrongly-recorded hit forever, since
+    regrade_all_pending() only ever re-examines bets still sitting at
+    "pending" and this leg had already (wrongly) resolved.
+
+    Re-checks every already-resolved player leg placed within the last
+    `days` days on every run, regardless of its current hit/miss status --
+    same "recompute the recent window fresh every time" principle
+    grade_picks.py's own --backfill-days uses for the identical class of
+    problem. Forces each leg back to "pending" before re-deriving its
+    result so _grade_player_leg()'s own guard actually re-runs the full
+    check against whatever the DB shows *now*; if the DB still can't
+    produce a fresh hit/miss (e.g. a false alarm, or a mid-flight edge
+    case), the leg's previous status/actual_value/dnp are restored
+    untouched rather than left incorrectly stuck at "pending".
+    """
+    db = _get_firestore_client()
+    if db is None:
+        return
+    cutoff = (datetime.now(timezone.utc) - timedelta(days=days)).strftime("%Y-%m-%d")
+    # Single-field filter only (status IN [...]) -- adding a second
+    # .where() on placed_date here (a range filter on a DIFFERENT field)
+    # would need a manually-provisioned Firestore composite index, which
+    # this project has deliberately avoided needing anywhere else (see
+    # render_my_bets.py's own onSnapshot query and its comment on exactly
+    # this). Filtering by date in Python instead avoids that entirely --
+    # a personal bet tracker's total bet count is small enough that
+    # fetching every resolved bet and filtering here is cheap.
+    docs = [
+        doc for doc in db.collection("bets").where("status", "in", ["won", "lost"]).stream()
+        if doc.to_dict().get("placed_date", "") >= cutoff
+    ]
+    for doc in docs:
+        bet = doc.to_dict()
+        legs = bet.get("legs") or []
+        any_changed = False
+        for leg in legs:
+            # Only player-prop legs have this failure mode -- a game leg's
+            # own grading (_grade_game_leg) keys off the game's single,
+            # atomic final score, not a per-player stat row that can lag
+            # the game's own status.
+            if leg.get("kind") == "game" or leg.get("status") not in ("hit", "miss") or not leg.get("player_id"):
+                continue
+            previous_status = leg["status"]
+            previous_actual = leg.get("actual_value")
+            had_dnp = "dnp" in leg
+            previous_dnp = leg.get("dnp")
+            leg["status"] = "pending"
+            _grade_player_leg(conn, leg, bet["placed_date"])
+            if leg["status"] not in ("hit", "miss"):
+                leg["status"] = previous_status
+                leg["actual_value"] = previous_actual
+                if had_dnp:
+                    leg["dnp"] = previous_dnp
+                else:
+                    leg.pop("dnp", None)
+                continue
+            if leg["status"] != previous_status or leg.get("actual_value") != previous_actual:
+                any_changed = True
+        if not any_changed:
+            continue
+        statuses = [leg["status"] for leg in legs]
+        new_status = "lost" if any(s == "miss" for s in statuses) else ("won" if all(s == "hit" for s in statuses) else bet["status"])
+        update = {"legs": legs, "graded_at": datetime.now(timezone.utc).isoformat()}
+        if new_status != bet["status"]:
+            update["status"] = new_status
+        doc.reference.update(update)

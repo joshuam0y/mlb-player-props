@@ -2360,6 +2360,12 @@ def run(days_ahead=2, write_archive=True):
 
     bet_conn = get_conn()
     sync_bets_firestore.regrade_all_pending(bet_conn)
+    # Self-heals a leg that already (wrongly) resolved against a stat line
+    # that hadn't finished syncing yet when the game's own status flipped
+    # to Final -- see regrade_recent()'s own docstring for the confirmed
+    # real case. regrade_all_pending() above can never catch this on its
+    # own, since it only ever looks at bets still sitting at "pending".
+    sync_bets_firestore.regrade_recent(bet_conn)
     bet_conn.close()
 
     print(f"Wrote report for {len(report['games'])} games to {json_path}, {md_path}, {html_path}")

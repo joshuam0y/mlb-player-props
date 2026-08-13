@@ -11,6 +11,22 @@ public news RSS feed -- no paid odds API, no scraping of betting sites.
 
 _Updated with every change going forward._
 
+- **2026-08-13** -- Fixed a real bug found on a live bet: a parlay leg
+  (Total Bases UNDER 1.5) showed HIT with actual_value=1 and the bet
+  showed WON, but the real final box score was 2 total bases -- an actual
+  bust. Root cause: server-side grading reads the player's stat line from
+  the production DB, keyed off that same DB's game-status column to
+  decide "is this final." A real sync-timing gap (the game's status
+  syncs slightly before that player's own complete box-score row does)
+  let a leg lock in a permanent verdict against a stat total that was
+  only correct partway through the game -- and once resolved, nothing
+  ever re-checked it again, since the existing regrade_all_pending() only
+  re-examines bets still sitting at "pending." Added regrade_recent(): re-checks
+  every already-resolved player leg placed in the last 3 days on every
+  pipeline run and corrects it if the DB now shows something different,
+  the same self-healing principle grade_picks.py's own --backfill-days
+  already uses for the public dashboard.
+
 - **2026-08-11** -- Added an editable line on every player prop's
   bar-chart card: type in the real line your sportsbook is showing (this
   project never pulls real odds/lines) and the hit-rate/bar coloring
