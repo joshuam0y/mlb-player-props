@@ -271,10 +271,9 @@ def regrade_recent(conn, days=3):
     # this). Filtering by date in Python instead avoids that entirely --
     # a personal bet tracker's total bet count is small enough that
     # fetching every resolved bet and filtering here is cheap.
-    docs = [
-        doc for doc in db.collection("bets").where("status", "in", ["won", "lost"]).stream()
-        if doc.to_dict().get("placed_date", "") >= cutoff
-    ]
+    all_resolved = list(db.collection("bets").where("status", "in", ["won", "lost"]).stream())
+    docs = [doc for doc in all_resolved if doc.to_dict().get("placed_date", "") >= cutoff]
+    print(f"regrade_recent: {len(all_resolved)} resolved bets total, {len(docs)} within the last {days} days (cutoff {cutoff}).")
     for doc in docs:
         bet = doc.to_dict()
         legs = bet.get("legs") or []
@@ -291,7 +290,12 @@ def regrade_recent(conn, days=3):
             had_dnp = "dnp" in leg
             previous_dnp = leg.get("dnp")
             leg["status"] = "pending"
-            _grade_player_leg(conn, leg, bet["placed_date"])
+            regraded = _grade_player_leg(conn, leg, bet["placed_date"])
+            print(
+                f"  leg check: {leg.get('player_name')} {leg.get('category')} {leg.get('direction')} {leg.get('line')} "
+                f"| game_pk={leg.get('game_pk')} | regraded={regraded} | new_status={leg.get('status')} "
+                f"new_actual={leg.get('actual_value')} | was={previous_status}/{previous_actual}"
+            )
             if leg["status"] not in ("hit", "miss"):
                 leg["status"] = previous_status
                 leg["actual_value"] = previous_actual
@@ -306,6 +310,7 @@ def regrade_recent(conn, days=3):
             continue
         statuses = [leg["status"] for leg in legs]
         new_status = "lost" if any(s == "miss" for s in statuses) else ("won" if all(s == "hit" for s in statuses) else bet["status"])
+        print(f"  bet {doc.id} changed -- new status: {new_status} (was {bet['status']})")
         update = {"legs": legs, "graded_at": datetime.now(timezone.utc).isoformat()}
         if new_status != bet["status"]:
             update["status"] = new_status
