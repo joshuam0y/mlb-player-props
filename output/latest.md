@@ -1,10 +1,11 @@
 # MLB Player Props Context Report
-_Generated 2026-08-13T15:26:14.830483+00:00_
+_Generated 2026-08-13T15:42:57.513963+00:00_
 
 ## Today's Top Overs
 ### Batters
 - **Andrés Giménez** (Toronto Blue Jays vs Boston Red Sox): real hot streak (not just lucky bloops), 7-game hit streak -- try Hits: 80% over 0.5 recently (vs. 10-game sample)
 - **Chase Meidroth** (Chicago White Sox vs Cincinnati Reds): real hot streak (not just lucky bloops) -- try Runs Scored: 50% over 0.5 recently (vs. 10-game sample)
+- **Trent Grisham** (New York Yankees vs Seattle Mariners): real hot streak (not just lucky bloops) -- try Total Bases: 50% over 1.5 recently (vs. 10-game sample)
 - **Jarren Duran** (Boston Red Sox vs Toronto Blue Jays): favorable matchup vs. tonight's pitcher -- try Total Bases: 60% over 1.5 recently (vs. 10-game sample)
 - **Nick Sogard** (Boston Red Sox vs Toronto Blue Jays): favorable matchup vs. tonight's pitcher -- try Walks: 70% over 0.5 recently (vs. 10-game sample)
 - **Anthony Seigler** (Boston Red Sox vs Toronto Blue Jays): favorable matchup vs. tonight's pitcher -- try Hits + Runs + RBIs: 40% over 1.5 recently (vs. 10-game sample)
@@ -17,7 +18,6 @@ _Generated 2026-08-13T15:26:14.830483+00:00_
 - **Edgar Quero** (Chicago White Sox vs Cincinnati Reds): real hot streak (not just lucky bloops) -- try Hits + Runs + RBIs: 70% over 0.5 recently (vs. 10-game sample)
 - **Elly De La Cruz** (Cincinnati Reds vs Chicago White Sox): favorable matchup vs. tonight's pitcher -- try RBIs: 50% over 0.5 recently (vs. 10-game sample)
 - **JJ Bleday** (Cincinnati Reds vs Chicago White Sox): favorable matchup vs. tonight's pitcher -- try Walks: 50% over 0.5 recently (vs. 10-game sample)
-- **Héctor Rodríguez** (Cincinnati Reds vs Chicago White Sox): favorable matchup vs. tonight's pitcher -- try Hits: 29% over 0.5 recently (vs. 7-game sample)
 
 ### Pitchers
 - **Max Fried** (New York Yankees vs Seattle Mariners): 3 hitters in tonight's lineup are in a tough matchup against him -- try Strikeouts: 60% over 5.5 recently (vs. 5-game sample)
@@ -50,7 +50,7 @@ _Generated 2026-08-13T15:26:14.830483+00:00_
 ## 2026-08-13 - Pittsburgh Pirates @ Miami Marlins (Pre-Game)
 _loanDepot park [pitcher-friendly park]_
 Projected score: Pittsburgh Pirates 3.41 - Miami Marlins 3.8
-Model likes: **Miami Marlins** to win (54%) | Run line: **Pittsburgh Pirates** +1.5 (64% to cover) | Total 6.5: lean **OVER** (52%)
+Model likes: **Miami Marlins** to win (54%) | Run line: **Pittsburgh Pirates** +1.5 (63% to cover) | Total 6.5: lean **OVER** (52%)
 
 ### Pittsburgh Pirates lineup -- CONFIRMED
 **Probable P: Braxton Ashcraft (R)** -- L5: 24.0 IP, 23 K, 21 ER, 7.88 ERA
@@ -139,8 +139,8 @@ _Facing a taxed bullpen: 8.7 relief IP in last 2 days (ratio 1.87)_
 
 ## 2026-08-13 - Seattle Mariners @ New York Yankees (Pre-Game)
 _Yankee Stadium [hitter-friendly park]_
-Projected score: Seattle Mariners 2.77 - New York Yankees 3.67
-Model likes: **New York Yankees** to win (60%) | Run line: **Seattle Mariners** +1.5 (59% to cover) | Total 5.5: lean **OVER** (55%)
+Projected score: Seattle Mariners 2.77 - New York Yankees 3.57
+Model likes: **New York Yankees** to win (59%) | Run line: **Seattle Mariners** +1.5 (60% to cover) | Total 5.5: lean **OVER** (54%)
 
 ### Seattle Mariners lineup -- CONFIRMED
 _Facing a taxed bullpen: 8.3 relief IP in last 2 days (ratio 1.38)_
@@ -155,22 +155,22 @@ _Facing a taxed bullpen: 8.3 relief IP in last 2 days (ratio 1.38)_
 - #8 Jhonny Pereda (R) -- L7: 6H 0HR 0RBI 6TB (0.231 avg) -- away split: 0.212 avg
 - #9 Leo Rivas (S) -- L7: 1H 0HR 0RBI 1TB (0.071 avg) -- away split: 0.121 avg
 
-### New York Yankees lineup -- PROJECTED (unconfirmed)
+### New York Yankees lineup -- CONFIRMED
 **Probable P: Max Fried (L)** -- L5: 22.7 IP, 27 K, 7 ER, 2.78 ERA
-- Ben Rice (L) -- L7: 4H 1HR 3RBI 8TB (0.167 avg) -- home split: 0.238 avg
-- Spencer Jones (L) -- L7: 4H 0HR 5RBI 8TB (0.174 avg) -- home split: 0.217 avg -- news: Bellinger lands on IL with hamstring strain; Spencer Jones recalled
-- Trent Grisham (L) [4-game hit streak] -- L7: 9H 3HR 7RBI 22TB (0.310 avg) -- home split: 0.278 avg
-- Ryan McMahon (L) [likely BABIP-driven, not a real power uptick] -- L7: 6H 0HR 4RBI 8TB (0.316 avg) -- home split: 0.254 avg
-- Austin Wells (L) [6-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 6H 0HR 1RBI 9TB (0.333 avg) -- home split: 0.198 avg
-- Jazz Chisholm Jr. (L) [3-game hit streak] -- L7: 4H 1HR 3RBI 7TB (0.190 avg) -- home split: 0.215 avg
-- Paul Goldschmidt (R) -- L7: 2H 0HR 0RBI 3TB (0.125 avg) -- home split: 0.208 avg
-- José Caballero (R) -- L7: 5H 2HR 4RBI 11TB (0.312 avg) -- home split: 0.217 avg
-- Ali Sánchez (R) -- L7: 3H 0HR 0RBI 3TB (0.333 avg) -- home split: 0.174 avg
+- #1 Trent Grisham (L) [4-game hit streak] -- L7: 9H 3HR 7RBI 22TB (0.310 avg) -- home split: 0.278 avg
+- #2 Ben Rice (L) -- L7: 4H 1HR 3RBI 8TB (0.167 avg) -- home split: 0.238 avg
+- #3 Spencer Jones (L) -- L7: 4H 0HR 5RBI 8TB (0.174 avg) -- home split: 0.217 avg -- news: Bellinger lands on IL with hamstring strain; Spencer Jones recalled
+- #4 Luis García Jr. (L) -- L7: 6H 1HR 2RBI 11TB (0.222 avg) -- home split: 0.256 avg
+- #5 George Lombard Jr. (R) -- L7: 8H 2HR 2RBI 14TB (0.320 avg) -- home split: 0.320 avg
+- #6 Jazz Chisholm Jr. (L) [3-game hit streak] -- L7: 4H 1HR 3RBI 7TB (0.190 avg) -- home split: 0.215 avg
+- #7 José Caballero (R) -- L7: 5H 2HR 4RBI 11TB (0.312 avg) -- home split: 0.217 avg
+- #8 Ryan McMahon (L) [likely BABIP-driven, not a real power uptick] -- L7: 6H 0HR 4RBI 8TB (0.316 avg) -- home split: 0.254 avg
+- #9 Ali Sánchez (R) -- L7: 3H 0HR 0RBI 3TB (0.333 avg) -- home split: 0.174 avg
 
-## 2026-08-13 - Boston Red Sox @ Toronto Blue Jays (Scheduled)
+## 2026-08-13 - Boston Red Sox @ Toronto Blue Jays (Pre-Game)
 _Rogers Centre_
-Projected score: Boston Red Sox 5.4 - Toronto Blue Jays 2.7
-Model likes: **Boston Red Sox** to win (73%) | Run line: **Boston Red Sox** -1.5 (58% to cover) | Total 7.5: lean **UNDER** (50%)
+Projected score: Boston Red Sox 5.4 - Toronto Blue Jays 2.78
+Model likes: **Boston Red Sox** to win (73%) | Run line: **Boston Red Sox** -1.5 (57% to cover) | Total 7.5: lean **OVER** (51%)
 
 ### Boston Red Sox lineup -- PROJECTED (unconfirmed)
 **Probable P: Payton Tolle (L)** -- L5: 26.7 IP, 44 K, 10 ER, 3.38 ERA
@@ -184,17 +184,17 @@ Model likes: **Boston Red Sox** to win (73%) | Run line: **Boston Red Sox** -1.5
 - Willson Contreras (R) -- L7: 5H 1HR 4RBI 8TB (0.227 avg) -- away split: 0.246 avg
 - Anthony Seigler (S) [MATCHUP EDGE: pitcher hits 0.309 avg-against vs this hand] [4-game hit streak] -- L7: 6H 0HR 3RBI 8TB (0.316 avg) -- away split: 0.194 avg
 
-### Toronto Blue Jays lineup -- PROJECTED (unconfirmed)
+### Toronto Blue Jays lineup -- CONFIRMED
 **Probable P: Max Scherzer (R)** -- L5: 19.7 IP, 17 K, 16 ER, 7.32 ERA
-- Ernie Clement (R) -- L7: 6H 0HR 4RBI 7TB (0.222 avg) -- home split: 0.291 avg
-- Andrés Giménez (L) [7-game hit streak] -- L7: 10H 1HR 7RBI 15TB (0.370 avg) -- home split: 0.253 avg
-- Nathan Lukes (L) -- L7: 7H 1HR 3RBI 10TB (0.280 avg) -- home split: 0.242 avg
-- Myles Straw (R) -- L7: 5H 0HR 3RBI 7TB (0.200 avg) -- home split: 0.220 avg
-- George Springer (R) -- L7: 3H 0HR 1RBI 3TB (0.188 avg) -- home split: 0.253 avg
-- Kazuma Okamoto (R) -- L7: 5H 0HR 2RBI 6TB (0.179 avg) -- home split: 0.238 avg
-- Alejandro Kirk (R) [3-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 9H 0HR 4RBI 9TB (0.409 avg) -- home split: 0.282 avg
-- Vladimir Guerrero Jr. (R) [5-game hit streak] -- L7: 7H 1HR 2RBI 11TB (0.241 avg) -- home split: 0.256 avg
-- Jesús Sánchez (L) -- L7: 3H 1HR 2RBI 7TB (0.214 avg) -- home split: 0.290 avg
+- #1 Charles McAdoo (R) -- L7: 4H 1HR 2RBI 7TB (0.200 avg) -- home split: 0.182 avg
+- #2 Ernie Clement (R) -- L7: 6H 0HR 4RBI 7TB (0.222 avg) -- home split: 0.291 avg
+- #3 Vladimir Guerrero Jr. (R) [5-game hit streak] -- L7: 7H 1HR 2RBI 11TB (0.241 avg) -- home split: 0.256 avg
+- #4 George Springer (R) -- L7: 3H 0HR 1RBI 3TB (0.188 avg) -- home split: 0.253 avg
+- #5 Kazuma Okamoto (R) -- L7: 5H 0HR 2RBI 6TB (0.179 avg) -- home split: 0.238 avg
+- #6 Andrés Giménez (L) [7-game hit streak] -- L7: 10H 1HR 7RBI 15TB (0.370 avg) -- home split: 0.253 avg
+- #7 Brandon Valenzuela (S) -- L7: 4H 0HR 0RBI 5TB (0.286 avg) -- home split: 0.258 avg
+- #8 Myles Straw (R) -- L7: 5H 0HR 3RBI 7TB (0.200 avg) -- home split: 0.220 avg
+- #9 Nathan Lukes (L) -- L7: 7H 1HR 3RBI 10TB (0.280 avg) -- home split: 0.242 avg
 
 ## 2026-08-13 - Chicago Cubs @ Washington Nationals (Scheduled)
 _Nationals Park_
@@ -377,8 +377,8 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.58)_
 
 ## 2026-08-14 - Boston Red Sox @ Pittsburgh Pirates (Scheduled)
 _PNC Park_
-Projected score: Boston Red Sox 5.51 - Pittsburgh Pirates 3.78
-Model likes: **Boston Red Sox** to win (64%) | Run line: **Pittsburgh Pirates** +1.5 (50% to cover) | Total 8.5: lean **OVER** (51%)
+Projected score: Boston Red Sox 4.5 - Pittsburgh Pirates 3.78
+Model likes: **Boston Red Sox** to win (56%) | Run line: **Pittsburgh Pirates** +1.5 (59% to cover) | Total 7.5: lean **OVER** (52%)
 
 ### Boston Red Sox lineup -- PROJECTED (unconfirmed)
 - Caleb Durbin (R) -- L7: 7H 0HR 5RBI 9TB (0.269 avg) -- away split: 0.253 avg
@@ -393,6 +393,7 @@ Model likes: **Boston Red Sox** to win (64%) | Run line: **Pittsburgh Pirates** 
 
 ### Pittsburgh Pirates lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.56)_
+**Probable P: Bubba Chandler (R)** -- L5: 26.7 IP, 24 K, 7 ER, 2.36 ERA
 - Nick Gonzales (R) -- L7: 8H 0HR 3RBI 11TB (0.320 avg) -- home split: 0.290 avg
 - Bryan Reynolds (S) -- L7: 5H 0HR 0RBI 7TB (0.200 avg) -- home split: 0.308 avg
 - Brandon Lowe (L) -- L7: 4H 2HR 3RBI 10TB (0.160 avg) -- home split: 0.245 avg
@@ -406,7 +407,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.56)_
 ## 2026-08-14 - Chicago White Sox @ Detroit Tigers (Scheduled)
 _Comerica Park [pitcher-friendly park]_
 Projected score: Chicago White Sox 3.51 - Detroit Tigers 5.36
-Model likes: **Detroit Tigers** to win (65%) | Run line: **Detroit Tigers** -1.5 (50% to cover) | Total 8.5: lean **UNDER** (52%)
+Model likes: **Detroit Tigers** to win (65%) | Run line: **Detroit Tigers** -1.5 (51% to cover) | Total 8.5: lean **UNDER** (52%)
 
 ### Chicago White Sox lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.3 relief IP in last 2 days (ratio 0.69)_
@@ -785,7 +786,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-15 - New York Yankees @ Toronto Blue Jays (Scheduled)
 _Rogers Centre_
 Projected score: New York Yankees 3.79 - Toronto Blue Jays 2.99
-Model likes: **New York Yankees** to win (58%) | Run line: **Toronto Blue Jays** +1.5 (60% to cover) | Total 6.5: lean **UNDER** (53%)
+Model likes: **New York Yankees** to win (58%) | Run line: **Toronto Blue Jays** +1.5 (60% to cover) | Total 6.5: lean **UNDER** (52%)
 
 ### New York Yankees lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1025,8 +1026,8 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 
 ## 2026-08-15 - Boston Red Sox @ Pittsburgh Pirates (Scheduled)
 _PNC Park_
-Projected score: Boston Red Sox 5.51 - Pittsburgh Pirates 3.78
-Model likes: **Boston Red Sox** to win (64%) | Run line: **Pittsburgh Pirates** +1.5 (50% to cover) | Total 8.5: lean **OVER** (51%)
+Projected score: Boston Red Sox 4.92 - Pittsburgh Pirates 3.78
+Model likes: **Boston Red Sox** to win (60%) | Run line: **Pittsburgh Pirates** +1.5 (55% to cover) | Total 8.5: lean **UNDER** (54%)
 
 ### Boston Red Sox lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1042,6 +1043,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 
 ### Pittsburgh Pirates lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
+**Probable P: Jared Jones (R)** -- L5: 24.0 IP, 26 K, 16 ER, 6.0 ERA
 - Nick Gonzales (R) -- L7: 8H 0HR 3RBI 11TB (0.320 avg) -- home split: 0.290 avg
 - Bryan Reynolds (S) -- L7: 5H 0HR 0RBI 7TB (0.200 avg) -- home split: 0.308 avg
 - Brandon Lowe (L) -- L7: 4H 2HR 3RBI 10TB (0.160 avg) -- home split: 0.245 avg
