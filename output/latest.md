@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-13T08:08:15.506578+00:00_
+_Generated 2026-08-13T08:58:46.061641+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -140,7 +140,7 @@ _Facing a taxed bullpen: 8.3 relief IP in last 2 days (ratio 1.38)_
 ## 2026-08-13 - Cincinnati Reds @ Chicago White Sox (Scheduled)
 _Rate Field_
 Projected score: Cincinnati Reds 3.35 - Chicago White Sox 4.25
-Model likes: **Chicago White Sox** to win (58%) | Run line: **Cincinnati Reds** +1.5 (58% to cover) | Total 7.5: lean **UNDER** (55%)
+Model likes: **Chicago White Sox** to win (58%) | Run line: **Cincinnati Reds** +1.5 (58% to cover) | Total 7.5: lean **UNDER** (54%)
 
 ### Cincinnati Reds lineup -- PROJECTED (unconfirmed)
 **Probable P: Andrew Abbott (L)** -- L5: 27.7 IP, 18 K, 12 ER, 3.9 ERA
@@ -435,7 +435,7 @@ _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.3)_
 ## 2026-08-14 - Baltimore Orioles @ Tampa Bay Rays (Scheduled)
 _Tropicana Field_
 Projected score: Baltimore Orioles 3.42 - Tampa Bay Rays 5.18
-Model likes: **Tampa Bay Rays** to win (65%) | Run line: **Baltimore Orioles** +1.5 (50% to cover) | Total 7.5: lean **OVER** (55%)
+Model likes: **Tampa Bay Rays** to win (65%) | Run line: **Baltimore Orioles** +1.5 (50% to cover) | Total 8.5: lean **UNDER** (55%)
 
 ### Baltimore Orioles lineup -- PROJECTED (unconfirmed)
 - Jackson Holliday (L) -- L7: 6H 1HR 2RBI 11TB (0.222 avg) -- away split: 0.267 avg
