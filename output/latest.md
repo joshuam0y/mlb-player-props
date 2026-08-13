@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-13T10:42:17.660894+00:00_
+_Generated 2026-08-13T11:30:24.491475+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -199,7 +199,7 @@ Model likes: **Boston Red Sox** to win (73%) | Run line: **Boston Red Sox** -1.5
 ## 2026-08-13 - Chicago Cubs @ Washington Nationals (Scheduled)
 _Nationals Park_
 Projected score: Chicago Cubs 5.0 - Washington Nationals 4.84
-Model likes: **Chicago Cubs** to win (51%) | Run line: **Washington Nationals** +1.5 (62% to cover) | Total 9.5: lean **UNDER** (52%)
+Model likes: **Chicago Cubs** to win (51%) | Run line: **Washington Nationals** +1.5 (62% to cover) | Total 9.5: lean **UNDER** (53%)
 
 ### Chicago Cubs lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 10.7 relief IP in last 2 days (ratio 1.76)_
@@ -320,7 +320,7 @@ _Facing a taxed bullpen: 6.7 relief IP in last 2 days (ratio 1.29)_
 ## 2026-08-14 - St. Louis Cardinals @ Chicago Cubs (Scheduled)
 _Wrigley Field_
 Projected score: St. Louis Cardinals 4.22 - Chicago Cubs 6.02
-Model likes: **Chicago Cubs** to win (64%) | Run line: **Chicago Cubs** -1.5 (50% to cover) | Total 9.5: lean **OVER** (50%)
+Model likes: **Chicago Cubs** to win (63%) | Run line: **Chicago Cubs** -1.5 (50% to cover) | Total 9.5: lean **OVER** (50%)
 
 ### St. Louis Cardinals lineup -- PROJECTED (unconfirmed)
 **Probable P: Matthew Liberatore (L)** -- L5: 26.0 IP, 28 K, 13 ER, 4.5 ERA
@@ -755,7 +755,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-15 - St. Louis Cardinals @ Chicago Cubs (Scheduled)
 _Wrigley Field_
 Projected score: St. Louis Cardinals 4.22 - Chicago Cubs 4.82
-Model likes: **Chicago Cubs** to win (55%) | Run line: **St. Louis Cardinals** +1.5 (60% to cover) | Total 8.5: lean **UNDER** (50%)
+Model likes: **Chicago Cubs** to win (55%) | Run line: **St. Louis Cardinals** +1.5 (60% to cover) | Total 8.5: lean **UNDER** (51%)
 
 ### St. Louis Cardinals lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1146,7 +1146,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-15 - Texas Rangers @ Athletics (Scheduled)
 _Sutter Health Park_
 Projected score: Texas Rangers 6.26 - Athletics 4.37
-Model likes: **Texas Rangers** to win (64%) | Run line: **Texas Rangers** -1.5 (51% to cover) | Total 9.5: lean **OVER** (54%)
+Model likes: **Texas Rangers** to win (64%) | Run line: **Texas Rangers** -1.5 (51% to cover) | Total 9.5: lean **OVER** (53%)
 
 ### Texas Rangers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
