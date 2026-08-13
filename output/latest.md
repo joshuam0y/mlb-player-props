@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-13T20:23:13.459456+00:00_
+_Generated 2026-08-13T20:40:54.155971+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -106,7 +106,7 @@ _Facing a taxed bullpen: 8.3 relief IP in last 2 days (ratio 1.72)_
 - #8 Javier Báez (R) [3-game hit streak] -- L7: 6H 0HR 3RBI 6TB (0.214 avg) -- home split: 0.298 avg
 - #9 Ben Malgeri (R) -- L7: 2H 1HR 2RBI 5TB (0.167 avg) -- home split: 0.250 avg
 
-## 2026-08-13 - Cincinnati Reds @ Chicago White Sox (Game Over)
+## 2026-08-13 - Cincinnati Reds @ Chicago White Sox (Final)
 _Rate Field_
 Final: Cincinnati Reds 9 - Chicago White Sox 8
 
@@ -135,10 +135,9 @@ _Facing a taxed bullpen: 8.7 relief IP in last 2 days (ratio 1.87)_
 - #8 Sam Antonacci (L) -- L7: 8H 0HR 3RBI 11TB (0.348 avg) -- home split: 0.300 avg
 - #9 Luisangel Acuña (R) -- L7: 3H 0HR 0RBI 3TB (0.200 avg) -- home split: 0.235 avg
 
-## 2026-08-13 - Seattle Mariners @ New York Yankees (In Progress)
+## 2026-08-13 - Seattle Mariners @ New York Yankees (Final)
 _Yankee Stadium [hitter-friendly park]_
-Projected score: Seattle Mariners 2.77 - New York Yankees 3.57
-Model likes: **New York Yankees** to win (59%) | Run line: **Seattle Mariners** +1.5 (60% to cover) | Total 5.5: lean **OVER** (54%)
+Final: Seattle Mariners 1 - New York Yankees 0
 
 ### Seattle Mariners lineup -- CONFIRMED
 _Facing a taxed bullpen: 8.3 relief IP in last 2 days (ratio 1.38)_
@@ -795,7 +794,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-15 - New York Yankees @ Toronto Blue Jays (Scheduled)
 _Rogers Centre_
 Projected score: New York Yankees 3.79 - Toronto Blue Jays 2.32
-Model likes: **New York Yankees** to win (66%) | Run line: **Toronto Blue Jays** +1.5 (54% to cover) | Total 5.5: lean **OVER** (51%)
+Model likes: **New York Yankees** to win (66%) | Run line: **Toronto Blue Jays** +1.5 (53% to cover) | Total 5.5: lean **OVER** (52%)
 
 ### New York Yankees lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -886,7 +885,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-15 - Baltimore Orioles @ Tampa Bay Rays (Scheduled)
 _Tropicana Field_
 Projected score: Baltimore Orioles 3.42 - Tampa Bay Rays 5.18
-Model likes: **Tampa Bay Rays** to win (65%) | Run line: **Baltimore Orioles** +1.5 (50% to cover) | Total 8.5: lean **UNDER** (55%)
+Model likes: **Tampa Bay Rays** to win (65%) | Run line: **Baltimore Orioles** +1.5 (50% to cover) | Total 7.5: lean **OVER** (55%)
 
 ### Baltimore Orioles lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -946,7 +945,7 @@ _Facing a rested bullpen: 2.3 relief IP in last 2 days (ratio 0.45)_
 ## 2026-08-15 - Philadelphia Phillies @ Minnesota Twins (Scheduled)
 _Target Field_
 Projected score: Philadelphia Phillies 4.04 - Minnesota Twins 3.65
-Model likes: **Philadelphia Phillies** to win (53%) | Run line: **Minnesota Twins** +1.5 (63% to cover) | Total 7.5: lean **UNDER** (54%)
+Model likes: **Philadelphia Phillies** to win (54%) | Run line: **Minnesota Twins** +1.5 (63% to cover) | Total 7.5: lean **UNDER** (54%)
 
 ### Philadelphia Phillies lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1008,7 +1007,7 @@ _Facing a rested bullpen: 1.0 relief IP in last 2 days (ratio 0.22)_
 ## 2026-08-15 - San Diego Padres @ Cleveland Guardians (Scheduled)
 _Progressive Field_
 Projected score: San Diego Padres 4.21 - Cleveland Guardians 3.86
-Model likes: **San Diego Padres** to win (53%) | Run line: **Cleveland Guardians** +1.5 (63% to cover) | Total 7.5: lean **OVER** (50%)
+Model likes: **San Diego Padres** to win (53%) | Run line: **Cleveland Guardians** +1.5 (63% to cover) | Total 7.5: lean **UNDER** (50%)
 
 ### San Diego Padres lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.3 relief IP in last 2 days (ratio 0.47)_
@@ -1160,7 +1159,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-15 - Texas Rangers @ Athletics (Scheduled)
 _Sutter Health Park_
 Projected score: Texas Rangers 6.26 - Athletics 4.37
-Model likes: **Texas Rangers** to win (64%) | Run line: **Texas Rangers** -1.5 (51% to cover) | Total 9.5: lean **OVER** (54%)
+Model likes: **Texas Rangers** to win (64%) | Run line: **Texas Rangers** -1.5 (51% to cover) | Total 9.5: lean **OVER** (53%)
 
 ### Texas Rangers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
