@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-13T22:12:53.247732+00:00_
+_Generated 2026-08-13T22:55:14.735110+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -192,10 +192,9 @@ Final: Boston Red Sox 7 - Toronto Blue Jays 0
 - #8 Myles Straw (R) -- L7: 5H 0HR 3RBI 7TB (0.200 avg) -- home split: 0.220 avg
 - #9 Nathan Lukes (L) -- L7: 7H 1HR 3RBI 10TB (0.280 avg) -- home split: 0.242 avg
 
-## 2026-08-13 - Chicago Cubs @ Washington Nationals (In Progress)
+## 2026-08-13 - Chicago Cubs @ Washington Nationals (Final)
 _Nationals Park_
-Projected score: Chicago Cubs 5.07 - Washington Nationals 4.63
-Model likes: **Chicago Cubs** to win (53%) | Run line: **Washington Nationals** +1.5 (60% to cover) | Total 9.5: lean **UNDER** (54%)
+Final: Chicago Cubs 0 - Washington Nationals 7
 
 ### Chicago Cubs lineup -- CONFIRMED
 _Facing a taxed bullpen: 10.7 relief IP in last 2 days (ratio 1.76)_
@@ -583,7 +582,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.57)_
 ## 2026-08-14 - Seattle Mariners @ Houston Astros (Scheduled)
 _Daikin Park_
 Projected score: Seattle Mariners 2.71 - Houston Astros 3.98
-Model likes: **Houston Astros** to win (63%) | Run line: **Seattle Mariners** +1.5 (55% to cover) | Total 6.5: lean **UNDER** (53%)
+Model likes: **Houston Astros** to win (63%) | Run line: **Seattle Mariners** +1.5 (55% to cover) | Total 6.5: lean **UNDER** (54%)
 
 ### Seattle Mariners lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 8.3 relief IP in last 2 days (ratio 1.5)_
@@ -760,7 +759,7 @@ _Facing a rested bullpen: 2.7 relief IP in last 2 days (ratio 0.55)_
 ## 2026-08-15 - St. Louis Cardinals @ Chicago Cubs (Scheduled)
 _Wrigley Field_
 Projected score: St. Louis Cardinals 3.82 - Chicago Cubs 4.82
-Model likes: **Chicago Cubs** to win (58%) | Run line: **St. Louis Cardinals** +1.5 (57% to cover) | Total 8.5: lean **UNDER** (54%)
+Model likes: **Chicago Cubs** to win (59%) | Run line: **St. Louis Cardinals** +1.5 (57% to cover) | Total 8.5: lean **UNDER** (54%)
 
 ### St. Louis Cardinals lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 1.3 relief IP in last 2 days (ratio 0.33)_
@@ -882,7 +881,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-15 - Baltimore Orioles @ Tampa Bay Rays (Scheduled)
 _Tropicana Field_
 Projected score: Baltimore Orioles 3.42 - Tampa Bay Rays 5.18
-Model likes: **Tampa Bay Rays** to win (65%) | Run line: **Baltimore Orioles** +1.5 (50% to cover) | Total 8.5: lean **UNDER** (55%)
+Model likes: **Tampa Bay Rays** to win (65%) | Run line: **Baltimore Orioles** +1.5 (50% to cover) | Total 7.5: lean **OVER** (55%)
 
 ### Baltimore Orioles lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -912,7 +911,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-15 - Miami Marlins @ Cincinnati Reds (Scheduled)
 _Great American Ball Park [hitter-friendly park]_
 Projected score: Miami Marlins 4.59 - Cincinnati Reds 3.84
-Model likes: **Miami Marlins** to win (57%) | Run line: **Cincinnati Reds** +1.5 (59% to cover) | Total 7.5: lean **OVER** (53%)
+Model likes: **Miami Marlins** to win (56%) | Run line: **Cincinnati Reds** +1.5 (59% to cover) | Total 7.5: lean **OVER** (53%)
 
 ### Miami Marlins lineup -- PROJECTED (unconfirmed)
 **Probable P: Ryan Gusto (R)** [BULLPEN GAME: short-outing arm, no reliable individual matchup below] -- L5: 20.3 IP, 18 K, 10 ER, 4.43 ERA
@@ -1034,7 +1033,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-15 - Boston Red Sox @ Pittsburgh Pirates (Scheduled)
 _PNC Park_
 Projected score: Boston Red Sox 4.91 - Pittsburgh Pirates 2.97
-Model likes: **Boston Red Sox** to win (67%) | Run line: **Boston Red Sox** -1.5 (51% to cover) | Total 7.5: lean **UNDER** (52%)
+Model likes: **Boston Red Sox** to win (68%) | Run line: **Boston Red Sox** -1.5 (52% to cover) | Total 7.5: lean **UNDER** (52%)
 
 ### Boston Red Sox lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1096,7 +1095,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-15 - Arizona Diamondbacks @ Atlanta Braves (Scheduled)
 _Truist Park_
 Projected score: Arizona Diamondbacks 3.69 - Atlanta Braves 3.46
-Model likes: **Arizona Diamondbacks** to win (52%) | Run line: **Atlanta Braves** +1.5 (65% to cover) | Total 6.5: lean **OVER** (52%)
+Model likes: **Arizona Diamondbacks** to win (52%) | Run line: **Atlanta Braves** +1.5 (65% to cover) | Total 6.5: lean **OVER** (51%)
 
 ### Arizona Diamondbacks lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
