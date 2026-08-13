@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-13T20:21:08.589045+00:00_
+_Generated 2026-08-13T20:23:13.459456+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -886,7 +886,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-15 - Baltimore Orioles @ Tampa Bay Rays (Scheduled)
 _Tropicana Field_
 Projected score: Baltimore Orioles 3.42 - Tampa Bay Rays 5.18
-Model likes: **Tampa Bay Rays** to win (65%) | Run line: **Baltimore Orioles** +1.5 (50% to cover) | Total 7.5: lean **OVER** (55%)
+Model likes: **Tampa Bay Rays** to win (65%) | Run line: **Baltimore Orioles** +1.5 (50% to cover) | Total 8.5: lean **UNDER** (55%)
 
 ### Baltimore Orioles lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
