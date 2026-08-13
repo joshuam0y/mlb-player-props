@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-13T10:34:41.041369+00:00_
+_Generated 2026-08-13T10:42:17.660894+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -320,7 +320,7 @@ _Facing a taxed bullpen: 6.7 relief IP in last 2 days (ratio 1.29)_
 ## 2026-08-14 - St. Louis Cardinals @ Chicago Cubs (Scheduled)
 _Wrigley Field_
 Projected score: St. Louis Cardinals 4.22 - Chicago Cubs 6.02
-Model likes: **Chicago Cubs** to win (63%) | Run line: **Chicago Cubs** -1.5 (50% to cover) | Total 9.5: lean **OVER** (50%)
+Model likes: **Chicago Cubs** to win (64%) | Run line: **Chicago Cubs** -1.5 (50% to cover) | Total 9.5: lean **OVER** (50%)
 
 ### St. Louis Cardinals lineup -- PROJECTED (unconfirmed)
 **Probable P: Matthew Liberatore (L)** -- L5: 26.0 IP, 28 K, 13 ER, 4.5 ERA
@@ -966,7 +966,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-15 - Seattle Mariners @ Houston Astros (Scheduled)
 _Daikin Park_
 Projected score: Seattle Mariners 3.09 - Houston Astros 4.98
-Model likes: **Houston Astros** to win (67%) | Run line: **Houston Astros** -1.5 (51% to cover) | Total 7.5: lean **OVER** (50%)
+Model likes: **Houston Astros** to win (67%) | Run line: **Houston Astros** -1.5 (51% to cover) | Total 7.5: lean **UNDER** (50%)
 
 ### Seattle Mariners lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1146,7 +1146,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-15 - Texas Rangers @ Athletics (Scheduled)
 _Sutter Health Park_
 Projected score: Texas Rangers 6.26 - Athletics 4.37
-Model likes: **Texas Rangers** to win (64%) | Run line: **Texas Rangers** -1.5 (51% to cover) | Total 9.5: lean **OVER** (53%)
+Model likes: **Texas Rangers** to win (64%) | Run line: **Texas Rangers** -1.5 (51% to cover) | Total 9.5: lean **OVER** (54%)
 
 ### Texas Rangers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
