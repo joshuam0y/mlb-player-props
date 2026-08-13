@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-13T00:09:49.310562+00:00_
+_Generated 2026-08-13T00:46:30.073620+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -205,7 +205,7 @@ _Facing a taxed bullpen: 7.7 relief IP in last 2 days (ratio 1.7)_
 - #8 Drew Cavanaugh (L) -- L7: 4H 0HR 2RBI 5TB (0.200 avg) -- home split: 0.250 avg
 - #9 Christian Koss (R) [3-game hit streak] -- L7: 4H 0HR 1RBI 5TB (0.167 avg) -- home split: 0.132 avg
 
-## 2026-08-12 - Milwaukee Brewers @ San Diego Padres (Game Over)
+## 2026-08-12 - Milwaukee Brewers @ San Diego Padres (Final)
 _Petco Park [pitcher-friendly park]_
 Final: Milwaukee Brewers 3 - San Diego Padres 4
 
@@ -298,7 +298,7 @@ _Facing a rested bullpen: 1.7 relief IP in last 2 days (ratio 0.34)_
 ## 2026-08-12 - Chicago Cubs @ Washington Nationals (In Progress)
 _Nationals Park_
 Projected score: Chicago Cubs 6.53 - Washington Nationals 5.14
-Model likes: **Chicago Cubs** to win (59%) | Run line: **Washington Nationals** +1.5 (52% to cover) | Total 10.5: lean **OVER** (53%)
+Model likes: **Chicago Cubs** to win (59%) | Run line: **Washington Nationals** +1.5 (53% to cover) | Total 10.5: lean **OVER** (53%)
 
 ### Chicago Cubs lineup -- CONFIRMED
 **Probable P: David Peterson (L)** -- L5: 28.7 IP, 20 K, 5 ER, 1.57 ERA
@@ -602,7 +602,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.65)_
 ## 2026-08-13 - Cincinnati Reds @ Chicago White Sox (Scheduled)
 _Rate Field_
 Projected score: Cincinnati Reds 3.3 - Chicago White Sox 4.19
-Model likes: **Chicago White Sox** to win (58%) | Run line: **Cincinnati Reds** +1.5 (59% to cover) | Total 6.5: lean **OVER** (55%)
+Model likes: **Chicago White Sox** to win (58%) | Run line: **Cincinnati Reds** +1.5 (58% to cover) | Total 6.5: lean **OVER** (55%)
 
 ### Cincinnati Reds lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.45)_
@@ -723,7 +723,7 @@ _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.77)_
 ## 2026-08-13 - Texas Rangers @ Los Angeles Angels (Scheduled)
 _Angel Stadium_
 Projected score: Texas Rangers 3.21 - Los Angeles Angels 2.98
-Model likes: **Texas Rangers** to win (52%) | Run line: **Los Angeles Angels** +1.5 (67% to cover) | Total 5.5: lean **OVER** (53%)
+Model likes: **Texas Rangers** to win (53%) | Run line: **Los Angeles Angels** +1.5 (67% to cover) | Total 5.5: lean **OVER** (53%)
 
 ### Texas Rangers lineup -- PROJECTED (unconfirmed)
 **Probable P: Jacob deGrom (R)** -- L5: 23.0 IP, 29 K, 14 ER, 5.48 ERA
@@ -752,8 +752,8 @@ _Facing a rested bullpen: 1.0 relief IP in last 2 days (ratio 0.21)_
 
 ## 2026-08-13 - Milwaukee Brewers @ Los Angeles Dodgers (Scheduled)
 _UNIQLO Field at Dodger Stadium_
-Projected score: Milwaukee Brewers 4.36 - Los Angeles Dodgers 3.45
-Model likes: **Milwaukee Brewers** to win (58%) | Run line: **Los Angeles Dodgers** +1.5 (58% to cover) | Total 7.5: lean **UNDER** (52%)
+Projected score: Milwaukee Brewers 4.6 - Los Angeles Dodgers 3.45
+Model likes: **Milwaukee Brewers** to win (60%) | Run line: **Los Angeles Dodgers** +1.5 (56% to cover) | Total 7.5: lean **UNDER** (50%)
 
 ### Milwaukee Brewers lineup -- PROJECTED (unconfirmed)
 **Probable P: Shane Drohan (L)** -- L5: 29.3 IP, 32 K, 19 ER, 5.83 ERA
@@ -768,6 +768,7 @@ Model likes: **Milwaukee Brewers** to win (58%) | Run line: **Los Angeles Dodger
 - Jake Bauers (L) -- L7: 6H 1HR 3RBI 10TB (0.250 avg) -- away split: 0.290 avg
 
 ### Los Angeles Dodgers lineup -- PROJECTED (unconfirmed)
+**Probable P: Roki Sasaki (R)** -- L5: 30.0 IP, 31 K, 8 ER, 2.4 ERA
 - Andy Pages (R) -- L7: 7H 1HR 2RBI 11TB (0.269 avg) -- home split: 0.297 avg
 - Kyle Tucker (L) -- L7: 6H 2HR 3RBI 14TB (0.250 avg) -- home split: 0.203 avg
 - Teoscar Hernández (R) -- L7: 2H 0HR 1RBI 3TB (0.111 avg) -- home split: 0.248 avg
@@ -840,7 +841,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-14 - Boston Red Sox @ Pittsburgh Pirates (Scheduled)
 _PNC Park_
 Projected score: Boston Red Sox 5.45 - Pittsburgh Pirates 3.68
-Model likes: **Boston Red Sox** to win (64%) | Run line: **Boston Red Sox** -1.5 (50% to cover) | Total 8.5: lean **UNDER** (50%)
+Model likes: **Boston Red Sox** to win (64%) | Run line: **Boston Red Sox** -1.5 (50% to cover) | Total 8.5: lean **OVER** (50%)
 
 ### Boston Red Sox lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1014,7 +1015,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-14 - Arizona Diamondbacks @ Atlanta Braves (Scheduled)
 _Truist Park_
 Projected score: Arizona Diamondbacks 3.92 - Atlanta Braves 4.14
-Model likes: **Atlanta Braves** to win (52%) | Run line: **Arizona Diamondbacks** +1.5 (64% to cover) | Total 7.5: lean **OVER** (50%)
+Model likes: **Atlanta Braves** to win (52%) | Run line: **Arizona Diamondbacks** +1.5 (64% to cover) | Total 7.5: lean **UNDER** (50%)
 
 ### Arizona Diamondbacks lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1103,7 +1104,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-14 - Texas Rangers @ Athletics (Scheduled)
 _Sutter Health Park_
 Projected score: Texas Rangers 6.48 - Athletics 4.31
-Model likes: **Texas Rangers** to win (66%) | Run line: **Texas Rangers** -1.5 (53% to cover) | Total 10.5: lean **UNDER** (53%)
+Model likes: **Texas Rangers** to win (65%) | Run line: **Texas Rangers** -1.5 (53% to cover) | Total 10.5: lean **UNDER** (53%)
 
 ### Texas Rangers lineup -- PROJECTED (unconfirmed)
 - Wyatt Langford (R) -- L7: 2H 0HR 0RBI 3TB (0.095 avg) -- away split: 0.255 avg
@@ -1130,24 +1131,25 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 
 ## 2026-08-14 - Milwaukee Brewers @ Los Angeles Dodgers (Scheduled)
 _UNIQLO Field at Dodger Stadium_
-Projected score: Milwaukee Brewers 4.36 - Los Angeles Dodgers 3.97
-Model likes: **Milwaukee Brewers** to win (53%) | Run line: **Los Angeles Dodgers** +1.5 (62% to cover) | Total 7.5: lean **OVER** (52%)
+Projected score: Milwaukee Brewers 3.45 - Los Angeles Dodgers 3.97
+Model likes: **Los Angeles Dodgers** to win (55%) | Run line: **Milwaukee Brewers** +1.5 (62% to cover) | Total 6.5: lean **OVER** (54%)
 
 ### Milwaukee Brewers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 **Probable P: Robert Gasser (L)** -- L5: 23.7 IP, 21 K, 14 ER, 5.32 ERA
-- Jackson Chourio (R) -- L7: 6H 3HR 4RBI 15TB (0.250 avg) -- away split: 0.279 avg
+- Jackson Chourio (R) [TOUGH MATCHUP: pitcher holds this hand to 0.197 avg-against] -- L7: 6H 3HR 4RBI 15TB (0.250 avg) -- away split: 0.279 avg
 - Garrett Mitchell (L) -- L7: 4H 0HR 1RBI 5TB (0.182 avg) -- away split: 0.242 avg
 - Brice Turang (L) -- L7: 9H 0HR 7RBI 12TB (0.300 avg) -- away split: 0.242 avg
 - David Hamilton (L) -- L7: 4H 0HR 1RBI 6TB (0.190 avg) -- away split: 0.271 avg
 - Luis Lara (S) -- L7: 4H 0HR 0RBI 4TB (0.222 avg) -- away split: 0.205 avg
-- Andrew Vaughn (R) -- L7: 6H 0HR 4RBI 7TB (0.261 avg) -- away split: 0.317 avg
-- William Contreras (R) -- L7: 2H 1HR 2RBI 5TB (0.083 avg) -- away split: 0.265 avg
+- Andrew Vaughn (R) [TOUGH MATCHUP: pitcher holds this hand to 0.197 avg-against] -- L7: 6H 0HR 4RBI 7TB (0.261 avg) -- away split: 0.317 avg
+- William Contreras (R) [TOUGH MATCHUP: pitcher holds this hand to 0.197 avg-against] -- L7: 2H 1HR 2RBI 5TB (0.083 avg) -- away split: 0.265 avg
 - Christian Yelich (L) -- L7: 5H 1HR 3RBI 9TB (0.238 avg) -- away split: 0.206 avg
 - Jake Bauers (L) -- L7: 6H 1HR 3RBI 10TB (0.250 avg) -- away split: 0.290 avg
 
 ### Los Angeles Dodgers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.7 relief IP in last 2 days (ratio 0.61)_
+**Probable P: Yoshinobu Yamamoto (R)** -- L5: 34.7 IP, 27 K, 12 ER, 3.12 ERA
 - Andy Pages (R) [MATCHUP EDGE: pitcher hits 0.276 avg-against vs this hand] -- L7: 7H 1HR 2RBI 11TB (0.269 avg) -- home split: 0.297 avg
 - Kyle Tucker (L) [TOUGH MATCHUP: pitcher holds this hand to 0.178 avg-against] -- L7: 6H 2HR 3RBI 14TB (0.250 avg) -- home split: 0.203 avg
 - Teoscar Hernández (R) [MATCHUP EDGE: pitcher hits 0.276 avg-against vs this hand] -- L7: 2H 0HR 1RBI 3TB (0.111 avg) -- home split: 0.248 avg
