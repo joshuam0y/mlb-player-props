@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-14T07:56:25.957361+00:00_
+_Generated 2026-08-14T08:42:06.479511+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -149,7 +149,7 @@ Model likes: **Boston Red Sox** to win (64%) | Run line: **Pittsburgh Pirates** 
 ## 2026-08-14 - Chicago White Sox @ Detroit Tigers (Scheduled)
 _Comerica Park [pitcher-friendly park]_
 Projected score: Chicago White Sox 3.4 - Detroit Tigers 3.75
-Model likes: **Detroit Tigers** to win (53%) | Run line: **Chicago White Sox** +1.5 (64% to cover) | Total 6.5: lean **OVER** (52%)
+Model likes: **Detroit Tigers** to win (54%) | Run line: **Chicago White Sox** +1.5 (64% to cover) | Total 6.5: lean **OVER** (51%)
 
 ### Chicago White Sox lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 6.0 relief IP in last 2 days (ratio 1.24)_
@@ -416,7 +416,7 @@ _Facing a taxed bullpen: 9.0 relief IP in last 2 days (ratio 1.84)_
 ## 2026-08-14 - Milwaukee Brewers @ Los Angeles Dodgers (Scheduled)
 _UNIQLO Field at Dodger Stadium_
 Projected score: Milwaukee Brewers 3.28 - Los Angeles Dodgers 4.18
-Model likes: **Los Angeles Dodgers** to win (59%) | Run line: **Milwaukee Brewers** +1.5 (58% to cover) | Total 6.5: lean **OVER** (54%)
+Model likes: **Los Angeles Dodgers** to win (58%) | Run line: **Milwaukee Brewers** +1.5 (58% to cover) | Total 6.5: lean **OVER** (54%)
 
 ### Milwaukee Brewers lineup -- PROJECTED (unconfirmed)
 **Probable P: Robert Gasser (L)** -- L5: 23.7 IP, 21 K, 14 ER, 5.32 ERA
@@ -446,7 +446,7 @@ _Facing a taxed bullpen: 7.3 relief IP in last 2 days (ratio 1.22)_
 ## 2026-08-14 - Colorado Rockies @ San Francisco Giants (Scheduled)
 _Oracle Park [pitcher-friendly park]_
 Projected score: Colorado Rockies 3.71 - San Francisco Giants 4.9
-Model likes: **San Francisco Giants** to win (60%) | Run line: **Colorado Rockies** +1.5 (55% to cover) | Total 8.5: lean **UNDER** (54%)
+Model likes: **San Francisco Giants** to win (60%) | Run line: **Colorado Rockies** +1.5 (55% to cover) | Total 8.5: lean **UNDER** (55%)
 
 ### Colorado Rockies lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.67)_
@@ -686,7 +686,7 @@ _Facing a rested bullpen: 2.3 relief IP in last 2 days (ratio 0.45)_
 ## 2026-08-15 - Philadelphia Phillies @ Minnesota Twins (Scheduled)
 _Target Field_
 Projected score: Philadelphia Phillies 4.09 - Minnesota Twins 3.71
-Model likes: **Philadelphia Phillies** to win (54%) | Run line: **Minnesota Twins** +1.5 (63% to cover) | Total 7.5: lean **UNDER** (52%)
+Model likes: **Philadelphia Phillies** to win (53%) | Run line: **Minnesota Twins** +1.5 (63% to cover) | Total 7.5: lean **UNDER** (52%)
 
 ### Philadelphia Phillies lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 5.0 relief IP in last 2 days (ratio 1.25)_
@@ -777,7 +777,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-15 - Boston Red Sox @ Pittsburgh Pirates (Scheduled)
 _PNC Park_
 Projected score: Boston Red Sox 4.74 - Pittsburgh Pirates 2.98
-Model likes: **Boston Red Sox** to win (66%) | Run line: **Pittsburgh Pirates** +1.5 (50% to cover) | Total 7.5: lean **UNDER** (54%)
+Model likes: **Boston Red Sox** to win (66%) | Run line: **Pittsburgh Pirates** +1.5 (50% to cover) | Total 7.5: lean **UNDER** (53%)
 
 ### Boston Red Sox lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1083,7 +1083,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-16 - Chicago White Sox @ Detroit Tigers (Scheduled)
 _Comerica Park [pitcher-friendly park]_
 Projected score: Chicago White Sox 3.65 - Detroit Tigers 3.51
-Model likes: **Chicago White Sox** to win (51%) | Run line: **Detroit Tigers** +1.5 (66% to cover) | Total 6.5: lean **OVER** (52%)
+Model likes: **Chicago White Sox** to win (51%) | Run line: **Detroit Tigers** +1.5 (66% to cover) | Total 6.5: lean **OVER** (51%)
 
 ### Chicago White Sox lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1176,7 +1176,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-16 - Philadelphia Phillies @ Minnesota Twins (Scheduled)
 _Target Field_
 Projected score: Philadelphia Phillies 4.73 - Minnesota Twins 5.32
-Model likes: **Minnesota Twins** to win (54%) | Run line: **Philadelphia Phillies** +1.5 (59% to cover) | Total 9.5: lean **UNDER** (51%)
+Model likes: **Minnesota Twins** to win (55%) | Run line: **Philadelphia Phillies** +1.5 (59% to cover) | Total 9.5: lean **UNDER** (51%)
 
 ### Philadelphia Phillies lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
