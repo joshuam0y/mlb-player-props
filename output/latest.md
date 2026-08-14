@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-14T00:10:00.476536+00:00_
+_Generated 2026-08-14T00:45:38.202234+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -315,7 +315,7 @@ _Facing a taxed bullpen: 6.7 relief IP in last 2 days (ratio 1.29)_
 ## 2026-08-14 - St. Louis Cardinals @ Chicago Cubs (Scheduled)
 _Wrigley Field_
 Projected score: St. Louis Cardinals 3.46 - Chicago Cubs 6.02
-Model likes: **Chicago Cubs** to win (70%) | Run line: **Chicago Cubs** -1.5 (56% to cover) | Total 8.5: lean **OVER** (52%)
+Model likes: **Chicago Cubs** to win (70%) | Run line: **Chicago Cubs** -1.5 (56% to cover) | Total 8.5: lean **OVER** (53%)
 
 ### St. Louis Cardinals lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 7.3 relief IP in last 2 days (ratio 1.82)_
@@ -403,11 +403,12 @@ Model likes: **Boston Red Sox** to win (65%) | Run line: **Pittsburgh Pirates** 
 
 ## 2026-08-14 - Chicago White Sox @ Detroit Tigers (Scheduled)
 _Comerica Park [pitcher-friendly park]_
-Projected score: Chicago White Sox 3.56 - Detroit Tigers 5.36
-Model likes: **Detroit Tigers** to win (65%) | Run line: **Detroit Tigers** -1.5 (50% to cover) | Total 8.5: lean **UNDER** (52%)
+Projected score: Chicago White Sox 3.56 - Detroit Tigers 3.19
+Model likes: **Chicago White Sox** to win (54%) | Run line: **Detroit Tigers** +1.5 (64% to cover) | Total 6.5: lean **UNDER** (53%)
 
 ### Chicago White Sox lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 6.0 relief IP in last 2 days (ratio 1.24)_
+**Probable P: Sean Newcomb (L)** [BULLPEN GAME: short-outing arm, no reliable individual matchup below] -- L5: 6.7 IP, 5 K, 0 ER, 0.0 ERA
 - Munetaka Murakami (L) -- L7: 4H 2HR 3RBI 12TB (0.160 avg) -- away split: 0.245 avg
 - Sam Antonacci (L) [3-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 9H 0HR 3RBI 12TB (0.360 avg) -- away split: 0.256 avg
 - Colson Montgomery (L) -- L7: 5H 1HR 5RBI 8TB (0.179 avg) -- away split: 0.211 avg
@@ -463,7 +464,7 @@ _Facing a rested bullpen: 4.0 relief IP in last 2 days (ratio 0.68)_
 ## 2026-08-14 - Washington Nationals @ New York Mets (Scheduled)
 _Citi Field_
 Projected score: Washington Nationals 5.01 - New York Mets 4.29
-Model likes: **Washington Nationals** to win (56%) | Run line: **New York Mets** +1.5 (58% to cover) | Total 8.5: lean **OVER** (52%)
+Model likes: **Washington Nationals** to win (56%) | Run line: **New York Mets** +1.5 (58% to cover) | Total 8.5: lean **OVER** (51%)
 
 ### Washington Nationals lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.35)_
@@ -523,7 +524,7 @@ _Facing a taxed bullpen: 6.3 relief IP in last 2 days (ratio 1.27)_
 ## 2026-08-14 - New York Yankees @ Toronto Blue Jays (Scheduled)
 _Rogers Centre_
 Projected score: New York Yankees 4.16 - Toronto Blue Jays 2.91
-Model likes: **New York Yankees** to win (62%) | Run line: **Toronto Blue Jays** +1.5 (55% to cover) | Total 6.5: lean **OVER** (51%)
+Model likes: **New York Yankees** to win (62%) | Run line: **Toronto Blue Jays** +1.5 (55% to cover) | Total 6.5: lean **OVER** (50%)
 
 ### New York Yankees lineup -- PROJECTED (unconfirmed)
 **Probable P: Gerrit Cole (R)** -- L5: 31.7 IP, 40 K, 8 ER, 2.27 ERA
@@ -553,7 +554,7 @@ _Facing a taxed bullpen: 9.0 relief IP in last 2 days (ratio 1.48)_
 ## 2026-08-14 - Arizona Diamondbacks @ Atlanta Braves (Scheduled)
 _Truist Park_
 Projected score: Arizona Diamondbacks 3.69 - Atlanta Braves 4.02
-Model likes: **Atlanta Braves** to win (53%) | Run line: **Arizona Diamondbacks** +1.5 (63% to cover) | Total 7.5: lean **UNDER** (53%)
+Model likes: **Atlanta Braves** to win (53%) | Run line: **Arizona Diamondbacks** +1.5 (64% to cover) | Total 7.5: lean **UNDER** (53%)
 
 ### Arizona Diamondbacks lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.57)_
@@ -760,7 +761,7 @@ _Facing a rested bullpen: 2.7 relief IP in last 2 days (ratio 0.55)_
 ## 2026-08-15 - St. Louis Cardinals @ Chicago Cubs (Scheduled)
 _Wrigley Field_
 Projected score: St. Louis Cardinals 3.82 - Chicago Cubs 4.82
-Model likes: **Chicago Cubs** to win (58%) | Run line: **St. Louis Cardinals** +1.5 (57% to cover) | Total 8.5: lean **UNDER** (54%)
+Model likes: **Chicago Cubs** to win (59%) | Run line: **St. Louis Cardinals** +1.5 (57% to cover) | Total 8.5: lean **UNDER** (54%)
 
 ### St. Louis Cardinals lineup -- PROJECTED (unconfirmed)
 **Probable P: Michael McGreevy (R)** -- L5: 24.3 IP, 19 K, 17 ER, 6.29 ERA
@@ -911,7 +912,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-15 - Miami Marlins @ Cincinnati Reds (Scheduled)
 _Great American Ball Park [hitter-friendly park]_
 Projected score: Miami Marlins 4.59 - Cincinnati Reds 3.84
-Model likes: **Miami Marlins** to win (57%) | Run line: **Cincinnati Reds** +1.5 (59% to cover) | Total 7.5: lean **OVER** (53%)
+Model likes: **Miami Marlins** to win (56%) | Run line: **Cincinnati Reds** +1.5 (59% to cover) | Total 7.5: lean **OVER** (53%)
 
 ### Miami Marlins lineup -- PROJECTED (unconfirmed)
 **Probable P: Ryan Gusto (R)** [BULLPEN GAME: short-outing arm, no reliable individual matchup below] -- L5: 20.3 IP, 18 K, 10 ER, 4.43 ERA
@@ -1033,7 +1034,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-15 - Boston Red Sox @ Pittsburgh Pirates (Scheduled)
 _PNC Park_
 Projected score: Boston Red Sox 4.91 - Pittsburgh Pirates 2.97
-Model likes: **Boston Red Sox** to win (68%) | Run line: **Boston Red Sox** -1.5 (52% to cover) | Total 7.5: lean **UNDER** (52%)
+Model likes: **Boston Red Sox** to win (68%) | Run line: **Boston Red Sox** -1.5 (51% to cover) | Total 7.5: lean **UNDER** (52%)
 
 ### Boston Red Sox lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1095,7 +1096,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-15 - Arizona Diamondbacks @ Atlanta Braves (Scheduled)
 _Truist Park_
 Projected score: Arizona Diamondbacks 3.69 - Atlanta Braves 3.46
-Model likes: **Arizona Diamondbacks** to win (52%) | Run line: **Atlanta Braves** +1.5 (65% to cover) | Total 6.5: lean **OVER** (52%)
+Model likes: **Arizona Diamondbacks** to win (52%) | Run line: **Atlanta Braves** +1.5 (65% to cover) | Total 6.5: lean **OVER** (51%)
 
 ### Arizona Diamondbacks lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
