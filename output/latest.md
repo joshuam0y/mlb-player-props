@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-13T23:40:08.616512+00:00_
+_Generated 2026-08-14T00:10:00.476536+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -315,7 +315,7 @@ _Facing a taxed bullpen: 6.7 relief IP in last 2 days (ratio 1.29)_
 ## 2026-08-14 - St. Louis Cardinals @ Chicago Cubs (Scheduled)
 _Wrigley Field_
 Projected score: St. Louis Cardinals 3.46 - Chicago Cubs 6.02
-Model likes: **Chicago Cubs** to win (70%) | Run line: **Chicago Cubs** -1.5 (56% to cover) | Total 8.5: lean **OVER** (53%)
+Model likes: **Chicago Cubs** to win (70%) | Run line: **Chicago Cubs** -1.5 (56% to cover) | Total 8.5: lean **OVER** (52%)
 
 ### St. Louis Cardinals lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 7.3 relief IP in last 2 days (ratio 1.82)_
@@ -523,7 +523,7 @@ _Facing a taxed bullpen: 6.3 relief IP in last 2 days (ratio 1.27)_
 ## 2026-08-14 - New York Yankees @ Toronto Blue Jays (Scheduled)
 _Rogers Centre_
 Projected score: New York Yankees 4.16 - Toronto Blue Jays 2.91
-Model likes: **New York Yankees** to win (62%) | Run line: **Toronto Blue Jays** +1.5 (55% to cover) | Total 6.5: lean **OVER** (50%)
+Model likes: **New York Yankees** to win (62%) | Run line: **Toronto Blue Jays** +1.5 (55% to cover) | Total 6.5: lean **OVER** (51%)
 
 ### New York Yankees lineup -- PROJECTED (unconfirmed)
 **Probable P: Gerrit Cole (R)** -- L5: 31.7 IP, 40 K, 8 ER, 2.27 ERA
@@ -553,7 +553,7 @@ _Facing a taxed bullpen: 9.0 relief IP in last 2 days (ratio 1.48)_
 ## 2026-08-14 - Arizona Diamondbacks @ Atlanta Braves (Scheduled)
 _Truist Park_
 Projected score: Arizona Diamondbacks 3.69 - Atlanta Braves 4.02
-Model likes: **Atlanta Braves** to win (53%) | Run line: **Arizona Diamondbacks** +1.5 (63% to cover) | Total 7.5: lean **UNDER** (54%)
+Model likes: **Atlanta Braves** to win (53%) | Run line: **Arizona Diamondbacks** +1.5 (63% to cover) | Total 7.5: lean **UNDER** (53%)
 
 ### Arizona Diamondbacks lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.57)_
@@ -946,28 +946,28 @@ Model likes: **Philadelphia Phillies** to win (54%) | Run line: **Minnesota Twin
 ### Philadelphia Phillies lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 **Probable P: Jesús Luzardo (L)** -- L5: 33.3 IP, 40 K, 10 ER, 2.7 ERA
-- Justin Crawford (L) -- L7: 6H 0HR 2RBI 10TB (0.286 avg) -- away split: 0.236 avg
-- Bryson Stott (L) [5-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 10H 0HR 2RBI 13TB (0.417 avg) -- away split: 0.240 avg
-- Brandon Marsh (L) -- L7: 5H 0HR 2RBI 6TB (0.192 avg) -- away split: 0.252 avg
-- Alec Bohm (R) -- L7: 6H 0HR 2RBI 7TB (0.316 avg) -- away split: 0.218 avg
-- Bryce Harper (L) -- L7: 6H 1HR 3RBI 11TB (0.286 avg) -- away split: 0.248 avg
-- Trea Turner (R) -- L7: 5H 1HR 3RBI 9TB (0.167 avg) -- away split: 0.218 avg
-- Kyle Schwarber (L) [likely BABIP-driven, not a real power uptick] -- L7: 9H 2HR 6RBI 17TB (0.360 avg) -- away split: 0.234 avg
-- J.T. Realmuto (R) -- L7: 5H 0HR 1RBI 6TB (0.172 avg) -- away split: 0.195 avg
-- Derek Hill (R) -- L7: 2H 1HR 5RBI 5TB (0.154 avg) -- away split: 0.261 avg
+- Justin Crawford (L) -- L7: 5H 0HR 1RBI 9TB (0.263 avg) -- away split: 0.235 avg
+- Bryson Stott (L) [6-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 9H 0HR 2RBI 10TB (0.409 avg) -- away split: 0.244 avg
+- Brandon Marsh (L) -- L7: 3H 0HR 1RBI 3TB (0.136 avg) -- away split: 0.252 avg
+- Alec Bohm (R) -- L7: 5H 0HR 1RBI 5TB (0.312 avg) -- away split: 0.217 avg
+- Bryce Harper (L) -- L7: 4H 1HR 3RBI 8TB (0.222 avg) -- away split: 0.248 avg
+- Kyle Schwarber (L) -- L7: 8H 3HR 6RBI 19TB (0.381 avg) -- away split: 0.238 avg
+- Trea Turner (R) -- L7: 5H 1HR 2RBI 9TB (0.185 avg) -- away split: 0.217 avg
+- J.T. Realmuto (R) -- L7: 5H 0HR 1RBI 6TB (0.192 avg) -- away split: 0.194 avg
+- Luis Arraez (L) -- L7: 4H 0HR 2RBI 5TB (0.143 avg) -- away split: 0.284 avg
 
 ### Minnesota Twins lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 **Probable P: Connor Prielipp (L)** -- L5: 27.0 IP, 33 K, 12 ER, 4.0 ERA
-- Royce Lewis (R) [3-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 11H 1HR 6RBI 18TB (0.355 avg) -- home split: 0.252 avg
-- Luke Keaschall (R) -- L7: 6H 0HR 2RBI 7TB (0.261 avg) -- home split: 0.215 avg
+- Royce Lewis (R) [likely BABIP-driven, not a real power uptick] -- L7: 10H 0HR 5RBI 14TB (0.357 avg) -- home split: 0.250 avg
+- Luke Keaschall (R) -- L7: 5H 0HR 2RBI 6TB (0.263 avg) -- home split: 0.215 avg
+- Kody Clemens (L) [TOUGH MATCHUP: pitcher holds this hand to 0.154 avg-against] -- L7: 3H 1HR 3RBI 6TB (0.130 avg) -- home split: 0.260 avg
+- Josh Bell (S) [likely BABIP-driven, not a real power uptick] -- L7: 10H 2HR 7RBI 16TB (0.385 avg) -- home split: 0.249 avg
 - Brooks Lee (S) [4-game hit streak] -- L7: 9H 1HR 4RBI 14TB (0.321 avg) -- home split: 0.209 avg
+- Ryan Jeffers (R) -- L7: 5H 0HR 4RBI 7TB (0.263 avg) -- home split: 0.308 avg
 - Ryan Kreidler (R) -- L7: 4H 0HR 0RBI 4TB (0.190 avg) -- home split: 0.264 avg
 - Austin Martin (R) -- L7: 6H 1HR 2RBI 11TB (0.316 avg) -- home split: 0.266 avg
-- Kody Clemens (L) [TOUGH MATCHUP: pitcher holds this hand to 0.154 avg-against] -- L7: 4H 1HR 3RBI 7TB (0.148 avg) -- home split: 0.260 avg
-- Josh Bell (S) [likely BABIP-driven, not a real power uptick] -- L7: 11H 2HR 8RBI 17TB (0.393 avg) -- home split: 0.250 avg
-- Ryan Jeffers (R) -- L7: 6H 0HR 4RBI 8TB (0.261 avg) -- home split: 0.308 avg
-- Trevor Larnach (L) [TOUGH MATCHUP: pitcher holds this hand to 0.154 avg-against] -- L7: 2H 0HR 1RBI 2TB (0.083 avg) -- home split: 0.252 avg
+- Trevor Larnach (L) [TOUGH MATCHUP: pitcher holds this hand to 0.154 avg-against] -- L7: 3H 0HR 1RBI 3TB (0.136 avg) -- home split: 0.257 avg
 
 ## 2026-08-15 - Seattle Mariners @ Houston Astros (Scheduled)
 _Daikin Park_
