@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-14T22:51:58.134675+00:00_
+_Generated 2026-08-14T22:52:53.666032+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -485,8 +485,8 @@ _Facing a rested bullpen: 2.7 relief IP in last 2 days (ratio 0.55)_
 - Munetaka Murakami (L) -- L7: 4H 2HR 3RBI 12TB (0.160 avg) -- away split: 0.245 avg
 - Sam Antonacci (L) [3-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 9H 0HR 3RBI 12TB (0.360 avg) -- away split: 0.256 avg
 - Colson Montgomery (L) -- L7: 5H 1HR 5RBI 8TB (0.179 avg) -- away split: 0.211 avg
+- Miguel Vargas (R) [TOUGH MATCHUP: pitcher holds this hand to 0.167 avg-against] -- L7: 3H 1HR 1RBI 7TB (0.120 avg) -- away split: 0.217 avg
 - Braden Montgomery (S) -- L7: 5H 1HR 3RBI 8TB (0.217 avg) -- away split: 0.195 avg
-- Miguel Vargas (R) [TOUGH MATCHUP: pitcher holds this hand to 0.167 avg-against] -- L7: 5H 1HR 1RBI 9TB (0.179 avg) -- away split: 0.217 avg
 - Tristan Peters (L) -- L7: 3H 0HR 2RBI 5TB (0.214 avg) -- away split: 0.268 avg
 - Chase Meidroth (R) [TOUGH MATCHUP: pitcher holds this hand to 0.167 avg-against] [5-game hit streak] -- L7: 10H 3HR 9RBI 22TB (0.370 avg) -- away split: 0.275 avg
 - Andrew Benintendi (L) -- L7: 4H 0HR 2RBI 5TB (0.235 avg) -- away split: 0.256 avg
@@ -664,33 +664,33 @@ Model likes: **Miami Marlins** to win (55%) | Run line: **Cincinnati Reds** +1.5
 
 ### Miami Marlins lineup -- PROJECTED (unconfirmed)
 **Probable P: Ryan Gusto (R)** [BULLPEN GAME: short-outing arm, no reliable individual matchup below] -- L5: 20.3 IP, 18 K, 10 ER, 4.43 ERA
-- Jakob Marsee (L) [MATCHUP EDGE: pitcher hits 0.297 avg-against vs this hand] [likely BABIP-driven, not a real power uptick] -- L7: 7H 0HR 0RBI 9TB (0.318 avg) -- away split: 0.194 avg
-- Javier Sanoja (R) [likely BABIP-driven, not a real power uptick] -- L7: 8H 0HR 5RBI 11TB (0.381 avg) -- away split: 0.268 avg
-- Otto Lopez (R) -- L7: 6H 0HR 2RBI 6TB (0.200 avg) -- away split: 0.311 avg
-- Xavier Edwards (S) [MATCHUP EDGE: pitcher hits 0.297 avg-against vs this hand] -- L7: 5H 0HR 5RBI 7TB (0.200 avg) -- away split: 0.277 avg
-- Griffin Conine (L) [MATCHUP EDGE: pitcher hits 0.297 avg-against vs this hand] [5-game hit streak] -- L7: 9H 3HR 6RBI 19TB (0.429 avg) -- away split: 0.211 avg
-- Heriberto Hernández (R) -- L7: 3H 1HR 3RBI 7TB (0.111 avg) -- away split: 0.221 avg
-- Joe Mack (L) [MATCHUP EDGE: pitcher hits 0.297 avg-against vs this hand] -- L7: 2H 0HR 2RBI 2TB (0.111 avg) -- away split: 0.250 avg
+- Jakob Marsee (L) [MATCHUP EDGE: pitcher hits 0.297 avg-against vs this hand] -- L7: 7H 0HR 0RBI 9TB (0.304 avg) -- away split: 0.193 avg
+- Javier Sanoja (R) -- L7: 6H 0HR 3RBI 8TB (0.333 avg) -- away split: 0.266 avg
+- Otto Lopez (R) -- L7: 5H 0HR 2RBI 5TB (0.192 avg) -- away split: 0.310 avg
+- Xavier Edwards (S) [MATCHUP EDGE: pitcher hits 0.297 avg-against vs this hand] -- L7: 5H 0HR 5RBI 6TB (0.208 avg) -- away split: 0.280 avg
+- Griffin Conine (L) [MATCHUP EDGE: pitcher hits 0.297 avg-against vs this hand] -- L7: 8H 3HR 5RBI 18TB (0.421 avg) -- away split: 0.208 avg
+- Heriberto Hernández (R) -- L7: 4H 1HR 3RBI 8TB (0.167 avg) -- away split: 0.227 avg
+- Joe Mack (L) [MATCHUP EDGE: pitcher hits 0.297 avg-against vs this hand] -- L7: 2H 0HR 2RBI 2TB (0.125 avg) -- away split: 0.250 avg
+- Owen Caissie (L) [MATCHUP EDGE: pitcher hits 0.297 avg-against vs this hand] -- L7: 4H 1HR 2RBI 7TB (0.222 avg) -- away split: 0.192 avg
 - Esteury Ruiz (R) -- L7: 4H 1HR 1RBI 8TB (0.308 avg) -- away split: 0.284 avg
-- Owen Caissie (L) [MATCHUP EDGE: pitcher hits 0.297 avg-against vs this hand] -- L7: 4H 1HR 2RBI 7TB (0.200 avg) -- away split: 0.193 avg
 
 ### Cincinnati Reds lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.3 relief IP in last 2 days (ratio 0.45)_
 **Probable P: Brady Singer (R)** -- L5: 30.0 IP, 24 K, 15 ER, 4.5 ERA
-- Sal Stewart (R) [5-game hit streak] -- L7: 9H 2HR 3RBI 15TB (0.321 avg) -- home split: 0.257 avg
-- Elly De La Cruz (S) -- L7: 4H 2HR 4RBI 10TB (0.148 avg) -- home split: 0.309 avg
-- JJ Bleday (L) -- L7: 3H 1HR 1RBI 7TB (0.120 avg) -- home split: 0.245 avg
-- Dane Myers (R) -- L7: 3H 0HR 2RBI 3TB (0.150 avg) -- home split: 0.259 avg
-- Eugenio Suárez (R) -- L7: 6H 4HR 9RBI 20TB (0.273 avg) -- home split: 0.200 avg
-- Matt McLain (R) -- L7: 4H 1HR 1RBI 8TB (0.182 avg) -- home split: 0.169 avg
-- Tyler Stephenson (R) -- L7: 5H 2HR 6RBI 11TB (0.208 avg) -- home split: 0.219 avg
+- Sal Stewart (R) -- L7: 7H 1HR 2RBI 10TB (0.280 avg) -- home split: 0.256 avg
+- Elly De La Cruz (S) -- L7: 3H 1HR 3RBI 6TB (0.130 avg) -- home split: 0.308 avg
+- JJ Bleday (L) -- L7: 1H 0HR 0RBI 2TB (0.045 avg) -- home split: 0.245 avg
+- Matt McLain (R) -- L7: 4H 1HR 1RBI 8TB (0.211 avg) -- home split: 0.169 avg
+- Eugenio Suárez (R) -- L7: 5H 4HR 8RBI 18TB (0.238 avg) -- home split: 0.199 avg
+- Dane Myers (R) -- L7: 2H 0HR 2RBI 2TB (0.125 avg) -- home split: 0.259 avg
+- Tyler Stephenson (R) -- L7: 5H 2HR 6RBI 11TB (0.238 avg) -- home split: 0.217 avg
+- Noelvi Marte (R) -- L7: 4H 0HR 1RBI 4TB (0.235 avg) -- home split: 0.156 avg
 - Ke'Bryan Hayes (R) -- L7: 2H 0HR 0RBI 2TB (0.125 avg) -- home split: 0.133 avg
-- Noelvi Marte (R) -- L7: 4H 0HR 1RBI 4TB (0.190 avg) -- home split: 0.156 avg
 
 ## 2026-08-15 - Philadelphia Phillies @ Minnesota Twins (Scheduled)
 _Target Field_
 Projected score: Philadelphia Phillies 4.09 - Minnesota Twins 3.71
-Model likes: **Philadelphia Phillies** to win (54%) | Run line: **Minnesota Twins** +1.5 (63% to cover) | Total 7.5: lean **UNDER** (52%)
+Model likes: **Philadelphia Phillies** to win (53%) | Run line: **Minnesota Twins** +1.5 (63% to cover) | Total 7.5: lean **UNDER** (53%)
 
 ### Philadelphia Phillies lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 5.0 relief IP in last 2 days (ratio 1.25)_
@@ -1098,8 +1098,8 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 - Munetaka Murakami (L) -- L7: 4H 2HR 3RBI 12TB (0.160 avg) -- away split: 0.245 avg
 - Sam Antonacci (L) [3-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 9H 0HR 3RBI 12TB (0.360 avg) -- away split: 0.256 avg
 - Colson Montgomery (L) -- L7: 5H 1HR 5RBI 8TB (0.179 avg) -- away split: 0.211 avg
+- Miguel Vargas (R) -- L7: 3H 1HR 1RBI 7TB (0.120 avg) -- away split: 0.217 avg
 - Braden Montgomery (S) -- L7: 5H 1HR 3RBI 8TB (0.217 avg) -- away split: 0.195 avg
-- Miguel Vargas (R) -- L7: 5H 1HR 1RBI 9TB (0.179 avg) -- away split: 0.217 avg
 - Tristan Peters (L) -- L7: 3H 0HR 2RBI 5TB (0.214 avg) -- away split: 0.268 avg
 - Chase Meidroth (R) [5-game hit streak] -- L7: 10H 3HR 9RBI 22TB (0.370 avg) -- away split: 0.275 avg
 - Andrew Benintendi (L) -- L7: 4H 0HR 2RBI 5TB (0.235 avg) -- away split: 0.256 avg
@@ -1157,28 +1157,28 @@ Model likes: **Miami Marlins** to win (59%) | Run line: **Cincinnati Reds** +1.5
 ### Miami Marlins lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 **Probable P: Eury Pérez (R)** -- L5: 31.0 IP, 33 K, 8 ER, 2.32 ERA
-- Jakob Marsee (L) [likely BABIP-driven, not a real power uptick] -- L7: 7H 0HR 0RBI 9TB (0.318 avg) -- away split: 0.194 avg
-- Javier Sanoja (R) [MATCHUP EDGE: pitcher hits 0.262 avg-against vs this hand] [likely BABIP-driven, not a real power uptick] -- L7: 8H 0HR 5RBI 11TB (0.381 avg) -- away split: 0.268 avg
-- Otto Lopez (R) [MATCHUP EDGE: pitcher hits 0.262 avg-against vs this hand] -- L7: 6H 0HR 2RBI 6TB (0.200 avg) -- away split: 0.311 avg
-- Xavier Edwards (S) [MATCHUP EDGE: pitcher hits 0.262 avg-against vs this hand] -- L7: 5H 0HR 5RBI 7TB (0.200 avg) -- away split: 0.277 avg
-- Griffin Conine (L) [5-game hit streak] -- L7: 9H 3HR 6RBI 19TB (0.429 avg) -- away split: 0.211 avg
-- Heriberto Hernández (R) [MATCHUP EDGE: pitcher hits 0.262 avg-against vs this hand] -- L7: 3H 1HR 3RBI 7TB (0.111 avg) -- away split: 0.221 avg
-- Joe Mack (L) -- L7: 2H 0HR 2RBI 2TB (0.111 avg) -- away split: 0.250 avg
+- Jakob Marsee (L) -- L7: 7H 0HR 0RBI 9TB (0.304 avg) -- away split: 0.193 avg
+- Javier Sanoja (R) [MATCHUP EDGE: pitcher hits 0.262 avg-against vs this hand] -- L7: 6H 0HR 3RBI 8TB (0.333 avg) -- away split: 0.266 avg
+- Otto Lopez (R) [MATCHUP EDGE: pitcher hits 0.262 avg-against vs this hand] -- L7: 5H 0HR 2RBI 5TB (0.192 avg) -- away split: 0.310 avg
+- Xavier Edwards (S) [MATCHUP EDGE: pitcher hits 0.262 avg-against vs this hand] -- L7: 5H 0HR 5RBI 6TB (0.208 avg) -- away split: 0.280 avg
+- Griffin Conine (L) -- L7: 8H 3HR 5RBI 18TB (0.421 avg) -- away split: 0.208 avg
+- Heriberto Hernández (R) [MATCHUP EDGE: pitcher hits 0.262 avg-against vs this hand] -- L7: 4H 1HR 3RBI 8TB (0.167 avg) -- away split: 0.227 avg
+- Joe Mack (L) -- L7: 2H 0HR 2RBI 2TB (0.125 avg) -- away split: 0.250 avg
+- Owen Caissie (L) -- L7: 4H 1HR 2RBI 7TB (0.222 avg) -- away split: 0.192 avg
 - Esteury Ruiz (R) [MATCHUP EDGE: pitcher hits 0.262 avg-against vs this hand] -- L7: 4H 1HR 1RBI 8TB (0.308 avg) -- away split: 0.284 avg
-- Owen Caissie (L) -- L7: 4H 1HR 2RBI 7TB (0.200 avg) -- away split: 0.193 avg
 
 ### Cincinnati Reds lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 **Probable P: Nick Lodolo (L)** -- L5: 24.0 IP, 23 K, 7 ER, 2.62 ERA
-- Sal Stewart (R) [5-game hit streak] -- L7: 9H 2HR 3RBI 15TB (0.321 avg) -- home split: 0.257 avg
-- Elly De La Cruz (S) -- L7: 4H 2HR 4RBI 10TB (0.148 avg) -- home split: 0.309 avg
-- JJ Bleday (L) -- L7: 3H 1HR 1RBI 7TB (0.120 avg) -- home split: 0.245 avg
-- Dane Myers (R) -- L7: 3H 0HR 2RBI 3TB (0.150 avg) -- home split: 0.259 avg
-- Eugenio Suárez (R) -- L7: 6H 4HR 9RBI 20TB (0.273 avg) -- home split: 0.200 avg
-- Matt McLain (R) -- L7: 4H 1HR 1RBI 8TB (0.182 avg) -- home split: 0.169 avg
-- Tyler Stephenson (R) -- L7: 5H 2HR 6RBI 11TB (0.208 avg) -- home split: 0.219 avg
+- Sal Stewart (R) -- L7: 7H 1HR 2RBI 10TB (0.280 avg) -- home split: 0.256 avg
+- Elly De La Cruz (S) -- L7: 3H 1HR 3RBI 6TB (0.130 avg) -- home split: 0.308 avg
+- JJ Bleday (L) -- L7: 1H 0HR 0RBI 2TB (0.045 avg) -- home split: 0.245 avg
+- Matt McLain (R) -- L7: 4H 1HR 1RBI 8TB (0.211 avg) -- home split: 0.169 avg
+- Eugenio Suárez (R) -- L7: 5H 4HR 8RBI 18TB (0.238 avg) -- home split: 0.199 avg
+- Dane Myers (R) -- L7: 2H 0HR 2RBI 2TB (0.125 avg) -- home split: 0.259 avg
+- Tyler Stephenson (R) -- L7: 5H 2HR 6RBI 11TB (0.238 avg) -- home split: 0.217 avg
+- Noelvi Marte (R) -- L7: 4H 0HR 1RBI 4TB (0.235 avg) -- home split: 0.156 avg
 - Ke'Bryan Hayes (R) -- L7: 2H 0HR 0RBI 2TB (0.125 avg) -- home split: 0.133 avg
-- Noelvi Marte (R) -- L7: 4H 0HR 1RBI 4TB (0.190 avg) -- home split: 0.156 avg
 
 ## 2026-08-16 - Philadelphia Phillies @ Minnesota Twins (Scheduled)
 _Target Field_
