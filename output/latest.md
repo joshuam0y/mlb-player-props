@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-14T16:08:59.922385+00:00_
+_Generated 2026-08-14T16:21:06.778491+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -298,8 +298,8 @@ _Facing a taxed bullpen: 9.0 relief IP in last 2 days (ratio 1.48)_
 
 ## 2026-08-14 - Arizona Diamondbacks @ Atlanta Braves (Scheduled)
 _Truist Park_
-Projected score: Arizona Diamondbacks 3.7 - Atlanta Braves 3.65
-Model likes: **Arizona Diamondbacks** to win (50%) | Run line: **Atlanta Braves** +1.5 (66% to cover) | Total 6.5: lean **OVER** (54%)
+Projected score: Arizona Diamondbacks 2.64 - Atlanta Braves 3.65
+Model likes: **Atlanta Braves** to win (61%) | Run line: **Arizona Diamondbacks** +1.5 (58% to cover) | Total 5.5: lean **OVER** (54%)
 
 ### Arizona Diamondbacks lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.57)_
@@ -315,6 +315,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.57)_
 - Jorge Barrosa (S) [likely BABIP-driven, not a real power uptick] -- L7: 3H 0HR 1RBI 3TB (0.750 avg) -- away split: 0.220 avg
 
 ### Atlanta Braves lineup -- PROJECTED (unconfirmed)
+**Probable P: Chris Sale (L)** -- L5: 28.0 IP, 39 K, 6 ER, 1.93 ERA
 - Drake Baldwin (L) [MATCHUP EDGE: pitcher hits 0.260 avg-against vs this hand] -- L7: 9H 0HR 2RBI 10TB (0.300 avg) -- home split: 0.284 avg
 - Michael Harris II (L) [MATCHUP EDGE: pitcher hits 0.260 avg-against vs this hand] -- L7: 8H 0HR 3RBI 12TB (0.296 avg) -- home split: 0.285 avg
 - Ronald Acuña Jr. (R) -- L7: 8H 3HR 6RBI 18TB (0.276 avg) -- home split: 0.237 avg
@@ -686,7 +687,7 @@ _Facing a rested bullpen: 2.3 relief IP in last 2 days (ratio 0.45)_
 ## 2026-08-15 - Philadelphia Phillies @ Minnesota Twins (Scheduled)
 _Target Field_
 Projected score: Philadelphia Phillies 4.09 - Minnesota Twins 3.71
-Model likes: **Philadelphia Phillies** to win (53%) | Run line: **Minnesota Twins** +1.5 (63% to cover) | Total 7.5: lean **UNDER** (52%)
+Model likes: **Philadelphia Phillies** to win (53%) | Run line: **Minnesota Twins** +1.5 (63% to cover) | Total 7.5: lean **UNDER** (53%)
 
 ### Philadelphia Phillies lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 5.0 relief IP in last 2 days (ratio 1.25)_
@@ -1207,7 +1208,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-16 - St. Louis Cardinals @ Chicago Cubs (Scheduled)
 _Wrigley Field_
 Projected score: St. Louis Cardinals 3.96 - Chicago Cubs 4.3
-Model likes: **Chicago Cubs** to win (53%) | Run line: **St. Louis Cardinals** +1.5 (62% to cover) | Total 7.5: lean **OVER** (52%)
+Model likes: **Chicago Cubs** to win (53%) | Run line: **St. Louis Cardinals** +1.5 (63% to cover) | Total 7.5: lean **OVER** (52%)
 
 ### St. Louis Cardinals lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
