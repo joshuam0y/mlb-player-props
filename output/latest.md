@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-15T02:45:08.355143+00:00_
+_Generated 2026-08-15T03:14:23.402124+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -531,8 +531,8 @@ _Facing a rested bullpen: 2.7 relief IP in last 2 days (ratio 0.52)_
 
 ## 2026-08-15 - New York Yankees @ Toronto Blue Jays (Scheduled)
 _Rogers Centre_
-Projected score: New York Yankees 3.87 - Toronto Blue Jays 2.3
-Model likes: **New York Yankees** to win (67%) | Run line: **Toronto Blue Jays** +1.5 (52% to cover) | Total 5.5: lean **OVER** (52%)
+Projected score: New York Yankees 3.26 - Toronto Blue Jays 2.3
+Model likes: **New York Yankees** to win (61%) | Run line: **Toronto Blue Jays** +1.5 (60% to cover) | Total 5.5: lean **UNDER** (55%)
 
 ### New York Yankees lineup -- PROJECTED (unconfirmed)
 **Probable P: Cam Schlittler (R)** -- L5: 28.0 IP, 45 K, 9 ER, 2.89 ERA
@@ -547,6 +547,7 @@ Model likes: **New York Yankees** to win (67%) | Run line: **Toronto Blue Jays**
 - Luis García Jr. (L) -- L7: 5H 0HR 0RBI 8TB (0.185 avg) -- away split: 0.299 avg
 
 ### Toronto Blue Jays lineup -- PROJECTED (unconfirmed)
+**Probable P: Braydon Fisher (R)** [BULLPEN GAME: short-outing arm, no reliable individual matchup below] -- L5: 6.0 IP, 3 K, 0 ER, 0.0 ERA
 - Ernie Clement (R) [TOUGH MATCHUP: pitcher holds this hand to 0.188 avg-against] -- L7: 5H 0HR 4RBI 6TB (0.208 avg) -- home split: 0.288 avg
 - Andrés Giménez (L) -- L7: 7H 0HR 6RBI 9TB (0.280 avg) -- home split: 0.250 avg
 - Nathan Lukes (L) -- L7: 6H 1HR 2RBI 9TB (0.286 avg) -- home split: 0.239 avg
@@ -682,7 +683,7 @@ _Facing a rested bullpen: 3.3 relief IP in last 2 days (ratio 0.65)_
 ## 2026-08-15 - Philadelphia Phillies @ Minnesota Twins (Scheduled)
 _Target Field_
 Projected score: Philadelphia Phillies 4.09 - Minnesota Twins 3.71
-Model likes: **Philadelphia Phillies** to win (54%) | Run line: **Minnesota Twins** +1.5 (63% to cover) | Total 7.5: lean **UNDER** (52%)
+Model likes: **Philadelphia Phillies** to win (53%) | Run line: **Minnesota Twins** +1.5 (63% to cover) | Total 7.5: lean **UNDER** (52%)
 
 ### Philadelphia Phillies lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 5.0 relief IP in last 2 days (ratio 1.25)_
@@ -863,7 +864,7 @@ _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.38)_
 ## 2026-08-15 - Kansas City Royals @ Los Angeles Angels (Scheduled)
 _Angel Stadium_
 Projected score: Kansas City Royals 3.32 - Los Angeles Angels 2.46
-Model likes: **Kansas City Royals** to win (60%) | Run line: **Los Angeles Angels** +1.5 (60% to cover) | Total 5.5: lean **UNDER** (52%)
+Model likes: **Kansas City Royals** to win (60%) | Run line: **Los Angeles Angels** +1.5 (61% to cover) | Total 5.5: lean **UNDER** (52%)
 
 ### Kansas City Royals lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.51)_
@@ -1197,7 +1198,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-16 - St. Louis Cardinals @ Chicago Cubs (Scheduled)
 _Wrigley Field_
 Projected score: St. Louis Cardinals 4.14 - Chicago Cubs 4.3
-Model likes: **Chicago Cubs** to win (51%) | Run line: **St. Louis Cardinals** +1.5 (64% to cover) | Total 7.5: lean **OVER** (53%)
+Model likes: **Chicago Cubs** to win (51%) | Run line: **St. Louis Cardinals** +1.5 (64% to cover) | Total 7.5: lean **OVER** (54%)
 
 ### St. Louis Cardinals lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.3 relief IP in last 2 days (ratio 0.58)_
@@ -1259,7 +1260,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-16 - Texas Rangers @ Athletics (Scheduled)
 _Sutter Health Park_
 Projected score: Texas Rangers 5.02 - Athletics 3.08
-Model likes: **Texas Rangers** to win (67%) | Run line: **Texas Rangers** -1.5 (52% to cover) | Total 7.5: lean **OVER** (50%)
+Model likes: **Texas Rangers** to win (67%) | Run line: **Texas Rangers** -1.5 (51% to cover) | Total 7.5: lean **OVER** (50%)
 
 ### Texas Rangers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
