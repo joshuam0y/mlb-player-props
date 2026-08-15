@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-15T19:22:12.620992+00:00_
+_Generated 2026-08-15T19:46:55.827704+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -141,7 +141,7 @@ Model likes: **New York Yankees** to win (63%) | Run line: **Toronto Blue Jays**
 - #8 Josh Smith (L) -- L7: 4H 1HR 1RBI 7TB (0.333 avg) -- home split: 0.192 avg
 - #9 Charles McAdoo (R) [TOUGH MATCHUP: pitcher holds this hand to 0.188 avg-against] -- L7: 3H 1HR 2RBI 6TB (0.176 avg) -- home split: 0.160 avg
 
-## 2026-08-15 - Colorado Rockies @ San Francisco Giants (Pre-Game)
+## 2026-08-15 - Colorado Rockies @ San Francisco Giants (Warmup)
 _Oracle Park [pitcher-friendly park]_
 Projected score: Colorado Rockies 3.33 - San Francisco Giants 4.72
 Model likes: **San Francisco Giants** to win (62%) | Run line: **Colorado Rockies** +1.5 (54% to cover) | Total 7.5: lean **UNDER** (50%)
@@ -294,20 +294,20 @@ _Facing a taxed bullpen: 5.0 relief IP in last 2 days (ratio 1.25)_
 
 ## 2026-08-15 - Seattle Mariners @ Houston Astros (Pre-Game)
 _Daikin Park_
-Projected score: Seattle Mariners 2.96 - Houston Astros 4.11
-Model likes: **Houston Astros** to win (61%) | Run line: **Seattle Mariners** +1.5 (56% to cover) | Total 6.5: lean **OVER** (50%)
+Projected score: Seattle Mariners 3.08 - Houston Astros 4.11
+Model likes: **Houston Astros** to win (60%) | Run line: **Seattle Mariners** +1.5 (57% to cover) | Total 6.5: lean **OVER** (52%)
 
-### Seattle Mariners lineup -- PROJECTED (unconfirmed)
+### Seattle Mariners lineup -- CONFIRMED
 **Probable P: Emerson Hancock (R)** -- L5: 23.3 IP, 19 K, 10 ER, 3.86 ERA
-- Cole Young (L) -- L7: 5H 0HR 1RBI 5TB (0.185 avg) -- away split: 0.257 avg
-- Dominic Canzone (L) -- L7: 7H 1HR 2RBI 10TB (0.259 avg) -- away split: 0.252 avg
-- Julio Rodríguez (R) [3-game hit streak] -- L7: 6H 2HR 2RBI 13TB (0.240 avg) -- away split: 0.237 avg
-- Randy Arozarena (R) [4-game hit streak] -- L7: 5H 2HR 3RBI 12TB (0.185 avg) -- away split: 0.317 avg
-- Cal Raleigh (S) -- L7: 2H 0HR 0RBI 2TB (0.100 avg) -- away split: 0.157 avg
-- Josh Naylor (L) [5-game hit streak] -- L7: 8H 2HR 4RBI 16TB (0.348 avg) -- away split: 0.281 avg
-- Weston Wilson (R) -- L7: 2H 1HR 1RBI 5TB (0.118 avg) -- away split: 0.250 avg
-- Brendan Donovan (L) -- L7: 5H 0HR 1RBI 6TB (0.200 avg) -- away split: 0.210 avg
-- Taylor Ward (R) -- L7: 5H 0HR 0RBI 7TB (0.172 avg) -- away split: 0.243 avg
+- #1 Brendan Donovan (L) -- L7: 5H 0HR 1RBI 6TB (0.200 avg) -- away split: 0.210 avg
+- #2 Randy Arozarena (R) [4-game hit streak] -- L7: 5H 2HR 3RBI 12TB (0.185 avg) -- away split: 0.317 avg
+- #3 Dominic Canzone (L) -- L7: 7H 1HR 2RBI 10TB (0.259 avg) -- away split: 0.252 avg
+- #4 Julio Rodríguez (R) [3-game hit streak] -- L7: 6H 2HR 2RBI 13TB (0.240 avg) -- away split: 0.237 avg
+- #5 Josh Naylor (L) [5-game hit streak] -- L7: 8H 2HR 4RBI 16TB (0.348 avg) -- away split: 0.281 avg
+- #6 Cole Young (L) -- L7: 5H 0HR 1RBI 5TB (0.185 avg) -- away split: 0.257 avg
+- #7 Cal Raleigh (S) -- L7: 2H 0HR 0RBI 2TB (0.100 avg) -- away split: 0.157 avg
+- #8 Victor Robles (R) -- L7: 5H 0HR 2RBI 7TB (0.385 avg) -- away split: 0.267 avg
+- #9 Brock Rodden (S) -- L7: 1H 0HR 2RBI 2TB (0.250 avg) -- away split: 0.250 avg
 
 ### Houston Astros lineup -- CONFIRMED
 _Facing a taxed bullpen: 8.0 relief IP in last 2 days (ratio 1.73)_
@@ -356,7 +356,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.47)_
 ## 2026-08-15 - Boston Red Sox @ Pittsburgh Pirates (Scheduled)
 _PNC Park_
 Projected score: Boston Red Sox 4.58 - Pittsburgh Pirates 3.13
-Model likes: **Boston Red Sox** to win (64%) | Run line: **Pittsburgh Pirates** +1.5 (53% to cover) | Total 7.5: lean **UNDER** (53%)
+Model likes: **Boston Red Sox** to win (63%) | Run line: **Pittsburgh Pirates** +1.5 (53% to cover) | Total 7.5: lean **UNDER** (54%)
 
 ### Boston Red Sox lineup -- PROJECTED (unconfirmed)
 **Probable P: Sonny Gray (R)** -- L5: 30.0 IP, 25 K, 12 ER, 3.6 ERA
@@ -385,7 +385,7 @@ Model likes: **Boston Red Sox** to win (64%) | Run line: **Pittsburgh Pirates** 
 ## 2026-08-15 - Milwaukee Brewers @ Los Angeles Dodgers (Pre-Game)
 _UNIQLO Field at Dodger Stadium_
 Projected score: Milwaukee Brewers 3.72 - Los Angeles Dodgers 2.32
-Model likes: **Milwaukee Brewers** to win (65%) | Run line: **Los Angeles Dodgers** +1.5 (54% to cover) | Total 5.5: lean **OVER** (51%)
+Model likes: **Milwaukee Brewers** to win (65%) | Run line: **Los Angeles Dodgers** +1.5 (55% to cover) | Total 5.5: lean **OVER** (51%)
 
 ### Milwaukee Brewers lineup -- PROJECTED (unconfirmed)
 **Probable P: Jacob Misiorowski (R)** -- L5: 29.0 IP, 48 K, 9 ER, 2.79 ERA
@@ -778,7 +778,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-16 - St. Louis Cardinals @ Chicago Cubs (Scheduled)
 _Wrigley Field_
 Projected score: St. Louis Cardinals 3.95 - Chicago Cubs 4.11
-Model likes: **Chicago Cubs** to win (52%) | Run line: **St. Louis Cardinals** +1.5 (64% to cover) | Total 7.5: lean **UNDER** (50%)
+Model likes: **Chicago Cubs** to win (52%) | Run line: **St. Louis Cardinals** +1.5 (64% to cover) | Total 7.5: lean **OVER** (50%)
 
 ### St. Louis Cardinals lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.3 relief IP in last 2 days (ratio 0.58)_
@@ -839,7 +839,7 @@ _Facing a rested bullpen: 1.0 relief IP in last 2 days (ratio 0.19)_
 ## 2026-08-16 - Texas Rangers @ Athletics (Scheduled)
 _Sutter Health Park_
 Projected score: Texas Rangers 4.88 - Athletics 3.16
-Model likes: **Texas Rangers** to win (65%) | Run line: **Athletics** +1.5 (51% to cover) | Total 7.5: lean **UNDER** (50%)
+Model likes: **Texas Rangers** to win (65%) | Run line: **Athletics** +1.5 (50% to cover) | Total 7.5: lean **UNDER** (50%)
 
 ### Texas Rangers lineup -- PROJECTED (unconfirmed)
 **Probable P: Cody Bradford (L)** -- L5: 25.7 IP, 20 K, 12 ER, 4.21 ERA
@@ -869,7 +869,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.61)_
 ## 2026-08-16 - Kansas City Royals @ Los Angeles Angels (Scheduled)
 _Angel Stadium_
 Projected score: Kansas City Royals 4.6 - Los Angeles Angels 3.62
-Model likes: **Kansas City Royals** to win (59%) | Run line: **Los Angeles Angels** +1.5 (57% to cover) | Total 7.5: lean **OVER** (52%)
+Model likes: **Kansas City Royals** to win (59%) | Run line: **Los Angeles Angels** +1.5 (57% to cover) | Total 7.5: lean **OVER** (51%)
 
 ### Kansas City Royals lineup -- PROJECTED (unconfirmed)
 **Probable P: Noah Cameron (L)** -- L5: 33.7 IP, 27 K, 12 ER, 3.21 ERA
@@ -898,7 +898,7 @@ Model likes: **Kansas City Royals** to win (59%) | Run line: **Los Angeles Angel
 ## 2026-08-16 - Milwaukee Brewers @ Los Angeles Dodgers (Scheduled)
 _UNIQLO Field at Dodger Stadium_
 Projected score: Milwaukee Brewers 3.41 - Los Angeles Dodgers 2.95
-Model likes: **Milwaukee Brewers** to win (55%) | Run line: **Los Angeles Dodgers** +1.5 (64% to cover) | Total 5.5: lean **OVER** (55%)
+Model likes: **Milwaukee Brewers** to win (55%) | Run line: **Los Angeles Dodgers** +1.5 (64% to cover) | Total 5.5: lean **OVER** (54%)
 
 ### Milwaukee Brewers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.58)_
@@ -929,7 +929,7 @@ _Facing a rested bullpen: 1.7 relief IP in last 2 days (ratio 0.28)_
 ## 2026-08-16 - Seattle Mariners @ Houston Astros (Scheduled)
 _Daikin Park_
 Projected score: Seattle Mariners 2.86 - Houston Astros 4.59
-Model likes: **Houston Astros** to win (66%) | Run line: **Seattle Mariners** +1.5 (50% to cover) | Total 6.5: lean **OVER** (54%)
+Model likes: **Houston Astros** to win (66%) | Run line: **Seattle Mariners** +1.5 (51% to cover) | Total 6.5: lean **OVER** (54%)
 
 ### Seattle Mariners lineup -- PROJECTED (unconfirmed)
 **Probable P: Bryan Woo (R)** -- L5: 28.0 IP, 30 K, 12 ER, 3.86 ERA
