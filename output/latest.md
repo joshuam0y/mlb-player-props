@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-15T13:46:15.437622+00:00_
+_Generated 2026-08-15T13:55:05.700770+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -481,7 +481,7 @@ _Facing a taxed bullpen: 8.0 relief IP in last 2 days (ratio 1.36)_
 ## 2026-08-15 - Texas Rangers @ Athletics (Scheduled)
 _Sutter Health Park_
 Projected score: Texas Rangers 3.55 - Athletics 4.38
-Model likes: **Athletics** to win (57%) | Run line: **Texas Rangers** +1.5 (59% to cover) | Total 7.5: lean **UNDER** (51%)
+Model likes: **Athletics** to win (58%) | Run line: **Texas Rangers** +1.5 (58% to cover) | Total 7.5: lean **UNDER** (51%)
 
 ### Texas Rangers lineup -- PROJECTED (unconfirmed)
 **Probable P: MacKenzie Gore (L)** -- L5: 29.0 IP, 34 K, 12 ER, 3.72 ERA
@@ -511,7 +511,7 @@ _Facing a taxed bullpen: 9.0 relief IP in last 2 days (ratio 1.84)_
 ## 2026-08-16 - Baltimore Orioles @ Tampa Bay Rays (Scheduled)
 _Tropicana Field_
 Projected score: Baltimore Orioles 4.76 - Tampa Bay Rays 4.11
-Model likes: **Baltimore Orioles** to win (55%) | Run line: **Tampa Bay Rays** +1.5 (60% to cover) | Total 8.5: lean **UNDER** (52%)
+Model likes: **Baltimore Orioles** to win (55%) | Run line: **Tampa Bay Rays** +1.5 (59% to cover) | Total 8.5: lean **UNDER** (52%)
 
 ### Baltimore Orioles lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 8.0 relief IP in last 2 days (ratio 1.36)_
@@ -691,7 +691,7 @@ Model likes: **Chicago White Sox** to win (54%) | Run line: **Detroit Tigers** +
 ## 2026-08-16 - San Diego Padres @ Cleveland Guardians (Scheduled)
 _Progressive Field_
 Projected score: San Diego Padres 4.13 - Cleveland Guardians 2.69
-Model likes: **San Diego Padres** to win (65%) | Run line: **Cleveland Guardians** +1.5 (54% to cover) | Total 6.5: lean **UNDER** (52%)
+Model likes: **San Diego Padres** to win (64%) | Run line: **Cleveland Guardians** +1.5 (54% to cover) | Total 6.5: lean **UNDER** (52%)
 
 ### San Diego Padres lineup -- PROJECTED (unconfirmed)
 **Probable P: Casey Mize (R)** -- L5: 24.3 IP, 20 K, 15 ER, 5.55 ERA
@@ -1168,7 +1168,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-17 - Atlanta Braves @ Minnesota Twins (Scheduled)
 _Target Field_
 Projected score: Atlanta Braves 4.38 - Minnesota Twins 3.56
-Model likes: **Atlanta Braves** to win (57%) | Run line: **Minnesota Twins** +1.5 (59% to cover) | Total 7.5: lean **UNDER** (51%)
+Model likes: **Atlanta Braves** to win (58%) | Run line: **Minnesota Twins** +1.5 (59% to cover) | Total 7.5: lean **UNDER** (51%)
 
 ### Atlanta Braves lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
