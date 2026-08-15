@@ -11,6 +11,14 @@ public news RSS feed -- no paid odds API, no scraping of betting sites.
 
 _Updated with every change going forward._
 
+- **2026-08-14** -- Switched the AI team-summary generator
+  (`sync_team_summaries.py`) from the Claude API to the Gemini API
+  (`gemini-3.5-flash-lite`), which has a genuinely free tier -- no billing
+  needed. Free tier is rate-limited to 15 requests/minute, so added a
+  per-run cap (12 teams) and a delay between calls; any team not reached
+  in one hourly run just picks up its summary on the next one, same as
+  before.
+
 - **2026-08-13** -- Fixed a real bug found on a live bet: a parlay leg
   (Total Bases UNDER 1.5) showed HIT with actual_value=1 and the bet
   showed WON, but the real final box score was 2 total bases -- an actual

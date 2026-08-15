@@ -19,20 +19,23 @@ of needing its own separate daily-cron workflow.
 
 import argparse
 import os
+import time
 from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
 
-import anthropic
+from google import genai
 
 import api
 from build_props import team_injury_report, team_streak_and_form
 from db import get_conn, init_db, mlb_today
 
 CURRENT_SEASON = datetime.now(timezone.utc).year
-MODEL = "claude-haiku-4-5-20251001"
+MODEL = "gemini-3.5-flash-lite"
 TRANSACTIONS_LOOKBACK_DAYS = 14
 HEADLINES_LOOKBACK_DAYS = 10
 HEADLINES_LIMIT = 5
+CALL_DELAY_SECONDS = 5  # free tier is rate-limited to 15 requests/minute
+MAX_TEAMS_PER_RUN = 12  # leftover teams just get picked up next hourly run
 
 
 def _season_record(conn, team_id, season, before_date):
@@ -226,12 +229,8 @@ Facts:
 
 def generate_summary(client, facts):
     prompt = PROMPT_TEMPLATE.format(facts=_facts_to_prompt(facts))
-    resp = client.messages.create(
-        model=MODEL,
-        max_tokens=300,
-        messages=[{"role": "user", "content": prompt}],
-    )
-    return resp.content[0].text.strip()
+    resp = client.models.generate_content(model=MODEL, contents=prompt)
+    return resp.text.strip()
 
 
 def _teams_in_window(conn, days_ahead=2):
@@ -249,15 +248,16 @@ def run(days_ahead=2):
     init_db()
     conn = get_conn()
     today = mlb_today()
-    api_key = os.environ.get("ANTHROPIC_API_KEY")
+    api_key = os.environ.get("GEMINI_API_KEY")
     if not api_key:
-        print("ANTHROPIC_API_KEY not set -- skipping team summary generation.")
+        print("GEMINI_API_KEY not set -- skipping team summary generation.")
         conn.close()
         return 0
-    client = anthropic.Anthropic(api_key=api_key)
+    client = genai.Client(api_key=api_key)
 
     team_ids = _teams_in_window(conn, days_ahead=days_ahead)
     generated = 0
+    attempted = 0
     for team_id in team_ids:
         existing = conn.execute(
             "SELECT 1 FROM team_summaries WHERE team_id = ? AND date = ?", (team_id, today)
@@ -267,6 +267,14 @@ def run(days_ahead=2):
         team_row = conn.execute("SELECT name FROM teams WHERE team_id = ?", (team_id,)).fetchone()
         if not team_row:
             continue
+        # Free-tier Gemini is rate-limited to 15 requests/minute -- cap real API
+        # calls per run and space them out; any team we don't get to just picks
+        # up its summary on the next hourly run instead.
+        if attempted >= MAX_TEAMS_PER_RUN:
+            break
+        if attempted:
+            time.sleep(CALL_DELAY_SECONDS)
+        attempted += 1
         try:
             facts = gather_team_facts(conn, team_id, team_row["name"])
             summary = generate_summary(client, facts)
@@ -287,7 +295,7 @@ def run(days_ahead=2):
         conn.commit()
         generated += 1
     conn.close()
-    print(f"Generated {generated} new team summaries ({len(team_ids)} teams in window).")
+    print(f"Generated {generated} new team summaries ({attempted} attempted, {len(team_ids)} teams in window).")
     return generated
 
 
