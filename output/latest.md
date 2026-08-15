@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-14T23:49:40.595767+00:00_
+_Generated 2026-08-15T00:02:31.684127+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -89,7 +89,7 @@ _Facing a taxed bullpen: 7.3 relief IP in last 2 days (ratio 1.82)_
 ## 2026-08-14 - Miami Marlins @ Cincinnati Reds (In Progress)
 _Great American Ball Park [hitter-friendly park]_
 Projected score: Miami Marlins 3.33 - Cincinnati Reds 3.58
-Model likes: **Cincinnati Reds** to win (52%) | Run line: **Miami Marlins** +1.5 (65% to cover) | Total 6.5: lean **UNDER** (51%)
+Model likes: **Cincinnati Reds** to win (53%) | Run line: **Miami Marlins** +1.5 (65% to cover) | Total 6.5: lean **UNDER** (51%)
 
 ### Miami Marlins lineup -- CONFIRMED
 _Facing a taxed bullpen: 7.3 relief IP in last 2 days (ratio 1.57)_
@@ -148,7 +148,7 @@ Model likes: **Boston Red Sox** to win (65%) | Run line: **Pittsburgh Pirates** 
 ## 2026-08-14 - Chicago White Sox @ Detroit Tigers (In Progress)
 _Comerica Park [pitcher-friendly park]_
 Projected score: Chicago White Sox 3.35 - Detroit Tigers 3.76
-Model likes: **Detroit Tigers** to win (54%) | Run line: **Chicago White Sox** +1.5 (63% to cover) | Total 6.5: lean **OVER** (51%)
+Model likes: **Detroit Tigers** to win (54%) | Run line: **Chicago White Sox** +1.5 (64% to cover) | Total 6.5: lean **OVER** (51%)
 
 ### Chicago White Sox lineup -- CONFIRMED
 _Facing a taxed bullpen: 6.0 relief IP in last 2 days (ratio 1.24)_
@@ -239,7 +239,7 @@ _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.35)_
 ## 2026-08-14 - San Diego Padres @ Cleveland Guardians (In Progress)
 _Progressive Field_
 Projected score: San Diego Padres 3.9 - Cleveland Guardians 2.88
-Model likes: **San Diego Padres** to win (60%) | Run line: **Cleveland Guardians** +1.5 (58% to cover) | Total 6.5: lean **UNDER** (52%)
+Model likes: **San Diego Padres** to win (60%) | Run line: **Cleveland Guardians** +1.5 (58% to cover) | Total 6.5: lean **UNDER** (53%)
 
 ### San Diego Padres lineup -- CONFIRMED
 _Facing a taxed bullpen: 6.3 relief IP in last 2 days (ratio 1.27)_
@@ -329,7 +329,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.57)_
 ## 2026-08-14 - Seattle Mariners @ Houston Astros (Pre-Game)
 _Daikin Park_
 Projected score: Seattle Mariners 2.8 - Houston Astros 3.98
-Model likes: **Houston Astros** to win (62%) | Run line: **Seattle Mariners** +1.5 (56% to cover) | Total 6.5: lean **UNDER** (52%)
+Model likes: **Houston Astros** to win (62%) | Run line: **Seattle Mariners** +1.5 (56% to cover) | Total 6.5: lean **UNDER** (53%)
 
 ### Seattle Mariners lineup -- CONFIRMED
 _Facing a taxed bullpen: 8.3 relief IP in last 2 days (ratio 1.5)_
@@ -509,7 +509,7 @@ _Facing a taxed bullpen: 8.3 relief IP in last 2 days (ratio 1.26)_
 ## 2026-08-15 - St. Louis Cardinals @ Chicago Cubs (Scheduled)
 _Wrigley Field_
 Projected score: St. Louis Cardinals 3.82 - Chicago Cubs 4.44
-Model likes: **Chicago Cubs** to win (55%) | Run line: **St. Louis Cardinals** +1.5 (60% to cover) | Total 7.5: lean **OVER** (52%)
+Model likes: **Chicago Cubs** to win (56%) | Run line: **St. Louis Cardinals** +1.5 (60% to cover) | Total 7.5: lean **OVER** (52%)
 
 ### St. Louis Cardinals lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 5.7 relief IP in last 2 days (ratio 1.4)_
@@ -692,7 +692,7 @@ _Facing a rested bullpen: 2.3 relief IP in last 2 days (ratio 0.45)_
 ## 2026-08-15 - Philadelphia Phillies @ Minnesota Twins (Scheduled)
 _Target Field_
 Projected score: Philadelphia Phillies 4.09 - Minnesota Twins 3.71
-Model likes: **Philadelphia Phillies** to win (53%) | Run line: **Minnesota Twins** +1.5 (63% to cover) | Total 7.5: lean **UNDER** (52%)
+Model likes: **Philadelphia Phillies** to win (54%) | Run line: **Minnesota Twins** +1.5 (63% to cover) | Total 7.5: lean **UNDER** (52%)
 
 ### Philadelphia Phillies lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 5.0 relief IP in last 2 days (ratio 1.25)_
@@ -753,7 +753,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.65)_
 ## 2026-08-15 - San Diego Padres @ Cleveland Guardians (Scheduled)
 _Progressive Field_
 Projected score: San Diego Padres 4.29 - Cleveland Guardians 3.78
-Model likes: **San Diego Padres** to win (55%) | Run line: **Cleveland Guardians** +1.5 (61% to cover) | Total 7.5: lean **OVER** (50%)
+Model likes: **San Diego Padres** to win (54%) | Run line: **Cleveland Guardians** +1.5 (61% to cover) | Total 7.5: lean **OVER** (50%)
 
 ### San Diego Padres lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.3 relief IP in last 2 days (ratio 0.47)_
@@ -814,7 +814,7 @@ _Facing a rested bullpen: 1.0 relief IP in last 2 days (ratio 0.19)_
 ## 2026-08-15 - Milwaukee Brewers @ Los Angeles Dodgers (Scheduled)
 _UNIQLO Field at Dodger Stadium_
 Projected score: Milwaukee Brewers 3.74 - Los Angeles Dodgers 2.46
-Model likes: **Milwaukee Brewers** to win (64%) | Run line: **Los Angeles Dodgers** +1.5 (56% to cover) | Total 5.5: lean **OVER** (53%)
+Model likes: **Milwaukee Brewers** to win (64%) | Run line: **Los Angeles Dodgers** +1.5 (56% to cover) | Total 5.5: lean **OVER** (52%)
 
 ### Milwaukee Brewers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.58)_
@@ -938,7 +938,7 @@ _Facing a taxed bullpen: 6.0 relief IP in last 2 days (ratio 1.23)_
 ## 2026-08-16 - Baltimore Orioles @ Tampa Bay Rays (Scheduled)
 _Tropicana Field_
 Projected score: Baltimore Orioles 4.36 - Tampa Bay Rays 4.2
-Model likes: **Baltimore Orioles** to win (52%) | Run line: **Tampa Bay Rays** +1.5 (64% to cover) | Total 7.5: lean **OVER** (55%)
+Model likes: **Baltimore Orioles** to win (51%) | Run line: **Tampa Bay Rays** +1.5 (64% to cover) | Total 7.5: lean **OVER** (55%)
 
 ### Baltimore Orioles lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.7 relief IP in last 2 days (ratio 0.12)_
