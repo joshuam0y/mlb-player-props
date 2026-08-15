@@ -19,6 +19,7 @@ of needing its own separate daily-cron workflow.
 
 import argparse
 import os
+import re
 import time
 from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
@@ -181,6 +182,33 @@ def gather_team_facts(conn, team_id, team_name):
     }
 
 
+def _verdict(diff_pct, tol=0.02):
+    """
+    diff_pct > 0 must already mean "better" by the time it gets here --
+    callers are responsible for negating ERA/WHIP diffs first, since lower
+    is better for those. Computing the better/worse call here (instead of
+    asking the model to reason about it) means an LLM can never invert an
+    ERA/WHIP comparison the way one did in production ("5.45 ERA... well
+    below league averages" -- backwards, since 5.45 is far worse than a
+    3.96 league average, not better).
+    """
+    if abs(diff_pct) < tol:
+        return "about the same as league average"
+    return "better than league average" if diff_pct > 0 else "worse than league average"
+
+
+def _batting_verdict(tb, lb):
+    avg_diff = (tb["avg"] - lb["avg"]) / lb["avg"] if lb["avg"] else 0
+    slg_diff = (tb["slg"] - lb["slg"]) / lb["slg"] if lb["slg"] else 0
+    return _verdict((avg_diff + slg_diff) / 2)
+
+
+def _pitching_verdict(tp, lp):
+    era_diff = -(tp["era"] - lp["era"]) / lp["era"] if lp["era"] else 0
+    whip_diff = -(tp["whip"] - lp["whip"]) / lp["whip"] if lp["whip"] else 0
+    return _verdict((era_diff + whip_diff) / 2)
+
+
 def _facts_to_prompt(facts):
     lines = [f"Team: {facts['team_name']}"]
     sr = facts["season_record"]
@@ -200,13 +228,15 @@ def _facts_to_prompt(facts):
         # as .166 truncated vs. the correct .167).
         lines.append(
             f"Team batting: .{round(tb['avg']*1000):03d} AVG / .{round(tb['slg']*1000):03d} SLG / {tb['hr']} HR "
-            f"(league average: .{round(lb['avg']*1000):03d} AVG / .{round(lb['slg']*1000):03d} SLG)"
+            f"(league average: .{round(lb['avg']*1000):03d} AVG / .{round(lb['slg']*1000):03d} SLG) "
+            f"-- batting is {_batting_verdict(tb, lb)}"
         )
     tp, lp = facts["team_pitching"], facts["league_pitching"]
     if tp and lp:
         lines.append(
             f"Team pitching: {tp['era']:.2f} ERA / {tp['whip']:.2f} WHIP "
-            f"(league average: {lp['era']:.2f} ERA / {lp['whip']:.2f} WHIP)"
+            f"(league average: {lp['era']:.2f} ERA / {lp['whip']:.2f} WHIP) "
+            f"-- pitching is {_pitching_verdict(tp, lp)}"
         )
     if facts["injuries"]:
         names = ", ".join(f"{i['player_name']} ({i['status']})" for i in facts["injuries"][:6])
@@ -218,19 +248,44 @@ def _facts_to_prompt(facts):
     return "\n".join(lines)
 
 
-PROMPT_TEMPLATE = """You are writing a short, factual pre-game briefing for a sports bettor about one MLB team. Use ONLY the facts listed below -- never invent a stat, injury, trade, or record that isn't given. If a fact is missing, just don't mention it.
+PROMPT_TEMPLATE = """You are writing a short, factual pre-game briefing for a sports bettor about one MLB team. Use ONLY the facts listed below -- never invent a stat, injury, trade, or record that isn't given. If a fact is missing, just don't mention it. The batting/pitching lines already state whether each is better/worse/about the same as league average -- use that exact judgment, don't recompute or contradict it (this matters most for ERA/WHIP, where a LOWER number is the better one, which the given judgment already accounts for).
 
-Write 3-5 sentences (under 100 words): cover their current form/record, how their batting and pitching compare to league average, and anything notable from injuries/trades/headlines that a bettor should factor in. Plain, direct tone -- no hype, no filler like "let's dive in". Do not use markdown formatting.
+Write 3-4 sentences. STRICT LIMIT: no more than 80 words total -- count as you write and stop before you go over. Cover their current form/record, how their batting and pitching compare to league average, and anything notable from injuries/trades/headlines that a bettor should factor in. Plain, direct tone -- no hype, no filler like "let's dive in". Do not use markdown formatting.
 
 Facts:
 {facts}
 """
 
 
+WORD_LIMIT = 100  # hard backstop -- the prompt asks for 80, but don't just trust it
+
+
+def _enforce_word_limit(text, limit=WORD_LIMIT):
+    words = text.split()
+    if len(words) <= limit:
+        return text
+    # Cut at the last sentence boundary that still fits, rather than a
+    # mid-sentence chop -- a real production run showed several summaries
+    # running 105-125 words despite the prompt asking for under 100.
+    sentences = re.split(r"(?<=[.!?])\s+", text)
+    out, count = [], 0
+    for sentence in sentences:
+        n = len(sentence.split())
+        if out and count + n > limit:
+            break
+        if not out and n > limit:
+            # A single run-on sentence already exceeds the limit on its own --
+            # fall back to a hard word cut rather than let it through whole.
+            return " ".join(words[:limit])
+        out.append(sentence)
+        count += n
+    return " ".join(out)
+
+
 def generate_summary(client, facts):
     prompt = PROMPT_TEMPLATE.format(facts=_facts_to_prompt(facts))
     resp = client.models.generate_content(model=MODEL, contents=prompt)
-    return resp.text.strip()
+    return _enforce_word_limit(resp.text.strip())
 
 
 def _teams_in_window(conn, days_ahead=2):

@@ -716,9 +716,21 @@ def team_injury_report(conn, team_id):
     definition NOT one of those, so a report limited to that list would
     almost always be empty. Uses the exact same "latest row wins" rule as
     injury_status() so the two can never disagree about a given player.
+
+    Also requires current_team_id = team_id: the injuries table's team_id
+    is whatever team the player was on at the time he got hurt, which
+    doesn't update if he's traded afterward -- without this check, a
+    player hurt on Team A who gets traded to Team B while still on the IL
+    shows up on Team A's report forever, even after he's no longer on the
+    roster at all.
     """
     player_ids = {
-        r["player_id"] for r in conn.execute("SELECT DISTINCT player_id FROM injuries WHERE team_id = ?", (team_id,))
+        r["player_id"] for r in conn.execute(
+            "SELECT DISTINCT i.player_id FROM injuries i "
+            "JOIN players p ON p.player_id = i.player_id "
+            "WHERE i.team_id = ? AND p.current_team_id = ?",
+            (team_id, team_id),
+        )
     }
     out = []
     for player_id in player_ids:

@@ -11,6 +11,23 @@ public news RSS feed -- no paid odds API, no scraping of betting sites.
 
 _Updated with every change going forward._
 
+- **2026-08-15** -- Fixed three real problems found by reading the actual
+  first batch of Gemini-generated team summaries: (1) `team_injury_report()`
+  matched on the injuries table's team_id, which is frozen to whatever team
+  a player was on when he got hurt -- a player traded away while still
+  injured stayed stuck on his old team's report forever. Now also requires
+  `players.current_team_id` to match, so a trade removes him from his old
+  team's list. This also fixes the same stale-injury bug on the regular
+  per-team dashboard card, not just the AI summary. (2) The model was asked
+  to judge whether ERA/WHIP were better or worse than league average itself,
+  and got it backwards on a real Rockies summary ("5.45 ERA... well below
+  league averages" -- 5.45 is far *worse* than the 3.96 league average).
+  That comparison is now computed in Python and handed to the model as a
+  given fact instead of something it has to reason about. (3) The prompt
+  asked for "under 100 words" but most real summaries ran 105-125 words
+  anyway -- added a hard word-count enforcement in code that trims to the
+  last full sentence that fits, instead of just trusting the model to obey.
+
 - **2026-08-14** -- Switched the AI team-summary generator
   (`sync_team_summaries.py`) from the Claude API to the Gemini API
   (`gemini-3.5-flash-lite`), which has a genuinely free tier -- no billing
