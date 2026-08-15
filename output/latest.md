@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-15T22:51:42.301494+00:00_
+_Generated 2026-08-15T23:01:33.512370+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -230,7 +230,7 @@ _Facing a taxed bullpen: 8.0 relief IP in last 2 days (ratio 1.36)_
 ## 2026-08-15 - Miami Marlins @ Cincinnati Reds (In Progress)
 _Great American Ball Park [hitter-friendly park]_
 Projected score: Miami Marlins 4.38 - Cincinnati Reds 3.84
-Model likes: **Miami Marlins** to win (55%) | Run line: **Cincinnati Reds** +1.5 (61% to cover) | Total 7.5: lean **OVER** (52%)
+Model likes: **Miami Marlins** to win (55%) | Run line: **Cincinnati Reds** +1.5 (61% to cover) | Total 7.5: lean **OVER** (51%)
 
 ### Miami Marlins lineup -- CONFIRMED
 _Facing a taxed bullpen: 6.7 relief IP in last 2 days (ratio 1.43)_
@@ -378,10 +378,10 @@ Model likes: **Boston Red Sox** to win (64%) | Run line: **Pittsburgh Pirates** 
 - #8 Rafael Flores Jr. (R) -- L7: 6H 3HR 8RBI 15TB (0.316 avg) -- home split: 0.421 avg
 - #9 Jared Triolo (R) -- L7: 5H 1HR 4RBI 8TB (0.312 avg) -- home split: 0.243 avg
 
-## 2026-08-15 - Milwaukee Brewers @ Los Angeles Dodgers (Pre-Game)
+## 2026-08-15 - Milwaukee Brewers @ Los Angeles Dodgers (Warmup)
 _UNIQLO Field at Dodger Stadium_
 Projected score: Milwaukee Brewers 3.7 - Los Angeles Dodgers 2.32
-Model likes: **Milwaukee Brewers** to win (65%) | Run line: **Los Angeles Dodgers** +1.5 (54% to cover) | Total 5.5: lean **OVER** (50%)
+Model likes: **Milwaukee Brewers** to win (65%) | Run line: **Los Angeles Dodgers** +1.5 (55% to cover) | Total 5.5: lean **OVER** (50%)
 
 ### Milwaukee Brewers lineup -- CONFIRMED
 **Probable P: Jacob Misiorowski (R)** -- L5: 29.0 IP, 48 K, 9 ER, 2.79 ERA
@@ -407,10 +407,10 @@ Model likes: **Milwaukee Brewers** to win (65%) | Run line: **Los Angeles Dodger
 - #8 Alex Call (R) [TOUGH MATCHUP: pitcher holds this hand to 0.191 avg-against] -- L7: 2H 0HR 1RBI 4TB (0.222 avg) -- home split: 0.217 avg
 - #9 Hunter Feduccia (L) -- L7: 4H 1HR 1RBI 8TB (0.267 avg) -- home split: 0.234 avg
 
-## 2026-08-15 - Arizona Diamondbacks @ Atlanta Braves (Pre-Game)
+## 2026-08-15 - Arizona Diamondbacks @ Atlanta Braves (Warmup)
 _Truist Park_
 Projected score: Arizona Diamondbacks 3.13 - Atlanta Braves 3.18
-Model likes: **Atlanta Braves** to win (51%) | Run line: **Arizona Diamondbacks** +1.5 (68% to cover) | Total 5.5: lean **OVER** (54%)
+Model likes: **Atlanta Braves** to win (50%) | Run line: **Arizona Diamondbacks** +1.5 (68% to cover) | Total 5.5: lean **OVER** (54%)
 
 ### Arizona Diamondbacks lineup -- CONFIRMED
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.57)_
@@ -441,7 +441,7 @@ _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.38)_
 ## 2026-08-15 - Kansas City Royals @ Los Angeles Angels (Pre-Game)
 _Angel Stadium_
 Projected score: Kansas City Royals 3.57 - Los Angeles Angels 2.53
-Model likes: **Kansas City Royals** to win (62%) | Run line: **Los Angeles Angels** +1.5 (58% to cover) | Total 5.5: lean **OVER** (52%)
+Model likes: **Kansas City Royals** to win (61%) | Run line: **Los Angeles Angels** +1.5 (58% to cover) | Total 5.5: lean **OVER** (52%)
 
 ### Kansas City Royals lineup -- CONFIRMED
 _Facing a taxed bullpen: 8.0 relief IP in last 2 days (ratio 1.36)_
@@ -470,20 +470,20 @@ _Facing a taxed bullpen: 8.0 relief IP in last 2 days (ratio 1.36)_
 
 ## 2026-08-15 - Texas Rangers @ Athletics (Pre-Game)
 _Sutter Health Park_
-Projected score: Texas Rangers 3.55 - Athletics 4.29
-Model likes: **Athletics** to win (57%) | Run line: **Texas Rangers** +1.5 (60% to cover) | Total 7.5: lean **UNDER** (52%)
+Projected score: Texas Rangers 3.72 - Athletics 4.29
+Model likes: **Athletics** to win (55%) | Run line: **Texas Rangers** +1.5 (61% to cover) | Total 7.5: lean **UNDER** (51%)
 
-### Texas Rangers lineup -- PROJECTED (unconfirmed)
+### Texas Rangers lineup -- CONFIRMED
 **Probable P: MacKenzie Gore (L)** -- L5: 29.0 IP, 34 K, 12 ER, 3.72 ERA
-- Wyatt Langford (R) [TOUGH MATCHUP: pitcher holds this hand to 0.180 avg-against] -- L7: 2H 0HR 0RBI 2TB (0.095 avg) -- away split: 0.245 avg
-- Evan Carter (L) [3-game hit streak] -- L7: 3H 0HR 1RBI 3TB (0.150 avg) -- away split: 0.187 avg
-- Ezequiel Duran (R) [TOUGH MATCHUP: pitcher holds this hand to 0.180 avg-against] -- L7: 5H 0HR 1RBI 6TB (0.185 avg) -- away split: 0.250 avg
-- Nicky Lopez (L) -- L7: 2H 0HR 1RBI 4TB (0.133 avg) -- away split: 0.222 avg
-- Brandon Nimmo (L) -- L7: 6H 1HR 4RBI 9TB (0.222 avg) -- away split: 0.279 avg
-- Jake Burger (R) [TOUGH MATCHUP: pitcher holds this hand to 0.180 avg-against] -- L7: 4H 1HR 5RBI 7TB (0.167 avg) -- away split: 0.243 avg
-- Joc Pederson (L) -- L7: 3H 2HR 4RBI 9TB (0.200 avg) -- away split: 0.295 avg
-- Justin Foscue (R) [TOUGH MATCHUP: pitcher holds this hand to 0.180 avg-against] -- L7: 3H 0HR 0RBI 3TB (0.200 avg) -- away split: 0.286 avg
-- Corey Seager (L) -- L7: 5H 2HR 4RBI 12TB (0.200 avg) -- away split: 0.219 avg
+- #1 Joc Pederson (L) -- L7: 3H 2HR 4RBI 9TB (0.200 avg) -- away split: 0.295 avg
+- #2 Brandon Nimmo (L) -- L7: 6H 1HR 4RBI 9TB (0.222 avg) -- away split: 0.279 avg
+- #3 Corey Seager (L) -- L7: 5H 2HR 4RBI 12TB (0.200 avg) -- away split: 0.219 avg
+- #4 Wyatt Langford (R) [TOUGH MATCHUP: pitcher holds this hand to 0.180 avg-against] -- L7: 2H 0HR 0RBI 2TB (0.095 avg) -- away split: 0.245 avg
+- #5 Ezequiel Duran (R) [TOUGH MATCHUP: pitcher holds this hand to 0.180 avg-against] -- L7: 5H 0HR 1RBI 6TB (0.185 avg) -- away split: 0.250 avg
+- #6 Evan Carter (L) [3-game hit streak] -- L7: 3H 0HR 1RBI 3TB (0.150 avg) -- away split: 0.187 avg
+- #7 Jake Burger (R) [TOUGH MATCHUP: pitcher holds this hand to 0.180 avg-against] -- L7: 4H 1HR 5RBI 7TB (0.167 avg) -- away split: 0.243 avg
+- #8 Austin Wynns (R) [TOUGH MATCHUP: pitcher holds this hand to 0.180 avg-against] [likely BABIP-driven, not a real power uptick] -- L7: 5H 0HR 0RBI 5TB (0.333 avg) -- away split: 0.133 avg
+- #9 Nicky Lopez (L) -- L7: 2H 0HR 1RBI 4TB (0.133 avg) -- away split: 0.222 avg
 
 ### Athletics lineup -- CONFIRMED
 _Facing a taxed bullpen: 9.0 relief IP in last 2 days (ratio 1.84)_
@@ -501,7 +501,7 @@ _Facing a taxed bullpen: 9.0 relief IP in last 2 days (ratio 1.84)_
 ## 2026-08-16 - Baltimore Orioles @ Tampa Bay Rays (Scheduled)
 _Tropicana Field_
 Projected score: Baltimore Orioles 4.76 - Tampa Bay Rays 4.11
-Model likes: **Baltimore Orioles** to win (56%) | Run line: **Tampa Bay Rays** +1.5 (59% to cover) | Total 8.5: lean **UNDER** (52%)
+Model likes: **Baltimore Orioles** to win (55%) | Run line: **Tampa Bay Rays** +1.5 (60% to cover) | Total 8.5: lean **UNDER** (52%)
 
 ### Baltimore Orioles lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 8.0 relief IP in last 2 days (ratio 1.36)_
@@ -651,7 +651,7 @@ _Facing a taxed bullpen: 9.0 relief IP in last 2 days (ratio 1.48)_
 ## 2026-08-16 - Chicago White Sox @ Detroit Tigers (Scheduled)
 _Comerica Park [pitcher-friendly park]_
 Projected score: Chicago White Sox 3.98 - Detroit Tigers 3.6
-Model likes: **Chicago White Sox** to win (54%) | Run line: **Detroit Tigers** +1.5 (63% to cover) | Total 7.5: lean **UNDER** (55%)
+Model likes: **Chicago White Sox** to win (53%) | Run line: **Detroit Tigers** +1.5 (63% to cover) | Total 7.5: lean **UNDER** (55%)
 
 ### Chicago White Sox lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 10.0 relief IP in last 2 days (ratio 2.03)_
@@ -774,7 +774,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-16 - St. Louis Cardinals @ Chicago Cubs (Scheduled)
 _Wrigley Field_
 Projected score: St. Louis Cardinals 3.95 - Chicago Cubs 4.11
-Model likes: **Chicago Cubs** to win (52%) | Run line: **St. Louis Cardinals** +1.5 (64% to cover) | Total 7.5: lean **OVER** (50%)
+Model likes: **Chicago Cubs** to win (51%) | Run line: **St. Louis Cardinals** +1.5 (64% to cover) | Total 7.5: lean **OVER** (50%)
 
 ### St. Louis Cardinals lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 6.0 relief IP in last 2 days (ratio 1.48)_
@@ -950,27 +950,26 @@ Model likes: **Houston Astros** to win (66%) | Run line: **Seattle Mariners** +1
 - Taylor Trammell (L) -- L7: 4H 2HR 4RBI 12TB (0.174 avg) -- home split: 0.202 avg
 - Nick Allen (R) -- L7: 2H 0HR 1RBI 2TB (0.222 avg) -- home split: 0.215 avg
 
-## 2026-08-17 - St. Louis Cardinals @ Cincinnati Reds (Postponed)
+## 2026-08-17 - St. Louis Cardinals @ Cincinnati Reds (Scheduled)
 _Great American Ball Park [hitter-friendly park]_
-Projected score: St. Louis Cardinals 4.72 - Cincinnati Reds 3.95
-Model likes: **St. Louis Cardinals** to win (57%) | Run line: **Cincinnati Reds** +1.5 (58% to cover) | Total 8.5: lean **UNDER** (54%)
+Projected score: St. Louis Cardinals 4.94 - Cincinnati Reds 3.82
+Model likes: **St. Louis Cardinals** to win (60%) | Run line: **Cincinnati Reds** +1.5 (56% to cover) | Total 8.5: lean **UNDER** (53%)
 
 ### St. Louis Cardinals lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
-**Probable P: Brycen Mautz (L)** -- L5: no data
 - Masyn Winn (R) -- L7: 6H 0HR 4RBI 8TB (0.231 avg) -- away split: 0.226 avg
-- Alec Burleson (L) [MATCHUP EDGE: pitcher hits 0.297 avg-against vs this hand] -- L7: 7H 2HR 9RBI 15TB (0.280 avg) -- away split: 0.308 avg -- news: Can Alec Burleson guide Cardinals to contention?
+- Alec Burleson (L) [MATCHUP EDGE: pitcher hits 0.266 avg-against vs this hand] -- L7: 7H 2HR 9RBI 15TB (0.280 avg) -- away split: 0.308 avg -- news: Can Alec Burleson guide Cardinals to contention?
 - Iván Herrera (R) [likely BABIP-driven, not a real power uptick] -- L7: 11H 0HR 3RBI 15TB (0.379 avg) -- away split: 0.259 avg
-- JJ Wetherholt (L) [MATCHUP EDGE: pitcher hits 0.297 avg-against vs this hand] -- L7: 4H 0HR 2RBI 5TB (0.148 avg) -- away split: 0.256 avg
-- Nathan Church (L) [MATCHUP EDGE: pitcher hits 0.297 avg-against vs this hand] -- L7: 5H 0HR 4RBI 6TB (0.227 avg) -- away split: 0.242 avg
+- JJ Wetherholt (L) [MATCHUP EDGE: pitcher hits 0.266 avg-against vs this hand] -- L7: 4H 0HR 2RBI 5TB (0.148 avg) -- away split: 0.256 avg
+- Nathan Church (L) [MATCHUP EDGE: pitcher hits 0.266 avg-against vs this hand] -- L7: 5H 0HR 4RBI 6TB (0.227 avg) -- away split: 0.242 avg
 - Jordan Walker (R) -- L7: 5H 1HR 3RBI 9TB (0.200 avg) -- away split: 0.275 avg
 - José Fermín (R) -- L7: 5H 0HR 3RBI 6TB (0.312 avg) -- away split: 0.240 avg
 - Blaze Jordan (R) -- L7: 5H 1HR 1RBI 8TB (0.263 avg) -- away split: 0.329 avg
-- Bryan Torres (L) [MATCHUP EDGE: pitcher hits 0.297 avg-against vs this hand] -- L7: 2H 0HR 1RBI 2TB (0.125 avg) -- away split: 0.244 avg
+- Bryan Torres (L) [MATCHUP EDGE: pitcher hits 0.266 avg-against vs this hand] -- L7: 2H 0HR 1RBI 2TB (0.125 avg) -- away split: 0.244 avg
 
 ### Cincinnati Reds lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.59)_
-**Probable P: Brady Singer (R)** -- L5: 30.0 IP, 24 K, 15 ER, 4.5 ERA
+**Probable P: Rhett Lowder (R)** -- L5: 24.7 IP, 18 K, 16 ER, 5.84 ERA
 - Sal Stewart (R) [6-game hit streak] -- L7: 8H 1HR 2RBI 11TB (0.286 avg) -- home split: 0.257 avg
 - Elly De La Cruz (S) -- L7: 3H 1HR 3RBI 6TB (0.120 avg) -- home split: 0.305 avg
 - JJ Bleday (L) -- L7: 2H 0HR 0RBI 3TB (0.080 avg) -- home split: 0.247 avg
@@ -1043,7 +1042,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-17 - St. Louis Cardinals @ Cincinnati Reds (Scheduled)
 _Great American Ball Park [hitter-friendly park]_
 Projected score: St. Louis Cardinals 4.79 - Cincinnati Reds 3.82
-Model likes: **St. Louis Cardinals** to win (58%) | Run line: **Cincinnati Reds** +1.5 (57% to cover) | Total 8.5: lean **UNDER** (55%)
+Model likes: **St. Louis Cardinals** to win (58%) | Run line: **Cincinnati Reds** +1.5 (57% to cover) | Total 8.5: lean **UNDER** (54%)
 
 ### St. Louis Cardinals lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1159,7 +1158,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-17 - Atlanta Braves @ Minnesota Twins (Scheduled)
 _Target Field_
 Projected score: Atlanta Braves 4.38 - Minnesota Twins 3.56
-Model likes: **Atlanta Braves** to win (57%) | Run line: **Minnesota Twins** +1.5 (59% to cover) | Total 7.5: lean **UNDER** (51%)
+Model likes: **Atlanta Braves** to win (58%) | Run line: **Minnesota Twins** +1.5 (59% to cover) | Total 7.5: lean **UNDER** (51%)
 
 ### Atlanta Braves lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
