@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-15T11:26:18.139406+00:00_
+_Generated 2026-08-15T11:47:17.938735+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -420,7 +420,7 @@ Model likes: **Milwaukee Brewers** to win (66%) | Run line: **Los Angeles Dodger
 ## 2026-08-15 - Arizona Diamondbacks @ Atlanta Braves (Scheduled)
 _Truist Park_
 Projected score: Arizona Diamondbacks 3.07 - Atlanta Braves 3.0
-Model likes: **Arizona Diamondbacks** to win (51%) | Run line: **Atlanta Braves** +1.5 (69% to cover) | Total 5.5: lean **OVER** (51%)
+Model likes: **Arizona Diamondbacks** to win (51%) | Run line: **Atlanta Braves** +1.5 (68% to cover) | Total 5.5: lean **OVER** (51%)
 
 ### Arizona Diamondbacks lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.57)_
@@ -451,7 +451,7 @@ _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.38)_
 ## 2026-08-15 - Kansas City Royals @ Los Angeles Angels (Scheduled)
 _Angel Stadium_
 Projected score: Kansas City Royals 3.52 - Los Angeles Angels 2.41
-Model likes: **Kansas City Royals** to win (62%) | Run line: **Los Angeles Angels** +1.5 (58% to cover) | Total 5.5: lean **UNDER** (51%)
+Model likes: **Kansas City Royals** to win (62%) | Run line: **Los Angeles Angels** +1.5 (58% to cover) | Total 5.5: lean **UNDER** (50%)
 
 ### Kansas City Royals lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 8.0 relief IP in last 2 days (ratio 1.36)_
@@ -481,7 +481,7 @@ _Facing a taxed bullpen: 8.0 relief IP in last 2 days (ratio 1.36)_
 ## 2026-08-15 - Texas Rangers @ Athletics (Scheduled)
 _Sutter Health Park_
 Projected score: Texas Rangers 3.55 - Athletics 4.38
-Model likes: **Athletics** to win (57%) | Run line: **Texas Rangers** +1.5 (59% to cover) | Total 7.5: lean **UNDER** (51%)
+Model likes: **Athletics** to win (58%) | Run line: **Texas Rangers** +1.5 (59% to cover) | Total 7.5: lean **UNDER** (51%)
 
 ### Texas Rangers lineup -- PROJECTED (unconfirmed)
 **Probable P: MacKenzie Gore (L)** -- L5: 29.0 IP, 34 K, 12 ER, 3.72 ERA
@@ -662,7 +662,7 @@ _Facing a rested bullpen: 2.3 relief IP in last 2 days (ratio 0.39)_
 ## 2026-08-16 - Chicago White Sox @ Detroit Tigers (Scheduled)
 _Comerica Park [pitcher-friendly park]_
 Projected score: Chicago White Sox 3.98 - Detroit Tigers 3.6
-Model likes: **Chicago White Sox** to win (53%) | Run line: **Detroit Tigers** +1.5 (63% to cover) | Total 7.5: lean **UNDER** (55%)
+Model likes: **Chicago White Sox** to win (54%) | Run line: **Detroit Tigers** +1.5 (63% to cover) | Total 7.5: lean **UNDER** (55%)
 
 ### Chicago White Sox lineup -- PROJECTED (unconfirmed)
 **Probable P: Sean Burke (R)** -- L5: 30.0 IP, 37 K, 5 ER, 1.5 ERA
@@ -752,7 +752,7 @@ _Facing a rested bullpen: 1.0 relief IP in last 2 days (ratio 0.19)_
 ## 2026-08-16 - Philadelphia Phillies @ Minnesota Twins (Scheduled)
 _Target Field_
 Projected score: Philadelphia Phillies 4.64 - Minnesota Twins 4.99
-Model likes: **Minnesota Twins** to win (53%) | Run line: **Philadelphia Phillies** +1.5 (61% to cover) | Total 9.5: lean **UNDER** (54%)
+Model likes: **Minnesota Twins** to win (53%) | Run line: **Philadelphia Phillies** +1.5 (61% to cover) | Total 8.5: lean **OVER** (54%)
 
 ### Philadelphia Phillies lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -844,7 +844,7 @@ _Facing a rested bullpen: 1.0 relief IP in last 2 days (ratio 0.19)_
 ## 2026-08-16 - Texas Rangers @ Athletics (Scheduled)
 _Sutter Health Park_
 Projected score: Texas Rangers 4.88 - Athletics 3.16
-Model likes: **Texas Rangers** to win (65%) | Run line: **Athletics** +1.5 (50% to cover) | Total 7.5: lean **UNDER** (50%)
+Model likes: **Texas Rangers** to win (65%) | Run line: **Athletics** +1.5 (51% to cover) | Total 7.5: lean **UNDER** (50%)
 
 ### Texas Rangers lineup -- PROJECTED (unconfirmed)
 **Probable P: Cody Bradford (L)** -- L5: 25.7 IP, 20 K, 12 ER, 4.21 ERA
@@ -903,7 +903,7 @@ Model likes: **Kansas City Royals** to win (59%) | Run line: **Los Angeles Angel
 ## 2026-08-16 - Milwaukee Brewers @ Los Angeles Dodgers (Scheduled)
 _UNIQLO Field at Dodger Stadium_
 Projected score: Milwaukee Brewers 3.41 - Los Angeles Dodgers 2.95
-Model likes: **Milwaukee Brewers** to win (55%) | Run line: **Los Angeles Dodgers** +1.5 (64% to cover) | Total 5.5: lean **OVER** (54%)
+Model likes: **Milwaukee Brewers** to win (55%) | Run line: **Los Angeles Dodgers** +1.5 (64% to cover) | Total 5.5: lean **OVER** (55%)
 
 ### Milwaukee Brewers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.58)_
@@ -934,7 +934,7 @@ _Facing a rested bullpen: 1.7 relief IP in last 2 days (ratio 0.28)_
 ## 2026-08-16 - Seattle Mariners @ Houston Astros (Scheduled)
 _Daikin Park_
 Projected score: Seattle Mariners 2.86 - Houston Astros 4.59
-Model likes: **Houston Astros** to win (66%) | Run line: **Seattle Mariners** +1.5 (51% to cover) | Total 6.5: lean **OVER** (54%)
+Model likes: **Houston Astros** to win (66%) | Run line: **Seattle Mariners** +1.5 (50% to cover) | Total 6.5: lean **OVER** (54%)
 
 ### Seattle Mariners lineup -- PROJECTED (unconfirmed)
 **Probable P: Bryan Woo (R)** -- L5: 28.0 IP, 30 K, 12 ER, 3.86 ERA
