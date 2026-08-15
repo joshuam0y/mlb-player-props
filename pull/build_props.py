@@ -512,11 +512,16 @@ def pitcher_category_factor(label, form_trend):
     direction: a dominant stretch means MORE strikeouts and MORE outs
     recorded (going deeper into games instead of getting an early hook)
     but FEWER runs/hits/walks allowed, so the sign flips depending on the
-    category.
+    category -- in theory. An earlier version applied that same +/-10%
+    nudge for "dominant" starts too, but the project's own cumulative
+    backtest (track_record.json's pitcher_form bucket) shows "dominant"
+    doesn't hold up: those starts go on to post a 4.36 ERA and 4.65 K/start,
+    both WORSE than neutral (3.73 ERA, 4.77 K/start) -- the opposite of
+    what the factor assumed. "Rough" is kept because it IS validated by
+    the same data (4.12 ERA / 4.59 K/start, both correctly worse than
+    neutral, matching the "pitching poorly" thesis this factor is for).
     """
     positive = label in PITCHER_POSITIVE_CATEGORIES
-    if form_trend == "dominant":
-        return 1 + PITCHER_FORM_PROJECTION_FACTOR if positive else 1 - PITCHER_FORM_PROJECTION_FACTOR
     if form_trend == "rough":
         return 1 - PITCHER_FORM_PROJECTION_FACTOR if positive else 1 + PITCHER_FORM_PROJECTION_FACTOR
     return 1.0
@@ -1202,16 +1207,19 @@ def build_team_side(conn, game, side):
 def batter_over_score(b):
     """
     Signals that point toward this player OUTPERFORMING their normal --
-    weighted by how much we've actually validated each one (our own
-    backtest showed HOT alone barely predicts anything, so a BABIP-luck
-    hot streak counts for very little; a real hot streak and a favorable
-    matchup count for more).
+    weighted by how much we've actually validated each one. An earlier
+    version gave "real hot streak" a +2.0 bonus here, but the project's own
+    cumulative backtest (track_record.json's batter_trend bucket, ~900-1000
+    games per bucket) shows batters entering a game on a HOT trend go on to
+    hit .232 that game -- worse than NEUTRAL (.241), let alone COLD (.253).
+    Hot streaks predict cooling off, not continuing, so this isn't a weak
+    signal to shade down -- it's backwards, and got removed rather than
+    just discounted. Matchup is the one signal this data actually validates
+    (favorable .253 > neutral .240 > unfavorable .231, cleanly monotonic),
+    so it carries the real weight here now.
     """
     score = 0.0
     reasons = []
-    if b["trend"] == "hot" and b.get("trend_caveat") != "babip_driven":
-        score += 2.0
-        reasons.append("real hot streak (not just lucky bloops)")
     if b.get("matchup") and b["matchup"].get("favorable"):
         score += 2.0
         reasons.append("favorable matchup vs. tonight's pitcher")
@@ -1225,12 +1233,16 @@ def batter_over_score(b):
 
 
 def batter_under_score(b):
-    """The mirror image: signals pointing toward this player UNDERPERFORMING their normal."""
+    """
+    The mirror image: signals pointing toward this player UNDERPERFORMING
+    their normal. Same backtest bucket that killed the hot-streak bonus
+    above also kills the old COLD bonus here -- batters entering a game
+    COLD go on to hit .253 that game, actually *above* neutral (.241), a
+    rebound rather than continued struggle. Matchup remains the validated
+    signal (unfavorable .231 < neutral .240), so it's the only one left.
+    """
     score = 0.0
     reasons = []
-    if b["trend"] == "cold":
-        score += 1.5
-        reasons.append("cold recent stretch (well below season average)")
     if b.get("matchup") and b["matchup"].get("unfavorable"):
         score += 2.0
         reasons.append("tough matchup vs. tonight's pitcher")
@@ -1258,13 +1270,18 @@ PITCHER_ROUGH_FORM_PENALTY = 1.5  # a pitcher actively getting hit hard lately s
 
 
 def pitcher_strikeout_over_score(p):
-    """Signals favoring the strikeout OVER: pitching better than usual lately, and/or a lineup full of bad matchups for the batters facing him."""
+    """
+    Signals favoring the strikeout OVER: a lineup full of bad matchups for
+    the batters facing him, and elevated recent opponent K-rate. "Dominant"
+    recent form used to add here too, but the same backtest bucket that
+    fixed pitcher_category_factor() shows dominant-rated starts actually
+    average FEWER strikeouts (4.65/start) than neutral ones (4.77/start) --
+    backwards for a strikeout-over signal, so it's gone rather than kept at
+    a lower weight.
+    """
     score = 0.0
     reasons = []
-    if p.get("form_trend") == "dominant":
-        score += 1.5
-        reasons.append("pitching well above his season norm over his last few starts")
-    elif p.get("form_trend") == "rough":
+    if p.get("form_trend") == "rough":
         # A pitcher who's actively getting rocked lately is typically also
         # getting pulled early -- fewer innings means a real cap on his
         # strikeout upside no matter how favorable tonight's matchup looks
@@ -1294,13 +1311,19 @@ def pitcher_strikeout_over_score(p):
 
 
 def pitcher_runs_under_score(p):
-    """Signals favoring the runs/hits-allowed UNDER: same 'pitching well' signals, framed toward a clean outing."""
+    """
+    Signals favoring the runs/hits-allowed UNDER, framed toward a clean
+    outing. "Dominant" recent form used to add here too, but the same
+    backtest bucket that fixed pitcher_category_factor() shows dominant-
+    rated starts actually average a WORSE 4.36 ERA than neutral ones
+    (3.73) -- backwards for a clean-outing signal, so it's gone rather
+    than kept at a lower weight. "Rough" stays: it's the one direction
+    this data does validate (rough starts really do run a worse ERA than
+    neutral, matching the "not a clean outing" thesis this penalizes for).
+    """
     score = 0.0
     reasons = []
-    if p.get("form_trend") == "dominant":
-        score += 1.5
-        reasons.append("allowing fewer runs than usual over his last few starts")
-    elif p.get("form_trend") == "rough":
+    if p.get("form_trend") == "rough":
         # The direct opposite of the "under" thesis -- he's been allowing
         # MORE runs than usual, not fewer, so this should count against a
         # clean-outing bet, not just sit neutral.

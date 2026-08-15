@@ -11,6 +11,28 @@ public news RSS feed -- no paid odds API, no scraping of betting sites.
 
 _Updated with every change going forward._
 
+- **2026-08-15** -- Real finding from the site's own track record: Top
+  Overs has been hitting 42.5% (n=443, 21 days) against Top Unders' 53.4%
+  (n=433) -- a persistent, statistically real gap, not noise. Root cause:
+  `batter_over_score()`, `batter_under_score()`, `pitcher_strikeout_over_score()`,
+  `pitcher_runs_under_score()`, and `pitcher_category_factor()` all gave bonus
+  weight to "hot"/"dominant" recent form, assuming it predicts continued
+  strong performance. The project's own cumulative backtest buckets say the
+  opposite: batters entering a game HOT go on to hit .232 that game --
+  *worse* than NEUTRAL (.241), let alone COLD (.253); pitchers rated
+  DOMINANT post a 4.36 ERA and 4.65 K/start next time out -- both worse
+  than NEUTRAL (3.73 ERA, 4.77 K/start). Hot/dominant form regresses, it
+  doesn't continue -- so betting the trend was backwards, not just a weak
+  signal to shade down. Removed the hot/dominant bonuses entirely from all
+  five functions rather than just discounting them. Matchup-based signals
+  were left untouched -- that data cleanly validates them (favorable .253 >
+  neutral .240 > unfavorable .231) -- as was the "rough" pitcher-form
+  penalty, which the same data also validates (rough starts really do run
+  a worse 4.12 ERA / 4.59 K-start than neutral). This changes future picks
+  only -- frozen past days' picks and the 42.5%/53.4% cumulative numbers
+  above don't retroactively change; only new days going forward test the
+  reweighted logic.
+
 - **2026-08-15** -- Fixed three real problems found by reading the actual
   first batch of Gemini-generated team summaries: (1) `team_injury_report()`
   matched on the injuries table's team_id, which is frozen to whatever team
