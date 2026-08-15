@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-15T07:11:29.660116+00:00_
+_Generated 2026-08-15T07:12:44.344966+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -181,7 +181,7 @@ _Facing a rested bullpen: 1.0 relief IP in last 2 days (ratio 0.19)_
 ## 2026-08-15 - Washington Nationals @ New York Mets (Scheduled)
 _Citi Field_
 Projected score: Washington Nationals 4.25 - New York Mets 3.65
-Model likes: **Washington Nationals** to win (55%) | Run line: **New York Mets** +1.5 (61% to cover) | Total 7.5: lean **UNDER** (52%)
+Model likes: **Washington Nationals** to win (56%) | Run line: **New York Mets** +1.5 (61% to cover) | Total 7.5: lean **UNDER** (52%)
 
 ### Washington Nationals lineup -- PROJECTED (unconfirmed)
 **Probable P: Brad Lord (R)** [BULLPEN GAME: short-outing arm, no reliable individual matchup below] -- L5: 10.0 IP, 10 K, 7 ER, 6.3 ERA
@@ -960,25 +960,27 @@ Model likes: **Houston Astros** to win (66%) | Run line: **Seattle Mariners** +1
 - Taylor Trammell (L) -- L7: 4H 2HR 4RBI 12TB (0.174 avg) -- home split: 0.202 avg
 - Nick Allen (R) -- L7: 2H 0HR 1RBI 2TB (0.222 avg) -- home split: 0.215 avg
 
-## 2026-08-17 - St. Louis Cardinals @ Cincinnati Reds (Scheduled)
+## 2026-08-17 - St. Louis Cardinals @ Cincinnati Reds (Postponed)
 _Great American Ball Park [hitter-friendly park]_
-Projected score: St. Louis Cardinals 4.79 - Cincinnati Reds 3.82
-Model likes: **St. Louis Cardinals** to win (58%) | Run line: **Cincinnati Reds** +1.5 (57% to cover) | Total 8.5: lean **UNDER** (55%)
+Projected score: St. Louis Cardinals 4.71 - Cincinnati Reds 3.95
+Model likes: **St. Louis Cardinals** to win (56%) | Run line: **Cincinnati Reds** +1.5 (59% to cover) | Total 8.5: lean **UNDER** (54%)
 
 ### St. Louis Cardinals lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
-- Nathan Church (L) -- L7: 5H 0HR 4RBI 6TB (0.227 avg) -- away split: 0.242 avg
+**Probable P: Brycen Mautz (L)** -- L5: no data
+- Nathan Church (L) [MATCHUP EDGE: pitcher hits 0.297 avg-against vs this hand] -- L7: 5H 0HR 4RBI 6TB (0.227 avg) -- away split: 0.242 avg
 - Masyn Winn (R) -- L7: 7H 0HR 4RBI 10TB (0.280 avg) -- away split: 0.230 avg
-- Alec Burleson (L) -- L7: 6H 1HR 7RBI 11TB (0.240 avg) -- away split: 0.307 avg -- news: Can Alec Burleson guide Cardinals to contention?
+- Alec Burleson (L) [MATCHUP EDGE: pitcher hits 0.297 avg-against vs this hand] -- L7: 6H 1HR 7RBI 11TB (0.240 avg) -- away split: 0.307 avg -- news: Can Alec Burleson guide Cardinals to contention?
 - Iván Herrera (R) -- L7: 12H 1HR 4RBI 19TB (0.387 avg) -- away split: 0.262 avg
-- JJ Wetherholt (L) -- L7: 4H 0HR 2RBI 5TB (0.154 avg) -- away split: 0.261 avg
+- JJ Wetherholt (L) [MATCHUP EDGE: pitcher hits 0.297 avg-against vs this hand] -- L7: 4H 0HR 2RBI 5TB (0.154 avg) -- away split: 0.261 avg
 - José Fermín (R) -- L7: 5H 0HR 3RBI 6TB (0.312 avg) -- away split: 0.240 avg
 - Jordan Walker (R) -- L7: 6H 1HR 3RBI 10TB (0.240 avg) -- away split: 0.280 avg
-- Bryan Torres (L) -- L7: 2H 0HR 1RBI 2TB (0.125 avg) -- away split: 0.244 avg
+- Bryan Torres (L) [MATCHUP EDGE: pitcher hits 0.297 avg-against vs this hand] -- L7: 2H 0HR 1RBI 2TB (0.125 avg) -- away split: 0.244 avg
 - Blaze Jordan (R) -- L7: 5H 0HR 0RBI 7TB (0.294 avg) -- away split: 0.333 avg
 
 ### Cincinnati Reds lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
+**Probable P: Brady Singer (R)** -- L5: 30.0 IP, 24 K, 15 ER, 4.5 ERA
 - Sal Stewart (R) [6-game hit streak] -- L7: 8H 1HR 2RBI 11TB (0.286 avg) -- home split: 0.257 avg
 - Elly De La Cruz (S) -- L7: 3H 1HR 3RBI 6TB (0.120 avg) -- home split: 0.305 avg
 - JJ Bleday (L) -- L7: 2H 0HR 0RBI 3TB (0.080 avg) -- home split: 0.247 avg
@@ -1226,7 +1228,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-17 - Chicago White Sox @ Chicago Cubs (Scheduled)
 _Wrigley Field_
 Projected score: Chicago White Sox 4.06 - Chicago Cubs 5.9
-Model likes: **Chicago Cubs** to win (64%) | Run line: **Chicago Cubs** -1.5 (50% to cover) | Total 9.5: lean **UNDER** (52%)
+Model likes: **Chicago Cubs** to win (64%) | Run line: **Chicago Cubs** -1.5 (51% to cover) | Total 9.5: lean **UNDER** (52%)
 
 ### Chicago White Sox lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
