@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-15T08:30:37.877808+00:00_
+_Generated 2026-08-15T08:57:37.518576+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -91,7 +91,7 @@ _Facing a taxed bullpen: 14.7 relief IP in last 2 days (ratio 2.19)_
 ## 2026-08-15 - St. Louis Cardinals @ Chicago Cubs (Scheduled)
 _Wrigley Field_
 Projected score: St. Louis Cardinals 3.67 - Chicago Cubs 4.27
-Model likes: **Chicago Cubs** to win (55%) | Run line: **St. Louis Cardinals** +1.5 (61% to cover) | Total 7.5: lean **UNDER** (51%)
+Model likes: **Chicago Cubs** to win (56%) | Run line: **St. Louis Cardinals** +1.5 (61% to cover) | Total 7.5: lean **UNDER** (51%)
 
 ### St. Louis Cardinals lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 5.7 relief IP in last 2 days (ratio 1.4)_
@@ -181,7 +181,7 @@ _Facing a rested bullpen: 1.0 relief IP in last 2 days (ratio 0.19)_
 ## 2026-08-15 - Washington Nationals @ New York Mets (Scheduled)
 _Citi Field_
 Projected score: Washington Nationals 4.25 - New York Mets 3.65
-Model likes: **Washington Nationals** to win (56%) | Run line: **New York Mets** +1.5 (61% to cover) | Total 7.5: lean **UNDER** (52%)
+Model likes: **Washington Nationals** to win (55%) | Run line: **New York Mets** +1.5 (61% to cover) | Total 7.5: lean **UNDER** (52%)
 
 ### Washington Nationals lineup -- PROJECTED (unconfirmed)
 **Probable P: Brad Lord (R)** [BULLPEN GAME: short-outing arm, no reliable individual matchup below] -- L5: 10.0 IP, 10 K, 7 ER, 6.3 ERA
@@ -420,7 +420,7 @@ Model likes: **Milwaukee Brewers** to win (66%) | Run line: **Los Angeles Dodger
 ## 2026-08-15 - Arizona Diamondbacks @ Atlanta Braves (Scheduled)
 _Truist Park_
 Projected score: Arizona Diamondbacks 3.07 - Atlanta Braves 3.0
-Model likes: **Arizona Diamondbacks** to win (51%) | Run line: **Atlanta Braves** +1.5 (68% to cover) | Total 5.5: lean **OVER** (51%)
+Model likes: **Arizona Diamondbacks** to win (51%) | Run line: **Atlanta Braves** +1.5 (69% to cover) | Total 5.5: lean **OVER** (51%)
 
 ### Arizona Diamondbacks lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.57)_
@@ -451,7 +451,7 @@ _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.38)_
 ## 2026-08-15 - Kansas City Royals @ Los Angeles Angels (Scheduled)
 _Angel Stadium_
 Projected score: Kansas City Royals 3.52 - Los Angeles Angels 2.41
-Model likes: **Kansas City Royals** to win (62%) | Run line: **Los Angeles Angels** +1.5 (58% to cover) | Total 5.5: lean **UNDER** (50%)
+Model likes: **Kansas City Royals** to win (63%) | Run line: **Los Angeles Angels** +1.5 (57% to cover) | Total 5.5: lean **UNDER** (50%)
 
 ### Kansas City Royals lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 8.0 relief IP in last 2 days (ratio 1.36)_
@@ -541,7 +541,7 @@ _Facing a taxed bullpen: 8.0 relief IP in last 2 days (ratio 1.36)_
 ## 2026-08-16 - Boston Red Sox @ Pittsburgh Pirates (Scheduled)
 _PNC Park_
 Projected score: Boston Red Sox 3.99 - Pittsburgh Pirates 3.12
-Model likes: **Boston Red Sox** to win (58%) | Run line: **Pittsburgh Pirates** +1.5 (59% to cover) | Total 6.5: lean **OVER** (51%)
+Model likes: **Boston Red Sox** to win (59%) | Run line: **Pittsburgh Pirates** +1.5 (59% to cover) | Total 6.5: lean **OVER** (51%)
 
 ### Boston Red Sox lineup -- PROJECTED (unconfirmed)
 **Probable P: Patrick Sandoval (L)** -- L5: 25.7 IP, 24 K, 10 ER, 3.51 ERA
@@ -662,7 +662,7 @@ _Facing a rested bullpen: 2.3 relief IP in last 2 days (ratio 0.39)_
 ## 2026-08-16 - Chicago White Sox @ Detroit Tigers (Scheduled)
 _Comerica Park [pitcher-friendly park]_
 Projected score: Chicago White Sox 3.98 - Detroit Tigers 3.6
-Model likes: **Chicago White Sox** to win (53%) | Run line: **Detroit Tigers** +1.5 (63% to cover) | Total 7.5: lean **UNDER** (55%)
+Model likes: **Chicago White Sox** to win (54%) | Run line: **Detroit Tigers** +1.5 (63% to cover) | Total 7.5: lean **UNDER** (55%)
 
 ### Chicago White Sox lineup -- PROJECTED (unconfirmed)
 **Probable P: Sean Burke (R)** -- L5: 30.0 IP, 37 K, 5 ER, 1.5 ERA
@@ -691,7 +691,7 @@ Model likes: **Chicago White Sox** to win (53%) | Run line: **Detroit Tigers** +
 ## 2026-08-16 - San Diego Padres @ Cleveland Guardians (Scheduled)
 _Progressive Field_
 Projected score: San Diego Padres 4.13 - Cleveland Guardians 2.69
-Model likes: **San Diego Padres** to win (65%) | Run line: **Cleveland Guardians** +1.5 (54% to cover) | Total 6.5: lean **UNDER** (52%)
+Model likes: **San Diego Padres** to win (64%) | Run line: **Cleveland Guardians** +1.5 (54% to cover) | Total 6.5: lean **UNDER** (52%)
 
 ### San Diego Padres lineup -- PROJECTED (unconfirmed)
 **Probable P: Casey Mize (R)** -- L5: 24.3 IP, 20 K, 15 ER, 5.55 ERA
@@ -934,7 +934,7 @@ _Facing a rested bullpen: 1.7 relief IP in last 2 days (ratio 0.28)_
 ## 2026-08-16 - Seattle Mariners @ Houston Astros (Scheduled)
 _Daikin Park_
 Projected score: Seattle Mariners 2.86 - Houston Astros 4.59
-Model likes: **Houston Astros** to win (66%) | Run line: **Seattle Mariners** +1.5 (51% to cover) | Total 6.5: lean **OVER** (54%)
+Model likes: **Houston Astros** to win (66%) | Run line: **Seattle Mariners** +1.5 (50% to cover) | Total 6.5: lean **OVER** (54%)
 
 ### Seattle Mariners lineup -- PROJECTED (unconfirmed)
 **Probable P: Bryan Woo (R)** -- L5: 28.0 IP, 30 K, 12 ER, 3.86 ERA
@@ -963,7 +963,7 @@ Model likes: **Houston Astros** to win (66%) | Run line: **Seattle Mariners** +1
 ## 2026-08-17 - St. Louis Cardinals @ Cincinnati Reds (Scheduled)
 _Great American Ball Park [hitter-friendly park]_
 Projected score: St. Louis Cardinals 4.79 - Cincinnati Reds 3.82
-Model likes: **St. Louis Cardinals** to win (58%) | Run line: **Cincinnati Reds** +1.5 (57% to cover) | Total 8.5: lean **UNDER** (54%)
+Model likes: **St. Louis Cardinals** to win (58%) | Run line: **Cincinnati Reds** +1.5 (57% to cover) | Total 8.5: lean **UNDER** (55%)
 
 ### St. Louis Cardinals lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
