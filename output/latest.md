@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-16T17:58:17.738637+00:00_
+_Generated 2026-08-16T18:26:00.608469+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -52,7 +52,7 @@ _Generated 2026-08-16T17:58:17.738637+00:00_
 ## 2026-08-16 - Baltimore Orioles @ Tampa Bay Rays (In Progress)
 _Tropicana Field_
 Projected score: Baltimore Orioles 4.81 - Tampa Bay Rays 4.3
-Model likes: **Baltimore Orioles** to win (54%) | Run line: **Tampa Bay Rays** +1.5 (60% to cover) | Total 8.5: lean **UNDER** (50%)
+Model likes: **Baltimore Orioles** to win (54%) | Run line: **Tampa Bay Rays** +1.5 (60% to cover) | Total 8.5: lean **OVER** (50%)
 
 ### Baltimore Orioles lineup -- CONFIRMED
 _Facing a taxed bullpen: 12.0 relief IP in last 2 days (ratio 2.03)_
@@ -173,7 +173,7 @@ _Facing a taxed bullpen: 11.0 relief IP in last 2 days (ratio 1.66)_
 ## 2026-08-16 - Washington Nationals @ New York Mets (In Progress)
 _Citi Field_
 Projected score: Washington Nationals 3.85 - New York Mets 5.62
-Model likes: **New York Mets** to win (64%) | Run line: **Washington Nationals** +1.5 (50% to cover) | Total 8.5: lean **OVER** (53%)
+Model likes: **New York Mets** to win (64%) | Run line: **New York Mets** -1.5 (50% to cover) | Total 8.5: lean **OVER** (53%)
 
 ### Washington Nationals lineup -- CONFIRMED
 _Facing a taxed bullpen: 7.3 relief IP in last 2 days (ratio 1.31)_
@@ -292,7 +292,7 @@ Model likes: **Miami Marlins** to win (57%) | Run line: **Cincinnati Reds** +1.5
 - #8 TJ Friedl (L) -- L7: 0H 0HR 0RBI 0TB (0.000 avg) -- home split: 0.148 avg
 - #9 Ke'Bryan Hayes (R) [3-game hit streak] -- L7: 4H 1HR 1RBI 7TB (0.235 avg) -- home split: 0.149 avg
 
-## 2026-08-16 - Philadelphia Phillies @ Minnesota Twins (Warmup)
+## 2026-08-16 - Philadelphia Phillies @ Minnesota Twins (In Progress)
 _Target Field_
 Projected score: Philadelphia Phillies 4.78 - Minnesota Twins 4.74
 Model likes: **Philadelphia Phillies** to win (50%) | Run line: **Minnesota Twins** +1.5 (64% to cover) | Total 8.5: lean **OVER** (53%)
@@ -355,7 +355,7 @@ _Facing a taxed bullpen: 6.0 relief IP in last 2 days (ratio 1.48)_
 ## 2026-08-16 - Colorado Rockies @ San Francisco Giants (Pre-Game)
 _Oracle Park [pitcher-friendly park]_
 Projected score: Colorado Rockies 3.38 - San Francisco Giants 4.54
-Model likes: **San Francisco Giants** to win (61%) | Run line: **Colorado Rockies** +1.5 (56% to cover) | Total 7.5: lean **UNDER** (51%)
+Model likes: **San Francisco Giants** to win (61%) | Run line: **Colorado Rockies** +1.5 (56% to cover) | Total 7.5: lean **UNDER** (52%)
 
 ### Colorado Rockies lineup -- CONFIRMED
 _Facing a taxed bullpen: 6.3 relief IP in last 2 days (ratio 1.41)_
@@ -652,7 +652,7 @@ _Facing a rested bullpen: 4.0 relief IP in last 2 days (ratio 0.65)_
 ## 2026-08-17 - San Diego Padres @ New York Mets (Scheduled)
 _Citi Field_
 Projected score: San Diego Padres 3.54 - New York Mets 4.37
-Model likes: **New York Mets** to win (58%) | Run line: **San Diego Padres** +1.5 (59% to cover) | Total 7.5: lean **UNDER** (52%)
+Model likes: **New York Mets** to win (58%) | Run line: **San Diego Padres** +1.5 (58% to cover) | Total 7.5: lean **UNDER** (52%)
 
 ### San Diego Padres lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.7 relief IP in last 2 days (ratio 0.47)_
@@ -799,22 +799,23 @@ _Facing a rested bullpen: 3.7 relief IP in last 2 days (ratio 0.55)_
 
 ## 2026-08-17 - Los Angeles Dodgers @ Colorado Rockies (Scheduled)
 _Coors Field [hitter-friendly park]_
-Projected score: Los Angeles Dodgers 6.92 - Colorado Rockies 4.61
-Model likes: **Los Angeles Dodgers** to win (66%) | Run line: **Los Angeles Dodgers** -1.5 (54% to cover) | Total 10.5: lean **OVER** (52%)
+Projected score: Los Angeles Dodgers 5.21 - Colorado Rockies 4.61
+Model likes: **Los Angeles Dodgers** to win (55%) | Run line: **Colorado Rockies** +1.5 (59% to cover) | Total 9.5: lean **UNDER** (53%)
 
 ### Los Angeles Dodgers lineup -- PROJECTED (unconfirmed)
 - Andy Pages (R) -- L7: 7H 1HR 2RBI 11TB (0.259 avg) -- away split: 0.248 avg
-- Shohei Ohtani (L) -- L7: 6H 1HR 4RBI 13TB (0.214 avg) -- away split: 0.287 avg
+- Shohei Ohtani (L) [MATCHUP EDGE: pitcher hits 0.265 avg-against vs this hand] -- L7: 6H 1HR 4RBI 13TB (0.214 avg) -- away split: 0.287 avg
 - Teoscar Hernández (R) [3-game hit streak] -- L7: 4H 0HR 1RBI 5TB (0.211 avg) -- away split: 0.252 avg
 - Mookie Betts (R) -- L7: 7H 2HR 4RBI 15TB (0.304 avg) -- away split: 0.240 avg
-- Tommy Edman (S) -- L7: 4H 1HR 1RBI 7TB (0.174 avg) -- away split: 0.289 avg
-- Kyle Tucker (L) -- L7: 2H 1HR 2RBI 7TB (0.083 avg) -- away split: 0.275 avg
-- Max Muncy (L) -- L7: 5H 1HR 7RBI 10TB (0.250 avg) -- away split: 0.263 avg -- news: 10 questions with Dodgers vet Max Muncy
-- Freddie Freeman (L) -- L7: 5H 0HR 2RBI 5TB (0.200 avg) -- away split: 0.329 avg
-- Hunter Feduccia (L) -- L7: 4H 1HR 1RBI 8TB (0.250 avg) -- away split: 0.232 avg
+- Tommy Edman (S) [MATCHUP EDGE: pitcher hits 0.265 avg-against vs this hand] -- L7: 4H 1HR 1RBI 7TB (0.174 avg) -- away split: 0.289 avg
+- Kyle Tucker (L) [MATCHUP EDGE: pitcher hits 0.265 avg-against vs this hand] -- L7: 2H 1HR 2RBI 7TB (0.083 avg) -- away split: 0.275 avg
+- Max Muncy (L) [MATCHUP EDGE: pitcher hits 0.265 avg-against vs this hand] -- L7: 5H 1HR 7RBI 10TB (0.250 avg) -- away split: 0.263 avg -- news: 10 questions with Dodgers vet Max Muncy
+- Freddie Freeman (L) [MATCHUP EDGE: pitcher hits 0.265 avg-against vs this hand] -- L7: 5H 0HR 2RBI 5TB (0.200 avg) -- away split: 0.329 avg
+- Hunter Feduccia (L) [MATCHUP EDGE: pitcher hits 0.265 avg-against vs this hand] -- L7: 4H 1HR 1RBI 8TB (0.250 avg) -- away split: 0.232 avg
 
 ### Colorado Rockies lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.58)_
+**Probable P: Tomoyuki Sugano (R)** -- L5: 29.3 IP, 18 K, 11 ER, 3.38 ERA
 - Cole Carrigg (S) -- L7: 7H 0HR 3RBI 10TB (0.280 avg) -- home split: 0.354 avg
 - TJ Rumfield (L) -- L7: 5H 0HR 1RBI 5TB (0.208 avg) -- home split: 0.297 avg
 - Mickey Moniak (L) -- L7: 2H 0HR 2RBI 2TB (0.091 avg) -- home split: 0.306 avg
@@ -1189,8 +1190,8 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 
 ## 2026-08-18 - Chicago White Sox @ Chicago Cubs (Scheduled)
 _Wrigley Field_
-Projected score: Chicago White Sox 4.4 - Chicago Cubs 5.61
-Model likes: **Chicago Cubs** to win (59%) | Run line: **Chicago White Sox** +1.5 (54% to cover) | Total 9.5: lean **UNDER** (51%)
+Projected score: Chicago White Sox 4.62 - Chicago Cubs 5.61
+Model likes: **Chicago Cubs** to win (57%) | Run line: **Chicago White Sox** +1.5 (56% to cover) | Total 9.5: lean **OVER** (50%)
 
 ### Chicago White Sox lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1206,6 +1207,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 
 ### Chicago Cubs lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
+**Probable P: Kevin Gausman (R)** -- L5: 26.7 IP, 22 K, 16 ER, 5.4 ERA
 - Pete Crow-Armstrong (L) -- L7: 3H 1HR 2RBI 8TB (0.097 avg) -- home split: 0.300 avg
 - Michael Busch (L) [4-game hit streak] -- L7: 8H 0HR 0RBI 9TB (0.276 avg) -- home split: 0.263 avg
 - Ian Happ (S) -- L7: 7H 2HR 3RBI 14TB (0.292 avg) -- home split: 0.214 avg
@@ -1247,23 +1249,24 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 
 ## 2026-08-18 - Los Angeles Dodgers @ Colorado Rockies (Scheduled)
 _Coors Field [hitter-friendly park]_
-Projected score: Los Angeles Dodgers 6.92 - Colorado Rockies 4.61
-Model likes: **Los Angeles Dodgers** to win (66%) | Run line: **Los Angeles Dodgers** -1.5 (54% to cover) | Total 10.5: lean **OVER** (52%)
+Projected score: Los Angeles Dodgers 5.95 - Colorado Rockies 4.61
+Model likes: **Los Angeles Dodgers** to win (60%) | Run line: **Colorado Rockies** +1.5 (53% to cover) | Total 9.5: lean **OVER** (53%)
 
 ### Los Angeles Dodgers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 - Andy Pages (R) -- L7: 7H 1HR 2RBI 11TB (0.259 avg) -- away split: 0.248 avg
-- Shohei Ohtani (L) -- L7: 6H 1HR 4RBI 13TB (0.214 avg) -- away split: 0.287 avg
+- Shohei Ohtani (L) [MATCHUP EDGE: pitcher hits 0.268 avg-against vs this hand] -- L7: 6H 1HR 4RBI 13TB (0.214 avg) -- away split: 0.287 avg
 - Teoscar Hernández (R) [3-game hit streak] -- L7: 4H 0HR 1RBI 5TB (0.211 avg) -- away split: 0.252 avg
 - Mookie Betts (R) -- L7: 7H 2HR 4RBI 15TB (0.304 avg) -- away split: 0.240 avg
-- Tommy Edman (S) -- L7: 4H 1HR 1RBI 7TB (0.174 avg) -- away split: 0.289 avg
-- Kyle Tucker (L) -- L7: 2H 1HR 2RBI 7TB (0.083 avg) -- away split: 0.275 avg
-- Max Muncy (L) -- L7: 5H 1HR 7RBI 10TB (0.250 avg) -- away split: 0.263 avg -- news: 10 questions with Dodgers vet Max Muncy
-- Freddie Freeman (L) -- L7: 5H 0HR 2RBI 5TB (0.200 avg) -- away split: 0.329 avg
-- Hunter Feduccia (L) -- L7: 4H 1HR 1RBI 8TB (0.250 avg) -- away split: 0.232 avg
+- Tommy Edman (S) [MATCHUP EDGE: pitcher hits 0.268 avg-against vs this hand] -- L7: 4H 1HR 1RBI 7TB (0.174 avg) -- away split: 0.289 avg
+- Kyle Tucker (L) [MATCHUP EDGE: pitcher hits 0.268 avg-against vs this hand] -- L7: 2H 1HR 2RBI 7TB (0.083 avg) -- away split: 0.275 avg
+- Max Muncy (L) [MATCHUP EDGE: pitcher hits 0.268 avg-against vs this hand] -- L7: 5H 1HR 7RBI 10TB (0.250 avg) -- away split: 0.263 avg -- news: 10 questions with Dodgers vet Max Muncy
+- Freddie Freeman (L) [MATCHUP EDGE: pitcher hits 0.268 avg-against vs this hand] -- L7: 5H 0HR 2RBI 5TB (0.200 avg) -- away split: 0.329 avg
+- Hunter Feduccia (L) [MATCHUP EDGE: pitcher hits 0.268 avg-against vs this hand] -- L7: 4H 1HR 1RBI 8TB (0.250 avg) -- away split: 0.232 avg
 
 ### Colorado Rockies lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
+**Probable P: Ryan Feltner (R)** -- L5: 23.7 IP, 14 K, 22 ER, 8.37 ERA
 - Cole Carrigg (S) -- L7: 7H 0HR 3RBI 10TB (0.280 avg) -- home split: 0.354 avg
 - TJ Rumfield (L) -- L7: 5H 0HR 1RBI 5TB (0.208 avg) -- home split: 0.297 avg
 - Mickey Moniak (L) -- L7: 2H 0HR 2RBI 2TB (0.091 avg) -- home split: 0.306 avg
