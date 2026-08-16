@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-16T21:19:27.907005+00:00_
+_Generated 2026-08-16T21:38:36.497558+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -286,7 +286,7 @@ Final: Miami Marlins 7 - Cincinnati Reds 1
 - #8 TJ Friedl (L) -- L7: 0H 0HR 0RBI 0TB (0.000 avg) -- home split: 0.148 avg
 - #9 Ke'Bryan Hayes (R) [3-game hit streak] -- L7: 4H 1HR 1RBI 7TB (0.235 avg) -- home split: 0.149 avg
 
-## 2026-08-16 - Philadelphia Phillies @ Minnesota Twins (Game Over)
+## 2026-08-16 - Philadelphia Phillies @ Minnesota Twins (Final)
 _Target Field_
 Final: Philadelphia Phillies 7 - Minnesota Twins 5
 
@@ -318,7 +318,7 @@ _Facing a rested bullpen: 2.3 relief IP in last 2 days (ratio 0.46)_
 ## 2026-08-16 - St. Louis Cardinals @ Chicago Cubs (In Progress)
 _Wrigley Field_
 Projected score: St. Louis Cardinals 4.69 - Chicago Cubs 4.49
-Model likes: **St. Louis Cardinals** to win (52%) | Run line: **Chicago Cubs** +1.5 (63% to cover) | Total 8.5: lean **OVER** (51%)
+Model likes: **St. Louis Cardinals** to win (52%) | Run line: **Chicago Cubs** +1.5 (63% to cover) | Total 8.5: lean **OVER** (50%)
 
 ### St. Louis Cardinals lineup -- CONFIRMED
 _Facing a taxed bullpen: 6.0 relief IP in last 2 days (ratio 1.48)_
@@ -348,7 +348,7 @@ _Facing a taxed bullpen: 6.0 relief IP in last 2 days (ratio 1.48)_
 ## 2026-08-16 - Colorado Rockies @ San Francisco Giants (In Progress)
 _Oracle Park [pitcher-friendly park]_
 Projected score: Colorado Rockies 3.38 - San Francisco Giants 4.54
-Model likes: **San Francisco Giants** to win (61%) | Run line: **Colorado Rockies** +1.5 (56% to cover) | Total 7.5: lean **UNDER** (52%)
+Model likes: **San Francisco Giants** to win (61%) | Run line: **Colorado Rockies** +1.5 (56% to cover) | Total 7.5: lean **UNDER** (51%)
 
 ### Colorado Rockies lineup -- CONFIRMED
 _Facing a taxed bullpen: 6.3 relief IP in last 2 days (ratio 1.41)_
@@ -467,21 +467,21 @@ Model likes: **Milwaukee Brewers** to win (53%) | Run line: **Los Angeles Dodger
 
 ## 2026-08-16 - Seattle Mariners @ Houston Astros (Pre-Game)
 _Daikin Park_
-Projected score: Seattle Mariners 3.21 - Houston Astros 4.68
-Model likes: **Houston Astros** to win (63%) | Run line: **Seattle Mariners** +1.5 (53% to cover) | Total 7.5: lean **UNDER** (52%)
+Projected score: Seattle Mariners 3.33 - Houston Astros 4.68
+Model likes: **Houston Astros** to win (62%) | Run line: **Seattle Mariners** +1.5 (54% to cover) | Total 7.5: lean **UNDER** (51%)
 
-### Seattle Mariners lineup -- PROJECTED (unconfirmed)
+### Seattle Mariners lineup -- CONFIRMED
 _Facing a taxed bullpen: 10.0 relief IP in last 2 days (ratio 1.79)_
 **Probable P: Bryan Woo (R)** -- L5: 28.0 IP, 30 K, 12 ER, 3.86 ERA
-- Cole Young (L) -- L7: 7H 1HR 5RBI 10TB (0.250 avg) -- away split: 0.264 avg
-- Dominic Canzone (L) -- L7: 9H 1HR 2RBI 13TB (0.321 avg) -- away split: 0.256 avg
-- Julio Rodríguez (R) [TOUGH MATCHUP: pitcher holds this hand to 0.184 avg-against] [4-game hit streak] -- L7: 6H 1HR 1RBI 10TB (0.231 avg) -- away split: 0.240 avg
-- Randy Arozarena (R) [TOUGH MATCHUP: pitcher holds this hand to 0.184 avg-against] -- L7: 5H 2HR 3RBI 12TB (0.179 avg) -- away split: 0.310 avg
-- Cal Raleigh (S) -- L7: 2H 0HR 0RBI 2TB (0.087 avg) -- away split: 0.152 avg
-- Josh Naylor (L) [6-game hit streak] -- L7: 10H 2HR 4RBI 18TB (0.400 avg) -- away split: 0.283 avg
-- Brendan Donovan (L) -- L7: 7H 0HR 4RBI 8TB (0.259 avg) -- away split: 0.239 avg
-- Weston Wilson (R) [TOUGH MATCHUP: pitcher holds this hand to 0.184 avg-against] -- L7: 2H 1HR 1RBI 5TB (0.118 avg) -- away split: 0.250 avg
-- Taylor Ward (R) [TOUGH MATCHUP: pitcher holds this hand to 0.184 avg-against] -- L7: 5H 0HR 0RBI 7TB (0.172 avg) -- away split: 0.243 avg
+- #1 Brendan Donovan (L) -- L7: 7H 0HR 4RBI 8TB (0.259 avg) -- away split: 0.239 avg
+- #2 Randy Arozarena (R) [TOUGH MATCHUP: pitcher holds this hand to 0.184 avg-against] -- L7: 5H 2HR 3RBI 12TB (0.179 avg) -- away split: 0.310 avg
+- #3 Dominic Canzone (L) -- L7: 9H 1HR 2RBI 13TB (0.321 avg) -- away split: 0.256 avg
+- #4 Julio Rodríguez (R) [TOUGH MATCHUP: pitcher holds this hand to 0.184 avg-against] [4-game hit streak] -- L7: 6H 1HR 1RBI 10TB (0.231 avg) -- away split: 0.240 avg
+- #5 Josh Naylor (L) [6-game hit streak] -- L7: 10H 2HR 4RBI 18TB (0.400 avg) -- away split: 0.283 avg
+- #6 Cole Young (L) -- L7: 7H 1HR 5RBI 10TB (0.250 avg) -- away split: 0.264 avg
+- #7 Cal Raleigh (S) -- L7: 2H 0HR 0RBI 2TB (0.087 avg) -- away split: 0.152 avg
+- #8 Weston Wilson (R) [TOUGH MATCHUP: pitcher holds this hand to 0.184 avg-against] -- L7: 2H 1HR 1RBI 5TB (0.118 avg) -- away split: 0.250 avg
+- #9 Brock Rodden (S) -- L7: 2H 0HR 3RBI 4TB (0.250 avg) -- away split: 0.250 avg
 
 ### Houston Astros lineup -- CONFIRMED
 _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.51)_
@@ -648,7 +648,7 @@ _Facing a taxed bullpen: 8.7 relief IP in last 2 days (ratio 1.75)_
 ## 2026-08-17 - San Diego Padres @ New York Mets (Scheduled)
 _Citi Field_
 Projected score: San Diego Padres 3.54 - New York Mets 4.37
-Model likes: **New York Mets** to win (58%) | Run line: **San Diego Padres** +1.5 (59% to cover) | Total 7.5: lean **UNDER** (52%)
+Model likes: **New York Mets** to win (58%) | Run line: **San Diego Padres** +1.5 (59% to cover) | Total 7.5: lean **UNDER** (51%)
 
 ### San Diego Padres lineup -- PROJECTED (unconfirmed)
 **Probable P: Walker Buehler (R)** -- L5: 25.3 IP, 19 K, 9 ER, 3.2 ERA
@@ -705,7 +705,7 @@ Model likes: **Boston Red Sox** to win (50%) | Run line: **Arizona Diamondbacks*
 ## 2026-08-17 - Atlanta Braves @ Minnesota Twins (Scheduled)
 _Target Field_
 Projected score: Atlanta Braves 4.31 - Minnesota Twins 3.22
-Model likes: **Atlanta Braves** to win (60%) | Run line: **Minnesota Twins** +1.5 (57% to cover) | Total 6.5: lean **OVER** (55%)
+Model likes: **Atlanta Braves** to win (60%) | Run line: **Minnesota Twins** +1.5 (56% to cover) | Total 6.5: lean **OVER** (55%)
 
 ### Atlanta Braves lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 6.3 relief IP in last 2 days (ratio 1.58)_
@@ -945,7 +945,7 @@ _Facing a rested bullpen: 2.7 relief IP in last 2 days (ratio 0.52)_
 ## 2026-08-18 - San Francisco Giants @ Cleveland Guardians (Scheduled)
 _Progressive Field_
 Projected score: San Francisco Giants 3.34 - Cleveland Guardians 4.9
-Model likes: **Cleveland Guardians** to win (64%) | Run line: **San Francisco Giants** +1.5 (52% to cover) | Total 7.5: lean **OVER** (51%)
+Model likes: **Cleveland Guardians** to win (64%) | Run line: **San Francisco Giants** +1.5 (52% to cover) | Total 7.5: lean **OVER** (52%)
 
 ### San Francisco Giants lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
