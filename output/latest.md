@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-16T20:20:46.397920+00:00_
+_Generated 2026-08-16T20:44:04.987427+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -138,10 +138,9 @@ _Facing a taxed bullpen: 8.3 relief IP in last 2 days (ratio 1.58)_
 - #8 Austin Riley (R) [TOUGH MATCHUP: pitcher holds this hand to 0.172 avg-against] -- L7: 5H 1HR 1RBI 9TB (0.217 avg) -- home split: 0.263 avg
 - #9 Jim Jarvis (L) [MATCHUP EDGE: pitcher hits 0.270 avg-against vs this hand] -- L7: 1H 0HR 1RBI 1TB (0.056 avg) -- home split: 0.213 avg
 
-## 2026-08-16 - New York Yankees @ Toronto Blue Jays (In Progress)
+## 2026-08-16 - New York Yankees @ Toronto Blue Jays (Game Over)
 _Rogers Centre_
-Projected score: New York Yankees 2.68 - Toronto Blue Jays 2.96
-Model likes: **Toronto Blue Jays** to win (53%) | Run line: **New York Yankees** +1.5 (67% to cover) | Total 5.5: lean **UNDER** (54%)
+Final: New York Yankees 4 - Toronto Blue Jays 3
 
 ### New York Yankees lineup -- CONFIRMED
 _Facing a taxed bullpen: 11.0 relief IP in last 2 days (ratio 1.66)_
@@ -198,10 +197,9 @@ _Facing a taxed bullpen: 10.0 relief IP in last 2 days (ratio 1.64)_
 - #8 Jorge Polanco (S) -- L7: 4H 1HR 1RBI 8TB (0.167 avg) -- home split: 0.114 avg
 - #9 Luis Torrens (R) -- L7: 7H 3HR 8RBI 16TB (0.333 avg) -- home split: 0.194 avg
 
-## 2026-08-16 - Chicago White Sox @ Detroit Tigers (In Progress)
+## 2026-08-16 - Chicago White Sox @ Detroit Tigers (Final)
 _Comerica Park [pitcher-friendly park]_
-Projected score: Chicago White Sox 3.88 - Detroit Tigers 3.59
-Model likes: **Chicago White Sox** to win (53%) | Run line: **Detroit Tigers** +1.5 (64% to cover) | Total 6.5: lean **OVER** (55%)
+Final: Chicago White Sox 7 - Detroit Tigers 5
 
 ### Chicago White Sox lineup -- CONFIRMED
 _Facing a taxed bullpen: 10.0 relief IP in last 2 days (ratio 2.03)_
@@ -229,7 +227,7 @@ _Facing a taxed bullpen: 11.3 relief IP in last 2 days (ratio 1.69)_
 - #8 Max Clark (L) -- L7: 5H 0HR 3RBI 9TB (0.192 avg) -- home split: 0.176 avg -- news: Mayo: Don't judge a book by its cover -- especially Max Clark
 - #9 Javier Báez (R) -- L7: 7H 0HR 3RBI 8TB (0.269 avg) -- home split: 0.283 avg
 
-## 2026-08-16 - San Diego Padres @ Cleveland Guardians (Delayed Start)
+## 2026-08-16 - San Diego Padres @ Cleveland Guardians (Warmup)
 _Progressive Field_
 Projected score: San Diego Padres 4.33 - Cleveland Guardians 3.16
 Model likes: **San Diego Padres** to win (61%) | Run line: **Cleveland Guardians** +1.5 (56% to cover) | Total 6.5: lean **OVER** (55%)
@@ -260,10 +258,9 @@ _Facing a taxed bullpen: 10.0 relief IP in last 2 days (ratio 1.55)_
 - #8 Austin Hedges (R) -- L7: 3H 0HR 2RBI 3TB (0.167 avg) -- home split: 0.250 avg
 - #9 Brayan Rocchio (S) [3-game hit streak] -- L7: 6H 1HR 1RBI 10TB (0.214 avg) -- home split: 0.294 avg
 
-## 2026-08-16 - Miami Marlins @ Cincinnati Reds (In Progress)
+## 2026-08-16 - Miami Marlins @ Cincinnati Reds (Game Over)
 _Great American Ball Park [hitter-friendly park]_
-Projected score: Miami Marlins 4.29 - Cincinnati Reds 3.53
-Model likes: **Miami Marlins** to win (57%) | Run line: **Cincinnati Reds** +1.5 (59% to cover) | Total 7.5: lean **UNDER** (52%)
+Final: Miami Marlins 7 - Cincinnati Reds 1
 
 ### Miami Marlins lineup -- CONFIRMED
 **Probable P: Eury Pérez (R)** -- L5: 31.0 IP, 33 K, 8 ER, 2.32 ERA
@@ -322,7 +319,7 @@ _Facing a rested bullpen: 2.3 relief IP in last 2 days (ratio 0.46)_
 ## 2026-08-16 - St. Louis Cardinals @ Chicago Cubs (In Progress)
 _Wrigley Field_
 Projected score: St. Louis Cardinals 4.69 - Chicago Cubs 4.49
-Model likes: **St. Louis Cardinals** to win (52%) | Run line: **Chicago Cubs** +1.5 (63% to cover) | Total 8.5: lean **OVER** (50%)
+Model likes: **St. Louis Cardinals** to win (52%) | Run line: **Chicago Cubs** +1.5 (63% to cover) | Total 8.5: lean **OVER** (51%)
 
 ### St. Louis Cardinals lineup -- CONFIRMED
 _Facing a taxed bullpen: 6.0 relief IP in last 2 days (ratio 1.48)_
@@ -352,7 +349,7 @@ _Facing a taxed bullpen: 6.0 relief IP in last 2 days (ratio 1.48)_
 ## 2026-08-16 - Colorado Rockies @ San Francisco Giants (In Progress)
 _Oracle Park [pitcher-friendly park]_
 Projected score: Colorado Rockies 3.38 - San Francisco Giants 4.54
-Model likes: **San Francisco Giants** to win (61%) | Run line: **Colorado Rockies** +1.5 (56% to cover) | Total 7.5: lean **UNDER** (52%)
+Model likes: **San Francisco Giants** to win (60%) | Run line: **Colorado Rockies** +1.5 (56% to cover) | Total 7.5: lean **UNDER** (52%)
 
 ### Colorado Rockies lineup -- CONFIRMED
 _Facing a taxed bullpen: 6.3 relief IP in last 2 days (ratio 1.41)_
@@ -563,7 +560,7 @@ _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.36)_
 ## 2026-08-17 - Miami Marlins @ Philadelphia Phillies (Scheduled)
 _Citizens Bank Park [hitter-friendly park]_
 Projected score: Miami Marlins 2.82 - Philadelphia Phillies 4.76
-Model likes: **Philadelphia Phillies** to win (68%) | Run line: **Philadelphia Phillies** -1.5 (51% to cover) | Total 7.5: lean **UNDER** (55%)
+Model likes: **Philadelphia Phillies** to win (68%) | Run line: **Philadelphia Phillies** -1.5 (52% to cover) | Total 7.5: lean **UNDER** (55%)
 
 ### Miami Marlins lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.3 relief IP in last 2 days (ratio 0.46)_
@@ -649,7 +646,7 @@ Model likes: **Detroit Tigers** to win (62%) | Run line: **Pittsburgh Pirates** 
 ## 2026-08-17 - San Diego Padres @ New York Mets (Scheduled)
 _Citi Field_
 Projected score: San Diego Padres 3.54 - New York Mets 4.37
-Model likes: **New York Mets** to win (58%) | Run line: **San Diego Padres** +1.5 (59% to cover) | Total 7.5: lean **UNDER** (51%)
+Model likes: **New York Mets** to win (58%) | Run line: **San Diego Padres** +1.5 (59% to cover) | Total 7.5: lean **UNDER** (52%)
 
 ### San Diego Padres lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.54)_
@@ -737,11 +734,12 @@ _Facing a taxed bullpen: 6.3 relief IP in last 2 days (ratio 1.2)_
 
 ## 2026-08-17 - Athletics @ Kansas City Royals (Scheduled)
 _Kauffman Stadium [pitcher-friendly park]_
-Projected score: Athletics 3.68 - Kansas City Royals 4.67
-Model likes: **Kansas City Royals** to win (59%) | Run line: **Athletics** +1.5 (57% to cover) | Total 7.5: lean **OVER** (53%)
+Projected score: Athletics 3.68 - Kansas City Royals 5.71
+Model likes: **Kansas City Royals** to win (66%) | Run line: **Kansas City Royals** -1.5 (52% to cover) | Total 8.5: lean **OVER** (52%)
 
 ### Athletics lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.3 relief IP in last 2 days (ratio 0.44)_
+**Probable P: Mason Barnett (R)** [BULLPEN GAME: short-outing arm, no reliable individual matchup below] -- L5: 17.7 IP, 15 K, 18 ER, 9.17 ERA
 - Henry Bolte (R) -- L7: 9H 2HR 4RBI 17TB (0.310 avg) -- away split: 0.210 avg
 - Lawrence Butler (L) -- L7: 5H 3HR 4RBI 14TB (0.185 avg) -- away split: 0.169 avg
 - Tommy White (R) [3-game hit streak] -- L7: 4H 0HR 1RBI 4TB (0.182 avg) -- away split: 0.271 avg
@@ -796,7 +794,7 @@ Model likes: **Chicago Cubs** to win (59%) | Run line: **Chicago White Sox** +1.
 ## 2026-08-17 - Los Angeles Dodgers @ Colorado Rockies (Scheduled)
 _Coors Field [hitter-friendly park]_
 Projected score: Los Angeles Dodgers 5.21 - Colorado Rockies 4.54
-Model likes: **Los Angeles Dodgers** to win (55%) | Run line: **Colorado Rockies** +1.5 (58% to cover) | Total 9.5: lean **UNDER** (53%)
+Model likes: **Los Angeles Dodgers** to win (55%) | Run line: **Colorado Rockies** +1.5 (59% to cover) | Total 9.5: lean **UNDER** (53%)
 
 ### Los Angeles Dodgers lineup -- PROJECTED (unconfirmed)
 **Probable P: Blake Snell (L)** -- L5: 28.0 IP, 43 K, 6 ER, 1.93 ERA
@@ -1007,7 +1005,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-18 - San Diego Padres @ New York Mets (Scheduled)
 _Citi Field_
 Projected score: San Diego Padres 4.54 - New York Mets 3.49
-Model likes: **San Diego Padres** to win (59%) | Run line: **New York Mets** +1.5 (57% to cover) | Total 7.5: lean **UNDER** (50%)
+Model likes: **San Diego Padres** to win (60%) | Run line: **New York Mets** +1.5 (57% to cover) | Total 7.5: lean **UNDER** (50%)
 
 ### San Diego Padres lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.3 relief IP in last 2 days (ratio 0.06)_
@@ -1128,11 +1126,12 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 
 ## 2026-08-18 - Athletics @ Kansas City Royals (Scheduled)
 _Kauffman Stadium [pitcher-friendly park]_
-Projected score: Athletics 3.68 - Kansas City Royals 4.67
-Model likes: **Kansas City Royals** to win (59%) | Run line: **Athletics** +1.5 (57% to cover) | Total 7.5: lean **OVER** (52%)
+Projected score: Athletics 3.68 - Kansas City Royals 6.01
+Model likes: **Kansas City Royals** to win (68%) | Run line: **Kansas City Royals** -1.5 (54% to cover) | Total 9.5: lean **UNDER** (54%)
 
 ### Athletics lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
+**Probable P: Jack Perkins (R)** [BULLPEN GAME: short-outing arm, no reliable individual matchup below] -- L5: 24.0 IP, 22 K, 22 ER, 8.25 ERA
 - Henry Bolte (R) -- L7: 9H 2HR 4RBI 17TB (0.310 avg) -- away split: 0.210 avg
 - Lawrence Butler (L) -- L7: 5H 3HR 4RBI 14TB (0.185 avg) -- away split: 0.169 avg
 - Tommy White (R) [3-game hit streak] -- L7: 4H 0HR 1RBI 4TB (0.182 avg) -- away split: 0.271 avg
@@ -1189,7 +1188,7 @@ _Facing a rested bullpen: 0.3 relief IP in last 2 days (ratio 0.06)_
 ## 2026-08-18 - Chicago White Sox @ Chicago Cubs (Scheduled)
 _Wrigley Field_
 Projected score: Chicago White Sox 4.62 - Chicago Cubs 5.61
-Model likes: **Chicago Cubs** to win (57%) | Run line: **Chicago White Sox** +1.5 (56% to cover) | Total 9.5: lean **OVER** (50%)
+Model likes: **Chicago Cubs** to win (57%) | Run line: **Chicago White Sox** +1.5 (56% to cover) | Total 9.5: lean **OVER** (51%)
 
 ### Chicago White Sox lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
