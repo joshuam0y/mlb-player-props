@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-16T11:59:37.507023+00:00_
+_Generated 2026-08-16T12:35:18.117539+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -56,7 +56,7 @@ _Generated 2026-08-16T11:59:37.507023+00:00_
 ## 2026-08-16 - Baltimore Orioles @ Tampa Bay Rays (Scheduled)
 _Tropicana Field_
 Projected score: Baltimore Orioles 4.79 - Tampa Bay Rays 4.48
-Model likes: **Baltimore Orioles** to win (53%) | Run line: **Tampa Bay Rays** +1.5 (62% to cover) | Total 8.5: lean **OVER** (51%)
+Model likes: **Baltimore Orioles** to win (52%) | Run line: **Tampa Bay Rays** +1.5 (62% to cover) | Total 8.5: lean **OVER** (51%)
 
 ### Baltimore Orioles lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 12.0 relief IP in last 2 days (ratio 2.03)_
@@ -117,7 +117,7 @@ _Facing a taxed bullpen: 8.0 relief IP in last 2 days (ratio 1.44)_
 ## 2026-08-16 - Arizona Diamondbacks @ Atlanta Braves (Scheduled)
 _Truist Park_
 Projected score: Arizona Diamondbacks 3.92 - Atlanta Braves 3.31
-Model likes: **Arizona Diamondbacks** to win (56%) | Run line: **Atlanta Braves** +1.5 (61% to cover) | Total 6.5: lean **OVER** (52%)
+Model likes: **Arizona Diamondbacks** to win (56%) | Run line: **Atlanta Braves** +1.5 (62% to cover) | Total 6.5: lean **OVER** (52%)
 
 ### Arizona Diamondbacks lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 8.3 relief IP in last 2 days (ratio 1.58)_
@@ -239,7 +239,7 @@ _Facing a taxed bullpen: 11.3 relief IP in last 2 days (ratio 1.69)_
 ## 2026-08-16 - San Diego Padres @ Cleveland Guardians (Scheduled)
 _Progressive Field_
 Projected score: San Diego Padres 4.09 - Cleveland Guardians 3.12
-Model likes: **San Diego Padres** to win (60%) | Run line: **Cleveland Guardians** +1.5 (58% to cover) | Total 6.5: lean **OVER** (52%)
+Model likes: **San Diego Padres** to win (59%) | Run line: **Cleveland Guardians** +1.5 (58% to cover) | Total 6.5: lean **OVER** (52%)
 
 ### San Diego Padres lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 7.7 relief IP in last 2 days (ratio 1.51)_
@@ -738,7 +738,7 @@ Model likes: **Atlanta Braves** to win (58%) | Run line: **Minnesota Twins** +1.
 ## 2026-08-17 - Athletics @ Kansas City Royals (Scheduled)
 _Kauffman Stadium [pitcher-friendly park]_
 Projected score: Athletics 3.68 - Kansas City Royals 4.67
-Model likes: **Kansas City Royals** to win (59%) | Run line: **Athletics** +1.5 (57% to cover) | Total 7.5: lean **OVER** (53%)
+Model likes: **Kansas City Royals** to win (59%) | Run line: **Athletics** +1.5 (57% to cover) | Total 7.5: lean **OVER** (52%)
 
 ### Athletics lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.3 relief IP in last 2 days (ratio 0.44)_
@@ -1087,7 +1087,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-18 - Seattle Mariners @ Milwaukee Brewers (Scheduled)
 _American Family Field_
 Projected score: Seattle Mariners 3.1 - Milwaukee Brewers 5.1
-Model likes: **Milwaukee Brewers** to win (67%) | Run line: **Milwaukee Brewers** -1.5 (52% to cover) | Total 7.5: lean **OVER** (51%)
+Model likes: **Milwaukee Brewers** to win (68%) | Run line: **Milwaukee Brewers** -1.5 (52% to cover) | Total 7.5: lean **OVER** (51%)
 
 ### Seattle Mariners lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
