@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-16T18:59:14.599781+00:00_
+_Generated 2026-08-16T19:22:15.485253+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -49,10 +49,9 @@ _Generated 2026-08-16T18:59:14.599781+00:00_
 - **Dylan Cease** (Toronto Blue Jays vs New York Yankees): 3 hitters in tonight's lineup are in a tough matchup against him -- try Hits Allowed: 60% under 3.5 recently (vs. 5-game sample)
 - **Hunter Brown** (Houston Astros vs Seattle Mariners): 4 hitters in tonight's lineup are in a tough matchup against him -- try Hits Allowed: 60% under 3.5 recently (vs. 5-game sample)
 
-## 2026-08-16 - Baltimore Orioles @ Tampa Bay Rays (In Progress)
+## 2026-08-16 - Baltimore Orioles @ Tampa Bay Rays (Final)
 _Tropicana Field_
-Projected score: Baltimore Orioles 4.81 - Tampa Bay Rays 4.3
-Model likes: **Baltimore Orioles** to win (54%) | Run line: **Tampa Bay Rays** +1.5 (60% to cover) | Total 8.5: lean **UNDER** (50%)
+Final: Baltimore Orioles 10 - Tampa Bay Rays 2
 
 ### Baltimore Orioles lineup -- CONFIRMED
 _Facing a taxed bullpen: 12.0 relief IP in last 2 days (ratio 2.03)_
@@ -173,7 +172,7 @@ _Facing a taxed bullpen: 11.0 relief IP in last 2 days (ratio 1.66)_
 ## 2026-08-16 - Washington Nationals @ New York Mets (In Progress)
 _Citi Field_
 Projected score: Washington Nationals 3.85 - New York Mets 5.62
-Model likes: **New York Mets** to win (64%) | Run line: **Washington Nationals** +1.5 (50% to cover) | Total 8.5: lean **OVER** (53%)
+Model likes: **New York Mets** to win (64%) | Run line: **New York Mets** -1.5 (50% to cover) | Total 8.5: lean **OVER** (53%)
 
 ### Washington Nationals lineup -- CONFIRMED
 _Facing a taxed bullpen: 7.3 relief IP in last 2 days (ratio 1.31)_
@@ -322,7 +321,7 @@ _Facing a rested bullpen: 2.3 relief IP in last 2 days (ratio 0.46)_
 - #8 Victor Caratini (S) [MATCHUP EDGE: pitcher hits 0.292 avg-against vs this hand] -- L7: 4H 0HR 1RBI 4TB (0.211 avg) -- home split: 0.268 avg
 - #9 Kaelen Culpepper (R) [3-game hit streak] -- L7: 5H 1HR 2RBI 9TB (0.238 avg) -- home split: 0.250 avg
 
-## 2026-08-16 - St. Louis Cardinals @ Chicago Cubs (Warmup)
+## 2026-08-16 - St. Louis Cardinals @ Chicago Cubs (In Progress)
 _Wrigley Field_
 Projected score: St. Louis Cardinals 4.69 - Chicago Cubs 4.49
 Model likes: **St. Louis Cardinals** to win (52%) | Run line: **Chicago Cubs** +1.5 (63% to cover) | Total 8.5: lean **OVER** (51%)
@@ -416,7 +415,7 @@ _Facing a taxed bullpen: 6.3 relief IP in last 2 days (ratio 1.29)_
 ## 2026-08-16 - Kansas City Royals @ Los Angeles Angels (Pre-Game)
 _Angel Stadium_
 Projected score: Kansas City Royals 4.32 - Los Angeles Angels 3.82
-Model likes: **Kansas City Royals** to win (54%) | Run line: **Los Angeles Angels** +1.5 (61% to cover) | Total 7.5: lean **OVER** (50%)
+Model likes: **Kansas City Royals** to win (54%) | Run line: **Los Angeles Angels** +1.5 (62% to cover) | Total 7.5: lean **OVER** (51%)
 
 ### Kansas City Royals lineup -- CONFIRMED
 **Probable P: Noah Cameron (L)** -- L5: 33.7 IP, 27 K, 12 ER, 3.21 ERA
@@ -503,27 +502,26 @@ _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.51)_
 - Taylor Trammell (L) -- L7: 3H 1HR 1RBI 8TB (0.130 avg) -- home split: 0.196 avg
 - Nick Allen (R) -- L7: 2H 0HR 1RBI 2TB (0.222 avg) -- home split: 0.215 avg
 
-## 2026-08-17 - St. Louis Cardinals @ Cincinnati Reds (Postponed)
+## 2026-08-17 - St. Louis Cardinals @ Cincinnati Reds (Scheduled)
 _Great American Ball Park [hitter-friendly park]_
-Projected score: St. Louis Cardinals 4.86 - Cincinnati Reds 3.95
-Model likes: **St. Louis Cardinals** to win (58%) | Run line: **Cincinnati Reds** +1.5 (57% to cover) | Total 8.5: lean **UNDER** (53%)
+Projected score: St. Louis Cardinals 4.89 - Cincinnati Reds 3.81
+Model likes: **St. Louis Cardinals** to win (59%) | Run line: **Cincinnati Reds** +1.5 (56% to cover) | Total 8.5: lean **UNDER** (54%)
 
 ### St. Louis Cardinals lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.64)_
-**Probable P: Brycen Mautz (L)** -- L5: no data
 - Masyn Winn (R) -- L7: 6H 0HR 4RBI 8TB (0.231 avg) -- away split: 0.226 avg
-- Alec Burleson (L) [MATCHUP EDGE: pitcher hits 0.304 avg-against vs this hand] -- L7: 7H 2HR 9RBI 15TB (0.280 avg) -- away split: 0.308 avg -- news: Can Alec Burleson guide Cardinals to contention?
+- Alec Burleson (L) [MATCHUP EDGE: pitcher hits 0.266 avg-against vs this hand] -- L7: 7H 2HR 9RBI 15TB (0.280 avg) -- away split: 0.308 avg -- news: Can Alec Burleson guide Cardinals to contention?
 - Iván Herrera (R) [likely BABIP-driven, not a real power uptick] -- L7: 11H 0HR 3RBI 15TB (0.379 avg) -- away split: 0.259 avg
-- JJ Wetherholt (L) [MATCHUP EDGE: pitcher hits 0.304 avg-against vs this hand] -- L7: 4H 0HR 2RBI 5TB (0.148 avg) -- away split: 0.256 avg
-- Nathan Church (L) [MATCHUP EDGE: pitcher hits 0.304 avg-against vs this hand] -- L7: 5H 0HR 4RBI 6TB (0.227 avg) -- away split: 0.242 avg
+- JJ Wetherholt (L) [MATCHUP EDGE: pitcher hits 0.266 avg-against vs this hand] -- L7: 4H 0HR 2RBI 5TB (0.148 avg) -- away split: 0.256 avg
+- Nathan Church (L) [MATCHUP EDGE: pitcher hits 0.266 avg-against vs this hand] -- L7: 5H 0HR 4RBI 6TB (0.227 avg) -- away split: 0.242 avg
 - Jordan Walker (R) -- L7: 5H 1HR 3RBI 9TB (0.200 avg) -- away split: 0.275 avg
 - José Fermín (R) -- L7: 5H 0HR 3RBI 6TB (0.312 avg) -- away split: 0.240 avg
 - Blaze Jordan (R) -- L7: 5H 1HR 1RBI 8TB (0.263 avg) -- away split: 0.329 avg
-- Bryan Torres (L) [MATCHUP EDGE: pitcher hits 0.304 avg-against vs this hand] -- L7: 2H 0HR 1RBI 2TB (0.125 avg) -- away split: 0.244 avg
+- Bryan Torres (L) [MATCHUP EDGE: pitcher hits 0.266 avg-against vs this hand] -- L7: 2H 0HR 1RBI 2TB (0.125 avg) -- away split: 0.244 avg
 
 ### Cincinnati Reds lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.59)_
-**Probable P: Brady Singer (R)** -- L5: 29.0 IP, 22 K, 16 ER, 4.97 ERA
+**Probable P: Rhett Lowder (R)** -- L5: 24.7 IP, 18 K, 16 ER, 5.84 ERA
 - Sal Stewart (R) [likely BABIP-driven, not a real power uptick] -- L7: 9H 1HR 4RBI 12TB (0.346 avg) -- home split: 0.259 avg
 - Elly De La Cruz (S) -- L7: 2H 0HR 2RBI 2TB (0.083 avg) -- home split: 0.297 avg
 - Matt McLain (R) -- L7: 5H 1HR 1RBI 9TB (0.238 avg) -- home split: 0.181 avg
@@ -653,7 +651,7 @@ Model likes: **Detroit Tigers** to win (62%) | Run line: **Pittsburgh Pirates** 
 ## 2026-08-17 - San Diego Padres @ New York Mets (Scheduled)
 _Citi Field_
 Projected score: San Diego Padres 3.54 - New York Mets 4.37
-Model likes: **New York Mets** to win (58%) | Run line: **San Diego Padres** +1.5 (59% to cover) | Total 7.5: lean **UNDER** (52%)
+Model likes: **New York Mets** to win (58%) | Run line: **San Diego Padres** +1.5 (59% to cover) | Total 7.5: lean **UNDER** (51%)
 
 ### San Diego Padres lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.7 relief IP in last 2 days (ratio 0.47)_
@@ -742,7 +740,7 @@ Model likes: **Atlanta Braves** to win (60%) | Run line: **Minnesota Twins** +1.
 ## 2026-08-17 - Athletics @ Kansas City Royals (Scheduled)
 _Kauffman Stadium [pitcher-friendly park]_
 Projected score: Athletics 3.68 - Kansas City Royals 4.67
-Model likes: **Kansas City Royals** to win (59%) | Run line: **Athletics** +1.5 (57% to cover) | Total 7.5: lean **OVER** (53%)
+Model likes: **Kansas City Royals** to win (59%) | Run line: **Athletics** +1.5 (57% to cover) | Total 7.5: lean **OVER** (52%)
 
 ### Athletics lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.3 relief IP in last 2 days (ratio 0.44)_
@@ -952,7 +950,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-18 - San Francisco Giants @ Cleveland Guardians (Scheduled)
 _Progressive Field_
 Projected score: San Francisco Giants 3.34 - Cleveland Guardians 4.9
-Model likes: **Cleveland Guardians** to win (64%) | Run line: **San Francisco Giants** +1.5 (52% to cover) | Total 7.5: lean **OVER** (52%)
+Model likes: **Cleveland Guardians** to win (64%) | Run line: **San Francisco Giants** +1.5 (52% to cover) | Total 7.5: lean **OVER** (51%)
 
 ### San Francisco Giants lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1013,7 +1011,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-18 - San Diego Padres @ New York Mets (Scheduled)
 _Citi Field_
 Projected score: San Diego Padres 4.54 - New York Mets 3.49
-Model likes: **San Diego Padres** to win (60%) | Run line: **New York Mets** +1.5 (57% to cover) | Total 7.5: lean **UNDER** (50%)
+Model likes: **San Diego Padres** to win (59%) | Run line: **New York Mets** +1.5 (57% to cover) | Total 7.5: lean **UNDER** (50%)
 
 ### San Diego Padres lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
