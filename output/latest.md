@@ -1,29 +1,29 @@
 # MLB Player Props Context Report
-_Generated 2026-08-16T13:13:07.058734+00:00_
+_Generated 2026-08-16T13:15:52.077572+00:00_
 
 ## Today's Top Overs
 ### Batters
+- **Jac Caglianone** (Kansas City Royals vs Los Angeles Angels): favorable matchup vs. tonight's pitcher, 13-game hit streak -- try RBIs: 50% over 0.5 recently (vs. 10-game sample)
 - **Taylor Walls** (Tampa Bay Rays vs Baltimore Orioles): favorable matchup vs. tonight's pitcher, 6-game hit streak -- try Hits: 70% over 0.5 recently (vs. 10-game sample)
 - **Yandy Díaz** (Tampa Bay Rays vs Baltimore Orioles): favorable matchup vs. tonight's pitcher, 6-game hit streak -- try Total Bases: 60% over 1.5 recently (vs. 10-game sample)
-- **Jac Caglianone** (Kansas City Royals vs Los Angeles Angels): favorable matchup vs. tonight's pitcher, 13-game hit streak -- try RBIs: 50% over 0.5 recently (vs. 10-game sample)
 - **Drake Baldwin** (Atlanta Braves vs Arizona Diamondbacks): favorable matchup vs. tonight's pitcher -- try Total Bases: 50% over 1.5 recently (vs. 10-game sample)
 - **Heriberto Hernández** (Miami Marlins vs Cincinnati Reds): favorable matchup vs. tonight's pitcher -- try Hits: 60% over 0.5 recently (vs. 10-game sample)
-- **Junior Caminero** (Tampa Bay Rays vs Baltimore Orioles): favorable matchup vs. tonight's pitcher -- try RBIs: 70% over 0.5 recently (vs. 10-game sample)
-- **Jackson Holliday** (Baltimore Orioles vs Tampa Bay Rays): favorable matchup vs. tonight's pitcher -- try Hits: 50% over 0.5 recently (vs. 10-game sample)
-- **Gunnar Henderson** (Baltimore Orioles vs Tampa Bay Rays): favorable matchup vs. tonight's pitcher -- try Walks: 70% over 0.5 recently (vs. 10-game sample)
-- **Dylan Beavers** (Baltimore Orioles vs Tampa Bay Rays): favorable matchup vs. tonight's pitcher -- try Hits: 50% over 0.5 recently (vs. 10-game sample)
-- **Colton Cowser** (Baltimore Orioles vs Tampa Bay Rays): favorable matchup vs. tonight's pitcher -- try Hits: 50% over 0.5 recently (vs. 10-game sample)
-- **Leody Taveras** (Baltimore Orioles vs Tampa Bay Rays): favorable matchup vs. tonight's pitcher -- try Hits + Runs + RBIs: 60% over 1.5 recently (vs. 10-game sample)
 - **Michael Harris II** (Atlanta Braves vs Arizona Diamondbacks): favorable matchup vs. tonight's pitcher -- try Total Bases: 30% over 1.5 recently (vs. 10-game sample)
 - **Ozzie Albies** (Atlanta Braves vs Arizona Diamondbacks): favorable matchup vs. tonight's pitcher -- try Hits + Runs + RBIs: 10% over 1.5 recently (vs. 10-game sample)
 - **Matt Olson** (Atlanta Braves vs Arizona Diamondbacks): favorable matchup vs. tonight's pitcher -- try Total Bases: 50% over 2.5 recently (vs. 10-game sample)
 - **Jim Jarvis** (Atlanta Braves vs Arizona Diamondbacks): favorable matchup vs. tonight's pitcher -- try Hits: 20% over 0.5 recently (vs. 10-game sample)
+- **Mike Yastrzemski** (Atlanta Braves vs Arizona Diamondbacks): favorable matchup vs. tonight's pitcher -- try Hits: 40% over 0.5 recently (vs. 10-game sample)
+- **Javier Sanoja** (Miami Marlins vs Cincinnati Reds): favorable matchup vs. tonight's pitcher -- try Hits: 70% over 0.5 recently (vs. 10-game sample)
+- **Otto Lopez** (Miami Marlins vs Cincinnati Reds): favorable matchup vs. tonight's pitcher -- try Hits + Runs + RBIs: 20% over 1.5 recently (vs. 10-game sample)
+- **Xavier Edwards** (Miami Marlins vs Cincinnati Reds): favorable matchup vs. tonight's pitcher -- try Hits: 70% over 0.5 recently (vs. 10-game sample)
+- **Esteury Ruiz** (Miami Marlins vs Cincinnati Reds): favorable matchup vs. tonight's pitcher -- try Hits: 30% over 0.5 recently (vs. 10-game sample)
+- **Brooks Lee** (Minnesota Twins vs Philadelphia Phillies): favorable matchup vs. tonight's pitcher -- try Total Bases: 40% over 1.5 recently (vs. 10-game sample)
 
 ### Pitchers
-- **Trevor Rogers** (Baltimore Orioles vs Tampa Bay Rays): 6 hitters in tonight's lineup are in a tough matchup against him -- try Strikeouts: 80% over 5.5 recently (vs. 5-game sample)
 - **Michael Soroka** (Arizona Diamondbacks vs Atlanta Braves): 3 hitters in tonight's lineup are in a tough matchup against him -- try Strikeouts: 60% over 4.5 recently (vs. 5-game sample)
 - **Jacob Lopez** (Athletics vs Texas Rangers): 5 hitters in tonight's lineup are in a tough matchup against him -- try Outs Recorded: 80% over 14.5 recently (vs. 5-game sample)
 - **Hunter Brown** (Houston Astros vs Seattle Mariners): 4 hitters in tonight's lineup are in a tough matchup against him -- try Runs Allowed: 60% over 2.5 recently (vs. 5-game sample)
+- **Trevor Rogers** (Baltimore Orioles vs Tampa Bay Rays): 6 hitters in tonight's lineup are in a tough matchup against him -- try Strikeouts: 80% over 5.5 recently (vs. 5-game sample)
 - **Lake Bachar** (Pittsburgh Pirates vs Boston Red Sox): opposing lineup has struck out at an elevated rate over their last 2 games (31% vs their own 24% season rate) -- try Outs Recorded: 80% over 5.5 recently (vs. 5-game sample)
 - **Christian Scott** (New York Mets vs Washington Nationals): opposing lineup has struck out at an elevated rate over their last 2 games (31% vs their own 24% season rate) -- try Strikeouts: 60% over 6.5 recently (vs. 5-game sample)
 - **Jake Irvin** (Washington Nationals vs New York Mets): opposing lineup has struck out at an elevated rate over their last 2 games (32% vs their own 24% season rate) -- try Walks Allowed: 60% over 1.5 recently (vs. 5-game sample)
@@ -31,12 +31,6 @@ _Generated 2026-08-16T13:13:07.058734+00:00_
 
 ## Today's Top Unders
 ### Batters
-- **Jonathan Aranda** (Tampa Bay Rays vs Baltimore Orioles): tough matchup vs. tonight's pitcher -- try Hits: 70% under 1.5 recently (vs. 10-game sample)
-- **Cedric Mullins** (Tampa Bay Rays vs Baltimore Orioles): tough matchup vs. tonight's pitcher -- try Total Bases: 70% under 1.5 recently (vs. 10-game sample)
-- **Chandler Simpson** (Tampa Bay Rays vs Baltimore Orioles): tough matchup vs. tonight's pitcher -- try Walks: 90% under 0.5 recently (vs. 10-game sample)
-- **Victor Mesa Jr.** (Tampa Bay Rays vs Baltimore Orioles): tough matchup vs. tonight's pitcher -- try Walks: 90% under 0.5 recently (vs. 10-game sample)
-- **Richie Palacios** (Tampa Bay Rays vs Baltimore Orioles): tough matchup vs. tonight's pitcher -- try Total Bases: 60% under 1.5 recently (vs. 10-game sample)
-- **Liam Hicks** (Tampa Bay Rays vs Baltimore Orioles): tough matchup vs. tonight's pitcher -- try Hits + Runs + RBIs: 70% under 2.5 recently (vs. 10-game sample)
 - **Ronald Acuña Jr.** (Atlanta Braves vs Arizona Diamondbacks): tough matchup vs. tonight's pitcher -- try Hits + Runs + RBIs: 60% under 2.5 recently (vs. 10-game sample)
 - **Austin Riley** (Atlanta Braves vs Arizona Diamondbacks): tough matchup vs. tonight's pitcher -- try Total Bases: 70% under 1.5 recently (vs. 10-game sample)
 - **Mauricio Dubón** (Atlanta Braves vs Arizona Diamondbacks): tough matchup vs. tonight's pitcher -- try Walks: 90% under 0.5 recently (vs. 10-game sample)
@@ -46,12 +40,18 @@ _Generated 2026-08-16T13:13:07.058734+00:00_
 - **Nicky Lopez** (Texas Rangers vs Athletics): tough matchup vs. tonight's pitcher -- try Walks: 100% under 0.5 recently (vs. 10-game sample)
 - **Brandon Nimmo** (Texas Rangers vs Athletics): tough matchup vs. tonight's pitcher -- try Hits: 70% under 1.5 recently (vs. 10-game sample)
 - **Corey Seager** (Texas Rangers vs Athletics): tough matchup vs. tonight's pitcher -- try Total Bases: 60% under 1.5 recently (vs. 10-game sample)
+- **Joc Pederson** (Texas Rangers vs Athletics): tough matchup vs. tonight's pitcher -- try Total Bases: 80% under 1.5 recently (vs. 10-game sample)
+- **Julio Rodríguez** (Seattle Mariners vs Houston Astros): tough matchup vs. tonight's pitcher -- try Hits: 70% under 1.5 recently (vs. 10-game sample)
+- **Randy Arozarena** (Seattle Mariners vs Houston Astros): tough matchup vs. tonight's pitcher -- try RBIs: 80% under 0.5 recently (vs. 10-game sample)
+- **Weston Wilson** (Seattle Mariners vs Houston Astros): tough matchup vs. tonight's pitcher -- try RBIs: 90% under 0.5 recently (vs. 10-game sample)
+- **Taylor Ward** (Seattle Mariners vs Houston Astros): tough matchup vs. tonight's pitcher -- try Hits + Runs + RBIs: 90% under 1.5 recently (vs. 10-game sample)
+- **Jonathan Aranda** (Tampa Bay Rays vs Baltimore Orioles): tough matchup vs. tonight's pitcher -- try Hits: 70% under 1.5 recently (vs. 10-game sample)
 
 ### Pitchers
-- **Trevor Rogers** (Baltimore Orioles vs Tampa Bay Rays): 6 hitters in tonight's lineup are in a tough matchup against him -- try Walks Allowed: 80% under 1.5 recently (vs. 5-game sample)
 - **Michael Soroka** (Arizona Diamondbacks vs Atlanta Braves): 3 hitters in tonight's lineup are in a tough matchup against him -- try Runs Allowed: 80% under 1.5 recently (vs. 5-game sample)
 - **Jacob Lopez** (Athletics vs Texas Rangers): 5 hitters in tonight's lineup are in a tough matchup against him -- try Runs Allowed: 100% under 2.5 recently (vs. 5-game sample)
 - **Hunter Brown** (Houston Astros vs Seattle Mariners): 4 hitters in tonight's lineup are in a tough matchup against him -- try Hits Allowed: 60% under 3.5 recently (vs. 5-game sample)
+- **Trevor Rogers** (Baltimore Orioles vs Tampa Bay Rays): 6 hitters in tonight's lineup are in a tough matchup against him -- try Walks Allowed: 80% under 1.5 recently (vs. 5-game sample)
 
 ## 2026-08-16 - Baltimore Orioles @ Tampa Bay Rays (Scheduled)
 _Tropicana Field_
@@ -420,7 +420,7 @@ _Facing a taxed bullpen: 6.3 relief IP in last 2 days (ratio 1.29)_
 ## 2026-08-16 - Kansas City Royals @ Los Angeles Angels (Scheduled)
 _Angel Stadium_
 Projected score: Kansas City Royals 4.34 - Los Angeles Angels 3.74
-Model likes: **Kansas City Royals** to win (55%) | Run line: **Los Angeles Angels** +1.5 (60% to cover) | Total 7.5: lean **OVER** (50%)
+Model likes: **Kansas City Royals** to win (55%) | Run line: **Los Angeles Angels** +1.5 (61% to cover) | Total 7.5: lean **OVER** (50%)
 
 ### Kansas City Royals lineup -- PROJECTED (unconfirmed)
 **Probable P: Noah Cameron (L)** -- L5: 33.7 IP, 27 K, 12 ER, 3.21 ERA
@@ -507,26 +507,27 @@ _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.51)_
 - Taylor Trammell (L) -- L7: 3H 1HR 1RBI 8TB (0.130 avg) -- home split: 0.196 avg
 - Nick Allen (R) -- L7: 2H 0HR 1RBI 2TB (0.222 avg) -- home split: 0.215 avg
 
-## 2026-08-17 - St. Louis Cardinals @ Cincinnati Reds (Scheduled)
+## 2026-08-17 - St. Louis Cardinals @ Cincinnati Reds (Postponed)
 _Great American Ball Park [hitter-friendly park]_
-Projected score: St. Louis Cardinals 4.89 - Cincinnati Reds 3.81
-Model likes: **St. Louis Cardinals** to win (59%) | Run line: **Cincinnati Reds** +1.5 (56% to cover) | Total 8.5: lean **UNDER** (54%)
+Projected score: St. Louis Cardinals 4.86 - Cincinnati Reds 3.95
+Model likes: **St. Louis Cardinals** to win (58%) | Run line: **Cincinnati Reds** +1.5 (57% to cover) | Total 8.5: lean **UNDER** (53%)
 
 ### St. Louis Cardinals lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.64)_
+**Probable P: Brycen Mautz (L)** -- L5: no data
 - Masyn Winn (R) -- L7: 6H 0HR 4RBI 8TB (0.231 avg) -- away split: 0.226 avg
-- Alec Burleson (L) [MATCHUP EDGE: pitcher hits 0.266 avg-against vs this hand] -- L7: 7H 2HR 9RBI 15TB (0.280 avg) -- away split: 0.308 avg -- news: Can Alec Burleson guide Cardinals to contention?
+- Alec Burleson (L) [MATCHUP EDGE: pitcher hits 0.304 avg-against vs this hand] -- L7: 7H 2HR 9RBI 15TB (0.280 avg) -- away split: 0.308 avg -- news: Can Alec Burleson guide Cardinals to contention?
 - Iván Herrera (R) [likely BABIP-driven, not a real power uptick] -- L7: 11H 0HR 3RBI 15TB (0.379 avg) -- away split: 0.259 avg
-- JJ Wetherholt (L) [MATCHUP EDGE: pitcher hits 0.266 avg-against vs this hand] -- L7: 4H 0HR 2RBI 5TB (0.148 avg) -- away split: 0.256 avg
-- Nathan Church (L) [MATCHUP EDGE: pitcher hits 0.266 avg-against vs this hand] -- L7: 5H 0HR 4RBI 6TB (0.227 avg) -- away split: 0.242 avg
+- JJ Wetherholt (L) [MATCHUP EDGE: pitcher hits 0.304 avg-against vs this hand] -- L7: 4H 0HR 2RBI 5TB (0.148 avg) -- away split: 0.256 avg
+- Nathan Church (L) [MATCHUP EDGE: pitcher hits 0.304 avg-against vs this hand] -- L7: 5H 0HR 4RBI 6TB (0.227 avg) -- away split: 0.242 avg
 - Jordan Walker (R) -- L7: 5H 1HR 3RBI 9TB (0.200 avg) -- away split: 0.275 avg
 - José Fermín (R) -- L7: 5H 0HR 3RBI 6TB (0.312 avg) -- away split: 0.240 avg
 - Blaze Jordan (R) -- L7: 5H 1HR 1RBI 8TB (0.263 avg) -- away split: 0.329 avg
-- Bryan Torres (L) [MATCHUP EDGE: pitcher hits 0.266 avg-against vs this hand] -- L7: 2H 0HR 1RBI 2TB (0.125 avg) -- away split: 0.244 avg
+- Bryan Torres (L) [MATCHUP EDGE: pitcher hits 0.304 avg-against vs this hand] -- L7: 2H 0HR 1RBI 2TB (0.125 avg) -- away split: 0.244 avg
 
 ### Cincinnati Reds lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.59)_
-**Probable P: Rhett Lowder (R)** -- L5: 24.7 IP, 18 K, 16 ER, 5.84 ERA
+**Probable P: Brady Singer (R)** -- L5: 29.0 IP, 22 K, 16 ER, 4.97 ERA
 - Sal Stewart (R) [7-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 10H 1HR 4RBI 13TB (0.357 avg) -- home split: 0.261 avg
 - Elly De La Cruz (S) -- L7: 2H 0HR 2RBI 2TB (0.074 avg) -- home split: 0.299 avg
 - Matt McLain (R) -- L7: 5H 1HR 1RBI 9TB (0.227 avg) -- home split: 0.182 avg
@@ -1116,7 +1117,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-18 - Athletics @ Kansas City Royals (Scheduled)
 _Kauffman Stadium [pitcher-friendly park]_
 Projected score: Athletics 3.68 - Kansas City Royals 4.67
-Model likes: **Kansas City Royals** to win (59%) | Run line: **Athletics** +1.5 (57% to cover) | Total 7.5: lean **OVER** (53%)
+Model likes: **Kansas City Royals** to win (59%) | Run line: **Athletics** +1.5 (57% to cover) | Total 7.5: lean **OVER** (52%)
 
 ### Athletics lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
