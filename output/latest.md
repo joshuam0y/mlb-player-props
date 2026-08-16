@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-16T22:20:29.056624+00:00_
+_Generated 2026-08-16T22:42:34.405218+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -315,10 +315,9 @@ _Facing a rested bullpen: 2.3 relief IP in last 2 days (ratio 0.46)_
 - #8 Victor Caratini (S) [MATCHUP EDGE: pitcher hits 0.299 avg-against vs this hand] -- L7: 4H 0HR 1RBI 4TB (0.211 avg) -- home split: 0.268 avg
 - #9 Kaelen Culpepper (R) [3-game hit streak] -- L7: 5H 1HR 2RBI 9TB (0.238 avg) -- home split: 0.250 avg
 
-## 2026-08-16 - St. Louis Cardinals @ Chicago Cubs (In Progress)
+## 2026-08-16 - St. Louis Cardinals @ Chicago Cubs (Final)
 _Wrigley Field_
-Projected score: St. Louis Cardinals 4.69 - Chicago Cubs 4.49
-Model likes: **St. Louis Cardinals** to win (52%) | Run line: **Chicago Cubs** +1.5 (63% to cover) | Total 8.5: lean **OVER** (50%)
+Final: St. Louis Cardinals 11 - Chicago Cubs 4
 
 ### St. Louis Cardinals lineup -- CONFIRMED
 _Facing a taxed bullpen: 6.0 relief IP in last 2 days (ratio 1.48)_
@@ -406,10 +405,9 @@ _Facing a taxed bullpen: 6.3 relief IP in last 2 days (ratio 1.29)_
 - #8 Alika Williams (R) [4-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 5H 0HR 0RBI 7TB (0.357 avg) -- home split: 0.329 avg
 - #9 Darell Hernaiz (R) -- L7: 1H 0HR 0RBI 2TB (0.053 avg) -- home split: 0.304 avg
 
-## 2026-08-16 - Kansas City Royals @ Los Angeles Angels (In Progress)
+## 2026-08-16 - Kansas City Royals @ Los Angeles Angels (Final)
 _Angel Stadium_
-Projected score: Kansas City Royals 4.32 - Los Angeles Angels 3.82
-Model likes: **Kansas City Royals** to win (54%) | Run line: **Los Angeles Angels** +1.5 (61% to cover) | Total 7.5: lean **OVER** (51%)
+Final: Kansas City Royals 3 - Los Angeles Angels 0
 
 ### Kansas City Royals lineup -- CONFIRMED
 **Probable P: Noah Cameron (L)** -- L5: 33.7 IP, 27 K, 12 ER, 3.21 ERA
@@ -528,7 +526,7 @@ _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.49)_
 ## 2026-08-17 - Baltimore Orioles @ Tampa Bay Rays (Scheduled)
 _Tropicana Field_
 Projected score: Baltimore Orioles 3.54 - Tampa Bay Rays 3.81
-Model likes: **Tampa Bay Rays** to win (53%) | Run line: **Baltimore Orioles** +1.5 (64% to cover) | Total 6.5: lean **OVER** (54%)
+Model likes: **Tampa Bay Rays** to win (53%) | Run line: **Baltimore Orioles** +1.5 (64% to cover) | Total 6.5: lean **OVER** (53%)
 
 ### Baltimore Orioles lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 8.3 relief IP in last 2 days (ratio 1.4)_
@@ -647,7 +645,7 @@ _Facing a taxed bullpen: 8.7 relief IP in last 2 days (ratio 1.75)_
 ## 2026-08-17 - San Diego Padres @ New York Mets (Scheduled)
 _Citi Field_
 Projected score: San Diego Padres 3.54 - New York Mets 4.37
-Model likes: **New York Mets** to win (58%) | Run line: **San Diego Padres** +1.5 (59% to cover) | Total 7.5: lean **UNDER** (52%)
+Model likes: **New York Mets** to win (58%) | Run line: **San Diego Padres** +1.5 (59% to cover) | Total 7.5: lean **UNDER** (51%)
 
 ### San Diego Padres lineup -- PROJECTED (unconfirmed)
 **Probable P: Walker Buehler (R)** -- L5: 25.3 IP, 19 K, 9 ER, 3.2 ERA
@@ -704,7 +702,7 @@ Model likes: **Boston Red Sox** to win (50%) | Run line: **Arizona Diamondbacks*
 ## 2026-08-17 - Atlanta Braves @ Minnesota Twins (Scheduled)
 _Target Field_
 Projected score: Atlanta Braves 4.31 - Minnesota Twins 3.22
-Model likes: **Atlanta Braves** to win (60%) | Run line: **Minnesota Twins** +1.5 (56% to cover) | Total 6.5: lean **OVER** (55%)
+Model likes: **Atlanta Braves** to win (60%) | Run line: **Minnesota Twins** +1.5 (57% to cover) | Total 6.5: lean **OVER** (55%)
 
 ### Atlanta Braves lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 7.7 relief IP in last 2 days (ratio 1.91)_
@@ -796,7 +794,7 @@ _Facing a taxed bullpen: 8.3 relief IP in last 2 days (ratio 1.24)_
 ## 2026-08-17 - Los Angeles Dodgers @ Colorado Rockies (Scheduled)
 _Coors Field [hitter-friendly park]_
 Projected score: Los Angeles Dodgers 5.21 - Colorado Rockies 4.54
-Model likes: **Los Angeles Dodgers** to win (55%) | Run line: **Colorado Rockies** +1.5 (59% to cover) | Total 9.5: lean **UNDER** (53%)
+Model likes: **Los Angeles Dodgers** to win (55%) | Run line: **Colorado Rockies** +1.5 (58% to cover) | Total 9.5: lean **UNDER** (53%)
 
 ### Los Angeles Dodgers lineup -- PROJECTED (unconfirmed)
 **Probable P: Blake Snell (L)** -- L5: 28.0 IP, 43 K, 6 ER, 1.93 ERA
@@ -885,7 +883,7 @@ _Facing a rested bullpen: 3.7 relief IP in last 2 days (ratio 0.55)_
 ## 2026-08-18 - Detroit Tigers @ Pittsburgh Pirates (Scheduled)
 _PNC Park_
 Projected score: Detroit Tigers 4.65 - Pittsburgh Pirates 3.92
-Model likes: **Detroit Tigers** to win (56%) | Run line: **Pittsburgh Pirates** +1.5 (59% to cover) | Total 7.5: lean **OVER** (55%)
+Model likes: **Detroit Tigers** to win (56%) | Run line: **Pittsburgh Pirates** +1.5 (59% to cover) | Total 7.5: lean **OVER** (54%)
 
 ### Detroit Tigers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.49)_
@@ -1094,11 +1092,12 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.57)_
 
 ## 2026-08-18 - Seattle Mariners @ Milwaukee Brewers (Scheduled)
 _American Family Field_
-Projected score: Seattle Mariners 2.75 - Milwaukee Brewers 5.1
-Model likes: **Milwaukee Brewers** to win (71%) | Run line: **Milwaukee Brewers** -1.5 (55% to cover) | Total 7.5: lean **UNDER** (52%)
+Projected score: Seattle Mariners 2.75 - Milwaukee Brewers 4.14
+Model likes: **Milwaukee Brewers** to win (64%) | Run line: **Seattle Mariners** +1.5 (54% to cover) | Total 6.5: lean **UNDER** (52%)
 
 ### Seattle Mariners lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
+**Probable P: Bryce Miller (R)** -- L5: 27.3 IP, 19 K, 18 ER, 5.93 ERA
 - Cole Young (L) -- L7: 7H 1HR 5RBI 10TB (0.250 avg) -- away split: 0.264 avg
 - Dominic Canzone (L) -- L7: 9H 1HR 2RBI 13TB (0.321 avg) -- away split: 0.256 avg
 - Julio Rodríguez (R) [4-game hit streak] -- L7: 6H 1HR 1RBI 10TB (0.231 avg) -- away split: 0.240 avg
@@ -1112,12 +1111,12 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ### Milwaukee Brewers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 **Probable P: Kyle Harrison (L)** -- L5: 21.3 IP, 27 K, 16 ER, 6.75 ERA
-- Jackson Chourio (R) -- L7: 6H 0HR 2RBI 7TB (0.231 avg) -- home split: 0.270 avg
+- Jackson Chourio (R) [TOUGH MATCHUP: pitcher holds this hand to 0.193 avg-against] -- L7: 6H 0HR 2RBI 7TB (0.231 avg) -- home split: 0.270 avg
 - Luis Lara (S) -- L7: 4H 0HR 0RBI 5TB (0.211 avg) -- home split: 0.265 avg
-- Andrew Vaughn (R) -- L7: 6H 0HR 0RBI 7TB (0.273 avg) -- home split: 0.275 avg
+- Andrew Vaughn (R) [TOUGH MATCHUP: pitcher holds this hand to 0.193 avg-against] -- L7: 6H 0HR 0RBI 7TB (0.273 avg) -- home split: 0.275 avg
 - Garrett Mitchell (L) -- L7: 3H 0HR 1RBI 3TB (0.158 avg) -- home split: 0.263 avg
 - David Hamilton (L) -- L7: 4H 0HR 2RBI 5TB (0.190 avg) -- home split: 0.195 avg
-- William Contreras (R) -- L7: 3H 1HR 2RBI 6TB (0.143 avg) -- home split: 0.254 avg
+- William Contreras (R) [TOUGH MATCHUP: pitcher holds this hand to 0.193 avg-against] -- L7: 3H 1HR 2RBI 6TB (0.143 avg) -- home split: 0.254 avg
 - Jake Bauers (L) -- L7: 7H 0HR 2RBI 8TB (0.304 avg) -- home split: 0.247 avg
 - Christian Yelich (L) -- L7: 3H 1HR 2RBI 6TB (0.136 avg) -- home split: 0.256 avg
 - Brice Turang (L) -- L7: 9H 0HR 7RBI 12TB (0.300 avg) -- home split: 0.294 avg
@@ -1186,7 +1185,7 @@ _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.33)_
 ## 2026-08-18 - Chicago White Sox @ Chicago Cubs (Scheduled)
 _Wrigley Field_
 Projected score: Chicago White Sox 4.62 - Chicago Cubs 5.61
-Model likes: **Chicago Cubs** to win (57%) | Run line: **Chicago White Sox** +1.5 (56% to cover) | Total 9.5: lean **OVER** (51%)
+Model likes: **Chicago Cubs** to win (57%) | Run line: **Chicago White Sox** +1.5 (56% to cover) | Total 9.5: lean **OVER** (50%)
 
 ### Chicago White Sox lineup -- PROJECTED (unconfirmed)
 - Munetaka Murakami (L) [3-game hit streak] -- L7: 5H 2HR 4RBI 14TB (0.208 avg) -- away split: 0.245 avg
