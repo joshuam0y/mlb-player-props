@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-16T23:18:24.455535+00:00_
+_Generated 2026-08-16T23:36:48.464344+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -226,10 +226,9 @@ _Facing a taxed bullpen: 11.3 relief IP in last 2 days (ratio 1.69)_
 - #8 Max Clark (L) -- L7: 5H 0HR 3RBI 9TB (0.192 avg) -- home split: 0.176 avg -- news: Mayo: Don't judge a book by its cover -- especially Max Clark
 - #9 Javier Báez (R) -- L7: 7H 0HR 3RBI 8TB (0.269 avg) -- home split: 0.283 avg
 
-## 2026-08-16 - San Diego Padres @ Cleveland Guardians (In Progress)
+## 2026-08-16 - San Diego Padres @ Cleveland Guardians (Game Over)
 _Progressive Field_
-Projected score: San Diego Padres 4.33 - Cleveland Guardians 3.16
-Model likes: **San Diego Padres** to win (61%) | Run line: **Cleveland Guardians** +1.5 (56% to cover) | Total 6.5: lean **OVER** (55%)
+Final: San Diego Padres 5 - Cleveland Guardians 0
 
 ### San Diego Padres lineup -- CONFIRMED
 _Facing a taxed bullpen: 7.7 relief IP in last 2 days (ratio 1.51)_
@@ -343,7 +342,7 @@ _Facing a taxed bullpen: 6.0 relief IP in last 2 days (ratio 1.48)_
 - #8 Michael Conforto (L) -- L7: 4H 1HR 6RBI 8TB (0.235 avg) -- home split: 0.221 avg
 - #9 Miguel Amaya (R) -- L7: 4H 1HR 3RBI 7TB (0.211 avg) -- home split: 0.218 avg
 
-## 2026-08-16 - Colorado Rockies @ San Francisco Giants (Game Over)
+## 2026-08-16 - Colorado Rockies @ San Francisco Giants (Final)
 _Oracle Park [pitcher-friendly park]_
 Final: Colorado Rockies 13 - San Francisco Giants 7
 
@@ -431,7 +430,7 @@ _Facing a taxed bullpen: 6.7 relief IP in last 2 days (ratio 1.27)_
 - #8 Travis d'Arnaud (R) -- L7: 5H 1HR 3RBI 8TB (0.333 avg) -- home split: 0.143 avg
 - #9 Josh Lowe (L) -- L7: 4H 1HR 3RBI 8TB (0.200 avg) -- home split: 0.197 avg
 
-## 2026-08-16 - Milwaukee Brewers @ Los Angeles Dodgers (Game Over)
+## 2026-08-16 - Milwaukee Brewers @ Los Angeles Dodgers (Final)
 _UNIQLO Field at Dodger Stadium_
 Final: Milwaukee Brewers 6 - Los Angeles Dodgers 2
 
@@ -459,7 +458,7 @@ Final: Milwaukee Brewers 6 - Los Angeles Dodgers 2
 - #8 Teoscar Hernández (R) [3-game hit streak] -- L7: 4H 0HR 1RBI 5TB (0.211 avg) -- home split: 0.247 avg
 - #9 Ben Rortvedt (L) -- L7: 2H 0HR 1RBI 2TB (0.154 avg) -- home split: 0.200 avg
 
-## 2026-08-16 - Seattle Mariners @ Houston Astros (Warmup)
+## 2026-08-16 - Seattle Mariners @ Houston Astros (In Progress)
 _Daikin Park_
 Projected score: Seattle Mariners 3.33 - Houston Astros 4.68
 Model likes: **Houston Astros** to win (62%) | Run line: **Seattle Mariners** +1.5 (54% to cover) | Total 7.5: lean **UNDER** (51%)
@@ -701,7 +700,7 @@ Model likes: **Boston Red Sox** to win (50%) | Run line: **Arizona Diamondbacks*
 ## 2026-08-17 - Atlanta Braves @ Minnesota Twins (Scheduled)
 _Target Field_
 Projected score: Atlanta Braves 4.31 - Minnesota Twins 3.22
-Model likes: **Atlanta Braves** to win (60%) | Run line: **Minnesota Twins** +1.5 (56% to cover) | Total 6.5: lean **OVER** (55%)
+Model likes: **Atlanta Braves** to win (60%) | Run line: **Minnesota Twins** +1.5 (56% to cover) | Total 7.5: lean **UNDER** (55%)
 
 ### Atlanta Braves lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 7.7 relief IP in last 2 days (ratio 1.91)_
@@ -940,7 +939,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.58)_
 ## 2026-08-18 - San Francisco Giants @ Cleveland Guardians (Scheduled)
 _Progressive Field_
 Projected score: San Francisco Giants 3.34 - Cleveland Guardians 4.9
-Model likes: **Cleveland Guardians** to win (64%) | Run line: **San Francisco Giants** +1.5 (52% to cover) | Total 7.5: lean **OVER** (52%)
+Model likes: **Cleveland Guardians** to win (64%) | Run line: **San Francisco Giants** +1.5 (52% to cover) | Total 7.5: lean **OVER** (51%)
 
 ### San Francisco Giants lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.3 relief IP in last 2 days (ratio 0.07)_
@@ -1090,7 +1089,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.57)_
 ## 2026-08-18 - Seattle Mariners @ Milwaukee Brewers (Scheduled)
 _American Family Field_
 Projected score: Seattle Mariners 2.75 - Milwaukee Brewers 4.14
-Model likes: **Milwaukee Brewers** to win (64%) | Run line: **Seattle Mariners** +1.5 (54% to cover) | Total 6.5: lean **UNDER** (52%)
+Model likes: **Milwaukee Brewers** to win (64%) | Run line: **Seattle Mariners** +1.5 (54% to cover) | Total 6.5: lean **UNDER** (51%)
 
 ### Seattle Mariners lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 1.0 relief IP in last 2 days (ratio 0.17)_
