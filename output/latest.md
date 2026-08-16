@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-16T18:26:00.608469+00:00_
+_Generated 2026-08-16T18:57:47.761050+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -322,7 +322,7 @@ _Facing a rested bullpen: 2.3 relief IP in last 2 days (ratio 0.46)_
 - #8 Victor Caratini (S) [MATCHUP EDGE: pitcher hits 0.292 avg-against vs this hand] -- L7: 4H 0HR 1RBI 4TB (0.211 avg) -- home split: 0.268 avg
 - #9 Kaelen Culpepper (R) [3-game hit streak] -- L7: 5H 1HR 2RBI 9TB (0.238 avg) -- home split: 0.250 avg
 
-## 2026-08-16 - St. Louis Cardinals @ Chicago Cubs (Pre-Game)
+## 2026-08-16 - St. Louis Cardinals @ Chicago Cubs (Warmup)
 _Wrigley Field_
 Projected score: St. Louis Cardinals 4.69 - Chicago Cubs 4.49
 Model likes: **St. Louis Cardinals** to win (52%) | Run line: **Chicago Cubs** +1.5 (63% to cover) | Total 8.5: lean **OVER** (50%)
@@ -355,7 +355,7 @@ _Facing a taxed bullpen: 6.0 relief IP in last 2 days (ratio 1.48)_
 ## 2026-08-16 - Colorado Rockies @ San Francisco Giants (Pre-Game)
 _Oracle Park [pitcher-friendly park]_
 Projected score: Colorado Rockies 3.38 - San Francisco Giants 4.54
-Model likes: **San Francisco Giants** to win (61%) | Run line: **Colorado Rockies** +1.5 (56% to cover) | Total 7.5: lean **UNDER** (52%)
+Model likes: **San Francisco Giants** to win (61%) | Run line: **Colorado Rockies** +1.5 (56% to cover) | Total 7.5: lean **UNDER** (51%)
 
 ### Colorado Rockies lineup -- CONFIRMED
 _Facing a taxed bullpen: 6.3 relief IP in last 2 days (ratio 1.41)_
@@ -416,7 +416,7 @@ _Facing a taxed bullpen: 6.3 relief IP in last 2 days (ratio 1.29)_
 ## 2026-08-16 - Kansas City Royals @ Los Angeles Angels (Pre-Game)
 _Angel Stadium_
 Projected score: Kansas City Royals 4.32 - Los Angeles Angels 3.82
-Model likes: **Kansas City Royals** to win (54%) | Run line: **Los Angeles Angels** +1.5 (61% to cover) | Total 7.5: lean **OVER** (51%)
+Model likes: **Kansas City Royals** to win (54%) | Run line: **Los Angeles Angels** +1.5 (61% to cover) | Total 7.5: lean **OVER** (50%)
 
 ### Kansas City Royals lineup -- CONFIRMED
 **Probable P: Noah Cameron (L)** -- L5: 33.7 IP, 27 K, 12 ER, 3.21 ERA
@@ -652,7 +652,7 @@ _Facing a rested bullpen: 4.0 relief IP in last 2 days (ratio 0.65)_
 ## 2026-08-17 - San Diego Padres @ New York Mets (Scheduled)
 _Citi Field_
 Projected score: San Diego Padres 3.54 - New York Mets 4.37
-Model likes: **New York Mets** to win (58%) | Run line: **San Diego Padres** +1.5 (58% to cover) | Total 7.5: lean **UNDER** (52%)
+Model likes: **New York Mets** to win (58%) | Run line: **San Diego Padres** +1.5 (59% to cover) | Total 7.5: lean **UNDER** (52%)
 
 ### San Diego Padres lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.7 relief IP in last 2 days (ratio 0.47)_
@@ -741,7 +741,7 @@ Model likes: **Atlanta Braves** to win (60%) | Run line: **Minnesota Twins** +1.
 ## 2026-08-17 - Athletics @ Kansas City Royals (Scheduled)
 _Kauffman Stadium [pitcher-friendly park]_
 Projected score: Athletics 3.68 - Kansas City Royals 4.67
-Model likes: **Kansas City Royals** to win (59%) | Run line: **Athletics** +1.5 (57% to cover) | Total 7.5: lean **OVER** (52%)
+Model likes: **Kansas City Royals** to win (59%) | Run line: **Athletics** +1.5 (57% to cover) | Total 7.5: lean **OVER** (53%)
 
 ### Athletics lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.3 relief IP in last 2 days (ratio 0.44)_
@@ -799,10 +799,11 @@ _Facing a rested bullpen: 3.7 relief IP in last 2 days (ratio 0.55)_
 
 ## 2026-08-17 - Los Angeles Dodgers @ Colorado Rockies (Scheduled)
 _Coors Field [hitter-friendly park]_
-Projected score: Los Angeles Dodgers 5.21 - Colorado Rockies 4.61
+Projected score: Los Angeles Dodgers 5.21 - Colorado Rockies 4.54
 Model likes: **Los Angeles Dodgers** to win (55%) | Run line: **Colorado Rockies** +1.5 (59% to cover) | Total 9.5: lean **UNDER** (53%)
 
 ### Los Angeles Dodgers lineup -- PROJECTED (unconfirmed)
+**Probable P: Blake Snell (L)** -- L5: 28.0 IP, 43 K, 6 ER, 1.93 ERA
 - Andy Pages (R) -- L7: 7H 1HR 2RBI 11TB (0.259 avg) -- away split: 0.248 avg
 - Shohei Ohtani (L) [MATCHUP EDGE: pitcher hits 0.265 avg-against vs this hand] -- L7: 6H 1HR 4RBI 13TB (0.214 avg) -- away split: 0.287 avg
 - Teoscar Hernández (R) [3-game hit streak] -- L7: 4H 0HR 1RBI 5TB (0.211 avg) -- away split: 0.252 avg
@@ -816,15 +817,15 @@ Model likes: **Los Angeles Dodgers** to win (55%) | Run line: **Colorado Rockies
 ### Colorado Rockies lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.58)_
 **Probable P: Tomoyuki Sugano (R)** -- L5: 29.3 IP, 18 K, 11 ER, 3.38 ERA
-- Cole Carrigg (S) -- L7: 7H 0HR 3RBI 10TB (0.280 avg) -- home split: 0.354 avg
-- TJ Rumfield (L) -- L7: 5H 0HR 1RBI 5TB (0.208 avg) -- home split: 0.297 avg
-- Mickey Moniak (L) -- L7: 2H 0HR 2RBI 2TB (0.091 avg) -- home split: 0.306 avg
-- Jake McCarthy (L) -- L7: 8H 2HR 3RBI 15TB (0.267 avg) -- home split: 0.318 avg
-- Ezequiel Tovar (R) [4-game hit streak] -- L7: 5H 0HR 0RBI 6TB (0.250 avg) -- home split: 0.201 avg
-- Willi Castro (S) -- L7: 5H 0HR 2RBI 7TB (0.200 avg) -- home split: 0.311 avg
-- Hunter Goodman (R) -- L7: 4H 1HR 3RBI 9TB (0.182 avg) -- home split: 0.236 avg
-- Brett Sullivan (L) -- L7: 5H 2HR 5RBI 12TB (0.278 avg) -- home split: 0.247 avg
-- Troy Johnston (L) -- L7: 5H 0HR 3RBI 8TB (0.227 avg) -- home split: 0.306 avg
+- Cole Carrigg (S) [MATCHUP EDGE: pitcher hits 0.318 avg-against vs this hand] -- L7: 7H 0HR 3RBI 10TB (0.280 avg) -- home split: 0.354 avg
+- TJ Rumfield (L) [TOUGH MATCHUP: pitcher holds this hand to 0.143 avg-against] -- L7: 5H 0HR 1RBI 5TB (0.208 avg) -- home split: 0.297 avg
+- Mickey Moniak (L) [TOUGH MATCHUP: pitcher holds this hand to 0.143 avg-against] -- L7: 2H 0HR 2RBI 2TB (0.091 avg) -- home split: 0.306 avg
+- Jake McCarthy (L) [TOUGH MATCHUP: pitcher holds this hand to 0.143 avg-against] -- L7: 8H 2HR 3RBI 15TB (0.267 avg) -- home split: 0.318 avg
+- Ezequiel Tovar (R) [MATCHUP EDGE: pitcher hits 0.318 avg-against vs this hand] [4-game hit streak] -- L7: 5H 0HR 0RBI 6TB (0.250 avg) -- home split: 0.201 avg
+- Willi Castro (S) [MATCHUP EDGE: pitcher hits 0.318 avg-against vs this hand] -- L7: 5H 0HR 2RBI 7TB (0.200 avg) -- home split: 0.311 avg
+- Hunter Goodman (R) [MATCHUP EDGE: pitcher hits 0.318 avg-against vs this hand] -- L7: 4H 1HR 3RBI 9TB (0.182 avg) -- home split: 0.236 avg
+- Brett Sullivan (L) [TOUGH MATCHUP: pitcher holds this hand to 0.143 avg-against] -- L7: 5H 2HR 5RBI 12TB (0.278 avg) -- home split: 0.247 avg
+- Troy Johnston (L) [TOUGH MATCHUP: pitcher holds this hand to 0.143 avg-against] -- L7: 5H 0HR 3RBI 8TB (0.227 avg) -- home split: 0.306 avg
 
 ## 2026-08-18 - New York Yankees @ Baltimore Orioles (Scheduled)
 _Oriole Park at Camden Yards_
@@ -949,11 +950,12 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 
 ## 2026-08-18 - San Francisco Giants @ Cleveland Guardians (Scheduled)
 _Progressive Field_
-Projected score: San Francisco Giants 3.34 - Cleveland Guardians 4.05
-Model likes: **Cleveland Guardians** to win (57%) | Run line: **San Francisco Giants** +1.5 (60% to cover) | Total 6.5: lean **OVER** (54%)
+Projected score: San Francisco Giants 3.34 - Cleveland Guardians 4.9
+Model likes: **Cleveland Guardians** to win (64%) | Run line: **San Francisco Giants** +1.5 (52% to cover) | Total 7.5: lean **OVER** (52%)
 
 ### San Francisco Giants lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
+**Probable P: Carson Whisenhunt (L)** -- L5: 23.0 IP, 20 K, 17 ER, 6.65 ERA
 - Jung Hoo Lee (L) [TOUGH MATCHUP: pitcher holds this hand to 0.178 avg-against] -- L7: 4H 1HR 1RBI 7TB (0.143 avg) -- away split: 0.328 avg
 - Rafael Devers (L) [TOUGH MATCHUP: pitcher holds this hand to 0.178 avg-against] -- L7: 4H 0HR 2RBI 6TB (0.167 avg) -- away split: 0.255 avg
 - Bryce Eldridge (L) [TOUGH MATCHUP: pitcher holds this hand to 0.178 avg-against] -- L7: 5H 2HR 3RBI 12TB (0.185 avg) -- away split: 0.280 avg
@@ -967,15 +969,15 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ### Cleveland Guardians lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 **Probable P: Foster Griffin (L)** -- L5: 28.0 IP, 16 K, 16 ER, 5.14 ERA
-- Chase DeLauter (L) [5-game hit streak] -- L7: 11H 1HR 1RBI 15TB (0.355 avg) -- home split: 0.292 avg
-- Angel Martínez (S) [likely BABIP-driven, not a real power uptick] -- L7: 9H 1HR 7RBI 15TB (0.375 avg) -- home split: 0.246 avg
-- Steven Kwan (L) -- L7: 9H 0HR 1RBI 10TB (0.321 avg) -- home split: 0.279 avg
-- Brayan Rocchio (S) [3-game hit streak] -- L7: 6H 1HR 1RBI 10TB (0.214 avg) -- home split: 0.294 avg
-- Travis Bazzana (L) -- L7: 3H 0HR 0RBI 3TB (0.136 avg) -- home split: 0.233 avg
-- José Ramírez (S) -- L7: 4H 0HR 3RBI 5TB (0.200 avg) -- home split: 0.250 avg
-- Patrick Bailey (S) -- L7: 1H 0HR 1RBI 2TB (0.053 avg) -- home split: 0.206 avg
-- Jo Adell (R) -- L7: 5H 2HR 5RBI 14TB (0.208 avg) -- home split: 0.231 avg
-- Angel Genao (S) -- L7: 5H 1HR 2RBI 9TB (0.238 avg) -- home split: 0.438 avg
+- Chase DeLauter (L) [TOUGH MATCHUP: pitcher holds this hand to 0.143 avg-against] [5-game hit streak] -- L7: 11H 1HR 1RBI 15TB (0.355 avg) -- home split: 0.292 avg
+- Angel Martínez (S) [MATCHUP EDGE: pitcher hits 0.307 avg-against vs this hand] [likely BABIP-driven, not a real power uptick] -- L7: 9H 1HR 7RBI 15TB (0.375 avg) -- home split: 0.246 avg
+- Steven Kwan (L) [TOUGH MATCHUP: pitcher holds this hand to 0.143 avg-against] -- L7: 9H 0HR 1RBI 10TB (0.321 avg) -- home split: 0.279 avg
+- Brayan Rocchio (S) [MATCHUP EDGE: pitcher hits 0.307 avg-against vs this hand] [3-game hit streak] -- L7: 6H 1HR 1RBI 10TB (0.214 avg) -- home split: 0.294 avg
+- Travis Bazzana (L) [TOUGH MATCHUP: pitcher holds this hand to 0.143 avg-against] -- L7: 3H 0HR 0RBI 3TB (0.136 avg) -- home split: 0.233 avg
+- José Ramírez (S) [MATCHUP EDGE: pitcher hits 0.307 avg-against vs this hand] -- L7: 4H 0HR 3RBI 5TB (0.200 avg) -- home split: 0.250 avg
+- Patrick Bailey (S) [MATCHUP EDGE: pitcher hits 0.307 avg-against vs this hand] -- L7: 1H 0HR 1RBI 2TB (0.053 avg) -- home split: 0.206 avg
+- Jo Adell (R) [MATCHUP EDGE: pitcher hits 0.307 avg-against vs this hand] -- L7: 5H 2HR 5RBI 14TB (0.208 avg) -- home split: 0.231 avg
+- Angel Genao (S) [MATCHUP EDGE: pitcher hits 0.307 avg-against vs this hand] -- L7: 5H 1HR 2RBI 9TB (0.238 avg) -- home split: 0.438 avg
 
 ## 2026-08-18 - St. Louis Cardinals @ Cincinnati Reds (Scheduled)
 _Great American Ball Park [hitter-friendly park]_
@@ -1220,11 +1222,12 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 
 ## 2026-08-18 - Los Angeles Angels @ Houston Astros (Scheduled)
 _Daikin Park_
-Projected score: Los Angeles Angels 4.15 - Houston Astros 5.2
-Model likes: **Houston Astros** to win (58%) | Run line: **Los Angeles Angels** +1.5 (56% to cover) | Total 8.5: lean **OVER** (52%)
+Projected score: Los Angeles Angels 4.15 - Houston Astros 4.88
+Model likes: **Houston Astros** to win (56%) | Run line: **Los Angeles Angels** +1.5 (59% to cover) | Total 8.5: lean **UNDER** (51%)
 
 ### Los Angeles Angels lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
+**Probable P: George Klassen (R)** -- L5: 14.7 IP, 14 K, 9 ER, 5.52 ERA
 - Nolan Schanuel (L) [3-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 8H 0HR 7RBI 9TB (0.381 avg) -- away split: 0.272 avg
 - Wade Meckler (L) -- L7: 6H 0HR 0RBI 6TB (0.231 avg) -- away split: 0.274 avg
 - Jose Siri (R) -- L7: 5H 1HR 4RBI 10TB (0.278 avg) -- away split: 0.328 avg
@@ -1237,23 +1240,24 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 
 ### Houston Astros lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
-- Isaac Paredes (R) [likely BABIP-driven, not a real power uptick] -- L7: 10H 1HR 7RBI 15TB (0.357 avg) -- home split: 0.264 avg
-- Yordan Alvarez (L) -- L7: 5H 1HR 2RBI 9TB (0.208 avg) -- home split: 0.380 avg
-- Jeremy Peña (R) [3-game hit streak] -- L7: 4H 0HR 2RBI 6TB (0.129 avg) -- home split: 0.341 avg
-- Christian Walker (R) -- L7: 3H 1HR 4RBI 6TB (0.143 avg) -- home split: 0.224 avg
-- Cam Smith (R) -- L7: 8H 3HR 5RBI 19TB (0.308 avg) -- home split: 0.194 avg
-- Yainer Diaz (R) -- L7: 1H 0HR 1RBI 1TB (0.083 avg) -- home split: 0.218 avg
-- Jose Altuve (R) -- L7: 6H 0HR 2RBI 9TB (0.261 avg) -- home split: 0.270 avg
-- Taylor Trammell (L) -- L7: 3H 1HR 1RBI 8TB (0.130 avg) -- home split: 0.196 avg
-- Nick Allen (R) -- L7: 2H 0HR 1RBI 2TB (0.222 avg) -- home split: 0.215 avg
+- Isaac Paredes (R) [TOUGH MATCHUP: pitcher holds this hand to 0.190 avg-against] [likely BABIP-driven, not a real power uptick] -- L7: 10H 1HR 7RBI 15TB (0.357 avg) -- home split: 0.264 avg
+- Yordan Alvarez (L) [MATCHUP EDGE: pitcher hits 0.308 avg-against vs this hand] -- L7: 5H 1HR 2RBI 9TB (0.208 avg) -- home split: 0.380 avg
+- Jeremy Peña (R) [TOUGH MATCHUP: pitcher holds this hand to 0.190 avg-against] [3-game hit streak] -- L7: 4H 0HR 2RBI 6TB (0.129 avg) -- home split: 0.341 avg
+- Christian Walker (R) [TOUGH MATCHUP: pitcher holds this hand to 0.190 avg-against] -- L7: 3H 1HR 4RBI 6TB (0.143 avg) -- home split: 0.224 avg
+- Cam Smith (R) [TOUGH MATCHUP: pitcher holds this hand to 0.190 avg-against] -- L7: 8H 3HR 5RBI 19TB (0.308 avg) -- home split: 0.194 avg
+- Yainer Diaz (R) [TOUGH MATCHUP: pitcher holds this hand to 0.190 avg-against] -- L7: 1H 0HR 1RBI 1TB (0.083 avg) -- home split: 0.218 avg
+- Jose Altuve (R) [TOUGH MATCHUP: pitcher holds this hand to 0.190 avg-against] -- L7: 6H 0HR 2RBI 9TB (0.261 avg) -- home split: 0.270 avg
+- Taylor Trammell (L) [MATCHUP EDGE: pitcher hits 0.308 avg-against vs this hand] -- L7: 3H 1HR 1RBI 8TB (0.130 avg) -- home split: 0.196 avg
+- Nick Allen (R) [TOUGH MATCHUP: pitcher holds this hand to 0.190 avg-against] -- L7: 2H 0HR 1RBI 2TB (0.222 avg) -- home split: 0.215 avg
 
 ## 2026-08-18 - Los Angeles Dodgers @ Colorado Rockies (Scheduled)
 _Coors Field [hitter-friendly park]_
-Projected score: Los Angeles Dodgers 5.95 - Colorado Rockies 4.61
-Model likes: **Los Angeles Dodgers** to win (60%) | Run line: **Colorado Rockies** +1.5 (53% to cover) | Total 9.5: lean **OVER** (53%)
+Projected score: Los Angeles Dodgers 5.95 - Colorado Rockies 4.99
+Model likes: **Los Angeles Dodgers** to win (57%) | Run line: **Colorado Rockies** +1.5 (56% to cover) | Total 10.5: lean **UNDER** (52%)
 
 ### Los Angeles Dodgers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
+**Probable P: Eric Lauer (L)** -- L5: 27.7 IP, 19 K, 13 ER, 4.23 ERA
 - Andy Pages (R) -- L7: 7H 1HR 2RBI 11TB (0.259 avg) -- away split: 0.248 avg
 - Shohei Ohtani (L) [MATCHUP EDGE: pitcher hits 0.268 avg-against vs this hand] -- L7: 6H 1HR 4RBI 13TB (0.214 avg) -- away split: 0.287 avg
 - Teoscar Hernández (R) [3-game hit streak] -- L7: 4H 0HR 1RBI 5TB (0.211 avg) -- away split: 0.252 avg
