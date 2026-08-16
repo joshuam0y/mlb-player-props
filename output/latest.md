@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-16T23:00:16.751708+00:00_
+_Generated 2026-08-16T23:18:24.455535+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -343,10 +343,9 @@ _Facing a taxed bullpen: 6.0 relief IP in last 2 days (ratio 1.48)_
 - #8 Michael Conforto (L) -- L7: 4H 1HR 6RBI 8TB (0.235 avg) -- home split: 0.221 avg
 - #9 Miguel Amaya (R) -- L7: 4H 1HR 3RBI 7TB (0.211 avg) -- home split: 0.218 avg
 
-## 2026-08-16 - Colorado Rockies @ San Francisco Giants (In Progress)
+## 2026-08-16 - Colorado Rockies @ San Francisco Giants (Game Over)
 _Oracle Park [pitcher-friendly park]_
-Projected score: Colorado Rockies 3.38 - San Francisco Giants 4.54
-Model likes: **San Francisco Giants** to win (61%) | Run line: **Colorado Rockies** +1.5 (56% to cover) | Total 7.5: lean **UNDER** (51%)
+Final: Colorado Rockies 13 - San Francisco Giants 7
 
 ### Colorado Rockies lineup -- CONFIRMED
 _Facing a taxed bullpen: 6.3 relief IP in last 2 days (ratio 1.41)_
@@ -432,10 +431,9 @@ _Facing a taxed bullpen: 6.7 relief IP in last 2 days (ratio 1.27)_
 - #8 Travis d'Arnaud (R) -- L7: 5H 1HR 3RBI 8TB (0.333 avg) -- home split: 0.143 avg
 - #9 Josh Lowe (L) -- L7: 4H 1HR 3RBI 8TB (0.200 avg) -- home split: 0.197 avg
 
-## 2026-08-16 - Milwaukee Brewers @ Los Angeles Dodgers (In Progress)
+## 2026-08-16 - Milwaukee Brewers @ Los Angeles Dodgers (Game Over)
 _UNIQLO Field at Dodger Stadium_
-Projected score: Milwaukee Brewers 3.26 - Los Angeles Dodgers 2.99
-Model likes: **Milwaukee Brewers** to win (53%) | Run line: **Los Angeles Dodgers** +1.5 (66% to cover) | Total 5.5: lean **OVER** (53%)
+Final: Milwaukee Brewers 6 - Los Angeles Dodgers 2
 
 ### Milwaukee Brewers lineup -- CONFIRMED
 **Probable P: Logan Henderson (R)** -- L5: 28.0 IP, 35 K, 8 ER, 2.57 ERA
@@ -703,7 +701,7 @@ Model likes: **Boston Red Sox** to win (50%) | Run line: **Arizona Diamondbacks*
 ## 2026-08-17 - Atlanta Braves @ Minnesota Twins (Scheduled)
 _Target Field_
 Projected score: Atlanta Braves 4.31 - Minnesota Twins 3.22
-Model likes: **Atlanta Braves** to win (60%) | Run line: **Minnesota Twins** +1.5 (57% to cover) | Total 6.5: lean **OVER** (55%)
+Model likes: **Atlanta Braves** to win (60%) | Run line: **Minnesota Twins** +1.5 (56% to cover) | Total 6.5: lean **OVER** (55%)
 
 ### Atlanta Braves lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 7.7 relief IP in last 2 days (ratio 1.91)_
@@ -1123,7 +1121,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-18 - Athletics @ Kansas City Royals (Scheduled)
 _Kauffman Stadium [pitcher-friendly park]_
 Projected score: Athletics 3.68 - Kansas City Royals 6.01
-Model likes: **Kansas City Royals** to win (68%) | Run line: **Kansas City Royals** -1.5 (55% to cover) | Total 9.5: lean **UNDER** (54%)
+Model likes: **Kansas City Royals** to win (68%) | Run line: **Kansas City Royals** -1.5 (54% to cover) | Total 9.5: lean **UNDER** (54%)
 
 ### Athletics lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
