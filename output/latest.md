@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-16T14:02:36.160623+00:00_
+_Generated 2026-08-16T14:24:51.749896+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -83,23 +83,23 @@ _Facing a taxed bullpen: 7.7 relief IP in last 2 days (ratio 1.5)_
 - #8 Nick Fortes (R) [MATCHUP EDGE: pitcher hits 0.275 avg-against vs this hand] -- L7: 2H 0HR 2RBI 3TB (0.133 avg) -- home split: 0.256 avg
 - #9 Taylor Walls (S) [MATCHUP EDGE: pitcher hits 0.275 avg-against vs this hand] [6-game hit streak] -- L7: 7H 2HR 5RBI 13TB (0.318 avg) -- home split: 0.221 avg
 
-## 2026-08-16 - Boston Red Sox @ Pittsburgh Pirates (Scheduled)
+## 2026-08-16 - Boston Red Sox @ Pittsburgh Pirates (Pre-Game)
 _PNC Park_
-Projected score: Boston Red Sox 4.69 - Pittsburgh Pirates 3.15
+Projected score: Boston Red Sox 4.66 - Pittsburgh Pirates 3.15
 Model likes: **Boston Red Sox** to win (64%) | Run line: **Pittsburgh Pirates** +1.5 (52% to cover) | Total 7.5: lean **UNDER** (52%)
 
-### Boston Red Sox lineup -- PROJECTED (unconfirmed)
+### Boston Red Sox lineup -- CONFIRMED
 _Facing a taxed bullpen: 8.0 relief IP in last 2 days (ratio 1.44)_
 **Probable P: Patrick Sandoval (L)** -- L5: 25.7 IP, 24 K, 10 ER, 3.51 ERA
-- Caleb Durbin (R) -- L7: 6H 1HR 6RBI 9TB (0.261 avg) -- away split: 0.259 avg
-- Nick Sogard (S) -- L7: 5H 0HR 2RBI 5TB (0.192 avg) -- away split: 0.231 avg
-- Jarren Duran (L) -- L7: 5H 0HR 1RBI 7TB (0.200 avg) -- away split: 0.185 avg
-- Andruw Monasterio (R) [5-game hit streak] -- L7: 5H 0HR 4RBI 6TB (0.238 avg) -- away split: 0.270 avg
-- Ceddanne Rafaela (R) [5-game hit streak] -- L7: 8H 1HR 3RBI 12TB (0.267 avg) -- away split: 0.297 avg
-- Wilyer Abreu (L) [5-game hit streak] -- L7: 7H 2HR 3RBI 17TB (0.304 avg) -- away split: 0.261 avg
-- Masataka Yoshida (L) [3-game hit streak] -- L7: 8H 0HR 4RBI 11TB (0.320 avg) -- away split: 0.271 avg
-- Willson Contreras (R) -- L7: 3H 1HR 2RBI 7TB (0.136 avg) -- away split: 0.244 avg
-- Anthony Seigler (S) -- L7: 6H 0HR 3RBI 8TB (0.316 avg) -- away split: 0.191 avg
+- #1 Nick Sogard (S) -- L7: 5H 0HR 2RBI 5TB (0.192 avg) -- away split: 0.231 avg
+- #2 Ceddanne Rafaela (R) [5-game hit streak] -- L7: 8H 1HR 3RBI 12TB (0.267 avg) -- away split: 0.297 avg
+- #3 Wilyer Abreu (L) [5-game hit streak] -- L7: 7H 2HR 3RBI 17TB (0.304 avg) -- away split: 0.261 avg
+- #4 Adley Rutschman (S) -- L7: 2H 0HR 0RBI 3TB (0.083 avg) -- away split: 0.212 avg
+- #5 Caleb Durbin (R) -- L7: 6H 1HR 6RBI 9TB (0.261 avg) -- away split: 0.259 avg
+- #6 Andruw Monasterio (R) [5-game hit streak] -- L7: 5H 0HR 4RBI 6TB (0.238 avg) -- away split: 0.270 avg
+- #7 Jarren Duran (L) -- L7: 5H 0HR 1RBI 7TB (0.200 avg) -- away split: 0.185 avg
+- #8 Anthony Seigler (S) -- L7: 6H 0HR 3RBI 8TB (0.316 avg) -- away split: 0.191 avg
+- #9 Connor Wong (R) -- L7: 3H 1HR 2RBI 7TB (0.143 avg) -- away split: 0.275 avg
 
 ### Pittsburgh Pirates lineup -- PROJECTED (unconfirmed)
 **Probable P: Lake Bachar (R)** [BULLPEN GAME: short-outing arm, no reliable individual matchup below] -- L5: 11.0 IP, 9 K, 4 ER, 3.27 ERA
@@ -146,7 +146,7 @@ _Facing a taxed bullpen: 8.3 relief IP in last 2 days (ratio 1.58)_
 ## 2026-08-16 - New York Yankees @ Toronto Blue Jays (Scheduled)
 _Rogers Centre_
 Projected score: New York Yankees 2.68 - Toronto Blue Jays 2.91
-Model likes: **Toronto Blue Jays** to win (53%) | Run line: **New York Yankees** +1.5 (68% to cover) | Total 5.5: lean **UNDER** (54%)
+Model likes: **Toronto Blue Jays** to win (53%) | Run line: **New York Yankees** +1.5 (68% to cover) | Total 5.5: lean **UNDER** (55%)
 
 ### New York Yankees lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 11.0 relief IP in last 2 days (ratio 1.66)_
@@ -419,7 +419,7 @@ _Facing a taxed bullpen: 6.3 relief IP in last 2 days (ratio 1.29)_
 ## 2026-08-16 - Kansas City Royals @ Los Angeles Angels (Scheduled)
 _Angel Stadium_
 Projected score: Kansas City Royals 4.34 - Los Angeles Angels 3.74
-Model likes: **Kansas City Royals** to win (55%) | Run line: **Los Angeles Angels** +1.5 (61% to cover) | Total 7.5: lean **OVER** (50%)
+Model likes: **Kansas City Royals** to win (55%) | Run line: **Los Angeles Angels** +1.5 (60% to cover) | Total 7.5: lean **OVER** (50%)
 
 ### Kansas City Royals lineup -- PROJECTED (unconfirmed)
 **Probable P: Noah Cameron (L)** -- L5: 33.7 IP, 27 K, 12 ER, 3.21 ERA
@@ -710,7 +710,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.57)_
 ## 2026-08-17 - Atlanta Braves @ Minnesota Twins (Scheduled)
 _Target Field_
 Projected score: Atlanta Braves 4.49 - Minnesota Twins 3.57
-Model likes: **Atlanta Braves** to win (58%) | Run line: **Minnesota Twins** +1.5 (58% to cover) | Total 7.5: lean **UNDER** (50%)
+Model likes: **Atlanta Braves** to win (58%) | Run line: **Minnesota Twins** +1.5 (58% to cover) | Total 7.5: lean **OVER** (50%)
 
 ### Atlanta Braves lineup -- PROJECTED (unconfirmed)
 - Drake Baldwin (L) [3-game hit streak] -- L7: 8H 0HR 2RBI 10TB (0.276 avg) -- away split: 0.263 avg
@@ -1115,7 +1115,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-18 - Athletics @ Kansas City Royals (Scheduled)
 _Kauffman Stadium [pitcher-friendly park]_
 Projected score: Athletics 3.68 - Kansas City Royals 4.67
-Model likes: **Kansas City Royals** to win (59%) | Run line: **Athletics** +1.5 (57% to cover) | Total 7.5: lean **OVER** (52%)
+Model likes: **Kansas City Royals** to win (59%) | Run line: **Athletics** +1.5 (57% to cover) | Total 7.5: lean **OVER** (53%)
 
 ### Athletics lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1144,7 +1144,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-18 - Washington Nationals @ Texas Rangers (Scheduled)
 _Globe Life Field [hitter-friendly park]_
 Projected score: Washington Nationals 4.99 - Texas Rangers 4.28
-Model likes: **Washington Nationals** to win (56%) | Run line: **Texas Rangers** +1.5 (59% to cover) | Total 8.5: lean **OVER** (51%)
+Model likes: **Washington Nationals** to win (56%) | Run line: **Texas Rangers** +1.5 (58% to cover) | Total 8.5: lean **OVER** (51%)
 
 ### Washington Nationals lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
