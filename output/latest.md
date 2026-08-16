@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-16T17:19:34.072613+00:00_
+_Generated 2026-08-16T17:38:26.359190+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -80,7 +80,7 @@ _Facing a taxed bullpen: 7.7 relief IP in last 2 days (ratio 1.5)_
 - #8 Nick Fortes (R) [MATCHUP EDGE: pitcher hits 0.275 avg-against vs this hand] -- L7: 2H 0HR 2RBI 3TB (0.133 avg) -- home split: 0.256 avg
 - #9 Taylor Walls (S) [MATCHUP EDGE: pitcher hits 0.275 avg-against vs this hand] [6-game hit streak] -- L7: 7H 2HR 5RBI 13TB (0.318 avg) -- home split: 0.221 avg
 
-## 2026-08-16 - Boston Red Sox @ Pittsburgh Pirates (Pre-Game)
+## 2026-08-16 - Boston Red Sox @ Pittsburgh Pirates (Warmup)
 _PNC Park_
 Projected score: Boston Red Sox 4.71 - Pittsburgh Pirates 3.18
 Model likes: **Boston Red Sox** to win (64%) | Run line: **Pittsburgh Pirates** +1.5 (52% to cover) | Total 7.5: lean **UNDER** (52%)
@@ -173,7 +173,7 @@ _Facing a taxed bullpen: 11.0 relief IP in last 2 days (ratio 1.66)_
 ## 2026-08-16 - Washington Nationals @ New York Mets (Warmup)
 _Citi Field_
 Projected score: Washington Nationals 3.85 - New York Mets 5.62
-Model likes: **New York Mets** to win (64%) | Run line: **New York Mets** -1.5 (50% to cover) | Total 8.5: lean **OVER** (53%)
+Model likes: **New York Mets** to win (64%) | Run line: **Washington Nationals** +1.5 (50% to cover) | Total 8.5: lean **OVER** (53%)
 
 ### Washington Nationals lineup -- CONFIRMED
 _Facing a taxed bullpen: 7.3 relief IP in last 2 days (ratio 1.31)_
@@ -201,7 +201,7 @@ _Facing a taxed bullpen: 10.0 relief IP in last 2 days (ratio 1.64)_
 - #8 Jorge Polanco (S) -- L7: 4H 1HR 1RBI 8TB (0.167 avg) -- home split: 0.114 avg
 - #9 Luis Torrens (R) -- L7: 7H 3HR 8RBI 16TB (0.333 avg) -- home split: 0.194 avg
 
-## 2026-08-16 - Chicago White Sox @ Detroit Tigers (Pre-Game)
+## 2026-08-16 - Chicago White Sox @ Detroit Tigers (Warmup)
 _Comerica Park [pitcher-friendly park]_
 Projected score: Chicago White Sox 3.88 - Detroit Tigers 3.59
 Model likes: **Chicago White Sox** to win (53%) | Run line: **Detroit Tigers** +1.5 (64% to cover) | Total 6.5: lean **OVER** (55%)
@@ -232,7 +232,7 @@ _Facing a taxed bullpen: 11.3 relief IP in last 2 days (ratio 1.69)_
 - #8 Max Clark (L) -- L7: 5H 0HR 3RBI 9TB (0.192 avg) -- home split: 0.176 avg -- news: Mayo: Don't judge a book by its cover -- especially Max Clark
 - #9 Javier Báez (R) -- L7: 7H 0HR 3RBI 8TB (0.269 avg) -- home split: 0.283 avg
 
-## 2026-08-16 - San Diego Padres @ Cleveland Guardians (Pre-Game)
+## 2026-08-16 - San Diego Padres @ Cleveland Guardians (Delayed Start)
 _Progressive Field_
 Projected score: San Diego Padres 4.33 - Cleveland Guardians 3.16
 Model likes: **San Diego Padres** to win (61%) | Run line: **Cleveland Guardians** +1.5 (56% to cover) | Total 6.5: lean **OVER** (55%)
@@ -415,8 +415,8 @@ _Facing a taxed bullpen: 6.3 relief IP in last 2 days (ratio 1.29)_
 
 ## 2026-08-16 - Kansas City Royals @ Los Angeles Angels (Pre-Game)
 _Angel Stadium_
-Projected score: Kansas City Royals 4.32 - Los Angeles Angels 3.74
-Model likes: **Kansas City Royals** to win (55%) | Run line: **Los Angeles Angels** +1.5 (61% to cover) | Total 7.5: lean **OVER** (50%)
+Projected score: Kansas City Royals 4.32 - Los Angeles Angels 3.82
+Model likes: **Kansas City Royals** to win (54%) | Run line: **Los Angeles Angels** +1.5 (61% to cover) | Total 7.5: lean **OVER** (51%)
 
 ### Kansas City Royals lineup -- CONFIRMED
 **Probable P: Noah Cameron (L)** -- L5: 33.7 IP, 27 K, 12 ER, 3.21 ERA
@@ -430,35 +430,35 @@ Model likes: **Kansas City Royals** to win (55%) | Run line: **Los Angeles Angel
 - #8 John Rave (L) [MATCHUP EDGE: pitcher hits 0.272 avg-against vs this hand] -- L7: 1H 0HR 0RBI 1TB (0.077 avg) -- away split: 0.257 avg
 - #9 Kyle Isbel (L) [MATCHUP EDGE: pitcher hits 0.272 avg-against vs this hand] -- L7: 2H 1HR 2RBI 5TB (0.105 avg) -- away split: 0.224 avg
 
-### Los Angeles Angels lineup -- PROJECTED (unconfirmed)
+### Los Angeles Angels lineup -- CONFIRMED
 _Facing a taxed bullpen: 6.7 relief IP in last 2 days (ratio 1.27)_
 **Probable P: Ryan Johnson (R)** -- L5: 21.7 IP, 18 K, 16 ER, 6.65 ERA
-- Nolan Schanuel (L) [3-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 8H 0HR 7RBI 9TB (0.381 avg) -- home split: 0.285 avg
-- Wade Meckler (L) -- L7: 6H 0HR 0RBI 6TB (0.231 avg) -- home split: 0.322 avg
-- Jose Siri (R) -- L7: 5H 1HR 4RBI 10TB (0.278 avg) -- home split: 0.221 avg
-- Mike Trout (R) [4-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 9H 1HR 4RBI 13TB (0.321 avg) -- home split: 0.230 avg
-- Denzer Guzman (R) -- L7: 5H 0HR 2RBI 6TB (0.263 avg) -- home split: 0.223 avg
-- Zach Neto (R) -- L7: 4H 0HR 3RBI 6TB (0.148 avg) -- home split: 0.212 avg
-- Vaughn Grissom (R) -- L7: 4H 0HR 1RBI 5TB (0.143 avg) -- home split: 0.221 avg
-- Josh Lowe (L) -- L7: 4H 1HR 3RBI 8TB (0.200 avg) -- home split: 0.197 avg
-- Moisés Ballesteros (L) -- L7: 3H 0HR 0RBI 3TB (0.120 avg) -- home split: 0.212 avg
+- #1 Zach Neto (R) -- L7: 4H 0HR 3RBI 6TB (0.148 avg) -- home split: 0.212 avg
+- #2 Mike Trout (R) [4-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 9H 1HR 4RBI 13TB (0.321 avg) -- home split: 0.230 avg
+- #3 Vaughn Grissom (R) -- L7: 4H 0HR 1RBI 5TB (0.143 avg) -- home split: 0.221 avg
+- #4 Jose Siri (R) -- L7: 5H 1HR 4RBI 10TB (0.278 avg) -- home split: 0.221 avg
+- #5 Wade Meckler (L) -- L7: 6H 0HR 0RBI 6TB (0.231 avg) -- home split: 0.322 avg
+- #6 Denzer Guzman (R) -- L7: 5H 0HR 2RBI 6TB (0.263 avg) -- home split: 0.223 avg
+- #7 Oswald Peraza (R) -- L7: 2H 0HR 0RBI 2TB (0.118 avg) -- home split: 0.221 avg
+- #8 Travis d'Arnaud (R) -- L7: 5H 1HR 3RBI 8TB (0.333 avg) -- home split: 0.143 avg
+- #9 Josh Lowe (L) -- L7: 4H 1HR 3RBI 8TB (0.200 avg) -- home split: 0.197 avg
 
 ## 2026-08-16 - Milwaukee Brewers @ Los Angeles Dodgers (Pre-Game)
 _UNIQLO Field at Dodger Stadium_
-Projected score: Milwaukee Brewers 3.35 - Los Angeles Dodgers 2.99
-Model likes: **Milwaukee Brewers** to win (54%) | Run line: **Los Angeles Dodgers** +1.5 (65% to cover) | Total 5.5: lean **OVER** (54%)
+Projected score: Milwaukee Brewers 3.26 - Los Angeles Dodgers 2.99
+Model likes: **Milwaukee Brewers** to win (53%) | Run line: **Los Angeles Dodgers** +1.5 (66% to cover) | Total 5.5: lean **OVER** (53%)
 
-### Milwaukee Brewers lineup -- PROJECTED (unconfirmed)
+### Milwaukee Brewers lineup -- CONFIRMED
 **Probable P: Logan Henderson (R)** -- L5: 28.0 IP, 35 K, 8 ER, 2.57 ERA
-- Jackson Chourio (R) -- L7: 6H 1HR 3RBI 9TB (0.231 avg) -- away split: 0.272 avg
-- Garrett Mitchell (L) -- L7: 3H 0HR 1RBI 3TB (0.158 avg) -- away split: 0.235 avg
-- Andrew Vaughn (R) -- L7: 5H 0HR 0RBI 6TB (0.238 avg) -- away split: 0.318 avg
-- David Hamilton (L) -- L7: 4H 0HR 2RBI 5TB (0.190 avg) -- away split: 0.272 avg
-- William Contreras (R) -- L7: 2H 1HR 2RBI 5TB (0.083 avg) -- away split: 0.260 avg
-- Luis Lara (S) -- L7: 4H 0HR 0RBI 5TB (0.200 avg) -- away split: 0.213 avg
-- Christian Yelich (L) -- L7: 3H 1HR 2RBI 6TB (0.136 avg) -- away split: 0.198 avg
-- Brice Turang (L) -- L7: 9H 0HR 7RBI 12TB (0.300 avg) -- away split: 0.242 avg
-- Jake Bauers (L) -- L7: 6H 1HR 3RBI 10TB (0.261 avg) -- away split: 0.286 avg
+- #1 William Contreras (R) -- L7: 2H 1HR 2RBI 5TB (0.083 avg) -- away split: 0.260 avg
+- #2 Luis Lara (S) -- L7: 4H 0HR 0RBI 5TB (0.200 avg) -- away split: 0.213 avg
+- #3 Jackson Chourio (R) -- L7: 6H 1HR 3RBI 9TB (0.231 avg) -- away split: 0.272 avg
+- #4 Jake Bauers (L) -- L7: 6H 1HR 3RBI 10TB (0.261 avg) -- away split: 0.286 avg
+- #5 Andrew Vaughn (R) -- L7: 5H 0HR 0RBI 6TB (0.238 avg) -- away split: 0.318 avg
+- #6 Gary Sánchez (R) -- L7: 4H 1HR 2RBI 9TB (0.267 avg) -- away split: 0.181 avg
+- #7 Brandon Lockridge (R) -- L7: 1H 0HR 0RBI 1TB (0.143 avg) -- away split: 0.289 avg
+- #8 Joey Ortiz (R) [4-game hit streak] -- L7: 8H 1HR 5RBI 12TB (0.444 avg) -- away split: 0.218 avg
+- #9 Jonathan Ornelas (R) -- L7: 2H 0HR 0RBI 2TB (0.133 avg) -- away split: 0.100 avg
 
 ### Los Angeles Dodgers lineup -- CONFIRMED
 **Probable P: Tarik Skubal (L)** -- L5: 32.0 IP, 39 K, 9 ER, 2.53 ERA
@@ -536,7 +536,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.59)_
 ## 2026-08-17 - Baltimore Orioles @ Tampa Bay Rays (Scheduled)
 _Tropicana Field_
 Projected score: Baltimore Orioles 3.58 - Tampa Bay Rays 3.81
-Model likes: **Tampa Bay Rays** to win (52%) | Run line: **Baltimore Orioles** +1.5 (65% to cover) | Total 6.5: lean **OVER** (54%)
+Model likes: **Tampa Bay Rays** to win (52%) | Run line: **Baltimore Orioles** +1.5 (64% to cover) | Total 6.5: lean **OVER** (54%)
 
 ### Baltimore Orioles lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 4.0 relief IP in last 2 days (ratio 0.68)_
@@ -1010,7 +1010,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-18 - San Diego Padres @ New York Mets (Scheduled)
 _Citi Field_
 Projected score: San Diego Padres 4.54 - New York Mets 3.49
-Model likes: **San Diego Padres** to win (60%) | Run line: **New York Mets** +1.5 (57% to cover) | Total 7.5: lean **UNDER** (50%)
+Model likes: **San Diego Padres** to win (59%) | Run line: **New York Mets** +1.5 (57% to cover) | Total 7.5: lean **UNDER** (50%)
 
 ### San Diego Padres lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1101,8 +1101,8 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 
 ## 2026-08-18 - Seattle Mariners @ Milwaukee Brewers (Scheduled)
 _American Family Field_
-Projected score: Seattle Mariners 3.1 - Milwaukee Brewers 5.1
-Model likes: **Milwaukee Brewers** to win (68%) | Run line: **Milwaukee Brewers** -1.5 (52% to cover) | Total 7.5: lean **OVER** (51%)
+Projected score: Seattle Mariners 2.75 - Milwaukee Brewers 5.1
+Model likes: **Milwaukee Brewers** to win (71%) | Run line: **Milwaukee Brewers** -1.5 (55% to cover) | Total 7.5: lean **UNDER** (52%)
 
 ### Seattle Mariners lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1118,6 +1118,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 
 ### Milwaukee Brewers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
+**Probable P: Kyle Harrison (L)** -- L5: 21.3 IP, 27 K, 16 ER, 6.75 ERA
 - Jackson Chourio (R) -- L7: 6H 1HR 3RBI 9TB (0.231 avg) -- home split: 0.270 avg
 - Garrett Mitchell (L) -- L7: 3H 0HR 1RBI 3TB (0.158 avg) -- home split: 0.263 avg
 - Andrew Vaughn (R) -- L7: 5H 0HR 0RBI 6TB (0.238 avg) -- home split: 0.275 avg
@@ -1131,7 +1132,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-18 - Athletics @ Kansas City Royals (Scheduled)
 _Kauffman Stadium [pitcher-friendly park]_
 Projected score: Athletics 3.68 - Kansas City Royals 4.67
-Model likes: **Kansas City Royals** to win (59%) | Run line: **Athletics** +1.5 (57% to cover) | Total 7.5: lean **OVER** (53%)
+Model likes: **Kansas City Royals** to win (59%) | Run line: **Athletics** +1.5 (57% to cover) | Total 7.5: lean **OVER** (52%)
 
 ### Athletics lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
