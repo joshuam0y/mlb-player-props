@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-16T15:30:02.654794+00:00_
+_Generated 2026-08-16T15:47:53.459808+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -176,7 +176,7 @@ _Facing a taxed bullpen: 11.0 relief IP in last 2 days (ratio 1.66)_
 ## 2026-08-16 - Washington Nationals @ New York Mets (Pre-Game)
 _Citi Field_
 Projected score: Washington Nationals 3.85 - New York Mets 5.62
-Model likes: **New York Mets** to win (64%) | Run line: **New York Mets** -1.5 (50% to cover) | Total 8.5: lean **OVER** (53%)
+Model likes: **New York Mets** to win (64%) | Run line: **Washington Nationals** +1.5 (50% to cover) | Total 8.5: lean **OVER** (53%)
 
 ### Washington Nationals lineup -- CONFIRMED
 _Facing a taxed bullpen: 7.3 relief IP in last 2 days (ratio 1.31)_
@@ -297,20 +297,20 @@ Model likes: **Miami Marlins** to win (57%) | Run line: **Cincinnati Reds** +1.5
 
 ## 2026-08-16 - Philadelphia Phillies @ Minnesota Twins (Pre-Game)
 _Target Field_
-Projected score: Philadelphia Phillies 4.67 - Minnesota Twins 4.74
-Model likes: **Minnesota Twins** to win (51%) | Run line: **Philadelphia Phillies** +1.5 (64% to cover) | Total 8.5: lean **OVER** (52%)
+Projected score: Philadelphia Phillies 4.78 - Minnesota Twins 4.74
+Model likes: **Philadelphia Phillies** to win (50%) | Run line: **Minnesota Twins** +1.5 (64% to cover) | Total 8.5: lean **OVER** (53%)
 
-### Philadelphia Phillies lineup -- PROJECTED (unconfirmed)
+### Philadelphia Phillies lineup -- CONFIRMED
 **Probable P: Andrew Painter (R)** -- L5: 22.3 IP, 22 K, 16 ER, 6.45 ERA
-- Justin Crawford (L) -- L7: 5H 0HR 1RBI 8TB (0.238 avg) -- away split: 0.235 avg
-- Bryson Stott (L) [7-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 10H 1HR 5RBI 14TB (0.370 avg) -- away split: 0.241 avg
-- Alec Bohm (R) [4-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 11H 0HR 2RBI 15TB (0.524 avg) -- away split: 0.235 avg
-- Kyle Schwarber (L) -- L7: 8H 4HR 8RBI 21TB (0.308 avg) -- away split: 0.233 avg
-- Bryce Harper (L) [3-game hit streak] -- L7: 5H 1HR 2RBI 9TB (0.227 avg) -- away split: 0.252 avg
-- Brandon Marsh (L) -- L7: 5H 1HR 3RBI 8TB (0.208 avg) -- away split: 0.259 avg
-- Trea Turner (R) -- L7: 5H 1HR 2RBI 9TB (0.179 avg) -- away split: 0.220 avg
-- J.T. Realmuto (R) -- L7: 5H 0HR 3RBI 6TB (0.179 avg) -- away split: 0.193 avg
-- Derek Hill (R) -- L7: 2H 0HR 1RBI 2TB (0.133 avg) -- away split: 0.258 avg
+- #1 Kyle Schwarber (L) -- L7: 8H 4HR 8RBI 21TB (0.308 avg) -- away split: 0.233 avg
+- #2 Bryson Stott (L) [7-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 10H 1HR 5RBI 14TB (0.370 avg) -- away split: 0.241 avg
+- #3 Bryce Harper (L) [3-game hit streak] -- L7: 5H 1HR 2RBI 9TB (0.227 avg) -- away split: 0.252 avg
+- #4 Luis Arraez (L) [3-game hit streak] -- L7: 7H 0HR 3RBI 8TB (0.219 avg) -- away split: 0.287 avg
+- #5 Alec Bohm (R) [4-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 11H 0HR 2RBI 15TB (0.524 avg) -- away split: 0.235 avg
+- #6 Brandon Marsh (L) -- L7: 5H 1HR 3RBI 8TB (0.208 avg) -- away split: 0.259 avg
+- #7 J.T. Realmuto (R) -- L7: 5H 0HR 3RBI 6TB (0.179 avg) -- away split: 0.193 avg
+- #8 Justin Crawford (L) -- L7: 5H 0HR 1RBI 8TB (0.238 avg) -- away split: 0.235 avg
+- #9 Edmundo Sosa (R) -- L7: 5H 0HR 5RBI 6TB (0.227 avg) -- away split: 0.220 avg
 
 ### Minnesota Twins lineup -- CONFIRMED
 _Facing a rested bullpen: 2.3 relief IP in last 2 days (ratio 0.46)_
@@ -419,7 +419,7 @@ _Facing a taxed bullpen: 6.3 relief IP in last 2 days (ratio 1.29)_
 ## 2026-08-16 - Kansas City Royals @ Los Angeles Angels (Scheduled)
 _Angel Stadium_
 Projected score: Kansas City Royals 4.34 - Los Angeles Angels 3.74
-Model likes: **Kansas City Royals** to win (55%) | Run line: **Los Angeles Angels** +1.5 (61% to cover) | Total 7.5: lean **OVER** (50%)
+Model likes: **Kansas City Royals** to win (55%) | Run line: **Los Angeles Angels** +1.5 (60% to cover) | Total 7.5: lean **OVER** (50%)
 
 ### Kansas City Royals lineup -- PROJECTED (unconfirmed)
 **Probable P: Noah Cameron (L)** -- L5: 33.7 IP, 27 K, 12 ER, 3.21 ERA
@@ -449,7 +449,7 @@ _Facing a taxed bullpen: 6.7 relief IP in last 2 days (ratio 1.27)_
 ## 2026-08-16 - Milwaukee Brewers @ Los Angeles Dodgers (Scheduled)
 _UNIQLO Field at Dodger Stadium_
 Projected score: Milwaukee Brewers 3.35 - Los Angeles Dodgers 2.84
-Model likes: **Milwaukee Brewers** to win (56%) | Run line: **Los Angeles Dodgers** +1.5 (64% to cover) | Total 5.5: lean **OVER** (52%)
+Model likes: **Milwaukee Brewers** to win (56%) | Run line: **Los Angeles Dodgers** +1.5 (64% to cover) | Total 5.5: lean **OVER** (53%)
 
 ### Milwaukee Brewers lineup -- PROJECTED (unconfirmed)
 **Probable P: Logan Henderson (R)** -- L5: 28.0 IP, 35 K, 8 ER, 2.57 ERA
@@ -737,7 +737,7 @@ Model likes: **Atlanta Braves** to win (58%) | Run line: **Minnesota Twins** +1.
 ## 2026-08-17 - Athletics @ Kansas City Royals (Scheduled)
 _Kauffman Stadium [pitcher-friendly park]_
 Projected score: Athletics 3.68 - Kansas City Royals 4.67
-Model likes: **Kansas City Royals** to win (59%) | Run line: **Athletics** +1.5 (57% to cover) | Total 7.5: lean **OVER** (52%)
+Model likes: **Kansas City Royals** to win (59%) | Run line: **Athletics** +1.5 (57% to cover) | Total 7.5: lean **OVER** (53%)
 
 ### Athletics lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.3 relief IP in last 2 days (ratio 0.44)_
@@ -1086,7 +1086,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-18 - Seattle Mariners @ Milwaukee Brewers (Scheduled)
 _American Family Field_
 Projected score: Seattle Mariners 3.1 - Milwaukee Brewers 5.1
-Model likes: **Milwaukee Brewers** to win (68%) | Run line: **Milwaukee Brewers** -1.5 (52% to cover) | Total 7.5: lean **OVER** (51%)
+Model likes: **Milwaukee Brewers** to win (67%) | Run line: **Milwaukee Brewers** -1.5 (52% to cover) | Total 7.5: lean **OVER** (51%)
 
 ### Seattle Mariners lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1115,7 +1115,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-18 - Athletics @ Kansas City Royals (Scheduled)
 _Kauffman Stadium [pitcher-friendly park]_
 Projected score: Athletics 3.68 - Kansas City Royals 4.67
-Model likes: **Kansas City Royals** to win (59%) | Run line: **Athletics** +1.5 (57% to cover) | Total 7.5: lean **OVER** (53%)
+Model likes: **Kansas City Royals** to win (59%) | Run line: **Athletics** +1.5 (57% to cover) | Total 7.5: lean **OVER** (52%)
 
 ### Athletics lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
