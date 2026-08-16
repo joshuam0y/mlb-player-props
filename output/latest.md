@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-16T22:50:36.453791+00:00_
+_Generated 2026-08-16T23:00:16.751708+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -79,7 +79,7 @@ _Facing a taxed bullpen: 7.7 relief IP in last 2 days (ratio 1.5)_
 - #8 Nick Fortes (R) [MATCHUP EDGE: pitcher hits 0.277 avg-against vs this hand] -- L7: 2H 0HR 2RBI 3TB (0.133 avg) -- home split: 0.256 avg
 - #9 Taylor Walls (S) [MATCHUP EDGE: pitcher hits 0.277 avg-against vs this hand] [6-game hit streak] -- L7: 7H 2HR 5RBI 13TB (0.318 avg) -- home split: 0.221 avg
 
-## 2026-08-16 - Boston Red Sox @ Pittsburgh Pirates (Game Over)
+## 2026-08-16 - Boston Red Sox @ Pittsburgh Pirates (Final)
 _PNC Park_
 Final: Boston Red Sox 3 - Pittsburgh Pirates 8
 
@@ -373,7 +373,7 @@ _Facing a taxed bullpen: 6.3 relief IP in last 2 days (ratio 1.41)_
 - #8 Buddy Kennedy (R) -- L7: 1H 0HR 0RBI 1TB (0.077 avg) -- home split: 0.083 avg
 - #9 Christian Koss (R) [6-game hit streak] -- L7: 7H 0HR 1RBI 9TB (0.269 avg) -- home split: 0.184 avg
 
-## 2026-08-16 - Texas Rangers @ Athletics (Game Over)
+## 2026-08-16 - Texas Rangers @ Athletics (Final)
 _Sutter Health Park_
 Final: Texas Rangers 2 - Athletics 5
 
@@ -461,7 +461,7 @@ Model likes: **Milwaukee Brewers** to win (53%) | Run line: **Los Angeles Dodger
 - #8 Teoscar Hernández (R) [3-game hit streak] -- L7: 4H 0HR 1RBI 5TB (0.211 avg) -- home split: 0.247 avg
 - #9 Ben Rortvedt (L) -- L7: 2H 0HR 1RBI 2TB (0.154 avg) -- home split: 0.200 avg
 
-## 2026-08-16 - Seattle Mariners @ Houston Astros (Pre-Game)
+## 2026-08-16 - Seattle Mariners @ Houston Astros (Warmup)
 _Daikin Park_
 Projected score: Seattle Mariners 3.33 - Houston Astros 4.68
 Model likes: **Houston Astros** to win (62%) | Run line: **Seattle Mariners** +1.5 (54% to cover) | Total 7.5: lean **UNDER** (51%)
@@ -492,27 +492,26 @@ _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.51)_
 - #8 Yainer Diaz (R) -- L7: 1H 0HR 1RBI 1TB (0.083 avg) -- home split: 0.218 avg
 - #9 Nick Allen (R) -- L7: 2H 0HR 1RBI 2TB (0.222 avg) -- home split: 0.215 avg
 
-## 2026-08-17 - St. Louis Cardinals @ Cincinnati Reds (Postponed)
+## 2026-08-17 - St. Louis Cardinals @ Cincinnati Reds (Scheduled)
 _Great American Ball Park [hitter-friendly park]_
-Projected score: St. Louis Cardinals 4.86 - Cincinnati Reds 3.95
-Model likes: **St. Louis Cardinals** to win (58%) | Run line: **Cincinnati Reds** +1.5 (57% to cover) | Total 8.5: lean **UNDER** (53%)
+Projected score: St. Louis Cardinals 4.89 - Cincinnati Reds 3.81
+Model likes: **St. Louis Cardinals** to win (59%) | Run line: **Cincinnati Reds** +1.5 (56% to cover) | Total 8.5: lean **UNDER** (54%)
 
 ### St. Louis Cardinals lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.49)_
-**Probable P: Brycen Mautz (L)** -- L5: no data
 - Masyn Winn (R) -- L7: 5H 0HR 3RBI 7TB (0.192 avg) -- away split: 0.221 avg
-- Alec Burleson (L) [MATCHUP EDGE: pitcher hits 0.304 avg-against vs this hand] -- L7: 10H 3HR 13RBI 22TB (0.385 avg) -- away split: 0.314 avg -- news: Can Alec Burleson guide Cardinals to contention?
+- Alec Burleson (L) [MATCHUP EDGE: pitcher hits 0.266 avg-against vs this hand] -- L7: 10H 3HR 13RBI 22TB (0.385 avg) -- away split: 0.314 avg -- news: Can Alec Burleson guide Cardinals to contention?
 - Iván Herrera (R) [likely BABIP-driven, not a real power uptick] -- L7: 9H 0HR 3RBI 11TB (0.333 avg) -- away split: 0.260 avg
-- JJ Wetherholt (L) [MATCHUP EDGE: pitcher hits 0.304 avg-against vs this hand] -- L7: 5H 0HR 3RBI 7TB (0.192 avg) -- away split: 0.260 avg
-- Nathan Church (L) [MATCHUP EDGE: pitcher hits 0.304 avg-against vs this hand] -- L7: 5H 0HR 3RBI 6TB (0.208 avg) -- away split: 0.237 avg
+- JJ Wetherholt (L) [MATCHUP EDGE: pitcher hits 0.266 avg-against vs this hand] -- L7: 5H 0HR 3RBI 7TB (0.192 avg) -- away split: 0.260 avg
+- Nathan Church (L) [MATCHUP EDGE: pitcher hits 0.266 avg-against vs this hand] -- L7: 5H 0HR 3RBI 6TB (0.208 avg) -- away split: 0.237 avg
 - Jordan Walker (R) -- L7: 7H 1HR 6RBI 13TB (0.292 avg) -- away split: 0.284 avg
 - José Fermín (R) -- L7: 5H 0HR 3RBI 6TB (0.312 avg) -- away split: 0.240 avg
 - Blaze Jordan (R) -- L7: 6H 1HR 2RBI 9TB (0.300 avg) -- away split: 0.333 avg
-- Bryan Torres (L) [MATCHUP EDGE: pitcher hits 0.304 avg-against vs this hand] -- L7: 2H 0HR 1RBI 2TB (0.125 avg) -- away split: 0.244 avg
+- Bryan Torres (L) [MATCHUP EDGE: pitcher hits 0.266 avg-against vs this hand] -- L7: 2H 0HR 1RBI 2TB (0.125 avg) -- away split: 0.244 avg
 
 ### Cincinnati Reds lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.37)_
-**Probable P: Brady Singer (R)** -- L5: 29.0 IP, 22 K, 16 ER, 4.97 ERA
+**Probable P: Rhett Lowder (R)** -- L5: 24.7 IP, 18 K, 16 ER, 5.84 ERA
 - Sal Stewart (R) -- L7: 9H 1HR 4RBI 12TB (0.321 avg) -- home split: 0.256 avg
 - Elly De La Cruz (S) -- L7: 2H 0HR 2RBI 2TB (0.077 avg) -- home split: 0.294 avg
 - Matt McLain (R) -- L7: 5H 1HR 1RBI 9TB (0.208 avg) -- home split: 0.177 avg
@@ -647,7 +646,7 @@ _Facing a taxed bullpen: 8.7 relief IP in last 2 days (ratio 1.75)_
 ## 2026-08-17 - San Diego Padres @ New York Mets (Scheduled)
 _Citi Field_
 Projected score: San Diego Padres 3.54 - New York Mets 4.37
-Model likes: **New York Mets** to win (58%) | Run line: **San Diego Padres** +1.5 (59% to cover) | Total 7.5: lean **UNDER** (51%)
+Model likes: **New York Mets** to win (58%) | Run line: **San Diego Padres** +1.5 (59% to cover) | Total 7.5: lean **UNDER** (52%)
 
 ### San Diego Padres lineup -- PROJECTED (unconfirmed)
 **Probable P: Walker Buehler (R)** -- L5: 25.3 IP, 19 K, 9 ER, 3.2 ERA
@@ -734,8 +733,8 @@ _Facing a taxed bullpen: 8.3 relief IP in last 2 days (ratio 1.57)_
 
 ## 2026-08-17 - Athletics @ Kansas City Royals (Scheduled)
 _Kauffman Stadium [pitcher-friendly park]_
-Projected score: Athletics 3.68 - Kansas City Royals 5.71
-Model likes: **Kansas City Royals** to win (66%) | Run line: **Kansas City Royals** -1.5 (52% to cover) | Total 8.5: lean **OVER** (52%)
+Projected score: Athletics 3.37 - Kansas City Royals 5.71
+Model likes: **Kansas City Royals** to win (69%) | Run line: **Kansas City Royals** -1.5 (55% to cover) | Total 8.5: lean **UNDER** (51%)
 
 ### Athletics lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.3 relief IP in last 2 days (ratio 0.44)_
@@ -751,6 +750,7 @@ _Facing a rested bullpen: 2.3 relief IP in last 2 days (ratio 0.44)_
 - Max Muncy (R) -- L7: 3H 0HR 1RBI 5TB (0.158 avg) -- away split: 0.212 avg
 
 ### Kansas City Royals lineup -- PROJECTED (unconfirmed)
+**Probable P: Michael Wacha (R)** -- L5: 31.3 IP, 21 K, 8 ER, 2.3 ERA
 - Jac Caglianone (L) [likely BABIP-driven, not a real power uptick] -- L7: 10H 2HR 9RBI 16TB (0.385 avg) -- home split: 0.280 avg
 - Nick Loftin (R) -- L7: 3H 0HR 0RBI 4TB (0.120 avg) -- home split: 0.224 avg
 - Carter Jensen (L) -- L7: 1H 0HR 1RBI 1TB (0.045 avg) -- home split: 0.242 avg
@@ -795,7 +795,7 @@ _Facing a taxed bullpen: 8.3 relief IP in last 2 days (ratio 1.24)_
 ## 2026-08-17 - Los Angeles Dodgers @ Colorado Rockies (Scheduled)
 _Coors Field [hitter-friendly park]_
 Projected score: Los Angeles Dodgers 5.21 - Colorado Rockies 4.54
-Model likes: **Los Angeles Dodgers** to win (55%) | Run line: **Colorado Rockies** +1.5 (58% to cover) | Total 9.5: lean **UNDER** (53%)
+Model likes: **Los Angeles Dodgers** to win (55%) | Run line: **Colorado Rockies** +1.5 (59% to cover) | Total 9.5: lean **UNDER** (53%)
 
 ### Los Angeles Dodgers lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.32)_
@@ -884,7 +884,7 @@ _Facing a rested bullpen: 3.7 relief IP in last 2 days (ratio 0.55)_
 ## 2026-08-18 - Detroit Tigers @ Pittsburgh Pirates (Scheduled)
 _PNC Park_
 Projected score: Detroit Tigers 4.65 - Pittsburgh Pirates 3.92
-Model likes: **Detroit Tigers** to win (56%) | Run line: **Pittsburgh Pirates** +1.5 (59% to cover) | Total 7.5: lean **OVER** (54%)
+Model likes: **Detroit Tigers** to win (56%) | Run line: **Pittsburgh Pirates** +1.5 (59% to cover) | Total 7.5: lean **OVER** (55%)
 
 ### Detroit Tigers lineup -- PROJECTED (unconfirmed)
 **Probable P: Keider Montero (R)** -- L5: 28.0 IP, 16 K, 10 ER, 3.21 ERA
@@ -1001,7 +1001,7 @@ Model likes: **St. Louis Cardinals** to win (55%) | Run line: **Cincinnati Reds*
 ## 2026-08-18 - San Diego Padres @ New York Mets (Scheduled)
 _Citi Field_
 Projected score: San Diego Padres 4.54 - New York Mets 3.49
-Model likes: **San Diego Padres** to win (59%) | Run line: **New York Mets** +1.5 (57% to cover) | Total 7.5: lean **UNDER** (50%)
+Model likes: **San Diego Padres** to win (60%) | Run line: **New York Mets** +1.5 (57% to cover) | Total 7.5: lean **UNDER** (50%)
 
 ### San Diego Padres lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.7 relief IP in last 2 days (ratio 0.47)_
@@ -1123,7 +1123,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-18 - Athletics @ Kansas City Royals (Scheduled)
 _Kauffman Stadium [pitcher-friendly park]_
 Projected score: Athletics 3.68 - Kansas City Royals 6.01
-Model likes: **Kansas City Royals** to win (68%) | Run line: **Kansas City Royals** -1.5 (54% to cover) | Total 9.5: lean **UNDER** (54%)
+Model likes: **Kansas City Royals** to win (68%) | Run line: **Kansas City Royals** -1.5 (55% to cover) | Total 9.5: lean **UNDER** (54%)
 
 ### Athletics lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
