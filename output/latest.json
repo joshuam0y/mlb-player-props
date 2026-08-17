@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T05:10:43.384605+00:00",
+  "generated_at": "2026-08-17T05:12:25.342431+00:00",
   "range": [
     "2026-08-17",
     "2026-08-19"
@@ -17,7 +17,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 824514,
-        "generated_at": "2026-08-17T05:08:02.746281+00:00",
+        "generated_at": "2026-08-17T05:10:26.987603+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.86,
         "away_exp_runs": 5.27,
@@ -25,13 +25,13 @@
         "spread_line": 1.5,
         "spread_cover_prob": 0.252,
         "total_line": 8.5,
-        "over_prob": 0.501,
+        "over_prob": 0.499,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
         "spread_pick_prob": 0.53,
-        "total_pick": "over",
+        "total_pick": "under",
         "total_pick_prob": 0.501,
         "spread_favorite": "away"
       },
@@ -4171,7 +4171,7 @@
           }
         ],
         "star_player_id": 682622,
-        "ai_summary": "The Cincinnati Reds hold a 59-63 record after going 5-5 in their last ten games with a minus-eighteen run differential, and they are on a one-game loss streak. Both team batting and pitching rank worse than league average. Hunter Greene and Spencer Steer are currently on the injured list. In recent trades, the Reds sent Caleb Ferguson to St. Louis and traded Nathaniel Lowe to Cleveland for Alejandro Rivera and Juan Brito."
+        "ai_summary": "The Cincinnati Reds hold a 59-64 record through 123 games and are on a two-game losing streak, going 4-6 over their last ten with a minus-25 run differential. Both their batting and pitching are worse than league average. Hunter Greene and Spencer Steer are currently on the injured list. In recent trades, the Reds sent LHP Caleb Ferguson to the St. Louis Cardinals and DH Nathaniel Lowe to the Cleveland Guardians."
       },
       "away": {
         "team_id": 138,
@@ -8330,7 +8330,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 822939,
-        "generated_at": "2026-08-17T05:08:02.746281+00:00",
+        "generated_at": "2026-08-17T05:10:26.987603+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.63,
         "away_exp_runs": 3.63,
@@ -8338,14 +8338,14 @@
         "spread_line": 1.5,
         "spread_cover_prob": 0.33,
         "total_line": 6.5,
-        "over_prob": 0.525,
+        "over_prob": 0.526,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
         "spread_pick_prob": 0.67,
         "total_pick": "over",
-        "total_pick_prob": 0.525,
+        "total_pick_prob": 0.526,
         "spread_favorite": "home"
       },
       "highlights": [],
@@ -17368,7 +17368,7 @@
         ],
         "injuries": [],
         "star_player_id": 641933,
-        "ai_summary": "The Baltimore Orioles enter with a 60-63 record over 123 games, currently on a two-game win streak and going 5-5 in their last ten with a minus-one run differential. Team batting is worse than league average, while pitching is about the same as league average. Bettors should also factor in several recent trades, including dealing catcher Adley Rutschman and outfielder Taylor Ward while acquiring multiple pitchers and other players."
+        "ai_summary": "The Baltimore Orioles hold a 61-63 record and enter on a three-game win streak, going 5-5 over their last ten games with a plus-four run differential. Baltimore batting is worse than league average with a .232 average and .391 slugging, while team pitching is about the same as league average with a 3.96 ERA and 1.30 WHIP. Bettors should note recent trades, including dealing catcher Adley Rutschman and outfielder Taylor Ward for multiple pitchers and prospects."
       }
     },
     {
@@ -17383,20 +17383,20 @@
       "live_score": null,
       "projection": {
         "game_pk": 823427,
-        "generated_at": "2026-08-17T05:08:02.746281+00:00",
+        "generated_at": "2026-08-17T05:10:26.987603+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 5.06,
         "away_exp_runs": 3.25,
-        "home_win_prob": 0.657,
+        "home_win_prob": 0.658,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.503,
+        "spread_cover_prob": 0.504,
         "total_line": 7.5,
         "over_prob": 0.52,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "home",
-        "spread_pick_prob": 0.503,
+        "spread_pick_prob": 0.504,
         "total_pick": "over",
         "total_pick_prob": 0.52,
         "spread_favorite": "home"
@@ -26401,7 +26401,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 824478,
-        "generated_at": "2026-08-17T05:08:02.746281+00:00",
+        "generated_at": "2026-08-17T05:10:26.987603+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.86,
         "away_exp_runs": 5.36,
@@ -30915,7 +30915,7 @@
           }
         ],
         "star_player_id": 682622,
-        "ai_summary": "The Cincinnati Reds hold a 59-63 record after going 5-5 in their last ten games with a minus-eighteen run differential, and they are on a one-game loss streak. Both team batting and pitching rank worse than league average. Hunter Greene and Spencer Steer are currently on the injured list. In recent trades, the Reds sent Caleb Ferguson to St. Louis and traded Nathaniel Lowe to Cleveland for Alejandro Rivera and Juan Brito."
+        "ai_summary": "The Cincinnati Reds hold a 59-64 record through 123 games and are on a two-game losing streak, going 4-6 over their last ten with a minus-25 run differential. Both their batting and pitching are worse than league average. Hunter Greene and Spencer Steer are currently on the injured list. In recent trades, the Reds sent LHP Caleb Ferguson to the St. Louis Cardinals and DH Nathaniel Lowe to the Cleveland Guardians."
       },
       "away": {
         "team_id": 138,
@@ -35060,20 +35060,20 @@
       "live_score": null,
       "projection": {
         "game_pk": 823343,
-        "generated_at": "2026-08-17T05:08:02.746281+00:00",
+        "generated_at": "2026-08-17T05:10:26.987603+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.24,
         "away_exp_runs": 4.95,
-        "home_win_prob": 0.442,
+        "home_win_prob": 0.443,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.303,
+        "spread_cover_prob": 0.304,
         "total_line": 8.5,
         "over_prob": 0.506,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
-        "spread_pick_prob": 0.587,
+        "spread_pick_prob": 0.588,
         "total_pick": "over",
         "total_pick_prob": 0.506,
         "spread_favorite": "away"
@@ -44099,7 +44099,7 @@
           }
         ],
         "star_player_id": 679529,
-        "ai_summary": "The Detroit Tigers hold a 60-63 record and are on a two-game losing streak after going 5-5 over their last ten. Their batting is about the same as league average, while their pitching is better than league average. James Outman, Riley Greene, Matt Vierling, and Kerry Carpenter are currently on the injured list. Recent trades sent ace Tarik Skubal and Casey Mize away while bringing in multiple prospects including River Ryan and Kash Mayfield."
+        "ai_summary": "The Detroit Tigers hold a 60-64 record over 124 games and are on a three-game losing streak, going 5-5 in their last ten with a plus-14 run differential. Team batting is about the same as league average at .246 AVG and .413 SLG with 143 home runs, while pitching is better than league average with a 3.26 ERA and 1.16 WHIP. Bettors should note that James Outman, Riley Greene, Matt Vierling, and Kerry Carpenter are currently on the injured list."
       }
     },
     {
@@ -44114,7 +44114,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 823589,
-        "generated_at": "2026-08-17T05:08:02.746281+00:00",
+        "generated_at": "2026-08-17T05:10:26.987603+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.36,
         "away_exp_runs": 3.37,
@@ -53128,7 +53128,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 824725,
-        "generated_at": "2026-08-17T05:08:02.746281+00:00",
+        "generated_at": "2026-08-17T05:10:26.987603+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.88,
         "away_exp_runs": 3.93,
@@ -57308,7 +57308,7 @@
           }
         ],
         "star_player_id": 655316,
-        "ai_summary": "The Boston Red Sox hold a 66-57 record, going 4-6 over their last ten games with a one-game win streak and a plus-ten run differential. Their batting and pitching are both better than league average. Garrett Whitlock and Curtis Mead are currently on the injured list. Recent trades brought in Adley Rutschman, Jake Rogers, Erik Miller, Carlos Gutierrez, and Eli White while sending away several players."
+        "ai_summary": "The Boston Red Sox hold a 66-58 record but are slumping lately at 3-7 over their last ten games with a one-game losing streak and a plus-four run differential. Their team batting and pitching are both better than league average. Boston was active in the trade market, acquiring catcher Adley Rutschman from Baltimore, left-handed pitcher Erik Miller from San Francisco, and outfielder Eli White from Atlanta while trading away Marcelo Mayer. Justin Slaten, Masataka Yoshida, Garrett Whitlock, and Curtis Mead are on the injured list."
       },
       "away": {
         "team_id": 109,
@@ -61787,7 +61787,7 @@
           }
         ],
         "star_player_id": 672515,
-        "ai_summary": "The Arizona Diamondbacks hold a 66-58 record and are on a two-game win streak, going 6-4 with a plus-19 run differential over their last ten games. Their batting and pitching are both better than league average. In recent roster moves, the Cardinals traded left fielder Lars Nootbaar to Arizona for Daniel Eagen, Sandro Santana, and a player to be named later. Ryan Thompson is currently listed on the injured list."
+        "ai_summary": "The Arizona Diamondbacks hold a 66-59 record and went 5-5 over their last ten games with a plus-11 run differential, though they are currently on a one-game losing streak. Their batting is better than the league average, and their pitching features a 3.55 ERA and 1.21 WHIP, which is also better than league average. In roster news, Ryan Thompson is on the injured list, and the team recently acquired left fielder Lars Nootbaar from the St. Louis Cardinals in a trade."
       }
     },
     {
@@ -61802,7 +61802,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 823668,
-        "generated_at": "2026-08-17T05:08:02.746281+00:00",
+        "generated_at": "2026-08-17T05:10:26.987603+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.28,
         "away_exp_runs": 4.59,
@@ -70818,7 +70818,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 824077,
-        "generated_at": "2026-08-17T05:08:02.746281+00:00",
+        "generated_at": "2026-08-17T05:10:26.987603+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 5.53,
         "away_exp_runs": 3.07,
@@ -75355,7 +75355,7 @@
           }
         ],
         "star_player_id": 686555,
-        "ai_summary": "The Kansas City Royals hold a 50-74 record and went 3-7 over their last ten games with an 11-run differential, currently on a one-game losing streak. Their team batting and pitching are both worse than league average. Bettors should note recent trades involving Lane Thomas, Bailey Falter, Kris Bubic, and Nolan Hoffman, alongside injuries to Luinder Avila, Vinnie Pasquantino, and Beck Way."
+        "ai_summary": "The Kansas City Royals enter with a 51-74 record and a 3-7 stretch over their last ten games, currently on a one-game winning streak with a minus-nine run differential. Team batting is .242 with a .395 slugging percentage and 121 home runs, ranking worse than league average. Pitching is also worse than league average, sitting at a 4.34 ERA and 1.36 WHIP. Bettors should note that Luinder Avila, Vinnie Pasquantino, and Beck Way are on the injured list, alongside recent roster additions."
       },
       "away": {
         "team_id": 133,
@@ -79909,7 +79909,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 824641,
-        "generated_at": "2026-08-17T05:08:02.746281+00:00",
+        "generated_at": "2026-08-17T05:10:26.987603+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 5.01,
         "away_exp_runs": 4.2,
@@ -84425,7 +84425,7 @@
           }
         ],
         "star_player_id": 684007,
-        "ai_summary": "The Chicago Cubs hold a 72-52 record and went 7-3 over their last ten games with a plus-nine run differential, though they enter on a one-game loss streak. Team batting and pitching are both about the same as league average. Recent roster moves feature the Cubs acquiring pitcher Kevin Gausman and pitcher Braxton Garrett while trading away pitcher Jameson Taillon, alongside Gavin Hollowell remaining on the injured list."
+        "ai_summary": "The Chicago Cubs hold a 72-53 record, going 6-4 over their last ten games while currently on a two-game loss streak. Both their batting and pitching performances are about the same as league average. Gavin Hollowell is currently on the injured list. Recent team activity includes multiple trades, bringing in players such as Braxton Garrett, Ryan Zeferjahn, Clay Holmes, and Tyrone Taylor, alongside headlines surrounding Jacob Webb."
       },
       "away": {
         "team_id": 145,
@@ -88958,22 +88958,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 824320,
-        "generated_at": "2026-08-17T05:08:02.746281+00:00",
+        "generated_at": "2026-08-17T05:10:26.987603+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.75,
         "away_exp_runs": 5.46,
-        "home_win_prob": 0.447,
+        "home_win_prob": 0.446,
         "spread_line": 1.5,
         "spread_cover_prob": 0.319,
         "total_line": 9.5,
-        "over_prob": 0.503,
+        "over_prob": 0.504,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
         "spread_pick_prob": 0.58,
         "total_pick": "over",
-        "total_pick_prob": 0.503,
+        "total_pick_prob": 0.504,
         "spread_favorite": "away"
       },
       "highlights": [],
@@ -93457,7 +93457,7 @@
           }
         ],
         "star_player_id": 608372,
-        "ai_summary": "The Colorado Rockies hold a 49-74 record and went 4-6 over their last ten games with a minus seventeen run differential. Team batting is better than league average, while team pitching is worse than league average with a 5.43 ERA and 1.50 WHIP. Kyle Karros and Tyler Freeman are currently on the injured list. Recent trades sent away Antonio Senzatela, Brenton Doyle, and Victor Vodnik while bringing in several prospects."
+        "ai_summary": "The Colorado Rockies are 50-74 overall and went 5-5 over their last ten games with a minus-nine run differential, currently on a one-game win streak. Their batting is better than league average at .256 AVG and .423 SLG, while their pitching is worse than league average at a 5.45 ERA and 1.51 WHIP. Kyle Karros and Tyler Freeman are on the injured list. Colorado also recently traded Antonio Senzatela, Brenton Doyle, and Victor Vodnik for multiple prospects."
       },
       "away": {
         "team_id": 119,
@@ -97949,7 +97949,7 @@
           }
         ],
         "star_player_id": 606192,
-        "ai_summary": "The Los Angeles Dodgers hold a 74-50 record and went 5-5 over their last ten games with a one-game losing streak. Their team batting and pitching are both better than league average. Dalton Rushing, Will Klein, and Brock Stewart are currently on the injured list. Recent trades brought in LHP Tarik Skubal, LHP Kris Bubic, C Hunter Feduccia, and RHP Jacob Kmatz, while sending out several players including CF Zyhir Hope."
+        "ai_summary": "The Los Angeles Dodgers hold a 74-51 record over 125 games, going 5-5 with a minus-four run differential in their last ten and currently on a two-game losing streak. Both team batting and pitching are better than league average. The team recently made several trades, acquiring Kris Bubic, Hunter Feduccia, Jacob Kmatz, and Ben Rortvedt while parting with Carlos Duran, Jack Suwinski, and Chayce McDermott. Justin Wrobleski, Dalton Rushing, Will Klein, and Brock Stewart are on the injured list."
       }
     },
     {
@@ -97964,7 +97964,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 824803,
-        "generated_at": "2026-08-17T05:08:02.746281+00:00",
+        "generated_at": "2026-08-17T05:10:26.987603+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.78,
         "away_exp_runs": 4.1,
@@ -102111,7 +102111,7 @@
         ],
         "injuries": [],
         "star_player_id": 683002,
-        "ai_summary": "The Baltimore Orioles enter with a 60-63 record over 123 games, currently on a two-game win streak and going 5-5 in their last ten with a minus-one run differential. Team batting is worse than league average, while pitching is about the same as league average. Bettors should also factor in several recent trades, including dealing catcher Adley Rutschman and outfielder Taylor Ward while acquiring multiple pitchers and other players."
+        "ai_summary": "The Baltimore Orioles hold a 61-63 record and enter on a three-game win streak, going 5-5 over their last ten games with a plus-four run differential. Baltimore batting is worse than league average with a .232 average and .391 slugging, while team pitching is about the same as league average with a 3.96 ERA and 1.30 WHIP. Bettors should note recent trades, including dealing catcher Adley Rutschman and outfielder Taylor Ward for multiple pitchers and prospects."
       },
       "away": {
         "team_id": 147,
@@ -106616,7 +106616,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 822938,
-        "generated_at": "2026-08-17T05:08:02.746281+00:00",
+        "generated_at": "2026-08-17T05:10:26.987603+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.5,
         "away_exp_runs": 3.43,
@@ -115328,13 +115328,13 @@
       "live_score": null,
       "projection": {
         "game_pk": 823341,
-        "generated_at": "2026-08-17T05:08:02.746281+00:00",
+        "generated_at": "2026-08-17T05:10:26.987603+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.97,
         "away_exp_runs": 4.8,
         "home_win_prob": 0.43,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.287,
+        "spread_cover_prob": 0.288,
         "total_line": 8.5,
         "over_prob": 0.471,
         "home_score_line": null,
@@ -124352,7 +124352,7 @@
           }
         ],
         "star_player_id": 672456,
-        "ai_summary": "The Detroit Tigers hold a 60-63 record and are on a two-game losing streak after going 5-5 over their last ten. Their batting is about the same as league average, while their pitching is better than league average. James Outman, Riley Greene, Matt Vierling, and Kerry Carpenter are currently on the injured list. Recent trades sent ace Tarik Skubal and Casey Mize away while bringing in multiple prospects including River Ryan and Kash Mayfield."
+        "ai_summary": "The Detroit Tigers hold a 60-64 record over 124 games and are on a three-game losing streak, going 5-5 in their last ten with a plus-14 run differential. Team batting is about the same as league average at .246 AVG and .413 SLG with 143 home runs, while pitching is better than league average with a 3.26 ERA and 1.16 WHIP. Bettors should note that James Outman, Riley Greene, Matt Vierling, and Kerry Carpenter are currently on the injured list."
       }
     },
     {
@@ -124367,20 +124367,20 @@
       "live_score": null,
       "projection": {
         "game_pk": 823423,
-        "generated_at": "2026-08-17T05:08:02.746281+00:00",
+        "generated_at": "2026-08-17T05:10:26.987603+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 5.2,
         "away_exp_runs": 3.61,
-        "home_win_prob": 0.632,
+        "home_win_prob": 0.634,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.483,
+        "spread_cover_prob": 0.485,
         "total_line": 8.5,
         "over_prob": 0.472,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.517,
+        "spread_pick_prob": 0.515,
         "total_pick": "under",
         "total_pick_prob": 0.528,
         "spread_favorite": "home"
@@ -133012,22 +133012,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 824398,
-        "generated_at": "2026-08-17T05:08:02.746281+00:00",
+        "generated_at": "2026-08-17T05:10:26.987603+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.94,
         "away_exp_runs": 3.2,
-        "home_win_prob": 0.654,
+        "home_win_prob": 0.653,
         "spread_line": 1.5,
         "spread_cover_prob": 0.496,
         "total_line": 7.5,
-        "over_prob": 0.505,
+        "over_prob": 0.504,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
         "spread_pick_prob": 0.504,
         "total_pick": "over",
-        "total_pick_prob": 0.505,
+        "total_pick_prob": 0.504,
         "spread_favorite": "home"
       },
       "highlights": [],
@@ -137504,7 +137504,7 @@
           }
         ],
         "star_player_id": 656492,
-        "ai_summary": "The Cleveland Guardians enter today with a 60-64 record and went 3-7 over their last ten games with a minus-seven run differential, though they hold a one-game win streak. Team batting is worse than league average at .237 AVG and .378 SLG, while pitching is better than league average with a 3.72 ERA and 1.25 WHIP. Slade Cecconi and Shawn Armstrong are currently on the injured list. Recent trades brought Nathaniel Lowe, Foster Griffin, and Jo Adell to Cleveland."
+        "ai_summary": "The Cleveland Guardians hold a 60-65 record and are 3-7 over their last ten games with a one-game losing streak and a minus-eleven run differential. Their batting is worse than league average, while their pitching is better than league average. Recent roster moves brought in Nathaniel Lowe, Foster Griffin, and Jo Adell via trades, and Slade Cecconi and Shawn Armstrong are currently on the injured list. Headlines also note recent changes fueling Gavin Williams' historic stretch."
       },
       "away": {
         "team_id": 137,
@@ -142049,7 +142049,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 824475,
-        "generated_at": "2026-08-17T05:08:02.746281+00:00",
+        "generated_at": "2026-08-17T05:10:26.987603+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.86,
         "away_exp_runs": 4.73,
@@ -142062,8 +142062,8 @@
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
-        "spread_pick_prob": 0.578,
-        "total_pick": "under",
+        "spread_pick_prob": 0.577,
+        "total_pick": "over",
         "total_pick_prob": 0.546,
         "spread_favorite": "away"
       },
@@ -146558,7 +146558,7 @@
           }
         ],
         "star_player_id": 682622,
-        "ai_summary": "The Cincinnati Reds hold a 59-63 record after going 5-5 in their last ten games with a minus-eighteen run differential, and they are on a one-game loss streak. Both team batting and pitching rank worse than league average. Hunter Greene and Spencer Steer are currently on the injured list. In recent trades, the Reds sent Caleb Ferguson to St. Louis and traded Nathaniel Lowe to Cleveland for Alejandro Rivera and Juan Brito."
+        "ai_summary": "The Cincinnati Reds hold a 59-64 record through 123 games and are on a two-game losing streak, going 4-6 over their last ten with a minus-25 run differential. Both their batting and pitching are worse than league average. Hunter Greene and Spencer Steer are currently on the injured list. In recent trades, the Reds sent LHP Caleb Ferguson to the St. Louis Cardinals and DH Nathaniel Lowe to the Cleveland Guardians."
       },
       "away": {
         "team_id": 138,
@@ -150717,7 +150717,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 823586,
-        "generated_at": "2026-08-17T05:08:02.746281+00:00",
+        "generated_at": "2026-08-17T05:10:26.987603+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.49,
         "away_exp_runs": 4.48,
@@ -150730,7 +150730,7 @@
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
-        "spread_pick_prob": 0.572,
+        "spread_pick_prob": 0.571,
         "total_pick": "under",
         "total_pick_prob": 0.51,
         "spread_favorite": "away"
@@ -159379,7 +159379,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 824723,
-        "generated_at": "2026-08-17T05:08:02.746281+00:00",
+        "generated_at": "2026-08-17T05:10:26.987603+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.69,
         "away_exp_runs": 3.29,
@@ -163914,7 +163914,7 @@
           }
         ],
         "star_player_id": 677800,
-        "ai_summary": "The Boston Red Sox hold a 66-57 record, going 4-6 over their last ten games with a one-game win streak and a plus-ten run differential. Their batting and pitching are both better than league average. Garrett Whitlock and Curtis Mead are currently on the injured list. Recent trades brought in Adley Rutschman, Jake Rogers, Erik Miller, Carlos Gutierrez, and Eli White while sending away several players."
+        "ai_summary": "The Boston Red Sox hold a 66-58 record but are slumping lately at 3-7 over their last ten games with a one-game losing streak and a plus-four run differential. Their team batting and pitching are both better than league average. Boston was active in the trade market, acquiring catcher Adley Rutschman from Baltimore, left-handed pitcher Erik Miller from San Francisco, and outfielder Eli White from Atlanta while trading away Marcelo Mayer. Justin Slaten, Masataka Yoshida, Garrett Whitlock, and Curtis Mead are on the injured list."
       },
       "away": {
         "team_id": 109,
@@ -168398,7 +168398,7 @@
           }
         ],
         "star_player_id": 672515,
-        "ai_summary": "The Arizona Diamondbacks hold a 66-58 record and are on a two-game win streak, going 6-4 with a plus-19 run differential over their last ten games. Their batting and pitching are both better than league average. In recent roster moves, the Cardinals traded left fielder Lars Nootbaar to Arizona for Daniel Eagen, Sandro Santana, and a player to be named later. Ryan Thompson is currently listed on the injured list."
+        "ai_summary": "The Arizona Diamondbacks hold a 66-59 record and went 5-5 over their last ten games with a plus-11 run differential, though they are currently on a one-game losing streak. Their batting is better than the league average, and their pitching features a 3.55 ERA and 1.21 WHIP, which is also better than league average. In roster news, Ryan Thompson is on the injured list, and the team recently acquired left fielder Lars Nootbaar from the St. Louis Cardinals in a trade."
       }
     },
     {
@@ -168413,13 +168413,13 @@
       "live_score": null,
       "projection": {
         "game_pk": 823667,
-        "generated_at": "2026-08-17T05:08:02.746281+00:00",
+        "generated_at": "2026-08-17T05:10:26.987603+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.24,
         "away_exp_runs": 5.02,
         "home_win_prob": 0.436,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.299,
+        "spread_cover_prob": 0.298,
         "total_line": 8.5,
         "over_prob": 0.513,
         "home_score_line": null,
@@ -177428,7 +177428,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 823749,
-        "generated_at": "2026-08-17T05:08:02.746281+00:00",
+        "generated_at": "2026-08-17T05:10:26.987603+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.85,
         "away_exp_runs": 2.78,
@@ -186452,7 +186452,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 824075,
-        "generated_at": "2026-08-17T05:08:02.746281+00:00",
+        "generated_at": "2026-08-17T05:10:26.987603+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 5.84,
         "away_exp_runs": 3.74,
@@ -190634,7 +190634,7 @@
           }
         ],
         "star_player_id": 686555,
-        "ai_summary": "The Kansas City Royals hold a 50-74 record and went 3-7 over their last ten games with an 11-run differential, currently on a one-game losing streak. Their team batting and pitching are both worse than league average. Bettors should note recent trades involving Lane Thomas, Bailey Falter, Kris Bubic, and Nolan Hoffman, alongside injuries to Luinder Avila, Vinnie Pasquantino, and Beck Way."
+        "ai_summary": "The Kansas City Royals enter with a 51-74 record and a 3-7 stretch over their last ten games, currently on a one-game winning streak with a minus-nine run differential. Team batting is .242 with a .395 slugging percentage and 121 home runs, ranking worse than league average. Pitching is also worse than league average, sitting at a 4.34 ERA and 1.36 WHIP. Bettors should note that Luinder Avila, Vinnie Pasquantino, and Beck Way are on the injured list, alongside recent roster additions."
       },
       "away": {
         "team_id": 133,
@@ -195181,11 +195181,11 @@
       "live_score": null,
       "projection": {
         "game_pk": 822859,
-        "generated_at": "2026-08-17T05:08:02.746281+00:00",
+        "generated_at": "2026-08-17T05:10:26.987603+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.46,
         "away_exp_runs": 4.74,
-        "home_win_prob": 0.476,
+        "home_win_prob": 0.477,
         "spread_line": 1.5,
         "spread_cover_prob": 0.336,
         "total_line": 8.5,
@@ -195194,7 +195194,7 @@
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
-        "spread_pick_prob": 0.62,
+        "spread_pick_prob": 0.621,
         "total_pick": "over",
         "total_pick_prob": 0.507,
         "spread_favorite": "away"
@@ -204100,22 +204100,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 824639,
-        "generated_at": "2026-08-17T05:08:02.746281+00:00",
+        "generated_at": "2026-08-17T05:10:26.987603+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 5.56,
         "away_exp_runs": 4.76,
-        "home_win_prob": 0.56,
+        "home_win_prob": 0.559,
         "spread_line": 1.5,
         "spread_cover_prob": 0.428,
         "total_line": 9.5,
-        "over_prob": 0.512,
+        "over_prob": 0.513,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
         "spread_pick_prob": 0.572,
         "total_pick": "over",
-        "total_pick_prob": 0.512,
+        "total_pick_prob": 0.513,
         "spread_favorite": "home"
       },
       "highlights": [],
@@ -208618,7 +208618,7 @@
           }
         ],
         "star_player_id": 592332,
-        "ai_summary": "The Chicago Cubs hold a 72-52 record and went 7-3 over their last ten games with a plus-nine run differential, though they enter on a one-game loss streak. Team batting and pitching are both about the same as league average. Recent roster moves feature the Cubs acquiring pitcher Kevin Gausman and pitcher Braxton Garrett while trading away pitcher Jameson Taillon, alongside Gavin Hollowell remaining on the injured list."
+        "ai_summary": "The Chicago Cubs hold a 72-53 record, going 6-4 over their last ten games while currently on a two-game loss streak. Both their batting and pitching performances are about the same as league average. Gavin Hollowell is currently on the injured list. Recent team activity includes multiple trades, bringing in players such as Braxton Garrett, Ryan Zeferjahn, Clay Holmes, and Tyrone Taylor, alongside headlines surrounding Jacob Webb."
       },
       "away": {
         "team_id": 145,
@@ -212805,7 +212805,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 824154,
-        "generated_at": "2026-08-17T05:08:02.746281+00:00",
+        "generated_at": "2026-08-17T05:10:26.987603+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.58,
         "away_exp_runs": 4.06,
@@ -216961,7 +216961,7 @@
           }
         ],
         "star_player_id": 673237,
-        "ai_summary": "The Houston Astros hold a 63-61 record and went 5-5 over their last ten games, entering today on a one-game losing streak. Their batting is better than the league average, while their pitching is worse than league average. In recent roster moves, the Toronto Blue Jays traded center fielder Daulton Varsho and cash to Houston in exchange for right-handed pitcher Spencer Arrighetti, who is currently on the injured list."
+        "ai_summary": "The Houston Astros hold a 63-62 record through 125 games and are on a two-game losing streak after going 4-6 over their last ten with a minus-six run differential. Their batting performs better than the league average, while their pitching performs worse than the league average. In recent roster moves, Toronto traded center fielder Daulton Varsho and cash to Houston in exchange for right-handed pitcher Spencer Arrighetti, who is currently on the injured list."
       },
       "away": {
         "team_id": 108,
@@ -221432,7 +221432,7 @@
           }
         ],
         "star_player_id": 694208,
-        "ai_summary": "The Los Angeles Angels hold a 49-75 record, going 6-4 in their last ten games with a minus-four run differential and a one-game win streak. Team batting is worse than league average with a .238 average and .384 slugging, while pitching is also worse than league average with a 4.06 ERA and 1.30 WHIP. Shaun Anderson and Sam Bachman are currently on the injured list. Recent trades sent Jos\u00e9 Soriano, Ryan Zeferjahn, and Kirby Yates away for multiple players."
+        "ai_summary": "The Los Angeles Angels hold a 49-76 record and went 5-5 over their last ten games with a minus-ten run differential, currently on a one-game loss streak. Both their batting and pitching are worse than league average. Shaun Anderson and Sam Bachman are currently on the injured list. Recent trades include acquiring Kyle Robinson, Arjun Nimmala, Eddie Micheletti Jr., Angel Rivero, Mois\u00e9s Ballesteros, and Mason McGwire while trading away Kirby Yates, Jos\u00e9 Soriano, and Ryan Zeferjahn."
       }
     },
     {
@@ -221447,20 +221447,20 @@
       "live_score": null,
       "projection": {
         "game_pk": 824319,
-        "generated_at": "2026-08-17T05:08:02.746281+00:00",
+        "generated_at": "2026-08-17T05:10:26.987603+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 5.16,
         "away_exp_runs": 6.23,
         "home_win_prob": 0.426,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.309,
+        "spread_cover_prob": 0.31,
         "total_line": 10.5,
         "over_prob": 0.512,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
-        "spread_pick_prob": 0.548,
+        "spread_pick_prob": 0.549,
         "total_pick": "over",
         "total_pick_prob": 0.512,
         "spread_favorite": "away"
@@ -225961,7 +225961,7 @@
           }
         ],
         "star_player_id": 663372,
-        "ai_summary": "The Colorado Rockies hold a 49-74 record and went 4-6 over their last ten games with a minus seventeen run differential. Team batting is better than league average, while team pitching is worse than league average with a 5.43 ERA and 1.50 WHIP. Kyle Karros and Tyler Freeman are currently on the injured list. Recent trades sent away Antonio Senzatela, Brenton Doyle, and Victor Vodnik while bringing in several prospects."
+        "ai_summary": "The Colorado Rockies are 50-74 overall and went 5-5 over their last ten games with a minus-nine run differential, currently on a one-game win streak. Their batting is better than league average at .256 AVG and .423 SLG, while their pitching is worse than league average at a 5.45 ERA and 1.51 WHIP. Kyle Karros and Tyler Freeman are on the injured list. Colorado also recently traded Antonio Senzatela, Brenton Doyle, and Victor Vodnik for multiple prospects."
       },
       "away": {
         "team_id": 119,
@@ -230457,7 +230457,7 @@
           }
         ],
         "star_player_id": 641778,
-        "ai_summary": "The Los Angeles Dodgers hold a 74-50 record and went 5-5 over their last ten games with a one-game losing streak. Their team batting and pitching are both better than league average. Dalton Rushing, Will Klein, and Brock Stewart are currently on the injured list. Recent trades brought in LHP Tarik Skubal, LHP Kris Bubic, C Hunter Feduccia, and RHP Jacob Kmatz, while sending out several players including CF Zyhir Hope."
+        "ai_summary": "The Los Angeles Dodgers hold a 74-51 record over 125 games, going 5-5 with a minus-four run differential in their last ten and currently on a two-game losing streak. Both team batting and pitching are better than league average. The team recently made several trades, acquiring Kris Bubic, Hunter Feduccia, Jacob Kmatz, and Ben Rortvedt while parting with Carlos Duran, Jack Suwinski, and Chayce McDermott. Justin Wrobleski, Dalton Rushing, Will Klein, and Brock Stewart are on the injured list."
       }
     },
     {
@@ -230472,13 +230472,13 @@
       "live_score": null,
       "projection": {
         "game_pk": 823342,
-        "generated_at": "2026-08-17T05:08:02.746281+00:00",
+        "generated_at": "2026-08-17T05:10:26.987603+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.26,
         "away_exp_runs": 4.79,
         "home_win_prob": 0.456,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.314,
+        "spread_cover_prob": 0.315,
         "total_line": 8.5,
         "over_prob": 0.494,
         "home_score_line": null,
@@ -239498,7 +239498,7 @@
           }
         ],
         "star_player_id": 695549,
-        "ai_summary": "The Detroit Tigers hold a 60-63 record and are on a two-game losing streak after going 5-5 over their last ten. Their batting is about the same as league average, while their pitching is better than league average. James Outman, Riley Greene, Matt Vierling, and Kerry Carpenter are currently on the injured list. Recent trades sent ace Tarik Skubal and Casey Mize away while bringing in multiple prospects including River Ryan and Kash Mayfield."
+        "ai_summary": "The Detroit Tigers hold a 60-64 record over 124 games and are on a three-game losing streak, going 5-5 in their last ten with a plus-14 run differential. Team batting is about the same as league average at .246 AVG and .413 SLG with 143 home runs, while pitching is better than league average with a 3.26 ERA and 1.16 WHIP. Bettors should note that James Outman, Riley Greene, Matt Vierling, and Kerry Carpenter are currently on the injured list."
       }
     },
     {
@@ -239513,22 +239513,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 823587,
-        "generated_at": "2026-08-17T05:08:02.746281+00:00",
+        "generated_at": "2026-08-17T05:10:26.987603+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.56,
         "away_exp_runs": 4.48,
         "home_win_prob": 0.417,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.267,
+        "spread_cover_prob": 0.268,
         "total_line": 7.5,
-        "over_prob": 0.497,
+        "over_prob": 0.499,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
-        "spread_pick_prob": 0.578,
+        "spread_pick_prob": 0.577,
         "total_pick": "under",
-        "total_pick_prob": 0.503,
+        "total_pick_prob": 0.501,
         "spread_favorite": "away"
       },
       "highlights": [],
@@ -248168,7 +248168,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 823664,
-        "generated_at": "2026-08-17T05:08:02.746281+00:00",
+        "generated_at": "2026-08-17T05:10:26.987603+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 2.74,
         "away_exp_runs": 4.19,
@@ -248181,7 +248181,7 @@
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
-        "spread_pick_prob": 0.534,
+        "spread_pick_prob": 0.533,
         "total_pick": "under",
         "total_pick_prob": 0.511,
         "spread_favorite": "away"
@@ -257191,22 +257191,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 824640,
-        "generated_at": "2026-08-17T05:08:02.746281+00:00",
+        "generated_at": "2026-08-17T05:10:26.987603+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 5.56,
         "away_exp_runs": 3.48,
-        "home_win_prob": 0.67,
+        "home_win_prob": 0.669,
         "spread_line": 1.5,
         "spread_cover_prob": 0.526,
         "total_line": 8.5,
-        "over_prob": 0.491,
+        "over_prob": 0.492,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "home",
         "spread_pick_prob": 0.526,
         "total_pick": "under",
-        "total_pick_prob": 0.509,
+        "total_pick_prob": 0.508,
         "spread_favorite": "home"
       },
       "highlights": [],
@@ -261706,7 +261706,7 @@
           }
         ],
         "star_player_id": 605280,
-        "ai_summary": "The Chicago Cubs hold a 72-52 record and went 7-3 over their last ten games with a plus-nine run differential, though they enter on a one-game loss streak. Team batting and pitching are both about the same as league average. Recent roster moves feature the Cubs acquiring pitcher Kevin Gausman and pitcher Braxton Garrett while trading away pitcher Jameson Taillon, alongside Gavin Hollowell remaining on the injured list."
+        "ai_summary": "The Chicago Cubs hold a 72-53 record, going 6-4 over their last ten games while currently on a two-game loss streak. Both their batting and pitching performances are about the same as league average. Gavin Hollowell is currently on the injured list. Recent team activity includes multiple trades, bringing in players such as Braxton Garrett, Ryan Zeferjahn, Clay Holmes, and Tyrone Taylor, alongside headlines surrounding Jacob Webb."
       },
       "away": {
         "team_id": 145,
@@ -265885,22 +265885,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 824722,
-        "generated_at": "2026-08-17T05:08:02.746281+00:00",
+        "generated_at": "2026-08-17T05:10:26.987603+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.53,
         "away_exp_runs": 3.13,
-        "home_win_prob": 0.542,
+        "home_win_prob": 0.541,
         "spread_line": 1.5,
         "spread_cover_prob": 0.358,
         "total_line": 6.5,
-        "over_prob": 0.462,
+        "over_prob": 0.463,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
         "spread_pick_prob": 0.642,
         "total_pick": "under",
-        "total_pick_prob": 0.538,
+        "total_pick_prob": 0.537,
         "spread_favorite": "home"
       },
       "highlights": [],
@@ -270420,7 +270420,7 @@
           }
         ],
         "star_player_id": 655316,
-        "ai_summary": "The Boston Red Sox hold a 66-57 record, going 4-6 over their last ten games with a one-game win streak and a plus-ten run differential. Their batting and pitching are both better than league average. Garrett Whitlock and Curtis Mead are currently on the injured list. Recent trades brought in Adley Rutschman, Jake Rogers, Erik Miller, Carlos Gutierrez, and Eli White while sending away several players."
+        "ai_summary": "The Boston Red Sox hold a 66-58 record but are slumping lately at 3-7 over their last ten games with a one-game losing streak and a plus-four run differential. Their team batting and pitching are both better than league average. Boston was active in the trade market, acquiring catcher Adley Rutschman from Baltimore, left-handed pitcher Erik Miller from San Francisco, and outfielder Eli White from Atlanta while trading away Marcelo Mayer. Justin Slaten, Masataka Yoshida, Garrett Whitlock, and Curtis Mead are on the injured list."
       },
       "away": {
         "team_id": 109,
@@ -274899,7 +274899,7 @@
           }
         ],
         "star_player_id": 694297,
-        "ai_summary": "The Arizona Diamondbacks hold a 66-58 record and are on a two-game win streak, going 6-4 with a plus-19 run differential over their last ten games. Their batting and pitching are both better than league average. In recent roster moves, the Cardinals traded left fielder Lars Nootbaar to Arizona for Daniel Eagen, Sandro Santana, and a player to be named later. Ryan Thompson is currently listed on the injured list."
+        "ai_summary": "The Arizona Diamondbacks hold a 66-59 record and went 5-5 over their last ten games with a plus-11 run differential, though they are currently on a one-game losing streak. Their batting is better than the league average, and their pitching features a 3.55 ERA and 1.21 WHIP, which is also better than league average. In roster news, Ryan Thompson is on the injured list, and the team recently acquired left fielder Lars Nootbaar from the St. Louis Cardinals in a trade."
       }
     },
     {
@@ -274914,22 +274914,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 823424,
-        "generated_at": "2026-08-17T05:08:02.746281+00:00",
+        "generated_at": "2026-08-17T05:10:26.987603+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.37,
         "away_exp_runs": 5.11,
-        "home_win_prob": 0.441,
+        "home_win_prob": 0.44,
         "spread_line": 1.5,
         "spread_cover_prob": 0.305,
         "total_line": 8.5,
-        "over_prob": 0.529,
+        "over_prob": 0.531,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
-        "spread_pick_prob": 0.582,
+        "spread_pick_prob": 0.581,
         "total_pick": "over",
-        "total_pick_prob": 0.529,
+        "total_pick_prob": 0.531,
         "spread_favorite": "away"
       },
       "highlights": [],
@@ -283899,7 +283899,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 824801,
-        "generated_at": "2026-08-17T05:08:02.746281+00:00",
+        "generated_at": "2026-08-17T05:10:26.987603+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 2.85,
         "away_exp_runs": 4.1,
@@ -288047,7 +288047,7 @@
         ],
         "injuries": [],
         "star_player_id": 641933,
-        "ai_summary": "The Baltimore Orioles enter with a 60-63 record over 123 games, currently on a two-game win streak and going 5-5 in their last ten with a minus-one run differential. Team batting is worse than league average, while pitching is about the same as league average. Bettors should also factor in several recent trades, including dealing catcher Adley Rutschman and outfielder Taylor Ward while acquiring multiple pitchers and other players."
+        "ai_summary": "The Baltimore Orioles hold a 61-63 record and enter on a three-game win streak, going 5-5 over their last ten games with a plus-four run differential. Baltimore batting is worse than league average with a .232 average and .391 slugging, while team pitching is about the same as league average with a 3.96 ERA and 1.30 WHIP. Bettors should note recent trades, including dealing catcher Adley Rutschman and outfielder Taylor Ward for multiple pitchers and prospects."
       },
       "away": {
         "team_id": 147,
@@ -292551,7 +292551,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 822937,
-        "generated_at": "2026-08-17T05:08:02.746281+00:00",
+        "generated_at": "2026-08-17T05:10:26.987603+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 5.18,
         "away_exp_runs": 3.43,
@@ -301287,7 +301287,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 824394,
-        "generated_at": "2026-08-17T05:08:02.746281+00:00",
+        "generated_at": "2026-08-17T05:10:26.987603+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.12,
         "away_exp_runs": 2.83,
@@ -305781,7 +305781,7 @@
           }
         ],
         "star_player_id": 677587,
-        "ai_summary": "The Cleveland Guardians enter today with a 60-64 record and went 3-7 over their last ten games with a minus-seven run differential, though they hold a one-game win streak. Team batting is worse than league average at .237 AVG and .378 SLG, while pitching is better than league average with a 3.72 ERA and 1.25 WHIP. Slade Cecconi and Shawn Armstrong are currently on the injured list. Recent trades brought Nathaniel Lowe, Foster Griffin, and Jo Adell to Cleveland."
+        "ai_summary": "The Cleveland Guardians hold a 60-65 record and are 3-7 over their last ten games with a one-game losing streak and a minus-eleven run differential. Their batting is worse than league average, while their pitching is better than league average. Recent roster moves brought in Nathaniel Lowe, Foster Griffin, and Jo Adell via trades, and Slade Cecconi and Shawn Armstrong are currently on the injured list. Headlines also note recent changes fueling Gavin Williams' historic stretch."
       },
       "away": {
         "team_id": 137,
@@ -309954,20 +309954,20 @@
       "live_score": null,
       "projection": {
         "game_pk": 824476,
-        "generated_at": "2026-08-17T05:08:02.746281+00:00",
+        "generated_at": "2026-08-17T05:10:26.987603+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.86,
         "away_exp_runs": 3.66,
         "home_win_prob": 0.518,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.352,
+        "spread_cover_prob": 0.353,
         "total_line": 6.5,
         "over_prob": 0.551,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.648,
+        "spread_pick_prob": 0.647,
         "total_pick": "over",
         "total_pick_prob": 0.551,
         "spread_favorite": "home"
@@ -314469,7 +314469,7 @@
           }
         ],
         "star_player_id": 682622,
-        "ai_summary": "The Cincinnati Reds hold a 59-63 record after going 5-5 in their last ten games with a minus-eighteen run differential, and they are on a one-game loss streak. Both team batting and pitching rank worse than league average. Hunter Greene and Spencer Steer are currently on the injured list. In recent trades, the Reds sent Caleb Ferguson to St. Louis and traded Nathaniel Lowe to Cleveland for Alejandro Rivera and Juan Brito."
+        "ai_summary": "The Cincinnati Reds hold a 59-64 record through 123 games and are on a two-game losing streak, going 4-6 over their last ten with a minus-25 run differential. Both their batting and pitching are worse than league average. Hunter Greene and Spencer Steer are currently on the injured list. In recent trades, the Reds sent LHP Caleb Ferguson to the St. Louis Cardinals and DH Nathaniel Lowe to the Cleveland Guardians."
       },
       "away": {
         "team_id": 138,
@@ -318635,7 +318635,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 823748,
-        "generated_at": "2026-08-17T05:08:02.746281+00:00",
+        "generated_at": "2026-08-17T05:10:26.987603+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.79,
         "away_exp_runs": 3.22,
@@ -327661,22 +327661,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 824076,
-        "generated_at": "2026-08-17T05:08:02.746281+00:00",
+        "generated_at": "2026-08-17T05:10:26.987603+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.71,
         "away_exp_runs": 3.74,
-        "home_win_prob": 0.585,
+        "home_win_prob": 0.584,
         "spread_line": 1.5,
         "spread_cover_prob": 0.43,
         "total_line": 7.5,
-        "over_prob": 0.534,
+        "over_prob": 0.535,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
         "spread_pick_prob": 0.57,
         "total_pick": "over",
-        "total_pick_prob": 0.534,
+        "total_pick_prob": 0.535,
         "spread_favorite": "home"
       },
       "highlights": [],
@@ -331843,7 +331843,7 @@
           }
         ],
         "star_player_id": 686555,
-        "ai_summary": "The Kansas City Royals hold a 50-74 record and went 3-7 over their last ten games with an 11-run differential, currently on a one-game losing streak. Their team batting and pitching are both worse than league average. Bettors should note recent trades involving Lane Thomas, Bailey Falter, Kris Bubic, and Nolan Hoffman, alongside injuries to Luinder Avila, Vinnie Pasquantino, and Beck Way."
+        "ai_summary": "The Kansas City Royals enter with a 51-74 record and a 3-7 stretch over their last ten games, currently on a one-game winning streak with a minus-nine run differential. Team batting is .242 with a .395 slugging percentage and 121 home runs, ranking worse than league average. Pitching is also worse than league average, sitting at a 4.34 ERA and 1.36 WHIP. Bettors should note that Luinder Avila, Vinnie Pasquantino, and Beck Way are on the injured list, alongside recent roster additions."
       },
       "away": {
         "team_id": 133,
@@ -336042,7 +336042,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 822860,
-        "generated_at": "2026-08-17T05:08:02.746281+00:00",
+        "generated_at": "2026-08-17T05:10:26.987603+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.5,
         "away_exp_runs": 4.83,
@@ -336050,14 +336050,14 @@
         "spread_line": 1.5,
         "spread_cover_prob": 0.241,
         "total_line": 7.5,
-        "over_prob": 0.523,
+        "over_prob": 0.524,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
-        "spread_pick_prob": 0.54,
+        "spread_pick_prob": 0.539,
         "total_pick": "over",
-        "total_pick_prob": 0.523,
+        "total_pick_prob": 0.524,
         "spread_favorite": "away"
       },
       "highlights": [],
@@ -344674,22 +344674,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 824155,
-        "generated_at": "2026-08-17T05:08:02.746281+00:00",
+        "generated_at": "2026-08-17T05:10:26.987603+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.24,
         "away_exp_runs": 4.06,
-        "home_win_prob": 0.42,
+        "home_win_prob": 0.421,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.259,
+        "spread_cover_prob": 0.26,
         "total_line": 6.5,
-        "over_prob": 0.529,
+        "over_prob": 0.528,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
         "spread_pick_prob": 0.594,
         "total_pick": "over",
-        "total_pick_prob": 0.529,
+        "total_pick_prob": 0.528,
         "spread_favorite": "away"
       },
       "highlights": [],
@@ -348822,7 +348822,7 @@
           }
         ],
         "star_player_id": 673237,
-        "ai_summary": "The Houston Astros hold a 63-61 record and went 5-5 over their last ten games, entering today on a one-game losing streak. Their batting is better than the league average, while their pitching is worse than league average. In recent roster moves, the Toronto Blue Jays traded center fielder Daulton Varsho and cash to Houston in exchange for right-handed pitcher Spencer Arrighetti, who is currently on the injured list."
+        "ai_summary": "The Houston Astros hold a 63-62 record through 125 games and are on a two-game losing streak after going 4-6 over their last ten with a minus-six run differential. Their batting performs better than the league average, while their pitching performs worse than the league average. In recent roster moves, Toronto traded center fielder Daulton Varsho and cash to Houston in exchange for right-handed pitcher Spencer Arrighetti, who is currently on the injured list."
       },
       "away": {
         "team_id": 108,
@@ -353314,7 +353314,7 @@
           }
         ],
         "star_player_id": 700712,
-        "ai_summary": "The Los Angeles Angels hold a 49-75 record, going 6-4 in their last ten games with a minus-four run differential and a one-game win streak. Team batting is worse than league average with a .238 average and .384 slugging, while pitching is also worse than league average with a 4.06 ERA and 1.30 WHIP. Shaun Anderson and Sam Bachman are currently on the injured list. Recent trades sent Jos\u00e9 Soriano, Ryan Zeferjahn, and Kirby Yates away for multiple players."
+        "ai_summary": "The Los Angeles Angels hold a 49-76 record and went 5-5 over their last ten games with a minus-ten run differential, currently on a one-game loss streak. Both their batting and pitching are worse than league average. Shaun Anderson and Sam Bachman are currently on the injured list. Recent trades include acquiring Kyle Robinson, Arjun Nimmala, Eddie Micheletti Jr., Angel Rivero, Mois\u00e9s Ballesteros, and Mason McGwire while trading away Kirby Yates, Jos\u00e9 Soriano, and Ryan Zeferjahn."
       }
     },
     {
@@ -353329,7 +353329,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 824318,
-        "generated_at": "2026-08-17T05:08:02.746281+00:00",
+        "generated_at": "2026-08-17T05:10:26.987603+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 5.08,
         "away_exp_runs": 6.8,
@@ -353337,14 +353337,14 @@
         "spread_line": 1.5,
         "spread_cover_prob": 0.277,
         "total_line": 11.5,
-        "over_prob": 0.472,
+        "over_prob": 0.473,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
         "spread_pick_prob": 0.504,
         "total_pick": "under",
-        "total_pick_prob": 0.528,
+        "total_pick_prob": 0.527,
         "spread_favorite": "away"
       },
       "highlights": [],
@@ -357841,7 +357841,7 @@
           }
         ],
         "star_player_id": 664954,
-        "ai_summary": "The Colorado Rockies hold a 49-74 record and went 4-6 over their last ten games with a minus seventeen run differential. Team batting is better than league average, while team pitching is worse than league average with a 5.43 ERA and 1.50 WHIP. Kyle Karros and Tyler Freeman are currently on the injured list. Recent trades sent away Antonio Senzatela, Brenton Doyle, and Victor Vodnik while bringing in several prospects."
+        "ai_summary": "The Colorado Rockies are 50-74 overall and went 5-5 over their last ten games with a minus-nine run differential, currently on a one-game win streak. Their batting is better than league average at .256 AVG and .423 SLG, while their pitching is worse than league average at a 5.45 ERA and 1.51 WHIP. Kyle Karros and Tyler Freeman are on the injured list. Colorado also recently traded Antonio Senzatela, Brenton Doyle, and Victor Vodnik for multiple prospects."
       },
       "away": {
         "team_id": 119,
@@ -362337,7 +362337,7 @@
           }
         ],
         "star_player_id": 808963,
-        "ai_summary": "The Los Angeles Dodgers hold a 74-50 record and went 5-5 over their last ten games with a one-game losing streak. Their team batting and pitching are both better than league average. Dalton Rushing, Will Klein, and Brock Stewart are currently on the injured list. Recent trades brought in LHP Tarik Skubal, LHP Kris Bubic, C Hunter Feduccia, and RHP Jacob Kmatz, while sending out several players including CF Zyhir Hope."
+        "ai_summary": "The Los Angeles Dodgers hold a 74-51 record over 125 games, going 5-5 with a minus-four run differential in their last ten and currently on a two-game losing streak. Both team batting and pitching are better than league average. The team recently made several trades, acquiring Kris Bubic, Hunter Feduccia, Jacob Kmatz, and Ben Rortvedt while parting with Carlos Duran, Jack Suwinski, and Chayce McDermott. Justin Wrobleski, Dalton Rushing, Will Klein, and Brock Stewart are on the injured list."
       }
     }
   ],
