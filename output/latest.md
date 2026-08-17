@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-17T22:54:13.185945+00:00_
+_Generated 2026-08-17T23:22:42.637454+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -147,7 +147,7 @@ _Facing a taxed bullpen: 7.3 relief IP in last 2 days (ratio 1.42)_
 ## 2026-08-17 - St. Louis Cardinals @ Cincinnati Reds (In Progress)
 _Great American Ball Park [hitter-friendly park]_
 Projected score: St. Louis Cardinals 5.38 - Cincinnati Reds 3.83
-Model likes: **St. Louis Cardinals** to win (63%) | Run line: **Cincinnati Reds** +1.5 (52% to cover) | Total 8.5: lean **OVER** (51%)
+Model likes: **St. Louis Cardinals** to win (62%) | Run line: **Cincinnati Reds** +1.5 (52% to cover) | Total 8.5: lean **OVER** (51%)
 
 ### St. Louis Cardinals lineup -- CONFIRMED
 _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.45)_
@@ -175,7 +175,7 @@ _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.37)_
 - #8 Jose Trevino (R) -- L7: 4H 1HR 2RBI 7TB (0.190 avg) -- home split: 0.269 avg
 - #9 TJ Friedl (L) -- L7: 0H 0HR 0RBI 0TB (0.000 avg) -- home split: 0.144 avg
 
-## 2026-08-17 - Detroit Tigers @ Pittsburgh Pirates (Warmup)
+## 2026-08-17 - Detroit Tigers @ Pittsburgh Pirates (In Progress)
 _PNC Park_
 Projected score: Detroit Tigers 4.98 - Pittsburgh Pirates 4.2
 Model likes: **Detroit Tigers** to win (56%) | Run line: **Pittsburgh Pirates** +1.5 (58% to cover) | Total 8.5: lean **OVER** (51%)
@@ -206,7 +206,7 @@ _Facing a taxed bullpen: 8.7 relief IP in last 2 days (ratio 1.75)_
 - #8 Nick Yorke (R) [MATCHUP EDGE: pitcher hits 0.262 avg-against vs this hand] -- L7: 3H 0HR 5RBI 3TB (0.200 avg) -- home split: 0.255 avg
 - #9 Henry Davis (R) [MATCHUP EDGE: pitcher hits 0.262 avg-against vs this hand] -- L7: 3H 0HR 1RBI 3TB (0.136 avg) -- home split: 0.186 avg
 
-## 2026-08-17 - San Diego Padres @ New York Mets (Warmup)
+## 2026-08-17 - San Diego Padres @ New York Mets (In Progress)
 _Citi Field_
 Projected score: San Diego Padres 3.5 - New York Mets 4.63
 Model likes: **New York Mets** to win (60%) | Run line: **San Diego Padres** +1.5 (56% to cover) | Total 7.5: lean **OVER** (50%)
@@ -236,22 +236,22 @@ _Facing a taxed bullpen: 10.0 relief IP in last 2 days (ratio 1.55)_
 - #8 Jorge Polanco (S) [MATCHUP EDGE: pitcher hits 0.280 avg-against vs this hand] -- L7: 5H 1HR 2RBI 9TB (0.200 avg) -- home split: 0.122 avg
 - #9 Francisco Alvarez (R) -- L7: 5H 1HR 2RBI 9TB (0.217 avg) -- home split: 0.233 avg
 
-## 2026-08-17 - Arizona Diamondbacks @ Boston Red Sox (Pre-Game)
+## 2026-08-17 - Arizona Diamondbacks @ Boston Red Sox (In Progress)
 _Fenway Park_
-Projected score: Arizona Diamondbacks 2.78 - Boston Red Sox 3.73
-Model likes: **Boston Red Sox** to win (60%) | Run line: **Arizona Diamondbacks** +1.5 (59% to cover) | Total 6.5: lean **UNDER** (55%)
+Projected score: Arizona Diamondbacks 2.67 - Boston Red Sox 3.73
+Model likes: **Boston Red Sox** to win (61%) | Run line: **Arizona Diamondbacks** +1.5 (58% to cover) | Total 5.5: lean **OVER** (55%)
 
-### Arizona Diamondbacks lineup -- PROJECTED (unconfirmed)
+### Arizona Diamondbacks lineup -- CONFIRMED
 **Probable P: Mitch Bratt (L)** -- L5: 27.7 IP, 22 K, 10 ER, 3.25 ERA
-- Tim Tawa (R) -- L7: 6H 1HR 3RBI 9TB (0.231 avg) -- away split: 0.213 avg
-- Corbin Carroll (L) [6-game hit streak] -- L7: 9H 2HR 3RBI 22TB (0.346 avg) -- away split: 0.236 avg
-- Geraldo Perdomo (S) -- L7: 8H 0HR 0RBI 11TB (0.276 avg) -- away split: 0.258 avg
-- Nolan Arenado (R) -- L7: 6H 3HR 8RBI 17TB (0.240 avg) -- away split: 0.215 avg
-- Ryan Waldschmidt (R) -- L7: 3H 0HR 1RBI 3TB (0.143 avg) -- away split: 0.222 avg
-- Gabriel Moreno (R) [10-game hit streak] -- L7: 11H 1HR 6RBI 21TB (0.367 avg) -- away split: 0.331 avg
-- Ketel Marte (S) -- L7: 7H 2HR 5RBI 14TB (0.318 avg) -- away split: 0.218 avg
-- Ildemaro Vargas (S) [3-game hit streak] -- L7: 4H 2HR 5RBI 10TB (0.190 avg) -- away split: 0.281 avg
-- Jorge Barrosa (S) -- L7: 1H 0HR 1RBI 1TB (0.200 avg) -- away split: 0.206 avg
+- #1 Ildemaro Vargas (S) [3-game hit streak] -- L7: 4H 2HR 5RBI 10TB (0.190 avg) -- away split: 0.281 avg
+- #2 Corbin Carroll (L) [6-game hit streak] -- L7: 9H 2HR 3RBI 22TB (0.346 avg) -- away split: 0.236 avg
+- #3 Gabriel Moreno (R) [10-game hit streak] -- L7: 11H 1HR 6RBI 21TB (0.367 avg) -- away split: 0.331 avg
+- #4 Geraldo Perdomo (S) -- L7: 8H 0HR 0RBI 11TB (0.276 avg) -- away split: 0.258 avg
+- #5 Jordan Lawlar (R) -- L7: 7H 1HR 3RBI 11TB (0.318 avg) -- away split: 0.214 avg
+- #6 Tim Tawa (R) -- L7: 6H 1HR 3RBI 9TB (0.231 avg) -- away split: 0.213 avg
+- #7 Jose Fernandez (R) -- L7: no data
+- #8 Lars Nootbaar (L) -- L7: 3H 0HR 0RBI 4TB (0.136 avg) -- away split: 0.205 avg
+- #9 Ryan Waldschmidt (R) -- L7: 3H 0HR 1RBI 3TB (0.143 avg) -- away split: 0.222 avg
 
 ### Boston Red Sox lineup -- CONFIRMED
 **Probable P: Alec Gamboa (L)** [BULLPEN GAME: short-outing arm, no reliable individual matchup below] -- L5: 12.0 IP, 8 K, 1 ER, 0.75 ERA
@@ -602,7 +602,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.46)_
 ## 2026-08-18 - Arizona Diamondbacks @ Boston Red Sox (Scheduled)
 _Fenway Park_
 Projected score: Arizona Diamondbacks 3.29 - Boston Red Sox 4.69
-Model likes: **Boston Red Sox** to win (63%) | Run line: **Arizona Diamondbacks** +1.5 (53% to cover) | Total 7.5: lean **UNDER** (51%)
+Model likes: **Boston Red Sox** to win (63%) | Run line: **Arizona Diamondbacks** +1.5 (54% to cover) | Total 7.5: lean **UNDER** (51%)
 
 ### Arizona Diamondbacks lineup -- PROJECTED (unconfirmed)
 **Probable P: Merrill Kelly (R)** -- L5: 26.3 IP, 20 K, 14 ER, 4.78 ERA
@@ -904,7 +904,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-19 - Atlanta Braves @ Minnesota Twins (Scheduled)
 _Target Field_
 Projected score: Atlanta Braves 4.19 - Minnesota Twins 2.74
-Model likes: **Atlanta Braves** to win (64%) | Run line: **Minnesota Twins** +1.5 (53% to cover) | Total 6.5: lean **UNDER** (51%)
+Model likes: **Atlanta Braves** to win (65%) | Run line: **Minnesota Twins** +1.5 (53% to cover) | Total 6.5: lean **UNDER** (51%)
 
 ### Atlanta Braves lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -935,7 +935,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-19 - Chicago White Sox @ Chicago Cubs (Scheduled)
 _Wrigley Field_
 Projected score: Chicago White Sox 3.48 - Chicago Cubs 5.56
-Model likes: **Chicago Cubs** to win (67%) | Run line: **Chicago Cubs** -1.5 (53% to cover) | Total 8.5: lean **UNDER** (51%)
+Model likes: **Chicago Cubs** to win (67%) | Run line: **Chicago Cubs** -1.5 (52% to cover) | Total 8.5: lean **UNDER** (51%)
 
 ### Chicago White Sox lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1027,7 +1027,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-19 - New York Yankees @ Baltimore Orioles (Scheduled)
 _Oriole Park at Camden Yards_
 Projected score: New York Yankees 4.09 - Baltimore Orioles 2.85
-Model likes: **New York Yankees** to win (62%) | Run line: **Baltimore Orioles** +1.5 (55% to cover) | Total 6.5: lean **UNDER** (51%)
+Model likes: **New York Yankees** to win (62%) | Run line: **Baltimore Orioles** +1.5 (56% to cover) | Total 6.5: lean **UNDER** (51%)
 
 ### New York Yankees lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
