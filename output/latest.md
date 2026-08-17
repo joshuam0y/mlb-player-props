@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-17T05:52:58.280576+00:00_
+_Generated 2026-08-17T06:04:54.467483+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -57,7 +57,7 @@ _Generated 2026-08-17T05:52:58.280576+00:00_
 ## 2026-08-17 - St. Louis Cardinals @ Cincinnati Reds (Scheduled)
 _Great American Ball Park [hitter-friendly park]_
 Projected score: St. Louis Cardinals 5.27 - Cincinnati Reds 3.86
-Model likes: **St. Louis Cardinals** to win (61%) | Run line: **Cincinnati Reds** +1.5 (53% to cover) | Total 8.5: lean **UNDER** (50%)
+Model likes: **St. Louis Cardinals** to win (62%) | Run line: **Cincinnati Reds** +1.5 (53% to cover) | Total 8.5: lean **OVER** (50%)
 
 ### St. Louis Cardinals lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.49)_
@@ -178,7 +178,7 @@ _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.37)_
 ## 2026-08-17 - Detroit Tigers @ Pittsburgh Pirates (Scheduled)
 _PNC Park_
 Projected score: Detroit Tigers 4.95 - Pittsburgh Pirates 4.24
-Model likes: **Detroit Tigers** to win (56%) | Run line: **Pittsburgh Pirates** +1.5 (59% to cover) | Total 8.5: lean **OVER** (51%)
+Model likes: **Detroit Tigers** to win (56%) | Run line: **Pittsburgh Pirates** +1.5 (59% to cover) | Total 8.5: lean **OVER** (50%)
 
 ### Detroit Tigers lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 10.0 relief IP in last 2 days (ratio 1.62)_
@@ -298,7 +298,7 @@ _Facing a taxed bullpen: 8.3 relief IP in last 2 days (ratio 1.57)_
 ## 2026-08-17 - Athletics @ Kansas City Royals (Scheduled)
 _Kauffman Stadium [pitcher-friendly park]_
 Projected score: Athletics 3.07 - Kansas City Royals 5.53
-Model likes: **Kansas City Royals** to win (70%) | Run line: **Kansas City Royals** -1.5 (56% to cover) | Total 7.5: lean **OVER** (54%)
+Model likes: **Kansas City Royals** to win (70%) | Run line: **Kansas City Royals** -1.5 (56% to cover) | Total 7.5: lean **OVER** (55%)
 
 ### Athletics lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.3 relief IP in last 2 days (ratio 0.44)_
@@ -537,7 +537,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.59)_
 ## 2026-08-18 - St. Louis Cardinals @ Cincinnati Reds (Scheduled)
 _Great American Ball Park [hitter-friendly park]_
 Projected score: St. Louis Cardinals 4.73 - Cincinnati Reds 3.86
-Model likes: **St. Louis Cardinals** to win (57%) | Run line: **Cincinnati Reds** +1.5 (58% to cover) | Total 8.5: lean **UNDER** (55%)
+Model likes: **St. Louis Cardinals** to win (57%) | Run line: **Cincinnati Reds** +1.5 (58% to cover) | Total 7.5: lean **OVER** (55%)
 
 ### St. Louis Cardinals lineup -- PROJECTED (unconfirmed)
 - Masyn Winn (R) -- L7: 5H 0HR 3RBI 7TB (0.192 avg) -- away split: 0.221 avg
@@ -595,7 +595,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.46)_
 ## 2026-08-18 - Arizona Diamondbacks @ Boston Red Sox (Scheduled)
 _Fenway Park_
 Projected score: Arizona Diamondbacks 3.29 - Boston Red Sox 4.69
-Model likes: **Boston Red Sox** to win (63%) | Run line: **Arizona Diamondbacks** +1.5 (54% to cover) | Total 7.5: lean **UNDER** (51%)
+Model likes: **Boston Red Sox** to win (63%) | Run line: **Arizona Diamondbacks** +1.5 (53% to cover) | Total 7.5: lean **UNDER** (51%)
 
 ### Arizona Diamondbacks lineup -- PROJECTED (unconfirmed)
 **Probable P: Merrill Kelly (R)** -- L5: 26.3 IP, 20 K, 14 ER, 4.78 ERA

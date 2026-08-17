@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T05:52:58.280576+00:00",
+  "generated_at": "2026-08-17T06:04:54.467483+00:00",
   "range": [
     "2026-08-17",
     "2026-08-19"
@@ -17,22 +17,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 824514,
-        "generated_at": "2026-08-17T05:50:17.264320+00:00",
+        "generated_at": "2026-08-17T06:02:12.721323+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.86,
         "away_exp_runs": 5.27,
-        "home_win_prob": 0.386,
+        "home_win_prob": 0.384,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.253,
+        "spread_cover_prob": 0.251,
         "total_line": 8.5,
-        "over_prob": 0.499,
+        "over_prob": 0.5,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
-        "spread_pick_prob": 0.531,
-        "total_pick": "under",
-        "total_pick_prob": 0.501,
+        "spread_pick_prob": 0.529,
+        "total_pick": "over",
+        "total_pick_prob": 0.5,
         "spread_favorite": "away"
       },
       "highlights": [],
@@ -8315,7 +8315,7 @@
         ],
         "injuries": [],
         "star_player_id": 802139,
-        "ai_summary": "The St. Louis Cardinals hold a 62-61 record and are 6-4 over their last ten games with a plus-ten run differential, currently on a one-game win streak. Their batting is about the same as league average, while their pitching is worse than league average. Recent roster moves feature the Cardinals acquiring left-hander Caleb Ferguson from Cincinnati, while trading away left-fielder Lars Nootbaar and pitchers Dustin May and JoJo Romero."
+        "ai_summary": "The St. Louis Cardinals hold a 63-61 record, winning seven of their last ten games with a plus-19 run differential and a two-game win streak. Their batting is about the same as league average, while their pitching is worse than league average. Recent roster moves include trading for LHP Caleb Ferguson and sending away LF Lars Nootbaar, RHP Dustin May, and LHP JoJo Romero. Meanwhile, headlines highlight Joshua Baez's MLB record-setting debut."
       }
     },
     {
@@ -8330,7 +8330,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 822939,
-        "generated_at": "2026-08-17T05:50:17.264320+00:00",
+        "generated_at": "2026-08-17T06:02:12.721323+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.63,
         "away_exp_runs": 3.63,
@@ -12882,7 +12882,7 @@
           }
         ],
         "star_player_id": 663556,
-        "ai_summary": "The Tampa Bay Rays hold a 74-48 record and went 8-2 over their last ten games, though they enter on a two-game losing streak. Both their batting and pitching units are better than league average. Griffin Jax, Ben Williamson, Shane McClanahan, and Cole Sulser are currently on the injured list. Recent trades brought in Freddy Peralta, Tyler Wells, and Jack Suwinski while dealing away several players."
+        "ai_summary": "The Tampa Bay Rays hold a 74-49 record despite a current three-game loss streak, going 7-3 with a plus-15 run differential over their last ten games. Both their batting and pitching are better than league average. Griffin Jax, Ben Williamson, Shane McClanahan, and Cole Sulser are on the injured list. Recent roster moves include trades with Baltimore, the Dodgers, and Miami involving Tyler Wells, Jack Suwinski, and Liam Hicks."
       },
       "away": {
         "team_id": 110,
@@ -17383,20 +17383,20 @@
       "live_score": null,
       "projection": {
         "game_pk": 823427,
-        "generated_at": "2026-08-17T05:50:17.264320+00:00",
+        "generated_at": "2026-08-17T06:02:12.721323+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 5.06,
         "away_exp_runs": 3.25,
-        "home_win_prob": 0.658,
+        "home_win_prob": 0.657,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.504,
+        "spread_cover_prob": 0.502,
         "total_line": 7.5,
         "over_prob": 0.521,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "home",
-        "spread_pick_prob": 0.504,
+        "spread_pick_prob": 0.502,
         "total_pick": "over",
         "total_pick_prob": 0.521,
         "spread_favorite": "home"
@@ -26401,7 +26401,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 824478,
-        "generated_at": "2026-08-17T05:50:17.264320+00:00",
+        "generated_at": "2026-08-17T06:02:12.721323+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.86,
         "away_exp_runs": 5.36,
@@ -26409,14 +26409,14 @@
         "spread_line": 1.5,
         "spread_cover_prob": 0.247,
         "total_line": 8.5,
-        "over_prob": 0.507,
+        "over_prob": 0.508,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
         "spread_pick_prob": 0.523,
         "total_pick": "over",
-        "total_pick_prob": 0.507,
+        "total_pick_prob": 0.508,
         "spread_favorite": "away"
       },
       "highlights": [],
@@ -35045,7 +35045,7 @@
         ],
         "injuries": [],
         "star_player_id": 802139,
-        "ai_summary": "The St. Louis Cardinals hold a 62-61 record and are 6-4 over their last ten games with a plus-ten run differential, currently on a one-game win streak. Their batting is about the same as league average, while their pitching is worse than league average. Recent roster moves feature the Cardinals acquiring left-hander Caleb Ferguson from Cincinnati, while trading away left-fielder Lars Nootbaar and pitchers Dustin May and JoJo Romero."
+        "ai_summary": "The St. Louis Cardinals hold a 63-61 record, winning seven of their last ten games with a plus-19 run differential and a two-game win streak. Their batting is about the same as league average, while their pitching is worse than league average. Recent roster moves include trading for LHP Caleb Ferguson and sending away LF Lars Nootbaar, RHP Dustin May, and LHP JoJo Romero. Meanwhile, headlines highlight Joshua Baez's MLB record-setting debut."
       }
     },
     {
@@ -35060,7 +35060,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 823343,
-        "generated_at": "2026-08-17T05:50:17.264320+00:00",
+        "generated_at": "2026-08-17T06:02:12.721323+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.24,
         "away_exp_runs": 4.95,
@@ -35068,14 +35068,14 @@
         "spread_line": 1.5,
         "spread_cover_prob": 0.304,
         "total_line": 8.5,
-        "over_prob": 0.506,
+        "over_prob": 0.505,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
         "spread_pick_prob": 0.587,
         "total_pick": "over",
-        "total_pick_prob": 0.506,
+        "total_pick_prob": 0.505,
         "spread_favorite": "away"
       },
       "highlights": [],
@@ -39587,7 +39587,7 @@
           }
         ],
         "star_player_id": 687462,
-        "ai_summary": "The Pittsburgh Pirates hold a 60-65 record and are 3-7 over their last ten games with a one-game losing streak. Team batting is better than league average at .256 AVG and .411 SLG, but pitching is worse than league average with a 4.22 ERA and 1.30 WHIP. Endy Rodr\u00edguez, Mitch Keller, and Ryan O'Hearn are currently on the injured list. The team also made several recent trades involving pitchers Lake Bachar, Hunter Stratton, and Kirby Yates."
+        "ai_summary": "The Pittsburgh Pirates are 61-65 overall and went 4-6 in their last ten games with a plus-three run differential, currently on a one-game win streak. Their batting is better than league average at .255 average, while their pitching is worse at a 4.28 ERA and 1.30 WHIP. Endy Rodriguez, Mitch Keller, and Ryan O'Hearn are currently on the injured list. Recent roster moves include trading for Lake Bachar, Andrew Moore, and Kirby Yates."
       },
       "away": {
         "team_id": 116,
@@ -44114,7 +44114,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 823589,
-        "generated_at": "2026-08-17T05:50:17.264320+00:00",
+        "generated_at": "2026-08-17T06:02:12.721323+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.36,
         "away_exp_runs": 3.37,
@@ -48635,7 +48635,7 @@
           }
         ],
         "star_player_id": 676724,
-        "ai_summary": "The New York Mets enter this stretch with a 55-69 record, though they are playing well lately at 7-3 over their last ten games with a two-game win streak and a plus-11 run differential. Their batting and pitching are both about the same as league average. Bettors should note significant roster churn, as the Mets recently traded away Freddy Peralta, Huascar Brazob\u00e1n, and Luke Weaver for several prospects, while Devin Williams, Cionel P\u00e9rez, and Juan Soto currently sit on the injured list."
+        "ai_summary": "The New York Mets enter this game with a 56-69 record, riding a three-game win streak and going 7-3 over their last ten games with a plus-eleven run differential. Their team batting and pitching are both about the same as league average. Bettors should factor in that Devin Williams, Cionel P\u00e9rez, and Juan Soto are currently on the injured list. Additionally, the team made several recent trades, including dealing Huascar Brazob\u00e1n, Luke Weaver, and Brooks Raley."
       },
       "away": {
         "team_id": 135,
@@ -53113,7 +53113,7 @@
         ],
         "injuries": [],
         "star_player_id": 701538,
-        "ai_summary": "The San Diego Padres hold a 66-58 record and went 7-3 over their last ten games with a plus-nine run differential, though they enter on a one-game loss streak. Team batting and pitching are both worse than league average. Recently, the Padres acquired LHP Robbie Ray from the Giants, RHP Hunter Stratton from the Pirates, and RHP Casey Mize and 3B Gage Workman from the Tigers via trades."
+        "ai_summary": "The San Diego Padres hold a 67-58 record and enter on a one-game win streak, going 8-2 with a plus-20 run differential over their last ten games. Their batting sits at .238 AVG and .394 SLG, which is worse than league average. Team pitching records a 4.03 ERA and 1.29 WHIP, ranking about the same as league average. Recent trades brought LHP Robbie Ray, RHP Hunter Stratton, RHP Casey Mize, and 3B Gage Workman to the team."
       }
     },
     {
@@ -53128,7 +53128,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 824725,
-        "generated_at": "2026-08-17T05:50:17.264320+00:00",
+        "generated_at": "2026-08-17T06:02:12.721323+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.88,
         "away_exp_runs": 3.93,
@@ -53141,7 +53141,7 @@
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
-        "spread_pick_prob": 0.658,
+        "spread_pick_prob": 0.657,
         "total_pick": "under",
         "total_pick_prob": 0.524,
         "spread_favorite": "away"
@@ -61802,13 +61802,13 @@
       "live_score": null,
       "projection": {
         "game_pk": 823668,
-        "generated_at": "2026-08-17T05:50:17.264320+00:00",
+        "generated_at": "2026-08-17T06:02:12.721323+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.28,
         "away_exp_runs": 4.59,
         "home_win_prob": 0.38,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.234,
+        "spread_cover_prob": 0.232,
         "total_line": 7.5,
         "over_prob": 0.481,
         "home_score_line": null,
@@ -66324,7 +66324,7 @@
           }
         ],
         "star_player_id": 668904,
-        "ai_summary": "The Minnesota Twins enter with a 60-64 record over 124 games, going 4-6 in their last ten with a minus-11 run differential and a two-game loss streak. Their batting is about the same as league average at .248 AVG and .411 SLG, while their pitching is worse than league average with a 4.37 ERA and 1.33 WHIP. Joe Ryan, Mike Paredes, and Cole Sands are currently on the injured list. Additionally, the Twins recently acquired RHP Jeff Hoffman from the Blue Jays."
+        "ai_summary": "The Minnesota Twins enter with a 60-65 record over 125 games, going 4-6 in their last ten with a minus-12 run differential while currently on a three-game losing streak. Their batting is about the same as league average at a .248 average and .411 slugging, but their pitching is worse than league average with a 4.39 ERA and 1.33 WHIP. Bettors should factor in that Joe Ryan, Mike Paredes, and Cole Sands are on the injured list, alongside recent trades adding Jeff Hoffman from Toronto."
       },
       "away": {
         "team_id": 144,
@@ -70818,7 +70818,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 824077,
-        "generated_at": "2026-08-17T05:50:17.264320+00:00",
+        "generated_at": "2026-08-17T06:02:12.721323+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 5.53,
         "away_exp_runs": 3.07,
@@ -70826,14 +70826,14 @@
         "spread_line": 1.5,
         "spread_cover_prob": 0.559,
         "total_line": 7.5,
-        "over_prob": 0.544,
+        "over_prob": 0.545,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "home",
         "spread_pick_prob": 0.559,
         "total_pick": "over",
-        "total_pick_prob": 0.544,
+        "total_pick_prob": 0.545,
         "spread_favorite": "home"
       },
       "highlights": [],
@@ -79894,7 +79894,7 @@
           }
         ],
         "star_player_id": 686930,
-        "ai_summary": "The Athletics enter this game with a 48-75 record, going 3-7 over their last ten with a minus-22 run differential and a one-game loss streak. Their batting is about the same as league average, while their pitching is worse than league average at a 5.47 ERA and 1.50 WHIP. Jos\u00e9 Suarez, Nick Kurtz, Jeffrey Springs, and Shea Langeliers are currently on the injured list. Recent roster moves include trading RF Colby Thomas to the Phillies for RHP Seth Johnson and trading SS Jonathan Ornelas to the Brewers for cash."
+        "ai_summary": "The Athletics enter with a 49-75 record, going 4-6 over their last ten games with a minus-18 run differential while carrying a one-game win streak. Team batting is about the same as league average at .246 AVG and .406 SLG, but pitching is worse than league average with a 5.43 ERA and 1.49 WHIP. The injury list features Tyler Soderstrom, Jose Suarez, Nick Kurtz, Jeffrey Springs, and Shea Langeliers. Recent roster moves include trading RF Colby Thomas for RHP Seth Johnson and trading SS Jonathan Ornelas for cash."
       }
     },
     {
@@ -79909,20 +79909,20 @@
       "live_score": null,
       "projection": {
         "game_pk": 824641,
-        "generated_at": "2026-08-17T05:50:17.264320+00:00",
+        "generated_at": "2026-08-17T06:02:12.721323+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 5.01,
         "away_exp_runs": 4.2,
         "home_win_prob": 0.566,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.421,
+        "spread_cover_prob": 0.422,
         "total_line": 8.5,
         "over_prob": 0.508,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.579,
+        "spread_pick_prob": 0.578,
         "total_pick": "over",
         "total_pick_prob": 0.508,
         "spread_favorite": "home"
@@ -88958,7 +88958,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 824320,
-        "generated_at": "2026-08-17T05:50:17.264320+00:00",
+        "generated_at": "2026-08-17T06:02:12.721323+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.75,
         "away_exp_runs": 5.46,
@@ -97964,22 +97964,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 824803,
-        "generated_at": "2026-08-17T05:50:17.264320+00:00",
+        "generated_at": "2026-08-17T06:02:12.721323+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.78,
         "away_exp_runs": 4.1,
-        "home_win_prob": 0.47,
+        "home_win_prob": 0.471,
         "spread_line": 1.5,
         "spread_cover_prob": 0.313,
         "total_line": 7.5,
-        "over_prob": 0.482,
+        "over_prob": 0.484,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
         "spread_pick_prob": 0.632,
         "total_pick": "under",
-        "total_pick_prob": 0.518,
+        "total_pick_prob": 0.516,
         "spread_favorite": "away"
       },
       "highlights": [],
@@ -106616,7 +106616,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 822938,
-        "generated_at": "2026-08-17T05:50:17.264320+00:00",
+        "generated_at": "2026-08-17T06:02:12.721323+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.5,
         "away_exp_runs": 3.43,
@@ -110790,7 +110790,7 @@
           }
         ],
         "star_player_id": 802415,
-        "ai_summary": "The Tampa Bay Rays hold a 74-48 record and went 8-2 over their last ten games, though they enter on a two-game losing streak. Both their batting and pitching units are better than league average. Griffin Jax, Ben Williamson, Shane McClanahan, and Cole Sulser are currently on the injured list. Recent trades brought in Freddy Peralta, Tyler Wells, and Jack Suwinski while dealing away several players."
+        "ai_summary": "The Tampa Bay Rays hold a 74-49 record despite a current three-game loss streak, going 7-3 with a plus-15 run differential over their last ten games. Both their batting and pitching are better than league average. Griffin Jax, Ben Williamson, Shane McClanahan, and Cole Sulser are on the injured list. Recent roster moves include trades with Baltimore, the Dodgers, and Miami involving Tyler Wells, Jack Suwinski, and Liam Hicks."
       },
       "away": {
         "team_id": 141,
@@ -115313,7 +115313,7 @@
           }
         ],
         "star_player_id": 543807,
-        "ai_summary": "The Toronto Blue Jays hold a 61-64 record and enter on a two-game win streak, going 7-3 over their last ten games with a plus-four run differential. Team batting is worse than league average, while pitching is better than league average. Vladimir Guerrero Jr., Luis Ur\u00edas, Trey Yesavage, and Jameson Taillon are on the injured list, with Taillon sidelined for right forearm tendinitis. Recent trades sent Kevin Gausman and Jeff Hoffman elsewhere while acquiring Taillon, Brett Bateman, Ty Southisene, Dasan Hill, Dameury Pena, and John Klein."
+        "ai_summary": "The Toronto Blue Jays hold a 61-65 record and went 7-3 over their last ten games with a plus-four run differential, though they are on a one-game losing streak. Toronto batting is worse than league average at .244 AVG and .378 SLG, while pitching is better than league average at 3.76 ERA and 1.27 WHIP. The Blue Jays recently traded for Jos\u00e9 Soriano and Josh Smith, and placed Jameson Taillon on the injured list alongside Vladimir Guerrero Jr., Luis Ur\u00edas, and Trey Yesavage."
       }
     },
     {
@@ -115328,11 +115328,11 @@
       "live_score": null,
       "projection": {
         "game_pk": 823341,
-        "generated_at": "2026-08-17T05:50:17.264320+00:00",
+        "generated_at": "2026-08-17T06:02:12.721323+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.97,
         "away_exp_runs": 4.8,
-        "home_win_prob": 0.43,
+        "home_win_prob": 0.429,
         "spread_line": 1.5,
         "spread_cover_prob": 0.287,
         "total_line": 8.5,
@@ -119843,7 +119843,7 @@
           }
         ],
         "star_player_id": 677952,
-        "ai_summary": "The Pittsburgh Pirates hold a 60-65 record and are 3-7 over their last ten games with a one-game losing streak. Team batting is better than league average at .256 AVG and .411 SLG, but pitching is worse than league average with a 4.22 ERA and 1.30 WHIP. Endy Rodr\u00edguez, Mitch Keller, and Ryan O'Hearn are currently on the injured list. The team also made several recent trades involving pitchers Lake Bachar, Hunter Stratton, and Kirby Yates."
+        "ai_summary": "The Pittsburgh Pirates are 61-65 overall and went 4-6 in their last ten games with a plus-three run differential, currently on a one-game win streak. Their batting is better than league average at .255 average, while their pitching is worse at a 4.28 ERA and 1.30 WHIP. Endy Rodriguez, Mitch Keller, and Ryan O'Hearn are currently on the injured list. Recent roster moves include trading for Lake Bachar, Andrew Moore, and Kirby Yates."
       },
       "away": {
         "team_id": 116,
@@ -124367,20 +124367,20 @@
       "live_score": null,
       "projection": {
         "game_pk": 823423,
-        "generated_at": "2026-08-17T05:50:17.264320+00:00",
+        "generated_at": "2026-08-17T06:02:12.721323+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 5.2,
         "away_exp_runs": 3.61,
-        "home_win_prob": 0.634,
+        "home_win_prob": 0.633,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.485,
+        "spread_cover_prob": 0.484,
         "total_line": 8.5,
         "over_prob": 0.472,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.515,
+        "spread_pick_prob": 0.516,
         "total_pick": "under",
         "total_pick_prob": 0.528,
         "spread_favorite": "home"
@@ -133012,7 +133012,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 824398,
-        "generated_at": "2026-08-17T05:50:17.264320+00:00",
+        "generated_at": "2026-08-17T06:02:12.721323+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.94,
         "away_exp_runs": 3.2,
@@ -142034,7 +142034,7 @@
           }
         ],
         "star_player_id": 687931,
-        "ai_summary": "The San Francisco Giants carry a 51-72 record and went 3-7 over their last 10 games with a minus-12 run differential, though they hold a one-game win streak. Team batting is better than league average at .255 AVG and .417 SLG with 120 home runs, while pitching is about the same as league average with a 3.99 ERA and 1.30 WHIP. Daniel Susac, Jesus Rodriguez, and Casey Schmitt are currently on the injured list. San Francisco recently traded Tyler Mahle, Robbie Ray, and Heliot Ramos."
+        "ai_summary": "The San Francisco Giants hold a 51-73 record and went 3-7 over their last ten games with a minus seventeen run differential, currently on a one-game loss streak. Their batting is better than league average, while their pitching is worse than league average. Daniel Susac, Jesus Rodriguez, and Casey Schmitt are currently on the injured list. Recent roster changes include trading Robbie Ray and Heliot Ramos, and acquiring Marcelo Mayer from the Red Sox."
       }
     },
     {
@@ -142049,22 +142049,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 824475,
-        "generated_at": "2026-08-17T05:50:17.264320+00:00",
+        "generated_at": "2026-08-17T06:02:12.721323+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.86,
         "away_exp_runs": 4.73,
         "home_win_prob": 0.425,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.282,
-        "total_line": 8.5,
-        "over_prob": 0.455,
+        "spread_cover_prob": 0.281,
+        "total_line": 7.5,
+        "over_prob": 0.546,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
         "spread_pick_prob": 0.578,
-        "total_pick": "under",
-        "total_pick_prob": 0.545,
+        "total_pick": "over",
+        "total_pick_prob": 0.546,
         "spread_favorite": "away"
       },
       "highlights": [],
@@ -150702,7 +150702,7 @@
         ],
         "injuries": [],
         "star_player_id": 802139,
-        "ai_summary": "The St. Louis Cardinals hold a 62-61 record and are 6-4 over their last ten games with a plus-ten run differential, currently on a one-game win streak. Their batting is about the same as league average, while their pitching is worse than league average. Recent roster moves feature the Cardinals acquiring left-hander Caleb Ferguson from Cincinnati, while trading away left-fielder Lars Nootbaar and pitchers Dustin May and JoJo Romero."
+        "ai_summary": "The St. Louis Cardinals hold a 63-61 record, winning seven of their last ten games with a plus-19 run differential and a two-game win streak. Their batting is about the same as league average, while their pitching is worse than league average. Recent roster moves include trading for LHP Caleb Ferguson and sending away LF Lars Nootbaar, RHP Dustin May, and LHP JoJo Romero. Meanwhile, headlines highlight Joshua Baez's MLB record-setting debut."
       }
     },
     {
@@ -150717,7 +150717,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 823586,
-        "generated_at": "2026-08-17T05:50:17.264320+00:00",
+        "generated_at": "2026-08-17T06:02:12.721323+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.49,
         "away_exp_runs": 4.48,
@@ -154877,7 +154877,7 @@
           }
         ],
         "star_player_id": 676724,
-        "ai_summary": "The New York Mets enter this stretch with a 55-69 record, though they are playing well lately at 7-3 over their last ten games with a two-game win streak and a plus-11 run differential. Their batting and pitching are both about the same as league average. Bettors should note significant roster churn, as the Mets recently traded away Freddy Peralta, Huascar Brazob\u00e1n, and Luke Weaver for several prospects, while Devin Williams, Cionel P\u00e9rez, and Juan Soto currently sit on the injured list."
+        "ai_summary": "The New York Mets enter this game with a 56-69 record, riding a three-game win streak and going 7-3 over their last ten games with a plus-eleven run differential. Their team batting and pitching are both about the same as league average. Bettors should factor in that Devin Williams, Cionel P\u00e9rez, and Juan Soto are currently on the injured list. Additionally, the team made several recent trades, including dealing Huascar Brazob\u00e1n, Luke Weaver, and Brooks Raley."
       },
       "away": {
         "team_id": 135,
@@ -159364,7 +159364,7 @@
         ],
         "injuries": [],
         "star_player_id": 701538,
-        "ai_summary": "The San Diego Padres hold a 66-58 record and went 7-3 over their last ten games with a plus-nine run differential, though they enter on a one-game loss streak. Team batting and pitching are both worse than league average. Recently, the Padres acquired LHP Robbie Ray from the Giants, RHP Hunter Stratton from the Pirates, and RHP Casey Mize and 3B Gage Workman from the Tigers via trades."
+        "ai_summary": "The San Diego Padres hold a 67-58 record and enter on a one-game win streak, going 8-2 with a plus-20 run differential over their last ten games. Their batting sits at .238 AVG and .394 SLG, which is worse than league average. Team pitching records a 4.03 ERA and 1.29 WHIP, ranking about the same as league average. Recent trades brought LHP Robbie Ray, RHP Hunter Stratton, RHP Casey Mize, and 3B Gage Workman to the team."
       }
     },
     {
@@ -159379,20 +159379,20 @@
       "live_score": null,
       "projection": {
         "game_pk": 824723,
-        "generated_at": "2026-08-17T05:50:17.264320+00:00",
+        "generated_at": "2026-08-17T06:02:12.721323+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.69,
         "away_exp_runs": 3.29,
         "home_win_prob": 0.627,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.465,
+        "spread_cover_prob": 0.466,
         "total_line": 7.5,
         "over_prob": 0.49,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.535,
+        "spread_pick_prob": 0.534,
         "total_pick": "under",
         "total_pick_prob": 0.51,
         "spread_favorite": "home"
@@ -168413,11 +168413,11 @@
       "live_score": null,
       "projection": {
         "game_pk": 823667,
-        "generated_at": "2026-08-17T05:50:17.264320+00:00",
+        "generated_at": "2026-08-17T06:02:12.721323+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.24,
         "away_exp_runs": 5.02,
-        "home_win_prob": 0.436,
+        "home_win_prob": 0.437,
         "spread_line": 1.5,
         "spread_cover_prob": 0.299,
         "total_line": 8.5,
@@ -172942,7 +172942,7 @@
           }
         ],
         "star_player_id": 805673,
-        "ai_summary": "The Minnesota Twins enter with a 60-64 record over 124 games, going 4-6 in their last ten with a minus-11 run differential and a two-game loss streak. Their batting is about the same as league average at .248 AVG and .411 SLG, while their pitching is worse than league average with a 4.37 ERA and 1.33 WHIP. Joe Ryan, Mike Paredes, and Cole Sands are currently on the injured list. Additionally, the Twins recently acquired RHP Jeff Hoffman from the Blue Jays."
+        "ai_summary": "The Minnesota Twins enter with a 60-65 record over 125 games, going 4-6 in their last ten with a minus-12 run differential while currently on a three-game losing streak. Their batting is about the same as league average at a .248 average and .411 slugging, but their pitching is worse than league average with a 4.39 ERA and 1.33 WHIP. Bettors should factor in that Joe Ryan, Mike Paredes, and Cole Sands are on the injured list, alongside recent trades adding Jeff Hoffman from Toronto."
       },
       "away": {
         "team_id": 144,
@@ -177428,7 +177428,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 823749,
-        "generated_at": "2026-08-17T05:50:17.264320+00:00",
+        "generated_at": "2026-08-17T06:02:12.721323+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.85,
         "away_exp_runs": 2.78,
@@ -177436,14 +177436,14 @@
         "spread_line": 1.5,
         "spread_cover_prob": 0.425,
         "total_line": 6.5,
-        "over_prob": 0.459,
+        "over_prob": 0.458,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
         "spread_pick_prob": 0.575,
         "total_pick": "under",
-        "total_pick_prob": 0.541,
+        "total_pick_prob": 0.542,
         "spread_favorite": "home"
       },
       "highlights": [],
@@ -186437,7 +186437,7 @@
           }
         ],
         "star_player_id": 663728,
-        "ai_summary": "The Seattle Mariners hold a 58-66 record and are on a one-game win streak after going 3-7 over their last ten games with a minus-19 run differential. Their batting is worse than league average at .232 AVG and .380 SLG, while their pitching is better than league average with a 3.90 ERA and 1.21 WHIP. Bettors should note recent trades adding Taylor Ward and Seranthony Dom\u00ednguez while sending away Luis Castillo, alongside injuries to Colt Emerson, Cole Wilcox, Luke Raley, and J.P. Crawford."
+        "ai_summary": "The Seattle Mariners hold a 59-66 record after going 3-7 over their last ten games with a minus-twenty run differential, though they bring a two-game win streak into today. Their batting is worse than league average, while their pitching performs better than league average. Bettors should also factor in that Colt Emerson, Cole Wilcox, Luke Raley, and J.P. Crawford are currently on the injured list, and the Orioles recently traded Taylor Ward to Seattle."
       }
     },
     {
@@ -186452,22 +186452,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 824075,
-        "generated_at": "2026-08-17T05:50:17.264320+00:00",
+        "generated_at": "2026-08-17T06:02:12.721323+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 5.84,
         "away_exp_runs": 3.74,
-        "home_win_prob": 0.663,
+        "home_win_prob": 0.664,
         "spread_line": 1.5,
         "spread_cover_prob": 0.526,
         "total_line": 8.5,
-        "over_prob": 0.535,
+        "over_prob": 0.536,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "home",
         "spread_pick_prob": 0.526,
         "total_pick": "over",
-        "total_pick_prob": 0.535,
+        "total_pick_prob": 0.536,
         "spread_favorite": "home"
       },
       "highlights": [],
@@ -195166,7 +195166,7 @@
           }
         ],
         "star_player_id": 678022,
-        "ai_summary": "The Athletics enter this game with a 48-75 record, going 3-7 over their last ten with a minus-22 run differential and a one-game loss streak. Their batting is about the same as league average, while their pitching is worse than league average at a 5.47 ERA and 1.50 WHIP. Jos\u00e9 Suarez, Nick Kurtz, Jeffrey Springs, and Shea Langeliers are currently on the injured list. Recent roster moves include trading RF Colby Thomas to the Phillies for RHP Seth Johnson and trading SS Jonathan Ornelas to the Brewers for cash."
+        "ai_summary": "The Athletics enter with a 49-75 record, going 4-6 over their last ten games with a minus-18 run differential while carrying a one-game win streak. Team batting is about the same as league average at .246 AVG and .406 SLG, but pitching is worse than league average with a 5.43 ERA and 1.49 WHIP. The injury list features Tyler Soderstrom, Jose Suarez, Nick Kurtz, Jeffrey Springs, and Shea Langeliers. Recent roster moves include trading RF Colby Thomas for RHP Seth Johnson and trading SS Jonathan Ornelas for cash."
       }
     },
     {
@@ -195181,7 +195181,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 822859,
-        "generated_at": "2026-08-17T05:50:17.264320+00:00",
+        "generated_at": "2026-08-17T06:02:12.721323+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.46,
         "away_exp_runs": 4.74,
@@ -199676,7 +199676,7 @@
           }
         ],
         "star_player_id": 615698,
-        "ai_summary": "The Texas Rangers enter this matchup with a 61-63 record over 124 games, going 5-5 in their last ten with a negative five run differential and a one-game win streak. Their batting and pitching are both about the same as league average. Nathan Eovaldi and Josh Jung are currently on the injured list. In recent trades, Texas sent Josh Smith and Josh Stephan to Toronto for Adam Macko. Jordan Montgomery comes off the injured list to join the team."
+        "ai_summary": "The Texas Rangers hold a 61-64 record and went 4-6 over their last ten games with a minus-14 run differential, currently on a one-game loss streak. Team batting and pitching are both about the same as league average. The roster deals with injuries to Nathan Eovaldi and Josh Jung, alongside Jordan Montgomery coming off the IL. Recent trades sent Josh Smith and Josh Stephan to Toronto for Adam Macko, following the team finishing last in the majors in 2024."
       },
       "away": {
         "team_id": 120,
@@ -204085,7 +204085,7 @@
           }
         ],
         "star_player_id": 696285,
-        "ai_summary": "The Washington Nationals hold a 60-65 record over 125 games and are currently on a two-game losing streak, going 5-5 in their last ten with a plus-eleven run differential. Their team batting is better than league average, while their team pitching is worse than league average. James Wood is currently on the injured list. Recent roster moves feature trades sending away LHP Foster Griffin, LF Christian Franklin, and 1B Luis Garc\u00eda Jr. for multiple pitching and outfield prospects."
+        "ai_summary": "The Washington Nationals hold a 60-66 record after going 4-6 over their last ten games, currently on a three-game losing streak. Their batting is better than league average, while their pitching is worse. James Wood remains on the injured list. Recent roster moves feature the Nationals trading Luis Garc\u00eda Jr. to the Yankees, along with deals sending Foster Griffin to Cleveland and Christian Franklin to Baltimore."
       }
     },
     {
@@ -204100,7 +204100,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 824639,
-        "generated_at": "2026-08-17T05:50:17.264320+00:00",
+        "generated_at": "2026-08-17T06:02:12.721323+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 5.56,
         "away_exp_runs": 4.76,
@@ -212805,20 +212805,20 @@
       "live_score": null,
       "projection": {
         "game_pk": 824154,
-        "generated_at": "2026-08-17T05:50:17.264320+00:00",
+        "generated_at": "2026-08-17T06:02:12.721323+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.58,
         "away_exp_runs": 4.06,
         "home_win_prob": 0.544,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.392,
+        "spread_cover_prob": 0.393,
         "total_line": 8.5,
         "over_prob": 0.458,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.608,
+        "spread_pick_prob": 0.607,
         "total_pick": "under",
         "total_pick_prob": 0.542,
         "spread_favorite": "home"
@@ -221447,7 +221447,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 824319,
-        "generated_at": "2026-08-17T05:50:17.264320+00:00",
+        "generated_at": "2026-08-17T06:02:12.721323+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 5.16,
         "away_exp_runs": 6.23,
@@ -230472,11 +230472,11 @@
       "live_score": null,
       "projection": {
         "game_pk": 823342,
-        "generated_at": "2026-08-17T05:50:17.264320+00:00",
+        "generated_at": "2026-08-17T06:02:12.721323+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.26,
         "away_exp_runs": 4.79,
-        "home_win_prob": 0.456,
+        "home_win_prob": 0.457,
         "spread_line": 1.5,
         "spread_cover_prob": 0.315,
         "total_line": 8.5,
@@ -234986,7 +234986,7 @@
           }
         ],
         "star_player_id": 694973,
-        "ai_summary": "The Pittsburgh Pirates hold a 60-65 record and are 3-7 over their last ten games with a one-game losing streak. Team batting is better than league average at .256 AVG and .411 SLG, but pitching is worse than league average with a 4.22 ERA and 1.30 WHIP. Endy Rodr\u00edguez, Mitch Keller, and Ryan O'Hearn are currently on the injured list. The team also made several recent trades involving pitchers Lake Bachar, Hunter Stratton, and Kirby Yates."
+        "ai_summary": "The Pittsburgh Pirates are 61-65 overall and went 4-6 in their last ten games with a plus-three run differential, currently on a one-game win streak. Their batting is better than league average at .255 average, while their pitching is worse at a 4.28 ERA and 1.30 WHIP. Endy Rodriguez, Mitch Keller, and Ryan O'Hearn are currently on the injured list. Recent roster moves include trading for Lake Bachar, Andrew Moore, and Kirby Yates."
       },
       "away": {
         "team_id": 116,
@@ -239513,7 +239513,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 823587,
-        "generated_at": "2026-08-17T05:50:17.264320+00:00",
+        "generated_at": "2026-08-17T06:02:12.721323+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.56,
         "away_exp_runs": 4.48,
@@ -243673,7 +243673,7 @@
           }
         ],
         "star_player_id": 676724,
-        "ai_summary": "The New York Mets enter this stretch with a 55-69 record, though they are playing well lately at 7-3 over their last ten games with a two-game win streak and a plus-11 run differential. Their batting and pitching are both about the same as league average. Bettors should note significant roster churn, as the Mets recently traded away Freddy Peralta, Huascar Brazob\u00e1n, and Luke Weaver for several prospects, while Devin Williams, Cionel P\u00e9rez, and Juan Soto currently sit on the injured list."
+        "ai_summary": "The New York Mets enter this game with a 56-69 record, riding a three-game win streak and going 7-3 over their last ten games with a plus-eleven run differential. Their team batting and pitching are both about the same as league average. Bettors should factor in that Devin Williams, Cionel P\u00e9rez, and Juan Soto are currently on the injured list. Additionally, the team made several recent trades, including dealing Huascar Brazob\u00e1n, Luke Weaver, and Brooks Raley."
       },
       "away": {
         "team_id": 135,
@@ -248153,7 +248153,7 @@
         ],
         "injuries": [],
         "star_player_id": 650633,
-        "ai_summary": "The San Diego Padres hold a 66-58 record and went 7-3 over their last ten games with a plus-nine run differential, though they enter on a one-game loss streak. Team batting and pitching are both worse than league average. Recently, the Padres acquired LHP Robbie Ray from the Giants, RHP Hunter Stratton from the Pirates, and RHP Casey Mize and 3B Gage Workman from the Tigers via trades."
+        "ai_summary": "The San Diego Padres hold a 67-58 record and enter on a one-game win streak, going 8-2 with a plus-20 run differential over their last ten games. Their batting sits at .238 AVG and .394 SLG, which is worse than league average. Team pitching records a 4.03 ERA and 1.29 WHIP, ranking about the same as league average. Recent trades brought LHP Robbie Ray, RHP Hunter Stratton, RHP Casey Mize, and 3B Gage Workman to the team."
       }
     },
     {
@@ -248168,13 +248168,13 @@
       "live_score": null,
       "projection": {
         "game_pk": 823664,
-        "generated_at": "2026-08-17T05:50:17.264320+00:00",
+        "generated_at": "2026-08-17T06:02:12.721323+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 2.74,
         "away_exp_runs": 4.19,
         "home_win_prob": 0.355,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.198,
+        "spread_cover_prob": 0.2,
         "total_line": 6.5,
         "over_prob": 0.49,
         "home_score_line": null,
@@ -252690,7 +252690,7 @@
           }
         ],
         "star_player_id": 671737,
-        "ai_summary": "The Minnesota Twins enter with a 60-64 record over 124 games, going 4-6 in their last ten with a minus-11 run differential and a two-game loss streak. Their batting is about the same as league average at .248 AVG and .411 SLG, while their pitching is worse than league average with a 4.37 ERA and 1.33 WHIP. Joe Ryan, Mike Paredes, and Cole Sands are currently on the injured list. Additionally, the Twins recently acquired RHP Jeff Hoffman from the Blue Jays."
+        "ai_summary": "The Minnesota Twins enter with a 60-65 record over 125 games, going 4-6 in their last ten with a minus-12 run differential while currently on a three-game losing streak. Their batting is about the same as league average at a .248 average and .411 slugging, but their pitching is worse than league average with a 4.39 ERA and 1.33 WHIP. Bettors should factor in that Joe Ryan, Mike Paredes, and Cole Sands are on the injured list, alongside recent trades adding Jeff Hoffman from Toronto."
       },
       "away": {
         "team_id": 144,
@@ -257191,7 +257191,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 824640,
-        "generated_at": "2026-08-17T05:50:17.264320+00:00",
+        "generated_at": "2026-08-17T06:02:12.721323+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 5.56,
         "away_exp_runs": 3.48,
@@ -265885,7 +265885,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 824722,
-        "generated_at": "2026-08-17T05:50:17.264320+00:00",
+        "generated_at": "2026-08-17T06:02:12.721323+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.53,
         "away_exp_runs": 3.13,
@@ -274914,22 +274914,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 823424,
-        "generated_at": "2026-08-17T05:50:17.264320+00:00",
+        "generated_at": "2026-08-17T06:02:12.721323+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.37,
         "away_exp_runs": 5.11,
         "home_win_prob": 0.441,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.305,
+        "spread_cover_prob": 0.304,
         "total_line": 8.5,
-        "over_prob": 0.531,
+        "over_prob": 0.53,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
         "spread_pick_prob": 0.582,
         "total_pick": "over",
-        "total_pick_prob": 0.531,
+        "total_pick_prob": 0.53,
         "spread_favorite": "away"
       },
       "highlights": [],
@@ -283899,7 +283899,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 824801,
-        "generated_at": "2026-08-17T05:50:17.264320+00:00",
+        "generated_at": "2026-08-17T06:02:12.721323+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 2.85,
         "away_exp_runs": 4.1,
@@ -283907,14 +283907,14 @@
         "spread_line": 1.5,
         "spread_cover_prob": 0.216,
         "total_line": 6.5,
-        "over_prob": 0.493,
+        "over_prob": 0.492,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
         "spread_pick_prob": 0.554,
         "total_pick": "under",
-        "total_pick_prob": 0.507,
+        "total_pick_prob": 0.508,
         "spread_favorite": "away"
       },
       "highlights": [],
@@ -292551,7 +292551,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 822937,
-        "generated_at": "2026-08-17T05:50:17.264320+00:00",
+        "generated_at": "2026-08-17T06:02:12.721323+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 5.18,
         "away_exp_runs": 3.43,
@@ -296746,7 +296746,7 @@
           }
         ],
         "star_player_id": 802415,
-        "ai_summary": "The Tampa Bay Rays hold a 74-48 record and went 8-2 over their last ten games, though they enter on a two-game losing streak. Both their batting and pitching units are better than league average. Griffin Jax, Ben Williamson, Shane McClanahan, and Cole Sulser are currently on the injured list. Recent trades brought in Freddy Peralta, Tyler Wells, and Jack Suwinski while dealing away several players."
+        "ai_summary": "The Tampa Bay Rays hold a 74-49 record despite a current three-game loss streak, going 7-3 with a plus-15 run differential over their last ten games. Both their batting and pitching are better than league average. Griffin Jax, Ben Williamson, Shane McClanahan, and Cole Sulser are on the injured list. Recent roster moves include trades with Baltimore, the Dodgers, and Miami involving Tyler Wells, Jack Suwinski, and Liam Hicks."
       },
       "away": {
         "team_id": 141,
@@ -301272,7 +301272,7 @@
           }
         ],
         "star_player_id": 543807,
-        "ai_summary": "The Toronto Blue Jays hold a 61-64 record and enter on a two-game win streak, going 7-3 over their last ten games with a plus-four run differential. Team batting is worse than league average, while pitching is better than league average. Vladimir Guerrero Jr., Luis Ur\u00edas, Trey Yesavage, and Jameson Taillon are on the injured list, with Taillon sidelined for right forearm tendinitis. Recent trades sent Kevin Gausman and Jeff Hoffman elsewhere while acquiring Taillon, Brett Bateman, Ty Southisene, Dasan Hill, Dameury Pena, and John Klein."
+        "ai_summary": "The Toronto Blue Jays hold a 61-65 record and went 7-3 over their last ten games with a plus-four run differential, though they are on a one-game losing streak. Toronto batting is worse than league average at .244 AVG and .378 SLG, while pitching is better than league average at 3.76 ERA and 1.27 WHIP. The Blue Jays recently traded for Jos\u00e9 Soriano and Josh Smith, and placed Jameson Taillon on the injured list alongside Vladimir Guerrero Jr., Luis Ur\u00edas, and Trey Yesavage."
       }
     },
     {
@@ -301287,20 +301287,20 @@
       "live_score": null,
       "projection": {
         "game_pk": 824394,
-        "generated_at": "2026-08-17T05:50:17.264320+00:00",
+        "generated_at": "2026-08-17T06:02:12.721323+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.12,
         "away_exp_runs": 2.83,
-        "home_win_prob": 0.629,
+        "home_win_prob": 0.63,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.45,
+        "spread_cover_prob": 0.451,
         "total_line": 6.5,
         "over_prob": 0.492,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.55,
+        "spread_pick_prob": 0.549,
         "total_pick": "under",
         "total_pick_prob": 0.508,
         "spread_favorite": "home"
@@ -309939,7 +309939,7 @@
           }
         ],
         "star_player_id": 646240,
-        "ai_summary": "The San Francisco Giants carry a 51-72 record and went 3-7 over their last 10 games with a minus-12 run differential, though they hold a one-game win streak. Team batting is better than league average at .255 AVG and .417 SLG with 120 home runs, while pitching is about the same as league average with a 3.99 ERA and 1.30 WHIP. Daniel Susac, Jesus Rodriguez, and Casey Schmitt are currently on the injured list. San Francisco recently traded Tyler Mahle, Robbie Ray, and Heliot Ramos."
+        "ai_summary": "The San Francisco Giants hold a 51-73 record and went 3-7 over their last ten games with a minus seventeen run differential, currently on a one-game loss streak. Their batting is better than league average, while their pitching is worse than league average. Daniel Susac, Jesus Rodriguez, and Casey Schmitt are currently on the injured list. Recent roster changes include trading Robbie Ray and Heliot Ramos, and acquiring Marcelo Mayer from the Red Sox."
       }
     },
     {
@@ -309954,11 +309954,11 @@
       "live_score": null,
       "projection": {
         "game_pk": 824476,
-        "generated_at": "2026-08-17T05:50:17.264320+00:00",
+        "generated_at": "2026-08-17T06:02:12.721323+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.86,
         "away_exp_runs": 3.66,
-        "home_win_prob": 0.519,
+        "home_win_prob": 0.52,
         "spread_line": 1.5,
         "spread_cover_prob": 0.352,
         "total_line": 6.5,
@@ -318620,7 +318620,7 @@
         ],
         "injuries": [],
         "star_player_id": 802139,
-        "ai_summary": "The St. Louis Cardinals hold a 62-61 record and are 6-4 over their last ten games with a plus-ten run differential, currently on a one-game win streak. Their batting is about the same as league average, while their pitching is worse than league average. Recent roster moves feature the Cardinals acquiring left-hander Caleb Ferguson from Cincinnati, while trading away left-fielder Lars Nootbaar and pitchers Dustin May and JoJo Romero."
+        "ai_summary": "The St. Louis Cardinals hold a 63-61 record, winning seven of their last ten games with a plus-19 run differential and a two-game win streak. Their batting is about the same as league average, while their pitching is worse than league average. Recent roster moves include trading for LHP Caleb Ferguson and sending away LF Lars Nootbaar, RHP Dustin May, and LHP JoJo Romero. Meanwhile, headlines highlight Joshua Baez's MLB record-setting debut."
       }
     },
     {
@@ -318635,11 +318635,11 @@
       "live_score": null,
       "projection": {
         "game_pk": 823748,
-        "generated_at": "2026-08-17T05:50:17.264320+00:00",
+        "generated_at": "2026-08-17T06:02:12.721323+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.79,
         "away_exp_runs": 3.22,
-        "home_win_prob": 0.556,
+        "home_win_prob": 0.557,
         "spread_line": 1.5,
         "spread_cover_prob": 0.379,
         "total_line": 6.5,
@@ -327646,7 +327646,7 @@
           }
         ],
         "star_player_id": 663728,
-        "ai_summary": "The Seattle Mariners hold a 58-66 record and are on a one-game win streak after going 3-7 over their last ten games with a minus-19 run differential. Their batting is worse than league average at .232 AVG and .380 SLG, while their pitching is better than league average with a 3.90 ERA and 1.21 WHIP. Bettors should note recent trades adding Taylor Ward and Seranthony Dom\u00ednguez while sending away Luis Castillo, alongside injuries to Colt Emerson, Cole Wilcox, Luke Raley, and J.P. Crawford."
+        "ai_summary": "The Seattle Mariners hold a 59-66 record after going 3-7 over their last ten games with a minus-twenty run differential, though they bring a two-game win streak into today. Their batting is worse than league average, while their pitching performs better than league average. Bettors should also factor in that Colt Emerson, Cole Wilcox, Luke Raley, and J.P. Crawford are currently on the injured list, and the Orioles recently traded Taylor Ward to Seattle."
       }
     },
     {
@@ -327661,11 +327661,11 @@
       "live_score": null,
       "projection": {
         "game_pk": 824076,
-        "generated_at": "2026-08-17T05:50:17.264320+00:00",
+        "generated_at": "2026-08-17T06:02:12.721323+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.71,
         "away_exp_runs": 3.74,
-        "home_win_prob": 0.584,
+        "home_win_prob": 0.585,
         "spread_line": 1.5,
         "spread_cover_prob": 0.43,
         "total_line": 7.5,
@@ -336027,7 +336027,7 @@
           }
         ],
         "star_player_id": 691777,
-        "ai_summary": "The Athletics enter this game with a 48-75 record, going 3-7 over their last ten with a minus-22 run differential and a one-game loss streak. Their batting is about the same as league average, while their pitching is worse than league average at a 5.47 ERA and 1.50 WHIP. Jos\u00e9 Suarez, Nick Kurtz, Jeffrey Springs, and Shea Langeliers are currently on the injured list. Recent roster moves include trading RF Colby Thomas to the Phillies for RHP Seth Johnson and trading SS Jonathan Ornelas to the Brewers for cash."
+        "ai_summary": "The Athletics enter with a 49-75 record, going 4-6 over their last ten games with a minus-18 run differential while carrying a one-game win streak. Team batting is about the same as league average at .246 AVG and .406 SLG, but pitching is worse than league average with a 5.43 ERA and 1.49 WHIP. The injury list features Tyler Soderstrom, Jose Suarez, Nick Kurtz, Jeffrey Springs, and Shea Langeliers. Recent roster moves include trading RF Colby Thomas for RHP Seth Johnson and trading SS Jonathan Ornelas for cash."
       }
     },
     {
@@ -336042,7 +336042,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 822860,
-        "generated_at": "2026-08-17T05:50:17.264320+00:00",
+        "generated_at": "2026-08-17T06:02:12.721323+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.5,
         "away_exp_runs": 4.83,
@@ -336050,14 +336050,14 @@
         "spread_line": 1.5,
         "spread_cover_prob": 0.242,
         "total_line": 7.5,
-        "over_prob": 0.524,
+        "over_prob": 0.523,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
-        "spread_pick_prob": 0.539,
+        "spread_pick_prob": 0.54,
         "total_pick": "over",
-        "total_pick_prob": 0.524,
+        "total_pick_prob": 0.523,
         "spread_favorite": "away"
       },
       "highlights": [],
@@ -340174,7 +340174,7 @@
           }
         ],
         "star_player_id": 694671,
-        "ai_summary": "The Texas Rangers enter this matchup with a 61-63 record over 124 games, going 5-5 in their last ten with a negative five run differential and a one-game win streak. Their batting and pitching are both about the same as league average. Nathan Eovaldi and Josh Jung are currently on the injured list. In recent trades, Texas sent Josh Smith and Josh Stephan to Toronto for Adam Macko. Jordan Montgomery comes off the injured list to join the team."
+        "ai_summary": "The Texas Rangers hold a 61-64 record and went 4-6 over their last ten games with a minus-14 run differential, currently on a one-game loss streak. Team batting and pitching are both about the same as league average. The roster deals with injuries to Nathan Eovaldi and Josh Jung, alongside Jordan Montgomery coming off the IL. Recent trades sent Josh Smith and Josh Stephan to Toronto for Adam Macko, following the team finishing last in the majors in 2024."
       },
       "away": {
         "team_id": 120,
@@ -344659,7 +344659,7 @@
           }
         ],
         "star_player_id": 676917,
-        "ai_summary": "The Washington Nationals hold a 60-65 record over 125 games and are currently on a two-game losing streak, going 5-5 in their last ten with a plus-eleven run differential. Their team batting is better than league average, while their team pitching is worse than league average. James Wood is currently on the injured list. Recent roster moves feature trades sending away LHP Foster Griffin, LF Christian Franklin, and 1B Luis Garc\u00eda Jr. for multiple pitching and outfield prospects."
+        "ai_summary": "The Washington Nationals hold a 60-66 record after going 4-6 over their last ten games, currently on a three-game losing streak. Their batting is better than league average, while their pitching is worse. James Wood remains on the injured list. Recent roster moves feature the Nationals trading Luis Garc\u00eda Jr. to the Yankees, along with deals sending Foster Griffin to Cleveland and Christian Franklin to Baltimore."
       }
     },
     {
@@ -344674,7 +344674,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 824155,
-        "generated_at": "2026-08-17T05:50:17.264320+00:00",
+        "generated_at": "2026-08-17T06:02:12.721323+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.24,
         "away_exp_runs": 4.06,
@@ -353329,11 +353329,11 @@
       "live_score": null,
       "projection": {
         "game_pk": 824318,
-        "generated_at": "2026-08-17T05:50:17.264320+00:00",
+        "generated_at": "2026-08-17T06:02:12.721323+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 5.08,
         "away_exp_runs": 6.8,
-        "home_win_prob": 0.386,
+        "home_win_prob": 0.387,
         "spread_line": 1.5,
         "spread_cover_prob": 0.276,
         "total_line": 11.5,
