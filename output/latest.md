@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-17T13:19:30.738589+00:00_
+_Generated 2026-08-17T13:29:10.491829+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -507,7 +507,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.58)_
 ## 2026-08-18 - San Francisco Giants @ Cleveland Guardians (Scheduled)
 _Progressive Field_
 Projected score: San Francisco Giants 3.2 - Cleveland Guardians 4.94
-Model likes: **Cleveland Guardians** to win (65%) | Run line: **San Francisco Giants** +1.5 (50% to cover) | Total 7.5: lean **OVER** (50%)
+Model likes: **Cleveland Guardians** to win (66%) | Run line: **San Francisco Giants** +1.5 (50% to cover) | Total 7.5: lean **OVER** (50%)
 
 ### San Francisco Giants lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.59)_
@@ -595,7 +595,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.46)_
 ## 2026-08-18 - Arizona Diamondbacks @ Boston Red Sox (Scheduled)
 _Fenway Park_
 Projected score: Arizona Diamondbacks 3.29 - Boston Red Sox 4.69
-Model likes: **Boston Red Sox** to win (62%) | Run line: **Arizona Diamondbacks** +1.5 (54% to cover) | Total 7.5: lean **UNDER** (51%)
+Model likes: **Boston Red Sox** to win (63%) | Run line: **Arizona Diamondbacks** +1.5 (53% to cover) | Total 7.5: lean **UNDER** (51%)
 
 ### Arizona Diamondbacks lineup -- PROJECTED (unconfirmed)
 **Probable P: Merrill Kelly (R)** -- L5: 26.3 IP, 20 K, 14 ER, 4.78 ERA
@@ -686,7 +686,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.65)_
 ## 2026-08-18 - Athletics @ Kansas City Royals (Scheduled)
 _Kauffman Stadium [pitcher-friendly park]_
 Projected score: Athletics 3.74 - Kansas City Royals 5.84
-Model likes: **Kansas City Royals** to win (66%) | Run line: **Kansas City Royals** -1.5 (52% to cover) | Total 8.5: lean **OVER** (54%)
+Model likes: **Kansas City Royals** to win (66%) | Run line: **Kansas City Royals** -1.5 (53% to cover) | Total 8.5: lean **OVER** (54%)
 
 ### Athletics lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -775,7 +775,7 @@ _Facing a rested bullpen: 4.7 relief IP in last 2 days (ratio 0.7)_
 ## 2026-08-18 - Los Angeles Angels @ Houston Astros (Scheduled)
 _Daikin Park_
 Projected score: Los Angeles Angels 4.06 - Houston Astros 4.58
-Model likes: **Houston Astros** to win (55%) | Run line: **Los Angeles Angels** +1.5 (61% to cover) | Total 8.5: lean **UNDER** (54%)
+Model likes: **Houston Astros** to win (54%) | Run line: **Los Angeles Angels** +1.5 (61% to cover) | Total 8.5: lean **UNDER** (54%)
 
 ### Los Angeles Angels lineup -- PROJECTED (unconfirmed)
 **Probable P: George Klassen (R)** -- L5: 14.7 IP, 14 K, 9 ER, 5.52 ERA
@@ -1138,7 +1138,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-19 - Seattle Mariners @ Milwaukee Brewers (Scheduled)
 _American Family Field_
 Projected score: Seattle Mariners 3.22 - Milwaukee Brewers 3.79
-Model likes: **Milwaukee Brewers** to win (56%) | Run line: **Seattle Mariners** +1.5 (62% to cover) | Total 6.5: lean **OVER** (50%)
+Model likes: **Milwaukee Brewers** to win (56%) | Run line: **Seattle Mariners** +1.5 (62% to cover) | Total 6.5: lean **UNDER** (50%)
 
 ### Seattle Mariners lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
