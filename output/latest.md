@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-16T23:58:25.256577+00:00_
+_Generated 2026-08-17T01:05:34.023936+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -521,7 +521,7 @@ _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.37)_
 ## 2026-08-17 - Baltimore Orioles @ Tampa Bay Rays (Scheduled)
 _Tropicana Field_
 Projected score: Baltimore Orioles 3.54 - Tampa Bay Rays 3.81
-Model likes: **Tampa Bay Rays** to win (53%) | Run line: **Baltimore Orioles** +1.5 (64% to cover) | Total 6.5: lean **OVER** (53%)
+Model likes: **Tampa Bay Rays** to win (53%) | Run line: **Baltimore Orioles** +1.5 (64% to cover) | Total 6.5: lean **OVER** (54%)
 
 ### Baltimore Orioles lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 8.3 relief IP in last 2 days (ratio 1.4)_
@@ -644,7 +644,7 @@ _Facing a taxed bullpen: 8.7 relief IP in last 2 days (ratio 1.75)_
 ## 2026-08-17 - San Diego Padres @ New York Mets (Scheduled)
 _Citi Field_
 Projected score: San Diego Padres 3.54 - New York Mets 4.37
-Model likes: **New York Mets** to win (58%) | Run line: **San Diego Padres** +1.5 (59% to cover) | Total 7.5: lean **UNDER** (51%)
+Model likes: **New York Mets** to win (58%) | Run line: **San Diego Padres** +1.5 (59% to cover) | Total 7.5: lean **UNDER** (52%)
 
 ### San Diego Padres lineup -- PROJECTED (unconfirmed)
 **Probable P: Walker Buehler (R)** -- L5: 25.3 IP, 19 K, 9 ER, 3.2 ERA
@@ -1000,7 +1000,7 @@ Model likes: **St. Louis Cardinals** to win (55%) | Run line: **Cincinnati Reds*
 ## 2026-08-18 - San Diego Padres @ New York Mets (Scheduled)
 _Citi Field_
 Projected score: San Diego Padres 4.54 - New York Mets 3.49
-Model likes: **San Diego Padres** to win (60%) | Run line: **New York Mets** +1.5 (56% to cover) | Total 7.5: lean **UNDER** (50%)
+Model likes: **San Diego Padres** to win (60%) | Run line: **New York Mets** +1.5 (57% to cover) | Total 7.5: lean **UNDER** (50%)
 
 ### San Diego Padres lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.7 relief IP in last 2 days (ratio 0.47)_
@@ -1090,7 +1090,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.57)_
 ## 2026-08-18 - Seattle Mariners @ Milwaukee Brewers (Scheduled)
 _American Family Field_
 Projected score: Seattle Mariners 2.75 - Milwaukee Brewers 4.14
-Model likes: **Milwaukee Brewers** to win (64%) | Run line: **Seattle Mariners** +1.5 (54% to cover) | Total 6.5: lean **UNDER** (51%)
+Model likes: **Milwaukee Brewers** to win (64%) | Run line: **Seattle Mariners** +1.5 (54% to cover) | Total 6.5: lean **UNDER** (52%)
 
 ### Seattle Mariners lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.34)_
