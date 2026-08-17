@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-17T14:59:21.127172+00:00_
+_Generated 2026-08-17T15:53:46.518165+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -56,8 +56,8 @@ _Generated 2026-08-17T14:59:21.127172+00:00_
 
 ## 2026-08-17 - St. Louis Cardinals @ Cincinnati Reds (Pre-Game)
 _Great American Ball Park [hitter-friendly park]_
-Projected score: St. Louis Cardinals 5.09 - Cincinnati Reds 4.24
-Model likes: **St. Louis Cardinals** to win (57%) | Run line: **Cincinnati Reds** +1.5 (57% to cover) | Total 8.5: lean **OVER** (52%)
+Projected score: St. Louis Cardinals 4.9 - Cincinnati Reds 4.24
+Model likes: **St. Louis Cardinals** to win (55%) | Run line: **Cincinnati Reds** +1.5 (59% to cover) | Total 8.5: lean **OVER** (50%)
 
 ### St. Louis Cardinals lineup -- CONFIRMED
 _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.49)_
@@ -181,7 +181,7 @@ _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.37)_
 ## 2026-08-17 - Detroit Tigers @ Pittsburgh Pirates (Scheduled)
 _PNC Park_
 Projected score: Detroit Tigers 4.95 - Pittsburgh Pirates 4.24
-Model likes: **Detroit Tigers** to win (56%) | Run line: **Pittsburgh Pirates** +1.5 (59% to cover) | Total 8.5: lean **OVER** (50%)
+Model likes: **Detroit Tigers** to win (56%) | Run line: **Pittsburgh Pirates** +1.5 (59% to cover) | Total 8.5: lean **OVER** (51%)
 
 ### Detroit Tigers lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 10.0 relief IP in last 2 days (ratio 1.62)_
@@ -241,8 +241,8 @@ _Facing a taxed bullpen: 10.0 relief IP in last 2 days (ratio 1.55)_
 
 ## 2026-08-17 - Arizona Diamondbacks @ Boston Red Sox (Scheduled)
 _Fenway Park_
-Projected score: Arizona Diamondbacks 3.93 - Boston Red Sox 3.88
-Model likes: **Arizona Diamondbacks** to win (50%) | Run line: **Boston Red Sox** +1.5 (66% to cover) | Total 7.5: lean **UNDER** (53%)
+Projected score: Arizona Diamondbacks 2.78 - Boston Red Sox 3.88
+Model likes: **Boston Red Sox** to win (61%) | Run line: **Arizona Diamondbacks** +1.5 (57% to cover) | Total 6.5: lean **UNDER** (54%)
 
 ### Arizona Diamondbacks lineup -- PROJECTED (unconfirmed)
 **Probable P: Mitch Bratt (L)** -- L5: 27.7 IP, 22 K, 10 ER, 3.25 ERA
@@ -257,6 +257,7 @@ Model likes: **Arizona Diamondbacks** to win (50%) | Run line: **Boston Red Sox*
 - Jorge Barrosa (S) -- L7: 1H 0HR 1RBI 1TB (0.200 avg) -- away split: 0.206 avg
 
 ### Boston Red Sox lineup -- PROJECTED (unconfirmed)
+**Probable P: Alec Gamboa (L)** [BULLPEN GAME: short-outing arm, no reliable individual matchup below] -- L5: 12.0 IP, 8 K, 1 ER, 0.75 ERA
 - Caleb Durbin (R) -- L7: 7H 1HR 6RBI 10TB (0.259 avg) -- home split: 0.245 avg
 - Nick Sogard (S) -- L7: 5H 0HR 2RBI 5TB (0.200 avg) -- home split: 0.273 avg
 - Jarren Duran (L) [3-game hit streak] -- L7: 6H 0HR 1RBI 8TB (0.240 avg) -- home split: 0.222 avg
@@ -510,7 +511,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.58)_
 ## 2026-08-18 - San Francisco Giants @ Cleveland Guardians (Scheduled)
 _Progressive Field_
 Projected score: San Francisco Giants 3.2 - Cleveland Guardians 4.94
-Model likes: **Cleveland Guardians** to win (66%) | Run line: **San Francisco Giants** +1.5 (50% to cover) | Total 7.5: lean **OVER** (50%)
+Model likes: **Cleveland Guardians** to win (65%) | Run line: **San Francisco Giants** +1.5 (50% to cover) | Total 7.5: lean **OVER** (51%)
 
 ### San Francisco Giants lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.59)_
@@ -599,7 +600,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.46)_
 ## 2026-08-18 - Arizona Diamondbacks @ Boston Red Sox (Scheduled)
 _Fenway Park_
 Projected score: Arizona Diamondbacks 3.29 - Boston Red Sox 4.69
-Model likes: **Boston Red Sox** to win (62%) | Run line: **Arizona Diamondbacks** +1.5 (54% to cover) | Total 7.5: lean **UNDER** (51%)
+Model likes: **Boston Red Sox** to win (63%) | Run line: **Arizona Diamondbacks** +1.5 (53% to cover) | Total 7.5: lean **UNDER** (51%)
 
 ### Arizona Diamondbacks lineup -- PROJECTED (unconfirmed)
 **Probable P: Merrill Kelly (R)** -- L5: 26.3 IP, 20 K, 14 ER, 4.78 ERA
@@ -690,7 +691,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.65)_
 ## 2026-08-18 - Athletics @ Kansas City Royals (Scheduled)
 _Kauffman Stadium [pitcher-friendly park]_
 Projected score: Athletics 3.74 - Kansas City Royals 5.84
-Model likes: **Kansas City Royals** to win (66%) | Run line: **Kansas City Royals** -1.5 (52% to cover) | Total 8.5: lean **OVER** (54%)
+Model likes: **Kansas City Royals** to win (66%) | Run line: **Kansas City Royals** -1.5 (53% to cover) | Total 8.5: lean **OVER** (54%)
 
 ### Athletics lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -778,8 +779,8 @@ _Facing a rested bullpen: 4.7 relief IP in last 2 days (ratio 0.7)_
 
 ## 2026-08-18 - Los Angeles Angels @ Houston Astros (Scheduled)
 _Daikin Park_
-Projected score: Los Angeles Angels 4.06 - Houston Astros 4.58
-Model likes: **Houston Astros** to win (55%) | Run line: **Los Angeles Angels** +1.5 (61% to cover) | Total 8.5: lean **UNDER** (54%)
+Projected score: Los Angeles Angels 4.27 - Houston Astros 4.58
+Model likes: **Houston Astros** to win (53%) | Run line: **Los Angeles Angels** +1.5 (62% to cover) | Total 8.5: lean **UNDER** (52%)
 
 ### Los Angeles Angels lineup -- PROJECTED (unconfirmed)
 **Probable P: George Klassen (R)** -- L5: 14.7 IP, 14 K, 9 ER, 5.52 ERA
@@ -795,6 +796,7 @@ Model likes: **Houston Astros** to win (55%) | Run line: **Los Angeles Angels** 
 
 ### Houston Astros lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.7 relief IP in last 2 days (ratio 0.63)_
+**Probable P: Cristian Javier (R)** [BULLPEN GAME: short-outing arm, no reliable individual matchup below] -- L5: 20.0 IP, 17 K, 10 ER, 4.5 ERA
 - Isaac Paredes (R) [TOUGH MATCHUP: pitcher holds this hand to 0.190 avg-against] [3-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 10H 1HR 7RBI 14TB (0.370 avg) -- home split: 0.265 avg
 - Yordan Alvarez (L) [MATCHUP EDGE: pitcher hits 0.308 avg-against vs this hand] -- L7: 6H 1HR 2RBI 10TB (0.250 avg) -- home split: 0.378 avg
 - Jeremy Peña (R) [TOUGH MATCHUP: pitcher holds this hand to 0.190 avg-against] [4-game hit streak] -- L7: 5H 1HR 3RBI 10TB (0.161 avg) -- home split: 0.338 avg
@@ -838,7 +840,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.58)_
 ## 2026-08-19 - Detroit Tigers @ Pittsburgh Pirates (Scheduled)
 _PNC Park_
 Projected score: Detroit Tigers 4.79 - Pittsburgh Pirates 4.26
-Model likes: **Detroit Tigers** to win (54%) | Run line: **Pittsburgh Pirates** +1.5 (60% to cover) | Total 8.5: lean **UNDER** (51%)
+Model likes: **Detroit Tigers** to win (54%) | Run line: **Pittsburgh Pirates** +1.5 (60% to cover) | Total 8.5: lean **UNDER** (50%)
 
 ### Detroit Tigers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
