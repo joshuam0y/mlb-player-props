@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-17T17:58:11.006934+00:00_
+_Generated 2026-08-17T17:56:26.756945+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -88,7 +88,7 @@ _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.37)_
 ## 2026-08-17 - Baltimore Orioles @ Tampa Bay Rays (Scheduled)
 _Tropicana Field_
 Projected score: Baltimore Orioles 3.63 - Tampa Bay Rays 3.63
-Model likes: **Tampa Bay Rays** to win (50%) | Run line: **Baltimore Orioles** +1.5 (67% to cover) | Total 6.5: lean **OVER** (53%)
+Model likes: **Baltimore Orioles** to win (50%) | Run line: **Tampa Bay Rays** +1.5 (67% to cover) | Total 6.5: lean **OVER** (52%)
 
 ### Baltimore Orioles lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 8.3 relief IP in last 2 days (ratio 1.4)_
@@ -161,8 +161,8 @@ _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.49)_
 - JJ Wetherholt (L) [MATCHUP EDGE: pitcher hits 0.266 avg-against vs this hand] -- L7: 5H 0HR 3RBI 7TB (0.192 avg) -- away split: 0.260 avg
 - Nathan Church (L) [MATCHUP EDGE: pitcher hits 0.266 avg-against vs this hand] -- L7: 5H 0HR 3RBI 6TB (0.208 avg) -- away split: 0.237 avg
 - Jordan Walker (R) -- L7: 7H 1HR 6RBI 13TB (0.292 avg) -- away split: 0.284 avg
-- José Fermín (R) -- L7: 5H 0HR 3RBI 6TB (0.312 avg) -- away split: 0.240 avg
 - Blaze Jordan (R) -- L7: 6H 1HR 2RBI 9TB (0.300 avg) -- away split: 0.333 avg
+- José Fermín (R) -- L7: 5H 0HR 3RBI 6TB (0.312 avg) -- away split: 0.240 avg
 - Bryan Torres (L) [MATCHUP EDGE: pitcher hits 0.266 avg-against vs this hand] -- L7: 2H 0HR 1RBI 2TB (0.125 avg) -- away split: 0.244 avg
 
 ### Cincinnati Reds lineup -- PROJECTED (unconfirmed)
@@ -295,9 +295,9 @@ _Facing a taxed bullpen: 8.3 relief IP in last 2 days (ratio 1.57)_
 - Ryan Jeffers (R) -- L7: 7H 0HR 4RBI 9TB (0.318 avg) -- home split: 0.312 avg
 - Josh Bell (S) -- L7: 7H 1HR 4RBI 10TB (0.250 avg) -- home split: 0.247 avg
 - Ryan Kreidler (R) -- L7: 4H 0HR 0RBI 4TB (0.190 avg) -- home split: 0.255 avg
-- Austin Martin (R) -- L7: 6H 1HR 2RBI 12TB (0.316 avg) -- home split: 0.264 avg
 - Kody Clemens (L) -- L7: 5H 2HR 4RBI 11TB (0.179 avg) -- home split: 0.260 avg
 - Trevor Larnach (L) [3-game hit streak] -- L7: 5H 0HR 1RBI 5TB (0.192 avg) -- home split: 0.259 avg
+- Victor Caratini (S) -- L7: 4H 0HR 1RBI 4TB (0.190 avg) -- home split: 0.262 avg
 
 ## 2026-08-17 - Athletics @ Kansas City Royals (Scheduled)
 _Kauffman Stadium [pitcher-friendly park]_
@@ -550,9 +550,9 @@ Model likes: **St. Louis Cardinals** to win (59%) | Run line: **Cincinnati Reds*
 - Iván Herrera (R) [likely BABIP-driven, not a real power uptick] -- L7: 9H 0HR 3RBI 11TB (0.333 avg) -- away split: 0.260 avg
 - JJ Wetherholt (L) -- L7: 5H 0HR 3RBI 7TB (0.192 avg) -- away split: 0.260 avg
 - Nathan Church (L) -- L7: 5H 0HR 3RBI 6TB (0.208 avg) -- away split: 0.237 avg
-- Jordan Walker (R) -- L7: 7H 1HR 6RBI 13TB (0.292 avg) -- away split: 0.284 avg
-- José Fermín (R) -- L7: 5H 0HR 3RBI 6TB (0.312 avg) -- away split: 0.240 avg
+- Jordan Walker (R) -- L7: 5H 1HR 5RBI 11TB (0.238 avg) -- away split: 0.283 avg
 - Blaze Jordan (R) -- L7: 6H 1HR 2RBI 9TB (0.300 avg) -- away split: 0.333 avg
+- José Fermín (R) -- L7: 5H 0HR 3RBI 6TB (0.312 avg) -- away split: 0.240 avg
 - Bryan Torres (L) -- L7: 2H 0HR 1RBI 2TB (0.125 avg) -- away split: 0.244 avg
 
 ### Cincinnati Reds lineup -- PROJECTED (unconfirmed)
@@ -653,9 +653,9 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.57)_
 - Ryan Jeffers (R) -- L7: 7H 0HR 4RBI 9TB (0.318 avg) -- home split: 0.312 avg
 - Josh Bell (S) -- L7: 7H 1HR 4RBI 10TB (0.250 avg) -- home split: 0.247 avg
 - Ryan Kreidler (R) -- L7: 4H 0HR 0RBI 4TB (0.190 avg) -- home split: 0.255 avg
-- Austin Martin (R) -- L7: 6H 1HR 2RBI 12TB (0.316 avg) -- home split: 0.264 avg
 - Kody Clemens (L) -- L7: 5H 2HR 4RBI 11TB (0.179 avg) -- home split: 0.260 avg
 - Trevor Larnach (L) [3-game hit streak] -- L7: 5H 0HR 1RBI 5TB (0.192 avg) -- home split: 0.259 avg
+- Victor Caratini (S) -- L7: 4H 0HR 1RBI 4TB (0.190 avg) -- home split: 0.262 avg
 
 ## 2026-08-18 - Seattle Mariners @ Milwaukee Brewers (Scheduled)
 _American Family Field_
@@ -691,7 +691,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.65)_
 ## 2026-08-18 - Athletics @ Kansas City Royals (Scheduled)
 _Kauffman Stadium [pitcher-friendly park]_
 Projected score: Athletics 3.74 - Kansas City Royals 5.84
-Model likes: **Kansas City Royals** to win (66%) | Run line: **Kansas City Royals** -1.5 (53% to cover) | Total 8.5: lean **OVER** (54%)
+Model likes: **Kansas City Royals** to win (66%) | Run line: **Kansas City Royals** -1.5 (52% to cover) | Total 8.5: lean **OVER** (54%)
 
 ### Athletics lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -925,9 +925,9 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 - Ryan Jeffers (R) -- L7: 7H 0HR 4RBI 9TB (0.318 avg) -- home split: 0.312 avg
 - Josh Bell (S) -- L7: 7H 1HR 4RBI 10TB (0.250 avg) -- home split: 0.247 avg
 - Ryan Kreidler (R) -- L7: 4H 0HR 0RBI 4TB (0.190 avg) -- home split: 0.255 avg
-- Austin Martin (R) -- L7: 6H 1HR 2RBI 12TB (0.316 avg) -- home split: 0.264 avg
 - Kody Clemens (L) -- L7: 5H 2HR 4RBI 11TB (0.179 avg) -- home split: 0.260 avg
 - Trevor Larnach (L) [3-game hit streak] -- L7: 5H 0HR 1RBI 5TB (0.192 avg) -- home split: 0.259 avg
+- Victor Caratini (S) -- L7: 4H 0HR 1RBI 4TB (0.190 avg) -- home split: 0.262 avg
 
 ## 2026-08-19 - Chicago White Sox @ Chicago Cubs (Scheduled)
 _Wrigley Field_
@@ -1124,9 +1124,9 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 - Iván Herrera (R) [TOUGH MATCHUP: pitcher holds this hand to 0.189 avg-against] [likely BABIP-driven, not a real power uptick] -- L7: 9H 0HR 3RBI 11TB (0.333 avg) -- away split: 0.260 avg
 - JJ Wetherholt (L) -- L7: 5H 0HR 3RBI 7TB (0.192 avg) -- away split: 0.260 avg
 - Nathan Church (L) -- L7: 5H 0HR 3RBI 6TB (0.208 avg) -- away split: 0.237 avg
-- Jordan Walker (R) [TOUGH MATCHUP: pitcher holds this hand to 0.189 avg-against] -- L7: 7H 1HR 6RBI 13TB (0.292 avg) -- away split: 0.284 avg
-- José Fermín (R) [TOUGH MATCHUP: pitcher holds this hand to 0.189 avg-against] -- L7: 5H 0HR 3RBI 6TB (0.312 avg) -- away split: 0.240 avg
+- Jordan Walker (R) [TOUGH MATCHUP: pitcher holds this hand to 0.189 avg-against] -- L7: 5H 1HR 5RBI 11TB (0.238 avg) -- away split: 0.283 avg
 - Blaze Jordan (R) [TOUGH MATCHUP: pitcher holds this hand to 0.189 avg-against] -- L7: 6H 1HR 2RBI 9TB (0.300 avg) -- away split: 0.333 avg
+- José Fermín (R) [TOUGH MATCHUP: pitcher holds this hand to 0.189 avg-against] -- L7: 5H 0HR 3RBI 6TB (0.312 avg) -- away split: 0.240 avg
 - Bryan Torres (L) -- L7: 2H 0HR 1RBI 2TB (0.125 avg) -- away split: 0.244 avg
 
 ### Cincinnati Reds lineup -- PROJECTED (unconfirmed)
