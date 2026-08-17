@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-17T14:57:16.669765+00:00_
+_Generated 2026-08-17T14:59:21.127172+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -56,8 +56,8 @@ _Generated 2026-08-17T14:57:16.669765+00:00_
 
 ## 2026-08-17 - St. Louis Cardinals @ Cincinnati Reds (Pre-Game)
 _Great American Ball Park [hitter-friendly park]_
-Projected score: St. Louis Cardinals 4.9 - Cincinnati Reds 4.24
-Model likes: **St. Louis Cardinals** to win (55%) | Run line: **Cincinnati Reds** +1.5 (59% to cover) | Total 8.5: lean **OVER** (50%)
+Projected score: St. Louis Cardinals 5.09 - Cincinnati Reds 4.24
+Model likes: **St. Louis Cardinals** to win (57%) | Run line: **Cincinnati Reds** +1.5 (57% to cover) | Total 8.5: lean **OVER** (52%)
 
 ### St. Louis Cardinals lineup -- CONFIRMED
 _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.49)_
@@ -510,7 +510,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.58)_
 ## 2026-08-18 - San Francisco Giants @ Cleveland Guardians (Scheduled)
 _Progressive Field_
 Projected score: San Francisco Giants 3.2 - Cleveland Guardians 4.94
-Model likes: **Cleveland Guardians** to win (66%) | Run line: **San Francisco Giants** +1.5 (50% to cover) | Total 7.5: lean **OVER** (51%)
+Model likes: **Cleveland Guardians** to win (66%) | Run line: **San Francisco Giants** +1.5 (50% to cover) | Total 7.5: lean **OVER** (50%)
 
 ### San Francisco Giants lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.59)_
@@ -690,7 +690,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.65)_
 ## 2026-08-18 - Athletics @ Kansas City Royals (Scheduled)
 _Kauffman Stadium [pitcher-friendly park]_
 Projected score: Athletics 3.74 - Kansas City Royals 5.84
-Model likes: **Kansas City Royals** to win (66%) | Run line: **Kansas City Royals** -1.5 (53% to cover) | Total 8.5: lean **OVER** (54%)
+Model likes: **Kansas City Royals** to win (66%) | Run line: **Kansas City Royals** -1.5 (52% to cover) | Total 8.5: lean **OVER** (54%)
 
 ### Athletics lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -838,7 +838,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.58)_
 ## 2026-08-19 - Detroit Tigers @ Pittsburgh Pirates (Scheduled)
 _PNC Park_
 Projected score: Detroit Tigers 4.79 - Pittsburgh Pirates 4.26
-Model likes: **Detroit Tigers** to win (54%) | Run line: **Pittsburgh Pirates** +1.5 (60% to cover) | Total 8.5: lean **UNDER** (50%)
+Model likes: **Detroit Tigers** to win (54%) | Run line: **Pittsburgh Pirates** +1.5 (60% to cover) | Total 8.5: lean **UNDER** (51%)
 
 ### Detroit Tigers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1174,7 +1174,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-19 - Athletics @ Kansas City Royals (Scheduled)
 _Kauffman Stadium [pitcher-friendly park]_
 Projected score: Athletics 3.74 - Kansas City Royals 4.71
-Model likes: **Kansas City Royals** to win (58%) | Run line: **Athletics** +1.5 (57% to cover) | Total 7.5: lean **OVER** (53%)
+Model likes: **Kansas City Royals** to win (58%) | Run line: **Athletics** +1.5 (57% to cover) | Total 7.5: lean **OVER** (54%)
 
 ### Athletics lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
