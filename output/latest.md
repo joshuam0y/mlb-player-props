@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-17T21:52:58.042720+00:00_
+_Generated 2026-08-17T21:55:02.916343+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -57,7 +57,7 @@ _Great American Ball Park [hitter-friendly park]_
 Final: St. Louis Cardinals 2 - Cincinnati Reds 1
 
 ### St. Louis Cardinals lineup -- CONFIRMED
-_Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.49)_
+_Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.45)_
 **Probable P: Quinn Mathews (L)** -- L5: 5.0 IP, 3 K, 2 ER, 3.6 ERA
 - #1 Joshua Báez (R) -- L7: 3H 3HR 5RBI 12TB (0.333 avg) -- away split: 0.333 avg -- news: Who is Joshua Báez? Get to know the MLB record-setter
 - #2 Iván Herrera (R) [likely BABIP-driven, not a real power uptick] -- L7: 9H 0HR 3RBI 11TB (0.333 avg) -- away split: 0.260 avg
@@ -146,11 +146,11 @@ _Facing a taxed bullpen: 7.3 relief IP in last 2 days (ratio 1.42)_
 
 ## 2026-08-17 - St. Louis Cardinals @ Cincinnati Reds (Pre-Game)
 _Great American Ball Park [hitter-friendly park]_
-Projected score: St. Louis Cardinals 5.3 - Cincinnati Reds 3.83
-Model likes: **St. Louis Cardinals** to win (62%) | Run line: **Cincinnati Reds** +1.5 (52% to cover) | Total 8.5: lean **OVER** (50%)
+Projected score: St. Louis Cardinals 5.38 - Cincinnati Reds 3.83
+Model likes: **St. Louis Cardinals** to win (62%) | Run line: **Cincinnati Reds** +1.5 (52% to cover) | Total 8.5: lean **OVER** (51%)
 
 ### St. Louis Cardinals lineup -- CONFIRMED
-_Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.49)_
+_Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.45)_
 **Probable P: Andre Pallante (R)** -- L5: 30.0 IP, 20 K, 6 ER, 1.8 ERA
 - #1 JJ Wetherholt (L) [MATCHUP EDGE: pitcher hits 0.266 avg-against vs this hand] -- L7: 5H 0HR 3RBI 7TB (0.192 avg) -- away split: 0.260 avg
 - #2 Iván Herrera (R) [likely BABIP-driven, not a real power uptick] -- L7: 9H 0HR 3RBI 11TB (0.333 avg) -- away split: 0.260 avg
@@ -330,7 +330,7 @@ _Facing a taxed bullpen: 6.0 relief IP in last 2 days (ratio 1.26)_
 ## 2026-08-17 - Chicago White Sox @ Chicago Cubs (Pre-Game)
 _Wrigley Field_
 Projected score: Chicago White Sox 4.17 - Chicago Cubs 5.01
-Model likes: **Chicago Cubs** to win (57%) | Run line: **Chicago White Sox** +1.5 (58% to cover) | Total 8.5: lean **OVER** (51%)
+Model likes: **Chicago Cubs** to win (57%) | Run line: **Chicago White Sox** +1.5 (58% to cover) | Total 8.5: lean **OVER** (50%)
 
 ### Chicago White Sox lineup -- CONFIRMED
 _Facing a taxed bullpen: 8.0 relief IP in last 2 days (ratio 1.95)_
@@ -360,11 +360,11 @@ _Facing a taxed bullpen: 8.3 relief IP in last 2 days (ratio 1.24)_
 
 ## 2026-08-17 - Los Angeles Dodgers @ Colorado Rockies (Pre-Game)
 _Coors Field [hitter-friendly park]_
-Projected score: Los Angeles Dodgers 5.66 - Colorado Rockies 4.78
-Model likes: **Los Angeles Dodgers** to win (56%) | Run line: **Colorado Rockies** +1.5 (57% to cover) | Total 9.5: lean **OVER** (52%)
+Projected score: Los Angeles Dodgers 5.7 - Colorado Rockies 4.8
+Model likes: **Los Angeles Dodgers** to win (57%) | Run line: **Colorado Rockies** +1.5 (56% to cover) | Total 9.5: lean **OVER** (53%)
 
 ### Los Angeles Dodgers lineup -- CONFIRMED
-_Facing a taxed bullpen: 9.3 relief IP in last 2 days (ratio 1.75)_
+_Facing a taxed bullpen: 9.3 relief IP in last 2 days (ratio 1.73)_
 **Probable P: Blake Snell (L)** -- L5: 28.0 IP, 43 K, 6 ER, 1.93 ERA
 - #1 Shohei Ohtani (L) [MATCHUP EDGE: pitcher hits 0.265 avg-against vs this hand] -- L7: 7H 1HR 4RBI 14TB (0.250 avg) -- away split: 0.287 avg
 - #2 Freddie Freeman (L) [MATCHUP EDGE: pitcher hits 0.265 avg-against vs this hand] -- L7: 5H 0HR 2RBI 5TB (0.200 avg) -- away split: 0.329 avg
@@ -539,11 +539,11 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.59)_
 
 ## 2026-08-18 - St. Louis Cardinals @ Cincinnati Reds (Scheduled)
 _Great American Ball Park [hitter-friendly park]_
-Projected score: St. Louis Cardinals 4.73 - Cincinnati Reds 3.69
-Model likes: **St. Louis Cardinals** to win (59%) | Run line: **Cincinnati Reds** +1.5 (56% to cover) | Total 7.5: lean **OVER** (53%)
+Projected score: St. Louis Cardinals 4.79 - Cincinnati Reds 3.69
+Model likes: **St. Louis Cardinals** to win (60%) | Run line: **Cincinnati Reds** +1.5 (56% to cover) | Total 7.5: lean **OVER** (54%)
 
 ### St. Louis Cardinals lineup -- PROJECTED (unconfirmed)
-_Facing a taxed bullpen: 8.0 relief IP in last 2 days (ratio 1.69)_
+_Facing a taxed bullpen: 8.0 relief IP in last 2 days (ratio 1.65)_
 **Probable P: Kyle Leahy (R)** -- L5: 28.0 IP, 30 K, 7 ER, 2.25 ERA
 - Masyn Winn (R) -- L7: 4H 0HR 2RBI 5TB (0.154 avg) -- away split: 0.222 avg
 - Alec Burleson (L) [3-game hit streak] -- L7: 11H 2HR 14RBI 21TB (0.423 avg) -- away split: 0.317 avg -- news: Can Alec Burleson guide Cardinals to contention?
@@ -693,7 +693,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.65)_
 ## 2026-08-18 - Athletics @ Kansas City Royals (Scheduled)
 _Kauffman Stadium [pitcher-friendly park]_
 Projected score: Athletics 3.74 - Kansas City Royals 5.84
-Model likes: **Kansas City Royals** to win (66%) | Run line: **Kansas City Royals** -1.5 (52% to cover) | Total 8.5: lean **OVER** (54%)
+Model likes: **Kansas City Royals** to win (66%) | Run line: **Kansas City Royals** -1.5 (53% to cover) | Total 8.5: lean **OVER** (54%)
 
 ### Athletics lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -811,8 +811,8 @@ _Facing a rested bullpen: 3.7 relief IP in last 2 days (ratio 0.63)_
 
 ## 2026-08-18 - Los Angeles Dodgers @ Colorado Rockies (Scheduled)
 _Coors Field [hitter-friendly park]_
-Projected score: Los Angeles Dodgers 6.23 - Colorado Rockies 5.16
-Model likes: **Los Angeles Dodgers** to win (57%) | Run line: **Colorado Rockies** +1.5 (55% to cover) | Total 10.5: lean **OVER** (51%)
+Projected score: Los Angeles Dodgers 6.27 - Colorado Rockies 5.16
+Model likes: **Los Angeles Dodgers** to win (58%) | Run line: **Colorado Rockies** +1.5 (55% to cover) | Total 10.5: lean **OVER** (51%)
 
 ### Los Angeles Dodgers lineup -- PROJECTED (unconfirmed)
 **Probable P: Eric Lauer (L)** -- L5: 27.7 IP, 19 K, 13 ER, 4.23 ERA
@@ -1118,8 +1118,8 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 
 ## 2026-08-19 - St. Louis Cardinals @ Cincinnati Reds (Scheduled)
 _Great American Ball Park [hitter-friendly park]_
-Projected score: St. Louis Cardinals 3.66 - Cincinnati Reds 4.67
-Model likes: **Cincinnati Reds** to win (59%) | Run line: **St. Louis Cardinals** +1.5 (57% to cover) | Total 7.5: lean **OVER** (52%)
+Projected score: St. Louis Cardinals 3.72 - Cincinnati Reds 4.67
+Model likes: **Cincinnati Reds** to win (58%) | Run line: **St. Louis Cardinals** +1.5 (57% to cover) | Total 7.5: lean **OVER** (53%)
 
 ### St. Louis Cardinals lineup -- PROJECTED (unconfirmed)
 **Probable P: Matthew Liberatore (L)** -- L5: 25.3 IP, 28 K, 15 ER, 5.33 ERA
@@ -1267,8 +1267,8 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 
 ## 2026-08-19 - Los Angeles Dodgers @ Colorado Rockies (Scheduled)
 _Coors Field [hitter-friendly park]_
-Projected score: Los Angeles Dodgers 6.8 - Colorado Rockies 5.08
-Model likes: **Los Angeles Dodgers** to win (61%) | Run line: **Colorado Rockies** +1.5 (50% to cover) | Total 11.5: lean **UNDER** (53%)
+Projected score: Los Angeles Dodgers 6.84 - Colorado Rockies 5.08
+Model likes: **Los Angeles Dodgers** to win (62%) | Run line: **Colorado Rockies** +1.5 (50% to cover) | Total 11.5: lean **UNDER** (52%)
 
 ### Los Angeles Dodgers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
