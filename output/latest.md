@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-17T05:12:25.342431+00:00_
+_Generated 2026-08-17T05:52:58.280576+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -57,7 +57,7 @@ _Generated 2026-08-17T05:12:25.342431+00:00_
 ## 2026-08-17 - St. Louis Cardinals @ Cincinnati Reds (Scheduled)
 _Great American Ball Park [hitter-friendly park]_
 Projected score: St. Louis Cardinals 5.27 - Cincinnati Reds 3.86
-Model likes: **St. Louis Cardinals** to win (62%) | Run line: **Cincinnati Reds** +1.5 (53% to cover) | Total 8.5: lean **UNDER** (50%)
+Model likes: **St. Louis Cardinals** to win (61%) | Run line: **Cincinnati Reds** +1.5 (53% to cover) | Total 8.5: lean **UNDER** (50%)
 
 ### St. Louis Cardinals lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.49)_
@@ -86,7 +86,7 @@ _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.37)_
 ## 2026-08-17 - Baltimore Orioles @ Tampa Bay Rays (Scheduled)
 _Tropicana Field_
 Projected score: Baltimore Orioles 3.63 - Tampa Bay Rays 3.63
-Model likes: **Tampa Bay Rays** to win (50%) | Run line: **Baltimore Orioles** +1.5 (67% to cover) | Total 6.5: lean **OVER** (53%)
+Model likes: **Baltimore Orioles** to win (50%) | Run line: **Tampa Bay Rays** +1.5 (67% to cover) | Total 6.5: lean **OVER** (53%)
 
 ### Baltimore Orioles lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 8.3 relief IP in last 2 days (ratio 1.4)_
@@ -298,7 +298,7 @@ _Facing a taxed bullpen: 8.3 relief IP in last 2 days (ratio 1.57)_
 ## 2026-08-17 - Athletics @ Kansas City Royals (Scheduled)
 _Kauffman Stadium [pitcher-friendly park]_
 Projected score: Athletics 3.07 - Kansas City Royals 5.53
-Model likes: **Kansas City Royals** to win (71%) | Run line: **Kansas City Royals** -1.5 (56% to cover) | Total 7.5: lean **OVER** (54%)
+Model likes: **Kansas City Royals** to win (70%) | Run line: **Kansas City Royals** -1.5 (56% to cover) | Total 7.5: lean **OVER** (54%)
 
 ### Athletics lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.3 relief IP in last 2 days (ratio 0.44)_
@@ -775,7 +775,7 @@ _Facing a rested bullpen: 4.7 relief IP in last 2 days (ratio 0.7)_
 ## 2026-08-18 - Los Angeles Angels @ Houston Astros (Scheduled)
 _Daikin Park_
 Projected score: Los Angeles Angels 4.06 - Houston Astros 4.58
-Model likes: **Houston Astros** to win (55%) | Run line: **Los Angeles Angels** +1.5 (61% to cover) | Total 8.5: lean **UNDER** (54%)
+Model likes: **Houston Astros** to win (54%) | Run line: **Los Angeles Angels** +1.5 (61% to cover) | Total 8.5: lean **UNDER** (54%)
 
 ### Los Angeles Angels lineup -- PROJECTED (unconfirmed)
 **Probable P: George Klassen (R)** -- L5: 14.7 IP, 14 K, 9 ER, 5.52 ERA
@@ -834,7 +834,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.58)_
 ## 2026-08-19 - Detroit Tigers @ Pittsburgh Pirates (Scheduled)
 _PNC Park_
 Projected score: Detroit Tigers 4.79 - Pittsburgh Pirates 4.26
-Model likes: **Detroit Tigers** to win (54%) | Run line: **Pittsburgh Pirates** +1.5 (60% to cover) | Total 8.5: lean **UNDER** (51%)
+Model likes: **Detroit Tigers** to win (54%) | Run line: **Pittsburgh Pirates** +1.5 (60% to cover) | Total 8.5: lean **UNDER** (50%)
 
 ### Detroit Tigers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -926,7 +926,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-19 - Chicago White Sox @ Chicago Cubs (Scheduled)
 _Wrigley Field_
 Projected score: Chicago White Sox 3.48 - Chicago Cubs 5.56
-Model likes: **Chicago Cubs** to win (67%) | Run line: **Chicago Cubs** -1.5 (53% to cover) | Total 8.5: lean **UNDER** (51%)
+Model likes: **Chicago Cubs** to win (67%) | Run line: **Chicago Cubs** -1.5 (52% to cover) | Total 8.5: lean **UNDER** (51%)
 
 ### Chicago White Sox lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1138,7 +1138,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-19 - Seattle Mariners @ Milwaukee Brewers (Scheduled)
 _American Family Field_
 Projected score: Seattle Mariners 3.22 - Milwaukee Brewers 3.79
-Model likes: **Milwaukee Brewers** to win (56%) | Run line: **Seattle Mariners** +1.5 (62% to cover) | Total 6.5: lean **OVER** (50%)
+Model likes: **Milwaukee Brewers** to win (56%) | Run line: **Seattle Mariners** +1.5 (62% to cover) | Total 6.5: lean **UNDER** (50%)
 
 ### Seattle Mariners lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
