@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-17T11:51:49.754744+00:00_
+_Generated 2026-08-17T11:52:01.423365+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -298,7 +298,7 @@ _Facing a taxed bullpen: 8.3 relief IP in last 2 days (ratio 1.57)_
 ## 2026-08-17 - Athletics @ Kansas City Royals (Scheduled)
 _Kauffman Stadium [pitcher-friendly park]_
 Projected score: Athletics 3.07 - Kansas City Royals 5.53
-Model likes: **Kansas City Royals** to win (70%) | Run line: **Kansas City Royals** -1.5 (56% to cover) | Total 7.5: lean **OVER** (54%)
+Model likes: **Kansas City Royals** to win (71%) | Run line: **Kansas City Royals** -1.5 (56% to cover) | Total 7.5: lean **OVER** (54%)
 
 ### Athletics lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.3 relief IP in last 2 days (ratio 0.44)_
@@ -507,7 +507,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.58)_
 ## 2026-08-18 - San Francisco Giants @ Cleveland Guardians (Scheduled)
 _Progressive Field_
 Projected score: San Francisco Giants 3.2 - Cleveland Guardians 4.94
-Model likes: **Cleveland Guardians** to win (66%) | Run line: **San Francisco Giants** +1.5 (50% to cover) | Total 7.5: lean **OVER** (51%)
+Model likes: **Cleveland Guardians** to win (65%) | Run line: **San Francisco Giants** +1.5 (50% to cover) | Total 7.5: lean **OVER** (50%)
 
 ### San Francisco Giants lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.59)_
@@ -595,7 +595,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.46)_
 ## 2026-08-18 - Arizona Diamondbacks @ Boston Red Sox (Scheduled)
 _Fenway Park_
 Projected score: Arizona Diamondbacks 3.29 - Boston Red Sox 4.69
-Model likes: **Boston Red Sox** to win (63%) | Run line: **Arizona Diamondbacks** +1.5 (53% to cover) | Total 7.5: lean **UNDER** (51%)
+Model likes: **Boston Red Sox** to win (63%) | Run line: **Arizona Diamondbacks** +1.5 (54% to cover) | Total 7.5: lean **UNDER** (51%)
 
 ### Arizona Diamondbacks lineup -- PROJECTED (unconfirmed)
 **Probable P: Merrill Kelly (R)** -- L5: 26.3 IP, 20 K, 14 ER, 4.78 ERA
@@ -686,7 +686,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.65)_
 ## 2026-08-18 - Athletics @ Kansas City Royals (Scheduled)
 _Kauffman Stadium [pitcher-friendly park]_
 Projected score: Athletics 3.74 - Kansas City Royals 5.84
-Model likes: **Kansas City Royals** to win (66%) | Run line: **Kansas City Royals** -1.5 (52% to cover) | Total 8.5: lean **OVER** (54%)
+Model likes: **Kansas City Royals** to win (66%) | Run line: **Kansas City Royals** -1.5 (53% to cover) | Total 8.5: lean **OVER** (54%)
 
 ### Athletics lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1048,7 +1048,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-19 - Toronto Blue Jays @ Tampa Bay Rays (Scheduled)
 _Tropicana Field_
 Projected score: Toronto Blue Jays 3.43 - Tampa Bay Rays 5.18
-Model likes: **Tampa Bay Rays** to win (65%) | Run line: **Toronto Blue Jays** +1.5 (50% to cover) | Total 8.5: lean **UNDER** (55%)
+Model likes: **Tampa Bay Rays** to win (65%) | Run line: **Toronto Blue Jays** +1.5 (50% to cover) | Total 7.5: lean **OVER** (55%)
 
 ### Toronto Blue Jays lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1169,7 +1169,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-19 - Athletics @ Kansas City Royals (Scheduled)
 _Kauffman Stadium [pitcher-friendly park]_
 Projected score: Athletics 3.74 - Kansas City Royals 4.71
-Model likes: **Kansas City Royals** to win (58%) | Run line: **Athletics** +1.5 (57% to cover) | Total 7.5: lean **OVER** (54%)
+Model likes: **Kansas City Royals** to win (58%) | Run line: **Athletics** +1.5 (57% to cover) | Total 7.5: lean **OVER** (53%)
 
 ### Athletics lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
