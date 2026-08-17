@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-17T19:12:22.134811+00:00_
+_Generated 2026-08-17T19:18:30.036841+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -12,9 +12,9 @@ _Generated 2026-08-17T19:12:22.134811+00:00_
 - **Heriberto Hernández** (Miami Marlins vs Philadelphia Phillies): favorable matchup vs. tonight's pitcher -- try Hits: 60% over 0.5 recently (vs. 10-game sample)
 - **Francisco Lindor** (New York Mets vs San Diego Padres): favorable matchup vs. tonight's pitcher -- try Runs Scored: 70% over 0.5 recently (vs. 10-game sample)
 - **Michael Busch** (Chicago Cubs vs Chicago White Sox): favorable matchup vs. tonight's pitcher -- try Hits: 80% over 0.5 recently (vs. 10-game sample)
-- **Justin Crawford** (Philadelphia Phillies vs Miami Marlins): favorable matchup vs. tonight's pitcher -- try Hits: 80% over 0.5 recently (vs. 10-game sample)
 - **Kyle Schwarber** (Philadelphia Phillies vs Miami Marlins): favorable matchup vs. tonight's pitcher -- try Hits: 80% over 0.5 recently (vs. 10-game sample)
 - **Brandon Marsh** (Philadelphia Phillies vs Miami Marlins): favorable matchup vs. tonight's pitcher -- try Runs Scored: 50% over 0.5 recently (vs. 10-game sample)
+- **Justin Crawford** (Philadelphia Phillies vs Miami Marlins): favorable matchup vs. tonight's pitcher -- try Hits: 80% over 0.5 recently (vs. 10-game sample)
 - **Javier Sanoja** (Miami Marlins vs Philadelphia Phillies): favorable matchup vs. tonight's pitcher -- try Hits: 70% over 0.5 recently (vs. 10-game sample)
 - **Otto Lopez** (Miami Marlins vs Philadelphia Phillies): favorable matchup vs. tonight's pitcher -- try Hits + Runs + RBIs: 30% over 1.5 recently (vs. 10-game sample)
 - **Agustín Ramírez** (Miami Marlins vs Philadelphia Phillies): favorable matchup vs. tonight's pitcher -- try Hits: 40% over 0.5 recently (vs. 10-game sample)
@@ -31,8 +31,8 @@ _Generated 2026-08-17T19:12:22.134811+00:00_
 
 ## Today's Top Unders
 ### Batters
-- **Alec Bohm** (Philadelphia Phillies vs Miami Marlins): tough matchup vs. tonight's pitcher -- try Hits + Runs + RBIs: 70% under 2.5 recently (vs. 10-game sample)
 - **Trea Turner** (Philadelphia Phillies vs Miami Marlins): tough matchup vs. tonight's pitcher -- try Hits + Runs + RBIs: 70% under 2.5 recently (vs. 10-game sample)
+- **Alec Bohm** (Philadelphia Phillies vs Miami Marlins): tough matchup vs. tonight's pitcher -- try Hits + Runs + RBIs: 70% under 2.5 recently (vs. 10-game sample)
 - **J.T. Realmuto** (Philadelphia Phillies vs Miami Marlins): tough matchup vs. tonight's pitcher -- try Total Bases: 90% under 1.5 recently (vs. 10-game sample)
 - **Jakob Marsee** (Miami Marlins vs Philadelphia Phillies): tough matchup vs. tonight's pitcher -- try RBIs: 90% under 0.5 recently (vs. 10-game sample)
 - **Griffin Conine** (Miami Marlins vs Philadelphia Phillies): tough matchup vs. tonight's pitcher -- try Hits: 30% under 0.5 recently (vs. 10-game sample)
@@ -88,8 +88,8 @@ _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.37)_
 
 ## 2026-08-17 - Baltimore Orioles @ Tampa Bay Rays (Pre-Game)
 _Tropicana Field_
-Projected score: Baltimore Orioles 3.63 - Tampa Bay Rays 3.63
-Model likes: **Tampa Bay Rays** to win (50%) | Run line: **Baltimore Orioles** +1.5 (67% to cover) | Total 6.5: lean **OVER** (52%)
+Projected score: Baltimore Orioles 3.63 - Tampa Bay Rays 3.55
+Model likes: **Baltimore Orioles** to win (51%) | Run line: **Tampa Bay Rays** +1.5 (66% to cover) | Total 6.5: lean **OVER** (52%)
 
 ### Baltimore Orioles lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 8.3 relief IP in last 2 days (ratio 1.4)_
@@ -104,23 +104,23 @@ _Facing a taxed bullpen: 8.3 relief IP in last 2 days (ratio 1.4)_
 - Leody Taveras (S) -- L7: 7H 1HR 3RBI 13TB (0.250 avg) -- away split: 0.229 avg
 - Tyler O'Neill (R) [4-game hit streak] -- L7: 6H 1HR 3RBI 9TB (0.231 avg) -- away split: 0.205 avg
 
-### Tampa Bay Rays lineup -- PROJECTED (unconfirmed)
+### Tampa Bay Rays lineup -- CONFIRMED
 _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.36)_
 **Probable P: Shane McClanahan (L)** -- L5: 25.3 IP, 18 K, 7 ER, 2.49 ERA
-- Junior Caminero (R) -- L7: 5H 2HR 8RBI 11TB (0.172 avg) -- home split: 0.287 avg
-- Chandler Simpson (L) [7-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 15H 0HR 2RBI 17TB (0.484 avg) -- home split: 0.295 avg
-- Richie Palacios (L) [likely BABIP-driven, not a real power uptick] -- L7: 7H 0HR 2RBI 9TB (0.368 avg) -- home split: 0.232 avg
-- Taylor Walls (S) [7-game hit streak] -- L7: 8H 2HR 5RBI 14TB (0.320 avg) -- home split: 0.221 avg
-- Jonathan Aranda (L) -- L7: 8H 0HR 3RBI 8TB (0.258 avg) -- home split: 0.297 avg
-- Yandy Díaz (R) [7-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 14H 2HR 5RBI 21TB (0.424 avg) -- home split: 0.344 avg
-- Cedric Mullins (L) [3-game hit streak] -- L7: 6H 0HR 3RBI 9TB (0.273 avg) -- home split: 0.208 avg
-- Victor Mesa Jr. (L) -- L7: 6H 2HR 4RBI 13TB (0.231 avg) -- home split: 0.209 avg
-- Ryan Vilade (R) -- L7: 3H 1HR 1RBI 7TB (0.300 avg) -- home split: 0.283 avg
+- #1 Yandy Díaz (R) [7-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 14H 2HR 5RBI 21TB (0.424 avg) -- home split: 0.344 avg
+- #2 Jonathan Aranda (L) -- L7: 8H 0HR 3RBI 8TB (0.258 avg) -- home split: 0.297 avg
+- #3 Junior Caminero (R) -- L7: 5H 2HR 8RBI 11TB (0.172 avg) -- home split: 0.287 avg
+- #4 Liam Hicks (L) -- L7: 6H 1HR 5RBI 11TB (0.316 avg) -- home split: 0.287 avg
+- #5 Chandler Simpson (L) [7-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 15H 0HR 2RBI 17TB (0.484 avg) -- home split: 0.295 avg
+- #6 Ryan Vilade (R) -- L7: 3H 1HR 1RBI 7TB (0.300 avg) -- home split: 0.283 avg
+- #7 Cedric Mullins (L) [3-game hit streak] -- L7: 6H 0HR 3RBI 9TB (0.273 avg) -- home split: 0.208 avg
+- #8 Richie Palacios (L) [likely BABIP-driven, not a real power uptick] -- L7: 7H 0HR 2RBI 9TB (0.368 avg) -- home split: 0.232 avg
+- #9 Jorge Mateo (R) -- L7: 2H 0HR 1RBI 3TB (0.286 avg) -- home split: 0.208 avg
 
 ## 2026-08-17 - Miami Marlins @ Philadelphia Phillies (Pre-Game)
 _Citizens Bank Park [hitter-friendly park]_
-Projected score: Miami Marlins 3.25 - Philadelphia Phillies 5.06
-Model likes: **Philadelphia Phillies** to win (66%) | Run line: **Philadelphia Phillies** -1.5 (50% to cover) | Total 7.5: lean **OVER** (52%)
+Projected score: Miami Marlins 3.25 - Philadelphia Phillies 5.2
+Model likes: **Philadelphia Phillies** to win (67%) | Run line: **Philadelphia Phillies** -1.5 (52% to cover) | Total 7.5: lean **OVER** (53%)
 
 ### Miami Marlins lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 6.3 relief IP in last 2 days (ratio 1.26)_
@@ -135,18 +135,18 @@ _Facing a taxed bullpen: 6.3 relief IP in last 2 days (ratio 1.26)_
 - Owen Caissie (L) [TOUGH MATCHUP: pitcher holds this hand to 0.133 avg-against] -- L7: 5H 1HR 2RBI 9TB (0.250 avg) -- away split: 0.194 avg
 - Agustín Ramírez (R) [MATCHUP EDGE: pitcher hits 0.289 avg-against vs this hand] [likely BABIP-driven, not a real power uptick] -- L7: 6H 0HR 3RBI 8TB (0.353 avg) -- away split: 0.254 avg
 
-### Philadelphia Phillies lineup -- PROJECTED (unconfirmed)
+### Philadelphia Phillies lineup -- CONFIRMED
 _Facing a taxed bullpen: 7.3 relief IP in last 2 days (ratio 1.42)_
 **Probable P: Cristopher Sánchez (L)** -- L5: 28.3 IP, 37 K, 7 ER, 2.22 ERA
-- Justin Crawford (L) [MATCHUP EDGE: pitcher hits 0.302 avg-against vs this hand] -- L7: 5H 0HR 0RBI 7TB (0.263 avg) -- home split: 0.293 avg
-- Bryson Stott (L) [MATCHUP EDGE: pitcher hits 0.302 avg-against vs this hand] [8-game hit streak] -- L7: 9H 1HR 5RBI 12TB (0.321 avg) -- home split: 0.293 avg
-- Alec Bohm (R) [TOUGH MATCHUP: pitcher holds this hand to 0.209 avg-against] [5-game hit streak] -- L7: 13H 1HR 6RBI 20TB (0.542 avg) -- home split: 0.244 avg
-- Kyle Schwarber (L) [MATCHUP EDGE: pitcher hits 0.302 avg-against vs this hand] -- L7: 8H 4HR 8RBI 22TB (0.296 avg) -- home split: 0.261 avg
-- Bryce Harper (L) [MATCHUP EDGE: pitcher hits 0.302 avg-against vs this hand] [4-game hit streak] -- L7: 5H 0HR 1RBI 6TB (0.238 avg) -- home split: 0.259 avg
-- Brandon Marsh (L) [MATCHUP EDGE: pitcher hits 0.302 avg-against vs this hand] -- L7: 5H 1HR 3RBI 8TB (0.208 avg) -- home split: 0.292 avg
-- Trea Turner (R) [TOUGH MATCHUP: pitcher holds this hand to 0.209 avg-against] -- L7: 5H 1HR 2RBI 9TB (0.179 avg) -- home split: 0.274 avg
-- Luis Arraez (L) [MATCHUP EDGE: pitcher hits 0.302 avg-against vs this hand] [4-game hit streak] -- L7: 6H 0HR 3RBI 8TB (0.188 avg) -- home split: 0.349 avg
-- J.T. Realmuto (R) [TOUGH MATCHUP: pitcher holds this hand to 0.209 avg-against] -- L7: 3H 0HR 2RBI 3TB (0.107 avg) -- home split: 0.240 avg
+- #1 Kyle Schwarber (L) [MATCHUP EDGE: pitcher hits 0.302 avg-against vs this hand] -- L7: 8H 4HR 8RBI 22TB (0.296 avg) -- home split: 0.261 avg
+- #2 Trea Turner (R) [TOUGH MATCHUP: pitcher holds this hand to 0.209 avg-against] -- L7: 5H 1HR 2RBI 9TB (0.179 avg) -- home split: 0.274 avg
+- #3 Bryce Harper (L) [MATCHUP EDGE: pitcher hits 0.302 avg-against vs this hand] [4-game hit streak] -- L7: 5H 0HR 1RBI 6TB (0.238 avg) -- home split: 0.259 avg
+- #4 Luis Arraez (L) [MATCHUP EDGE: pitcher hits 0.302 avg-against vs this hand] [4-game hit streak] -- L7: 6H 0HR 3RBI 8TB (0.188 avg) -- home split: 0.349 avg
+- #5 Alec Bohm (R) [TOUGH MATCHUP: pitcher holds this hand to 0.209 avg-against] [5-game hit streak] -- L7: 13H 1HR 6RBI 20TB (0.542 avg) -- home split: 0.244 avg
+- #6 Bryson Stott (L) [MATCHUP EDGE: pitcher hits 0.302 avg-against vs this hand] [8-game hit streak] -- L7: 9H 1HR 5RBI 12TB (0.321 avg) -- home split: 0.293 avg
+- #7 Brandon Marsh (L) [MATCHUP EDGE: pitcher hits 0.302 avg-against vs this hand] -- L7: 5H 1HR 3RBI 8TB (0.208 avg) -- home split: 0.292 avg
+- #8 J.T. Realmuto (R) [TOUGH MATCHUP: pitcher holds this hand to 0.209 avg-against] -- L7: 3H 0HR 2RBI 3TB (0.107 avg) -- home split: 0.240 avg
+- #9 Justin Crawford (L) [MATCHUP EDGE: pitcher hits 0.302 avg-against vs this hand] -- L7: 5H 0HR 0RBI 7TB (0.263 avg) -- home split: 0.293 avg
 
 ## 2026-08-17 - St. Louis Cardinals @ Cincinnati Reds (Scheduled)
 _Great American Ball Park [hitter-friendly park]_
@@ -303,7 +303,7 @@ _Facing a taxed bullpen: 8.3 relief IP in last 2 days (ratio 1.57)_
 ## 2026-08-17 - Athletics @ Kansas City Royals (Scheduled)
 _Kauffman Stadium [pitcher-friendly park]_
 Projected score: Athletics 3.07 - Kansas City Royals 5.53
-Model likes: **Kansas City Royals** to win (70%) | Run line: **Kansas City Royals** -1.5 (56% to cover) | Total 7.5: lean **OVER** (54%)
+Model likes: **Kansas City Royals** to win (70%) | Run line: **Kansas City Royals** -1.5 (56% to cover) | Total 7.5: lean **OVER** (55%)
 
 ### Athletics lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.3 relief IP in last 2 days (ratio 0.44)_
@@ -334,7 +334,7 @@ _Facing a taxed bullpen: 6.0 relief IP in last 2 days (ratio 1.26)_
 ## 2026-08-17 - Chicago White Sox @ Chicago Cubs (Scheduled)
 _Wrigley Field_
 Projected score: Chicago White Sox 4.2 - Chicago Cubs 5.01
-Model likes: **Chicago Cubs** to win (56%) | Run line: **Chicago White Sox** +1.5 (58% to cover) | Total 8.5: lean **OVER** (51%)
+Model likes: **Chicago Cubs** to win (57%) | Run line: **Chicago White Sox** +1.5 (58% to cover) | Total 8.5: lean **OVER** (51%)
 
 ### Chicago White Sox lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 8.0 relief IP in last 2 days (ratio 1.95)_
@@ -602,7 +602,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.46)_
 ## 2026-08-18 - Arizona Diamondbacks @ Boston Red Sox (Scheduled)
 _Fenway Park_
 Projected score: Arizona Diamondbacks 3.29 - Boston Red Sox 4.69
-Model likes: **Boston Red Sox** to win (63%) | Run line: **Arizona Diamondbacks** +1.5 (53% to cover) | Total 7.5: lean **UNDER** (51%)
+Model likes: **Boston Red Sox** to win (63%) | Run line: **Arizona Diamondbacks** +1.5 (54% to cover) | Total 7.5: lean **UNDER** (51%)
 
 ### Arizona Diamondbacks lineup -- PROJECTED (unconfirmed)
 **Probable P: Merrill Kelly (R)** -- L5: 26.3 IP, 20 K, 14 ER, 4.78 ERA
@@ -693,7 +693,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.65)_
 ## 2026-08-18 - Athletics @ Kansas City Royals (Scheduled)
 _Kauffman Stadium [pitcher-friendly park]_
 Projected score: Athletics 3.74 - Kansas City Royals 5.84
-Model likes: **Kansas City Royals** to win (66%) | Run line: **Kansas City Royals** -1.5 (53% to cover) | Total 8.5: lean **OVER** (54%)
+Model likes: **Kansas City Royals** to win (66%) | Run line: **Kansas City Royals** -1.5 (52% to cover) | Total 8.5: lean **OVER** (54%)
 
 ### Athletics lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1026,7 +1026,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-19 - New York Yankees @ Baltimore Orioles (Scheduled)
 _Oriole Park at Camden Yards_
 Projected score: New York Yankees 4.09 - Baltimore Orioles 2.85
-Model likes: **New York Yankees** to win (62%) | Run line: **Baltimore Orioles** +1.5 (56% to cover) | Total 6.5: lean **UNDER** (51%)
+Model likes: **New York Yankees** to win (62%) | Run line: **Baltimore Orioles** +1.5 (55% to cover) | Total 6.5: lean **UNDER** (51%)
 
 ### New York Yankees lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1148,7 +1148,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-19 - Seattle Mariners @ Milwaukee Brewers (Scheduled)
 _American Family Field_
 Projected score: Seattle Mariners 3.22 - Milwaukee Brewers 3.79
-Model likes: **Milwaukee Brewers** to win (56%) | Run line: **Seattle Mariners** +1.5 (62% to cover) | Total 6.5: lean **UNDER** (50%)
+Model likes: **Milwaukee Brewers** to win (56%) | Run line: **Seattle Mariners** +1.5 (62% to cover) | Total 6.5: lean **OVER** (50%)
 
 ### Seattle Mariners lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1179,7 +1179,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-19 - Athletics @ Kansas City Royals (Scheduled)
 _Kauffman Stadium [pitcher-friendly park]_
 Projected score: Athletics 3.74 - Kansas City Royals 4.71
-Model likes: **Kansas City Royals** to win (58%) | Run line: **Athletics** +1.5 (57% to cover) | Total 7.5: lean **OVER** (53%)
+Model likes: **Kansas City Royals** to win (58%) | Run line: **Athletics** +1.5 (57% to cover) | Total 7.5: lean **OVER** (54%)
 
 ### Athletics lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1268,7 +1268,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-19 - Los Angeles Dodgers @ Colorado Rockies (Scheduled)
 _Coors Field [hitter-friendly park]_
 Projected score: Los Angeles Dodgers 6.8 - Colorado Rockies 5.08
-Model likes: **Los Angeles Dodgers** to win (61%) | Run line: **Colorado Rockies** +1.5 (50% to cover) | Total 11.5: lean **UNDER** (53%)
+Model likes: **Los Angeles Dodgers** to win (62%) | Run line: **Colorado Rockies** +1.5 (50% to cover) | Total 11.5: lean **UNDER** (53%)
 
 ### Los Angeles Dodgers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
