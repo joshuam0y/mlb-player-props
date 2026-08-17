@@ -24,5 +24,20 @@ jobs:
       - uses: actions/upload-pages-artifact@v3
         with:
           path: output
-      - id: deployment
+      # hourly.yml and quick-refresh.yml already retry-tolerate GitHub's
+      # own occasional Pages-backend hiccups via continue-on-error; this
+      # on-demand workflow gets the same one retry so a manual trigger
+      # doesn't fail on the same transient issue and need re-running by hand.
+      - name: Deploy to Pages
+        id: deployment
+        continue-on-error: true
+        uses: actions/deploy-pages@v4
+
+      - name: Wait before retry
+        if: steps.deployment.outcome == 'failure'
+        run: sleep 20
+
+      - name: Deploy to Pages (retry)
+        id: deployment_retry
+        if: steps.deployment.outcome == 'failure'
         uses: actions/deploy-pages@v4
