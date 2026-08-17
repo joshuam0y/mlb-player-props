@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-17T16:55:52.060633+00:00_
+_Generated 2026-08-17T16:58:28.751229+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -302,7 +302,7 @@ _Facing a taxed bullpen: 8.3 relief IP in last 2 days (ratio 1.57)_
 ## 2026-08-17 - Athletics @ Kansas City Royals (Scheduled)
 _Kauffman Stadium [pitcher-friendly park]_
 Projected score: Athletics 3.07 - Kansas City Royals 5.53
-Model likes: **Kansas City Royals** to win (70%) | Run line: **Kansas City Royals** -1.5 (56% to cover) | Total 7.5: lean **OVER** (55%)
+Model likes: **Kansas City Royals** to win (70%) | Run line: **Kansas City Royals** -1.5 (56% to cover) | Total 7.5: lean **OVER** (54%)
 
 ### Athletics lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.3 relief IP in last 2 days (ratio 0.44)_
@@ -600,7 +600,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.46)_
 ## 2026-08-18 - Arizona Diamondbacks @ Boston Red Sox (Scheduled)
 _Fenway Park_
 Projected score: Arizona Diamondbacks 3.29 - Boston Red Sox 4.69
-Model likes: **Boston Red Sox** to win (63%) | Run line: **Arizona Diamondbacks** +1.5 (54% to cover) | Total 7.5: lean **UNDER** (51%)
+Model likes: **Boston Red Sox** to win (63%) | Run line: **Arizona Diamondbacks** +1.5 (53% to cover) | Total 7.5: lean **UNDER** (51%)
 
 ### Arizona Diamondbacks lineup -- PROJECTED (unconfirmed)
 **Probable P: Merrill Kelly (R)** -- L5: 26.3 IP, 20 K, 14 ER, 4.78 ERA
@@ -1024,7 +1024,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-19 - New York Yankees @ Baltimore Orioles (Scheduled)
 _Oriole Park at Camden Yards_
 Projected score: New York Yankees 4.1 - Baltimore Orioles 2.85
-Model likes: **New York Yankees** to win (63%) | Run line: **Baltimore Orioles** +1.5 (55% to cover) | Total 6.5: lean **UNDER** (51%)
+Model likes: **New York Yankees** to win (62%) | Run line: **Baltimore Orioles** +1.5 (55% to cover) | Total 6.5: lean **UNDER** (51%)
 
 ### New York Yankees lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
