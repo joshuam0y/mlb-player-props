@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-18T19:43:14.961100+00:00_
+_Generated 2026-08-18T19:54:35.115150+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -54,12 +54,12 @@ _Generated 2026-08-18T19:43:14.961100+00:00_
 
 ## 2026-08-18 - New York Yankees @ Baltimore Orioles (Pre-Game)
 _Oriole Park at Camden Yards_
-Projected score: New York Yankees 3.62 - Baltimore Orioles 3.56
-Model likes: **New York Yankees** to win (51%) | Run line: **Baltimore Orioles** +1.5 (67% to cover) | Total 6.5: lean **OVER** (52%)
+Projected score: New York Yankees 3.62 - Baltimore Orioles 3.06
+Model likes: **New York Yankees** to win (56%) | Run line: **Baltimore Orioles** +1.5 (62% to cover) | Total 6.5: lean **UNDER** (54%)
 
 ### New York Yankees lineup -- CONFIRMED
 _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.36)_
-**Probable P: Carlos Rodón (L)** -- L5: no data
+**Probable P: Carlos Rodón (L)** -- L5: 27.3 IP, 32 K, 10 ER, 3.29 ERA
 - #1 Trent Grisham (L) [MATCHUP EDGE: pitcher hits 0.293 avg-against vs this hand] -- L7: 10H 4HR 8RBI 25TB (0.357 avg) -- away split: 0.173 avg
 - #2 Ben Rice (L) [MATCHUP EDGE: pitcher hits 0.293 avg-against vs this hand] -- L7: 3H 1HR 3RBI 7TB (0.111 avg) -- away split: 0.263 avg
 - #3 Heliot Ramos (R) -- L7: 1H 0HR 0RBI 2TB (0.043 avg) -- away split: 0.233 avg
@@ -267,7 +267,7 @@ Model likes: **New York Mets** to win (52%) | Run line: **San Diego Padres** +1.
 
 ## 2026-08-18 - Arizona Diamondbacks @ Boston Red Sox (Pre-Game)
 _Fenway Park_
-Projected score: Arizona Diamondbacks 3.15 - Boston Red Sox 4.84
+Projected score: Arizona Diamondbacks 3.15 - Boston Red Sox 4.86
 Model likes: **Boston Red Sox** to win (65%) | Run line: **Arizona Diamondbacks** +1.5 (51% to cover) | Total 7.5: lean **UNDER** (51%)
 
 ### Arizona Diamondbacks lineup -- CONFIRMED
@@ -284,7 +284,6 @@ _Facing a taxed bullpen: 11.7 relief IP in last 2 days (ratio 2.14)_
 - #9 Ryan Waldschmidt (R) -- L7: 3H 0HR 1RBI 3TB (0.158 avg) -- away split: 0.217 avg
 
 ### Boston Red Sox lineup -- CONFIRMED
-_Facing a taxed bullpen: 6.3 relief IP in last 2 days (ratio 1.2)_
 **Probable P: Ranger Suarez (L)** -- L5: 19.3 IP, 18 K, 10 ER, 4.66 ERA
 - #1 Nick Sogard (S) [MATCHUP EDGE: pitcher hits 0.280 avg-against vs this hand] -- L7: 6H 0HR 3RBI 8TB (0.231 avg) -- home split: 0.286 avg
 - #2 Ceddanne Rafaela (R) -- L7: 10H 1HR 4RBI 17TB (0.345 avg) -- home split: 0.285 avg
@@ -419,7 +418,7 @@ _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.33)_
 ## 2026-08-18 - Chicago White Sox @ Chicago Cubs (Scheduled)
 _Wrigley Field_
 Projected score: Chicago White Sox 4.68 - Chicago Cubs 5.68
-Model likes: **Chicago Cubs** to win (57%) | Run line: **Chicago White Sox** +1.5 (56% to cover) | Total 9.5: lean **OVER** (52%)
+Model likes: **Chicago Cubs** to win (57%) | Run line: **Chicago White Sox** +1.5 (56% to cover) | Total 9.5: lean **OVER** (51%)
 
 ### Chicago White Sox lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 8.3 relief IP in last 2 days (ratio 2.02)_
@@ -628,8 +627,8 @@ _Facing a rested bullpen: 4.3 relief IP in last 2 days (ratio 0.64)_
 
 ## 2026-08-19 - Arizona Diamondbacks @ Boston Red Sox (Scheduled)
 _Fenway Park_
-Projected score: Arizona Diamondbacks 3.15 - Boston Red Sox 3.8
-Model likes: **Boston Red Sox** to win (57%) | Run line: **Arizona Diamondbacks** +1.5 (61% to cover) | Total 6.5: lean **UNDER** (51%)
+Projected score: Arizona Diamondbacks 3.15 - Boston Red Sox 3.83
+Model likes: **Boston Red Sox** to win (57%) | Run line: **Arizona Diamondbacks** +1.5 (61% to cover) | Total 6.5: lean **UNDER** (50%)
 
 ### Arizona Diamondbacks lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 7.7 relief IP in last 2 days (ratio 1.4)_
@@ -690,7 +689,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.58)_
 ## 2026-08-19 - New York Yankees @ Baltimore Orioles (Scheduled)
 _Oriole Park at Camden Yards_
 Projected score: New York Yankees 4.1 - Baltimore Orioles 3.51
-Model likes: **New York Yankees** to win (55%) | Run line: **Baltimore Orioles** +1.5 (61% to cover) | Total 7.5: lean **UNDER** (54%)
+Model likes: **New York Yankees** to win (56%) | Run line: **Baltimore Orioles** +1.5 (61% to cover) | Total 7.5: lean **UNDER** (54%)
 
 ### New York Yankees lineup -- PROJECTED (unconfirmed)
 - Ben Rice (L) [MATCHUP EDGE: pitcher hits 0.327 avg-against vs this hand] -- L7: 3H 1HR 3RBI 7TB (0.111 avg) -- away split: 0.263 avg
@@ -810,7 +809,7 @@ _Facing a taxed bullpen: 8.0 relief IP in last 2 days (ratio 1.54)_
 ## 2026-08-19 - Seattle Mariners @ Milwaukee Brewers (Scheduled)
 _American Family Field_
 Projected score: Seattle Mariners 3.09 - Milwaukee Brewers 3.56
-Model likes: **Milwaukee Brewers** to win (55%) | Run line: **Seattle Mariners** +1.5 (64% to cover) | Total 6.5: lean **UNDER** (54%)
+Model likes: **Milwaukee Brewers** to win (55%) | Run line: **Seattle Mariners** +1.5 (63% to cover) | Total 6.5: lean **UNDER** (54%)
 
 ### Seattle Mariners lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
