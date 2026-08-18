@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-18T20:48:49.830776+00:00_
+_Generated 2026-08-18T20:52:11.225859+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -54,7 +54,7 @@ _Generated 2026-08-18T20:48:49.830776+00:00_
 ## 2026-08-18 - New York Yankees @ Baltimore Orioles (Pre-Game)
 _Oriole Park at Camden Yards_
 Projected score: New York Yankees 3.62 - Baltimore Orioles 3.06
-Model likes: **New York Yankees** to win (56%) | Run line: **Baltimore Orioles** +1.5 (63% to cover) | Total 6.5: lean **UNDER** (54%)
+Model likes: **New York Yankees** to win (56%) | Run line: **Baltimore Orioles** +1.5 (62% to cover) | Total 6.5: lean **UNDER** (53%)
 
 ### New York Yankees lineup -- CONFIRMED
 _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.36)_
@@ -297,7 +297,7 @@ _Facing a taxed bullpen: 11.7 relief IP in last 2 days (ratio 2.14)_
 ## 2026-08-18 - Atlanta Braves @ Minnesota Twins (Pre-Game)
 _Target Field_
 Projected score: Atlanta Braves 5.24 - Minnesota Twins 4.01
-Model likes: **Atlanta Braves** to win (60%) | Run line: **Minnesota Twins** +1.5 (54% to cover) | Total 8.5: lean **OVER** (51%)
+Model likes: **Atlanta Braves** to win (60%) | Run line: **Minnesota Twins** +1.5 (55% to cover) | Total 8.5: lean **OVER** (51%)
 
 ### Atlanta Braves lineup -- CONFIRMED
 _Facing a taxed bullpen: 8.3 relief IP in last 2 days (ratio 2.05)_
@@ -810,7 +810,7 @@ _Facing a taxed bullpen: 8.0 relief IP in last 2 days (ratio 1.54)_
 ## 2026-08-19 - Seattle Mariners @ Milwaukee Brewers (Scheduled)
 _American Family Field_
 Projected score: Seattle Mariners 3.09 - Milwaukee Brewers 3.56
-Model likes: **Milwaukee Brewers** to win (55%) | Run line: **Seattle Mariners** +1.5 (63% to cover) | Total 6.5: lean **UNDER** (54%)
+Model likes: **Milwaukee Brewers** to win (55%) | Run line: **Seattle Mariners** +1.5 (64% to cover) | Total 6.5: lean **UNDER** (54%)
 
 ### Seattle Mariners lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
