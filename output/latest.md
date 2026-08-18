@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-18T02:04:21.979571+00:00_
+_Generated 2026-08-18T02:23:11.156589+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -112,7 +112,7 @@ _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.36)_
 - #8 Richie Palacios (L) [likely BABIP-driven, not a real power uptick] -- L7: 7H 0HR 2RBI 9TB (0.368 avg) -- home split: 0.232 avg
 - #9 Jorge Mateo (R) -- L7: 2H 0HR 1RBI 3TB (0.286 avg) -- home split: 0.208 avg
 
-## 2026-08-17 - Miami Marlins @ Philadelphia Phillies (Game Over)
+## 2026-08-17 - Miami Marlins @ Philadelphia Phillies (Final)
 _Citizens Bank Park [hitter-friendly park]_
 Final: Miami Marlins 5 - Philadelphia Phillies 6
 
@@ -175,7 +175,7 @@ _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.37)_
 ## 2026-08-17 - Detroit Tigers @ Pittsburgh Pirates (In Progress)
 _PNC Park_
 Projected score: Detroit Tigers 4.98 - Pittsburgh Pirates 4.2
-Model likes: **Detroit Tigers** to win (56%) | Run line: **Pittsburgh Pirates** +1.5 (58% to cover) | Total 8.5: lean **OVER** (50%)
+Model likes: **Detroit Tigers** to win (56%) | Run line: **Pittsburgh Pirates** +1.5 (58% to cover) | Total 8.5: lean **OVER** (51%)
 
 ### Detroit Tigers lineup -- CONFIRMED
 _Facing a taxed bullpen: 10.0 relief IP in last 2 days (ratio 1.62)_
@@ -478,7 +478,7 @@ _Facing a taxed bullpen: 10.0 relief IP in last 2 days (ratio 1.62)_
 ## 2026-08-18 - Miami Marlins @ Philadelphia Phillies (Scheduled)
 _Citizens Bank Park [hitter-friendly park]_
 Projected score: Miami Marlins 3.61 - Philadelphia Phillies 5.2
-Model likes: **Philadelphia Phillies** to win (63%) | Run line: **Miami Marlins** +1.5 (51% to cover) | Total 8.5: lean **UNDER** (53%)
+Model likes: **Philadelphia Phillies** to win (63%) | Run line: **Miami Marlins** +1.5 (52% to cover) | Total 8.5: lean **UNDER** (53%)
 
 ### Miami Marlins lineup -- PROJECTED (unconfirmed)
 - Jakob Marsee (L) -- L7: 6H 1HR 1RBI 9TB (0.240 avg) -- away split: 0.200 avg
@@ -567,7 +567,7 @@ _Facing a taxed bullpen: 12.0 relief IP in last 2 days (ratio 2.31)_
 ## 2026-08-18 - San Diego Padres @ New York Mets (Scheduled)
 _Citi Field_
 Projected score: San Diego Padres 3.19 - New York Mets 3.5
-Model likes: **New York Mets** to win (53%) | Run line: **San Diego Padres** +1.5 (65% to cover) | Total 6.5: lean **UNDER** (54%)
+Model likes: **New York Mets** to win (53%) | Run line: **San Diego Padres** +1.5 (65% to cover) | Total 6.5: lean **UNDER** (53%)
 
 ### San Diego Padres lineup -- PROJECTED (unconfirmed)
 **Probable P: Robbie Ray (L)** -- L5: 25.0 IP, 23 K, 8 ER, 2.88 ERA
@@ -806,7 +806,7 @@ _Facing a rested bullpen: 3.7 relief IP in last 2 days (ratio 0.63)_
 ## 2026-08-18 - Los Angeles Dodgers @ Colorado Rockies (Scheduled)
 _Coors Field [hitter-friendly park]_
 Projected score: Los Angeles Dodgers 6.27 - Colorado Rockies 5.16
-Model likes: **Los Angeles Dodgers** to win (58%) | Run line: **Colorado Rockies** +1.5 (55% to cover) | Total 10.5: lean **OVER** (51%)
+Model likes: **Los Angeles Dodgers** to win (58%) | Run line: **Colorado Rockies** +1.5 (55% to cover) | Total 10.5: lean **OVER** (52%)
 
 ### Los Angeles Dodgers lineup -- PROJECTED (unconfirmed)
 **Probable P: Eric Lauer (L)** -- L5: 27.7 IP, 19 K, 13 ER, 4.23 ERA
@@ -867,7 +867,7 @@ _Facing a rested bullpen: 0.3 relief IP in last 2 days (ratio 0.07)_
 ## 2026-08-19 - San Diego Padres @ New York Mets (Scheduled)
 _Citi Field_
 Projected score: San Diego Padres 4.79 - New York Mets 3.56
-Model likes: **San Diego Padres** to win (61%) | Run line: **New York Mets** +1.5 (55% to cover) | Total 7.5: lean **OVER** (52%)
+Model likes: **San Diego Padres** to win (61%) | Run line: **New York Mets** +1.5 (55% to cover) | Total 7.5: lean **OVER** (53%)
 
 ### San Diego Padres lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.53)_
@@ -1172,7 +1172,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-19 - Athletics @ Kansas City Royals (Scheduled)
 _Kauffman Stadium [pitcher-friendly park]_
 Projected score: Athletics 3.74 - Kansas City Royals 4.71
-Model likes: **Kansas City Royals** to win (58%) | Run line: **Athletics** +1.5 (57% to cover) | Total 7.5: lean **OVER** (54%)
+Model likes: **Kansas City Royals** to win (58%) | Run line: **Athletics** +1.5 (57% to cover) | Total 7.5: lean **OVER** (53%)
 
 ### Athletics lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.38)_
