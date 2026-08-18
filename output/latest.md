@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-18T09:09:17.689906+00:00_
+_Generated 2026-08-18T09:19:04.123402+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -240,7 +240,7 @@ _Facing a taxed bullpen: 12.0 relief IP in last 2 days (ratio 2.31)_
 ## 2026-08-18 - San Diego Padres @ New York Mets (Scheduled)
 _Citi Field_
 Projected score: San Diego Padres 3.15 - New York Mets 3.14
-Model likes: **New York Mets** to win (50%) | Run line: **San Diego Padres** +1.5 (69% to cover) | Total 5.5: lean **OVER** (54%)
+Model likes: **San Diego Padres** to win (50%) | Run line: **New York Mets** +1.5 (69% to cover) | Total 5.5: lean **OVER** (54%)
 
 ### San Diego Padres lineup -- PROJECTED (unconfirmed)
 **Probable P: Robbie Ray (L)** -- L5: 25.0 IP, 23 K, 8 ER, 2.88 ERA
@@ -390,7 +390,7 @@ _Facing a taxed bullpen: 8.3 relief IP in last 2 days (ratio 1.74)_
 ## 2026-08-18 - Washington Nationals @ Texas Rangers (Scheduled)
 _Globe Life Field [hitter-friendly park]_
 Projected score: Washington Nationals 4.12 - Texas Rangers 4.46
-Model likes: **Texas Rangers** to win (53%) | Run line: **Washington Nationals** +1.5 (62% to cover) | Total 7.5: lean **OVER** (55%)
+Model likes: **Texas Rangers** to win (53%) | Run line: **Washington Nationals** +1.5 (62% to cover) | Total 8.5: lean **UNDER** (55%)
 
 ### Washington Nationals lineup -- PROJECTED (unconfirmed)
 **Probable P: Jackson Kent (L)** -- L5: 4.0 IP, 6 K, 3 ER, 6.75 ERA
@@ -571,7 +571,7 @@ _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.31)_
 ## 2026-08-19 - Atlanta Braves @ Minnesota Twins (Scheduled)
 _Target Field_
 Projected score: Atlanta Braves 4.12 - Minnesota Twins 2.6
-Model likes: **Atlanta Braves** to win (66%) | Run line: **Minnesota Twins** +1.5 (53% to cover) | Total 6.5: lean **UNDER** (53%)
+Model likes: **Atlanta Braves** to win (65%) | Run line: **Minnesota Twins** +1.5 (53% to cover) | Total 6.5: lean **UNDER** (53%)
 
 ### Atlanta Braves lineup -- PROJECTED (unconfirmed)
 **Probable P: Chris Sale (L)** -- L5: 31.0 IP, 43 K, 7 ER, 2.03 ERA
@@ -720,7 +720,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-19 - Toronto Blue Jays @ Tampa Bay Rays (Scheduled)
 _Tropicana Field_
 Projected score: Toronto Blue Jays 2.99 - Tampa Bay Rays 4.71
-Model likes: **Tampa Bay Rays** to win (66%) | Run line: **Toronto Blue Jays** +1.5 (51% to cover) | Total 7.5: lean **UNDER** (54%)
+Model likes: **Tampa Bay Rays** to win (66%) | Run line: **Toronto Blue Jays** +1.5 (50% to cover) | Total 7.5: lean **UNDER** (54%)
 
 ### Toronto Blue Jays lineup -- PROJECTED (unconfirmed)
 **Probable P: Max Scherzer (R)** -- L5: 22.3 IP, 21 K, 10 ER, 4.03 ERA
@@ -842,7 +842,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-19 - Athletics @ Kansas City Royals (Scheduled)
 _Kauffman Stadium [pitcher-friendly park]_
 Projected score: Athletics 3.74 - Kansas City Royals 4.88
-Model likes: **Kansas City Royals** to win (60%) | Run line: **Athletics** +1.5 (56% to cover) | Total 8.5: lean **UNDER** (54%)
+Model likes: **Kansas City Royals** to win (60%) | Run line: **Athletics** +1.5 (55% to cover) | Total 8.5: lean **UNDER** (54%)
 
 ### Athletics lineup -- PROJECTED (unconfirmed)
 - Henry Bolte (R) [3-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 10H 1HR 3RBI 14TB (0.370 avg) -- away split: 0.213 avg
@@ -929,7 +929,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-19 - Los Angeles Dodgers @ Colorado Rockies (Scheduled)
 _Coors Field [hitter-friendly park]_
 Projected score: Los Angeles Dodgers 7.04 - Colorado Rockies 5.1
-Model likes: **Los Angeles Dodgers** to win (62%) | Run line: **Los Angeles Dodgers** -1.5 (51% to cover) | Total 11.5: lean **UNDER** (51%)
+Model likes: **Los Angeles Dodgers** to win (63%) | Run line: **Los Angeles Dodgers** -1.5 (51% to cover) | Total 11.5: lean **UNDER** (51%)
 
 ### Los Angeles Dodgers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.56)_
