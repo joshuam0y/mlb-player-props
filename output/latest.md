@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-18T08:49:46.240250+00:00_
+_Generated 2026-08-18T09:09:17.689906+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -240,7 +240,7 @@ _Facing a taxed bullpen: 12.0 relief IP in last 2 days (ratio 2.31)_
 ## 2026-08-18 - San Diego Padres @ New York Mets (Scheduled)
 _Citi Field_
 Projected score: San Diego Padres 3.15 - New York Mets 3.14
-Model likes: **San Diego Padres** to win (50%) | Run line: **New York Mets** +1.5 (69% to cover) | Total 5.5: lean **OVER** (54%)
+Model likes: **New York Mets** to win (50%) | Run line: **San Diego Padres** +1.5 (69% to cover) | Total 5.5: lean **OVER** (54%)
 
 ### San Diego Padres lineup -- PROJECTED (unconfirmed)
 **Probable P: Robbie Ray (L)** -- L5: 25.0 IP, 23 K, 8 ER, 2.88 ERA
@@ -691,7 +691,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.58)_
 ## 2026-08-19 - New York Yankees @ Baltimore Orioles (Scheduled)
 _Oriole Park at Camden Yards_
 Projected score: New York Yankees 4.1 - Baltimore Orioles 3.51
-Model likes: **New York Yankees** to win (55%) | Run line: **Baltimore Orioles** +1.5 (61% to cover) | Total 7.5: lean **UNDER** (54%)
+Model likes: **New York Yankees** to win (56%) | Run line: **Baltimore Orioles** +1.5 (61% to cover) | Total 7.5: lean **UNDER** (54%)
 
 ### New York Yankees lineup -- PROJECTED (unconfirmed)
 - Ben Rice (L) [MATCHUP EDGE: pitcher hits 0.327 avg-against vs this hand] -- L7: 3H 1HR 3RBI 7TB (0.111 avg) -- away split: 0.263 avg
@@ -991,7 +991,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-20 - Toronto Blue Jays @ Tampa Bay Rays (Scheduled)
 _Tropicana Field_
 Projected score: Toronto Blue Jays 3.87 - Tampa Bay Rays 4.15
-Model likes: **Tampa Bay Rays** to win (52%) | Run line: **Toronto Blue Jays** +1.5 (63% to cover) | Total 7.5: lean **UNDER** (50%)
+Model likes: **Tampa Bay Rays** to win (53%) | Run line: **Toronto Blue Jays** +1.5 (63% to cover) | Total 7.5: lean **UNDER** (50%)
 
 ### Toronto Blue Jays lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1022,7 +1022,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-20 - San Francisco Giants @ Cleveland Guardians (Scheduled)
 _Progressive Field_
 Projected score: San Francisco Giants 3.21 - Cleveland Guardians 3.47
-Model likes: **Cleveland Guardians** to win (53%) | Run line: **San Francisco Giants** +1.5 (66% to cover) | Total 6.5: lean **UNDER** (53%)
+Model likes: **Cleveland Guardians** to win (53%) | Run line: **San Francisco Giants** +1.5 (66% to cover) | Total 6.5: lean **UNDER** (54%)
 
 ### San Francisco Giants lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
