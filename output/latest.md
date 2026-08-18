@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-18T03:21:27.046111+00:00_
+_Generated 2026-08-18T03:25:24.565241+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -259,7 +259,7 @@ Final: Arizona Diamondbacks 1 - Boston Red Sox 11
 - #8 Mickey Gasper (S) -- L7: 3H 0HR 1RBI 4TB (0.136 avg) -- home split: 0.280 avg
 - #9 Eli White (R) -- L7: 4H 0HR 1RBI 4TB (0.267 avg) -- home split: 0.164 avg
 
-## 2026-08-17 - Atlanta Braves @ Minnesota Twins (Game Over)
+## 2026-08-17 - Atlanta Braves @ Minnesota Twins (Final)
 _Target Field_
 Final: Atlanta Braves 2 - Minnesota Twins 4
 
@@ -445,7 +445,7 @@ _Facing a rested bullpen: 3.7 relief IP in last 2 days (ratio 0.55)_
 ## 2026-08-18 - Detroit Tigers @ Pittsburgh Pirates (Scheduled)
 _PNC Park_
 Projected score: Detroit Tigers 4.75 - Pittsburgh Pirates 3.97
-Model likes: **Detroit Tigers** to win (57%) | Run line: **Pittsburgh Pirates** +1.5 (58% to cover) | Total 8.5: lean **UNDER** (53%)
+Model likes: **Detroit Tigers** to win (57%) | Run line: **Pittsburgh Pirates** +1.5 (58% to cover) | Total 8.5: lean **UNDER** (54%)
 
 ### Detroit Tigers lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 12.0 relief IP in last 2 days (ratio 1.93)_
@@ -479,7 +479,6 @@ Projected score: Miami Marlins 3.61 - Philadelphia Phillies 4.8
 Model likes: **Philadelphia Phillies** to win (60%) | Run line: **Miami Marlins** +1.5 (55% to cover) | Total 7.5: lean **OVER** (53%)
 
 ### Miami Marlins lineup -- PROJECTED (unconfirmed)
-_Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.39)_
 **Probable P: Cade Gibson (L)** [BULLPEN GAME: short-outing arm, no reliable individual matchup below] -- L5: 5.3 IP, 3 K, 3 ER, 5.06 ERA
 - Jakob Marsee (L) -- L7: 6H 1HR 1RBI 9TB (0.240 avg) -- away split: 0.200 avg
 - Javier Sanoja (R) [TOUGH MATCHUP: pitcher holds this hand to 0.191 avg-against] -- L7: 5H 1HR 5RBI 9TB (0.238 avg) -- away split: 0.265 avg
@@ -596,7 +595,7 @@ Model likes: **New York Mets** to win (53%) | Run line: **San Diego Padres** +1.
 ## 2026-08-18 - Arizona Diamondbacks @ Boston Red Sox (Scheduled)
 _Fenway Park_
 Projected score: Arizona Diamondbacks 3.29 - Boston Red Sox 4.69
-Model likes: **Boston Red Sox** to win (63%) | Run line: **Arizona Diamondbacks** +1.5 (54% to cover) | Total 7.5: lean **UNDER** (51%)
+Model likes: **Boston Red Sox** to win (62%) | Run line: **Arizona Diamondbacks** +1.5 (54% to cover) | Total 7.5: lean **UNDER** (51%)
 
 ### Arizona Diamondbacks lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 11.7 relief IP in last 2 days (ratio 2.14)_
@@ -807,7 +806,7 @@ _Facing a rested bullpen: 3.7 relief IP in last 2 days (ratio 0.63)_
 ## 2026-08-18 - Los Angeles Dodgers @ Colorado Rockies (Scheduled)
 _Coors Field [hitter-friendly park]_
 Projected score: Los Angeles Dodgers 6.27 - Colorado Rockies 5.16
-Model likes: **Los Angeles Dodgers** to win (58%) | Run line: **Colorado Rockies** +1.5 (55% to cover) | Total 10.5: lean **OVER** (52%)
+Model likes: **Los Angeles Dodgers** to win (58%) | Run line: **Colorado Rockies** +1.5 (55% to cover) | Total 10.5: lean **OVER** (51%)
 
 ### Los Angeles Dodgers lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 8.0 relief IP in last 2 days (ratio 1.48)_
@@ -1018,7 +1017,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.58)_
 ## 2026-08-19 - New York Yankees @ Baltimore Orioles (Scheduled)
 _Oriole Park at Camden Yards_
 Projected score: New York Yankees 4.09 - Baltimore Orioles 2.85
-Model likes: **New York Yankees** to win (62%) | Run line: **Baltimore Orioles** +1.5 (56% to cover) | Total 6.5: lean **UNDER** (51%)
+Model likes: **New York Yankees** to win (62%) | Run line: **Baltimore Orioles** +1.5 (55% to cover) | Total 6.5: lean **UNDER** (51%)
 
 ### New York Yankees lineup -- PROJECTED (unconfirmed)
 **Probable P: Max Fried (L)** [INJURY: IL] -- L5: 24.7 IP, 29 K, 5 ER, 1.82 ERA
