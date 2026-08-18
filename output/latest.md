@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-18T21:22:54.025469+00:00_
+_Generated 2026-08-18T21:50:24.048482+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -54,7 +54,7 @@ _Generated 2026-08-18T21:22:54.025469+00:00_
 ## 2026-08-18 - New York Yankees @ Baltimore Orioles (Pre-Game)
 _Oriole Park at Camden Yards_
 Projected score: New York Yankees 3.62 - Baltimore Orioles 3.06
-Model likes: **New York Yankees** to win (56%) | Run line: **Baltimore Orioles** +1.5 (62% to cover) | Total 6.5: lean **UNDER** (53%)
+Model likes: **New York Yankees** to win (56%) | Run line: **Baltimore Orioles** +1.5 (63% to cover) | Total 6.5: lean **UNDER** (54%)
 
 ### New York Yankees lineup -- CONFIRMED
 _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.36)_
@@ -297,7 +297,7 @@ _Facing a taxed bullpen: 11.7 relief IP in last 2 days (ratio 2.14)_
 ## 2026-08-18 - Atlanta Braves @ Minnesota Twins (Pre-Game)
 _Target Field_
 Projected score: Atlanta Braves 5.24 - Minnesota Twins 4.01
-Model likes: **Atlanta Braves** to win (60%) | Run line: **Minnesota Twins** +1.5 (55% to cover) | Total 8.5: lean **OVER** (51%)
+Model likes: **Atlanta Braves** to win (60%) | Run line: **Minnesota Twins** +1.5 (54% to cover) | Total 8.5: lean **OVER** (51%)
 
 ### Atlanta Braves lineup -- CONFIRMED
 _Facing a taxed bullpen: 8.3 relief IP in last 2 days (ratio 2.05)_
@@ -388,7 +388,7 @@ _Facing a taxed bullpen: 8.3 relief IP in last 2 days (ratio 1.74)_
 ## 2026-08-18 - Washington Nationals @ Texas Rangers (Pre-Game)
 _Globe Life Field [hitter-friendly park]_
 Projected score: Washington Nationals 4.01 - Texas Rangers 4.55
-Model likes: **Texas Rangers** to win (55%) | Run line: **Washington Nationals** +1.5 (61% to cover) | Total 7.5: lean **OVER** (55%)
+Model likes: **Texas Rangers** to win (55%) | Run line: **Washington Nationals** +1.5 (60% to cover) | Total 7.5: lean **OVER** (55%)
 
 ### Washington Nationals lineup -- CONFIRMED
 **Probable P: Jackson Kent (L)** -- L5: 4.0 IP, 6 K, 3 ER, 6.75 ERA
@@ -478,21 +478,21 @@ _Facing a rested bullpen: 3.7 relief IP in last 2 days (ratio 0.63)_
 
 ## 2026-08-18 - Los Angeles Dodgers @ Colorado Rockies (Pre-Game)
 _Coors Field [hitter-friendly park]_
-Projected score: Los Angeles Dodgers 6.5 - Colorado Rockies 5.25
-Model likes: **Los Angeles Dodgers** to win (58%) | Run line: **Colorado Rockies** +1.5 (54% to cover) | Total 11.5: lean **UNDER** (54%)
+Projected score: Los Angeles Dodgers 6.73 - Colorado Rockies 5.25
+Model likes: **Los Angeles Dodgers** to win (60%) | Run line: **Colorado Rockies** +1.5 (52% to cover) | Total 11.5: lean **UNDER** (52%)
 
-### Los Angeles Dodgers lineup -- PROJECTED (unconfirmed)
+### Los Angeles Dodgers lineup -- CONFIRMED
 _Facing a taxed bullpen: 8.0 relief IP in last 2 days (ratio 1.48)_
 **Probable P: Eric Lauer (L)** -- L5: 27.7 IP, 19 K, 13 ER, 4.23 ERA
-- Andy Pages (R) -- L7: 9H 2HR 4RBI 16TB (0.333 avg) -- away split: 0.256 avg
-- Tommy Edman (S) [MATCHUP EDGE: pitcher hits 0.274 avg-against vs this hand] -- L7: 4H 1HR 1RBI 7TB (0.182 avg) -- away split: 0.287 avg
-- Shohei Ohtani (L) [MATCHUP EDGE: pitcher hits 0.274 avg-against vs this hand] [3-game hit streak] -- L7: 9H 3HR 6RBI 21TB (0.310 avg) -- away split: 0.298 avg
-- Teoscar Hernández (R) -- L7: 5H 0HR 1RBI 6TB (0.238 avg) -- away split: 0.245 avg
-- Mookie Betts (R) -- L7: 8H 2HR 6RBI 16TB (0.320 avg) -- away split: 0.239 avg
-- Kyle Tucker (L) [MATCHUP EDGE: pitcher hits 0.274 avg-against vs this hand] -- L7: 0H 0HR 0RBI 0TB (0.000 avg) -- away split: 0.269 avg
-- Max Muncy (L) [MATCHUP EDGE: pitcher hits 0.274 avg-against vs this hand] -- L7: 7H 3HR 8RBI 17TB (0.318 avg) -- away split: 0.267 avg -- news: 10 questions with Dodgers vet Max Muncy
-- Freddie Freeman (L) [MATCHUP EDGE: pitcher hits 0.274 avg-against vs this hand] -- L7: 7H 0HR 3RBI 9TB (0.269 avg) -- away split: 0.335 avg
-- Hunter Feduccia (L) [MATCHUP EDGE: pitcher hits 0.274 avg-against vs this hand] -- L7: 4H 1HR 1RBI 8TB (0.222 avg) -- away split: 0.221 avg
+- #1 Shohei Ohtani (L) [MATCHUP EDGE: pitcher hits 0.274 avg-against vs this hand] [3-game hit streak] -- L7: 9H 3HR 6RBI 21TB (0.310 avg) -- away split: 0.298 avg
+- #2 Freddie Freeman (L) [MATCHUP EDGE: pitcher hits 0.274 avg-against vs this hand] -- L7: 7H 0HR 3RBI 9TB (0.269 avg) -- away split: 0.335 avg
+- #3 Andy Pages (R) -- L7: 9H 2HR 4RBI 16TB (0.333 avg) -- away split: 0.256 avg
+- #4 Max Muncy (L) [MATCHUP EDGE: pitcher hits 0.274 avg-against vs this hand] -- L7: 7H 3HR 8RBI 17TB (0.318 avg) -- away split: 0.267 avg -- news: 10 questions with Dodgers vet Max Muncy
+- #5 Mookie Betts (R) -- L7: 8H 2HR 6RBI 16TB (0.320 avg) -- away split: 0.239 avg
+- #6 Tommy Edman (S) [MATCHUP EDGE: pitcher hits 0.274 avg-against vs this hand] -- L7: 4H 1HR 1RBI 7TB (0.182 avg) -- away split: 0.287 avg
+- #7 Kyle Tucker (L) [MATCHUP EDGE: pitcher hits 0.274 avg-against vs this hand] -- L7: 0H 0HR 0RBI 0TB (0.000 avg) -- away split: 0.269 avg
+- #8 Teoscar Hernández (R) -- L7: 5H 0HR 1RBI 6TB (0.238 avg) -- away split: 0.245 avg
+- #9 Hunter Feduccia (L) [MATCHUP EDGE: pitcher hits 0.274 avg-against vs this hand] -- L7: 4H 1HR 1RBI 8TB (0.222 avg) -- away split: 0.221 avg
 
 ### Colorado Rockies lineup -- CONFIRMED
 **Probable P: Ryan Feltner (R)** -- L5: 23.7 IP, 14 K, 22 ER, 8.37 ERA
@@ -689,10 +689,11 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.58)_
 
 ## 2026-08-19 - New York Yankees @ Baltimore Orioles (Scheduled)
 _Oriole Park at Camden Yards_
-Projected score: New York Yankees 4.1 - Baltimore Orioles 3.51
-Model likes: **New York Yankees** to win (56%) | Run line: **Baltimore Orioles** +1.5 (61% to cover) | Total 7.5: lean **UNDER** (54%)
+Projected score: New York Yankees 4.1 - Baltimore Orioles 3.65
+Model likes: **New York Yankees** to win (54%) | Run line: **Baltimore Orioles** +1.5 (62% to cover) | Total 7.5: lean **UNDER** (53%)
 
 ### New York Yankees lineup -- PROJECTED (unconfirmed)
+**Probable P: Will Warren (R)** -- L5: 19.7 IP, 21 K, 14 ER, 6.41 ERA
 - Ben Rice (L) [MATCHUP EDGE: pitcher hits 0.327 avg-against vs this hand] -- L7: 3H 1HR 3RBI 7TB (0.111 avg) -- away split: 0.263 avg
 - Spencer Jones (L) [MATCHUP EDGE: pitcher hits 0.327 avg-against vs this hand] -- L7: 4H 0HR 3RBI 7TB (0.174 avg) -- away split: 0.213 avg -- news: Bellinger lands on IL with hamstring strain; Spencer Jones recalled
 - Trent Grisham (L) [MATCHUP EDGE: pitcher hits 0.327 avg-against vs this hand] -- L7: 10H 4HR 8RBI 25TB (0.357 avg) -- away split: 0.173 avg
@@ -706,20 +707,20 @@ Model likes: **New York Yankees** to win (56%) | Run line: **Baltimore Orioles**
 ### Baltimore Orioles lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 **Probable P: Chris Bassitt (R)** -- L5: 23.7 IP, 14 K, 13 ER, 4.94 ERA
-- Jackson Holliday (L) [4-game hit streak] -- L7: 7H 0HR 4RBI 9TB (0.233 avg) -- home split: 0.219 avg
+- Jackson Holliday (L) [MATCHUP EDGE: pitcher hits 0.274 avg-against vs this hand] [4-game hit streak] -- L7: 7H 0HR 4RBI 9TB (0.233 avg) -- home split: 0.219 avg
 - Christian Encarnacion-Strand (R) [4-game hit streak] -- L7: 9H 3HR 11RBI 19TB (0.333 avg) -- home split: 0.231 avg
-- Gunnar Henderson (L) -- L7: 10H 2HR 4RBI 19TB (0.370 avg) -- home split: 0.215 avg
+- Gunnar Henderson (L) [MATCHUP EDGE: pitcher hits 0.274 avg-against vs this hand] -- L7: 10H 2HR 4RBI 19TB (0.370 avg) -- home split: 0.215 avg
 - Pete Alonso (R) [9-game hit streak] -- L7: 14H 3HR 6RBI 24TB (0.519 avg) -- home split: 0.248 avg
 - Coby Mayo (R) -- L7: 5H 1HR 4RBI 10TB (0.217 avg) -- home split: 0.206 avg
-- Dylan Beavers (L) -- L7: 4H 1HR 6RBI 7TB (0.211 avg) -- home split: 0.248 avg
-- Colton Cowser (L) -- L7: 4H 2HR 3RBI 10TB (0.286 avg) -- home split: 0.214 avg
-- Leody Taveras (S) -- L7: 7H 1HR 3RBI 13TB (0.280 avg) -- home split: 0.222 avg
+- Dylan Beavers (L) [MATCHUP EDGE: pitcher hits 0.274 avg-against vs this hand] -- L7: 4H 1HR 6RBI 7TB (0.211 avg) -- home split: 0.248 avg
+- Colton Cowser (L) [MATCHUP EDGE: pitcher hits 0.274 avg-against vs this hand] -- L7: 4H 2HR 3RBI 10TB (0.286 avg) -- home split: 0.214 avg
+- Leody Taveras (S) [MATCHUP EDGE: pitcher hits 0.274 avg-against vs this hand] -- L7: 7H 1HR 3RBI 13TB (0.280 avg) -- home split: 0.222 avg
 - Tyler O'Neill (R) [5-game hit streak] -- L7: 7H 1HR 3RBI 10TB (0.241 avg) -- home split: 0.233 avg
 
 ## 2026-08-19 - Toronto Blue Jays @ Tampa Bay Rays (Scheduled)
 _Tropicana Field_
 Projected score: Toronto Blue Jays 2.99 - Tampa Bay Rays 4.71
-Model likes: **Tampa Bay Rays** to win (66%) | Run line: **Toronto Blue Jays** +1.5 (51% to cover) | Total 7.5: lean **UNDER** (54%)
+Model likes: **Tampa Bay Rays** to win (66%) | Run line: **Toronto Blue Jays** +1.5 (50% to cover) | Total 7.5: lean **UNDER** (54%)
 
 ### Toronto Blue Jays lineup -- PROJECTED (unconfirmed)
 **Probable P: Max Scherzer (R)** -- L5: 22.3 IP, 21 K, 10 ER, 4.03 ERA
@@ -810,7 +811,7 @@ _Facing a taxed bullpen: 8.0 relief IP in last 2 days (ratio 1.54)_
 ## 2026-08-19 - Seattle Mariners @ Milwaukee Brewers (Scheduled)
 _American Family Field_
 Projected score: Seattle Mariners 3.09 - Milwaukee Brewers 3.56
-Model likes: **Milwaukee Brewers** to win (55%) | Run line: **Seattle Mariners** +1.5 (64% to cover) | Total 6.5: lean **UNDER** (54%)
+Model likes: **Milwaukee Brewers** to win (55%) | Run line: **Seattle Mariners** +1.5 (63% to cover) | Total 6.5: lean **UNDER** (54%)
 
 ### Seattle Mariners lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -841,7 +842,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-19 - Athletics @ Kansas City Royals (Scheduled)
 _Kauffman Stadium [pitcher-friendly park]_
 Projected score: Athletics 3.74 - Kansas City Royals 4.88
-Model likes: **Kansas City Royals** to win (60%) | Run line: **Athletics** +1.5 (56% to cover) | Total 8.5: lean **UNDER** (54%)
+Model likes: **Kansas City Royals** to win (60%) | Run line: **Athletics** +1.5 (55% to cover) | Total 8.5: lean **UNDER** (54%)
 
 ### Athletics lineup -- PROJECTED (unconfirmed)
 - Henry Bolte (R) [3-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 10H 1HR 3RBI 14TB (0.370 avg) -- away split: 0.213 avg
@@ -990,7 +991,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-20 - Toronto Blue Jays @ Tampa Bay Rays (Scheduled)
 _Tropicana Field_
 Projected score: Toronto Blue Jays 3.87 - Tampa Bay Rays 4.15
-Model likes: **Tampa Bay Rays** to win (53%) | Run line: **Toronto Blue Jays** +1.5 (63% to cover) | Total 7.5: lean **UNDER** (50%)
+Model likes: **Tampa Bay Rays** to win (52%) | Run line: **Toronto Blue Jays** +1.5 (63% to cover) | Total 7.5: lean **UNDER** (50%)
 
 ### Toronto Blue Jays lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1083,7 +1084,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-20 - Athletics @ Kansas City Royals (Scheduled)
 _Kauffman Stadium [pitcher-friendly park]_
 Projected score: Athletics 3.74 - Kansas City Royals 4.88
-Model likes: **Kansas City Royals** to win (60%) | Run line: **Athletics** +1.5 (55% to cover) | Total 8.5: lean **UNDER** (54%)
+Model likes: **Kansas City Royals** to win (60%) | Run line: **Athletics** +1.5 (56% to cover) | Total 8.5: lean **UNDER** (54%)
 
 ### Athletics lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
