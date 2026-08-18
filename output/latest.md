@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-18T14:55:14.607997+00:00_
+_Generated 2026-08-18T15:02:30.794994+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -420,7 +420,7 @@ _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.33)_
 ## 2026-08-18 - Chicago White Sox @ Chicago Cubs (Scheduled)
 _Wrigley Field_
 Projected score: Chicago White Sox 4.68 - Chicago Cubs 5.68
-Model likes: **Chicago Cubs** to win (57%) | Run line: **Chicago White Sox** +1.5 (56% to cover) | Total 9.5: lean **OVER** (52%)
+Model likes: **Chicago Cubs** to win (57%) | Run line: **Chicago White Sox** +1.5 (56% to cover) | Total 9.5: lean **OVER** (51%)
 
 ### Chicago White Sox lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 8.3 relief IP in last 2 days (ratio 2.02)_
@@ -720,7 +720,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-19 - Toronto Blue Jays @ Tampa Bay Rays (Scheduled)
 _Tropicana Field_
 Projected score: Toronto Blue Jays 2.99 - Tampa Bay Rays 4.71
-Model likes: **Tampa Bay Rays** to win (66%) | Run line: **Toronto Blue Jays** +1.5 (51% to cover) | Total 7.5: lean **UNDER** (54%)
+Model likes: **Tampa Bay Rays** to win (66%) | Run line: **Toronto Blue Jays** +1.5 (50% to cover) | Total 7.5: lean **UNDER** (54%)
 
 ### Toronto Blue Jays lineup -- PROJECTED (unconfirmed)
 **Probable P: Max Scherzer (R)** -- L5: 22.3 IP, 21 K, 10 ER, 4.03 ERA
@@ -750,7 +750,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-19 - San Francisco Giants @ Cleveland Guardians (Scheduled)
 _Progressive Field_
 Projected score: San Francisco Giants 2.59 - Cleveland Guardians 4.12
-Model likes: **Cleveland Guardians** to win (66%) | Run line: **San Francisco Giants** +1.5 (53% to cover) | Total 6.5: lean **UNDER** (53%)
+Model likes: **Cleveland Guardians** to win (66%) | Run line: **San Francisco Giants** +1.5 (52% to cover) | Total 6.5: lean **UNDER** (53%)
 
 ### San Francisco Giants lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -842,7 +842,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-19 - Athletics @ Kansas City Royals (Scheduled)
 _Kauffman Stadium [pitcher-friendly park]_
 Projected score: Athletics 3.74 - Kansas City Royals 4.88
-Model likes: **Kansas City Royals** to win (60%) | Run line: **Athletics** +1.5 (55% to cover) | Total 8.5: lean **UNDER** (54%)
+Model likes: **Kansas City Royals** to win (60%) | Run line: **Athletics** +1.5 (56% to cover) | Total 8.5: lean **UNDER** (54%)
 
 ### Athletics lineup -- PROJECTED (unconfirmed)
 - Henry Bolte (R) [3-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 10H 1HR 3RBI 14TB (0.370 avg) -- away split: 0.213 avg
