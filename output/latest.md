@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-19T17:07:35.876171+00:00_
+_Generated 2026-08-19T17:36:51.970998+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -83,7 +83,7 @@ _Facing a taxed bullpen: 6.3 relief IP in last 2 days (ratio 1.28)_
 - #8 Jared Triolo (R) -- L7: 5H 1HR 3RBI 8TB (0.208 avg) -- home split: 0.233 avg
 - #9 Henry Davis (R) -- L7: 4H 0HR 2RBI 4TB (0.174 avg) -- home split: 0.189 avg
 
-## 2026-08-19 - San Diego Padres @ New York Mets (Warmup)
+## 2026-08-19 - San Diego Padres @ New York Mets (In Progress)
 _Citi Field_
 Projected score: San Diego Padres 4.98 - New York Mets 3.16
 Model likes: **San Diego Padres** to win (66%) | Run line: **San Diego Padres** -1.5 (50% to cover) | Total 7.5: lean **OVER** (50%)
@@ -112,7 +112,7 @@ Model likes: **San Diego Padres** to win (66%) | Run line: **San Diego Padres** 
 - #8 Marcus Semien (R) -- L7: 3H 0HR 0RBI 4TB (0.130 avg) -- home split: 0.194 avg
 - #9 Luis Torrens (R) [4-game hit streak] -- L7: 10H 5HR 11RBI 25TB (0.476 avg) -- home split: 0.212 avg
 
-## 2026-08-19 - Atlanta Braves @ Minnesota Twins (Pre-Game)
+## 2026-08-19 - Atlanta Braves @ Minnesota Twins (Warmup)
 _Target Field_
 Projected score: Atlanta Braves 4.18 - Minnesota Twins 3.5
 Model likes: **Atlanta Braves** to win (56%) | Run line: **Minnesota Twins** +1.5 (60% to cover) | Total 7.5: lean **UNDER** (54%)
@@ -391,7 +391,7 @@ _Facing a rested bullpen: 2.3 relief IP in last 2 days (ratio 0.51)_
 ## 2026-08-19 - Athletics @ Kansas City Royals (Scheduled)
 _Kauffman Stadium [pitcher-friendly park]_
 Projected score: Athletics 3.72 - Kansas City Royals 4.85
-Model likes: **Kansas City Royals** to win (60%) | Run line: **Athletics** +1.5 (56% to cover) | Total 7.5: lean **OVER** (54%)
+Model likes: **Kansas City Royals** to win (60%) | Run line: **Athletics** +1.5 (56% to cover) | Total 7.5: lean **OVER** (55%)
 
 ### Athletics lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 9.0 relief IP in last 2 days (ratio 1.7)_
@@ -480,7 +480,7 @@ _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.34)_
 ## 2026-08-19 - Los Angeles Dodgers @ Colorado Rockies (Scheduled)
 _Coors Field [hitter-friendly park]_
 Projected score: Los Angeles Dodgers 6.91 - Colorado Rockies 5.23
-Model likes: **Los Angeles Dodgers** to win (61%) | Run line: **Colorado Rockies** +1.5 (50% to cover) | Total 11.5: lean **UNDER** (51%)
+Model likes: **Los Angeles Dodgers** to win (61%) | Run line: **Colorado Rockies** +1.5 (51% to cover) | Total 11.5: lean **UNDER** (51%)
 
 ### Los Angeles Dodgers lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.29)_
@@ -541,7 +541,7 @@ _Facing a rested bullpen: 2.7 relief IP in last 2 days (ratio 0.54)_
 ## 2026-08-20 - Toronto Blue Jays @ Tampa Bay Rays (Scheduled)
 _Tropicana Field_
 Projected score: Toronto Blue Jays 4.03 - Tampa Bay Rays 4.19
-Model likes: **Tampa Bay Rays** to win (51%) | Run line: **Toronto Blue Jays** +1.5 (64% to cover) | Total 7.5: lean **OVER** (51%)
+Model likes: **Tampa Bay Rays** to win (52%) | Run line: **Toronto Blue Jays** +1.5 (64% to cover) | Total 7.5: lean **OVER** (51%)
 
 ### Toronto Blue Jays lineup -- PROJECTED (unconfirmed)
 **Probable P: Shane Bieber (R)** -- L5: 25.0 IP, 18 K, 12 ER, 4.32 ERA
@@ -632,7 +632,7 @@ _Facing a rested bullpen: 2.3 relief IP in last 2 days (ratio 0.51)_
 ## 2026-08-20 - Athletics @ Kansas City Royals (Scheduled)
 _Kauffman Stadium [pitcher-friendly park]_
 Projected score: Athletics 3.72 - Kansas City Royals 4.85
-Model likes: **Kansas City Royals** to win (60%) | Run line: **Athletics** +1.5 (56% to cover) | Total 7.5: lean **OVER** (54%)
+Model likes: **Kansas City Royals** to win (60%) | Run line: **Athletics** +1.5 (56% to cover) | Total 7.5: lean **OVER** (55%)
 
 ### Athletics lineup -- PROJECTED (unconfirmed)
 - Henry Bolte (R) [4-game hit streak] -- L7: 9H 1HR 3RBI 13TB (0.333 avg) -- away split: 0.214 avg
@@ -808,7 +808,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-21 - St. Louis Cardinals @ Philadelphia Phillies (Scheduled)
 _Citizens Bank Park [hitter-friendly park]_
 Projected score: St. Louis Cardinals 5.01 - Philadelphia Phillies 4.53
-Model likes: **St. Louis Cardinals** to win (54%) | Run line: **Philadelphia Phillies** +1.5 (60% to cover) | Total 8.5: lean **OVER** (54%)
+Model likes: **St. Louis Cardinals** to win (54%) | Run line: **Philadelphia Phillies** +1.5 (60% to cover) | Total 8.5: lean **OVER** (53%)
 
 ### St. Louis Cardinals lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_

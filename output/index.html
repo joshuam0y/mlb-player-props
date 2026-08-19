@@ -616,6 +616,59 @@
   }
   .pick-category-over { background: var(--series-1-bg); color: var(--series-1); }
   .pick-category-under { background: rgba(224,51,63,0.14); color: var(--status-critical); }
+
+  /* Quick-look batting overlay (tap a game -> see both lineups without
+     opening the full accordion) -- modeled on the tap-a-game batting
+     overlay in the Fanatics Sportsbook app. Deliberately reads its content
+     from the DOM this same card already rendered (see openBattingOverlay
+     in SCRIPT below) instead of a second, separate data payload, so the
+     two views can never drift out of sync with each other. */
+  .batting-overlay-btn {
+    background: var(--series-1-bg); color: var(--series-1); border: 1px solid transparent;
+    border-radius: 999px; padding: 3px 10px; font-size: 11.5px; font-weight: 700; cursor: pointer;
+    font-family: inherit;
+  }
+  .batting-overlay-btn:hover { background: var(--series-1); color: #fff; }
+  .bo-backdrop {
+    position: fixed; inset: 0; background: rgba(4,10,20,0.55); z-index: 200;
+    display: none; align-items: flex-end; justify-content: center; padding: 0;
+  }
+  .bo-backdrop.open { display: flex; }
+  @media (min-width: 640px) { .bo-backdrop { align-items: center; padding: 16px; } }
+  .bo-sheet {
+    background: var(--surface-1); width: 100%; max-width: 720px; max-height: 86vh;
+    border-radius: 16px 16px 0 0; box-shadow: var(--shadow); overflow-y: auto;
+    padding: 14px 16px 20px;
+  }
+  @media (min-width: 640px) { .bo-sheet { border-radius: 16px; max-height: 80vh; } }
+  .bo-header {
+    display: flex; justify-content: space-between; align-items: center; gap: 10px;
+    position: sticky; top: 0; background: var(--surface-1); padding-bottom: 8px;
+    margin-bottom: 4px; border-bottom: 1px solid var(--gridline);
+  }
+  .bo-title { font-size: 15px; font-weight: 700; }
+  .bo-subtitle { font-size: 11.5px; color: var(--text-muted); font-weight: 400; margin-top: 1px; }
+  .bo-close {
+    background: var(--surface-2); border: none; color: var(--text-secondary); border-radius: 999px;
+    width: 28px; height: 28px; font-size: 16px; cursor: pointer; line-height: 1; flex: none;
+  }
+  .bo-close:hover { background: var(--surface-3); }
+  .bo-columns { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-top: 10px; }
+  @media (max-width: 560px) { .bo-columns { grid-template-columns: 1fr; } }
+  .bo-team-title { font-size: 13px; font-weight: 700; margin-bottom: 6px; }
+  .bo-pitcher {
+    display: flex; align-items: center; gap: 6px; font-size: 12px; color: var(--text-secondary);
+    margin-bottom: 8px; padding-bottom: 8px; border-bottom: 1px dashed var(--gridline); flex-wrap: wrap;
+  }
+  .bo-pitcher b { color: var(--text-primary); }
+  .bo-player-row { display: flex; align-items: flex-start; gap: 8px; padding: 6px 0; border-bottom: 1px solid var(--gridline); }
+  .bo-player-row:last-child { border-bottom: none; }
+  .bo-order { color: var(--text-muted); font-size: 11px; width: 18px; flex: none; margin-top: 2px; }
+  .bo-player-info { flex: 1; min-width: 0; }
+  .bo-player-name { font-size: 12.5px; font-weight: 600; display: flex; align-items: center; gap: 5px; flex-wrap: wrap; }
+  .bo-player-name .badge { font-size: 9.5px; padding: 1px 5px; }
+  .bo-player-info .best-prop { display: inline-block; margin-top: 3px; }
+  .bo-empty { font-size: 12.5px; color: var(--text-muted); padding: 10px 0; }
 </style>
 
 </head>
@@ -625,7 +678,7 @@
       <div class="header-top">
         <div>
           <h1>MLB Player Props Dashboard</h1>
-          <div class="meta">Generated 2026-08-19T17:07:35.876171+00:00</div>
+          <div class="meta">Generated 2026-08-19T17:36:51.970998+00:00</div>
         </div>
         <div class="header-actions">
           <a class="nav-link" href="track-record.html">Track Record</a>
@@ -663,7 +716,7 @@
         <button type="button" class="favorite-toggle" data-favorite-key="630105" onclick="toggleFavorite(event, '630105')">&#9825;</button>
       </div>
       <div class="pick-matchup">San Diego Padres vs. New York Mets &middot; <span class="game-time" data-utc="2026-08-19T17:10:00Z">2026-08-19T17:10:00Z</span></div>
-      <div class="pick-badges"><span class="badge badge-caveat">BATTER PROP</span><span class="badge badge-confirmed">CONFIRMED</span></div>
+      <div class="pick-badges"><span class="badge badge-caveat">BATTER PROP</span><span class="badge badge-confirmed">CONFIRMED</span><span class="badge badge-dnp">DNP</span></div>
       <ul class="pick-reasons"><li>favorable matchup vs. tonight&#x27;s pitcher</li><li>8-game hit streak</li></ul>
       <div class="pick-category pick-category-over">Best angle: Hits &mdash; over 0.5 in 90% of the last 10 games</div>
     </div>
@@ -1162,6 +1215,7 @@
         <span class="matchup-title">Detroit Tigers @ Pittsburgh Pirates</span>
         <span class="summary-flags"><span class="badge badge-confirmed">CONFIRMED</span><span class="badge badge-hot">4 HOT</span><span class="badge badge-matchup">5 GOOD MATCHUPS</span><span class="badge badge-caveat">BULLPEN TAXED</span>
           <span class="badge badge-favorite fav-count-badge" data-game-pk="823342" style="display:none"></span>
+          <button type="button" class="batting-overlay-btn" onclick="event.stopPropagation(); event.preventDefault(); openBattingOverlay(823342)">Batting</button>
         </span>
         <span class="game-meta">
           <span class="game-time" data-utc="2026-08-19T16:35:00Z">2026-08-19T16:35:00Z</span>
@@ -1178,22 +1232,31 @@
     <div class="highlights-strip">
       <div class="highlights-heading">Highlights</div>
       <div class="highlights-row">
-    <div class="highlight-card" data-video-url="https://bdata-producedclips.mlb.com/c383efa0-0c72-46af-832b-f5ede0ba0bdf.mp4" onclick="playHighlight(this)">
+    <div class="highlight-card" data-video-url="https://bdata-producedclips.mlb.com/8e167562-11d5-4bb8-ac5a-01f8bd46ca12.mp4" onclick="playHighlight(this)">
       <div class="highlight-thumb-wrap">
-        <img class="highlight-thumb" src="https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/oaokvrlewq9akc95vnh8.jpg" loading="lazy" alt="">
+        <img class="highlight-thumb" src="https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/q1xzivgchj0uoftr7vrg.jpg" loading="lazy" alt="">
         <span class="highlight-play">&#9658;</span>
-        <span class="highlight-duration">0:12</span>
+        <span class="highlight-duration">0:13</span>
       </div>
-      <div class="highlight-title">Brett Callahan pops out to shortstop Jacob Gonzalez.</div>
+      <div class="highlight-title">Bryan Reynolds&#x27; diving snag</div>
     </div>
     
-    <div class="highlight-card" data-video-url="https://bdata-producedclips.mlb.com/1419579f-16fe-4155-877a-30c026d5f573.mp4" onclick="playHighlight(this)">
+    <div class="highlight-card" data-video-url="https://bdata-producedclips.mlb.com/2c69ec93-dfd8-4e4d-ac00-3461f4d23a62.mp4" onclick="playHighlight(this)">
       <div class="highlight-thumb-wrap">
-        <img class="highlight-thumb" src="https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/ik8daedr9teb799ipwiz.jpg" loading="lazy" alt="">
+        <img class="highlight-thumb" src="https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/snjabcr1ffgzextxtzh0.jpg" loading="lazy" alt="">
         <span class="highlight-play">&#9658;</span>
-        <span class="highlight-duration">0:11</span>
+        <span class="highlight-duration">0:19</span>
       </div>
-      <div class="highlight-title">Nick Gonzales grounds out, second baseman Gleyber Torres to first baseman Spencer Torkelson.</div>
+      <div class="highlight-title">Kevin McGonigle&#x27;s sacrifice fly</div>
+    </div>
+    
+    <div class="highlight-card" data-video-url="https://bdata-producedclips.mlb.com/dc6c9ea6-c60f-4320-b43a-56543ba93e38.mp4" onclick="playHighlight(this)">
+      <div class="highlight-thumb-wrap">
+        <img class="highlight-thumb" src="https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/okugfds2i2tn7rn0wowl.jpg" loading="lazy" alt="">
+        <span class="highlight-play">&#9658;</span>
+        <span class="highlight-duration">0:22</span>
+      </div>
+      <div class="highlight-title">Ball 2 confirmed after ABS challenge</div>
     </div>
     
     <div class="highlight-card" data-video-url="https://bdata-producedclips.mlb.com/142cf288-56d7-4aeb-911a-f36fbe4b0f3c.mp4" onclick="playHighlight(this)">
@@ -1203,15 +1266,6 @@
         <span class="highlight-duration">0:20</span>
       </div>
       <div class="highlight-title">Oneil Cruz&#x27;s RBI single</div>
-    </div>
-    
-    <div class="highlight-card" data-video-url="https://bdata-producedclips.mlb.com/9ebe043d-c07f-47e3-b405-34984719d34c.mp4" onclick="playHighlight(this)">
-      <div class="highlight-thumb-wrap">
-        <img class="highlight-thumb" src="https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/vyvrjrdd8djazpprrecp.jpg" loading="lazy" alt="">
-        <span class="highlight-play">&#9658;</span>
-        <span class="highlight-duration">0:07</span>
-      </div>
-      <div class="highlight-title">Jackson Jobe K&#x27;s Esmerlyn Valdez</div>
     </div>
     </div>
     </div>
@@ -3635,10 +3689,11 @@
         <span class="matchup-title">San Diego Padres @ New York Mets</span>
         <span class="summary-flags"><span class="badge badge-confirmed">CONFIRMED</span><span class="badge badge-hot">4 HOT</span><span class="badge badge-matchup">4 GOOD MATCHUPS</span>
           <span class="badge badge-favorite fav-count-badge" data-game-pk="823587" style="display:none"></span>
+          <button type="button" class="batting-overlay-btn" onclick="event.stopPropagation(); event.preventDefault(); openBattingOverlay(823587)">Batting</button>
         </span>
         <span class="game-meta">
           <span class="game-time" data-utc="2026-08-19T17:10:00Z">2026-08-19T17:10:00Z</span>
-           &middot; Warmup
+           &middot; In Progress
           <span class="game-venue">&middot; Citi Field</span>
         </span>
         
@@ -3663,40 +3718,40 @@
     <div class="highlights-strip">
       <div class="highlights-heading">Highlights</div>
       <div class="highlights-row">
-    <div class="highlight-card" data-video-url="https://darkroom-clips.mlb.com/28d45a3c-80ed-4d14-b799-e2c5e394ddf1.mp4" onclick="playHighlight(this)">
+    <div class="highlight-card" data-video-url="https://bdata-producedclips.mlb.com/36955e5e-3544-4e49-9f5a-4e78d0e00c6f.mp4" onclick="playHighlight(this)">
       <div class="highlight-thumb-wrap">
-        <img class="highlight-thumb" src="https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/eauu42unjsmbvx0b9kb3.jpg" loading="lazy" alt="">
+        <img class="highlight-thumb" src="https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/yu12wgfxrtod16djucla.jpg" loading="lazy" alt="">
         <span class="highlight-play">&#9658;</span>
-        <span class="highlight-duration">0:10</span>
+        <span class="highlight-duration">0:22</span>
       </div>
-      <div class="highlight-title">Starting lineups for Padres at Mets - August 19, 2026</div>
+      <div class="highlight-title">Robert Stock Ball to Sung-Mun Song</div>
     </div>
     
-    <div class="highlight-card" data-video-url="https://darkroom-clips.mlb.com/1a3dcaff-f127-42cb-ab4b-dccd2b5b4607.mp4" onclick="playHighlight(this)">
+    <div class="highlight-card" data-video-url="https://bdata-producedclips.mlb.com/0f9481ed-b9fd-4af6-99ab-e765a19f0fe4.mp4" onclick="playHighlight(this)">
       <div class="highlight-thumb-wrap">
-        <img class="highlight-thumb" src="https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/yw8mukdxhk3q8mejrloq.jpg" loading="lazy" alt="">
+        <img class="highlight-thumb" src="https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/q692wzp0xfol3brqu8rm.jpg" loading="lazy" alt="">
         <span class="highlight-play">&#9658;</span>
-        <span class="highlight-duration">0:08</span>
+        <span class="highlight-duration">0:07</span>
       </div>
-      <div class="highlight-title">Bench availability for New York, August 19 vs Padres</div>
+      <div class="highlight-title">Michael King K&#x27;s Bo Bichette in the 1st</div>
     </div>
     
-    <div class="highlight-card" data-video-url="https://darkroom-clips.mlb.com/cdd2fa97-0372-4e55-a8d7-2f719ffb9749.mp4" onclick="playHighlight(this)">
+    <div class="highlight-card" data-video-url="https://bdata-producedclips.mlb.com/e514175d-38f2-4bd0-bc10-530b696f1358.mp4" onclick="playHighlight(this)">
       <div class="highlight-thumb-wrap">
-        <img class="highlight-thumb" src="https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/w6i6uf59vaewiwbhx3kx.jpg" loading="lazy" alt="">
+        <img class="highlight-thumb" src="https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/ujchkv7nxcdpmhmp6e6b.jpg" loading="lazy" alt="">
         <span class="highlight-play">&#9658;</span>
-        <span class="highlight-duration">0:11</span>
+        <span class="highlight-duration">0:23</span>
       </div>
-      <div class="highlight-title">Fielding alignment for New York, August 19 vs Padres</div>
+      <div class="highlight-title">Strike 2 confirmed after ABS challenge</div>
     </div>
     
-    <div class="highlight-card" data-video-url="https://darkroom-clips.mlb.com/d015760a-b200-4320-84a2-7561089cc06b.mp4" onclick="playHighlight(this)">
+    <div class="highlight-card" data-video-url="https://bdata-producedclips.mlb.com/bfc01607-6a9d-414c-ba68-93e69ad9c08e.mp4" onclick="playHighlight(this)">
       <div class="highlight-thumb-wrap">
-        <img class="highlight-thumb" src="https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/rezbk8vmsvtfb8mlvfyl.jpg" loading="lazy" alt="">
+        <img class="highlight-thumb" src="https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/yg84lsidexnkdgh2j9cs.jpg" loading="lazy" alt="">
         <span class="highlight-play">&#9658;</span>
-        <span class="highlight-duration">0:11</span>
+        <span class="highlight-duration">0:06</span>
       </div>
-      <div class="highlight-title">Fielding alignment for San Diego, August 19 vs Mets</div>
+      <div class="highlight-title">Robert Stock K&#x27;s Jackson Merrill to escape jam in 1st</div>
     </div>
     </div>
     </div>
@@ -6120,10 +6175,11 @@
         <span class="matchup-title">Atlanta Braves @ Minnesota Twins</span>
         <span class="summary-flags"><span class="badge badge-confirmed">CONFIRMED</span><span class="badge badge-hot">3 HOT</span><span class="badge badge-matchup">5 GOOD MATCHUPS</span><span class="badge badge-caveat">BULLPEN TAXED</span>
           <span class="badge badge-favorite fav-count-badge" data-game-pk="823664" style="display:none"></span>
+          <button type="button" class="batting-overlay-btn" onclick="event.stopPropagation(); event.preventDefault(); openBattingOverlay(823664)">Batting</button>
         </span>
         <span class="game-meta">
           <span class="game-time" data-utc="2026-08-19T17:40:00Z">2026-08-19T17:40:00Z</span>
-           &middot; Pre-Game
+           &middot; Warmup
           <span class="game-venue">&middot; Target Field</span>
         </span>
         
@@ -8605,6 +8661,7 @@
         <span class="matchup-title">Chicago White Sox @ Chicago Cubs</span>
         <span class="summary-flags"><span class="badge badge-confirmed">CONFIRMED</span><span class="badge badge-hot">4 HOT</span><span class="badge badge-caveat">BULLPEN TAXED</span>
           <span class="badge badge-favorite fav-count-badge" data-game-pk="824640" style="display:none"></span>
+          <button type="button" class="batting-overlay-btn" onclick="event.stopPropagation(); event.preventDefault(); openBattingOverlay(824640)">Batting</button>
         </span>
         <span class="game-meta">
           <span class="game-time" data-utc="2026-08-19T18:20:00Z">2026-08-19T18:20:00Z</span>
@@ -11090,6 +11147,7 @@
         <span class="matchup-title">Arizona Diamondbacks @ Boston Red Sox</span>
         <span class="summary-flags"><span class="badge badge-confirmed">CONFIRMED</span><span class="badge badge-hot">2 HOT</span><span class="badge badge-caveat">BULLPEN TAXED</span>
           <span class="badge badge-favorite fav-count-badge" data-game-pk="824722" style="display:none"></span>
+          <button type="button" class="batting-overlay-btn" onclick="event.stopPropagation(); event.preventDefault(); openBattingOverlay(824722)">Batting</button>
         </span>
         <span class="game-meta">
           <span class="game-time" data-utc="2026-08-19T20:10:00Z">2026-08-19T20:10:00Z</span>
@@ -11115,6 +11173,47 @@
         <div class="live-detail"></div>
         <div class="recent-plays"></div>
         
+    <div class="highlights-strip">
+      <div class="highlights-heading">Highlights</div>
+      <div class="highlights-row">
+    <div class="highlight-card" data-video-url="https://darkroom-clips.mlb.com/e2606a20-4cea-4a3f-80f3-2b3e62fb52ff.mp4" onclick="playHighlight(this)">
+      <div class="highlight-thumb-wrap">
+        <img class="highlight-thumb" src="https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/flluxrfvjplpr6gypa6f.jpg" loading="lazy" alt="">
+        <span class="highlight-play">&#9658;</span>
+        <span class="highlight-duration">0:08</span>
+      </div>
+      <div class="highlight-title">Bench availability for Boston, August 19 vs D-backs</div>
+    </div>
+    
+    <div class="highlight-card" data-video-url="https://darkroom-clips.mlb.com/bd1b1aa6-e41b-4d29-ab0c-196b13d4baeb.mp4" onclick="playHighlight(this)">
+      <div class="highlight-thumb-wrap">
+        <img class="highlight-thumb" src="https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/eoiwqvt4g61sxlwggjsf.jpg" loading="lazy" alt="">
+        <span class="highlight-play">&#9658;</span>
+        <span class="highlight-duration">0:11</span>
+      </div>
+      <div class="highlight-title">Fielding alignment for Boston, August 19 vs Diamondbacks</div>
+    </div>
+    
+    <div class="highlight-card" data-video-url="https://darkroom-clips.mlb.com/0d03df81-367a-426c-8eb1-0ab90345cc4d.mp4" onclick="playHighlight(this)">
+      <div class="highlight-thumb-wrap">
+        <img class="highlight-thumb" src="https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/c0j8lvasibuxxvsyguds.jpg" loading="lazy" alt="">
+        <span class="highlight-play">&#9658;</span>
+        <span class="highlight-duration">0:09</span>
+      </div>
+      <div class="highlight-title">Bullpen availability for Arizona, August 19 vs Red Sox</div>
+    </div>
+    
+    <div class="highlight-card" data-video-url="https://darkroom-clips.mlb.com/816fdbb5-4171-449f-9c94-b6e5df642fbb.mp4" onclick="playHighlight(this)">
+      <div class="highlight-thumb-wrap">
+        <img class="highlight-thumb" src="https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/hyystioruz06wcrffi4x.jpg" loading="lazy" alt="">
+        <span class="highlight-play">&#9658;</span>
+        <span class="highlight-duration">0:09</span>
+      </div>
+      <div class="highlight-title">Bullpen availability for Boston, August 19 vs Diamondbacks</div>
+    </div>
+    </div>
+    </div>
+    
         <div class="team-tabs">
           <button type="button" class="team-tab active" onclick="switchTeamTab(this, 'away')">Arizona Diamondbacks</button>
           <button type="button" class="team-tab" onclick="switchTeamTab(this, 'home')">Boston Red Sox</button>
@@ -13534,6 +13633,7 @@
         <span class="matchup-title">Miami Marlins @ Philadelphia Phillies</span>
         <span class="summary-flags"><span class="badge badge-hot">3 HOT</span><span class="badge badge-matchup">5 GOOD MATCHUPS</span><span class="badge badge-caveat">BULLPEN TAXED</span>
           <span class="badge badge-favorite fav-count-badge" data-game-pk="823424" style="display:none"></span>
+          <button type="button" class="batting-overlay-btn" onclick="event.stopPropagation(); event.preventDefault(); openBattingOverlay(823424)">Batting</button>
         </span>
         <span class="game-meta">
           <span class="game-time" data-utc="2026-08-19T22:05:00Z">2026-08-19T22:05:00Z</span>
@@ -15978,6 +16078,7 @@
         <span class="matchup-title">New York Yankees @ Baltimore Orioles</span>
         <span class="summary-flags"><span class="badge badge-hot">3 HOT</span><span class="badge badge-matchup">12 GOOD MATCHUPS</span><span class="badge badge-caveat">BULLPEN TAXED</span>
           <span class="badge badge-favorite fav-count-badge" data-game-pk="824801" style="display:none"></span>
+          <button type="button" class="batting-overlay-btn" onclick="event.stopPropagation(); event.preventDefault(); openBattingOverlay(824801)">Batting</button>
         </span>
         <span class="game-meta">
           <span class="game-time" data-utc="2026-08-19T22:35:00Z">2026-08-19T22:35:00Z</span>
@@ -18422,6 +18523,7 @@
         <span class="matchup-title">Toronto Blue Jays @ Tampa Bay Rays</span>
         <span class="summary-flags"><span class="badge badge-hot">4 HOT</span><span class="badge badge-matchup">7 GOOD MATCHUPS</span><span class="badge badge-caveat">BULLPEN TAXED</span>
           <span class="badge badge-favorite fav-count-badge" data-game-pk="822937" style="display:none"></span>
+          <button type="button" class="batting-overlay-btn" onclick="event.stopPropagation(); event.preventDefault(); openBattingOverlay(822937)">Batting</button>
         </span>
         <span class="game-meta">
           <span class="game-time" data-utc="2026-08-19T22:40:00Z">2026-08-19T22:40:00Z</span>
@@ -20866,6 +20968,7 @@
         <span class="matchup-title">San Francisco Giants @ Cleveland Guardians</span>
         <span class="summary-flags"><span class="badge badge-hot">4 HOT</span>
           <span class="badge badge-favorite fav-count-badge" data-game-pk="824394" style="display:none"></span>
+          <button type="button" class="batting-overlay-btn" onclick="event.stopPropagation(); event.preventDefault(); openBattingOverlay(824394)">Batting</button>
         </span>
         <span class="game-meta">
           <span class="game-time" data-utc="2026-08-19T22:40:00Z">2026-08-19T22:40:00Z</span>
@@ -23225,6 +23328,7 @@
         <span class="matchup-title">St. Louis Cardinals @ Cincinnati Reds</span>
         <span class="summary-flags"><span class="badge badge-hot">2 HOT</span><span class="badge badge-matchup">7 GOOD MATCHUPS</span><span class="badge badge-caveat">BULLPEN TAXED</span>
           <span class="badge badge-favorite fav-count-badge" data-game-pk="824476" style="display:none"></span>
+          <button type="button" class="batting-overlay-btn" onclick="event.stopPropagation(); event.preventDefault(); openBattingOverlay(824476)">Batting</button>
         </span>
         <span class="game-meta">
           <span class="game-time" data-utc="2026-08-19T22:40:00Z">2026-08-19T22:40:00Z</span>
@@ -25669,6 +25773,7 @@
         <span class="matchup-title">Seattle Mariners @ Milwaukee Brewers</span>
         <span class="summary-flags"><span class="badge badge-hot">3 HOT</span><span class="badge badge-matchup">5 GOOD MATCHUPS</span>
           <span class="badge badge-favorite fav-count-badge" data-game-pk="823748" style="display:none"></span>
+          <button type="button" class="batting-overlay-btn" onclick="event.stopPropagation(); event.preventDefault(); openBattingOverlay(823748)">Batting</button>
         </span>
         <span class="game-meta">
           <span class="game-time" data-utc="2026-08-19T23:40:00Z">2026-08-19T23:40:00Z</span>
@@ -28113,6 +28218,7 @@
         <span class="matchup-title">Athletics @ Kansas City Royals</span>
         <span class="summary-flags"><span class="badge badge-hot">3 HOT</span><span class="badge badge-caveat">BULLPEN TAXED</span>
           <span class="badge badge-favorite fav-count-badge" data-game-pk="824076" style="display:none"></span>
+          <button type="button" class="batting-overlay-btn" onclick="event.stopPropagation(); event.preventDefault(); openBattingOverlay(824076)">Batting</button>
         </span>
         <span class="game-meta">
           <span class="game-time" data-utc="2026-08-19T23:40:00Z">2026-08-19T23:40:00Z</span>
@@ -28127,7 +28233,7 @@
           <button type="button" class="favorite-toggle" data-favorite-key="824076:moneyline" onclick="toggleFavorite(event, '824076:moneyline')">&#9825;</button></span>
         <span data-favorite-key="824076:run_line" data-name="Athletics @ Kansas City Royals: Athletics +1.5" data-game-time-utc="2026-08-19T23:40:00Z">Run line: <b>Athletics +1.5</b> <span class="pick-pct">(56%)</span>
           <button type="button" class="favorite-toggle" data-favorite-key="824076:run_line" onclick="toggleFavorite(event, '824076:run_line')">&#9825;</button></span>
-        <span data-favorite-key="824076:total" data-name="Athletics @ Kansas City Royals: Total 7.5 OVER" data-game-time-utc="2026-08-19T23:40:00Z">Total 7.5: <b>OVER</b> <span class="pick-pct">(54%)</span>
+        <span data-favorite-key="824076:total" data-name="Athletics @ Kansas City Royals: Total 7.5 OVER" data-game-time-utc="2026-08-19T23:40:00Z">Total 7.5: <b>OVER</b> <span class="pick-pct">(55%)</span>
           <button type="button" class="favorite-toggle" data-favorite-key="824076:total" onclick="toggleFavorite(event, '824076:total')">&#9825;</button></span>
       </div>
     </div>
@@ -30367,6 +30473,7 @@
         <span class="matchup-title">Washington Nationals @ Texas Rangers</span>
         <span class="summary-flags"><span class="badge badge-hot">1 HOT</span><span class="badge badge-matchup">10 GOOD MATCHUPS</span>
           <span class="badge badge-favorite fav-count-badge" data-game-pk="822860" style="display:none"></span>
+          <button type="button" class="batting-overlay-btn" onclick="event.stopPropagation(); event.preventDefault(); openBattingOverlay(822860)">Batting</button>
         </span>
         <span class="game-meta">
           <span class="game-time" data-utc="2026-08-20T00:05:00Z">2026-08-20T00:05:00Z</span>
@@ -32811,6 +32918,7 @@
         <span class="matchup-title">Los Angeles Angels @ Houston Astros</span>
         <span class="summary-flags"><span class="badge badge-hot">2 HOT</span>
           <span class="badge badge-favorite fav-count-badge" data-game-pk="824155" style="display:none"></span>
+          <button type="button" class="batting-overlay-btn" onclick="event.stopPropagation(); event.preventDefault(); openBattingOverlay(824155)">Batting</button>
         </span>
         <span class="game-meta">
           <span class="game-time" data-utc="2026-08-20T00:10:00Z">2026-08-20T00:10:00Z</span>
@@ -35170,6 +35278,7 @@
         <span class="matchup-title">Los Angeles Dodgers @ Colorado Rockies</span>
         <span class="summary-flags"><span class="badge badge-matchup">4 GOOD MATCHUPS</span><span class="badge badge-caveat">BULLPEN TAXED</span>
           <span class="badge badge-favorite fav-count-badge" data-game-pk="824318" style="display:none"></span>
+          <button type="button" class="batting-overlay-btn" onclick="event.stopPropagation(); event.preventDefault(); openBattingOverlay(824318)">Batting</button>
         </span>
         <span class="game-meta">
           <span class="game-time" data-utc="2026-08-20T00:40:00Z">2026-08-20T00:40:00Z</span>
@@ -35182,7 +35291,7 @@
       <div class="proj-picks">
         <span data-favorite-key="824318:moneyline" data-name="Los Angeles Dodgers @ Colorado Rockies: Los Angeles Dodgers to win" data-game-time-utc="2026-08-20T00:40:00Z">Moneyline: <b>Los Angeles Dodgers</b> <span class="pick-pct">(61%)</span>
           <button type="button" class="favorite-toggle" data-favorite-key="824318:moneyline" onclick="toggleFavorite(event, '824318:moneyline')">&#9825;</button></span>
-        <span data-favorite-key="824318:run_line" data-name="Los Angeles Dodgers @ Colorado Rockies: Colorado Rockies +1.5" data-game-time-utc="2026-08-20T00:40:00Z">Run line: <b>Colorado Rockies +1.5</b> <span class="pick-pct">(50%)</span>
+        <span data-favorite-key="824318:run_line" data-name="Los Angeles Dodgers @ Colorado Rockies: Colorado Rockies +1.5" data-game-time-utc="2026-08-20T00:40:00Z">Run line: <b>Colorado Rockies +1.5</b> <span class="pick-pct">(51%)</span>
           <button type="button" class="favorite-toggle" data-favorite-key="824318:run_line" onclick="toggleFavorite(event, '824318:run_line')">&#9825;</button></span>
         <span data-favorite-key="824318:total" data-name="Los Angeles Dodgers @ Colorado Rockies: Total 11.5 UNDER" data-game-time-utc="2026-08-20T00:40:00Z">Total 11.5: <b>UNDER</b> <span class="pick-pct">(51%)</span>
           <button type="button" class="favorite-toggle" data-favorite-key="824318:total" onclick="toggleFavorite(event, '824318:total')">&#9825;</button></span>
@@ -37614,6 +37723,7 @@
         <span class="matchup-title">St. Louis Cardinals @ Cincinnati Reds</span>
         <span class="summary-flags"><span class="badge badge-hot">2 HOT</span><span class="badge badge-matchup">4 GOOD MATCHUPS</span>
           <span class="badge badge-favorite fav-count-badge" data-game-pk="824474" style="display:none"></span>
+          <button type="button" class="batting-overlay-btn" onclick="event.stopPropagation(); event.preventDefault(); openBattingOverlay(824474)">Batting</button>
         </span>
         <span class="game-meta">
           <span class="game-time" data-utc="2026-08-20T16:40:00Z">2026-08-20T16:40:00Z</span>
@@ -40058,6 +40168,7 @@
         <span class="matchup-title">Toronto Blue Jays @ Tampa Bay Rays</span>
         <span class="summary-flags"><span class="badge badge-hot">4 HOT</span>
           <span class="badge badge-favorite fav-count-badge" data-game-pk="822934" style="display:none"></span>
+          <button type="button" class="batting-overlay-btn" onclick="event.stopPropagation(); event.preventDefault(); openBattingOverlay(822934)">Batting</button>
         </span>
         <span class="game-meta">
           <span class="game-time" data-utc="2026-08-20T17:10:00Z">2026-08-20T17:10:00Z</span>
@@ -40068,7 +40179,7 @@
     <div class="game-line">
       <span class="proj-score">Projected: Toronto Blue Jays 4.03 &ndash; Tampa Bay Rays 4.19</span>
       <div class="proj-picks">
-        <span data-favorite-key="822934:moneyline" data-name="Toronto Blue Jays @ Tampa Bay Rays: Tampa Bay Rays to win" data-game-time-utc="2026-08-20T17:10:00Z">Moneyline: <b>Tampa Bay Rays</b> <span class="pick-pct">(51%)</span>
+        <span data-favorite-key="822934:moneyline" data-name="Toronto Blue Jays @ Tampa Bay Rays: Tampa Bay Rays to win" data-game-time-utc="2026-08-20T17:10:00Z">Moneyline: <b>Tampa Bay Rays</b> <span class="pick-pct">(52%)</span>
           <button type="button" class="favorite-toggle" data-favorite-key="822934:moneyline" onclick="toggleFavorite(event, '822934:moneyline')">&#9825;</button></span>
         <span data-favorite-key="822934:run_line" data-name="Toronto Blue Jays @ Tampa Bay Rays: Toronto Blue Jays +1.5" data-game-time-utc="2026-08-20T17:10:00Z">Run line: <b>Toronto Blue Jays +1.5</b> <span class="pick-pct">(64%)</span>
           <button type="button" class="favorite-toggle" data-favorite-key="822934:run_line" onclick="toggleFavorite(event, '822934:run_line')">&#9825;</button></span>
@@ -42502,6 +42613,7 @@
         <span class="matchup-title">San Francisco Giants @ Cleveland Guardians</span>
         <span class="summary-flags"><span class="badge badge-hot">4 HOT</span>
           <span class="badge badge-favorite fav-count-badge" data-game-pk="824395" style="display:none"></span>
+          <button type="button" class="batting-overlay-btn" onclick="event.stopPropagation(); event.preventDefault(); openBattingOverlay(824395)">Batting</button>
         </span>
         <span class="game-meta">
           <span class="game-time" data-utc="2026-08-20T17:10:00Z">2026-08-20T17:10:00Z</span>
@@ -44946,6 +45058,7 @@
         <span class="matchup-title">Seattle Mariners @ Milwaukee Brewers</span>
         <span class="summary-flags"><span class="badge badge-hot">3 HOT</span><span class="badge badge-matchup">11 GOOD MATCHUPS</span>
           <span class="badge badge-favorite fav-count-badge" data-game-pk="823747" style="display:none"></span>
+          <button type="button" class="batting-overlay-btn" onclick="event.stopPropagation(); event.preventDefault(); openBattingOverlay(823747)">Batting</button>
         </span>
         <span class="game-meta">
           <span class="game-time" data-utc="2026-08-20T18:10:00Z">2026-08-20T18:10:00Z</span>
@@ -47390,6 +47503,7 @@
         <span class="matchup-title">Athletics @ Kansas City Royals</span>
         <span class="summary-flags"><span class="badge badge-hot">3 HOT</span><span class="badge badge-caveat">BULLPEN TAXED</span>
           <span class="badge badge-favorite fav-count-badge" data-game-pk="824074" style="display:none"></span>
+          <button type="button" class="batting-overlay-btn" onclick="event.stopPropagation(); event.preventDefault(); openBattingOverlay(824074)">Batting</button>
         </span>
         <span class="game-meta">
           <span class="game-time" data-utc="2026-08-20T18:10:00Z">2026-08-20T18:10:00Z</span>
@@ -47404,7 +47518,7 @@
           <button type="button" class="favorite-toggle" data-favorite-key="824074:moneyline" onclick="toggleFavorite(event, '824074:moneyline')">&#9825;</button></span>
         <span data-favorite-key="824074:run_line" data-name="Athletics @ Kansas City Royals: Athletics +1.5" data-game-time-utc="2026-08-20T18:10:00Z">Run line: <b>Athletics +1.5</b> <span class="pick-pct">(56%)</span>
           <button type="button" class="favorite-toggle" data-favorite-key="824074:run_line" onclick="toggleFavorite(event, '824074:run_line')">&#9825;</button></span>
-        <span data-favorite-key="824074:total" data-name="Athletics @ Kansas City Royals: Total 7.5 OVER" data-game-time-utc="2026-08-20T18:10:00Z">Total 7.5: <b>OVER</b> <span class="pick-pct">(54%)</span>
+        <span data-favorite-key="824074:total" data-name="Athletics @ Kansas City Royals: Total 7.5 OVER" data-game-time-utc="2026-08-20T18:10:00Z">Total 7.5: <b>OVER</b> <span class="pick-pct">(55%)</span>
           <button type="button" class="favorite-toggle" data-favorite-key="824074:total" onclick="toggleFavorite(event, '824074:total')">&#9825;</button></span>
       </div>
     </div>
@@ -49644,6 +49758,7 @@
         <span class="matchup-title">Atlanta Braves @ Chicago White Sox</span>
         <span class="summary-flags"><span class="badge badge-hot">2 HOT</span>
           <span class="badge badge-favorite fav-count-badge" data-game-pk="824589" style="display:none"></span>
+          <button type="button" class="batting-overlay-btn" onclick="event.stopPropagation(); event.preventDefault(); openBattingOverlay(824589)">Batting</button>
         </span>
         <span class="game-meta">
           <span class="game-time" data-utc="2026-08-20T18:10:00Z">2026-08-20T18:10:00Z</span>
@@ -51993,6 +52108,7 @@
         <span class="matchup-title">New York Yankees @ Baltimore Orioles</span>
         <span class="summary-flags"><span class="badge badge-hot">3 HOT</span>
           <span class="badge badge-favorite fav-count-badge" data-game-pk="824802" style="display:none"></span>
+          <button type="button" class="batting-overlay-btn" onclick="event.stopPropagation(); event.preventDefault(); openBattingOverlay(824802)">Batting</button>
         </span>
         <span class="game-meta">
           <span class="game-time" data-utc="2026-08-20T22:35:00Z">2026-08-20T22:35:00Z</span>
@@ -54437,6 +54553,7 @@
         <span class="matchup-title">Washington Nationals @ Texas Rangers</span>
         <span class="summary-flags"><span class="badge badge-hot">1 HOT</span>
           <span class="badge badge-favorite fav-count-badge" data-game-pk="822861" style="display:none"></span>
+          <button type="button" class="batting-overlay-btn" onclick="event.stopPropagation(); event.preventDefault(); openBattingOverlay(822861)">Batting</button>
         </span>
         <span class="game-meta">
           <span class="game-time" data-utc="2026-08-21T00:05:00Z">2026-08-21T00:05:00Z</span>
@@ -56786,6 +56903,7 @@
         <span class="matchup-title">Los Angeles Angels @ Houston Astros</span>
         <span class="summary-flags"><span class="badge badge-hot">2 HOT</span><span class="badge badge-matchup">3 GOOD MATCHUPS</span>
           <span class="badge badge-favorite fav-count-badge" data-game-pk="824153" style="display:none"></span>
+          <button type="button" class="batting-overlay-btn" onclick="event.stopPropagation(); event.preventDefault(); openBattingOverlay(824153)">Batting</button>
         </span>
         <span class="game-meta">
           <span class="game-time" data-utc="2026-08-21T00:10:00Z">2026-08-21T00:10:00Z</span>
@@ -59230,6 +59348,7 @@
         <span class="matchup-title">Atlanta Braves @ Milwaukee Brewers</span>
         <span class="summary-flags"><span class="badge badge-hot">3 HOT</span>
           <span class="badge badge-favorite fav-count-badge" data-game-pk="823746" style="display:none"></span>
+          <button type="button" class="batting-overlay-btn" onclick="event.stopPropagation(); event.preventDefault(); openBattingOverlay(823746)">Batting</button>
         </span>
         <span class="game-meta">
           <span class="game-time" data-utc="2026-08-21T20:10:00Z">2026-08-21T20:10:00Z</span>
@@ -61579,6 +61698,7 @@
         <span class="matchup-title">St. Louis Cardinals @ Philadelphia Phillies</span>
         <span class="summary-flags"><span class="badge badge-hot">3 HOT</span>
           <span class="badge badge-favorite fav-count-badge" data-game-pk="823420" style="display:none"></span>
+          <button type="button" class="batting-overlay-btn" onclick="event.stopPropagation(); event.preventDefault(); openBattingOverlay(823420)">Batting</button>
         </span>
         <span class="game-meta">
           <span class="game-time" data-utc="2026-08-21T22:40:00Z">2026-08-21T22:40:00Z</span>
@@ -61593,7 +61713,7 @@
           <button type="button" class="favorite-toggle" data-favorite-key="823420:moneyline" onclick="toggleFavorite(event, '823420:moneyline')">&#9825;</button></span>
         <span data-favorite-key="823420:run_line" data-name="St. Louis Cardinals @ Philadelphia Phillies: Philadelphia Phillies +1.5" data-game-time-utc="2026-08-21T22:40:00Z">Run line: <b>Philadelphia Phillies +1.5</b> <span class="pick-pct">(60%)</span>
           <button type="button" class="favorite-toggle" data-favorite-key="823420:run_line" onclick="toggleFavorite(event, '823420:run_line')">&#9825;</button></span>
-        <span data-favorite-key="823420:total" data-name="St. Louis Cardinals @ Philadelphia Phillies: Total 8.5 OVER" data-game-time-utc="2026-08-21T22:40:00Z">Total 8.5: <b>OVER</b> <span class="pick-pct">(54%)</span>
+        <span data-favorite-key="823420:total" data-name="St. Louis Cardinals @ Philadelphia Phillies: Total 8.5 OVER" data-game-time-utc="2026-08-21T22:40:00Z">Total 8.5: <b>OVER</b> <span class="pick-pct">(53%)</span>
           <button type="button" class="favorite-toggle" data-favorite-key="823420:total" onclick="toggleFavorite(event, '823420:total')">&#9825;</button></span>
       </div>
     </div>
@@ -63833,6 +63953,7 @@
         <span class="matchup-title">Toronto Blue Jays @ New York Yankees</span>
         <span class="summary-flags"><span class="badge badge-hot">2 HOT</span>
           <span class="badge badge-favorite fav-count-badge" data-game-pk="823510" style="display:none"></span>
+          <button type="button" class="batting-overlay-btn" onclick="event.stopPropagation(); event.preventDefault(); openBattingOverlay(823510)">Batting</button>
         </span>
         <span class="game-meta">
           <span class="game-time" data-utc="2026-08-21T23:05:00Z">2026-08-21T23:05:00Z</span>
@@ -66087,6 +66208,7 @@
         <span class="matchup-title">Washington Nationals @ Miami Marlins</span>
         <span class="summary-flags"><span class="badge badge-hot">1 HOT</span>
           <span class="badge badge-favorite fav-count-badge" data-game-pk="823830" style="display:none"></span>
+          <button type="button" class="batting-overlay-btn" onclick="event.stopPropagation(); event.preventDefault(); openBattingOverlay(823830)">Batting</button>
         </span>
         <span class="game-meta">
           <span class="game-time" data-utc="2026-08-21T23:10:00Z">2026-08-21T23:10:00Z</span>
@@ -68341,6 +68463,7 @@
         <span class="matchup-title">San Francisco Giants @ Boston Red Sox</span>
         <span class="summary-flags"><span class="badge badge-hot">4 HOT</span>
           <span class="badge badge-favorite fav-count-badge" data-game-pk="824721" style="display:none"></span>
+          <button type="button" class="batting-overlay-btn" onclick="event.stopPropagation(); event.preventDefault(); openBattingOverlay(824721)">Batting</button>
         </span>
         <span class="game-meta">
           <span class="game-time" data-utc="2026-08-21T23:10:00Z">2026-08-21T23:10:00Z</span>
@@ -70690,6 +70813,7 @@
         <span class="matchup-title">Tampa Bay Rays @ Baltimore Orioles</span>
         <span class="summary-flags"><span class="badge badge-hot">5 HOT</span>
           <span class="badge badge-favorite fav-count-badge" data-game-pk="824800" style="display:none"></span>
+          <button type="button" class="batting-overlay-btn" onclick="event.stopPropagation(); event.preventDefault(); openBattingOverlay(824800)">Batting</button>
         </span>
         <span class="game-meta">
           <span class="game-time" data-utc="2026-08-21T23:15:00Z">2026-08-21T23:15:00Z</span>
@@ -72944,6 +73068,7 @@
         <span class="matchup-title">New York Mets @ Chicago White Sox</span>
         <span class="summary-flags"><span class="badge badge-hot">2 HOT</span>
           <span class="badge badge-favorite fav-count-badge" data-game-pk="824559" style="display:none"></span>
+          <button type="button" class="batting-overlay-btn" onclick="event.stopPropagation(); event.preventDefault(); openBattingOverlay(824559)">Batting</button>
         </span>
         <span class="game-meta">
           <span class="game-time" data-utc="2026-08-21T23:40:00Z">2026-08-21T23:40:00Z</span>
@@ -75198,6 +75323,7 @@
         <span class="matchup-title">Detroit Tigers @ Kansas City Royals</span>
         <span class="summary-flags"><span class="badge badge-hot">5 HOT</span>
           <span class="badge badge-favorite fav-count-badge" data-game-pk="824072" style="display:none"></span>
+          <button type="button" class="batting-overlay-btn" onclick="event.stopPropagation(); event.preventDefault(); openBattingOverlay(824072)">Batting</button>
         </span>
         <span class="game-meta">
           <span class="game-time" data-utc="2026-08-22T00:10:00Z">2026-08-22T00:10:00Z</span>
@@ -77547,6 +77673,7 @@
         <span class="matchup-title">Athletics @ Houston Astros</span>
         <span class="summary-flags"><span class="badge badge-hot">2 HOT</span>
           <span class="badge badge-favorite fav-count-badge" data-game-pk="824152" style="display:none"></span>
+          <button type="button" class="batting-overlay-btn" onclick="event.stopPropagation(); event.preventDefault(); openBattingOverlay(824152)">Batting</button>
         </span>
         <span class="game-meta">
           <span class="game-time" data-utc="2026-08-22T00:10:00Z">2026-08-22T00:10:00Z</span>
@@ -79801,6 +79928,7 @@
         <span class="matchup-title">Los Angeles Angels @ Texas Rangers</span>
         <span class="summary-flags"><span class="badge badge-hot">2 HOT</span>
           <span class="badge badge-favorite fav-count-badge" data-game-pk="822857" style="display:none"></span>
+          <button type="button" class="batting-overlay-btn" onclick="event.stopPropagation(); event.preventDefault(); openBattingOverlay(822857)">Batting</button>
         </span>
         <span class="game-meta">
           <span class="game-time" data-utc="2026-08-22T00:15:00Z">2026-08-22T00:15:00Z</span>
@@ -82055,6 +82183,7 @@
         <span class="matchup-title">Cleveland Guardians @ Colorado Rockies</span>
         <span class="summary-flags"><span class="badge badge-hot">2 HOT</span><span class="badge badge-matchup">4 GOOD MATCHUPS</span>
           <span class="badge badge-favorite fav-count-badge" data-game-pk="824317" style="display:none"></span>
+          <button type="button" class="batting-overlay-btn" onclick="event.stopPropagation(); event.preventDefault(); openBattingOverlay(824317)">Batting</button>
         </span>
         <span class="game-meta">
           <span class="game-time" data-utc="2026-08-22T00:40:00Z">2026-08-22T00:40:00Z</span>
@@ -84404,6 +84533,7 @@
         <span class="matchup-title">Minnesota Twins @ San Diego Padres</span>
         <span class="summary-flags"><span class="badge badge-hot">5 HOT</span>
           <span class="badge badge-favorite fav-count-badge" data-game-pk="823262" style="display:none"></span>
+          <button type="button" class="batting-overlay-btn" onclick="event.stopPropagation(); event.preventDefault(); openBattingOverlay(823262)">Batting</button>
         </span>
         <span class="game-meta">
           <span class="game-time" data-utc="2026-08-22T01:40:00Z">2026-08-22T01:40:00Z</span>
@@ -86753,6 +86883,7 @@
         <span class="matchup-title">Cincinnati Reds @ Arizona Diamondbacks</span>
         <span class="summary-flags"><span class="badge badge-hot">2 HOT</span>
           <span class="badge badge-favorite fav-count-badge" data-game-pk="825045" style="display:none"></span>
+          <button type="button" class="batting-overlay-btn" onclick="event.stopPropagation(); event.preventDefault(); openBattingOverlay(825045)">Batting</button>
         </span>
         <span class="game-meta">
           <span class="game-time" data-utc="2026-08-22T01:40:00Z">2026-08-22T01:40:00Z</span>
@@ -89102,6 +89233,7 @@
         <span class="matchup-title">Chicago Cubs @ Seattle Mariners</span>
         <span class="summary-flags"><span class="badge badge-hot">3 HOT</span>
           <span class="badge badge-favorite fav-count-badge" data-game-pk="823101" style="display:none"></span>
+          <button type="button" class="batting-overlay-btn" onclick="event.stopPropagation(); event.preventDefault(); openBattingOverlay(823101)">Batting</button>
         </span>
         <span class="game-meta">
           <span class="game-time" data-utc="2026-08-22T02:10:00Z">2026-08-22T02:10:00Z</span>
@@ -91356,6 +91488,7 @@
         <span class="matchup-title">Pittsburgh Pirates @ Los Angeles Dodgers</span>
         <span class="summary-flags">
           <span class="badge badge-favorite fav-count-badge" data-game-pk="823911" style="display:none"></span>
+          <button type="button" class="batting-overlay-btn" onclick="event.stopPropagation(); event.preventDefault(); openBattingOverlay(823911)">Batting</button>
         </span>
         <span class="game-meta">
           <span class="game-time" data-utc="2026-08-22T02:10:00Z">2026-08-22T02:10:00Z</span>
@@ -93967,6 +94100,92 @@ function switchTeamTab(btn, side) {
   btn.classList.add('active');
   const teamsDiv = tabsRow.nextElementSibling;
   if (teamsDiv) teamsDiv.dataset.activeSide = side;
+}
+
+// Quick-look batting overlay -- tap "Batting" on a game's summary row to
+// see both starting lineups at a glance without opening the full
+// accordion body below. Built once and reused (repopulated on every open)
+// rather than one overlay per game card, since only one can ever be open
+// at a time. Deliberately reads its content straight out of the DOM this
+// same card's full accordion body already rendered instead of a second,
+// separate data payload -- the quick view can never show something the
+// full expand disagrees with, and no new data plumbing was needed at all.
+let battingOverlayBackdrop = null;
+
+function ensureBattingOverlay() {
+  if (battingOverlayBackdrop) return battingOverlayBackdrop;
+  const backdrop = document.createElement('div');
+  backdrop.className = 'bo-backdrop';
+  backdrop.innerHTML =
+    '<div class="bo-sheet" role="dialog" aria-modal="true">' +
+      '<div class="bo-header">' +
+        '<div><div class="bo-title" id="boTitle"></div><div class="bo-subtitle" id="boSubtitle"></div></div>' +
+        '<button type="button" class="bo-close" id="boCloseBtn" aria-label="Close">&times;</button>' +
+      '</div>' +
+      '<div class="bo-columns" id="boColumns"></div>' +
+    '</div>';
+  document.body.appendChild(backdrop);
+  backdrop.addEventListener('click', function (e) { if (e.target === backdrop) closeBattingOverlay(); });
+  backdrop.querySelector('#boCloseBtn').addEventListener('click', closeBattingOverlay);
+  battingOverlayBackdrop = backdrop;
+  return backdrop;
+}
+
+function closeBattingOverlay() {
+  if (battingOverlayBackdrop) battingOverlayBackdrop.classList.remove('open');
+}
+
+document.addEventListener('keydown', function (e) {
+  if (e.key === 'Escape' && battingOverlayBackdrop && battingOverlayBackdrop.classList.contains('open')) closeBattingOverlay();
+});
+
+function boBuildTeamColumn(details, side) {
+  const col = details.querySelector('.team-col[data-side="' + side + '"]');
+  if (!col) return '<div class="bo-empty">No lineup data yet</div>';
+  const pitcherLine = col.querySelector('.pitcher-block .pitcher-line');
+  let pitcherHtml = '<div class="bo-pitcher">No probable pitcher announced</div>';
+  // _pitcher_html(None, ...) renders its own "No probable pitcher
+  // announced" placeholder as a *different* div that still carries the
+  // same .pitcher-line class (just with an extra "sub" class) -- data-name
+  // only ever exists on the real, populated pitcher-line, so it's what
+  // actually distinguishes "no pitcher yet" from "a pitcher is announced."
+  if (pitcherLine && pitcherLine.dataset.name) {
+    const photo = pitcherLine.querySelector('.player-photo');
+    const badges = Array.from(pitcherLine.querySelectorAll('.badge')).map(function (b) { return b.outerHTML; }).join(' ');
+    pitcherHtml = '<div class="bo-pitcher">' + (photo ? photo.outerHTML : '') +
+      '<b>' + escapeHtml(pitcherLine.dataset.name || '') + '</b> ' + badges + '</div>';
+  }
+  const rows = Array.from(col.querySelectorAll('.batter-block tbody tr.player-row')).map(function (row) {
+    const order = row.querySelector('[data-label="Order"]');
+    const photo = row.querySelector('.player-photo');
+    const flagsCell = row.querySelector('[data-label="Flags"]');
+    const badges = flagsCell ? Array.from(flagsCell.querySelectorAll('.badge')).map(function (b) { return b.outerHTML; }).join(' ') : '';
+    // _best_prop_html(b) renders inline in this SAME row's own "Recent
+    // form" cell (not the separate hidden prop-detail row below it).
+    const bestPropEl = row.querySelector('[data-label="Recent form"] .best-prop');
+    return '<div class="bo-player-row">' +
+      '<span class="bo-order">' + (order ? escapeHtml(order.textContent.trim()) : '') + '</span>' +
+      (photo ? photo.outerHTML : '') +
+      '<div class="bo-player-info"><div class="bo-player-name">' + escapeHtml(row.dataset.name || '') + ' ' + badges + '</div>' +
+      (bestPropEl ? bestPropEl.outerHTML : '') + '</div></div>';
+  }).join('');
+  return pitcherHtml + (rows || '<div class="bo-empty">No batters announced yet</div>');
+}
+
+function openBattingOverlay(gamePk) {
+  const details = document.querySelector('details.game-card[data-game-pk="' + gamePk + '"]');
+  if (!details) return;
+  const matchupTitle = details.querySelector('.matchup-title');
+  const parts = matchupTitle ? matchupTitle.textContent.split(' @ ') : ['Away', 'Home'];
+  const awayName = parts[0] || 'Away', homeName = parts[1] || 'Home';
+  const gameTimeEl = details.querySelector('.game-time');
+  const backdrop = ensureBattingOverlay();
+  backdrop.querySelector('#boTitle').textContent = awayName + ' @ ' + homeName;
+  backdrop.querySelector('#boSubtitle').textContent = gameTimeEl ? gameTimeEl.textContent : '';
+  backdrop.querySelector('#boColumns').innerHTML =
+    '<div><div class="bo-team-title">' + escapeHtml(awayName) + '</div>' + boBuildTeamColumn(details, 'away') + '</div>' +
+    '<div><div class="bo-team-title">' + escapeHtml(homeName) + '</div>' + boBuildTeamColumn(details, 'home') + '</div>';
+  backdrop.classList.add('open');
 }
 function playHighlight(el) {
   // Nothing is fetched for a collapsed/unclicked clip -- the <video> element
