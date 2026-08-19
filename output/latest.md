@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-19T15:55:28.493091+00:00_
+_Generated 2026-08-19T16:00:04.098524+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -9,6 +9,8 @@ _Generated 2026-08-19T15:55:28.493091+00:00_
 - **Taylor Walls** (Tampa Bay Rays vs Toronto Blue Jays): favorable matchup vs. tonight's pitcher, 9-game hit streak -- try Hits: 90% over 0.5 recently (vs. 10-game sample)
 - **Cedric Mullins** (Tampa Bay Rays vs Toronto Blue Jays): favorable matchup vs. tonight's pitcher, 5-game hit streak -- try Hits: 70% over 0.5 recently (vs. 10-game sample)
 - **Josh Naylor** (Seattle Mariners vs Milwaukee Brewers): favorable matchup vs. tonight's pitcher, 8-game hit streak -- try Hits + Runs + RBIs: 40% over 1.5 recently (vs. 10-game sample)
+- **Josh Bell** (Minnesota Twins vs Atlanta Braves): favorable matchup vs. tonight's pitcher -- try Runs Scored: 60% over 0.5 recently (vs. 10-game sample)
+- **Kody Clemens** (Minnesota Twins vs Atlanta Braves): favorable matchup vs. tonight's pitcher -- try Hits: 60% over 0.5 recently (vs. 10-game sample)
 - **Sal Stewart** (Cincinnati Reds vs St. Louis Cardinals): favorable matchup vs. tonight's pitcher -- try Total Bases: 40% over 1.5 recently (vs. 10-game sample)
 - **Dane Myers** (Cincinnati Reds vs St. Louis Cardinals): favorable matchup vs. tonight's pitcher -- try Hits: 60% over 0.5 recently (vs. 10-game sample)
 - **Dominic Canzone** (Seattle Mariners vs Milwaukee Brewers): favorable matchup vs. tonight's pitcher -- try Total Bases: 60% over 1.5 recently (vs. 10-game sample)
@@ -16,8 +18,6 @@ _Generated 2026-08-19T15:55:28.493091+00:00_
 - **Andy Pages** (Los Angeles Dodgers vs Colorado Rockies): favorable matchup vs. tonight's pitcher -- try Total Bases: 40% over 1.5 recently (vs. 10-game sample)
 - **Spencer Horwitz** (Pittsburgh Pirates vs Detroit Tigers): favorable matchup vs. tonight's pitcher -- try Hits: 40% over 0.5 recently (vs. 10-game sample)
 - **Brandon Lowe** (Pittsburgh Pirates vs Detroit Tigers): favorable matchup vs. tonight's pitcher -- try Hits: 70% over 0.5 recently (vs. 10-game sample)
-- **Bryan Reynolds** (Pittsburgh Pirates vs Detroit Tigers): favorable matchup vs. tonight's pitcher -- try Hits + Runs + RBIs: 40% over 1.5 recently (vs. 10-game sample)
-- **Oneil Cruz** (Pittsburgh Pirates vs Detroit Tigers): favorable matchup vs. tonight's pitcher -- try Hits + Runs + RBIs: 60% over 2.5 recently (vs. 10-game sample)
 
 ### Pitchers
 - **Walbert Ureña** (Los Angeles Angels vs Houston Astros): 6 hitters in tonight's lineup are in a tough matchup against him, opposing lineup has struck out at an elevated rate over their last 2 games (30% vs their own 23% season rate) -- try Outs Recorded: 80% over 15.5 recently (vs. 5-game sample)
@@ -31,6 +31,10 @@ _Generated 2026-08-19T15:55:28.493091+00:00_
 
 ## Today's Top Unders
 ### Batters
+- **Luke Keaschall** (Minnesota Twins vs Atlanta Braves): tough matchup vs. tonight's pitcher -- try RBIs: 80% under 0.5 recently (vs. 10-game sample)
+- **Byron Buxton** (Minnesota Twins vs Atlanta Braves): tough matchup vs. tonight's pitcher -- try Total Bases: 90% under 1.5 recently (vs. 10-game sample)
+- **Royce Lewis** (Minnesota Twins vs Atlanta Braves): tough matchup vs. tonight's pitcher -- try Walks: 80% under 0.5 recently (vs. 10-game sample)
+- **Kaelen Culpepper** (Minnesota Twins vs Atlanta Braves): tough matchup vs. tonight's pitcher -- try Total Bases: 78% under 1.5 recently (vs. 9-game sample)
 - **Miguel Vargas** (Chicago White Sox vs Chicago Cubs): tough matchup vs. tonight's pitcher -- try Hits + Runs + RBIs: 70% under 2.5 recently (vs. 10-game sample)
 - **Chase Meidroth** (Chicago White Sox vs Chicago Cubs): tough matchup vs. tonight's pitcher -- try Hits + Runs + RBIs: 50% under 2.5 recently (vs. 10-game sample)
 - **Jake Rogers** (Chicago White Sox vs Chicago Cubs): tough matchup vs. tonight's pitcher -- try Hits + Runs + RBIs: 80% under 1.5 recently (vs. 10-game sample)
@@ -42,10 +46,6 @@ _Generated 2026-08-19T15:55:28.493091+00:00_
 - **Masyn Winn** (St. Louis Cardinals vs Cincinnati Reds): tough matchup vs. tonight's pitcher -- try Runs Scored: 70% under 0.5 recently (vs. 10-game sample)
 - **Iván Herrera** (St. Louis Cardinals vs Cincinnati Reds): tough matchup vs. tonight's pitcher -- try Hits + Runs + RBIs: 50% under 2.5 recently (vs. 10-game sample)
 - **Jordan Walker** (St. Louis Cardinals vs Cincinnati Reds): tough matchup vs. tonight's pitcher -- try Total Bases: 70% under 2.5 recently (vs. 10-game sample)
-- **José Fermín** (St. Louis Cardinals vs Cincinnati Reds): tough matchup vs. tonight's pitcher -- try Runs Scored: 90% under 0.5 recently (vs. 10-game sample)
-- **Blaze Jordan** (St. Louis Cardinals vs Cincinnati Reds): tough matchup vs. tonight's pitcher -- try RBIs: 70% under 0.5 recently (vs. 10-game sample)
-- **Isaac Paredes** (Houston Astros vs Los Angeles Angels): tough matchup vs. tonight's pitcher -- try Walks: 80% under 0.5 recently (vs. 10-game sample)
-- **Jeremy Peña** (Houston Astros vs Los Angeles Angels): tough matchup vs. tonight's pitcher -- try Walks: 90% under 0.5 recently (vs. 10-game sample)
 
 ### Pitchers
 - **AJ Smith-Shawver** (Atlanta Braves vs Minnesota Twins): 4 hitters in tonight's lineup are in a tough matchup against him -- try Outs Recorded: 60% under 13.5 recently (vs. 5-game sample)
@@ -114,8 +114,8 @@ Model likes: **San Diego Padres** to win (66%) | Run line: **San Diego Padres** 
 
 ## 2026-08-19 - Atlanta Braves @ Minnesota Twins (Pre-Game)
 _Target Field_
-Projected score: Atlanta Braves 4.18 - Minnesota Twins 3.53
-Model likes: **Atlanta Braves** to win (56%) | Run line: **Minnesota Twins** +1.5 (60% to cover) | Total 7.5: lean **UNDER** (53%)
+Projected score: Atlanta Braves 4.18 - Minnesota Twins 3.5
+Model likes: **Atlanta Braves** to win (56%) | Run line: **Minnesota Twins** +1.5 (60% to cover) | Total 7.5: lean **UNDER** (54%)
 
 ### Atlanta Braves lineup -- CONFIRMED
 _Facing a taxed bullpen: 8.0 relief IP in last 2 days (ratio 1.96)_
@@ -130,17 +130,17 @@ _Facing a taxed bullpen: 8.0 relief IP in last 2 days (ratio 1.96)_
 - #8 Austin Riley (R) -- L7: 6H 1HR 1RBI 11TB (0.240 avg) -- away split: 0.174 avg
 - #9 Jim Jarvis (L) -- L7: 2H 0HR 1RBI 2TB (0.111 avg) -- away split: 0.209 avg
 
-### Minnesota Twins lineup -- PROJECTED (unconfirmed)
+### Minnesota Twins lineup -- CONFIRMED
 **Probable P: Taj Bradley (R)** -- L5: 28.0 IP, 27 K, 14 ER, 4.5 ERA
-- Royce Lewis (R) [TOUGH MATCHUP: pitcher holds this hand to 0.200 avg-against] -- L7: 7H 0HR 3RBI 10TB (0.259 avg) -- home split: 0.242 avg
-- Josh Bell (S) [MATCHUP EDGE: pitcher hits 0.273 avg-against vs this hand] [4-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 9H 1HR 5RBI 13TB (0.346 avg) -- home split: 0.257 avg
-- Luke Keaschall (R) [TOUGH MATCHUP: pitcher holds this hand to 0.200 avg-against] -- L7: 9H 1HR 2RBI 15TB (0.391 avg) -- home split: 0.234 avg
-- Brooks Lee (S) [MATCHUP EDGE: pitcher hits 0.273 avg-against vs this hand] -- L7: 7H 1HR 5RBI 11TB (0.269 avg) -- home split: 0.205 avg
-- Ryan Jeffers (R) [TOUGH MATCHUP: pitcher holds this hand to 0.200 avg-against] -- L7: 8H 0HR 5RBI 12TB (0.320 avg) -- home split: 0.308 avg
-- Ryan Kreidler (R) [TOUGH MATCHUP: pitcher holds this hand to 0.200 avg-against] -- L7: 1H 0HR 0RBI 1TB (0.067 avg) -- home split: 0.255 avg
-- Kody Clemens (L) [MATCHUP EDGE: pitcher hits 0.273 avg-against vs this hand] [3-game hit streak] -- L7: 7H 2HR 5RBI 13TB (0.269 avg) -- home split: 0.266 avg
-- Trevor Larnach (L) [MATCHUP EDGE: pitcher hits 0.273 avg-against vs this hand] -- L7: 4H 0HR 1RBI 4TB (0.154 avg) -- home split: 0.253 avg
-- Alan Roden (L) [MATCHUP EDGE: pitcher hits 0.273 avg-against vs this hand] -- L7: 5H 0HR 2RBI 8TB (0.263 avg) -- home split: 0.222 avg
+- #1 Luke Keaschall (R) [TOUGH MATCHUP: pitcher holds this hand to 0.200 avg-against] -- L7: 9H 1HR 2RBI 15TB (0.391 avg) -- home split: 0.234 avg
+- #2 Byron Buxton (R) [TOUGH MATCHUP: pitcher holds this hand to 0.200 avg-against] -- L7: 3H 0HR 0RBI 4TB (0.130 avg) -- home split: 0.270 avg
+- #3 Josh Bell (S) [MATCHUP EDGE: pitcher hits 0.273 avg-against vs this hand] [4-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 9H 1HR 5RBI 13TB (0.346 avg) -- home split: 0.257 avg
+- #4 Kody Clemens (L) [MATCHUP EDGE: pitcher hits 0.273 avg-against vs this hand] [3-game hit streak] -- L7: 7H 2HR 5RBI 13TB (0.269 avg) -- home split: 0.266 avg
+- #5 Royce Lewis (R) [TOUGH MATCHUP: pitcher holds this hand to 0.200 avg-against] -- L7: 7H 0HR 3RBI 10TB (0.259 avg) -- home split: 0.242 avg
+- #6 Trevor Larnach (L) [MATCHUP EDGE: pitcher hits 0.273 avg-against vs this hand] -- L7: 4H 0HR 1RBI 4TB (0.154 avg) -- home split: 0.253 avg
+- #7 Brooks Lee (S) [MATCHUP EDGE: pitcher hits 0.273 avg-against vs this hand] -- L7: 7H 1HR 5RBI 11TB (0.269 avg) -- home split: 0.205 avg
+- #8 Victor Caratini (S) [MATCHUP EDGE: pitcher hits 0.273 avg-against vs this hand] -- L7: 4H 0HR 1RBI 4TB (0.190 avg) -- home split: 0.262 avg
+- #9 Kaelen Culpepper (R) [TOUGH MATCHUP: pitcher holds this hand to 0.200 avg-against] [6-game hit streak] -- L7: 7H 0HR 1RBI 8TB (0.269 avg) -- home split: 0.269 avg
 
 ## 2026-08-19 - Chicago White Sox @ Chicago Cubs (Pre-Game)
 _Wrigley Field_
@@ -571,7 +571,7 @@ _Facing a rested bullpen: 2.7 relief IP in last 2 days (ratio 0.54)_
 ## 2026-08-20 - Toronto Blue Jays @ Tampa Bay Rays (Scheduled)
 _Tropicana Field_
 Projected score: Toronto Blue Jays 4.03 - Tampa Bay Rays 4.19
-Model likes: **Tampa Bay Rays** to win (52%) | Run line: **Toronto Blue Jays** +1.5 (64% to cover) | Total 7.5: lean **OVER** (51%)
+Model likes: **Tampa Bay Rays** to win (51%) | Run line: **Toronto Blue Jays** +1.5 (64% to cover) | Total 7.5: lean **OVER** (52%)
 
 ### Toronto Blue Jays lineup -- PROJECTED (unconfirmed)
 **Probable P: Shane Bieber (R)** -- L5: 25.0 IP, 18 K, 12 ER, 4.32 ERA
@@ -631,7 +631,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.59)_
 ## 2026-08-20 - Seattle Mariners @ Milwaukee Brewers (Scheduled)
 _American Family Field_
 Projected score: Seattle Mariners 3.08 - Milwaukee Brewers 4.29
-Model likes: **Milwaukee Brewers** to win (62%) | Run line: **Seattle Mariners** +1.5 (56% to cover) | Total 6.5: lean **OVER** (53%)
+Model likes: **Milwaukee Brewers** to win (62%) | Run line: **Seattle Mariners** +1.5 (56% to cover) | Total 6.5: lean **OVER** (54%)
 
 ### Seattle Mariners lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.51)_
