@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-19T21:17:01.251560+00:00_
+_Generated 2026-08-19T21:48:00.762851+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -200,10 +200,10 @@ _Facing a taxed bullpen: 8.0 relief IP in last 2 days (ratio 1.5)_
 - #8 Jarren Duran (L) [4-game hit streak] -- L7: 6H 0HR 1RBI 7TB (0.231 avg) -- home split: 0.221 avg
 - #9 Connor Wong (R) -- L7: 5H 2HR 5RBI 12TB (0.208 avg) -- home split: 0.197 avg
 
-## 2026-08-19 - Miami Marlins @ Philadelphia Phillies (Pre-Game)
+## 2026-08-19 - Miami Marlins @ Philadelphia Phillies (Warmup)
 _Citizens Bank Park [hitter-friendly park]_
 Projected score: Miami Marlins 5.03 - Philadelphia Phillies 4.59
-Model likes: **Miami Marlins** to win (53%) | Run line: **Philadelphia Phillies** +1.5 (60% to cover) | Total 8.5: lean **OVER** (54%)
+Model likes: **Miami Marlins** to win (54%) | Run line: **Philadelphia Phillies** +1.5 (60% to cover) | Total 8.5: lean **OVER** (54%)
 
 ### Miami Marlins lineup -- CONFIRMED
 _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.38)_
@@ -448,7 +448,7 @@ _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.41)_
 ## 2026-08-19 - Los Angeles Angels @ Houston Astros (Pre-Game)
 _Daikin Park_
 Projected score: Los Angeles Angels 4.16 - Houston Astros 3.04
-Model likes: **Los Angeles Angels** to win (61%) | Run line: **Houston Astros** +1.5 (56% to cover) | Total 6.5: lean **OVER** (52%)
+Model likes: **Los Angeles Angels** to win (61%) | Run line: **Houston Astros** +1.5 (57% to cover) | Total 6.5: lean **OVER** (52%)
 
 ### Los Angeles Angels lineup -- CONFIRMED
 **Probable P: Walbert Ureña (R)** -- L5: 26.3 IP, 24 K, 6 ER, 2.05 ERA
@@ -475,23 +475,23 @@ _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.34)_
 - #8 Taylor Trammell (L) -- L7: 2H 0HR 0RBI 4TB (0.095 avg) -- home split: 0.189 avg
 - #9 Christian Vázquez (R) [TOUGH MATCHUP: pitcher holds this hand to 0.189 avg-against] -- L7: 4H 1HR 1RBI 7TB (0.235 avg) -- home split: 0.200 avg
 
-## 2026-08-19 - Los Angeles Dodgers @ Colorado Rockies (Scheduled)
+## 2026-08-19 - Los Angeles Dodgers @ Colorado Rockies (Pre-Game)
 _Coors Field [hitter-friendly park]_
-Projected score: Los Angeles Dodgers 6.91 - Colorado Rockies 5.23
-Model likes: **Los Angeles Dodgers** to win (61%) | Run line: **Colorado Rockies** +1.5 (51% to cover) | Total 11.5: lean **UNDER** (51%)
+Projected score: Los Angeles Dodgers 7.25 - Colorado Rockies 5.23
+Model likes: **Los Angeles Dodgers** to win (63%) | Run line: **Los Angeles Dodgers** -1.5 (52% to cover) | Total 11.5: lean **OVER** (51%)
 
-### Los Angeles Dodgers lineup -- PROJECTED (unconfirmed)
+### Los Angeles Dodgers lineup -- CONFIRMED
 _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.29)_
 **Probable P: Roki Sasaki (R)** -- L5: 30.0 IP, 28 K, 7 ER, 2.1 ERA
-- Andy Pages (R) [MATCHUP EDGE: pitcher hits 0.302 avg-against vs this hand] [3-game hit streak] -- L7: 9H 2HR 4RBI 16TB (0.321 avg) -- away split: 0.255 avg
-- Tommy Edman (S) [MATCHUP EDGE: pitcher hits 0.302 avg-against vs this hand] -- L7: 5H 1HR 1RBI 10TB (0.227 avg) -- away split: 0.297 avg
-- Shohei Ohtani (L) [4-game hit streak] -- L7: 10H 4HR 8RBI 25TB (0.345 avg) -- away split: 0.296 avg
-- Teoscar Hernández (R) [MATCHUP EDGE: pitcher hits 0.302 avg-against vs this hand] -- L7: 6H 0HR 1RBI 9TB (0.250 avg) -- away split: 0.252 avg
-- Mookie Betts (R) [MATCHUP EDGE: pitcher hits 0.302 avg-against vs this hand] -- L7: 5H 1HR 4RBI 9TB (0.192 avg) -- away split: 0.232 avg
-- Kyle Tucker (L) -- L7: 1H 0HR 1RBI 2TB (0.037 avg) -- away split: 0.269 avg
-- Max Muncy (L) [3-game hit streak] -- L7: 6H 3HR 8RBI 16TB (0.273 avg) -- away split: 0.267 avg -- news: 10 questions with Dodgers vet Max Muncy
-- Freddie Freeman (L) -- L7: 6H 0HR 3RBI 8TB (0.240 avg) -- away split: 0.339 avg
-- Hunter Feduccia (L) -- L7: 3H 1HR 1RBI 6TB (0.188 avg) -- away split: 0.218 avg
+- #1 Shohei Ohtani (L) [4-game hit streak] -- L7: 10H 4HR 8RBI 25TB (0.345 avg) -- away split: 0.296 avg
+- #2 Andy Pages (R) [MATCHUP EDGE: pitcher hits 0.302 avg-against vs this hand] [3-game hit streak] -- L7: 9H 2HR 4RBI 16TB (0.321 avg) -- away split: 0.255 avg
+- #3 Teoscar Hernández (R) [MATCHUP EDGE: pitcher hits 0.302 avg-against vs this hand] -- L7: 6H 0HR 1RBI 9TB (0.250 avg) -- away split: 0.252 avg
+- #4 Freddie Freeman (L) -- L7: 6H 0HR 3RBI 8TB (0.240 avg) -- away split: 0.339 avg
+- #5 Mookie Betts (R) [MATCHUP EDGE: pitcher hits 0.302 avg-against vs this hand] -- L7: 5H 1HR 4RBI 9TB (0.192 avg) -- away split: 0.232 avg
+- #6 Miguel Rojas (R) [MATCHUP EDGE: pitcher hits 0.302 avg-against vs this hand] -- L7: 2H 0HR 0RBI 4TB (0.222 avg) -- away split: 0.265 avg
+- #7 Kyle Tucker (L) -- L7: 1H 0HR 1RBI 2TB (0.037 avg) -- away split: 0.269 avg
+- #8 Enrique Hernández (R) [MATCHUP EDGE: pitcher hits 0.302 avg-against vs this hand] -- L7: 1H 0HR 0RBI 1TB (0.100 avg) -- away split: 0.111 avg
+- #9 Ben Rortvedt (L) -- L7: 2H 0HR 1RBI 2TB (0.182 avg) -- away split: 0.167 avg
 
 ### Colorado Rockies lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.34)_
@@ -720,7 +720,7 @@ _Facing a rested bullpen: 2.7 relief IP in last 2 days (ratio 0.52)_
 ## 2026-08-20 - Washington Nationals @ Texas Rangers (Scheduled)
 _Globe Life Field [hitter-friendly park]_
 Projected score: Washington Nationals 4.63 - Texas Rangers 3.59
-Model likes: **Washington Nationals** to win (59%) | Run line: **Texas Rangers** +1.5 (56% to cover) | Total 7.5: lean **OVER** (51%)
+Model likes: **Washington Nationals** to win (59%) | Run line: **Texas Rangers** +1.5 (57% to cover) | Total 7.5: lean **OVER** (51%)
 
 ### Washington Nationals lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.41)_
@@ -809,7 +809,7 @@ _Facing a rested bullpen: 2.7 relief IP in last 2 days (ratio 0.5)_
 ## 2026-08-21 - St. Louis Cardinals @ Philadelphia Phillies (Scheduled)
 _Citizens Bank Park [hitter-friendly park]_
 Projected score: St. Louis Cardinals 4.07 - Philadelphia Phillies 4.53
-Model likes: **Philadelphia Phillies** to win (54%) | Run line: **St. Louis Cardinals** +1.5 (61% to cover) | Total 8.5: lean **UNDER** (54%)
+Model likes: **Philadelphia Phillies** to win (54%) | Run line: **St. Louis Cardinals** +1.5 (61% to cover) | Total 8.5: lean **UNDER** (55%)
 
 ### St. Louis Cardinals lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -839,7 +839,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-21 - Toronto Blue Jays @ New York Yankees (Scheduled)
 _Yankee Stadium [hitter-friendly park]_
 Projected score: Toronto Blue Jays 3.67 - New York Yankees 3.99
-Model likes: **New York Yankees** to win (53%) | Run line: **Toronto Blue Jays** +1.5 (64% to cover) | Total 7.5: lean **UNDER** (54%)
+Model likes: **New York Yankees** to win (53%) | Run line: **Toronto Blue Jays** +1.5 (63% to cover) | Total 7.5: lean **UNDER** (54%)
 
 ### Toronto Blue Jays lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
