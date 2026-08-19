@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-19T16:30:16.278407+00:00_
+_Generated 2026-08-19T16:58:51.218313+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -53,7 +53,7 @@ _Generated 2026-08-19T16:30:16.278407+00:00_
 - **Chase Burns** (Cincinnati Reds vs St. Louis Cardinals): 5 hitters in tonight's lineup are in a tough matchup against him -- try Runs Allowed: 80% under 1.5 recently (vs. 5-game sample)
 - **Walbert Ureña** (Los Angeles Angels vs Houston Astros): 6 hitters in tonight's lineup are in a tough matchup against him -- try Runs Allowed: 80% under 1.5 recently (vs. 5-game sample)
 
-## 2026-08-19 - Detroit Tigers @ Pittsburgh Pirates (Pre-Game)
+## 2026-08-19 - Detroit Tigers @ Pittsburgh Pirates (In Progress)
 _PNC Park_
 Projected score: Detroit Tigers 4.62 - Pittsburgh Pirates 4.24
 Model likes: **Detroit Tigers** to win (53%) | Run line: **Pittsburgh Pirates** +1.5 (62% to cover) | Total 8.5: lean **UNDER** (52%)
@@ -83,7 +83,7 @@ _Facing a taxed bullpen: 6.3 relief IP in last 2 days (ratio 1.28)_
 - #8 Jared Triolo (R) -- L7: 5H 1HR 3RBI 8TB (0.208 avg) -- home split: 0.233 avg
 - #9 Henry Davis (R) -- L7: 4H 0HR 2RBI 4TB (0.174 avg) -- home split: 0.189 avg
 
-## 2026-08-19 - San Diego Padres @ New York Mets (Pre-Game)
+## 2026-08-19 - San Diego Padres @ New York Mets (Warmup)
 _Citi Field_
 Projected score: San Diego Padres 4.98 - New York Mets 3.16
 Model likes: **San Diego Padres** to win (66%) | Run line: **San Diego Padres** -1.5 (50% to cover) | Total 7.5: lean **OVER** (50%)
@@ -173,10 +173,10 @@ _Facing a taxed bullpen: 12.0 relief IP in last 2 days (ratio 1.77)_
 - #8 Ian Happ (S) [3-game hit streak] -- L7: 4H 0HR 0RBI 4TB (0.182 avg) -- home split: 0.218 avg
 - #9 Tyrone Taylor (R) -- L7: 2H 0HR 1RBI 2TB (0.167 avg) -- home split: 0.273 avg
 
-## 2026-08-19 - Arizona Diamondbacks @ Boston Red Sox (Scheduled)
+## 2026-08-19 - Arizona Diamondbacks @ Boston Red Sox (Pre-Game)
 _Fenway Park_
-Projected score: Arizona Diamondbacks 3.14 - Boston Red Sox 4.16
-Model likes: **Boston Red Sox** to win (60%) | Run line: **Arizona Diamondbacks** +1.5 (57% to cover) | Total 6.5: lean **OVER** (53%)
+Projected score: Arizona Diamondbacks 3.14 - Boston Red Sox 4.03
+Model likes: **Boston Red Sox** to win (59%) | Run line: **Arizona Diamondbacks** +1.5 (59% to cover) | Total 6.5: lean **OVER** (52%)
 
 ### Arizona Diamondbacks lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 11.3 relief IP in last 2 days (ratio 2.07)_
@@ -191,18 +191,18 @@ _Facing a taxed bullpen: 11.3 relief IP in last 2 days (ratio 2.07)_
 - Nolan Arenado (R) -- L7: 6H 3HR 8RBI 17TB (0.240 avg) -- away split: 0.215 avg
 - Lars Nootbaar (L) -- L7: 2H 0HR 0RBI 2TB (0.091 avg) -- away split: 0.198 avg
 
-### Boston Red Sox lineup -- PROJECTED (unconfirmed)
+### Boston Red Sox lineup -- CONFIRMED
 _Facing a taxed bullpen: 8.0 relief IP in last 2 days (ratio 1.5)_
 **Probable P: Payton Tolle (L)** -- L5: 31.0 IP, 41 K, 9 ER, 2.61 ERA
-- Caleb Durbin (R) [4-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 11H 1HR 8RBI 14TB (0.423 avg) -- home split: 0.257 avg
-- Nick Sogard (S) -- L7: 7H 0HR 3RBI 9TB (0.259 avg) -- home split: 0.308 avg
-- Andruw Monasterio (R) -- L7: 6H 0HR 6RBI 7TB (0.240 avg) -- home split: 0.267 avg
-- Jarren Duran (L) [4-game hit streak] -- L7: 6H 0HR 1RBI 7TB (0.231 avg) -- home split: 0.221 avg
-- Ceddanne Rafaela (R) -- L7: 9H 1HR 3RBI 16TB (0.290 avg) -- home split: 0.283 avg
-- Wilyer Abreu (L) -- L7: 8H 1HR 3RBI 15TB (0.308 avg) -- home split: 0.257 avg
-- Willson Contreras (R) -- L7: 7H 2HR 4RBI 16TB (0.280 avg) -- home split: 0.322 avg
-- Anthony Seigler (S) [likely BABIP-driven, not a real power uptick] -- L7: 7H 0HR 3RBI 10TB (0.389 avg) -- home split: 0.304 avg
-- Eli White (R) -- L7: 5H 0HR 2RBI 5TB (0.263 avg) -- home split: 0.169 avg
+- #1 Nick Sogard (S) -- L7: 7H 0HR 3RBI 9TB (0.259 avg) -- home split: 0.308 avg
+- #2 Ceddanne Rafaela (R) -- L7: 9H 1HR 3RBI 16TB (0.290 avg) -- home split: 0.283 avg
+- #3 Wilyer Abreu (L) -- L7: 8H 1HR 3RBI 15TB (0.308 avg) -- home split: 0.257 avg
+- #4 Willson Contreras (R) -- L7: 7H 2HR 4RBI 16TB (0.280 avg) -- home split: 0.322 avg
+- #5 Caleb Durbin (R) [4-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 11H 1HR 8RBI 14TB (0.423 avg) -- home split: 0.257 avg
+- #6 Mickey Gasper (S) -- L7: 4H 2HR 5RBI 10TB (0.190 avg) -- home split: 0.298 avg
+- #7 Andruw Monasterio (R) -- L7: 6H 0HR 6RBI 7TB (0.240 avg) -- home split: 0.267 avg
+- #8 Jarren Duran (L) [4-game hit streak] -- L7: 6H 0HR 1RBI 7TB (0.231 avg) -- home split: 0.221 avg
+- #9 Connor Wong (R) -- L7: 5H 2HR 5RBI 12TB (0.208 avg) -- home split: 0.197 avg
 
 ## 2026-08-19 - Miami Marlins @ Philadelphia Phillies (Scheduled)
 _Citizens Bank Park [hitter-friendly park]_
@@ -632,7 +632,7 @@ _Facing a rested bullpen: 2.3 relief IP in last 2 days (ratio 0.51)_
 ## 2026-08-20 - Athletics @ Kansas City Royals (Scheduled)
 _Kauffman Stadium [pitcher-friendly park]_
 Projected score: Athletics 3.72 - Kansas City Royals 4.85
-Model likes: **Kansas City Royals** to win (60%) | Run line: **Athletics** +1.5 (56% to cover) | Total 7.5: lean **OVER** (54%)
+Model likes: **Kansas City Royals** to win (60%) | Run line: **Athletics** +1.5 (56% to cover) | Total 7.5: lean **OVER** (55%)
 
 ### Athletics lineup -- PROJECTED (unconfirmed)
 - Henry Bolte (R) [4-game hit streak] -- L7: 9H 1HR 3RBI 13TB (0.333 avg) -- away split: 0.214 avg
@@ -1100,11 +1100,12 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 
 ## 2026-08-21 - Minnesota Twins @ San Diego Padres (Scheduled)
 _Petco Park [pitcher-friendly park]_
-Projected score: Minnesota Twins 3.45 - San Diego Padres 4.5
-Model likes: **San Diego Padres** to win (60%) | Run line: **Minnesota Twins** +1.5 (57% to cover) | Total 7.5: lean **UNDER** (51%)
+Projected score: Minnesota Twins 3.45 - San Diego Padres 4.54
+Model likes: **San Diego Padres** to win (60%) | Run line: **Minnesota Twins** +1.5 (56% to cover) | Total 7.5: lean **UNDER** (51%)
 
 ### Minnesota Twins lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
+**Probable P: Connor Prielipp (L)** -- L5: 26.0 IP, 29 K, 18 ER, 6.23 ERA
 - Royce Lewis (R) -- L7: 7H 0HR 3RBI 10TB (0.259 avg) -- away split: 0.238 avg
 - Josh Bell (S) [4-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 9H 1HR 5RBI 13TB (0.346 avg) -- away split: 0.259 avg
 - Luke Keaschall (R) -- L7: 9H 1HR 2RBI 15TB (0.391 avg) -- away split: 0.309 avg
