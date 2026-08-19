@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-19T11:52:44.276564+00:00_
+_Generated 2026-08-19T12:41:56.925002+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -391,7 +391,7 @@ _Facing a rested bullpen: 2.3 relief IP in last 2 days (ratio 0.51)_
 ## 2026-08-19 - Athletics @ Kansas City Royals (Scheduled)
 _Kauffman Stadium [pitcher-friendly park]_
 Projected score: Athletics 3.72 - Kansas City Royals 4.85
-Model likes: **Kansas City Royals** to win (60%) | Run line: **Athletics** +1.5 (56% to cover) | Total 7.5: lean **OVER** (55%)
+Model likes: **Kansas City Royals** to win (60%) | Run line: **Athletics** +1.5 (56% to cover) | Total 7.5: lean **OVER** (54%)
 
 ### Athletics lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 9.0 relief IP in last 2 days (ratio 1.7)_
@@ -571,7 +571,7 @@ _Facing a rested bullpen: 3.3 relief IP in last 2 days (ratio 0.51)_
 ## 2026-08-20 - San Francisco Giants @ Cleveland Guardians (Scheduled)
 _Progressive Field_
 Projected score: San Francisco Giants 3.16 - Cleveland Guardians 3.51
-Model likes: **Cleveland Guardians** to win (54%) | Run line: **San Francisco Giants** +1.5 (64% to cover) | Total 6.5: lean **UNDER** (54%)
+Model likes: **Cleveland Guardians** to win (54%) | Run line: **San Francisco Giants** +1.5 (65% to cover) | Total 6.5: lean **UNDER** (54%)
 
 ### San Francisco Giants lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.59)_
@@ -601,7 +601,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.59)_
 ## 2026-08-20 - Seattle Mariners @ Milwaukee Brewers (Scheduled)
 _American Family Field_
 Projected score: Seattle Mariners 3.08 - Milwaukee Brewers 4.29
-Model likes: **Milwaukee Brewers** to win (62%) | Run line: **Seattle Mariners** +1.5 (56% to cover) | Total 6.5: lean **OVER** (54%)
+Model likes: **Milwaukee Brewers** to win (62%) | Run line: **Seattle Mariners** +1.5 (55% to cover) | Total 6.5: lean **OVER** (53%)
 
 ### Seattle Mariners lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.51)_
@@ -632,7 +632,7 @@ _Facing a rested bullpen: 2.3 relief IP in last 2 days (ratio 0.51)_
 ## 2026-08-20 - Athletics @ Kansas City Royals (Scheduled)
 _Kauffman Stadium [pitcher-friendly park]_
 Projected score: Athletics 3.72 - Kansas City Royals 4.85
-Model likes: **Kansas City Royals** to win (60%) | Run line: **Athletics** +1.5 (56% to cover) | Total 7.5: lean **OVER** (54%)
+Model likes: **Kansas City Royals** to win (60%) | Run line: **Athletics** +1.5 (56% to cover) | Total 7.5: lean **OVER** (55%)
 
 ### Athletics lineup -- PROJECTED (unconfirmed)
 - Henry Bolte (R) [4-game hit streak] -- L7: 9H 1HR 3RBI 13TB (0.333 avg) -- away split: 0.214 avg
@@ -1188,7 +1188,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-21 - Pittsburgh Pirates @ Los Angeles Dodgers (Scheduled)
 _UNIQLO Field at Dodger Stadium_
 Projected score: Pittsburgh Pirates 4.19 - Los Angeles Dodgers 4.25
-Model likes: **Los Angeles Dodgers** to win (50%) | Run line: **Pittsburgh Pirates** +1.5 (65% to cover) | Total 7.5: lean **OVER** (54%)
+Model likes: **Los Angeles Dodgers** to win (50%) | Run line: **Pittsburgh Pirates** +1.5 (65% to cover) | Total 7.5: lean **OVER** (53%)
 
 ### Pittsburgh Pirates lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
