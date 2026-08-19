@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-19T09:20:00.645784+00:00_
+_Generated 2026-08-19T09:54:25.713883+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -86,7 +86,7 @@ _Facing a taxed bullpen: 6.3 relief IP in last 2 days (ratio 1.28)_
 ## 2026-08-19 - San Diego Padres @ New York Mets (Scheduled)
 _Citi Field_
 Projected score: San Diego Padres 4.8 - New York Mets 3.07
-Model likes: **San Diego Padres** to win (66%) | Run line: **New York Mets** +1.5 (50% to cover) | Total 7.5: lean **UNDER** (52%)
+Model likes: **San Diego Padres** to win (66%) | Run line: **New York Mets** +1.5 (51% to cover) | Total 7.5: lean **UNDER** (52%)
 
 ### San Diego Padres lineup -- PROJECTED (unconfirmed)
 **Probable P: Michael King (R)** -- L5: 29.0 IP, 28 K, 12 ER, 3.72 ERA
@@ -480,7 +480,7 @@ _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.34)_
 ## 2026-08-19 - Los Angeles Dodgers @ Colorado Rockies (Scheduled)
 _Coors Field [hitter-friendly park]_
 Projected score: Los Angeles Dodgers 6.91 - Colorado Rockies 5.23
-Model likes: **Los Angeles Dodgers** to win (61%) | Run line: **Colorado Rockies** +1.5 (50% to cover) | Total 11.5: lean **UNDER** (51%)
+Model likes: **Los Angeles Dodgers** to win (61%) | Run line: **Colorado Rockies** +1.5 (51% to cover) | Total 11.5: lean **UNDER** (51%)
 
 ### Los Angeles Dodgers lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.29)_
@@ -660,7 +660,7 @@ _Facing a taxed bullpen: 6.3 relief IP in last 2 days (ratio 1.31)_
 ## 2026-08-20 - Atlanta Braves @ Chicago White Sox (Scheduled)
 _Rate Field_
 Projected score: Atlanta Braves 4.06 - Chicago White Sox 3.84
-Model likes: **Atlanta Braves** to win (52%) | Run line: **Chicago White Sox** +1.5 (64% to cover) | Total 7.5: lean **UNDER** (51%)
+Model likes: **Atlanta Braves** to win (52%) | Run line: **Chicago White Sox** +1.5 (64% to cover) | Total 7.5: lean **UNDER** (52%)
 
 ### Atlanta Braves lineup -- PROJECTED (unconfirmed)
 **Probable P: Grant Holmes (R)** -- L5: 25.3 IP, 19 K, 12 ER, 4.26 ERA
@@ -808,7 +808,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-21 - St. Louis Cardinals @ Philadelphia Phillies (Scheduled)
 _Citizens Bank Park [hitter-friendly park]_
 Projected score: St. Louis Cardinals 5.01 - Philadelphia Phillies 4.53
-Model likes: **St. Louis Cardinals** to win (54%) | Run line: **Philadelphia Phillies** +1.5 (60% to cover) | Total 8.5: lean **OVER** (53%)
+Model likes: **St. Louis Cardinals** to win (54%) | Run line: **Philadelphia Phillies** +1.5 (60% to cover) | Total 8.5: lean **OVER** (54%)
 
 ### St. Louis Cardinals lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1188,7 +1188,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-21 - Pittsburgh Pirates @ Los Angeles Dodgers (Scheduled)
 _UNIQLO Field at Dodger Stadium_
 Projected score: Pittsburgh Pirates 4.19 - Los Angeles Dodgers 4.25
-Model likes: **Los Angeles Dodgers** to win (50%) | Run line: **Pittsburgh Pirates** +1.5 (65% to cover) | Total 7.5: lean **OVER** (54%)
+Model likes: **Los Angeles Dodgers** to win (50%) | Run line: **Pittsburgh Pirates** +1.5 (65% to cover) | Total 7.5: lean **OVER** (53%)
 
 ### Pittsburgh Pirates lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
