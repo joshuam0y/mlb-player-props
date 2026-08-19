@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-19T23:12:54.748506+00:00_
+_Generated 2026-08-19T23:42:37.575705+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -169,10 +169,9 @@ _Facing a taxed bullpen: 12.0 relief IP in last 2 days (ratio 1.77)_
 - #8 Ian Happ (S) [3-game hit streak] -- L7: 4H 0HR 0RBI 4TB (0.182 avg) -- home split: 0.218 avg
 - #9 Tyrone Taylor (R) -- L7: 2H 0HR 1RBI 2TB (0.167 avg) -- home split: 0.273 avg
 
-## 2026-08-19 - Arizona Diamondbacks @ Boston Red Sox (In Progress)
+## 2026-08-19 - Arizona Diamondbacks @ Boston Red Sox (Final)
 _Fenway Park_
-Projected score: Arizona Diamondbacks 3.07 - Boston Red Sox 4.03
-Model likes: **Boston Red Sox** to win (60%) | Run line: **Arizona Diamondbacks** +1.5 (58% to cover) | Total 6.5: lean **OVER** (51%)
+Final: Arizona Diamondbacks 7 - Boston Red Sox 6
 
 ### Arizona Diamondbacks lineup -- CONFIRMED
 _Facing a taxed bullpen: 11.3 relief IP in last 2 days (ratio 2.07)_
@@ -264,7 +263,7 @@ _Facing a taxed bullpen: 6.7 relief IP in last 2 days (ratio 1.29)_
 ## 2026-08-19 - Toronto Blue Jays @ Tampa Bay Rays (In Progress)
 _Tropicana Field_
 Projected score: Toronto Blue Jays 3.15 - Tampa Bay Rays 4.66
-Model likes: **Tampa Bay Rays** to win (64%) | Run line: **Toronto Blue Jays** +1.5 (52% to cover) | Total 7.5: lean **UNDER** (52%)
+Model likes: **Tampa Bay Rays** to win (64%) | Run line: **Toronto Blue Jays** +1.5 (52% to cover) | Total 7.5: lean **UNDER** (53%)
 
 ### Toronto Blue Jays lineup -- CONFIRMED
 _Facing a taxed bullpen: 11.0 relief IP in last 2 days (ratio 1.83)_
@@ -353,7 +352,7 @@ _Facing a taxed bullpen: 12.0 relief IP in last 2 days (ratio 2.3)_
 - #8 Jose Trevino (R) [MATCHUP EDGE: pitcher hits 0.280 avg-against vs this hand] -- L7: 4H 1HR 2RBI 7TB (0.190 avg) -- home split: 0.255 avg
 - #9 Matt McLain (R) [MATCHUP EDGE: pitcher hits 0.280 avg-against vs this hand] -- L7: 4H 1HR 1RBI 8TB (0.167 avg) -- home split: 0.174 avg
 
-## 2026-08-19 - Seattle Mariners @ Milwaukee Brewers (Pre-Game)
+## 2026-08-19 - Seattle Mariners @ Milwaukee Brewers (Warmup)
 _American Family Field_
 Projected score: Seattle Mariners 3.14 - Milwaukee Brewers 3.82
 Model likes: **Milwaukee Brewers** to win (57%) | Run line: **Seattle Mariners** +1.5 (61% to cover) | Total 6.5: lean **UNDER** (51%)
@@ -384,7 +383,7 @@ _Facing a rested bullpen: 2.3 relief IP in last 2 days (ratio 0.51)_
 - #8 Joey Ortiz (R) -- L7: 7H 1HR 4RBI 11TB (0.318 avg) -- home split: 0.284 avg
 - #9 Cooper Pratt (R) -- L7: 4H 0HR 1RBI 5TB (0.182 avg) -- home split: 0.239 avg
 
-## 2026-08-19 - Athletics @ Kansas City Royals (Pre-Game)
+## 2026-08-19 - Athletics @ Kansas City Royals (In Progress)
 _Kauffman Stadium [pitcher-friendly park]_
 Projected score: Athletics 4.05 - Kansas City Royals 5.86
 Model likes: **Kansas City Royals** to win (64%) | Run line: **Kansas City Royals** -1.5 (50% to cover) | Total 9.5: lean **UNDER** (52%)
@@ -539,7 +538,7 @@ _Facing a rested bullpen: 2.7 relief IP in last 2 days (ratio 0.54)_
 ## 2026-08-20 - Toronto Blue Jays @ Tampa Bay Rays (Scheduled)
 _Tropicana Field_
 Projected score: Toronto Blue Jays 4.03 - Tampa Bay Rays 4.19
-Model likes: **Tampa Bay Rays** to win (52%) | Run line: **Toronto Blue Jays** +1.5 (64% to cover) | Total 7.5: lean **OVER** (52%)
+Model likes: **Tampa Bay Rays** to win (51%) | Run line: **Toronto Blue Jays** +1.5 (64% to cover) | Total 7.5: lean **OVER** (51%)
 
 ### Toronto Blue Jays lineup -- PROJECTED (unconfirmed)
 **Probable P: Shane Bieber (R)** -- L5: 25.0 IP, 18 K, 12 ER, 4.32 ERA
@@ -690,7 +689,7 @@ _Facing a taxed bullpen: 14.7 relief IP in last 2 days (ratio 2.15)_
 ## 2026-08-20 - New York Yankees @ Baltimore Orioles (Scheduled)
 _Oriole Park at Camden Yards_
 Projected score: New York Yankees 3.33 - Baltimore Orioles 3.1
-Model likes: **New York Yankees** to win (53%) | Run line: **Baltimore Orioles** +1.5 (66% to cover) | Total 5.5: lean **OVER** (55%)
+Model likes: **New York Yankees** to win (52%) | Run line: **Baltimore Orioles** +1.5 (66% to cover) | Total 5.5: lean **OVER** (55%)
 
 ### New York Yankees lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.7 relief IP in last 2 days (ratio 0.52)_
@@ -1075,24 +1074,25 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 
 ## 2026-08-21 - Cleveland Guardians @ Colorado Rockies (Scheduled)
 _Coors Field [hitter-friendly park]_
-Projected score: Cleveland Guardians 5.69 - Colorado Rockies 4.13
-Model likes: **Cleveland Guardians** to win (62%) | Run line: **Colorado Rockies** +1.5 (52% to cover) | Total 9.5: lean **UNDER** (53%)
+Projected score: Cleveland Guardians 4.71 - Colorado Rockies 4.13
+Model likes: **Cleveland Guardians** to win (55%) | Run line: **Colorado Rockies** +1.5 (60% to cover) | Total 8.5: lean **UNDER** (52%)
 
 ### Cleveland Guardians lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 **Probable P: Joey Cantillo (L)** -- L5: 19.7 IP, 27 K, 9 ER, 4.12 ERA
-- Chase DeLauter (L) [likely BABIP-driven, not a real power uptick] -- L7: 10H 1HR 1RBI 14TB (0.370 avg) -- away split: 0.279 avg
-- Angel Martínez (S) -- L7: 6H 0HR 2RBI 9TB (0.273 avg) -- away split: 0.235 avg
-- Steven Kwan (L) -- L7: 7H 0HR 1RBI 8TB (0.280 avg) -- away split: 0.259 avg
-- Brayan Rocchio (S) -- L7: 6H 1HR 1RBI 10TB (0.231 avg) -- away split: 0.218 avg
-- Travis Bazzana (L) -- L7: 2H 0HR 0RBI 2TB (0.083 avg) -- away split: 0.242 avg
+- Chase DeLauter (L) [MATCHUP EDGE: pitcher hits 0.315 avg-against vs this hand] [likely BABIP-driven, not a real power uptick] -- L7: 10H 1HR 1RBI 14TB (0.370 avg) -- away split: 0.279 avg
+- Angel Martínez (S) [MATCHUP EDGE: pitcher hits 0.315 avg-against vs this hand] -- L7: 6H 0HR 2RBI 9TB (0.273 avg) -- away split: 0.235 avg
+- Steven Kwan (L) [MATCHUP EDGE: pitcher hits 0.315 avg-against vs this hand] -- L7: 7H 0HR 1RBI 8TB (0.280 avg) -- away split: 0.259 avg
+- Brayan Rocchio (S) [MATCHUP EDGE: pitcher hits 0.315 avg-against vs this hand] -- L7: 6H 1HR 1RBI 10TB (0.231 avg) -- away split: 0.218 avg
+- Travis Bazzana (L) [MATCHUP EDGE: pitcher hits 0.315 avg-against vs this hand] -- L7: 2H 0HR 0RBI 2TB (0.083 avg) -- away split: 0.242 avg
 - Jo Adell (R) -- L7: 7H 3HR 11RBI 18TB (0.292 avg) -- away split: 0.237 avg
-- José Ramírez (S) [3-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 8H 0HR 3RBI 10TB (0.348 avg) -- away split: 0.217 avg
-- Angel Genao (S) -- L7: 5H 0HR 1RBI 7TB (0.238 avg) -- away split: 0.167 avg
-- Patrick Bailey (S) -- L7: 1H 0HR 2RBI 2TB (0.053 avg) -- away split: 0.164 avg
+- José Ramírez (S) [MATCHUP EDGE: pitcher hits 0.315 avg-against vs this hand] [3-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 8H 0HR 3RBI 10TB (0.348 avg) -- away split: 0.217 avg
+- Angel Genao (S) [MATCHUP EDGE: pitcher hits 0.315 avg-against vs this hand] -- L7: 5H 0HR 1RBI 7TB (0.238 avg) -- away split: 0.167 avg
+- Patrick Bailey (S) [MATCHUP EDGE: pitcher hits 0.315 avg-against vs this hand] -- L7: 1H 0HR 2RBI 2TB (0.053 avg) -- away split: 0.164 avg
 
 ### Colorado Rockies lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
+**Probable P: Tanner Gordon (R)** -- L5: 21.0 IP, 15 K, 8 ER, 3.43 ERA
 - Cole Carrigg (S) [MATCHUP EDGE: pitcher hits 0.261 avg-against vs this hand] -- L7: 6H 0HR 4RBI 9TB (0.240 avg) -- home split: 0.330 avg
 - Jake McCarthy (L) -- L7: 4H 0HR 1RBI 5TB (0.143 avg) -- home split: 0.315 avg
 - TJ Rumfield (L) -- L7: 6H 0HR 1RBI 7TB (0.250 avg) -- home split: 0.300 avg
@@ -1165,11 +1165,12 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 
 ## 2026-08-21 - Chicago Cubs @ Seattle Mariners (Scheduled)
 _T-Mobile Park [pitcher-friendly park]_
-Projected score: Chicago Cubs 4.85 - Seattle Mariners 3.21
-Model likes: **Chicago Cubs** to win (65%) | Run line: **Seattle Mariners** +1.5 (51% to cover) | Total 7.5: lean **UNDER** (50%)
+Projected score: Chicago Cubs 4.85 - Seattle Mariners 3.06
+Model likes: **Chicago Cubs** to win (66%) | Run line: **Chicago Cubs** -1.5 (50% to cover) | Total 7.5: lean **UNDER** (52%)
 
 ### Chicago Cubs lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
+**Probable P: Matthew Boyd (L)** -- L5: 33.0 IP, 17 K, 14 ER, 3.82 ERA
 - Pete Crow-Armstrong (L) -- L7: 6H 4HR 6RBI 19TB (0.207 avg) -- away split: 0.256 avg
 - Ian Happ (S) -- L7: 3H 0HR 0RBI 3TB (0.136 avg) -- away split: 0.213 avg
 - Alex Bregman (R) -- L7: 6H 0HR 2RBI 7TB (0.231 avg) -- away split: 0.290 avg
@@ -1193,8 +1194,8 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 
 ## 2026-08-21 - Pittsburgh Pirates @ Los Angeles Dodgers (Scheduled)
 _UNIQLO Field at Dodger Stadium_
-Projected score: Pittsburgh Pirates 4.19 - Los Angeles Dodgers 4.23
-Model likes: **Los Angeles Dodgers** to win (50%) | Run line: **Pittsburgh Pirates** +1.5 (65% to cover) | Total 7.5: lean **OVER** (53%)
+Projected score: Pittsburgh Pirates 3.42 - Los Angeles Dodgers 4.23
+Model likes: **Los Angeles Dodgers** to win (58%) | Run line: **Pittsburgh Pirates** +1.5 (59% to cover) | Total 7.5: lean **UNDER** (54%)
 
 ### Pittsburgh Pirates lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1202,14 +1203,15 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 - Bryan Reynolds (S) -- L7: 6H 0HR 3RBI 8TB (0.214 avg) -- away split: 0.222 avg
 - Brandon Lowe (L) -- L7: 8H 2HR 6RBI 14TB (0.276 avg) -- away split: 0.256 avg
 - Jake Mangum (S) -- L7: 7H 0HR 1RBI 10TB (0.333 avg) -- away split: 0.272 avg
-- Esmerlyn Valdez (R) -- L7: 7H 0HR 2RBI 10TB (0.241 avg) -- away split: 0.232 avg
+- Esmerlyn Valdez (R) [TOUGH MATCHUP: pitcher holds this hand to 0.194 avg-against] -- L7: 7H 0HR 2RBI 10TB (0.241 avg) -- away split: 0.232 avg
 - Jacob Gonzalez (L) -- L7: 3H 1HR 2RBI 7TB (0.167 avg) -- away split: 0.242 avg
-- Jared Triolo (R) -- L7: 5H 1HR 3RBI 8TB (0.208 avg) -- away split: 0.250 avg
-- Nick Gonzales (R) -- L7: 7H 0HR 0RBI 9TB (0.333 avg) -- away split: 0.325 avg
+- Jared Triolo (R) [TOUGH MATCHUP: pitcher holds this hand to 0.194 avg-against] -- L7: 5H 1HR 3RBI 8TB (0.208 avg) -- away split: 0.250 avg
+- Nick Gonzales (R) [TOUGH MATCHUP: pitcher holds this hand to 0.194 avg-against] -- L7: 7H 0HR 0RBI 9TB (0.333 avg) -- away split: 0.325 avg
 - Spencer Horwitz (L) -- L7: 3H 0HR 1RBI 3TB (0.111 avg) -- away split: 0.238 avg
-- Rafael Flores Jr. (R) -- L7: 10H 5HR 10RBI 26TB (0.435 avg) -- away split: 0.133 avg
+- Rafael Flores Jr. (R) [TOUGH MATCHUP: pitcher holds this hand to 0.194 avg-against] -- L7: 10H 5HR 10RBI 26TB (0.435 avg) -- away split: 0.133 avg
 
 ### Los Angeles Dodgers lineup -- PROJECTED (unconfirmed)
+**Probable P: Yoshinobu Yamamoto (R)** -- L5: 34.7 IP, 30 K, 7 ER, 1.82 ERA
 - Andy Pages (R) [3-game hit streak] -- L7: 9H 2HR 4RBI 16TB (0.321 avg) -- home split: 0.294 avg
 - Tommy Edman (S) -- L7: 5H 1HR 1RBI 10TB (0.227 avg) -- home split: 0.241 avg
 - Shohei Ohtani (L) [4-game hit streak] -- L7: 10H 4HR 8RBI 25TB (0.345 avg) -- home split: 0.291 avg
