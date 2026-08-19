@@ -301,6 +301,22 @@
     #favorites-panel { left: 12px; right: 12px; width: auto; bottom: 72px; }
     #favorites-btn { right: 12px; bottom: 12px; }
   }
+
+  #newDataBanner {
+    position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+    display: flex; justify-content: center; align-items: center; gap: 12px;
+    background: var(--header-grad); color: #fff; padding: 10px 16px;
+    font-size: 13px; font-weight: 600; box-shadow: var(--shadow);
+    animation: newDataSlideIn 0.25s ease-out;
+  }
+  #newDataBanner button {
+    background: rgba(255,255,255,0.18); color: #fff; border: 1px solid rgba(255,255,255,0.35);
+    border-radius: 999px; padding: 5px 14px; font-size: 12.5px; font-weight: 700;
+    cursor: pointer; font-family: inherit;
+  }
+  #newDataBanner button:hover { background: rgba(255,255,255,0.28); }
+  #newDataBanner .dismiss { background: none; border: none; color: rgba(255,255,255,0.75); font-size: 16px; padding: 0 4px; }
+  @keyframes newDataSlideIn { from { transform: translateY(-100%); } to { transform: translateY(0); } }
   /* Live-tracker highlights the batter/pitcher currently in the game --
      set/cleared by highlightActivePlayers() every poll, matched against
      these rows by the same person id the boxscore uses. A tinted row
@@ -3574,6 +3590,73 @@ function initGameCardAccordion() {
     });
   });
 }
+// This page (and my-bets.html / track-record.html, which share this same
+// script) only get new content when a GitHub Actions run rebuilds and
+// redeploys output/ -- previously that meant a visitor had to remember to
+// manually reload to ever see a newly-confirmed lineup or a fresher line,
+// even if they left the tab open all afternoon. latest.json is the
+// smallest file the build already produces every run, so polling just its
+// top-level generated_at is enough to detect "a new build landed" without
+// re-fetching the whole (100k+ line) page on every check.
+const AUTO_REFRESH_POLL_MS = 45000;
+const AUTO_REFRESH_IDLE_RELOAD_MS = 20000;
+let lastKnownGeneratedAt = null;
+let idleReloadTimer = null;
+
+function initAutoRefresh() {
+  checkForNewData();
+  setInterval(checkForNewData, AUTO_REFRESH_POLL_MS);
+  // A backgrounded tab isn't being read, so it's safe to just reload the
+  // instant it's looked at again rather than waiting for the next poll or
+  // making the visitor click anything.
+  document.addEventListener('visibilitychange', function () {
+    if (document.visibilityState !== 'visible') return;
+    if (document.getElementById('newDataBanner')) { location.reload(); return; }
+    checkForNewData();
+  });
+}
+
+function checkForNewData() {
+  if (document.visibilityState === 'hidden') return;
+  fetch('latest.json', { cache: 'no-store' })
+    .then(function (r) { return r.json(); })
+    .then(function (data) {
+      if (!data || !data.generated_at) return;
+      // First check just learns the current build's timestamp -- there's
+      // nothing to compare against yet, and the page the visitor already
+      // has open IS that build.
+      if (lastKnownGeneratedAt === null) { lastKnownGeneratedAt = data.generated_at; return; }
+      if (data.generated_at !== lastKnownGeneratedAt) showNewDataBanner();
+    })
+    .catch(function () {}); // transient network hiccup -- just try again next poll
+}
+
+function showNewDataBanner() {
+  if (document.getElementById('newDataBanner')) return;
+  const banner = document.createElement('div');
+  banner.id = 'newDataBanner';
+  banner.innerHTML = 'New odds, lineups, or stats are available.' +
+    '<button type="button" id="newDataRefreshBtn">Refresh now</button>' +
+    '<button type="button" class="dismiss" id="newDataDismissBtn" aria-label="Dismiss">&times;</button>';
+  document.body.appendChild(banner);
+  document.getElementById('newDataRefreshBtn').addEventListener('click', function () { location.reload(); });
+  document.getElementById('newDataDismissBtn').addEventListener('click', function () {
+    banner.remove();
+    clearTimeout(idleReloadTimer);
+  });
+  // Reload on its own once the visitor stops actively interacting, so
+  // nobody has to remember to click "Refresh now" -- but never mid-scroll
+  // or mid-read, since any of these events keeps pushing the reload back.
+  const resetIdleTimer = function () {
+    clearTimeout(idleReloadTimer);
+    idleReloadTimer = setTimeout(function () { location.reload(); }, AUTO_REFRESH_IDLE_RELOAD_MS);
+  };
+  ['mousemove', 'keydown', 'touchstart', 'scroll', 'wheel'].forEach(function (evt) {
+    document.addEventListener(evt, resetIdleTimer, { passive: true });
+  });
+  resetIdleTimer();
+}
+
 function initTheme() {
   const saved = localStorage.getItem('theme');
   if (saved) document.documentElement.setAttribute('data-theme', saved);
@@ -4351,6 +4434,7 @@ document.addEventListener('DOMContentLoaded', function () {
   initTheme();
   localizeGameTimes();
   initLiveTracker();
+  initAutoRefresh();
   initGameCardAccordion();
   syncStickyOffset();
   window.addEventListener('resize', syncStickyOffset);
