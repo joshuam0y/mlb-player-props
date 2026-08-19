@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-19T20:47:20.255510+00:00_
+_Generated 2026-08-19T20:50:15.553946+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -17,7 +17,7 @@ _Generated 2026-08-19T20:47:20.255510+00:00_
 - **Brock Rodden** (Seattle Mariners vs Milwaukee Brewers): favorable matchup vs. tonight's pitcher -- try RBIs: 50% over 0.5 recently (vs. 4-game sample)
 - **Bobby Witt Jr.** (Kansas City Royals vs Athletics): favorable matchup vs. tonight's pitcher -- try Runs Scored: 60% over 0.5 recently (vs. 10-game sample)
 - **Maikel Garcia** (Kansas City Royals vs Athletics): favorable matchup vs. tonight's pitcher -- try Hits + Runs + RBIs: 40% over 1.5 recently (vs. 10-game sample)
-- **Brandon Nimmo** (Texas Rangers vs Washington Nationals): favorable matchup vs. tonight's pitcher -- try Total Bases: 50% over 1.5 recently (vs. 10-game sample)
+- **Lawrence Butler** (Athletics vs Kansas City Royals): favorable matchup vs. tonight's pitcher -- try Hits: 70% over 0.5 recently (vs. 10-game sample)
 
 ### Pitchers
 - **Walbert Ureña** (Los Angeles Angels vs Houston Astros): 6 hitters in tonight's lineup are in a tough matchup against him, opposing lineup has struck out at an elevated rate over their last 2 games (30% vs their own 23% season rate) -- try Outs Recorded: 80% over 15.5 recently (vs. 5-game sample)
@@ -387,21 +387,21 @@ _Facing a rested bullpen: 2.3 relief IP in last 2 days (ratio 0.51)_
 
 ## 2026-08-19 - Athletics @ Kansas City Royals (Pre-Game)
 _Kauffman Stadium [pitcher-friendly park]_
-Projected score: Athletics 4.07 - Kansas City Royals 5.86
+Projected score: Athletics 4.05 - Kansas City Royals 5.86
 Model likes: **Kansas City Royals** to win (64%) | Run line: **Kansas City Royals** -1.5 (50% to cover) | Total 9.5: lean **UNDER** (52%)
 
-### Athletics lineup -- PROJECTED (unconfirmed)
+### Athletics lineup -- CONFIRMED
 _Facing a taxed bullpen: 9.0 relief IP in last 2 days (ratio 1.7)_
 **Probable P: Jeffrey Springs (L)** -- L5: 20.0 IP, 10 K, 20 ER, 9.0 ERA
-- Henry Bolte (R) [4-game hit streak] -- L7: 9H 1HR 3RBI 13TB (0.333 avg) -- away split: 0.214 avg
-- Lawrence Butler (L) [MATCHUP EDGE: pitcher hits 0.285 avg-against vs this hand] [3-game hit streak] -- L7: 7H 4HR 6RBI 19TB (0.269 avg) -- away split: 0.175 avg
-- Tommy White (R) [6-game hit streak] -- L7: 7H 2HR 3RBI 13TB (0.318 avg) -- away split: 0.273 avg
-- Jonah Heim (S) [MATCHUP EDGE: pitcher hits 0.285 avg-against vs this hand] -- L7: 1H 0HR 0RBI 2TB (0.050 avg) -- away split: 0.192 avg
-- Alika Williams (R) -- L7: 6H 0HR 0RBI 8TB (0.333 avg) -- away split: 0.180 avg
-- Donovan Walton (L) [MATCHUP EDGE: pitcher hits 0.285 avg-against vs this hand] -- L7: 3H 0HR 0RBI 4TB (0.188 avg) -- away split: 0.318 avg
-- Max Muncy (R) -- L7: 3H 0HR 2RBI 5TB (0.158 avg) -- away split: 0.208 avg
-- Jeff McNeil (L) [MATCHUP EDGE: pitcher hits 0.285 avg-against vs this hand] -- L7: 10H 2HR 6RBI 18TB (0.400 avg) -- away split: 0.257 avg
-- Carlos Cortes (L) [MATCHUP EDGE: pitcher hits 0.285 avg-against vs this hand] -- L7: 5H 0HR 7RBI 8TB (0.250 avg) -- away split: 0.287 avg
+- #1 Henry Bolte (R) [4-game hit streak] -- L7: 9H 1HR 3RBI 13TB (0.333 avg) -- away split: 0.214 avg
+- #2 Jeff McNeil (L) [MATCHUP EDGE: pitcher hits 0.285 avg-against vs this hand] -- L7: 10H 2HR 6RBI 18TB (0.400 avg) -- away split: 0.257 avg
+- #3 Zack Gelof (R) -- L7: 6H 2HR 3RBI 12TB (0.240 avg) -- away split: 0.219 avg
+- #4 Lawrence Butler (L) [MATCHUP EDGE: pitcher hits 0.285 avg-against vs this hand] [3-game hit streak] -- L7: 7H 4HR 6RBI 19TB (0.269 avg) -- away split: 0.175 avg
+- #5 Tommy White (R) [6-game hit streak] -- L7: 7H 2HR 3RBI 13TB (0.318 avg) -- away split: 0.273 avg
+- #6 Carlos Cortes (L) [MATCHUP EDGE: pitcher hits 0.285 avg-against vs this hand] -- L7: 5H 0HR 7RBI 8TB (0.250 avg) -- away split: 0.287 avg
+- #7 Jonah Heim (S) [MATCHUP EDGE: pitcher hits 0.285 avg-against vs this hand] -- L7: 1H 0HR 0RBI 2TB (0.050 avg) -- away split: 0.192 avg
+- #8 Donovan Walton (L) [MATCHUP EDGE: pitcher hits 0.285 avg-against vs this hand] -- L7: 3H 0HR 0RBI 4TB (0.188 avg) -- away split: 0.318 avg
+- #9 Max Muncy (R) -- L7: 3H 0HR 2RBI 5TB (0.158 avg) -- away split: 0.208 avg
 
 ### Kansas City Royals lineup -- CONFIRMED
 _Facing a taxed bullpen: 11.7 relief IP in last 2 days (ratio 2.41)_
@@ -570,7 +570,7 @@ _Facing a rested bullpen: 2.7 relief IP in last 2 days (ratio 0.54)_
 ## 2026-08-20 - Toronto Blue Jays @ Tampa Bay Rays (Scheduled)
 _Tropicana Field_
 Projected score: Toronto Blue Jays 4.03 - Tampa Bay Rays 4.19
-Model likes: **Tampa Bay Rays** to win (52%) | Run line: **Toronto Blue Jays** +1.5 (64% to cover) | Total 7.5: lean **OVER** (52%)
+Model likes: **Tampa Bay Rays** to win (52%) | Run line: **Toronto Blue Jays** +1.5 (64% to cover) | Total 7.5: lean **OVER** (51%)
 
 ### Toronto Blue Jays lineup -- PROJECTED (unconfirmed)
 **Probable P: Shane Bieber (R)** -- L5: 25.0 IP, 18 K, 12 ER, 4.32 ERA
