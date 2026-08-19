@@ -17,13 +17,20 @@ name: Quick refresh (lineups + score updates)
 
 on:
   schedule:
-    # Offset a few minutes past each 15-minute mark, not exactly on it --
+    # Every 5 minutes, offset 2 past each mark rather than exactly on it --
     # GitHub explicitly documents that scheduled runs are delayed most at
     # round-number times, since that's when the most workflows across all
-    # of GitHub Actions are queued at once. Confirmed this matters in
-    # practice: the exact :00/:15/:30/:45 schedule was actually landing
-    # every 2-3.5 hours some days, not every 15 minutes.
-    - cron: "3,18,33,48 * * * *"
+    # of GitHub Actions are queued at once (confirmed this matters in
+    # practice at the old 15-min cadence: the exact :00/:15/:30/:45
+    # schedule was actually landing every 2-3.5 hours some days). Tightened
+    # from 15 min to 5 min so a newly-confirmed lineup or line move shows
+    # up sooner -- this job's own runs consistently finish in 3-6 minutes
+    # (checked via `gh run list`) and this is a public repo (unlimited
+    # Actions minutes), and cancel-in-progress below already makes an
+    # occasional overlap harmless (the slower run just gets cancelled
+    # instead of piling up) rather than something this interval needs to
+    # avoid outright.
+    - cron: "2-59/5 * * * *"
   workflow_dispatch: {}
 
 concurrency:
