@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-19T17:36:51.970998+00:00_
+_Generated 2026-08-19T17:40:51.330189+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -391,7 +391,7 @@ _Facing a rested bullpen: 2.3 relief IP in last 2 days (ratio 0.51)_
 ## 2026-08-19 - Athletics @ Kansas City Royals (Scheduled)
 _Kauffman Stadium [pitcher-friendly park]_
 Projected score: Athletics 3.72 - Kansas City Royals 4.85
-Model likes: **Kansas City Royals** to win (60%) | Run line: **Athletics** +1.5 (56% to cover) | Total 7.5: lean **OVER** (55%)
+Model likes: **Kansas City Royals** to win (60%) | Run line: **Athletics** +1.5 (56% to cover) | Total 7.5: lean **OVER** (54%)
 
 ### Athletics lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 9.0 relief IP in last 2 days (ratio 1.7)_
@@ -420,7 +420,7 @@ _Facing a taxed bullpen: 11.7 relief IP in last 2 days (ratio 2.41)_
 ## 2026-08-19 - Washington Nationals @ Texas Rangers (Scheduled)
 _Globe Life Field [hitter-friendly park]_
 Projected score: Washington Nationals 4.5 - Texas Rangers 3.11
-Model likes: **Washington Nationals** to win (63%) | Run line: **Texas Rangers** +1.5 (54% to cover) | Total 7.5: lean **UNDER** (55%)
+Model likes: **Washington Nationals** to win (63%) | Run line: **Texas Rangers** +1.5 (54% to cover) | Total 7.5: lean **UNDER** (54%)
 
 ### Washington Nationals lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.41)_
@@ -541,7 +541,7 @@ _Facing a rested bullpen: 2.7 relief IP in last 2 days (ratio 0.54)_
 ## 2026-08-20 - Toronto Blue Jays @ Tampa Bay Rays (Scheduled)
 _Tropicana Field_
 Projected score: Toronto Blue Jays 4.03 - Tampa Bay Rays 4.19
-Model likes: **Tampa Bay Rays** to win (52%) | Run line: **Toronto Blue Jays** +1.5 (64% to cover) | Total 7.5: lean **OVER** (51%)
+Model likes: **Tampa Bay Rays** to win (51%) | Run line: **Toronto Blue Jays** +1.5 (64% to cover) | Total 7.5: lean **OVER** (51%)
 
 ### Toronto Blue Jays lineup -- PROJECTED (unconfirmed)
 **Probable P: Shane Bieber (R)** -- L5: 25.0 IP, 18 K, 12 ER, 4.32 ERA
@@ -632,7 +632,7 @@ _Facing a rested bullpen: 2.3 relief IP in last 2 days (ratio 0.51)_
 ## 2026-08-20 - Athletics @ Kansas City Royals (Scheduled)
 _Kauffman Stadium [pitcher-friendly park]_
 Projected score: Athletics 3.72 - Kansas City Royals 4.85
-Model likes: **Kansas City Royals** to win (60%) | Run line: **Athletics** +1.5 (56% to cover) | Total 7.5: lean **OVER** (55%)
+Model likes: **Kansas City Royals** to win (60%) | Run line: **Athletics** +1.5 (56% to cover) | Total 7.5: lean **OVER** (54%)
 
 ### Athletics lineup -- PROJECTED (unconfirmed)
 - Henry Bolte (R) [4-game hit streak] -- L7: 9H 1HR 3RBI 13TB (0.333 avg) -- away split: 0.214 avg
@@ -837,7 +837,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-21 - Toronto Blue Jays @ New York Yankees (Scheduled)
 _Yankee Stadium [hitter-friendly park]_
 Projected score: Toronto Blue Jays 3.67 - New York Yankees 3.99
-Model likes: **New York Yankees** to win (53%) | Run line: **Toronto Blue Jays** +1.5 (64% to cover) | Total 7.5: lean **UNDER** (54%)
+Model likes: **New York Yankees** to win (53%) | Run line: **Toronto Blue Jays** +1.5 (63% to cover) | Total 7.5: lean **UNDER** (54%)
 
 ### Toronto Blue Jays lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
