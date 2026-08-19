@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-19T22:12:35.510379+00:00_
+_Generated 2026-08-19T22:47:27.540932+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -231,7 +231,7 @@ _Facing a taxed bullpen: 9.7 relief IP in last 2 days (ratio 1.85)_
 - #8 Justin Crawford (L) [3-game hit streak] -- L7: 6H 0HR 1RBI 8TB (0.333 avg) -- home split: 0.302 avg
 - #9 Garrett Stubbs (L) -- L7: 1H 0HR 0RBI 1TB (0.071 avg) -- home split: 0.000 avg
 
-## 2026-08-19 - New York Yankees @ Baltimore Orioles (Warmup)
+## 2026-08-19 - New York Yankees @ Baltimore Orioles (In Progress)
 _Oriole Park at Camden Yards_
 Projected score: New York Yankees 4.09 - Baltimore Orioles 3.83
 Model likes: **New York Yankees** to win (52%) | Run line: **Baltimore Orioles** +1.5 (64% to cover) | Total 7.5: lean **UNDER** (51%)
@@ -261,10 +261,10 @@ _Facing a taxed bullpen: 6.7 relief IP in last 2 days (ratio 1.29)_
 - #8 Colton Cowser (L) [MATCHUP EDGE: pitcher hits 0.274 avg-against vs this hand] -- L7: 3H 2HR 3RBI 9TB (0.273 avg) -- home split: 0.212 avg
 - #9 Carlos Narváez (R) -- L7: 1H 0HR 0RBI 1TB (0.056 avg) -- home split: 0.180 avg
 
-## 2026-08-19 - Toronto Blue Jays @ Tampa Bay Rays (Pre-Game)
+## 2026-08-19 - Toronto Blue Jays @ Tampa Bay Rays (In Progress)
 _Tropicana Field_
 Projected score: Toronto Blue Jays 3.15 - Tampa Bay Rays 4.66
-Model likes: **Tampa Bay Rays** to win (64%) | Run line: **Toronto Blue Jays** +1.5 (53% to cover) | Total 7.5: lean **UNDER** (53%)
+Model likes: **Tampa Bay Rays** to win (64%) | Run line: **Toronto Blue Jays** +1.5 (52% to cover) | Total 7.5: lean **UNDER** (53%)
 
 ### Toronto Blue Jays lineup -- CONFIRMED
 _Facing a taxed bullpen: 11.0 relief IP in last 2 days (ratio 1.83)_
@@ -292,10 +292,10 @@ _Facing a rested bullpen: 3.3 relief IP in last 2 days (ratio 0.51)_
 - #8 Richie Palacios (L) [MATCHUP EDGE: pitcher hits 0.297 avg-against vs this hand] [likely BABIP-driven, not a real power uptick] -- L7: 8H 0HR 3RBI 10TB (0.364 avg) -- home split: 0.237 avg
 - #9 Taylor Walls (S) [MATCHUP EDGE: pitcher hits 0.297 avg-against vs this hand] [9-game hit streak] -- L7: 8H 2HR 5RBI 14TB (0.348 avg) -- home split: 0.226 avg
 
-## 2026-08-19 - San Francisco Giants @ Cleveland Guardians (Warmup)
+## 2026-08-19 - San Francisco Giants @ Cleveland Guardians (In Progress)
 _Progressive Field_
 Projected score: San Francisco Giants 2.54 - Cleveland Guardians 4.59
-Model likes: **Cleveland Guardians** to win (70%) | Run line: **Cleveland Guardians** -1.5 (53% to cover) | Total 6.5: lean **OVER** (51%)
+Model likes: **Cleveland Guardians** to win (70%) | Run line: **Cleveland Guardians** -1.5 (52% to cover) | Total 6.5: lean **OVER** (51%)
 
 ### San Francisco Giants lineup -- CONFIRMED
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.59)_
@@ -322,7 +322,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.59)_
 - #8 Austin Hedges (R) -- L7: 3H 0HR 2RBI 3TB (0.167 avg) -- home split: 0.241 avg
 - #9 Brayan Rocchio (S) -- L7: 6H 1HR 1RBI 10TB (0.231 avg) -- home split: 0.290 avg
 
-## 2026-08-19 - St. Louis Cardinals @ Cincinnati Reds (Pre-Game)
+## 2026-08-19 - St. Louis Cardinals @ Cincinnati Reds (In Progress)
 _Great American Ball Park [hitter-friendly park]_
 Projected score: St. Louis Cardinals 3.65 - Cincinnati Reds 4.58
 Model likes: **Cincinnati Reds** to win (58%) | Run line: **St. Louis Cardinals** +1.5 (57% to cover) | Total 7.5: lean **OVER** (51%)
@@ -539,7 +539,7 @@ _Facing a rested bullpen: 2.7 relief IP in last 2 days (ratio 0.54)_
 ## 2026-08-20 - Toronto Blue Jays @ Tampa Bay Rays (Scheduled)
 _Tropicana Field_
 Projected score: Toronto Blue Jays 4.03 - Tampa Bay Rays 4.19
-Model likes: **Tampa Bay Rays** to win (51%) | Run line: **Toronto Blue Jays** +1.5 (64% to cover) | Total 7.5: lean **OVER** (52%)
+Model likes: **Tampa Bay Rays** to win (52%) | Run line: **Toronto Blue Jays** +1.5 (64% to cover) | Total 7.5: lean **OVER** (52%)
 
 ### Toronto Blue Jays lineup -- PROJECTED (unconfirmed)
 **Probable P: Shane Bieber (R)** -- L5: 25.0 IP, 18 K, 12 ER, 4.32 ERA
@@ -599,7 +599,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.59)_
 ## 2026-08-20 - Seattle Mariners @ Milwaukee Brewers (Scheduled)
 _American Family Field_
 Projected score: Seattle Mariners 3.08 - Milwaukee Brewers 4.29
-Model likes: **Milwaukee Brewers** to win (62%) | Run line: **Seattle Mariners** +1.5 (55% to cover) | Total 6.5: lean **OVER** (53%)
+Model likes: **Milwaukee Brewers** to win (62%) | Run line: **Seattle Mariners** +1.5 (56% to cover) | Total 6.5: lean **OVER** (53%)
 
 ### Seattle Mariners lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.51)_
