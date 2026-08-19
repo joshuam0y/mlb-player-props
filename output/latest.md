@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-19T13:33:36.774914+00:00_
+_Generated 2026-08-19T14:09:32.897637+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -16,8 +16,8 @@ _Generated 2026-08-19T13:33:36.774914+00:00_
 - **Dominic Canzone** (Seattle Mariners vs Milwaukee Brewers): favorable matchup vs. tonight's pitcher -- try Total Bases: 60% over 1.5 recently (vs. 10-game sample)
 - **Brandon Nimmo** (Texas Rangers vs Washington Nationals): favorable matchup vs. tonight's pitcher -- try Total Bases: 50% over 1.5 recently (vs. 10-game sample)
 - **Andy Pages** (Los Angeles Dodgers vs Colorado Rockies): favorable matchup vs. tonight's pitcher -- try Total Bases: 40% over 1.5 recently (vs. 10-game sample)
-- **Bryan Reynolds** (Pittsburgh Pirates vs Detroit Tigers): favorable matchup vs. tonight's pitcher -- try Hits + Runs + RBIs: 40% over 1.5 recently (vs. 10-game sample)
-- **Brandon Lowe** (Pittsburgh Pirates vs Detroit Tigers): favorable matchup vs. tonight's pitcher -- try Hits: 70% over 0.5 recently (vs. 10-game sample)
+- **Jackson Merrill** (San Diego Padres vs New York Mets): favorable matchup vs. tonight's pitcher -- try Runs Scored: 60% over 0.5 recently (vs. 10-game sample)
+- **Luis Rengifo** (San Diego Padres vs New York Mets): favorable matchup vs. tonight's pitcher -- try Hits: 60% over 0.5 recently (vs. 10-game sample)
 
 ### Pitchers
 - **Walbert Ureña** (Los Angeles Angels vs Houston Astros): 6 hitters in tonight's lineup are in a tough matchup against him, opposing lineup has struck out at an elevated rate over their last 2 games (30% vs their own 23% season rate) -- try Outs Recorded: 80% over 15.5 recently (vs. 5-game sample)
@@ -53,22 +53,22 @@ _Generated 2026-08-19T13:33:36.774914+00:00_
 - **Chase Burns** (Cincinnati Reds vs St. Louis Cardinals): 5 hitters in tonight's lineup are in a tough matchup against him -- try Runs Allowed: 80% under 1.5 recently (vs. 5-game sample)
 - **Walbert Ureña** (Los Angeles Angels vs Houston Astros): 6 hitters in tonight's lineup are in a tough matchup against him -- try Runs Allowed: 80% under 1.5 recently (vs. 5-game sample)
 
-## 2026-08-19 - Detroit Tigers @ Pittsburgh Pirates (Scheduled)
+## 2026-08-19 - Detroit Tigers @ Pittsburgh Pirates (Pre-Game)
 _PNC Park_
 Projected score: Detroit Tigers 4.62 - Pittsburgh Pirates 4.26
 Model likes: **Detroit Tigers** to win (53%) | Run line: **Pittsburgh Pirates** +1.5 (62% to cover) | Total 8.5: lean **UNDER** (52%)
 
-### Detroit Tigers lineup -- PROJECTED (unconfirmed)
+### Detroit Tigers lineup -- CONFIRMED
 **Probable P: Jackson Jobe (R)** -- L5: 24.3 IP, 20 K, 13 ER, 4.81 ERA
-- Kevin McGonigle (L) -- L7: 5H 1HR 2RBI 8TB (0.179 avg) -- away split: 0.295 avg
-- Max Clark (L) -- L7: 5H 0HR 2RBI 7TB (0.200 avg) -- away split: 0.289 avg -- news: Mayo: Don't judge a book by its cover -- especially Max Clark
-- Dillon Dingler (R) -- L7: 2H 0HR 2RBI 3TB (0.071 avg) -- away split: 0.281 avg
-- Colt Keith (L) [3-game hit streak] -- L7: 5H 1HR 1RBI 9TB (0.357 avg) -- away split: 0.275 avg
-- Spencer Torkelson (R) -- L7: 4H 0HR 3RBI 5TB (0.190 avg) -- away split: 0.236 avg
-- Zach McKinstry (L) -- L7: 4H 0HR 1RBI 5TB (0.222 avg) -- away split: 0.189 avg
-- Gleyber Torres (R) [5-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 11H 1HR 3RBI 16TB (0.379 avg) -- away split: 0.248 avg
-- Hao-Yu Lee (R) [likely BABIP-driven, not a real power uptick] -- L7: 6H 0HR 3RBI 7TB (0.429 avg) -- away split: 0.290 avg -- news: Hao-Yu Lee sets single-season record for hits by a player born in Taiwan
-- Javier Báez (R) -- L7: 3H 0HR 0RBI 4TB (0.130 avg) -- away split: 0.250 avg
+- #1 Colt Keith (L) [3-game hit streak] -- L7: 5H 1HR 1RBI 9TB (0.357 avg) -- away split: 0.275 avg
+- #2 Gleyber Torres (R) [5-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 11H 1HR 3RBI 16TB (0.379 avg) -- away split: 0.248 avg
+- #3 Kevin McGonigle (L) -- L7: 5H 1HR 2RBI 8TB (0.179 avg) -- away split: 0.295 avg
+- #4 Dillon Dingler (R) -- L7: 2H 0HR 2RBI 3TB (0.071 avg) -- away split: 0.281 avg
+- #5 Brett Callahan (L) [3-game hit streak] -- L7: 4H 1HR 5RBI 9TB (0.444 avg) -- away split: 0.429 avg
+- #6 Zach McKinstry (L) -- L7: 4H 0HR 1RBI 5TB (0.222 avg) -- away split: 0.189 avg
+- #7 Spencer Torkelson (R) -- L7: 4H 0HR 3RBI 5TB (0.190 avg) -- away split: 0.236 avg
+- #8 Max Clark (L) -- L7: 5H 0HR 2RBI 7TB (0.200 avg) -- away split: 0.289 avg -- news: Mayo: Don't judge a book by its cover -- especially Max Clark
+- #9 Hao-Yu Lee (R) [likely BABIP-driven, not a real power uptick] -- L7: 6H 0HR 3RBI 7TB (0.429 avg) -- away split: 0.290 avg -- news: Hao-Yu Lee sets single-season record for hits by a player born in Taiwan
 
 ### Pittsburgh Pirates lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 6.3 relief IP in last 2 days (ratio 1.28)_
@@ -83,22 +83,22 @@ _Facing a taxed bullpen: 6.3 relief IP in last 2 days (ratio 1.28)_
 - Spencer Horwitz (L) [MATCHUP EDGE: pitcher hits 0.261 avg-against vs this hand] -- L7: 4H 0HR 1RBI 4TB (0.154 avg) -- home split: 0.284 avg
 - Rafael Flores Jr. (R) -- L7: 8H 3HR 8RBI 18TB (0.333 avg) -- home split: 0.355 avg
 
-## 2026-08-19 - San Diego Padres @ New York Mets (Scheduled)
+## 2026-08-19 - San Diego Padres @ New York Mets (Pre-Game)
 _Citi Field_
-Projected score: San Diego Padres 4.8 - New York Mets 3.07
-Model likes: **San Diego Padres** to win (66%) | Run line: **New York Mets** +1.5 (50% to cover) | Total 7.5: lean **UNDER** (52%)
+Projected score: San Diego Padres 4.98 - New York Mets 3.07
+Model likes: **San Diego Padres** to win (67%) | Run line: **San Diego Padres** -1.5 (51% to cover) | Total 7.5: lean **UNDER** (50%)
 
-### San Diego Padres lineup -- PROJECTED (unconfirmed)
+### San Diego Padres lineup -- CONFIRMED
 **Probable P: Michael King (R)** -- L5: 29.0 IP, 28 K, 12 ER, 3.72 ERA
-- Jackson Merrill (L) [MATCHUP EDGE: pitcher hits 0.278 avg-against vs this hand] -- L7: 5H 0HR 2RBI 7TB (0.200 avg) -- away split: 0.235 avg
-- Fernando Tatis Jr. (R) -- L7: 6H 4HR 6RBI 18TB (0.273 avg) -- away split: 0.249 avg
-- Ty France (R) -- L7: 8H 0HR 1RBI 9TB (0.286 avg) -- away split: 0.281 avg
-- Jake Cronenworth (L) [MATCHUP EDGE: pitcher hits 0.278 avg-against vs this hand] [8-game hit streak] -- L7: 9H 1HR 3RBI 13TB (0.310 avg) -- away split: 0.252 avg
-- Manny Machado (R) -- L7: 9H 1HR 1RBI 12TB (0.321 avg) -- away split: 0.212 avg
-- Luis Rengifo (S) [MATCHUP EDGE: pitcher hits 0.278 avg-against vs this hand] -- L7: 7H 2HR 5RBI 13TB (0.280 avg) -- away split: 0.255 avg
-- Xander Bogaerts (R) -- L7: 4H 2HR 5RBI 10TB (0.190 avg) -- away split: 0.234 avg
-- Jase Bowen (R) -- L7: 2H 1HR 1RBI 5TB (0.500 avg) -- away split: 0.167 avg
-- Gavin Sheets (L) [MATCHUP EDGE: pitcher hits 0.278 avg-against vs this hand] -- L7: 3H 1HR 1RBI 6TB (0.176 avg) -- away split: 0.247 avg
+- #1 Fernando Tatis Jr. (R) -- L7: 6H 4HR 6RBI 18TB (0.273 avg) -- away split: 0.249 avg
+- #2 Jake Cronenworth (L) [MATCHUP EDGE: pitcher hits 0.278 avg-against vs this hand] [8-game hit streak] -- L7: 9H 1HR 3RBI 13TB (0.310 avg) -- away split: 0.252 avg
+- #3 Manny Machado (R) -- L7: 9H 1HR 1RBI 12TB (0.321 avg) -- away split: 0.212 avg
+- #4 Ty France (R) -- L7: 8H 0HR 1RBI 9TB (0.286 avg) -- away split: 0.281 avg
+- #5 Jackson Merrill (L) [MATCHUP EDGE: pitcher hits 0.278 avg-against vs this hand] -- L7: 5H 0HR 2RBI 7TB (0.200 avg) -- away split: 0.235 avg
+- #6 Luis Rengifo (S) [MATCHUP EDGE: pitcher hits 0.278 avg-against vs this hand] -- L7: 7H 2HR 5RBI 13TB (0.280 avg) -- away split: 0.255 avg
+- #7 Luis Campusano (R) -- L7: 7H 1HR 7RBI 12TB (0.318 avg) -- away split: 0.267 avg
+- #8 Xander Bogaerts (R) -- L7: 4H 2HR 5RBI 10TB (0.190 avg) -- away split: 0.234 avg
+- #9 Sung-Mun Song (L) [MATCHUP EDGE: pitcher hits 0.278 avg-against vs this hand] -- L7: 1H 0HR 0RBI 1TB (0.200 avg) -- away split: 0.255 avg
 
 ### New York Mets lineup -- PROJECTED (unconfirmed)
 **Probable P: Robert Stock (R)** -- L5: 15.0 IP, 14 K, 12 ER, 7.2 ERA
@@ -541,7 +541,7 @@ _Facing a rested bullpen: 2.7 relief IP in last 2 days (ratio 0.54)_
 ## 2026-08-20 - Toronto Blue Jays @ Tampa Bay Rays (Scheduled)
 _Tropicana Field_
 Projected score: Toronto Blue Jays 4.03 - Tampa Bay Rays 4.19
-Model likes: **Tampa Bay Rays** to win (51%) | Run line: **Toronto Blue Jays** +1.5 (64% to cover) | Total 7.5: lean **OVER** (51%)
+Model likes: **Tampa Bay Rays** to win (52%) | Run line: **Toronto Blue Jays** +1.5 (64% to cover) | Total 7.5: lean **OVER** (51%)
 
 ### Toronto Blue Jays lineup -- PROJECTED (unconfirmed)
 **Probable P: Shane Bieber (R)** -- L5: 25.0 IP, 18 K, 12 ER, 4.32 ERA
@@ -808,7 +808,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-21 - St. Louis Cardinals @ Philadelphia Phillies (Scheduled)
 _Citizens Bank Park [hitter-friendly park]_
 Projected score: St. Louis Cardinals 5.01 - Philadelphia Phillies 4.53
-Model likes: **St. Louis Cardinals** to win (54%) | Run line: **Philadelphia Phillies** +1.5 (60% to cover) | Total 8.5: lean **OVER** (54%)
+Model likes: **St. Louis Cardinals** to win (54%) | Run line: **Philadelphia Phillies** +1.5 (60% to cover) | Total 8.5: lean **OVER** (53%)
 
 ### St. Louis Cardinals lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -837,7 +837,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-21 - Toronto Blue Jays @ New York Yankees (Scheduled)
 _Yankee Stadium [hitter-friendly park]_
 Projected score: Toronto Blue Jays 3.67 - New York Yankees 3.99
-Model likes: **New York Yankees** to win (53%) | Run line: **Toronto Blue Jays** +1.5 (64% to cover) | Total 7.5: lean **UNDER** (54%)
+Model likes: **New York Yankees** to win (53%) | Run line: **Toronto Blue Jays** +1.5 (63% to cover) | Total 7.5: lean **UNDER** (54%)
 
 ### Toronto Blue Jays lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -983,7 +983,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-21 - Detroit Tigers @ Kansas City Royals (Scheduled)
 _Kauffman Stadium [pitcher-friendly park]_
 Projected score: Detroit Tigers 5.2 - Kansas City Royals 3.6
-Model likes: **Detroit Tigers** to win (63%) | Run line: **Kansas City Royals** +1.5 (52% to cover) | Total 8.5: lean **UNDER** (53%)
+Model likes: **Detroit Tigers** to win (64%) | Run line: **Kansas City Royals** +1.5 (51% to cover) | Total 8.5: lean **UNDER** (53%)
 
 ### Detroit Tigers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1041,7 +1041,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-21 - Los Angeles Angels @ Texas Rangers (Scheduled)
 _Globe Life Field [hitter-friendly park]_
 Projected score: Los Angeles Angels 3.78 - Texas Rangers 4.17
-Model likes: **Texas Rangers** to win (54%) | Run line: **Los Angeles Angels** +1.5 (63% to cover) | Total 7.5: lean **UNDER** (51%)
+Model likes: **Texas Rangers** to win (54%) | Run line: **Los Angeles Angels** +1.5 (62% to cover) | Total 7.5: lean **UNDER** (51%)
 
 ### Los Angeles Angels lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1188,7 +1188,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-21 - Pittsburgh Pirates @ Los Angeles Dodgers (Scheduled)
 _UNIQLO Field at Dodger Stadium_
 Projected score: Pittsburgh Pirates 4.19 - Los Angeles Dodgers 4.25
-Model likes: **Los Angeles Dodgers** to win (50%) | Run line: **Pittsburgh Pirates** +1.5 (65% to cover) | Total 7.5: lean **OVER** (53%)
+Model likes: **Los Angeles Dodgers** to win (51%) | Run line: **Pittsburgh Pirates** +1.5 (65% to cover) | Total 7.5: lean **OVER** (53%)
 
 ### Pittsburgh Pirates lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
