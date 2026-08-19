@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-19T05:54:31.004289+00:00_
+_Generated 2026-08-19T05:57:47.704323+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -627,7 +627,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.59)_
 ## 2026-08-20 - Seattle Mariners @ Milwaukee Brewers (Scheduled)
 _American Family Field_
 Projected score: Seattle Mariners 3.08 - Milwaukee Brewers 4.29
-Model likes: **Milwaukee Brewers** to win (62%) | Run line: **Seattle Mariners** +1.5 (56% to cover) | Total 6.5: lean **OVER** (54%)
+Model likes: **Milwaukee Brewers** to win (62%) | Run line: **Seattle Mariners** +1.5 (56% to cover) | Total 6.5: lean **OVER** (53%)
 
 ### Seattle Mariners lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.51)_
@@ -1185,7 +1185,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-21 - Pittsburgh Pirates @ Los Angeles Dodgers (Scheduled)
 _UNIQLO Field at Dodger Stadium_
 Projected score: Pittsburgh Pirates 4.19 - Los Angeles Dodgers 4.25
-Model likes: **Los Angeles Dodgers** to win (50%) | Run line: **Pittsburgh Pirates** +1.5 (65% to cover) | Total 7.5: lean **OVER** (53%)
+Model likes: **Los Angeles Dodgers** to win (50%) | Run line: **Pittsburgh Pirates** +1.5 (65% to cover) | Total 7.5: lean **OVER** (54%)
 
 ### Pittsburgh Pirates lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
