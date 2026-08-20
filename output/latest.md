@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-20T11:16:17.656869+00:00_
+_Generated 2026-08-20T11:46:37.587634+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -77,7 +77,7 @@ _Facing a taxed bullpen: 6.7 relief IP in last 2 days (ratio 1.35)_
 ## 2026-08-20 - Toronto Blue Jays @ Tampa Bay Rays (Scheduled)
 _Tropicana Field_
 Projected score: Toronto Blue Jays 4.03 - Tampa Bay Rays 4.57
-Model likes: **Tampa Bay Rays** to win (55%) | Run line: **Toronto Blue Jays** +1.5 (60% to cover) | Total 8.5: lean **UNDER** (55%)
+Model likes: **Tampa Bay Rays** to win (55%) | Run line: **Toronto Blue Jays** +1.5 (61% to cover) | Total 8.5: lean **UNDER** (54%)
 
 ### Toronto Blue Jays lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 9.3 relief IP in last 2 days (ratio 1.55)_
@@ -168,7 +168,7 @@ _Facing a taxed bullpen: 6.3 relief IP in last 2 days (ratio 1.37)_
 ## 2026-08-20 - Athletics @ Kansas City Royals (Scheduled)
 _Kauffman Stadium [pitcher-friendly park]_
 Projected score: Athletics 2.72 - Kansas City Royals 5.1
-Model likes: **Kansas City Royals** to win (71%) | Run line: **Kansas City Royals** -1.5 (55% to cover) | Total 7.5: lean **UNDER** (53%)
+Model likes: **Kansas City Royals** to win (71%) | Run line: **Kansas City Royals** -1.5 (56% to cover) | Total 7.5: lean **UNDER** (53%)
 
 ### Athletics lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 8.0 relief IP in last 2 days (ratio 1.51)_
@@ -524,7 +524,7 @@ Model likes: **Chicago White Sox** to win (54%) | Run line: **New York Mets** +1
 ## 2026-08-21 - Detroit Tigers @ Kansas City Royals (Scheduled)
 _Kauffman Stadium [pitcher-friendly park]_
 Projected score: Detroit Tigers 5.25 - Kansas City Royals 2.4
-Model likes: **Detroit Tigers** to win (76%) | Run line: **Detroit Tigers** -1.5 (60% to cover) | Total 7.5: lean **UNDER** (54%)
+Model likes: **Detroit Tigers** to win (76%) | Run line: **Detroit Tigers** -1.5 (60% to cover) | Total 7.5: lean **UNDER** (55%)
 
 ### Detroit Tigers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.57)_
@@ -816,7 +816,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-22 - Washington Nationals @ Miami Marlins (Scheduled)
 _loanDepot park [pitcher-friendly park]_
 Projected score: Washington Nationals 3.85 - Miami Marlins 4.27
-Model likes: **Miami Marlins** to win (54%) | Run line: **Washington Nationals** +1.5 (62% to cover) | Total 7.5: lean **OVER** (50%)
+Model likes: **Miami Marlins** to win (54%) | Run line: **Washington Nationals** +1.5 (62% to cover) | Total 7.5: lean **OVER** (51%)
 
 ### Washington Nationals lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
