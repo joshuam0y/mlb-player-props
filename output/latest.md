@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-20T18:05:16.129358+00:00_
+_Generated 2026-08-20T18:59:55.737378+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -105,7 +105,7 @@ _Facing a taxed bullpen: 9.3 relief IP in last 2 days (ratio 1.55)_
 ## 2026-08-20 - San Francisco Giants @ Cleveland Guardians (In Progress)
 _Progressive Field_
 Projected score: San Francisco Giants 3.31 - Cleveland Guardians 3.76
-Model likes: **Cleveland Guardians** to win (55%) | Run line: **San Francisco Giants** +1.5 (63% to cover) | Total 6.5: lean **OVER** (51%)
+Model likes: **Cleveland Guardians** to win (55%) | Run line: **San Francisco Giants** +1.5 (63% to cover) | Total 6.5: lean **OVER** (50%)
 
 ### San Francisco Giants lineup -- CONFIRMED
 **Probable P: Landen Roupp (R)** -- L5: 25.3 IP, 22 K, 16 ER, 5.68 ERA
@@ -132,7 +132,7 @@ _Facing a taxed bullpen: 11.0 relief IP in last 2 days (ratio 2.39)_
 - #8 Petey Halpin (L) -- L7: 4H 0HR 1RBI 5TB (0.250 avg) -- home split: 0.246 avg
 - #9 Brayan Rocchio (S) -- L7: 5H 1HR 1RBI 9TB (0.200 avg) -- home split: 0.286 avg
 
-## 2026-08-20 - Seattle Mariners @ Milwaukee Brewers (Warmup)
+## 2026-08-20 - Seattle Mariners @ Milwaukee Brewers (In Progress)
 _American Family Field_
 Projected score: Seattle Mariners 3.48 - Milwaukee Brewers 4.71
 Model likes: **Milwaukee Brewers** to win (61%) | Run line: **Seattle Mariners** +1.5 (55% to cover) | Total 7.5: lean **OVER** (51%)
@@ -163,7 +163,7 @@ _Facing a taxed bullpen: 6.3 relief IP in last 2 days (ratio 1.37)_
 - #8 David Hamilton (L) [MATCHUP EDGE: pitcher hits 0.269 avg-against vs this hand] -- L7: 6H 1HR 5RBI 9TB (0.286 avg) -- home split: 0.210 avg
 - #9 Luis Lara (S) [MATCHUP EDGE: pitcher hits 0.269 avg-against vs this hand] -- L7: 6H 1HR 4RBI 10TB (0.261 avg) -- home split: 0.295 avg
 
-## 2026-08-20 - Athletics @ Kansas City Royals (Warmup)
+## 2026-08-20 - Athletics @ Kansas City Royals (In Progress)
 _Kauffman Stadium [pitcher-friendly park]_
 Projected score: Athletics 2.65 - Kansas City Royals 5.13
 Model likes: **Kansas City Royals** to win (72%) | Run line: **Kansas City Royals** -1.5 (56% to cover) | Total 7.5: lean **UNDER** (53%)
@@ -194,7 +194,7 @@ _Facing a taxed bullpen: 8.7 relief IP in last 2 days (ratio 1.79)_
 - #8 Michael Massey (L) [5-game hit streak] -- L7: 9H 2HR 3RBI 15TB (0.409 avg) -- home split: 0.297 avg
 - #9 Luke Maile (R) -- L7: 4H 0HR 2RBI 5TB (0.235 avg) -- home split: 0.273 avg
 
-## 2026-08-20 - Atlanta Braves @ Chicago White Sox (Warmup)
+## 2026-08-20 - Atlanta Braves @ Chicago White Sox (In Progress)
 _Rate Field_
 Projected score: Atlanta Braves 4.19 - Chicago White Sox 3.85
 Model likes: **Atlanta Braves** to win (53%) | Run line: **Chicago White Sox** +1.5 (63% to cover) | Total 7.5: lean **UNDER** (50%)
@@ -378,7 +378,7 @@ _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.38)_
 ## 2026-08-21 - Toronto Blue Jays @ New York Yankees (Scheduled)
 _Yankee Stadium [hitter-friendly park]_
 Projected score: Toronto Blue Jays 3.66 - New York Yankees 3.94
-Model likes: **New York Yankees** to win (53%) | Run line: **Toronto Blue Jays** +1.5 (64% to cover) | Total 7.5: lean **UNDER** (54%)
+Model likes: **New York Yankees** to win (53%) | Run line: **Toronto Blue Jays** +1.5 (64% to cover) | Total 7.5: lean **UNDER** (55%)
 
 ### Toronto Blue Jays lineup -- PROJECTED (unconfirmed)
 - Ernie Clement (R) -- L7: 7H 0HR 3RBI 7TB (0.350 avg) -- away split: 0.278 avg
@@ -525,7 +525,7 @@ Model likes: **Chicago White Sox** to win (61%) | Run line: **New York Mets** +1
 ## 2026-08-21 - Detroit Tigers @ Kansas City Royals (Scheduled)
 _Kauffman Stadium [pitcher-friendly park]_
 Projected score: Detroit Tigers 4.71 - Kansas City Royals 2.4
-Model likes: **Detroit Tigers** to win (72%) | Run line: **Detroit Tigers** -1.5 (55% to cover) | Total 6.5: lean **OVER** (51%)
+Model likes: **Detroit Tigers** to win (72%) | Run line: **Detroit Tigers** -1.5 (55% to cover) | Total 6.5: lean **OVER** (50%)
 
 ### Detroit Tigers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.57)_
@@ -613,7 +613,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.52)_
 ## 2026-08-21 - Cleveland Guardians @ Colorado Rockies (Scheduled)
 _Coors Field [hitter-friendly park]_
 Projected score: Cleveland Guardians 4.88 - Colorado Rockies 4.41
-Model likes: **Cleveland Guardians** to win (54%) | Run line: **Colorado Rockies** +1.5 (60% to cover) | Total 8.5: lean **OVER** (51%)
+Model likes: **Cleveland Guardians** to win (54%) | Run line: **Colorado Rockies** +1.5 (60% to cover) | Total 8.5: lean **OVER** (52%)
 
 ### Cleveland Guardians lineup -- PROJECTED (unconfirmed)
 **Probable P: Joey Cantillo (L)** -- L5: 19.7 IP, 27 K, 9 ER, 4.12 ERA
@@ -672,7 +672,7 @@ _Facing a rested bullpen: 1.3 relief IP in last 2 days (ratio 0.21)_
 ## 2026-08-21 - Cincinnati Reds @ Arizona Diamondbacks (Scheduled)
 _Chase Field [hitter-friendly park]_
 Projected score: Cincinnati Reds 3.24 - Arizona Diamondbacks 5.13
-Model likes: **Arizona Diamondbacks** to win (66%) | Run line: **Arizona Diamondbacks** -1.5 (51% to cover) | Total 7.5: lean **OVER** (52%)
+Model likes: **Arizona Diamondbacks** to win (66%) | Run line: **Arizona Diamondbacks** -1.5 (51% to cover) | Total 7.5: lean **OVER** (53%)
 
 ### Cincinnati Reds lineup -- PROJECTED (unconfirmed)
 **Probable P: Nick Lodolo (L)** -- L5: 25.0 IP, 19 K, 7 ER, 2.52 ERA
@@ -700,8 +700,8 @@ Model likes: **Arizona Diamondbacks** to win (66%) | Run line: **Arizona Diamond
 
 ## 2026-08-21 - Chicago Cubs @ Seattle Mariners (Scheduled)
 _T-Mobile Park [pitcher-friendly park]_
-Projected score: Chicago Cubs 4.78 - Seattle Mariners 3.11
-Model likes: **Chicago Cubs** to win (65%) | Run line: **Seattle Mariners** +1.5 (51% to cover) | Total 7.5: lean **UNDER** (52%)
+Projected score: Chicago Cubs 4.19 - Seattle Mariners 3.11
+Model likes: **Chicago Cubs** to win (60%) | Run line: **Seattle Mariners** +1.5 (57% to cover) | Total 6.5: lean **OVER** (53%)
 
 ### Chicago Cubs lineup -- PROJECTED (unconfirmed)
 **Probable P: Matthew Boyd (L)** -- L5: 33.0 IP, 17 K, 14 ER, 3.82 ERA
@@ -716,6 +716,7 @@ Model likes: **Chicago Cubs** to win (65%) | Run line: **Seattle Mariners** +1.5
 - Michael Conforto (L) -- L7: 1H 1HR 4RBI 4TB (0.059 avg) -- away split: 0.241 avg
 
 ### Seattle Mariners lineup -- PROJECTED (unconfirmed)
+**Probable P: Emerson Hancock (R)** -- L5: 28.7 IP, 25 K, 12 ER, 3.77 ERA
 - Cole Young (L) -- L7: 4H 1HR 4RBI 7TB (0.148 avg) -- home split: 0.260 avg
 - Dominic Canzone (L) [5-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 11H 1HR 5RBI 18TB (0.379 avg) -- home split: 0.258 avg
 - Julio Rodríguez (R) -- L7: 6H 1HR 2RBI 11TB (0.207 avg) -- home split: 0.278 avg
@@ -788,7 +789,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-22 - Atlanta Braves @ Milwaukee Brewers (Scheduled)
 _American Family Field_
 Projected score: Atlanta Braves 3.07 - Milwaukee Brewers 4.3
-Model likes: **Milwaukee Brewers** to win (62%) | Run line: **Atlanta Braves** +1.5 (55% to cover) | Total 6.5: lean **OVER** (54%)
+Model likes: **Milwaukee Brewers** to win (62%) | Run line: **Atlanta Braves** +1.5 (55% to cover) | Total 6.5: lean **OVER** (53%)
 
 ### Atlanta Braves lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -848,7 +849,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-22 - St. Louis Cardinals @ Philadelphia Phillies (Scheduled)
 _Citizens Bank Park [hitter-friendly park]_
 Projected score: St. Louis Cardinals 5.97 - Philadelphia Phillies 4.66
-Model likes: **St. Louis Cardinals** to win (60%) | Run line: **Philadelphia Phillies** +1.5 (53% to cover) | Total 9.5: lean **OVER** (54%)
+Model likes: **St. Louis Cardinals** to win (60%) | Run line: **Philadelphia Phillies** +1.5 (53% to cover) | Total 9.5: lean **OVER** (53%)
 
 ### St. Louis Cardinals lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -996,8 +997,8 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 
 ## 2026-08-22 - Chicago Cubs @ Seattle Mariners (Scheduled)
 _T-Mobile Park [pitcher-friendly park]_
-Projected score: Chicago Cubs 4.78 - Seattle Mariners 3.6
-Model likes: **Chicago Cubs** to win (60%) | Run line: **Seattle Mariners** +1.5 (55% to cover) | Total 7.5: lean **OVER** (53%)
+Projected score: Chicago Cubs 4.71 - Seattle Mariners 3.6
+Model likes: **Chicago Cubs** to win (60%) | Run line: **Seattle Mariners** +1.5 (56% to cover) | Total 7.5: lean **OVER** (52%)
 
 ### Chicago Cubs lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1014,6 +1015,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 
 ### Seattle Mariners lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
+**Probable P: Bryan Woo (R)** -- L5: 28.0 IP, 28 K, 12 ER, 3.86 ERA
 - Cole Young (L) -- L7: 4H 1HR 4RBI 7TB (0.148 avg) -- home split: 0.260 avg
 - Dominic Canzone (L) [5-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 11H 1HR 5RBI 18TB (0.379 avg) -- home split: 0.258 avg
 - Julio Rodríguez (R) [MATCHUP EDGE: pitcher hits 0.290 avg-against vs this hand] -- L7: 6H 1HR 2RBI 11TB (0.207 avg) -- home split: 0.278 avg
@@ -1089,7 +1091,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-22 - San Francisco Giants @ Boston Red Sox (Scheduled)
 _Fenway Park_
 Projected score: San Francisco Giants 3.56 - Boston Red Sox 4.61
-Model likes: **Boston Red Sox** to win (59%) | Run line: **San Francisco Giants** +1.5 (57% to cover) | Total 7.5: lean **OVER** (51%)
+Model likes: **Boston Red Sox** to win (59%) | Run line: **San Francisco Giants** +1.5 (56% to cover) | Total 7.5: lean **OVER** (51%)
 
 ### San Francisco Giants lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
