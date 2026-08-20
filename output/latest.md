@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-20T21:15:53.157816+00:00_
+_Generated 2026-08-20T21:50:48.544163+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -129,7 +129,7 @@ _Facing a taxed bullpen: 11.0 relief IP in last 2 days (ratio 2.39)_
 - #8 Petey Halpin (L) -- L7: 4H 0HR 1RBI 5TB (0.250 avg) -- home split: 0.246 avg
 - #9 Brayan Rocchio (S) -- L7: 5H 1HR 1RBI 9TB (0.200 avg) -- home split: 0.286 avg
 
-## 2026-08-20 - Seattle Mariners @ Milwaukee Brewers (Game Over)
+## 2026-08-20 - Seattle Mariners @ Milwaukee Brewers (Final)
 _American Family Field_
 Final: Seattle Mariners 4 - Milwaukee Brewers 7
 
@@ -159,7 +159,7 @@ _Facing a taxed bullpen: 6.3 relief IP in last 2 days (ratio 1.37)_
 - #8 David Hamilton (L) [MATCHUP EDGE: pitcher hits 0.269 avg-against vs this hand] -- L7: 6H 1HR 5RBI 9TB (0.286 avg) -- home split: 0.210 avg
 - #9 Luis Lara (S) [MATCHUP EDGE: pitcher hits 0.269 avg-against vs this hand] -- L7: 6H 1HR 4RBI 10TB (0.261 avg) -- home split: 0.295 avg
 
-## 2026-08-20 - Athletics @ Kansas City Royals (Game Over)
+## 2026-08-20 - Athletics @ Kansas City Royals (Final)
 _Kauffman Stadium [pitcher-friendly park]_
 Final: Athletics 2 - Kansas City Royals 6
 
@@ -371,21 +371,22 @@ _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.4)_
 
 ## 2026-08-21 - Toronto Blue Jays @ New York Yankees (Scheduled)
 _Yankee Stadium [hitter-friendly park]_
-Projected score: Toronto Blue Jays 3.66 - New York Yankees 3.94
-Model likes: **New York Yankees** to win (53%) | Run line: **Toronto Blue Jays** +1.5 (64% to cover) | Total 7.5: lean **UNDER** (55%)
+Projected score: Toronto Blue Jays 2.55 - New York Yankees 3.94
+Model likes: **New York Yankees** to win (65%) | Run line: **Toronto Blue Jays** +1.5 (54% to cover) | Total 5.5: lean **OVER** (56%)
 
 ### Toronto Blue Jays lineup -- PROJECTED (unconfirmed)
 - Andrés Giménez (L) -- L7: 6H 0HR 1RBI 7TB (0.240 avg) -- away split: 0.224 avg
 - Nathan Lukes (L) -- L7: 4H 1HR 3RBI 7TB (0.174 avg) -- away split: 0.279 avg
-- Myles Straw (R) -- L7: 0H 0HR 0RBI 0TB (0.000 avg) -- away split: 0.224 avg
-- Ernie Clement (R) [likely BABIP-driven, not a real power uptick] -- L7: 8H 0HR 3RBI 8TB (0.364 avg) -- away split: 0.280 avg
-- George Springer (R) -- L7: 5H 0HR 4RBI 6TB (0.238 avg) -- away split: 0.232 avg
-- Kazuma Okamoto (R) [6-game hit streak] -- L7: 7H 2HR 3RBI 15TB (0.259 avg) -- away split: 0.224 avg
+- Myles Straw (R) [TOUGH MATCHUP: pitcher holds this hand to 0.190 avg-against] -- L7: 0H 0HR 0RBI 0TB (0.000 avg) -- away split: 0.224 avg
+- Ernie Clement (R) [TOUGH MATCHUP: pitcher holds this hand to 0.190 avg-against] [likely BABIP-driven, not a real power uptick] -- L7: 8H 0HR 3RBI 8TB (0.364 avg) -- away split: 0.280 avg
+- George Springer (R) [TOUGH MATCHUP: pitcher holds this hand to 0.190 avg-against] -- L7: 5H 0HR 4RBI 6TB (0.238 avg) -- away split: 0.232 avg
+- Kazuma Okamoto (R) [TOUGH MATCHUP: pitcher holds this hand to 0.190 avg-against] [6-game hit streak] -- L7: 7H 2HR 3RBI 15TB (0.259 avg) -- away split: 0.224 avg
 - Josh Smith (L) -- L7: 3H 1HR 2RBI 6TB (0.273 avg) -- away split: 0.253 avg
-- Alejandro Kirk (R) [8-game hit streak] -- L7: 12H 3HR 8RBI 23TB (0.444 avg) -- away split: 0.267 avg
+- Alejandro Kirk (R) [TOUGH MATCHUP: pitcher holds this hand to 0.190 avg-against] [8-game hit streak] -- L7: 12H 3HR 8RBI 23TB (0.444 avg) -- away split: 0.267 avg
 - Brett Bateman (L) -- L7: 9H 0HR 3RBI 10TB (0.300 avg) -- away split: 0.227 avg
 
 ### New York Yankees lineup -- PROJECTED (unconfirmed)
+**Probable P: Cam Schlittler (R)** -- L5: 29.0 IP, 44 K, 7 ER, 2.17 ERA
 - Ben Rice (L) -- L7: 5H 2HR 4RBI 12TB (0.179 avg) -- home split: 0.234 avg
 - Spencer Jones (L) -- L7: 6H 0HR 3RBI 9TB (0.231 avg) -- home split: 0.206 avg -- news: Bellinger lands on IL with hamstring strain; Spencer Jones recalled
 - Austin Wells (L) -- L7: 2H 0HR 0RBI 3TB (0.133 avg) -- home split: 0.198 avg
@@ -399,7 +400,7 @@ Model likes: **New York Yankees** to win (53%) | Run line: **Toronto Blue Jays**
 ## 2026-08-21 - Washington Nationals @ Miami Marlins (Scheduled)
 _loanDepot park [pitcher-friendly park]_
 Projected score: Washington Nationals 4.7 - Miami Marlins 4.27
-Model likes: **Washington Nationals** to win (54%) | Run line: **Miami Marlins** +1.5 (61% to cover) | Total 8.5: lean **UNDER** (51%)
+Model likes: **Washington Nationals** to win (53%) | Run line: **Miami Marlins** +1.5 (61% to cover) | Total 8.5: lean **UNDER** (51%)
 
 ### Washington Nationals lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.38)_
@@ -606,7 +607,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.52)_
 ## 2026-08-21 - Cleveland Guardians @ Colorado Rockies (Scheduled)
 _Coors Field [hitter-friendly park]_
 Projected score: Cleveland Guardians 4.88 - Colorado Rockies 4.41
-Model likes: **Cleveland Guardians** to win (54%) | Run line: **Colorado Rockies** +1.5 (60% to cover) | Total 8.5: lean **OVER** (52%)
+Model likes: **Cleveland Guardians** to win (54%) | Run line: **Colorado Rockies** +1.5 (60% to cover) | Total 8.5: lean **OVER** (51%)
 
 ### Cleveland Guardians lineup -- PROJECTED (unconfirmed)
 **Probable P: Joey Cantillo (L)** -- L5: 19.7 IP, 27 K, 9 ER, 4.12 ERA
@@ -723,7 +724,7 @@ Model likes: **Chicago Cubs** to win (60%) | Run line: **Seattle Mariners** +1.5
 ## 2026-08-21 - Pittsburgh Pirates @ Los Angeles Dodgers (Scheduled)
 _UNIQLO Field at Dodger Stadium_
 Projected score: Pittsburgh Pirates 3.53 - Los Angeles Dodgers 4.11
-Model likes: **Los Angeles Dodgers** to win (55%) | Run line: **Pittsburgh Pirates** +1.5 (61% to cover) | Total 7.5: lean **UNDER** (54%)
+Model likes: **Los Angeles Dodgers** to win (56%) | Run line: **Pittsburgh Pirates** +1.5 (61% to cover) | Total 7.5: lean **UNDER** (54%)
 
 ### Pittsburgh Pirates lineup -- PROJECTED (unconfirmed)
 **Probable P: Bubba Chandler (R)** -- L5: 27.0 IP, 23 K, 7 ER, 2.33 ERA
@@ -751,8 +752,8 @@ Model likes: **Los Angeles Dodgers** to win (55%) | Run line: **Pittsburgh Pirat
 
 ## 2026-08-22 - Toronto Blue Jays @ New York Yankees (Scheduled)
 _Yankee Stadium [hitter-friendly park]_
-Projected score: Toronto Blue Jays 3.66 - New York Yankees 2.73
-Model likes: **Toronto Blue Jays** to win (60%) | Run line: **New York Yankees** +1.5 (59% to cover) | Total 5.5: lean **OVER** (55%)
+Projected score: Toronto Blue Jays 3.38 - New York Yankees 2.73
+Model likes: **Toronto Blue Jays** to win (57%) | Run line: **New York Yankees** +1.5 (62% to cover) | Total 5.5: lean **OVER** (52%)
 
 ### Toronto Blue Jays lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -769,6 +770,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 
 ### New York Yankees lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 1.0 relief IP in last 2 days (ratio 0.15)_
+**Probable P: Ryan Weathers (L)** -- L5: 31.7 IP, 25 K, 3 ER, 0.85 ERA
 - Ben Rice (L) -- L7: 5H 2HR 4RBI 12TB (0.179 avg) -- home split: 0.234 avg
 - Spencer Jones (L) -- L7: 6H 0HR 3RBI 9TB (0.231 avg) -- home split: 0.206 avg -- news: Bellinger lands on IL with hamstring strain; Spencer Jones recalled
 - Austin Wells (L) -- L7: 2H 0HR 0RBI 3TB (0.133 avg) -- home split: 0.198 avg
@@ -782,7 +784,7 @@ _Facing a rested bullpen: 1.0 relief IP in last 2 days (ratio 0.15)_
 ## 2026-08-22 - Atlanta Braves @ Milwaukee Brewers (Scheduled)
 _American Family Field_
 Projected score: Atlanta Braves 3.07 - Milwaukee Brewers 4.3
-Model likes: **Milwaukee Brewers** to win (62%) | Run line: **Atlanta Braves** +1.5 (55% to cover) | Total 6.5: lean **OVER** (53%)
+Model likes: **Milwaukee Brewers** to win (62%) | Run line: **Atlanta Braves** +1.5 (55% to cover) | Total 6.5: lean **OVER** (54%)
 
 ### Atlanta Braves lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 1.3 relief IP in last 2 days (ratio 0.22)_
@@ -812,7 +814,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-22 - Washington Nationals @ Miami Marlins (Scheduled)
 _loanDepot park [pitcher-friendly park]_
 Projected score: Washington Nationals 3.85 - Miami Marlins 4.27
-Model likes: **Miami Marlins** to win (54%) | Run line: **Washington Nationals** +1.5 (62% to cover) | Total 7.5: lean **OVER** (50%)
+Model likes: **Miami Marlins** to win (54%) | Run line: **Washington Nationals** +1.5 (62% to cover) | Total 7.5: lean **OVER** (51%)
 
 ### Washington Nationals lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
