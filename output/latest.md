@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-20T11:46:37.587634+00:00_
+_Generated 2026-08-20T11:50:21.556254+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -47,7 +47,7 @@ _Generated 2026-08-20T11:46:37.587634+00:00_
 ## 2026-08-20 - St. Louis Cardinals @ Cincinnati Reds (Scheduled)
 _Great American Ball Park [hitter-friendly park]_
 Projected score: St. Louis Cardinals 5.08 - Cincinnati Reds 3.52
-Model likes: **St. Louis Cardinals** to win (63%) | Run line: **Cincinnati Reds** +1.5 (52% to cover) | Total 8.5: lean **UNDER** (55%)
+Model likes: **St. Louis Cardinals** to win (63%) | Run line: **Cincinnati Reds** +1.5 (52% to cover) | Total 7.5: lean **OVER** (55%)
 
 ### St. Louis Cardinals lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 6.7 relief IP in last 2 days (ratio 1.35)_
@@ -380,7 +380,7 @@ _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.38)_
 ## 2026-08-21 - Toronto Blue Jays @ New York Yankees (Scheduled)
 _Yankee Stadium [hitter-friendly park]_
 Projected score: Toronto Blue Jays 3.66 - New York Yankees 3.94
-Model likes: **New York Yankees** to win (53%) | Run line: **Toronto Blue Jays** +1.5 (64% to cover) | Total 7.5: lean **UNDER** (55%)
+Model likes: **New York Yankees** to win (53%) | Run line: **Toronto Blue Jays** +1.5 (64% to cover) | Total 7.5: lean **UNDER** (54%)
 
 ### Toronto Blue Jays lineup -- PROJECTED (unconfirmed)
 - Andrés Giménez (L) -- L7: 6H 0HR 1RBI 7TB (0.231 avg) -- away split: 0.221 avg
@@ -905,7 +905,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-22 - Tampa Bay Rays @ Baltimore Orioles (Scheduled)
 _Oriole Park at Camden Yards_
 Projected score: Tampa Bay Rays 5.07 - Baltimore Orioles 4.26
-Model likes: **Tampa Bay Rays** to win (56%) | Run line: **Baltimore Orioles** +1.5 (58% to cover) | Total 8.5: lean **OVER** (52%)
+Model likes: **Tampa Bay Rays** to win (57%) | Run line: **Baltimore Orioles** +1.5 (58% to cover) | Total 8.5: lean **OVER** (52%)
 
 ### Tampa Bay Rays lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1023,7 +1023,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-22 - Pittsburgh Pirates @ Los Angeles Dodgers (Scheduled)
 _UNIQLO Field at Dodger Stadium_
 Projected score: Pittsburgh Pirates 3.36 - Los Angeles Dodgers 4.38
-Model likes: **Los Angeles Dodgers** to win (60%) | Run line: **Pittsburgh Pirates** +1.5 (57% to cover) | Total 7.5: lean **UNDER** (53%)
+Model likes: **Los Angeles Dodgers** to win (59%) | Run line: **Pittsburgh Pirates** +1.5 (57% to cover) | Total 7.5: lean **UNDER** (53%)
 
 ### Pittsburgh Pirates lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
