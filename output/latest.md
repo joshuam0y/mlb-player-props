@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-20T14:13:06.708743+00:00_
+_Generated 2026-08-20T14:11:44.219881+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -76,8 +76,8 @@ _Facing a taxed bullpen: 6.7 relief IP in last 2 days (ratio 1.35)_
 
 ## 2026-08-20 - Toronto Blue Jays @ Tampa Bay Rays (Pre-Game)
 _Tropicana Field_
-Projected score: Toronto Blue Jays 4.03 - Tampa Bay Rays 4.48
-Model likes: **Tampa Bay Rays** to win (54%) | Run line: **Toronto Blue Jays** +1.5 (62% to cover) | Total 7.5: lean **OVER** (54%)
+Projected score: Toronto Blue Jays 4.03 - Tampa Bay Rays 4.57
+Model likes: **Tampa Bay Rays** to win (55%) | Run line: **Toronto Blue Jays** +1.5 (60% to cover) | Total 8.5: lean **UNDER** (55%)
 
 ### Toronto Blue Jays lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 9.3 relief IP in last 2 days (ratio 1.55)_
@@ -467,7 +467,7 @@ _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.52)_
 ## 2026-08-21 - Tampa Bay Rays @ Baltimore Orioles (Scheduled)
 _Oriole Park at Camden Yards_
 Projected score: Tampa Bay Rays 5.07 - Baltimore Orioles 4.26
-Model likes: **Tampa Bay Rays** to win (56%) | Run line: **Baltimore Orioles** +1.5 (58% to cover) | Total 8.5: lean **OVER** (52%)
+Model likes: **Tampa Bay Rays** to win (57%) | Run line: **Baltimore Orioles** +1.5 (58% to cover) | Total 8.5: lean **OVER** (52%)
 
 ### Tampa Bay Rays lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.3 relief IP in last 2 days (ratio 0.65)_
@@ -524,7 +524,7 @@ Model likes: **Chicago White Sox** to win (55%) | Run line: **New York Mets** +1
 ## 2026-08-21 - Detroit Tigers @ Kansas City Royals (Scheduled)
 _Kauffman Stadium [pitcher-friendly park]_
 Projected score: Detroit Tigers 5.25 - Kansas City Royals 2.4
-Model likes: **Detroit Tigers** to win (76%) | Run line: **Detroit Tigers** -1.5 (60% to cover) | Total 7.5: lean **UNDER** (55%)
+Model likes: **Detroit Tigers** to win (75%) | Run line: **Detroit Tigers** -1.5 (60% to cover) | Total 7.5: lean **UNDER** (54%)
 
 ### Detroit Tigers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.57)_
@@ -583,7 +583,7 @@ _Facing a rested bullpen: 2.3 relief IP in last 2 days (ratio 0.48)_
 ## 2026-08-21 - Los Angeles Angels @ Texas Rangers (Scheduled)
 _Globe Life Field [hitter-friendly park]_
 Projected score: Los Angeles Angels 3.83 - Texas Rangers 3.98
-Model likes: **Texas Rangers** to win (51%) | Run line: **Los Angeles Angels** +1.5 (65% to cover) | Total 7.5: lean **UNDER** (52%)
+Model likes: **Texas Rangers** to win (52%) | Run line: **Los Angeles Angels** +1.5 (65% to cover) | Total 7.5: lean **UNDER** (52%)
 
 ### Los Angeles Angels lineup -- PROJECTED (unconfirmed)
 - Wade Meckler (L) -- L7: 4H 0HR 0RBI 4TB (0.154 avg) -- away split: 0.265 avg
