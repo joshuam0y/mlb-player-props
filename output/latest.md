@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-20T00:03:46.715943+00:00_
+_Generated 2026-08-20T01:50:42.104908+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -199,10 +199,9 @@ _Facing a taxed bullpen: 8.0 relief IP in last 2 days (ratio 1.5)_
 - #8 Jarren Duran (L) [MATCHUP EDGE: pitcher hits 0.260 avg-against vs this hand] [4-game hit streak] -- L7: 6H 0HR 1RBI 7TB (0.231 avg) -- home split: 0.221 avg
 - #9 Connor Wong (R) [TOUGH MATCHUP: pitcher holds this hand to 0.207 avg-against] -- L7: 5H 2HR 5RBI 12TB (0.208 avg) -- home split: 0.197 avg
 
-## 2026-08-19 - Miami Marlins @ Philadelphia Phillies (In Progress)
+## 2026-08-19 - Miami Marlins @ Philadelphia Phillies (Final)
 _Citizens Bank Park [hitter-friendly park]_
-Projected score: Miami Marlins 5.03 - Philadelphia Phillies 4.59
-Model likes: **Miami Marlins** to win (53%) | Run line: **Philadelphia Phillies** +1.5 (60% to cover) | Total 8.5: lean **OVER** (54%)
+Final: Miami Marlins 1 - Philadelphia Phillies 4
 
 ### Miami Marlins lineup -- CONFIRMED
 _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.38)_
@@ -260,10 +259,9 @@ _Facing a taxed bullpen: 6.7 relief IP in last 2 days (ratio 1.29)_
 - #8 Colton Cowser (L) [MATCHUP EDGE: pitcher hits 0.274 avg-against vs this hand] -- L7: 3H 2HR 3RBI 9TB (0.273 avg) -- home split: 0.212 avg
 - #9 Carlos Narváez (R) -- L7: 1H 0HR 0RBI 1TB (0.056 avg) -- home split: 0.180 avg
 
-## 2026-08-19 - Toronto Blue Jays @ Tampa Bay Rays (In Progress)
+## 2026-08-19 - Toronto Blue Jays @ Tampa Bay Rays (Final)
 _Tropicana Field_
-Projected score: Toronto Blue Jays 3.15 - Tampa Bay Rays 4.66
-Model likes: **Tampa Bay Rays** to win (64%) | Run line: **Toronto Blue Jays** +1.5 (53% to cover) | Total 7.5: lean **UNDER** (53%)
+Final: Toronto Blue Jays 6 - Tampa Bay Rays 7
 
 ### Toronto Blue Jays lineup -- CONFIRMED
 _Facing a taxed bullpen: 11.0 relief IP in last 2 days (ratio 1.83)_
@@ -291,10 +289,9 @@ _Facing a rested bullpen: 3.3 relief IP in last 2 days (ratio 0.51)_
 - #8 Richie Palacios (L) [MATCHUP EDGE: pitcher hits 0.297 avg-against vs this hand] [likely BABIP-driven, not a real power uptick] -- L7: 8H 0HR 3RBI 10TB (0.364 avg) -- home split: 0.237 avg
 - #9 Taylor Walls (S) [MATCHUP EDGE: pitcher hits 0.297 avg-against vs this hand] [9-game hit streak] -- L7: 8H 2HR 5RBI 14TB (0.348 avg) -- home split: 0.226 avg
 
-## 2026-08-19 - San Francisco Giants @ Cleveland Guardians (In Progress)
+## 2026-08-19 - San Francisco Giants @ Cleveland Guardians (Final)
 _Progressive Field_
-Projected score: San Francisco Giants 2.54 - Cleveland Guardians 4.59
-Model likes: **Cleveland Guardians** to win (70%) | Run line: **Cleveland Guardians** -1.5 (53% to cover) | Total 6.5: lean **OVER** (51%)
+Final: San Francisco Giants 1 - Cleveland Guardians 0
 
 ### San Francisco Giants lineup -- CONFIRMED
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.59)_
@@ -321,10 +318,9 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.59)_
 - #8 Austin Hedges (R) -- L7: 3H 0HR 2RBI 3TB (0.167 avg) -- home split: 0.241 avg
 - #9 Brayan Rocchio (S) -- L7: 6H 1HR 1RBI 10TB (0.231 avg) -- home split: 0.290 avg
 
-## 2026-08-19 - St. Louis Cardinals @ Cincinnati Reds (In Progress)
+## 2026-08-19 - St. Louis Cardinals @ Cincinnati Reds (Game Over)
 _Great American Ball Park [hitter-friendly park]_
-Projected score: St. Louis Cardinals 3.65 - Cincinnati Reds 4.58
-Model likes: **Cincinnati Reds** to win (58%) | Run line: **St. Louis Cardinals** +1.5 (57% to cover) | Total 7.5: lean **OVER** (51%)
+Final: St. Louis Cardinals 4 - Cincinnati Reds 5
 
 ### St. Louis Cardinals lineup -- CONFIRMED
 _Facing a taxed bullpen: 10.0 relief IP in last 2 days (ratio 2.04)_
@@ -355,7 +351,7 @@ _Facing a taxed bullpen: 12.0 relief IP in last 2 days (ratio 2.3)_
 ## 2026-08-19 - Seattle Mariners @ Milwaukee Brewers (In Progress)
 _American Family Field_
 Projected score: Seattle Mariners 3.14 - Milwaukee Brewers 3.82
-Model likes: **Milwaukee Brewers** to win (57%) | Run line: **Seattle Mariners** +1.5 (61% to cover) | Total 6.5: lean **UNDER** (50%)
+Model likes: **Milwaukee Brewers** to win (57%) | Run line: **Seattle Mariners** +1.5 (61% to cover) | Total 6.5: lean **UNDER** (51%)
 
 ### Seattle Mariners lineup -- CONFIRMED
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.51)_
@@ -414,7 +410,7 @@ _Facing a taxed bullpen: 11.7 relief IP in last 2 days (ratio 2.41)_
 - #8 Tyler Tolbert (R) [MATCHUP EDGE: pitcher hits 0.278 avg-against vs this hand] -- L7: 3H 0HR 2RBI 5TB (0.231 avg) -- home split: 0.290 avg
 - #9 Kyle Isbel (L) -- L7: 4H 1HR 3RBI 7TB (0.190 avg) -- home split: 0.230 avg
 
-## 2026-08-19 - Washington Nationals @ Texas Rangers (Warmup)
+## 2026-08-19 - Washington Nationals @ Texas Rangers (In Progress)
 _Globe Life Field [hitter-friendly park]_
 Projected score: Washington Nationals 4.33 - Texas Rangers 3.17
 Model likes: **Washington Nationals** to win (61%) | Run line: **Texas Rangers** +1.5 (56% to cover) | Total 6.5: lean **OVER** (55%)
@@ -444,10 +440,10 @@ _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.41)_
 - #8 Elias Díaz (R) -- L7: 3H 0HR 1RBI 3TB (0.158 avg) -- home split: 0.188 avg
 - #9 Nicky Lopez (L) [MATCHUP EDGE: pitcher hits 0.261 avg-against vs this hand] -- L7: 2H 0HR 1RBI 2TB (0.133 avg) -- home split: 0.315 avg
 
-## 2026-08-19 - Los Angeles Angels @ Houston Astros (Warmup)
+## 2026-08-19 - Los Angeles Angels @ Houston Astros (In Progress)
 _Daikin Park_
 Projected score: Los Angeles Angels 4.16 - Houston Astros 3.04
-Model likes: **Los Angeles Angels** to win (61%) | Run line: **Houston Astros** +1.5 (57% to cover) | Total 6.5: lean **OVER** (52%)
+Model likes: **Los Angeles Angels** to win (61%) | Run line: **Houston Astros** +1.5 (56% to cover) | Total 6.5: lean **OVER** (52%)
 
 ### Los Angeles Angels lineup -- CONFIRMED
 **Probable P: Walbert Ureña (R)** -- L5: 26.3 IP, 24 K, 6 ER, 2.05 ERA
@@ -474,7 +470,7 @@ _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.34)_
 - #8 Taylor Trammell (L) -- L7: 2H 0HR 0RBI 4TB (0.095 avg) -- home split: 0.189 avg
 - #9 Christian Vázquez (R) [TOUGH MATCHUP: pitcher holds this hand to 0.189 avg-against] -- L7: 4H 1HR 1RBI 7TB (0.235 avg) -- home split: 0.200 avg
 
-## 2026-08-19 - Los Angeles Dodgers @ Colorado Rockies (Pre-Game)
+## 2026-08-19 - Los Angeles Dodgers @ Colorado Rockies (In Progress)
 _Coors Field [hitter-friendly park]_
 Projected score: Los Angeles Dodgers 7.2 - Colorado Rockies 5.19
 Model likes: **Los Angeles Dodgers** to win (63%) | Run line: **Los Angeles Dodgers** -1.5 (52% to cover) | Total 11.5: lean **OVER** (51%)
@@ -598,7 +594,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.59)_
 ## 2026-08-20 - Seattle Mariners @ Milwaukee Brewers (Scheduled)
 _American Family Field_
 Projected score: Seattle Mariners 3.08 - Milwaukee Brewers 4.29
-Model likes: **Milwaukee Brewers** to win (62%) | Run line: **Seattle Mariners** +1.5 (56% to cover) | Total 6.5: lean **OVER** (54%)
+Model likes: **Milwaukee Brewers** to win (62%) | Run line: **Seattle Mariners** +1.5 (56% to cover) | Total 6.5: lean **OVER** (53%)
 
 ### Seattle Mariners lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.51)_
@@ -810,7 +806,7 @@ _Facing a rested bullpen: 3.7 relief IP in last 2 days (ratio 0.69)_
 ## 2026-08-21 - St. Louis Cardinals @ Philadelphia Phillies (Scheduled)
 _Citizens Bank Park [hitter-friendly park]_
 Projected score: St. Louis Cardinals 4.07 - Philadelphia Phillies 4.53
-Model likes: **Philadelphia Phillies** to win (54%) | Run line: **St. Louis Cardinals** +1.5 (61% to cover) | Total 8.5: lean **UNDER** (55%)
+Model likes: **Philadelphia Phillies** to win (54%) | Run line: **St. Louis Cardinals** +1.5 (61% to cover) | Total 8.5: lean **UNDER** (54%)
 
 ### St. Louis Cardinals lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1015,7 +1011,7 @@ _Facing a rested bullpen: 3.3 relief IP in last 2 days (ratio 0.67)_
 ## 2026-08-21 - Athletics @ Houston Astros (Scheduled)
 _Daikin Park_
 Projected score: Athletics 3.86 - Houston Astros 4.86
-Model likes: **Houston Astros** to win (58%) | Run line: **Athletics** +1.5 (56% to cover) | Total 8.5: lean **UNDER** (53%)
+Model likes: **Houston Astros** to win (58%) | Run line: **Athletics** +1.5 (57% to cover) | Total 8.5: lean **UNDER** (53%)
 
 ### Athletics lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
