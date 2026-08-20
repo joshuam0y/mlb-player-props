@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-20T08:54:59.912481+00:00_
+_Generated 2026-08-20T09:01:06.626548+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -47,7 +47,7 @@ _Generated 2026-08-20T08:54:59.912481+00:00_
 ## 2026-08-20 - St. Louis Cardinals @ Cincinnati Reds (Scheduled)
 _Great American Ball Park [hitter-friendly park]_
 Projected score: St. Louis Cardinals 5.08 - Cincinnati Reds 3.52
-Model likes: **St. Louis Cardinals** to win (63%) | Run line: **Cincinnati Reds** +1.5 (52% to cover) | Total 7.5: lean **OVER** (55%)
+Model likes: **St. Louis Cardinals** to win (63%) | Run line: **Cincinnati Reds** +1.5 (52% to cover) | Total 8.5: lean **UNDER** (55%)
 
 ### St. Louis Cardinals lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 6.7 relief IP in last 2 days (ratio 1.35)_
@@ -380,7 +380,7 @@ _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.38)_
 ## 2026-08-21 - Toronto Blue Jays @ New York Yankees (Scheduled)
 _Yankee Stadium [hitter-friendly park]_
 Projected score: Toronto Blue Jays 3.66 - New York Yankees 3.94
-Model likes: **New York Yankees** to win (53%) | Run line: **Toronto Blue Jays** +1.5 (64% to cover) | Total 7.5: lean **UNDER** (54%)
+Model likes: **New York Yankees** to win (53%) | Run line: **Toronto Blue Jays** +1.5 (64% to cover) | Total 7.5: lean **UNDER** (55%)
 
 ### Toronto Blue Jays lineup -- PROJECTED (unconfirmed)
 - Andrés Giménez (L) -- L7: 6H 0HR 1RBI 7TB (0.231 avg) -- away split: 0.221 avg
@@ -408,7 +408,7 @@ _Facing a rested bullpen: 4.0 relief IP in last 2 days (ratio 0.61)_
 ## 2026-08-21 - Washington Nationals @ Miami Marlins (Scheduled)
 _loanDepot park [pitcher-friendly park]_
 Projected score: Washington Nationals 4.7 - Miami Marlins 4.27
-Model likes: **Washington Nationals** to win (53%) | Run line: **Miami Marlins** +1.5 (61% to cover) | Total 8.5: lean **UNDER** (51%)
+Model likes: **Washington Nationals** to win (54%) | Run line: **Miami Marlins** +1.5 (61% to cover) | Total 8.5: lean **UNDER** (51%)
 
 ### Washington Nationals lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.38)_
@@ -438,7 +438,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.5)_
 ## 2026-08-21 - San Francisco Giants @ Boston Red Sox (Scheduled)
 _Fenway Park_
 Projected score: San Francisco Giants 2.55 - Boston Red Sox 5.43
-Model likes: **Boston Red Sox** to win (75%) | Run line: **Boston Red Sox** -1.5 (60% to cover) | Total 7.5: lean **UNDER** (51%)
+Model likes: **Boston Red Sox** to win (75%) | Run line: **Boston Red Sox** -1.5 (60% to cover) | Total 7.5: lean **UNDER** (52%)
 
 ### San Francisco Giants lineup -- PROJECTED (unconfirmed)
 - Osleivis Basabe (R) -- L7: 6H 0HR 0RBI 7TB (0.240 avg) -- away split: 0.222 avg
@@ -611,7 +611,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.52)_
 ## 2026-08-21 - Cleveland Guardians @ Colorado Rockies (Scheduled)
 _Coors Field [hitter-friendly park]_
 Projected score: Cleveland Guardians 4.88 - Colorado Rockies 4.41
-Model likes: **Cleveland Guardians** to win (54%) | Run line: **Colorado Rockies** +1.5 (60% to cover) | Total 8.5: lean **OVER** (51%)
+Model likes: **Cleveland Guardians** to win (54%) | Run line: **Colorado Rockies** +1.5 (61% to cover) | Total 8.5: lean **OVER** (52%)
 
 ### Cleveland Guardians lineup -- PROJECTED (unconfirmed)
 **Probable P: Joey Cantillo (L)** -- L5: 19.7 IP, 27 K, 9 ER, 4.12 ERA
