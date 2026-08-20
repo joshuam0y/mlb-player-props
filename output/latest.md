@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-20T08:03:53.919886+00:00_
+_Generated 2026-08-20T08:06:51.880132+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -77,7 +77,7 @@ _Facing a taxed bullpen: 6.7 relief IP in last 2 days (ratio 1.35)_
 ## 2026-08-20 - Toronto Blue Jays @ Tampa Bay Rays (Scheduled)
 _Tropicana Field_
 Projected score: Toronto Blue Jays 4.03 - Tampa Bay Rays 4.57
-Model likes: **Tampa Bay Rays** to win (55%) | Run line: **Toronto Blue Jays** +1.5 (60% to cover) | Total 8.5: lean **UNDER** (54%)
+Model likes: **Tampa Bay Rays** to win (55%) | Run line: **Toronto Blue Jays** +1.5 (61% to cover) | Total 8.5: lean **UNDER** (55%)
 
 ### Toronto Blue Jays lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 9.3 relief IP in last 2 days (ratio 1.55)_
@@ -167,11 +167,11 @@ _Facing a taxed bullpen: 6.3 relief IP in last 2 days (ratio 1.37)_
 
 ## 2026-08-20 - Athletics @ Kansas City Royals (Scheduled)
 _Kauffman Stadium [pitcher-friendly park]_
-Projected score: Athletics 2.64 - Kansas City Royals 5.1
-Model likes: **Kansas City Royals** to win (72%) | Run line: **Kansas City Royals** -1.5 (56% to cover) | Total 7.5: lean **UNDER** (54%)
+Projected score: Athletics 2.72 - Kansas City Royals 5.1
+Model likes: **Kansas City Royals** to win (71%) | Run line: **Kansas City Royals** -1.5 (56% to cover) | Total 7.5: lean **UNDER** (53%)
 
 ### Athletics lineup -- PROJECTED (unconfirmed)
-_Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.33)_
+_Facing a taxed bullpen: 8.0 relief IP in last 2 days (ratio 1.51)_
 **Probable P: Gage Jump (L)** -- L5: 25.7 IP, 29 K, 17 ER, 5.96 ERA
 - Henry Bolte (R) [5-game hit streak] -- L7: 10H 1HR 4RBI 14TB (0.345 avg) -- away split: 0.221 avg
 - Lawrence Butler (L) [4-game hit streak] -- L7: 8H 3HR 4RBI 17TB (0.308 avg) -- away split: 0.183 avg
@@ -467,7 +467,7 @@ _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.52)_
 ## 2026-08-21 - Tampa Bay Rays @ Baltimore Orioles (Scheduled)
 _Oriole Park at Camden Yards_
 Projected score: Tampa Bay Rays 5.07 - Baltimore Orioles 4.26
-Model likes: **Tampa Bay Rays** to win (56%) | Run line: **Baltimore Orioles** +1.5 (58% to cover) | Total 8.5: lean **OVER** (52%)
+Model likes: **Tampa Bay Rays** to win (57%) | Run line: **Baltimore Orioles** +1.5 (58% to cover) | Total 8.5: lean **OVER** (52%)
 
 ### Tampa Bay Rays lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.3 relief IP in last 2 days (ratio 0.65)_
@@ -527,7 +527,7 @@ Projected score: Detroit Tigers 5.25 - Kansas City Royals 2.4
 Model likes: **Detroit Tigers** to win (76%) | Run line: **Detroit Tigers** -1.5 (60% to cover) | Total 7.5: lean **UNDER** (54%)
 
 ### Detroit Tigers lineup -- PROJECTED (unconfirmed)
-_Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.38)_
+_Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.57)_
 **Probable P: Troy Melton (R)** -- L5: 29.3 IP, 23 K, 5 ER, 1.53 ERA
 - Kevin McGonigle (L) [3-game hit streak] -- L7: 6H 1HR 4RBI 10TB (0.214 avg) -- away split: 0.295 avg
 - Max Clark (L) -- L7: 6H 0HR 2RBI 9TB (0.240 avg) -- away split: 0.306 avg -- news: Mayo: Don't judge a book by its cover -- especially Max Clark
