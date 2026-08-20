@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-20T17:01:09.265644+00:00_
+_Generated 2026-08-20T17:40:52.302242+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -72,10 +72,10 @@ _Facing a taxed bullpen: 6.7 relief IP in last 2 days (ratio 1.35)_
 - #8 Héctor Rodríguez (L) -- L7: 1H 0HR 2RBI 1TB (0.048 avg) -- home split: 0.077 avg
 - #9 Ke'Bryan Hayes (R) -- L7: 3H 1HR 1RBI 6TB (0.300 avg) -- home split: 0.151 avg
 
-## 2026-08-20 - Toronto Blue Jays @ Tampa Bay Rays (Warmup)
+## 2026-08-20 - Toronto Blue Jays @ Tampa Bay Rays (In Progress)
 _Tropicana Field_
 Projected score: Toronto Blue Jays 4.09 - Tampa Bay Rays 4.48
-Model likes: **Tampa Bay Rays** to win (53%) | Run line: **Toronto Blue Jays** +1.5 (62% to cover) | Total 7.5: lean **OVER** (55%)
+Model likes: **Tampa Bay Rays** to win (54%) | Run line: **Toronto Blue Jays** +1.5 (62% to cover) | Total 7.5: lean **OVER** (55%)
 
 ### Toronto Blue Jays lineup -- CONFIRMED
 _Facing a taxed bullpen: 9.3 relief IP in last 2 days (ratio 1.55)_
@@ -102,7 +102,7 @@ _Facing a taxed bullpen: 9.3 relief IP in last 2 days (ratio 1.55)_
 - #8 Jorge Mateo (R) -- L7: 2H 1HR 3RBI 5TB (0.250 avg) -- home split: 0.218 avg
 - #9 Nick Fortes (R) -- L7: 1H 0HR 1RBI 1TB (0.083 avg) -- home split: 0.258 avg
 
-## 2026-08-20 - San Francisco Giants @ Cleveland Guardians (Warmup)
+## 2026-08-20 - San Francisco Giants @ Cleveland Guardians (In Progress)
 _Progressive Field_
 Projected score: San Francisco Giants 3.31 - Cleveland Guardians 3.76
 Model likes: **Cleveland Guardians** to win (55%) | Run line: **San Francisco Giants** +1.5 (63% to cover) | Total 6.5: lean **OVER** (51%)
@@ -378,7 +378,7 @@ _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.38)_
 ## 2026-08-21 - Toronto Blue Jays @ New York Yankees (Scheduled)
 _Yankee Stadium [hitter-friendly park]_
 Projected score: Toronto Blue Jays 3.66 - New York Yankees 3.94
-Model likes: **New York Yankees** to win (53%) | Run line: **Toronto Blue Jays** +1.5 (64% to cover) | Total 7.5: lean **UNDER** (55%)
+Model likes: **New York Yankees** to win (52%) | Run line: **Toronto Blue Jays** +1.5 (64% to cover) | Total 7.5: lean **UNDER** (55%)
 
 ### Toronto Blue Jays lineup -- PROJECTED (unconfirmed)
 - Andrés Giménez (L) -- L7: 6H 0HR 1RBI 7TB (0.231 avg) -- away split: 0.221 avg
@@ -435,10 +435,11 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.5)_
 
 ## 2026-08-21 - San Francisco Giants @ Boston Red Sox (Scheduled)
 _Fenway Park_
-Projected score: San Francisco Giants 2.55 - Boston Red Sox 5.43
-Model likes: **Boston Red Sox** to win (75%) | Run line: **Boston Red Sox** -1.5 (60% to cover) | Total 7.5: lean **UNDER** (51%)
+Projected score: San Francisco Giants 2.55 - Boston Red Sox 4.13
+Model likes: **Boston Red Sox** to win (66%) | Run line: **San Francisco Giants** +1.5 (52% to cover) | Total 6.5: lean **UNDER** (54%)
 
 ### San Francisco Giants lineup -- PROJECTED (unconfirmed)
+**Probable P: Logan Webb (R)** -- L5: 32.0 IP, 25 K, 8 ER, 2.25 ERA
 - Osleivis Basabe (R) -- L7: 6H 0HR 0RBI 7TB (0.240 avg) -- away split: 0.222 avg
 - Rafael Devers (L) -- L7: 5H 1HR 5RBI 12TB (0.185 avg) -- away split: 0.251 avg
 - Jung Hoo Lee (L) [3-game hit streak] -- L7: 7H 1HR 1RBI 11TB (0.233 avg) -- away split: 0.331 avg
@@ -452,13 +453,13 @@ Model likes: **Boston Red Sox** to win (75%) | Run line: **Boston Red Sox** -1.5
 ### Boston Red Sox lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.52)_
 **Probable P: Sonny Gray (R)** -- L5: 31.0 IP, 27 K, 11 ER, 3.19 ERA
-- Caleb Durbin (R) -- L7: 9H 1HR 7RBI 12TB (0.333 avg) -- home split: 0.250 avg
+- Caleb Durbin (R) [TOUGH MATCHUP: pitcher holds this hand to 0.207 avg-against] -- L7: 9H 1HR 7RBI 12TB (0.333 avg) -- home split: 0.250 avg
 - Nick Sogard (S) [3-game hit streak] -- L7: 8H 1HR 4RBI 13TB (0.296 avg) -- home split: 0.321 avg
-- Andruw Monasterio (R) -- L7: 5H 0HR 5RBI 6TB (0.185 avg) -- home split: 0.257 avg
+- Andruw Monasterio (R) [TOUGH MATCHUP: pitcher holds this hand to 0.207 avg-against] -- L7: 5H 0HR 5RBI 6TB (0.185 avg) -- home split: 0.257 avg
 - Jarren Duran (L) [5-game hit streak] -- L7: 7H 1HR 2RBI 11TB (0.259 avg) -- home split: 0.226 avg
-- Ceddanne Rafaela (R) -- L7: 8H 0HR 1RBI 12TB (0.250 avg) -- home split: 0.277 avg
+- Ceddanne Rafaela (R) [TOUGH MATCHUP: pitcher holds this hand to 0.207 avg-against] -- L7: 8H 0HR 1RBI 12TB (0.250 avg) -- home split: 0.277 avg
 - Wilyer Abreu (L) -- L7: 8H 1HR 3RBI 14TB (0.308 avg) -- home split: 0.257 avg
-- Willson Contreras (R) [3-game hit streak] -- L7: 9H 2HR 5RBI 18TB (0.346 avg) -- home split: 0.324 avg
+- Willson Contreras (R) [TOUGH MATCHUP: pitcher holds this hand to 0.207 avg-against] [3-game hit streak] -- L7: 9H 2HR 5RBI 18TB (0.346 avg) -- home split: 0.324 avg
 - Anthony Seigler (S) [likely BABIP-driven, not a real power uptick] -- L7: 7H 0HR 3RBI 10TB (0.389 avg) -- home split: 0.304 avg
 - Adley Rutschman (S) -- L7: 4H 1HR 4RBI 8TB (0.167 avg) -- home split: 0.281 avg
 
@@ -494,8 +495,8 @@ _Facing a rested bullpen: 4.0 relief IP in last 2 days (ratio 0.66)_
 
 ## 2026-08-21 - New York Mets @ Chicago White Sox (Scheduled)
 _Rate Field_
-Projected score: New York Mets 3.83 - Chicago White Sox 4.33
-Model likes: **Chicago White Sox** to win (55%) | Run line: **New York Mets** +1.5 (61% to cover) | Total 7.5: lean **OVER** (51%)
+Projected score: New York Mets 3.2 - Chicago White Sox 4.33
+Model likes: **Chicago White Sox** to win (61%) | Run line: **New York Mets** +1.5 (56% to cover) | Total 6.5: lean **OVER** (55%)
 
 ### New York Mets lineup -- PROJECTED (unconfirmed)
 **Probable P: Sean Manaea (L)** -- L5: 31.3 IP, 32 K, 10 ER, 2.87 ERA
@@ -510,6 +511,7 @@ Model likes: **Chicago White Sox** to win (55%) | Run line: **New York Mets** +1
 - Brett Baty (L) -- L7: 2H 1HR 4RBI 6TB (0.095 avg) -- away split: 0.199 avg
 
 ### Chicago White Sox lineup -- PROJECTED (unconfirmed)
+**Probable P: Sean Burke (R)** -- L5: 27.7 IP, 34 K, 9 ER, 2.93 ERA
 - Munetaka Murakami (L) -- L7: 4H 3HR 4RBI 14TB (0.167 avg) -- home split: 0.224 avg
 - Sam Antonacci (L) -- L7: 4H 0HR 1RBI 5TB (0.174 avg) -- home split: 0.303 avg
 - Braden Montgomery (S) [MATCHUP EDGE: pitcher hits 0.267 avg-against vs this hand] -- L7: 8H 0HR 6RBI 11TB (0.296 avg) -- home split: 0.255 avg
@@ -522,8 +524,8 @@ Model likes: **Chicago White Sox** to win (55%) | Run line: **New York Mets** +1
 
 ## 2026-08-21 - Detroit Tigers @ Kansas City Royals (Scheduled)
 _Kauffman Stadium [pitcher-friendly park]_
-Projected score: Detroit Tigers 5.25 - Kansas City Royals 2.4
-Model likes: **Detroit Tigers** to win (76%) | Run line: **Detroit Tigers** -1.5 (60% to cover) | Total 7.5: lean **UNDER** (55%)
+Projected score: Detroit Tigers 4.71 - Kansas City Royals 2.4
+Model likes: **Detroit Tigers** to win (72%) | Run line: **Detroit Tigers** -1.5 (55% to cover) | Total 6.5: lean **OVER** (50%)
 
 ### Detroit Tigers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.57)_
@@ -554,7 +556,7 @@ _Facing a rested bullpen: 3.3 relief IP in last 2 days (ratio 0.67)_
 ## 2026-08-21 - Athletics @ Houston Astros (Scheduled)
 _Daikin Park_
 Projected score: Athletics 3.78 - Houston Astros 4.91
-Model likes: **Houston Astros** to win (60%) | Run line: **Athletics** +1.5 (55% to cover) | Total 8.5: lean **UNDER** (54%)
+Model likes: **Houston Astros** to win (60%) | Run line: **Athletics** +1.5 (56% to cover) | Total 8.5: lean **UNDER** (54%)
 
 ### Athletics lineup -- PROJECTED (unconfirmed)
 **Probable P: J.T. Ginn (R)** -- L5: 28.7 IP, 28 K, 16 ER, 5.02 ERA
@@ -611,7 +613,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.52)_
 ## 2026-08-21 - Cleveland Guardians @ Colorado Rockies (Scheduled)
 _Coors Field [hitter-friendly park]_
 Projected score: Cleveland Guardians 4.88 - Colorado Rockies 4.41
-Model likes: **Cleveland Guardians** to win (54%) | Run line: **Colorado Rockies** +1.5 (61% to cover) | Total 8.5: lean **OVER** (52%)
+Model likes: **Cleveland Guardians** to win (54%) | Run line: **Colorado Rockies** +1.5 (60% to cover) | Total 8.5: lean **OVER** (52%)
 
 ### Cleveland Guardians lineup -- PROJECTED (unconfirmed)
 **Probable P: Joey Cantillo (L)** -- L5: 19.7 IP, 27 K, 9 ER, 4.12 ERA
@@ -816,7 +818,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-22 - Washington Nationals @ Miami Marlins (Scheduled)
 _loanDepot park [pitcher-friendly park]_
 Projected score: Washington Nationals 3.85 - Miami Marlins 4.27
-Model likes: **Miami Marlins** to win (54%) | Run line: **Washington Nationals** +1.5 (62% to cover) | Total 7.5: lean **OVER** (51%)
+Model likes: **Miami Marlins** to win (54%) | Run line: **Washington Nationals** +1.5 (62% to cover) | Total 7.5: lean **OVER** (50%)
 
 ### Washington Nationals lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -846,7 +848,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-22 - St. Louis Cardinals @ Philadelphia Phillies (Scheduled)
 _Citizens Bank Park [hitter-friendly park]_
 Projected score: St. Louis Cardinals 5.97 - Philadelphia Phillies 4.66
-Model likes: **St. Louis Cardinals** to win (60%) | Run line: **Philadelphia Phillies** +1.5 (54% to cover) | Total 9.5: lean **OVER** (53%)
+Model likes: **St. Louis Cardinals** to win (60%) | Run line: **Philadelphia Phillies** +1.5 (53% to cover) | Total 9.5: lean **OVER** (53%)
 
 ### St. Louis Cardinals lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -964,23 +966,24 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 
 ## 2026-08-22 - New York Mets @ Chicago White Sox (Scheduled)
 _Rate Field_
-Projected score: New York Mets 3.83 - Chicago White Sox 4.66
-Model likes: **Chicago White Sox** to win (57%) | Run line: **New York Mets** +1.5 (58% to cover) | Total 7.5: lean **OVER** (54%)
+Projected score: New York Mets 4.19 - Chicago White Sox 4.66
+Model likes: **Chicago White Sox** to win (54%) | Run line: **New York Mets** +1.5 (61% to cover) | Total 8.5: lean **UNDER** (52%)
 
 ### New York Mets lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
-- A.J. Ewing (L) -- L7: 3H 0HR 0RBI 3TB (0.125 avg) -- away split: 0.242 avg
+- A.J. Ewing (L) [MATCHUP EDGE: pitcher hits 0.272 avg-against vs this hand] -- L7: 3H 0HR 0RBI 3TB (0.125 avg) -- away split: 0.242 avg
 - Bo Bichette (R) -- L7: 9H 1HR 4RBI 16TB (0.346 avg) -- away split: 0.283 avg
-- Francisco Lindor (S) -- L7: 5H 1HR 2RBI 8TB (0.200 avg) -- away split: 0.230 avg
-- Carson Benge (L) -- L7: 7H 2HR 4RBI 14TB (0.280 avg) -- away split: 0.271 avg
-- Jared Young (L) -- L7: 8H 1HR 5RBI 13TB (0.333 avg) -- away split: 0.264 avg
+- Francisco Lindor (S) [MATCHUP EDGE: pitcher hits 0.272 avg-against vs this hand] -- L7: 5H 1HR 2RBI 8TB (0.200 avg) -- away split: 0.230 avg
+- Carson Benge (L) [MATCHUP EDGE: pitcher hits 0.272 avg-against vs this hand] -- L7: 7H 2HR 4RBI 14TB (0.280 avg) -- away split: 0.271 avg
+- Jared Young (L) [MATCHUP EDGE: pitcher hits 0.272 avg-against vs this hand] -- L7: 8H 1HR 5RBI 13TB (0.333 avg) -- away split: 0.264 avg
 - Luis Robert Jr. (R) -- L7: 4H 2HR 3RBI 10TB (0.235 avg) -- away split: 0.228 avg
 - Marcus Semien (R) -- L7: 3H 0HR 0RBI 4TB (0.143 avg) -- away split: 0.223 avg
 - Francisco Alvarez (R) -- L7: 1H 0HR 1RBI 2TB (0.043 avg) -- away split: 0.262 avg
-- Brett Baty (L) -- L7: 2H 1HR 4RBI 6TB (0.095 avg) -- away split: 0.199 avg
+- Brett Baty (L) [MATCHUP EDGE: pitcher hits 0.272 avg-against vs this hand] -- L7: 2H 1HR 4RBI 6TB (0.095 avg) -- away split: 0.199 avg
 
 ### Chicago White Sox lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
+**Probable P: Luis Castillo (R)** -- L5: 27.7 IP, 21 K, 16 ER, 5.2 ERA
 - Munetaka Murakami (L) -- L7: 4H 3HR 4RBI 14TB (0.167 avg) -- home split: 0.224 avg
 - Sam Antonacci (L) -- L7: 4H 0HR 1RBI 5TB (0.174 avg) -- home split: 0.303 avg
 - Braden Montgomery (S) -- L7: 8H 0HR 6RBI 11TB (0.296 avg) -- home split: 0.255 avg
@@ -1024,7 +1027,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-22 - Pittsburgh Pirates @ Los Angeles Dodgers (Scheduled)
 _UNIQLO Field at Dodger Stadium_
 Projected score: Pittsburgh Pirates 3.36 - Los Angeles Dodgers 4.38
-Model likes: **Los Angeles Dodgers** to win (60%) | Run line: **Pittsburgh Pirates** +1.5 (57% to cover) | Total 7.5: lean **UNDER** (53%)
+Model likes: **Los Angeles Dodgers** to win (59%) | Run line: **Pittsburgh Pirates** +1.5 (57% to cover) | Total 7.5: lean **UNDER** (53%)
 
 ### Pittsburgh Pirates lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1085,11 +1088,12 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 
 ## 2026-08-22 - San Francisco Giants @ Boston Red Sox (Scheduled)
 _Fenway Park_
-Projected score: San Francisco Giants 3.56 - Boston Red Sox 5.43
-Model likes: **Boston Red Sox** to win (65%) | Run line: **Boston Red Sox** -1.5 (51% to cover) | Total 8.5: lean **UNDER** (51%)
+Projected score: San Francisco Giants 3.56 - Boston Red Sox 4.61
+Model likes: **Boston Red Sox** to win (59%) | Run line: **San Francisco Giants** +1.5 (56% to cover) | Total 7.5: lean **OVER** (51%)
 
 ### San Francisco Giants lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
+**Probable P: Blade Tidwell (R)** [BULLPEN GAME: short-outing arm, no reliable individual matchup below] -- L5: 19.0 IP, 14 K, 11 ER, 5.21 ERA
 - Osleivis Basabe (R) [MATCHUP EDGE: pitcher hits 0.279 avg-against vs this hand] -- L7: 6H 0HR 0RBI 7TB (0.240 avg) -- away split: 0.222 avg
 - Rafael Devers (L) -- L7: 5H 1HR 5RBI 12TB (0.185 avg) -- away split: 0.251 avg
 - Jung Hoo Lee (L) [3-game hit streak] -- L7: 7H 1HR 1RBI 11TB (0.233 avg) -- away split: 0.331 avg
