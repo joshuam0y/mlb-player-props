@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-20T06:21:56.024536+00:00_
+_Generated 2026-08-20T07:09:40.973930+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -77,7 +77,7 @@ _Facing a taxed bullpen: 6.7 relief IP in last 2 days (ratio 1.35)_
 ## 2026-08-20 - Toronto Blue Jays @ Tampa Bay Rays (Scheduled)
 _Tropicana Field_
 Projected score: Toronto Blue Jays 4.03 - Tampa Bay Rays 4.57
-Model likes: **Tampa Bay Rays** to win (55%) | Run line: **Toronto Blue Jays** +1.5 (60% to cover) | Total 8.5: lean **UNDER** (55%)
+Model likes: **Tampa Bay Rays** to win (55%) | Run line: **Toronto Blue Jays** +1.5 (60% to cover) | Total 8.5: lean **UNDER** (54%)
 
 ### Toronto Blue Jays lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 9.3 relief IP in last 2 days (ratio 1.55)_
@@ -168,7 +168,7 @@ _Facing a taxed bullpen: 6.3 relief IP in last 2 days (ratio 1.37)_
 ## 2026-08-20 - Athletics @ Kansas City Royals (Scheduled)
 _Kauffman Stadium [pitcher-friendly park]_
 Projected score: Athletics 2.64 - Kansas City Royals 5.1
-Model likes: **Kansas City Royals** to win (72%) | Run line: **Kansas City Royals** -1.5 (56% to cover) | Total 7.5: lean **UNDER** (54%)
+Model likes: **Kansas City Royals** to win (72%) | Run line: **Kansas City Royals** -1.5 (56% to cover) | Total 7.5: lean **UNDER** (53%)
 
 ### Athletics lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.33)_
@@ -249,7 +249,7 @@ _Facing a taxed bullpen: 10.0 relief IP in last 2 days (ratio 1.65)_
 - Jackson Holliday (L) -- L7: 5H 0HR 4RBI 7TB (0.167 avg) -- home split: 0.204 avg
 - Coby Mayo (R) -- L7: 4H 2HR 2RBI 11TB (0.174 avg) -- home split: 0.203 avg
 - Christian Encarnacion-Strand (R) -- L7: 6H 2HR 9RBI 13TB (0.231 avg) -- home split: 0.200 avg
-- Gunnar Henderson (L) -- L7: 7H 1HR 2RBI 12TB (0.304 avg) -- home split: 0.211 avg
+- Gunnar Henderson (L) -- L7: 8H 1HR 2RBI 14TB (0.308 avg) -- home split: 0.213 avg
 - Colton Cowser (L) -- L7: 3H 2HR 3RBI 9TB (0.200 avg) -- home split: 0.205 avg
 - Pete Alonso (R) [11-game hit streak] -- L7: 12H 3HR 5RBI 22TB (0.444 avg) -- home split: 0.248 avg
 - Dylan Beavers (L) -- L7: 4H 2HR 6RBI 10TB (0.250 avg) -- home split: 0.248 avg
@@ -486,7 +486,7 @@ _Facing a rested bullpen: 4.0 relief IP in last 2 days (ratio 0.66)_
 - Jackson Holliday (L) -- L7: 5H 0HR 4RBI 7TB (0.167 avg) -- home split: 0.204 avg
 - Coby Mayo (R) -- L7: 4H 2HR 2RBI 11TB (0.174 avg) -- home split: 0.203 avg
 - Christian Encarnacion-Strand (R) -- L7: 6H 2HR 9RBI 13TB (0.231 avg) -- home split: 0.200 avg
-- Gunnar Henderson (L) -- L7: 7H 1HR 2RBI 12TB (0.304 avg) -- home split: 0.211 avg
+- Gunnar Henderson (L) -- L7: 8H 1HR 2RBI 14TB (0.308 avg) -- home split: 0.213 avg
 - Colton Cowser (L) -- L7: 3H 2HR 3RBI 9TB (0.200 avg) -- home split: 0.205 avg
 - Pete Alonso (R) [11-game hit streak] -- L7: 12H 3HR 5RBI 22TB (0.444 avg) -- home split: 0.248 avg
 - Dylan Beavers (L) -- L7: 4H 2HR 6RBI 10TB (0.250 avg) -- home split: 0.248 avg
@@ -630,12 +630,12 @@ _Facing a rested bullpen: 2.3 relief IP in last 2 days (ratio 0.46)_
 **Probable P: Tanner Gordon (R)** -- L5: 21.0 IP, 15 K, 8 ER, 3.43 ERA
 - Cole Carrigg (S) [MATCHUP EDGE: pitcher hits 0.261 avg-against vs this hand] -- L7: 5H 0HR 4RBI 7TB (0.192 avg) -- home split: 0.323 avg
 - Jake McCarthy (L) -- L7: 5H 0HR 1RBI 6TB (0.179 avg) -- home split: 0.314 avg
-- TJ Rumfield (L) [3-game hit streak] -- L7: 6H 0HR 1RBI 7TB (0.261 avg) -- home split: 0.300 avg
+- TJ Rumfield (L) [3-game hit streak] -- L7: 6H 0HR 1RBI 7TB (0.250 avg) -- home split: 0.299 avg
 - Ezequiel Tovar (R) [MATCHUP EDGE: pitcher hits 0.261 avg-against vs this hand] -- L7: 3H 0HR 1RBI 4TB (0.200 avg) -- home split: 0.193 avg
 - Mickey Moniak (L) -- L7: 5H 1HR 7RBI 9TB (0.185 avg) -- home split: 0.308 avg
 - Willi Castro (S) [MATCHUP EDGE: pitcher hits 0.261 avg-against vs this hand] -- L7: 7H 1HR 4RBI 11TB (0.304 avg) -- home split: 0.314 avg
 - Brett Sullivan (L) -- L7: 5H 2HR 7RBI 12TB (0.238 avg) -- home split: 0.241 avg
-- Jordan Beck (R) [MATCHUP EDGE: pitcher hits 0.261 avg-against vs this hand] -- L7: 3H 0HR 0RBI 4TB (0.143 avg) -- home split: 0.167 avg
+- Jordan Beck (R) [MATCHUP EDGE: pitcher hits 0.261 avg-against vs this hand] -- L7: 2H 0HR 0RBI 3TB (0.095 avg) -- home split: 0.159 avg
 - Connor Norby (R) [MATCHUP EDGE: pitcher hits 0.261 avg-against vs this hand] [5-game hit streak] -- L7: 6H 0HR 1RBI 10TB (0.286 avg) -- home split: 0.216 avg
 
 ## 2026-08-21 - Minnesota Twins @ San Diego Padres (Scheduled)
@@ -670,7 +670,7 @@ _Facing a rested bullpen: 1.3 relief IP in last 2 days (ratio 0.21)_
 ## 2026-08-21 - Cincinnati Reds @ Arizona Diamondbacks (Scheduled)
 _Chase Field [hitter-friendly park]_
 Projected score: Cincinnati Reds 3.24 - Arizona Diamondbacks 5.13
-Model likes: **Arizona Diamondbacks** to win (66%) | Run line: **Arizona Diamondbacks** -1.5 (51% to cover) | Total 7.5: lean **OVER** (52%)
+Model likes: **Arizona Diamondbacks** to win (66%) | Run line: **Arizona Diamondbacks** -1.5 (51% to cover) | Total 7.5: lean **OVER** (53%)
 
 ### Cincinnati Reds lineup -- PROJECTED (unconfirmed)
 **Probable P: Nick Lodolo (L)** -- L5: 25.0 IP, 19 K, 7 ER, 2.52 ERA
@@ -727,7 +727,7 @@ Model likes: **Chicago Cubs** to win (65%) | Run line: **Seattle Mariners** +1.5
 ## 2026-08-21 - Pittsburgh Pirates @ Los Angeles Dodgers (Scheduled)
 _UNIQLO Field at Dodger Stadium_
 Projected score: Pittsburgh Pirates 3.53 - Los Angeles Dodgers 4.11
-Model likes: **Los Angeles Dodgers** to win (56%) | Run line: **Pittsburgh Pirates** +1.5 (61% to cover) | Total 7.5: lean **UNDER** (54%)
+Model likes: **Los Angeles Dodgers** to win (55%) | Run line: **Pittsburgh Pirates** +1.5 (61% to cover) | Total 7.5: lean **UNDER** (54%)
 
 ### Pittsburgh Pirates lineup -- PROJECTED (unconfirmed)
 **Probable P: Bubba Chandler (R)** -- L5: 27.0 IP, 23 K, 7 ER, 2.33 ERA
@@ -786,7 +786,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-22 - Atlanta Braves @ Milwaukee Brewers (Scheduled)
 _American Family Field_
 Projected score: Atlanta Braves 3.07 - Milwaukee Brewers 4.3
-Model likes: **Milwaukee Brewers** to win (62%) | Run line: **Atlanta Braves** +1.5 (55% to cover) | Total 6.5: lean **OVER** (53%)
+Model likes: **Milwaukee Brewers** to win (62%) | Run line: **Atlanta Braves** +1.5 (55% to cover) | Total 6.5: lean **OVER** (54%)
 
 ### Atlanta Braves lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -816,7 +816,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-22 - Washington Nationals @ Miami Marlins (Scheduled)
 _loanDepot park [pitcher-friendly park]_
 Projected score: Washington Nationals 3.85 - Miami Marlins 4.27
-Model likes: **Miami Marlins** to win (54%) | Run line: **Washington Nationals** +1.5 (62% to cover) | Total 7.5: lean **OVER** (51%)
+Model likes: **Miami Marlins** to win (54%) | Run line: **Washington Nationals** +1.5 (62% to cover) | Total 7.5: lean **OVER** (50%)
 
 ### Washington Nationals lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -924,7 +924,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 - Jackson Holliday (L) -- L7: 5H 0HR 4RBI 7TB (0.167 avg) -- home split: 0.204 avg
 - Coby Mayo (R) -- L7: 4H 2HR 2RBI 11TB (0.174 avg) -- home split: 0.203 avg
 - Christian Encarnacion-Strand (R) -- L7: 6H 2HR 9RBI 13TB (0.231 avg) -- home split: 0.200 avg
-- Gunnar Henderson (L) -- L7: 7H 1HR 2RBI 12TB (0.304 avg) -- home split: 0.211 avg
+- Gunnar Henderson (L) -- L7: 8H 1HR 2RBI 14TB (0.308 avg) -- home split: 0.213 avg
 - Colton Cowser (L) -- L7: 3H 2HR 3RBI 9TB (0.200 avg) -- home split: 0.205 avg
 - Pete Alonso (R) [11-game hit streak] -- L7: 12H 3HR 5RBI 22TB (0.444 avg) -- home split: 0.248 avg
 - Dylan Beavers (L) -- L7: 4H 2HR 6RBI 10TB (0.250 avg) -- home split: 0.248 avg
@@ -1023,7 +1023,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-22 - Pittsburgh Pirates @ Los Angeles Dodgers (Scheduled)
 _UNIQLO Field at Dodger Stadium_
 Projected score: Pittsburgh Pirates 3.36 - Los Angeles Dodgers 4.38
-Model likes: **Los Angeles Dodgers** to win (59%) | Run line: **Pittsburgh Pirates** +1.5 (57% to cover) | Total 7.5: lean **UNDER** (53%)
+Model likes: **Los Angeles Dodgers** to win (60%) | Run line: **Pittsburgh Pirates** +1.5 (57% to cover) | Total 7.5: lean **UNDER** (53%)
 
 ### Pittsburgh Pirates lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1134,12 +1134,12 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 **Probable P: Gabriel Hughes (R)** -- L5: 23.3 IP, 19 K, 23 ER, 8.87 ERA
 - Cole Carrigg (S) -- L7: 5H 0HR 4RBI 7TB (0.192 avg) -- home split: 0.323 avg
 - Jake McCarthy (L) -- L7: 5H 0HR 1RBI 6TB (0.179 avg) -- home split: 0.314 avg
-- TJ Rumfield (L) [3-game hit streak] -- L7: 6H 0HR 1RBI 7TB (0.261 avg) -- home split: 0.300 avg
+- TJ Rumfield (L) [3-game hit streak] -- L7: 6H 0HR 1RBI 7TB (0.250 avg) -- home split: 0.299 avg
 - Ezequiel Tovar (R) -- L7: 3H 0HR 1RBI 4TB (0.200 avg) -- home split: 0.193 avg
 - Mickey Moniak (L) -- L7: 5H 1HR 7RBI 9TB (0.185 avg) -- home split: 0.308 avg
 - Willi Castro (S) -- L7: 7H 1HR 4RBI 11TB (0.304 avg) -- home split: 0.314 avg
 - Brett Sullivan (L) -- L7: 5H 2HR 7RBI 12TB (0.238 avg) -- home split: 0.241 avg
-- Jordan Beck (R) -- L7: 3H 0HR 0RBI 4TB (0.143 avg) -- home split: 0.167 avg
+- Jordan Beck (R) -- L7: 2H 0HR 0RBI 3TB (0.095 avg) -- home split: 0.159 avg
 - Connor Norby (R) [5-game hit streak] -- L7: 6H 0HR 1RBI 10TB (0.286 avg) -- home split: 0.216 avg
 
 ## 2026-08-22 - Cincinnati Reds @ Arizona Diamondbacks (Scheduled)
