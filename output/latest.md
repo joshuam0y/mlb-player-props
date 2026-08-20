@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-20T19:05:39.225825+00:00_
+_Generated 2026-08-20T19:41:03.365062+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -75,7 +75,7 @@ _Facing a taxed bullpen: 6.7 relief IP in last 2 days (ratio 1.35)_
 ## 2026-08-20 - Toronto Blue Jays @ Tampa Bay Rays (In Progress)
 _Tropicana Field_
 Projected score: Toronto Blue Jays 4.09 - Tampa Bay Rays 4.48
-Model likes: **Tampa Bay Rays** to win (53%) | Run line: **Toronto Blue Jays** +1.5 (62% to cover) | Total 7.5: lean **OVER** (55%)
+Model likes: **Tampa Bay Rays** to win (54%) | Run line: **Toronto Blue Jays** +1.5 (62% to cover) | Total 7.5: lean **OVER** (55%)
 
 ### Toronto Blue Jays lineup -- CONFIRMED
 _Facing a taxed bullpen: 9.3 relief IP in last 2 days (ratio 1.55)_
@@ -105,7 +105,7 @@ _Facing a taxed bullpen: 9.3 relief IP in last 2 days (ratio 1.55)_
 ## 2026-08-20 - San Francisco Giants @ Cleveland Guardians (In Progress)
 _Progressive Field_
 Projected score: San Francisco Giants 3.31 - Cleveland Guardians 3.76
-Model likes: **Cleveland Guardians** to win (55%) | Run line: **San Francisco Giants** +1.5 (63% to cover) | Total 6.5: lean **OVER** (50%)
+Model likes: **Cleveland Guardians** to win (54%) | Run line: **San Francisco Giants** +1.5 (63% to cover) | Total 6.5: lean **OVER** (51%)
 
 ### San Francisco Giants lineup -- CONFIRMED
 **Probable P: Landen Roupp (R)** -- L5: 25.3 IP, 22 K, 16 ER, 5.68 ERA
@@ -224,10 +224,10 @@ _Facing a taxed bullpen: 14.7 relief IP in last 2 days (ratio 2.15)_
 - #8 Tristan Peters (L) -- L7: 8H 1HR 3RBI 13TB (0.381 avg) -- home split: 0.257 avg
 - #9 Drew Romo (S) -- L7: 4H 2HR 5RBI 10TB (0.182 avg) -- home split: 0.160 avg
 
-## 2026-08-20 - New York Yankees @ Baltimore Orioles (Scheduled)
+## 2026-08-20 - New York Yankees @ Baltimore Orioles (Pre-Game)
 _Oriole Park at Camden Yards_
-Projected score: New York Yankees 3.26 - Baltimore Orioles 3.28
-Model likes: **Baltimore Orioles** to win (50%) | Run line: **New York Yankees** +1.5 (68% to cover) | Total 6.5: lean **UNDER** (55%)
+Projected score: New York Yankees 3.26 - Baltimore Orioles 3.33
+Model likes: **Baltimore Orioles** to win (51%) | Run line: **New York Yankees** +1.5 (68% to cover) | Total 6.5: lean **UNDER** (55%)
 
 ### New York Yankees lineup -- PROJECTED (unconfirmed)
 **Probable P: Gerrit Cole (R)** -- L5: 31.7 IP, 37 K, 7 ER, 1.99 ERA
@@ -241,18 +241,18 @@ Model likes: **Baltimore Orioles** to win (50%) | Run line: **New York Yankees**
 - Luis García Jr. (L) -- L7: 5H 0HR 1RBI 6TB (0.179 avg) -- away split: 0.290 avg
 - Heliot Ramos (R) -- L7: 2H 0HR 0RBI 3TB (0.095 avg) -- away split: 0.230 avg
 
-### Baltimore Orioles lineup -- PROJECTED (unconfirmed)
+### Baltimore Orioles lineup -- CONFIRMED
 _Facing a taxed bullpen: 10.0 relief IP in last 2 days (ratio 1.65)_
 **Probable P: Kyle Bradish (R)** -- L5: 25.7 IP, 18 K, 11 ER, 3.86 ERA
-- Jackson Holliday (L) -- L7: 5H 0HR 4RBI 7TB (0.167 avg) -- home split: 0.204 avg
-- Coby Mayo (R) -- L7: 4H 2HR 2RBI 11TB (0.174 avg) -- home split: 0.203 avg
-- Christian Encarnacion-Strand (R) -- L7: 6H 2HR 9RBI 13TB (0.231 avg) -- home split: 0.200 avg
-- Gunnar Henderson (L) -- L7: 8H 1HR 2RBI 14TB (0.308 avg) -- home split: 0.213 avg
-- Colton Cowser (L) -- L7: 3H 2HR 3RBI 9TB (0.200 avg) -- home split: 0.205 avg
-- Pete Alonso (R) [11-game hit streak] -- L7: 12H 3HR 5RBI 22TB (0.444 avg) -- home split: 0.248 avg
-- Dylan Beavers (L) -- L7: 4H 2HR 6RBI 10TB (0.250 avg) -- home split: 0.248 avg
-- Leody Taveras (S) [likely BABIP-driven, not a real power uptick] -- L7: 8H 1HR 2RBI 12TB (0.320 avg) -- home split: 0.235 avg
-- Tyler O'Neill (R) -- L7: 6H 0HR 1RBI 6TB (0.261 avg) -- home split: 0.226 avg
+- #1 Jackson Holliday (L) -- L7: 5H 0HR 4RBI 7TB (0.167 avg) -- home split: 0.204 avg
+- #2 Pete Alonso (R) [11-game hit streak] -- L7: 12H 3HR 5RBI 22TB (0.444 avg) -- home split: 0.248 avg
+- #3 Gunnar Henderson (L) -- L7: 8H 1HR 2RBI 14TB (0.308 avg) -- home split: 0.213 avg
+- #4 Samuel Basallo (L) -- L7: 4H 2HR 4RBI 10TB (0.174 avg) -- home split: 0.265 avg
+- #5 Christian Encarnacion-Strand (R) -- L7: 6H 2HR 9RBI 13TB (0.231 avg) -- home split: 0.200 avg
+- #6 Dylan Beavers (L) -- L7: 4H 2HR 6RBI 10TB (0.250 avg) -- home split: 0.248 avg
+- #7 Leody Taveras (S) [likely BABIP-driven, not a real power uptick] -- L7: 8H 1HR 2RBI 12TB (0.320 avg) -- home split: 0.235 avg
+- #8 Colton Cowser (L) -- L7: 3H 2HR 3RBI 9TB (0.200 avg) -- home split: 0.205 avg
+- #9 Carlos Narváez (R) -- L7: 1H 0HR 0RBI 1TB (0.056 avg) -- home split: 0.176 avg
 
 ## 2026-08-20 - Washington Nationals @ Texas Rangers (Scheduled)
 _Globe Life Field [hitter-friendly park]_
@@ -378,7 +378,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.58)_
 ## 2026-08-21 - Toronto Blue Jays @ New York Yankees (Scheduled)
 _Yankee Stadium [hitter-friendly park]_
 Projected score: Toronto Blue Jays 3.66 - New York Yankees 3.94
-Model likes: **New York Yankees** to win (53%) | Run line: **Toronto Blue Jays** +1.5 (64% to cover) | Total 7.5: lean **UNDER** (55%)
+Model likes: **New York Yankees** to win (53%) | Run line: **Toronto Blue Jays** +1.5 (64% to cover) | Total 7.5: lean **UNDER** (54%)
 
 ### Toronto Blue Jays lineup -- PROJECTED (unconfirmed)
 - Nathan Lukes (L) -- L7: 4H 1HR 3RBI 7TB (0.174 avg) -- away split: 0.279 avg
@@ -524,7 +524,7 @@ Model likes: **Chicago White Sox** to win (61%) | Run line: **New York Mets** +1
 ## 2026-08-21 - Detroit Tigers @ Kansas City Royals (Scheduled)
 _Kauffman Stadium [pitcher-friendly park]_
 Projected score: Detroit Tigers 4.71 - Kansas City Royals 2.4
-Model likes: **Detroit Tigers** to win (72%) | Run line: **Detroit Tigers** -1.5 (55% to cover) | Total 6.5: lean **OVER** (50%)
+Model likes: **Detroit Tigers** to win (72%) | Run line: **Detroit Tigers** -1.5 (55% to cover) | Total 6.5: lean **OVER** (51%)
 
 ### Detroit Tigers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.57)_
@@ -788,7 +788,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-22 - Atlanta Braves @ Milwaukee Brewers (Scheduled)
 _American Family Field_
 Projected score: Atlanta Braves 3.07 - Milwaukee Brewers 4.3
-Model likes: **Milwaukee Brewers** to win (62%) | Run line: **Atlanta Braves** +1.5 (55% to cover) | Total 6.5: lean **OVER** (53%)
+Model likes: **Milwaukee Brewers** to win (62%) | Run line: **Atlanta Braves** +1.5 (55% to cover) | Total 6.5: lean **OVER** (54%)
 
 ### Atlanta Braves lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1028,7 +1028,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-22 - Pittsburgh Pirates @ Los Angeles Dodgers (Scheduled)
 _UNIQLO Field at Dodger Stadium_
 Projected score: Pittsburgh Pirates 3.36 - Los Angeles Dodgers 4.38
-Model likes: **Los Angeles Dodgers** to win (59%) | Run line: **Pittsburgh Pirates** +1.5 (57% to cover) | Total 7.5: lean **UNDER** (53%)
+Model likes: **Los Angeles Dodgers** to win (60%) | Run line: **Pittsburgh Pirates** +1.5 (57% to cover) | Total 7.5: lean **UNDER** (53%)
 
 ### Pittsburgh Pirates lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1090,7 +1090,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-22 - San Francisco Giants @ Boston Red Sox (Scheduled)
 _Fenway Park_
 Projected score: San Francisco Giants 3.56 - Boston Red Sox 4.61
-Model likes: **Boston Red Sox** to win (60%) | Run line: **San Francisco Giants** +1.5 (56% to cover) | Total 7.5: lean **OVER** (51%)
+Model likes: **Boston Red Sox** to win (59%) | Run line: **San Francisco Giants** +1.5 (56% to cover) | Total 7.5: lean **OVER** (51%)
 
 ### San Francisco Giants lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
