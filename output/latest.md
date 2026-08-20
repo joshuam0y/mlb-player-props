@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-20T20:05:18.492173+00:00_
+_Generated 2026-08-20T20:45:14.908075+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -42,7 +42,7 @@ _Generated 2026-08-20T20:05:18.492173+00:00_
 - **Robert Gasser** (Milwaukee Brewers vs Seattle Mariners): 4 hitters in tonight's lineup are in a tough matchup against him -- try Outs Recorded: 60% under 15.5 recently (vs. 5-game sample)
 - **Anthony Kay** (Chicago White Sox vs Atlanta Braves): 3 hitters in tonight's lineup are in a tough matchup against him -- try Walks Allowed: 80% under 1.5 recently (vs. 5-game sample)
 
-## 2026-08-20 - St. Louis Cardinals @ Cincinnati Reds (Game Over)
+## 2026-08-20 - St. Louis Cardinals @ Cincinnati Reds (Final)
 _Great American Ball Park [hitter-friendly park]_
 Final: St. Louis Cardinals 10 - Cincinnati Reds 9
 
@@ -191,10 +191,9 @@ _Facing a taxed bullpen: 8.7 relief IP in last 2 days (ratio 1.79)_
 - #8 Michael Massey (L) [5-game hit streak] -- L7: 9H 2HR 3RBI 15TB (0.409 avg) -- home split: 0.297 avg
 - #9 Luke Maile (R) -- L7: 4H 0HR 2RBI 5TB (0.235 avg) -- home split: 0.273 avg
 
-## 2026-08-20 - Atlanta Braves @ Chicago White Sox (In Progress)
+## 2026-08-20 - Atlanta Braves @ Chicago White Sox (Final)
 _Rate Field_
-Projected score: Atlanta Braves 4.19 - Chicago White Sox 3.85
-Model likes: **Atlanta Braves** to win (53%) | Run line: **Chicago White Sox** +1.5 (63% to cover) | Total 7.5: lean **UNDER** (50%)
+Final: Atlanta Braves 2 - Chicago White Sox 0
 
 ### Atlanta Braves lineup -- CONFIRMED
 _Facing a taxed bullpen: 14.7 relief IP in last 2 days (ratio 2.15)_
@@ -253,21 +252,21 @@ _Facing a taxed bullpen: 10.0 relief IP in last 2 days (ratio 1.65)_
 
 ## 2026-08-20 - Washington Nationals @ Texas Rangers (Pre-Game)
 _Globe Life Field [hitter-friendly park]_
-Projected score: Washington Nationals 4.58 - Texas Rangers 3.86
-Model likes: **Washington Nationals** to win (56%) | Run line: **Texas Rangers** +1.5 (59% to cover) | Total 7.5: lean **OVER** (53%)
+Projected score: Washington Nationals 4.46 - Texas Rangers 3.86
+Model likes: **Washington Nationals** to win (55%) | Run line: **Texas Rangers** +1.5 (60% to cover) | Total 7.5: lean **OVER** (52%)
 
-### Washington Nationals lineup -- PROJECTED (unconfirmed)
+### Washington Nationals lineup -- CONFIRMED
 _Facing a taxed bullpen: 6.0 relief IP in last 2 days (ratio 1.22)_
 **Probable P: Andrew Alvarez (L)** -- L5: 26.0 IP, 16 K, 9 ER, 3.12 ERA
-- Daylen Lile (L) -- L7: 6H 0HR 4RBI 6TB (0.214 avg) -- away split: 0.250 avg
-- Abimelec Ortiz (L) -- L7: 6H 3HR 5RBI 16TB (0.261 avg) -- away split: 0.185 avg
-- Dylan Crews (R) -- L7: 3H 0HR 1RBI 4TB (0.136 avg) -- away split: 0.203 avg
-- CJ Abrams (L) -- L7: 4H 0HR 0RBI 6TB (0.154 avg) -- away split: 0.289 avg
-- Jacob Young (R) [likely BABIP-driven, not a real power uptick] -- L7: 9H 1HR 1RBI 13TB (0.360 avg) -- away split: 0.236 avg
-- Brady House (R) -- L7: 5H 1HR 4RBI 8TB (0.217 avg) -- away split: 0.194 avg
-- Nasim Nuñez (S) -- L7: 5H 0HR 1RBI 5TB (0.185 avg) -- away split: 0.232 avg
-- José Tena (L) -- L7: 3H 2HR 2RBI 9TB (0.250 avg) -- away split: 0.212 avg
-- Andrés Chaparro (R) -- L7: 6H 2HR 4RBI 14TB (0.333 avg) -- away split: 0.253 avg
+- #1 Daylen Lile (L) -- L7: 6H 0HR 4RBI 6TB (0.214 avg) -- away split: 0.250 avg
+- #2 Abimelec Ortiz (L) -- L7: 6H 3HR 5RBI 16TB (0.261 avg) -- away split: 0.185 avg
+- #3 Andrés Chaparro (R) -- L7: 6H 2HR 4RBI 14TB (0.333 avg) -- away split: 0.253 avg
+- #4 José Tena (L) -- L7: 3H 2HR 2RBI 9TB (0.250 avg) -- away split: 0.212 avg
+- #5 Brady House (R) -- L7: 5H 1HR 4RBI 8TB (0.217 avg) -- away split: 0.194 avg
+- #6 Keibert Ruiz (S) [likely BABIP-driven, not a real power uptick] -- L7: 10H 0HR 5RBI 11TB (0.417 avg) -- away split: 0.258 avg
+- #7 Dylan Crews (R) -- L7: 3H 0HR 1RBI 4TB (0.136 avg) -- away split: 0.203 avg
+- #8 Nasim Nuñez (S) -- L7: 5H 0HR 1RBI 5TB (0.185 avg) -- away split: 0.232 avg
+- #9 Andrew Pinckney (R) -- L7: 3H 1HR 2RBI 8TB (0.273 avg) -- away split: 0.400 avg
 
 ### Texas Rangers lineup -- CONFIRMED
 _Facing a taxed bullpen: 7.3 relief IP in last 2 days (ratio 1.21)_
@@ -282,23 +281,23 @@ _Facing a taxed bullpen: 7.3 relief IP in last 2 days (ratio 1.21)_
 - #8 Cody Freeman (R) -- L7: 3H 0HR 1RBI 3TB (0.231 avg) -- home split: 0.182 avg
 - #9 Evan Carter (L) -- L7: 6H 0HR 0RBI 8TB (0.261 avg) -- home split: 0.200 avg
 
-## 2026-08-20 - Los Angeles Angels @ Houston Astros (Scheduled)
+## 2026-08-20 - Los Angeles Angels @ Houston Astros (Pre-Game)
 _Daikin Park_
-Projected score: Los Angeles Angels 2.91 - Houston Astros 5.52
-Model likes: **Houston Astros** to win (72%) | Run line: **Houston Astros** -1.5 (57% to cover) | Total 7.5: lean **OVER** (53%)
+Projected score: Los Angeles Angels 3.05 - Houston Astros 5.52
+Model likes: **Houston Astros** to win (71%) | Run line: **Houston Astros** -1.5 (56% to cover) | Total 7.5: lean **OVER** (54%)
 
-### Los Angeles Angels lineup -- PROJECTED (unconfirmed)
+### Los Angeles Angels lineup -- CONFIRMED
 _Facing a taxed bullpen: 10.3 relief IP in last 2 days (ratio 1.83)_
 **Probable P: Grayson Rodriguez (R)** -- L5: 24.0 IP, 28 K, 15 ER, 5.62 ERA
-- Wade Meckler (L) -- L7: 4H 0HR 0RBI 4TB (0.154 avg) -- away split: 0.265 avg
-- Jose Siri (R) -- L7: 3H 0HR 3RBI 4TB (0.250 avg) -- away split: 0.317 avg
-- Mike Trout (R) -- L7: 9H 0HR 3RBI 10TB (0.310 avg) -- away split: 0.257 avg
-- Nolan Schanuel (L) [likely BABIP-driven, not a real power uptick] -- L7: 9H 0HR 7RBI 10TB (0.409 avg) -- away split: 0.271 avg
-- Moisés Ballesteros (L) -- L7: 2H 0HR 0RBI 2TB (0.083 avg) -- away split: 0.196 avg
-- Denzer Guzman (R) -- L7: 7H 0HR 4RBI 9TB (0.280 avg) -- away split: 0.253 avg
-- Zach Neto (R) -- L7: 6H 0HR 3RBI 8TB (0.240 avg) -- away split: 0.238 avg
-- Josh Lowe (L) -- L7: 6H 2HR 4RBI 13TB (0.273 avg) -- away split: 0.227 avg
-- Vaughn Grissom (R) -- L7: 4H 0HR 1RBI 5TB (0.154 avg) -- away split: 0.264 avg
+- #1 Wade Meckler (L) -- L7: 4H 0HR 0RBI 4TB (0.154 avg) -- away split: 0.265 avg
+- #2 Mike Trout (R) -- L7: 9H 0HR 3RBI 10TB (0.310 avg) -- away split: 0.257 avg
+- #3 Nolan Schanuel (L) [likely BABIP-driven, not a real power uptick] -- L7: 9H 0HR 7RBI 10TB (0.409 avg) -- away split: 0.271 avg
+- #4 Zach Neto (R) -- L7: 6H 0HR 3RBI 8TB (0.240 avg) -- away split: 0.238 avg
+- #5 Moisés Ballesteros (L) -- L7: 2H 0HR 0RBI 2TB (0.083 avg) -- away split: 0.196 avg
+- #6 Vaughn Grissom (R) -- L7: 4H 0HR 1RBI 5TB (0.154 avg) -- away split: 0.264 avg
+- #7 Josh Lowe (L) -- L7: 6H 2HR 4RBI 13TB (0.273 avg) -- away split: 0.227 avg
+- #8 Tyler Heineman (S) -- L7: 4H 0HR 0RBI 4TB (0.235 avg) -- away split: 0.207 avg
+- #9 Adam Frazier (L) [likely BABIP-driven, not a real power uptick] -- L7: 6H 0HR 2RBI 7TB (0.375 avg) -- away split: 0.213 avg
 
 ### Houston Astros lineup -- PROJECTED (unconfirmed)
 **Probable P: Peter Lambert (R)** -- L5: 26.7 IP, 26 K, 10 ER, 3.38 ERA
@@ -402,7 +401,7 @@ Model likes: **New York Yankees** to win (53%) | Run line: **Toronto Blue Jays**
 ## 2026-08-21 - Washington Nationals @ Miami Marlins (Scheduled)
 _loanDepot park [pitcher-friendly park]_
 Projected score: Washington Nationals 4.7 - Miami Marlins 4.27
-Model likes: **Washington Nationals** to win (53%) | Run line: **Miami Marlins** +1.5 (61% to cover) | Total 8.5: lean **UNDER** (51%)
+Model likes: **Washington Nationals** to win (54%) | Run line: **Miami Marlins** +1.5 (61% to cover) | Total 8.5: lean **UNDER** (51%)
 
 ### Washington Nationals lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.38)_
@@ -521,7 +520,7 @@ Model likes: **Chicago White Sox** to win (61%) | Run line: **New York Mets** +1
 ## 2026-08-21 - Detroit Tigers @ Kansas City Royals (Scheduled)
 _Kauffman Stadium [pitcher-friendly park]_
 Projected score: Detroit Tigers 4.71 - Kansas City Royals 2.4
-Model likes: **Detroit Tigers** to win (72%) | Run line: **Detroit Tigers** -1.5 (55% to cover) | Total 6.5: lean **OVER** (51%)
+Model likes: **Detroit Tigers** to win (72%) | Run line: **Detroit Tigers** -1.5 (55% to cover) | Total 6.5: lean **OVER** (50%)
 
 ### Detroit Tigers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.57)_
@@ -785,7 +784,7 @@ _Facing a rested bullpen: 1.0 relief IP in last 2 days (ratio 0.15)_
 ## 2026-08-22 - Atlanta Braves @ Milwaukee Brewers (Scheduled)
 _American Family Field_
 Projected score: Atlanta Braves 3.07 - Milwaukee Brewers 4.3
-Model likes: **Milwaukee Brewers** to win (62%) | Run line: **Atlanta Braves** +1.5 (55% to cover) | Total 6.5: lean **OVER** (53%)
+Model likes: **Milwaukee Brewers** to win (62%) | Run line: **Atlanta Braves** +1.5 (55% to cover) | Total 6.5: lean **OVER** (54%)
 
 ### Atlanta Braves lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.3 relief IP in last 2 days (ratio 0.06)_
@@ -845,7 +844,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-22 - St. Louis Cardinals @ Philadelphia Phillies (Scheduled)
 _Citizens Bank Park [hitter-friendly park]_
 Projected score: St. Louis Cardinals 5.97 - Philadelphia Phillies 4.66
-Model likes: **St. Louis Cardinals** to win (60%) | Run line: **Philadelphia Phillies** +1.5 (53% to cover) | Total 9.5: lean **OVER** (53%)
+Model likes: **St. Louis Cardinals** to win (60%) | Run line: **Philadelphia Phillies** +1.5 (53% to cover) | Total 9.5: lean **OVER** (54%)
 
 ### St. Louis Cardinals lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
