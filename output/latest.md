@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-21T17:23:23.443672+00:00_
+_Generated 2026-08-21T17:49:17.528434+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -58,8 +58,8 @@ _Generated 2026-08-21T17:23:23.443672+00:00_
 
 ## 2026-08-21 - Atlanta Braves @ Milwaukee Brewers (Pre-Game)
 _American Family Field_
-Projected score: Atlanta Braves 2.55 - Milwaukee Brewers 3.09
-Model likes: **Milwaukee Brewers** to win (56%) | Run line: **Atlanta Braves** +1.5 (64% to cover) | Total 5.5: lean **UNDER** (54%)
+Projected score: Atlanta Braves 2.55 - Milwaukee Brewers 3.0
+Model likes: **Milwaukee Brewers** to win (55%) | Run line: **Atlanta Braves** +1.5 (66% to cover) | Total 5.5: lean **UNDER** (55%)
 
 ### Atlanta Braves lineup -- CONFIRMED
 _Facing a taxed bullpen: 12.3 relief IP in last 2 days (ratio 2.05)_
@@ -74,18 +74,18 @@ _Facing a taxed bullpen: 12.3 relief IP in last 2 days (ratio 2.05)_
 - #8 Austin Riley (R) [TOUGH MATCHUP: pitcher holds this hand to 0.196 avg-against] -- L7: 5H 0HR 2RBI 7TB (0.200 avg) -- away split: 0.178 avg
 - #9 Mike Yastrzemski (L) -- L7: 3H 1HR 1RBI 7TB (0.188 avg) -- away split: 0.208 avg
 
-### Milwaukee Brewers lineup -- PROJECTED (unconfirmed)
+### Milwaukee Brewers lineup -- CONFIRMED
 _Facing a taxed bullpen: 6.7 relief IP in last 2 days (ratio 1.26)_
 **Probable P: Jacob Misiorowski (R)** -- L5: 28.0 IP, 43 K, 7 ER, 2.25 ERA
-- Luis Lara (S) -- L7: 6H 1HR 4RBI 10TB (0.231 avg) -- home split: 0.271 avg
-- Jackson Chourio (R) [4-game hit streak] -- L7: 10H 0HR 2RBI 12TB (0.345 avg) -- home split: 0.280 avg
-- David Hamilton (L) -- L7: 7H 1HR 6RBI 11TB (0.333 avg) -- home split: 0.218 avg
-- Andrew Vaughn (R) [4-game hit streak] -- L7: 7H 0HR 2RBI 7TB (0.318 avg) -- home split: 0.281 avg
-- Garrett Mitchell (L) [likely BABIP-driven, not a real power uptick] -- L7: 9H 1HR 4RBI 14TB (0.375 avg) -- home split: 0.287 avg
-- William Contreras (R) -- L7: 5H 1HR 4RBI 9TB (0.192 avg) -- home split: 0.254 avg
-- Jake Bauers (L) [likely BABIP-driven, not a real power uptick] -- L7: 9H 1HR 5RBI 14TB (0.391 avg) -- home split: 0.250 avg
-- Christian Yelich (L) [3-game hit streak] -- L7: 5H 1HR 4RBI 8TB (0.192 avg) -- home split: 0.263 avg
-- Brice Turang (L) -- L7: 4H 0HR 2RBI 5TB (0.138 avg) -- home split: 0.280 avg
+- #1 Jackson Chourio (R) [4-game hit streak] -- L7: 10H 0HR 2RBI 12TB (0.345 avg) -- home split: 0.280 avg
+- #2 Brice Turang (L) -- L7: 4H 0HR 2RBI 5TB (0.138 avg) -- home split: 0.280 avg
+- #3 William Contreras (R) -- L7: 5H 1HR 4RBI 9TB (0.192 avg) -- home split: 0.254 avg
+- #4 Andrew Vaughn (R) [4-game hit streak] -- L7: 7H 0HR 2RBI 7TB (0.318 avg) -- home split: 0.281 avg
+- #5 Jake Bauers (L) [likely BABIP-driven, not a real power uptick] -- L7: 9H 1HR 5RBI 14TB (0.391 avg) -- home split: 0.250 avg
+- #6 Gary Sánchez (R) -- L7: 4H 1HR 4RBI 9TB (0.190 avg) -- home split: 0.280 avg
+- #7 Joey Ortiz (R) [3-game hit streak] -- L7: 9H 2HR 9RBI 16TB (0.360 avg) -- home split: 0.291 avg
+- #8 Cooper Pratt (R) -- L7: 3H 0HR 1RBI 4TB (0.130 avg) -- home split: 0.227 avg
+- #9 Luis Lara (S) -- L7: 6H 1HR 4RBI 10TB (0.231 avg) -- home split: 0.271 avg
 
 ## 2026-08-21 - St. Louis Cardinals @ Philadelphia Phillies (Scheduled)
 _Citizens Bank Park [hitter-friendly park]_
@@ -509,7 +509,7 @@ Model likes: **Los Angeles Dodgers** to win (57%) | Run line: **Pittsburgh Pirat
 ## 2026-08-22 - Toronto Blue Jays @ New York Yankees (Scheduled)
 _Yankee Stadium [hitter-friendly park]_
 Projected score: Toronto Blue Jays 3.32 - New York Yankees 2.67
-Model likes: **Toronto Blue Jays** to win (57%) | Run line: **New York Yankees** +1.5 (63% to cover) | Total 5.5: lean **OVER** (50%)
+Model likes: **Toronto Blue Jays** to win (57%) | Run line: **New York Yankees** +1.5 (62% to cover) | Total 5.5: lean **OVER** (50%)
 
 ### Toronto Blue Jays lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.5)_
@@ -600,7 +600,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.5)_
 ## 2026-08-22 - St. Louis Cardinals @ Philadelphia Phillies (Scheduled)
 _Citizens Bank Park [hitter-friendly park]_
 Projected score: St. Louis Cardinals 5.71 - Philadelphia Phillies 4.82
-Model likes: **St. Louis Cardinals** to win (57%) | Run line: **Philadelphia Phillies** +1.5 (56% to cover) | Total 9.5: lean **OVER** (53%)
+Model likes: **St. Louis Cardinals** to win (56%) | Run line: **Philadelphia Phillies** +1.5 (56% to cover) | Total 9.5: lean **OVER** (53%)
 
 ### St. Louis Cardinals lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -691,7 +691,7 @@ _Facing a rested bullpen: 4.0 relief IP in last 2 days (ratio 0.66)_
 ## 2026-08-22 - Athletics @ Houston Astros (Scheduled)
 _Daikin Park_
 Projected score: Athletics 3.38 - Houston Astros 5.69
-Model likes: **Houston Astros** to win (69%) | Run line: **Houston Astros** -1.5 (54% to cover) | Total 8.5: lean **UNDER** (51%)
+Model likes: **Houston Astros** to win (68%) | Run line: **Houston Astros** -1.5 (54% to cover) | Total 8.5: lean **UNDER** (51%)
 
 ### Athletics lineup -- PROJECTED (unconfirmed)
 **Probable P: Jacob Lopez (L)** -- L5: 28.3 IP, 32 K, 7 ER, 2.22 ERA
@@ -750,7 +750,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-22 - Chicago Cubs @ Seattle Mariners (Scheduled)
 _T-Mobile Park [pitcher-friendly park]_
 Projected score: Chicago Cubs 4.76 - Seattle Mariners 3.31
-Model likes: **Chicago Cubs** to win (63%) | Run line: **Seattle Mariners** +1.5 (53% to cover) | Total 7.5: lean **OVER** (50%)
+Model likes: **Chicago Cubs** to win (63%) | Run line: **Seattle Mariners** +1.5 (53% to cover) | Total 7.5: lean **UNDER** (50%)
 
 ### Chicago Cubs lineup -- PROJECTED (unconfirmed)
 **Probable P: David Peterson (L)** -- L5: 23.3 IP, 21 K, 7 ER, 2.7 ERA
