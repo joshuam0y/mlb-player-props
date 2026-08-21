@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-21T04:10:22.278039+00:00_
+_Generated 2026-08-21T04:56:40.101168+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -148,7 +148,7 @@ _Facing a taxed bullpen: 8.0 relief IP in last 2 days (ratio 1.32)_
 ## 2026-08-21 - Washington Nationals @ Miami Marlins (Scheduled)
 _loanDepot park [pitcher-friendly park]_
 Projected score: Washington Nationals 3.88 - Miami Marlins 3.41
-Model likes: **Washington Nationals** to win (55%) | Run line: **Miami Marlins** +1.5 (62% to cover) | Total 6.5: lean **OVER** (53%)
+Model likes: **Washington Nationals** to win (54%) | Run line: **Miami Marlins** +1.5 (63% to cover) | Total 6.5: lean **OVER** (53%)
 
 ### Washington Nationals lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.38)_
@@ -330,7 +330,7 @@ Model likes: **Houston Astros** to win (54%) | Run line: **Athletics** +1.5 (62%
 ## 2026-08-21 - Los Angeles Angels @ Texas Rangers (Scheduled)
 _Globe Life Field [hitter-friendly park]_
 Projected score: Los Angeles Angels 4.2 - Texas Rangers 3.33
-Model likes: **Los Angeles Angels** to win (58%) | Run line: **Texas Rangers** +1.5 (58% to cover) | Total 6.5: lean **OVER** (55%)
+Model likes: **Los Angeles Angels** to win (58%) | Run line: **Texas Rangers** +1.5 (59% to cover) | Total 6.5: lean **OVER** (55%)
 
 ### Los Angeles Angels lineup -- PROJECTED (unconfirmed)
 **Probable P: Reid Detmers (L)** -- L5: 28.3 IP, 37 K, 7 ER, 2.22 ERA
@@ -598,7 +598,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-22 - St. Louis Cardinals @ Philadelphia Phillies (Scheduled)
 _Citizens Bank Park [hitter-friendly park]_
 Projected score: St. Louis Cardinals 5.71 - Philadelphia Phillies 4.82
-Model likes: **St. Louis Cardinals** to win (57%) | Run line: **Philadelphia Phillies** +1.5 (56% to cover) | Total 9.5: lean **OVER** (53%)
+Model likes: **St. Louis Cardinals** to win (56%) | Run line: **Philadelphia Phillies** +1.5 (56% to cover) | Total 9.5: lean **OVER** (53%)
 
 ### St. Louis Cardinals lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -628,7 +628,7 @@ _Facing a rested bullpen: 3.7 relief IP in last 2 days (ratio 0.7)_
 ## 2026-08-22 - Los Angeles Angels @ Texas Rangers (Scheduled)
 _Globe Life Field [hitter-friendly park]_
 Projected score: Los Angeles Angels 4.14 - Texas Rangers 4.02
-Model likes: **Los Angeles Angels** to win (51%) | Run line: **Texas Rangers** +1.5 (65% to cover) | Total 7.5: lean **OVER** (51%)
+Model likes: **Los Angeles Angels** to win (51%) | Run line: **Texas Rangers** +1.5 (64% to cover) | Total 7.5: lean **OVER** (51%)
 
 ### Los Angeles Angels lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 1.0 relief IP in last 2 days (ratio 0.2)_
@@ -872,7 +872,7 @@ _Facing a rested bullpen: 2.7 relief IP in last 2 days (ratio 0.58)_
 ## 2026-08-22 - Cleveland Guardians @ Colorado Rockies (Scheduled)
 _Coors Field [hitter-friendly park]_
 Projected score: Cleveland Guardians 5.15 - Colorado Rockies 4.62
-Model likes: **Cleveland Guardians** to win (54%) | Run line: **Colorado Rockies** +1.5 (60% to cover) | Total 9.5: lean **UNDER** (53%)
+Model likes: **Cleveland Guardians** to win (54%) | Run line: **Colorado Rockies** +1.5 (59% to cover) | Total 9.5: lean **UNDER** (53%)
 
 ### Cleveland Guardians lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -994,7 +994,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-23 - Toronto Blue Jays @ New York Yankees (Scheduled)
 _Yankee Stadium [hitter-friendly park]_
 Projected score: Toronto Blue Jays 3.13 - New York Yankees 3.14
-Model likes: **New York Yankees** to win (50%) | Run line: **Toronto Blue Jays** +1.5 (69% to cover) | Total 5.5: lean **OVER** (54%)
+Model likes: **New York Yankees** to win (50%) | Run line: **Toronto Blue Jays** +1.5 (69% to cover) | Total 5.5: lean **OVER** (53%)
 
 ### Toronto Blue Jays lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1025,7 +1025,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-23 - Tampa Bay Rays @ Baltimore Orioles (Scheduled)
 _Oriole Park at Camden Yards_
 Projected score: Tampa Bay Rays 3.95 - Baltimore Orioles 3.5
-Model likes: **Tampa Bay Rays** to win (54%) | Run line: **Baltimore Orioles** +1.5 (63% to cover) | Total 6.5: lean **OVER** (54%)
+Model likes: **Tampa Bay Rays** to win (54%) | Run line: **Baltimore Orioles** +1.5 (62% to cover) | Total 6.5: lean **OVER** (54%)
 
 ### Tampa Bay Rays lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1056,7 +1056,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-23 - Washington Nationals @ Miami Marlins (Scheduled)
 _loanDepot park [pitcher-friendly park]_
 Projected score: Washington Nationals 3.97 - Miami Marlins 4.04
-Model likes: **Miami Marlins** to win (51%) | Run line: **Washington Nationals** +1.5 (65% to cover) | Total 7.5: lean **UNDER** (50%)
+Model likes: **Miami Marlins** to win (51%) | Run line: **Washington Nationals** +1.5 (65% to cover) | Total 7.5: lean **UNDER** (51%)
 
 ### Washington Nationals lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1176,7 +1176,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-23 - Los Angeles Angels @ Texas Rangers (Scheduled)
 _Globe Life Field [hitter-friendly park]_
 Projected score: Los Angeles Angels 4.14 - Texas Rangers 3.97
-Model likes: **Los Angeles Angels** to win (52%) | Run line: **Texas Rangers** +1.5 (64% to cover) | Total 7.5: lean **OVER** (50%)
+Model likes: **Los Angeles Angels** to win (51%) | Run line: **Texas Rangers** +1.5 (64% to cover) | Total 7.5: lean **OVER** (50%)
 
 ### Los Angeles Angels lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1205,7 +1205,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-23 - Cleveland Guardians @ Colorado Rockies (Scheduled)
 _Coors Field [hitter-friendly park]_
 Projected score: Cleveland Guardians 4.22 - Colorado Rockies 4.0
-Model likes: **Cleveland Guardians** to win (52%) | Run line: **Colorado Rockies** +1.5 (64% to cover) | Total 7.5: lean **OVER** (52%)
+Model likes: **Cleveland Guardians** to win (52%) | Run line: **Colorado Rockies** +1.5 (64% to cover) | Total 7.5: lean **OVER** (51%)
 
 ### Cleveland Guardians lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
