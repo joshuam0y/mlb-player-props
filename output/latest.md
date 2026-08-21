@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-21T01:54:55.599377+00:00_
+_Generated 2026-08-21T02:13:02.561331+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -371,7 +371,7 @@ _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.4)_
 ## 2026-08-21 - Toronto Blue Jays @ New York Yankees (Scheduled)
 _Yankee Stadium [hitter-friendly park]_
 Projected score: Toronto Blue Jays 2.55 - New York Yankees 3.94
-Model likes: **New York Yankees** to win (65%) | Run line: **Toronto Blue Jays** +1.5 (54% to cover) | Total 5.5: lean **OVER** (56%)
+Model likes: **New York Yankees** to win (64%) | Run line: **Toronto Blue Jays** +1.5 (54% to cover) | Total 5.5: lean **OVER** (56%)
 
 ### Toronto Blue Jays lineup -- PROJECTED (unconfirmed)
 - Andrés Giménez (L) -- L7: 6H 0HR 1RBI 7TB (0.240 avg) -- away split: 0.224 avg
@@ -669,7 +669,7 @@ _Facing a rested bullpen: 1.3 relief IP in last 2 days (ratio 0.21)_
 ## 2026-08-21 - Cincinnati Reds @ Arizona Diamondbacks (Scheduled)
 _Chase Field [hitter-friendly park]_
 Projected score: Cincinnati Reds 3.24 - Arizona Diamondbacks 5.13
-Model likes: **Arizona Diamondbacks** to win (66%) | Run line: **Arizona Diamondbacks** -1.5 (51% to cover) | Total 7.5: lean **OVER** (53%)
+Model likes: **Arizona Diamondbacks** to win (66%) | Run line: **Arizona Diamondbacks** -1.5 (51% to cover) | Total 7.5: lean **OVER** (52%)
 
 ### Cincinnati Reds lineup -- PROJECTED (unconfirmed)
 **Probable P: Nick Lodolo (L)** -- L5: 25.0 IP, 19 K, 7 ER, 2.52 ERA
@@ -729,7 +729,7 @@ _Facing a taxed bullpen: 7.3 relief IP in last 2 days (ratio 1.58)_
 ## 2026-08-21 - Pittsburgh Pirates @ Los Angeles Dodgers (Scheduled)
 _UNIQLO Field at Dodger Stadium_
 Projected score: Pittsburgh Pirates 3.53 - Los Angeles Dodgers 4.11
-Model likes: **Los Angeles Dodgers** to win (55%) | Run line: **Pittsburgh Pirates** +1.5 (61% to cover) | Total 7.5: lean **UNDER** (54%)
+Model likes: **Los Angeles Dodgers** to win (56%) | Run line: **Pittsburgh Pirates** +1.5 (61% to cover) | Total 7.5: lean **UNDER** (54%)
 
 ### Pittsburgh Pirates lineup -- PROJECTED (unconfirmed)
 **Probable P: Bubba Chandler (R)** -- L5: 27.0 IP, 23 K, 7 ER, 2.33 ERA
@@ -909,7 +909,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-22 - Tampa Bay Rays @ Baltimore Orioles (Scheduled)
 _Oriole Park at Camden Yards_
 Projected score: Tampa Bay Rays 3.9 - Baltimore Orioles 3.74
-Model likes: **Tampa Bay Rays** to win (52%) | Run line: **Baltimore Orioles** +1.5 (65% to cover) | Total 7.5: lean **UNDER** (54%)
+Model likes: **Tampa Bay Rays** to win (51%) | Run line: **Baltimore Orioles** +1.5 (65% to cover) | Total 7.5: lean **UNDER** (54%)
 
 ### Tampa Bay Rays lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
