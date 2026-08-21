@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-21T07:08:13.735232+00:00_
+_Generated 2026-08-21T07:12:23.874806+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -207,10 +207,11 @@ _Facing a taxed bullpen: 9.7 relief IP in last 2 days (ratio 2.1)_
 
 ## 2026-08-21 - Tampa Bay Rays @ Baltimore Orioles (Scheduled)
 _Oriole Park at Camden Yards_
-Projected score: Tampa Bay Rays 4.3 - Baltimore Orioles 4.78
-Model likes: **Baltimore Orioles** to win (54%) | Run line: **Tampa Bay Rays** +1.5 (61% to cover) | Total 8.5: lean **UNDER** (50%)
+Projected score: Tampa Bay Rays 4.41 - Baltimore Orioles 4.78
+Model likes: **Baltimore Orioles** to win (53%) | Run line: **Tampa Bay Rays** +1.5 (61% to cover) | Total 8.5: lean **OVER** (50%)
 
 ### Tampa Bay Rays lineup -- PROJECTED (unconfirmed)
+_Facing a taxed bullpen: 6.7 relief IP in last 2 days (ratio 1.29)_
 **Probable P: Freddy Peralta (R)** -- L5: 23.7 IP, 19 K, 21 ER, 7.99 ERA
 - Junior Caminero (R) [MATCHUP EDGE: pitcher hits 0.277 avg-against vs this hand] [4-game hit streak] -- L7: 6H 0HR 4RBI 7TB (0.207 avg) -- away split: 0.261 avg
 - Richie Palacios (L) [TOUGH MATCHUP: pitcher holds this hand to 0.177 avg-against] -- L7: 6H 0HR 4RBI 9TB (0.273 avg) -- away split: 0.250 avg
@@ -232,8 +233,8 @@ _Facing a taxed bullpen: 8.0 relief IP in last 2 days (ratio 1.33)_
 - Pete Alonso (R) [12-game hit streak] -- L7: 12H 3HR 5RBI 22TB (0.429 avg) -- home split: 0.252 avg
 - Coby Mayo (R) -- L7: 4H 2HR 2RBI 11TB (0.174 avg) -- home split: 0.203 avg
 - Dylan Beavers (L) [MATCHUP EDGE: pitcher hits 0.270 avg-against vs this hand] -- L7: 4H 2HR 4RBI 10TB (0.250 avg) -- home split: 0.250 avg
+- Leody Taveras (S) [MATCHUP EDGE: pitcher hits 0.270 avg-against vs this hand] -- L7: 7H 0HR 1RBI 8TB (0.292 avg) -- home split: 0.231 avg
 - Carlos Narváez (R) -- L7: 1H 0HR 0RBI 1TB (0.056 avg) -- home split: 0.170 avg
-- Leody Taveras (S) [MATCHUP EDGE: pitcher hits 0.270 avg-against vs this hand] [likely BABIP-driven, not a real power uptick] -- L7: 8H 1HR 2RBI 12TB (0.320 avg) -- home split: 0.235 avg
 
 ## 2026-08-21 - New York Mets @ Chicago White Sox (Scheduled)
 _Rate Field_
@@ -657,11 +658,11 @@ _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.35)_
 
 ## 2026-08-22 - Tampa Bay Rays @ Baltimore Orioles (Scheduled)
 _Oriole Park at Camden Yards_
-Projected score: Tampa Bay Rays 3.82 - Baltimore Orioles 3.64
-Model likes: **Tampa Bay Rays** to win (52%) | Run line: **Baltimore Orioles** +1.5 (65% to cover) | Total 6.5: lean **OVER** (54%)
+Projected score: Tampa Bay Rays 3.93 - Baltimore Orioles 3.64
+Model likes: **Tampa Bay Rays** to win (53%) | Run line: **Baltimore Orioles** +1.5 (64% to cover) | Total 7.5: lean **UNDER** (55%)
 
 ### Tampa Bay Rays lineup -- PROJECTED (unconfirmed)
-_Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.39)_
+_Facing a rested bullpen: 3.3 relief IP in last 2 days (ratio 0.64)_
 **Probable P: Shane McClanahan (L)** -- L5: 22.7 IP, 17 K, 10 ER, 3.97 ERA
 - Junior Caminero (R) [4-game hit streak] -- L7: 6H 0HR 4RBI 7TB (0.207 avg) -- away split: 0.261 avg
 - Richie Palacios (L) -- L7: 6H 0HR 4RBI 9TB (0.273 avg) -- away split: 0.250 avg
@@ -683,8 +684,8 @@ _Facing a rested bullpen: 4.0 relief IP in last 2 days (ratio 0.66)_
 - Pete Alonso (R) [12-game hit streak] -- L7: 12H 3HR 5RBI 22TB (0.429 avg) -- home split: 0.252 avg
 - Coby Mayo (R) -- L7: 4H 2HR 2RBI 11TB (0.174 avg) -- home split: 0.203 avg
 - Dylan Beavers (L) [TOUGH MATCHUP: pitcher holds this hand to 0.131 avg-against] -- L7: 4H 2HR 4RBI 10TB (0.250 avg) -- home split: 0.250 avg
+- Leody Taveras (S) -- L7: 7H 0HR 1RBI 8TB (0.292 avg) -- home split: 0.231 avg
 - Carlos Narváez (R) -- L7: 1H 0HR 0RBI 1TB (0.056 avg) -- home split: 0.170 avg
-- Leody Taveras (S) [likely BABIP-driven, not a real power uptick] -- L7: 8H 1HR 2RBI 12TB (0.320 avg) -- home split: 0.235 avg
 
 ## 2026-08-22 - Athletics @ Houston Astros (Scheduled)
 _Daikin Park_
@@ -748,7 +749,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-22 - Chicago Cubs @ Seattle Mariners (Scheduled)
 _T-Mobile Park [pitcher-friendly park]_
 Projected score: Chicago Cubs 4.76 - Seattle Mariners 3.31
-Model likes: **Chicago Cubs** to win (63%) | Run line: **Seattle Mariners** +1.5 (53% to cover) | Total 7.5: lean **UNDER** (50%)
+Model likes: **Chicago Cubs** to win (63%) | Run line: **Seattle Mariners** +1.5 (53% to cover) | Total 7.5: lean **OVER** (50%)
 
 ### Chicago Cubs lineup -- PROJECTED (unconfirmed)
 **Probable P: David Peterson (L)** -- L5: 23.3 IP, 21 K, 7 ER, 2.7 ERA
@@ -901,7 +902,7 @@ _Facing a rested bullpen: 3.3 relief IP in last 2 days (ratio 0.66)_
 ## 2026-08-22 - Cincinnati Reds @ Arizona Diamondbacks (Scheduled)
 _Chase Field [hitter-friendly park]_
 Projected score: Cincinnati Reds 3.09 - Arizona Diamondbacks 5.39
-Model likes: **Arizona Diamondbacks** to win (69%) | Run line: **Arizona Diamondbacks** -1.5 (55% to cover) | Total 7.5: lean **OVER** (53%)
+Model likes: **Arizona Diamondbacks** to win (70%) | Run line: **Arizona Diamondbacks** -1.5 (55% to cover) | Total 7.5: lean **OVER** (53%)
 
 ### Cincinnati Reds lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1022,8 +1023,8 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 
 ## 2026-08-23 - Tampa Bay Rays @ Baltimore Orioles (Scheduled)
 _Oriole Park at Camden Yards_
-Projected score: Tampa Bay Rays 4.13 - Baltimore Orioles 3.5
-Model likes: **Tampa Bay Rays** to win (56%) | Run line: **Baltimore Orioles** +1.5 (61% to cover) | Total 7.5: lean **UNDER** (54%)
+Projected score: Tampa Bay Rays 4.24 - Baltimore Orioles 3.5
+Model likes: **Tampa Bay Rays** to win (57%) | Run line: **Baltimore Orioles** +1.5 (60% to cover) | Total 7.5: lean **UNDER** (53%)
 
 ### Tampa Bay Rays lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1048,8 +1049,8 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 - Pete Alonso (R) [12-game hit streak] -- L7: 12H 3HR 5RBI 22TB (0.429 avg) -- home split: 0.252 avg
 - Coby Mayo (R) -- L7: 4H 2HR 2RBI 11TB (0.174 avg) -- home split: 0.203 avg
 - Dylan Beavers (L) -- L7: 4H 2HR 4RBI 10TB (0.250 avg) -- home split: 0.250 avg
+- Leody Taveras (S) -- L7: 7H 0HR 1RBI 8TB (0.292 avg) -- home split: 0.231 avg
 - Carlos Narváez (R) -- L7: 1H 0HR 0RBI 1TB (0.056 avg) -- home split: 0.170 avg
-- Leody Taveras (S) [likely BABIP-driven, not a real power uptick] -- L7: 8H 1HR 2RBI 12TB (0.320 avg) -- home split: 0.235 avg
 
 ## 2026-08-23 - Washington Nationals @ Miami Marlins (Scheduled)
 _loanDepot park [pitcher-friendly park]_
@@ -1387,7 +1388,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-23 - Atlanta Braves @ Milwaukee Brewers (Scheduled)
 _Journey Bank Ballpark_
 Projected score: Atlanta Braves 3.66 - Milwaukee Brewers 4.27
-Model likes: **Milwaukee Brewers** to win (55%) | Run line: **Atlanta Braves** +1.5 (61% to cover) | Total 7.5: lean **UNDER** (51%)
+Model likes: **Milwaukee Brewers** to win (56%) | Run line: **Atlanta Braves** +1.5 (61% to cover) | Total 7.5: lean **UNDER** (51%)
 
 ### Atlanta Braves lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
