@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-21T00:28:43.990269+00:00_
+_Generated 2026-08-21T01:54:55.599377+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -218,10 +218,9 @@ _Facing a taxed bullpen: 14.7 relief IP in last 2 days (ratio 2.15)_
 - #8 Tristan Peters (L) -- L7: 8H 1HR 3RBI 13TB (0.381 avg) -- home split: 0.257 avg
 - #9 Drew Romo (S) -- L7: 4H 2HR 5RBI 10TB (0.182 avg) -- home split: 0.160 avg
 
-## 2026-08-20 - New York Yankees @ Baltimore Orioles (In Progress)
+## 2026-08-20 - New York Yankees @ Baltimore Orioles (Final)
 _Oriole Park at Camden Yards_
-Projected score: New York Yankees 3.26 - Baltimore Orioles 3.33
-Model likes: **Baltimore Orioles** to win (51%) | Run line: **New York Yankees** +1.5 (68% to cover) | Total 6.5: lean **UNDER** (54%)
+Final: New York Yankees 6 - Baltimore Orioles 1
 
 ### New York Yankees lineup -- CONFIRMED
 **Probable P: Gerrit Cole (R)** -- L5: 31.7 IP, 37 K, 7 ER, 1.99 ERA
@@ -400,7 +399,7 @@ Model likes: **New York Yankees** to win (65%) | Run line: **Toronto Blue Jays**
 ## 2026-08-21 - Washington Nationals @ Miami Marlins (Scheduled)
 _loanDepot park [pitcher-friendly park]_
 Projected score: Washington Nationals 4.7 - Miami Marlins 4.05
-Model likes: **Washington Nationals** to win (56%) | Run line: **Miami Marlins** +1.5 (59% to cover) | Total 8.5: lean **UNDER** (53%)
+Model likes: **Washington Nationals** to win (55%) | Run line: **Miami Marlins** +1.5 (60% to cover) | Total 8.5: lean **UNDER** (53%)
 
 ### Washington Nationals lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.38)_
@@ -522,7 +521,7 @@ _Facing a taxed bullpen: 10.0 relief IP in last 2 days (ratio 1.46)_
 ## 2026-08-21 - Detroit Tigers @ Kansas City Royals (Scheduled)
 _Kauffman Stadium [pitcher-friendly park]_
 Projected score: Detroit Tigers 4.71 - Kansas City Royals 2.28
-Model likes: **Detroit Tigers** to win (74%) | Run line: **Detroit Tigers** -1.5 (56% to cover) | Total 6.5: lean **UNDER** (51%)
+Model likes: **Detroit Tigers** to win (73%) | Run line: **Detroit Tigers** -1.5 (56% to cover) | Total 6.5: lean **UNDER** (51%)
 
 ### Detroit Tigers lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 8.0 relief IP in last 2 days (ratio 1.5)_
@@ -553,7 +552,7 @@ _Facing a rested bullpen: 3.3 relief IP in last 2 days (ratio 0.67)_
 ## 2026-08-21 - Athletics @ Houston Astros (Scheduled)
 _Daikin Park_
 Projected score: Athletics 4.17 - Houston Astros 4.91
-Model likes: **Houston Astros** to win (56%) | Run line: **Athletics** +1.5 (59% to cover) | Total 8.5: lean **UNDER** (50%)
+Model likes: **Houston Astros** to win (56%) | Run line: **Athletics** +1.5 (58% to cover) | Total 8.5: lean **UNDER** (50%)
 
 ### Athletics lineup -- PROJECTED (unconfirmed)
 **Probable P: J.T. Ginn (R)** -- L5: 28.7 IP, 28 K, 16 ER, 5.02 ERA
@@ -730,7 +729,7 @@ _Facing a taxed bullpen: 7.3 relief IP in last 2 days (ratio 1.58)_
 ## 2026-08-21 - Pittsburgh Pirates @ Los Angeles Dodgers (Scheduled)
 _UNIQLO Field at Dodger Stadium_
 Projected score: Pittsburgh Pirates 3.53 - Los Angeles Dodgers 4.11
-Model likes: **Los Angeles Dodgers** to win (56%) | Run line: **Pittsburgh Pirates** +1.5 (61% to cover) | Total 7.5: lean **UNDER** (54%)
+Model likes: **Los Angeles Dodgers** to win (55%) | Run line: **Pittsburgh Pirates** +1.5 (61% to cover) | Total 7.5: lean **UNDER** (54%)
 
 ### Pittsburgh Pirates lineup -- PROJECTED (unconfirmed)
 **Probable P: Bubba Chandler (R)** -- L5: 27.0 IP, 23 K, 7 ER, 2.33 ERA
@@ -1093,7 +1092,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-22 - San Francisco Giants @ Boston Red Sox (Scheduled)
 _Fenway Park_
 Projected score: San Francisco Giants 3.56 - Boston Red Sox 4.61
-Model likes: **Boston Red Sox** to win (59%) | Run line: **San Francisco Giants** +1.5 (57% to cover) | Total 7.5: lean **OVER** (51%)
+Model likes: **Boston Red Sox** to win (59%) | Run line: **San Francisco Giants** +1.5 (56% to cover) | Total 7.5: lean **OVER** (51%)
 
 ### San Francisco Giants lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
