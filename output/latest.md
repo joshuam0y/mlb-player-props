@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-21T19:38:03.178981+00:00_
+_Generated 2026-08-21T19:46:45.147544+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -58,7 +58,7 @@ _Generated 2026-08-21T19:38:03.178981+00:00_
 ## 2026-08-21 - Atlanta Braves @ Milwaukee Brewers (Pre-Game)
 _American Family Field_
 Projected score: Atlanta Braves 2.55 - Milwaukee Brewers 3.0
-Model likes: **Milwaukee Brewers** to win (55%) | Run line: **Atlanta Braves** +1.5 (65% to cover) | Total 5.5: lean **UNDER** (55%)
+Model likes: **Milwaukee Brewers** to win (55%) | Run line: **Atlanta Braves** +1.5 (66% to cover) | Total 5.5: lean **UNDER** (55%)
 
 ### Atlanta Braves lineup -- CONFIRMED
 _Facing a taxed bullpen: 12.3 relief IP in last 2 days (ratio 2.05)_
@@ -119,7 +119,7 @@ _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.4)_
 ## 2026-08-21 - Toronto Blue Jays @ New York Yankees (Scheduled)
 _Yankee Stadium [hitter-friendly park]_
 Projected score: Toronto Blue Jays 2.49 - New York Yankees 3.34
-Model likes: **New York Yankees** to win (60%) | Run line: **Toronto Blue Jays** +1.5 (60% to cover) | Total 5.5: lean **UNDER** (52%)
+Model likes: **New York Yankees** to win (60%) | Run line: **Toronto Blue Jays** +1.5 (61% to cover) | Total 5.5: lean **UNDER** (52%)
 
 ### Toronto Blue Jays lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 8.0 relief IP in last 2 days (ratio 1.32)_
@@ -539,10 +539,11 @@ _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.3)_
 
 ## 2026-08-22 - Atlanta Braves @ Milwaukee Brewers (Scheduled)
 _American Family Field_
-Projected score: Atlanta Braves 3.04 - Milwaukee Brewers 4.27
-Model likes: **Milwaukee Brewers** to win (62%) | Run line: **Atlanta Braves** +1.5 (55% to cover) | Total 6.5: lean **OVER** (53%)
+Projected score: Atlanta Braves 3.04 - Milwaukee Brewers 3.8
+Model likes: **Milwaukee Brewers** to win (58%) | Run line: **Atlanta Braves** +1.5 (60% to cover) | Total 6.5: lean **UNDER** (52%)
 
 ### Atlanta Braves lineup -- PROJECTED (unconfirmed)
+**Probable P: Martín Pérez (L)** -- L5: 26.0 IP, 18 K, 7 ER, 2.42 ERA
 - Drake Baldwin (L) -- L7: 7H 1HR 2RBI 12TB (0.241 avg) -- away split: 0.259 avg
 - Michael Harris II (L) [5-game hit streak] -- L7: 8H 0HR 1RBI 11TB (0.308 avg) -- away split: 0.300 avg
 - Austin Riley (R) -- L7: 5H 0HR 2RBI 7TB (0.200 avg) -- away split: 0.178 avg
@@ -903,7 +904,7 @@ _Facing a rested bullpen: 3.3 relief IP in last 2 days (ratio 0.66)_
 ## 2026-08-22 - Cincinnati Reds @ Arizona Diamondbacks (Scheduled)
 _Chase Field [hitter-friendly park]_
 Projected score: Cincinnati Reds 3.09 - Arizona Diamondbacks 5.39
-Model likes: **Arizona Diamondbacks** to win (70%) | Run line: **Arizona Diamondbacks** -1.5 (55% to cover) | Total 7.5: lean **OVER** (53%)
+Model likes: **Arizona Diamondbacks** to win (69%) | Run line: **Arizona Diamondbacks** -1.5 (55% to cover) | Total 7.5: lean **OVER** (53%)
 
 ### Cincinnati Reds lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -994,7 +995,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-23 - Toronto Blue Jays @ New York Yankees (Scheduled)
 _Yankee Stadium [hitter-friendly park]_
 Projected score: Toronto Blue Jays 3.13 - New York Yankees 3.14
-Model likes: **New York Yankees** to win (50%) | Run line: **Toronto Blue Jays** +1.5 (69% to cover) | Total 5.5: lean **OVER** (54%)
+Model likes: **New York Yankees** to win (50%) | Run line: **Toronto Blue Jays** +1.5 (69% to cover) | Total 5.5: lean **OVER** (53%)
 
 ### Toronto Blue Jays lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1297,7 +1298,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-23 - Minnesota Twins @ San Diego Padres (Scheduled)
 _Petco Park [pitcher-friendly park]_
 Projected score: Minnesota Twins 3.73 - San Diego Padres 3.67
-Model likes: **Minnesota Twins** to win (51%) | Run line: **San Diego Padres** +1.5 (66% to cover) | Total 6.5: lean **OVER** (54%)
+Model likes: **Minnesota Twins** to win (50%) | Run line: **San Diego Padres** +1.5 (66% to cover) | Total 6.5: lean **OVER** (54%)
 
 ### Minnesota Twins lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1388,11 +1389,12 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 
 ## 2026-08-23 - Atlanta Braves @ Milwaukee Brewers (Scheduled)
 _Journey Bank Ballpark_
-Projected score: Atlanta Braves 3.66 - Milwaukee Brewers 4.27
-Model likes: **Milwaukee Brewers** to win (56%) | Run line: **Atlanta Braves** +1.5 (61% to cover) | Total 7.5: lean **UNDER** (51%)
+Projected score: Atlanta Braves 3.66 - Milwaukee Brewers 4.77
+Model likes: **Milwaukee Brewers** to win (60%) | Run line: **Atlanta Braves** +1.5 (56% to cover) | Total 7.5: lean **OVER** (53%)
 
 ### Atlanta Braves lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
+**Probable P: Tyler Mahle (R)** -- L5: 30.3 IP, 31 K, 8 ER, 2.37 ERA
 - Drake Baldwin (L) -- L7: 7H 1HR 2RBI 12TB (0.241 avg) -- away split: 0.259 avg
 - Michael Harris II (L) [5-game hit streak] -- L7: 8H 0HR 1RBI 11TB (0.308 avg) -- away split: 0.300 avg
 - Austin Riley (R) -- L7: 5H 0HR 2RBI 7TB (0.200 avg) -- away split: 0.178 avg
