@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-22T12:43:52.491831+00:00_
+_Generated 2026-08-22T13:01:45.064944+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -87,7 +87,7 @@ _Facing a taxed bullpen: 9.3 relief IP in last 2 days (ratio 1.41)_
 ## 2026-08-22 - Atlanta Braves @ Milwaukee Brewers (Scheduled)
 _American Family Field_
 Projected score: Atlanta Braves 2.94 - Milwaukee Brewers 3.55
-Model likes: **Milwaukee Brewers** to win (57%) | Run line: **Atlanta Braves** +1.5 (62% to cover) | Total 6.5: lean **UNDER** (56%)
+Model likes: **Milwaukee Brewers** to win (56%) | Run line: **Atlanta Braves** +1.5 (62% to cover) | Total 6.5: lean **UNDER** (56%)
 
 ### Atlanta Braves lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 8.3 relief IP in last 2 days (ratio 1.39)_
@@ -299,7 +299,7 @@ Projected score: Chicago Cubs 4.91 - Seattle Mariners 3.35
 Model likes: **Chicago Cubs** to win (64%) | Run line: **Seattle Mariners** +1.5 (52% to cover) | Total 7.5: lean **OVER** (52%)
 
 ### Chicago Cubs lineup -- PROJECTED (unconfirmed)
-_Facing a taxed bullpen: 8.0 relief IP in last 2 days (ratio 1.71)_
+_Facing a taxed bullpen: 9.0 relief IP in last 2 days (ratio 1.92)_
 **Probable P: David Peterson (L)** -- L5: 23.3 IP, 21 K, 7 ER, 2.7 ERA
 - Pete Crow-Armstrong (L) -- L7: 7H 5HR 7RBI 23TB (0.241 avg) -- away split: 0.256 avg
 - Ian Happ (S) -- L7: 5H 1HR 1RBI 9TB (0.208 avg) -- away split: 0.217 avg
@@ -864,7 +864,7 @@ _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.49)_
 ## 2026-08-23 - Pittsburgh Pirates @ Los Angeles Dodgers (Scheduled)
 _UNIQLO Field at Dodger Stadium_
 Projected score: Pittsburgh Pirates 3.39 - Los Angeles Dodgers 4.32
-Model likes: **Los Angeles Dodgers** to win (59%) | Run line: **Pittsburgh Pirates** +1.5 (58% to cover) | Total 7.5: lean **UNDER** (53%)
+Model likes: **Los Angeles Dodgers** to win (59%) | Run line: **Pittsburgh Pirates** +1.5 (58% to cover) | Total 7.5: lean **UNDER** (54%)
 
 ### Pittsburgh Pirates lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.3 relief IP in last 2 days (ratio 0.62)_
@@ -1041,7 +1041,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-24 - Texas Rangers @ Chicago White Sox (Scheduled)
 _Rate Field_
 Projected score: Texas Rangers 3.36 - Chicago White Sox 4.89
-Model likes: **Chicago White Sox** to win (63%) | Run line: **Texas Rangers** +1.5 (52% to cover) | Total 7.5: lean **OVER** (52%)
+Model likes: **Chicago White Sox** to win (64%) | Run line: **Texas Rangers** +1.5 (52% to cover) | Total 7.5: lean **OVER** (52%)
 
 ### Texas Rangers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
