@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-22T16:57:58.816703+00:00_
+_Generated 2026-08-22T17:28:13.494660+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -54,7 +54,7 @@ _Generated 2026-08-22T16:57:58.816703+00:00_
 - **Jacob Lopez** (Athletics vs Houston Astros): 3 hitters in tonight's lineup are in a tough matchup against him -- try Runs Allowed: 100% under 2.5 recently (vs. 5-game sample)
 - **Michael Soroka** (Arizona Diamondbacks vs Cincinnati Reds): 6 hitters in tonight's lineup are in a tough matchup against him -- try Runs Allowed: 80% under 1.5 recently (vs. 5-game sample)
 
-## 2026-08-22 - Toronto Blue Jays @ New York Yankees (Pre-Game)
+## 2026-08-22 - Toronto Blue Jays @ New York Yankees (Warmup)
 _Yankee Stadium [hitter-friendly park]_
 Projected score: Toronto Blue Jays 3.25 - New York Yankees 2.86
 Model likes: **Toronto Blue Jays** to win (54%) | Run line: **New York Yankees** +1.5 (65% to cover) | Total 5.5: lean **OVER** (52%)
@@ -449,7 +449,7 @@ _Facing a taxed bullpen: 7.7 relief IP in last 2 days (ratio 1.51)_
 ## 2026-08-22 - Cincinnati Reds @ Arizona Diamondbacks (Scheduled)
 _Chase Field [hitter-friendly park]_
 Projected score: Cincinnati Reds 2.9 - Arizona Diamondbacks 5.38
-Model likes: **Arizona Diamondbacks** to win (71%) | Run line: **Arizona Diamondbacks** -1.5 (56% to cover) | Total 7.5: lean **OVER** (51%)
+Model likes: **Arizona Diamondbacks** to win (71%) | Run line: **Arizona Diamondbacks** -1.5 (56% to cover) | Total 7.5: lean **OVER** (52%)
 
 ### Cincinnati Reds lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.3 relief IP in last 2 days (ratio 0.62)_
@@ -539,7 +539,7 @@ Model likes: **Philadelphia Phillies** to win (63%) | Run line: **St. Louis Card
 ## 2026-08-23 - Toronto Blue Jays @ New York Yankees (Scheduled)
 _Yankee Stadium [hitter-friendly park]_
 Projected score: Toronto Blue Jays 2.96 - New York Yankees 3.31
-Model likes: **New York Yankees** to win (54%) | Run line: **Toronto Blue Jays** +1.5 (65% to cover) | Total 5.5: lean **OVER** (54%)
+Model likes: **New York Yankees** to win (54%) | Run line: **Toronto Blue Jays** +1.5 (65% to cover) | Total 5.5: lean **OVER** (53%)
 
 ### Toronto Blue Jays lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.5)_
@@ -893,7 +893,7 @@ _Facing a rested bullpen: 3.7 relief IP in last 2 days (ratio 0.69)_
 ## 2026-08-23 - Cincinnati Reds @ Arizona Diamondbacks (Scheduled)
 _Chase Field [hitter-friendly park]_
 Projected score: Cincinnati Reds 3.53 - Arizona Diamondbacks 5.05
-Model likes: **Arizona Diamondbacks** to win (63%) | Run line: **Cincinnati Reds** +1.5 (52% to cover) | Total 7.5: lean **OVER** (54%)
+Model likes: **Arizona Diamondbacks** to win (63%) | Run line: **Cincinnati Reds** +1.5 (52% to cover) | Total 7.5: lean **OVER** (55%)
 
 ### Cincinnati Reds lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.3 relief IP in last 2 days (ratio 0.62)_
