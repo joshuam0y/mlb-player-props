@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-22T20:39:29.921479+00:00_
+_Generated 2026-08-22T21:02:25.507404+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -53,10 +53,9 @@ _Generated 2026-08-22T20:39:29.921479+00:00_
 - **Jacob Lopez** (Athletics vs Houston Astros): 3 hitters in tonight's lineup are in a tough matchup against him -- try Runs Allowed: 100% under 2.5 recently (vs. 5-game sample)
 - **Michael Soroka** (Arizona Diamondbacks vs Cincinnati Reds): 6 hitters in tonight's lineup are in a tough matchup against him -- try Runs Allowed: 80% under 1.5 recently (vs. 5-game sample)
 
-## 2026-08-22 - Toronto Blue Jays @ New York Yankees (In Progress)
+## 2026-08-22 - Toronto Blue Jays @ New York Yankees (Final)
 _Yankee Stadium [hitter-friendly park]_
-Projected score: Toronto Blue Jays 3.25 - New York Yankees 2.86
-Model likes: **Toronto Blue Jays** to win (54%) | Run line: **New York Yankees** +1.5 (65% to cover) | Total 5.5: lean **OVER** (52%)
+Final: Toronto Blue Jays 4 - New York Yankees 3
 
 ### Toronto Blue Jays lineup -- CONFIRMED
 **Probable P: Dylan Cease (R)** -- L5: 33.3 IP, 46 K, 6 ER, 1.62 ERA
@@ -83,10 +82,9 @@ _Facing a taxed bullpen: 9.3 relief IP in last 2 days (ratio 1.41)_
 - #8 Austin Wells (L) -- L7: 2H 0HR 0RBI 2TB (0.111 avg) -- home split: 0.196 avg
 - #9 José Caballero (R) [TOUGH MATCHUP: pitcher holds this hand to 0.199 avg-against] -- L7: 1H 0HR 3RBI 1TB (0.091 avg) -- home split: 0.211 avg
 
-## 2026-08-22 - Atlanta Braves @ Milwaukee Brewers (In Progress)
+## 2026-08-22 - Atlanta Braves @ Milwaukee Brewers (Final)
 _American Family Field_
-Projected score: Atlanta Braves 3.05 - Milwaukee Brewers 3.49
-Model likes: **Milwaukee Brewers** to win (55%) | Run line: **Atlanta Braves** +1.5 (64% to cover) | Total 6.5: lean **UNDER** (55%)
+Final: Atlanta Braves 1 - Milwaukee Brewers 4
 
 ### Atlanta Braves lineup -- CONFIRMED
 _Facing a taxed bullpen: 8.3 relief IP in last 2 days (ratio 1.39)_
@@ -265,20 +263,20 @@ _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.41)_
 
 ## 2026-08-22 - New York Mets @ Chicago White Sox (Pre-Game)
 _Rate Field_
-Projected score: New York Mets 3.92 - Chicago White Sox 3.39
-Model likes: **New York Mets** to win (55%) | Run line: **Chicago White Sox** +1.5 (62% to cover) | Total 6.5: lean **OVER** (53%)
+Projected score: New York Mets 4.12 - Chicago White Sox 3.39
+Model likes: **New York Mets** to win (57%) | Run line: **Chicago White Sox** +1.5 (60% to cover) | Total 6.5: lean **OVER** (55%)
 
-### New York Mets lineup -- PROJECTED (unconfirmed)
+### New York Mets lineup -- CONFIRMED
 **Probable P: Christian Scott (R)** -- L5: 25.0 IP, 33 K, 14 ER, 5.04 ERA
-- A.J. Ewing (L) [MATCHUP EDGE: pitcher hits 0.272 avg-against vs this hand] -- L7: 2H 0HR 0RBI 2TB (0.080 avg) -- away split: 0.235 avg
-- Bo Bichette (R) -- L7: 9H 1HR 4RBI 16TB (0.346 avg) -- away split: 0.282 avg
-- Francisco Lindor (S) [MATCHUP EDGE: pitcher hits 0.272 avg-against vs this hand] -- L7: 5H 1HR 2RBI 8TB (0.200 avg) -- away split: 0.224 avg
-- Carson Benge (L) [MATCHUP EDGE: pitcher hits 0.272 avg-against vs this hand] -- L7: 6H 2HR 4RBI 12TB (0.240 avg) -- away split: 0.270 avg
-- Jared Young (L) [MATCHUP EDGE: pitcher hits 0.272 avg-against vs this hand] -- L7: 8H 1HR 5RBI 13TB (0.333 avg) -- away split: 0.263 avg
-- Luis Robert Jr. (R) -- L7: 4H 1HR 2RBI 8TB (0.235 avg) -- away split: 0.232 avg
-- Marcus Semien (R) -- L7: 5H 0HR 1RBI 6TB (0.227 avg) -- away split: 0.228 avg
-- Francisco Alvarez (R) -- L7: 1H 0HR 1RBI 2TB (0.040 avg) -- away split: 0.255 avg
-- Brett Baty (L) [MATCHUP EDGE: pitcher hits 0.272 avg-against vs this hand] -- L7: 4H 1HR 6RBI 9TB (0.182 avg) -- away split: 0.206 avg
+- #1 A.J. Ewing (L) [MATCHUP EDGE: pitcher hits 0.272 avg-against vs this hand] -- L7: 2H 0HR 0RBI 2TB (0.080 avg) -- away split: 0.235 avg
+- #2 Francisco Lindor (S) [MATCHUP EDGE: pitcher hits 0.272 avg-against vs this hand] -- L7: 5H 1HR 2RBI 8TB (0.200 avg) -- away split: 0.224 avg
+- #3 Bo Bichette (R) -- L7: 9H 1HR 4RBI 16TB (0.346 avg) -- away split: 0.282 avg
+- #4 Carson Benge (L) [MATCHUP EDGE: pitcher hits 0.272 avg-against vs this hand] -- L7: 6H 2HR 4RBI 12TB (0.240 avg) -- away split: 0.270 avg
+- #5 Jared Young (L) [MATCHUP EDGE: pitcher hits 0.272 avg-against vs this hand] -- L7: 8H 1HR 5RBI 13TB (0.333 avg) -- away split: 0.263 avg
+- #6 Luis Robert Jr. (R) -- L7: 4H 1HR 2RBI 8TB (0.235 avg) -- away split: 0.232 avg
+- #7 Brett Baty (L) [MATCHUP EDGE: pitcher hits 0.272 avg-against vs this hand] -- L7: 4H 1HR 6RBI 9TB (0.182 avg) -- away split: 0.206 avg
+- #8 Marcus Semien (R) -- L7: 5H 0HR 1RBI 6TB (0.227 avg) -- away split: 0.228 avg
+- #9 Francisco Alvarez (R) -- L7: 1H 0HR 1RBI 2TB (0.040 avg) -- away split: 0.255 avg
 
 ### Chicago White Sox lineup -- CONFIRMED
 _Facing a rested bullpen: 2.7 relief IP in last 2 days (ratio 0.44)_
@@ -417,21 +415,21 @@ _Facing a taxed bullpen: 8.0 relief IP in last 2 days (ratio 1.72)_
 
 ## 2026-08-22 - Cleveland Guardians @ Colorado Rockies (Pre-Game)
 _Coors Field [hitter-friendly park]_
-Projected score: Cleveland Guardians 5.06 - Colorado Rockies 4.49
-Model likes: **Cleveland Guardians** to win (54%) | Run line: **Colorado Rockies** +1.5 (60% to cover) | Total 8.5: lean **OVER** (54%)
+Projected score: Cleveland Guardians 5.19 - Colorado Rockies 4.49
+Model likes: **Cleveland Guardians** to win (55%) | Run line: **Colorado Rockies** +1.5 (58% to cover) | Total 9.5: lean **UNDER** (54%)
 
-### Cleveland Guardians lineup -- PROJECTED (unconfirmed)
+### Cleveland Guardians lineup -- CONFIRMED
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.52)_
 **Probable P: Tanner Bibee (R)** -- L5: 31.3 IP, 25 K, 16 ER, 4.6 ERA
-- Angel Genao (S) [MATCHUP EDGE: pitcher hits 0.286 avg-against vs this hand] [4-game hit streak] -- L7: 8H 0HR 0RBI 10TB (0.308 avg) -- away split: 0.174 avg
-- Angel Martínez (S) [MATCHUP EDGE: pitcher hits 0.286 avg-against vs this hand] -- L7: 4H 0HR 1RBI 5TB (0.190 avg) -- away split: 0.233 avg
-- Steven Kwan (L) [MATCHUP EDGE: pitcher hits 0.286 avg-against vs this hand] -- L7: 6H 0HR 3RBI 7TB (0.261 avg) -- away split: 0.258 avg
-- Jo Adell (R) -- L7: 7H 1HR 8RBI 12TB (0.292 avg) -- away split: 0.241 avg
-- José Ramírez (S) [MATCHUP EDGE: pitcher hits 0.286 avg-against vs this hand] -- L7: 7H 0HR 2RBI 9TB (0.259 avg) -- away split: 0.211 avg
-- Travis Bazzana (L) [MATCHUP EDGE: pitcher hits 0.286 avg-against vs this hand] [3-game hit streak] -- L7: 7H 0HR 3RBI 8TB (0.269 avg) -- away split: 0.259 avg
-- Brayan Rocchio (S) [MATCHUP EDGE: pitcher hits 0.286 avg-against vs this hand] -- L7: 6H 1HR 2RBI 10TB (0.240 avg) -- away split: 0.218 avg
-- Chase DeLauter (L) [MATCHUP EDGE: pitcher hits 0.286 avg-against vs this hand] [likely BABIP-driven, not a real power uptick] -- L7: 11H 1HR 1RBI 15TB (0.407 avg) -- away split: 0.280 avg
-- Patrick Bailey (S) [MATCHUP EDGE: pitcher hits 0.286 avg-against vs this hand] -- L7: 5H 1HR 6RBI 10TB (0.238 avg) -- away split: 0.174 avg
+- #1 Steven Kwan (L) [MATCHUP EDGE: pitcher hits 0.286 avg-against vs this hand] -- L7: 6H 0HR 3RBI 7TB (0.261 avg) -- away split: 0.258 avg
+- #2 Chase DeLauter (L) [MATCHUP EDGE: pitcher hits 0.286 avg-against vs this hand] [likely BABIP-driven, not a real power uptick] -- L7: 11H 1HR 1RBI 15TB (0.407 avg) -- away split: 0.280 avg
+- #3 José Ramírez (S) [MATCHUP EDGE: pitcher hits 0.286 avg-against vs this hand] -- L7: 7H 0HR 2RBI 9TB (0.259 avg) -- away split: 0.211 avg
+- #4 Jo Adell (R) -- L7: 7H 1HR 8RBI 12TB (0.292 avg) -- away split: 0.241 avg
+- #5 Nathaniel Lowe (L) [MATCHUP EDGE: pitcher hits 0.286 avg-against vs this hand] -- L7: 7H 1HR 3RBI 13TB (0.269 avg) -- away split: 0.269 avg
+- #6 Angel Genao (S) [MATCHUP EDGE: pitcher hits 0.286 avg-against vs this hand] [4-game hit streak] -- L7: 8H 0HR 0RBI 10TB (0.308 avg) -- away split: 0.174 avg
+- #7 Travis Bazzana (L) [MATCHUP EDGE: pitcher hits 0.286 avg-against vs this hand] [3-game hit streak] -- L7: 7H 0HR 3RBI 8TB (0.269 avg) -- away split: 0.259 avg
+- #8 Patrick Bailey (S) [MATCHUP EDGE: pitcher hits 0.286 avg-against vs this hand] -- L7: 5H 1HR 6RBI 10TB (0.238 avg) -- away split: 0.174 avg
+- #9 Petey Halpin (L) [MATCHUP EDGE: pitcher hits 0.286 avg-against vs this hand] -- L7: 4H 1HR 2RBI 8TB (0.200 avg) -- away split: 0.185 avg
 
 ### Colorado Rockies lineup -- CONFIRMED
 _Facing a taxed bullpen: 7.7 relief IP in last 2 days (ratio 1.51)_
@@ -1039,7 +1037,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-24 - Texas Rangers @ Chicago White Sox (Scheduled)
 _Rate Field_
 Projected score: Texas Rangers 3.36 - Chicago White Sox 4.89
-Model likes: **Chicago White Sox** to win (64%) | Run line: **Texas Rangers** +1.5 (52% to cover) | Total 7.5: lean **OVER** (52%)
+Model likes: **Chicago White Sox** to win (63%) | Run line: **Texas Rangers** +1.5 (52% to cover) | Total 7.5: lean **OVER** (52%)
 
 ### Texas Rangers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
