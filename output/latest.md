@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-22T22:48:51.461915+00:00_
+_Generated 2026-08-22T22:54:19.417206+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -171,10 +171,10 @@ _Facing a taxed bullpen: 8.7 relief IP in last 2 days (ratio 1.6)_
 - #8 J.T. Realmuto (R) -- L7: 4H 0HR 4RBI 6TB (0.182 avg) -- home split: 0.246 avg
 - #9 Derek Hill (R) -- L7: 2H 0HR 2RBI 2TB (0.286 avg) -- home split: 0.205 avg
 
-## 2026-08-22 - Los Angeles Angels @ Texas Rangers (Pre-Game)
+## 2026-08-22 - Los Angeles Angels @ Texas Rangers (Warmup)
 _Globe Life Field [hitter-friendly park]_
 Projected score: Los Angeles Angels 3.63 - Texas Rangers 4.35
-Model likes: **Texas Rangers** to win (57%) | Run line: **Los Angeles Angels** +1.5 (60% to cover) | Total 7.5: lean **UNDER** (51%)
+Model likes: **Texas Rangers** to win (57%) | Run line: **Los Angeles Angels** +1.5 (59% to cover) | Total 7.5: lean **UNDER** (51%)
 
 ### Los Angeles Angels lineup -- CONFIRMED
 _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.42)_
@@ -1041,7 +1041,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-24 - Texas Rangers @ Chicago White Sox (Scheduled)
 _Rate Field_
 Projected score: Texas Rangers 3.36 - Chicago White Sox 4.89
-Model likes: **Chicago White Sox** to win (63%) | Run line: **Texas Rangers** +1.5 (52% to cover) | Total 7.5: lean **OVER** (52%)
+Model likes: **Chicago White Sox** to win (64%) | Run line: **Texas Rangers** +1.5 (52% to cover) | Total 7.5: lean **OVER** (52%)
 
 ### Texas Rangers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1188,7 +1188,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-24 - Chicago Cubs @ Arizona Diamondbacks (Scheduled)
 _Chase Field [hitter-friendly park]_
 Projected score: Chicago Cubs 5.13 - Arizona Diamondbacks 4.88
-Model likes: **Chicago Cubs** to win (52%) | Run line: **Arizona Diamondbacks** +1.5 (62% to cover) | Total 9.5: lean **UNDER** (51%)
+Model likes: **Chicago Cubs** to win (52%) | Run line: **Arizona Diamondbacks** +1.5 (61% to cover) | Total 9.5: lean **UNDER** (51%)
 
 ### Chicago Cubs lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1217,7 +1217,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-24 - Cincinnati Reds @ San Francisco Giants (Scheduled)
 _Oracle Park [pitcher-friendly park]_
 Projected score: Cincinnati Reds 3.74 - San Francisco Giants 2.75
-Model likes: **Cincinnati Reds** to win (60%) | Run line: **San Francisco Giants** +1.5 (58% to cover) | Total 6.5: lean **UNDER** (56%)
+Model likes: **Cincinnati Reds** to win (61%) | Run line: **San Francisco Giants** +1.5 (58% to cover) | Total 6.5: lean **UNDER** (56%)
 
 ### Cincinnati Reds lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
