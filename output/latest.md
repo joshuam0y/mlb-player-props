@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-22T15:04:40.016888+00:00_
+_Generated 2026-08-22T15:35:33.146783+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -84,23 +84,23 @@ _Facing a taxed bullpen: 9.3 relief IP in last 2 days (ratio 1.41)_
 - #8 Austin Wells (L) -- L7: 2H 0HR 0RBI 2TB (0.111 avg) -- home split: 0.196 avg
 - #9 José Caballero (R) [TOUGH MATCHUP: pitcher holds this hand to 0.199 avg-against] -- L7: 1H 0HR 3RBI 1TB (0.091 avg) -- home split: 0.211 avg
 
-## 2026-08-22 - Atlanta Braves @ Milwaukee Brewers (Scheduled)
+## 2026-08-22 - Atlanta Braves @ Milwaukee Brewers (Pre-Game)
 _American Family Field_
-Projected score: Atlanta Braves 2.94 - Milwaukee Brewers 3.55
-Model likes: **Milwaukee Brewers** to win (56%) | Run line: **Atlanta Braves** +1.5 (62% to cover) | Total 6.5: lean **UNDER** (56%)
+Projected score: Atlanta Braves 3.05 - Milwaukee Brewers 3.55
+Model likes: **Milwaukee Brewers** to win (55%) | Run line: **Atlanta Braves** +1.5 (63% to cover) | Total 6.5: lean **UNDER** (54%)
 
-### Atlanta Braves lineup -- PROJECTED (unconfirmed)
+### Atlanta Braves lineup -- CONFIRMED
 _Facing a taxed bullpen: 8.3 relief IP in last 2 days (ratio 1.39)_
 **Probable P: Martín Pérez (L)** -- L5: 26.0 IP, 18 K, 7 ER, 2.42 ERA
-- Drake Baldwin (L) -- L7: 6H 1HR 2RBI 11TB (0.207 avg) -- away split: 0.254 avg
-- Michael Harris II (L) [6-game hit streak] -- L7: 9H 0HR 2RBI 13TB (0.333 avg) -- away split: 0.303 avg
-- Austin Riley (R) -- L7: 5H 0HR 2RBI 7TB (0.192 avg) -- away split: 0.175 avg
-- Ronald Acuña Jr. (R) -- L7: 5H 1HR 5RBI 9TB (0.172 avg) -- away split: 0.229 avg
-- Ozzie Albies (S) -- L7: 4H 0HR 1RBI 5TB (0.160 avg) -- away split: 0.245 avg
-- Matt Olson (L) -- L7: 6H 1HR 3RBI 11TB (0.240 avg) -- away split: 0.251 avg -- news: How Matt Olson became a king of scoops at first base
-- Mauricio Dubón (R) [3-game hit streak] -- L7: 7H 0HR 0RBI 7TB (0.304 avg) -- away split: 0.247 avg
-- Mike Yastrzemski (L) -- L7: 5H 1HR 1RBI 9TB (0.294 avg) -- away split: 0.219 avg
-- Jim Jarvis (L) -- L7: 1H 0HR 0RBI 1TB (0.059 avg) -- away split: 0.200 avg
+- #1 Drake Baldwin (L) -- L7: 6H 1HR 2RBI 11TB (0.207 avg) -- away split: 0.254 avg
+- #2 Ronald Acuña Jr. (R) -- L7: 5H 1HR 5RBI 9TB (0.172 avg) -- away split: 0.229 avg
+- #3 Matt Olson (L) -- L7: 6H 1HR 3RBI 11TB (0.240 avg) -- away split: 0.251 avg -- news: How Matt Olson became a king of scoops at first base
+- #4 Michael Harris II (L) [6-game hit streak] -- L7: 9H 0HR 2RBI 13TB (0.333 avg) -- away split: 0.303 avg
+- #5 Ozzie Albies (S) -- L7: 4H 0HR 1RBI 5TB (0.160 avg) -- away split: 0.245 avg
+- #6 Mauricio Dubón (R) [3-game hit streak] -- L7: 7H 0HR 0RBI 7TB (0.304 avg) -- away split: 0.247 avg
+- #7 Mike Yastrzemski (L) -- L7: 5H 1HR 1RBI 9TB (0.294 avg) -- away split: 0.219 avg
+- #8 Austin Riley (R) -- L7: 5H 0HR 2RBI 7TB (0.192 avg) -- away split: 0.175 avg
+- #9 Jim Jarvis (L) -- L7: 1H 0HR 0RBI 1TB (0.059 avg) -- away split: 0.200 avg
 
 ### Milwaukee Brewers lineup -- PROJECTED (unconfirmed)
 **Probable P: Logan Henderson (R)** -- L5: 30.0 IP, 37 K, 8 ER, 2.4 ERA
@@ -266,7 +266,7 @@ _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.41)_
 ## 2026-08-22 - New York Mets @ Chicago White Sox (Scheduled)
 _Rate Field_
 Projected score: New York Mets 3.92 - Chicago White Sox 3.45
-Model likes: **New York Mets** to win (55%) | Run line: **Chicago White Sox** +1.5 (63% to cover) | Total 6.5: lean **OVER** (54%)
+Model likes: **New York Mets** to win (54%) | Run line: **Chicago White Sox** +1.5 (62% to cover) | Total 6.5: lean **OVER** (54%)
 
 ### New York Mets lineup -- PROJECTED (unconfirmed)
 **Probable P: Christian Scott (R)** -- L5: 25.0 IP, 33 K, 14 ER, 5.04 ERA
@@ -893,7 +893,7 @@ _Facing a rested bullpen: 3.3 relief IP in last 2 days (ratio 0.62)_
 ## 2026-08-23 - Cincinnati Reds @ Arizona Diamondbacks (Scheduled)
 _Chase Field [hitter-friendly park]_
 Projected score: Cincinnati Reds 3.53 - Arizona Diamondbacks 5.05
-Model likes: **Arizona Diamondbacks** to win (63%) | Run line: **Cincinnati Reds** +1.5 (52% to cover) | Total 7.5: lean **OVER** (54%)
+Model likes: **Arizona Diamondbacks** to win (63%) | Run line: **Cincinnati Reds** +1.5 (52% to cover) | Total 7.5: lean **OVER** (55%)
 
 ### Cincinnati Reds lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.3 relief IP in last 2 days (ratio 0.62)_
@@ -1159,7 +1159,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-24 - Minnesota Twins @ Athletics (Scheduled)
 _Sutter Health Park_
 Projected score: Minnesota Twins 7.02 - Athletics 5.33
-Model likes: **Minnesota Twins** to win (61%) | Run line: **Athletics** +1.5 (51% to cover) | Total 11.5: lean **OVER** (50%)
+Model likes: **Minnesota Twins** to win (61%) | Run line: **Athletics** +1.5 (50% to cover) | Total 11.5: lean **OVER** (50%)
 
 ### Minnesota Twins lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
