@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-22T16:31:47.587639+00:00_
+_Generated 2026-08-22T16:49:23.551246+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -266,7 +266,7 @@ _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.41)_
 ## 2026-08-22 - New York Mets @ Chicago White Sox (Scheduled)
 _Rate Field_
 Projected score: New York Mets 3.92 - Chicago White Sox 3.45
-Model likes: **New York Mets** to win (55%) | Run line: **Chicago White Sox** +1.5 (62% to cover) | Total 6.5: lean **OVER** (54%)
+Model likes: **New York Mets** to win (55%) | Run line: **Chicago White Sox** +1.5 (63% to cover) | Total 6.5: lean **OVER** (54%)
 
 ### New York Mets lineup -- PROJECTED (unconfirmed)
 **Probable P: Christian Scott (R)** -- L5: 25.0 IP, 33 K, 14 ER, 5.04 ERA
@@ -326,7 +326,7 @@ _Facing a taxed bullpen: 9.0 relief IP in last 2 days (ratio 1.92)_
 ## 2026-08-22 - Pittsburgh Pirates @ Los Angeles Dodgers (Scheduled)
 _UNIQLO Field at Dodger Stadium_
 Projected score: Pittsburgh Pirates 3.01 - Los Angeles Dodgers 4.36
-Model likes: **Los Angeles Dodgers** to win (63%) | Run line: **Pittsburgh Pirates** +1.5 (54% to cover) | Total 6.5: lean **OVER** (54%)
+Model likes: **Los Angeles Dodgers** to win (63%) | Run line: **Pittsburgh Pirates** +1.5 (54% to cover) | Total 6.5: lean **OVER** (53%)
 
 ### Pittsburgh Pirates lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.7 relief IP in last 2 days (ratio 0.69)_
@@ -449,7 +449,7 @@ _Facing a taxed bullpen: 7.7 relief IP in last 2 days (ratio 1.51)_
 ## 2026-08-22 - Cincinnati Reds @ Arizona Diamondbacks (Scheduled)
 _Chase Field [hitter-friendly park]_
 Projected score: Cincinnati Reds 2.9 - Arizona Diamondbacks 5.38
-Model likes: **Arizona Diamondbacks** to win (71%) | Run line: **Arizona Diamondbacks** -1.5 (56% to cover) | Total 7.5: lean **OVER** (51%)
+Model likes: **Arizona Diamondbacks** to win (71%) | Run line: **Arizona Diamondbacks** -1.5 (56% to cover) | Total 7.5: lean **OVER** (52%)
 
 ### Cincinnati Reds lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.3 relief IP in last 2 days (ratio 0.62)_
@@ -569,7 +569,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.5)_
 ## 2026-08-23 - Tampa Bay Rays @ Baltimore Orioles (Scheduled)
 _Oriole Park at Camden Yards_
 Projected score: Tampa Bay Rays 4.11 - Baltimore Orioles 3.23
-Model likes: **Tampa Bay Rays** to win (58%) | Run line: **Baltimore Orioles** +1.5 (59% to cover) | Total 6.5: lean **OVER** (53%)
+Model likes: **Tampa Bay Rays** to win (59%) | Run line: **Baltimore Orioles** +1.5 (59% to cover) | Total 6.5: lean **OVER** (53%)
 
 ### Tampa Bay Rays lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.39)_
@@ -833,7 +833,7 @@ Model likes: **Chicago Cubs** to win (67%) | Run line: **Seattle Mariners** +1.5
 ## 2026-08-23 - Minnesota Twins @ San Diego Padres (Scheduled)
 _Petco Park [pitcher-friendly park]_
 Projected score: Minnesota Twins 3.73 - San Diego Padres 3.54
-Model likes: **Minnesota Twins** to win (52%) | Run line: **San Diego Padres** +1.5 (65% to cover) | Total 6.5: lean **OVER** (53%)
+Model likes: **Minnesota Twins** to win (52%) | Run line: **San Diego Padres** +1.5 (65% to cover) | Total 6.5: lean **OVER** (52%)
 
 ### Minnesota Twins lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.31)_
@@ -893,7 +893,7 @@ _Facing a rested bullpen: 3.7 relief IP in last 2 days (ratio 0.69)_
 ## 2026-08-23 - Cincinnati Reds @ Arizona Diamondbacks (Scheduled)
 _Chase Field [hitter-friendly park]_
 Projected score: Cincinnati Reds 3.53 - Arizona Diamondbacks 5.05
-Model likes: **Arizona Diamondbacks** to win (63%) | Run line: **Cincinnati Reds** +1.5 (52% to cover) | Total 7.5: lean **OVER** (55%)
+Model likes: **Arizona Diamondbacks** to win (63%) | Run line: **Cincinnati Reds** +1.5 (52% to cover) | Total 7.5: lean **OVER** (54%)
 
 ### Cincinnati Reds lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.3 relief IP in last 2 days (ratio 0.62)_
@@ -1129,7 +1129,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-24 - Pittsburgh Pirates @ San Diego Padres (Scheduled)
 _Petco Park [pitcher-friendly park]_
 Projected score: Pittsburgh Pirates 2.8 - San Diego Padres 4.08
-Model likes: **San Diego Padres** to win (63%) | Run line: **Pittsburgh Pirates** +1.5 (55% to cover) | Total 6.5: lean **UNDER** (52%)
+Model likes: **San Diego Padres** to win (63%) | Run line: **Pittsburgh Pirates** +1.5 (55% to cover) | Total 6.5: lean **UNDER** (51%)
 
 ### Pittsburgh Pirates lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1188,7 +1188,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-24 - Chicago Cubs @ Arizona Diamondbacks (Scheduled)
 _Chase Field [hitter-friendly park]_
 Projected score: Chicago Cubs 5.13 - Arizona Diamondbacks 4.88
-Model likes: **Chicago Cubs** to win (52%) | Run line: **Arizona Diamondbacks** +1.5 (62% to cover) | Total 9.5: lean **UNDER** (51%)
+Model likes: **Chicago Cubs** to win (52%) | Run line: **Arizona Diamondbacks** +1.5 (61% to cover) | Total 9.5: lean **UNDER** (51%)
 
 ### Chicago Cubs lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
