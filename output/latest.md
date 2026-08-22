@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-22T22:54:19.417206+00:00_
+_Generated 2026-08-22T23:18:51.109759+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -111,10 +111,9 @@ _Facing a taxed bullpen: 8.3 relief IP in last 2 days (ratio 1.39)_
 - #8 Luis Lara (S) -- L7: 8H 1HR 4RBI 12TB (0.276 avg) -- home split: 0.294 avg
 - #9 Cooper Pratt (R) -- L7: 3H 0HR 1RBI 4TB (0.125 avg) -- home split: 0.218 avg
 
-## 2026-08-22 - Washington Nationals @ Miami Marlins (In Progress)
+## 2026-08-22 - Washington Nationals @ Miami Marlins (Final)
 _loanDepot park [pitcher-friendly park]_
-Projected score: Washington Nationals 3.46 - Miami Marlins 4.71
-Model likes: **Miami Marlins** to win (61%) | Run line: **Washington Nationals** +1.5 (55% to cover) | Total 7.5: lean **OVER** (51%)
+Final: Washington Nationals 2 - Miami Marlins 4
 
 ### Washington Nationals lineup -- CONFIRMED
 **Probable P: Jake Irvin (R)** -- L5: 24.7 IP, 21 K, 16 ER, 5.84 ERA
@@ -171,10 +170,10 @@ _Facing a taxed bullpen: 8.7 relief IP in last 2 days (ratio 1.6)_
 - #8 J.T. Realmuto (R) -- L7: 4H 0HR 4RBI 6TB (0.182 avg) -- home split: 0.246 avg
 - #9 Derek Hill (R) -- L7: 2H 0HR 2RBI 2TB (0.286 avg) -- home split: 0.205 avg
 
-## 2026-08-22 - Los Angeles Angels @ Texas Rangers (Warmup)
+## 2026-08-22 - Los Angeles Angels @ Texas Rangers (In Progress)
 _Globe Life Field [hitter-friendly park]_
 Projected score: Los Angeles Angels 3.63 - Texas Rangers 4.35
-Model likes: **Texas Rangers** to win (57%) | Run line: **Los Angeles Angels** +1.5 (59% to cover) | Total 7.5: lean **UNDER** (51%)
+Model likes: **Texas Rangers** to win (57%) | Run line: **Los Angeles Angels** +1.5 (60% to cover) | Total 7.5: lean **UNDER** (51%)
 
 ### Los Angeles Angels lineup -- CONFIRMED
 _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.42)_
@@ -201,7 +200,7 @@ _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.42)_
 - #8 Cody Freeman (R) -- L7: 4H 0HR 1RBI 4TB (0.308 avg) -- home split: 0.214 avg
 - #9 Danny Jansen (R) -- L7: no data
 
-## 2026-08-22 - Tampa Bay Rays @ Baltimore Orioles (Warmup)
+## 2026-08-22 - Tampa Bay Rays @ Baltimore Orioles (In Progress)
 _Oriole Park at Camden Yards_
 Projected score: Tampa Bay Rays 3.74 - Baltimore Orioles 3.41
 Model likes: **Tampa Bay Rays** to win (53%) | Run line: **Baltimore Orioles** +1.5 (64% to cover) | Total 6.5: lean **OVER** (51%)
@@ -230,7 +229,7 @@ Model likes: **Tampa Bay Rays** to win (53%) | Run line: **Baltimore Orioles** +
 - #8 Leody Taveras (S) [likely BABIP-driven, not a real power uptick] -- L7: 8H 0HR 1RBI 9TB (0.348 avg) -- home split: 0.233 avg
 - #9 Carlos Narváez (R) -- L7: 1H 0HR 0RBI 1TB (0.056 avg) -- home split: 0.170 avg
 
-## 2026-08-22 - Athletics @ Houston Astros (Warmup)
+## 2026-08-22 - Athletics @ Houston Astros (In Progress)
 _Daikin Park_
 Projected score: Athletics 3.28 - Houston Astros 5.92
 Model likes: **Houston Astros** to win (71%) | Run line: **Houston Astros** -1.5 (57% to cover) | Total 8.5: lean **OVER** (50%)
@@ -261,7 +260,7 @@ _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.41)_
 - #8 Cam Smith (R) [MATCHUP EDGE: pitcher hits 0.280 avg-against vs this hand] -- L7: 2H 1HR 4RBI 7TB (0.100 avg) -- home split: 0.187 avg
 - #9 LaMonte Wade Jr. (L) [TOUGH MATCHUP: pitcher holds this hand to 0.209 avg-against] -- L7: 3H 0HR 0RBI 3TB (0.231 avg) -- home split: 0.216 avg
 
-## 2026-08-22 - New York Mets @ Chicago White Sox (Warmup)
+## 2026-08-22 - New York Mets @ Chicago White Sox (In Progress)
 _Rate Field_
 Projected score: New York Mets 4.12 - Chicago White Sox 3.39
 Model likes: **New York Mets** to win (57%) | Run line: **Chicago White Sox** +1.5 (60% to cover) | Total 6.5: lean **OVER** (55%)
@@ -291,9 +290,9 @@ _Facing a rested bullpen: 2.7 relief IP in last 2 days (ratio 0.44)_
 - #8 Tristan Peters (L) -- L7: 5H 0HR 1RBI 7TB (0.263 avg) -- home split: 0.248 avg
 - #9 Drew Romo (S) -- L7: 4H 2HR 5RBI 10TB (0.200 avg) -- home split: 0.159 avg
 
-## 2026-08-22 - Chicago Cubs @ Seattle Mariners (Pre-Game)
+## 2026-08-22 - Chicago Cubs @ Seattle Mariners (In Progress)
 _T-Mobile Park [pitcher-friendly park]_
-Projected score: Chicago Cubs 4.89 - Seattle Mariners 3.52
+Projected score: Chicago Cubs 4.89 - Seattle Mariners 3.55
 Model likes: **Chicago Cubs** to win (62%) | Run line: **Seattle Mariners** +1.5 (54% to cover) | Total 7.5: lean **OVER** (53%)
 
 ### Chicago Cubs lineup -- CONFIRMED
@@ -311,17 +310,17 @@ _Facing a taxed bullpen: 9.0 relief IP in last 2 days (ratio 1.92)_
 
 ### Seattle Mariners lineup -- CONFIRMED
 **Probable P: Kade Anderson (L)** -- L5: no data
-- #1 Brendan Donovan (L) [4-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 11H 0HR 7RBI 13TB (0.379 avg) -- home split: 0.304 avg
-- #2 Randy Arozarena (R) [MATCHUP EDGE: pitcher hits 0.290 avg-against vs this hand] -- L7: 6H 1HR 2RBI 11TB (0.200 avg) -- home split: 0.236 avg
-- #3 Dominic Canzone (L) -- L7: 10H 0HR 5RBI 14TB (0.333 avg) -- home split: 0.252 avg
-- #4 Julio Rodríguez (R) [MATCHUP EDGE: pitcher hits 0.290 avg-against vs this hand] -- L7: 6H 0HR 1RBI 8TB (0.188 avg) -- home split: 0.276 avg
-- #5 Josh Naylor (L) -- L7: 10H 0HR 3RBI 11TB (0.323 avg) -- home split: 0.250 avg
-- #6 Taylor Ward (R) [MATCHUP EDGE: pitcher hits 0.290 avg-against vs this hand] -- L7: 4H 0HR 2RBI 6TB (0.154 avg) -- home split: 0.235 avg
-- #7 Cal Raleigh (S) [MATCHUP EDGE: pitcher hits 0.290 avg-against vs this hand] -- L7: 2H 2HR 4RBI 8TB (0.111 avg) -- home split: 0.162 avg
-- #8 Cole Young (L) -- L7: 4H 1HR 4RBI 7TB (0.143 avg) -- home split: 0.261 avg
+- #1 Randy Arozarena (R) [MATCHUP EDGE: pitcher hits 0.290 avg-against vs this hand] -- L7: 6H 1HR 2RBI 11TB (0.200 avg) -- home split: 0.236 avg
+- #2 Dominic Canzone (L) -- L7: 10H 0HR 5RBI 14TB (0.333 avg) -- home split: 0.252 avg
+- #3 Julio Rodríguez (R) [MATCHUP EDGE: pitcher hits 0.290 avg-against vs this hand] -- L7: 6H 0HR 1RBI 8TB (0.188 avg) -- home split: 0.276 avg
+- #4 Josh Naylor (L) -- L7: 10H 0HR 3RBI 11TB (0.323 avg) -- home split: 0.250 avg
+- #5 Taylor Ward (R) [MATCHUP EDGE: pitcher hits 0.290 avg-against vs this hand] -- L7: 4H 0HR 2RBI 6TB (0.154 avg) -- home split: 0.235 avg
+- #6 Cal Raleigh (S) [MATCHUP EDGE: pitcher hits 0.290 avg-against vs this hand] -- L7: 2H 2HR 4RBI 8TB (0.111 avg) -- home split: 0.162 avg
+- #7 Cole Young (L) -- L7: 4H 1HR 4RBI 7TB (0.143 avg) -- home split: 0.261 avg
+- #8 Weston Wilson (R) [MATCHUP EDGE: pitcher hits 0.290 avg-against vs this hand] -- L7: 1H 1HR 1RBI 4TB (0.091 avg) -- home split: 0.172 avg
 - #9 Leo Rivas (S) [MATCHUP EDGE: pitcher hits 0.290 avg-against vs this hand] -- L7: 2H 0HR 1RBI 2TB (0.200 avg) -- home split: 0.149 avg
 
-## 2026-08-22 - Pittsburgh Pirates @ Los Angeles Dodgers (Pre-Game)
+## 2026-08-22 - Pittsburgh Pirates @ Los Angeles Dodgers (In Progress)
 _UNIQLO Field at Dodger Stadium_
 Projected score: Pittsburgh Pirates 2.96 - Los Angeles Dodgers 4.61
 Model likes: **Los Angeles Dodgers** to win (65%) | Run line: **Pittsburgh Pirates** +1.5 (51% to cover) | Total 7.5: lean **UNDER** (55%)
@@ -351,7 +350,7 @@ _Facing a rested bullpen: 3.7 relief IP in last 2 days (ratio 0.69)_
 - #8 Alek Thomas (L) -- L7: 1H 0HR 0RBI 2TB (0.053 avg) -- home split: 0.255 avg
 - #9 Ben Rortvedt (L) -- L7: 3H 0HR 1RBI 3TB (0.214 avg) -- home split: 0.143 avg
 
-## 2026-08-22 - Detroit Tigers @ Kansas City Royals (Warmup)
+## 2026-08-22 - Detroit Tigers @ Kansas City Royals (In Progress)
 _Kauffman Stadium [pitcher-friendly park]_
 Projected score: Detroit Tigers 4.33 - Kansas City Royals 3.08
 Model likes: **Detroit Tigers** to win (62%) | Run line: **Kansas City Royals** +1.5 (55% to cover) | Total 6.5: lean **OVER** (54%)
@@ -382,7 +381,7 @@ _Facing a rested bullpen: 2.3 relief IP in last 2 days (ratio 0.47)_
 - #8 Tyler Tolbert (R) -- L7: 3H 0HR 2RBI 4TB (0.231 avg) -- home split: 0.270 avg
 - #9 Kyle Isbel (L) -- L7: 6H 1HR 4RBI 10TB (0.286 avg) -- home split: 0.241 avg
 
-## 2026-08-22 - San Francisco Giants @ Boston Red Sox (Pre-Game)
+## 2026-08-22 - San Francisco Giants @ Boston Red Sox (In Progress)
 _Fenway Park_
 Projected score: San Francisco Giants 3.12 - Boston Red Sox 4.44
 Model likes: **Boston Red Sox** to win (62%) | Run line: **San Francisco Giants** +1.5 (54% to cover) | Total 7.5: lean **UNDER** (55%)
@@ -1041,7 +1040,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-24 - Texas Rangers @ Chicago White Sox (Scheduled)
 _Rate Field_
 Projected score: Texas Rangers 3.36 - Chicago White Sox 4.89
-Model likes: **Chicago White Sox** to win (64%) | Run line: **Texas Rangers** +1.5 (52% to cover) | Total 7.5: lean **OVER** (52%)
+Model likes: **Chicago White Sox** to win (63%) | Run line: **Texas Rangers** +1.5 (52% to cover) | Total 7.5: lean **OVER** (52%)
 
 ### Texas Rangers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1188,7 +1187,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-24 - Chicago Cubs @ Arizona Diamondbacks (Scheduled)
 _Chase Field [hitter-friendly park]_
 Projected score: Chicago Cubs 5.13 - Arizona Diamondbacks 4.88
-Model likes: **Chicago Cubs** to win (52%) | Run line: **Arizona Diamondbacks** +1.5 (61% to cover) | Total 9.5: lean **UNDER** (51%)
+Model likes: **Chicago Cubs** to win (52%) | Run line: **Arizona Diamondbacks** +1.5 (62% to cover) | Total 9.5: lean **UNDER** (51%)
 
 ### Chicago Cubs lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1217,7 +1216,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-24 - Cincinnati Reds @ San Francisco Giants (Scheduled)
 _Oracle Park [pitcher-friendly park]_
 Projected score: Cincinnati Reds 3.74 - San Francisco Giants 2.75
-Model likes: **Cincinnati Reds** to win (61%) | Run line: **San Francisco Giants** +1.5 (58% to cover) | Total 6.5: lean **UNDER** (56%)
+Model likes: **Cincinnati Reds** to win (60%) | Run line: **San Francisco Giants** +1.5 (58% to cover) | Total 5.5: lean **OVER** (56%)
 
 ### Cincinnati Reds lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
