@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-22T04:48:56.071004+00:00_
+_Generated 2026-08-22T04:54:43.179471+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -205,7 +205,7 @@ _Facing a taxed bullpen: 6.0 relief IP in last 2 days (ratio 1.22)_
 ## 2026-08-22 - Tampa Bay Rays @ Baltimore Orioles (Scheduled)
 _Oriole Park at Camden Yards_
 Projected score: Tampa Bay Rays 3.79 - Baltimore Orioles 3.33
-Model likes: **Tampa Bay Rays** to win (55%) | Run line: **Baltimore Orioles** +1.5 (63% to cover) | Total 6.5: lean **OVER** (51%)
+Model likes: **Tampa Bay Rays** to win (54%) | Run line: **Baltimore Orioles** +1.5 (63% to cover) | Total 6.5: lean **OVER** (51%)
 
 ### Tampa Bay Rays lineup -- PROJECTED (unconfirmed)
 **Probable P: Shane McClanahan (L)** -- L5: 22.7 IP, 17 K, 10 ER, 3.97 ERA
@@ -479,7 +479,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-22 - Minnesota Twins @ San Diego Padres (Scheduled)
 _Petco Park [pitcher-friendly park]_
 Projected score: Minnesota Twins 2.92 - San Diego Padres 3.95
-Model likes: **San Diego Padres** to win (60%) | Run line: **Minnesota Twins** +1.5 (58% to cover) | Total 6.5: lean **UNDER** (51%)
+Model likes: **San Diego Padres** to win (60%) | Run line: **Minnesota Twins** +1.5 (58% to cover) | Total 6.5: lean **UNDER** (52%)
 
 ### Minnesota Twins lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 1.0 relief IP in last 2 days (ratio 0.16)_
@@ -568,7 +568,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.5)_
 ## 2026-08-23 - Tampa Bay Rays @ Baltimore Orioles (Scheduled)
 _Oriole Park at Camden Yards_
 Projected score: Tampa Bay Rays 4.11 - Baltimore Orioles 3.23
-Model likes: **Tampa Bay Rays** to win (58%) | Run line: **Baltimore Orioles** +1.5 (59% to cover) | Total 6.5: lean **OVER** (53%)
+Model likes: **Tampa Bay Rays** to win (59%) | Run line: **Baltimore Orioles** +1.5 (59% to cover) | Total 6.5: lean **OVER** (53%)
 
 ### Tampa Bay Rays lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.39)_
@@ -1076,7 +1076,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-24 - Cleveland Guardians @ Los Angeles Angels (Scheduled)
 _Angel Stadium_
 Projected score: Cleveland Guardians 3.61 - Los Angeles Angels 2.51
-Model likes: **Cleveland Guardians** to win (62%) | Run line: **Los Angeles Angels** +1.5 (58% to cover) | Total 5.5: lean **OVER** (52%)
+Model likes: **Cleveland Guardians** to win (62%) | Run line: **Los Angeles Angels** +1.5 (57% to cover) | Total 5.5: lean **OVER** (52%)
 
 ### Cleveland Guardians lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1135,7 +1135,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-24 - Pittsburgh Pirates @ San Diego Padres (Scheduled)
 _Petco Park [pitcher-friendly park]_
 Projected score: Pittsburgh Pirates 2.79 - San Diego Padres 4.04
-Model likes: **San Diego Padres** to win (63%) | Run line: **Pittsburgh Pirates** +1.5 (55% to cover) | Total 6.5: lean **UNDER** (52%)
+Model likes: **San Diego Padres** to win (63%) | Run line: **Pittsburgh Pirates** +1.5 (56% to cover) | Total 6.5: lean **UNDER** (52%)
 
 ### Pittsburgh Pirates lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
