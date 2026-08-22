@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-22T07:23:35.651889+00:00_
+_Generated 2026-08-22T07:44:29.841466+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -206,7 +206,7 @@ _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.42)_
 ## 2026-08-22 - Tampa Bay Rays @ Baltimore Orioles (Scheduled)
 _Oriole Park at Camden Yards_
 Projected score: Tampa Bay Rays 3.79 - Baltimore Orioles 3.33
-Model likes: **Tampa Bay Rays** to win (55%) | Run line: **Baltimore Orioles** +1.5 (63% to cover) | Total 6.5: lean **OVER** (51%)
+Model likes: **Tampa Bay Rays** to win (54%) | Run line: **Baltimore Orioles** +1.5 (63% to cover) | Total 6.5: lean **OVER** (51%)
 
 ### Tampa Bay Rays lineup -- PROJECTED (unconfirmed)
 **Probable P: Shane McClanahan (L)** -- L5: 22.7 IP, 17 K, 10 ER, 3.97 ERA
@@ -266,7 +266,7 @@ _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.41)_
 ## 2026-08-22 - New York Mets @ Chicago White Sox (Scheduled)
 _Rate Field_
 Projected score: New York Mets 3.92 - Chicago White Sox 3.45
-Model likes: **New York Mets** to win (55%) | Run line: **Chicago White Sox** +1.5 (62% to cover) | Total 6.5: lean **OVER** (54%)
+Model likes: **New York Mets** to win (54%) | Run line: **Chicago White Sox** +1.5 (63% to cover) | Total 6.5: lean **OVER** (54%)
 
 ### New York Mets lineup -- PROJECTED (unconfirmed)
 **Probable P: Christian Scott (R)** -- L5: 25.0 IP, 33 K, 14 ER, 5.04 ERA
@@ -304,8 +304,8 @@ _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.5)_
 - Pete Crow-Armstrong (L) -- L7: 7H 5HR 7RBI 23TB (0.241 avg) -- away split: 0.256 avg
 - Ian Happ (S) -- L7: 5H 1HR 1RBI 9TB (0.208 avg) -- away split: 0.217 avg
 - Alex Bregman (R) -- L7: 9H 2HR 5RBI 16TB (0.321 avg) -- away split: 0.297 avg
+- Michael Busch (L) -- L7: 6H 1HR 1RBI 11TB (0.231 avg) -- away split: 0.233 avg
 - Nico Hoerner (R) -- L7: 8H 0HR 2RBI 8TB (0.286 avg) -- away split: 0.257 avg
-- Michael Busch (L) -- L7: 5H 1HR 1RBI 8TB (0.192 avg) -- away split: 0.229 avg
 - Seiya Suzuki (R) -- L7: 5H 2HR 4RBI 14TB (0.192 avg) -- away split: 0.262 avg
 - Pedro Ramírez (S) -- L7: 6H 0HR 0RBI 8TB (0.240 avg) -- away split: 0.300 avg
 - Tyrone Taylor (R) [likely BABIP-driven, not a real power uptick] -- L7: 3H 0HR 1RBI 4TB (0.333 avg) -- away split: 0.205 avg
@@ -319,7 +319,7 @@ _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.5)_
 - Randy Arozarena (R) [MATCHUP EDGE: pitcher hits 0.290 avg-against vs this hand] -- L7: 6H 1HR 2RBI 11TB (0.200 avg) -- home split: 0.236 avg
 - Cal Raleigh (S) [MATCHUP EDGE: pitcher hits 0.290 avg-against vs this hand] -- L7: 2H 2HR 4RBI 8TB (0.111 avg) -- home split: 0.162 avg
 - Brendan Donovan (L) [4-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 10H 0HR 7RBI 12TB (0.370 avg) -- home split: 0.296 avg
-- Josh Naylor (L) -- L7: 10H 0HR 3RBI 11TB (0.333 avg) -- home split: 0.251 avg
+- Josh Naylor (L) -- L7: 10H 0HR 3RBI 11TB (0.323 avg) -- home split: 0.250 avg
 - Taylor Ward (R) [MATCHUP EDGE: pitcher hits 0.290 avg-against vs this hand] -- L7: 4H 0HR 2RBI 6TB (0.154 avg) -- home split: 0.235 avg
 - Weston Wilson (R) [MATCHUP EDGE: pitcher hits 0.290 avg-against vs this hand] -- L7: 1H 1HR 1RBI 4TB (0.091 avg) -- home split: 0.172 avg
 
@@ -450,7 +450,7 @@ _Facing a taxed bullpen: 7.7 relief IP in last 2 days (ratio 1.51)_
 ## 2026-08-22 - Cincinnati Reds @ Arizona Diamondbacks (Scheduled)
 _Chase Field [hitter-friendly park]_
 Projected score: Cincinnati Reds 2.86 - Arizona Diamondbacks 5.38
-Model likes: **Arizona Diamondbacks** to win (72%) | Run line: **Arizona Diamondbacks** -1.5 (56% to cover) | Total 7.5: lean **OVER** (51%)
+Model likes: **Arizona Diamondbacks** to win (72%) | Run line: **Arizona Diamondbacks** -1.5 (57% to cover) | Total 7.5: lean **OVER** (51%)
 
 ### Cincinnati Reds lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.3 relief IP in last 2 days (ratio 0.44)_
@@ -570,7 +570,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.5)_
 ## 2026-08-23 - Tampa Bay Rays @ Baltimore Orioles (Scheduled)
 _Oriole Park at Camden Yards_
 Projected score: Tampa Bay Rays 4.11 - Baltimore Orioles 3.23
-Model likes: **Tampa Bay Rays** to win (59%) | Run line: **Baltimore Orioles** +1.5 (59% to cover) | Total 6.5: lean **OVER** (53%)
+Model likes: **Tampa Bay Rays** to win (58%) | Run line: **Baltimore Orioles** +1.5 (59% to cover) | Total 6.5: lean **OVER** (53%)
 
 ### Tampa Bay Rays lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.39)_
@@ -746,7 +746,7 @@ _Facing a rested bullpen: 3.7 relief IP in last 2 days (ratio 0.63)_
 ## 2026-08-23 - Cleveland Guardians @ Colorado Rockies (Scheduled)
 _Coors Field [hitter-friendly park]_
 Projected score: Cleveland Guardians 4.13 - Colorado Rockies 4.06
-Model likes: **Cleveland Guardians** to win (51%) | Run line: **Colorado Rockies** +1.5 (65% to cover) | Total 7.5: lean **OVER** (51%)
+Model likes: **Cleveland Guardians** to win (50%) | Run line: **Colorado Rockies** +1.5 (65% to cover) | Total 7.5: lean **OVER** (51%)
 
 ### Cleveland Guardians lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.52)_
@@ -813,8 +813,8 @@ _Facing a rested bullpen: 2.3 relief IP in last 2 days (ratio 0.5)_
 - Pete Crow-Armstrong (L) -- L7: 7H 5HR 7RBI 23TB (0.241 avg) -- away split: 0.256 avg
 - Ian Happ (S) -- L7: 5H 1HR 1RBI 9TB (0.208 avg) -- away split: 0.217 avg
 - Alex Bregman (R) [TOUGH MATCHUP: pitcher holds this hand to 0.204 avg-against] -- L7: 9H 2HR 5RBI 16TB (0.321 avg) -- away split: 0.297 avg
+- Michael Busch (L) -- L7: 6H 1HR 1RBI 11TB (0.231 avg) -- away split: 0.233 avg
 - Nico Hoerner (R) [TOUGH MATCHUP: pitcher holds this hand to 0.204 avg-against] -- L7: 8H 0HR 2RBI 8TB (0.286 avg) -- away split: 0.257 avg
-- Michael Busch (L) -- L7: 5H 1HR 1RBI 8TB (0.192 avg) -- away split: 0.229 avg
 - Seiya Suzuki (R) [TOUGH MATCHUP: pitcher holds this hand to 0.204 avg-against] -- L7: 5H 2HR 4RBI 14TB (0.192 avg) -- away split: 0.262 avg
 - Pedro Ramírez (S) -- L7: 6H 0HR 0RBI 8TB (0.240 avg) -- away split: 0.300 avg
 - Tyrone Taylor (R) [TOUGH MATCHUP: pitcher holds this hand to 0.204 avg-against] [likely BABIP-driven, not a real power uptick] -- L7: 3H 0HR 1RBI 4TB (0.333 avg) -- away split: 0.205 avg
@@ -828,7 +828,7 @@ _Facing a rested bullpen: 2.3 relief IP in last 2 days (ratio 0.5)_
 - Randy Arozarena (R) -- L7: 6H 1HR 2RBI 11TB (0.200 avg) -- home split: 0.236 avg
 - Cal Raleigh (S) -- L7: 2H 2HR 4RBI 8TB (0.111 avg) -- home split: 0.162 avg
 - Brendan Donovan (L) [TOUGH MATCHUP: pitcher holds this hand to 0.203 avg-against] [4-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 10H 0HR 7RBI 12TB (0.370 avg) -- home split: 0.296 avg
-- Josh Naylor (L) [TOUGH MATCHUP: pitcher holds this hand to 0.203 avg-against] -- L7: 10H 0HR 3RBI 11TB (0.333 avg) -- home split: 0.251 avg
+- Josh Naylor (L) [TOUGH MATCHUP: pitcher holds this hand to 0.203 avg-against] -- L7: 10H 0HR 3RBI 11TB (0.323 avg) -- home split: 0.250 avg
 - Taylor Ward (R) -- L7: 4H 0HR 2RBI 6TB (0.154 avg) -- home split: 0.235 avg
 - Weston Wilson (R) -- L7: 1H 1HR 1RBI 4TB (0.091 avg) -- home split: 0.172 avg
 
@@ -1125,7 +1125,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 - Randy Arozarena (R) -- L7: 6H 1HR 2RBI 11TB (0.200 avg) -- home split: 0.236 avg
 - Cal Raleigh (S) -- L7: 2H 2HR 4RBI 8TB (0.111 avg) -- home split: 0.162 avg
 - Brendan Donovan (L) [4-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 10H 0HR 7RBI 12TB (0.370 avg) -- home split: 0.296 avg
-- Josh Naylor (L) -- L7: 10H 0HR 3RBI 11TB (0.333 avg) -- home split: 0.251 avg
+- Josh Naylor (L) -- L7: 10H 0HR 3RBI 11TB (0.323 avg) -- home split: 0.250 avg
 - Taylor Ward (R) -- L7: 4H 0HR 2RBI 6TB (0.154 avg) -- home split: 0.235 avg
 - Weston Wilson (R) -- L7: 1H 1HR 1RBI 4TB (0.091 avg) -- home split: 0.172 avg
 
@@ -1198,8 +1198,8 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 - Pete Crow-Armstrong (L) -- L7: 7H 5HR 7RBI 23TB (0.241 avg) -- away split: 0.256 avg
 - Ian Happ (S) -- L7: 5H 1HR 1RBI 9TB (0.208 avg) -- away split: 0.217 avg
 - Alex Bregman (R) -- L7: 9H 2HR 5RBI 16TB (0.321 avg) -- away split: 0.297 avg
+- Michael Busch (L) -- L7: 6H 1HR 1RBI 11TB (0.231 avg) -- away split: 0.233 avg
 - Nico Hoerner (R) -- L7: 8H 0HR 2RBI 8TB (0.286 avg) -- away split: 0.257 avg
-- Michael Busch (L) -- L7: 5H 1HR 1RBI 8TB (0.192 avg) -- away split: 0.229 avg
 - Seiya Suzuki (R) -- L7: 5H 2HR 4RBI 14TB (0.192 avg) -- away split: 0.262 avg
 - Pedro Ramírez (S) -- L7: 6H 0HR 0RBI 8TB (0.240 avg) -- away split: 0.300 avg
 - Tyrone Taylor (R) [likely BABIP-driven, not a real power uptick] -- L7: 3H 0HR 1RBI 4TB (0.333 avg) -- away split: 0.205 avg
