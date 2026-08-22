@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-22T18:19:13.068061+00:00_
+_Generated 2026-08-22T18:56:24.380958+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -144,9 +144,9 @@ _Facing a taxed bullpen: 8.3 relief IP in last 2 days (ratio 1.37)_
 - #8 Javier Sanoja (R) [5-game hit streak] -- L7: 9H 2HR 8RBI 16TB (0.391 avg) -- home split: 0.287 avg
 - #9 Esteury Ruiz (R) -- L7: 4H 0HR 0RBI 4TB (0.211 avg) -- home split: 0.242 avg
 
-## 2026-08-22 - St. Louis Cardinals @ Philadelphia Phillies (Scheduled)
+## 2026-08-22 - St. Louis Cardinals @ Philadelphia Phillies (Pre-Game)
 _Citizens Bank Park [hitter-friendly park]_
-Projected score: St. Louis Cardinals 6.01 - Philadelphia Phillies 4.98
+Projected score: St. Louis Cardinals 6.01 - Philadelphia Phillies 5.01
 Model likes: **St. Louis Cardinals** to win (57%) | Run line: **Philadelphia Phillies** +1.5 (55% to cover) | Total 10.5: lean **UNDER** (52%)
 
 ### St. Louis Cardinals lineup -- PROJECTED (unconfirmed)
@@ -160,18 +160,18 @@ Model likes: **St. Louis Cardinals** to win (57%) | Run line: **Philadelphia Phi
 - Blaze Jordan (R) -- L7: 6H 0HR 2RBI 8TB (0.214 avg) -- away split: 0.298 avg
 - Everson Pereira (R) -- L7: 3H 0HR 0RBI 3TB (0.250 avg) -- away split: 0.242 avg
 
-### Philadelphia Phillies lineup -- PROJECTED (unconfirmed)
+### Philadelphia Phillies lineup -- CONFIRMED
 _Facing a taxed bullpen: 8.7 relief IP in last 2 days (ratio 1.6)_
 **Probable P: Andrew Painter (R)** -- L5: 22.3 IP, 21 K, 16 ER, 6.45 ERA
-- Justin Crawford (L) [likely BABIP-driven, not a real power uptick] -- L7: 6H 0HR 2RBI 8TB (0.375 avg) -- home split: 0.301 avg
-- Bryson Stott (L) -- L7: 5H 1HR 6RBI 8TB (0.192 avg) -- home split: 0.284 avg
-- Alec Bohm (R) -- L7: 14H 1HR 11RBI 24TB (0.452 avg) -- home split: 0.252 avg
-- Kyle Schwarber (L) -- L7: 5H 2HR 5RBI 12TB (0.161 avg) -- home split: 0.251 avg
-- Luis Arraez (L) [8-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 14H 1HR 5RBI 19TB (0.452 avg) -- home split: 0.360 avg
-- Bryce Harper (L) -- L7: 8H 0HR 1RBI 8TB (0.320 avg) -- home split: 0.262 avg
-- Brandon Marsh (L) [3-game hit streak] -- L7: 7H 1HR 3RBI 11TB (0.333 avg) -- home split: 0.296 avg
-- Trea Turner (R) -- L7: 5H 0HR 2RBI 7TB (0.185 avg) -- home split: 0.269 avg
-- J.T. Realmuto (R) -- L7: 4H 0HR 4RBI 6TB (0.182 avg) -- home split: 0.246 avg
+- #1 Kyle Schwarber (L) -- L7: 5H 2HR 5RBI 12TB (0.161 avg) -- home split: 0.251 avg
+- #2 Trea Turner (R) -- L7: 5H 0HR 2RBI 7TB (0.185 avg) -- home split: 0.269 avg
+- #3 Bryce Harper (L) -- L7: 8H 0HR 1RBI 8TB (0.320 avg) -- home split: 0.262 avg
+- #4 Luis Arraez (L) [8-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 14H 1HR 5RBI 19TB (0.452 avg) -- home split: 0.360 avg
+- #5 Alec Bohm (R) -- L7: 14H 1HR 11RBI 24TB (0.452 avg) -- home split: 0.252 avg
+- #6 Edmundo Sosa (R) [likely BABIP-driven, not a real power uptick] -- L7: 6H 0HR 5RBI 9TB (0.333 avg) -- home split: 0.217 avg
+- #7 Bryan De La Cruz (R) -- L7: 2H 0HR 2RBI 2TB (0.200 avg) -- home split: 0.357 avg
+- #8 J.T. Realmuto (R) -- L7: 4H 0HR 4RBI 6TB (0.182 avg) -- home split: 0.246 avg
+- #9 Derek Hill (R) -- L7: 2H 0HR 2RBI 2TB (0.286 avg) -- home split: 0.205 avg
 
 ## 2026-08-22 - Los Angeles Angels @ Texas Rangers (Scheduled)
 _Globe Life Field [hitter-friendly park]_
@@ -206,7 +206,7 @@ _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.42)_
 ## 2026-08-22 - Tampa Bay Rays @ Baltimore Orioles (Scheduled)
 _Oriole Park at Camden Yards_
 Projected score: Tampa Bay Rays 3.79 - Baltimore Orioles 3.33
-Model likes: **Tampa Bay Rays** to win (54%) | Run line: **Baltimore Orioles** +1.5 (63% to cover) | Total 6.5: lean **OVER** (51%)
+Model likes: **Tampa Bay Rays** to win (55%) | Run line: **Baltimore Orioles** +1.5 (63% to cover) | Total 6.5: lean **OVER** (51%)
 
 ### Tampa Bay Rays lineup -- PROJECTED (unconfirmed)
 **Probable P: Shane McClanahan (L)** -- L5: 22.7 IP, 17 K, 10 ER, 3.97 ERA
@@ -353,9 +353,9 @@ _Facing a rested bullpen: 3.7 relief IP in last 2 days (ratio 0.69)_
 - Kyle Tucker (L) -- L7: 3H 0HR 1RBI 4TB (0.103 avg) -- home split: 0.186 avg
 - Freddie Freeman (L) -- L7: 6H 0HR 4RBI 9TB (0.214 avg) -- home split: 0.263 avg
 
-## 2026-08-22 - Detroit Tigers @ Kansas City Royals (Scheduled)
+## 2026-08-22 - Detroit Tigers @ Kansas City Royals (Pre-Game)
 _Kauffman Stadium [pitcher-friendly park]_
-Projected score: Detroit Tigers 4.32 - Kansas City Royals 3.06
+Projected score: Detroit Tigers 4.32 - Kansas City Royals 3.08
 Model likes: **Detroit Tigers** to win (62%) | Run line: **Kansas City Royals** +1.5 (55% to cover) | Total 6.5: lean **OVER** (54%)
 
 ### Detroit Tigers lineup -- PROJECTED (unconfirmed)
@@ -371,18 +371,18 @@ _Facing a taxed bullpen: 9.0 relief IP in last 2 days (ratio 1.69)_
 - Hao-Yu Lee (R) [likely BABIP-driven, not a real power uptick] -- L7: 6H 0HR 2RBI 6TB (0.400 avg) -- away split: 0.295 avg -- news: Hao-Yu Lee sets single-season record for hits by a player born in Taiwan
 - Ben Malgeri (R) -- L7: 3H 2HR 3RBI 9TB (0.231 avg) -- away split: 0.222 avg
 
-### Kansas City Royals lineup -- PROJECTED (unconfirmed)
+### Kansas City Royals lineup -- CONFIRMED
 _Facing a rested bullpen: 2.3 relief IP in last 2 days (ratio 0.47)_
 **Probable P: Michael Wacha (R)** -- L5: 30.3 IP, 19 K, 11 ER, 3.26 ERA
-- Bobby Witt Jr. (R) -- L7: 9H 3HR 6RBI 19TB (0.333 avg) -- home split: 0.313 avg
-- Jac Caglianone (L) [likely BABIP-driven, not a real power uptick] -- L7: 10H 1HR 7RBI 14TB (0.417 avg) -- home split: 0.290 avg
-- Michael Massey (L) [7-game hit streak] -- L7: 13H 2HR 4RBI 21TB (0.520 avg) -- home split: 0.307 avg
-- Isaac Collins (S) -- L7: 2H 0HR 3RBI 2TB (0.111 avg) -- home split: 0.269 avg
-- Nick Loftin (R) -- L7: 2H 0HR 1RBI 4TB (0.091 avg) -- home split: 0.211 avg
-- Carter Jensen (L) [5-game hit streak] -- L7: 5H 1HR 2RBI 9TB (0.217 avg) -- home split: 0.245 avg
-- Kyle Isbel (L) -- L7: 6H 1HR 4RBI 10TB (0.286 avg) -- home split: 0.241 avg
-- Salvador Perez (R) [3-game hit streak] -- L7: 7H 0HR 4RBI 8TB (0.280 avg) -- home split: 0.244 avg
-- John Rave (L) -- L7: 1H 0HR 3RBI 2TB (0.062 avg) -- home split: 0.130 avg
+- #1 Carter Jensen (L) [5-game hit streak] -- L7: 5H 1HR 2RBI 9TB (0.217 avg) -- home split: 0.245 avg
+- #2 Bobby Witt Jr. (R) -- L7: 9H 3HR 6RBI 19TB (0.333 avg) -- home split: 0.313 avg
+- #3 Jac Caglianone (L) [likely BABIP-driven, not a real power uptick] -- L7: 10H 1HR 7RBI 14TB (0.417 avg) -- home split: 0.290 avg
+- #4 Salvador Perez (R) [3-game hit streak] -- L7: 7H 0HR 4RBI 8TB (0.280 avg) -- home split: 0.244 avg
+- #5 Vinnie Pasquantino (L) [5-game hit streak] -- L7: 12H 2HR 4RBI 21TB (0.462 avg) -- home split: 0.238 avg
+- #6 Nick Loftin (R) -- L7: 2H 0HR 1RBI 4TB (0.091 avg) -- home split: 0.211 avg
+- #7 Michael Massey (L) [7-game hit streak] -- L7: 13H 2HR 4RBI 21TB (0.520 avg) -- home split: 0.307 avg
+- #8 Tyler Tolbert (R) -- L7: 3H 0HR 2RBI 4TB (0.231 avg) -- home split: 0.270 avg
+- #9 Kyle Isbel (L) -- L7: 6H 1HR 4RBI 10TB (0.286 avg) -- home split: 0.241 avg
 
 ## 2026-08-22 - San Francisco Giants @ Boston Red Sox (Scheduled)
 _Fenway Park_
@@ -658,7 +658,7 @@ _Facing a rested bullpen: 2.3 relief IP in last 2 days (ratio 0.47)_
 ## 2026-08-23 - Athletics @ Houston Astros (Scheduled)
 _Daikin Park_
 Projected score: Athletics 3.91 - Houston Astros 5.32
-Model likes: **Houston Astros** to win (62%) | Run line: **Athletics** +1.5 (53% to cover) | Total 8.5: lean **OVER** (51%)
+Model likes: **Houston Astros** to win (61%) | Run line: **Athletics** +1.5 (53% to cover) | Total 8.5: lean **OVER** (51%)
 
 ### Athletics lineup -- PROJECTED (unconfirmed)
 - Henry Bolte (R) [likely BABIP-driven, not a real power uptick] -- L7: 11H 1HR 4RBI 15TB (0.379 avg) -- away split: 0.217 avg
@@ -804,7 +804,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.55)_
 ## 2026-08-23 - Chicago Cubs @ Seattle Mariners (Scheduled)
 _T-Mobile Park [pitcher-friendly park]_
 Projected score: Chicago Cubs 4.53 - Seattle Mariners 2.79
-Model likes: **Chicago Cubs** to win (66%) | Run line: **Seattle Mariners** +1.5 (50% to cover) | Total 6.5: lean **OVER** (53%)
+Model likes: **Chicago Cubs** to win (67%) | Run line: **Seattle Mariners** +1.5 (50% to cover) | Total 6.5: lean **OVER** (53%)
 
 ### Chicago Cubs lineup -- PROJECTED (unconfirmed)
 **Probable P: Shota Imanaga (L)** -- L5: 28.3 IP, 31 K, 10 ER, 3.18 ERA
@@ -893,7 +893,7 @@ _Facing a rested bullpen: 3.7 relief IP in last 2 days (ratio 0.69)_
 ## 2026-08-23 - Cincinnati Reds @ Arizona Diamondbacks (Scheduled)
 _Chase Field [hitter-friendly park]_
 Projected score: Cincinnati Reds 3.53 - Arizona Diamondbacks 5.05
-Model likes: **Arizona Diamondbacks** to win (63%) | Run line: **Cincinnati Reds** +1.5 (52% to cover) | Total 7.5: lean **OVER** (55%)
+Model likes: **Arizona Diamondbacks** to win (63%) | Run line: **Cincinnati Reds** +1.5 (52% to cover) | Total 7.5: lean **OVER** (54%)
 
 ### Cincinnati Reds lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.3 relief IP in last 2 days (ratio 0.62)_
@@ -1070,7 +1070,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-24 - Cleveland Guardians @ Los Angeles Angels (Scheduled)
 _Angel Stadium_
 Projected score: Cleveland Guardians 3.61 - Los Angeles Angels 2.57
-Model likes: **Cleveland Guardians** to win (62%) | Run line: **Los Angeles Angels** +1.5 (58% to cover) | Total 5.5: lean **OVER** (52%)
+Model likes: **Cleveland Guardians** to win (61%) | Run line: **Los Angeles Angels** +1.5 (58% to cover) | Total 5.5: lean **OVER** (52%)
 
 ### Cleveland Guardians lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1159,7 +1159,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-24 - Minnesota Twins @ Athletics (Scheduled)
 _Sutter Health Park_
 Projected score: Minnesota Twins 7.02 - Athletics 5.33
-Model likes: **Minnesota Twins** to win (61%) | Run line: **Athletics** +1.5 (51% to cover) | Total 11.5: lean **OVER** (50%)
+Model likes: **Minnesota Twins** to win (61%) | Run line: **Athletics** +1.5 (50% to cover) | Total 11.5: lean **OVER** (50%)
 
 ### Minnesota Twins lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
