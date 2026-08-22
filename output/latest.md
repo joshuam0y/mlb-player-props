@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-22T05:56:58.527028+00:00_
+_Generated 2026-08-22T06:45:41.097094+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -266,7 +266,7 @@ _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.41)_
 ## 2026-08-22 - New York Mets @ Chicago White Sox (Scheduled)
 _Rate Field_
 Projected score: New York Mets 3.92 - Chicago White Sox 3.45
-Model likes: **New York Mets** to win (54%) | Run line: **Chicago White Sox** +1.5 (62% to cover) | Total 6.5: lean **OVER** (54%)
+Model likes: **New York Mets** to win (55%) | Run line: **Chicago White Sox** +1.5 (62% to cover) | Total 6.5: lean **OVER** (54%)
 
 ### New York Mets lineup -- PROJECTED (unconfirmed)
 **Probable P: Christian Scott (R)** -- L5: 25.0 IP, 33 K, 14 ER, 5.04 ERA
@@ -419,7 +419,7 @@ _Facing a taxed bullpen: 8.0 relief IP in last 2 days (ratio 1.72)_
 ## 2026-08-22 - Cleveland Guardians @ Colorado Rockies (Scheduled)
 _Coors Field [hitter-friendly park]_
 Projected score: Cleveland Guardians 5.02 - Colorado Rockies 4.61
-Model likes: **Cleveland Guardians** to win (53%) | Run line: **Colorado Rockies** +1.5 (61% to cover) | Total 8.5: lean **OVER** (54%)
+Model likes: **Cleveland Guardians** to win (53%) | Run line: **Colorado Rockies** +1.5 (61% to cover) | Total 9.5: lean **UNDER** (54%)
 
 ### Cleveland Guardians lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.7 relief IP in last 2 days (ratio 0.12)_
@@ -450,7 +450,7 @@ _Facing a taxed bullpen: 6.7 relief IP in last 2 days (ratio 1.32)_
 ## 2026-08-22 - Cincinnati Reds @ Arizona Diamondbacks (Scheduled)
 _Chase Field [hitter-friendly park]_
 Projected score: Cincinnati Reds 2.86 - Arizona Diamondbacks 5.38
-Model likes: **Arizona Diamondbacks** to win (72%) | Run line: **Arizona Diamondbacks** -1.5 (56% to cover) | Total 7.5: lean **OVER** (51%)
+Model likes: **Arizona Diamondbacks** to win (72%) | Run line: **Arizona Diamondbacks** -1.5 (57% to cover) | Total 7.5: lean **OVER** (51%)
 
 ### Cincinnati Reds lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -747,7 +747,7 @@ _Facing a rested bullpen: 3.7 relief IP in last 2 days (ratio 0.63)_
 ## 2026-08-23 - Cleveland Guardians @ Colorado Rockies (Scheduled)
 _Coors Field [hitter-friendly park]_
 Projected score: Cleveland Guardians 4.11 - Colorado Rockies 3.98
-Model likes: **Cleveland Guardians** to win (51%) | Run line: **Colorado Rockies** +1.5 (65% to cover) | Total 7.5: lean **OVER** (50%)
+Model likes: **Cleveland Guardians** to win (51%) | Run line: **Colorado Rockies** +1.5 (64% to cover) | Total 7.5: lean **OVER** (50%)
 
 ### Cleveland Guardians lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.7 relief IP in last 2 days (ratio 0.12)_
@@ -869,7 +869,7 @@ _Facing a rested bullpen: 1.0 relief IP in last 2 days (ratio 0.25)_
 ## 2026-08-23 - Pittsburgh Pirates @ Los Angeles Dodgers (Scheduled)
 _UNIQLO Field at Dodger Stadium_
 Projected score: Pittsburgh Pirates 3.35 - Los Angeles Dodgers 4.32
-Model likes: **Los Angeles Dodgers** to win (59%) | Run line: **Pittsburgh Pirates** +1.5 (57% to cover) | Total 7.5: lean **UNDER** (54%)
+Model likes: **Los Angeles Dodgers** to win (59%) | Run line: **Pittsburgh Pirates** +1.5 (58% to cover) | Total 7.5: lean **UNDER** (54%)
 
 ### Pittsburgh Pirates lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1135,7 +1135,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-24 - Pittsburgh Pirates @ San Diego Padres (Scheduled)
 _Petco Park [pitcher-friendly park]_
 Projected score: Pittsburgh Pirates 2.8 - San Diego Padres 4.08
-Model likes: **San Diego Padres** to win (63%) | Run line: **Pittsburgh Pirates** +1.5 (55% to cover) | Total 6.5: lean **UNDER** (52%)
+Model likes: **San Diego Padres** to win (63%) | Run line: **Pittsburgh Pirates** +1.5 (55% to cover) | Total 6.5: lean **UNDER** (51%)
 
 ### Pittsburgh Pirates lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
