@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-22T14:18:26.041963+00:00_
+_Generated 2026-08-22T14:46:08.577733+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -31,8 +31,8 @@ _Generated 2026-08-22T14:18:26.041963+00:00_
 
 ## Today's Top Unders
 ### Batters
-- **George Lombard Jr.** (New York Yankees vs Toronto Blue Jays): tough matchup vs. tonight's pitcher -- try Walks: 80% under 0.5 recently (vs. 10-game sample)
 - **Heliot Ramos** (New York Yankees vs Toronto Blue Jays): tough matchup vs. tonight's pitcher -- try Runs Scored: 90% under 0.5 recently (vs. 10-game sample)
+- **George Lombard Jr.** (New York Yankees vs Toronto Blue Jays): tough matchup vs. tonight's pitcher -- try Walks: 80% under 0.5 recently (vs. 10-game sample)
 - **José Caballero** (New York Yankees vs Toronto Blue Jays): tough matchup vs. tonight's pitcher -- try Total Bases: 100% under 1.5 recently (vs. 10-game sample)
 - **Jackson Holliday** (Baltimore Orioles vs Tampa Bay Rays): tough matchup vs. tonight's pitcher -- try Walks: 70% under 0.5 recently (vs. 10-game sample)
 - **Gunnar Henderson** (Baltimore Orioles vs Tampa Bay Rays): tough matchup vs. tonight's pitcher -- try RBIs: 80% under 0.5 recently (vs. 10-game sample)
@@ -54,9 +54,9 @@ _Generated 2026-08-22T14:18:26.041963+00:00_
 - **Jacob Lopez** (Athletics vs Houston Astros): 3 hitters in tonight's lineup are in a tough matchup against him -- try Runs Allowed: 100% under 2.5 recently (vs. 5-game sample)
 - **Michael Soroka** (Arizona Diamondbacks vs Cincinnati Reds): 6 hitters in tonight's lineup are in a tough matchup against him -- try Runs Allowed: 80% under 1.5 recently (vs. 5-game sample)
 
-## 2026-08-22 - Toronto Blue Jays @ New York Yankees (Scheduled)
+## 2026-08-22 - Toronto Blue Jays @ New York Yankees (Pre-Game)
 _Yankee Stadium [hitter-friendly park]_
-Projected score: Toronto Blue Jays 3.17 - New York Yankees 2.85
+Projected score: Toronto Blue Jays 3.17 - New York Yankees 2.86
 Model likes: **Toronto Blue Jays** to win (53%) | Run line: **New York Yankees** +1.5 (66% to cover) | Total 5.5: lean **OVER** (51%)
 
 ### Toronto Blue Jays lineup -- PROJECTED (unconfirmed)
@@ -71,23 +71,23 @@ Model likes: **Toronto Blue Jays** to win (53%) | Run line: **New York Yankees**
 - Brett Bateman (L) -- L7: 10H 0HR 1RBI 13TB (0.323 avg) -- away split: 0.296 avg
 - Brandon Valenzuela (S) [3-game hit streak] -- L7: 3H 0HR 0RBI 5TB (0.200 avg) -- away split: 0.217 avg
 
-### New York Yankees lineup -- PROJECTED (unconfirmed)
+### New York Yankees lineup -- CONFIRMED
 _Facing a taxed bullpen: 9.3 relief IP in last 2 days (ratio 1.41)_
 **Probable P: Ryan Weathers (L)** -- L5: 31.7 IP, 25 K, 3 ER, 0.85 ERA
-- George Lombard Jr. (R) [TOUGH MATCHUP: pitcher holds this hand to 0.199 avg-against] -- L7: 7H 0HR 3RBI 8TB (0.304 avg) -- home split: 0.273 avg
-- Ben Rice (L) -- L7: 4H 2HR 4RBI 10TB (0.148 avg) -- home split: 0.232 avg
-- Spencer Jones (L) [4-game hit streak] -- L7: 8H 2HR 3RBI 15TB (0.308 avg) -- home split: 0.212 avg -- news: Bellinger lands on IL with hamstring strain; Spencer Jones recalled
-- Heliot Ramos (R) [TOUGH MATCHUP: pitcher holds this hand to 0.199 avg-against] [3-game hit streak] -- L7: 4H 0HR 1RBI 6TB (0.167 avg) -- home split: 0.256 avg
-- Austin Wells (L) -- L7: 2H 0HR 0RBI 2TB (0.111 avg) -- home split: 0.196 avg
-- Trent Grisham (L) -- L7: 6H 2HR 4RBI 12TB (0.240 avg) -- home split: 0.274 avg
-- Luis García Jr. (L) -- L7: 6H 1HR 2RBI 9TB (0.240 avg) -- home split: 0.259 avg
-- Jazz Chisholm Jr. (L) -- L7: 4H 0HR 1RBI 6TB (0.190 avg) -- home split: 0.207 avg
-- José Caballero (R) [TOUGH MATCHUP: pitcher holds this hand to 0.199 avg-against] -- L7: 1H 0HR 3RBI 1TB (0.091 avg) -- home split: 0.211 avg
+- #1 Trent Grisham (L) -- L7: 6H 2HR 4RBI 12TB (0.240 avg) -- home split: 0.274 avg
+- #2 Ben Rice (L) -- L7: 4H 2HR 4RBI 10TB (0.148 avg) -- home split: 0.232 avg
+- #3 Heliot Ramos (R) [TOUGH MATCHUP: pitcher holds this hand to 0.199 avg-against] [3-game hit streak] -- L7: 4H 0HR 1RBI 6TB (0.167 avg) -- home split: 0.256 avg
+- #4 Luis García Jr. (L) -- L7: 6H 1HR 2RBI 9TB (0.240 avg) -- home split: 0.259 avg
+- #5 Spencer Jones (L) [4-game hit streak] -- L7: 8H 2HR 3RBI 15TB (0.308 avg) -- home split: 0.212 avg -- news: Bellinger lands on IL with hamstring strain; Spencer Jones recalled
+- #6 George Lombard Jr. (R) [TOUGH MATCHUP: pitcher holds this hand to 0.199 avg-against] -- L7: 7H 0HR 3RBI 8TB (0.304 avg) -- home split: 0.273 avg
+- #7 Jazz Chisholm Jr. (L) -- L7: 4H 0HR 1RBI 6TB (0.190 avg) -- home split: 0.207 avg
+- #8 Austin Wells (L) -- L7: 2H 0HR 0RBI 2TB (0.111 avg) -- home split: 0.196 avg
+- #9 José Caballero (R) [TOUGH MATCHUP: pitcher holds this hand to 0.199 avg-against] -- L7: 1H 0HR 3RBI 1TB (0.091 avg) -- home split: 0.211 avg
 
 ## 2026-08-22 - Atlanta Braves @ Milwaukee Brewers (Scheduled)
 _American Family Field_
 Projected score: Atlanta Braves 2.94 - Milwaukee Brewers 3.55
-Model likes: **Milwaukee Brewers** to win (56%) | Run line: **Atlanta Braves** +1.5 (62% to cover) | Total 6.5: lean **UNDER** (56%)
+Model likes: **Milwaukee Brewers** to win (57%) | Run line: **Atlanta Braves** +1.5 (62% to cover) | Total 6.5: lean **UNDER** (56%)
 
 ### Atlanta Braves lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 8.3 relief IP in last 2 days (ratio 1.39)_
@@ -206,7 +206,7 @@ _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.42)_
 ## 2026-08-22 - Tampa Bay Rays @ Baltimore Orioles (Scheduled)
 _Oriole Park at Camden Yards_
 Projected score: Tampa Bay Rays 3.79 - Baltimore Orioles 3.33
-Model likes: **Tampa Bay Rays** to win (55%) | Run line: **Baltimore Orioles** +1.5 (63% to cover) | Total 6.5: lean **OVER** (51%)
+Model likes: **Tampa Bay Rays** to win (54%) | Run line: **Baltimore Orioles** +1.5 (63% to cover) | Total 6.5: lean **OVER** (51%)
 
 ### Tampa Bay Rays lineup -- PROJECTED (unconfirmed)
 **Probable P: Shane McClanahan (L)** -- L5: 22.7 IP, 17 K, 10 ER, 3.97 ERA
@@ -569,7 +569,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.5)_
 ## 2026-08-23 - Tampa Bay Rays @ Baltimore Orioles (Scheduled)
 _Oriole Park at Camden Yards_
 Projected score: Tampa Bay Rays 4.11 - Baltimore Orioles 3.23
-Model likes: **Tampa Bay Rays** to win (59%) | Run line: **Baltimore Orioles** +1.5 (59% to cover) | Total 6.5: lean **OVER** (53%)
+Model likes: **Tampa Bay Rays** to win (58%) | Run line: **Baltimore Orioles** +1.5 (59% to cover) | Total 6.5: lean **OVER** (53%)
 
 ### Tampa Bay Rays lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.39)_
@@ -745,7 +745,7 @@ _Facing a rested bullpen: 3.7 relief IP in last 2 days (ratio 0.63)_
 ## 2026-08-23 - Cleveland Guardians @ Colorado Rockies (Scheduled)
 _Coors Field [hitter-friendly park]_
 Projected score: Cleveland Guardians 4.13 - Colorado Rockies 4.06
-Model likes: **Cleveland Guardians** to win (51%) | Run line: **Colorado Rockies** +1.5 (65% to cover) | Total 7.5: lean **OVER** (51%)
+Model likes: **Cleveland Guardians** to win (50%) | Run line: **Colorado Rockies** +1.5 (65% to cover) | Total 7.5: lean **OVER** (51%)
 
 ### Cleveland Guardians lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.52)_
@@ -864,7 +864,7 @@ _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.49)_
 ## 2026-08-23 - Pittsburgh Pirates @ Los Angeles Dodgers (Scheduled)
 _UNIQLO Field at Dodger Stadium_
 Projected score: Pittsburgh Pirates 3.39 - Los Angeles Dodgers 4.32
-Model likes: **Los Angeles Dodgers** to win (59%) | Run line: **Pittsburgh Pirates** +1.5 (58% to cover) | Total 7.5: lean **UNDER** (53%)
+Model likes: **Los Angeles Dodgers** to win (59%) | Run line: **Pittsburgh Pirates** +1.5 (58% to cover) | Total 7.5: lean **UNDER** (54%)
 
 ### Pittsburgh Pirates lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.3 relief IP in last 2 days (ratio 0.62)_
@@ -893,7 +893,7 @@ _Facing a rested bullpen: 3.3 relief IP in last 2 days (ratio 0.62)_
 ## 2026-08-23 - Cincinnati Reds @ Arizona Diamondbacks (Scheduled)
 _Chase Field [hitter-friendly park]_
 Projected score: Cincinnati Reds 3.53 - Arizona Diamondbacks 5.05
-Model likes: **Arizona Diamondbacks** to win (63%) | Run line: **Cincinnati Reds** +1.5 (52% to cover) | Total 7.5: lean **OVER** (55%)
+Model likes: **Arizona Diamondbacks** to win (63%) | Run line: **Cincinnati Reds** +1.5 (52% to cover) | Total 7.5: lean **OVER** (54%)
 
 ### Cincinnati Reds lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.3 relief IP in last 2 days (ratio 0.62)_
@@ -1041,7 +1041,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-24 - Texas Rangers @ Chicago White Sox (Scheduled)
 _Rate Field_
 Projected score: Texas Rangers 3.36 - Chicago White Sox 4.89
-Model likes: **Chicago White Sox** to win (63%) | Run line: **Texas Rangers** +1.5 (52% to cover) | Total 7.5: lean **OVER** (52%)
+Model likes: **Chicago White Sox** to win (64%) | Run line: **Texas Rangers** +1.5 (52% to cover) | Total 7.5: lean **OVER** (52%)
 
 ### Texas Rangers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1188,7 +1188,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-24 - Chicago Cubs @ Arizona Diamondbacks (Scheduled)
 _Chase Field [hitter-friendly park]_
 Projected score: Chicago Cubs 5.13 - Arizona Diamondbacks 4.88
-Model likes: **Chicago Cubs** to win (52%) | Run line: **Arizona Diamondbacks** +1.5 (61% to cover) | Total 9.5: lean **UNDER** (51%)
+Model likes: **Chicago Cubs** to win (52%) | Run line: **Arizona Diamondbacks** +1.5 (62% to cover) | Total 9.5: lean **UNDER** (51%)
 
 ### Chicago Cubs lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
