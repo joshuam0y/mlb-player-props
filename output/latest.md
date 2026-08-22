@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-22T14:52:51.768356+00:00_
+_Generated 2026-08-22T15:04:40.016888+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -31,6 +31,9 @@ _Generated 2026-08-22T14:52:51.768356+00:00_
 
 ## Today's Top Unders
 ### Batters
+- **Heliot Ramos** (New York Yankees vs Toronto Blue Jays): tough matchup vs. tonight's pitcher -- try Runs Scored: 90% under 0.5 recently (vs. 10-game sample)
+- **George Lombard Jr.** (New York Yankees vs Toronto Blue Jays): tough matchup vs. tonight's pitcher -- try Walks: 80% under 0.5 recently (vs. 10-game sample)
+- **José Caballero** (New York Yankees vs Toronto Blue Jays): tough matchup vs. tonight's pitcher -- try Total Bases: 100% under 1.5 recently (vs. 10-game sample)
 - **Jackson Holliday** (Baltimore Orioles vs Tampa Bay Rays): tough matchup vs. tonight's pitcher -- try Walks: 70% under 0.5 recently (vs. 10-game sample)
 - **Gunnar Henderson** (Baltimore Orioles vs Tampa Bay Rays): tough matchup vs. tonight's pitcher -- try RBIs: 80% under 0.5 recently (vs. 10-game sample)
 - **Colton Cowser** (Baltimore Orioles vs Tampa Bay Rays): tough matchup vs. tonight's pitcher -- try Walks: 100% under 0.5 recently (vs. 10-game sample)
@@ -43,9 +46,6 @@ _Generated 2026-08-22T14:52:51.768356+00:00_
 - **Max Muncy** (Athletics vs Houston Astros): tough matchup vs. tonight's pitcher -- try Runs Scored: 80% under 0.5 recently (vs. 10-game sample)
 - **Zack Gelof** (Athletics vs Houston Astros): tough matchup vs. tonight's pitcher -- try Total Bases: 80% under 1.5 recently (vs. 10-game sample)
 - **Alika Williams** (Athletics vs Houston Astros): tough matchup vs. tonight's pitcher -- try RBIs: 100% under 0.5 recently (vs. 10-game sample)
-- **Sal Stewart** (Cincinnati Reds vs Arizona Diamondbacks): tough matchup vs. tonight's pitcher -- try Hits + Runs + RBIs: 60% under 2.5 recently (vs. 10-game sample)
-- **Matt McLain** (Cincinnati Reds vs Arizona Diamondbacks): tough matchup vs. tonight's pitcher -- try Hits + Runs + RBIs: 70% under 1.5 recently (vs. 10-game sample)
-- **Eugenio Suárez** (Cincinnati Reds vs Arizona Diamondbacks): tough matchup vs. tonight's pitcher -- try Total Bases: 70% under 1.5 recently (vs. 10-game sample)
 
 ### Pitchers
 - **Dylan Cease** (Toronto Blue Jays vs New York Yankees): 3 hitters in tonight's lineup are in a tough matchup against him -- try Hits Allowed: 80% under 3.5 recently (vs. 5-game sample)
@@ -56,8 +56,8 @@ _Generated 2026-08-22T14:52:51.768356+00:00_
 
 ## 2026-08-22 - Toronto Blue Jays @ New York Yankees (Pre-Game)
 _Yankee Stadium [hitter-friendly park]_
-Projected score: Toronto Blue Jays 3.17 - New York Yankees 2.85
-Model likes: **Toronto Blue Jays** to win (54%) | Run line: **New York Yankees** +1.5 (66% to cover) | Total 5.5: lean **OVER** (51%)
+Projected score: Toronto Blue Jays 3.17 - New York Yankees 2.86
+Model likes: **Toronto Blue Jays** to win (53%) | Run line: **New York Yankees** +1.5 (66% to cover) | Total 5.5: lean **OVER** (51%)
 
 ### Toronto Blue Jays lineup -- PROJECTED (unconfirmed)
 **Probable P: Dylan Cease (R)** -- L5: 33.3 IP, 46 K, 6 ER, 1.62 ERA
@@ -87,7 +87,7 @@ _Facing a taxed bullpen: 9.3 relief IP in last 2 days (ratio 1.41)_
 ## 2026-08-22 - Atlanta Braves @ Milwaukee Brewers (Scheduled)
 _American Family Field_
 Projected score: Atlanta Braves 2.94 - Milwaukee Brewers 3.55
-Model likes: **Milwaukee Brewers** to win (57%) | Run line: **Atlanta Braves** +1.5 (62% to cover) | Total 6.5: lean **UNDER** (56%)
+Model likes: **Milwaukee Brewers** to win (56%) | Run line: **Atlanta Braves** +1.5 (62% to cover) | Total 6.5: lean **UNDER** (56%)
 
 ### Atlanta Braves lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 8.3 relief IP in last 2 days (ratio 1.39)_
@@ -206,7 +206,7 @@ _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.42)_
 ## 2026-08-22 - Tampa Bay Rays @ Baltimore Orioles (Scheduled)
 _Oriole Park at Camden Yards_
 Projected score: Tampa Bay Rays 3.79 - Baltimore Orioles 3.33
-Model likes: **Tampa Bay Rays** to win (54%) | Run line: **Baltimore Orioles** +1.5 (63% to cover) | Total 6.5: lean **OVER** (51%)
+Model likes: **Tampa Bay Rays** to win (55%) | Run line: **Baltimore Orioles** +1.5 (63% to cover) | Total 6.5: lean **OVER** (51%)
 
 ### Tampa Bay Rays lineup -- PROJECTED (unconfirmed)
 **Probable P: Shane McClanahan (L)** -- L5: 22.7 IP, 17 K, 10 ER, 3.97 ERA
@@ -266,7 +266,7 @@ _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.41)_
 ## 2026-08-22 - New York Mets @ Chicago White Sox (Scheduled)
 _Rate Field_
 Projected score: New York Mets 3.92 - Chicago White Sox 3.45
-Model likes: **New York Mets** to win (54%) | Run line: **Chicago White Sox** +1.5 (62% to cover) | Total 6.5: lean **OVER** (54%)
+Model likes: **New York Mets** to win (55%) | Run line: **Chicago White Sox** +1.5 (63% to cover) | Total 6.5: lean **OVER** (54%)
 
 ### New York Mets lineup -- PROJECTED (unconfirmed)
 **Probable P: Christian Scott (R)** -- L5: 25.0 IP, 33 K, 14 ER, 5.04 ERA
@@ -745,7 +745,7 @@ _Facing a rested bullpen: 3.7 relief IP in last 2 days (ratio 0.63)_
 ## 2026-08-23 - Cleveland Guardians @ Colorado Rockies (Scheduled)
 _Coors Field [hitter-friendly park]_
 Projected score: Cleveland Guardians 4.13 - Colorado Rockies 4.06
-Model likes: **Cleveland Guardians** to win (50%) | Run line: **Colorado Rockies** +1.5 (65% to cover) | Total 7.5: lean **OVER** (51%)
+Model likes: **Cleveland Guardians** to win (51%) | Run line: **Colorado Rockies** +1.5 (65% to cover) | Total 7.5: lean **OVER** (51%)
 
 ### Cleveland Guardians lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.52)_
@@ -1041,7 +1041,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-24 - Texas Rangers @ Chicago White Sox (Scheduled)
 _Rate Field_
 Projected score: Texas Rangers 3.36 - Chicago White Sox 4.89
-Model likes: **Chicago White Sox** to win (64%) | Run line: **Texas Rangers** +1.5 (52% to cover) | Total 7.5: lean **OVER** (52%)
+Model likes: **Chicago White Sox** to win (63%) | Run line: **Texas Rangers** +1.5 (52% to cover) | Total 7.5: lean **OVER** (52%)
 
 ### Texas Rangers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1159,7 +1159,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-24 - Minnesota Twins @ Athletics (Scheduled)
 _Sutter Health Park_
 Projected score: Minnesota Twins 7.02 - Athletics 5.33
-Model likes: **Minnesota Twins** to win (61%) | Run line: **Athletics** +1.5 (51% to cover) | Total 11.5: lean **OVER** (51%)
+Model likes: **Minnesota Twins** to win (61%) | Run line: **Athletics** +1.5 (51% to cover) | Total 11.5: lean **OVER** (50%)
 
 ### Minnesota Twins lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
