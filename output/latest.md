@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-22T08:33:04.138061+00:00_
+_Generated 2026-08-22T08:45:33.922711+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -57,7 +57,7 @@ _Generated 2026-08-22T08:33:04.138061+00:00_
 ## 2026-08-22 - Toronto Blue Jays @ New York Yankees (Scheduled)
 _Yankee Stadium [hitter-friendly park]_
 Projected score: Toronto Blue Jays 3.17 - New York Yankees 2.85
-Model likes: **Toronto Blue Jays** to win (54%) | Run line: **New York Yankees** +1.5 (66% to cover) | Total 5.5: lean **OVER** (51%)
+Model likes: **Toronto Blue Jays** to win (53%) | Run line: **New York Yankees** +1.5 (66% to cover) | Total 5.5: lean **OVER** (51%)
 
 ### Toronto Blue Jays lineup -- PROJECTED (unconfirmed)
 **Probable P: Dylan Cease (R)** -- L5: 33.3 IP, 46 K, 6 ER, 1.62 ERA
@@ -266,7 +266,7 @@ _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.41)_
 ## 2026-08-22 - New York Mets @ Chicago White Sox (Scheduled)
 _Rate Field_
 Projected score: New York Mets 3.92 - Chicago White Sox 3.45
-Model likes: **New York Mets** to win (55%) | Run line: **Chicago White Sox** +1.5 (62% to cover) | Total 6.5: lean **OVER** (54%)
+Model likes: **New York Mets** to win (54%) | Run line: **Chicago White Sox** +1.5 (63% to cover) | Total 6.5: lean **OVER** (54%)
 
 ### New York Mets lineup -- PROJECTED (unconfirmed)
 **Probable P: Christian Scott (R)** -- L5: 25.0 IP, 33 K, 14 ER, 5.04 ERA
@@ -314,7 +314,7 @@ _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.5)_
 ### Seattle Mariners lineup -- PROJECTED (unconfirmed)
 **Probable P: Kade Anderson (L)** -- L5: no data
 - Cole Young (L) -- L7: 4H 1HR 4RBI 7TB (0.143 avg) -- home split: 0.261 avg
-- Dominic Canzone (L) [likely BABIP-driven, not a real power uptick] -- L7: 10H 0HR 5RBI 14TB (0.345 avg) -- home split: 0.253 avg
+- Dominic Canzone (L) -- L7: 10H 0HR 5RBI 14TB (0.333 avg) -- home split: 0.252 avg
 - Julio Rodríguez (R) [MATCHUP EDGE: pitcher hits 0.290 avg-against vs this hand] -- L7: 6H 0HR 1RBI 8TB (0.188 avg) -- home split: 0.276 avg
 - Randy Arozarena (R) [MATCHUP EDGE: pitcher hits 0.290 avg-against vs this hand] -- L7: 6H 1HR 2RBI 11TB (0.200 avg) -- home split: 0.236 avg
 - Cal Raleigh (S) [MATCHUP EDGE: pitcher hits 0.290 avg-against vs this hand] -- L7: 2H 2HR 4RBI 8TB (0.111 avg) -- home split: 0.162 avg
@@ -540,7 +540,7 @@ Model likes: **Philadelphia Phillies** to win (63%) | Run line: **St. Louis Card
 ## 2026-08-23 - Toronto Blue Jays @ New York Yankees (Scheduled)
 _Yankee Stadium [hitter-friendly park]_
 Projected score: Toronto Blue Jays 2.96 - New York Yankees 3.31
-Model likes: **New York Yankees** to win (54%) | Run line: **Toronto Blue Jays** +1.5 (65% to cover) | Total 5.5: lean **OVER** (53%)
+Model likes: **New York Yankees** to win (54%) | Run line: **Toronto Blue Jays** +1.5 (65% to cover) | Total 5.5: lean **OVER** (54%)
 
 ### Toronto Blue Jays lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.5)_
@@ -823,7 +823,7 @@ _Facing a rested bullpen: 2.3 relief IP in last 2 days (ratio 0.5)_
 ### Seattle Mariners lineup -- PROJECTED (unconfirmed)
 **Probable P: Bryce Miller (R)** -- L5: 26.3 IP, 16 K, 21 ER, 7.18 ERA
 - Cole Young (L) [TOUGH MATCHUP: pitcher holds this hand to 0.203 avg-against] -- L7: 4H 1HR 4RBI 7TB (0.143 avg) -- home split: 0.261 avg
-- Dominic Canzone (L) [TOUGH MATCHUP: pitcher holds this hand to 0.203 avg-against] [likely BABIP-driven, not a real power uptick] -- L7: 10H 0HR 5RBI 14TB (0.345 avg) -- home split: 0.253 avg
+- Dominic Canzone (L) [TOUGH MATCHUP: pitcher holds this hand to 0.203 avg-against] -- L7: 10H 0HR 5RBI 14TB (0.333 avg) -- home split: 0.252 avg
 - Julio Rodríguez (R) -- L7: 6H 0HR 1RBI 8TB (0.188 avg) -- home split: 0.276 avg
 - Randy Arozarena (R) -- L7: 6H 1HR 2RBI 11TB (0.200 avg) -- home split: 0.236 avg
 - Cal Raleigh (S) -- L7: 2H 2HR 4RBI 8TB (0.111 avg) -- home split: 0.162 avg
@@ -866,7 +866,7 @@ _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.49)_
 ## 2026-08-23 - Pittsburgh Pirates @ Los Angeles Dodgers (Scheduled)
 _UNIQLO Field at Dodger Stadium_
 Projected score: Pittsburgh Pirates 3.39 - Los Angeles Dodgers 4.32
-Model likes: **Los Angeles Dodgers** to win (59%) | Run line: **Pittsburgh Pirates** +1.5 (58% to cover) | Total 7.5: lean **UNDER** (53%)
+Model likes: **Los Angeles Dodgers** to win (59%) | Run line: **Pittsburgh Pirates** +1.5 (58% to cover) | Total 7.5: lean **UNDER** (54%)
 
 ### Pittsburgh Pirates lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.3 relief IP in last 2 days (ratio 0.62)_
@@ -1120,7 +1120,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ### Seattle Mariners lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 - Cole Young (L) -- L7: 4H 1HR 4RBI 7TB (0.143 avg) -- home split: 0.261 avg
-- Dominic Canzone (L) [likely BABIP-driven, not a real power uptick] -- L7: 10H 0HR 5RBI 14TB (0.345 avg) -- home split: 0.253 avg
+- Dominic Canzone (L) -- L7: 10H 0HR 5RBI 14TB (0.333 avg) -- home split: 0.252 avg
 - Julio Rodríguez (R) -- L7: 6H 0HR 1RBI 8TB (0.188 avg) -- home split: 0.276 avg
 - Randy Arozarena (R) -- L7: 6H 1HR 2RBI 11TB (0.200 avg) -- home split: 0.236 avg
 - Cal Raleigh (S) -- L7: 2H 2HR 4RBI 8TB (0.111 avg) -- home split: 0.162 avg
@@ -1162,7 +1162,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-24 - Minnesota Twins @ Athletics (Scheduled)
 _Sutter Health Park_
 Projected score: Minnesota Twins 7.02 - Athletics 5.33
-Model likes: **Minnesota Twins** to win (61%) | Run line: **Athletics** +1.5 (51% to cover) | Total 11.5: lean **OVER** (50%)
+Model likes: **Minnesota Twins** to win (61%) | Run line: **Athletics** +1.5 (50% to cover) | Total 11.5: lean **OVER** (50%)
 
 ### Minnesota Twins lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1220,7 +1220,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-24 - Cincinnati Reds @ San Francisco Giants (Scheduled)
 _Oracle Park [pitcher-friendly park]_
 Projected score: Cincinnati Reds 3.74 - San Francisco Giants 2.75
-Model likes: **Cincinnati Reds** to win (60%) | Run line: **San Francisco Giants** +1.5 (58% to cover) | Total 6.5: lean **UNDER** (56%)
+Model likes: **Cincinnati Reds** to win (60%) | Run line: **San Francisco Giants** +1.5 (58% to cover) | Total 5.5: lean **OVER** (56%)
 
 ### Cincinnati Reds lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
