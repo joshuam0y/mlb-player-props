@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-22T21:34:32.682420+00:00_
+_Generated 2026-08-22T21:34:32.559225+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -544,7 +544,7 @@ Model likes: **New York Yankees** to win (54%) | Run line: **Toronto Blue Jays**
 - Myles Straw (R) -- L7: 0H 0HR 0RBI 0TB (0.000 avg) -- away split: 0.215 avg
 - Ernie Clement (R) [4-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 9H 0HR 1RBI 9TB (0.409 avg) -- away split: 0.281 avg
 - Nathan Lukes (L) -- L7: 3H 1HR 3RBI 6TB (0.125 avg) -- away split: 0.272 avg
-- Brett Bateman (L) -- L7: 11H 0HR 1RBI 14TB (0.393 avg) -- away split: 0.345 avg
+- Brett Bateman (L) -- L7: 11H 0HR 1RBI 14TB (0.379 avg) -- away split: 0.333 avg
 - Kazuma Okamoto (R) [8-game hit streak] -- L7: 8H 2HR 3RBI 17TB (0.276 avg) -- away split: 0.224 avg
 - Alejandro Kirk (R) [11-game hit streak] -- L7: 10H 2HR 7RBI 17TB (0.400 avg) -- away split: 0.276 avg
 - Andrés Giménez (L) -- L7: 6H 0HR 1RBI 7TB (0.240 avg) -- away split: 0.224 avg
@@ -721,10 +721,10 @@ Model likes: **Texas Rangers** to win (50%) | Run line: **Los Angeles Angels** +
 - Mike Trout (R) -- L7: 3H 0HR 0RBI 4TB (0.115 avg) -- away split: 0.247 avg
 - Moisés Ballesteros (L) -- L7: 3H 0HR 2RBI 4TB (0.103 avg) -- away split: 0.197 avg
 - Zach Neto (R) [4-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 10H 1HR 9RBI 15TB (0.357 avg) -- away split: 0.252 avg
-- Wade Meckler (L) -- L7: 4H 0HR 0RBI 4TB (0.167 avg) -- away split: 0.270 avg
 - Josh Lowe (L) -- L7: 6H 2HR 2RBI 12TB (0.240 avg) -- away split: 0.227 avg
-- Nolan Schanuel (L) -- L7: 8H 0HR 7RBI 9TB (0.320 avg) -- away split: 0.266 avg
 - Vaughn Grissom (R) -- L7: 6H 0HR 3RBI 7TB (0.222 avg) -- away split: 0.269 avg
+- Oswald Peraza (R) -- L7: 1H 0HR 0RBI 2TB (0.091 avg) -- away split: 0.234 avg
+- Tyler Heineman (S) -- L7: 3H 0HR 1RBI 3TB (0.200 avg) -- away split: 0.210 avg
 
 ### Texas Rangers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.7 relief IP in last 2 days (ratio 0.63)_
@@ -801,7 +801,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.55)_
 ## 2026-08-23 - Chicago Cubs @ Seattle Mariners (Scheduled)
 _T-Mobile Park [pitcher-friendly park]_
 Projected score: Chicago Cubs 4.53 - Seattle Mariners 2.79
-Model likes: **Chicago Cubs** to win (67%) | Run line: **Seattle Mariners** +1.5 (50% to cover) | Total 6.5: lean **OVER** (53%)
+Model likes: **Chicago Cubs** to win (66%) | Run line: **Seattle Mariners** +1.5 (50% to cover) | Total 6.5: lean **OVER** (53%)
 
 ### Chicago Cubs lineup -- PROJECTED (unconfirmed)
 **Probable P: Shota Imanaga (L)** -- L5: 28.3 IP, 31 K, 10 ER, 3.18 ERA
@@ -928,7 +928,7 @@ Model likes: **Milwaukee Brewers** to win (59%) | Run line: **Atlanta Braves** +
 - Michael Harris II (L) [7-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 10H 0HR 2RBI 15TB (0.400 avg) -- away split: 0.306 avg
 - Austin Riley (R) -- L7: 5H 0HR 2RBI 7TB (0.200 avg) -- away split: 0.173 avg
 - Ronald Acuña Jr. (R) -- L7: 3H 0HR 4RBI 4TB (0.111 avg) -- away split: 0.225 avg
-- Matt Olson (L) -- L7: 5H 1HR 3RBI 9TB (0.227 avg) -- away split: 0.254 avg -- news: How Matt Olson became a king of scoops at first base
+- Matt Olson (L) -- L7: 5H 1HR 3RBI 9TB (0.200 avg) -- away split: 0.251 avg -- news: How Matt Olson became a king of scoops at first base
 - Ozzie Albies (S) -- L7: 4H 0HR 1RBI 5TB (0.160 avg) -- away split: 0.245 avg
 - Mauricio Dubón (R) -- L7: 6H 0HR 0RBI 6TB (0.286 avg) -- away split: 0.246 avg
 - Mike Yastrzemski (L) -- L7: 3H 0HR 0RBI 3TB (0.176 avg) -- away split: 0.216 avg
@@ -1037,7 +1037,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-24 - Texas Rangers @ Chicago White Sox (Scheduled)
 _Rate Field_
 Projected score: Texas Rangers 3.36 - Chicago White Sox 4.89
-Model likes: **Chicago White Sox** to win (63%) | Run line: **Texas Rangers** +1.5 (52% to cover) | Total 7.5: lean **OVER** (52%)
+Model likes: **Chicago White Sox** to win (64%) | Run line: **Texas Rangers** +1.5 (52% to cover) | Total 7.5: lean **OVER** (52%)
 
 ### Texas Rangers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1088,10 +1088,10 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 - Mike Trout (R) -- L7: 3H 0HR 0RBI 4TB (0.115 avg) -- home split: 0.225 avg
 - Moisés Ballesteros (L) -- L7: 3H 0HR 2RBI 4TB (0.103 avg) -- home split: 0.212 avg
 - Zach Neto (R) [4-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 10H 1HR 9RBI 15TB (0.357 avg) -- home split: 0.209 avg
-- Wade Meckler (L) -- L7: 4H 0HR 0RBI 4TB (0.167 avg) -- home split: 0.311 avg
 - Josh Lowe (L) -- L7: 6H 2HR 2RBI 12TB (0.240 avg) -- home split: 0.192 avg
-- Nolan Schanuel (L) -- L7: 8H 0HR 7RBI 9TB (0.320 avg) -- home split: 0.285 avg
 - Vaughn Grissom (R) -- L7: 6H 0HR 3RBI 7TB (0.222 avg) -- home split: 0.224 avg
+- Oswald Peraza (R) -- L7: 1H 0HR 0RBI 2TB (0.091 avg) -- home split: 0.218 avg
+- Tyler Heineman (S) -- L7: 3H 0HR 1RBI 3TB (0.200 avg) -- home split: 0.160 avg
 
 ## 2026-08-24 - Philadelphia Phillies @ Seattle Mariners (Scheduled)
 _T-Mobile Park [pitcher-friendly park]_
