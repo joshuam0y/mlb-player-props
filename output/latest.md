@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-22T20:39:08.261474+00:00_
+_Generated 2026-08-22T20:39:29.921479+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -542,16 +542,15 @@ Projected score: Toronto Blue Jays 2.96 - New York Yankees 3.31
 Model likes: **New York Yankees** to win (54%) | Run line: **Toronto Blue Jays** +1.5 (65% to cover) | Total 5.5: lean **OVER** (54%)
 
 ### Toronto Blue Jays lineup -- PROJECTED (unconfirmed)
-_Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.5)_
 **Probable P: José Soriano (R)** -- L5: 28.3 IP, 21 K, 7 ER, 2.22 ERA
 - Myles Straw (R) -- L7: 0H 0HR 0RBI 0TB (0.000 avg) -- away split: 0.215 avg
 - Ernie Clement (R) [4-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 9H 0HR 1RBI 9TB (0.409 avg) -- away split: 0.281 avg
 - Nathan Lukes (L) -- L7: 3H 1HR 3RBI 6TB (0.125 avg) -- away split: 0.272 avg
 - Brett Bateman (L) -- L7: 11H 0HR 1RBI 14TB (0.393 avg) -- away split: 0.345 avg
+- Kazuma Okamoto (R) [8-game hit streak] -- L7: 8H 2HR 3RBI 17TB (0.276 avg) -- away split: 0.224 avg
 - Alejandro Kirk (R) [11-game hit streak] -- L7: 10H 2HR 7RBI 17TB (0.400 avg) -- away split: 0.276 avg
 - Andrés Giménez (L) -- L7: 6H 0HR 1RBI 7TB (0.240 avg) -- away split: 0.224 avg
 - George Springer (R) -- L7: 5H 0HR 3RBI 6TB (0.227 avg) -- away split: 0.230 avg
-- Kazuma Okamoto (R) [7-game hit streak] -- L7: 8H 2HR 3RBI 16TB (0.286 avg) -- away split: 0.224 avg
 - Charles McAdoo (R) [likely BABIP-driven, not a real power uptick] -- L7: 9H 0HR 5RBI 11TB (0.375 avg) -- away split: 0.286 avg
 
 ### New York Yankees lineup -- PROJECTED (unconfirmed)
@@ -604,8 +603,8 @@ Model likes: **Washington Nationals** to win (52%) | Run line: **Miami Marlins**
 
 ### Washington Nationals lineup -- PROJECTED (unconfirmed)
 **Probable P: Jackson Kent (L)** -- L5: 7.7 IP, 9 K, 8 ER, 9.39 ERA
+- Abimelec Ortiz (L) [MATCHUP EDGE: pitcher hits 0.313 avg-against vs this hand] -- L7: 3H 1HR 1RBI 7TB (0.150 avg) -- away split: 0.143 avg
 - Daylen Lile (L) [MATCHUP EDGE: pitcher hits 0.313 avg-against vs this hand] -- L7: 5H 0HR 1RBI 5TB (0.172 avg) -- away split: 0.253 avg
-- Abimelec Ortiz (L) [MATCHUP EDGE: pitcher hits 0.313 avg-against vs this hand] -- L7: 3H 1HR 1RBI 7TB (0.125 avg) -- away split: 0.147 avg
 - Dylan Crews (R) -- L7: 2H 0HR 0RBI 2TB (0.100 avg) -- away split: 0.200 avg
 - Brady House (R) -- L7: 5H 1HR 4RBI 8TB (0.263 avg) -- away split: 0.201 avg
 - Jacob Young (R) -- L7: 7H 0HR 0RBI 7TB (0.292 avg) -- away split: 0.234 avg
@@ -926,13 +925,12 @@ Projected score: Atlanta Braves 3.55 - Milwaukee Brewers 4.56
 Model likes: **Milwaukee Brewers** to win (59%) | Run line: **Atlanta Braves** +1.5 (57% to cover) | Total 7.5: lean **OVER** (50%)
 
 ### Atlanta Braves lineup -- PROJECTED (unconfirmed)
-_Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.5)_
 **Probable P: Tyler Mahle (R)** -- L5: 30.3 IP, 31 K, 8 ER, 2.37 ERA
 - Drake Baldwin (L) -- L7: 5H 1HR 2RBI 9TB (0.200 avg) -- away split: 0.254 avg
 - Michael Harris II (L) [7-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 10H 0HR 2RBI 15TB (0.400 avg) -- away split: 0.306 avg
+- Austin Riley (R) -- L7: 5H 0HR 2RBI 7TB (0.200 avg) -- away split: 0.173 avg
 - Ronald Acuña Jr. (R) -- L7: 3H 0HR 4RBI 4TB (0.111 avg) -- away split: 0.225 avg
 - Matt Olson (L) -- L7: 5H 1HR 3RBI 9TB (0.227 avg) -- away split: 0.254 avg -- news: How Matt Olson became a king of scoops at first base
-- Austin Riley (R) -- L7: 5H 0HR 2RBI 7TB (0.192 avg) -- away split: 0.175 avg
 - Ozzie Albies (S) -- L7: 4H 0HR 1RBI 5TB (0.160 avg) -- away split: 0.245 avg
 - Mauricio Dubón (R) -- L7: 6H 0HR 0RBI 6TB (0.286 avg) -- away split: 0.246 avg
 - Mike Yastrzemski (L) -- L7: 3H 0HR 0RBI 3TB (0.176 avg) -- away split: 0.216 avg
@@ -942,7 +940,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.5)_
 _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.38)_
 **Probable P: Shane Drohan (L)** -- L5: 24.3 IP, 23 K, 16 ER, 5.92 ERA
 - Luis Lara (S) -- L7: 7H 1HR 4RBI 10TB (0.280 avg) -- home split: 0.294 avg
-- Jake Bauers (L) -- L7: 8H 2HR 6RBI 16TB (0.381 avg) -- home split: 0.249 avg
+- Jake Bauers (L) -- L7: 8H 2HR 6RBI 16TB (0.348 avg) -- home split: 0.246 avg
 - Jackson Chourio (R) [5-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 10H 0HR 1RBI 12TB (0.357 avg) -- home split: 0.280 avg
 - William Contreras (R) [likely BABIP-driven, not a real power uptick] -- L7: 10H 1HR 6RBI 14TB (0.400 avg) -- home split: 0.269 avg
 - Andrew Vaughn (R) [5-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 8H 0HR 3RBI 8TB (0.381 avg) -- home split: 0.282 avg
@@ -1028,8 +1026,8 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 
 ### Washington Nationals lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
+- Abimelec Ortiz (L) -- L7: 3H 1HR 1RBI 7TB (0.150 avg) -- home split: 0.400 avg
 - Daylen Lile (L) -- L7: 5H 0HR 1RBI 5TB (0.172 avg) -- home split: 0.235 avg
-- Abimelec Ortiz (L) -- L7: 3H 1HR 1RBI 7TB (0.125 avg) -- home split: 0.400 avg
 - Dylan Crews (R) -- L7: 2H 0HR 0RBI 2TB (0.100 avg) -- home split: 0.220 avg
 - Brady House (R) -- L7: 5H 1HR 4RBI 8TB (0.263 avg) -- home split: 0.287 avg
 - Jacob Young (R) -- L7: 7H 0HR 0RBI 7TB (0.292 avg) -- home split: 0.265 avg
@@ -1159,7 +1157,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-24 - Minnesota Twins @ Athletics (Scheduled)
 _Sutter Health Park_
 Projected score: Minnesota Twins 7.02 - Athletics 5.33
-Model likes: **Minnesota Twins** to win (61%) | Run line: **Athletics** +1.5 (50% to cover) | Total 11.5: lean **OVER** (50%)
+Model likes: **Minnesota Twins** to win (61%) | Run line: **Athletics** +1.5 (51% to cover) | Total 11.5: lean **OVER** (50%)
 
 ### Minnesota Twins lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
