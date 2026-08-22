@@ -37632,7 +37632,7 @@
     },
     "2026-08-18": {
       "date": "2026-08-18",
-      "graded_at": "2026-08-22T04:06:31.104442+00:00",
+      "graded_at": "2026-08-22T04:46:23.198063+00:00",
       "top_overs": {
         "n": 23,
         "hits": 10,
@@ -39172,7 +39172,7 @@
     },
     "2026-08-19": {
       "date": "2026-08-19",
-      "graded_at": "2026-08-22T04:06:30.804862+00:00",
+      "graded_at": "2026-08-22T04:46:22.897300+00:00",
       "top_overs": {
         "n": 23,
         "hits": 15,
@@ -40730,7 +40730,7 @@
     },
     "2026-08-20": {
       "date": "2026-08-20",
-      "graded_at": "2026-08-22T04:06:30.502904+00:00",
+      "graded_at": "2026-08-22T04:46:22.586008+00:00",
       "top_overs": {
         "n": 22,
         "hits": 14,
@@ -42118,7 +42118,7 @@
     },
     "2026-08-21": {
       "date": "2026-08-21",
-      "graded_at": "2026-08-22T04:06:30.278696+00:00",
+      "graded_at": "2026-08-22T04:46:22.351535+00:00",
       "top_overs": {
         "n": 23,
         "hits": 7,
@@ -43178,10 +43178,10 @@
       ],
       "games": {
         "moneyline": {
-          "n": 12,
-          "hits": 9,
+          "n": 13,
+          "hits": 10,
           "misses": 3,
-          "hit_rate": 0.75,
+          "hit_rate": 0.769,
           "examples": [
             {
               "matchup": "Atlanta Braves @ Milwaukee Brewers",
@@ -43246,10 +43246,10 @@
           ]
         },
         "run_line": {
-          "n": 12,
-          "hits": 4,
+          "n": 13,
+          "hits": 5,
           "misses": 8,
-          "hit_rate": 0.333,
+          "hit_rate": 0.385,
           "examples": [
             {
               "matchup": "Atlanta Braves @ Milwaukee Brewers",
@@ -43314,10 +43314,10 @@
           ]
         },
         "total": {
-          "n": 12,
+          "n": 13,
           "hits": 9,
-          "misses": 3,
-          "hit_rate": 0.75,
+          "misses": 4,
+          "hit_rate": 0.692,
           "examples": [
             {
               "matchup": "Atlanta Braves @ Milwaukee Brewers",
@@ -43382,9 +43382,9 @@
           ]
         },
         "score_accuracy": {
-          "n": 12,
-          "mae": 2.56,
-          "bias": -0.43
+          "n": 13,
+          "mae": 2.43,
+          "bias": -0.32
         },
         "score_examples": [
           {
@@ -43470,11 +43470,11 @@
         ]
       },
       "matchup_leans": {
-        "n": 239,
-        "hits": 138,
-        "misses": 92,
-        "no_data": 9,
-        "hit_rate": 0.6,
+        "n": 259,
+        "hits": 142,
+        "misses": 96,
+        "no_data": 21,
+        "hit_rate": 0.597,
         "examples": [
           {
             "name": "Jackson Chourio",
@@ -43569,11 +43569,11 @@
         ]
       },
       "best_prop_stars": {
-        "n": 24,
-        "hits": 15,
+        "n": 26,
+        "hits": 16,
         "misses": 8,
-        "no_data": 1,
-        "hit_rate": 0.652,
+        "no_data": 2,
+        "hit_rate": 0.667,
         "examples": [
           {
             "name": "Jacob Misiorowski",
@@ -43739,25 +43739,25 @@
     },
     "games": {
       "moneyline": {
-        "n": 392,
-        "hits": 218,
+        "n": 393,
+        "hits": 219,
         "misses": 174,
-        "hit_rate": 0.556
+        "hit_rate": 0.557
       },
       "run_line": {
-        "n": 392,
-        "hits": 229,
+        "n": 393,
+        "hits": 230,
         "misses": 163,
-        "hit_rate": 0.584
+        "hit_rate": 0.585
       },
       "total": {
-        "n": 392,
+        "n": 393,
         "hits": 209,
-        "misses": 183,
-        "hit_rate": 0.533
+        "misses": 184,
+        "hit_rate": 0.532
       },
       "score_accuracy": {
-        "n": 392,
+        "n": 393,
         "mae": 3.52,
         "bias": 0.58,
         "avg_projected": 0.0,
@@ -43766,70 +43766,21 @@
     },
     "matchup_leans": {
       "days": 29,
-      "n": 7502,
-      "hits": 4640,
-      "misses": 2616,
-      "no_data": 246,
+      "n": 7522,
+      "hits": 4644,
+      "misses": 2620,
+      "no_data": 258,
       "hit_rate": 0.639
     },
     "best_prop_stars": {
       "days": 29,
-      "n": 754,
-      "hits": 360,
+      "n": 756,
+      "hits": 361,
       "misses": 377,
-      "no_data": 17,
-      "hit_rate": 0.488
+      "no_data": 18,
+      "hit_rate": 0.489
     },
     "projection_accuracy": {
-      "Runs Scored": {
-        "n": 6769,
-        "mae": 0.55,
-        "bias": -0.01,
-        "avg_projected": 0.45,
-        "avg_actual": 0.44
-      },
-      "Walks Allowed": {
-        "n": 760,
-        "mae": 0.95,
-        "bias": 0.11,
-        "avg_projected": 1.7,
-        "avg_actual": 1.81
-      },
-      "Hits": {
-        "n": 6769,
-        "mae": 0.69,
-        "bias": 0.01,
-        "avg_projected": 0.83,
-        "avg_actual": 0.84
-      },
-      "Runs Allowed": {
-        "n": 760,
-        "mae": 1.59,
-        "bias": 0.09,
-        "avg_projected": 2.26,
-        "avg_actual": 2.35
-      },
-      "Hits + Runs + RBIs": {
-        "n": 4362,
-        "mae": 1.48,
-        "bias": 0.02,
-        "avg_projected": 1.71,
-        "avg_actual": 1.73
-      },
-      "Total Bases": {
-        "n": 6769,
-        "mae": 1.3,
-        "bias": -0.02,
-        "avg_projected": 1.38,
-        "avg_actual": 1.36
-      },
-      "Hits Allowed": {
-        "n": 760,
-        "mae": 1.88,
-        "bias": 0.19,
-        "avg_projected": 4.62,
-        "avg_actual": 4.82
-      },
       "Strikeouts": {
         "n": 760,
         "mae": 1.87,
@@ -43844,12 +43795,26 @@
         "avg_projected": 14.81,
         "avg_actual": 15.47
       },
-      "Walks": {
+      "Total Bases": {
         "n": 6769,
-        "mae": 0.47,
-        "bias": 0.02,
-        "avg_projected": 0.34,
-        "avg_actual": 0.35
+        "mae": 1.3,
+        "bias": -0.02,
+        "avg_projected": 1.38,
+        "avg_actual": 1.36
+      },
+      "Runs Scored": {
+        "n": 6769,
+        "mae": 0.55,
+        "bias": -0.01,
+        "avg_projected": 0.45,
+        "avg_actual": 0.44
+      },
+      "Hits Allowed": {
+        "n": 760,
+        "mae": 1.88,
+        "bias": 0.19,
+        "avg_projected": 4.62,
+        "avg_actual": 4.82
       },
       "RBIs": {
         "n": 6769,
@@ -43858,15 +43823,50 @@
         "avg_projected": 0.43,
         "avg_actual": 0.42
       },
+      "Hits": {
+        "n": 6769,
+        "mae": 0.69,
+        "bias": 0.01,
+        "avg_projected": 0.83,
+        "avg_actual": 0.84
+      },
+      "Walks": {
+        "n": 6769,
+        "mae": 0.47,
+        "bias": 0.02,
+        "avg_projected": 0.34,
+        "avg_actual": 0.35
+      },
+      "Walks Allowed": {
+        "n": 760,
+        "mae": 0.95,
+        "bias": 0.11,
+        "avg_projected": 1.7,
+        "avg_actual": 1.81
+      },
+      "Runs Allowed": {
+        "n": 760,
+        "mae": 1.59,
+        "bias": 0.09,
+        "avg_projected": 2.26,
+        "avg_actual": 2.35
+      },
       "Home Runs": {
         "n": 6769,
         "mae": 0.2,
         "bias": -0.01,
         "avg_projected": 0.12,
         "avg_actual": 0.11
+      },
+      "Hits + Runs + RBIs": {
+        "n": 4362,
+        "mae": 1.48,
+        "bias": 0.02,
+        "avg_projected": 1.71,
+        "avg_actual": 1.73
       }
     },
     "days_tracked": 29
   },
-  "updated_at": "2026-08-22T04:06:31.130493+00:00"
+  "updated_at": "2026-08-22T04:46:23.224032+00:00"
 }
