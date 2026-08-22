@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-22T09:40:16.970941+00:00_
+_Generated 2026-08-22T09:43:40.840123+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -57,7 +57,7 @@ _Generated 2026-08-22T09:40:16.970941+00:00_
 ## 2026-08-22 - Toronto Blue Jays @ New York Yankees (Scheduled)
 _Yankee Stadium [hitter-friendly park]_
 Projected score: Toronto Blue Jays 3.17 - New York Yankees 2.85
-Model likes: **Toronto Blue Jays** to win (54%) | Run line: **New York Yankees** +1.5 (66% to cover) | Total 5.5: lean **OVER** (51%)
+Model likes: **Toronto Blue Jays** to win (53%) | Run line: **New York Yankees** +1.5 (66% to cover) | Total 5.5: lean **OVER** (51%)
 
 ### Toronto Blue Jays lineup -- PROJECTED (unconfirmed)
 **Probable P: Dylan Cease (R)** -- L5: 33.3 IP, 46 K, 6 ER, 1.62 ERA
@@ -305,8 +305,8 @@ _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.5)_
 - Ian Happ (S) -- L7: 5H 1HR 1RBI 9TB (0.208 avg) -- away split: 0.217 avg
 - Alex Bregman (R) -- L7: 9H 2HR 5RBI 16TB (0.321 avg) -- away split: 0.297 avg
 - Michael Busch (L) -- L7: 6H 1HR 1RBI 11TB (0.231 avg) -- away split: 0.233 avg
+- Seiya Suzuki (R) -- L7: 6H 2HR 4RBI 15TB (0.214 avg) -- away split: 0.260 avg
 - Nico Hoerner (R) -- L7: 8H 0HR 2RBI 8TB (0.286 avg) -- away split: 0.257 avg
-- Seiya Suzuki (R) -- L7: 5H 2HR 4RBI 14TB (0.192 avg) -- away split: 0.262 avg
 - Pedro Ramírez (S) -- L7: 6H 0HR 0RBI 8TB (0.240 avg) -- away split: 0.300 avg
 - Tyrone Taylor (R) [likely BABIP-driven, not a real power uptick] -- L7: 3H 0HR 1RBI 4TB (0.333 avg) -- away split: 0.205 avg
 - Michael Conforto (L) -- L7: 1H 1HR 4RBI 4TB (0.059 avg) -- away split: 0.241 avg
@@ -346,12 +346,12 @@ _Facing a rested bullpen: 3.7 relief IP in last 2 days (ratio 0.59)_
 **Probable P: Tarik Skubal (L)** -- L5: 31.0 IP, 37 K, 10 ER, 2.9 ERA
 - Andy Pages (R) -- L7: 9H 2HR 4RBI 16TB (0.346 avg) -- home split: 0.293 avg
 - Shohei Ohtani (L) -- L7: 8H 3HR 6RBI 19TB (0.286 avg) -- home split: 0.291 avg
+- Teoscar Hernández (R) -- L7: 6H 0HR 1RBI 9TB (0.231 avg) -- home split: 0.242 avg
 - Mookie Betts (R) -- L7: 7H 1HR 7RBI 11TB (0.233 avg) -- home split: 0.234 avg
 - Max Muncy (L) -- L7: 6H 3HR 7RBI 16TB (0.286 avg) -- home split: 0.236 avg -- news: 10 questions with Dodgers vet Max Muncy
 - Tommy Edman (S) [3-game hit streak] -- L7: 7H 1HR 2RBI 12TB (0.269 avg) -- home split: 0.250 avg
-- Teoscar Hernández (R) -- L7: 7H 0HR 1RBI 10TB (0.280 avg) -- home split: 0.248 avg
+- Kyle Tucker (L) -- L7: 3H 0HR 1RBI 4TB (0.103 avg) -- home split: 0.186 avg
 - Hunter Feduccia (L) -- L7: 3H 1HR 1RBI 6TB (0.200 avg) -- home split: 0.247 avg
-- Kyle Tucker (L) -- L7: 3H 0HR 1RBI 4TB (0.107 avg) -- home split: 0.189 avg
 - Freddie Freeman (L) [3-game hit streak] -- L7: 7H 0HR 4RBI 10TB (0.280 avg) -- home split: 0.268 avg
 
 ## 2026-08-22 - Detroit Tigers @ Kansas City Royals (Scheduled)
@@ -455,7 +455,7 @@ Model likes: **Arizona Diamondbacks** to win (72%) | Run line: **Arizona Diamond
 ### Cincinnati Reds lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.3 relief IP in last 2 days (ratio 0.44)_
 **Probable P: Rhett Lowder (R)** -- L5: 29.0 IP, 21 K, 12 ER, 3.72 ERA
-- Sal Stewart (R) [TOUGH MATCHUP: pitcher holds this hand to 0.180 avg-against] [6-game hit streak] -- L7: 6H 1HR 5RBI 10TB (0.231 avg) -- away split: 0.262 avg
+- Sal Stewart (R) [TOUGH MATCHUP: pitcher holds this hand to 0.180 avg-against] [6-game hit streak] -- L7: 6H 1HR 5RBI 10TB (0.222 avg) -- away split: 0.261 avg
 - Elly De La Cruz (S) [MATCHUP EDGE: pitcher hits 0.266 avg-against vs this hand] -- L7: 4H 0HR 1RBI 5TB (0.154 avg) -- away split: 0.225 avg
 - Matt McLain (R) [TOUGH MATCHUP: pitcher holds this hand to 0.180 avg-against] -- L7: 5H 1HR 4RBI 9TB (0.208 avg) -- away split: 0.206 avg
 - JJ Bleday (L) [MATCHUP EDGE: pitcher hits 0.266 avg-against vs this hand] -- L7: 4H 0HR 1RBI 4TB (0.182 avg) -- away split: 0.191 avg
@@ -814,8 +814,8 @@ _Facing a rested bullpen: 2.3 relief IP in last 2 days (ratio 0.5)_
 - Ian Happ (S) -- L7: 5H 1HR 1RBI 9TB (0.208 avg) -- away split: 0.217 avg
 - Alex Bregman (R) [TOUGH MATCHUP: pitcher holds this hand to 0.204 avg-against] -- L7: 9H 2HR 5RBI 16TB (0.321 avg) -- away split: 0.297 avg
 - Michael Busch (L) -- L7: 6H 1HR 1RBI 11TB (0.231 avg) -- away split: 0.233 avg
+- Seiya Suzuki (R) [TOUGH MATCHUP: pitcher holds this hand to 0.204 avg-against] -- L7: 6H 2HR 4RBI 15TB (0.214 avg) -- away split: 0.260 avg
 - Nico Hoerner (R) [TOUGH MATCHUP: pitcher holds this hand to 0.204 avg-against] -- L7: 8H 0HR 2RBI 8TB (0.286 avg) -- away split: 0.257 avg
-- Seiya Suzuki (R) [TOUGH MATCHUP: pitcher holds this hand to 0.204 avg-against] -- L7: 5H 2HR 4RBI 14TB (0.192 avg) -- away split: 0.262 avg
 - Pedro Ramírez (S) -- L7: 6H 0HR 0RBI 8TB (0.240 avg) -- away split: 0.300 avg
 - Tyrone Taylor (R) [TOUGH MATCHUP: pitcher holds this hand to 0.204 avg-against] [likely BABIP-driven, not a real power uptick] -- L7: 3H 0HR 1RBI 4TB (0.333 avg) -- away split: 0.205 avg
 - Michael Conforto (L) -- L7: 1H 1HR 4RBI 4TB (0.059 avg) -- away split: 0.241 avg
@@ -866,7 +866,7 @@ _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.49)_
 ## 2026-08-23 - Pittsburgh Pirates @ Los Angeles Dodgers (Scheduled)
 _UNIQLO Field at Dodger Stadium_
 Projected score: Pittsburgh Pirates 3.39 - Los Angeles Dodgers 4.32
-Model likes: **Los Angeles Dodgers** to win (59%) | Run line: **Pittsburgh Pirates** +1.5 (58% to cover) | Total 7.5: lean **UNDER** (54%)
+Model likes: **Los Angeles Dodgers** to win (59%) | Run line: **Pittsburgh Pirates** +1.5 (58% to cover) | Total 7.5: lean **UNDER** (53%)
 
 ### Pittsburgh Pirates lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.3 relief IP in last 2 days (ratio 0.62)_
@@ -885,12 +885,12 @@ _Facing a rested bullpen: 3.7 relief IP in last 2 days (ratio 0.59)_
 **Probable P: Blake Snell (L)** -- L5: 28.0 IP, 37 K, 7 ER, 2.25 ERA
 - Andy Pages (R) -- L7: 9H 2HR 4RBI 16TB (0.346 avg) -- home split: 0.293 avg
 - Shohei Ohtani (L) -- L7: 8H 3HR 6RBI 19TB (0.286 avg) -- home split: 0.291 avg
+- Teoscar Hernández (R) -- L7: 6H 0HR 1RBI 9TB (0.231 avg) -- home split: 0.242 avg
 - Mookie Betts (R) -- L7: 7H 1HR 7RBI 11TB (0.233 avg) -- home split: 0.234 avg
 - Max Muncy (L) -- L7: 6H 3HR 7RBI 16TB (0.286 avg) -- home split: 0.236 avg -- news: 10 questions with Dodgers vet Max Muncy
 - Tommy Edman (S) [3-game hit streak] -- L7: 7H 1HR 2RBI 12TB (0.269 avg) -- home split: 0.250 avg
-- Teoscar Hernández (R) -- L7: 7H 0HR 1RBI 10TB (0.280 avg) -- home split: 0.248 avg
+- Kyle Tucker (L) -- L7: 3H 0HR 1RBI 4TB (0.103 avg) -- home split: 0.186 avg
 - Hunter Feduccia (L) -- L7: 3H 1HR 1RBI 6TB (0.200 avg) -- home split: 0.247 avg
-- Kyle Tucker (L) -- L7: 3H 0HR 1RBI 4TB (0.107 avg) -- home split: 0.189 avg
 - Freddie Freeman (L) [3-game hit streak] -- L7: 7H 0HR 4RBI 10TB (0.280 avg) -- home split: 0.268 avg
 
 ## 2026-08-23 - Cincinnati Reds @ Arizona Diamondbacks (Scheduled)
@@ -901,7 +901,7 @@ Model likes: **Arizona Diamondbacks** to win (64%) | Run line: **Cincinnati Reds
 ### Cincinnati Reds lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.3 relief IP in last 2 days (ratio 0.44)_
 **Probable P: Andrew Abbott (L)** -- L5: 28.3 IP, 18 K, 15 ER, 4.76 ERA
-- Sal Stewart (R) [6-game hit streak] -- L7: 6H 1HR 5RBI 10TB (0.231 avg) -- away split: 0.262 avg
+- Sal Stewart (R) [6-game hit streak] -- L7: 6H 1HR 5RBI 10TB (0.222 avg) -- away split: 0.261 avg
 - Elly De La Cruz (S) -- L7: 4H 0HR 1RBI 5TB (0.154 avg) -- away split: 0.225 avg
 - Matt McLain (R) -- L7: 5H 1HR 4RBI 9TB (0.208 avg) -- away split: 0.206 avg
 - JJ Bleday (L) -- L7: 4H 0HR 1RBI 4TB (0.182 avg) -- away split: 0.191 avg
@@ -1199,8 +1199,8 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 - Ian Happ (S) -- L7: 5H 1HR 1RBI 9TB (0.208 avg) -- away split: 0.217 avg
 - Alex Bregman (R) -- L7: 9H 2HR 5RBI 16TB (0.321 avg) -- away split: 0.297 avg
 - Michael Busch (L) -- L7: 6H 1HR 1RBI 11TB (0.231 avg) -- away split: 0.233 avg
+- Seiya Suzuki (R) -- L7: 6H 2HR 4RBI 15TB (0.214 avg) -- away split: 0.260 avg
 - Nico Hoerner (R) -- L7: 8H 0HR 2RBI 8TB (0.286 avg) -- away split: 0.257 avg
-- Seiya Suzuki (R) -- L7: 5H 2HR 4RBI 14TB (0.192 avg) -- away split: 0.262 avg
 - Pedro Ramírez (S) -- L7: 6H 0HR 0RBI 8TB (0.240 avg) -- away split: 0.300 avg
 - Tyrone Taylor (R) [likely BABIP-driven, not a real power uptick] -- L7: 3H 0HR 1RBI 4TB (0.333 avg) -- away split: 0.205 avg
 - Michael Conforto (L) -- L7: 1H 1HR 4RBI 4TB (0.059 avg) -- away split: 0.241 avg
@@ -1225,7 +1225,7 @@ Model likes: **Cincinnati Reds** to win (60%) | Run line: **San Francisco Giants
 ### Cincinnati Reds lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 **Probable P: Chase Burns (R)** -- L5: 28.3 IP, 35 K, 9 ER, 2.86 ERA
-- Sal Stewart (R) [6-game hit streak] -- L7: 6H 1HR 5RBI 10TB (0.231 avg) -- away split: 0.262 avg
+- Sal Stewart (R) [6-game hit streak] -- L7: 6H 1HR 5RBI 10TB (0.222 avg) -- away split: 0.261 avg
 - Elly De La Cruz (S) -- L7: 4H 0HR 1RBI 5TB (0.154 avg) -- away split: 0.225 avg
 - Matt McLain (R) -- L7: 5H 1HR 4RBI 9TB (0.208 avg) -- away split: 0.206 avg
 - JJ Bleday (L) -- L7: 4H 0HR 1RBI 4TB (0.182 avg) -- away split: 0.191 avg
