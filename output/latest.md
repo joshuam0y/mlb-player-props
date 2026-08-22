@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-22T23:18:51.109759+00:00_
+_Generated 2026-08-22T23:43:17.141306+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -173,7 +173,7 @@ _Facing a taxed bullpen: 8.7 relief IP in last 2 days (ratio 1.6)_
 ## 2026-08-22 - Los Angeles Angels @ Texas Rangers (In Progress)
 _Globe Life Field [hitter-friendly park]_
 Projected score: Los Angeles Angels 3.63 - Texas Rangers 4.35
-Model likes: **Texas Rangers** to win (57%) | Run line: **Los Angeles Angels** +1.5 (60% to cover) | Total 7.5: lean **UNDER** (51%)
+Model likes: **Texas Rangers** to win (56%) | Run line: **Los Angeles Angels** +1.5 (60% to cover) | Total 7.5: lean **UNDER** (51%)
 
 ### Los Angeles Angels lineup -- CONFIRMED
 _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.42)_
@@ -537,7 +537,7 @@ Model likes: **Philadelphia Phillies** to win (60%) | Run line: **St. Louis Card
 ## 2026-08-23 - Toronto Blue Jays @ New York Yankees (Scheduled)
 _Yankee Stadium [hitter-friendly park]_
 Projected score: Toronto Blue Jays 2.96 - New York Yankees 3.31
-Model likes: **New York Yankees** to win (54%) | Run line: **Toronto Blue Jays** +1.5 (65% to cover) | Total 5.5: lean **OVER** (53%)
+Model likes: **New York Yankees** to win (54%) | Run line: **Toronto Blue Jays** +1.5 (65% to cover) | Total 5.5: lean **OVER** (54%)
 
 ### Toronto Blue Jays lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 8.7 relief IP in last 2 days (ratio 1.42)_
@@ -1040,7 +1040,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-24 - Texas Rangers @ Chicago White Sox (Scheduled)
 _Rate Field_
 Projected score: Texas Rangers 3.36 - Chicago White Sox 4.89
-Model likes: **Chicago White Sox** to win (63%) | Run line: **Texas Rangers** +1.5 (52% to cover) | Total 7.5: lean **OVER** (52%)
+Model likes: **Chicago White Sox** to win (64%) | Run line: **Texas Rangers** +1.5 (52% to cover) | Total 7.5: lean **OVER** (52%)
 
 ### Texas Rangers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1216,7 +1216,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-24 - Cincinnati Reds @ San Francisco Giants (Scheduled)
 _Oracle Park [pitcher-friendly park]_
 Projected score: Cincinnati Reds 3.74 - San Francisco Giants 2.75
-Model likes: **Cincinnati Reds** to win (60%) | Run line: **San Francisco Giants** +1.5 (58% to cover) | Total 5.5: lean **OVER** (56%)
+Model likes: **Cincinnati Reds** to win (60%) | Run line: **San Francisco Giants** +1.5 (58% to cover) | Total 6.5: lean **UNDER** (56%)
 
 ### Cincinnati Reds lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
