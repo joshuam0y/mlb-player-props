@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-22T21:56:49.781984+00:00_
+_Generated 2026-08-22T22:28:42.126505+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -141,7 +141,7 @@ _Facing a taxed bullpen: 8.3 relief IP in last 2 days (ratio 1.37)_
 - #8 Javier Sanoja (R) [5-game hit streak] -- L7: 9H 2HR 8RBI 16TB (0.391 avg) -- home split: 0.287 avg
 - #9 Esteury Ruiz (R) -- L7: 4H 0HR 0RBI 4TB (0.211 avg) -- home split: 0.242 avg
 
-## 2026-08-22 - St. Louis Cardinals @ Philadelphia Phillies (Warmup)
+## 2026-08-22 - St. Louis Cardinals @ Philadelphia Phillies (In Progress)
 _Citizens Bank Park [hitter-friendly park]_
 Projected score: St. Louis Cardinals 5.86 - Philadelphia Phillies 4.59
 Model likes: **St. Louis Cardinals** to win (59%) | Run line: **Philadelphia Phillies** +1.5 (54% to cover) | Total 9.5: lean **OVER** (52%)
@@ -204,7 +204,7 @@ _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.42)_
 ## 2026-08-22 - Tampa Bay Rays @ Baltimore Orioles (Pre-Game)
 _Oriole Park at Camden Yards_
 Projected score: Tampa Bay Rays 3.74 - Baltimore Orioles 3.41
-Model likes: **Tampa Bay Rays** to win (53%) | Run line: **Baltimore Orioles** +1.5 (64% to cover) | Total 6.5: lean **OVER** (52%)
+Model likes: **Tampa Bay Rays** to win (53%) | Run line: **Baltimore Orioles** +1.5 (64% to cover) | Total 6.5: lean **OVER** (51%)
 
 ### Tampa Bay Rays lineup -- CONFIRMED
 **Probable P: Shane McClanahan (L)** -- L5: 22.7 IP, 17 K, 10 ER, 3.97 ERA
@@ -477,8 +477,8 @@ _Facing a taxed bullpen: 7.7 relief IP in last 2 days (ratio 1.42)_
 
 ## 2026-08-22 - Minnesota Twins @ San Diego Padres (Pre-Game)
 _Petco Park [pitcher-friendly park]_
-Projected score: Minnesota Twins 2.86 - San Diego Padres 3.94
-Model likes: **San Diego Padres** to win (61%) | Run line: **Minnesota Twins** +1.5 (57% to cover) | Total 6.5: lean **UNDER** (52%)
+Projected score: Minnesota Twins 2.86 - San Diego Padres 4.18
+Model likes: **San Diego Padres** to win (63%) | Run line: **Minnesota Twins** +1.5 (55% to cover) | Total 6.5: lean **OVER** (50%)
 
 ### Minnesota Twins lineup -- CONFIRMED
 _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.31)_
@@ -493,18 +493,18 @@ _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.31)_
 - #8 Brooks Lee (S) -- L7: 4H 1HR 5RBI 7TB (0.160 avg) -- away split: 0.279 avg
 - #9 Kaelen Culpepper (R) -- L7: 9H 0HR 0RBI 10TB (0.360 avg) -- away split: 0.125 avg
 
-### San Diego Padres lineup -- PROJECTED (unconfirmed)
+### San Diego Padres lineup -- CONFIRMED
 _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.49)_
 **Probable P: Casey Mize (R)** -- L5: 24.7 IP, 18 K, 12 ER, 4.38 ERA
-- Jackson Merrill (L) -- L7: 2H 0HR 0RBI 2TB (0.080 avg) -- home split: 0.246 avg
-- Fernando Tatis Jr. (R) [3-game hit streak] -- L7: 9H 3HR 7RBI 20TB (0.346 avg) -- home split: 0.323 avg
-- Ty France (R) [4-game hit streak] -- L7: 6H 1HR 4RBI 11TB (0.261 avg) -- home split: 0.306 avg
-- Jake Cronenworth (L) -- L7: 7H 1HR 1RBI 10TB (0.280 avg) -- home split: 0.198 avg
-- Manny Machado (R) [likely BABIP-driven, not a real power uptick] -- L7: 8H 1HR 2RBI 11TB (0.296 avg) -- home split: 0.228 avg
-- Luis Rengifo (S) -- L7: 8H 1HR 2RBI 11TB (0.308 avg) -- home split: 0.237 avg
-- Xander Bogaerts (R) -- L7: 3H 1HR 4RBI 7TB (0.158 avg) -- home split: 0.200 avg
-- Jase Bowen (R) -- L7: 2H 1HR 1RBI 5TB (0.500 avg) -- home split: 0.171 avg
-- Gavin Sheets (L) [3-game hit streak] -- L7: 4H 1HR 2RBI 7TB (0.250 avg) -- home split: 0.171 avg
+- #1 Fernando Tatis Jr. (R) [3-game hit streak] -- L7: 9H 3HR 7RBI 20TB (0.346 avg) -- home split: 0.323 avg
+- #2 Jake Cronenworth (L) -- L7: 7H 1HR 1RBI 10TB (0.280 avg) -- home split: 0.198 avg
+- #3 Manny Machado (R) [likely BABIP-driven, not a real power uptick] -- L7: 8H 1HR 2RBI 11TB (0.296 avg) -- home split: 0.228 avg
+- #4 Ty France (R) [4-game hit streak] -- L7: 6H 1HR 4RBI 11TB (0.261 avg) -- home split: 0.306 avg
+- #5 Jackson Merrill (L) -- L7: 2H 0HR 0RBI 2TB (0.080 avg) -- home split: 0.246 avg
+- #6 Luis Rengifo (S) -- L7: 8H 1HR 2RBI 11TB (0.308 avg) -- home split: 0.237 avg
+- #7 Gavin Sheets (L) [3-game hit streak] -- L7: 4H 1HR 2RBI 7TB (0.250 avg) -- home split: 0.171 avg
+- #8 Xander Bogaerts (R) -- L7: 3H 1HR 4RBI 7TB (0.158 avg) -- home split: 0.200 avg
+- #9 Freddy Fermin (R) -- L7: 3H 0HR 0RBI 4TB (0.158 avg) -- home split: 0.187 avg
 
 ## 2026-08-23 - St. Louis Cardinals @ Philadelphia Phillies (Scheduled)
 _Citizens Bank Park [hitter-friendly park]_
@@ -1039,7 +1039,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-24 - Texas Rangers @ Chicago White Sox (Scheduled)
 _Rate Field_
 Projected score: Texas Rangers 3.36 - Chicago White Sox 4.89
-Model likes: **Chicago White Sox** to win (64%) | Run line: **Texas Rangers** +1.5 (52% to cover) | Total 7.5: lean **OVER** (52%)
+Model likes: **Chicago White Sox** to win (63%) | Run line: **Texas Rangers** +1.5 (52% to cover) | Total 7.5: lean **OVER** (52%)
 
 ### Texas Rangers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
