@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-22T21:02:25.507404+00:00_
+_Generated 2026-08-22T21:34:32.682420+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -173,21 +173,21 @@ _Facing a taxed bullpen: 8.7 relief IP in last 2 days (ratio 1.6)_
 
 ## 2026-08-22 - Los Angeles Angels @ Texas Rangers (Pre-Game)
 _Globe Life Field [hitter-friendly park]_
-Projected score: Los Angeles Angels 3.42 - Texas Rangers 4.35
-Model likes: **Texas Rangers** to win (59%) | Run line: **Los Angeles Angels** +1.5 (58% to cover) | Total 7.5: lean **UNDER** (53%)
+Projected score: Los Angeles Angels 3.6 - Texas Rangers 4.35
+Model likes: **Texas Rangers** to win (57%) | Run line: **Los Angeles Angels** +1.5 (59% to cover) | Total 7.5: lean **UNDER** (51%)
 
-### Los Angeles Angels lineup -- PROJECTED (unconfirmed)
+### Los Angeles Angels lineup -- CONFIRMED
 _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.42)_
 **Probable P: Ryan Johnson (R)** -- L5: 22.0 IP, 17 K, 17 ER, 6.95 ERA
-- Denzer Guzman (R) [MATCHUP EDGE: pitcher hits 0.263 avg-against vs this hand] [4-game hit streak] -- L7: 5H 1HR 5RBI 11TB (0.208 avg) -- away split: 0.258 avg
-- Jose Siri (R) [MATCHUP EDGE: pitcher hits 0.263 avg-against vs this hand] -- L7: 2H 0HR 0RBI 2TB (0.182 avg) -- away split: 0.308 avg
-- Mike Trout (R) [MATCHUP EDGE: pitcher hits 0.263 avg-against vs this hand] -- L7: 3H 0HR 0RBI 4TB (0.115 avg) -- away split: 0.247 avg
-- Moisés Ballesteros (L) -- L7: 3H 0HR 2RBI 4TB (0.103 avg) -- away split: 0.197 avg
-- Zach Neto (R) [MATCHUP EDGE: pitcher hits 0.263 avg-against vs this hand] [4-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 10H 1HR 9RBI 15TB (0.357 avg) -- away split: 0.252 avg
-- Wade Meckler (L) -- L7: 4H 0HR 0RBI 4TB (0.167 avg) -- away split: 0.270 avg
-- Josh Lowe (L) -- L7: 6H 2HR 2RBI 12TB (0.240 avg) -- away split: 0.227 avg
-- Nolan Schanuel (L) -- L7: 8H 0HR 7RBI 9TB (0.320 avg) -- away split: 0.266 avg
-- Vaughn Grissom (R) [MATCHUP EDGE: pitcher hits 0.263 avg-against vs this hand] -- L7: 6H 0HR 3RBI 7TB (0.222 avg) -- away split: 0.269 avg
+- #1 Zach Neto (R) [MATCHUP EDGE: pitcher hits 0.263 avg-against vs this hand] [4-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 10H 1HR 9RBI 15TB (0.357 avg) -- away split: 0.252 avg
+- #2 Mike Trout (R) [MATCHUP EDGE: pitcher hits 0.263 avg-against vs this hand] -- L7: 3H 0HR 0RBI 4TB (0.115 avg) -- away split: 0.247 avg
+- #3 Vaughn Grissom (R) [MATCHUP EDGE: pitcher hits 0.263 avg-against vs this hand] -- L7: 6H 0HR 3RBI 7TB (0.222 avg) -- away split: 0.269 avg
+- #4 Moisés Ballesteros (L) -- L7: 3H 0HR 2RBI 4TB (0.103 avg) -- away split: 0.197 avg
+- #5 Jose Siri (R) [MATCHUP EDGE: pitcher hits 0.263 avg-against vs this hand] -- L7: 2H 0HR 0RBI 2TB (0.182 avg) -- away split: 0.308 avg
+- #6 Gustavo Campero (S) [MATCHUP EDGE: pitcher hits 0.263 avg-against vs this hand] -- L7: no data
+- #7 Denzer Guzman (R) [MATCHUP EDGE: pitcher hits 0.263 avg-against vs this hand] [4-game hit streak] -- L7: 5H 1HR 5RBI 11TB (0.208 avg) -- away split: 0.258 avg
+- #8 Christian Moore (R) [MATCHUP EDGE: pitcher hits 0.263 avg-against vs this hand] -- L7: no data
+- #9 Travis d'Arnaud (R) [MATCHUP EDGE: pitcher hits 0.263 avg-against vs this hand] -- L7: 2H 0HR 0RBI 2TB (0.154 avg) -- away split: 0.231 avg
 
 ### Texas Rangers lineup -- CONFIRMED
 **Probable P: Cody Bradford (L)** -- L5: 26.0 IP, 20 K, 6 ER, 2.08 ERA
@@ -890,7 +890,7 @@ _Facing a rested bullpen: 3.7 relief IP in last 2 days (ratio 0.69)_
 ## 2026-08-23 - Cincinnati Reds @ Arizona Diamondbacks (Scheduled)
 _Chase Field [hitter-friendly park]_
 Projected score: Cincinnati Reds 3.53 - Arizona Diamondbacks 5.05
-Model likes: **Arizona Diamondbacks** to win (63%) | Run line: **Cincinnati Reds** +1.5 (52% to cover) | Total 7.5: lean **OVER** (54%)
+Model likes: **Arizona Diamondbacks** to win (63%) | Run line: **Cincinnati Reds** +1.5 (52% to cover) | Total 7.5: lean **OVER** (55%)
 
 ### Cincinnati Reds lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.3 relief IP in last 2 days (ratio 0.62)_
@@ -1155,7 +1155,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-24 - Minnesota Twins @ Athletics (Scheduled)
 _Sutter Health Park_
 Projected score: Minnesota Twins 7.02 - Athletics 5.33
-Model likes: **Minnesota Twins** to win (61%) | Run line: **Athletics** +1.5 (51% to cover) | Total 11.5: lean **OVER** (50%)
+Model likes: **Minnesota Twins** to win (61%) | Run line: **Athletics** +1.5 (50% to cover) | Total 11.5: lean **OVER** (50%)
 
 ### Minnesota Twins lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
