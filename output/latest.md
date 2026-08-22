@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-22T15:57:38.040500+00:00_
+_Generated 2026-08-22T16:31:47.587639+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -86,8 +86,8 @@ _Facing a taxed bullpen: 9.3 relief IP in last 2 days (ratio 1.41)_
 
 ## 2026-08-22 - Atlanta Braves @ Milwaukee Brewers (Pre-Game)
 _American Family Field_
-Projected score: Atlanta Braves 3.05 - Milwaukee Brewers 3.55
-Model likes: **Milwaukee Brewers** to win (55%) | Run line: **Atlanta Braves** +1.5 (63% to cover) | Total 6.5: lean **UNDER** (54%)
+Projected score: Atlanta Braves 3.05 - Milwaukee Brewers 3.49
+Model likes: **Milwaukee Brewers** to win (55%) | Run line: **Atlanta Braves** +1.5 (64% to cover) | Total 6.5: lean **UNDER** (55%)
 
 ### Atlanta Braves lineup -- CONFIRMED
 _Facing a taxed bullpen: 8.3 relief IP in last 2 days (ratio 1.39)_
@@ -102,22 +102,22 @@ _Facing a taxed bullpen: 8.3 relief IP in last 2 days (ratio 1.39)_
 - #8 Austin Riley (R) -- L7: 5H 0HR 2RBI 7TB (0.192 avg) -- away split: 0.175 avg
 - #9 Jim Jarvis (L) -- L7: 1H 0HR 0RBI 1TB (0.059 avg) -- away split: 0.200 avg
 
-### Milwaukee Brewers lineup -- PROJECTED (unconfirmed)
+### Milwaukee Brewers lineup -- CONFIRMED
 **Probable P: Logan Henderson (R)** -- L5: 30.0 IP, 37 K, 8 ER, 2.4 ERA
-- Luis Lara (S) -- L7: 8H 1HR 4RBI 12TB (0.276 avg) -- home split: 0.294 avg
-- Jackson Chourio (R) [5-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 10H 0HR 1RBI 12TB (0.357 avg) -- home split: 0.280 avg
-- Jake Bauers (L) -- L7: 8H 1HR 4RBI 13TB (0.348 avg) -- home split: 0.245 avg
-- Andrew Vaughn (R) [5-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 8H 0HR 3RBI 8TB (0.381 avg) -- home split: 0.282 avg
-- Garrett Mitchell (L) -- L7: 8H 1HR 4RBI 13TB (0.381 avg) -- home split: 0.287 avg
-- David Hamilton (L) -- L7: 7H 1HR 6RBI 11TB (0.333 avg) -- home split: 0.218 avg
-- William Contreras (R) -- L7: 9H 1HR 5RBI 13TB (0.333 avg) -- home split: 0.267 avg
-- Christian Yelich (L) [3-game hit streak] -- L7: 5H 1HR 4RBI 8TB (0.192 avg) -- home split: 0.263 avg
-- Brice Turang (L) -- L7: 4H 0HR 2RBI 5TB (0.138 avg) -- home split: 0.280 avg
+- #1 Jackson Chourio (R) [5-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 10H 0HR 1RBI 12TB (0.357 avg) -- home split: 0.280 avg
+- #2 Brice Turang (L) -- L7: 4H 0HR 2RBI 5TB (0.138 avg) -- home split: 0.280 avg
+- #3 William Contreras (R) -- L7: 9H 1HR 5RBI 13TB (0.333 avg) -- home split: 0.267 avg
+- #4 Jake Bauers (L) -- L7: 8H 1HR 4RBI 13TB (0.348 avg) -- home split: 0.245 avg
+- #5 Andrew Vaughn (R) [5-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 8H 0HR 3RBI 8TB (0.381 avg) -- home split: 0.282 avg
+- #6 Christian Yelich (L) [3-game hit streak] -- L7: 5H 1HR 4RBI 8TB (0.192 avg) -- home split: 0.263 avg
+- #7 Joey Ortiz (R) -- L7: 7H 2HR 8RBI 14TB (0.280 avg) -- home split: 0.285 avg
+- #8 Luis Lara (S) -- L7: 8H 1HR 4RBI 12TB (0.276 avg) -- home split: 0.294 avg
+- #9 Cooper Pratt (R) -- L7: 3H 0HR 1RBI 4TB (0.125 avg) -- home split: 0.218 avg
 
-## 2026-08-22 - Washington Nationals @ Miami Marlins (Scheduled)
+## 2026-08-22 - Washington Nationals @ Miami Marlins (Pre-Game)
 _loanDepot park [pitcher-friendly park]_
-Projected score: Washington Nationals 3.49 - Miami Marlins 4.81
-Model likes: **Miami Marlins** to win (62%) | Run line: **Washington Nationals** +1.5 (54% to cover) | Total 7.5: lean **OVER** (52%)
+Projected score: Washington Nationals 3.49 - Miami Marlins 4.71
+Model likes: **Miami Marlins** to win (61%) | Run line: **Washington Nationals** +1.5 (55% to cover) | Total 7.5: lean **OVER** (51%)
 
 ### Washington Nationals lineup -- PROJECTED (unconfirmed)
 **Probable P: Jake Irvin (R)** -- L5: 24.7 IP, 21 K, 16 ER, 5.84 ERA
@@ -131,18 +131,18 @@ Model likes: **Miami Marlins** to win (62%) | Run line: **Washington Nationals**
 - José Tena (L) -- L7: 3H 2HR 2RBI 9TB (0.250 avg) -- away split: 0.204 avg
 - Andrés Chaparro (R) -- L7: 7H 2HR 4RBI 15TB (0.333 avg) -- away split: 0.244 avg
 
-### Miami Marlins lineup -- PROJECTED (unconfirmed)
+### Miami Marlins lineup -- CONFIRMED
 _Facing a taxed bullpen: 8.3 relief IP in last 2 days (ratio 1.37)_
 **Probable P: Eury Pérez (R)** -- L5: 31.0 IP, 29 K, 8 ER, 2.32 ERA
-- Jakob Marsee (L) -- L7: 5H 1HR 1RBI 10TB (0.217 avg) -- home split: 0.219 avg
-- Javier Sanoja (R) [5-game hit streak] -- L7: 9H 2HR 8RBI 16TB (0.391 avg) -- home split: 0.287 avg
-- Otto Lopez (R) -- L7: 6H 0HR 2RBI 6TB (0.222 avg) -- home split: 0.312 avg
-- Xavier Edwards (S) -- L7: 9H 0HR 1RBI 9TB (0.346 avg) -- home split: 0.283 avg
-- Griffin Conine (L) -- L7: 4H 1HR 4RBI 7TB (0.182 avg) -- home split: 0.333 avg
-- Heriberto Hernández (R) -- L7: 6H 1HR 5RBI 9TB (0.240 avg) -- home split: 0.224 avg
-- Owen Caissie (L) -- L7: 3H 1HR 1RBI 7TB (0.167 avg) -- home split: 0.266 avg
-- Agustín Ramírez (R) -- L7: 4H 0HR 2RBI 6TB (0.211 avg) -- home split: 0.228 avg
-- Esteury Ruiz (R) -- L7: 4H 0HR 0RBI 4TB (0.211 avg) -- home split: 0.242 avg
+- #1 Xavier Edwards (S) -- L7: 9H 0HR 1RBI 9TB (0.346 avg) -- home split: 0.283 avg
+- #2 Griffin Conine (L) -- L7: 4H 1HR 4RBI 7TB (0.182 avg) -- home split: 0.333 avg
+- #3 Owen Caissie (L) -- L7: 3H 1HR 1RBI 7TB (0.167 avg) -- home split: 0.266 avg
+- #4 Otto Lopez (R) -- L7: 6H 0HR 2RBI 6TB (0.222 avg) -- home split: 0.312 avg
+- #5 Jakob Marsee (L) -- L7: 5H 1HR 1RBI 10TB (0.217 avg) -- home split: 0.219 avg
+- #6 Heriberto Hernández (R) -- L7: 6H 1HR 5RBI 9TB (0.240 avg) -- home split: 0.224 avg
+- #7 Joe Mack (L) -- L7: 5H 1HR 2RBI 8TB (0.227 avg) -- home split: 0.209 avg
+- #8 Javier Sanoja (R) [5-game hit streak] -- L7: 9H 2HR 8RBI 16TB (0.391 avg) -- home split: 0.287 avg
+- #9 Esteury Ruiz (R) -- L7: 4H 0HR 0RBI 4TB (0.211 avg) -- home split: 0.242 avg
 
 ## 2026-08-22 - St. Louis Cardinals @ Philadelphia Phillies (Scheduled)
 _Citizens Bank Park [hitter-friendly park]_
@@ -266,7 +266,7 @@ _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.41)_
 ## 2026-08-22 - New York Mets @ Chicago White Sox (Scheduled)
 _Rate Field_
 Projected score: New York Mets 3.92 - Chicago White Sox 3.45
-Model likes: **New York Mets** to win (54%) | Run line: **Chicago White Sox** +1.5 (62% to cover) | Total 6.5: lean **OVER** (54%)
+Model likes: **New York Mets** to win (55%) | Run line: **Chicago White Sox** +1.5 (62% to cover) | Total 6.5: lean **OVER** (54%)
 
 ### New York Mets lineup -- PROJECTED (unconfirmed)
 **Probable P: Christian Scott (R)** -- L5: 25.0 IP, 33 K, 14 ER, 5.04 ERA
@@ -326,7 +326,7 @@ _Facing a taxed bullpen: 9.0 relief IP in last 2 days (ratio 1.92)_
 ## 2026-08-22 - Pittsburgh Pirates @ Los Angeles Dodgers (Scheduled)
 _UNIQLO Field at Dodger Stadium_
 Projected score: Pittsburgh Pirates 3.01 - Los Angeles Dodgers 4.36
-Model likes: **Los Angeles Dodgers** to win (63%) | Run line: **Pittsburgh Pirates** +1.5 (54% to cover) | Total 6.5: lean **OVER** (53%)
+Model likes: **Los Angeles Dodgers** to win (63%) | Run line: **Pittsburgh Pirates** +1.5 (54% to cover) | Total 6.5: lean **OVER** (54%)
 
 ### Pittsburgh Pirates lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.7 relief IP in last 2 days (ratio 0.69)_
@@ -449,7 +449,7 @@ _Facing a taxed bullpen: 7.7 relief IP in last 2 days (ratio 1.51)_
 ## 2026-08-22 - Cincinnati Reds @ Arizona Diamondbacks (Scheduled)
 _Chase Field [hitter-friendly park]_
 Projected score: Cincinnati Reds 2.9 - Arizona Diamondbacks 5.38
-Model likes: **Arizona Diamondbacks** to win (71%) | Run line: **Arizona Diamondbacks** -1.5 (56% to cover) | Total 7.5: lean **OVER** (52%)
+Model likes: **Arizona Diamondbacks** to win (71%) | Run line: **Arizona Diamondbacks** -1.5 (56% to cover) | Total 7.5: lean **OVER** (51%)
 
 ### Cincinnati Reds lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.3 relief IP in last 2 days (ratio 0.62)_
@@ -745,7 +745,7 @@ _Facing a rested bullpen: 3.7 relief IP in last 2 days (ratio 0.63)_
 ## 2026-08-23 - Cleveland Guardians @ Colorado Rockies (Scheduled)
 _Coors Field [hitter-friendly park]_
 Projected score: Cleveland Guardians 4.13 - Colorado Rockies 4.06
-Model likes: **Cleveland Guardians** to win (50%) | Run line: **Colorado Rockies** +1.5 (65% to cover) | Total 7.5: lean **OVER** (51%)
+Model likes: **Cleveland Guardians** to win (51%) | Run line: **Colorado Rockies** +1.5 (65% to cover) | Total 7.5: lean **OVER** (51%)
 
 ### Cleveland Guardians lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.52)_
@@ -804,7 +804,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.55)_
 ## 2026-08-23 - Chicago Cubs @ Seattle Mariners (Scheduled)
 _T-Mobile Park [pitcher-friendly park]_
 Projected score: Chicago Cubs 4.53 - Seattle Mariners 2.79
-Model likes: **Chicago Cubs** to win (66%) | Run line: **Seattle Mariners** +1.5 (50% to cover) | Total 6.5: lean **OVER** (53%)
+Model likes: **Chicago Cubs** to win (67%) | Run line: **Seattle Mariners** +1.5 (50% to cover) | Total 6.5: lean **OVER** (53%)
 
 ### Chicago Cubs lineup -- PROJECTED (unconfirmed)
 **Probable P: Shota Imanaga (L)** -- L5: 28.3 IP, 31 K, 10 ER, 3.18 ERA
