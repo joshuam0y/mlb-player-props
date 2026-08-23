@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-23T19:52:49.097079+00:00_
+_Generated 2026-08-23T20:14:41.549685+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -51,7 +51,7 @@ _Generated 2026-08-23T19:52:49.097079+00:00_
 - **Nolan McLean** (New York Mets vs Chicago White Sox): 3 hitters in tonight's lineup are in a tough matchup against him -- try Strikeouts: 60% under 6.5 recently (vs. 5-game sample)
 - **Shota Imanaga** (Chicago Cubs vs Seattle Mariners): 3 hitters in tonight's lineup are in a tough matchup against him -- try Hits Allowed: 60% under 4.5 recently (vs. 5-game sample)
 
-## 2026-08-23 - St. Louis Cardinals @ Philadelphia Phillies (In Progress)
+## 2026-08-23 - St. Louis Cardinals @ Philadelphia Phillies (Player challenge)
 _Citizens Bank Park [hitter-friendly park]_
 Projected score: St. Louis Cardinals 3.73 - Philadelphia Phillies 4.69
 Model likes: **Philadelphia Phillies** to win (58%) | Run line: **St. Louis Cardinals** +1.5 (57% to cover) | Total 7.5: lean **OVER** (53%)
@@ -146,7 +146,7 @@ _Facing a taxed bullpen: 6.3 relief IP in last 2 days (ratio 1.22)_
 ## 2026-08-23 - Washington Nationals @ Miami Marlins (In Progress)
 _loanDepot park [pitcher-friendly park]_
 Projected score: Washington Nationals 4.27 - Miami Marlins 3.92
-Model likes: **Washington Nationals** to win (53%) | Run line: **Miami Marlins** +1.5 (62% to cover) | Total 7.5: lean **OVER** (51%)
+Model likes: **Washington Nationals** to win (53%) | Run line: **Miami Marlins** +1.5 (63% to cover) | Total 7.5: lean **OVER** (51%)
 
 ### Washington Nationals lineup -- CONFIRMED
 _Facing a taxed bullpen: 9.0 relief IP in last 2 days (ratio 1.72)_
@@ -355,10 +355,10 @@ _Facing a taxed bullpen: 8.0 relief IP in last 2 days (ratio 1.72)_
 - #8 Eli White (R) [MATCHUP EDGE: pitcher hits 0.333 avg-against vs this hand] [likely BABIP-driven, not a real power uptick] -- L7: 6H 0HR 3RBI 6TB (0.333 avg) -- home split: 0.181 avg
 - #9 Connor Wong (R) [MATCHUP EDGE: pitcher hits 0.333 avg-against vs this hand] -- L7: 6H 2HR 5RBI 13TB (0.261 avg) -- home split: 0.203 avg
 
-## 2026-08-23 - Chicago Cubs @ Seattle Mariners (Warmup)
+## 2026-08-23 - Chicago Cubs @ Seattle Mariners (In Progress)
 _T-Mobile Park [pitcher-friendly park]_
 Projected score: Chicago Cubs 4.62 - Seattle Mariners 3.21
-Model likes: **Chicago Cubs** to win (63%) | Run line: **Seattle Mariners** +1.5 (54% to cover) | Total 7.5: lean **UNDER** (52%)
+Model likes: **Chicago Cubs** to win (63%) | Run line: **Seattle Mariners** +1.5 (53% to cover) | Total 7.5: lean **UNDER** (52%)
 
 ### Chicago Cubs lineup -- CONFIRMED
 _Facing a taxed bullpen: 7.7 relief IP in last 2 days (ratio 1.63)_
@@ -386,7 +386,7 @@ _Facing a taxed bullpen: 6.3 relief IP in last 2 days (ratio 1.44)_
 - #8 Victor Robles (R) -- L7: 5H 0HR 4RBI 9TB (0.455 avg) -- home split: 0.246 avg
 - #9 Leo Rivas (S) [likely BABIP-driven, not a real power uptick] -- L7: 4H 0HR 2RBI 5TB (0.308 avg) -- home split: 0.169 avg
 
-## 2026-08-23 - Minnesota Twins @ San Diego Padres (Warmup)
+## 2026-08-23 - Minnesota Twins @ San Diego Padres (In Progress)
 _Petco Park [pitcher-friendly park]_
 Projected score: Minnesota Twins 4.11 - San Diego Padres 3.98
 Model likes: **Minnesota Twins** to win (51%) | Run line: **San Diego Padres** +1.5 (65% to cover) | Total 7.5: lean **OVER** (50%)
@@ -416,7 +416,7 @@ _Facing a taxed bullpen: 8.3 relief IP in last 2 days (ratio 1.3)_
 - #8 Xander Bogaerts (R) -- L7: 3H 0HR 1RBI 4TB (0.136 avg) -- home split: 0.201 avg
 - #9 Luis Rengifo (S) -- L7: 8H 1HR 2RBI 11TB (0.308 avg) -- home split: 0.230 avg
 
-## 2026-08-23 - Pittsburgh Pirates @ Los Angeles Dodgers (Pre-Game)
+## 2026-08-23 - Pittsburgh Pirates @ Los Angeles Dodgers (In Progress)
 _UNIQLO Field at Dodger Stadium_
 Projected score: Pittsburgh Pirates 3.61 - Los Angeles Dodgers 4.66
 Model likes: **Los Angeles Dodgers** to win (59%) | Run line: **Pittsburgh Pirates** +1.5 (56% to cover) | Total 7.5: lean **OVER** (52%)
@@ -446,7 +446,7 @@ _Facing a taxed bullpen: 9.7 relief IP in last 2 days (ratio 1.54)_
 - #8 Alek Thomas (L) -- L7: 2H 0HR 1RBI 3TB (0.100 avg) -- home split: 0.255 avg
 - #9 Hunter Feduccia (L) -- L7: 3H 0HR 0RBI 4TB (0.188 avg) -- home split: 0.247 avg
 
-## 2026-08-23 - Cincinnati Reds @ Arizona Diamondbacks (Pre-Game)
+## 2026-08-23 - Cincinnati Reds @ Arizona Diamondbacks (Warmup)
 _Chase Field [hitter-friendly park]_
 Projected score: Cincinnati Reds 4.26 - Arizona Diamondbacks 4.86
 Model likes: **Arizona Diamondbacks** to win (55%) | Run line: **Cincinnati Reds** +1.5 (60% to cover) | Total 8.5: lean **OVER** (50%)
@@ -841,7 +841,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-25 - Tampa Bay Rays @ Detroit Tigers (Scheduled)
 _Comerica Park [pitcher-friendly park]_
 Projected score: Tampa Bay Rays 4.04 - Detroit Tigers 3.77
-Model likes: **Tampa Bay Rays** to win (52%) | Run line: **Detroit Tigers** +1.5 (64% to cover) | Total 7.5: lean **UNDER** (52%)
+Model likes: **Tampa Bay Rays** to win (53%) | Run line: **Detroit Tigers** +1.5 (64% to cover) | Total 7.5: lean **UNDER** (52%)
 
 ### Tampa Bay Rays lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.7 relief IP in last 2 days (ratio 0.54)_
