@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-23T22:38:01.396751+00:00_
+_Generated 2026-08-23T22:55:34.035619+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -286,7 +286,7 @@ _Facing a taxed bullpen: 7.7 relief IP in last 2 days (ratio 1.55)_
 - #8 Cody Freeman (R) [MATCHUP EDGE: pitcher hits 0.294 avg-against vs this hand] -- L7: 5H 0HR 1RBI 5TB (0.333 avg) -- home split: 0.235 avg
 - #9 Elias Díaz (R) [MATCHUP EDGE: pitcher hits 0.294 avg-against vs this hand] -- L7: 2H 0HR 0RBI 2TB (0.133 avg) -- home split: 0.198 avg
 
-## 2026-08-23 - Cleveland Guardians @ Colorado Rockies (Game Over)
+## 2026-08-23 - Cleveland Guardians @ Colorado Rockies (Final)
 _Coors Field [hitter-friendly park]_
 Final: Cleveland Guardians 7 - Colorado Rockies 2
 
@@ -348,7 +348,7 @@ _Facing a taxed bullpen: 8.0 relief IP in last 2 days (ratio 1.72)_
 ## 2026-08-23 - Chicago Cubs @ Seattle Mariners (In Progress)
 _T-Mobile Park [pitcher-friendly park]_
 Projected score: Chicago Cubs 4.62 - Seattle Mariners 3.21
-Model likes: **Chicago Cubs** to win (63%) | Run line: **Seattle Mariners** +1.5 (54% to cover) | Total 7.5: lean **UNDER** (52%)
+Model likes: **Chicago Cubs** to win (63%) | Run line: **Seattle Mariners** +1.5 (53% to cover) | Total 7.5: lean **UNDER** (52%)
 
 ### Chicago Cubs lineup -- CONFIRMED
 _Facing a taxed bullpen: 7.7 relief IP in last 2 days (ratio 1.63)_
@@ -406,10 +406,9 @@ _Facing a taxed bullpen: 8.3 relief IP in last 2 days (ratio 1.3)_
 - #8 Xander Bogaerts (R) -- L7: 3H 0HR 1RBI 4TB (0.136 avg) -- home split: 0.201 avg
 - #9 Luis Rengifo (S) -- L7: 8H 1HR 2RBI 11TB (0.308 avg) -- home split: 0.230 avg
 
-## 2026-08-23 - Pittsburgh Pirates @ Los Angeles Dodgers (In Progress)
+## 2026-08-23 - Pittsburgh Pirates @ Los Angeles Dodgers (Game Over)
 _UNIQLO Field at Dodger Stadium_
-Projected score: Pittsburgh Pirates 3.61 - Los Angeles Dodgers 4.66
-Model likes: **Los Angeles Dodgers** to win (59%) | Run line: **Pittsburgh Pirates** +1.5 (56% to cover) | Total 7.5: lean **OVER** (52%)
+Final: Pittsburgh Pirates 0 - Los Angeles Dodgers 4
 
 ### Pittsburgh Pirates lineup -- CONFIRMED
 **Probable P: Lake Bachar (R)** [BULLPEN GAME: short-outing arm, no reliable individual matchup below] -- L5: 11.0 IP, 12 K, 4 ER, 3.27 ERA
@@ -737,7 +736,7 @@ _Facing a rested bullpen: 2.7 relief IP in last 2 days (ratio 0.65)_
 ## 2026-08-24 - Chicago Cubs @ Arizona Diamondbacks (Scheduled)
 _Chase Field [hitter-friendly park]_
 Projected score: Chicago Cubs 6.07 - Arizona Diamondbacks 4.75
-Model likes: **Chicago Cubs** to win (59%) | Run line: **Arizona Diamondbacks** +1.5 (53% to cover) | Total 10.5: lean **UNDER** (53%)
+Model likes: **Chicago Cubs** to win (60%) | Run line: **Arizona Diamondbacks** +1.5 (53% to cover) | Total 10.5: lean **UNDER** (53%)
 
 ### Chicago Cubs lineup -- PROJECTED (unconfirmed)
 **Probable P: Kevin Gausman (R)** -- L5: 27.7 IP, 26 K, 15 ER, 4.88 ERA
@@ -887,7 +886,7 @@ _Facing a rested bullpen: 4.0 relief IP in last 2 days (ratio 0.69)_
 ## 2026-08-25 - Houston Astros @ New York Yankees (Scheduled)
 _Yankee Stadium [hitter-friendly park]_
 Projected score: Houston Astros 4.2 - New York Yankees 4.52
-Model likes: **New York Yankees** to win (53%) | Run line: **Houston Astros** +1.5 (62% to cover) | Total 8.5: lean **UNDER** (54%)
+Model likes: **New York Yankees** to win (53%) | Run line: **Houston Astros** +1.5 (62% to cover) | Total 8.5: lean **UNDER** (53%)
 
 ### Houston Astros lineup -- PROJECTED (unconfirmed)
 - Isaac Paredes (R) -- L7: 6H 1HR 4RBI 11TB (0.273 avg) -- away split: 0.256 avg
@@ -945,7 +944,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.45)_
 ## 2026-08-25 - Milwaukee Brewers @ New York Mets (Scheduled)
 _Citi Field_
 Projected score: Milwaukee Brewers 3.35 - New York Mets 2.84
-Model likes: **Milwaukee Brewers** to win (56%) | Run line: **New York Mets** +1.5 (64% to cover) | Total 5.5: lean **OVER** (52%)
+Model likes: **Milwaukee Brewers** to win (56%) | Run line: **New York Mets** +1.5 (64% to cover) | Total 5.5: lean **OVER** (53%)
 
 ### Milwaukee Brewers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.3 relief IP in last 2 days (ratio 0.38)_
