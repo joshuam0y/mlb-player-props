@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-23T11:35:10.616670+00:00_
+_Generated 2026-08-23T11:58:04.665363+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -179,7 +179,7 @@ _Facing a taxed bullpen: 7.3 relief IP in last 2 days (ratio 1.21)_
 ## 2026-08-23 - Detroit Tigers @ Kansas City Royals (Scheduled)
 _Kauffman Stadium [pitcher-friendly park]_
 Projected score: Detroit Tigers 4.23 - Kansas City Royals 3.73
-Model likes: **Detroit Tigers** to win (54%) | Run line: **Kansas City Royals** +1.5 (62% to cover) | Total 7.5: lean **UNDER** (51%)
+Model likes: **Detroit Tigers** to win (55%) | Run line: **Kansas City Royals** +1.5 (62% to cover) | Total 7.5: lean **UNDER** (51%)
 
 ### Detroit Tigers lineup -- PROJECTED (unconfirmed)
 - Kevin McGonigle (L) -- L7: 6H 1HR 5RBI 10TB (0.214 avg) -- away split: 0.294 avg
@@ -420,7 +420,7 @@ _Facing a taxed bullpen: 8.3 relief IP in last 2 days (ratio 1.3)_
 ## 2026-08-23 - Pittsburgh Pirates @ Los Angeles Dodgers (Scheduled)
 _UNIQLO Field at Dodger Stadium_
 Projected score: Pittsburgh Pirates 3.56 - Los Angeles Dodgers 4.5
-Model likes: **Los Angeles Dodgers** to win (58%) | Run line: **Pittsburgh Pirates** +1.5 (58% to cover) | Total 7.5: lean **OVER** (50%)
+Model likes: **Los Angeles Dodgers** to win (58%) | Run line: **Pittsburgh Pirates** +1.5 (57% to cover) | Total 7.5: lean **OVER** (50%)
 
 ### Pittsburgh Pirates lineup -- PROJECTED (unconfirmed)
 **Probable P: Lake Bachar (R)** [BULLPEN GAME: short-outing arm, no reliable individual matchup below] -- L5: 11.0 IP, 12 K, 4 ER, 3.27 ERA
@@ -710,7 +710,7 @@ _Facing a rested bullpen: 4.0 relief IP in last 2 days (ratio 0.64)_
 ## 2026-08-24 - Minnesota Twins @ Athletics (Scheduled)
 _Sutter Health Park_
 Projected score: Minnesota Twins 6.88 - Athletics 5.48
-Model likes: **Minnesota Twins** to win (59%) | Run line: **Athletics** +1.5 (52% to cover) | Total 11.5: lean **OVER** (50%)
+Model likes: **Minnesota Twins** to win (59%) | Run line: **Athletics** +1.5 (52% to cover) | Total 11.5: lean **OVER** (51%)
 
 ### Minnesota Twins lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.6)_
@@ -1149,7 +1149,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-25 - Minnesota Twins @ Athletics (Scheduled)
 _Sutter Health Park_
 Projected score: Minnesota Twins 6.88 - Athletics 5.48
-Model likes: **Minnesota Twins** to win (59%) | Run line: **Athletics** +1.5 (52% to cover) | Total 11.5: lean **OVER** (51%)
+Model likes: **Minnesota Twins** to win (59%) | Run line: **Athletics** +1.5 (52% to cover) | Total 11.5: lean **OVER** (50%)
 
 ### Minnesota Twins lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
