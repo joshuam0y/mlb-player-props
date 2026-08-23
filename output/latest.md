@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-23T00:02:09.104472+00:00_
+_Generated 2026-08-23T01:58:46.800424+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -140,10 +140,9 @@ _Facing a taxed bullpen: 8.3 relief IP in last 2 days (ratio 1.37)_
 - #8 Javier Sanoja (R) [5-game hit streak] -- L7: 9H 2HR 8RBI 16TB (0.391 avg) -- home split: 0.287 avg
 - #9 Esteury Ruiz (R) -- L7: 4H 0HR 0RBI 4TB (0.211 avg) -- home split: 0.242 avg
 
-## 2026-08-22 - St. Louis Cardinals @ Philadelphia Phillies (In Progress)
+## 2026-08-22 - St. Louis Cardinals @ Philadelphia Phillies (Final)
 _Citizens Bank Park [hitter-friendly park]_
-Projected score: St. Louis Cardinals 5.86 - Philadelphia Phillies 4.59
-Model likes: **St. Louis Cardinals** to win (59%) | Run line: **Philadelphia Phillies** +1.5 (54% to cover) | Total 9.5: lean **OVER** (52%)
+Final: St. Louis Cardinals 3 - Philadelphia Phillies 12
 
 ### St. Louis Cardinals lineup -- CONFIRMED
 **Probable P: Quinn Mathews (L)** -- L5: 9.0 IP, 10 K, 3 ER, 3.0 ERA
@@ -170,10 +169,9 @@ _Facing a taxed bullpen: 8.7 relief IP in last 2 days (ratio 1.6)_
 - #8 J.T. Realmuto (R) -- L7: 4H 0HR 4RBI 6TB (0.182 avg) -- home split: 0.246 avg
 - #9 Derek Hill (R) -- L7: 2H 0HR 2RBI 2TB (0.286 avg) -- home split: 0.205 avg
 
-## 2026-08-22 - Los Angeles Angels @ Texas Rangers (In Progress)
+## 2026-08-22 - Los Angeles Angels @ Texas Rangers (Final)
 _Globe Life Field [hitter-friendly park]_
-Projected score: Los Angeles Angels 3.63 - Texas Rangers 4.35
-Model likes: **Texas Rangers** to win (57%) | Run line: **Los Angeles Angels** +1.5 (60% to cover) | Total 7.5: lean **UNDER** (51%)
+Final: Los Angeles Angels 3 - Texas Rangers 0
 
 ### Los Angeles Angels lineup -- CONFIRMED
 _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.42)_
@@ -200,10 +198,9 @@ _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.42)_
 - #8 Cody Freeman (R) -- L7: 4H 0HR 1RBI 4TB (0.308 avg) -- home split: 0.214 avg
 - #9 Danny Jansen (R) -- L7: no data
 
-## 2026-08-22 - Tampa Bay Rays @ Baltimore Orioles (In Progress)
+## 2026-08-22 - Tampa Bay Rays @ Baltimore Orioles (Final)
 _Oriole Park at Camden Yards_
-Projected score: Tampa Bay Rays 3.74 - Baltimore Orioles 3.41
-Model likes: **Tampa Bay Rays** to win (53%) | Run line: **Baltimore Orioles** +1.5 (64% to cover) | Total 6.5: lean **OVER** (51%)
+Final: Tampa Bay Rays 2 - Baltimore Orioles 3
 
 ### Tampa Bay Rays lineup -- CONFIRMED
 **Probable P: Shane McClanahan (L)** -- L5: 22.7 IP, 17 K, 10 ER, 3.97 ERA
@@ -290,10 +287,9 @@ _Facing a rested bullpen: 2.7 relief IP in last 2 days (ratio 0.44)_
 - #8 Tristan Peters (L) -- L7: 5H 0HR 1RBI 7TB (0.263 avg) -- home split: 0.248 avg
 - #9 Drew Romo (S) -- L7: 4H 2HR 5RBI 10TB (0.200 avg) -- home split: 0.159 avg
 
-## 2026-08-22 - Chicago Cubs @ Seattle Mariners (In Progress)
+## 2026-08-22 - Chicago Cubs @ Seattle Mariners (Game Over)
 _T-Mobile Park [pitcher-friendly park]_
-Projected score: Chicago Cubs 4.89 - Seattle Mariners 3.55
-Model likes: **Chicago Cubs** to win (62%) | Run line: **Seattle Mariners** +1.5 (54% to cover) | Total 7.5: lean **OVER** (53%)
+Final: Chicago Cubs 4 - Seattle Mariners 5
 
 ### Chicago Cubs lineup -- CONFIRMED
 _Facing a taxed bullpen: 9.0 relief IP in last 2 days (ratio 1.92)_
@@ -350,10 +346,9 @@ _Facing a rested bullpen: 3.7 relief IP in last 2 days (ratio 0.69)_
 - #8 Alek Thomas (L) -- L7: 1H 0HR 0RBI 2TB (0.053 avg) -- home split: 0.255 avg
 - #9 Ben Rortvedt (L) -- L7: 3H 0HR 1RBI 3TB (0.214 avg) -- home split: 0.143 avg
 
-## 2026-08-22 - Detroit Tigers @ Kansas City Royals (In Progress)
+## 2026-08-22 - Detroit Tigers @ Kansas City Royals (Final)
 _Kauffman Stadium [pitcher-friendly park]_
-Projected score: Detroit Tigers 4.33 - Kansas City Royals 3.08
-Model likes: **Detroit Tigers** to win (62%) | Run line: **Kansas City Royals** +1.5 (55% to cover) | Total 6.5: lean **OVER** (54%)
+Final: Detroit Tigers 1 - Kansas City Royals 3
 
 ### Detroit Tigers lineup -- CONFIRMED
 _Facing a taxed bullpen: 9.0 relief IP in last 2 days (ratio 1.69)_
@@ -412,7 +407,7 @@ _Facing a taxed bullpen: 8.0 relief IP in last 2 days (ratio 1.72)_
 - #8 Andruw Monasterio (R) -- L7: 4H 0HR 6RBI 5TB (0.154 avg) -- home split: 0.250 avg
 - #9 Mickey Gasper (S) -- L7: 4H 3HR 9RBI 13TB (0.200 avg) -- home split: 0.286 avg
 
-## 2026-08-22 - Cleveland Guardians @ Colorado Rockies (Warmup)
+## 2026-08-22 - Cleveland Guardians @ Colorado Rockies (In Progress)
 _Coors Field [hitter-friendly park]_
 Projected score: Cleveland Guardians 5.19 - Colorado Rockies 4.49
 Model likes: **Cleveland Guardians** to win (55%) | Run line: **Colorado Rockies** +1.5 (58% to cover) | Total 9.5: lean **UNDER** (54%)
@@ -443,7 +438,7 @@ _Facing a taxed bullpen: 7.7 relief IP in last 2 days (ratio 1.51)_
 - #8 Brett Sullivan (L) -- L7: 5H 2HR 7RBI 12TB (0.238 avg) -- home split: 0.241 avg
 - #9 Zac Veen (L) -- L7: 4H 1HR 5RBI 8TB (0.250 avg) -- home split: 0.286 avg
 
-## 2026-08-22 - Cincinnati Reds @ Arizona Diamondbacks (Pre-Game)
+## 2026-08-22 - Cincinnati Reds @ Arizona Diamondbacks (In Progress)
 _Chase Field [hitter-friendly park]_
 Projected score: Cincinnati Reds 3.01 - Arizona Diamondbacks 5.4
 Model likes: **Arizona Diamondbacks** to win (70%) | Run line: **Arizona Diamondbacks** -1.5 (55% to cover) | Total 7.5: lean **OVER** (53%)
@@ -474,7 +469,7 @@ _Facing a taxed bullpen: 7.7 relief IP in last 2 days (ratio 1.42)_
 - #8 Jose Fernandez (R) [5-game hit streak] -- L7: 7H 0HR 1RBI 9TB (0.318 avg) -- home split: 0.275 avg
 - #9 Ryan Waldschmidt (R) [3-game hit streak] -- L7: 5H 0HR 3RBI 7TB (0.238 avg) -- home split: 0.324 avg
 
-## 2026-08-22 - Minnesota Twins @ San Diego Padres (Pre-Game)
+## 2026-08-22 - Minnesota Twins @ San Diego Padres (In Progress)
 _Petco Park [pitcher-friendly park]_
 Projected score: Minnesota Twins 2.86 - San Diego Padres 4.18
 Model likes: **San Diego Padres** to win (63%) | Run line: **Minnesota Twins** +1.5 (55% to cover) | Total 6.5: lean **OVER** (50%)
@@ -568,7 +563,7 @@ _Facing a taxed bullpen: 9.7 relief IP in last 2 days (ratio 1.46)_
 ## 2026-08-23 - Tampa Bay Rays @ Baltimore Orioles (Scheduled)
 _Oriole Park at Camden Yards_
 Projected score: Tampa Bay Rays 4.11 - Baltimore Orioles 3.23
-Model likes: **Tampa Bay Rays** to win (59%) | Run line: **Baltimore Orioles** +1.5 (59% to cover) | Total 6.5: lean **OVER** (53%)
+Model likes: **Tampa Bay Rays** to win (58%) | Run line: **Baltimore Orioles** +1.5 (59% to cover) | Total 6.5: lean **OVER** (53%)
 
 ### Tampa Bay Rays lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.39)_
@@ -895,7 +890,7 @@ _Facing a rested bullpen: 3.7 relief IP in last 2 days (ratio 0.69)_
 ## 2026-08-23 - Cincinnati Reds @ Arizona Diamondbacks (Scheduled)
 _Chase Field [hitter-friendly park]_
 Projected score: Cincinnati Reds 3.53 - Arizona Diamondbacks 5.05
-Model likes: **Arizona Diamondbacks** to win (63%) | Run line: **Cincinnati Reds** +1.5 (52% to cover) | Total 7.5: lean **OVER** (55%)
+Model likes: **Arizona Diamondbacks** to win (63%) | Run line: **Cincinnati Reds** +1.5 (52% to cover) | Total 7.5: lean **OVER** (54%)
 
 ### Cincinnati Reds lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.3 relief IP in last 2 days (ratio 0.62)_
@@ -1216,7 +1211,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-24 - Cincinnati Reds @ San Francisco Giants (Scheduled)
 _Oracle Park [pitcher-friendly park]_
 Projected score: Cincinnati Reds 3.74 - San Francisco Giants 2.75
-Model likes: **Cincinnati Reds** to win (60%) | Run line: **San Francisco Giants** +1.5 (58% to cover) | Total 5.5: lean **OVER** (56%)
+Model likes: **Cincinnati Reds** to win (60%) | Run line: **San Francisco Giants** +1.5 (58% to cover) | Total 6.5: lean **UNDER** (56%)
 
 ### Cincinnati Reds lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
