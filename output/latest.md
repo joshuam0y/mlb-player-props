@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-23T13:11:52.408703+00:00_
+_Generated 2026-08-23T13:31:37.593105+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -420,7 +420,7 @@ _Facing a taxed bullpen: 8.3 relief IP in last 2 days (ratio 1.3)_
 ## 2026-08-23 - Pittsburgh Pirates @ Los Angeles Dodgers (Scheduled)
 _UNIQLO Field at Dodger Stadium_
 Projected score: Pittsburgh Pirates 3.56 - Los Angeles Dodgers 4.5
-Model likes: **Los Angeles Dodgers** to win (58%) | Run line: **Pittsburgh Pirates** +1.5 (58% to cover) | Total 7.5: lean **UNDER** (50%)
+Model likes: **Los Angeles Dodgers** to win (59%) | Run line: **Pittsburgh Pirates** +1.5 (57% to cover) | Total 7.5: lean **UNDER** (50%)
 
 ### Pittsburgh Pirates lineup -- PROJECTED (unconfirmed)
 **Probable P: Lake Bachar (R)** [BULLPEN GAME: short-outing arm, no reliable individual matchup below] -- L5: 11.0 IP, 12 K, 4 ER, 3.27 ERA
@@ -596,7 +596,7 @@ _Facing a rested bullpen: 4.0 relief IP in last 2 days (ratio 0.69)_
 ## 2026-08-24 - Texas Rangers @ Chicago White Sox (Scheduled)
 _Rate Field_
 Projected score: Texas Rangers 3.51 - Chicago White Sox 4.72
-Model likes: **Chicago White Sox** to win (61%) | Run line: **Texas Rangers** +1.5 (55% to cover) | Total 7.5: lean **OVER** (52%)
+Model likes: **Chicago White Sox** to win (61%) | Run line: **Texas Rangers** +1.5 (55% to cover) | Total 7.5: lean **OVER** (51%)
 
 ### Texas Rangers lineup -- PROJECTED (unconfirmed)
 - Wyatt Langford (R) -- L7: 6H 1HR 3RBI 10TB (0.222 avg) -- away split: 0.253 avg
@@ -623,7 +623,7 @@ Model likes: **Chicago White Sox** to win (61%) | Run line: **Texas Rangers** +1
 ## 2026-08-24 - Cleveland Guardians @ Los Angeles Angels (Scheduled)
 _Angel Stadium_
 Projected score: Cleveland Guardians 3.48 - Los Angeles Angels 2.55
-Model likes: **Cleveland Guardians** to win (60%) | Run line: **Los Angeles Angels** +1.5 (59% to cover) | Total 5.5: lean **OVER** (51%)
+Model likes: **Cleveland Guardians** to win (60%) | Run line: **Los Angeles Angels** +1.5 (60% to cover) | Total 5.5: lean **OVER** (51%)
 
 ### Cleveland Guardians lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.35)_
@@ -710,7 +710,7 @@ _Facing a rested bullpen: 4.0 relief IP in last 2 days (ratio 0.64)_
 ## 2026-08-24 - Minnesota Twins @ Athletics (Scheduled)
 _Sutter Health Park_
 Projected score: Minnesota Twins 6.88 - Athletics 5.48
-Model likes: **Minnesota Twins** to win (59%) | Run line: **Athletics** +1.5 (52% to cover) | Total 11.5: lean **OVER** (51%)
+Model likes: **Minnesota Twins** to win (59%) | Run line: **Athletics** +1.5 (52% to cover) | Total 11.5: lean **OVER** (50%)
 
 ### Minnesota Twins lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.6)_
@@ -1061,7 +1061,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-25 - Cleveland Guardians @ Los Angeles Angels (Scheduled)
 _Angel Stadium_
 Projected score: Cleveland Guardians 3.48 - Los Angeles Angels 3.23
-Model likes: **Cleveland Guardians** to win (53%) | Run line: **Los Angeles Angels** +1.5 (66% to cover) | Total 6.5: lean **UNDER** (53%)
+Model likes: **Cleveland Guardians** to win (52%) | Run line: **Los Angeles Angels** +1.5 (66% to cover) | Total 6.5: lean **UNDER** (53%)
 
 ### Cleveland Guardians lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1090,7 +1090,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-25 - Philadelphia Phillies @ Seattle Mariners (Scheduled)
 _T-Mobile Park [pitcher-friendly park]_
 Projected score: Philadelphia Phillies 4.41 - Seattle Mariners 3.13
-Model likes: **Philadelphia Phillies** to win (62%) | Run line: **Seattle Mariners** +1.5 (55% to cover) | Total 7.5: lean **UNDER** (55%)
+Model likes: **Philadelphia Phillies** to win (62%) | Run line: **Seattle Mariners** +1.5 (55% to cover) | Total 6.5: lean **OVER** (55%)
 
 ### Philadelphia Phillies lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1149,7 +1149,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-25 - Minnesota Twins @ Athletics (Scheduled)
 _Sutter Health Park_
 Projected score: Minnesota Twins 6.88 - Athletics 5.48
-Model likes: **Minnesota Twins** to win (59%) | Run line: **Athletics** +1.5 (52% to cover) | Total 11.5: lean **OVER** (51%)
+Model likes: **Minnesota Twins** to win (59%) | Run line: **Athletics** +1.5 (52% to cover) | Total 11.5: lean **OVER** (50%)
 
 ### Minnesota Twins lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
