@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-23T22:55:34.035619+00:00_
+_Generated 2026-08-23T23:23:19.306088+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -376,10 +376,9 @@ _Facing a taxed bullpen: 6.3 relief IP in last 2 days (ratio 1.44)_
 - #8 Victor Robles (R) -- L7: 5H 0HR 4RBI 9TB (0.455 avg) -- home split: 0.246 avg
 - #9 Leo Rivas (S) [likely BABIP-driven, not a real power uptick] -- L7: 4H 0HR 2RBI 5TB (0.308 avg) -- home split: 0.169 avg
 
-## 2026-08-23 - Minnesota Twins @ San Diego Padres (In Progress)
+## 2026-08-23 - Minnesota Twins @ San Diego Padres (Final)
 _Petco Park [pitcher-friendly park]_
-Projected score: Minnesota Twins 4.11 - San Diego Padres 3.98
-Model likes: **Minnesota Twins** to win (51%) | Run line: **San Diego Padres** +1.5 (65% to cover) | Total 7.5: lean **OVER** (50%)
+Final: Minnesota Twins 1 - San Diego Padres 8
 
 ### Minnesota Twins lineup -- CONFIRMED
 _Facing a taxed bullpen: 8.3 relief IP in last 2 days (ratio 1.3)_
@@ -406,7 +405,7 @@ _Facing a taxed bullpen: 8.3 relief IP in last 2 days (ratio 1.3)_
 - #8 Xander Bogaerts (R) -- L7: 3H 0HR 1RBI 4TB (0.136 avg) -- home split: 0.201 avg
 - #9 Luis Rengifo (S) -- L7: 8H 1HR 2RBI 11TB (0.308 avg) -- home split: 0.230 avg
 
-## 2026-08-23 - Pittsburgh Pirates @ Los Angeles Dodgers (Game Over)
+## 2026-08-23 - Pittsburgh Pirates @ Los Angeles Dodgers (Final)
 _UNIQLO Field at Dodger Stadium_
 Final: Pittsburgh Pirates 0 - Los Angeles Dodgers 4
 
@@ -435,10 +434,9 @@ _Facing a taxed bullpen: 9.7 relief IP in last 2 days (ratio 1.54)_
 - #8 Alek Thomas (L) -- L7: 2H 0HR 1RBI 3TB (0.100 avg) -- home split: 0.255 avg
 - #9 Hunter Feduccia (L) -- L7: 3H 0HR 0RBI 4TB (0.188 avg) -- home split: 0.247 avg
 
-## 2026-08-23 - Cincinnati Reds @ Arizona Diamondbacks (In Progress)
+## 2026-08-23 - Cincinnati Reds @ Arizona Diamondbacks (Final)
 _Chase Field [hitter-friendly park]_
-Projected score: Cincinnati Reds 4.28 - Arizona Diamondbacks 4.86
-Model likes: **Arizona Diamondbacks** to win (55%) | Run line: **Cincinnati Reds** +1.5 (60% to cover) | Total 8.5: lean **OVER** (50%)
+Final: Cincinnati Reds 3 - Arizona Diamondbacks 5
 
 ### Cincinnati Reds lineup -- CONFIRMED
 _Facing a taxed bullpen: 9.0 relief IP in last 2 days (ratio 1.6)_
@@ -466,7 +464,7 @@ _Facing a taxed bullpen: 7.7 relief IP in last 2 days (ratio 1.42)_
 - #8 James McCann (R) -- L7: 4H 0HR 0RBI 4TB (0.250 avg) -- home split: 0.237 avg
 - #9 Ryan Waldschmidt (R) [4-game hit streak] -- L7: 6H 0HR 4RBI 8TB (0.273 avg) -- home split: 0.321 avg
 
-## 2026-08-23 - Atlanta Braves @ Milwaukee Brewers (Warmup)
+## 2026-08-23 - Atlanta Braves @ Milwaukee Brewers (In Progress)
 _Journey Bank Ballpark_
 Projected score: Atlanta Braves 3.49 - Milwaukee Brewers 4.56
 Model likes: **Milwaukee Brewers** to win (60%) | Run line: **Atlanta Braves** +1.5 (56% to cover) | Total 7.5: lean **UNDER** (50%)
@@ -648,7 +646,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.59)_
 ## 2026-08-24 - Philadelphia Phillies @ Seattle Mariners (Scheduled)
 _T-Mobile Park [pitcher-friendly park]_
 Projected score: Philadelphia Phillies 3.94 - Seattle Mariners 2.84
-Model likes: **Philadelphia Phillies** to win (61%) | Run line: **Seattle Mariners** +1.5 (57% to cover) | Total 6.5: lean **UNDER** (53%)
+Model likes: **Philadelphia Phillies** to win (61%) | Run line: **Seattle Mariners** +1.5 (57% to cover) | Total 6.5: lean **UNDER** (52%)
 
 ### Philadelphia Phillies lineup -- PROJECTED (unconfirmed)
 **Probable P: Zack Wheeler (R)** -- L5: 20.3 IP, 27 K, 15 ER, 6.64 ERA
@@ -736,7 +734,7 @@ _Facing a rested bullpen: 2.7 relief IP in last 2 days (ratio 0.65)_
 ## 2026-08-24 - Chicago Cubs @ Arizona Diamondbacks (Scheduled)
 _Chase Field [hitter-friendly park]_
 Projected score: Chicago Cubs 6.07 - Arizona Diamondbacks 4.75
-Model likes: **Chicago Cubs** to win (60%) | Run line: **Arizona Diamondbacks** +1.5 (53% to cover) | Total 10.5: lean **UNDER** (53%)
+Model likes: **Chicago Cubs** to win (59%) | Run line: **Arizona Diamondbacks** +1.5 (53% to cover) | Total 10.5: lean **UNDER** (53%)
 
 ### Chicago Cubs lineup -- PROJECTED (unconfirmed)
 **Probable P: Kevin Gausman (R)** -- L5: 27.7 IP, 26 K, 15 ER, 4.88 ERA
@@ -855,7 +853,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.5)_
 ## 2026-08-25 - Colorado Rockies @ Washington Nationals (Scheduled)
 _Nationals Park_
 Projected score: Colorado Rockies 4.2 - Washington Nationals 6.59
-Model likes: **Washington Nationals** to win (67%) | Run line: **Washington Nationals** -1.5 (55% to cover) | Total 10.5: lean **UNDER** (53%)
+Model likes: **Washington Nationals** to win (67%) | Run line: **Washington Nationals** -1.5 (54% to cover) | Total 10.5: lean **UNDER** (53%)
 
 ### Colorado Rockies lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.3 relief IP in last 2 days (ratio 0.55)_
@@ -885,10 +883,11 @@ _Facing a rested bullpen: 4.0 relief IP in last 2 days (ratio 0.69)_
 
 ## 2026-08-25 - Houston Astros @ New York Yankees (Scheduled)
 _Yankee Stadium [hitter-friendly park]_
-Projected score: Houston Astros 4.2 - New York Yankees 4.52
-Model likes: **New York Yankees** to win (53%) | Run line: **Houston Astros** +1.5 (62% to cover) | Total 8.5: lean **UNDER** (53%)
+Projected score: Houston Astros 4.2 - New York Yankees 4.47
+Model likes: **New York Yankees** to win (52%) | Run line: **Houston Astros** +1.5 (63% to cover) | Total 8.5: lean **UNDER** (54%)
 
 ### Houston Astros lineup -- PROJECTED (unconfirmed)
+**Probable P: Ethan Pecko (R)** -- L5: 3.7 IP, 4 K, 2 ER, 4.91 ERA
 - Isaac Paredes (R) -- L7: 6H 1HR 4RBI 11TB (0.273 avg) -- away split: 0.256 avg
 - Yordan Alvarez (L) [MATCHUP EDGE: pitcher hits 0.272 avg-against vs this hand] -- L7: 6H 0HR 2RBI 9TB (0.286 avg) -- away split: 0.262 avg
 - Daulton Varsho (L) [MATCHUP EDGE: pitcher hits 0.272 avg-against vs this hand] [4-game hit streak] -- L7: 5H 1HR 1RBI 10TB (0.200 avg) -- away split: 0.243 avg
