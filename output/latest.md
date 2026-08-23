@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-23T08:45:41.325631+00:00_
+_Generated 2026-08-23T08:48:29.897928+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -179,7 +179,7 @@ _Facing a taxed bullpen: 7.3 relief IP in last 2 days (ratio 1.21)_
 ## 2026-08-23 - Detroit Tigers @ Kansas City Royals (Scheduled)
 _Kauffman Stadium [pitcher-friendly park]_
 Projected score: Detroit Tigers 4.23 - Kansas City Royals 3.73
-Model likes: **Detroit Tigers** to win (55%) | Run line: **Kansas City Royals** +1.5 (62% to cover) | Total 7.5: lean **UNDER** (51%)
+Model likes: **Detroit Tigers** to win (54%) | Run line: **Kansas City Royals** +1.5 (62% to cover) | Total 7.5: lean **UNDER** (51%)
 
 ### Detroit Tigers lineup -- PROJECTED (unconfirmed)
 - Kevin McGonigle (L) -- L7: 6H 1HR 5RBI 10TB (0.214 avg) -- away split: 0.294 avg
@@ -481,7 +481,7 @@ _Facing a taxed bullpen: 7.7 relief IP in last 2 days (ratio 1.42)_
 ## 2026-08-23 - Atlanta Braves @ Milwaukee Brewers (Scheduled)
 _Journey Bank Ballpark_
 Projected score: Atlanta Braves 3.29 - Milwaukee Brewers 4.63
-Model likes: **Milwaukee Brewers** to win (62%) | Run line: **Atlanta Braves** +1.5 (54% to cover) | Total 7.5: lean **UNDER** (52%)
+Model likes: **Milwaukee Brewers** to win (62%) | Run line: **Atlanta Braves** +1.5 (54% to cover) | Total 7.5: lean **UNDER** (51%)
 
 ### Atlanta Braves lineup -- PROJECTED (unconfirmed)
 **Probable P: Tyler Mahle (R)** -- L5: 30.3 IP, 31 K, 8 ER, 2.37 ERA
@@ -623,7 +623,7 @@ Model likes: **Chicago White Sox** to win (61%) | Run line: **Texas Rangers** +1
 ## 2026-08-24 - Cleveland Guardians @ Los Angeles Angels (Scheduled)
 _Angel Stadium_
 Projected score: Cleveland Guardians 3.48 - Los Angeles Angels 2.55
-Model likes: **Cleveland Guardians** to win (60%) | Run line: **Los Angeles Angels** +1.5 (59% to cover) | Total 5.5: lean **OVER** (51%)
+Model likes: **Cleveland Guardians** to win (60%) | Run line: **Los Angeles Angels** +1.5 (60% to cover) | Total 5.5: lean **OVER** (51%)
 
 ### Cleveland Guardians lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.35)_
@@ -1090,7 +1090,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-25 - Philadelphia Phillies @ Seattle Mariners (Scheduled)
 _T-Mobile Park [pitcher-friendly park]_
 Projected score: Philadelphia Phillies 4.41 - Seattle Mariners 3.13
-Model likes: **Philadelphia Phillies** to win (62%) | Run line: **Seattle Mariners** +1.5 (55% to cover) | Total 6.5: lean **OVER** (55%)
+Model likes: **Philadelphia Phillies** to win (62%) | Run line: **Seattle Mariners** +1.5 (55% to cover) | Total 7.5: lean **UNDER** (55%)
 
 ### Philadelphia Phillies lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1149,7 +1149,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-25 - Minnesota Twins @ Athletics (Scheduled)
 _Sutter Health Park_
 Projected score: Minnesota Twins 6.88 - Athletics 5.48
-Model likes: **Minnesota Twins** to win (59%) | Run line: **Athletics** +1.5 (52% to cover) | Total 11.5: lean **OVER** (50%)
+Model likes: **Minnesota Twins** to win (59%) | Run line: **Athletics** +1.5 (52% to cover) | Total 11.5: lean **OVER** (51%)
 
 ### Minnesota Twins lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
