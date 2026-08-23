@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-23T20:14:41.549685+00:00_
+_Generated 2026-08-23T20:45:50.327966+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -51,10 +51,9 @@ _Generated 2026-08-23T20:14:41.549685+00:00_
 - **Nolan McLean** (New York Mets vs Chicago White Sox): 3 hitters in tonight's lineup are in a tough matchup against him -- try Strikeouts: 60% under 6.5 recently (vs. 5-game sample)
 - **Shota Imanaga** (Chicago Cubs vs Seattle Mariners): 3 hitters in tonight's lineup are in a tough matchup against him -- try Hits Allowed: 60% under 4.5 recently (vs. 5-game sample)
 
-## 2026-08-23 - St. Louis Cardinals @ Philadelphia Phillies (Player challenge)
+## 2026-08-23 - St. Louis Cardinals @ Philadelphia Phillies (Final)
 _Citizens Bank Park [hitter-friendly park]_
-Projected score: St. Louis Cardinals 3.73 - Philadelphia Phillies 4.69
-Model likes: **Philadelphia Phillies** to win (58%) | Run line: **St. Louis Cardinals** +1.5 (57% to cover) | Total 7.5: lean **OVER** (53%)
+Final: St. Louis Cardinals 4 - Philadelphia Phillies 6
 
 ### St. Louis Cardinals lineup -- CONFIRMED
 _Facing a taxed bullpen: 6.3 relief IP in last 2 days (ratio 1.26)_
@@ -82,10 +81,9 @@ _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.29)_
 - #8 Edmundo Sosa (R) -- L7: 7H 0HR 7RBI 11TB (0.389 avg) -- home split: 0.229 avg
 - #9 Bryan De La Cruz (R) -- L7: 3H 0HR 4RBI 3TB (0.214 avg) -- home split: 0.333 avg
 
-## 2026-08-23 - Toronto Blue Jays @ New York Yankees (In Progress)
+## 2026-08-23 - Toronto Blue Jays @ New York Yankees (Final)
 _Yankee Stadium [hitter-friendly park]_
-Projected score: Toronto Blue Jays 3.2 - New York Yankees 3.37
-Model likes: **New York Yankees** to win (52%) | Run line: **Toronto Blue Jays** +1.5 (66% to cover) | Total 6.5: lean **UNDER** (55%)
+Final: Toronto Blue Jays 3 - New York Yankees 8
 
 ### Toronto Blue Jays lineup -- CONFIRMED
 _Facing a taxed bullpen: 8.7 relief IP in last 2 days (ratio 1.41)_
@@ -113,10 +111,9 @@ _Facing a taxed bullpen: 9.7 relief IP in last 2 days (ratio 1.46)_
 - #8 Austin Wells (L) -- L7: 3H 0HR 1RBI 3TB (0.158 avg) -- home split: 0.200 avg
 - #9 José Caballero (R) [TOUGH MATCHUP: pitcher holds this hand to 0.209 avg-against] -- L7: 1H 0HR 3RBI 1TB (0.083 avg) -- home split: 0.207 avg
 
-## 2026-08-23 - Tampa Bay Rays @ Baltimore Orioles (In Progress)
+## 2026-08-23 - Tampa Bay Rays @ Baltimore Orioles (Final)
 _Oriole Park at Camden Yards_
-Projected score: Tampa Bay Rays 4.11 - Baltimore Orioles 3.19
-Model likes: **Tampa Bay Rays** to win (59%) | Run line: **Baltimore Orioles** +1.5 (58% to cover) | Total 6.5: lean **OVER** (53%)
+Final: Tampa Bay Rays 3 - Baltimore Orioles 1
 
 ### Tampa Bay Rays lineup -- CONFIRMED
 _Facing a taxed bullpen: 6.3 relief IP in last 2 days (ratio 1.22)_
@@ -143,10 +140,9 @@ _Facing a taxed bullpen: 6.3 relief IP in last 2 days (ratio 1.22)_
 - #8 Colton Cowser (L) -- L7: 4H 1HR 2RBI 7TB (0.222 avg) -- home split: 0.211 avg
 - #9 Leody Taveras (S) -- L7: 6H 0HR 0RBI 7TB (0.261 avg) -- home split: 0.228 avg
 
-## 2026-08-23 - Washington Nationals @ Miami Marlins (In Progress)
+## 2026-08-23 - Washington Nationals @ Miami Marlins (Final)
 _loanDepot park [pitcher-friendly park]_
-Projected score: Washington Nationals 4.27 - Miami Marlins 3.92
-Model likes: **Washington Nationals** to win (53%) | Run line: **Miami Marlins** +1.5 (63% to cover) | Total 7.5: lean **OVER** (51%)
+Final: Washington Nationals 2 - Miami Marlins 6
 
 ### Washington Nationals lineup -- CONFIRMED
 _Facing a taxed bullpen: 9.0 relief IP in last 2 days (ratio 1.72)_
@@ -446,7 +442,7 @@ _Facing a taxed bullpen: 9.7 relief IP in last 2 days (ratio 1.54)_
 - #8 Alek Thomas (L) -- L7: 2H 0HR 1RBI 3TB (0.100 avg) -- home split: 0.255 avg
 - #9 Hunter Feduccia (L) -- L7: 3H 0HR 0RBI 4TB (0.188 avg) -- home split: 0.247 avg
 
-## 2026-08-23 - Cincinnati Reds @ Arizona Diamondbacks (Warmup)
+## 2026-08-23 - Cincinnati Reds @ Arizona Diamondbacks (In Progress)
 _Chase Field [hitter-friendly park]_
 Projected score: Cincinnati Reds 4.26 - Arizona Diamondbacks 4.86
 Model likes: **Arizona Diamondbacks** to win (55%) | Run line: **Cincinnati Reds** +1.5 (60% to cover) | Total 8.5: lean **OVER** (50%)
@@ -479,20 +475,20 @@ _Facing a taxed bullpen: 7.7 relief IP in last 2 days (ratio 1.42)_
 
 ## 2026-08-23 - Atlanta Braves @ Milwaukee Brewers (Pre-Game)
 _Journey Bank Ballpark_
-Projected score: Atlanta Braves 3.29 - Milwaukee Brewers 4.56
-Model likes: **Milwaukee Brewers** to win (62%) | Run line: **Atlanta Braves** +1.5 (55% to cover) | Total 7.5: lean **UNDER** (52%)
+Projected score: Atlanta Braves 3.49 - Milwaukee Brewers 4.56
+Model likes: **Milwaukee Brewers** to win (60%) | Run line: **Atlanta Braves** +1.5 (56% to cover) | Total 7.5: lean **UNDER** (50%)
 
-### Atlanta Braves lineup -- PROJECTED (unconfirmed)
+### Atlanta Braves lineup -- CONFIRMED
 **Probable P: Tyler Mahle (R)** -- L5: 30.3 IP, 31 K, 8 ER, 2.37 ERA
-- Drake Baldwin (L) -- L7: 5H 1HR 2RBI 9TB (0.185 avg) -- away split: 0.251 avg
-- Michael Harris II (L) [7-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 11H 0HR 2RBI 16TB (0.393 avg) -- away split: 0.306 avg
-- Austin Riley (R) -- L7: 5H 0HR 2RBI 7TB (0.192 avg) -- away split: 0.172 avg
-- Ronald Acuña Jr. (R) -- L7: 3H 0HR 4RBI 4TB (0.103 avg) -- away split: 0.222 avg
-- Ozzie Albies (S) -- L7: 6H 0HR 1RBI 7TB (0.240 avg) -- away split: 0.249 avg
-- Matt Olson (L) -- L7: 5H 1HR 3RBI 9TB (0.200 avg) -- away split: 0.251 avg -- news: How Matt Olson became a king of scoops at first base
-- Mauricio Dubón (R) [4-game hit streak] -- L7: 8H 0HR 0RBI 8TB (0.333 avg) -- away split: 0.251 avg
-- Mike Yastrzemski (L) -- L7: 3H 0HR 0RBI 3TB (0.167 avg) -- away split: 0.215 avg
-- Jim Jarvis (L) -- L7: 1H 0HR 0RBI 1TB (0.059 avg) -- away split: 0.188 avg
+- #1 Michael Harris II (L) [7-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 11H 0HR 2RBI 16TB (0.393 avg) -- away split: 0.306 avg
+- #2 Ronald Acuña Jr. (R) -- L7: 3H 0HR 4RBI 4TB (0.103 avg) -- away split: 0.222 avg
+- #3 Matt Olson (L) -- L7: 5H 1HR 3RBI 9TB (0.200 avg) -- away split: 0.251 avg -- news: How Matt Olson became a king of scoops at first base
+- #4 Ozzie Albies (S) -- L7: 6H 0HR 1RBI 7TB (0.240 avg) -- away split: 0.249 avg
+- #5 Drake Baldwin (L) -- L7: 5H 1HR 2RBI 9TB (0.185 avg) -- away split: 0.251 avg
+- #6 Lane Thomas (R) -- L7: 3H 1HR 2RBI 7TB (0.231 avg) -- away split: 0.213 avg
+- #7 Mauricio Dubón (R) [4-game hit streak] -- L7: 8H 0HR 0RBI 8TB (0.333 avg) -- away split: 0.251 avg
+- #8 Austin Riley (R) -- L7: 5H 0HR 2RBI 7TB (0.192 avg) -- away split: 0.172 avg
+- #9 Sean Murphy (R) -- L7: 4H 0HR 0RBI 5TB (0.167 avg) -- away split: 0.080 avg
 
 ### Milwaukee Brewers lineup -- CONFIRMED
 **Probable P: Shane Drohan (L)** -- L5: 24.3 IP, 23 K, 16 ER, 5.92 ERA
@@ -660,7 +656,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.59)_
 ## 2026-08-24 - Philadelphia Phillies @ Seattle Mariners (Scheduled)
 _T-Mobile Park [pitcher-friendly park]_
 Projected score: Philadelphia Phillies 3.94 - Seattle Mariners 2.84
-Model likes: **Philadelphia Phillies** to win (61%) | Run line: **Seattle Mariners** +1.5 (57% to cover) | Total 6.5: lean **UNDER** (52%)
+Model likes: **Philadelphia Phillies** to win (61%) | Run line: **Seattle Mariners** +1.5 (57% to cover) | Total 6.5: lean **UNDER** (53%)
 
 ### Philadelphia Phillies lineup -- PROJECTED (unconfirmed)
 **Probable P: Zack Wheeler (R)** -- L5: 20.3 IP, 27 K, 15 ER, 6.64 ERA
@@ -841,7 +837,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-25 - Tampa Bay Rays @ Detroit Tigers (Scheduled)
 _Comerica Park [pitcher-friendly park]_
 Projected score: Tampa Bay Rays 4.04 - Detroit Tigers 3.77
-Model likes: **Tampa Bay Rays** to win (53%) | Run line: **Detroit Tigers** +1.5 (64% to cover) | Total 7.5: lean **UNDER** (52%)
+Model likes: **Tampa Bay Rays** to win (52%) | Run line: **Detroit Tigers** +1.5 (64% to cover) | Total 7.5: lean **UNDER** (52%)
 
 ### Tampa Bay Rays lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.7 relief IP in last 2 days (ratio 0.54)_
@@ -872,7 +868,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-25 - Colorado Rockies @ Washington Nationals (Scheduled)
 _Nationals Park_
 Projected score: Colorado Rockies 4.2 - Washington Nationals 6.59
-Model likes: **Washington Nationals** to win (67%) | Run line: **Washington Nationals** -1.5 (55% to cover) | Total 10.5: lean **UNDER** (53%)
+Model likes: **Washington Nationals** to win (67%) | Run line: **Washington Nationals** -1.5 (54% to cover) | Total 10.5: lean **UNDER** (53%)
 
 ### Colorado Rockies lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.3 relief IP in last 2 days (ratio 0.06)_
@@ -903,7 +899,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-25 - Houston Astros @ New York Yankees (Scheduled)
 _Yankee Stadium [hitter-friendly park]_
 Projected score: Houston Astros 4.2 - New York Yankees 4.52
-Model likes: **New York Yankees** to win (53%) | Run line: **Houston Astros** +1.5 (62% to cover) | Total 8.5: lean **UNDER** (53%)
+Model likes: **New York Yankees** to win (53%) | Run line: **Houston Astros** +1.5 (62% to cover) | Total 8.5: lean **UNDER** (54%)
 
 ### Houston Astros lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.33)_
@@ -1208,7 +1204,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-25 - Chicago Cubs @ Arizona Diamondbacks (Scheduled)
 _Chase Field [hitter-friendly park]_
 Projected score: Chicago Cubs 4.76 - Arizona Diamondbacks 3.38
-Model likes: **Chicago Cubs** to win (62%) | Run line: **Arizona Diamondbacks** +1.5 (54% to cover) | Total 7.5: lean **OVER** (51%)
+Model likes: **Chicago Cubs** to win (62%) | Run line: **Arizona Diamondbacks** +1.5 (54% to cover) | Total 7.5: lean **OVER** (50%)
 
 ### Chicago Cubs lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
