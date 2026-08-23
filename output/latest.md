@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-23T17:31:09.117200+00:00_
+_Generated 2026-08-23T17:36:59.472322+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -146,7 +146,7 @@ _Facing a taxed bullpen: 6.3 relief IP in last 2 days (ratio 1.22)_
 ## 2026-08-23 - Washington Nationals @ Miami Marlins (Warmup)
 _loanDepot park [pitcher-friendly park]_
 Projected score: Washington Nationals 4.27 - Miami Marlins 3.92
-Model likes: **Washington Nationals** to win (53%) | Run line: **Miami Marlins** +1.5 (62% to cover) | Total 7.5: lean **OVER** (51%)
+Model likes: **Washington Nationals** to win (53%) | Run line: **Miami Marlins** +1.5 (63% to cover) | Total 7.5: lean **OVER** (51%)
 
 ### Washington Nationals lineup -- CONFIRMED
 _Facing a taxed bullpen: 9.0 relief IP in last 2 days (ratio 1.72)_
@@ -388,7 +388,7 @@ _Facing a taxed bullpen: 6.3 relief IP in last 2 days (ratio 1.44)_
 
 ## 2026-08-23 - Minnesota Twins @ San Diego Padres (Pre-Game)
 _Petco Park [pitcher-friendly park]_
-Projected score: Minnesota Twins 4.11 - San Diego Padres 4.0
+Projected score: Minnesota Twins 4.11 - San Diego Padres 3.98
 Model likes: **Minnesota Twins** to win (51%) | Run line: **San Diego Padres** +1.5 (65% to cover) | Total 7.5: lean **OVER** (50%)
 
 ### Minnesota Twins lineup -- CONFIRMED
@@ -449,7 +449,7 @@ _Facing a taxed bullpen: 9.7 relief IP in last 2 days (ratio 1.56)_
 ## 2026-08-23 - Cincinnati Reds @ Arizona Diamondbacks (Pre-Game)
 _Chase Field [hitter-friendly park]_
 Projected score: Cincinnati Reds 4.2 - Arizona Diamondbacks 4.86
-Model likes: **Arizona Diamondbacks** to win (55%) | Run line: **Cincinnati Reds** +1.5 (59% to cover) | Total 8.5: lean **UNDER** (50%)
+Model likes: **Arizona Diamondbacks** to win (56%) | Run line: **Cincinnati Reds** +1.5 (59% to cover) | Total 8.5: lean **UNDER** (50%)
 
 ### Cincinnati Reds lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 9.0 relief IP in last 2 days (ratio 1.67)_
@@ -600,7 +600,7 @@ _Facing a rested bullpen: 4.0 relief IP in last 2 days (ratio 0.69)_
 ## 2026-08-24 - Texas Rangers @ Chicago White Sox (Scheduled)
 _Rate Field_
 Projected score: Texas Rangers 3.51 - Chicago White Sox 4.72
-Model likes: **Chicago White Sox** to win (61%) | Run line: **Texas Rangers** +1.5 (55% to cover) | Total 7.5: lean **OVER** (51%)
+Model likes: **Chicago White Sox** to win (61%) | Run line: **Texas Rangers** +1.5 (55% to cover) | Total 7.5: lean **OVER** (52%)
 
 ### Texas Rangers lineup -- PROJECTED (unconfirmed)
 - Wyatt Langford (R) -- L7: 6H 1HR 3RBI 10TB (0.222 avg) -- away split: 0.253 avg
@@ -895,7 +895,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-25 - Houston Astros @ New York Yankees (Scheduled)
 _Yankee Stadium [hitter-friendly park]_
 Projected score: Houston Astros 4.2 - New York Yankees 4.52
-Model likes: **New York Yankees** to win (53%) | Run line: **Houston Astros** +1.5 (62% to cover) | Total 8.5: lean **UNDER** (53%)
+Model likes: **New York Yankees** to win (53%) | Run line: **Houston Astros** +1.5 (62% to cover) | Total 8.5: lean **UNDER** (54%)
 
 ### Houston Astros lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1225,7 +1225,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-25 - Cincinnati Reds @ San Francisco Giants (Scheduled)
 _Oracle Park [pitcher-friendly park]_
 Projected score: Cincinnati Reds 4.01 - San Francisco Giants 3.9
-Model likes: **Cincinnati Reds** to win (51%) | Run line: **San Francisco Giants** +1.5 (65% to cover) | Total 7.5: lean **UNDER** (51%)
+Model likes: **Cincinnati Reds** to win (51%) | Run line: **San Francisco Giants** +1.5 (65% to cover) | Total 7.5: lean **UNDER** (52%)
 
 ### Cincinnati Reds lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
