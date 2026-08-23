@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-23T21:47:56.807150+00:00_
+_Generated 2026-08-23T21:57:41.849425+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -317,10 +317,9 @@ _Facing a taxed bullpen: 7.3 relief IP in last 2 days (ratio 1.44)_
 - #8 Ryan Ritter (R) -- L7: 1H 0HR 0RBI 1TB (0.111 avg)
 - #9 Ezequiel Tovar (R) -- L7: 2H 0HR 1RBI 2TB (0.133 avg) -- home split: 0.192 avg
 
-## 2026-08-23 - San Francisco Giants @ Boston Red Sox (In Progress)
+## 2026-08-23 - San Francisco Giants @ Boston Red Sox (Game Over)
 _Fenway Park_
-Projected score: San Francisco Giants 2.72 - Boston Red Sox 5.14
-Model likes: **Boston Red Sox** to win (72%) | Run line: **Boston Red Sox** -1.5 (56% to cover) | Total 7.5: lean **UNDER** (52%)
+Final: San Francisco Giants 4 - Boston Red Sox 5
 
 ### San Francisco Giants lineup -- CONFIRMED
 **Probable P: Matt Wilkinson (L)** -- L5: 2.0 IP, 0 K, 0 ER, 0.0 ERA
@@ -381,7 +380,7 @@ _Facing a taxed bullpen: 6.3 relief IP in last 2 days (ratio 1.44)_
 ## 2026-08-23 - Minnesota Twins @ San Diego Padres (In Progress)
 _Petco Park [pitcher-friendly park]_
 Projected score: Minnesota Twins 4.11 - San Diego Padres 3.98
-Model likes: **Minnesota Twins** to win (51%) | Run line: **San Diego Padres** +1.5 (65% to cover) | Total 7.5: lean **OVER** (50%)
+Model likes: **Minnesota Twins** to win (51%) | Run line: **San Diego Padres** +1.5 (64% to cover) | Total 7.5: lean **OVER** (50%)
 
 ### Minnesota Twins lineup -- CONFIRMED
 _Facing a taxed bullpen: 8.3 relief IP in last 2 days (ratio 1.3)_
@@ -680,7 +679,7 @@ Model likes: **Philadelphia Phillies** to win (61%) | Run line: **Seattle Marine
 ## 2026-08-24 - Pittsburgh Pirates @ San Diego Padres (Scheduled)
 _Petco Park [pitcher-friendly park]_
 Projected score: Pittsburgh Pirates 3.04 - San Diego Padres 3.61
-Model likes: **San Diego Padres** to win (56%) | Run line: **Pittsburgh Pirates** +1.5 (62% to cover) | Total 6.5: lean **UNDER** (54%)
+Model likes: **San Diego Padres** to win (56%) | Run line: **Pittsburgh Pirates** +1.5 (63% to cover) | Total 6.5: lean **UNDER** (54%)
 
 ### Pittsburgh Pirates lineup -- PROJECTED (unconfirmed)
 **Probable P: Braxton Ashcraft (R)** -- L5: 33.0 IP, 29 K, 10 ER, 2.73 ERA
@@ -889,7 +888,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.52)_
 ## 2026-08-25 - Houston Astros @ New York Yankees (Scheduled)
 _Yankee Stadium [hitter-friendly park]_
 Projected score: Houston Astros 4.2 - New York Yankees 4.52
-Model likes: **New York Yankees** to win (53%) | Run line: **Houston Astros** +1.5 (62% to cover) | Total 8.5: lean **UNDER** (53%)
+Model likes: **New York Yankees** to win (53%) | Run line: **Houston Astros** +1.5 (62% to cover) | Total 8.5: lean **UNDER** (54%)
 
 ### Houston Astros lineup -- PROJECTED (unconfirmed)
 - Isaac Paredes (R) -- L7: 6H 1HR 4RBI 11TB (0.273 avg) -- away split: 0.256 avg
@@ -1191,7 +1190,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-25 - Chicago Cubs @ Arizona Diamondbacks (Scheduled)
 _Chase Field [hitter-friendly park]_
 Projected score: Chicago Cubs 4.79 - Arizona Diamondbacks 3.38
-Model likes: **Chicago Cubs** to win (62%) | Run line: **Arizona Diamondbacks** +1.5 (53% to cover) | Total 7.5: lean **OVER** (51%)
+Model likes: **Chicago Cubs** to win (63%) | Run line: **Arizona Diamondbacks** +1.5 (53% to cover) | Total 7.5: lean **OVER** (51%)
 
 ### Chicago Cubs lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 1.0 relief IP in last 2 days (ratio 0.18)_
