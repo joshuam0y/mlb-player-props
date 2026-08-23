@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-23T16:33:27.873348+00:00_
+_Generated 2026-08-23T16:42:30.064112+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -85,7 +85,7 @@ _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.29)_
 ## 2026-08-23 - Toronto Blue Jays @ New York Yankees (Pre-Game)
 _Yankee Stadium [hitter-friendly park]_
 Projected score: Toronto Blue Jays 3.2 - New York Yankees 3.37
-Model likes: **New York Yankees** to win (52%) | Run line: **Toronto Blue Jays** +1.5 (66% to cover) | Total 6.5: lean **UNDER** (55%)
+Model likes: **New York Yankees** to win (52%) | Run line: **Toronto Blue Jays** +1.5 (67% to cover) | Total 6.5: lean **UNDER** (55%)
 
 ### Toronto Blue Jays lineup -- CONFIRMED
 _Facing a taxed bullpen: 8.7 relief IP in last 2 days (ratio 1.41)_
@@ -177,7 +177,7 @@ _Facing a taxed bullpen: 7.3 relief IP in last 2 days (ratio 1.21)_
 ## 2026-08-23 - Detroit Tigers @ Kansas City Royals (Pre-Game)
 _Kauffman Stadium [pitcher-friendly park]_
 Projected score: Detroit Tigers 4.29 - Kansas City Royals 3.25
-Model likes: **Detroit Tigers** to win (60%) | Run line: **Kansas City Royals** +1.5 (57% to cover) | Total 6.5: lean **OVER** (55%)
+Model likes: **Detroit Tigers** to win (60%) | Run line: **Kansas City Royals** +1.5 (57% to cover) | Total 7.5: lean **UNDER** (55%)
 
 ### Detroit Tigers lineup -- CONFIRMED
 **Probable P: Jacob Waguespack (R)** [BULLPEN GAME: short-outing arm, no reliable individual matchup below] -- L5: 7.0 IP, 2 K, 2 ER, 2.57 ERA
@@ -266,12 +266,12 @@ _Facing a taxed bullpen: 9.3 relief IP in last 2 days (ratio 1.36)_
 
 ## 2026-08-23 - Los Angeles Angels @ Texas Rangers (Pre-Game)
 _Globe Life Field [hitter-friendly park]_
-Projected score: Los Angeles Angels 4.1 - Texas Rangers 3.91
-Model likes: **Los Angeles Angels** to win (52%) | Run line: **Texas Rangers** +1.5 (64% to cover) | Total 7.5: lean **UNDER** (50%)
+Projected score: Los Angeles Angels 4.1 - Texas Rangers 4.34
+Model likes: **Texas Rangers** to win (52%) | Run line: **Los Angeles Angels** +1.5 (63% to cover) | Total 7.5: lean **OVER** (53%)
 
 ### Los Angeles Angels lineup -- CONFIRMED
 _Facing a taxed bullpen: 7.7 relief IP in last 2 days (ratio 1.55)_
-**Probable P: Yusei Kikuchi (L)** -- L5: no data
+**Probable P: Yusei Kikuchi (L)** -- L5: 21.3 IP, 25 K, 13 ER, 5.48 ERA
 - #1 Zach Neto (R) [5-game hit streak] -- L7: 12H 1HR 8RBI 21TB (0.400 avg) -- away split: 0.258 avg
 - #2 Mike Trout (R) -- L7: 4H 0HR 1RBI 5TB (0.160 avg) -- away split: 0.252 avg
 - #3 Moisés Ballesteros (L) -- L7: 4H 0HR 3RBI 6TB (0.143 avg) -- away split: 0.207 avg
@@ -284,15 +284,15 @@ _Facing a taxed bullpen: 7.7 relief IP in last 2 days (ratio 1.55)_
 
 ### Texas Rangers lineup -- PROJECTED (unconfirmed)
 **Probable P: Cal Quantrill (R)** [BULLPEN GAME: short-outing arm, no reliable individual matchup below] -- L5: 24.3 IP, 22 K, 3 ER, 1.11 ERA
-- Wyatt Langford (R) -- L7: 6H 1HR 3RBI 10TB (0.222 avg) -- home split: 0.239 avg
+- Wyatt Langford (R) [MATCHUP EDGE: pitcher hits 0.284 avg-against vs this hand] -- L7: 6H 1HR 3RBI 10TB (0.222 avg) -- home split: 0.239 avg
 - Evan Carter (L) -- L7: 5H 0HR 0RBI 8TB (0.217 avg) -- home split: 0.200 avg
-- Ezequiel Duran (R) -- L7: 7H 0HR 0RBI 10TB (0.280 avg) -- home split: 0.302 avg
+- Ezequiel Duran (R) [MATCHUP EDGE: pitcher hits 0.284 avg-against vs this hand] -- L7: 7H 0HR 0RBI 10TB (0.280 avg) -- home split: 0.302 avg
 - Brandon Nimmo (L) -- L7: 4H 0HR 1RBI 5TB (0.143 avg) -- home split: 0.249 avg
 - Nicky Lopez (L) -- L7: 1H 0HR 2RBI 1TB (0.091 avg) -- home split: 0.296 avg
 - Corey Seager (L) [likely BABIP-driven, not a real power uptick] -- L7: 10H 1HR 2RBI 15TB (0.385 avg) -- home split: 0.210 avg
 - Joc Pederson (L) -- L7: 0H 0HR 0RBI 0TB (0.000 avg) -- home split: 0.199 avg
-- Jake Burger (R) -- L7: 6H 2HR 5RBI 13TB (0.273 avg) -- home split: 0.215 avg
-- Elias Díaz (R) -- L7: 2H 0HR 0RBI 2TB (0.133 avg) -- home split: 0.198 avg
+- Jake Burger (R) [MATCHUP EDGE: pitcher hits 0.284 avg-against vs this hand] -- L7: 6H 2HR 5RBI 13TB (0.273 avg) -- home split: 0.215 avg
+- Elias Díaz (R) [MATCHUP EDGE: pitcher hits 0.284 avg-against vs this hand] -- L7: 2H 0HR 0RBI 2TB (0.133 avg) -- home split: 0.198 avg
 
 ## 2026-08-23 - Cleveland Guardians @ Colorado Rockies (Pre-Game)
 _Coors Field [hitter-friendly park]_
@@ -536,11 +536,12 @@ _Facing a rested bullpen: 3.3 relief IP in last 2 days (ratio 0.61)_
 
 ## 2026-08-24 - Tampa Bay Rays @ Detroit Tigers (Scheduled)
 _Comerica Park [pitcher-friendly park]_
-Projected score: Tampa Bay Rays 3.76 - Detroit Tigers 4.55
-Model likes: **Detroit Tigers** to win (57%) | Run line: **Tampa Bay Rays** +1.5 (59% to cover) | Total 7.5: lean **OVER** (52%)
+Projected score: Tampa Bay Rays 3.76 - Detroit Tigers 3.33
+Model likes: **Tampa Bay Rays** to win (54%) | Run line: **Detroit Tigers** +1.5 (63% to cover) | Total 6.5: lean **OVER** (51%)
 
 ### Tampa Bay Rays lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.61)_
+**Probable P: Drew Rasmussen (R)** -- L5: 30.0 IP, 35 K, 7 ER, 2.1 ERA
 - Junior Caminero (R) [6-game hit streak] -- L7: 8H 0HR 3RBI 10TB (0.286 avg) -- away split: 0.265 avg
 - Jonathan Aranda (L) -- L7: 4H 0HR 1RBI 5TB (0.154 avg) -- away split: 0.269 avg
 - Yandy Díaz (R) -- L7: 10H 2HR 3RBI 16TB (0.357 avg) -- away split: 0.263 avg
@@ -555,13 +556,13 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.61)_
 _Facing a rested bullpen: 4.0 relief IP in last 2 days (ratio 0.66)_
 - Kevin McGonigle (L) -- L7: 6H 1HR 5RBI 10TB (0.214 avg) -- home split: 0.268 avg
 - Max Clark (L) -- L7: 5H 0HR 2RBI 6TB (0.217 avg) -- home split: 0.190 avg -- news: Mayo: Don't judge a book by its cover -- especially Max Clark
-- Dillon Dingler (R) -- L7: 3H 0HR 1RBI 4TB (0.115 avg) -- home split: 0.233 avg
+- Dillon Dingler (R) [TOUGH MATCHUP: pitcher holds this hand to 0.183 avg-against] -- L7: 3H 0HR 1RBI 4TB (0.115 avg) -- home split: 0.233 avg
 - Colt Keith (L) -- L7: 6H 1HR 1RBI 10TB (0.375 avg) -- home split: 0.264 avg
-- Spencer Torkelson (R) -- L7: 0H 0HR 0RBI 0TB (0.000 avg) -- home split: 0.215 avg
+- Spencer Torkelson (R) [TOUGH MATCHUP: pitcher holds this hand to 0.183 avg-against] -- L7: 0H 0HR 0RBI 0TB (0.000 avg) -- home split: 0.215 avg
 - Zach McKinstry (L) -- L7: 5H 0HR 2RBI 7TB (0.278 avg) -- home split: 0.252 avg
-- Gleyber Torres (R) -- L7: 8H 0HR 2RBI 10TB (0.276 avg) -- home split: 0.295 avg
-- Hao-Yu Lee (R) [3-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 7H 1HR 3RBI 10TB (0.438 avg) -- home split: 0.257 avg -- news: Hao-Yu Lee sets single-season record for hits by a player born in Taiwan
-- Ben Malgeri (R) -- L7: 3H 2HR 3RBI 9TB (0.231 avg) -- home split: 0.273 avg
+- Gleyber Torres (R) [TOUGH MATCHUP: pitcher holds this hand to 0.183 avg-against] -- L7: 8H 0HR 2RBI 10TB (0.276 avg) -- home split: 0.295 avg
+- Hao-Yu Lee (R) [TOUGH MATCHUP: pitcher holds this hand to 0.183 avg-against] [3-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 7H 1HR 3RBI 10TB (0.438 avg) -- home split: 0.257 avg -- news: Hao-Yu Lee sets single-season record for hits by a player born in Taiwan
+- Ben Malgeri (R) [TOUGH MATCHUP: pitcher holds this hand to 0.183 avg-against] -- L7: 3H 2HR 3RBI 9TB (0.231 avg) -- home split: 0.273 avg
 
 ## 2026-08-24 - Colorado Rockies @ Washington Nationals (Scheduled)
 _Nationals Park_
@@ -621,15 +622,15 @@ Model likes: **Chicago White Sox** to win (61%) | Run line: **Texas Rangers** +1
 
 ## 2026-08-24 - Cleveland Guardians @ Los Angeles Angels (Scheduled)
 _Angel Stadium_
-Projected score: Cleveland Guardians 3.48 - Los Angeles Angels 2.55
-Model likes: **Cleveland Guardians** to win (60%) | Run line: **Los Angeles Angels** +1.5 (60% to cover) | Total 5.5: lean **OVER** (51%)
+Projected score: Cleveland Guardians 3.34 - Los Angeles Angels 2.55
+Model likes: **Cleveland Guardians** to win (59%) | Run line: **Los Angeles Angels** +1.5 (61% to cover) | Total 5.5: lean **UNDER** (51%)
 
 ### Cleveland Guardians lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.35)_
 **Probable P: Parker Messick (L)** -- L5: 31.3 IP, 36 K, 7 ER, 2.01 ERA
 - Angel Genao (S) [5-game hit streak] -- L7: 9H 0HR 0RBI 11TB (0.333 avg) -- away split: 0.185 avg
 - Steven Kwan (L) -- L7: 5H 0HR 3RBI 6TB (0.200 avg) -- away split: 0.252 avg
-- Jo Adell (R) -- L7: 9H 2HR 11RBI 17TB (0.375 avg) -- away split: 0.245 avg
+- Jo Adell (R) [TOUGH MATCHUP: pitcher holds this hand to 0.147 avg-against] -- L7: 9H 2HR 11RBI 17TB (0.375 avg) -- away split: 0.245 avg
 - José Ramírez (S) -- L7: 8H 0HR 2RBI 10TB (0.286 avg) -- away split: 0.212 avg
 - Travis Bazzana (L) [4-game hit streak] -- L7: 8H 0HR 3RBI 9TB (0.308 avg) -- away split: 0.259 avg
 - Angel Martínez (S) -- L7: 4H 0HR 1RBI 5TB (0.190 avg) -- away split: 0.233 avg
@@ -639,6 +640,7 @@ _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.35)_
 
 ### Los Angeles Angels lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.59)_
+**Probable P: George Klassen (R)** -- L5: 21.7 IP, 21 K, 9 ER, 3.74 ERA
 - Denzer Guzman (R) -- L7: 4H 1HR 5RBI 9TB (0.167 avg) -- home split: 0.216 avg
 - Jose Siri (R) -- L7: 1H 0HR 0RBI 1TB (0.077 avg) -- home split: 0.212 avg
 - Mike Trout (R) -- L7: 4H 0HR 1RBI 5TB (0.160 avg) -- home split: 0.225 avg
@@ -825,11 +827,12 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 
 ## 2026-08-25 - Tampa Bay Rays @ Detroit Tigers (Scheduled)
 _Comerica Park [pitcher-friendly park]_
-Projected score: Tampa Bay Rays 3.76 - Detroit Tigers 4.55
-Model likes: **Detroit Tigers** to win (57%) | Run line: **Tampa Bay Rays** +1.5 (59% to cover) | Total 7.5: lean **OVER** (52%)
+Projected score: Tampa Bay Rays 3.76 - Detroit Tigers 3.77
+Model likes: **Detroit Tigers** to win (50%) | Run line: **Tampa Bay Rays** +1.5 (66% to cover) | Total 7.5: lean **UNDER** (55%)
 
 ### Tampa Bay Rays lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
+**Probable P: Ian Seymour (L)** [BULLPEN GAME: short-outing arm, no reliable individual matchup below] -- L5: 27.7 IP, 37 K, 9 ER, 2.93 ERA
 - Junior Caminero (R) [6-game hit streak] -- L7: 8H 0HR 3RBI 10TB (0.286 avg) -- away split: 0.265 avg
 - Jonathan Aranda (L) -- L7: 4H 0HR 1RBI 5TB (0.154 avg) -- away split: 0.269 avg
 - Yandy Díaz (R) -- L7: 10H 2HR 3RBI 16TB (0.357 avg) -- away split: 0.263 avg
@@ -1062,14 +1065,15 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 
 ## 2026-08-25 - Cleveland Guardians @ Los Angeles Angels (Scheduled)
 _Angel Stadium_
-Projected score: Cleveland Guardians 3.48 - Los Angeles Angels 3.23
-Model likes: **Cleveland Guardians** to win (53%) | Run line: **Los Angeles Angels** +1.5 (66% to cover) | Total 6.5: lean **UNDER** (53%)
+Projected score: Cleveland Guardians 2.88 - Los Angeles Angels 3.17
+Model likes: **Los Angeles Angels** to win (53%) | Run line: **Cleveland Guardians** +1.5 (66% to cover) | Total 5.5: lean **OVER** (51%)
 
 ### Cleveland Guardians lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
+**Probable P: Gavin Williams (R)** -- L5: 28.3 IP, 45 K, 11 ER, 3.49 ERA
 - Angel Genao (S) [5-game hit streak] -- L7: 9H 0HR 0RBI 11TB (0.333 avg) -- away split: 0.185 avg
 - Steven Kwan (L) -- L7: 5H 0HR 3RBI 6TB (0.200 avg) -- away split: 0.252 avg
-- Jo Adell (R) -- L7: 9H 2HR 11RBI 17TB (0.375 avg) -- away split: 0.245 avg
+- Jo Adell (R) [TOUGH MATCHUP: pitcher holds this hand to 0.190 avg-against] -- L7: 9H 2HR 11RBI 17TB (0.375 avg) -- away split: 0.245 avg
 - José Ramírez (S) -- L7: 8H 0HR 2RBI 10TB (0.286 avg) -- away split: 0.212 avg
 - Travis Bazzana (L) [4-game hit streak] -- L7: 8H 0HR 3RBI 9TB (0.308 avg) -- away split: 0.259 avg
 - Angel Martínez (S) -- L7: 4H 0HR 1RBI 5TB (0.190 avg) -- away split: 0.233 avg
@@ -1079,6 +1083,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 
 ### Los Angeles Angels lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
+**Probable P: Walbert Ureña (R)** -- L5: 25.3 IP, 26 K, 8 ER, 2.84 ERA
 - Denzer Guzman (R) -- L7: 4H 1HR 5RBI 9TB (0.167 avg) -- home split: 0.216 avg
 - Jose Siri (R) -- L7: 1H 0HR 0RBI 1TB (0.077 avg) -- home split: 0.212 avg
 - Mike Trout (R) -- L7: 4H 0HR 1RBI 5TB (0.160 avg) -- home split: 0.225 avg
@@ -1210,7 +1215,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-25 - Cincinnati Reds @ San Francisco Giants (Scheduled)
 _Oracle Park [pitcher-friendly park]_
 Projected score: Cincinnati Reds 4.01 - San Francisco Giants 3.9
-Model likes: **Cincinnati Reds** to win (51%) | Run line: **San Francisco Giants** +1.5 (65% to cover) | Total 7.5: lean **UNDER** (52%)
+Model likes: **Cincinnati Reds** to win (51%) | Run line: **San Francisco Giants** +1.5 (65% to cover) | Total 7.5: lean **UNDER** (51%)
 
 ### Cincinnati Reds lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
