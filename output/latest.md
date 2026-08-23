@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-22T23:43:47.388313+00:00_
+_Generated 2026-08-23T00:02:09.104472+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -173,7 +173,7 @@ _Facing a taxed bullpen: 8.7 relief IP in last 2 days (ratio 1.6)_
 ## 2026-08-22 - Los Angeles Angels @ Texas Rangers (In Progress)
 _Globe Life Field [hitter-friendly park]_
 Projected score: Los Angeles Angels 3.63 - Texas Rangers 4.35
-Model likes: **Texas Rangers** to win (56%) | Run line: **Los Angeles Angels** +1.5 (60% to cover) | Total 7.5: lean **UNDER** (51%)
+Model likes: **Texas Rangers** to win (57%) | Run line: **Los Angeles Angels** +1.5 (60% to cover) | Total 7.5: lean **UNDER** (51%)
 
 ### Los Angeles Angels lineup -- CONFIRMED
 _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.42)_
@@ -323,7 +323,7 @@ _Facing a taxed bullpen: 9.0 relief IP in last 2 days (ratio 1.92)_
 ## 2026-08-22 - Pittsburgh Pirates @ Los Angeles Dodgers (In Progress)
 _UNIQLO Field at Dodger Stadium_
 Projected score: Pittsburgh Pirates 2.96 - Los Angeles Dodgers 4.61
-Model likes: **Los Angeles Dodgers** to win (66%) | Run line: **Pittsburgh Pirates** +1.5 (51% to cover) | Total 7.5: lean **UNDER** (55%)
+Model likes: **Los Angeles Dodgers** to win (65%) | Run line: **Pittsburgh Pirates** +1.5 (51% to cover) | Total 7.5: lean **UNDER** (55%)
 
 ### Pittsburgh Pirates lineup -- CONFIRMED
 _Facing a rested bullpen: 3.7 relief IP in last 2 days (ratio 0.69)_
@@ -412,7 +412,7 @@ _Facing a taxed bullpen: 8.0 relief IP in last 2 days (ratio 1.72)_
 - #8 Andruw Monasterio (R) -- L7: 4H 0HR 6RBI 5TB (0.154 avg) -- home split: 0.250 avg
 - #9 Mickey Gasper (S) -- L7: 4H 3HR 9RBI 13TB (0.200 avg) -- home split: 0.286 avg
 
-## 2026-08-22 - Cleveland Guardians @ Colorado Rockies (Pre-Game)
+## 2026-08-22 - Cleveland Guardians @ Colorado Rockies (Warmup)
 _Coors Field [hitter-friendly park]_
 Projected score: Cleveland Guardians 5.19 - Colorado Rockies 4.49
 Model likes: **Cleveland Guardians** to win (55%) | Run line: **Colorado Rockies** +1.5 (58% to cover) | Total 9.5: lean **UNDER** (54%)
@@ -568,7 +568,7 @@ _Facing a taxed bullpen: 9.7 relief IP in last 2 days (ratio 1.46)_
 ## 2026-08-23 - Tampa Bay Rays @ Baltimore Orioles (Scheduled)
 _Oriole Park at Camden Yards_
 Projected score: Tampa Bay Rays 4.11 - Baltimore Orioles 3.23
-Model likes: **Tampa Bay Rays** to win (58%) | Run line: **Baltimore Orioles** +1.5 (59% to cover) | Total 6.5: lean **OVER** (53%)
+Model likes: **Tampa Bay Rays** to win (59%) | Run line: **Baltimore Orioles** +1.5 (59% to cover) | Total 6.5: lean **OVER** (53%)
 
 ### Tampa Bay Rays lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.39)_
@@ -1011,7 +1011,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-24 - Colorado Rockies @ Washington Nationals (Scheduled)
 _Nationals Park_
 Projected score: Colorado Rockies 5.46 - Washington Nationals 5.99
-Model likes: **Washington Nationals** to win (54%) | Run line: **Colorado Rockies** +1.5 (59% to cover) | Total 10.5: lean **OVER** (52%)
+Model likes: **Washington Nationals** to win (54%) | Run line: **Colorado Rockies** +1.5 (58% to cover) | Total 10.5: lean **OVER** (52%)
 
 ### Colorado Rockies lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.33)_
@@ -1040,7 +1040,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-24 - Texas Rangers @ Chicago White Sox (Scheduled)
 _Rate Field_
 Projected score: Texas Rangers 3.36 - Chicago White Sox 4.89
-Model likes: **Chicago White Sox** to win (64%) | Run line: **Texas Rangers** +1.5 (52% to cover) | Total 7.5: lean **OVER** (52%)
+Model likes: **Chicago White Sox** to win (63%) | Run line: **Texas Rangers** +1.5 (52% to cover) | Total 7.5: lean **OVER** (52%)
 
 ### Texas Rangers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1187,7 +1187,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-24 - Chicago Cubs @ Arizona Diamondbacks (Scheduled)
 _Chase Field [hitter-friendly park]_
 Projected score: Chicago Cubs 5.13 - Arizona Diamondbacks 4.88
-Model likes: **Chicago Cubs** to win (52%) | Run line: **Arizona Diamondbacks** +1.5 (61% to cover) | Total 9.5: lean **UNDER** (51%)
+Model likes: **Chicago Cubs** to win (52%) | Run line: **Arizona Diamondbacks** +1.5 (62% to cover) | Total 9.5: lean **UNDER** (51%)
 
 ### Chicago Cubs lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1216,7 +1216,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-24 - Cincinnati Reds @ San Francisco Giants (Scheduled)
 _Oracle Park [pitcher-friendly park]_
 Projected score: Cincinnati Reds 3.74 - San Francisco Giants 2.75
-Model likes: **Cincinnati Reds** to win (60%) | Run line: **San Francisco Giants** +1.5 (58% to cover) | Total 6.5: lean **UNDER** (56%)
+Model likes: **Cincinnati Reds** to win (60%) | Run line: **San Francisco Giants** +1.5 (58% to cover) | Total 5.5: lean **OVER** (56%)
 
 ### Cincinnati Reds lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
