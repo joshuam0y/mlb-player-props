@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-23T21:05:14.898212+00:00_
+_Generated 2026-08-23T21:35:58.240871+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -170,10 +170,9 @@ _Facing a taxed bullpen: 7.3 relief IP in last 2 days (ratio 1.21)_
 - #8 Griffin Conine (L) -- L7: 4H 1HR 4RBI 7TB (0.182 avg) -- home split: 0.321 avg
 - #9 Brian Navarreto (R) [MATCHUP EDGE: pitcher hits 0.286 avg-against vs this hand] -- L7: 2H 1HR 1RBI 5TB (0.118 avg) -- home split: 0.000 avg
 
-## 2026-08-23 - Detroit Tigers @ Kansas City Royals (In Progress)
+## 2026-08-23 - Detroit Tigers @ Kansas City Royals (Final)
 _Kauffman Stadium [pitcher-friendly park]_
-Projected score: Detroit Tigers 4.29 - Kansas City Royals 3.25
-Model likes: **Detroit Tigers** to win (60%) | Run line: **Kansas City Royals** +1.5 (57% to cover) | Total 6.5: lean **OVER** (55%)
+Final: Detroit Tigers 7 - Kansas City Royals 11
 
 ### Detroit Tigers lineup -- CONFIRMED
 **Probable P: Jacob Waguespack (R)** [BULLPEN GAME: short-outing arm, no reliable individual matchup below] -- L5: 7.0 IP, 2 K, 2 ER, 2.57 ERA
@@ -199,10 +198,9 @@ Model likes: **Detroit Tigers** to win (60%) | Run line: **Kansas City Royals** 
 - #8 Luke Maile (R) -- L7: 4H 0HR 2RBI 5TB (0.211 avg) -- home split: 0.200 avg
 - #9 Kyle Isbel (L) [3-game hit streak] -- L7: 6H 2HR 5RBI 13TB (0.300 avg) -- home split: 0.243 avg
 
-## 2026-08-23 - Athletics @ Houston Astros (In Progress)
+## 2026-08-23 - Athletics @ Houston Astros (Game Over)
 _Daikin Park_
-Projected score: Athletics 4.04 - Houston Astros 5.68
-Model likes: **Houston Astros** to win (63%) | Run line: **Athletics** +1.5 (51% to cover) | Total 9.5: lean **UNDER** (54%)
+Final: Athletics 7 - Houston Astros 6
 
 ### Athletics lineup -- CONFIRMED
 _Facing a taxed bullpen: 7.3 relief IP in last 2 days (ratio 1.29)_
@@ -259,10 +257,9 @@ _Facing a taxed bullpen: 9.3 relief IP in last 2 days (ratio 1.36)_
 - #8 Tristan Peters (L) -- L7: 4H 1HR 2RBI 9TB (0.222 avg) -- home split: 0.250 avg
 - #9 Jake Rogers (R) [TOUGH MATCHUP: pitcher holds this hand to 0.176 avg-against] -- L7: 2H 1HR 2RBI 5TB (0.143 avg) -- home split: 0.275 avg -- news: Orioles get catcher Jake Rogers in trade with Tigers
 
-## 2026-08-23 - Los Angeles Angels @ Texas Rangers (In Progress)
+## 2026-08-23 - Los Angeles Angels @ Texas Rangers (Final)
 _Globe Life Field [hitter-friendly park]_
-Projected score: Los Angeles Angels 4.1 - Texas Rangers 4.41
-Model likes: **Texas Rangers** to win (53%) | Run line: **Los Angeles Angels** +1.5 (62% to cover) | Total 7.5: lean **OVER** (54%)
+Final: Los Angeles Angels 3 - Texas Rangers 5
 
 ### Los Angeles Angels lineup -- CONFIRMED
 _Facing a taxed bullpen: 7.7 relief IP in last 2 days (ratio 1.55)_
@@ -745,7 +742,7 @@ _Facing a rested bullpen: 2.7 relief IP in last 2 days (ratio 0.65)_
 ## 2026-08-24 - Chicago Cubs @ Arizona Diamondbacks (Scheduled)
 _Chase Field [hitter-friendly park]_
 Projected score: Chicago Cubs 6.07 - Arizona Diamondbacks 4.75
-Model likes: **Chicago Cubs** to win (60%) | Run line: **Arizona Diamondbacks** +1.5 (53% to cover) | Total 10.5: lean **UNDER** (53%)
+Model likes: **Chicago Cubs** to win (59%) | Run line: **Arizona Diamondbacks** +1.5 (53% to cover) | Total 10.5: lean **UNDER** (53%)
 
 ### Chicago Cubs lineup -- PROJECTED (unconfirmed)
 **Probable P: Kevin Gausman (R)** -- L5: 27.7 IP, 26 K, 15 ER, 4.88 ERA
@@ -835,7 +832,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-25 - Tampa Bay Rays @ Detroit Tigers (Scheduled)
 _Comerica Park [pitcher-friendly park]_
 Projected score: Tampa Bay Rays 4.04 - Detroit Tigers 3.77
-Model likes: **Tampa Bay Rays** to win (52%) | Run line: **Detroit Tigers** +1.5 (64% to cover) | Total 7.5: lean **UNDER** (52%)
+Model likes: **Tampa Bay Rays** to win (53%) | Run line: **Detroit Tigers** +1.5 (64% to cover) | Total 7.5: lean **UNDER** (52%)
 
 ### Tampa Bay Rays lineup -- PROJECTED (unconfirmed)
 **Probable P: Ian Seymour (L)** [BULLPEN GAME: short-outing arm, no reliable individual matchup below] -- L5: 27.7 IP, 37 K, 9 ER, 2.93 ERA
@@ -924,24 +921,25 @@ _Facing a rested bullpen: 0.3 relief IP in last 2 days (ratio 0.06)_
 
 ## 2026-08-25 - Kansas City Royals @ Toronto Blue Jays (Scheduled)
 _Rogers Centre_
-Projected score: Kansas City Royals 3.64 - Toronto Blue Jays 3.99
-Model likes: **Toronto Blue Jays** to win (53%) | Run line: **Kansas City Royals** +1.5 (63% to cover) | Total 7.5: lean **UNDER** (54%)
+Projected score: Kansas City Royals 4.92 - Toronto Blue Jays 3.99
+Model likes: **Kansas City Royals** to win (58%) | Run line: **Toronto Blue Jays** +1.5 (57% to cover) | Total 8.5: lean **UNDER** (52%)
 
 ### Kansas City Royals lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 **Probable P: Seth Lugo (R)** -- L5: 27.7 IP, 17 K, 19 ER, 6.18 ERA
 - Bobby Witt Jr. (R) [4-game hit streak] -- L7: 10H 2HR 5RBI 17TB (0.370 avg) -- away split: 0.261 avg
 - Nick Loftin (R) -- L7: 4H 1HR 4RBI 9TB (0.211 avg) -- away split: 0.243 avg
-- Jac Caglianone (L) -- L7: 8H 0HR 2RBI 10TB (0.333 avg) -- away split: 0.263 avg
-- Michael Massey (L) [likely BABIP-driven, not a real power uptick] -- L7: 10H 1HR 2RBI 15TB (0.417 avg) -- away split: 0.249 avg
-- Isaac Collins (S) -- L7: 2H 0HR 3RBI 2TB (0.118 avg) -- away split: 0.186 avg
-- Kyle Isbel (L) [4-game hit streak] -- L7: 7H 2HR 7RBI 14TB (0.304 avg) -- away split: 0.228 avg
+- Jac Caglianone (L) [MATCHUP EDGE: pitcher hits 0.295 avg-against vs this hand] -- L7: 8H 0HR 2RBI 10TB (0.333 avg) -- away split: 0.263 avg
+- Michael Massey (L) [MATCHUP EDGE: pitcher hits 0.295 avg-against vs this hand] [likely BABIP-driven, not a real power uptick] -- L7: 10H 1HR 2RBI 15TB (0.417 avg) -- away split: 0.249 avg
+- Isaac Collins (S) [MATCHUP EDGE: pitcher hits 0.295 avg-against vs this hand] -- L7: 2H 0HR 3RBI 2TB (0.118 avg) -- away split: 0.186 avg
+- Kyle Isbel (L) [MATCHUP EDGE: pitcher hits 0.295 avg-against vs this hand] [4-game hit streak] -- L7: 7H 2HR 7RBI 14TB (0.304 avg) -- away split: 0.228 avg
 - Salvador Perez (R) [5-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 9H 1HR 6RBI 14TB (0.360 avg) -- away split: 0.196 avg
-- Carter Jensen (L) -- L7: 5H 1HR 2RBI 9TB (0.217 avg) -- away split: 0.200 avg
-- John Rave (L) -- L7: 1H 0HR 3RBI 2TB (0.062 avg) -- away split: 0.231 avg
+- Carter Jensen (L) [MATCHUP EDGE: pitcher hits 0.295 avg-against vs this hand] -- L7: 5H 1HR 2RBI 9TB (0.217 avg) -- away split: 0.200 avg
+- John Rave (L) [MATCHUP EDGE: pitcher hits 0.295 avg-against vs this hand] -- L7: 1H 0HR 3RBI 2TB (0.062 avg) -- away split: 0.231 avg
 
 ### Toronto Blue Jays lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.3 relief IP in last 2 days (ratio 0.62)_
+**Probable P: Max Scherzer (R)** -- L5: 23.0 IP, 18 K, 12 ER, 4.7 ERA
 - Myles Straw (R) -- L7: 3H 0HR 0RBI 6TB (0.176 avg) -- home split: 0.208 avg
 - Ernie Clement (R) -- L7: 9H 0HR 1RBI 10TB (0.346 avg) -- home split: 0.290 avg
 - Nathan Lukes (L) [MATCHUP EDGE: pitcher hits 0.287 avg-against vs this hand] -- L7: 5H 2HR 5RBI 11TB (0.208 avg) -- home split: 0.237 avg
@@ -954,11 +952,12 @@ _Facing a rested bullpen: 3.3 relief IP in last 2 days (ratio 0.62)_
 
 ## 2026-08-25 - Milwaukee Brewers @ New York Mets (Scheduled)
 _Citi Field_
-Projected score: Milwaukee Brewers 3.35 - New York Mets 3.75
-Model likes: **New York Mets** to win (54%) | Run line: **Milwaukee Brewers** +1.5 (63% to cover) | Total 6.5: lean **OVER** (51%)
+Projected score: Milwaukee Brewers 3.35 - New York Mets 2.84
+Model likes: **Milwaukee Brewers** to win (56%) | Run line: **New York Mets** +1.5 (64% to cover) | Total 5.5: lean **OVER** (53%)
 
 ### Milwaukee Brewers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 1.3 relief IP in last 2 days (ratio 0.22)_
+**Probable P: Kyle Harrison (L)** -- L5: 21.3 IP, 26 K, 9 ER, 3.8 ERA
 - Luis Lara (S) [MATCHUP EDGE: pitcher hits 0.264 avg-against vs this hand] -- L7: 9H 1HR 4RBI 12TB (0.310 avg) -- away split: 0.196 avg
 - Jackson Chourio (R) [MATCHUP EDGE: pitcher hits 0.264 avg-against vs this hand] -- L7: 9H 0HR 1RBI 11TB (0.333 avg) -- away split: 0.280 avg
 - Jake Bauers (L) [TOUGH MATCHUP: pitcher holds this hand to 0.194 avg-against] -- L7: 8H 2HR 6RBI 16TB (0.348 avg) -- away split: 0.301 avg
