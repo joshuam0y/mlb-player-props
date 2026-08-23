@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-23T18:54:23.375984+00:00_
+_Generated 2026-08-23T18:58:42.827926+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -85,7 +85,7 @@ _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.29)_
 ## 2026-08-23 - Toronto Blue Jays @ New York Yankees (In Progress)
 _Yankee Stadium [hitter-friendly park]_
 Projected score: Toronto Blue Jays 3.2 - New York Yankees 3.37
-Model likes: **New York Yankees** to win (52%) | Run line: **Toronto Blue Jays** +1.5 (67% to cover) | Total 6.5: lean **UNDER** (55%)
+Model likes: **New York Yankees** to win (52%) | Run line: **Toronto Blue Jays** +1.5 (66% to cover) | Total 6.5: lean **UNDER** (55%)
 
 ### Toronto Blue Jays lineup -- CONFIRMED
 _Facing a taxed bullpen: 8.7 relief IP in last 2 days (ratio 1.41)_
@@ -143,7 +143,7 @@ _Facing a taxed bullpen: 6.3 relief IP in last 2 days (ratio 1.22)_
 - #8 Colton Cowser (L) -- L7: 4H 1HR 2RBI 7TB (0.222 avg) -- home split: 0.211 avg
 - #9 Leody Taveras (S) -- L7: 6H 0HR 0RBI 7TB (0.261 avg) -- home split: 0.228 avg
 
-## 2026-08-23 - Washington Nationals @ Miami Marlins (In Progress)
+## 2026-08-23 - Washington Nationals @ Miami Marlins (Manager challenge)
 _loanDepot park [pitcher-friendly park]_
 Projected score: Washington Nationals 4.27 - Miami Marlins 3.92
 Model likes: **Washington Nationals** to win (53%) | Run line: **Miami Marlins** +1.5 (62% to cover) | Total 7.5: lean **OVER** (51%)
@@ -735,15 +735,15 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.6)_
 ### Athletics lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.7 relief IP in last 2 days (ratio 0.65)_
 **Probable P: Jeffrey Springs (L)** -- L5: 20.3 IP, 9 K, 16 ER, 7.08 ERA
-- Henry Bolte (R) -- L7: 5H 0HR 1RBI 5TB (0.217 avg) -- home split: 0.313 avg
-- Lawrence Butler (L) [MATCHUP EDGE: pitcher hits 0.284 avg-against vs this hand] [likely BABIP-driven, not a real power uptick] -- L7: 8H 0HR 1RBI 8TB (0.381 avg) -- home split: 0.243 avg
-- Donovan Walton (L) [MATCHUP EDGE: pitcher hits 0.284 avg-against vs this hand] -- L7: 6H 1HR 2RBI 11TB (0.333 avg) -- home split: 0.233 avg
-- Tommy White (R) -- L7: 7H 2HR 3RBI 14TB (0.292 avg) -- home split: 0.260 avg
-- Jeff McNeil (L) [MATCHUP EDGE: pitcher hits 0.284 avg-against vs this hand] -- L7: 8H 1HR 4RBI 12TB (0.296 avg) -- home split: 0.268 avg
+- Henry Bolte (R) -- L7: 8H 0HR 1RBI 8TB (0.296 avg) -- home split: 0.313 avg
+- Lawrence Butler (L) [MATCHUP EDGE: pitcher hits 0.284 avg-against vs this hand] [likely BABIP-driven, not a real power uptick] -- L7: 10H 1HR 3RBI 13TB (0.417 avg) -- home split: 0.243 avg
+- Donovan Walton (L) [MATCHUP EDGE: pitcher hits 0.284 avg-against vs this hand] [4-game hit streak] -- L7: 6H 1HR 2RBI 11TB (0.333 avg) -- home split: 0.233 avg
+- Tommy White (R) -- L7: 8H 2HR 3RBI 15TB (0.308 avg) -- home split: 0.260 avg
 - Max Muncy (R) -- L7: 5H 1HR 3RBI 9TB (0.227 avg) -- home split: 0.220 avg
-- Zack Gelof (R) -- L7: 4H 1HR 4RBI 7TB (0.154 avg) -- home split: 0.311 avg
-- Carlos Cortes (L) [MATCHUP EDGE: pitcher hits 0.284 avg-against vs this hand] -- L7: 5H 0HR 0RBI 5TB (0.278 avg) -- home split: 0.233 avg
+- Jeff McNeil (L) [MATCHUP EDGE: pitcher hits 0.284 avg-against vs this hand] -- L7: 8H 1HR 4RBI 12TB (0.296 avg) -- home split: 0.268 avg
 - Jonah Heim (S) [MATCHUP EDGE: pitcher hits 0.284 avg-against vs this hand] -- L7: 1H 0HR 1RBI 2TB (0.050 avg) -- home split: 0.233 avg
+- Zack Gelof (R) -- L7: 4H 1HR 4RBI 7TB (0.154 avg) -- home split: 0.311 avg
+- Carlos Cortes (L) [MATCHUP EDGE: pitcher hits 0.284 avg-against vs this hand] [3-game hit streak] -- L7: 6H 0HR 3RBI 7TB (0.316 avg) -- home split: 0.233 avg
 
 ## 2026-08-24 - Chicago Cubs @ Arizona Diamondbacks (Scheduled)
 _Chase Field [hitter-friendly park]_
@@ -867,7 +867,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-25 - Colorado Rockies @ Washington Nationals (Scheduled)
 _Nationals Park_
 Projected score: Colorado Rockies 4.2 - Washington Nationals 6.59
-Model likes: **Washington Nationals** to win (67%) | Run line: **Washington Nationals** -1.5 (55% to cover) | Total 10.5: lean **UNDER** (53%)
+Model likes: **Washington Nationals** to win (67%) | Run line: **Washington Nationals** -1.5 (54% to cover) | Total 10.5: lean **UNDER** (54%)
 
 ### Colorado Rockies lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1229,7 +1229,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-25 - Cincinnati Reds @ San Francisco Giants (Scheduled)
 _Oracle Park [pitcher-friendly park]_
 Projected score: Cincinnati Reds 4.01 - San Francisco Giants 3.9
-Model likes: **Cincinnati Reds** to win (51%) | Run line: **San Francisco Giants** +1.5 (65% to cover) | Total 7.5: lean **UNDER** (51%)
+Model likes: **Cincinnati Reds** to win (51%) | Run line: **San Francisco Giants** +1.5 (65% to cover) | Total 7.5: lean **UNDER** (52%)
 
 ### Cincinnati Reds lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
