@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-24T18:22:11.396329+00:00_
+_Generated 2026-08-24T19:06:28.854497+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -20,7 +20,7 @@ _Generated 2026-08-24T18:22:11.396329+00:00_
 - **Braden Montgomery** (Chicago White Sox vs Texas Rangers): favorable matchup vs. tonight's pitcher -- try Hits + Runs + RBIs: 40% over 1.5 recently (vs. 10-game sample)
 
 ### Pitchers
-- **Drew Rasmussen** (Tampa Bay Rays vs Detroit Tigers): 5 hitters in tonight's lineup are in a tough matchup against him -- try Strikeouts: 60% over 6.5 recently (vs. 5-game sample)
+- **Drew Rasmussen** (Tampa Bay Rays vs Detroit Tigers): 4 hitters in tonight's lineup are in a tough matchup against him -- try Strikeouts: 60% over 6.5 recently (vs. 5-game sample)
 - **Chase Burns** (Cincinnati Reds vs San Francisco Giants): 4 hitters in tonight's lineup are in a tough matchup against him -- try Hits Allowed: 60% over 4.5 recently (vs. 5-game sample)
 - **Robbie Ray** (San Diego Padres vs Pittsburgh Pirates): opposing lineup has struck out at an elevated rate over their last 2 games (41% vs their own 27% season rate) -- try Walks Allowed: 60% over 2.5 recently (vs. 5-game sample)
 - **Zebby Matthews** (Minnesota Twins vs Athletics): opposing lineup has struck out at an elevated rate over their last 2 games (35% vs their own 25% season rate) -- try Walks Allowed: 80% over 1.5 recently (vs. 5-game sample)
@@ -29,11 +29,10 @@ _Generated 2026-08-24T18:22:11.396329+00:00_
 
 ## Today's Top Unders
 ### Batters
-- **Spencer Torkelson** (Detroit Tigers vs Tampa Bay Rays): tough matchup vs. tonight's pitcher -- try Hits + Runs + RBIs: 80% under 1.5 recently (vs. 10-game sample)
-- **Gleyber Torres** (Detroit Tigers vs Tampa Bay Rays): tough matchup vs. tonight's pitcher -- try Total Bases: 70% under 1.5 recently (vs. 10-game sample)
-- **Dillon Dingler** (Detroit Tigers vs Tampa Bay Rays): tough matchup vs. tonight's pitcher -- try Total Bases: 90% under 1.5 recently (vs. 10-game sample)
 - **Hao-Yu Lee** (Detroit Tigers vs Tampa Bay Rays): tough matchup vs. tonight's pitcher -- try Total Bases: 60% under 1.5 recently (vs. 10-game sample)
-- **Ben Malgeri** (Detroit Tigers vs Tampa Bay Rays): tough matchup vs. tonight's pitcher -- try Hits: 80% under 0.5 recently (vs. 10-game sample)
+- **Dillon Dingler** (Detroit Tigers vs Tampa Bay Rays): tough matchup vs. tonight's pitcher -- try Total Bases: 90% under 1.5 recently (vs. 10-game sample)
+- **Spencer Torkelson** (Detroit Tigers vs Tampa Bay Rays): tough matchup vs. tonight's pitcher -- try Hits + Runs + RBIs: 80% under 1.5 recently (vs. 10-game sample)
+- **Javier Báez** (Detroit Tigers vs Tampa Bay Rays): tough matchup vs. tonight's pitcher -- try RBIs: 90% under 0.5 recently (vs. 10-game sample)
 - **Jo Adell** (Cleveland Guardians vs Los Angeles Angels): tough matchup vs. tonight's pitcher -- try Walks: 100% under 0.5 recently (vs. 10-game sample)
 - **Julio Rodríguez** (Seattle Mariners vs Philadelphia Phillies): tough matchup vs. tonight's pitcher -- try RBIs: 90% under 0.5 recently (vs. 10-game sample)
 - **Randy Arozarena** (Seattle Mariners vs Philadelphia Phillies): tough matchup vs. tonight's pitcher -- try Hits + Runs + RBIs: 40% under 2.5 recently (vs. 10-game sample)
@@ -44,15 +43,16 @@ _Generated 2026-08-24T18:22:11.396329+00:00_
 - **Willy Adames** (San Francisco Giants vs Cincinnati Reds): tough matchup vs. tonight's pitcher -- try RBIs: 80% under 0.5 recently (vs. 10-game sample)
 - **Victor Bericoto** (San Francisco Giants vs Cincinnati Reds): tough matchup vs. tonight's pitcher -- try Total Bases: 100% under 1.5 recently (vs. 10-game sample)
 - **JJ Bleday** (Cincinnati Reds vs San Francisco Giants): tough matchup vs. tonight's pitcher -- try RBIs: 80% under 0.5 recently (vs. 10-game sample)
+- **Héctor Rodríguez** (Cincinnati Reds vs San Francisco Giants): tough matchup vs. tonight's pitcher -- try Walks: 80% under 0.5 recently (vs. 10-game sample)
 
 ### Pitchers
-- **Drew Rasmussen** (Tampa Bay Rays vs Detroit Tigers): 5 hitters in tonight's lineup are in a tough matchup against him -- try Walks Allowed: 60% under 1.5 recently (vs. 5-game sample)
+- **Drew Rasmussen** (Tampa Bay Rays vs Detroit Tigers): 4 hitters in tonight's lineup are in a tough matchup against him -- try Walks Allowed: 60% under 1.5 recently (vs. 5-game sample)
 - **Chase Burns** (Cincinnati Reds vs San Francisco Giants): 4 hitters in tonight's lineup are in a tough matchup against him -- try Runs Allowed: 60% under 1.5 recently (vs. 5-game sample)
 
-## 2026-08-24 - Boston Red Sox @ Miami Marlins (Scheduled)
+## 2026-08-24 - Boston Red Sox @ Miami Marlins (Pre-Game)
 _loanDepot park [pitcher-friendly park]_
 Projected score: Boston Red Sox 4.0 - Miami Marlins 2.78
-Model likes: **Boston Red Sox** to win (62%) | Run line: **Miami Marlins** +1.5 (56% to cover) | Total 6.5: lean **UNDER** (52%)
+Model likes: **Boston Red Sox** to win (62%) | Run line: **Miami Marlins** +1.5 (56% to cover) | Total 6.5: lean **UNDER** (53%)
 
 ### Boston Red Sox lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 8.3 relief IP in last 2 days (ratio 1.58)_
@@ -79,10 +79,10 @@ _Facing a taxed bullpen: 8.3 relief IP in last 2 days (ratio 1.58)_
 - Agustín Ramírez (R) -- L7: 5H 0HR 2RBI 7TB (0.263 avg) -- home split: 0.229 avg
 - Esteury Ruiz (R) -- L7: 4H 0HR 0RBI 4TB (0.190 avg) -- home split: 0.222 avg
 
-## 2026-08-24 - Tampa Bay Rays @ Detroit Tigers (Scheduled)
+## 2026-08-24 - Tampa Bay Rays @ Detroit Tigers (Pre-Game)
 _Comerica Park [pitcher-friendly park]_
-Projected score: Tampa Bay Rays 4.36 - Detroit Tigers 3.43
-Model likes: **Tampa Bay Rays** to win (58%) | Run line: **Detroit Tigers** +1.5 (58% to cover) | Total 7.5: lean **UNDER** (53%)
+Projected score: Tampa Bay Rays 4.36 - Detroit Tigers 3.46
+Model likes: **Tampa Bay Rays** to win (58%) | Run line: **Detroit Tigers** +1.5 (58% to cover) | Total 7.5: lean **UNDER** (52%)
 
 ### Tampa Bay Rays lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 9.7 relief IP in last 2 days (ratio 1.93)_
@@ -97,17 +97,17 @@ _Facing a taxed bullpen: 9.7 relief IP in last 2 days (ratio 1.93)_
 - Liam Hicks (L) -- L7: 5H 1HR 1RBI 8TB (0.263 avg) -- away split: 0.282 avg
 - Jonny DeLuca (R) [3-game hit streak] -- L7: 6H 0HR 2RBI 7TB (0.286 avg) -- away split: 0.333 avg
 
-### Detroit Tigers lineup -- PROJECTED (unconfirmed)
+### Detroit Tigers lineup -- CONFIRMED
 **Probable P: Framber Valdez (L)** -- L5: 30.3 IP, 23 K, 12 ER, 3.56 ERA
-- Kevin McGonigle (L) -- L7: 8H 2HR 8RBI 16TB (0.276 avg) -- home split: 0.268 avg
-- Max Clark (L) -- L7: 6H 0HR 3RBI 7TB (0.240 avg) -- home split: 0.190 avg -- news: Mayo: Don't judge a book by its cover -- especially Max Clark
-- Colt Keith (L) -- L7: 6H 1HR 1RBI 10TB (0.353 avg) -- home split: 0.264 avg
-- Spencer Torkelson (R) [TOUGH MATCHUP: pitcher holds this hand to 0.183 avg-against] -- L7: 0H 0HR 0RBI 0TB (0.000 avg) -- home split: 0.215 avg
-- Zach McKinstry (L) [likely BABIP-driven, not a real power uptick] -- L7: 6H 0HR 2RBI 8TB (0.316 avg) -- home split: 0.252 avg
-- Gleyber Torres (R) [TOUGH MATCHUP: pitcher holds this hand to 0.183 avg-against] -- L7: 6H 0HR 2RBI 7TB (0.200 avg) -- home split: 0.295 avg
-- Dillon Dingler (R) [TOUGH MATCHUP: pitcher holds this hand to 0.183 avg-against] -- L7: 3H 0HR 1RBI 4TB (0.115 avg) -- home split: 0.233 avg
-- Hao-Yu Lee (R) [TOUGH MATCHUP: pitcher holds this hand to 0.183 avg-against] [4-game hit streak] -- L7: 8H 1HR 4RBI 12TB (0.444 avg) -- home split: 0.257 avg -- news: Hao-Yu Lee sets single-season record for hits by a player born in Taiwan
-- Ben Malgeri (R) [TOUGH MATCHUP: pitcher holds this hand to 0.183 avg-against] -- L7: 2H 2HR 4RBI 8TB (0.133 avg) -- home split: 0.273 avg
+- #1 Colt Keith (L) -- L7: 6H 1HR 1RBI 10TB (0.353 avg) -- home split: 0.264 avg
+- #2 Hao-Yu Lee (R) [TOUGH MATCHUP: pitcher holds this hand to 0.183 avg-against] [4-game hit streak] -- L7: 8H 1HR 4RBI 12TB (0.444 avg) -- home split: 0.257 avg -- news: Hao-Yu Lee sets single-season record for hits by a player born in Taiwan
+- #3 Kevin McGonigle (L) -- L7: 8H 2HR 8RBI 16TB (0.276 avg) -- home split: 0.268 avg
+- #4 Dillon Dingler (R) [TOUGH MATCHUP: pitcher holds this hand to 0.183 avg-against] -- L7: 3H 0HR 1RBI 4TB (0.115 avg) -- home split: 0.233 avg
+- #5 Brett Callahan (L) -- L7: 5H 1HR 5RBI 11TB (0.278 avg) -- home split: 0.500 avg
+- #6 Zach McKinstry (L) [likely BABIP-driven, not a real power uptick] -- L7: 6H 0HR 2RBI 8TB (0.316 avg) -- home split: 0.252 avg
+- #7 Spencer Torkelson (R) [TOUGH MATCHUP: pitcher holds this hand to 0.183 avg-against] -- L7: 0H 0HR 0RBI 0TB (0.000 avg) -- home split: 0.215 avg
+- #8 Max Clark (L) -- L7: 6H 0HR 3RBI 7TB (0.240 avg) -- home split: 0.190 avg -- news: Mayo: Don't judge a book by its cover -- especially Max Clark
+- #9 Javier Báez (R) [TOUGH MATCHUP: pitcher holds this hand to 0.183 avg-against] -- L7: 3H 0HR 0RBI 6TB (0.130 avg) -- home split: 0.263 avg
 
 ## 2026-08-24 - Colorado Rockies @ Washington Nationals (Scheduled)
 _Nationals Park_
@@ -446,7 +446,7 @@ _Facing a rested bullpen: 3.3 relief IP in last 2 days (ratio 0.55)_
 ## 2026-08-25 - Houston Astros @ New York Yankees (Scheduled)
 _Yankee Stadium [hitter-friendly park]_
 Projected score: Houston Astros 4.17 - New York Yankees 4.68
-Model likes: **New York Yankees** to win (54%) | Run line: **Houston Astros** +1.5 (60% to cover) | Total 8.5: lean **UNDER** (52%)
+Model likes: **New York Yankees** to win (54%) | Run line: **Houston Astros** +1.5 (61% to cover) | Total 8.5: lean **UNDER** (52%)
 
 ### Houston Astros lineup -- PROJECTED (unconfirmed)
 **Probable P: Ethan Pecko (R)** -- L5: 3.7 IP, 4 K, 2 ER, 4.91 ERA
@@ -685,7 +685,7 @@ _Facing a rested bullpen: 2.3 relief IP in last 2 days (ratio 0.46)_
 ## 2026-08-25 - Pittsburgh Pirates @ San Diego Padres (Scheduled)
 _Petco Park [pitcher-friendly park]_
 Projected score: Pittsburgh Pirates 3.43 - San Diego Padres 3.82
-Model likes: **San Diego Padres** to win (54%) | Run line: **Pittsburgh Pirates** +1.5 (63% to cover) | Total 6.5: lean **OVER** (52%)
+Model likes: **San Diego Padres** to win (54%) | Run line: **Pittsburgh Pirates** +1.5 (64% to cover) | Total 6.5: lean **OVER** (52%)
 
 ### Pittsburgh Pirates lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.47)_
@@ -745,7 +745,7 @@ _Facing a taxed bullpen: 8.0 relief IP in last 2 days (ratio 1.59)_
 ## 2026-08-25 - Chicago Cubs @ Arizona Diamondbacks (Scheduled)
 _Chase Field [hitter-friendly park]_
 Projected score: Chicago Cubs 5.03 - Arizona Diamondbacks 3.32
-Model likes: **Chicago Cubs** to win (65%) | Run line: **Arizona Diamondbacks** +1.5 (50% to cover) | Total 7.5: lean **OVER** (52%)
+Model likes: **Chicago Cubs** to win (65%) | Run line: **Arizona Diamondbacks** +1.5 (51% to cover) | Total 7.5: lean **OVER** (52%)
 
 ### Chicago Cubs lineup -- PROJECTED (unconfirmed)
 **Probable P: Clay Holmes (R)** -- L5: 26.0 IP, 19 K, 11 ER, 3.81 ERA
@@ -929,7 +929,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-26 - Philadelphia Phillies @ Seattle Mariners (Scheduled)
 _T-Mobile Park [pitcher-friendly park]_
 Projected score: Philadelphia Phillies 4.82 - Seattle Mariners 2.77
-Model likes: **Philadelphia Phillies** to win (69%) | Run line: **Philadelphia Phillies** -1.5 (53% to cover) | Total 7.5: lean **UNDER** (55%)
+Model likes: **Philadelphia Phillies** to win (69%) | Run line: **Philadelphia Phillies** -1.5 (52% to cover) | Total 7.5: lean **UNDER** (55%)
 
 ### Philadelphia Phillies lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1020,7 +1020,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-26 - Colorado Rockies @ Washington Nationals (Scheduled)
 _Nationals Park_
 Projected score: Colorado Rockies 5.41 - Washington Nationals 6.07
-Model likes: **Washington Nationals** to win (55%) | Run line: **Colorado Rockies** +1.5 (58% to cover) | Total 10.5: lean **OVER** (52%)
+Model likes: **Washington Nationals** to win (55%) | Run line: **Colorado Rockies** +1.5 (57% to cover) | Total 10.5: lean **OVER** (52%)
 
 ### Colorado Rockies lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
