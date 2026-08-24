@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-24T07:47:08.622711+00:00_
+_Generated 2026-08-24T08:34:29.511171+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -51,7 +51,7 @@ _Generated 2026-08-24T07:47:08.622711+00:00_
 ## 2026-08-24 - Boston Red Sox @ Miami Marlins (Scheduled)
 _loanDepot park [pitcher-friendly park]_
 Projected score: Boston Red Sox 4.0 - Miami Marlins 2.78
-Model likes: **Boston Red Sox** to win (62%) | Run line: **Miami Marlins** +1.5 (56% to cover) | Total 6.5: lean **UNDER** (52%)
+Model likes: **Boston Red Sox** to win (62%) | Run line: **Miami Marlins** +1.5 (56% to cover) | Total 6.5: lean **UNDER** (53%)
 
 ### Boston Red Sox lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 8.3 relief IP in last 2 days (ratio 1.58)_
@@ -772,7 +772,7 @@ _Facing a taxed bullpen: 6.0 relief IP in last 2 days (ratio 1.35)_
 ## 2026-08-25 - Cincinnati Reds @ San Francisco Giants (Scheduled)
 _Oracle Park [pitcher-friendly park]_
 Projected score: Cincinnati Reds 3.85 - San Francisco Giants 3.61
-Model likes: **Cincinnati Reds** to win (52%) | Run line: **San Francisco Giants** +1.5 (64% to cover) | Total 6.5: lean **OVER** (55%)
+Model likes: **Cincinnati Reds** to win (52%) | Run line: **San Francisco Giants** +1.5 (64% to cover) | Total 6.5: lean **OVER** (54%)
 
 ### Cincinnati Reds lineup -- PROJECTED (unconfirmed)
 **Probable P: Brady Singer (R)** -- L5: 28.3 IP, 19 K, 17 ER, 5.4 ERA
@@ -924,7 +924,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-26 - Philadelphia Phillies @ Seattle Mariners (Scheduled)
 _T-Mobile Park [pitcher-friendly park]_
 Projected score: Philadelphia Phillies 4.82 - Seattle Mariners 2.77
-Model likes: **Philadelphia Phillies** to win (69%) | Run line: **Philadelphia Phillies** -1.5 (53% to cover) | Total 7.5: lean **UNDER** (55%)
+Model likes: **Philadelphia Phillies** to win (69%) | Run line: **Philadelphia Phillies** -1.5 (52% to cover) | Total 7.5: lean **UNDER** (55%)
 
 ### Philadelphia Phillies lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1015,7 +1015,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-26 - Colorado Rockies @ Washington Nationals (Scheduled)
 _Nationals Park_
 Projected score: Colorado Rockies 5.41 - Washington Nationals 6.07
-Model likes: **Washington Nationals** to win (55%) | Run line: **Colorado Rockies** +1.5 (57% to cover) | Total 10.5: lean **OVER** (52%)
+Model likes: **Washington Nationals** to win (55%) | Run line: **Colorado Rockies** +1.5 (58% to cover) | Total 10.5: lean **OVER** (52%)
 
 ### Colorado Rockies lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
