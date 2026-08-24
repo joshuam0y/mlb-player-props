@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-24T16:00:08.187298+00:00_
+_Generated 2026-08-24T16:29:56.076733+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -743,7 +743,7 @@ _Facing a taxed bullpen: 8.0 relief IP in last 2 days (ratio 1.59)_
 ## 2026-08-25 - Chicago Cubs @ Arizona Diamondbacks (Scheduled)
 _Chase Field [hitter-friendly park]_
 Projected score: Chicago Cubs 5.03 - Arizona Diamondbacks 3.32
-Model likes: **Chicago Cubs** to win (65%) | Run line: **Arizona Diamondbacks** +1.5 (51% to cover) | Total 7.5: lean **OVER** (52%)
+Model likes: **Chicago Cubs** to win (65%) | Run line: **Arizona Diamondbacks** +1.5 (50% to cover) | Total 7.5: lean **OVER** (52%)
 
 ### Chicago Cubs lineup -- PROJECTED (unconfirmed)
 **Probable P: Clay Holmes (R)** -- L5: 26.0 IP, 19 K, 11 ER, 3.81 ERA
@@ -1200,7 +1200,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-26 - Baltimore Orioles @ St. Louis Cardinals (Scheduled)
 _Busch Stadium_
 Projected score: Baltimore Orioles 4.19 - St. Louis Cardinals 3.72
-Model likes: **Baltimore Orioles** to win (54%) | Run line: **St. Louis Cardinals** +1.5 (62% to cover) | Total 7.5: lean **UNDER** (51%)
+Model likes: **Baltimore Orioles** to win (54%) | Run line: **St. Louis Cardinals** +1.5 (62% to cover) | Total 7.5: lean **UNDER** (52%)
 
 ### Baltimore Orioles lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
