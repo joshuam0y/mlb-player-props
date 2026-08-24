@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-24T15:01:24.220920+00:00_
+_Generated 2026-08-24T15:05:13.147531+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -140,8 +140,8 @@ _Facing a taxed bullpen: 10.0 relief IP in last 2 days (ratio 1.71)_
 
 ## 2026-08-24 - Texas Rangers @ Chicago White Sox (Scheduled)
 _Rate Field_
-Projected score: Texas Rangers 3.5 - Chicago White Sox 4.65
-Model likes: **Chicago White Sox** to win (60%) | Run line: **Texas Rangers** +1.5 (56% to cover) | Total 7.5: lean **OVER** (51%)
+Projected score: Texas Rangers 3.39 - Chicago White Sox 4.65
+Model likes: **Chicago White Sox** to win (61%) | Run line: **Texas Rangers** +1.5 (55% to cover) | Total 7.5: lean **UNDER** (50%)
 
 ### Texas Rangers lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 13.3 relief IP in last 2 days (ratio 1.93)_
@@ -158,6 +158,7 @@ _Facing a taxed bullpen: 13.3 relief IP in last 2 days (ratio 1.93)_
 
 ### Chicago White Sox lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 6.7 relief IP in last 2 days (ratio 1.35)_
+**Probable P: José Urquidy (R)** [BULLPEN GAME: short-outing arm, no reliable individual matchup below] -- L5: 13.0 IP, 14 K, 9 ER, 6.23 ERA
 - Munetaka Murakami (L) [MATCHUP EDGE: pitcher hits 0.287 avg-against vs this hand] -- L7: 2H 1HR 1RBI 5TB (0.077 avg) -- home split: 0.211 avg
 - Sam Antonacci (L) [MATCHUP EDGE: pitcher hits 0.287 avg-against vs this hand] -- L7: 3H 0HR 1RBI 3TB (0.143 avg) -- home split: 0.294 avg
 - Braden Montgomery (S) [MATCHUP EDGE: pitcher hits 0.287 avg-against vs this hand] -- L7: 4H 1HR 4RBI 8TB (0.182 avg) -- home split: 0.241 avg
@@ -563,7 +564,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.56)_
 ## 2026-08-25 - Texas Rangers @ Chicago White Sox (Scheduled)
 _Rate Field_
 Projected score: Texas Rangers 3.42 - Chicago White Sox 4.22
-Model likes: **Chicago White Sox** to win (57%) | Run line: **Texas Rangers** +1.5 (59% to cover) | Total 7.5: lean **UNDER** (54%)
+Model likes: **Chicago White Sox** to win (58%) | Run line: **Texas Rangers** +1.5 (59% to cover) | Total 7.5: lean **UNDER** (54%)
 
 ### Texas Rangers lineup -- PROJECTED (unconfirmed)
 **Probable P: Jacob deGrom (R)** -- L5: 21.3 IP, 29 K, 9 ER, 3.8 ERA
