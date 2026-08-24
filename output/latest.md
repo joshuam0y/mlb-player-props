@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-24T05:02:11.009323+00:00_
+_Generated 2026-08-24T05:14:15.669057+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -353,7 +353,7 @@ _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.5)_
 ## 2026-08-25 - Boston Red Sox @ Miami Marlins (Scheduled)
 _loanDepot park [pitcher-friendly park]_
 Projected score: Boston Red Sox 3.9 - Miami Marlins 2.62
-Model likes: **Boston Red Sox** to win (64%) | Run line: **Miami Marlins** +1.5 (55% to cover) | Total 6.5: lean **UNDER** (55%)
+Model likes: **Boston Red Sox** to win (63%) | Run line: **Miami Marlins** +1.5 (55% to cover) | Total 6.5: lean **UNDER** (56%)
 
 ### Boston Red Sox lineup -- PROJECTED (unconfirmed)
 **Probable P: Payton Tolle (L)** -- L5: 30.3 IP, 38 K, 8 ER, 2.37 ERA
@@ -501,8 +501,8 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.45)_
 
 ## 2026-08-25 - Milwaukee Brewers @ New York Mets (Scheduled)
 _Citi Field_
-Projected score: Milwaukee Brewers 3.36 - New York Mets 2.81
-Model likes: **Milwaukee Brewers** to win (56%) | Run line: **New York Mets** +1.5 (63% to cover) | Total 5.5: lean **OVER** (52%)
+Projected score: Milwaukee Brewers 3.36 - New York Mets 2.88
+Model likes: **Milwaukee Brewers** to win (55%) | Run line: **New York Mets** +1.5 (64% to cover) | Total 5.5: lean **OVER** (53%)
 
 ### Milwaukee Brewers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.3 relief IP in last 2 days (ratio 0.38)_
@@ -518,7 +518,7 @@ _Facing a rested bullpen: 2.3 relief IP in last 2 days (ratio 0.38)_
 - Christian Yelich (L) [TOUGH MATCHUP: pitcher holds this hand to 0.194 avg-against] -- L7: 6H 1HR 4RBI 10TB (0.240 avg) -- away split: 0.198 avg
 
 ### New York Mets lineup -- PROJECTED (unconfirmed)
-_Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.5)_
+_Facing a rested bullpen: 4.0 relief IP in last 2 days (ratio 0.66)_
 **Probable P: Zac Thornton (L)** -- L5: 27.0 IP, 19 K, 12 ER, 4.0 ERA
 - A.J. Ewing (L) -- L7: 4H 0HR 0RBI 4TB (0.154 avg) -- home split: 0.253 avg
 - Bo Bichette (R) -- L7: 9H 2HR 4RBI 19TB (0.333 avg) -- home split: 0.249 avg
@@ -1105,8 +1105,8 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 
 ## 2026-08-26 - Milwaukee Brewers @ New York Mets (Scheduled)
 _Citi Field_
-Projected score: Milwaukee Brewers 4.67 - New York Mets 3.79
-Model likes: **Milwaukee Brewers** to win (58%) | Run line: **New York Mets** +1.5 (58% to cover) | Total 7.5: lean **OVER** (54%)
+Projected score: Milwaukee Brewers 4.67 - New York Mets 3.85
+Model likes: **Milwaukee Brewers** to win (57%) | Run line: **New York Mets** +1.5 (58% to cover) | Total 7.5: lean **OVER** (54%)
 
 ### Milwaukee Brewers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
