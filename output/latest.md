@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-24T19:06:28.854497+00:00_
+_Generated 2026-08-24T19:11:04.449982+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -51,21 +51,21 @@ _Generated 2026-08-24T19:06:28.854497+00:00_
 
 ## 2026-08-24 - Boston Red Sox @ Miami Marlins (Pre-Game)
 _loanDepot park [pitcher-friendly park]_
-Projected score: Boston Red Sox 4.0 - Miami Marlins 2.78
-Model likes: **Boston Red Sox** to win (62%) | Run line: **Miami Marlins** +1.5 (56% to cover) | Total 6.5: lean **UNDER** (53%)
+Projected score: Boston Red Sox 3.85 - Miami Marlins 2.78
+Model likes: **Boston Red Sox** to win (61%) | Run line: **Miami Marlins** +1.5 (57% to cover) | Total 6.5: lean **UNDER** (54%)
 
-### Boston Red Sox lineup -- PROJECTED (unconfirmed)
+### Boston Red Sox lineup -- CONFIRMED
 _Facing a taxed bullpen: 8.3 relief IP in last 2 days (ratio 1.58)_
 **Probable P: Ranger Suarez (L)** -- L5: 22.0 IP, 16 K, 11 ER, 4.5 ERA
-- Caleb Durbin (R) -- L7: 8H 0HR 2RBI 8TB (0.296 avg) -- away split: 0.258 avg
-- Nick Sogard (S) [6-game hit streak] -- L7: 11H 2HR 4RBI 21TB (0.423 avg) -- away split: 0.214 avg
-- Andruw Monasterio (R) -- L7: 3H 0HR 3RBI 4TB (0.111 avg) -- away split: 0.263 avg
-- Jarren Duran (L) -- L7: 7H 1HR 1RBI 12TB (0.304 avg) -- away split: 0.186 avg
-- Ceddanne Rafaela (R) [3-game hit streak] -- L7: 10H 0HR 3RBI 13TB (0.323 avg) -- away split: 0.292 avg
-- Wilyer Abreu (L) -- L7: 6H 0HR 4RBI 8TB (0.214 avg) -- away split: 0.257 avg
-- Willson Contreras (R) -- L7: 8H 2HR 6RBI 16TB (0.308 avg) -- away split: 0.244 avg
-- Adley Rutschman (S) -- L7: 5H 1HR 4RBI 9TB (0.227 avg) -- away split: 0.207 avg
-- Eli White (R) [likely BABIP-driven, not a real power uptick] -- L7: 6H 0HR 3RBI 6TB (0.353 avg) -- away split: 0.293 avg
+- #1 Nick Sogard (S) [6-game hit streak] -- L7: 11H 2HR 4RBI 21TB (0.423 avg) -- away split: 0.214 avg
+- #2 Ceddanne Rafaela (R) [3-game hit streak] -- L7: 10H 0HR 3RBI 13TB (0.323 avg) -- away split: 0.292 avg
+- #3 Wilyer Abreu (L) -- L7: 6H 0HR 4RBI 8TB (0.214 avg) -- away split: 0.257 avg
+- #4 Willson Contreras (R) -- L7: 8H 2HR 6RBI 16TB (0.308 avg) -- away split: 0.244 avg
+- #5 Adley Rutschman (S) -- L7: 5H 1HR 4RBI 9TB (0.227 avg) -- away split: 0.207 avg
+- #6 Caleb Durbin (R) -- L7: 8H 0HR 2RBI 8TB (0.296 avg) -- away split: 0.258 avg
+- #7 Jarren Duran (L) -- L7: 7H 1HR 1RBI 12TB (0.304 avg) -- away split: 0.186 avg
+- #8 Mickey Gasper (S) -- L7: 6H 3HR 10RBI 17TB (0.286 avg) -- away split: 0.211 avg
+- #9 Anthony Seigler (S) [likely BABIP-driven, not a real power uptick] -- L7: 7H 0HR 3RBI 10TB (0.389 avg) -- away split: 0.200 avg
 
 ### Miami Marlins lineup -- PROJECTED (unconfirmed)
 **Probable P: Sandy Alcantara (R)** -- L5: 33.0 IP, 21 K, 4 ER, 1.09 ERA
@@ -356,7 +356,7 @@ _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.5)_
 ## 2026-08-25 - Boston Red Sox @ Miami Marlins (Scheduled)
 _loanDepot park [pitcher-friendly park]_
 Projected score: Boston Red Sox 3.9 - Miami Marlins 2.62
-Model likes: **Boston Red Sox** to win (63%) | Run line: **Miami Marlins** +1.5 (55% to cover) | Total 6.5: lean **UNDER** (55%)
+Model likes: **Boston Red Sox** to win (63%) | Run line: **Miami Marlins** +1.5 (55% to cover) | Total 6.5: lean **UNDER** (56%)
 
 ### Boston Red Sox lineup -- PROJECTED (unconfirmed)
 **Probable P: Payton Tolle (L)** -- L5: 30.3 IP, 38 K, 8 ER, 2.37 ERA
@@ -385,7 +385,7 @@ _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.37)_
 ## 2026-08-25 - Tampa Bay Rays @ Detroit Tigers (Scheduled)
 _Comerica Park [pitcher-friendly park]_
 Projected score: Tampa Bay Rays 4.34 - Detroit Tigers 4.0
-Model likes: **Tampa Bay Rays** to win (53%) | Run line: **Detroit Tigers** +1.5 (62% to cover) | Total 7.5: lean **OVER** (52%)
+Model likes: **Tampa Bay Rays** to win (53%) | Run line: **Detroit Tigers** +1.5 (63% to cover) | Total 7.5: lean **OVER** (52%)
 
 ### Tampa Bay Rays lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 6.7 relief IP in last 2 days (ratio 1.33)_
@@ -566,7 +566,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.56)_
 ## 2026-08-25 - Texas Rangers @ Chicago White Sox (Scheduled)
 _Rate Field_
 Projected score: Texas Rangers 3.42 - Chicago White Sox 4.22
-Model likes: **Chicago White Sox** to win (58%) | Run line: **Texas Rangers** +1.5 (59% to cover) | Total 7.5: lean **UNDER** (54%)
+Model likes: **Chicago White Sox** to win (57%) | Run line: **Texas Rangers** +1.5 (59% to cover) | Total 7.5: lean **UNDER** (54%)
 
 ### Texas Rangers lineup -- PROJECTED (unconfirmed)
 **Probable P: Jacob deGrom (R)** -- L5: 21.3 IP, 29 K, 9 ER, 3.8 ERA
@@ -775,7 +775,7 @@ _Facing a taxed bullpen: 6.0 relief IP in last 2 days (ratio 1.35)_
 ## 2026-08-25 - Cincinnati Reds @ San Francisco Giants (Scheduled)
 _Oracle Park [pitcher-friendly park]_
 Projected score: Cincinnati Reds 3.56 - San Francisco Giants 3.61
-Model likes: **San Francisco Giants** to win (50%) | Run line: **Cincinnati Reds** +1.5 (67% to cover) | Total 6.5: lean **OVER** (52%)
+Model likes: **San Francisco Giants** to win (51%) | Run line: **Cincinnati Reds** +1.5 (67% to cover) | Total 6.5: lean **OVER** (52%)
 
 ### Cincinnati Reds lineup -- PROJECTED (unconfirmed)
 **Probable P: Brady Singer (R)** -- L5: 28.3 IP, 19 K, 17 ER, 5.4 ERA
@@ -989,7 +989,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-26 - Boston Red Sox @ Miami Marlins (Scheduled)
 _loanDepot park [pitcher-friendly park]_
 Projected score: Boston Red Sox 4.58 - Miami Marlins 2.54
-Model likes: **Boston Red Sox** to win (70%) | Run line: **Boston Red Sox** -1.5 (52% to cover) | Total 6.5: lean **OVER** (51%)
+Model likes: **Boston Red Sox** to win (70%) | Run line: **Boston Red Sox** -1.5 (53% to cover) | Total 6.5: lean **OVER** (51%)
 
 ### Boston Red Sox lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1142,7 +1142,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-26 - Los Angeles Dodgers @ Atlanta Braves (Scheduled)
 _Truist Park_
 Projected score: Los Angeles Dodgers 4.11 - Atlanta Braves 4.17
-Model likes: **Atlanta Braves** to win (51%) | Run line: **Los Angeles Dodgers** +1.5 (65% to cover) | Total 7.5: lean **OVER** (52%)
+Model likes: **Atlanta Braves** to win (50%) | Run line: **Los Angeles Dodgers** +1.5 (65% to cover) | Total 7.5: lean **OVER** (52%)
 
 ### Los Angeles Dodgers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
