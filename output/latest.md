@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-24T03:09:18.949107+00:00_
+_Generated 2026-08-24T03:29:46.855731+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -644,7 +644,7 @@ _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.37)_
 ## 2026-08-24 - Philadelphia Phillies @ Seattle Mariners (Scheduled)
 _T-Mobile Park [pitcher-friendly park]_
 Projected score: Philadelphia Phillies 3.94 - Seattle Mariners 2.84
-Model likes: **Philadelphia Phillies** to win (61%) | Run line: **Seattle Mariners** +1.5 (57% to cover) | Total 6.5: lean **UNDER** (52%)
+Model likes: **Philadelphia Phillies** to win (61%) | Run line: **Seattle Mariners** +1.5 (57% to cover) | Total 6.5: lean **UNDER** (53%)
 
 ### Philadelphia Phillies lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 6.7 relief IP in last 2 days (ratio 1.42)_
@@ -696,7 +696,7 @@ _Facing a taxed bullpen: 10.0 relief IP in last 2 days (ratio 1.58)_
 - Fernando Tatis Jr. (R) [5-game hit streak] -- L7: 14H 4HR 11RBI 28TB (0.467 avg) -- home split: 0.335 avg
 - Ty France (R) -- L7: 5H 1HR 5RBI 9TB (0.200 avg) -- home split: 0.297 avg
 - Jake Cronenworth (L) -- L7: 7H 1HR 3RBI 12TB (0.269 avg) -- home split: 0.206 avg
-- Manny Machado (R) -- L7: 7H 1HR 2RBI 10TB (0.292 avg) -- home split: 0.226 avg
+- Manny Machado (R) -- L7: 7H 1HR 2RBI 10TB (0.280 avg) -- home split: 0.225 avg
 - Luis Rengifo (S) -- L7: 8H 1HR 4RBI 12TB (0.320 avg) -- home split: 0.232 avg
 - Xander Bogaerts (R) -- L7: 4H 0HR 2RBI 6TB (0.182 avg) -- home split: 0.203 avg
 - Gavin Sheets (L) -- L7: 4H 1HR 2RBI 7TB (0.267 avg) -- home split: 0.169 avg
@@ -945,16 +945,16 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.45)_
 ## 2026-08-25 - Milwaukee Brewers @ New York Mets (Scheduled)
 _Citi Field_
 Projected score: Milwaukee Brewers 3.35 - New York Mets 2.84
-Model likes: **Milwaukee Brewers** to win (56%) | Run line: **New York Mets** +1.5 (64% to cover) | Total 5.5: lean **OVER** (52%)
+Model likes: **Milwaukee Brewers** to win (56%) | Run line: **New York Mets** +1.5 (64% to cover) | Total 5.5: lean **OVER** (53%)
 
 ### Milwaukee Brewers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.3 relief IP in last 2 days (ratio 0.38)_
 **Probable P: Kyle Harrison (L)** -- L5: 21.3 IP, 26 K, 9 ER, 3.8 ERA
 - Luis Lara (S) [MATCHUP EDGE: pitcher hits 0.264 avg-against vs this hand] [3-game hit streak] -- L7: 9H 1HR 5RBI 14TB (0.333 avg) -- away split: 0.196 avg
-- Jackson Chourio (R) [MATCHUP EDGE: pitcher hits 0.264 avg-against vs this hand] [likely BABIP-driven, not a real power uptick] -- L7: 10H 0HR 1RBI 12TB (0.370 avg) -- away split: 0.280 avg
-- Jake Bauers (L) [TOUGH MATCHUP: pitcher holds this hand to 0.194 avg-against] -- L7: 8H 2HR 6RBI 16TB (0.381 avg) -- away split: 0.301 avg
+- Jackson Chourio (R) [MATCHUP EDGE: pitcher hits 0.264 avg-against vs this hand] [likely BABIP-driven, not a real power uptick] -- L7: 11H 0HR 1RBI 13TB (0.393 avg) -- away split: 0.280 avg
+- Jake Bauers (L) [TOUGH MATCHUP: pitcher holds this hand to 0.194 avg-against] -- L7: 9H 2HR 7RBI 17TB (0.346 avg) -- away split: 0.301 avg
 - Andrew Vaughn (R) [MATCHUP EDGE: pitcher hits 0.264 avg-against vs this hand] [7-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 9H 0HR 3RBI 9TB (0.429 avg) -- away split: 0.325 avg
-- William Contreras (R) [MATCHUP EDGE: pitcher hits 0.264 avg-against vs this hand] [3-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 13H 1HR 6RBI 18TB (0.464 avg) -- away split: 0.260 avg
+- William Contreras (R) [MATCHUP EDGE: pitcher hits 0.264 avg-against vs this hand] [3-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 13H 1HR 6RBI 18TB (0.448 avg) -- away split: 0.260 avg
 - Garrett Mitchell (L) [TOUGH MATCHUP: pitcher holds this hand to 0.194 avg-against] -- L7: 8H 1HR 3RBI 13TB (0.500 avg) -- away split: 0.235 avg
 - Joey Ortiz (R) [MATCHUP EDGE: pitcher hits 0.264 avg-against vs this hand] -- L7: 6H 1HR 5RBI 10TB (0.240 avg) -- away split: 0.212 avg
 - David Hamilton (L) [TOUGH MATCHUP: pitcher holds this hand to 0.194 avg-against] -- L7: 7H 1HR 6RBI 11TB (0.350 avg) -- away split: 0.270 avg
@@ -979,7 +979,6 @@ Projected score: Los Angeles Dodgers 4.21 - Atlanta Braves 4.05
 Model likes: **Los Angeles Dodgers** to win (51%) | Run line: **Atlanta Braves** +1.5 (64% to cover) | Total 7.5: lean **OVER** (52%)
 
 ### Los Angeles Dodgers lineup -- PROJECTED (unconfirmed)
-_Facing a rested bullpen: 2.7 relief IP in last 2 days (ratio 0.5)_
 **Probable P: Tyler Glasnow (R)** -- L5: no data
 - Shohei Ohtani (L) -- L7: 7H 3HR 5RBI 16TB (0.259 avg) -- away split: 0.291 avg
 - Teoscar Hernández (R) -- L7: 5H 0HR 2RBI 8TB (0.185 avg) -- away split: 0.251 avg
@@ -995,11 +994,11 @@ _Facing a rested bullpen: 2.7 relief IP in last 2 days (ratio 0.5)_
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.56)_
 **Probable P: Bryce Elder (R)** -- L5: 29.0 IP, 23 K, 11 ER, 3.41 ERA
 - Drake Baldwin (L) -- L7: 5H 1HR 1RBI 10TB (0.179 avg) -- home split: 0.283 avg
-- Michael Harris II (L) -- L7: 10H 0HR 2RBI 15TB (0.357 avg) -- home split: 0.281 avg
+- Michael Harris II (L) [8-game hit streak] -- L7: 11H 1HR 3RBI 19TB (0.379 avg) -- home split: 0.281 avg
 - Austin Riley (R) -- L7: 5H 0HR 2RBI 6TB (0.200 avg) -- home split: 0.267 avg
 - Ronald Acuña Jr. (R) -- L7: 3H 0HR 3RBI 3TB (0.107 avg) -- home split: 0.238 avg
 - Ozzie Albies (S) -- L7: 8H 0HR 1RBI 9TB (0.296 avg) -- home split: 0.254 avg
-- Matt Olson (L) -- L7: 4H 0HR 0RBI 5TB (0.154 avg) -- home split: 0.270 avg -- news: How Matt Olson became a king of scoops at first base
+- Matt Olson (L) -- L7: 4H 0HR 0RBI 5TB (0.148 avg) -- home split: 0.270 avg -- news: How Matt Olson became a king of scoops at first base
 - Mauricio Dubón (R) [5-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 9H 0HR 1RBI 10TB (0.391 avg) -- home split: 0.286 avg
 - Mike Yastrzemski (L) -- L7: 3H 0HR 0RBI 3TB (0.188 avg) -- home split: 0.246 avg
 - Lane Thomas (R) -- L7: 4H 0HR 1RBI 5TB (0.286 avg) -- home split: 0.248 avg
@@ -1147,7 +1146,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.47)_
 - Fernando Tatis Jr. (R) [5-game hit streak] -- L7: 14H 4HR 11RBI 28TB (0.467 avg) -- home split: 0.335 avg
 - Ty France (R) -- L7: 5H 1HR 5RBI 9TB (0.200 avg) -- home split: 0.297 avg
 - Jake Cronenworth (L) -- L7: 7H 1HR 3RBI 12TB (0.269 avg) -- home split: 0.206 avg
-- Manny Machado (R) -- L7: 7H 1HR 2RBI 10TB (0.292 avg) -- home split: 0.226 avg
+- Manny Machado (R) -- L7: 7H 1HR 2RBI 10TB (0.280 avg) -- home split: 0.225 avg
 - Luis Rengifo (S) -- L7: 8H 1HR 4RBI 12TB (0.320 avg) -- home split: 0.232 avg
 - Xander Bogaerts (R) -- L7: 4H 0HR 2RBI 6TB (0.182 avg) -- home split: 0.203 avg
 - Gavin Sheets (L) -- L7: 4H 1HR 2RBI 7TB (0.267 avg) -- home split: 0.169 avg
