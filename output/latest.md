@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-24T05:52:13.245236+00:00_
+_Generated 2026-08-24T06:00:28.529559+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -51,7 +51,7 @@ _Generated 2026-08-24T05:52:13.245236+00:00_
 ## 2026-08-24 - Boston Red Sox @ Miami Marlins (Scheduled)
 _loanDepot park [pitcher-friendly park]_
 Projected score: Boston Red Sox 4.0 - Miami Marlins 2.78
-Model likes: **Boston Red Sox** to win (62%) | Run line: **Miami Marlins** +1.5 (56% to cover) | Total 6.5: lean **UNDER** (53%)
+Model likes: **Boston Red Sox** to win (62%) | Run line: **Miami Marlins** +1.5 (56% to cover) | Total 6.5: lean **UNDER** (52%)
 
 ### Boston Red Sox lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 8.3 relief IP in last 2 days (ratio 1.58)_
@@ -742,7 +742,7 @@ _Facing a taxed bullpen: 8.0 relief IP in last 2 days (ratio 1.59)_
 ## 2026-08-25 - Chicago Cubs @ Arizona Diamondbacks (Scheduled)
 _Chase Field [hitter-friendly park]_
 Projected score: Chicago Cubs 5.03 - Arizona Diamondbacks 3.32
-Model likes: **Chicago Cubs** to win (65%) | Run line: **Arizona Diamondbacks** +1.5 (51% to cover) | Total 7.5: lean **OVER** (52%)
+Model likes: **Chicago Cubs** to win (65%) | Run line: **Arizona Diamondbacks** +1.5 (50% to cover) | Total 7.5: lean **OVER** (52%)
 
 ### Chicago Cubs lineup -- PROJECTED (unconfirmed)
 **Probable P: Clay Holmes (R)** -- L5: 26.0 IP, 19 K, 11 ER, 3.81 ERA
@@ -1015,7 +1015,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-26 - Colorado Rockies @ Washington Nationals (Scheduled)
 _Nationals Park_
 Projected score: Colorado Rockies 5.41 - Washington Nationals 6.07
-Model likes: **Washington Nationals** to win (55%) | Run line: **Colorado Rockies** +1.5 (58% to cover) | Total 10.5: lean **OVER** (52%)
+Model likes: **Washington Nationals** to win (55%) | Run line: **Colorado Rockies** +1.5 (57% to cover) | Total 10.5: lean **OVER** (52%)
 
 ### Colorado Rockies lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
