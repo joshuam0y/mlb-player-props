@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-23T23:45:46.902675+00:00_
+_Generated 2026-08-24T00:03:06.326262+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -585,7 +585,7 @@ _Facing a taxed bullpen: 10.0 relief IP in last 2 days (ratio 1.71)_
 ## 2026-08-24 - Texas Rangers @ Chicago White Sox (Scheduled)
 _Rate Field_
 Projected score: Texas Rangers 3.51 - Chicago White Sox 4.72
-Model likes: **Chicago White Sox** to win (61%) | Run line: **Texas Rangers** +1.5 (55% to cover) | Total 7.5: lean **OVER** (52%)
+Model likes: **Chicago White Sox** to win (61%) | Run line: **Texas Rangers** +1.5 (55% to cover) | Total 7.5: lean **OVER** (51%)
 
 ### Texas Rangers lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 13.3 relief IP in last 2 days (ratio 1.93)_
@@ -737,7 +737,7 @@ _Facing a taxed bullpen: 5.7 relief IP in last 2 days (ratio 1.38)_
 ## 2026-08-24 - Chicago Cubs @ Arizona Diamondbacks (Scheduled)
 _Chase Field [hitter-friendly park]_
 Projected score: Chicago Cubs 6.07 - Arizona Diamondbacks 4.75
-Model likes: **Chicago Cubs** to win (60%) | Run line: **Arizona Diamondbacks** +1.5 (53% to cover) | Total 10.5: lean **UNDER** (53%)
+Model likes: **Chicago Cubs** to win (59%) | Run line: **Arizona Diamondbacks** +1.5 (53% to cover) | Total 10.5: lean **UNDER** (53%)
 
 ### Chicago Cubs lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 11.3 relief IP in last 2 days (ratio 2.01)_
@@ -826,7 +826,7 @@ _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.37)_
 ## 2026-08-25 - Tampa Bay Rays @ Detroit Tigers (Scheduled)
 _Comerica Park [pitcher-friendly park]_
 Projected score: Tampa Bay Rays 4.04 - Detroit Tigers 3.77
-Model likes: **Tampa Bay Rays** to win (53%) | Run line: **Detroit Tigers** +1.5 (64% to cover) | Total 7.5: lean **UNDER** (52%)
+Model likes: **Tampa Bay Rays** to win (52%) | Run line: **Detroit Tigers** +1.5 (64% to cover) | Total 7.5: lean **UNDER** (52%)
 
 ### Tampa Bay Rays lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 6.7 relief IP in last 2 days (ratio 1.33)_
@@ -994,6 +994,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 
 ### Atlanta Braves lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.38)_
+**Probable P: Bryce Elder (R)** -- L5: 29.0 IP, 23 K, 11 ER, 3.41 ERA
 - Michael Harris II (L) [likely BABIP-driven, not a real power uptick] -- L7: 10H 0HR 2RBI 15TB (0.400 avg) -- home split: 0.281 avg
 - Austin Riley (R) -- L7: 3H 0HR 2RBI 4TB (0.136 avg) -- home split: 0.267 avg
 - Ronald Acuña Jr. (R) -- L7: 2H 0HR 3RBI 2TB (0.080 avg) -- home split: 0.238 avg
@@ -1037,7 +1038,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.61)_
 ## 2026-08-25 - Baltimore Orioles @ St. Louis Cardinals (Scheduled)
 _Busch Stadium_
 Projected score: Baltimore Orioles 4.09 - St. Louis Cardinals 4.36
-Model likes: **St. Louis Cardinals** to win (52%) | Run line: **Baltimore Orioles** +1.5 (63% to cover) | Total 7.5: lean **OVER** (53%)
+Model likes: **St. Louis Cardinals** to win (52%) | Run line: **Baltimore Orioles** +1.5 (63% to cover) | Total 7.5: lean **OVER** (54%)
 
 ### Baltimore Orioles lineup -- PROJECTED (unconfirmed)
 **Probable P: Chris Bassitt (R)** -- L5: 24.3 IP, 16 K, 12 ER, 4.44 ERA
@@ -1096,7 +1097,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.52)_
 ## 2026-08-25 - Philadelphia Phillies @ Seattle Mariners (Scheduled)
 _T-Mobile Park [pitcher-friendly park]_
 Projected score: Philadelphia Phillies 4.44 - Seattle Mariners 3.91
-Model likes: **Philadelphia Phillies** to win (55%) | Run line: **Seattle Mariners** +1.5 (61% to cover) | Total 7.5: lean **OVER** (52%)
+Model likes: **Philadelphia Phillies** to win (55%) | Run line: **Seattle Mariners** +1.5 (61% to cover) | Total 7.5: lean **OVER** (53%)
 
 ### Philadelphia Phillies lineup -- PROJECTED (unconfirmed)
 **Probable P: Aaron Nola (R)** -- L5: 28.7 IP, 34 K, 8 ER, 2.51 ERA
