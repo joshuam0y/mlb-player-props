@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-24T17:03:05.503446+00:00_
+_Generated 2026-08-24T17:11:19.468986+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -52,7 +52,7 @@ _Generated 2026-08-24T17:03:05.503446+00:00_
 ## 2026-08-24 - Boston Red Sox @ Miami Marlins (Scheduled)
 _loanDepot park [pitcher-friendly park]_
 Projected score: Boston Red Sox 4.0 - Miami Marlins 2.78
-Model likes: **Boston Red Sox** to win (62%) | Run line: **Miami Marlins** +1.5 (56% to cover) | Total 6.5: lean **UNDER** (52%)
+Model likes: **Boston Red Sox** to win (62%) | Run line: **Miami Marlins** +1.5 (56% to cover) | Total 6.5: lean **UNDER** (53%)
 
 ### Boston Red Sox lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 8.3 relief IP in last 2 days (ratio 1.58)_
@@ -356,7 +356,7 @@ _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.5)_
 ## 2026-08-25 - Boston Red Sox @ Miami Marlins (Scheduled)
 _loanDepot park [pitcher-friendly park]_
 Projected score: Boston Red Sox 3.9 - Miami Marlins 2.62
-Model likes: **Boston Red Sox** to win (63%) | Run line: **Miami Marlins** +1.5 (55% to cover) | Total 6.5: lean **UNDER** (55%)
+Model likes: **Boston Red Sox** to win (63%) | Run line: **Miami Marlins** +1.5 (55% to cover) | Total 6.5: lean **UNDER** (56%)
 
 ### Boston Red Sox lineup -- PROJECTED (unconfirmed)
 **Probable P: Payton Tolle (L)** -- L5: 30.3 IP, 38 K, 8 ER, 2.37 ERA
@@ -385,7 +385,7 @@ _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.37)_
 ## 2026-08-25 - Tampa Bay Rays @ Detroit Tigers (Scheduled)
 _Comerica Park [pitcher-friendly park]_
 Projected score: Tampa Bay Rays 4.34 - Detroit Tigers 4.0
-Model likes: **Tampa Bay Rays** to win (53%) | Run line: **Detroit Tigers** +1.5 (62% to cover) | Total 7.5: lean **OVER** (52%)
+Model likes: **Tampa Bay Rays** to win (53%) | Run line: **Detroit Tigers** +1.5 (62% to cover) | Total 7.5: lean **OVER** (53%)
 
 ### Tampa Bay Rays lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 6.7 relief IP in last 2 days (ratio 1.33)_
@@ -446,7 +446,7 @@ _Facing a rested bullpen: 3.3 relief IP in last 2 days (ratio 0.55)_
 ## 2026-08-25 - Houston Astros @ New York Yankees (Scheduled)
 _Yankee Stadium [hitter-friendly park]_
 Projected score: Houston Astros 4.17 - New York Yankees 4.68
-Model likes: **New York Yankees** to win (54%) | Run line: **Houston Astros** +1.5 (61% to cover) | Total 8.5: lean **UNDER** (52%)
+Model likes: **New York Yankees** to win (54%) | Run line: **Houston Astros** +1.5 (60% to cover) | Total 8.5: lean **UNDER** (52%)
 
 ### Houston Astros lineup -- PROJECTED (unconfirmed)
 **Probable P: Ethan Pecko (R)** -- L5: 3.7 IP, 4 K, 2 ER, 4.91 ERA
@@ -566,7 +566,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.56)_
 ## 2026-08-25 - Texas Rangers @ Chicago White Sox (Scheduled)
 _Rate Field_
 Projected score: Texas Rangers 3.42 - Chicago White Sox 4.22
-Model likes: **Chicago White Sox** to win (58%) | Run line: **Texas Rangers** +1.5 (59% to cover) | Total 7.5: lean **UNDER** (54%)
+Model likes: **Chicago White Sox** to win (57%) | Run line: **Texas Rangers** +1.5 (59% to cover) | Total 7.5: lean **UNDER** (54%)
 
 ### Texas Rangers lineup -- PROJECTED (unconfirmed)
 **Probable P: Jacob deGrom (R)** -- L5: 21.3 IP, 29 K, 9 ER, 3.8 ERA
@@ -774,23 +774,24 @@ _Facing a taxed bullpen: 6.0 relief IP in last 2 days (ratio 1.35)_
 
 ## 2026-08-25 - Cincinnati Reds @ San Francisco Giants (Scheduled)
 _Oracle Park [pitcher-friendly park]_
-Projected score: Cincinnati Reds 3.85 - San Francisco Giants 3.61
-Model likes: **Cincinnati Reds** to win (52%) | Run line: **San Francisco Giants** +1.5 (64% to cover) | Total 6.5: lean **OVER** (55%)
+Projected score: Cincinnati Reds 3.56 - San Francisco Giants 3.61
+Model likes: **San Francisco Giants** to win (50%) | Run line: **Cincinnati Reds** +1.5 (67% to cover) | Total 6.5: lean **OVER** (52%)
 
 ### Cincinnati Reds lineup -- PROJECTED (unconfirmed)
 **Probable P: Brady Singer (R)** -- L5: 28.3 IP, 19 K, 17 ER, 5.4 ERA
 - Sal Stewart (R) [8-game hit streak] -- L7: 10H 1HR 7RBI 14TB (0.333 avg) -- away split: 0.269 avg
-- Elly De La Cruz (S) -- L7: 7H 1HR 1RBI 12TB (0.233 avg) -- away split: 0.236 avg
+- Elly De La Cruz (S) [MATCHUP EDGE: pitcher hits 0.280 avg-against vs this hand] -- L7: 7H 1HR 1RBI 12TB (0.233 avg) -- away split: 0.236 avg
 - Matt McLain (R) -- L7: 5H 2HR 6RBI 12TB (0.217 avg) -- away split: 0.203 avg
-- JJ Bleday (L) -- L7: 5H 1HR 4RBI 11TB (0.208 avg) -- away split: 0.203 avg
+- JJ Bleday (L) [MATCHUP EDGE: pitcher hits 0.280 avg-against vs this hand] -- L7: 5H 1HR 4RBI 11TB (0.208 avg) -- away split: 0.203 avg
 - Eugenio Suárez (R) -- L7: 2H 0HR 3RBI 2TB (0.111 avg) -- away split: 0.207 avg
 - Dane Myers (R) -- L7: 7H 1HR 2RBI 11TB (0.269 avg) -- away split: 0.252 avg
 - Tyler Stephenson (R) -- L7: 3H 0HR 4RBI 4TB (0.130 avg) -- away split: 0.286 avg
 - Ke'Bryan Hayes (R) -- L7: 3H 0HR 0RBI 3TB (0.200 avg) -- away split: 0.147 avg
-- Héctor Rodríguez (L) [3-game hit streak] -- L7: 5H 1HR 3RBI 9TB (0.217 avg) -- away split: 0.200 avg
+- Héctor Rodríguez (L) [MATCHUP EDGE: pitcher hits 0.280 avg-against vs this hand] [3-game hit streak] -- L7: 5H 1HR 3RBI 9TB (0.217 avg) -- away split: 0.200 avg
 
 ### San Francisco Giants lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.37)_
+**Probable P: Adrian Houser (R)** -- L5: 21.0 IP, 15 K, 2 ER, 0.86 ERA
 - Bryce Eldridge (L) [MATCHUP EDGE: pitcher hits 0.302 avg-against vs this hand] [4-game hit streak] -- L7: 8H 1HR 4RBI 11TB (0.320 avg) -- home split: 0.214 avg
 - Christian Koss (R) -- L7: 5H 0HR 0RBI 7TB (0.217 avg) -- home split: 0.189 avg
 - Osleivis Basabe (R) -- L7: 3H 0HR 0RBI 4TB (0.115 avg) -- home split: 0.273 avg
@@ -835,7 +836,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-26 - Chicago Cubs @ Arizona Diamondbacks (Scheduled)
 _Chase Field [hitter-friendly park]_
 Projected score: Chicago Cubs 4.29 - Arizona Diamondbacks 4.71
-Model likes: **Arizona Diamondbacks** to win (54%) | Run line: **Chicago Cubs** +1.5 (61% to cover) | Total 8.5: lean **UNDER** (51%)
+Model likes: **Arizona Diamondbacks** to win (53%) | Run line: **Chicago Cubs** +1.5 (61% to cover) | Total 8.5: lean **UNDER** (51%)
 
 ### Chicago Cubs lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -865,8 +866,8 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 
 ## 2026-08-26 - Cincinnati Reds @ San Francisco Giants (Scheduled)
 _Oracle Park [pitcher-friendly park]_
-Projected score: Cincinnati Reds 3.85 - San Francisco Giants 3.72
-Model likes: **Cincinnati Reds** to win (51%) | Run line: **San Francisco Giants** +1.5 (65% to cover) | Total 7.5: lean **UNDER** (55%)
+Projected score: Cincinnati Reds 3.69 - San Francisco Giants 3.72
+Model likes: **San Francisco Giants** to win (50%) | Run line: **Cincinnati Reds** +1.5 (66% to cover) | Total 6.5: lean **OVER** (54%)
 
 ### Cincinnati Reds lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -883,6 +884,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 
 ### San Francisco Giants lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
+**Probable P: Landen Roupp (R)** -- L5: 24.7 IP, 17 K, 17 ER, 6.2 ERA
 - Bryce Eldridge (L) [4-game hit streak] -- L7: 8H 1HR 4RBI 11TB (0.320 avg) -- home split: 0.214 avg
 - Christian Koss (R) [MATCHUP EDGE: pitcher hits 0.274 avg-against vs this hand] -- L7: 5H 0HR 0RBI 7TB (0.217 avg) -- home split: 0.189 avg
 - Osleivis Basabe (R) [MATCHUP EDGE: pitcher hits 0.274 avg-against vs this hand] -- L7: 3H 0HR 0RBI 4TB (0.115 avg) -- home split: 0.273 avg
@@ -1202,7 +1204,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-26 - Baltimore Orioles @ St. Louis Cardinals (Scheduled)
 _Busch Stadium_
 Projected score: Baltimore Orioles 4.19 - St. Louis Cardinals 3.72
-Model likes: **Baltimore Orioles** to win (54%) | Run line: **St. Louis Cardinals** +1.5 (62% to cover) | Total 7.5: lean **UNDER** (52%)
+Model likes: **Baltimore Orioles** to win (54%) | Run line: **St. Louis Cardinals** +1.5 (62% to cover) | Total 7.5: lean **UNDER** (51%)
 
 ### Baltimore Orioles lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
