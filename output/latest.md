@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-24T15:05:13.147531+00:00_
+_Generated 2026-08-24T15:53:04.235534+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -354,7 +354,7 @@ _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.5)_
 ## 2026-08-25 - Boston Red Sox @ Miami Marlins (Scheduled)
 _loanDepot park [pitcher-friendly park]_
 Projected score: Boston Red Sox 3.9 - Miami Marlins 2.62
-Model likes: **Boston Red Sox** to win (63%) | Run line: **Miami Marlins** +1.5 (55% to cover) | Total 6.5: lean **UNDER** (56%)
+Model likes: **Boston Red Sox** to win (64%) | Run line: **Miami Marlins** +1.5 (55% to cover) | Total 6.5: lean **UNDER** (55%)
 
 ### Boston Red Sox lineup -- PROJECTED (unconfirmed)
 **Probable P: Payton Tolle (L)** -- L5: 30.3 IP, 38 K, 8 ER, 2.37 ERA
@@ -444,7 +444,7 @@ _Facing a rested bullpen: 3.3 relief IP in last 2 days (ratio 0.55)_
 ## 2026-08-25 - Houston Astros @ New York Yankees (Scheduled)
 _Yankee Stadium [hitter-friendly park]_
 Projected score: Houston Astros 4.17 - New York Yankees 4.68
-Model likes: **New York Yankees** to win (54%) | Run line: **Houston Astros** +1.5 (61% to cover) | Total 8.5: lean **UNDER** (52%)
+Model likes: **New York Yankees** to win (54%) | Run line: **Houston Astros** +1.5 (60% to cover) | Total 8.5: lean **UNDER** (52%)
 
 ### Houston Astros lineup -- PROJECTED (unconfirmed)
 **Probable P: Ethan Pecko (R)** -- L5: 3.7 IP, 4 K, 2 ER, 4.91 ERA
@@ -564,7 +564,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.56)_
 ## 2026-08-25 - Texas Rangers @ Chicago White Sox (Scheduled)
 _Rate Field_
 Projected score: Texas Rangers 3.42 - Chicago White Sox 4.22
-Model likes: **Chicago White Sox** to win (58%) | Run line: **Texas Rangers** +1.5 (59% to cover) | Total 7.5: lean **UNDER** (54%)
+Model likes: **Chicago White Sox** to win (57%) | Run line: **Texas Rangers** +1.5 (59% to cover) | Total 7.5: lean **UNDER** (54%)
 
 ### Texas Rangers lineup -- PROJECTED (unconfirmed)
 **Probable P: Jacob deGrom (R)** -- L5: 21.3 IP, 29 K, 9 ER, 3.8 ERA
@@ -713,7 +713,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.47)_
 ## 2026-08-25 - Minnesota Twins @ Athletics (Scheduled)
 _Sutter Health Park_
 Projected score: Minnesota Twins 5.41 - Athletics 4.23
-Model likes: **Minnesota Twins** to win (59%) | Run line: **Athletics** +1.5 (55% to cover) | Total 8.5: lean **OVER** (54%)
+Model likes: **Minnesota Twins** to win (59%) | Run line: **Athletics** +1.5 (55% to cover) | Total 9.5: lean **UNDER** (54%)
 
 ### Minnesota Twins lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 8.0 relief IP in last 2 days (ratio 1.59)_
@@ -985,7 +985,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-26 - Boston Red Sox @ Miami Marlins (Scheduled)
 _loanDepot park [pitcher-friendly park]_
 Projected score: Boston Red Sox 4.58 - Miami Marlins 2.54
-Model likes: **Boston Red Sox** to win (70%) | Run line: **Boston Red Sox** -1.5 (53% to cover) | Total 6.5: lean **OVER** (51%)
+Model likes: **Boston Red Sox** to win (70%) | Run line: **Boston Red Sox** -1.5 (52% to cover) | Total 6.5: lean **OVER** (51%)
 
 ### Boston Red Sox lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1200,7 +1200,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-26 - Baltimore Orioles @ St. Louis Cardinals (Scheduled)
 _Busch Stadium_
 Projected score: Baltimore Orioles 4.19 - St. Louis Cardinals 3.72
-Model likes: **Baltimore Orioles** to win (54%) | Run line: **St. Louis Cardinals** +1.5 (62% to cover) | Total 7.5: lean **UNDER** (52%)
+Model likes: **Baltimore Orioles** to win (54%) | Run line: **St. Louis Cardinals** +1.5 (62% to cover) | Total 7.5: lean **UNDER** (51%)
 
 ### Baltimore Orioles lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
