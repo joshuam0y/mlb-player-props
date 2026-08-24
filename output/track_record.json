@@ -40730,7 +40730,7 @@
     },
     "2026-08-20": {
       "date": "2026-08-20",
-      "graded_at": "2026-08-24T19:03:50.376798+00:00",
+      "graded_at": "2026-08-24T19:43:48.897615+00:00",
       "top_overs": {
         "n": 22,
         "hits": 14,
@@ -42118,7 +42118,7 @@
     },
     "2026-08-21": {
       "date": "2026-08-21",
-      "graded_at": "2026-08-24T19:03:50.152830+00:00",
+      "graded_at": "2026-08-24T19:43:48.673094+00:00",
       "top_overs": {
         "n": 23,
         "hits": 7,
@@ -43675,7 +43675,7 @@
     },
     "2026-08-22": {
       "date": "2026-08-22",
-      "graded_at": "2026-08-24T19:03:49.828423+00:00",
+      "graded_at": "2026-08-24T19:43:48.354856+00:00",
       "top_overs": {
         "n": 23,
         "hits": 10,
@@ -45213,7 +45213,7 @@
     },
     "2026-08-23": {
       "date": "2026-08-23",
-      "graded_at": "2026-08-24T19:03:49.524295+00:00",
+      "graded_at": "2026-08-24T19:43:48.048909+00:00",
       "top_overs": {
         "n": 23,
         "hits": 7,
@@ -46874,33 +46874,12 @@
       "hit_rate": 0.489
     },
     "projection_accuracy": {
-      "Walks Allowed": {
-        "n": 823,
-        "mae": 0.95,
-        "bias": 0.12,
-        "avg_projected": 1.7,
-        "avg_actual": 1.81
-      },
-      "Hits Allowed": {
-        "n": 823,
-        "mae": 1.87,
-        "bias": 0.19,
-        "avg_projected": 4.61,
-        "avg_actual": 4.8
-      },
-      "Outs Recorded": {
-        "n": 741,
-        "mae": 3.18,
-        "bias": 0.65,
-        "avg_projected": 14.76,
-        "avg_actual": 15.41
-      },
-      "Walks": {
+      "Runs Scored": {
         "n": 7336,
-        "mae": 0.47,
-        "bias": 0.02,
-        "avg_projected": 0.34,
-        "avg_actual": 0.35
+        "mae": 0.55,
+        "bias": -0.01,
+        "avg_projected": 0.45,
+        "avg_actual": 0.44
       },
       "Hits": {
         "n": 7336,
@@ -46909,12 +46888,54 @@
         "avg_projected": 0.83,
         "avg_actual": 0.85
       },
-      "Runs Scored": {
+      "Walks": {
         "n": 7336,
-        "mae": 0.55,
+        "mae": 0.47,
+        "bias": 0.02,
+        "avg_projected": 0.34,
+        "avg_actual": 0.35
+      },
+      "Runs Allowed": {
+        "n": 823,
+        "mae": 1.58,
+        "bias": 0.09,
+        "avg_projected": 2.25,
+        "avg_actual": 2.34
+      },
+      "Walks Allowed": {
+        "n": 823,
+        "mae": 0.95,
+        "bias": 0.12,
+        "avg_projected": 1.7,
+        "avg_actual": 1.81
+      },
+      "Home Runs": {
+        "n": 7336,
+        "mae": 0.2,
         "bias": -0.01,
-        "avg_projected": 0.45,
-        "avg_actual": 0.44
+        "avg_projected": 0.12,
+        "avg_actual": 0.11
+      },
+      "Outs Recorded": {
+        "n": 741,
+        "mae": 3.18,
+        "bias": 0.65,
+        "avg_projected": 14.76,
+        "avg_actual": 15.41
+      },
+      "RBIs": {
+        "n": 7336,
+        "mae": 0.6,
+        "bias": -0.01,
+        "avg_projected": 0.43,
+        "avg_actual": 0.42
+      },
+      "Hits Allowed": {
+        "n": 823,
+        "mae": 1.87,
+        "bias": 0.19,
+        "avg_projected": 4.61,
+        "avg_actual": 4.8
       },
       "Hits + Runs + RBIs": {
         "n": 4929,
@@ -46930,36 +46951,15 @@
         "avg_projected": 4.61,
         "avg_actual": 4.65
       },
-      "Home Runs": {
-        "n": 7336,
-        "mae": 0.2,
-        "bias": -0.01,
-        "avg_projected": 0.12,
-        "avg_actual": 0.11
-      },
       "Total Bases": {
         "n": 7336,
         "mae": 1.31,
         "bias": -0.01,
         "avg_projected": 1.38,
         "avg_actual": 1.37
-      },
-      "Runs Allowed": {
-        "n": 823,
-        "mae": 1.58,
-        "bias": 0.09,
-        "avg_projected": 2.25,
-        "avg_actual": 2.34
-      },
-      "RBIs": {
-        "n": 7336,
-        "mae": 0.6,
-        "bias": -0.01,
-        "avg_projected": 0.43,
-        "avg_actual": 0.42
       }
     },
     "days_tracked": 31
   },
-  "updated_at": "2026-08-24T19:03:50.399077+00:00"
+  "updated_at": "2026-08-24T19:43:48.919366+00:00"
 }
