@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-24T10:22:52.806576+00:00_
+_Generated 2026-08-24T11:03:53.150508+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -51,7 +51,7 @@ _Generated 2026-08-24T10:22:52.806576+00:00_
 ## 2026-08-24 - Boston Red Sox @ Miami Marlins (Scheduled)
 _loanDepot park [pitcher-friendly park]_
 Projected score: Boston Red Sox 4.0 - Miami Marlins 2.78
-Model likes: **Boston Red Sox** to win (62%) | Run line: **Miami Marlins** +1.5 (56% to cover) | Total 6.5: lean **UNDER** (52%)
+Model likes: **Boston Red Sox** to win (62%) | Run line: **Miami Marlins** +1.5 (56% to cover) | Total 6.5: lean **UNDER** (53%)
 
 ### Boston Red Sox lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 8.3 relief IP in last 2 days (ratio 1.58)_
@@ -111,7 +111,7 @@ _Facing a taxed bullpen: 9.7 relief IP in last 2 days (ratio 1.93)_
 ## 2026-08-24 - Colorado Rockies @ Washington Nationals (Scheduled)
 _Nationals Park_
 Projected score: Colorado Rockies 3.72 - Washington Nationals 6.22
-Model likes: **Washington Nationals** to win (69%) | Run line: **Washington Nationals** -1.5 (56% to cover) | Total 9.5: lean **UNDER** (52%)
+Model likes: **Washington Nationals** to win (69%) | Run line: **Washington Nationals** -1.5 (55% to cover) | Total 9.5: lean **UNDER** (52%)
 
 ### Colorado Rockies lineup -- PROJECTED (unconfirmed)
 **Probable P: Ryan Feltner (R)** -- L5: 26.3 IP, 14 K, 21 ER, 7.18 ERA
@@ -443,7 +443,7 @@ _Facing a rested bullpen: 3.3 relief IP in last 2 days (ratio 0.55)_
 ## 2026-08-25 - Houston Astros @ New York Yankees (Scheduled)
 _Yankee Stadium [hitter-friendly park]_
 Projected score: Houston Astros 4.17 - New York Yankees 4.68
-Model likes: **New York Yankees** to win (54%) | Run line: **Houston Astros** +1.5 (61% to cover) | Total 8.5: lean **UNDER** (52%)
+Model likes: **New York Yankees** to win (54%) | Run line: **Houston Astros** +1.5 (60% to cover) | Total 8.5: lean **UNDER** (52%)
 
 ### Houston Astros lineup -- PROJECTED (unconfirmed)
 **Probable P: Ethan Pecko (R)** -- L5: 3.7 IP, 4 K, 2 ER, 4.91 ERA
@@ -563,7 +563,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.56)_
 ## 2026-08-25 - Texas Rangers @ Chicago White Sox (Scheduled)
 _Rate Field_
 Projected score: Texas Rangers 3.42 - Chicago White Sox 4.22
-Model likes: **Chicago White Sox** to win (57%) | Run line: **Texas Rangers** +1.5 (59% to cover) | Total 7.5: lean **UNDER** (54%)
+Model likes: **Chicago White Sox** to win (58%) | Run line: **Texas Rangers** +1.5 (59% to cover) | Total 7.5: lean **UNDER** (54%)
 
 ### Texas Rangers lineup -- PROJECTED (unconfirmed)
 **Probable P: Jacob deGrom (R)** -- L5: 21.3 IP, 29 K, 9 ER, 3.8 ERA
@@ -742,7 +742,7 @@ _Facing a taxed bullpen: 8.0 relief IP in last 2 days (ratio 1.59)_
 ## 2026-08-25 - Chicago Cubs @ Arizona Diamondbacks (Scheduled)
 _Chase Field [hitter-friendly park]_
 Projected score: Chicago Cubs 5.03 - Arizona Diamondbacks 3.32
-Model likes: **Chicago Cubs** to win (65%) | Run line: **Arizona Diamondbacks** +1.5 (51% to cover) | Total 7.5: lean **OVER** (52%)
+Model likes: **Chicago Cubs** to win (65%) | Run line: **Arizona Diamondbacks** +1.5 (50% to cover) | Total 7.5: lean **OVER** (52%)
 
 ### Chicago Cubs lineup -- PROJECTED (unconfirmed)
 **Probable P: Clay Holmes (R)** -- L5: 26.0 IP, 19 K, 11 ER, 3.81 ERA
@@ -1015,7 +1015,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-26 - Colorado Rockies @ Washington Nationals (Scheduled)
 _Nationals Park_
 Projected score: Colorado Rockies 5.41 - Washington Nationals 6.07
-Model likes: **Washington Nationals** to win (55%) | Run line: **Colorado Rockies** +1.5 (57% to cover) | Total 10.5: lean **OVER** (52%)
+Model likes: **Washington Nationals** to win (55%) | Run line: **Colorado Rockies** +1.5 (58% to cover) | Total 10.5: lean **OVER** (52%)
 
 ### Colorado Rockies lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
