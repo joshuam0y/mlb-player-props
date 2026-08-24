@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-24T20:55:48.510199+00:00_
+_Generated 2026-08-24T20:56:41.039589+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -71,7 +71,7 @@ _Facing a taxed bullpen: 8.3 relief IP in last 2 days (ratio 1.58)_
 **Probable P: Sandy Alcantara (R)** -- L5: 33.0 IP, 21 K, 4 ER, 1.09 ERA
 - #1 Otto Lopez (R) -- L7: 6H 0HR 5RBI 6TB (0.250 avg) -- home split: 0.309 avg
 - #2 Heriberto Hernández (R) -- L7: 5H 2HR 4RBI 12TB (0.208 avg) -- home split: 0.229 avg
-- #3 Kyle Stowers (L) [INJURY: IL] -- L7: 8H 0HR 4RBI 11TB (0.308 avg) -- home split: 0.233 avg
+- #3 Kyle Stowers (L) -- L7: 8H 0HR 4RBI 11TB (0.308 avg) -- home split: 0.233 avg
 - #4 Agustín Ramírez (R) -- L7: 5H 0HR 2RBI 7TB (0.263 avg) -- home split: 0.229 avg
 - #5 Xavier Edwards (S) -- L7: 8H 0HR 3RBI 8TB (0.308 avg) -- home split: 0.282 avg
 - #6 Jakob Marsee (L) [3-game hit streak] -- L7: 4H 1HR 1RBI 9TB (0.200 avg) -- home split: 0.229 avg
@@ -1172,7 +1172,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-26 - Texas Rangers @ Chicago White Sox (Scheduled)
 _Rate Field_
 Projected score: Texas Rangers 2.84 - Chicago White Sox 4.53
-Model likes: **Chicago White Sox** to win (66%) | Run line: **Texas Rangers** +1.5 (51% to cover) | Total 6.5: lean **OVER** (53%)
+Model likes: **Chicago White Sox** to win (66%) | Run line: **Texas Rangers** +1.5 (51% to cover) | Total 6.5: lean **OVER** (54%)
 
 ### Texas Rangers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
