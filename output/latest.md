@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-24T21:32:30.970676+00:00_
+_Generated 2026-08-24T21:52:33.498318+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -142,7 +142,7 @@ _Facing a taxed bullpen: 10.0 relief IP in last 2 days (ratio 1.71)_
 ## 2026-08-24 - Texas Rangers @ Chicago White Sox (Pre-Game)
 _Rate Field_
 Projected score: Texas Rangers 3.44 - Chicago White Sox 4.57
-Model likes: **Chicago White Sox** to win (60%) | Run line: **Texas Rangers** +1.5 (56% to cover) | Total 7.5: lean **UNDER** (50%)
+Model likes: **Chicago White Sox** to win (60%) | Run line: **Texas Rangers** +1.5 (56% to cover) | Total 7.5: lean **UNDER** (51%)
 
 ### Texas Rangers lineup -- CONFIRMED
 _Facing a taxed bullpen: 13.3 relief IP in last 2 days (ratio 1.93)_
@@ -323,7 +323,7 @@ _Facing a taxed bullpen: 8.7 relief IP in last 2 days (ratio 1.95)_
 - Jorge Barrosa (S) -- L7: 0H 0HR 0RBI 0TB (0.000 avg) -- home split: 0.191 avg
 - Lars Nootbaar (L) -- L7: 5H 1HR 4RBI 9TB (0.250 avg) -- home split: 0.241 avg
 
-## 2026-08-24 - Cincinnati Reds @ San Francisco Giants (Scheduled)
+## 2026-08-24 - Cincinnati Reds @ San Francisco Giants (Pre-Game)
 _Oracle Park [pitcher-friendly park]_
 Projected score: Cincinnati Reds 4.82 - San Francisco Giants 2.55
 Model likes: **Cincinnati Reds** to win (71%) | Run line: **Cincinnati Reds** -1.5 (55% to cover) | Total 6.5: lean **OVER** (53%)
@@ -356,7 +356,7 @@ _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.5)_
 ## 2026-08-25 - Boston Red Sox @ Miami Marlins (Scheduled)
 _loanDepot park [pitcher-friendly park]_
 Projected score: Boston Red Sox 3.9 - Miami Marlins 2.62
-Model likes: **Boston Red Sox** to win (63%) | Run line: **Miami Marlins** +1.5 (55% to cover) | Total 6.5: lean **UNDER** (56%)
+Model likes: **Boston Red Sox** to win (64%) | Run line: **Miami Marlins** +1.5 (55% to cover) | Total 6.5: lean **UNDER** (55%)
 
 ### Boston Red Sox lineup -- PROJECTED (unconfirmed)
 **Probable P: Payton Tolle (L)** -- L5: 30.3 IP, 38 K, 8 ER, 2.37 ERA
@@ -1203,7 +1203,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-26 - Baltimore Orioles @ St. Louis Cardinals (Scheduled)
 _Busch Stadium_
 Projected score: Baltimore Orioles 4.19 - St. Louis Cardinals 3.72
-Model likes: **Baltimore Orioles** to win (54%) | Run line: **St. Louis Cardinals** +1.5 (62% to cover) | Total 7.5: lean **UNDER** (51%)
+Model likes: **Baltimore Orioles** to win (54%) | Run line: **St. Louis Cardinals** +1.5 (62% to cover) | Total 7.5: lean **UNDER** (52%)
 
 ### Baltimore Orioles lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
