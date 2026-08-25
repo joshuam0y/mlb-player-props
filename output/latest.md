@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-25T16:51:04.357968+00:00_
+_Generated 2026-08-25T16:54:05.504816+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -416,7 +416,7 @@ _Facing a taxed bullpen: 12.0 relief IP in last 2 days (ratio 1.89)_
 ## 2026-08-25 - Minnesota Twins @ Athletics (Scheduled)
 _Sutter Health Park_
 Projected score: Minnesota Twins 5.62 - Athletics 4.29
-Model likes: **Minnesota Twins** to win (60%) | Run line: **Athletics** +1.5 (53% to cover) | Total 9.5: lean **UNDER** (52%)
+Model likes: **Minnesota Twins** to win (60%) | Run line: **Athletics** +1.5 (54% to cover) | Total 9.5: lean **UNDER** (52%)
 
 ### Minnesota Twins lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 12.3 relief IP in last 2 days (ratio 2.44)_
@@ -507,8 +507,8 @@ _Facing a taxed bullpen: 10.7 relief IP in last 2 days (ratio 2.1)_
 
 ## 2026-08-26 - Tampa Bay Rays @ Detroit Tigers (Scheduled)
 _Comerica Park [pitcher-friendly park]_
-Projected score: Tampa Bay Rays 2.63 - Detroit Tigers 4.57
-Model likes: **Detroit Tigers** to win (69%) | Run line: **Detroit Tigers** -1.5 (52% to cover) | Total 6.5: lean **OVER** (52%)
+Projected score: Tampa Bay Rays 2.69 - Detroit Tigers 4.57
+Model likes: **Detroit Tigers** to win (68%) | Run line: **Detroit Tigers** -1.5 (51% to cover) | Total 6.5: lean **OVER** (52%)
 
 ### Tampa Bay Rays lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.6)_
@@ -525,7 +525,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.6)_
 
 ### Detroit Tigers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.5)_
-**Probable P: Troy Melton (R)** -- L5: 30.0 IP, 21 K, 3 ER, 0.9 ERA
+**Probable P: Troy Melton (R)** -- L5: 30.0 IP, 21 K, 4 ER, 1.2 ERA
 - Kevin McGonigle (L) [MATCHUP EDGE: pitcher hits 0.271 avg-against vs this hand] -- L7: 9H 2HR 8RBI 18TB (0.310 avg) -- home split: 0.267 avg
 - Max Clark (L) [MATCHUP EDGE: pitcher hits 0.271 avg-against vs this hand] -- L7: 5H 0HR 2RBI 6TB (0.208 avg) -- home split: 0.167 avg -- news: Mayo: Don't judge a book by its cover -- especially Max Clark
 - Colt Keith (L) [MATCHUP EDGE: pitcher hits 0.271 avg-against vs this hand] -- L7: 4H 0HR 0RBI 5TB (0.222 avg) -- home split: 0.259 avg
@@ -630,11 +630,11 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.59)_
 
 ## 2026-08-26 - Philadelphia Phillies @ Seattle Mariners (Scheduled)
 _T-Mobile Park [pitcher-friendly park]_
-Projected score: Philadelphia Phillies 4.37 - Seattle Mariners 2.99
-Model likes: **Philadelphia Phillies** to win (63%) | Run line: **Seattle Mariners** +1.5 (54% to cover) | Total 6.5: lean **OVER** (53%)
+Projected score: Philadelphia Phillies 4.37 - Seattle Mariners 2.93
+Model likes: **Philadelphia Phillies** to win (64%) | Run line: **Seattle Mariners** +1.5 (53% to cover) | Total 6.5: lean **OVER** (53%)
 
 ### Philadelphia Phillies lineup -- PROJECTED (unconfirmed)
-**Probable P: Jesús Luzardo (L)** -- L5: 33.7 IP, 42 K, 13 ER, 3.48 ERA
+**Probable P: Jesús Luzardo (L)** -- L5: 33.7 IP, 42 K, 11 ER, 2.94 ERA
 - Justin Crawford (L) -- L7: 5H 0HR 2RBI 6TB (0.294 avg) -- away split: 0.234 avg
 - Bryson Stott (L) -- L7: 3H 0HR 2RBI 3TB (0.136 avg) -- away split: 0.240 avg
 - Kyle Schwarber (L) -- L7: 5H 2HR 6RBI 11TB (0.179 avg) -- away split: 0.230 avg
@@ -871,7 +871,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-26 - Texas Rangers @ Chicago White Sox (Scheduled)
 _Rate Field_
 Projected score: Texas Rangers 3.0 - Chicago White Sox 4.38
-Model likes: **Chicago White Sox** to win (63%) | Run line: **Texas Rangers** +1.5 (54% to cover) | Total 6.5: lean **OVER** (54%)
+Model likes: **Chicago White Sox** to win (63%) | Run line: **Texas Rangers** +1.5 (54% to cover) | Total 6.5: lean **OVER** (53%)
 
 ### Texas Rangers lineup -- PROJECTED (unconfirmed)
 **Probable P: MacKenzie Gore (L)** -- L5: 30.0 IP, 34 K, 7 ER, 2.1 ERA
