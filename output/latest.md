@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-25T20:50:30.761875+00:00_
+_Generated 2026-08-25T21:01:41.448076+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -54,7 +54,7 @@ _Generated 2026-08-25T20:50:30.761875+00:00_
 ## 2026-08-25 - Boston Red Sox @ Miami Marlins (Pre-Game)
 _loanDepot park [pitcher-friendly park]_
 Projected score: Boston Red Sox 3.88 - Miami Marlins 2.61
-Model likes: **Boston Red Sox** to win (63%) | Run line: **Miami Marlins** +1.5 (56% to cover) | Total 5.5: lean **OVER** (56%)
+Model likes: **Boston Red Sox** to win (63%) | Run line: **Miami Marlins** +1.5 (55% to cover) | Total 5.5: lean **OVER** (56%)
 
 ### Boston Red Sox lineup -- CONFIRMED
 _Facing a taxed bullpen: 6.3 relief IP in last 2 days (ratio 1.2)_
@@ -114,7 +114,7 @@ _Facing a taxed bullpen: 9.7 relief IP in last 2 days (ratio 1.93)_
 ## 2026-08-25 - Colorado Rockies @ Washington Nationals (Pre-Game)
 _Nationals Park_
 Projected score: Colorado Rockies 3.9 - Washington Nationals 6.46
-Model likes: **Washington Nationals** to win (69%) | Run line: **Washington Nationals** -1.5 (56% to cover) | Total 9.5: lean **OVER** (51%)
+Model likes: **Washington Nationals** to win (68%) | Run line: **Washington Nationals** -1.5 (56% to cover) | Total 9.5: lean **OVER** (51%)
 
 ### Colorado Rockies lineup -- CONFIRMED
 **Probable P: Mason Adams (R)** -- L5: no data
@@ -1022,7 +1022,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-27 - Houston Astros @ New York Yankees (Scheduled)
 _Yankee Stadium [hitter-friendly park]_
 Projected score: Houston Astros 3.14 - New York Yankees 3.74
-Model likes: **New York Yankees** to win (56%) | Run line: **Houston Astros** +1.5 (62% to cover) | Total 6.5: lean **UNDER** (51%)
+Model likes: **New York Yankees** to win (56%) | Run line: **Houston Astros** +1.5 (62% to cover) | Total 6.5: lean **UNDER** (52%)
 
 ### Houston Astros lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
