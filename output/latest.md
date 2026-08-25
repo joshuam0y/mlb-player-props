@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-25T16:54:05.504816+00:00_
+_Generated 2026-08-25T17:23:20.778038+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -173,7 +173,7 @@ Model likes: **New York Yankees** to win (57%) | Run line: **Houston Astros** +1
 ## 2026-08-25 - Kansas City Royals @ Toronto Blue Jays (Scheduled)
 _Rogers Centre_
 Projected score: Kansas City Royals 4.54 - Toronto Blue Jays 3.91
-Model likes: **Kansas City Royals** to win (55%) | Run line: **Toronto Blue Jays** +1.5 (60% to cover) | Total 7.5: lean **OVER** (54%)
+Model likes: **Kansas City Royals** to win (55%) | Run line: **Toronto Blue Jays** +1.5 (60% to cover) | Total 7.5: lean **OVER** (53%)
 
 ### Kansas City Royals lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.45)_
@@ -871,7 +871,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-26 - Texas Rangers @ Chicago White Sox (Scheduled)
 _Rate Field_
 Projected score: Texas Rangers 3.0 - Chicago White Sox 4.38
-Model likes: **Chicago White Sox** to win (63%) | Run line: **Texas Rangers** +1.5 (54% to cover) | Total 6.5: lean **OVER** (53%)
+Model likes: **Chicago White Sox** to win (63%) | Run line: **Texas Rangers** +1.5 (54% to cover) | Total 6.5: lean **OVER** (54%)
 
 ### Texas Rangers lineup -- PROJECTED (unconfirmed)
 **Probable P: MacKenzie Gore (L)** -- L5: 30.0 IP, 34 K, 7 ER, 2.1 ERA
@@ -1022,7 +1022,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-27 - Houston Astros @ New York Yankees (Scheduled)
 _Yankee Stadium [hitter-friendly park]_
 Projected score: Houston Astros 3.14 - New York Yankees 3.74
-Model likes: **New York Yankees** to win (56%) | Run line: **Houston Astros** +1.5 (62% to cover) | Total 6.5: lean **UNDER** (52%)
+Model likes: **New York Yankees** to win (56%) | Run line: **Houston Astros** +1.5 (62% to cover) | Total 6.5: lean **UNDER** (51%)
 
 ### Houston Astros lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
