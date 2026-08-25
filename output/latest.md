@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-25T15:05:53.276966+00:00_
+_Generated 2026-08-25T15:10:09.718195+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -173,7 +173,7 @@ Model likes: **New York Yankees** to win (57%) | Run line: **Houston Astros** +1
 ## 2026-08-25 - Kansas City Royals @ Toronto Blue Jays (Scheduled)
 _Rogers Centre_
 Projected score: Kansas City Royals 4.54 - Toronto Blue Jays 3.91
-Model likes: **Kansas City Royals** to win (56%) | Run line: **Toronto Blue Jays** +1.5 (60% to cover) | Total 7.5: lean **OVER** (53%)
+Model likes: **Kansas City Royals** to win (55%) | Run line: **Toronto Blue Jays** +1.5 (60% to cover) | Total 7.5: lean **OVER** (53%)
 
 ### Kansas City Royals lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.45)_
@@ -203,7 +203,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.45)_
 ## 2026-08-25 - Milwaukee Brewers @ New York Mets (Scheduled)
 _Citi Field_
 Projected score: Milwaukee Brewers 3.1 - New York Mets 2.68
-Model likes: **Milwaukee Brewers** to win (55%) | Run line: **New York Mets** +1.5 (66% to cover) | Total 5.5: lean **UNDER** (52%)
+Model likes: **Milwaukee Brewers** to win (55%) | Run line: **New York Mets** +1.5 (65% to cover) | Total 5.5: lean **UNDER** (52%)
 
 ### Milwaukee Brewers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.3 relief IP in last 2 days (ratio 0.38)_
@@ -539,7 +539,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.5)_
 ## 2026-08-26 - Chicago Cubs @ Arizona Diamondbacks (Scheduled)
 _Chase Field [hitter-friendly park]_
 Projected score: Chicago Cubs 4.39 - Arizona Diamondbacks 4.66
-Model likes: **Arizona Diamondbacks** to win (52%) | Run line: **Chicago Cubs** +1.5 (62% to cover) | Total 8.5: lean **UNDER** (50%)
+Model likes: **Arizona Diamondbacks** to win (52%) | Run line: **Chicago Cubs** +1.5 (62% to cover) | Total 8.5: lean **UNDER** (51%)
 
 ### Chicago Cubs lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.3 relief IP in last 2 days (ratio 0.59)_
@@ -570,7 +570,7 @@ _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.45)_
 ## 2026-08-26 - Cincinnati Reds @ San Francisco Giants (Scheduled)
 _Oracle Park [pitcher-friendly park]_
 Projected score: Cincinnati Reds 3.69 - San Francisco Giants 3.82
-Model likes: **San Francisco Giants** to win (51%) | Run line: **Cincinnati Reds** +1.5 (65% to cover) | Total 6.5: lean **OVER** (55%)
+Model likes: **San Francisco Giants** to win (51%) | Run line: **Cincinnati Reds** +1.5 (66% to cover) | Total 6.5: lean **OVER** (55%)
 
 ### Cincinnati Reds lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 6.3 relief IP in last 2 days (ratio 1.25)_
@@ -1114,7 +1114,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-27 - Los Angeles Dodgers @ Atlanta Braves (Scheduled)
 _Truist Park_
 Projected score: Los Angeles Dodgers 2.92 - Atlanta Braves 2.92
-Model likes: **Atlanta Braves** to win (50%) | Run line: **Los Angeles Dodgers** +1.5 (70% to cover) | Total 5.5: lean **UNDER** (52%)
+Model likes: **Atlanta Braves** to win (50%) | Run line: **Los Angeles Dodgers** +1.5 (70% to cover) | Total 5.5: lean **UNDER** (51%)
 
 ### Los Angeles Dodgers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
