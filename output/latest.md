@@ -1,12 +1,12 @@
 # MLB Player Props Context Report
-_Generated 2026-08-25T18:45:08.903636+00:00_
+_Generated 2026-08-25T19:05:37.426796+00:00_
 
 ## Today's Top Overs
 ### Batters
-- **Chandler Simpson** (Tampa Bay Rays vs Detroit Tigers): favorable matchup vs. tonight's pitcher, 15-game hit streak -- try Total Bases: 50% over 1.5 recently (vs. 10-game sample)
 - **Andrew Vaughn** (Milwaukee Brewers vs New York Mets): favorable matchup vs. tonight's pitcher, 7-game hit streak -- try Hits: 80% over 0.5 recently (vs. 10-game sample)
 - **Alec Burleson** (St. Louis Cardinals vs Baltimore Orioles): favorable matchup vs. tonight's pitcher, 10-game hit streak -- try Runs Scored: 60% over 0.5 recently (vs. 10-game sample)
 - **Luke Keaschall** (Minnesota Twins vs Athletics): favorable matchup vs. tonight's pitcher, 7-game hit streak -- try Total Bases: 70% over 1.5 recently (vs. 10-game sample)
+- **Chandler Simpson** (Tampa Bay Rays vs Detroit Tigers): favorable matchup vs. tonight's pitcher -- try Total Bases: 50% over 1.5 recently (vs. 10-game sample)
 - **Daulton Varsho** (Houston Astros vs New York Yankees): favorable matchup vs. tonight's pitcher -- try Hits: 60% over 0.5 recently (vs. 10-game sample)
 - **Isaac Collins** (Kansas City Royals vs Toronto Blue Jays): favorable matchup vs. tonight's pitcher -- try Hits: 40% over 0.5 recently (vs. 10-game sample)
 - **Kyle Isbel** (Kansas City Royals vs Toronto Blue Jays): favorable matchup vs. tonight's pitcher -- try Hits + Runs + RBIs: 60% over 1.5 recently (vs. 10-game sample)
@@ -53,9 +53,9 @@ _Generated 2026-08-25T18:45:08.903636+00:00_
 - **Michael King** (San Diego Padres vs Pittsburgh Pirates): 4 hitters in tonight's lineup are in a tough matchup against him -- try Walks Allowed: 80% under 2.5 recently (vs. 5-game sample)
 - **Brandon Pfaadt** (Arizona Diamondbacks vs Chicago Cubs): 4 hitters in tonight's lineup are in a tough matchup against him -- try Runs Allowed: 80% under 1.5 recently (vs. 5-game sample)
 
-## 2026-08-25 - Boston Red Sox @ Miami Marlins (Scheduled)
+## 2026-08-25 - Boston Red Sox @ Miami Marlins (Pre-Game)
 _loanDepot park [pitcher-friendly park]_
-Projected score: Boston Red Sox 4.07 - Miami Marlins 2.59
+Projected score: Boston Red Sox 4.07 - Miami Marlins 2.61
 Model likes: **Boston Red Sox** to win (65%) | Run line: **Miami Marlins** +1.5 (53% to cover) | Total 6.5: lean **UNDER** (54%)
 
 ### Boston Red Sox lineup -- PROJECTED (unconfirmed)
@@ -71,17 +71,17 @@ _Facing a taxed bullpen: 6.3 relief IP in last 2 days (ratio 1.2)_
 - Adley Rutschman (S) -- L7: 5H 1HR 4RBI 9TB (0.208 avg) -- away split: 0.200 avg
 - Eli White (R) -- L7: 3H 0HR 2RBI 3TB (0.231 avg) -- away split: 0.293 avg
 
-### Miami Marlins lineup -- PROJECTED (unconfirmed)
+### Miami Marlins lineup -- CONFIRMED
 **Probable P: Tyler Phillips (R)** [BULLPEN GAME: short-outing arm, no reliable individual matchup below] -- L5: 21.3 IP, 21 K, 10 ER, 4.22 ERA
-- Jakob Marsee (L) -- L7: 4H 1HR 1RBI 9TB (0.211 avg) -- home split: 0.225 avg
-- Javier Sanoja (R) -- L7: 9H 1HR 5RBI 14TB (0.346 avg) -- home split: 0.274 avg
-- Otto Lopez (R) -- L7: 7H 0HR 6RBI 8TB (0.292 avg) -- home split: 0.312 avg
-- Xavier Edwards (S) [3-game hit streak] -- L7: 8H 0HR 4RBI 8TB (0.286 avg) -- home split: 0.280 avg
-- Griffin Conine (L) -- L7: 4H 1HR 2RBI 7TB (0.174 avg) -- home split: 0.315 avg
-- Heriberto Hernández (R) [3-game hit streak] -- L7: 6H 1HR 3RBI 10TB (0.240 avg) -- home split: 0.236 avg
-- Owen Caissie (L) [3-game hit streak] -- L7: 4H 0HR 0RBI 6TB (0.222 avg) -- home split: 0.273 avg
-- Agustín Ramírez (R) -- L7: 5H 0HR 2RBI 7TB (0.238 avg) -- home split: 0.224 avg
-- Esteury Ruiz (R) -- L7: 3H 0HR 0RBI 3TB (0.176 avg) -- home split: 0.219 avg
+- #1 Otto Lopez (R) -- L7: 7H 0HR 6RBI 8TB (0.292 avg) -- home split: 0.312 avg
+- #2 Heriberto Hernández (R) [3-game hit streak] -- L7: 6H 1HR 3RBI 10TB (0.240 avg) -- home split: 0.236 avg
+- #3 Agustín Ramírez (R) -- L7: 5H 0HR 2RBI 7TB (0.238 avg) -- home split: 0.224 avg
+- #4 Javier Sanoja (R) -- L7: 9H 1HR 5RBI 14TB (0.346 avg) -- home split: 0.274 avg
+- #5 Xavier Edwards (S) [3-game hit streak] -- L7: 8H 0HR 4RBI 8TB (0.286 avg) -- home split: 0.280 avg
+- #6 Leo Jiménez (R) -- L7: 3H 0HR 0RBI 3TB (0.214 avg) -- home split: 0.175 avg
+- #7 Griffin Conine (L) -- L7: 4H 1HR 2RBI 7TB (0.174 avg) -- home split: 0.315 avg
+- #8 Esteury Ruiz (R) -- L7: 3H 0HR 0RBI 3TB (0.176 avg) -- home split: 0.219 avg
+- #9 Brian Navarreto (R) -- L7: 2H 1HR 1RBI 5TB (0.143 avg) -- home split: 0.000 avg
 
 ## 2026-08-25 - Tampa Bay Rays @ Detroit Tigers (Scheduled)
 _Comerica Park [pitcher-friendly park]_
@@ -94,7 +94,7 @@ _Facing a taxed bullpen: 9.7 relief IP in last 2 days (ratio 1.93)_
 - Junior Caminero (R) [8-game hit streak] -- L7: 9H 0HR 5RBI 11TB (0.333 avg) -- away split: 0.266 avg
 - Jonathan Aranda (L) [MATCHUP EDGE: pitcher hits 0.265 avg-against vs this hand] -- L7: 4H 1HR 2RBI 7TB (0.160 avg) -- away split: 0.268 avg
 - Yandy Díaz (R) [3-game hit streak] -- L7: 9H 1HR 2RBI 12TB (0.321 avg) -- away split: 0.262 avg
-- Chandler Simpson (L) [MATCHUP EDGE: pitcher hits 0.265 avg-against vs this hand] [15-game hit streak] -- L7: 10H 0HR 4RBI 10TB (0.357 avg) -- away split: 0.329 avg
+- Chandler Simpson (L) [MATCHUP EDGE: pitcher hits 0.265 avg-against vs this hand] [4-game hit streak] -- L7: 9H 0HR 4RBI 9TB (0.321 avg) -- away split: 0.329 avg
 - Taylor Walls (S) [MATCHUP EDGE: pitcher hits 0.265 avg-against vs this hand] -- L7: 3H 0HR 3RBI 3TB (0.143 avg) -- away split: 0.201 avg
 - Cedric Mullins (L) [MATCHUP EDGE: pitcher hits 0.265 avg-against vs this hand] -- L7: 2H 0HR 1RBI 3TB (0.125 avg) -- away split: 0.205 avg
 - Richie Palacios (L) [MATCHUP EDGE: pitcher hits 0.265 avg-against vs this hand] -- L7: 3H 0HR 3RBI 4TB (0.136 avg) -- away split: 0.236 avg -- news: Richie Palacios’ Players' Weekend cleats came straight from ... Lisa Simpson?
@@ -113,7 +113,7 @@ _Facing a taxed bullpen: 9.7 relief IP in last 2 days (ratio 1.93)_
 - Hao-Yu Lee (R) [likely BABIP-driven, not a real power uptick] -- L7: 8H 1HR 4RBI 12TB (0.381 avg) -- home split: 0.248 avg -- news: Hao-Yu Lee sets single-season record for hits by a player born in Taiwan
 - Ben Malgeri (R) -- L7: 1H 0HR 1RBI 1TB (0.077 avg) -- home split: 0.286 avg
 
-## 2026-08-25 - Colorado Rockies @ Washington Nationals (Scheduled)
+## 2026-08-25 - Colorado Rockies @ Washington Nationals (Pre-Game)
 _Nationals Park_
 Projected score: Colorado Rockies 3.96 - Washington Nationals 6.67
 Model likes: **Washington Nationals** to win (69%) | Run line: **Washington Nationals** -1.5 (57% to cover) | Total 9.5: lean **OVER** (53%)
@@ -232,7 +232,7 @@ _Facing a rested bullpen: 4.0 relief IP in last 2 days (ratio 0.66)_
 - Francisco Alvarez (R) -- L7: 2H 0HR 1RBI 3TB (0.083 avg) -- home split: 0.217 avg
 - Brett Baty (L) -- L7: 4H 0HR 2RBI 6TB (0.250 avg) -- home split: 0.225 avg
 
-## 2026-08-25 - Los Angeles Dodgers @ Atlanta Braves (Scheduled)
+## 2026-08-25 - Los Angeles Dodgers @ Atlanta Braves (Pre-Game)
 _Truist Park_
 Projected score: Los Angeles Dodgers 4.05 - Atlanta Braves 3.95
 Model likes: **Los Angeles Dodgers** to win (51%) | Run line: **Atlanta Braves** +1.5 (65% to cover) | Total 7.5: lean **UNDER** (51%)
@@ -264,7 +264,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.56)_
 
 ## 2026-08-25 - Texas Rangers @ Chicago White Sox (Scheduled)
 _Rate Field_
-Projected score: Texas Rangers 3.58 - Chicago White Sox 4.07
+Projected score: Texas Rangers 3.58 - Chicago White Sox 4.06
 Model likes: **Chicago White Sox** to win (55%) | Run line: **Texas Rangers** +1.5 (62% to cover) | Total 7.5: lean **UNDER** (54%)
 
 ### Texas Rangers lineup -- PROJECTED (unconfirmed)
@@ -517,7 +517,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.6)_
 - Junior Caminero (R) [TOUGH MATCHUP: pitcher holds this hand to 0.178 avg-against] [8-game hit streak] -- L7: 9H 0HR 5RBI 11TB (0.333 avg) -- away split: 0.266 avg
 - Jonathan Aranda (L) -- L7: 4H 1HR 2RBI 7TB (0.160 avg) -- away split: 0.268 avg
 - Yandy Díaz (R) [TOUGH MATCHUP: pitcher holds this hand to 0.178 avg-against] [3-game hit streak] -- L7: 9H 1HR 2RBI 12TB (0.321 avg) -- away split: 0.262 avg
-- Chandler Simpson (L) [15-game hit streak] -- L7: 10H 0HR 4RBI 10TB (0.357 avg) -- away split: 0.329 avg
+- Chandler Simpson (L) [4-game hit streak] -- L7: 9H 0HR 4RBI 9TB (0.321 avg) -- away split: 0.329 avg
 - Taylor Walls (S) -- L7: 3H 0HR 3RBI 3TB (0.143 avg) -- away split: 0.201 avg
 - Cedric Mullins (L) -- L7: 2H 0HR 1RBI 3TB (0.125 avg) -- away split: 0.205 avg
 - Richie Palacios (L) -- L7: 3H 0HR 3RBI 4TB (0.136 avg) -- away split: 0.236 avg -- news: Richie Palacios’ Players' Weekend cleats came straight from ... Lisa Simpson?
@@ -571,7 +571,7 @@ _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.45)_
 ## 2026-08-26 - Cincinnati Reds @ San Francisco Giants (Scheduled)
 _Oracle Park [pitcher-friendly park]_
 Projected score: Cincinnati Reds 3.69 - San Francisco Giants 3.82
-Model likes: **San Francisco Giants** to win (51%) | Run line: **Cincinnati Reds** +1.5 (66% to cover) | Total 6.5: lean **OVER** (55%)
+Model likes: **San Francisco Giants** to win (51%) | Run line: **Cincinnati Reds** +1.5 (65% to cover) | Total 6.5: lean **OVER** (55%)
 
 ### Cincinnati Reds lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 6.3 relief IP in last 2 days (ratio 1.25)_
@@ -870,8 +870,8 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 
 ## 2026-08-26 - Texas Rangers @ Chicago White Sox (Scheduled)
 _Rate Field_
-Projected score: Texas Rangers 3.0 - Chicago White Sox 4.38
-Model likes: **Chicago White Sox** to win (63%) | Run line: **Texas Rangers** +1.5 (54% to cover) | Total 6.5: lean **OVER** (54%)
+Projected score: Texas Rangers 3.0 - Chicago White Sox 4.37
+Model likes: **Chicago White Sox** to win (63%) | Run line: **Texas Rangers** +1.5 (54% to cover) | Total 6.5: lean **OVER** (53%)
 
 ### Texas Rangers lineup -- PROJECTED (unconfirmed)
 **Probable P: MacKenzie Gore (L)** -- L5: 30.0 IP, 34 K, 7 ER, 2.1 ERA
@@ -1022,7 +1022,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-27 - Houston Astros @ New York Yankees (Scheduled)
 _Yankee Stadium [hitter-friendly park]_
 Projected score: Houston Astros 3.14 - New York Yankees 3.74
-Model likes: **New York Yankees** to win (56%) | Run line: **Houston Astros** +1.5 (62% to cover) | Total 6.5: lean **UNDER** (51%)
+Model likes: **New York Yankees** to win (56%) | Run line: **Houston Astros** +1.5 (62% to cover) | Total 6.5: lean **UNDER** (52%)
 
 ### Houston Astros lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
