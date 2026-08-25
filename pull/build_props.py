@@ -2394,14 +2394,34 @@ def run(days_ahead=2, write_archive=True):
     import sync_bets_firestore
 
     bet_conn = get_conn()
-    sync_bets_firestore.regrade_all_pending(bet_conn)
-    # Self-heals a leg that already (wrongly) resolved against a stat line
-    # that hadn't finished syncing yet when the game's own status flipped
-    # to Final -- see regrade_recent()'s own docstring for the confirmed
-    # real case. regrade_all_pending() above can never catch this on its
-    # own, since it only ever looks at bets still sitting at "pending".
-    sync_bets_firestore.regrade_recent(bet_conn)
-    bet_conn.close()
+    try:
+        sync_bets_firestore.regrade_all_pending(bet_conn)
+        # Self-heals a leg that already (wrongly) resolved against a stat
+        # line that hadn't finished syncing yet when the game's own status
+        # flipped to Final -- see regrade_recent()'s own docstring for the
+        # confirmed real case. regrade_all_pending() above can never catch
+        # this on its own, since it only ever looks at bets still sitting
+        # at "pending".
+        sync_bets_firestore.regrade_recent(bet_conn)
+    except Exception as e:
+        # _get_firestore_client() already no-ops when FIREBASE_SERVICE_ACCOUNT
+        # isn't set, but that only guards missing credentials -- it does
+        # nothing once the client exists and an actual API call fails (bad
+        # permissions, a deleted/misconfigured database, a transient
+        # outage). Confirmed a real incident from exactly this gap: every
+        # hourly/quick-refresh run failed for ~16 hours straight starting
+        # 2026-08-24 21:57 UTC because the configured Firebase project's
+        # "(default)" Firestore database started returning
+        # INVALID_ARGUMENT on every query, and this call wasn't wrapped --
+        # since build_props.py deliberately has no continue-on-error in the
+        # workflow (a real build failure should be loud), the entire site
+        # stopped updating instead of just skipping bet grading for that
+        # run. The bet tracker is optional (see sync_bets_firestore.py's
+        # own module docstring); a problem in it must never take the
+        # props/dashboard build down with it.
+        print(f"::warning::Bet tracker sync failed, skipping ({type(e).__name__}: {e})")
+    finally:
+        bet_conn.close()
 
     print(f"Wrote report for {len(report['games'])} games to {json_path}, {md_path}, {html_path}")
 
