@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-25T21:40:56.761800+00:00_
+_Generated 2026-08-25T21:46:21.346491+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -144,7 +144,7 @@ _Facing a taxed bullpen: 7.3 relief IP in last 2 days (ratio 1.26)_
 ## 2026-08-25 - Houston Astros @ New York Yankees (Pre-Game)
 _Yankee Stadium [hitter-friendly park]_
 Projected score: Houston Astros 3.95 - New York Yankees 4.71
-Model likes: **New York Yankees** to win (56%) | Run line: **Houston Astros** +1.5 (59% to cover) | Total 8.5: lean **UNDER** (54%)
+Model likes: **New York Yankees** to win (57%) | Run line: **Houston Astros** +1.5 (59% to cover) | Total 8.5: lean **UNDER** (54%)
 
 ### Houston Astros lineup -- CONFIRMED
 **Probable P: Ethan Pecko (R)** -- L5: 3.7 IP, 4 K, 2 ER, 4.91 ERA
@@ -325,7 +325,7 @@ _Facing a rested bullpen: 3.3 relief IP in last 2 days (ratio 0.64)_
 ## 2026-08-25 - Cleveland Guardians @ Los Angeles Angels (Pre-Game)
 _Angel Stadium_
 Projected score: Cleveland Guardians 2.99 - Los Angeles Angels 3.32
-Model likes: **Los Angeles Angels** to win (54%) | Run line: **Cleveland Guardians** +1.5 (66% to cover) | Total 5.5: lean **OVER** (54%)
+Model likes: **Los Angeles Angels** to win (54%) | Run line: **Cleveland Guardians** +1.5 (65% to cover) | Total 5.5: lean **OVER** (54%)
 
 ### Cleveland Guardians lineup -- PROJECTED (unconfirmed)
 **Probable P: Gavin Williams (R)** -- L5: 28.3 IP, 45 K, 11 ER, 3.49 ERA
@@ -476,7 +476,7 @@ _Facing a taxed bullpen: 8.0 relief IP in last 2 days (ratio 1.8)_
 - Jorge Barrosa (S) -- L7: 0H 0HR 0RBI 0TB (0.000 avg) -- home split: 0.191 avg
 - Lars Nootbaar (L) -- L7: 5H 1HR 4RBI 9TB (0.238 avg) -- home split: 0.234 avg
 
-## 2026-08-25 - Cincinnati Reds @ San Francisco Giants (Scheduled)
+## 2026-08-25 - Cincinnati Reds @ San Francisco Giants (Pre-Game)
 _Oracle Park [pitcher-friendly park]_
 Projected score: Cincinnati Reds 3.59 - San Francisco Giants 3.71
 Model likes: **San Francisco Giants** to win (51%) | Run line: **Cincinnati Reds** +1.5 (66% to cover) | Total 6.5: lean **OVER** (53%)
@@ -871,7 +871,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-26 - Texas Rangers @ Chicago White Sox (Scheduled)
 _Rate Field_
 Projected score: Texas Rangers 3.0 - Chicago White Sox 4.37
-Model likes: **Chicago White Sox** to win (63%) | Run line: **Texas Rangers** +1.5 (54% to cover) | Total 6.5: lean **OVER** (53%)
+Model likes: **Chicago White Sox** to win (63%) | Run line: **Texas Rangers** +1.5 (54% to cover) | Total 6.5: lean **OVER** (54%)
 
 ### Texas Rangers lineup -- PROJECTED (unconfirmed)
 **Probable P: MacKenzie Gore (L)** -- L5: 30.0 IP, 34 K, 7 ER, 2.1 ERA
@@ -1022,7 +1022,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-27 - Houston Astros @ New York Yankees (Scheduled)
 _Yankee Stadium [hitter-friendly park]_
 Projected score: Houston Astros 3.14 - New York Yankees 3.74
-Model likes: **New York Yankees** to win (56%) | Run line: **Houston Astros** +1.5 (62% to cover) | Total 6.5: lean **UNDER** (52%)
+Model likes: **New York Yankees** to win (56%) | Run line: **Houston Astros** +1.5 (62% to cover) | Total 6.5: lean **UNDER** (51%)
 
 ### Houston Astros lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
