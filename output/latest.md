@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-25T21:46:21.346491+00:00_
+_Generated 2026-08-25T22:03:26.597645+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -144,7 +144,7 @@ _Facing a taxed bullpen: 7.3 relief IP in last 2 days (ratio 1.26)_
 ## 2026-08-25 - Houston Astros @ New York Yankees (Pre-Game)
 _Yankee Stadium [hitter-friendly park]_
 Projected score: Houston Astros 3.95 - New York Yankees 4.71
-Model likes: **New York Yankees** to win (57%) | Run line: **Houston Astros** +1.5 (59% to cover) | Total 8.5: lean **UNDER** (54%)
+Model likes: **New York Yankees** to win (56%) | Run line: **Houston Astros** +1.5 (59% to cover) | Total 8.5: lean **UNDER** (54%)
 
 ### Houston Astros lineup -- CONFIRMED
 **Probable P: Ethan Pecko (R)** -- L5: 3.7 IP, 4 K, 2 ER, 4.91 ERA
@@ -234,7 +234,7 @@ _Facing a rested bullpen: 4.0 relief IP in last 2 days (ratio 0.66)_
 ## 2026-08-25 - Los Angeles Dodgers @ Atlanta Braves (Pre-Game)
 _Truist Park_
 Projected score: Los Angeles Dodgers 4.21 - Atlanta Braves 4.19
-Model likes: **Atlanta Braves** to win (50%) | Run line: **Los Angeles Dodgers** +1.5 (65% to cover) | Total 7.5: lean **OVER** (53%)
+Model likes: **Los Angeles Dodgers** to win (50%) | Run line: **Atlanta Braves** +1.5 (65% to cover) | Total 7.5: lean **OVER** (53%)
 
 ### Los Angeles Dodgers lineup -- CONFIRMED
 **Probable P: Tyler Glasnow (R)** -- L5: no data
@@ -416,8 +416,8 @@ _Facing a taxed bullpen: 12.0 relief IP in last 2 days (ratio 1.89)_
 
 ## 2026-08-25 - Minnesota Twins @ Athletics (Pre-Game)
 _Sutter Health Park_
-Projected score: Minnesota Twins 5.46 - Athletics 4.29
-Model likes: **Minnesota Twins** to win (59%) | Run line: **Athletics** +1.5 (55% to cover) | Total 9.5: lean **UNDER** (54%)
+Projected score: Minnesota Twins 5.46 - Athletics 4.12
+Model likes: **Minnesota Twins** to win (60%) | Run line: **Athletics** +1.5 (54% to cover) | Total 8.5: lean **OVER** (54%)
 
 ### Minnesota Twins lineup -- CONFIRMED
 _Facing a taxed bullpen: 12.3 relief IP in last 2 days (ratio 2.44)_
@@ -432,18 +432,18 @@ _Facing a taxed bullpen: 12.3 relief IP in last 2 days (ratio 2.44)_
 - #8 Victor Caratini (S) [MATCHUP EDGE: pitcher hits 0.274 avg-against vs this hand] -- L7: 4H 0HR 1RBI 4TB (0.182 avg) -- away split: 0.188 avg
 - #9 Ryan Kreidler (R) [MATCHUP EDGE: pitcher hits 0.274 avg-against vs this hand] -- L7: 1H 1HR 1RBI 4TB (0.200 avg) -- away split: 0.204 avg
 
-### Athletics lineup -- PROJECTED (unconfirmed)
+### Athletics lineup -- CONFIRMED
 _Facing a taxed bullpen: 5.0 relief IP in last 2 days (ratio 1.22)_
 **Probable P: Gage Jump (L)** -- L5: 25.0 IP, 27 K, 16 ER, 5.76 ERA
-- Henry Bolte (R) [likely BABIP-driven, not a real power uptick] -- L7: 10H 0HR 1RBI 11TB (0.357 avg) -- home split: 0.325 avg
-- Lawrence Butler (L) [3-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 10H 0HR 4RBI 12TB (0.417 avg) -- home split: 0.250 avg
-- Zack Gelof (R) -- L7: 3H 0HR 3RBI 4TB (0.115 avg) -- home split: 0.314 avg
-- Donovan Walton (L) -- L7: 6H 1HR 2RBI 10TB (0.286 avg) -- home split: 0.224 avg
-- Tommy White (R) -- L7: 6H 1HR 5RBI 10TB (0.214 avg) -- home split: 0.241 avg
-- Max Muncy (R) [3-game hit streak] -- L7: 5H 2HR 4RBI 11TB (0.217 avg) -- home split: 0.221 avg
-- Carlos Cortes (L) -- L7: 5H 0HR 0RBI 5TB (0.227 avg) -- home split: 0.226 avg
-- Jeff McNeil (L) [3-game hit streak] -- L7: 11H 1HR 6RBI 16TB (0.355 avg) -- home split: 0.278 avg
-- Jonah Heim (S) -- L7: 1H 0HR 1RBI 1TB (0.048 avg) -- home split: 0.234 avg
+- #1 Henry Bolte (R) [likely BABIP-driven, not a real power uptick] -- L7: 10H 0HR 1RBI 11TB (0.357 avg) -- home split: 0.325 avg
+- #2 Jeff McNeil (L) [3-game hit streak] -- L7: 11H 1HR 6RBI 16TB (0.355 avg) -- home split: 0.278 avg
+- #3 Zack Gelof (R) -- L7: 3H 0HR 3RBI 4TB (0.115 avg) -- home split: 0.314 avg
+- #4 Lawrence Butler (L) [3-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 10H 0HR 4RBI 12TB (0.417 avg) -- home split: 0.250 avg
+- #5 Tommy White (R) -- L7: 6H 1HR 5RBI 10TB (0.214 avg) -- home split: 0.241 avg
+- #6 Donovan Walton (L) -- L7: 6H 1HR 2RBI 10TB (0.286 avg) -- home split: 0.224 avg
+- #7 Alika Williams (R) -- L7: 4H 0HR 0RBI 6TB (0.235 avg) -- home split: 0.325 avg
+- #8 Carlos Cortes (L) -- L7: 5H 0HR 0RBI 5TB (0.227 avg) -- home split: 0.226 avg
+- #9 Brian Serven (R) [4-game hit streak] -- L7: 6H 2HR 7RBI 12TB (0.222 avg) -- home split: 0.200 avg
 
 ## 2026-08-25 - Chicago Cubs @ Arizona Diamondbacks (Scheduled)
 _Chase Field [hitter-friendly park]_
@@ -478,21 +478,21 @@ _Facing a taxed bullpen: 8.0 relief IP in last 2 days (ratio 1.8)_
 
 ## 2026-08-25 - Cincinnati Reds @ San Francisco Giants (Pre-Game)
 _Oracle Park [pitcher-friendly park]_
-Projected score: Cincinnati Reds 3.59 - San Francisco Giants 3.71
-Model likes: **San Francisco Giants** to win (51%) | Run line: **Cincinnati Reds** +1.5 (66% to cover) | Total 6.5: lean **OVER** (53%)
+Projected score: Cincinnati Reds 3.8 - San Francisco Giants 3.71
+Model likes: **Cincinnati Reds** to win (51%) | Run line: **San Francisco Giants** +1.5 (66% to cover) | Total 6.5: lean **OVER** (55%)
 
-### Cincinnati Reds lineup -- PROJECTED (unconfirmed)
+### Cincinnati Reds lineup -- CONFIRMED
 _Facing a taxed bullpen: 10.7 relief IP in last 2 days (ratio 2.1)_
 **Probable P: Brady Singer (R)** -- L5: 28.3 IP, 19 K, 17 ER, 5.4 ERA
-- Sal Stewart (R) [9-game hit streak] -- L7: 10H 1HR 7RBI 13TB (0.333 avg) -- away split: 0.269 avg
-- Elly De La Cruz (S) [MATCHUP EDGE: pitcher hits 0.280 avg-against vs this hand] [3-game hit streak] -- L7: 8H 1HR 1RBI 13TB (0.267 avg) -- away split: 0.237 avg
-- Matt McLain (R) -- L7: 5H 2HR 6RBI 12TB (0.200 avg) -- away split: 0.199 avg
-- JJ Bleday (L) [MATCHUP EDGE: pitcher hits 0.280 avg-against vs this hand] -- L7: 5H 1HR 4RBI 11TB (0.185 avg) -- away split: 0.199 avg
-- Eugenio Suárez (R) -- L7: 3H 0HR 3RBI 3TB (0.167 avg) -- away split: 0.208 avg
-- Dane Myers (R) -- L7: 5H 0HR 1RBI 6TB (0.192 avg) -- away split: 0.243 avg
-- Tyler Stephenson (R) [3-game hit streak] -- L7: 5H 0HR 4RBI 6TB (0.200 avg) -- away split: 0.293 avg
-- Ke'Bryan Hayes (R) -- L7: 3H 0HR 0RBI 3TB (0.200 avg) -- away split: 0.147 avg
-- Héctor Rodríguez (L) [MATCHUP EDGE: pitcher hits 0.280 avg-against vs this hand] [3-game hit streak] -- L7: 5H 1HR 3RBI 9TB (0.217 avg) -- away split: 0.200 avg
+- #1 Elly De La Cruz (S) [MATCHUP EDGE: pitcher hits 0.280 avg-against vs this hand] [3-game hit streak] -- L7: 8H 1HR 1RBI 13TB (0.267 avg) -- away split: 0.237 avg
+- #2 Sal Stewart (R) [9-game hit streak] -- L7: 10H 1HR 7RBI 13TB (0.333 avg) -- away split: 0.269 avg
+- #3 JJ Bleday (L) [MATCHUP EDGE: pitcher hits 0.280 avg-against vs this hand] -- L7: 5H 1HR 4RBI 11TB (0.185 avg) -- away split: 0.199 avg
+- #4 Tyler Stephenson (R) [3-game hit streak] -- L7: 5H 0HR 4RBI 6TB (0.200 avg) -- away split: 0.293 avg
+- #5 Eugenio Suárez (R) -- L7: 3H 0HR 3RBI 3TB (0.167 avg) -- away split: 0.208 avg
+- #6 Matt McLain (R) -- L7: 5H 2HR 6RBI 12TB (0.200 avg) -- away split: 0.199 avg
+- #7 Héctor Rodríguez (L) [MATCHUP EDGE: pitcher hits 0.280 avg-against vs this hand] [3-game hit streak] -- L7: 5H 1HR 3RBI 9TB (0.217 avg) -- away split: 0.200 avg
+- #8 Ke'Bryan Hayes (R) -- L7: 3H 0HR 0RBI 3TB (0.200 avg) -- away split: 0.147 avg
+- #9 TJ Friedl (L) [MATCHUP EDGE: pitcher hits 0.280 avg-against vs this hand] -- L7: 1H 0HR 0RBI 1TB (0.083 avg) -- away split: 0.184 avg
 
 ### San Francisco Giants lineup -- PROJECTED (unconfirmed)
 **Probable P: Adrian Houser (R)** -- L5: 21.0 IP, 15 K, 2 ER, 0.86 ERA
@@ -1115,7 +1115,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-27 - Los Angeles Dodgers @ Atlanta Braves (Scheduled)
 _Truist Park_
 Projected score: Los Angeles Dodgers 2.92 - Atlanta Braves 2.92
-Model likes: **Atlanta Braves** to win (50%) | Run line: **Los Angeles Dodgers** +1.5 (70% to cover) | Total 5.5: lean **UNDER** (51%)
+Model likes: **Los Angeles Dodgers** to win (50%) | Run line: **Atlanta Braves** +1.5 (70% to cover) | Total 5.5: lean **UNDER** (51%)
 
 ### Los Angeles Dodgers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
