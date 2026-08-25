@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-25T17:57:23.725213+00:00_
+_Generated 2026-08-25T18:45:08.903636+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -55,8 +55,8 @@ _Generated 2026-08-25T17:57:23.725213+00:00_
 
 ## 2026-08-25 - Boston Red Sox @ Miami Marlins (Scheduled)
 _loanDepot park [pitcher-friendly park]_
-Projected score: Boston Red Sox 3.89 - Miami Marlins 2.59
-Model likes: **Boston Red Sox** to win (64%) | Run line: **Miami Marlins** +1.5 (55% to cover) | Total 5.5: lean **OVER** (56%)
+Projected score: Boston Red Sox 4.07 - Miami Marlins 2.59
+Model likes: **Boston Red Sox** to win (65%) | Run line: **Miami Marlins** +1.5 (53% to cover) | Total 6.5: lean **UNDER** (54%)
 
 ### Boston Red Sox lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 6.3 relief IP in last 2 days (ratio 1.2)_
@@ -72,6 +72,7 @@ _Facing a taxed bullpen: 6.3 relief IP in last 2 days (ratio 1.2)_
 - Eli White (R) -- L7: 3H 0HR 2RBI 3TB (0.231 avg) -- away split: 0.293 avg
 
 ### Miami Marlins lineup -- PROJECTED (unconfirmed)
+**Probable P: Tyler Phillips (R)** [BULLPEN GAME: short-outing arm, no reliable individual matchup below] -- L5: 21.3 IP, 21 K, 10 ER, 4.22 ERA
 - Jakob Marsee (L) -- L7: 4H 1HR 1RBI 9TB (0.211 avg) -- home split: 0.225 avg
 - Javier Sanoja (R) -- L7: 9H 1HR 5RBI 14TB (0.346 avg) -- home split: 0.274 avg
 - Otto Lopez (R) -- L7: 7H 0HR 6RBI 8TB (0.292 avg) -- home split: 0.312 avg
@@ -416,7 +417,7 @@ _Facing a taxed bullpen: 12.0 relief IP in last 2 days (ratio 1.89)_
 ## 2026-08-25 - Minnesota Twins @ Athletics (Scheduled)
 _Sutter Health Park_
 Projected score: Minnesota Twins 5.62 - Athletics 4.29
-Model likes: **Minnesota Twins** to win (60%) | Run line: **Athletics** +1.5 (54% to cover) | Total 9.5: lean **UNDER** (52%)
+Model likes: **Minnesota Twins** to win (60%) | Run line: **Athletics** +1.5 (53% to cover) | Total 9.5: lean **UNDER** (52%)
 
 ### Minnesota Twins lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 12.3 relief IP in last 2 days (ratio 2.44)_
@@ -539,7 +540,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.5)_
 ## 2026-08-26 - Chicago Cubs @ Arizona Diamondbacks (Scheduled)
 _Chase Field [hitter-friendly park]_
 Projected score: Chicago Cubs 4.39 - Arizona Diamondbacks 4.66
-Model likes: **Arizona Diamondbacks** to win (52%) | Run line: **Chicago Cubs** +1.5 (62% to cover) | Total 8.5: lean **UNDER** (50%)
+Model likes: **Arizona Diamondbacks** to win (52%) | Run line: **Chicago Cubs** +1.5 (62% to cover) | Total 8.5: lean **UNDER** (51%)
 
 ### Chicago Cubs lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.3 relief IP in last 2 days (ratio 0.59)_
@@ -570,7 +571,7 @@ _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.45)_
 ## 2026-08-26 - Cincinnati Reds @ San Francisco Giants (Scheduled)
 _Oracle Park [pitcher-friendly park]_
 Projected score: Cincinnati Reds 3.69 - San Francisco Giants 3.82
-Model likes: **San Francisco Giants** to win (51%) | Run line: **Cincinnati Reds** +1.5 (65% to cover) | Total 6.5: lean **OVER** (55%)
+Model likes: **San Francisco Giants** to win (51%) | Run line: **Cincinnati Reds** +1.5 (66% to cover) | Total 6.5: lean **OVER** (55%)
 
 ### Cincinnati Reds lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 6.3 relief IP in last 2 days (ratio 1.25)_
@@ -777,8 +778,8 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 
 ## 2026-08-26 - Kansas City Royals @ Toronto Blue Jays (Scheduled)
 _Rogers Centre_
-Projected score: Kansas City Royals 3.5 - Toronto Blue Jays 2.37
-Model likes: **Kansas City Royals** to win (63%) | Run line: **Toronto Blue Jays** +1.5 (57% to cover) | Total 5.5: lean **UNDER** (51%)
+Projected score: Kansas City Royals 3.76 - Toronto Blue Jays 2.37
+Model likes: **Kansas City Royals** to win (65%) | Run line: **Toronto Blue Jays** +1.5 (54% to cover) | Total 5.5: lean **OVER** (52%)
 
 ### Kansas City Royals lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -795,7 +796,6 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 
 ### Toronto Blue Jays lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
-**Probable P: Shane Bieber (R)** -- L5: 25.0 IP, 22 K, 12 ER, 4.32 ERA
 - Myles Straw (R) -- L7: 3H 0HR 0RBI 6TB (0.176 avg) -- home split: 0.208 avg
 - Ernie Clement (R) -- L7: 9H 0HR 1RBI 10TB (0.346 avg) -- home split: 0.290 avg
 - Nathan Lukes (L) -- L7: 5H 2HR 5RBI 11TB (0.208 avg) -- home split: 0.237 avg
@@ -1114,7 +1114,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-27 - Los Angeles Dodgers @ Atlanta Braves (Scheduled)
 _Truist Park_
 Projected score: Los Angeles Dodgers 2.92 - Atlanta Braves 2.92
-Model likes: **Los Angeles Dodgers** to win (50%) | Run line: **Atlanta Braves** +1.5 (70% to cover) | Total 5.5: lean **UNDER** (51%)
+Model likes: **Atlanta Braves** to win (50%) | Run line: **Los Angeles Dodgers** +1.5 (70% to cover) | Total 5.5: lean **UNDER** (52%)
 
 ### Los Angeles Dodgers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
