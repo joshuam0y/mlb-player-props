@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-26T07:12:51.345088+00:00_
+_Generated 2026-08-26T08:01:01.181472+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -709,7 +709,7 @@ _Facing a rested bullpen: 2.3 relief IP in last 2 days (ratio 0.41)_
 ## 2026-08-28 - Cincinnati Reds @ Chicago Cubs (Scheduled)
 _Wrigley Field_
 Projected score: Cincinnati Reds 3.77 - Chicago Cubs 5.62
-Model likes: **Chicago Cubs** to win (65%) | Run line: **Chicago Cubs** -1.5 (51% to cover) | Total 8.5: lean **OVER** (52%)
+Model likes: **Chicago Cubs** to win (65%) | Run line: **Chicago Cubs** -1.5 (50% to cover) | Total 8.5: lean **OVER** (52%)
 
 ### Cincinnati Reds lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -916,7 +916,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-28 - Boston Red Sox @ New York Yankees (Scheduled)
 _Yankee Stadium [hitter-friendly park]_
 Projected score: Boston Red Sox 4.43 - New York Yankees 4.02
-Model likes: **Boston Red Sox** to win (54%) | Run line: **New York Yankees** +1.5 (62% to cover) | Total 7.5: lean **OVER** (53%)
+Model likes: **Boston Red Sox** to win (53%) | Run line: **New York Yankees** +1.5 (62% to cover) | Total 7.5: lean **OVER** (53%)
 
 ### Boston Red Sox lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -975,7 +975,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-28 - Texas Rangers @ Milwaukee Brewers (Scheduled)
 _American Family Field_
 Projected score: Texas Rangers 3.03 - Milwaukee Brewers 4.97
-Model likes: **Milwaukee Brewers** to win (67%) | Run line: **Milwaukee Brewers** -1.5 (51% to cover) | Total 7.5: lean **UNDER** (51%)
+Model likes: **Milwaukee Brewers** to win (67%) | Run line: **Milwaukee Brewers** -1.5 (52% to cover) | Total 7.5: lean **UNDER** (51%)
 
 ### Texas Rangers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1091,7 +1091,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-28 - Baltimore Orioles @ Athletics (Scheduled)
 _Sutter Health Park_
 Projected score: Baltimore Orioles 6.86 - Athletics 4.89
-Model likes: **Baltimore Orioles** to win (63%) | Run line: **Baltimore Orioles** -1.5 (51% to cover) | Total 11.5: lean **UNDER** (54%)
+Model likes: **Baltimore Orioles** to win (63%) | Run line: **Baltimore Orioles** -1.5 (51% to cover) | Total 10.5: lean **OVER** (53%)
 
 ### Baltimore Orioles lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
