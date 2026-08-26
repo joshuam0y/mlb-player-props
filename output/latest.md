@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-26T10:33:23.320924+00:00_
+_Generated 2026-08-26T10:52:33.832016+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -160,7 +160,7 @@ _Facing a taxed bullpen: 11.7 relief IP in last 2 days (ratio 2.25)_
 - Denzer Guzman (R) [MATCHUP EDGE: pitcher hits 0.262 avg-against vs this hand] -- L7: 4H 1HR 6RBI 10TB (0.174 avg) -- home split: 0.210 avg
 - Jose Siri (R) [MATCHUP EDGE: pitcher hits 0.262 avg-against vs this hand] -- L7: 3H 0HR 0RBI 3TB (0.167 avg) -- home split: 0.202 avg
 - Mike Trout (R) [MATCHUP EDGE: pitcher hits 0.262 avg-against vs this hand] [4-game hit streak] -- L7: 7H 0HR 1RBI 10TB (0.280 avg) -- home split: 0.232 avg
-- Moisés Ballesteros (L) -- L7: 7H 0HR 4RBI 10TB (0.269 avg) -- home split: 0.214 avg
+- Moisés Ballesteros (L) -- L7: 7H 0HR 4RBI 10TB (0.226 avg) -- home split: 0.204 avg
 - Zach Neto (R) [MATCHUP EDGE: pitcher hits 0.262 avg-against vs this hand] [8-game hit streak] -- L7: 14H 2HR 9RBI 25TB (0.424 avg) -- home split: 0.209 avg
 - Vaughn Grissom (R) [MATCHUP EDGE: pitcher hits 0.262 avg-against vs this hand] -- L7: 7H 2HR 7RBI 15TB (0.259 avg) -- home split: 0.225 avg
 - Josh Lowe (L) [likely BABIP-driven, not a real power uptick] -- L7: 7H 0HR 1RBI 8TB (0.333 avg) -- home split: 0.206 avg
@@ -199,7 +199,7 @@ Model likes: **Philadelphia Phillies** to win (62%) | Run line: **Seattle Marine
 ## 2026-08-26 - Pittsburgh Pirates @ San Diego Padres (Scheduled)
 _Petco Park [pitcher-friendly park]_
 Projected score: Pittsburgh Pirates 3.74 - San Diego Padres 3.89
-Model likes: **San Diego Padres** to win (52%) | Run line: **Pittsburgh Pirates** +1.5 (65% to cover) | Total 7.5: lean **UNDER** (54%)
+Model likes: **San Diego Padres** to win (51%) | Run line: **Pittsburgh Pirates** +1.5 (65% to cover) | Total 7.5: lean **UNDER** (54%)
 
 ### Pittsburgh Pirates lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 8.7 relief IP in last 2 days (ratio 1.35)_
@@ -887,7 +887,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-28 - Seattle Mariners @ Toronto Blue Jays (Scheduled)
 _Rogers Centre_
 Projected score: Seattle Mariners 2.35 - Toronto Blue Jays 4.71
-Model likes: **Toronto Blue Jays** to win (73%) | Run line: **Toronto Blue Jays** -1.5 (56% to cover) | Total 6.5: lean **OVER** (50%)
+Model likes: **Toronto Blue Jays** to win (73%) | Run line: **Toronto Blue Jays** -1.5 (56% to cover) | Total 6.5: lean **UNDER** (50%)
 
 ### Seattle Mariners lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -917,7 +917,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-28 - Boston Red Sox @ New York Yankees (Scheduled)
 _Yankee Stadium [hitter-friendly park]_
 Projected score: Boston Red Sox 4.43 - New York Yankees 4.02
-Model likes: **Boston Red Sox** to win (54%) | Run line: **New York Yankees** +1.5 (62% to cover) | Total 7.5: lean **OVER** (54%)
+Model likes: **Boston Red Sox** to win (53%) | Run line: **New York Yankees** +1.5 (62% to cover) | Total 7.5: lean **OVER** (53%)
 
 ### Boston Red Sox lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1082,7 +1082,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 - Denzer Guzman (R) -- L7: 4H 1HR 6RBI 10TB (0.174 avg) -- home split: 0.210 avg
 - Jose Siri (R) -- L7: 3H 0HR 0RBI 3TB (0.167 avg) -- home split: 0.202 avg
 - Mike Trout (R) [4-game hit streak] -- L7: 7H 0HR 1RBI 10TB (0.280 avg) -- home split: 0.232 avg
-- Moisés Ballesteros (L) -- L7: 7H 0HR 4RBI 10TB (0.269 avg) -- home split: 0.214 avg
+- Moisés Ballesteros (L) -- L7: 7H 0HR 4RBI 10TB (0.226 avg) -- home split: 0.204 avg
 - Zach Neto (R) [8-game hit streak] -- L7: 14H 2HR 9RBI 25TB (0.424 avg) -- home split: 0.209 avg
 - Vaughn Grissom (R) -- L7: 7H 2HR 7RBI 15TB (0.259 avg) -- home split: 0.225 avg
 - Josh Lowe (L) [likely BABIP-driven, not a real power uptick] -- L7: 7H 0HR 1RBI 8TB (0.333 avg) -- home split: 0.206 avg
@@ -1092,7 +1092,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-28 - Baltimore Orioles @ Athletics (Scheduled)
 _Sutter Health Park_
 Projected score: Baltimore Orioles 6.86 - Athletics 4.89
-Model likes: **Baltimore Orioles** to win (63%) | Run line: **Baltimore Orioles** -1.5 (51% to cover) | Total 10.5: lean **OVER** (54%)
+Model likes: **Baltimore Orioles** to win (63%) | Run line: **Baltimore Orioles** -1.5 (51% to cover) | Total 10.5: lean **OVER** (53%)
 
 ### Baltimore Orioles lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
