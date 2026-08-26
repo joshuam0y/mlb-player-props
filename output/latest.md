@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-26T13:34:20.996839+00:00_
+_Generated 2026-08-26T14:25:54.689632+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -12,12 +12,12 @@ _Generated 2026-08-26T13:34:20.996839+00:00_
 - **Spencer Horwitz** (Pittsburgh Pirates vs San Diego Padres): favorable matchup vs. tonight's pitcher -- try Hits: 50% over 0.5 recently (vs. 10-game sample)
 - **Daylen Lile** (Washington Nationals vs Colorado Rockies): favorable matchup vs. tonight's pitcher -- try Total Bases: 40% over 1.5 recently (vs. 10-game sample)
 - **A.J. Ewing** (New York Mets vs Milwaukee Brewers): favorable matchup vs. tonight's pitcher -- try Hits: 50% over 0.5 recently (vs. 10-game sample)
+- **Brett Callahan** (Detroit Tigers vs Tampa Bay Rays): favorable matchup vs. tonight's pitcher -- try Hits + Runs + RBIs: 38% over 1.5 recently (vs. 8-game sample)
 - **Kevin McGonigle** (Detroit Tigers vs Tampa Bay Rays): favorable matchup vs. tonight's pitcher -- try Total Bases: 50% over 1.5 recently (vs. 10-game sample)
-- **Max Clark** (Detroit Tigers vs Tampa Bay Rays): favorable matchup vs. tonight's pitcher -- try Hits + Runs + RBIs: 50% over 1.5 recently (vs. 10-game sample)
-- **Zach McKinstry** (Detroit Tigers vs Tampa Bay Rays): favorable matchup vs. tonight's pitcher -- try Hits: 40% over 0.5 recently (vs. 10-game sample)
 - **Colt Keith** (Detroit Tigers vs Tampa Bay Rays): favorable matchup vs. tonight's pitcher -- try Hits: 60% over 0.5 recently (vs. 10-game sample)
+- **Zach McKinstry** (Detroit Tigers vs Tampa Bay Rays): favorable matchup vs. tonight's pitcher -- try Hits: 40% over 0.5 recently (vs. 10-game sample)
+- **Max Clark** (Detroit Tigers vs Tampa Bay Rays): favorable matchup vs. tonight's pitcher -- try Hits + Runs + RBIs: 50% over 1.5 recently (vs. 10-game sample)
 - **Christian Koss** (San Francisco Giants vs Cincinnati Reds): favorable matchup vs. tonight's pitcher -- try Hits: 60% over 0.5 recently (vs. 10-game sample)
-- **Osleivis Basabe** (San Francisco Giants vs Cincinnati Reds): favorable matchup vs. tonight's pitcher -- try Hits: 50% over 0.5 recently (vs. 10-game sample)
 
 ### Pitchers
 - **Troy Melton** (Detroit Tigers vs Tampa Bay Rays): 3 hitters in tonight's lineup are in a tough matchup against him -- try Outs Recorded: 40% over 18.5 recently (vs. 5-game sample)
@@ -27,9 +27,6 @@ _Generated 2026-08-26T13:34:20.996839+00:00_
 
 ## Today's Top Unders
 ### Batters
-- **Junior Caminero** (Tampa Bay Rays vs Detroit Tigers): tough matchup vs. tonight's pitcher -- try Walks: 80% under 0.5 recently (vs. 10-game sample)
-- **Yandy Díaz** (Tampa Bay Rays vs Detroit Tigers): tough matchup vs. tonight's pitcher -- try Total Bases: 80% under 2.5 recently (vs. 10-game sample)
-- **Jonny DeLuca** (Tampa Bay Rays vs Detroit Tigers): tough matchup vs. tonight's pitcher -- try Runs Scored: 100% under 0.5 recently (vs. 10-game sample)
 - **Cole Young** (Seattle Mariners vs Philadelphia Phillies): tough matchup vs. tonight's pitcher -- try Total Bases: 80% under 1.5 recently (vs. 10-game sample)
 - **Dominic Canzone** (Seattle Mariners vs Philadelphia Phillies): tough matchup vs. tonight's pitcher -- try Runs Scored: 80% under 0.5 recently (vs. 10-game sample)
 - **Josh Naylor** (Seattle Mariners vs Philadelphia Phillies): tough matchup vs. tonight's pitcher -- try Walks: 90% under 0.5 recently (vs. 10-game sample)
@@ -39,16 +36,19 @@ _Generated 2026-08-26T13:34:20.996839+00:00_
 - **Ryan Jeffers** (Minnesota Twins vs Athletics): tough matchup vs. tonight's pitcher -- try Hits + Runs + RBIs: 80% under 2.5 recently (vs. 10-game sample)
 - **Ryan Kreidler** (Minnesota Twins vs Athletics): tough matchup vs. tonight's pitcher -- try Runs Scored: 90% under 0.5 recently (vs. 10-game sample)
 - **Byron Buxton** (Minnesota Twins vs Athletics): tough matchup vs. tonight's pitcher -- try Total Bases: 90% under 1.5 recently (vs. 10-game sample)
+- **Junior Caminero** (Tampa Bay Rays vs Detroit Tigers): tough matchup vs. tonight's pitcher -- try Walks: 80% under 0.5 recently (vs. 10-game sample)
+- **Yandy Díaz** (Tampa Bay Rays vs Detroit Tigers): tough matchup vs. tonight's pitcher -- try Total Bases: 80% under 2.5 recently (vs. 10-game sample)
+- **Jonny DeLuca** (Tampa Bay Rays vs Detroit Tigers): tough matchup vs. tonight's pitcher -- try Runs Scored: 100% under 0.5 recently (vs. 10-game sample)
 
 ### Pitchers
 - **Troy Melton** (Detroit Tigers vs Tampa Bay Rays): 3 hitters in tonight's lineup are in a tough matchup against him -- try Strikeouts: 60% under 4.5 recently (vs. 5-game sample)
 - **Jesús Luzardo** (Philadelphia Phillies vs Seattle Mariners): 3 hitters in tonight's lineup are in a tough matchup against him -- try Runs Allowed: 80% under 2.5 recently (vs. 5-game sample)
 - **J.T. Ginn** (Athletics vs Minnesota Twins): 6 hitters in tonight's lineup are in a tough matchup against him -- try Runs Allowed: 40% under 2.5 recently (vs. 5-game sample)
 
-## 2026-08-26 - Tampa Bay Rays @ Detroit Tigers (Scheduled)
+## 2026-08-26 - Tampa Bay Rays @ Detroit Tigers (Pre-Game)
 _Comerica Park [pitcher-friendly park]_
-Projected score: Tampa Bay Rays 2.57 - Detroit Tigers 4.69
-Model likes: **Detroit Tigers** to win (70%) | Run line: **Detroit Tigers** -1.5 (53% to cover) | Total 6.5: lean **OVER** (52%)
+Projected score: Tampa Bay Rays 2.57 - Detroit Tigers 4.72
+Model likes: **Detroit Tigers** to win (70%) | Run line: **Detroit Tigers** -1.5 (54% to cover) | Total 6.5: lean **OVER** (52%)
 
 ### Tampa Bay Rays lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 7.7 relief IP in last 2 days (ratio 1.52)_
@@ -63,23 +63,23 @@ _Facing a taxed bullpen: 7.7 relief IP in last 2 days (ratio 1.52)_
 - Jonny DeLuca (R) [TOUGH MATCHUP: pitcher holds this hand to 0.178 avg-against] [5-game hit streak] -- L7: 8H 0HR 1RBI 10TB (0.333 avg) -- away split: 0.336 avg
 - Liam Hicks (L) [3-game hit streak] -- L7: 7H 1HR 1RBI 11TB (0.318 avg) -- away split: 0.286 avg
 
-### Detroit Tigers lineup -- PROJECTED (unconfirmed)
+### Detroit Tigers lineup -- CONFIRMED
 _Facing a taxed bullpen: 8.7 relief IP in last 2 days (ratio 1.43)_
 **Probable P: Troy Melton (R)** -- L5: 30.0 IP, 21 K, 4 ER, 1.2 ERA
-- Kevin McGonigle (L) [MATCHUP EDGE: pitcher hits 0.271 avg-against vs this hand] -- L7: 7H 1HR 6RBI 13TB (0.259 avg) -- home split: 0.263 avg
-- Max Clark (L) [MATCHUP EDGE: pitcher hits 0.271 avg-against vs this hand] -- L7: 4H 1HR 3RBI 8TB (0.182 avg) -- home split: 0.185 avg -- news: Mayo: Don't judge a book by its cover -- especially Max Clark
-- Spencer Torkelson (R) -- L7: 3H 0HR 0RBI 5TB (0.150 avg) -- home split: 0.222 avg
-- Zach McKinstry (L) [MATCHUP EDGE: pitcher hits 0.271 avg-against vs this hand] -- L7: 3H 0HR 1RBI 4TB (0.143 avg) -- home split: 0.239 avg
-- Dillon Dingler (R) [3-game hit streak] -- L7: 4H 0HR 0RBI 4TB (0.160 avg) -- home split: 0.235 avg
-- Colt Keith (L) [MATCHUP EDGE: pitcher hits 0.271 avg-against vs this hand] -- L7: 4H 0HR 0RBI 5TB (0.222 avg) -- home split: 0.259 avg
-- Gleyber Torres (R) -- L7: 5H 0HR 2RBI 5TB (0.172 avg) -- home split: 0.294 avg
-- Hao-Yu Lee (R) -- L7: 6H 1HR 3RBI 10TB (0.273 avg) -- home split: 0.248 avg -- news: Hao-Yu Lee sets single-season record for hits by a player born in Taiwan
-- Ben Malgeri (R) -- L7: 1H 0HR 1RBI 1TB (0.091 avg) -- home split: 0.286 avg
+- #1 Brett Callahan (L) [MATCHUP EDGE: pitcher hits 0.271 avg-against vs this hand] -- L7: 4H 1HR 4RBI 8TB (0.235 avg) -- home split: 0.333 avg
+- #2 Kevin McGonigle (L) [MATCHUP EDGE: pitcher hits 0.271 avg-against vs this hand] -- L7: 7H 1HR 6RBI 13TB (0.259 avg) -- home split: 0.263 avg
+- #3 Gleyber Torres (R) -- L7: 5H 0HR 2RBI 5TB (0.172 avg) -- home split: 0.294 avg
+- #4 Colt Keith (L) [MATCHUP EDGE: pitcher hits 0.271 avg-against vs this hand] -- L7: 4H 0HR 0RBI 5TB (0.222 avg) -- home split: 0.259 avg
+- #5 Dillon Dingler (R) [3-game hit streak] -- L7: 4H 0HR 0RBI 4TB (0.160 avg) -- home split: 0.235 avg
+- #6 Zach McKinstry (L) [MATCHUP EDGE: pitcher hits 0.271 avg-against vs this hand] -- L7: 3H 0HR 1RBI 4TB (0.143 avg) -- home split: 0.239 avg
+- #7 Spencer Torkelson (R) -- L7: 3H 0HR 0RBI 5TB (0.150 avg) -- home split: 0.222 avg
+- #8 Max Clark (L) [MATCHUP EDGE: pitcher hits 0.271 avg-against vs this hand] -- L7: 4H 1HR 3RBI 8TB (0.182 avg) -- home split: 0.185 avg -- news: Mayo: Don't judge a book by its cover -- especially Max Clark
+- #9 Hao-Yu Lee (R) -- L7: 6H 1HR 3RBI 10TB (0.273 avg) -- home split: 0.248 avg -- news: Hao-Yu Lee sets single-season record for hits by a player born in Taiwan
 
 ## 2026-08-26 - Chicago Cubs @ Arizona Diamondbacks (Scheduled)
 _Chase Field [hitter-friendly park]_
 Projected score: Chicago Cubs 4.01 - Arizona Diamondbacks 4.4
-Model likes: **Arizona Diamondbacks** to win (53%) | Run line: **Chicago Cubs** +1.5 (62% to cover) | Total 7.5: lean **OVER** (53%)
+Model likes: **Arizona Diamondbacks** to win (54%) | Run line: **Chicago Cubs** +1.5 (62% to cover) | Total 7.5: lean **OVER** (53%)
 
 ### Chicago Cubs lineup -- PROJECTED (unconfirmed)
 **Probable P: Matthew Boyd (L)** -- L5: 32.0 IP, 16 K, 17 ER, 4.78 ERA
@@ -199,7 +199,7 @@ Model likes: **Philadelphia Phillies** to win (62%) | Run line: **Seattle Marine
 ## 2026-08-26 - Pittsburgh Pirates @ San Diego Padres (Scheduled)
 _Petco Park [pitcher-friendly park]_
 Projected score: Pittsburgh Pirates 3.74 - San Diego Padres 3.89
-Model likes: **San Diego Padres** to win (52%) | Run line: **Pittsburgh Pirates** +1.5 (65% to cover) | Total 7.5: lean **UNDER** (54%)
+Model likes: **San Diego Padres** to win (51%) | Run line: **Pittsburgh Pirates** +1.5 (65% to cover) | Total 7.5: lean **UNDER** (54%)
 
 ### Pittsburgh Pirates lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 8.7 relief IP in last 2 days (ratio 1.35)_
@@ -350,7 +350,7 @@ _Facing a rested bullpen: 4.0 relief IP in last 2 days (ratio 0.61)_
 ## 2026-08-26 - Milwaukee Brewers @ New York Mets (Scheduled)
 _Citi Field_
 Projected score: Milwaukee Brewers 4.38 - New York Mets 3.69
-Model likes: **Milwaukee Brewers** to win (56%) | Run line: **New York Mets** +1.5 (60% to cover) | Total 7.5: lean **OVER** (50%)
+Model likes: **Milwaukee Brewers** to win (56%) | Run line: **New York Mets** +1.5 (60% to cover) | Total 7.5: lean **UNDER** (50%)
 
 ### Milwaukee Brewers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 4.0 relief IP in last 2 days (ratio 0.66)_
@@ -710,7 +710,7 @@ _Facing a rested bullpen: 2.3 relief IP in last 2 days (ratio 0.41)_
 ## 2026-08-28 - Cincinnati Reds @ Chicago Cubs (Scheduled)
 _Wrigley Field_
 Projected score: Cincinnati Reds 3.77 - Chicago Cubs 5.62
-Model likes: **Chicago Cubs** to win (65%) | Run line: **Chicago Cubs** -1.5 (51% to cover) | Total 8.5: lean **OVER** (52%)
+Model likes: **Chicago Cubs** to win (65%) | Run line: **Chicago Cubs** -1.5 (50% to cover) | Total 8.5: lean **OVER** (52%)
 
 ### Cincinnati Reds lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -739,8 +739,8 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 
 ## 2026-08-28 - Los Angeles Dodgers @ Detroit Tigers (Scheduled)
 _Comerica Park [pitcher-friendly park]_
-Projected score: Los Angeles Dodgers 4.17 - Detroit Tigers 3.62
-Model likes: **Los Angeles Dodgers** to win (55%) | Run line: **Detroit Tigers** +1.5 (61% to cover) | Total 7.5: lean **UNDER** (53%)
+Projected score: Los Angeles Dodgers 4.36 - Detroit Tigers 3.62
+Model likes: **Los Angeles Dodgers** to win (57%) | Run line: **Detroit Tigers** +1.5 (59% to cover) | Total 7.5: lean **UNDER** (51%)
 
 ### Los Angeles Dodgers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -756,6 +756,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 
 ### Detroit Tigers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
+**Probable P: Drew Anderson (R)** [BULLPEN GAME: short-outing arm, no reliable individual matchup below] -- L5: 19.0 IP, 15 K, 7 ER, 3.32 ERA
 - Kevin McGonigle (L) -- L7: 7H 1HR 6RBI 13TB (0.259 avg) -- home split: 0.263 avg
 - Max Clark (L) -- L7: 4H 1HR 3RBI 8TB (0.182 avg) -- home split: 0.185 avg -- news: Mayo: Don't judge a book by its cover -- especially Max Clark
 - Spencer Torkelson (R) -- L7: 3H 0HR 0RBI 5TB (0.150 avg) -- home split: 0.222 avg
@@ -798,7 +799,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-28 - San Diego Padres @ Tampa Bay Rays (Scheduled)
 _Tropicana Field_
 Projected score: San Diego Padres 4.31 - Tampa Bay Rays 4.15
-Model likes: **San Diego Padres** to win (52%) | Run line: **Tampa Bay Rays** +1.5 (64% to cover) | Total 7.5: lean **OVER** (54%)
+Model likes: **San Diego Padres** to win (51%) | Run line: **Tampa Bay Rays** +1.5 (64% to cover) | Total 7.5: lean **OVER** (54%)
 
 ### San Diego Padres lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -917,7 +918,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-28 - Boston Red Sox @ New York Yankees (Scheduled)
 _Yankee Stadium [hitter-friendly park]_
 Projected score: Boston Red Sox 4.43 - New York Yankees 4.02
-Model likes: **Boston Red Sox** to win (54%) | Run line: **New York Yankees** +1.5 (62% to cover) | Total 7.5: lean **OVER** (53%)
+Model likes: **Boston Red Sox** to win (53%) | Run line: **New York Yankees** +1.5 (62% to cover) | Total 7.5: lean **OVER** (54%)
 
 ### Boston Red Sox lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -976,7 +977,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-28 - Texas Rangers @ Milwaukee Brewers (Scheduled)
 _American Family Field_
 Projected score: Texas Rangers 3.03 - Milwaukee Brewers 4.97
-Model likes: **Milwaukee Brewers** to win (67%) | Run line: **Milwaukee Brewers** -1.5 (51% to cover) | Total 7.5: lean **UNDER** (51%)
+Model likes: **Milwaukee Brewers** to win (67%) | Run line: **Milwaukee Brewers** -1.5 (52% to cover) | Total 7.5: lean **UNDER** (51%)
 
 ### Texas Rangers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
