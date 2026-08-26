@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-26T08:04:31.628757+00:00_
+_Generated 2026-08-26T08:58:59.775707+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -79,7 +79,7 @@ _Facing a taxed bullpen: 8.7 relief IP in last 2 days (ratio 1.43)_
 ## 2026-08-26 - Chicago Cubs @ Arizona Diamondbacks (Scheduled)
 _Chase Field [hitter-friendly park]_
 Projected score: Chicago Cubs 4.01 - Arizona Diamondbacks 4.4
-Model likes: **Arizona Diamondbacks** to win (53%) | Run line: **Chicago Cubs** +1.5 (62% to cover) | Total 7.5: lean **OVER** (53%)
+Model likes: **Arizona Diamondbacks** to win (54%) | Run line: **Chicago Cubs** +1.5 (62% to cover) | Total 7.5: lean **OVER** (53%)
 
 ### Chicago Cubs lineup -- PROJECTED (unconfirmed)
 **Probable P: Matthew Boyd (L)** -- L5: 32.0 IP, 16 K, 17 ER, 4.78 ERA
@@ -350,7 +350,7 @@ _Facing a rested bullpen: 4.0 relief IP in last 2 days (ratio 0.61)_
 ## 2026-08-26 - Milwaukee Brewers @ New York Mets (Scheduled)
 _Citi Field_
 Projected score: Milwaukee Brewers 4.38 - New York Mets 3.69
-Model likes: **Milwaukee Brewers** to win (56%) | Run line: **New York Mets** +1.5 (60% to cover) | Total 7.5: lean **OVER** (50%)
+Model likes: **Milwaukee Brewers** to win (56%) | Run line: **New York Mets** +1.5 (60% to cover) | Total 7.5: lean **UNDER** (50%)
 
 ### Milwaukee Brewers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 4.0 relief IP in last 2 days (ratio 0.66)_
@@ -710,7 +710,7 @@ _Facing a rested bullpen: 2.3 relief IP in last 2 days (ratio 0.41)_
 ## 2026-08-28 - Cincinnati Reds @ Chicago Cubs (Scheduled)
 _Wrigley Field_
 Projected score: Cincinnati Reds 3.77 - Chicago Cubs 5.62
-Model likes: **Chicago Cubs** to win (65%) | Run line: **Chicago Cubs** -1.5 (50% to cover) | Total 8.5: lean **OVER** (52%)
+Model likes: **Chicago Cubs** to win (65%) | Run line: **Chicago Cubs** -1.5 (51% to cover) | Total 8.5: lean **OVER** (52%)
 
 ### Cincinnati Reds lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -740,7 +740,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-28 - Los Angeles Dodgers @ Detroit Tigers (Scheduled)
 _Comerica Park [pitcher-friendly park]_
 Projected score: Los Angeles Dodgers 4.17 - Detroit Tigers 3.62
-Model likes: **Los Angeles Dodgers** to win (55%) | Run line: **Detroit Tigers** +1.5 (61% to cover) | Total 7.5: lean **UNDER** (52%)
+Model likes: **Los Angeles Dodgers** to win (55%) | Run line: **Detroit Tigers** +1.5 (61% to cover) | Total 7.5: lean **UNDER** (53%)
 
 ### Los Angeles Dodgers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -857,7 +857,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-28 - Kansas City Royals @ Cleveland Guardians (Scheduled)
 _Progressive Field_
 Projected score: Kansas City Royals 3.67 - Cleveland Guardians 4.46
-Model likes: **Cleveland Guardians** to win (57%) | Run line: **Kansas City Royals** +1.5 (59% to cover) | Total 7.5: lean **OVER** (51%)
+Model likes: **Cleveland Guardians** to win (57%) | Run line: **Kansas City Royals** +1.5 (59% to cover) | Total 7.5: lean **OVER** (50%)
 
 ### Kansas City Royals lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -887,7 +887,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-28 - Seattle Mariners @ Toronto Blue Jays (Scheduled)
 _Rogers Centre_
 Projected score: Seattle Mariners 2.35 - Toronto Blue Jays 4.71
-Model likes: **Toronto Blue Jays** to win (73%) | Run line: **Toronto Blue Jays** -1.5 (56% to cover) | Total 6.5: lean **OVER** (50%)
+Model likes: **Toronto Blue Jays** to win (73%) | Run line: **Toronto Blue Jays** -1.5 (56% to cover) | Total 6.5: lean **UNDER** (50%)
 
 ### Seattle Mariners lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -917,7 +917,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-28 - Boston Red Sox @ New York Yankees (Scheduled)
 _Yankee Stadium [hitter-friendly park]_
 Projected score: Boston Red Sox 4.43 - New York Yankees 4.02
-Model likes: **Boston Red Sox** to win (53%) | Run line: **New York Yankees** +1.5 (62% to cover) | Total 7.5: lean **OVER** (54%)
+Model likes: **Boston Red Sox** to win (54%) | Run line: **New York Yankees** +1.5 (62% to cover) | Total 7.5: lean **OVER** (53%)
 
 ### Boston Red Sox lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1092,7 +1092,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-28 - Baltimore Orioles @ Athletics (Scheduled)
 _Sutter Health Park_
 Projected score: Baltimore Orioles 6.86 - Athletics 4.89
-Model likes: **Baltimore Orioles** to win (63%) | Run line: **Baltimore Orioles** -1.5 (51% to cover) | Total 10.5: lean **OVER** (53%)
+Model likes: **Baltimore Orioles** to win (63%) | Run line: **Baltimore Orioles** -1.5 (51% to cover) | Total 10.5: lean **OVER** (54%)
 
 ### Baltimore Orioles lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
