@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-26T16:02:23.138618+00:00_
+_Generated 2026-08-26T16:42:07.176534+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -80,7 +80,7 @@ _Facing a taxed bullpen: 8.7 relief IP in last 2 days (ratio 1.43)_
 ## 2026-08-26 - Chicago Cubs @ Arizona Diamondbacks (Scheduled)
 _Chase Field [hitter-friendly park]_
 Projected score: Chicago Cubs 4.01 - Arizona Diamondbacks 4.4
-Model likes: **Arizona Diamondbacks** to win (53%) | Run line: **Chicago Cubs** +1.5 (62% to cover) | Total 7.5: lean **OVER** (53%)
+Model likes: **Arizona Diamondbacks** to win (54%) | Run line: **Chicago Cubs** +1.5 (62% to cover) | Total 7.5: lean **OVER** (53%)
 
 ### Chicago Cubs lineup -- PROJECTED (unconfirmed)
 **Probable P: Matthew Boyd (L)** -- L5: 32.0 IP, 16 K, 17 ER, 4.78 ERA
@@ -106,7 +106,7 @@ Model likes: **Arizona Diamondbacks** to win (53%) | Run line: **Chicago Cubs** 
 - Jorge Barrosa (S) -- L7: 0H 0HR 0RBI 0TB (0.000 avg) -- home split: 0.191 avg
 - Lars Nootbaar (L) -- L7: 4H 1HR 4RBI 8TB (0.182 avg) -- home split: 0.228 avg
 
-## 2026-08-26 - Cincinnati Reds @ San Francisco Giants (Scheduled)
+## 2026-08-26 - Cincinnati Reds @ San Francisco Giants (Pre-Game)
 _Oracle Park [pitcher-friendly park]_
 Projected score: Cincinnati Reds 3.62 - San Francisco Giants 3.82
 Model likes: **San Francisco Giants** to win (52%) | Run line: **Cincinnati Reds** +1.5 (65% to cover) | Total 6.5: lean **OVER** (54%)
@@ -504,7 +504,7 @@ _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.38)_
 ## 2026-08-27 - Colorado Rockies @ Washington Nationals (Scheduled)
 _Nationals Park_
 Projected score: Colorado Rockies 5.17 - Washington Nationals 6.45
-Model likes: **Washington Nationals** to win (59%) | Run line: **Colorado Rockies** +1.5 (53% to cover) | Total 10.5: lean **OVER** (53%)
+Model likes: **Washington Nationals** to win (58%) | Run line: **Colorado Rockies** +1.5 (54% to cover) | Total 10.5: lean **OVER** (53%)
 
 ### Colorado Rockies lineup -- PROJECTED (unconfirmed)
 **Probable P: Gabriel Hughes (R)** -- L5: 23.3 IP, 16 K, 25 ER, 9.64 ERA
@@ -592,7 +592,7 @@ _Facing a rested bullpen: 4.0 relief IP in last 2 days (ratio 0.65)_
 ## 2026-08-27 - Kansas City Royals @ Toronto Blue Jays (Scheduled)
 _Rogers Centre_
 Projected score: Kansas City Royals 3.71 - Toronto Blue Jays 3.56
-Model likes: **Kansas City Royals** to win (52%) | Run line: **Toronto Blue Jays** +1.5 (66% to cover) | Total 6.5: lean **OVER** (52%)
+Model likes: **Kansas City Royals** to win (52%) | Run line: **Toronto Blue Jays** +1.5 (66% to cover) | Total 6.5: lean **OVER** (53%)
 
 ### Kansas City Royals lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 4.0 relief IP in last 2 days (ratio 0.61)_
@@ -711,24 +711,25 @@ _Facing a rested bullpen: 2.3 relief IP in last 2 days (ratio 0.41)_
 
 ## 2026-08-28 - Cincinnati Reds @ Chicago Cubs (Scheduled)
 _Wrigley Field_
-Projected score: Cincinnati Reds 3.77 - Chicago Cubs 5.62
+Projected score: Cincinnati Reds 3.73 - Chicago Cubs 5.62
 Model likes: **Chicago Cubs** to win (65%) | Run line: **Chicago Cubs** -1.5 (51% to cover) | Total 8.5: lean **OVER** (52%)
 
 ### Cincinnati Reds lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 **Probable P: Rhett Lowder (R)** -- L5: 30.0 IP, 18 K, 13 ER, 3.9 ERA
-- Sal Stewart (R) [10-game hit streak] -- L7: 10H 2HR 8RBI 16TB (0.333 avg) -- away split: 0.268 avg
-- Elly De La Cruz (S) [4-game hit streak] -- L7: 9H 1HR 1RBI 15TB (0.300 avg) -- away split: 0.237 avg
-- Matt McLain (R) -- L7: 5H 2HR 6RBI 12TB (0.200 avg) -- away split: 0.196 avg
+- Sal Stewart (R) [MATCHUP EDGE: pitcher hits 0.291 avg-against vs this hand] [10-game hit streak] -- L7: 10H 2HR 8RBI 16TB (0.333 avg) -- away split: 0.268 avg
+- Elly De La Cruz (S) [MATCHUP EDGE: pitcher hits 0.291 avg-against vs this hand] [4-game hit streak] -- L7: 9H 1HR 1RBI 15TB (0.300 avg) -- away split: 0.237 avg
+- Matt McLain (R) [MATCHUP EDGE: pitcher hits 0.291 avg-against vs this hand] -- L7: 5H 2HR 6RBI 12TB (0.200 avg) -- away split: 0.196 avg
 - JJ Bleday (L) -- L7: 6H 1HR 4RBI 12TB (0.222 avg) -- away split: 0.200 avg
-- Eugenio Suárez (R) -- L7: 3H 0HR 3RBI 3TB (0.158 avg) -- away split: 0.203 avg
-- Tyler Stephenson (R) -- L7: 5H 0HR 4RBI 6TB (0.192 avg) -- away split: 0.286 avg
-- Dane Myers (R) -- L7: 5H 0HR 1RBI 6TB (0.192 avg) -- away split: 0.243 avg
-- Ke'Bryan Hayes (R) -- L7: 3H 0HR 0RBI 3TB (0.188 avg) -- away split: 0.146 avg
+- Eugenio Suárez (R) [MATCHUP EDGE: pitcher hits 0.291 avg-against vs this hand] -- L7: 3H 0HR 3RBI 3TB (0.158 avg) -- away split: 0.203 avg
+- Tyler Stephenson (R) [MATCHUP EDGE: pitcher hits 0.291 avg-against vs this hand] -- L7: 5H 0HR 4RBI 6TB (0.192 avg) -- away split: 0.286 avg
+- Dane Myers (R) [MATCHUP EDGE: pitcher hits 0.291 avg-against vs this hand] -- L7: 5H 0HR 1RBI 6TB (0.192 avg) -- away split: 0.243 avg
+- Ke'Bryan Hayes (R) [MATCHUP EDGE: pitcher hits 0.291 avg-against vs this hand] -- L7: 3H 0HR 0RBI 3TB (0.188 avg) -- away split: 0.146 avg
 - Héctor Rodríguez (L) [4-game hit streak] -- L7: 6H 1HR 3RBI 10TB (0.286 avg) -- away split: 0.214 avg
 
 ### Chicago Cubs lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
+**Probable P: David Peterson (L)** -- L5: 23.7 IP, 26 K, 7 ER, 2.66 ERA
 - Pete Crow-Armstrong (L) [MATCHUP EDGE: pitcher hits 0.262 avg-against vs this hand] -- L7: 5H 3HR 5RBI 15TB (0.185 avg) -- home split: 0.304 avg
 - Ian Happ (S) [MATCHUP EDGE: pitcher hits 0.262 avg-against vs this hand] [3-game hit streak] -- L7: 8H 3HR 10RBI 19TB (0.308 avg) -- home split: 0.215 avg
 - Alex Bregman (R) -- L7: 7H 3HR 8RBI 16TB (0.233 avg) -- home split: 0.220 avg
@@ -801,7 +802,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-28 - San Diego Padres @ Tampa Bay Rays (Scheduled)
 _Tropicana Field_
 Projected score: San Diego Padres 3.88 - Tampa Bay Rays 4.15
-Model likes: **Tampa Bay Rays** to win (52%) | Run line: **San Diego Padres** +1.5 (64% to cover) | Total 7.5: lean **UNDER** (50%)
+Model likes: **Tampa Bay Rays** to win (52%) | Run line: **San Diego Padres** +1.5 (63% to cover) | Total 7.5: lean **UNDER** (50%)
 
 ### San Diego Padres lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -891,7 +892,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-28 - Seattle Mariners @ Toronto Blue Jays (Scheduled)
 _Rogers Centre_
 Projected score: Seattle Mariners 2.35 - Toronto Blue Jays 4.71
-Model likes: **Toronto Blue Jays** to win (73%) | Run line: **Toronto Blue Jays** -1.5 (56% to cover) | Total 6.5: lean **UNDER** (50%)
+Model likes: **Toronto Blue Jays** to win (73%) | Run line: **Toronto Blue Jays** -1.5 (56% to cover) | Total 6.5: lean **OVER** (50%)
 
 ### Seattle Mariners lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -921,7 +922,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-28 - Boston Red Sox @ New York Yankees (Scheduled)
 _Yankee Stadium [hitter-friendly park]_
 Projected score: Boston Red Sox 4.43 - New York Yankees 4.02
-Model likes: **Boston Red Sox** to win (53%) | Run line: **New York Yankees** +1.5 (62% to cover) | Total 7.5: lean **OVER** (53%)
+Model likes: **Boston Red Sox** to win (54%) | Run line: **New York Yankees** +1.5 (62% to cover) | Total 7.5: lean **OVER** (53%)
 
 ### Boston Red Sox lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1096,7 +1097,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-28 - Baltimore Orioles @ Athletics (Scheduled)
 _Sutter Health Park_
 Projected score: Baltimore Orioles 6.86 - Athletics 4.89
-Model likes: **Baltimore Orioles** to win (63%) | Run line: **Baltimore Orioles** -1.5 (51% to cover) | Total 10.5: lean **OVER** (54%)
+Model likes: **Baltimore Orioles** to win (63%) | Run line: **Baltimore Orioles** -1.5 (51% to cover) | Total 11.5: lean **UNDER** (54%)
 
 ### Baltimore Orioles lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
