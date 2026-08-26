@@ -43675,7 +43675,7 @@
     },
     "2026-08-22": {
       "date": "2026-08-22",
-      "graded_at": "2026-08-26T19:29:08.022265+00:00",
+      "graded_at": "2026-08-26T23:28:32.259907+00:00",
       "top_overs": {
         "n": 23,
         "hits": 10,
@@ -45213,7 +45213,7 @@
     },
     "2026-08-23": {
       "date": "2026-08-23",
-      "graded_at": "2026-08-26T19:29:07.717780+00:00",
+      "graded_at": "2026-08-26T23:28:31.949726+00:00",
       "top_overs": {
         "n": 23,
         "hits": 7,
@@ -46763,7 +46763,7 @@
     },
     "2026-08-24": {
       "date": "2026-08-24",
-      "graded_at": "2026-08-26T19:29:07.400194+00:00",
+      "graded_at": "2026-08-26T23:28:31.625055+00:00",
       "top_overs": {
         "n": 21,
         "hits": 9,
@@ -48265,7 +48265,7 @@
     },
     "2026-08-25": {
       "date": "2026-08-25",
-      "graded_at": "2026-08-26T19:29:07.146182+00:00",
+      "graded_at": "2026-08-26T23:28:31.372360+00:00",
       "top_overs": {
         "n": 23,
         "hits": 13,
@@ -49901,19 +49901,33 @@
       "hit_rate": 0.485
     },
     "projection_accuracy": {
-      "Outs Recorded": {
-        "n": 789,
-        "mae": 3.17,
-        "bias": 0.66,
-        "avg_projected": 14.76,
-        "avg_actual": 15.42
-      },
-      "Hits Allowed": {
+      "Walks Allowed": {
         "n": 871,
-        "mae": 1.86,
-        "bias": 0.2,
-        "avg_projected": 4.62,
-        "avg_actual": 4.82
+        "mae": 0.96,
+        "bias": 0.12,
+        "avg_projected": 1.71,
+        "avg_actual": 1.82
+      },
+      "Hits + Runs + RBIs": {
+        "n": 5354,
+        "mae": 1.48,
+        "bias": 0.04,
+        "avg_projected": 1.71,
+        "avg_actual": 1.75
+      },
+      "Home Runs": {
+        "n": 7761,
+        "mae": 0.2,
+        "bias": -0.01,
+        "avg_projected": 0.12,
+        "avg_actual": 0.11
+      },
+      "Runs Scored": {
+        "n": 7761,
+        "mae": 0.55,
+        "bias": -0.01,
+        "avg_projected": 0.45,
+        "avg_actual": 0.44
       },
       "Hits": {
         "n": 7761,
@@ -49929,19 +49943,12 @@
         "avg_projected": 2.26,
         "avg_actual": 2.34
       },
-      "Runs Scored": {
+      "RBIs": {
         "n": 7761,
-        "mae": 0.55,
+        "mae": 0.6,
         "bias": -0.01,
-        "avg_projected": 0.45,
-        "avg_actual": 0.44
-      },
-      "Total Bases": {
-        "n": 7761,
-        "mae": 1.3,
-        "bias": -0.0,
-        "avg_projected": 1.38,
-        "avg_actual": 1.37
+        "avg_projected": 0.43,
+        "avg_actual": 0.42
       },
       "Walks": {
         "n": 7761,
@@ -49950,43 +49957,36 @@
         "avg_projected": 0.34,
         "avg_actual": 0.35
       },
-      "Walks Allowed": {
-        "n": 871,
-        "mae": 0.96,
-        "bias": 0.12,
-        "avg_projected": 1.71,
-        "avg_actual": 1.82
-      },
-      "RBIs": {
-        "n": 7761,
-        "mae": 0.6,
-        "bias": -0.01,
-        "avg_projected": 0.43,
-        "avg_actual": 0.42
-      },
-      "Home Runs": {
-        "n": 7761,
-        "mae": 0.2,
-        "bias": -0.01,
-        "avg_projected": 0.12,
-        "avg_actual": 0.11
-      },
-      "Hits + Runs + RBIs": {
-        "n": 5354,
-        "mae": 1.48,
-        "bias": 0.04,
-        "avg_projected": 1.71,
-        "avg_actual": 1.75
-      },
       "Strikeouts": {
         "n": 871,
         "mae": 1.85,
         "bias": 0.04,
         "avg_projected": 4.61,
         "avg_actual": 4.66
+      },
+      "Outs Recorded": {
+        "n": 789,
+        "mae": 3.17,
+        "bias": 0.66,
+        "avg_projected": 14.76,
+        "avg_actual": 15.42
+      },
+      "Hits Allowed": {
+        "n": 871,
+        "mae": 1.86,
+        "bias": 0.2,
+        "avg_projected": 4.62,
+        "avg_actual": 4.82
+      },
+      "Total Bases": {
+        "n": 7761,
+        "mae": 1.3,
+        "bias": -0.0,
+        "avg_projected": 1.38,
+        "avg_actual": 1.37
       }
     },
     "days_tracked": 33
   },
-  "updated_at": "2026-08-26T19:29:08.050448+00:00"
+  "updated_at": "2026-08-26T23:28:32.285946+00:00"
 }
