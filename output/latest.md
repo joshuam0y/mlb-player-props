@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-26T06:09:29.187918+00:00_
+_Generated 2026-08-26T07:09:18.134659+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -590,7 +590,7 @@ _Facing a rested bullpen: 4.0 relief IP in last 2 days (ratio 0.65)_
 ## 2026-08-27 - Kansas City Royals @ Toronto Blue Jays (Scheduled)
 _Rogers Centre_
 Projected score: Kansas City Royals 3.71 - Toronto Blue Jays 3.56
-Model likes: **Kansas City Royals** to win (51%) | Run line: **Toronto Blue Jays** +1.5 (66% to cover) | Total 6.5: lean **OVER** (53%)
+Model likes: **Kansas City Royals** to win (52%) | Run line: **Toronto Blue Jays** +1.5 (66% to cover) | Total 6.5: lean **OVER** (53%)
 
 ### Kansas City Royals lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 4.0 relief IP in last 2 days (ratio 0.61)_
@@ -887,7 +887,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-28 - Seattle Mariners @ Toronto Blue Jays (Scheduled)
 _Rogers Centre_
 Projected score: Seattle Mariners 2.35 - Toronto Blue Jays 4.71
-Model likes: **Toronto Blue Jays** to win (73%) | Run line: **Toronto Blue Jays** -1.5 (56% to cover) | Total 6.5: lean **OVER** (50%)
+Model likes: **Toronto Blue Jays** to win (73%) | Run line: **Toronto Blue Jays** -1.5 (56% to cover) | Total 6.5: lean **UNDER** (50%)
 
 ### Seattle Mariners lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -917,7 +917,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-28 - Boston Red Sox @ New York Yankees (Scheduled)
 _Yankee Stadium [hitter-friendly park]_
 Projected score: Boston Red Sox 4.43 - New York Yankees 4.02
-Model likes: **Boston Red Sox** to win (53%) | Run line: **New York Yankees** +1.5 (62% to cover) | Total 7.5: lean **OVER** (54%)
+Model likes: **Boston Red Sox** to win (54%) | Run line: **New York Yankees** +1.5 (62% to cover) | Total 7.5: lean **OVER** (53%)
 
 ### Boston Red Sox lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -976,7 +976,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-28 - Texas Rangers @ Milwaukee Brewers (Scheduled)
 _American Family Field_
 Projected score: Texas Rangers 3.03 - Milwaukee Brewers 4.97
-Model likes: **Milwaukee Brewers** to win (67%) | Run line: **Milwaukee Brewers** -1.5 (52% to cover) | Total 7.5: lean **UNDER** (51%)
+Model likes: **Milwaukee Brewers** to win (67%) | Run line: **Milwaukee Brewers** -1.5 (51% to cover) | Total 7.5: lean **UNDER** (51%)
 
 ### Texas Rangers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
