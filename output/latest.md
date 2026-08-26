@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-26T12:21:36.667105+00:00_
+_Generated 2026-08-26T13:25:53.771373+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -99,8 +99,8 @@ Model likes: **Arizona Diamondbacks** to win (53%) | Run line: **Chicago Cubs** 
 - Corbin Carroll (L) -- L7: 8H 0HR 1RBI 12TB (0.320 avg) -- home split: 0.270 avg
 - Gabriel Moreno (R) -- L7: 6H 1HR 9RBI 12TB (0.240 avg) -- home split: 0.276 avg
 - Ildemaro Vargas (S) -- L7: 5H 0HR 3RBI 8TB (0.185 avg) -- home split: 0.245 avg
+- Ryan Waldschmidt (R) -- L7: 6H 1HR 5RBI 11TB (0.316 avg) -- home split: 0.312 avg
 - Geraldo Perdomo (S) [3-game hit streak] -- L7: 8H 0HR 3RBI 10TB (0.308 avg) -- home split: 0.245 avg
-- Ryan Waldschmidt (R) -- L7: 5H 0HR 3RBI 7TB (0.250 avg) -- home split: 0.306 avg
 - Nolan Arenado (R) -- L7: 4H 1HR 3RBI 7TB (0.154 avg) -- home split: 0.255 avg
 - Jorge Barrosa (S) -- L7: 0H 0HR 0RBI 0TB (0.000 avg) -- home split: 0.191 avg
 - Lars Nootbaar (L) -- L7: 4H 1HR 4RBI 8TB (0.182 avg) -- home split: 0.228 avg
@@ -502,7 +502,7 @@ _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.38)_
 ## 2026-08-27 - Colorado Rockies @ Washington Nationals (Scheduled)
 _Nationals Park_
 Projected score: Colorado Rockies 5.17 - Washington Nationals 6.45
-Model likes: **Washington Nationals** to win (59%) | Run line: **Colorado Rockies** +1.5 (53% to cover) | Total 10.5: lean **OVER** (53%)
+Model likes: **Washington Nationals** to win (58%) | Run line: **Colorado Rockies** +1.5 (53% to cover) | Total 10.5: lean **OVER** (53%)
 
 ### Colorado Rockies lineup -- PROJECTED (unconfirmed)
 **Probable P: Gabriel Hughes (R)** -- L5: 23.3 IP, 16 K, 25 ER, 9.64 ERA
@@ -689,8 +689,8 @@ _Facing a taxed bullpen: 7.3 relief IP in last 2 days (ratio 1.42)_
 - Corbin Carroll (L) -- L7: 8H 0HR 1RBI 12TB (0.320 avg) -- away split: 0.232 avg
 - Gabriel Moreno (R) -- L7: 6H 1HR 9RBI 12TB (0.240 avg) -- away split: 0.328 avg
 - Ildemaro Vargas (S) -- L7: 5H 0HR 3RBI 8TB (0.185 avg) -- away split: 0.273 avg
+- Ryan Waldschmidt (R) -- L7: 6H 1HR 5RBI 11TB (0.316 avg) -- away split: 0.235 avg
 - Geraldo Perdomo (S) [3-game hit streak] -- L7: 8H 0HR 3RBI 10TB (0.308 avg) -- away split: 0.253 avg
-- Ryan Waldschmidt (R) -- L7: 5H 0HR 3RBI 7TB (0.250 avg) -- away split: 0.235 avg
 - Nolan Arenado (R) -- L7: 4H 1HR 3RBI 7TB (0.154 avg) -- away split: 0.219 avg
 - Jorge Barrosa (S) -- L7: 0H 0HR 0RBI 0TB (0.000 avg) -- away split: 0.203 avg
 - Lars Nootbaar (L) -- L7: 4H 1HR 4RBI 8TB (0.182 avg) -- away split: 0.204 avg
@@ -976,7 +976,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-28 - Texas Rangers @ Milwaukee Brewers (Scheduled)
 _American Family Field_
 Projected score: Texas Rangers 3.03 - Milwaukee Brewers 4.97
-Model likes: **Milwaukee Brewers** to win (67%) | Run line: **Milwaukee Brewers** -1.5 (52% to cover) | Total 7.5: lean **UNDER** (51%)
+Model likes: **Milwaukee Brewers** to win (67%) | Run line: **Milwaukee Brewers** -1.5 (51% to cover) | Total 7.5: lean **UNDER** (51%)
 
 ### Texas Rangers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1129,8 +1129,8 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 - Corbin Carroll (L) -- L7: 8H 0HR 1RBI 12TB (0.320 avg) -- away split: 0.232 avg
 - Gabriel Moreno (R) -- L7: 6H 1HR 9RBI 12TB (0.240 avg) -- away split: 0.328 avg
 - Ildemaro Vargas (S) -- L7: 5H 0HR 3RBI 8TB (0.185 avg) -- away split: 0.273 avg
+- Ryan Waldschmidt (R) -- L7: 6H 1HR 5RBI 11TB (0.316 avg) -- away split: 0.235 avg
 - Geraldo Perdomo (S) [3-game hit streak] -- L7: 8H 0HR 3RBI 10TB (0.308 avg) -- away split: 0.253 avg
-- Ryan Waldschmidt (R) -- L7: 5H 0HR 3RBI 7TB (0.250 avg) -- away split: 0.235 avg
 - Nolan Arenado (R) -- L7: 4H 1HR 3RBI 7TB (0.154 avg) -- away split: 0.219 avg
 - Jorge Barrosa (S) -- L7: 0H 0HR 0RBI 0TB (0.000 avg) -- away split: 0.203 avg
 - Lars Nootbaar (L) -- L7: 4H 1HR 4RBI 8TB (0.182 avg) -- away split: 0.204 avg
