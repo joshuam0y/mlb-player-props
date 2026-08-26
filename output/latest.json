@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T02:03:36.303933+00:00",
+  "generated_at": "2026-08-26T03:06:40.785244+00:00",
   "range": [
     "2026-08-25",
     "2026-08-27"
@@ -9,22 +9,19 @@
       "game_pk": 823826,
       "date": "2026-08-25",
       "game_time_utc": "2026-08-25T22:40:00Z",
-      "status": "In Progress",
+      "status": "Final",
       "venue": "loanDepot park",
       "park_factor": "pitcher",
-      "home_score": null,
-      "away_score": null,
-      "live_score": {
-        "home_runs": 1,
-        "away_runs": 4
-      },
+      "home_score": 3,
+      "away_score": 7,
+      "live_score": null,
       "projection": {
         "game_pk": 823826,
         "generated_at": "2026-08-26T02:02:18.558922+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 2.61,
         "away_exp_runs": 3.88,
-        "home_win_prob": 0.366,
+        "home_win_prob": 0.367,
         "spread_line": 1.5,
         "spread_cover_prob": 0.202,
         "total_line": 6.5,
@@ -40,28 +37,28 @@
       },
       "highlights": [
         {
-          "title": "Cade Gibson Called Strike to Caleb Durbin",
-          "duration": "00:00:25",
-          "video_url": "https://bdata-producedclips.mlb.com/0fd9e0da-71a2-4a92-9092-dff7102c9273.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/qazhihfvcmn04vj7edzc.jpg"
+          "title": "Clayton McCullough dissects loss to Red Sox",
+          "duration": "00:01:07",
+          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-08/25/08014102-604154ab-f561b3c8-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/ob0beh2ymljvi7ov918b.jpg"
         },
         {
-          "title": "Cade Gibson Called Strike to Caleb Durbin",
-          "duration": "00:00:23",
-          "video_url": "https://bdata-producedclips.mlb.com/c9301d47-65bf-4fa4-bb99-969a68a1fe45.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/bpy7suijmufqdu1snzsa.jpg"
+          "title": "Condensed Game: BOS@MIA - 8/25/26",
+          "duration": "00:15:00",
+          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-08/25/c3574c02-2393273e-6d0a5ea0-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/znbfcpb464b7k1ral6ig.jpg"
         },
         {
-          "title": "Jarren Duran's go-ahead grand slam (18)",
-          "duration": "00:00:19",
-          "video_url": "https://bdata-producedclips.mlb.com/1871bbef-d688-437c-be0a-9bf95b49dd9e.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/xdlrltzwupfrgo37ojkx.jpg"
+          "title": "Field View: Jarren Duran's go-ahead grand slam",
+          "duration": "00:00:30",
+          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-08/25/7e2f70df-a8497608-1962ad97-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/yek4koxqv1dvcrbsl1hj.jpg"
         },
         {
-          "title": "Javier Sanoja throws out Wilyer Abreu at home",
-          "duration": "00:00:11",
-          "video_url": "https://bdata-producedclips.mlb.com/91eb7252-323d-460d-9c4a-349f889e76a3.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/ycajra0pqgukdaoj2dlh.jpg"
+          "title": "Alec Gamboa induces groundout for the Red Sox win",
+          "duration": "00:00:10",
+          "video_url": "https://bdata-producedclips.mlb.com/9291f4db-d8e5-4752-b1ce-e85673b5ec50.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/dqe0t2jzpqhwwxz6rsdh.jpg"
         }
       ],
       "home": {
@@ -892,7 +889,7 @@
               "line": 1.5,
               "direction": "under",
               "projection": 1.11,
-              "result": null
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 5,
@@ -1368,7 +1365,7 @@
               "line": 0.5,
               "direction": "over",
               "projection": 0.8,
-              "result": null
+              "result": "miss"
             },
             "game_result": {
               "at_bats": 2,
@@ -1837,7 +1834,7 @@
               "line": 1.5,
               "direction": "under",
               "projection": 1.01,
-              "result": null
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 2,
@@ -3258,7 +3255,7 @@
               "line": 1.5,
               "direction": "under",
               "projection": 0.6,
-              "result": null
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 3,
@@ -3727,7 +3724,7 @@
               "line": 1.5,
               "direction": "over",
               "projection": 1.83,
-              "result": null
+              "result": "miss"
             },
             "game_result": {
               "at_bats": 4,
@@ -4196,7 +4193,7 @@
               "line": 1.5,
               "direction": "under",
               "projection": 0.74,
-              "result": null
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 1,
@@ -4665,7 +4662,7 @@
               "line": 1.5,
               "direction": "under",
               "projection": 0.51,
-              "result": null
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 1,
@@ -5034,7 +5031,7 @@
             "line": 6.5,
             "direction": "over",
             "projection": 6.87,
-            "result": null
+            "result": "miss"
           },
           "opponent_matchup": {
             "tough_matchups": [],
@@ -5522,7 +5519,7 @@
               "line": 1.5,
               "direction": "over",
               "projection": 1.98,
-              "result": null
+              "result": "miss"
             },
             "game_result": {
               "at_bats": 4,
@@ -5998,7 +5995,7 @@
               "line": 0.5,
               "direction": "under",
               "projection": 0.15,
-              "result": null
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 5,
@@ -6474,7 +6471,7 @@
               "line": 0.5,
               "direction": "over",
               "projection": 0.96,
-              "result": null
+              "result": "miss"
             },
             "game_result": {
               "at_bats": 5,
@@ -6943,7 +6940,7 @@
               "line": 2.5,
               "direction": "under",
               "projection": 2.04,
-              "result": null
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 5,
@@ -7888,7 +7885,7 @@
               "line": 1.5,
               "direction": "under",
               "projection": 1.03,
-              "result": null
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 2,
@@ -8364,7 +8361,7 @@
               "line": 0.5,
               "direction": "over",
               "projection": 0.82,
-              "result": null
+              "result": "miss"
             },
             "game_result": {
               "at_bats": 2,
@@ -8833,7 +8830,7 @@
               "line": 1.5,
               "direction": "under",
               "projection": 1.16,
-              "result": null
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 2,
@@ -9302,7 +9299,7 @@
               "line": 0.5,
               "direction": "under",
               "projection": 0.18,
-              "result": null
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 4,
@@ -9382,6 +9379,18 @@
       },
       "highlights": [
         {
+          "title": "A.J. Hinch on Jackson Jobe, bullpen performances",
+          "duration": "00:01:27",
+          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-08/25/9fbec707-2760ce53-8393b4a7-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/sofdnl0sdypxoazj3dtm.jpg"
+        },
+        {
+          "title": "Kevin Cash on Ian Seymour's outing in loss to Tigers",
+          "duration": "00:01:05",
+          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-08/25/d0849e82-a1769597-487dd1af-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/fwutgtu8setrfi69ty9k.jpg"
+        },
+        {
           "title": "Condensed Game: TB@DET - 8/25/26",
           "duration": "00:10:07",
           "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-08/25/7271d645-3c0d1cab-cb98f805-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
@@ -9392,18 +9401,6 @@
           "duration": "00:00:12",
           "video_url": "https://bdata-producedclips.mlb.com/97fa12a7-2028-4db7-8481-d7a19ea83c16.mp4",
           "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/lb2ecerf2xlh4ibxpgya.jpg"
-        },
-        {
-          "title": "Richie Palacios' spinning throw",
-          "duration": "00:00:15",
-          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-08/25/db27bfa0-d3689dd3-d8809f4b-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/nibtbxwis1m6rzidxigf.jpg"
-        },
-        {
-          "title": "Hao-Yu Lee's RBI single",
-          "duration": "00:00:19",
-          "video_url": "https://bdata-producedclips.mlb.com/52b191d5-1b2c-4b3f-b87b-4daea4bcc543.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/crsmjx0gbpkzqlwtrk06.jpg"
         }
       ],
       "home": {
@@ -18742,28 +18739,28 @@
       },
       "highlights": [
         {
-          "title": "Jordan Romano forces fly out to seal Rockies win",
-          "duration": "00:00:13",
-          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-08/25/01235500-3f39b43e-69d75982-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/byob1rpiujrwnregic7b.jpg"
+          "title": "Blake Butera on Alvarez's start, offensive struggles",
+          "duration": "00:02:15",
+          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-08/25/2612c46a-e6dce17b-4bad129f-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/xjnwpv4uylqdunk0u504.jpg"
         },
         {
-          "title": "Ball 3 confirmed following ABS challenge",
-          "duration": "00:00:24",
-          "video_url": "https://bdata-producedclips.mlb.com/431634ac-4186-4481-b58b-270193b28893.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/jelpbtau7wa899pgo1ij.jpg"
+          "title": "Hunter Goodman homers in return to spark Rockies' win",
+          "duration": "00:03:02",
+          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-08/25/3fdf92e0-a2ca87a4-69e36b98-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/eigzkthe2dzripcgk8wy.jpg"
         },
         {
-          "title": "Hunter Goodman's 432-foot home run",
-          "duration": "00:00:33",
-          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-08/25/1852ffa5-bec6597b-4d8dcfef-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/otb0sjjopjtb9dxzcmf1.jpg"
+          "title": "Warren Schaeffer: 'It's good to have him back'",
+          "duration": "00:01:36",
+          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-08/25/62f3049b-2d0801a5-e9060566-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/jvh5mkphk2filit17ce5.jpg"
         },
         {
-          "title": "Mason Adams strikes out five in MLB debut",
-          "duration": "00:00:51",
-          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-08/25/ef231435-db1cc1ca-e3c10d9b-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/ejgisouyyklkbnaw8f1f.jpg"
+          "title": "Condensed Game: COL@WSH - 8/25/26",
+          "duration": "00:10:52",
+          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-08/25/fdf585a2-4fa09861-98e686fb-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/aud40rkkglajvhbrxfak.jpg"
         }
       ],
       "home": {
@@ -27773,11 +27770,11 @@
       "game_pk": 823505,
       "date": "2026-08-25",
       "game_time_utc": "2026-08-25T23:05:00Z",
-      "status": "In Progress",
+      "status": "Final",
       "venue": "Yankee Stadium",
       "park_factor": "hitter",
-      "home_score": null,
-      "away_score": null,
+      "home_score": 7,
+      "away_score": 9,
       "live_score": null,
       "projection": {
         "game_pk": 823505,
@@ -27789,40 +27786,40 @@
         "spread_line": 1.5,
         "spread_cover_prob": 0.414,
         "total_line": 8.5,
-        "over_prob": 0.462,
+        "over_prob": 0.461,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
         "spread_pick_prob": 0.586,
         "total_pick": "under",
-        "total_pick_prob": 0.538,
+        "total_pick_prob": 0.539,
         "spread_favorite": "home"
       },
       "highlights": [
         {
-          "title": "Bryan Abreu's unorthodox double play",
-          "duration": "00:00:10",
-          "video_url": "https://bdata-producedclips.mlb.com/2ea9dd78-63b7-450d-beed-3d1ffdcb7f39.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/dxljq3jqu0rstsf0ki6h.jpg"
+          "title": "Condensed Game: HOU@NYY - 8/25/26",
+          "duration": "00:15:29",
+          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-08/25/2e022126-7fb7fb69-b4b1927e-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/ghyiwld8zjavn9fzxzix.jpg"
         },
         {
-          "title": "Jazz Chisholm Jr.'s RBI single",
-          "duration": "00:00:20",
-          "video_url": "https://bdata-producedclips.mlb.com/6b1f8fbc-19ac-45bc-8b54-ba0014744f54.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/re6gjiivjzuvwbchrad8.jpg"
+          "title": "Luis Garc\u00eda Jr.'s four-hit, three-RBI game",
+          "duration": "00:01:40",
+          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-08/25/51af54b7-5a30286c-f32d3fea-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/rknfzcl08ru44ubxjkah.jpg"
         },
         {
-          "title": "Field View: Yainer Diaz's second home run of the game",
-          "duration": "00:00:30",
-          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-08/25/6b3c37b3-88b761eb-2a60c484-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/ocsdysbxaofredktsj0w.jpg"
+          "title": "Yainer Diaz's two-homer, three-RBI game",
+          "duration": "00:01:29",
+          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-08/25/8a2fb683-e1bc62ef-baca51aa-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/ruydkscbojfuedprnt1i.jpg"
         },
         {
-          "title": "Isaac Paredes' RBI single",
-          "duration": "00:00:19",
-          "video_url": "https://bdata-producedclips.mlb.com/7c9c3705-f036-429b-912c-8392a74522d4.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/c2inz9qcyb4aqtahvdyb.jpg"
+          "title": "Josh Hader earns the save",
+          "duration": "00:00:33",
+          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-08/25/0e64836c-e1787391-35c3810e-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/fxqpdoj8jqkpixlshmmv.jpg"
         }
       ],
       "home": {
@@ -36770,11 +36767,11 @@
       "game_pk": 822773,
       "date": "2026-08-25",
       "game_time_utc": "2026-08-25T23:07:00Z",
-      "status": "In Progress",
+      "status": "Final",
       "venue": "Rogers Centre",
       "park_factor": "neutral",
-      "home_score": null,
-      "away_score": null,
+      "home_score": 3,
+      "away_score": 5,
       "live_score": null,
       "projection": {
         "game_pk": 822773,
@@ -36784,7 +36781,7 @@
         "away_exp_runs": 4.57,
         "home_win_prob": 0.449,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.301,
+        "spread_cover_prob": 0.302,
         "total_line": 7.5,
         "over_prob": 0.542,
         "home_score_line": null,
@@ -36798,28 +36795,28 @@
       },
       "highlights": [
         {
-          "title": "John Rave's RBI single",
-          "duration": "00:00:20",
-          "video_url": "https://bdata-producedclips.mlb.com/dadc07b2-3b04-4603-99fc-b3f78f7dcd4c.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/imgmtkkyllyxcbp42imv.jpg"
+          "title": "Condensed Game: KC@TOR - 8/25/26",
+          "duration": "00:12:34",
+          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-08/25/1e347e74-93f3427e-f139949a-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/pznu0opitoojmoa4ik13.jpg"
         },
         {
-          "title": "Ernie Clement is shaken up, remains in the game",
-          "duration": "00:00:30",
-          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-08/25/30c14bef-19dce144-55061569-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/vanbsogo2vcetcn72gou.jpg"
+          "title": "Nathan Lukes' two-run single",
+          "duration": "00:00:15",
+          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-08/25/0387c007-7962bf53-837c0dea-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/fakpc3viocqgzgohn9yb.jpg"
         },
         {
-          "title": "Strike 1 overturned after ABS challenge",
-          "duration": "00:00:25",
-          "video_url": "https://bdata-producedclips.mlb.com/5cbbd95d-1f0a-4f0c-8fac-6b131603a96a.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/lphmaxmtjooxdrrue4iu.jpg"
+          "title": "Royals relay to end the game after review",
+          "duration": "00:00:41",
+          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-08/25/0389be5e-3cdc9d4d-d0cb8ec8-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/llmxzphjfoajtcgsvrgk.jpg"
         },
         {
-          "title": "Ball 1 is confirmed after ABS challenge",
-          "duration": "00:00:25",
-          "video_url": "https://bdata-producedclips.mlb.com/e8b3cae6-7d22-4295-af34-b0f3048a3532.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/h1cc635mfwjcooygylnx.jpg"
+          "title": "Tyler Tolbert dives, throws to first base",
+          "duration": "00:00:28",
+          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-08/25/ec3652e8-b75958e4-ca5bd83f-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/uujdjhn43ttrbmb4ahzm.jpg"
         }
       ],
       "home": {
@@ -45863,11 +45860,11 @@
       "game_pk": 823585,
       "date": "2026-08-25",
       "game_time_utc": "2026-08-25T23:10:00Z",
-      "status": "In Progress",
+      "status": "Final",
       "venue": "Citi Field",
       "park_factor": "neutral",
-      "home_score": null,
-      "away_score": null,
+      "home_score": 3,
+      "away_score": 2,
       "live_score": null,
       "projection": {
         "game_pk": 823585,
@@ -45877,7 +45874,7 @@
         "away_exp_runs": 3.07,
         "home_win_prob": 0.468,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.274,
+        "spread_cover_prob": 0.275,
         "total_line": 5.5,
         "over_prob": 0.488,
         "home_score_line": null,
@@ -45891,28 +45888,28 @@
       },
       "highlights": [
         {
+          "title": "Franciso Lindor on game-saving catch and more",
+          "duration": "00:01:37",
+          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-08/25/7f64301a-5b48a1aa-7c2c572e-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/ehpr3pybs23qhfaqmpo4.jpg"
+        },
+        {
+          "title": "Mets walk off Brewers in the bottom of the 10th",
+          "duration": "00:00:36",
+          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-08/25/3136e48a-be8a44c6-88b269e7-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/gw8vtmapll9pthh8gaaz.jpg"
+        },
+        {
+          "title": "Jonathan Pintaro strands two runners in the 10th",
+          "duration": "00:00:12",
+          "video_url": "https://bdata-producedclips.mlb.com/93650edf-b758-438f-ade5-789810cbd2a9.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/fd4kjizojruu56znws1s.jpg"
+        },
+        {
           "title": "Ball 2 is confirmed after ABS challenge ",
           "duration": "00:00:22",
           "video_url": "https://bdata-producedclips.mlb.com/3f9b68c7-d3c8-4f09-a5b2-a7db81cd0594.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/e2hjt9jrmjaqotegvrqo.jpg"
-        },
-        {
-          "title": "Francisco Lindor's diving catch",
-          "duration": "00:00:29",
-          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-08/25/07a3fbad-36ffbecf-3728792d-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/hudwkp2viw0afqalhi7g.jpg"
-        },
-        {
-          "title": "Ball 1 is overturned after ABS challenge ",
-          "duration": "00:00:21",
-          "video_url": "https://bdata-producedclips.mlb.com/93ea62f4-4c58-48c8-aa4b-020b8a1ed00d.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/tjp1zaod0p0uksnn9ij4.jpg"
-        },
-        {
-          "title": "Christian Yelich's game-tying double ",
-          "duration": "00:00:35",
-          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-08/25/de905299-0f4b2092-da137e85-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/njldbs19trdu4ersl4lz.jpg"
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/nepmreg60uqmhdybfuu1.jpg"
         }
       ],
       "home": {
@@ -54905,7 +54902,7 @@
       "game_pk": 824881,
       "date": "2026-08-25",
       "game_time_utc": "2026-08-25T23:15:00Z",
-      "status": "Game Over",
+      "status": "Final",
       "venue": "Truist Park",
       "park_factor": "neutral",
       "home_score": 4,
@@ -54933,28 +54930,28 @@
       },
       "highlights": [
         {
-          "title": "Raisel Iglesias In play, out(s) to Tommy Edman",
+          "title": "Condensed Game: LAD@ATL - 8/25/26",
+          "duration": "00:11:21",
+          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-08/25/2f21a4ce-5ba0331b-b5c7e141-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/v84cpkqhfoeemlnaf2qu.jpg"
+        },
+        {
+          "title": "Field View: Shohei Ohtani's triple",
           "duration": "00:00:19",
-          "video_url": "https://bdata-producedclips.mlb.com/5f0de100-7b15-470d-acd9-365cba05329d.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/szjcro1uosdldmgg756p.jpg"
+          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-08/25/4ba8bc22-a7ef4496-552a6517-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/qtawnh1rbw1cytqeps5v.jpg"
+        },
+        {
+          "title": "Raisel Iglesias earns save in Braves' 4-3 win",
+          "duration": "00:00:26",
+          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-08/25/845c7005-8d2bf257-8de73497-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/onmwjngtignbplk03jdt.jpg"
         },
         {
           "title": "Ball 3 overturned after ABS challenge",
           "duration": "00:00:22",
           "video_url": "https://bdata-producedclips.mlb.com/088ed5ee-347d-4616-a7b6-76aa0d905242.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/jwapcg1wm1z0dajfrqfw.jpg"
-        },
-        {
-          "title": "Raisel Iglesias Called Strike to Freddie Freeman",
-          "duration": "00:00:22",
-          "video_url": "https://bdata-producedclips.mlb.com/88e7e1eb-f4c8-4bae-9852-594a35256a23.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/iu1tsxljuui0arjnmn4l.jpg"
-        },
-        {
-          "title": "Ball 2 confirmed after ABS challenge",
-          "duration": "00:00:22",
-          "video_url": "https://bdata-producedclips.mlb.com/290b8401-ca49-4432-acef-14b122d5e23e.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/bh2pvbvwmdal4xqivxgb.jpg"
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/hctz1tmjkh3tyvznlesj.jpg"
         }
       ],
       "home": {
@@ -63640,15 +63637,12 @@
       "game_pk": 824556,
       "date": "2026-08-25",
       "game_time_utc": "2026-08-25T23:40:00Z",
-      "status": "In Progress",
+      "status": "Game Over",
       "venue": "Rate Field",
       "park_factor": "neutral",
-      "home_score": null,
-      "away_score": null,
-      "live_score": {
-        "home_runs": 9,
-        "away_runs": 3
-      },
+      "home_score": 11,
+      "away_score": 7,
+      "live_score": null,
       "projection": {
         "game_pk": 824556,
         "generated_at": "2026-08-26T02:02:18.558922+00:00",
@@ -63671,28 +63665,28 @@
       },
       "highlights": [
         {
-          "title": "Justin Foscue's two-run home run (9)",
-          "duration": "00:00:28",
-          "video_url": "https://bdata-producedclips.mlb.com/17442f44-f92a-4f21-97b9-a59c97431e18.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/pl5j7hvwb5akaet7beez.jpg"
+          "title": "Grant Taylor closes out the White Sox 11-7 win",
+          "duration": "00:00:11",
+          "video_url": "https://bdata-producedclips.mlb.com/32618bbe-6343-464b-9d8d-3c598006383f.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/uiylydc5ruhgkrvr1vi3.jpg"
         },
         {
-          "title": "Danny Jansen's RBI double",
-          "duration": "00:00:19",
-          "video_url": "https://bdata-producedclips.mlb.com/97057803-eef1-4c8c-8939-67d850022f2b.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/uf1tuzr4pcodktsbisuz.jpg"
+          "title": "Strike 1 call confirmed after ABS challenge",
+          "duration": "00:00:25",
+          "video_url": "https://bdata-producedclips.mlb.com/8d764e15-57a9-4b2b-bee7-97f96dc1e58d.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/d8le2njzjp8ex5v79arp.jpg"
+        },
+        {
+          "title": "Ball 1 call confirmed following ABS challenge",
+          "duration": "00:00:24",
+          "video_url": "https://bdata-producedclips.mlb.com/47b42f38-526a-4709-a81f-f994ef93c3d6.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/dkkf1utvh2ubq2gkoliq.jpg"
         },
         {
           "title": "Ball 1 call overturned following ABS challenge",
           "duration": "00:00:24",
-          "video_url": "https://bdata-producedclips.mlb.com/bd8cb7c6-d947-4d7c-86ee-37a498271139.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/hajrtdq0bwo75sysaqrj.jpg"
-        },
-        {
-          "title": "Cole Winn records strikeout after ABS challenge",
-          "duration": "00:00:23",
-          "video_url": "https://bdata-producedclips.mlb.com/9a610798-1ba8-45e9-9311-125680001742.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/oxolryab0wqphmxnrzt2.jpg"
+          "video_url": "https://bdata-producedclips.mlb.com/716e74bc-d87c-4940-8b36-6ea06db53894.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/nbiatgv3jeqekbvvxxxf.jpg"
         }
       ],
       "home": {
@@ -68246,7 +68240,7 @@
               "line": 1.5,
               "direction": "under",
               "projection": 0.92,
-              "result": null
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 2,
@@ -69586,7 +69580,7 @@
               "line": 2.5,
               "direction": "under",
               "projection": 1.82,
-              "result": null
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 3,
@@ -71889,7 +71883,7 @@
               "line": 1.5,
               "direction": "under",
               "projection": 0.85,
-              "result": null
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 2,
@@ -72365,7 +72359,7 @@
               "line": 1.5,
               "direction": "under",
               "projection": 1.0,
-              "result": null
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 2,
@@ -72445,11 +72439,11 @@
       "game_pk": 823016,
       "date": "2026-08-25",
       "game_time_utc": "2026-08-25T23:45:00Z",
-      "status": "In Progress",
+      "status": "Final",
       "venue": "Busch Stadium",
       "park_factor": "neutral",
-      "home_score": null,
-      "away_score": null,
+      "home_score": 1,
+      "away_score": 13,
       "live_score": null,
       "projection": {
         "game_pk": 823016,
@@ -72457,7 +72451,7 @@
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.04,
         "away_exp_runs": 4.49,
-        "home_win_prob": 0.461,
+        "home_win_prob": 0.462,
         "spread_line": 1.5,
         "spread_cover_prob": 0.314,
         "total_line": 7.5,
@@ -72473,28 +72467,28 @@
       },
       "highlights": [
         {
-          "title": "Orioles score eight runs in the 5th",
-          "duration": "00:01:29",
-          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-08/25/4668f7e3-fccb8574-d0bb1023-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/z1jinrivgo05s8gpw4wy.jpg"
+          "title": "Anthony Nunez secures Orioles' 13-1 win",
+          "duration": "00:00:16",
+          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-08/25/55a08077-cfe97c5b-80f2b99c-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/uk3f0hbyzr6smbtkm37x.jpg"
         },
         {
-          "title": "Dylan Beavers' RBI double",
-          "duration": "00:00:22",
-          "video_url": "https://bdata-producedclips.mlb.com/3c471d4b-7d12-4d43-b44e-ed9a89191138.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/iazblkjnfqjghvqyyie8.jpg"
+          "title": "Chris Bassitt fans five against Cardinals ",
+          "duration": "00:00:43",
+          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-08/25/efc2d5bf-9de49a11-0522ac0e-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/q8nenmwbap7inzyr4q7e.jpg"
         },
         {
-          "title": "Matthew Liberatore strikes out seven vs. Orioles",
-          "duration": "00:00:49",
-          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-08/25/54de68b5-e51d1d73-fded9c69-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/qibbxmwm4kipqxikmz76.jpg"
+          "title": "Data Viz: Christian Encarnacion-Strand's home run",
+          "duration": "00:00:30",
+          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-08/25/cbbec86b-8f98bac5-022e947f-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/wjqfaaimsidzmlhso9r5.jpg"
         },
         {
-          "title": "Called strike confirmed after ABS challenge",
-          "duration": "00:00:23",
-          "video_url": "https://bdata-producedclips.mlb.com/0b430c93-867d-4dae-8877-6b3a784ecb4e.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/me75sh8wqhcylszsux3e.jpg"
+          "title": "Pete Alonso goes 4-for-4 against Cardinals",
+          "duration": "00:00:56",
+          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-08/25/ad4c2540-fe79895b-37254d6e-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/ccr38etscacbkcxyrh3q.jpg"
         }
       ],
       "home": {
@@ -73328,7 +73322,7 @@
             "player_id": 671056,
             "name": "Iv\u00e1n Herrera",
             "bat_side": "R",
-            "position": "C",
+            "position": "1B",
             "batting_order": 2,
             "injury": null,
             "l7": {
@@ -74714,7 +74708,7 @@
             "player_id": 695491,
             "name": "Joshua B\u00e1ez",
             "bat_side": "R",
-            "position": "LF",
+            "position": "RF",
             "batting_order": 5,
             "injury": null,
             "l7": {
@@ -81118,48 +81112,48 @@
       },
       "projection": {
         "game_pk": 823989,
-        "generated_at": "2026-08-26T02:02:18.558922+00:00",
+        "generated_at": "2026-08-26T03:04:40.656846+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.32,
         "away_exp_runs": 3.03,
-        "home_win_prob": 0.531,
+        "home_win_prob": 0.532,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.342,
+        "spread_cover_prob": 0.343,
         "total_line": 5.5,
-        "over_prob": 0.543,
+        "over_prob": 0.544,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.658,
+        "spread_pick_prob": 0.657,
         "total_pick": "over",
-        "total_pick_prob": 0.543,
+        "total_pick_prob": 0.544,
         "spread_favorite": "home"
       },
       "highlights": [
         {
-          "title": "Vaughn Grissom's two-run home run (8)",
-          "duration": "00:00:28",
-          "video_url": "https://bdata-producedclips.mlb.com/d65a23ee-9473-47aa-b26c-8a55f0d8d6ba.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/dnkpsypxd2i0cvzerdzt.jpg"
+          "title": "Mike Trout's incredible diving catch",
+          "duration": "00:00:16",
+          "video_url": "https://bdata-producedclips.mlb.com/ad387d89-220c-4da8-8d33-03a1477f42dd.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/jjlrpra0qvzsx5iladjl.jpg"
         },
         {
-          "title": "Gavin Williams strikes out Zach Neto",
-          "duration": "00:00:09",
-          "video_url": "https://bdata-producedclips.mlb.com/72d05854-ff11-4054-a681-bdcbbd2853d4.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/ddpgux9tbo941owbiyee.jpg"
+          "title": "Gustavo Campero exits game after injury",
+          "duration": "00:01:08",
+          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-08/25/0f80a76c-fd7add7f-d7410910-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/skjlcgy2ddh4mvf3eh8p.jpg"
         },
         {
-          "title": "Denzer Guzman's powerful throw to first base",
-          "duration": "00:00:32",
-          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-08/25/a95f037d-cb685305-264d4f49-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/bu1pizphsw3ynrgvgxf2.jpg"
+          "title": "Zach Neto's RBI single",
+          "duration": "00:00:20",
+          "video_url": "https://bdata-producedclips.mlb.com/b419e954-4e56-4159-bd90-ca4d0202ff60.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/cfmmxhnryponsqgw8zje.jpg"
         },
         {
-          "title": "Walbert Ure\u00f1a strikes out Jos\u00e9 Ram\u00edrez",
-          "duration": "00:00:06",
-          "video_url": "https://bdata-producedclips.mlb.com/7c521b8c-0957-417e-bddb-dd586f073330.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/avldayju0yqfwmwuzmie.jpg"
+          "title": "Denzer Guzman's RBI double",
+          "duration": "00:00:20",
+          "video_url": "https://bdata-producedclips.mlb.com/59403bdc-4492-4356-a854-4c5c9728c1ce.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/jzbst5v0frl8im24zht3.jpg"
         }
       ],
       "home": {
@@ -90436,7 +90430,7 @@
       },
       "projection": {
         "game_pk": 823098,
-        "generated_at": "2026-08-26T02:02:18.558922+00:00",
+        "generated_at": "2026-08-26T03:04:40.656846+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.13,
         "away_exp_runs": 4.56,
@@ -90444,40 +90438,40 @@
         "spread_line": 1.5,
         "spread_cover_prob": 0.317,
         "total_line": 8.5,
-        "over_prob": 0.463,
+        "over_prob": 0.464,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
         "spread_pick_prob": 0.614,
         "total_pick": "under",
-        "total_pick_prob": 0.537,
+        "total_pick_prob": 0.536,
         "spread_favorite": "away"
       },
       "highlights": [
         {
-          "title": "Aaron Nola strikes out Josh Naylor",
+          "title": "Ball 4 overturned following ABS challenge",
+          "duration": "00:00:25",
+          "video_url": "https://bdata-producedclips.mlb.com/88df6d68-cef0-42f3-9e5b-48238158ec2c.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/gplgav9dr5wmdrdxejad.jpg"
+        },
+        {
+          "title": "Ball 1 overturned following ABS challenge",
+          "duration": "00:00:24",
+          "video_url": "https://bdata-producedclips.mlb.com/6fe24493-3b47-4a68-b2d6-f4d57830e075.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/wxiaaxsxq3yrll1v4yuw.jpg"
+        },
+        {
+          "title": "George Kirby strikes out Bryson Stott",
           "duration": "00:00:06",
-          "video_url": "https://bdata-producedclips.mlb.com/ab989ed1-b909-42af-a713-b732e70f9c23.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/kjslmvo8rmtgh8ffqyzw.jpg"
+          "video_url": "https://bdata-producedclips.mlb.com/b7772869-96b5-442e-bd0e-d0f5b377ec25.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/yhhazlletakkdb3plzfy.jpg"
         },
         {
-          "title": "Dominic Canzone's leaping grab",
-          "duration": "00:00:22",
-          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-08/25/78067a74-9c345c30-6834b0fc-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/pi8tab5o2jzdyncr9l8j.jpg"
-        },
-        {
-          "title": "Starting lineups for Phillies at Mariners - August 25, 2026",
-          "duration": "00:00:10",
-          "video_url": "https://darkroom-clips.mlb.com/d62763b4-0fb5-4a7b-bcb0-0b1627524777.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/yqyetjvwk8pvqhuaucls.jpg"
-        },
-        {
-          "title": "Bench availability for Philadelphia, August 25 vs Mariners",
-          "duration": "00:00:08",
-          "video_url": "https://darkroom-clips.mlb.com/7eae3d49-ccbd-4656-8428-26b85a0e2fb4.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/y8xyhhyvs15cdfqwl6xw.jpg"
+          "title": "Cal Raleigh's solo home run (18)",
+          "duration": "00:00:31",
+          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-08/25/bf33ef43-8c0b75ee-a1900678-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/pwrfdqmxjlanwf2zfpdu.jpg"
         }
       ],
       "home": {
@@ -99631,25 +99625,37 @@
       },
       "projection": {
         "game_pk": 823259,
-        "generated_at": "2026-08-26T02:02:18.558922+00:00",
+        "generated_at": "2026-08-26T03:04:40.656846+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.91,
         "away_exp_runs": 3.42,
-        "home_win_prob": 0.548,
+        "home_win_prob": 0.547,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.377,
+        "spread_cover_prob": 0.376,
         "total_line": 6.5,
-        "over_prob": 0.531,
+        "over_prob": 0.533,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.623,
+        "spread_pick_prob": 0.624,
         "total_pick": "over",
-        "total_pick_prob": 0.531,
+        "total_pick_prob": 0.533,
         "spread_favorite": "home"
       },
       "highlights": [
+        {
+          "title": "Strike 2 overturned after ABS challenge",
+          "duration": "00:00:25",
+          "video_url": "https://bdata-producedclips.mlb.com/2a73da5f-fd31-4706-8883-edb739342edd.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/mtkz3bpfvvzj10q2t40w.jpg"
+        },
+        {
+          "title": "Luis Campusano catches Jake Mangum stealing second",
+          "duration": "00:00:09",
+          "video_url": "https://bdata-producedclips.mlb.com/87ff496b-1605-4807-86b0-283db6c776a9.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/mflo173rssytvam9wtzi.jpg"
+        },
         {
           "title": "Paul Skenes' first strikeout of the game",
           "duration": "00:00:08",
@@ -99660,19 +99666,7 @@
           "title": "Call overturned after ABS challenge in the 1st",
           "duration": "00:00:24",
           "video_url": "https://bdata-producedclips.mlb.com/0baeeedc-2bc7-435e-95da-31be3fd74640.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/rh2get8rygup6robdbg4.jpg"
-        },
-        {
-          "title": "Call confirmed following ABS challenge in 1st",
-          "duration": "00:00:23",
-          "video_url": "https://bdata-producedclips.mlb.com/fdf6617a-5092-4569-9ff9-48128f2da827.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/sdyirjmvw6ezazr8qlix.jpg"
-        },
-        {
-          "title": "Michael King's first strikeout of the game",
-          "duration": "00:00:07",
-          "video_url": "https://bdata-producedclips.mlb.com/75143048-696e-42d9-9fbc-644a9543fdc9.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/x8jgshczdzbr2woekwte.jpg"
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/p23renevrlv1nqbicesc.jpg"
         }
       ],
       "home": {
@@ -108842,48 +108836,48 @@
       },
       "projection": {
         "game_pk": 824962,
-        "generated_at": "2026-08-26T02:02:18.558922+00:00",
+        "generated_at": "2026-08-26T03:04:40.656846+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.12,
         "away_exp_runs": 5.46,
         "home_win_prob": 0.395,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.266,
+        "spread_cover_prob": 0.265,
         "total_line": 8.5,
-        "over_prob": 0.536,
+        "over_prob": 0.537,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
         "spread_pick_prob": 0.535,
         "total_pick": "over",
-        "total_pick_prob": 0.536,
+        "total_pick_prob": 0.537,
         "spread_favorite": "away"
       },
       "highlights": [
         {
-          "title": "Taj Bradley strikes out Henry Bolte",
+          "title": "Taj Bradley completes immaculate inning",
           "duration": "00:00:07",
-          "video_url": "https://bdata-producedclips.mlb.com/8e9cb232-7ab0-40d2-8c84-f33f4d7ec9a4.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/xirizjecnfejy9vc2mlf.jpg"
+          "video_url": "https://bdata-producedclips.mlb.com/51bc50bf-7de3-4385-ad0e-4d93b49c9793.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/vihwihpchtmtkrl7gbe2.jpg"
         },
         {
-          "title": "Ball 3 overturned after ABS challenge",
-          "duration": "00:00:24",
-          "video_url": "https://bdata-producedclips.mlb.com/41b75d98-3df6-413d-b438-7e47220cb97c.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/ekzd3lowf9bricithbrd.jpg"
+          "title": "Strike 1 is overturned after ABS challenge",
+          "duration": "00:00:22",
+          "video_url": "https://bdata-producedclips.mlb.com/b861f661-112c-41c0-a28d-eca5f4ddaf4a.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/ydz14indzie3xpf8k0rc.jpg"
         },
         {
-          "title": "Starting lineups for Twins at Athletics - August 25, 2026",
-          "duration": "00:00:10",
-          "video_url": "https://darkroom-clips.mlb.com/6736fda2-9e50-4181-9e95-1d0953e10322.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/anpopf1oljfayxcf9tgj.jpg"
+          "title": "Ball 2 is overturned after ABS challenge",
+          "duration": "00:00:21",
+          "video_url": "https://bdata-producedclips.mlb.com/aede09a8-73f2-4ee9-9c99-51ee16e90d78.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/pqnjncq7wg9wzis7ppzz.jpg"
         },
         {
-          "title": "Bench availability for Athletics, August 25 vs Twins",
-          "duration": "00:00:08",
-          "video_url": "https://darkroom-clips.mlb.com/bc3a1f08-be6f-4b98-9ce5-5da1a80baf80.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/at3h0fdwq6b8kyi7uhwy.jpg"
+          "title": "Carlos Cortes' two-run home run (8)",
+          "duration": "00:00:17",
+          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-08/25/1ab49133-05cac230-d998a756-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/kpdmoysmw47fijwnyuyl.jpg"
         }
       ],
       "home": {
@@ -118198,7 +118192,7 @@
       },
       "projection": {
         "game_pk": 825042,
-        "generated_at": "2026-08-26T02:02:18.558922+00:00",
+        "generated_at": "2026-08-26T03:04:40.656846+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.26,
         "away_exp_runs": 5.22,
@@ -118206,40 +118200,40 @@
         "spread_line": 1.5,
         "spread_cover_prob": 0.201,
         "total_line": 7.5,
-        "over_prob": 0.535,
+        "over_prob": 0.534,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "away",
-        "spread_pick_prob": 0.516,
+        "spread_pick_prob": 0.515,
         "total_pick": "over",
-        "total_pick_prob": 0.535,
+        "total_pick_prob": 0.534,
         "spread_favorite": "away"
       },
       "highlights": [
         {
-          "title": "Brandon Pfaadt strikes out Alex Bregman",
-          "duration": "00:00:05",
-          "video_url": "https://bdata-producedclips.mlb.com/34840c52-2a42-4975-b60f-1e8c2aa2b617.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/wrfb10rzslcyxtep4a6p.jpg"
+          "title": "Michael Busch's RBI single",
+          "duration": "00:00:20",
+          "video_url": "https://bdata-producedclips.mlb.com/d926fe5c-dcd3-4da9-ac9f-1a012da04b36.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/bprslwxqcl8l9l7gtwvd.jpg"
         },
         {
-          "title": "Starting lineups for Cubs at Diamondbacks - August 25, 2026",
-          "duration": "00:00:10",
-          "video_url": "https://darkroom-clips.mlb.com/595fe28a-feb6-4b88-b471-2c2755e8309a.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/lxfjl48er3ubnsfo3pa5.jpg"
+          "title": "Jordan Lawler's athletic catch in center",
+          "duration": "00:00:33",
+          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-08/25/4c79cd69-66566d5b-db09737b-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/c8ppofsogbszvhfj9weh.jpg"
         },
         {
-          "title": "Bench availability for Chicago, August 25 vs D-backs",
-          "duration": "00:00:08",
-          "video_url": "https://darkroom-clips.mlb.com/357f88c5-9674-452e-8f67-7e9682e53f20.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/vefot1ah6rr6fyj5owyc.jpg"
+          "title": "Ian Happ's three-run home run (23)",
+          "duration": "00:00:28",
+          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-08/25/b37b720f-f0976ebf-bd657796-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/jtthtsjbygwu1nihhckv.jpg"
         },
         {
-          "title": "Bench availability for Arizona, August 25 vs Cubs",
-          "duration": "00:00:08",
-          "video_url": "https://darkroom-clips.mlb.com/bb9ffbd8-0017-4be3-821d-6e919c0a9f4c.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/fhdqw8du7kdfp8n9db8w.jpg"
+          "title": "Clay Holmes strikes out Max Kepler",
+          "duration": "00:00:06",
+          "video_url": "https://bdata-producedclips.mlb.com/dd852d53-48a1-4204-aae0-d19dfd4203f5.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/kjxxaia0mh1wgjp5fsvh.jpg"
         }
       ],
       "home": {
@@ -127384,11 +127378,11 @@
       },
       "projection": {
         "game_pk": 823181,
-        "generated_at": "2026-08-26T02:02:18.558922+00:00",
+        "generated_at": "2026-08-26T03:04:40.656846+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.84,
         "away_exp_runs": 3.79,
-        "home_win_prob": 0.504,
+        "home_win_prob": 0.505,
         "spread_line": 1.5,
         "spread_cover_prob": 0.341,
         "total_line": 7.5,
@@ -127404,28 +127398,28 @@
       },
       "highlights": [
         {
-          "title": "Drew Cavanuagh's RBI single ",
-          "duration": "00:00:20",
-          "video_url": "https://bdata-producedclips.mlb.com/061ad3f1-2199-4044-8554-37ed6c68f6a6.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/hnheiboqwjpkoshdr1a0.jpg"
+          "title": "Ball 2 is overturned after ABS challenge ",
+          "duration": "00:00:22",
+          "video_url": "https://bdata-producedclips.mlb.com/813abb10-da9d-4f49-8be4-fb372c459ab5.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/ozvldnfhvvaacpsbmmep.jpg"
         },
         {
-          "title": "Strike 1 is confirmed after ABS challenge ",
-          "duration": "00:00:23",
-          "video_url": "https://bdata-producedclips.mlb.com/80b0843f-aa94-42e9-9a87-c54bb23f843a.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/d6rjzsjsdxmpskvy90gr.jpg"
+          "title": "Rafael Devers' solo homer (28)",
+          "duration": "00:00:29",
+          "video_url": "https://bdata-producedclips.mlb.com/8ac90a4d-536c-4130-946f-e43526ab1ce3.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/nl1ichgczvpo5tvsh2gc.jpg"
         },
         {
-          "title": "Adrian Houser K's Tyler Stephenson",
-          "duration": "00:00:07",
-          "video_url": "https://bdata-producedclips.mlb.com/510e07e7-814f-4f24-9dee-a0fea3f19d0d.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/iwmruzlzx4df8lvk6i99.jpg"
+          "title": "Drew Gilbert stays in game after running catch",
+          "duration": "00:00:38",
+          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-08/25/008a339e-f406cbe2-c6e1cac4-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/kz6uk2fotj0ya7f954ab.jpg"
         },
         {
-          "title": "Starting lineups for Reds at Giants - August 25, 2026",
-          "duration": "00:00:10",
-          "video_url": "https://darkroom-clips.mlb.com/efedf66e-bbf4-4886-916d-e9ea98a74448.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/wfan9o5q1c3cf7g3oz1z.jpg"
+          "title": "Nate Furman singles for first Major League hit!",
+          "duration": "00:00:32",
+          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-08/25/46b84162-a67a1e67-1f867b40-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/d3k1idn8qteidtl1orhp.jpg"
         }
       ],
       "home": {
@@ -136480,22 +136474,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 824234,
-        "generated_at": "2026-08-26T02:02:18.558922+00:00",
+        "generated_at": "2026-08-26T03:04:40.656846+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.57,
         "away_exp_runs": 2.69,
-        "home_win_prob": 0.679,
+        "home_win_prob": 0.68,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.508,
+        "spread_cover_prob": 0.509,
         "total_line": 6.5,
-        "over_prob": 0.523,
+        "over_prob": 0.522,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "home",
-        "spread_pick_prob": 0.508,
+        "spread_pick_prob": 0.509,
         "total_pick": "over",
-        "total_pick_prob": 0.523,
+        "total_pick_prob": 0.522,
         "spread_favorite": "home"
       },
       "highlights": [],
@@ -145551,22 +145545,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 825039,
-        "generated_at": "2026-08-26T02:02:18.558922+00:00",
+        "generated_at": "2026-08-26T03:04:40.656846+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.66,
         "away_exp_runs": 4.39,
-        "home_win_prob": 0.521,
+        "home_win_prob": 0.522,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.375,
+        "spread_cover_prob": 0.377,
         "total_line": 8.5,
-        "over_prob": 0.494,
+        "over_prob": 0.495,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.625,
+        "spread_pick_prob": 0.623,
         "total_pick": "under",
-        "total_pick_prob": 0.506,
+        "total_pick_prob": 0.505,
         "spread_favorite": "home"
       },
       "highlights": [],
@@ -154572,7 +154566,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 823180,
-        "generated_at": "2026-08-26T02:02:18.558922+00:00",
+        "generated_at": "2026-08-26T03:04:40.656846+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.82,
         "away_exp_runs": 3.69,
@@ -163555,11 +163549,11 @@
       "live_score": null,
       "projection": {
         "game_pk": 823988,
-        "generated_at": "2026-08-26T02:02:18.558922+00:00",
+        "generated_at": "2026-08-26T03:04:40.656846+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.09,
         "away_exp_runs": 4.7,
-        "home_win_prob": 0.353,
+        "home_win_prob": 0.352,
         "spread_line": 1.5,
         "spread_cover_prob": 0.209,
         "total_line": 7.5,
@@ -163568,7 +163562,7 @@
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
-        "spread_pick_prob": 0.516,
+        "spread_pick_prob": 0.515,
         "total_pick": "under",
         "total_pick_prob": 0.527,
         "spread_favorite": "away"
@@ -172610,22 +172604,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 823096,
-        "generated_at": "2026-08-26T02:02:18.558922+00:00",
+        "generated_at": "2026-08-26T03:04:40.656846+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 2.93,
         "away_exp_runs": 4.37,
-        "home_win_prob": 0.361,
+        "home_win_prob": 0.362,
         "spread_line": 1.5,
         "spread_cover_prob": 0.21,
         "total_line": 6.5,
-        "over_prob": 0.526,
+        "over_prob": 0.528,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
-        "spread_pick_prob": 0.533,
+        "spread_pick_prob": 0.534,
         "total_pick": "over",
-        "total_pick_prob": 0.526,
+        "total_pick_prob": 0.528,
         "spread_favorite": "away"
       },
       "highlights": [],
@@ -181657,7 +181651,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 823255,
-        "generated_at": "2026-08-26T02:02:18.558922+00:00",
+        "generated_at": "2026-08-26T03:04:40.656846+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.99,
         "away_exp_runs": 3.33,
@@ -190305,22 +190299,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 823825,
-        "generated_at": "2026-08-26T02:02:18.558922+00:00",
+        "generated_at": "2026-08-26T03:04:40.656846+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 2.53,
         "away_exp_runs": 4.34,
-        "home_win_prob": 0.32,
+        "home_win_prob": 0.319,
         "spread_line": 1.5,
         "spread_cover_prob": 0.171,
         "total_line": 6.5,
-        "over_prob": 0.483,
+        "over_prob": 0.481,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "away",
-        "spread_pick_prob": 0.501,
+        "spread_pick_prob": 0.503,
         "total_pick": "under",
-        "total_pick_prob": 0.517,
+        "total_pick_prob": 0.519,
         "spread_favorite": "away"
       },
       "highlights": [],
@@ -190690,11 +190684,11 @@
           "fatigue_ratio": 1.51
         },
         "form": {
-          "streak": -1,
+          "streak": -2,
           "record_games": 10,
           "wins": 5,
           "losses": 5,
-          "run_diff": 8
+          "run_diff": 5
         },
         "batters": [
           {
@@ -195162,11 +195156,11 @@
           "fatigue_ratio": 1.01
         },
         "form": {
-          "streak": 4,
+          "streak": 5,
           "record_games": 10,
-          "wins": 7,
-          "losses": 3,
-          "run_diff": 15
+          "wins": 8,
+          "losses": 2,
+          "run_diff": 23
         },
         "batters": [
           {
@@ -199335,22 +199329,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 822692,
-        "generated_at": "2026-08-26T02:02:18.558922+00:00",
+        "generated_at": "2026-08-26T03:04:40.656846+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 6.21,
-        "away_exp_runs": 5.16,
-        "home_win_prob": 0.572,
+        "away_exp_runs": 5.3,
+        "home_win_prob": 0.562,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.45,
+        "spread_cover_prob": 0.441,
         "total_line": 10.5,
-        "over_prob": 0.51,
+        "over_prob": 0.52,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.55,
+        "spread_pick_prob": 0.559,
         "total_pick": "over",
-        "total_pick_prob": 0.51,
+        "total_pick_prob": 0.52,
         "spread_favorite": "home"
       },
       "highlights": [],
@@ -199358,7 +199352,355 @@
         "team_id": 120,
         "team_name": "Washington Nationals",
         "lineup_confirmed": false,
-        "probable_pitcher": null,
+        "probable_pitcher": {
+          "player_id": 663362,
+          "name": "Matt Waldron",
+          "pitch_hand": "R",
+          "position": "P",
+          "injury": null,
+          "lineup_confirmed": false,
+          "workload_tier": "reliever",
+          "l3": {
+            "games": 3,
+            "outs": 10,
+            "hits": 7,
+            "earned_runs": 5,
+            "runs": 5,
+            "base_on_balls": 2,
+            "strike_outs": 2,
+            "home_runs": 0,
+            "batters_faced": 19,
+            "wins": 0,
+            "losses": 0,
+            "innings_pitched": 3.3,
+            "era": 13.5,
+            "whip": 2.7
+          },
+          "l5": {
+            "games": 5,
+            "outs": 19,
+            "hits": 10,
+            "earned_runs": 6,
+            "runs": 6,
+            "base_on_balls": 2,
+            "strike_outs": 4,
+            "home_runs": 0,
+            "batters_faced": 30,
+            "wins": 0,
+            "losses": 0,
+            "innings_pitched": 6.3,
+            "era": 8.53,
+            "whip": 1.89
+          },
+          "season": {
+            "games": 14,
+            "outs": 111,
+            "hits": 50,
+            "earned_runs": 31,
+            "runs": 31,
+            "base_on_balls": 10,
+            "strike_outs": 31,
+            "home_runs": 7,
+            "batters_faced": 169,
+            "wins": 1,
+            "losses": 2,
+            "innings_pitched": 37.0,
+            "era": 7.54,
+            "whip": 1.62
+          },
+          "form_trend": null,
+          "home_away": {
+            "this_game": "home",
+            "home": {
+              "games": 3,
+              "outs": 25,
+              "hits": 11,
+              "earned_runs": 6,
+              "runs": 6,
+              "base_on_balls": 3,
+              "strike_outs": 5,
+              "home_runs": 1,
+              "batters_faced": 39,
+              "wins": 0,
+              "losses": 0,
+              "innings_pitched": 8.3,
+              "era": 6.48,
+              "whip": 1.68
+            },
+            "away": {
+              "games": 11,
+              "outs": 86,
+              "hits": 39,
+              "earned_runs": 25,
+              "runs": 25,
+              "base_on_balls": 7,
+              "strike_outs": 26,
+              "home_runs": 6,
+              "batters_faced": 130,
+              "wins": 1,
+              "losses": 2,
+              "innings_pitched": 28.7,
+              "era": 7.85,
+              "whip": 1.6
+            }
+          },
+          "splits_vs_lhb": {
+            "vs_hand": "vl",
+            "season": {
+              "player_id": 663362,
+              "split_code": "vl",
+              "season": 2026,
+              "games": 14,
+              "innings_pitched": "21.0",
+              "outs": 63,
+              "hits": 30,
+              "earned_runs": null,
+              "runs": null,
+              "base_on_balls": 7,
+              "strike_outs": 20,
+              "home_runs": 5,
+              "batters_faced": 96,
+              "era": null,
+              "whip": 1.76,
+              "avg_against": 0.345
+            },
+            "career": {
+              "player_id": 663362,
+              "split_code": "vl",
+              "season": 0,
+              "games": 50,
+              "innings_pitched": "117.0",
+              "outs": 351,
+              "hits": 126,
+              "earned_runs": null,
+              "runs": null,
+              "base_on_balls": 46,
+              "strike_outs": 101,
+              "home_runs": 19,
+              "batters_faced": 517,
+              "era": null,
+              "whip": 1.47,
+              "avg_against": 0.274
+            }
+          },
+          "splits_vs_rhb": {
+            "vs_hand": "vr",
+            "season": {
+              "player_id": 663362,
+              "split_code": "vr",
+              "season": 2026,
+              "games": 14,
+              "innings_pitched": "16.0",
+              "outs": 48,
+              "hits": 20,
+              "earned_runs": null,
+              "runs": null,
+              "base_on_balls": 3,
+              "strike_outs": 11,
+              "home_runs": 2,
+              "batters_faced": 73,
+              "era": null,
+              "whip": 1.44,
+              "avg_against": 0.303
+            },
+            "career": {
+              "player_id": 663362,
+              "split_code": "vr",
+              "season": 0,
+              "games": 50,
+              "innings_pitched": "111.2",
+              "outs": 335,
+              "hits": 114,
+              "earned_runs": null,
+              "runs": null,
+              "base_on_balls": 22,
+              "strike_outs": 97,
+              "home_runs": 19,
+              "batters_faced": 475,
+              "era": null,
+              "whip": 1.22,
+              "avg_against": 0.259
+            }
+          },
+          "headlines": [],
+          "prop_categories": [
+            {
+              "label": "Strikeouts",
+              "average": 0.8,
+              "primary_line": 1.5,
+              "today_projection": 1.65,
+              "lean": null,
+              "hit_rates": [
+                {
+                  "line": 1.5,
+                  "pct": 0,
+                  "n": 5
+                }
+              ],
+              "values": [
+                1,
+                1,
+                0,
+                1,
+                1
+              ],
+              "dates": [
+                "2026-07-25",
+                "2026-08-07",
+                "2026-08-08",
+                "2026-08-12",
+                "2026-08-18"
+              ]
+            },
+            {
+              "label": "Outs Recorded",
+              "average": 3.8,
+              "primary_line": 6.5,
+              "today_projection": 6.28,
+              "lean": "under",
+              "hit_rates": [
+                {
+                  "line": 6.5,
+                  "pct": 0,
+                  "n": 5
+                }
+              ],
+              "values": [
+                6,
+                3,
+                3,
+                1,
+                6
+              ],
+              "dates": [
+                "2026-07-25",
+                "2026-08-07",
+                "2026-08-08",
+                "2026-08-12",
+                "2026-08-18"
+              ]
+            },
+            {
+              "label": "Runs Allowed",
+              "average": 1.2,
+              "primary_line": 1.5,
+              "today_projection": 1.81,
+              "lean": "over",
+              "hit_rates": [
+                {
+                  "line": 1.5,
+                  "pct": 40,
+                  "n": 5
+                }
+              ],
+              "values": [
+                1,
+                0,
+                0,
+                3,
+                2
+              ],
+              "dates": [
+                "2026-07-25",
+                "2026-08-07",
+                "2026-08-08",
+                "2026-08-12",
+                "2026-08-18"
+              ]
+            },
+            {
+              "label": "Hits Allowed",
+              "average": 2.0,
+              "primary_line": 2.5,
+              "today_projection": 2.94,
+              "lean": "over",
+              "hit_rates": [
+                {
+                  "line": 2.5,
+                  "pct": 60,
+                  "n": 5
+                }
+              ],
+              "values": [
+                3,
+                0,
+                0,
+                3,
+                4
+              ],
+              "dates": [
+                "2026-07-25",
+                "2026-08-07",
+                "2026-08-08",
+                "2026-08-12",
+                "2026-08-18"
+              ]
+            },
+            {
+              "label": "Walks Allowed",
+              "average": 0.4,
+              "primary_line": 0.5,
+              "today_projection": 0.59,
+              "lean": null,
+              "hit_rates": [
+                {
+                  "line": 0.5,
+                  "pct": 40,
+                  "n": 5
+                }
+              ],
+              "values": [
+                0,
+                0,
+                1,
+                1,
+                0
+              ],
+              "dates": [
+                "2026-07-25",
+                "2026-08-07",
+                "2026-08-08",
+                "2026-08-12",
+                "2026-08-18"
+              ]
+            }
+          ],
+          "best_over": null,
+          "best_under": {
+            "label": "Outs Recorded",
+            "line": 6.5,
+            "pct": 0,
+            "n": 5,
+            "season_pct": 86,
+            "delta": -86
+          },
+          "best_prop": {
+            "label": "Outs Recorded",
+            "line": 6.5,
+            "pct": 0,
+            "n": 5,
+            "season_pct": 86,
+            "delta": -86
+          },
+          "best_prop_direction": "under",
+          "matchup_lean": {
+            "label": "Hits Allowed",
+            "line": 2.5,
+            "direction": "over",
+            "projection": 2.94
+          },
+          "opponent_matchup": {
+            "tough_matchups": [],
+            "exploitable_matchups": []
+          },
+          "game_result": null,
+          "opponent_recent_k_rate": {
+            "games": 2,
+            "recent_k_rate": 0.317,
+            "season_k_rate": 0.254,
+            "elevated": true
+          }
+        },
         "opponent_bullpen_fatigue": {
           "recent_innings": 5.3,
           "season_daily_avg": 2.92,
@@ -203443,7 +203785,7 @@
             "description": "Washington Nationals placed RF James Wood on the 10-day injured list. Left oblique strain."
           }
         ],
-        "star_player_id": 696285,
+        "star_player_id": 663362,
         "ai_summary": "The Washington Nationals hold a 62-71 record through 133 games and are mired in a tough stretch, going 2-8 over their last ten with a -3 run differential despite a current one-game win streak. Team batting is better than league average at .250 AVG, .435 SLG, and 179 home runs, but pitching is worse than league average with a 4.47 ERA and 1.34 WHIP. Bettors should also factor in that James Wood is currently on the injured list."
       },
       "away": {
@@ -203939,7 +204281,7 @@
               "pitcher_era_vs_hand": null,
               "favorable": null,
               "unfavorable": null,
-              "bullpen_game": false
+              "bullpen_game": true
             },
             "home_away": {
               "this_game": "away",
@@ -204394,7 +204736,7 @@
               "pitcher_era_vs_hand": null,
               "favorable": null,
               "unfavorable": null,
-              "bullpen_game": false
+              "bullpen_game": true
             },
             "home_away": {
               "this_game": "away",
@@ -204856,7 +205198,7 @@
               "pitcher_era_vs_hand": null,
               "favorable": null,
               "unfavorable": null,
-              "bullpen_game": false
+              "bullpen_game": true
             },
             "home_away": {
               "this_game": "away",
@@ -205303,7 +205645,7 @@
               "pitcher_era_vs_hand": null,
               "favorable": null,
               "unfavorable": null,
-              "bullpen_game": false
+              "bullpen_game": true
             },
             "home_away": {
               "this_game": "away",
@@ -205758,7 +206100,7 @@
               "pitcher_era_vs_hand": null,
               "favorable": null,
               "unfavorable": null,
-              "bullpen_game": false
+              "bullpen_game": true
             },
             "home_away": {
               "this_game": "away",
@@ -206205,7 +206547,7 @@
               "pitcher_era_vs_hand": null,
               "favorable": null,
               "unfavorable": null,
-              "bullpen_game": false
+              "bullpen_game": true
             },
             "home_away": {
               "this_game": "away",
@@ -206660,7 +207002,7 @@
               "pitcher_era_vs_hand": null,
               "favorable": null,
               "unfavorable": null,
-              "bullpen_game": false
+              "bullpen_game": true
             },
             "home_away": {
               "this_game": "away",
@@ -207115,7 +207457,7 @@
               "pitcher_era_vs_hand": null,
               "favorable": null,
               "unfavorable": null,
-              "bullpen_game": false
+              "bullpen_game": true
             },
             "home_away": {
               "this_game": "away",
@@ -207562,7 +207904,7 @@
               "pitcher_era_vs_hand": null,
               "favorable": null,
               "unfavorable": null,
-              "bullpen_game": false
+              "bullpen_game": true
             },
             "home_away": {
               "this_game": "away",
@@ -207927,7 +208269,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 823506,
-        "generated_at": "2026-08-26T02:02:18.558922+00:00",
+        "generated_at": "2026-08-26T03:04:40.656846+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.42,
         "away_exp_runs": 3.86,
@@ -207935,14 +208277,14 @@
         "spread_line": 1.5,
         "spread_cover_prob": 0.291,
         "total_line": 6.5,
-        "over_prob": 0.528,
+        "over_prob": 0.527,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
         "spread_pick_prob": 0.629,
         "total_pick": "over",
-        "total_pick_prob": 0.528,
+        "total_pick_prob": 0.527,
         "spread_favorite": "away"
       },
       "highlights": [],
@@ -207957,11 +208299,11 @@
           "fatigue_ratio": 0.0
         },
         "form": {
-          "streak": 1,
+          "streak": -1,
           "record_games": 10,
           "wins": 6,
           "losses": 4,
-          "run_diff": 10
+          "run_diff": 9
         },
         "batters": [
           {
@@ -212461,11 +212803,11 @@
           "fatigue_ratio": 0.0
         },
         "form": {
-          "streak": -2,
+          "streak": 1,
           "record_games": 10,
           "wins": 4,
           "losses": 6,
-          "run_diff": -16
+          "run_diff": -15
         },
         "batters": [
           {
@@ -216609,7 +216951,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 822772,
-        "generated_at": "2026-08-26T02:02:18.558922+00:00",
+        "generated_at": "2026-08-26T03:04:40.656846+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 2.37,
         "away_exp_runs": 3.76,
@@ -216639,11 +216981,11 @@
           "fatigue_ratio": 0.0
         },
         "form": {
-          "streak": -1,
+          "streak": -2,
           "record_games": 10,
           "wins": 5,
           "losses": 5,
-          "run_diff": -1
+          "run_diff": 4
         },
         "batters": [
           {
@@ -221157,11 +221499,11 @@
           "fatigue_ratio": 0.0
         },
         "form": {
-          "streak": 8,
+          "streak": 9,
           "record_games": 10,
           "wins": 9,
           "losses": 1,
-          "run_diff": 23
+          "run_diff": 24
         },
         "batters": [
           {
@@ -225317,20 +225659,20 @@
       "live_score": null,
       "projection": {
         "game_pk": 823584,
-        "generated_at": "2026-08-26T02:02:18.558922+00:00",
+        "generated_at": "2026-08-26T03:04:40.656846+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.66,
         "away_exp_runs": 4.32,
         "home_win_prob": 0.44,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.287,
+        "spread_cover_prob": 0.286,
         "total_line": 7.5,
         "over_prob": 0.491,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
-        "spread_pick_prob": 0.602,
+        "spread_pick_prob": 0.601,
         "total_pick": "under",
         "total_pick_prob": 0.509,
         "spread_favorite": "away"
@@ -225695,11 +226037,11 @@
           "fatigue_ratio": 0.0
         },
         "form": {
-          "streak": -1,
+          "streak": 1,
           "record_games": 10,
-          "wins": 6,
-          "losses": 4,
-          "run_diff": 4
+          "wins": 7,
+          "losses": 3,
+          "run_diff": 8
         },
         "batters": [
           {
@@ -230204,11 +230546,11 @@
           "fatigue_ratio": 0.0
         },
         "form": {
-          "streak": -1,
+          "streak": -2,
           "record_games": 10,
-          "wins": 7,
-          "losses": 3,
-          "run_diff": 31
+          "wins": 6,
+          "losses": 4,
+          "run_diff": 29
         },
         "batters": [
           {
@@ -234321,11 +234663,11 @@
       "live_score": null,
       "projection": {
         "game_pk": 824878,
-        "generated_at": "2026-08-26T02:02:18.558922+00:00",
+        "generated_at": "2026-08-26T03:04:40.656846+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.99,
         "away_exp_runs": 4.11,
-        "home_win_prob": 0.489,
+        "home_win_prob": 0.49,
         "spread_line": 1.5,
         "spread_cover_prob": 0.333,
         "total_line": 7.5,
@@ -243333,20 +243675,20 @@
       "live_score": null,
       "projection": {
         "game_pk": 824555,
-        "generated_at": "2026-08-26T02:02:18.558922+00:00",
+        "generated_at": "2026-08-26T03:04:40.656846+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.37,
         "away_exp_runs": 3.01,
         "home_win_prob": 0.63,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.46,
+        "spread_cover_prob": 0.459,
         "total_line": 6.5,
         "over_prob": 0.535,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.54,
+        "spread_pick_prob": 0.541,
         "total_pick": "over",
         "total_pick_prob": 0.535,
         "spread_favorite": "home"
@@ -243718,11 +244060,11 @@
           "fatigue_ratio": 0.94
         },
         "form": {
-          "streak": -1,
+          "streak": 1,
           "record_games": 10,
           "wins": 5,
           "losses": 5,
-          "run_diff": -10
+          "run_diff": -7
         },
         "batters": [
           {
@@ -248215,11 +248557,11 @@
           "fatigue_ratio": 0.92
         },
         "form": {
-          "streak": 2,
+          "streak": -1,
           "record_games": 10,
           "wins": 6,
           "losses": 4,
-          "run_diff": 4
+          "run_diff": 5
         },
         "batters": [
           {
@@ -252332,20 +252674,20 @@
       "live_score": null,
       "projection": {
         "game_pk": 823015,
-        "generated_at": "2026-08-26T02:02:18.558922+00:00",
+        "generated_at": "2026-08-26T03:04:40.656846+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.37,
         "away_exp_runs": 3.71,
-        "home_win_prob": 0.466,
+        "home_win_prob": 0.465,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.296,
+        "spread_cover_prob": 0.295,
         "total_line": 6.5,
         "over_prob": 0.507,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
-        "spread_pick_prob": 0.641,
+        "spread_pick_prob": 0.64,
         "total_pick": "over",
         "total_pick_prob": 0.507,
         "spread_favorite": "away"
@@ -252717,11 +253059,11 @@
           "fatigue_ratio": 0.0
         },
         "form": {
-          "streak": -3,
+          "streak": -4,
           "record_games": 10,
-          "wins": 5,
-          "losses": 5,
-          "run_diff": 2
+          "wins": 4,
+          "losses": 6,
+          "run_diff": -14
         },
         "batters": [
           {
@@ -257232,11 +257574,11 @@
           "fatigue_ratio": 0.0
         },
         "form": {
-          "streak": -1,
+          "streak": 1,
           "record_games": 10,
           "wins": 5,
           "losses": 5,
-          "run_diff": 1
+          "run_diff": 12
         },
         "batters": [
           {
@@ -261373,11 +261715,11 @@
       "live_score": null,
       "projection": {
         "game_pk": 824963,
-        "generated_at": "2026-08-26T02:02:18.558922+00:00",
+        "generated_at": "2026-08-26T03:04:40.656846+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 5.14,
         "away_exp_runs": 4.97,
-        "home_win_prob": 0.513,
+        "home_win_prob": 0.514,
         "spread_line": 1.5,
         "spread_cover_prob": 0.38,
         "total_line": 9.5,
@@ -270441,20 +270783,20 @@
       "live_score": null,
       "projection": {
         "game_pk": 822694,
-        "generated_at": "2026-08-26T02:02:18.558922+00:00",
+        "generated_at": "2026-08-26T03:04:40.656846+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 6.71,
         "away_exp_runs": 5.17,
         "home_win_prob": 0.603,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.486,
+        "spread_cover_prob": 0.485,
         "total_line": 11.5,
         "over_prob": 0.473,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.514,
+        "spread_pick_prob": 0.515,
         "total_pick": "under",
         "total_pick_prob": 0.527,
         "spread_favorite": "home"
@@ -279395,7 +279737,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 823014,
-        "generated_at": "2026-08-26T02:02:18.558922+00:00",
+        "generated_at": "2026-08-26T03:04:40.656846+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.56,
         "away_exp_runs": 4.19,
@@ -279403,14 +279745,14 @@
         "spread_line": 1.5,
         "spread_cover_prob": 0.284,
         "total_line": 7.5,
-        "over_prob": 0.469,
+        "over_prob": 0.47,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
-        "spread_pick_prob": 0.607,
+        "spread_pick_prob": 0.606,
         "total_pick": "under",
-        "total_pick_prob": 0.531,
+        "total_pick_prob": 0.53,
         "spread_favorite": "away"
       },
       "highlights": [],
@@ -279425,11 +279767,11 @@
           "fatigue_ratio": 0.0
         },
         "form": {
-          "streak": -3,
+          "streak": -4,
           "record_games": 10,
-          "wins": 5,
-          "losses": 5,
-          "run_diff": 2
+          "wins": 4,
+          "losses": 6,
+          "run_diff": -14
         },
         "batters": [
           {
@@ -283937,11 +284279,11 @@
           "fatigue_ratio": 0.0
         },
         "form": {
-          "streak": -1,
+          "streak": 1,
           "record_games": 10,
           "wins": 5,
           "losses": 5,
-          "run_diff": 1
+          "run_diff": 12
         },
         "batters": [
           {
@@ -288078,11 +288420,11 @@
       "live_score": null,
       "projection": {
         "game_pk": 823503,
-        "generated_at": "2026-08-26T02:02:18.558922+00:00",
+        "generated_at": "2026-08-26T03:04:40.656846+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.74,
         "away_exp_runs": 3.14,
-        "home_win_prob": 0.561,
+        "home_win_prob": 0.56,
         "spread_line": 1.5,
         "spread_cover_prob": 0.381,
         "total_line": 6.5,
@@ -288463,11 +288805,11 @@
           "fatigue_ratio": 0.0
         },
         "form": {
-          "streak": 1,
+          "streak": -1,
           "record_games": 10,
           "wins": 6,
           "losses": 4,
-          "run_diff": 10
+          "run_diff": 9
         },
         "batters": [
           {
@@ -292960,11 +293302,11 @@
           "fatigue_ratio": 0.0
         },
         "form": {
-          "streak": -2,
+          "streak": 1,
           "record_games": 10,
           "wins": 4,
           "losses": 6,
-          "run_diff": -16
+          "run_diff": -15
         },
         "batters": [
           {
@@ -297108,22 +297450,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 822771,
-        "generated_at": "2026-08-26T02:02:18.558922+00:00",
+        "generated_at": "2026-08-26T03:04:40.656846+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.62,
         "away_exp_runs": 3.61,
-        "home_win_prob": 0.501,
+        "home_win_prob": 0.5,
         "spread_line": 1.5,
         "spread_cover_prob": 0.33,
         "total_line": 6.5,
-        "over_prob": 0.522,
+        "over_prob": 0.521,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
         "spread_pick_prob": 0.67,
         "total_pick": "over",
-        "total_pick_prob": 0.522,
+        "total_pick_prob": 0.521,
         "spread_favorite": "home"
       },
       "highlights": [],
@@ -297497,11 +297839,11 @@
           "fatigue_ratio": 0.0
         },
         "form": {
-          "streak": -1,
+          "streak": -2,
           "record_games": 10,
           "wins": 5,
           "losses": 5,
-          "run_diff": -1
+          "run_diff": 4
         },
         "batters": [
           {
@@ -302015,11 +302357,11 @@
           "fatigue_ratio": 0.0
         },
         "form": {
-          "streak": 8,
+          "streak": 9,
           "record_games": 10,
           "wins": 9,
           "losses": 1,
-          "run_diff": 23
+          "run_diff": 24
         },
         "batters": [
           {
@@ -306175,20 +306517,20 @@
       "live_score": null,
       "projection": {
         "game_pk": 823581,
-        "generated_at": "2026-08-26T02:02:18.558922+00:00",
+        "generated_at": "2026-08-26T03:04:40.656846+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 2.04,
         "away_exp_runs": 3.72,
         "home_win_prob": 0.31,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.146,
+        "spread_cover_prob": 0.147,
         "total_line": 5.5,
         "over_prob": 0.473,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
-        "spread_pick_prob": 0.512,
+        "spread_pick_prob": 0.513,
         "total_pick": "under",
         "total_pick_prob": 0.527,
         "spread_favorite": "away"
@@ -306559,11 +306901,11 @@
           "fatigue_ratio": 0.0
         },
         "form": {
-          "streak": -1,
+          "streak": 1,
           "record_games": 10,
-          "wins": 6,
-          "losses": 4,
-          "run_diff": 4
+          "wins": 7,
+          "losses": 3,
+          "run_diff": 8
         },
         "batters": [
           {
@@ -311068,11 +311410,11 @@
           "fatigue_ratio": 0.0
         },
         "form": {
-          "streak": -1,
+          "streak": -2,
           "record_games": 10,
-          "wins": 7,
-          "losses": 3,
-          "run_diff": 31
+          "wins": 6,
+          "losses": 4,
+          "run_diff": 29
         },
         "batters": [
           {
@@ -315178,20 +315520,20 @@
       "live_score": null,
       "projection": {
         "game_pk": 824879,
-        "generated_at": "2026-08-26T02:02:18.558922+00:00",
+        "generated_at": "2026-08-26T03:04:40.656846+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 2.92,
         "away_exp_runs": 2.92,
         "home_win_prob": 0.5,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.303,
+        "spread_cover_prob": 0.302,
         "total_line": 5.5,
         "over_prob": 0.486,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.697,
+        "spread_pick_prob": 0.698,
         "total_pick": "under",
         "total_pick_prob": 0.514,
         "spread_favorite": "home"
@@ -324233,7 +324575,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 823179,
-        "generated_at": "2026-08-26T02:02:18.558922+00:00",
+        "generated_at": "2026-08-26T03:04:40.656846+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.6,
         "away_exp_runs": 4.04,
@@ -324241,14 +324583,14 @@
         "spread_line": 1.5,
         "spread_cover_prob": 0.298,
         "total_line": 7.5,
-        "over_prob": 0.458,
+        "over_prob": 0.46,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
-        "spread_pick_prob": 0.625,
+        "spread_pick_prob": 0.624,
         "total_pick": "under",
-        "total_pick_prob": 0.542,
+        "total_pick_prob": 0.54,
         "spread_favorite": "away"
       },
       "highlights": [],
@@ -332612,7 +332954,7 @@
           "delta": 34
         },
         "result": null,
-        "dnp": true
+        "dnp": false
       },
       {
         "role": "batter",
@@ -332824,7 +333166,7 @@
           "delta": 26
         },
         "result": null,
-        "dnp": true
+        "dnp": false
       },
       {
         "role": "batter",
@@ -332851,7 +333193,7 @@
           "delta": 43
         },
         "result": null,
-        "dnp": true
+        "dnp": false
       },
       {
         "role": "batter",
@@ -332905,7 +333247,7 @@
           "delta": 8
         },
         "result": null,
-        "dnp": true
+        "dnp": false
       },
       {
         "role": "batter",
@@ -332932,7 +333274,7 @@
           "delta": 12
         },
         "result": null,
-        "dnp": true
+        "dnp": false
       }
     ],
     "pitchers": [
@@ -333063,7 +333405,7 @@
           "delta": 45
         },
         "result": null,
-        "dnp": true
+        "dnp": false
       },
       {
         "role": "pitcher",
@@ -333223,7 +333565,7 @@
           "pct": 50,
           "n": 10
         },
-        "result": null,
+        "result": "hit",
         "dnp": false
       },
       {
@@ -333330,7 +333672,7 @@
           "delta": -17
         },
         "result": null,
-        "dnp": true
+        "dnp": false
       },
       {
         "role": "batter",
@@ -333382,7 +333724,7 @@
           "n": 10
         },
         "result": null,
-        "dnp": true
+        "dnp": false
       },
       {
         "role": "batter",
@@ -333434,7 +333776,7 @@
           "delta": -9
         },
         "result": null,
-        "dnp": true
+        "dnp": false
       },
       {
         "role": "batter",
@@ -333486,7 +333828,7 @@
           "n": 10
         },
         "result": null,
-        "dnp": true
+        "dnp": false
       },
       {
         "role": "batter",
@@ -333511,7 +333853,7 @@
           "n": 10
         },
         "result": null,
-        "dnp": true
+        "dnp": false
       },
       {
         "role": "batter",
@@ -333538,7 +333880,7 @@
           "delta": -4
         },
         "result": null,
-        "dnp": true
+        "dnp": false
       }
     ],
     "pitchers": [
