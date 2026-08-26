@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-26T15:07:39.214698+00:00_
+_Generated 2026-08-26T16:02:23.138618+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -308,6 +308,7 @@ _Facing a rested bullpen: 4.0 relief IP in last 2 days (ratio 0.65)_
 - Jeremy Peña (R) [3-game hit streak] -- L7: 7H 2HR 4RBI 15TB (0.259 avg) -- away split: 0.254 avg
 
 ### New York Yankees lineup -- PROJECTED (unconfirmed)
+**Probable P: Elmer Rodríguez (R)** -- L5: no data
 - George Lombard Jr. (R) -- L7: 8H 0HR 2RBI 8TB (0.308 avg) -- home split: 0.273 avg
 - Ben Rice (L) -- L7: 6H 1HR 4RBI 9TB (0.231 avg) -- home split: 0.233 avg
 - Spencer Jones (L) -- L7: 9H 2HR 4RBI 17TB (0.360 avg) -- home split: 0.224 avg -- news: Bellinger lands on IL with hamstring strain; Spencer Jones recalled
@@ -591,7 +592,7 @@ _Facing a rested bullpen: 4.0 relief IP in last 2 days (ratio 0.65)_
 ## 2026-08-27 - Kansas City Royals @ Toronto Blue Jays (Scheduled)
 _Rogers Centre_
 Projected score: Kansas City Royals 3.71 - Toronto Blue Jays 3.56
-Model likes: **Kansas City Royals** to win (51%) | Run line: **Toronto Blue Jays** +1.5 (66% to cover) | Total 6.5: lean **OVER** (53%)
+Model likes: **Kansas City Royals** to win (52%) | Run line: **Toronto Blue Jays** +1.5 (66% to cover) | Total 6.5: lean **OVER** (52%)
 
 ### Kansas City Royals lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 4.0 relief IP in last 2 days (ratio 0.61)_
@@ -799,23 +800,24 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 
 ## 2026-08-28 - San Diego Padres @ Tampa Bay Rays (Scheduled)
 _Tropicana Field_
-Projected score: San Diego Padres 4.31 - Tampa Bay Rays 4.15
-Model likes: **San Diego Padres** to win (51%) | Run line: **Tampa Bay Rays** +1.5 (64% to cover) | Total 7.5: lean **OVER** (54%)
+Projected score: San Diego Padres 3.88 - Tampa Bay Rays 4.15
+Model likes: **Tampa Bay Rays** to win (52%) | Run line: **San Diego Padres** +1.5 (64% to cover) | Total 7.5: lean **UNDER** (50%)
 
 ### San Diego Padres lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
-- Jackson Merrill (L) -- L7: 3H 2HR 3RBI 9TB (0.103 avg) -- away split: 0.231 avg
+- Jackson Merrill (L) [TOUGH MATCHUP: pitcher holds this hand to 0.124 avg-against] -- L7: 3H 2HR 3RBI 9TB (0.103 avg) -- away split: 0.231 avg
 - Fernando Tatis Jr. (R) -- L7: 13H 4HR 10RBI 28TB (0.419 avg) -- away split: 0.250 avg
 - Ty France (R) -- L7: 5H 1HR 5RBI 9TB (0.227 avg) -- away split: 0.282 avg
-- Jake Cronenworth (L) -- L7: 6H 0HR 3RBI 8TB (0.222 avg) -- away split: 0.246 avg
+- Jake Cronenworth (L) [TOUGH MATCHUP: pitcher holds this hand to 0.124 avg-against] -- L7: 6H 0HR 3RBI 8TB (0.222 avg) -- away split: 0.246 avg
 - Manny Machado (R) -- L7: 6H 1HR 2RBI 9TB (0.231 avg) -- away split: 0.208 avg
 - Luis Rengifo (S) -- L7: 5H 0HR 3RBI 6TB (0.238 avg) -- away split: 0.261 avg
 - Xander Bogaerts (R) -- L7: 4H 0HR 1RBI 6TB (0.174 avg) -- away split: 0.237 avg
-- Gavin Sheets (L) -- L7: 3H 1HR 2RBI 6TB (0.250 avg) -- away split: 0.251 avg
+- Gavin Sheets (L) [TOUGH MATCHUP: pitcher holds this hand to 0.124 avg-against] -- L7: 3H 1HR 2RBI 6TB (0.250 avg) -- away split: 0.251 avg
 - Jase Bowen (R) -- L7: 2H 1HR 1RBI 5TB (0.667 avg) -- away split: 0.167 avg
 
 ### Tampa Bay Rays lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
+**Probable P: Shane McClanahan (L)** -- L5: 21.3 IP, 17 K, 10 ER, 4.22 ERA
 - Junior Caminero (R) [9-game hit streak] -- L7: 9H 0HR 5RBI 11TB (0.346 avg) -- home split: 0.287 avg
 - Jonathan Aranda (L) -- L7: 3H 1HR 2RBI 6TB (0.125 avg) -- home split: 0.291 avg
 - Yandy Díaz (R) -- L7: 7H 1HR 2RBI 10TB (0.259 avg) -- home split: 0.353 avg
@@ -889,7 +891,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-28 - Seattle Mariners @ Toronto Blue Jays (Scheduled)
 _Rogers Centre_
 Projected score: Seattle Mariners 2.35 - Toronto Blue Jays 4.71
-Model likes: **Toronto Blue Jays** to win (73%) | Run line: **Toronto Blue Jays** -1.5 (56% to cover) | Total 6.5: lean **OVER** (50%)
+Model likes: **Toronto Blue Jays** to win (73%) | Run line: **Toronto Blue Jays** -1.5 (56% to cover) | Total 6.5: lean **UNDER** (50%)
 
 ### Seattle Mariners lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -919,7 +921,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-28 - Boston Red Sox @ New York Yankees (Scheduled)
 _Yankee Stadium [hitter-friendly park]_
 Projected score: Boston Red Sox 4.43 - New York Yankees 4.02
-Model likes: **Boston Red Sox** to win (54%) | Run line: **New York Yankees** +1.5 (62% to cover) | Total 7.5: lean **OVER** (53%)
+Model likes: **Boston Red Sox** to win (53%) | Run line: **New York Yankees** +1.5 (62% to cover) | Total 7.5: lean **OVER** (53%)
 
 ### Boston Red Sox lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -978,7 +980,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-28 - Texas Rangers @ Milwaukee Brewers (Scheduled)
 _American Family Field_
 Projected score: Texas Rangers 3.03 - Milwaukee Brewers 4.97
-Model likes: **Milwaukee Brewers** to win (67%) | Run line: **Milwaukee Brewers** -1.5 (52% to cover) | Total 7.5: lean **UNDER** (51%)
+Model likes: **Milwaukee Brewers** to win (67%) | Run line: **Milwaukee Brewers** -1.5 (51% to cover) | Total 7.5: lean **UNDER** (51%)
 
 ### Texas Rangers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
