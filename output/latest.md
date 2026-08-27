@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-27T16:09:31.817655+00:00_
+_Generated 2026-08-27T16:16:21.777682+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -197,7 +197,7 @@ _Facing a taxed bullpen: 9.7 relief IP in last 2 days (ratio 1.6)_
 ## 2026-08-27 - Los Angeles Dodgers @ Atlanta Braves (Scheduled)
 _Truist Park_
 Projected score: Los Angeles Dodgers 2.81 - Atlanta Braves 3.11
-Model likes: **Atlanta Braves** to win (53%) | Run line: **Los Angeles Dodgers** +1.5 (66% to cover) | Total 5.5: lean **UNDER** (51%)
+Model likes: **Atlanta Braves** to win (53%) | Run line: **Los Angeles Dodgers** +1.5 (66% to cover) | Total 5.5: lean **UNDER** (50%)
 
 ### Los Angeles Dodgers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.56)_
@@ -287,7 +287,7 @@ _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.45)_
 ## 2026-08-28 - Los Angeles Dodgers @ Detroit Tigers (Scheduled)
 _Comerica Park [pitcher-friendly park]_
 Projected score: Los Angeles Dodgers 4.17 - Detroit Tigers 2.93
-Model likes: **Los Angeles Dodgers** to win (62%) | Run line: **Detroit Tigers** +1.5 (56% to cover) | Total 6.5: lean **OVER** (51%)
+Model likes: **Los Angeles Dodgers** to win (62%) | Run line: **Detroit Tigers** +1.5 (55% to cover) | Total 6.5: lean **OVER** (51%)
 
 ### Los Angeles Dodgers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.4)_
@@ -317,24 +317,25 @@ _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.38)_
 
 ## 2026-08-28 - Miami Marlins @ Washington Nationals (Scheduled)
 _Nationals Park_
-Projected score: Miami Marlins 5.11 - Washington Nationals 4.1
-Model likes: **Miami Marlins** to win (58%) | Run line: **Washington Nationals** +1.5 (56% to cover) | Total 8.5: lean **OVER** (51%)
+Projected score: Miami Marlins 5.36 - Washington Nationals 4.1
+Model likes: **Miami Marlins** to win (60%) | Run line: **Washington Nationals** +1.5 (54% to cover) | Total 8.5: lean **OVER** (53%)
 
 ### Miami Marlins lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.3 relief IP in last 2 days (ratio 0.06)_
 **Probable P: Eury Pérez (R)** -- L5: 29.0 IP, 31 K, 6 ER, 1.86 ERA
 - Griffin Conine (L) -- L7: 2H 0HR 0RBI 2TB (0.080 avg) -- away split: 0.211 avg
 - Jakob Marsee (L) -- L7: 5H 1HR 1RBI 10TB (0.250 avg) -- away split: 0.194 avg
-- Javier Sanoja (R) -- L7: 8H 1HR 3RBI 12TB (0.308 avg) -- away split: 0.277 avg
-- Heriberto Hernández (R) [5-game hit streak] -- L7: 8H 2HR 4RBI 15TB (0.308 avg) -- away split: 0.228 avg
-- Otto Lopez (R) -- L7: 6H 0HR 5RBI 7TB (0.240 avg) -- away split: 0.302 avg
-- Xavier Edwards (S) [4-game hit streak] -- L7: 8H 0HR 4RBI 9TB (0.296 avg) -- away split: 0.288 avg
-- Esteury Ruiz (R) -- L7: 1H 0HR 0RBI 1TB (0.067 avg) -- away split: 0.262 avg
-- Agustín Ramírez (R) -- L7: 3H 0HR 0RBI 4TB (0.158 avg) -- away split: 0.254 avg
+- Javier Sanoja (R) [MATCHUP EDGE: pitcher hits 0.286 avg-against vs this hand] -- L7: 8H 1HR 3RBI 12TB (0.308 avg) -- away split: 0.277 avg
+- Heriberto Hernández (R) [MATCHUP EDGE: pitcher hits 0.286 avg-against vs this hand] [5-game hit streak] -- L7: 8H 2HR 4RBI 15TB (0.308 avg) -- away split: 0.228 avg
+- Otto Lopez (R) [MATCHUP EDGE: pitcher hits 0.286 avg-against vs this hand] -- L7: 6H 0HR 5RBI 7TB (0.240 avg) -- away split: 0.302 avg
+- Xavier Edwards (S) [MATCHUP EDGE: pitcher hits 0.286 avg-against vs this hand] [4-game hit streak] -- L7: 8H 0HR 4RBI 9TB (0.296 avg) -- away split: 0.288 avg
+- Esteury Ruiz (R) [MATCHUP EDGE: pitcher hits 0.286 avg-against vs this hand] -- L7: 1H 0HR 0RBI 1TB (0.067 avg) -- away split: 0.262 avg
+- Agustín Ramírez (R) [MATCHUP EDGE: pitcher hits 0.286 avg-against vs this hand] -- L7: 3H 0HR 0RBI 4TB (0.158 avg) -- away split: 0.254 avg
 - Owen Caissie (L) [3-game hit streak] -- L7: 4H 0HR 0RBI 6TB (0.222 avg) -- away split: 0.183 avg
 
 ### Washington Nationals lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.3 relief IP in last 2 days (ratio 0.44)_
+**Probable P: Jackson Kent (L)** -- L5: 12.3 IP, 14 K, 11 ER, 8.03 ERA
 - Abimelec Ortiz (L) -- L7: 2H 0HR 1RBI 2TB (0.080 avg) -- home split: 0.333 avg
 - Daylen Lile (L) [3-game hit streak] -- L7: 9H 2HR 7RBI 17TB (0.300 avg) -- home split: 0.248 avg
 - Dylan Crews (R) -- L7: 5H 0HR 3RBI 7TB (0.227 avg) -- home split: 0.218 avg
@@ -348,7 +349,7 @@ _Facing a rested bullpen: 2.3 relief IP in last 2 days (ratio 0.44)_
 ## 2026-08-28 - San Diego Padres @ Tampa Bay Rays (Scheduled)
 _Tropicana Field_
 Projected score: San Diego Padres 3.79 - Tampa Bay Rays 3.33
-Model likes: **San Diego Padres** to win (55%) | Run line: **Tampa Bay Rays** +1.5 (63% to cover) | Total 6.5: lean **OVER** (51%)
+Model likes: **San Diego Padres** to win (54%) | Run line: **Tampa Bay Rays** +1.5 (63% to cover) | Total 6.5: lean **OVER** (51%)
 
 ### San Diego Padres lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.48)_
@@ -379,7 +380,7 @@ _Facing a rested bullpen: 4.0 relief IP in last 2 days (ratio 0.59)_
 ## 2026-08-28 - Houston Astros @ New York Mets (Scheduled)
 _Citi Field_
 Projected score: Houston Astros 3.76 - New York Mets 4.85
-Model likes: **New York Mets** to win (59%) | Run line: **Houston Astros** +1.5 (56% to cover) | Total 8.5: lean **UNDER** (54%)
+Model likes: **New York Mets** to win (59%) | Run line: **Houston Astros** +1.5 (56% to cover) | Total 8.5: lean **UNDER** (55%)
 
 ### Houston Astros lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 4.0 relief IP in last 2 days (ratio 0.66)_
@@ -891,8 +892,8 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 
 ## 2026-08-29 - Miami Marlins @ Washington Nationals (Scheduled)
 _Nationals Park_
-Projected score: Miami Marlins 5.11 - Washington Nationals 4.24
-Model likes: **Miami Marlins** to win (57%) | Run line: **Washington Nationals** +1.5 (57% to cover) | Total 8.5: lean **OVER** (52%)
+Projected score: Miami Marlins 3.35 - Washington Nationals 4.24
+Model likes: **Washington Nationals** to win (58%) | Run line: **Miami Marlins** +1.5 (58% to cover) | Total 7.5: lean **UNDER** (55%)
 
 ### Miami Marlins lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -909,6 +910,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 
 ### Washington Nationals lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
+**Probable P: Cade Cavalli (R)** -- L5: 32.0 IP, 39 K, 7 ER, 1.97 ERA
 - Abimelec Ortiz (L) -- L7: 2H 0HR 1RBI 2TB (0.080 avg) -- home split: 0.333 avg
 - Daylen Lile (L) [3-game hit streak] -- L7: 9H 2HR 7RBI 17TB (0.300 avg) -- home split: 0.248 avg
 - Dylan Crews (R) -- L7: 5H 0HR 3RBI 7TB (0.227 avg) -- home split: 0.218 avg
@@ -1073,7 +1075,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-29 - Boston Red Sox @ New York Yankees (Scheduled)
 _Yankee Stadium [hitter-friendly park]_
 Projected score: Boston Red Sox 4.36 - New York Yankees 3.99
-Model likes: **Boston Red Sox** to win (53%) | Run line: **New York Yankees** +1.5 (62% to cover) | Total 7.5: lean **OVER** (52%)
+Model likes: **Boston Red Sox** to win (53%) | Run line: **New York Yankees** +1.5 (62% to cover) | Total 7.5: lean **OVER** (53%)
 
 ### Boston Red Sox lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1133,7 +1135,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-08-29 - Arizona Diamondbacks @ San Francisco Giants (Scheduled)
 _Oracle Park [pitcher-friendly park]_
 Projected score: Arizona Diamondbacks 4.11 - San Francisco Giants 3.82
-Model likes: **Arizona Diamondbacks** to win (53%) | Run line: **San Francisco Giants** +1.5 (64% to cover) | Total 7.5: lean **UNDER** (51%)
+Model likes: **Arizona Diamondbacks** to win (53%) | Run line: **San Francisco Giants** +1.5 (63% to cover) | Total 7.5: lean **UNDER** (51%)
 
 ### Arizona Diamondbacks lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
