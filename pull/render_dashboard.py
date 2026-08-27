@@ -592,6 +592,20 @@ STYLE = """
   .prop-lean-under { color: var(--status-critical); font-weight: 700; }
   .prop-rate { font-size: 11.5px; color: var(--text-secondary); }
   .prop-avg { font-size: 10.5px; color: var(--text-muted); margin-top: 4px; }
+  .legend-dot { display: inline-block; width: 7px; height: 7px; border-radius: 2px; margin: 0 3px 0 1px; vertical-align: middle; }
+  .legend-dot-over { background: var(--status-good); }
+  .legend-dot-under { background: var(--status-critical); opacity: 0.85; }
+  /* Custom tooltip for .prop-bar -- a plain title="" attribute doesn't fire
+     on tap on mobile at all, and can't be styled to match the rest of the
+     card. Positioned/shown by a single delegated listener in SCRIPT rather
+     than one per bar (a multi-day dashboard can render hundreds of these). */
+  .chart-tooltip {
+    position: fixed; z-index: 60; background: var(--text-primary); color: var(--surface-1);
+    font-size: 11.5px; font-weight: 600; padding: 5px 8px; border-radius: 6px;
+    pointer-events: none; box-shadow: var(--shadow); white-space: nowrap;
+    opacity: 0; transform: translate(-50%, -100%) translateY(-6px); transition: opacity 0.1s;
+  }
+  .chart-tooltip.show { opacity: 1; }
   .prop-line-input {
     display: flex; align-items: center; gap: 4px; font-size: 11.5px; color: var(--text-secondary); margin-bottom: 4px;
   }
@@ -1195,6 +1209,66 @@ function escapeHtml(s) {
   return String(s).replace(/[&<>"']/g, function (c) {
     return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
   });
+}
+
+// Real hover/tap tooltip for .prop-bar (recent-game prop-history bars) --
+// a plain title="" attribute never fires on tap on mobile and can't be
+// styled, and a dataset this size can render hundreds of these bars, so a
+// single delegated listener (not one per bar) is what actually scales.
+// Each bar's own aria-label carries the same "N stat on DATE — over/under
+// the LINE line" text for screen readers, so this tooltip is a visual
+// convenience layered on top of that, not the only way to get the info.
+let chartTooltipEl = null;
+
+function ensureChartTooltip() {
+  if (!chartTooltipEl) {
+    chartTooltipEl = document.createElement('div');
+    chartTooltipEl.className = 'chart-tooltip';
+    document.body.appendChild(chartTooltipEl);
+  }
+  return chartTooltipEl;
+}
+
+function showChartTooltip(bar, x, y) {
+  const text = bar.dataset.tooltip;
+  if (!text) return;
+  const el = ensureChartTooltip();
+  el.textContent = text;
+  el.style.left = x + 'px';
+  el.style.top = y + 'px';
+  el.classList.add('show');
+}
+
+function hideChartTooltip() {
+  if (chartTooltipEl) chartTooltipEl.classList.remove('show');
+}
+
+function initChartTooltip() {
+  document.addEventListener('mouseover', function (e) {
+    const bar = e.target.closest('.prop-bar');
+    if (bar) showChartTooltip(bar, e.clientX, e.clientY - 8);
+  });
+  document.addEventListener('mousemove', function (e) {
+    if (!chartTooltipEl || !chartTooltipEl.classList.contains('show')) return;
+    if (e.target.closest('.prop-bar')) {
+      chartTooltipEl.style.left = e.clientX + 'px';
+      chartTooltipEl.style.top = (e.clientY - 8) + 'px';
+    }
+  });
+  document.addEventListener('mouseout', function (e) {
+    if (e.target.closest('.prop-bar')) hideChartTooltip();
+  });
+  document.addEventListener('touchstart', function (e) {
+    const bar = e.target.closest('.prop-bar');
+    if (!bar) { hideChartTooltip(); return; }
+    const t = e.touches[0];
+    showChartTooltip(bar, t.clientX, t.clientY - 8);
+  }, { passive: true });
+  document.addEventListener('touchend', function () {
+    // Touch has no "hover and read" state, only a single tap -- leave the
+    // tooltip up briefly after lifting a finger so it's actually readable.
+    setTimeout(hideChartTooltip, 1500);
+  }, { passive: true });
 }
 
 // Same MLB CDN as _player_photo_html() in the Python template -- kept in
@@ -2006,6 +2080,7 @@ document.addEventListener('DOMContentLoaded', function () {
   localizeGameTimes();
   initLiveTracker();
   initAutoRefresh();
+  initChartTooltip();
   initGameCardAccordion();
   syncStickyOffset();
   window.addEventListener('resize', syncStickyOffset);
@@ -2378,10 +2453,24 @@ def _prop_categories_html(categories, row_id, headline_html=""):
             bar_cls = "prop-bar-over" if is_over else "prop-bar-under"
             height = max(v / max_v * 100, 4)
             date_txt = _fmt_date(d)
-            tooltip = f"{v} {cat['label'].lower()}" + (f" on {date_txt}" if date_txt else "")
+            status_word = "over" if is_over else "under"
+            # green-vs-red (like any red/green pair) is a near-total colorblind
+            # collision for deuteranopia (measured CVD deltaE ~4, well below
+            # even the lenient "needs a secondary encoding" floor) -- bar
+            # height relative to the dashed baseline line already gives a
+            # positional secondary encoding, but the word "over"/"under" is
+            # spelled out here too, in both the visual tooltip (see SCRIPT's
+            # showChartTooltip) and this aria-label, so meaning never depends
+            # on color alone either for a colorblind sighted user or a screen
+            # reader. A plain title="" attribute doesn't fire on tap on
+            # mobile at all, which is why this uses a real custom tooltip
+            # instead (delegated in SCRIPT, not per-bar listeners -- a
+            # multi-day dashboard can have hundreds of these).
+            label = f"{v} {cat['label'].lower()}" + (f" on {date_txt}" if date_txt else "") + f" — {status_word} the {line} line"
             bars.append(
-                f'<div class="prop-bar {bar_cls}" data-value="{v}" style="height:{height:.0f}%" '
-                f'title="{html.escape(tooltip)}"></div>'
+                f'<div class="prop-bar {bar_cls}" data-value="{v}" data-status="{status_word}" '
+                f'data-tooltip="{html.escape(label)}" style="height:{height:.0f}%" '
+                f'role="img" aria-label="{html.escape(label)}"></div>'
             )
         rates = " &middot; ".join(f'{r["pct"]}% over {r["line"]}' for r in cat["hit_rates"])
         slug = _slug(cat["label"])
@@ -2400,7 +2489,9 @@ def _prop_categories_html(categories, row_id, headline_html=""):
             {"".join(bars)}
           </div>
           <div class="prop-rate">{rates} (last {len(values)})</div>
-          <div class="prop-avg">Avg {cat["average"]}/game recently &middot; dashed line = the line above &middot; hover a bar for the exact game</div>
+          <div class="prop-avg">Avg {cat["average"]}/game recently &middot; dashed line = the line above &middot;
+            <span class="legend-dot legend-dot-over"></span>cleared &nbsp;<span class="legend-dot legend-dot-under"></span>missed
+            &middot; tap or hover a bar for the exact game</div>
         </div>
         """)
     return (
