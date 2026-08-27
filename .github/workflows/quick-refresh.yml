@@ -17,20 +17,26 @@ name: Quick refresh (lineups + score updates)
 
 on:
   schedule:
-    # Every 5 minutes, offset 2 past each mark rather than exactly on it --
+    # Offset a few minutes past each 15-minute mark, not exactly on it --
     # GitHub explicitly documents that scheduled runs are delayed most at
     # round-number times, since that's when the most workflows across all
-    # of GitHub Actions are queued at once (confirmed this matters in
-    # practice at the old 15-min cadence: the exact :00/:15/:30/:45
-    # schedule was actually landing every 2-3.5 hours some days). Tightened
-    # from 15 min to 5 min so a newly-confirmed lineup or line move shows
-    # up sooner -- this job's own runs consistently finish in 3-6 minutes
-    # (checked via `gh run list`) and this is a public repo (unlimited
-    # Actions minutes), and cancel-in-progress below already makes an
-    # occasional overlap harmless (the slower run just gets cancelled
-    # instead of piling up) rather than something this interval needs to
-    # avoid outright.
-    - cron: "2-59/5 * * * *"
+    # of GitHub Actions are queued at once.
+    #
+    # This was tightened to every 5 minutes for a while to get lineup/line
+    # updates out faster, and that was a mistake: GitHub's scheduler does
+    # not actually honor sub-15-minute cron cadences reliably (this is a
+    # widely-reported limitation, not just this repo being unlucky) --
+    # measured via `gh run list` timestamps, actual gaps between runs grew
+    # from ~30 min right after the change to 96, 179, 310, and eventually
+    # 663 minutes (11+ hours), a clear worsening trend rather than noise.
+    # 15 minutes was the last cadence with a track record of actually
+    # firing close to on schedule, so this reverts to it. The real fix for
+    # "lineup confirmations should show up faster" is pollAllUpcomingLineups()
+    # in render_dashboard.py's SCRIPT -- it polls MLB's public live-feed
+    # endpoint directly from the browser (same pattern as the live in-game
+    # tracker), so a lineup posting shows up in seconds regardless of how
+    # often this workflow itself manages to run.
+    - cron: "3,18,33,48 * * * *"
   workflow_dispatch: {}
 
 concurrency:

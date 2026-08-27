@@ -1226,11 +1226,15 @@ function initLiveTracker() {
   // without a manual reload.
   pollAllLiveGames();
   setInterval(pollAllLiveGames, LIVE_POLL_MS);
+  pollAllUpcomingLineups();
+  setInterval(pollAllUpcomingLineups, LINEUP_POLL_MS);
   // A backgrounded tab shouldn't keep polling every game on its own timer;
   // catching back up the moment the tab is visible again feels just as
   // "live" without burning requests the whole time no one's looking.
   document.addEventListener('visibilitychange', function () {
-    if (document.visibilityState === 'visible') pollAllLiveGames();
+    if (document.visibilityState !== 'visible') return;
+    pollAllLiveGames();
+    pollAllUpcomingLineups();
   });
 }
 
@@ -1243,6 +1247,74 @@ function pollAllLiveGames() {
     // here is the only additional filter this recurring sweep needs.
     if (el.dataset.final === 'true' || !gameHasStarted(el)) return;
     pollLiveGame(el);
+  });
+}
+
+// Lineup confirmations land 1-2 hours before first pitch -- exactly the
+// window pollAllLiveGames() above deliberately ignores (gameHasStarted()
+// gates it). Without this, "PROJECTED" -> "CONFIRMED" only ever updated on
+// the next full rebuild (every ~15 min at best, longer if that scheduled
+// run gets delayed), so a visitor with the tab open had to reload to see a
+// lineup drop even though the confirmation itself is public the moment
+// MLB posts it. Reuses the exact same feed/live endpoint and battingOrder
+// %100 filtering sync_lineups.py uses server-side (see its own docstring)
+// so "confirmed" can never mean something different client-side than it
+// does in the next real build. Deliberately does NOT try to reconstruct
+// the actual batting order/positions here -- that needs each player's
+// season stats, matchup analysis, and prop lines, which live only in the
+// synced DB and are computed at build time, not in MLB's live feed -- so
+// this only flips the CONFIRMED/PROJECTED badges live; the full lineup
+// card still needs the next rebuild for names/props to catch up. 90s
+// polling (vs. 30s for live in-game state) since a lineup posting isn't a
+// bursty, second-to-second event.
+const LINEUP_POLL_MS = 90000;
+
+function sideHasConfirmedBattingOrder(teamBox) {
+  const players = (teamBox && teamBox.players) || {};
+  return Object.keys(players).some(function (k) {
+    const bo = players[k] && players[k].battingOrder;
+    return bo != null && Number(bo) % 100 === 0;
+  });
+}
+
+function markSideConfirmed(details, side) {
+  const col = details.querySelector('.team-col[data-side="' + side + '"]');
+  const badge = col ? col.querySelector('.team-title .badge-projected') : null;
+  if (badge) {
+    badge.textContent = 'CONFIRMED';
+    badge.classList.remove('badge-projected');
+    badge.classList.add('badge-confirmed');
+  }
+  details.dataset.confirmed = 'true';
+  if (!details.querySelector('.summary-flags .badge-confirmed')) {
+    const flags = details.querySelector('.summary-flags');
+    if (flags) flags.insertAdjacentHTML('afterbegin', '<span class="badge badge-confirmed">CONFIRMED</span>');
+  }
+}
+
+function pollUpcomingLineup(el) {
+  const pk = el.dataset.gamePk;
+  fetch('https://statsapi.mlb.com/api/v1.1/game/' + pk + '/feed/live')
+    .then(function (r) { return r.json(); })
+    .then(function (data) {
+      const box = (data.liveData || {}).boxscore || {};
+      const teams = box.teams || {};
+      ['home', 'away'].forEach(function (side) {
+        if (sideHasConfirmedBattingOrder(teams[side])) markSideConfirmed(el, side);
+      });
+      if (document.getElementById('dateFilter')) applyFilters();
+    })
+    .catch(function () {}); // transient network hiccup -- just try again next cycle
+}
+
+function pollAllUpcomingLineups() {
+  if (document.visibilityState === 'hidden') return;
+  document.querySelectorAll('details.game-card[data-game-pk]').forEach(function (el) {
+    if (el.dataset.final === 'true' || gameHasStarted(el)) return;
+    // Nothing left to detect once both sides already show CONFIRMED --
+    // .badge-projected being entirely absent is exactly that condition.
+    if (!el.querySelector('.team-title .badge-projected')) return;
+    pollUpcomingLineup(el);
   });
 }
 
