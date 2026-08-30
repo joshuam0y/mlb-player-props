@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-30T07:07:17.369591+00:00_
+_Generated 2026-08-30T12:56:28.642217+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -331,7 +331,7 @@ _Facing a rested bullpen: 3.3 relief IP in last 2 days (ratio 0.67)_
 ## 2026-08-30 - Pittsburgh Pirates @ St. Louis Cardinals (Scheduled)
 _Busch Stadium_
 Projected score: Pittsburgh Pirates 4.78 - St. Louis Cardinals 3.77
-Model likes: **Pittsburgh Pirates** to win (59%) | Run line: **St. Louis Cardinals** +1.5 (56% to cover) | Total 7.5: lean **OVER** (54%)
+Model likes: **Pittsburgh Pirates** to win (59%) | Run line: **St. Louis Cardinals** +1.5 (57% to cover) | Total 7.5: lean **OVER** (54%)
 
 ### Pittsburgh Pirates lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 9.3 relief IP in last 2 days (ratio 1.67)_
@@ -422,7 +422,7 @@ _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.38)_
 ## 2026-08-30 - Philadelphia Phillies @ Los Angeles Angels (Scheduled)
 _Angel Stadium_
 Projected score: Philadelphia Phillies 4.98 - Los Angeles Angels 3.04
-Model likes: **Philadelphia Phillies** to win (67%) | Run line: **Philadelphia Phillies** -1.5 (51% to cover) | Total 7.5: lean **UNDER** (51%)
+Model likes: **Philadelphia Phillies** to win (67%) | Run line: **Philadelphia Phillies** -1.5 (52% to cover) | Total 7.5: lean **UNDER** (51%)
 
 ### Philadelphia Phillies lineup -- PROJECTED (unconfirmed)
 **Probable P: Zack Wheeler (R)** -- L5: 21.3 IP, 25 K, 18 ER, 7.59 ERA
@@ -569,7 +569,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.45)_
 ## 2026-08-31 - Miami Marlins @ Washington Nationals (Scheduled)
 _Nationals Park_
 Projected score: Miami Marlins 4.91 - Washington Nationals 4.84
-Model likes: **Miami Marlins** to win (51%) | Run line: **Washington Nationals** +1.5 (63% to cover) | Total 9.5: lean **UNDER** (53%)
+Model likes: **Miami Marlins** to win (50%) | Run line: **Washington Nationals** +1.5 (63% to cover) | Total 9.5: lean **UNDER** (53%)
 
 ### Miami Marlins lineup -- PROJECTED (unconfirmed)
 **Probable P: Ryan Gusto (R)** -- L5: 24.3 IP, 19 K, 5 ER, 1.85 ERA
@@ -626,7 +626,7 @@ _Facing a taxed bullpen: 7.3 relief IP in last 2 days (ratio 1.32)_
 ## 2026-08-31 - Detroit Tigers @ Minnesota Twins (Scheduled)
 _Target Field_
 Projected score: Detroit Tigers 4.48 - Minnesota Twins 3.87
-Model likes: **Detroit Tigers** to win (55%) | Run line: **Minnesota Twins** +1.5 (60% to cover) | Total 7.5: lean **OVER** (53%)
+Model likes: **Detroit Tigers** to win (55%) | Run line: **Minnesota Twins** +1.5 (60% to cover) | Total 7.5: lean **OVER** (52%)
 
 ### Detroit Tigers lineup -- PROJECTED (unconfirmed)
 - Kevin McGonigle (L) -- L7: 4H 1HR 4RBI 9TB (0.148 avg) -- away split: 0.297 avg
@@ -798,7 +798,7 @@ _Facing a taxed bullpen: 7.7 relief IP in last 2 days (ratio 1.24)_
 ## 2026-08-31 - Philadelphia Phillies @ Arizona Diamondbacks (Scheduled)
 _Chase Field [hitter-friendly park]_
 Projected score: Philadelphia Phillies 4.64 - Arizona Diamondbacks 4.41
-Model likes: **Philadelphia Phillies** to win (52%) | Run line: **Arizona Diamondbacks** +1.5 (63% to cover) | Total 8.5: lean **UNDER** (51%)
+Model likes: **Philadelphia Phillies** to win (52%) | Run line: **Arizona Diamondbacks** +1.5 (62% to cover) | Total 8.5: lean **UNDER** (50%)
 
 ### Philadelphia Phillies lineup -- PROJECTED (unconfirmed)
 - Justin Crawford (L) -- L7: 4H 0HR 2RBI 4TB (0.211 avg) -- away split: 0.237 avg
@@ -946,7 +946,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-01 - Atlanta Braves @ Washington Nationals (Scheduled)
 _Nationals Park_
 Projected score: Atlanta Braves 4.5 - Washington Nationals 4.21
-Model likes: **Atlanta Braves** to win (52%) | Run line: **Washington Nationals** +1.5 (62% to cover) | Total 8.5: lean **UNDER** (54%)
+Model likes: **Atlanta Braves** to win (52%) | Run line: **Washington Nationals** +1.5 (63% to cover) | Total 8.5: lean **UNDER** (54%)
 
 ### Atlanta Braves lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1033,7 +1033,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-01 - Miami Marlins @ Kansas City Royals (Scheduled)
 _Kauffman Stadium [pitcher-friendly park]_
 Projected score: Miami Marlins 4.02 - Kansas City Royals 4.8
-Model likes: **Kansas City Royals** to win (57%) | Run line: **Miami Marlins** +1.5 (58% to cover) | Total 8.5: lean **UNDER** (52%)
+Model likes: **Kansas City Royals** to win (56%) | Run line: **Miami Marlins** +1.5 (58% to cover) | Total 8.5: lean **UNDER** (53%)
 
 ### Miami Marlins lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1208,7 +1208,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-01 - Philadelphia Phillies @ Arizona Diamondbacks (Scheduled)
 _Chase Field [hitter-friendly park]_
 Projected score: Philadelphia Phillies 4.64 - Arizona Diamondbacks 4.41
-Model likes: **Philadelphia Phillies** to win (52%) | Run line: **Arizona Diamondbacks** +1.5 (63% to cover) | Total 8.5: lean **UNDER** (50%)
+Model likes: **Philadelphia Phillies** to win (52%) | Run line: **Arizona Diamondbacks** +1.5 (62% to cover) | Total 8.5: lean **UNDER** (50%)
 
 ### Philadelphia Phillies lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1237,7 +1237,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-01 - St. Louis Cardinals @ Los Angeles Dodgers (Scheduled)
 _UNIQLO Field at Dodger Stadium_
 Projected score: St. Louis Cardinals 4.24 - Los Angeles Dodgers 4.4
-Model likes: **Los Angeles Dodgers** to win (52%) | Run line: **St. Louis Cardinals** +1.5 (64% to cover) | Total 8.5: lean **UNDER** (54%)
+Model likes: **Los Angeles Dodgers** to win (51%) | Run line: **St. Louis Cardinals** +1.5 (64% to cover) | Total 8.5: lean **UNDER** (54%)
 
 ### St. Louis Cardinals lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
