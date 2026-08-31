@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-31T13:44:21.208434+00:00_
+_Generated 2026-08-31T13:55:30.453435+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -259,7 +259,7 @@ _Facing a taxed bullpen: 8.7 relief IP in last 2 days (ratio 1.42)_
 ## 2026-08-31 - Athletics @ Texas Rangers (Scheduled)
 _Globe Life Field [hitter-friendly park]_
 Projected score: Athletics 4.24 - Texas Rangers 5.06
-Model likes: **Texas Rangers** to win (57%) | Run line: **Athletics** +1.5 (58% to cover) | Total 8.5: lean **OVER** (51%)
+Model likes: **Texas Rangers** to win (57%) | Run line: **Athletics** +1.5 (58% to cover) | Total 8.5: lean **OVER** (52%)
 
 ### Athletics lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 8.0 relief IP in last 2 days (ratio 1.59)_
@@ -290,7 +290,7 @@ _Facing a taxed bullpen: 8.3 relief IP in last 2 days (ratio 1.63)_
 ## 2026-08-31 - Chicago White Sox @ Houston Astros (Scheduled)
 _Daikin Park_
 Projected score: Chicago White Sox 3.98 - Houston Astros 3.93
-Model likes: **Chicago White Sox** to win (50%) | Run line: **Houston Astros** +1.5 (66% to cover) | Total 7.5: lean **UNDER** (51%)
+Model likes: **Chicago White Sox** to win (50%) | Run line: **Houston Astros** +1.5 (66% to cover) | Total 7.5: lean **UNDER** (52%)
 
 ### Chicago White Sox lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 11.3 relief IP in last 2 days (ratio 1.97)_
@@ -382,7 +382,7 @@ _Facing a taxed bullpen: 9.7 relief IP in last 2 days (ratio 1.56)_
 ## 2026-08-31 - Philadelphia Phillies @ Arizona Diamondbacks (Scheduled)
 _Chase Field [hitter-friendly park]_
 Projected score: Philadelphia Phillies 4.67 - Arizona Diamondbacks 4.97
-Model likes: **Arizona Diamondbacks** to win (52%) | Run line: **Philadelphia Phillies** +1.5 (61% to cover) | Total 9.5: lean **UNDER** (54%)
+Model likes: **Arizona Diamondbacks** to win (52%) | Run line: **Philadelphia Phillies** +1.5 (62% to cover) | Total 9.5: lean **UNDER** (54%)
 
 ### Philadelphia Phillies lineup -- PROJECTED (unconfirmed)
 **Probable P: Aaron Nola (R)** -- L5: 29.0 IP, 37 K, 9 ER, 2.79 ERA
@@ -594,7 +594,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.63)_
 ## 2026-09-01 - Detroit Tigers @ Minnesota Twins (Scheduled)
 _Target Field_
 Projected score: Detroit Tigers 4.65 - Minnesota Twins 2.6
-Model likes: **Detroit Tigers** to win (69%) | Run line: **Detroit Tigers** -1.5 (52% to cover) | Total 6.5: lean **OVER** (52%)
+Model likes: **Detroit Tigers** to win (70%) | Run line: **Detroit Tigers** -1.5 (53% to cover) | Total 6.5: lean **OVER** (52%)
 
 ### Detroit Tigers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.7 relief IP in last 2 days (ratio 0.15)_
@@ -715,7 +715,7 @@ _Facing a taxed bullpen: 6.0 relief IP in last 2 days (ratio 1.2)_
 ## 2026-09-01 - Chicago White Sox @ Houston Astros (Scheduled)
 _Daikin Park_
 Projected score: Chicago White Sox 5.21 - Houston Astros 3.53
-Model likes: **Chicago White Sox** to win (64%) | Run line: **Houston Astros** +1.5 (51% to cover) | Total 8.5: lean **UNDER** (53%)
+Model likes: **Chicago White Sox** to win (64%) | Run line: **Houston Astros** +1.5 (51% to cover) | Total 8.5: lean **UNDER** (54%)
 
 ### Chicago White Sox lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 4.0 relief IP in last 2 days (ratio 0.69)_
@@ -805,7 +805,7 @@ _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.32)_
 ## 2026-09-01 - Philadelphia Phillies @ Arizona Diamondbacks (Scheduled)
 _Chase Field [hitter-friendly park]_
 Projected score: Philadelphia Phillies 4.67 - Arizona Diamondbacks 4.02
-Model likes: **Philadelphia Phillies** to win (56%) | Run line: **Arizona Diamondbacks** +1.5 (60% to cover) | Total 8.5: lean **UNDER** (54%)
+Model likes: **Philadelphia Phillies** to win (55%) | Run line: **Arizona Diamondbacks** +1.5 (60% to cover) | Total 8.5: lean **UNDER** (54%)
 
 ### Philadelphia Phillies lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -958,7 +958,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-02 - Baltimore Orioles @ Colorado Rockies (Scheduled)
 _Coors Field [hitter-friendly park]_
 Projected score: Baltimore Orioles 6.07 - Colorado Rockies 5.24
-Model likes: **Baltimore Orioles** to win (56%) | Run line: **Colorado Rockies** +1.5 (56% to cover) | Total 10.5: lean **OVER** (51%)
+Model likes: **Baltimore Orioles** to win (56%) | Run line: **Colorado Rockies** +1.5 (56% to cover) | Total 10.5: lean **OVER** (50%)
 
 ### Baltimore Orioles lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1140,7 +1140,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-02 - Detroit Tigers @ Minnesota Twins (Scheduled)
 _Target Field_
 Projected score: Detroit Tigers 4.82 - Minnesota Twins 3.78
-Model likes: **Detroit Tigers** to win (59%) | Run line: **Minnesota Twins** +1.5 (56% to cover) | Total 8.5: lean **UNDER** (54%)
+Model likes: **Detroit Tigers** to win (59%) | Run line: **Minnesota Twins** +1.5 (56% to cover) | Total 8.5: lean **UNDER** (55%)
 
 ### Detroit Tigers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1171,7 +1171,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-02 - Miami Marlins @ Kansas City Royals (Scheduled)
 _Kauffman Stadium [pitcher-friendly park]_
 Projected score: Miami Marlins 3.91 - Kansas City Royals 3.89
-Model likes: **Miami Marlins** to win (50%) | Run line: **Kansas City Royals** +1.5 (66% to cover) | Total 7.5: lean **UNDER** (52%)
+Model likes: **Miami Marlins** to win (50%) | Run line: **Kansas City Royals** +1.5 (66% to cover) | Total 7.5: lean **UNDER** (53%)
 
 ### Miami Marlins lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
