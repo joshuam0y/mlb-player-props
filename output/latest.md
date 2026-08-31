@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-30T23:40:49.665809+00:00_
+_Generated 2026-08-31T00:48:20.577789+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -436,7 +436,7 @@ _Facing a taxed bullpen: 8.0 relief IP in last 2 days (ratio 1.37)_
 - #8 Oswald Peraza (R) [TOUGH MATCHUP: pitcher holds this hand to 0.182 avg-against] -- L7: 1H 0HR 0RBI 2TB (0.077 avg) -- home split: 0.212 avg
 - #9 Denzer Guzman (R) [TOUGH MATCHUP: pitcher holds this hand to 0.182 avg-against] -- L7: 2H 0HR 1RBI 3TB (0.091 avg) -- home split: 0.202 avg
 
-## 2026-08-30 - Cincinnati Reds @ Chicago Cubs (Delayed Start)
+## 2026-08-30 - Cincinnati Reds @ Chicago Cubs (In Progress)
 _Wrigley Field_
 Projected score: Cincinnati Reds 3.77 - Chicago Cubs 4.54
 Model likes: **Chicago Cubs** to win (57%) | Run line: **Cincinnati Reds** +1.5 (59% to cover) | Total 7.5: lean **OVER** (52%)
@@ -467,14 +467,14 @@ _Facing a taxed bullpen: 8.0 relief IP in last 2 days (ratio 1.47)_
 - #8 Michael Conforto (L) -- L7: 5H 2HR 3RBI 12TB (0.294 avg) -- home split: 0.191 avg
 - #9 Miguel Amaya (R) [TOUGH MATCHUP: pitcher holds this hand to 0.192 avg-against] -- L7: 2H 1HR 1RBI 5TB (0.125 avg) -- home split: 0.215 avg
 
-## 2026-08-31 - San Francisco Giants @ Atlanta Braves (Postponed)
+## 2026-08-31 - San Francisco Giants @ Atlanta Braves (Scheduled)
 _Truist Park_
-Projected score: San Francisco Giants 3.1 - Atlanta Braves 4.16
-Model likes: **Atlanta Braves** to win (60%) | Run line: **San Francisco Giants** +1.5 (57% to cover) | Total 6.5: lean **OVER** (52%)
+Projected score: San Francisco Giants 3.41 - Atlanta Braves 4.58
+Model likes: **Atlanta Braves** to win (60%) | Run line: **San Francisco Giants** +1.5 (56% to cover) | Total 7.5: lean **UNDER** (51%)
 
 ### San Francisco Giants lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 6.7 relief IP in last 2 days (ratio 1.24)_
-**Probable P: Landen Roupp (R)** -- L5: 26.0 IP, 19 K, 14 ER, 4.85 ERA
+**Probable P: Anthony Molina (R)** [BULLPEN GAME: short-outing arm, no reliable individual matchup below] -- L5: 11.7 IP, 5 K, 4 ER, 3.09 ERA
 - Christian Koss (R) -- L7: 4H 1HR 2RBI 7TB (0.200 avg) -- away split: 0.213 avg
 - Rafael Devers (L) [7-game hit streak] -- L7: 12H 3HR 8RBI 22TB (0.429 avg) -- away split: 0.246 avg
 - Drew Gilbert (L) -- L7: 5H 1HR 5RBI 11TB (0.294 avg) -- away split: 0.235 avg
@@ -486,7 +486,7 @@ _Facing a taxed bullpen: 6.7 relief IP in last 2 days (ratio 1.24)_
 - Drew Cavanaugh (L) -- L7: 4H 0HR 2RBI 4TB (0.222 avg) -- away split: 0.184 avg
 
 ### Atlanta Braves lineup -- PROJECTED (unconfirmed)
-**Probable P: Martín Pérez (L)** -- L5: 23.7 IP, 16 K, 6 ER, 2.28 ERA
+**Probable P: Bryce Elder (R)** -- L5: 30.0 IP, 20 K, 13 ER, 3.9 ERA
 - Drake Baldwin (L) [7-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 12H 1HR 4RBI 18TB (0.400 avg) -- home split: 0.298 avg
 - Ozzie Albies (S) -- L7: 8H 0HR 2RBI 8TB (0.308 avg) -- home split: 0.257 avg
 - Matt Olson (L) [3-game hit streak] -- L7: 6H 1HR 2RBI 10TB (0.214 avg) -- home split: 0.269 avg -- news: How Matt Olson became a king of scoops at first base
@@ -711,7 +711,7 @@ _Facing a taxed bullpen: 8.3 relief IP in last 2 days (ratio 1.63)_
 ## 2026-08-31 - Chicago White Sox @ Houston Astros (Scheduled)
 _Daikin Park_
 Projected score: Chicago White Sox 4.08 - Houston Astros 3.8
-Model likes: **Chicago White Sox** to win (52%) | Run line: **Houston Astros** +1.5 (64% to cover) | Total 7.5: lean **UNDER** (52%)
+Model likes: **Chicago White Sox** to win (53%) | Run line: **Houston Astros** +1.5 (64% to cover) | Total 7.5: lean **UNDER** (52%)
 
 ### Chicago White Sox lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 9.3 relief IP in last 2 days (ratio 1.63)_
@@ -742,7 +742,7 @@ _Facing a taxed bullpen: 9.0 relief IP in last 2 days (ratio 1.22)_
 ## 2026-08-31 - Baltimore Orioles @ Colorado Rockies (Scheduled)
 _Coors Field [hitter-friendly park]_
 Projected score: Baltimore Orioles 6.07 - Colorado Rockies 5.36
-Model likes: **Baltimore Orioles** to win (55%) | Run line: **Colorado Rockies** +1.5 (57% to cover) | Total 10.5: lean **OVER** (52%)
+Model likes: **Baltimore Orioles** to win (55%) | Run line: **Colorado Rockies** +1.5 (57% to cover) | Total 10.5: lean **OVER** (51%)
 
 ### Baltimore Orioles lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 9.3 relief IP in last 2 days (ratio 1.58)_
@@ -771,8 +771,8 @@ _Facing a taxed bullpen: 6.7 relief IP in last 2 days (ratio 1.28)_
 
 ## 2026-08-31 - New York Yankees @ Los Angeles Angels (Scheduled)
 _Angel Stadium_
-Projected score: New York Yankees 3.89 - Los Angeles Angels 3.46
-Model likes: **New York Yankees** to win (54%) | Run line: **Los Angeles Angels** +1.5 (63% to cover) | Total 6.5: lean **OVER** (53%)
+Projected score: New York Yankees 3.37 - Los Angeles Angels 3.46
+Model likes: **Los Angeles Angels** to win (51%) | Run line: **New York Yankees** +1.5 (67% to cover) | Total 6.5: lean **UNDER** (52%)
 
 ### New York Yankees lineup -- PROJECTED (unconfirmed)
 **Probable P: Elmer Rodríguez (R)** -- L5: 23.0 IP, 16 K, 12 ER, 4.7 ERA
@@ -780,14 +780,15 @@ Model likes: **New York Yankees** to win (54%) | Run line: **Los Angeles Angels*
 - Austin Wells (L) -- L7: 5H 2HR 7RBI 11TB (0.263 avg) -- away split: 0.160 avg
 - Jazz Chisholm Jr. (L) [likely BABIP-driven, not a real power uptick] -- L7: 7H 0HR 3RBI 8TB (0.412 avg) -- away split: 0.220 avg
 - Trent Grisham (L) -- L7: 1H 0HR 1RBI 1TB (0.043 avg) -- away split: 0.183 avg
-- George Lombard Jr. (R) -- L7: 5H 0HR 1RBI 7TB (0.208 avg) -- away split: 0.316 avg
+- George Lombard Jr. (R) [TOUGH MATCHUP: pitcher holds this hand to 0.188 avg-against] -- L7: 5H 0HR 1RBI 7TB (0.208 avg) -- away split: 0.316 avg
 - Ben Rice (L) [likely BABIP-driven, not a real power uptick] -- L7: 10H 1HR 6RBI 15TB (0.357 avg) -- away split: 0.262 avg
-- José Caballero (R) [3-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 9H 1HR 3RBI 12TB (0.360 avg) -- away split: 0.257 avg
+- José Caballero (R) [TOUGH MATCHUP: pitcher holds this hand to 0.188 avg-against] [3-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 9H 1HR 3RBI 12TB (0.360 avg) -- away split: 0.257 avg
 - Luis García Jr. (L) [likely BABIP-driven, not a real power uptick] -- L7: 11H 2HR 6RBI 18TB (0.423 avg) -- away split: 0.299 avg
-- Heliot Ramos (R) -- L7: 4H 1HR 3RBI 8TB (0.267 avg) -- away split: 0.231 avg
+- Heliot Ramos (R) [TOUGH MATCHUP: pitcher holds this hand to 0.188 avg-against] -- L7: 4H 1HR 3RBI 8TB (0.267 avg) -- away split: 0.231 avg
 
 ### Los Angeles Angels lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 9.7 relief IP in last 2 days (ratio 1.56)_
+**Probable P: Walbert Ureña (R)** -- L5: 23.0 IP, 24 K, 10 ER, 3.91 ERA
 - Josh Lowe (L) -- L7: 4H 0HR 1RBI 5TB (0.235 avg) -- home split: 0.201 avg
 - Jose Siri (R) -- L7: 2H 0HR 0RBI 2TB (0.095 avg) -- home split: 0.175 avg
 - Mike Trout (R) -- L7: 6H 0HR 2RBI 9TB (0.240 avg) -- home split: 0.226 avg
@@ -1105,7 +1106,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-01 - Athletics @ Texas Rangers (Scheduled)
 _Globe Life Field [hitter-friendly park]_
 Projected score: Athletics 3.95 - Texas Rangers 4.23
-Model likes: **Texas Rangers** to win (53%) | Run line: **Athletics** +1.5 (63% to cover) | Total 7.5: lean **OVER** (51%)
+Model likes: **Texas Rangers** to win (52%) | Run line: **Athletics** +1.5 (63% to cover) | Total 7.5: lean **OVER** (51%)
 
 ### Athletics lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 6.0 relief IP in last 2 days (ratio 1.2)_
@@ -1194,24 +1195,25 @@ _Facing a rested bullpen: 3.3 relief IP in last 2 days (ratio 0.64)_
 
 ## 2026-09-01 - New York Yankees @ Los Angeles Angels (Scheduled)
 _Angel Stadium_
-Projected score: New York Yankees 3.89 - Los Angeles Angels 2.79
-Model likes: **New York Yankees** to win (61%) | Run line: **Los Angeles Angels** +1.5 (57% to cover) | Total 6.5: lean **UNDER** (54%)
+Projected score: New York Yankees 4.92 - Los Angeles Angels 2.79
+Model likes: **New York Yankees** to win (69%) | Run line: **New York Yankees** -1.5 (53% to cover) | Total 7.5: lean **UNDER** (54%)
 
 ### New York Yankees lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 1.7 relief IP in last 2 days (ratio 0.29)_
 **Probable P: Gerrit Cole (R)** -- L5: 30.7 IP, 32 K, 8 ER, 2.35 ERA
-- Spencer Jones (L) [3-game hit streak] -- L7: 5H 0HR 2RBI 6TB (0.263 avg) -- away split: 0.241 avg -- news: Bellinger lands on IL with hamstring strain; Spencer Jones recalled
-- Austin Wells (L) -- L7: 5H 2HR 7RBI 11TB (0.263 avg) -- away split: 0.160 avg
-- Jazz Chisholm Jr. (L) [likely BABIP-driven, not a real power uptick] -- L7: 7H 0HR 3RBI 8TB (0.412 avg) -- away split: 0.220 avg
-- Trent Grisham (L) -- L7: 1H 0HR 1RBI 1TB (0.043 avg) -- away split: 0.183 avg
+- Spencer Jones (L) [MATCHUP EDGE: pitcher hits 0.316 avg-against vs this hand] [3-game hit streak] -- L7: 5H 0HR 2RBI 6TB (0.263 avg) -- away split: 0.241 avg -- news: Bellinger lands on IL with hamstring strain; Spencer Jones recalled
+- Austin Wells (L) [MATCHUP EDGE: pitcher hits 0.316 avg-against vs this hand] -- L7: 5H 2HR 7RBI 11TB (0.263 avg) -- away split: 0.160 avg
+- Jazz Chisholm Jr. (L) [MATCHUP EDGE: pitcher hits 0.316 avg-against vs this hand] [likely BABIP-driven, not a real power uptick] -- L7: 7H 0HR 3RBI 8TB (0.412 avg) -- away split: 0.220 avg
+- Trent Grisham (L) [MATCHUP EDGE: pitcher hits 0.316 avg-against vs this hand] -- L7: 1H 0HR 1RBI 1TB (0.043 avg) -- away split: 0.183 avg
 - George Lombard Jr. (R) -- L7: 5H 0HR 1RBI 7TB (0.208 avg) -- away split: 0.316 avg
-- Ben Rice (L) [likely BABIP-driven, not a real power uptick] -- L7: 10H 1HR 6RBI 15TB (0.357 avg) -- away split: 0.262 avg
+- Ben Rice (L) [MATCHUP EDGE: pitcher hits 0.316 avg-against vs this hand] [likely BABIP-driven, not a real power uptick] -- L7: 10H 1HR 6RBI 15TB (0.357 avg) -- away split: 0.262 avg
 - José Caballero (R) [3-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 9H 1HR 3RBI 12TB (0.360 avg) -- away split: 0.257 avg
-- Luis García Jr. (L) [likely BABIP-driven, not a real power uptick] -- L7: 11H 2HR 6RBI 18TB (0.423 avg) -- away split: 0.299 avg
+- Luis García Jr. (L) [MATCHUP EDGE: pitcher hits 0.316 avg-against vs this hand] [likely BABIP-driven, not a real power uptick] -- L7: 11H 2HR 6RBI 18TB (0.423 avg) -- away split: 0.299 avg
 - Heliot Ramos (R) -- L7: 4H 1HR 3RBI 8TB (0.267 avg) -- away split: 0.231 avg
 
 ### Los Angeles Angels lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.32)_
+**Probable P: Grayson Rodriguez (R)** -- L5: 27.7 IP, 29 K, 9 ER, 2.93 ERA
 - Josh Lowe (L) -- L7: 4H 0HR 1RBI 5TB (0.235 avg) -- home split: 0.201 avg
 - Jose Siri (R) -- L7: 2H 0HR 0RBI 2TB (0.095 avg) -- home split: 0.175 avg
 - Mike Trout (R) -- L7: 6H 0HR 2RBI 9TB (0.240 avg) -- home split: 0.226 avg
