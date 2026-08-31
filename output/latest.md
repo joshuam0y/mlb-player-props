@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-08-31T05:39:42.351246+00:00_
+_Generated 2026-08-31T06:17:46.978346+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -198,7 +198,7 @@ _Facing a taxed bullpen: 6.7 relief IP in last 2 days (ratio 1.4)_
 ## 2026-08-31 - Detroit Tigers @ Minnesota Twins (Scheduled)
 _Target Field_
 Projected score: Detroit Tigers 3.91 - Minnesota Twins 3.81
-Model likes: **Detroit Tigers** to win (51%) | Run line: **Minnesota Twins** +1.5 (66% to cover) | Total 7.5: lean **UNDER** (53%)
+Model likes: **Detroit Tigers** to win (51%) | Run line: **Minnesota Twins** +1.5 (65% to cover) | Total 7.5: lean **UNDER** (53%)
 
 ### Detroit Tigers lineup -- PROJECTED (unconfirmed)
 **Probable P: Jackson Jobe (R)** -- L5: 23.0 IP, 19 K, 11 ER, 4.3 ERA
@@ -289,7 +289,7 @@ _Facing a taxed bullpen: 8.3 relief IP in last 2 days (ratio 1.63)_
 ## 2026-08-31 - Chicago White Sox @ Houston Astros (Scheduled)
 _Daikin Park_
 Projected score: Chicago White Sox 3.98 - Houston Astros 3.93
-Model likes: **Chicago White Sox** to win (50%) | Run line: **Houston Astros** +1.5 (66% to cover) | Total 7.5: lean **UNDER** (51%)
+Model likes: **Chicago White Sox** to win (50%) | Run line: **Houston Astros** +1.5 (66% to cover) | Total 7.5: lean **UNDER** (52%)
 
 ### Chicago White Sox lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 11.3 relief IP in last 2 days (ratio 1.97)_
@@ -381,7 +381,7 @@ _Facing a taxed bullpen: 9.7 relief IP in last 2 days (ratio 1.56)_
 ## 2026-08-31 - Philadelphia Phillies @ Arizona Diamondbacks (Scheduled)
 _Chase Field [hitter-friendly park]_
 Projected score: Philadelphia Phillies 4.67 - Arizona Diamondbacks 4.97
-Model likes: **Arizona Diamondbacks** to win (52%) | Run line: **Philadelphia Phillies** +1.5 (61% to cover) | Total 8.5: lean **OVER** (54%)
+Model likes: **Arizona Diamondbacks** to win (52%) | Run line: **Philadelphia Phillies** +1.5 (62% to cover) | Total 9.5: lean **UNDER** (54%)
 
 ### Philadelphia Phillies lineup -- PROJECTED (unconfirmed)
 **Probable P: Aaron Nola (R)** -- L5: 29.0 IP, 37 K, 9 ER, 2.79 ERA
@@ -470,7 +470,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-01 - Toronto Blue Jays @ Cleveland Guardians (Scheduled)
 _Progressive Field_
 Projected score: Toronto Blue Jays 3.55 - Cleveland Guardians 3.71
-Model likes: **Cleveland Guardians** to win (52%) | Run line: **Toronto Blue Jays** +1.5 (66% to cover) | Total 6.5: lean **OVER** (53%)
+Model likes: **Cleveland Guardians** to win (52%) | Run line: **Toronto Blue Jays** +1.5 (66% to cover) | Total 6.5: lean **OVER** (52%)
 
 ### Toronto Blue Jays lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.58)_
@@ -1232,7 +1232,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-02 - Chicago White Sox @ Houston Astros (Scheduled)
 _Daikin Park_
 Projected score: Chicago White Sox 4.11 - Houston Astros 4.52
-Model likes: **Houston Astros** to win (53%) | Run line: **Chicago White Sox** +1.5 (62% to cover) | Total 8.5: lean **UNDER** (54%)
+Model likes: **Houston Astros** to win (54%) | Run line: **Chicago White Sox** +1.5 (62% to cover) | Total 8.5: lean **UNDER** (54%)
 
 ### Chicago White Sox lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
