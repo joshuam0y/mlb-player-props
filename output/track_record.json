@@ -52555,7 +52555,7 @@
     },
     "2026-08-28": {
       "date": "2026-08-28",
-      "graded_at": "2026-09-01T05:11:58.071885+00:00",
+      "graded_at": "2026-09-01T10:01:22.576271+00:00",
       "top_overs": {
         "n": 21,
         "hits": 11,
@@ -54090,7 +54090,7 @@
     },
     "2026-08-29": {
       "date": "2026-08-29",
-      "graded_at": "2026-09-01T05:11:57.734090+00:00",
+      "graded_at": "2026-09-01T10:01:22.221596+00:00",
       "top_overs": {
         "n": 23,
         "hits": 14,
@@ -55641,7 +55641,7 @@
     },
     "2026-08-30": {
       "date": "2026-08-30",
-      "graded_at": "2026-09-01T05:11:57.380079+00:00",
+      "graded_at": "2026-09-01T10:01:21.844438+00:00",
       "top_overs": {
         "n": 23,
         "hits": 14,
@@ -57193,7 +57193,7 @@
     },
     "2026-08-31": {
       "date": "2026-08-31",
-      "graded_at": "2026-09-01T05:11:57.055130+00:00",
+      "graded_at": "2026-09-01T10:01:21.509525+00:00",
       "top_overs": {
         "n": 21,
         "hits": 11,
@@ -58193,10 +58193,10 @@
       ],
       "games": {
         "moneyline": {
-          "n": 11,
-          "hits": 5,
+          "n": 12,
+          "hits": 6,
           "misses": 6,
-          "hit_rate": 0.455,
+          "hit_rate": 0.5,
           "examples": [
             {
               "matchup": "San Francisco Giants @ Atlanta Braves",
@@ -58253,18 +58253,18 @@
               "outcome": "miss"
             },
             {
-              "matchup": "New York Yankees @ Los Angeles Angels",
-              "pick": "Los Angeles Angels to win",
-              "actual": "1-10",
+              "matchup": "Baltimore Orioles @ Colorado Rockies",
+              "pick": "Baltimore Orioles to win",
+              "actual": "2-1",
               "outcome": "hit"
             }
           ]
         },
         "run_line": {
-          "n": 11,
-          "hits": 7,
+          "n": 12,
+          "hits": 8,
           "misses": 4,
-          "hit_rate": 0.636,
+          "hit_rate": 0.667,
           "examples": [
             {
               "matchup": "San Francisco Giants @ Atlanta Braves",
@@ -58321,18 +58321,18 @@
               "outcome": "hit"
             },
             {
-              "matchup": "New York Yankees @ Los Angeles Angels",
-              "pick": "New York Yankees +1.5",
-              "actual": "margin +9",
-              "outcome": "miss"
+              "matchup": "Baltimore Orioles @ Colorado Rockies",
+              "pick": "Colorado Rockies +1.5",
+              "actual": "margin -1",
+              "outcome": "hit"
             }
           ]
         },
         "total": {
-          "n": 11,
+          "n": 12,
           "hits": 4,
-          "misses": 7,
-          "hit_rate": 0.364,
+          "misses": 8,
+          "hit_rate": 0.333,
           "examples": [
             {
               "matchup": "San Francisco Giants @ Atlanta Braves",
@@ -58389,17 +58389,17 @@
               "outcome": "miss"
             },
             {
-              "matchup": "New York Yankees @ Los Angeles Angels",
-              "pick": "UNDER 6.5",
-              "actual": "11 runs",
+              "matchup": "Baltimore Orioles @ Colorado Rockies",
+              "pick": "OVER 9.5",
+              "actual": "3 runs",
               "outcome": "miss"
             }
           ]
         },
         "score_accuracy": {
-          "n": 11,
-          "mae": 4.4,
-          "bias": 1.83
+          "n": 12,
+          "mae": 4.67,
+          "bias": 1.04
         },
         "score_examples": [
           {
@@ -58417,6 +58417,14 @@
             "actual_away": 8,
             "actual_home": 9,
             "error": 9.97
+          },
+          {
+            "matchup": "Baltimore Orioles @ Colorado Rockies",
+            "projected_away": 6.17,
+            "projected_home": 4.47,
+            "actual_away": 2,
+            "actual_home": 1,
+            "error": -7.64
           },
           {
             "matchup": "Philadelphia Phillies @ Arizona Diamondbacks",
@@ -58473,23 +58481,15 @@
             "actual_away": 3,
             "actual_home": 6,
             "error": 1.09
-          },
-          {
-            "matchup": "Athletics @ Texas Rangers",
-            "projected_away": 4.24,
-            "projected_home": 5.06,
-            "actual_away": 1,
-            "actual_home": 8,
-            "error": -0.3
           }
         ]
       },
       "matchup_leans": {
-        "n": 219,
-        "hits": 130,
-        "misses": 75,
-        "no_data": 14,
-        "hit_rate": 0.634,
+        "n": 239,
+        "hits": 142,
+        "misses": 81,
+        "no_data": 16,
+        "hit_rate": 0.637,
         "examples": [
           {
             "name": "Drake Baldwin",
@@ -58584,11 +58584,11 @@
         ]
       },
       "best_prop_stars": {
-        "n": 22,
+        "n": 24,
         "hits": 15,
-        "misses": 7,
-        "no_data": 0,
-        "hit_rate": 0.682,
+        "misses": 8,
+        "no_data": 1,
+        "hit_rate": 0.652,
         "examples": [
           {
             "name": "Mauricio Dub\u00f3n",
@@ -58754,46 +58754,46 @@
     },
     "games": {
       "moneyline": {
-        "n": 529,
-        "hits": 293,
+        "n": 530,
+        "hits": 294,
         "misses": 236,
-        "hit_rate": 0.554
+        "hit_rate": 0.555
       },
       "run_line": {
-        "n": 529,
-        "hits": 311,
+        "n": 530,
+        "hits": 312,
         "misses": 218,
-        "hit_rate": 0.588
+        "hit_rate": 0.589
       },
       "total": {
-        "n": 529,
+        "n": 530,
         "hits": 273,
-        "misses": 256,
-        "hit_rate": 0.516
+        "misses": 257,
+        "hit_rate": 0.515
       },
       "score_accuracy": {
-        "n": 529,
-        "mae": 3.52,
-        "bias": 0.67,
+        "n": 530,
+        "mae": 3.53,
+        "bias": 0.65,
         "avg_projected": 0.0,
         "avg_actual": 0.0
       }
     },
     "matchup_leans": {
       "days": 39,
-      "n": 10226,
-      "hits": 6371,
-      "misses": 3553,
-      "no_data": 302,
+      "n": 10246,
+      "hits": 6383,
+      "misses": 3559,
+      "no_data": 304,
       "hit_rate": 0.642
     },
     "best_prop_stars": {
       "days": 39,
-      "n": 1028,
+      "n": 1030,
       "hits": 498,
-      "misses": 511,
-      "no_data": 19,
-      "hit_rate": 0.494
+      "misses": 512,
+      "no_data": 20,
+      "hit_rate": 0.493
     },
     "projection_accuracy": {
       "Total Bases": {
@@ -58803,20 +58803,6 @@
         "avg_projected": 1.37,
         "avg_actual": 1.37
       },
-      "RBIs": {
-        "n": 9177,
-        "mae": 0.6,
-        "bias": -0.01,
-        "avg_projected": 0.43,
-        "avg_actual": 0.42
-      },
-      "Hits Allowed": {
-        "n": 1027,
-        "mae": 1.83,
-        "bias": 0.18,
-        "avg_projected": 4.62,
-        "avg_actual": 4.8
-      },
       "Home Runs": {
         "n": 9177,
         "mae": 0.2,
@@ -58824,12 +58810,12 @@
         "avg_projected": 0.12,
         "avg_actual": 0.11
       },
-      "Walks": {
-        "n": 9177,
-        "mae": 0.47,
-        "bias": 0.02,
-        "avg_projected": 0.34,
-        "avg_actual": 0.36
+      "Walks Allowed": {
+        "n": 1027,
+        "mae": 0.98,
+        "bias": 0.1,
+        "avg_projected": 1.72,
+        "avg_actual": 1.82
       },
       "Runs Allowed": {
         "n": 1027,
@@ -58837,20 +58823,6 @@
         "bias": 0.08,
         "avg_projected": 2.25,
         "avg_actual": 2.33
-      },
-      "Runs Scored": {
-        "n": 9177,
-        "mae": 0.56,
-        "bias": -0.01,
-        "avg_projected": 0.45,
-        "avg_actual": 0.45
-      },
-      "Outs Recorded": {
-        "n": 945,
-        "mae": 3.12,
-        "bias": 0.72,
-        "avg_projected": 14.71,
-        "avg_actual": 15.42
       },
       "Hits": {
         "n": 9177,
@@ -58866,22 +58838,50 @@
         "avg_projected": 1.71,
         "avg_actual": 1.74
       },
+      "Outs Recorded": {
+        "n": 945,
+        "mae": 3.12,
+        "bias": 0.72,
+        "avg_projected": 14.71,
+        "avg_actual": 15.42
+      },
+      "RBIs": {
+        "n": 9177,
+        "mae": 0.6,
+        "bias": -0.01,
+        "avg_projected": 0.43,
+        "avg_actual": 0.42
+      },
+      "Runs Scored": {
+        "n": 9177,
+        "mae": 0.56,
+        "bias": -0.01,
+        "avg_projected": 0.45,
+        "avg_actual": 0.45
+      },
+      "Walks": {
+        "n": 9177,
+        "mae": 0.47,
+        "bias": 0.02,
+        "avg_projected": 0.34,
+        "avg_actual": 0.36
+      },
+      "Hits Allowed": {
+        "n": 1027,
+        "mae": 1.83,
+        "bias": 0.18,
+        "avg_projected": 4.62,
+        "avg_actual": 4.8
+      },
       "Strikeouts": {
         "n": 1027,
         "mae": 1.83,
         "bias": 0.07,
         "avg_projected": 4.59,
         "avg_actual": 4.66
-      },
-      "Walks Allowed": {
-        "n": 1027,
-        "mae": 0.98,
-        "bias": 0.1,
-        "avg_projected": 1.72,
-        "avg_actual": 1.82
       }
     },
     "days_tracked": 39
   },
-  "updated_at": "2026-09-01T05:11:58.101643+00:00"
+  "updated_at": "2026-09-01T10:01:22.607994+00:00"
 }
