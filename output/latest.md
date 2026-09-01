@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-09-01T15:02:20.545148+00:00_
+_Generated 2026-09-01T17:22:29.351874+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -25,6 +25,7 @@ _Generated 2026-09-01T15:02:20.545148+00:00_
 - **Ronel Blanco** (Houston Astros vs Chicago White Sox): 3 hitters in tonight's lineup are in a tough matchup against him -- try Runs Allowed: 40% over 4.5 recently (vs. 5-game sample)
 - **Logan Webb** (San Francisco Giants vs Pittsburgh Pirates): opposing lineup has struck out at an elevated rate over their last 2 games (38% vs their own 28% season rate) -- try Outs Recorded: 80% over 17.5 recently (vs. 5-game sample)
 - **Jake Irvin** (Washington Nationals vs Atlanta Braves): opposing lineup has struck out at an elevated rate over their last 2 games (30% vs their own 24% season rate) -- try Runs Allowed: 60% over 3.5 recently (vs. 5-game sample)
+- **Jedixson Paez** (Boston Red Sox vs Seattle Mariners): opposing lineup has struck out at an elevated rate over their last 2 games (39% vs their own 26% season rate)
 - **Jesús Luzardo** (Philadelphia Phillies vs Arizona Diamondbacks): 2 hitter(s) in tonight's lineup are in a tough matchup against him -- try Strikeouts: 80% over 8.5 recently (vs. 5-game sample)
 
 ## Today's Top Unders
@@ -204,7 +205,7 @@ _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.3)_
 ## 2026-09-01 - Seattle Mariners @ Boston Red Sox (Scheduled)
 _Fenway Park_
 Projected score: Seattle Mariners 3.71 - Boston Red Sox 4.62
-Model likes: **Boston Red Sox** to win (58%) | Run line: **Seattle Mariners** +1.5 (58% to cover) | Total 7.5: lean **OVER** (52%)
+Model likes: **Boston Red Sox** to win (58%) | Run line: **Seattle Mariners** +1.5 (57% to cover) | Total 7.5: lean **OVER** (52%)
 
 ### Seattle Mariners lineup -- PROJECTED (unconfirmed)
 **Probable P: Bryan Woo (R)** -- L5: 27.0 IP, 28 K, 13 ER, 4.33 ERA
@@ -220,6 +221,7 @@ Model likes: **Boston Red Sox** to win (58%) | Run line: **Seattle Mariners** +1
 
 ### Boston Red Sox lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 7.3 relief IP in last 2 days (ratio 1.42)_
+**Probable P: Jedixson Paez (R)** -- L5: no data
 - Caleb Durbin (R) -- L7: 4H 0HR 0RBI 4TB (0.211 avg) -- home split: 0.254 avg
 - Nick Sogard (S) [4-game hit streak] -- L7: 6H 1HR 3RBI 11TB (0.214 avg) -- home split: 0.357 avg
 - Ceddanne Rafaela (R) -- L7: 6H 0HR 4RBI 6TB (0.200 avg) -- home split: 0.291 avg
@@ -263,7 +265,7 @@ _Facing a rested bullpen: 2.7 relief IP in last 2 days (ratio 0.61)_
 ## 2026-09-01 - Miami Marlins @ Kansas City Royals (Scheduled)
 _Kauffman Stadium [pitcher-friendly park]_
 Projected score: Miami Marlins 2.49 - Kansas City Royals 4.23
-Model likes: **Kansas City Royals** to win (68%) | Run line: **Miami Marlins** +1.5 (51% to cover) | Total 6.5: lean **UNDER** (53%)
+Model likes: **Kansas City Royals** to win (68%) | Run line: **Miami Marlins** +1.5 (50% to cover) | Total 6.5: lean **UNDER** (53%)
 
 ### Miami Marlins lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.3 relief IP in last 2 days (ratio 0.62)_
@@ -657,7 +659,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.52)_
 ## 2026-09-02 - Seattle Mariners @ Boston Red Sox (Scheduled)
 _Fenway Park_
 Projected score: Seattle Mariners 3.13 - Boston Red Sox 5.8
-Model likes: **Boston Red Sox** to win (72%) | Run line: **Boston Red Sox** -1.5 (57% to cover) | Total 8.5: lean **UNDER** (52%)
+Model likes: **Boston Red Sox** to win (71%) | Run line: **Boston Red Sox** -1.5 (57% to cover) | Total 8.5: lean **UNDER** (52%)
 
 ### Seattle Mariners lineup -- PROJECTED (unconfirmed)
 - Julio Rodríguez (R) [MATCHUP EDGE: pitcher hits 0.274 avg-against vs this hand] -- L7: 5H 1HR 4RBI 9TB (0.172 avg) -- away split: 0.224 avg
@@ -898,7 +900,7 @@ _Facing a rested bullpen: 3.3 relief IP in last 2 days (ratio 0.45)_
 ## 2026-09-02 - New York Yankees @ Los Angeles Angels (Scheduled)
 _Angel Stadium_
 Projected score: New York Yankees 3.58 - Los Angeles Angels 2.19
-Model likes: **New York Yankees** to win (66%) | Run line: **Los Angeles Angels** +1.5 (55% to cover) | Total 5.5: lean **UNDER** (53%)
+Model likes: **New York Yankees** to win (66%) | Run line: **Los Angeles Angels** +1.5 (55% to cover) | Total 5.5: lean **UNDER** (52%)
 
 ### New York Yankees lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.34)_
