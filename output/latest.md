@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-09-02T00:12:55.283384+00:00_
+_Generated 2026-09-02T00:30:41.919577+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -80,7 +80,7 @@ _Facing a taxed bullpen: 7.7 relief IP in last 2 days (ratio 1.26)_
 ## 2026-09-01 - San Francisco Giants @ Pittsburgh Pirates (In Progress)
 _PNC Park_
 Projected score: San Francisco Giants 3.38 - Pittsburgh Pirates 3.98
-Model likes: **Pittsburgh Pirates** to win (56%) | Run line: **San Francisco Giants** +1.5 (61% to cover) | Total 6.5: lean **OVER** (53%)
+Model likes: **Pittsburgh Pirates** to win (56%) | Run line: **San Francisco Giants** +1.5 (61% to cover) | Total 6.5: lean **OVER** (54%)
 
 ### San Francisco Giants lineup -- CONFIRMED
 _Facing a rested bullpen: 4.0 relief IP in last 2 days (ratio 0.63)_
@@ -354,7 +354,7 @@ _Facing a taxed bullpen: 8.0 relief IP in last 2 days (ratio 1.56)_
 ## 2026-09-01 - Chicago White Sox @ Houston Astros (In Progress)
 _Daikin Park_
 Projected score: Chicago White Sox 5.96 - Houston Astros 3.62
-Model likes: **Chicago White Sox** to win (68%) | Run line: **Chicago White Sox** -1.5 (54% to cover) | Total 8.5: lean **OVER** (54%)
+Model likes: **Chicago White Sox** to win (68%) | Run line: **Chicago White Sox** -1.5 (54% to cover) | Total 8.5: lean **OVER** (53%)
 
 ### Chicago White Sox lineup -- CONFIRMED
 _Facing a taxed bullpen: 8.3 relief IP in last 2 days (ratio 1.44)_
@@ -382,10 +382,10 @@ _Facing a taxed bullpen: 10.7 relief IP in last 2 days (ratio 1.44)_
 - #8 Taylor Trammell (L) -- L7: 1H 0HR 0RBI 1TB (0.062 avg) -- home split: 0.181 avg
 - #9 Cam Smith (R) -- L7: 3H 0HR 2RBI 8TB (0.167 avg) -- home split: 0.188 avg
 
-## 2026-09-01 - Baltimore Orioles @ Colorado Rockies (Pre-Game)
+## 2026-09-01 - Baltimore Orioles @ Colorado Rockies (Warmup)
 _Coors Field [hitter-friendly park]_
 Projected score: Baltimore Orioles 6.67 - Colorado Rockies 4.11
-Model likes: **Baltimore Orioles** to win (68%) | Run line: **Baltimore Orioles** -1.5 (56% to cover) | Total 10.5: lean **UNDER** (53%)
+Model likes: **Baltimore Orioles** to win (68%) | Run line: **Baltimore Orioles** -1.5 (56% to cover) | Total 10.5: lean **UNDER** (54%)
 
 ### Baltimore Orioles lineup -- CONFIRMED
 _Facing a taxed bullpen: 8.0 relief IP in last 2 days (ratio 1.29)_
@@ -508,7 +508,7 @@ _Facing a rested bullpen: 3.3 relief IP in last 2 days (ratio 0.6)_
 ## 2026-09-02 - San Diego Padres @ Cincinnati Reds (Scheduled)
 _Great American Ball Park [hitter-friendly park]_
 Projected score: San Diego Padres 6.07 - Cincinnati Reds 3.28
-Model likes: **San Diego Padres** to win (72%) | Run line: **San Diego Padres** -1.5 (58% to cover) | Total 8.5: lean **OVER** (52%)
+Model likes: **San Diego Padres** to win (72%) | Run line: **San Diego Padres** -1.5 (58% to cover) | Total 8.5: lean **OVER** (51%)
 
 ### San Diego Padres lineup -- PROJECTED (unconfirmed)
 **Probable P: Casey Mize (R)** -- L5: 23.0 IP, 11 K, 16 ER, 6.26 ERA
@@ -899,7 +899,7 @@ _Facing a rested bullpen: 3.3 relief IP in last 2 days (ratio 0.45)_
 ## 2026-09-02 - New York Yankees @ Los Angeles Angels (Scheduled)
 _Angel Stadium_
 Projected score: New York Yankees 3.58 - Los Angeles Angels 2.19
-Model likes: **New York Yankees** to win (66%) | Run line: **Los Angeles Angels** +1.5 (55% to cover) | Total 5.5: lean **UNDER** (53%)
+Model likes: **New York Yankees** to win (66%) | Run line: **Los Angeles Angels** +1.5 (55% to cover) | Total 5.5: lean **UNDER** (52%)
 
 ### New York Yankees lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.34)_
@@ -960,7 +960,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-03 - San Francisco Giants @ Pittsburgh Pirates (Scheduled)
 _PNC Park_
 Projected score: San Francisco Giants 4.15 - Pittsburgh Pirates 4.21
-Model likes: **Pittsburgh Pirates** to win (50%) | Run line: **San Francisco Giants** +1.5 (65% to cover) | Total 7.5: lean **OVER** (53%)
+Model likes: **Pittsburgh Pirates** to win (51%) | Run line: **San Francisco Giants** +1.5 (65% to cover) | Total 7.5: lean **OVER** (53%)
 
 ### San Francisco Giants lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -990,7 +990,7 @@ _Facing a rested bullpen: 0.3 relief IP in last 2 days (ratio 0.06)_
 ## 2026-09-03 - Toronto Blue Jays @ Cleveland Guardians (Scheduled)
 _Progressive Field_
 Projected score: Toronto Blue Jays 3.21 - Cleveland Guardians 2.98
-Model likes: **Toronto Blue Jays** to win (53%) | Run line: **Cleveland Guardians** +1.5 (67% to cover) | Total 5.5: lean **OVER** (53%)
+Model likes: **Toronto Blue Jays** to win (52%) | Run line: **Cleveland Guardians** +1.5 (67% to cover) | Total 5.5: lean **OVER** (53%)
 
 ### Toronto Blue Jays lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1112,7 +1112,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-03 - Miami Marlins @ Kansas City Royals (Scheduled)
 _Kauffman Stadium [pitcher-friendly park]_
 Projected score: Miami Marlins 3.22 - Kansas City Royals 3.93
-Model likes: **Kansas City Royals** to win (57%) | Run line: **Miami Marlins** +1.5 (61% to cover) | Total 6.5: lean **OVER** (51%)
+Model likes: **Kansas City Royals** to win (57%) | Run line: **Miami Marlins** +1.5 (60% to cover) | Total 6.5: lean **OVER** (51%)
 
 ### Miami Marlins lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1200,11 +1200,12 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 
 ## 2026-09-03 - St. Louis Cardinals @ Los Angeles Dodgers (Scheduled)
 _UNIQLO Field at Dodger Stadium_
-Projected score: St. Louis Cardinals 3.19 - Los Angeles Dodgers 4.48
-Model likes: **Los Angeles Dodgers** to win (62%) | Run line: **St. Louis Cardinals** +1.5 (55% to cover) | Total 7.5: lean **UNDER** (54%)
+Projected score: St. Louis Cardinals 3.19 - Los Angeles Dodgers 4.52
+Model likes: **Los Angeles Dodgers** to win (62%) | Run line: **St. Louis Cardinals** +1.5 (54% to cover) | Total 7.5: lean **UNDER** (54%)
 
 ### St. Louis Cardinals lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
+**Probable P: Quinn Mathews (L)** -- L5: 19.7 IP, 20 K, 11 ER, 5.03 ERA
 - Joshua Báez (R) -- L7: 4H 1HR 1RBI 9TB (0.182 avg) -- away split: 0.139 avg -- news: 5 big questions about Joshua Báez's future
 - Jordan Walker (R) -- L7: 7H 0HR 1RBI 8TB (0.259 avg) -- away split: 0.289 avg
 - Alec Burleson (L) -- L7: 7H 0HR 6RBI 7TB (0.259 avg) -- away split: 0.316 avg -- news: Can Alec Burleson guide Cardinals to contention?
@@ -1219,11 +1220,11 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 **Probable P: Tarik Skubal (L)** -- L5: 30.0 IP, 37 K, 10 ER, 3.0 ERA
 - Shohei Ohtani (L) -- L7: 4H 0HR 0RBI 7TB (0.133 avg) -- home split: 0.283 avg
-- Mookie Betts (R) [7-game hit streak] -- L7: 8H 0HR 1RBI 10TB (0.276 avg) -- home split: 0.230 avg
-- Tommy Edman (S) -- L7: 5H 1HR 3RBI 9TB (0.192 avg) -- home split: 0.236 avg
+- Mookie Betts (R) [MATCHUP EDGE: pitcher hits 0.297 avg-against vs this hand] [7-game hit streak] -- L7: 8H 0HR 1RBI 10TB (0.276 avg) -- home split: 0.230 avg
+- Tommy Edman (S) [MATCHUP EDGE: pitcher hits 0.297 avg-against vs this hand] -- L7: 5H 1HR 3RBI 9TB (0.192 avg) -- home split: 0.236 avg
 - Kyle Tucker (L) -- L7: 4H 0HR 0RBI 5TB (0.190 avg) -- home split: 0.189 avg
-- Teoscar Hernández (R) -- L7: 7H 1HR 3RBI 10TB (0.269 avg) -- home split: 0.237 avg
+- Teoscar Hernández (R) [MATCHUP EDGE: pitcher hits 0.297 avg-against vs this hand] -- L7: 7H 1HR 3RBI 10TB (0.269 avg) -- home split: 0.237 avg
 - Max Muncy (L) -- L7: 5H 0HR 2RBI 7TB (0.227 avg) -- home split: 0.245 avg -- news: 10 questions with Dodgers vet Max Muncy
 - Freddie Freeman (L) [5-game hit streak] -- L7: 10H 0HR 2RBI 12TB (0.370 avg) -- home split: 0.267 avg
 - Hunter Feduccia (L) [likely BABIP-driven, not a real power uptick] -- L7: 5H 0HR 3RBI 6TB (0.333 avg) -- home split: 0.250 avg
-- Enrique Hernández (R) -- L7: 4H 1HR 3RBI 7TB (0.250 avg) -- home split: 0.238 avg
+- Enrique Hernández (R) [MATCHUP EDGE: pitcher hits 0.297 avg-against vs this hand] -- L7: 4H 1HR 3RBI 7TB (0.250 avg) -- home split: 0.238 avg
