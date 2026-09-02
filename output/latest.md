@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-09-02T04:29:56.754038+00:00_
+_Generated 2026-09-02T04:56:58.933268+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -776,14 +776,13 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 - Hunter Feduccia (L) [likely BABIP-driven, not a real power uptick] -- L7: 5H 0HR 3RBI 6TB (0.333 avg) -- home split: 0.250 avg
 - Enrique Hernández (R) [MATCHUP EDGE: pitcher hits 0.297 avg-against vs this hand] -- L7: 4H 1HR 3RBI 7TB (0.250 avg) -- home split: 0.238 avg
 
-## 2026-09-04 - Detroit Tigers @ Cleveland Guardians (Postponed)
+## 2026-09-04 - Detroit Tigers @ Cleveland Guardians (Scheduled)
 _Progressive Field_
-Projected score: Detroit Tigers 3.23 - Cleveland Guardians 3.21
-Model likes: **Detroit Tigers** to win (50%) | Run line: **Cleveland Guardians** +1.5 (68% to cover) | Total 5.5: lean **OVER** (55%)
+Projected score: Detroit Tigers 3.41 - Cleveland Guardians 4.47
+Model likes: **Cleveland Guardians** to win (60%) | Run line: **Detroit Tigers** +1.5 (57% to cover) | Total 7.5: lean **UNDER** (52%)
 
 ### Detroit Tigers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
-**Probable P: Casey Mize (R)** -- L5: 23.0 IP, 11 K, 16 ER, 6.26 ERA
 - Kevin McGonigle (L) -- L7: 3H 0HR 2RBI 3TB (0.115 avg) -- away split: 0.293 avg
 - Max Clark (L) -- L7: 4H 1HR 3RBI 10TB (0.211 avg) -- away split: 0.266 avg -- news: Mayo: Don't judge a book by its cover -- especially Max Clark
 - Hao-Yu Lee (R) -- L7: 5H 1HR 3RBI 9TB (0.217 avg) -- away split: 0.307 avg -- news: Hao-Yu Lee sets single-season record for hits by a player born in Taiwan
@@ -796,7 +795,6 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 
 ### Cleveland Guardians lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
-**Probable P: Gavin Williams (R)** -- L5: 24.0 IP, 39 K, 14 ER, 5.25 ERA
 - Steven Kwan (L) [likely BABIP-driven, not a real power uptick] -- L7: 14H 0HR 2RBI 16TB (0.452 avg) -- home split: 0.272 avg
 - José Ramírez (S) [3-game hit streak] -- L7: 10H 1HR 9RBI 17TB (0.345 avg) -- home split: 0.262 avg
 - Petey Halpin (L) [likely BABIP-driven, not a real power uptick] -- L7: 3H 0HR 0RBI 3TB (0.333 avg) -- home split: 0.247 avg
@@ -810,7 +808,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-04 - Milwaukee Brewers @ Cincinnati Reds (Scheduled)
 _Great American Ball Park [hitter-friendly park]_
 Projected score: Milwaukee Brewers 5.0 - Cincinnati Reds 3.95
-Model likes: **Milwaukee Brewers** to win (59%) | Run line: **Cincinnati Reds** +1.5 (56% to cover) | Total 8.5: lean **UNDER** (51%)
+Model likes: **Milwaukee Brewers** to win (59%) | Run line: **Cincinnati Reds** +1.5 (56% to cover) | Total 8.5: lean **UNDER** (52%)
 
 ### Milwaukee Brewers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1102,7 +1100,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-04 - Arizona Diamondbacks @ Houston Astros (Scheduled)
 _Daikin Park_
 Projected score: Arizona Diamondbacks 4.62 - Houston Astros 4.5
-Model likes: **Arizona Diamondbacks** to win (51%) | Run line: **Houston Astros** +1.5 (63% to cover) | Total 8.5: lean **OVER** (50%)
+Model likes: **Arizona Diamondbacks** to win (51%) | Run line: **Houston Astros** +1.5 (63% to cover) | Total 8.5: lean **UNDER** (50%)
 
 ### Arizona Diamondbacks lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
