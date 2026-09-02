@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-09-02T04:56:58.933268+00:00_
+_Generated 2026-09-02T09:20:25.956311+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -175,8 +175,8 @@ Model likes: **Baltimore Orioles** to win (58%) | Run line: **Colorado Rockies**
 
 ## 2026-09-02 - Philadelphia Phillies @ Arizona Diamondbacks (Scheduled)
 _Chase Field [hitter-friendly park]_
-Projected score: Philadelphia Phillies 4.74 - Arizona Diamondbacks 4.98
-Model likes: **Arizona Diamondbacks** to win (52%) | Run line: **Philadelphia Phillies** +1.5 (62% to cover) | Total 9.5: lean **UNDER** (54%)
+Projected score: Philadelphia Phillies 3.46 - Arizona Diamondbacks 4.98
+Model likes: **Arizona Diamondbacks** to win (63%) | Run line: **Philadelphia Phillies** +1.5 (52% to cover) | Total 7.5: lean **OVER** (53%)
 
 ### Philadelphia Phillies lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.53)_
@@ -192,6 +192,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.53)_
 - J.T. Realmuto (R) -- L7: 7H 2HR 3RBI 14TB (0.292 avg) -- away split: 0.193 avg
 
 ### Arizona Diamondbacks lineup -- PROJECTED (unconfirmed)
+**Probable P: Taylor Clarke (R)** [BULLPEN GAME: short-outing arm, no reliable individual matchup below] -- L5: 5.3 IP, 4 K, 3 ER, 5.06 ERA
 - Tim Tawa (R) -- L7: 4H 1HR 3RBI 8TB (0.167 avg) -- home split: 0.263 avg
 - Corbin Carroll (L) [MATCHUP EDGE: pitcher hits 0.296 avg-against vs this hand] -- L7: 3H 1HR 3RBI 6TB (0.115 avg) -- home split: 0.265 avg
 - Geraldo Perdomo (S) [MATCHUP EDGE: pitcher hits 0.296 avg-against vs this hand] [9-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 10H 0HR 3RBI 10TB (0.417 avg) -- home split: 0.250 avg
@@ -478,7 +479,7 @@ _Facing a rested bullpen: 4.3 relief IP in last 2 days (ratio 0.7)_
 ## 2026-09-02 - St. Louis Cardinals @ Los Angeles Dodgers (Scheduled)
 _UNIQLO Field at Dodger Stadium_
 Projected score: St. Louis Cardinals 3.04 - Los Angeles Dodgers 4.47
-Model likes: **Los Angeles Dodgers** to win (63%) | Run line: **St. Louis Cardinals** +1.5 (53% to cover) | Total 6.5: lean **OVER** (55%)
+Model likes: **Los Angeles Dodgers** to win (63%) | Run line: **St. Louis Cardinals** +1.5 (54% to cover) | Total 6.5: lean **OVER** (55%)
 
 ### St. Louis Cardinals lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.38)_
@@ -508,7 +509,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-03 - San Francisco Giants @ Pittsburgh Pirates (Scheduled)
 _PNC Park_
 Projected score: San Francisco Giants 4.64 - Pittsburgh Pirates 4.96
-Model likes: **Pittsburgh Pirates** to win (53%) | Run line: **San Francisco Giants** +1.5 (61% to cover) | Total 8.5: lean **OVER** (54%)
+Model likes: **Pittsburgh Pirates** to win (52%) | Run line: **San Francisco Giants** +1.5 (61% to cover) | Total 8.5: lean **OVER** (54%)
 
 ### San Francisco Giants lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.7 relief IP in last 2 days (ratio 0.11)_
@@ -690,7 +691,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.56)_
 ## 2026-09-03 - Tampa Bay Rays @ Texas Rangers (Scheduled)
 _Globe Life Field [hitter-friendly park]_
 Projected score: Tampa Bay Rays 4.39 - Texas Rangers 3.93
-Model likes: **Tampa Bay Rays** to win (54%) | Run line: **Texas Rangers** +1.5 (62% to cover) | Total 7.5: lean **OVER** (52%)
+Model likes: **Tampa Bay Rays** to win (54%) | Run line: **Texas Rangers** +1.5 (61% to cover) | Total 7.5: lean **OVER** (52%)
 
 ### Tampa Bay Rays lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 1.0 relief IP in last 2 days (ratio 0.2)_
@@ -983,7 +984,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-04 - Detroit Tigers @ Cleveland Guardians (Scheduled)
 _Progressive Field_
 Projected score: Detroit Tigers 3.41 - Cleveland Guardians 4.47
-Model likes: **Cleveland Guardians** to win (60%) | Run line: **Detroit Tigers** +1.5 (57% to cover) | Total 7.5: lean **UNDER** (52%)
+Model likes: **Cleveland Guardians** to win (60%) | Run line: **Detroit Tigers** +1.5 (56% to cover) | Total 7.5: lean **UNDER** (52%)
 
 ### Detroit Tigers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1012,7 +1013,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-04 - Minnesota Twins @ Chicago White Sox (Scheduled)
 _Rate Field_
 Projected score: Minnesota Twins 4.53 - Chicago White Sox 5.85
-Model likes: **Chicago White Sox** to win (60%) | Run line: **Minnesota Twins** +1.5 (53% to cover) | Total 9.5: lean **OVER** (52%)
+Model likes: **Chicago White Sox** to win (60%) | Run line: **Minnesota Twins** +1.5 (53% to cover) | Total 9.5: lean **OVER** (51%)
 
 ### Minnesota Twins lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1100,7 +1101,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-04 - Arizona Diamondbacks @ Houston Astros (Scheduled)
 _Daikin Park_
 Projected score: Arizona Diamondbacks 4.62 - Houston Astros 4.5
-Model likes: **Arizona Diamondbacks** to win (51%) | Run line: **Houston Astros** +1.5 (63% to cover) | Total 8.5: lean **UNDER** (50%)
+Model likes: **Arizona Diamondbacks** to win (51%) | Run line: **Houston Astros** +1.5 (63% to cover) | Total 8.5: lean **OVER** (50%)
 
 ### Arizona Diamondbacks lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1129,7 +1130,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-04 - St. Louis Cardinals @ Colorado Rockies (Scheduled)
 _Coors Field [hitter-friendly park]_
 Projected score: St. Louis Cardinals 6.76 - Colorado Rockies 5.15
-Model likes: **St. Louis Cardinals** to win (61%) | Run line: **Colorado Rockies** +1.5 (51% to cover) | Total 11.5: lean **UNDER** (53%)
+Model likes: **St. Louis Cardinals** to win (61%) | Run line: **Colorado Rockies** +1.5 (51% to cover) | Total 11.5: lean **UNDER** (52%)
 
 ### St. Louis Cardinals lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
