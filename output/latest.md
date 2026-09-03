@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-09-03T09:47:51.112443+00:00_
+_Generated 2026-09-03T13:48:24.031007+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -10,7 +10,6 @@ _Generated 2026-09-03T09:47:51.112443+00:00_
 - **Teoscar Hernández** (Los Angeles Dodgers vs St. Louis Cardinals): favorable matchup vs. tonight's pitcher -- try Hits + Runs + RBIs: 50% over 1.5 recently (vs. 10-game sample)
 - **Tommy Edman** (Los Angeles Dodgers vs St. Louis Cardinals): favorable matchup vs. tonight's pitcher -- try Hits + Runs + RBIs: 40% over 1.5 recently (vs. 10-game sample)
 - **Enrique Hernández** (Los Angeles Dodgers vs St. Louis Cardinals): favorable matchup vs. tonight's pitcher -- try Hits + Runs + RBIs: 50% over 0.5 recently (vs. 10-game sample)
-- **Rafael Devers** (San Francisco Giants vs Pittsburgh Pirates): 10-game hit streak -- try Runs Scored: 90% over 0.5 recently (vs. 10-game sample)
 - **Alex Bregman** (Chicago Cubs vs Milwaukee Brewers): 5-game hit streak -- try RBIs: 50% over 0.5 recently (vs. 10-game sample)
 - **Jackson Chourio** (Milwaukee Brewers vs Chicago Cubs): 7-game hit streak -- try Runs Scored: 60% over 0.5 recently (vs. 10-game sample)
 - **Coby Mayo** (Baltimore Orioles vs Boston Red Sox): 7-game hit streak -- try Hits + Runs + RBIs: 70% over 1.5 recently (vs. 10-game sample)
@@ -18,6 +17,7 @@ _Generated 2026-09-03T09:47:51.112443+00:00_
 - **Cody Freeman** (Texas Rangers vs Tampa Bay Rays): 5-game hit streak -- try Hits: 80% over 0.5 recently (vs. 10-game sample)
 - **Brandon Nimmo** (Texas Rangers vs Tampa Bay Rays): 5-game hit streak -- try Hits + Runs + RBIs: 50% over 1.5 recently (vs. 10-game sample)
 - **Junior Caminero** (Tampa Bay Rays vs Texas Rangers): 15-game hit streak -- try Total Bases: 50% over 1.5 recently (vs. 10-game sample)
+- **Lawrence Butler** (Athletics vs Seattle Mariners): 11-game hit streak -- try Hits: 100% over 0.5 recently (vs. 10-game sample)
 
 ### Pitchers
 - **Hunter Brown** (Houston Astros vs Chicago White Sox): 3 hitters in tonight's lineup are in a tough matchup against him -- try Walks Allowed: 60% over 2.5 recently (vs. 5-game sample)
@@ -83,7 +83,7 @@ _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.32)_
 ## 2026-09-03 - Toronto Blue Jays @ Cleveland Guardians (Scheduled)
 _Progressive Field_
 Projected score: Toronto Blue Jays 3.21 - Cleveland Guardians 3.16
-Model likes: **Toronto Blue Jays** to win (51%) | Run line: **Cleveland Guardians** +1.5 (68% to cover) | Total 5.5: lean **OVER** (55%)
+Model likes: **Toronto Blue Jays** to win (50%) | Run line: **Cleveland Guardians** +1.5 (68% to cover) | Total 5.5: lean **OVER** (55%)
 
 ### Toronto Blue Jays lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.39)_
@@ -174,7 +174,7 @@ _Facing a rested bullpen: 3.7 relief IP in last 2 days (ratio 0.61)_
 ## 2026-09-03 - Boston Red Sox @ Baltimore Orioles (Scheduled)
 _Oriole Park at Camden Yards_
 Projected score: Boston Red Sox 3.5 - Baltimore Orioles 3.39
-Model likes: **Boston Red Sox** to win (51%) | Run line: **Baltimore Orioles** +1.5 (67% to cover) | Total 6.5: lean **UNDER** (51%)
+Model likes: **Boston Red Sox** to win (51%) | Run line: **Baltimore Orioles** +1.5 (66% to cover) | Total 6.5: lean **UNDER** (51%)
 
 ### Boston Red Sox lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 6.3 relief IP in last 2 days (ratio 1.21)_
@@ -323,14 +323,14 @@ _Facing a rested bullpen: 4.0 relief IP in last 2 days (ratio 0.66)_
 - Hunter Feduccia (L) [likely BABIP-driven, not a real power uptick] -- L7: 5H 0HR 3RBI 6TB (0.333 avg) -- home split: 0.250 avg
 - Enrique Hernández (R) [MATCHUP EDGE: pitcher hits 0.297 avg-against vs this hand] -- L7: 3H 0HR 0RBI 3TB (0.214 avg) -- home split: 0.261 avg
 
-## 2026-09-04 - Detroit Tigers @ Cleveland Guardians (Postponed)
+## 2026-09-04 - Detroit Tigers @ Cleveland Guardians (Scheduled)
 _Progressive Field_
-Projected score: Detroit Tigers 3.32 - Cleveland Guardians 3.45
-Model likes: **Cleveland Guardians** to win (51%) | Run line: **Detroit Tigers** +1.5 (67% to cover) | Total 6.5: lean **UNDER** (53%)
+Projected score: Detroit Tigers 3.68 - Cleveland Guardians 3.14
+Model likes: **Detroit Tigers** to win (55%) | Run line: **Cleveland Guardians** +1.5 (62% to cover) | Total 6.5: lean **UNDER** (52%)
 
 ### Detroit Tigers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
-**Probable P: Casey Mize (R)** -- L5: 23.7 IP, 14 K, 12 ER, 4.56 ERA
+**Probable P: Keider Montero (R)** -- L5: 28.7 IP, 13 K, 9 ER, 2.83 ERA
 - Kevin McGonigle (L) -- L7: 3H 0HR 2RBI 3TB (0.130 avg) -- away split: 0.292 avg
 - Hao-Yu Lee (R) -- L7: 4H 1HR 2RBI 8TB (0.200 avg) -- away split: 0.305 avg -- news: Hao-Yu Lee sets single-season record for hits by a player born in Taiwan
 - Max Clark (L) -- L7: 4H 1HR 3RBI 10TB (0.211 avg) -- away split: 0.266 avg -- news: Mayo: Don't judge a book by its cover -- especially Max Clark
@@ -343,9 +343,8 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 
 ### Cleveland Guardians lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.39)_
-**Probable P: Gavin Williams (R)** -- L5: 24.0 IP, 39 K, 14 ER, 5.25 ERA
 - Steven Kwan (L) [likely BABIP-driven, not a real power uptick] -- L7: 11H 0HR 2RBI 13TB (0.407 avg) -- home split: 0.269 avg
-- Jo Adell (R) -- L7: 6H 0HR 3RBI 8TB (0.231 avg) -- home split: 0.242 avg
+- Jo Adell (R) [TOUGH MATCHUP: pitcher holds this hand to 0.205 avg-against] -- L7: 6H 0HR 3RBI 8TB (0.231 avg) -- home split: 0.242 avg
 - Nathaniel Lowe (L) -- L7: 4H 1HR 4RBI 7TB (0.167 avg) -- home split: 0.245 avg
 - José Ramírez (S) -- L7: 9H 1HR 9RBI 16TB (0.333 avg) -- home split: 0.259 avg
 - Petey Halpin (L) [likely BABIP-driven, not a real power uptick] -- L7: 3H 0HR 0RBI 3TB (0.333 avg) -- home split: 0.247 avg
@@ -537,7 +536,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-04 - Detroit Tigers @ Cleveland Guardians (Scheduled)
 _Progressive Field_
 Projected score: Detroit Tigers 3.68 - Cleveland Guardians 4.55
-Model likes: **Cleveland Guardians** to win (58%) | Run line: **Detroit Tigers** +1.5 (58% to cover) | Total 7.5: lean **OVER** (52%)
+Model likes: **Cleveland Guardians** to win (58%) | Run line: **Detroit Tigers** +1.5 (58% to cover) | Total 7.5: lean **OVER** (51%)
 
 ### Detroit Tigers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1048,7 +1047,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-05 - Toronto Blue Jays @ Kansas City Royals (Scheduled)
 _Kauffman Stadium [pitcher-friendly park]_
 Projected score: Toronto Blue Jays 4.09 - Kansas City Royals 4.88
-Model likes: **Kansas City Royals** to win (56%) | Run line: **Toronto Blue Jays** +1.5 (58% to cover) | Total 8.5: lean **UNDER** (51%)
+Model likes: **Kansas City Royals** to win (57%) | Run line: **Toronto Blue Jays** +1.5 (58% to cover) | Total 8.5: lean **UNDER** (51%)
 
 ### Toronto Blue Jays lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1078,7 +1077,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-05 - Minnesota Twins @ Chicago White Sox (Scheduled)
 _Rate Field_
 Projected score: Minnesota Twins 4.51 - Chicago White Sox 4.5
-Model likes: **Chicago White Sox** to win (50%) | Run line: **Minnesota Twins** +1.5 (64% to cover) | Total 8.5: lean **UNDER** (51%)
+Model likes: **Minnesota Twins** to win (50%) | Run line: **Chicago White Sox** +1.5 (64% to cover) | Total 8.5: lean **UNDER** (51%)
 
 ### Minnesota Twins lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1199,7 +1198,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-05 - Washington Nationals @ Los Angeles Dodgers (Scheduled)
 _UNIQLO Field at Dodger Stadium_
 Projected score: Washington Nationals 4.23 - Los Angeles Dodgers 4.0
-Model likes: **Washington Nationals** to win (52%) | Run line: **Los Angeles Dodgers** +1.5 (64% to cover) | Total 7.5: lean **OVER** (51%)
+Model likes: **Washington Nationals** to win (52%) | Run line: **Los Angeles Dodgers** +1.5 (64% to cover) | Total 7.5: lean **OVER** (52%)
 
 ### Washington Nationals lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
