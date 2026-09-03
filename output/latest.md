@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-09-03T04:56:38.707590+00:00_
+_Generated 2026-09-03T09:30:29.402908+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -114,7 +114,7 @@ _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.39)_
 ## 2026-09-03 - Chicago White Sox @ Houston Astros (Scheduled)
 _Daikin Park_
 Projected score: Chicago White Sox 3.41 - Houston Astros 4.1
-Model likes: **Houston Astros** to win (56%) | Run line: **Chicago White Sox** +1.5 (60% to cover) | Total 6.5: lean **OVER** (55%)
+Model likes: **Houston Astros** to win (57%) | Run line: **Chicago White Sox** +1.5 (60% to cover) | Total 6.5: lean **OVER** (55%)
 
 ### Chicago White Sox lineup -- PROJECTED (unconfirmed)
 **Probable P: Luis Castillo (R)** -- L5: 22.3 IP, 20 K, 16 ER, 6.45 ERA
@@ -175,7 +175,7 @@ _Facing a rested bullpen: 2.7 relief IP in last 2 days (ratio 0.44)_
 ## 2026-09-03 - Boston Red Sox @ Baltimore Orioles (Scheduled)
 _Oriole Park at Camden Yards_
 Projected score: Boston Red Sox 3.5 - Baltimore Orioles 3.39
-Model likes: **Boston Red Sox** to win (51%) | Run line: **Baltimore Orioles** +1.5 (67% to cover) | Total 6.5: lean **UNDER** (51%)
+Model likes: **Boston Red Sox** to win (51%) | Run line: **Baltimore Orioles** +1.5 (66% to cover) | Total 6.5: lean **UNDER** (51%)
 
 ### Boston Red Sox lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 6.3 relief IP in last 2 days (ratio 1.21)_
@@ -206,7 +206,7 @@ _Facing a taxed bullpen: 10.3 relief IP in last 2 days (ratio 1.83)_
 ## 2026-09-03 - Miami Marlins @ Kansas City Royals (Scheduled)
 _Kauffman Stadium [pitcher-friendly park]_
 Projected score: Miami Marlins 3.19 - Kansas City Royals 3.59
-Model likes: **Kansas City Royals** to win (54%) | Run line: **Miami Marlins** +1.5 (64% to cover) | Total 6.5: lean **UNDER** (53%)
+Model likes: **Kansas City Royals** to win (54%) | Run line: **Miami Marlins** +1.5 (64% to cover) | Total 6.5: lean **UNDER** (52%)
 
 ### Miami Marlins lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.38)_
@@ -387,7 +387,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-04 - Atlanta Braves @ Philadelphia Phillies (Scheduled)
 _Citizens Bank Park [hitter-friendly park]_
 Projected score: Atlanta Braves 2.9 - Philadelphia Phillies 3.02
-Model likes: **Philadelphia Phillies** to win (51%) | Run line: **Atlanta Braves** +1.5 (68% to cover) | Total 5.5: lean **UNDER** (50%)
+Model likes: **Philadelphia Phillies** to win (51%) | Run line: **Atlanta Braves** +1.5 (68% to cover) | Total 5.5: lean **UNDER** (51%)
 
 ### Atlanta Braves lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 1.0 relief IP in last 2 days (ratio 0.2)_
@@ -417,7 +417,7 @@ _Facing a rested bullpen: 1.0 relief IP in last 2 days (ratio 0.2)_
 ## 2026-09-04 - Los Angeles Angels @ Pittsburgh Pirates (Scheduled)
 _PNC Park_
 Projected score: Los Angeles Angels 4.04 - Pittsburgh Pirates 4.92
-Model likes: **Pittsburgh Pirates** to win (57%) | Run line: **Los Angeles Angels** +1.5 (57% to cover) | Total 8.5: lean **UNDER** (52%)
+Model likes: **Pittsburgh Pirates** to win (57%) | Run line: **Los Angeles Angels** +1.5 (57% to cover) | Total 8.5: lean **UNDER** (51%)
 
 ### Los Angeles Angels lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.3 relief IP in last 2 days (ratio 0.05)_
@@ -657,7 +657,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-04 - Arizona Diamondbacks @ Houston Astros (Scheduled)
 _Daikin Park_
 Projected score: Arizona Diamondbacks 4.51 - Houston Astros 4.6
-Model likes: **Houston Astros** to win (51%) | Run line: **Arizona Diamondbacks** +1.5 (64% to cover) | Total 8.5: lean **OVER** (50%)
+Model likes: **Houston Astros** to win (51%) | Run line: **Arizona Diamondbacks** +1.5 (64% to cover) | Total 8.5: lean **UNDER** (50%)
 
 ### Arizona Diamondbacks lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -776,7 +776,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.58)_
 ## 2026-09-04 - Washington Nationals @ Los Angeles Dodgers (Scheduled)
 _UNIQLO Field at Dodger Stadium_
 Projected score: Washington Nationals 4.14 - Los Angeles Dodgers 5.48
-Model likes: **Los Angeles Dodgers** to win (60%) | Run line: **Washington Nationals** +1.5 (54% to cover) | Total 8.5: lean **OVER** (54%)
+Model likes: **Los Angeles Dodgers** to win (60%) | Run line: **Washington Nationals** +1.5 (53% to cover) | Total 8.5: lean **OVER** (54%)
 
 ### Washington Nationals lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1048,7 +1048,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-05 - Toronto Blue Jays @ Kansas City Royals (Scheduled)
 _Kauffman Stadium [pitcher-friendly park]_
 Projected score: Toronto Blue Jays 4.1 - Kansas City Royals 4.88
-Model likes: **Kansas City Royals** to win (56%) | Run line: **Toronto Blue Jays** +1.5 (58% to cover) | Total 8.5: lean **UNDER** (51%)
+Model likes: **Kansas City Royals** to win (57%) | Run line: **Toronto Blue Jays** +1.5 (58% to cover) | Total 8.5: lean **UNDER** (51%)
 
 ### Toronto Blue Jays lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1199,7 +1199,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-05 - Washington Nationals @ Los Angeles Dodgers (Scheduled)
 _UNIQLO Field at Dodger Stadium_
 Projected score: Washington Nationals 4.14 - Los Angeles Dodgers 3.99
-Model likes: **Washington Nationals** to win (51%) | Run line: **Los Angeles Dodgers** +1.5 (64% to cover) | Total 7.5: lean **OVER** (51%)
+Model likes: **Washington Nationals** to win (51%) | Run line: **Los Angeles Dodgers** +1.5 (64% to cover) | Total 7.5: lean **OVER** (50%)
 
 ### Washington Nationals lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1229,7 +1229,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-05 - Athletics @ Seattle Mariners (Scheduled)
 _T-Mobile Park [pitcher-friendly park]_
 Projected score: Athletics 3.96 - Seattle Mariners 4.25
-Model likes: **Seattle Mariners** to win (52%) | Run line: **Athletics** +1.5 (63% to cover) | Total 7.5: lean **OVER** (51%)
+Model likes: **Seattle Mariners** to win (53%) | Run line: **Athletics** +1.5 (63% to cover) | Total 7.5: lean **OVER** (51%)
 
 ### Athletics lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
