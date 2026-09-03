@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-09-03T00:16:39.846685+00:00_
+_Generated 2026-09-03T00:33:10.246634+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -317,7 +317,7 @@ _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.39)_
 - #8 Patrick Bailey (S) -- L7: 8H 2HR 7RBI 15TB (0.444 avg) -- home split: 0.221 avg
 - #9 Angel Genao (S) -- L7: 3H 0HR 0RBI 3TB (0.125 avg) -- home split: 0.343 avg
 
-## 2026-09-02 - Detroit Tigers @ Minnesota Twins (In Progress)
+## 2026-09-02 - Detroit Tigers @ Minnesota Twins (Manager challenge)
 _Target Field_
 Projected score: Detroit Tigers 4.83 - Minnesota Twins 3.91
 Model likes: **Detroit Tigers** to win (58%) | Run line: **Minnesota Twins** +1.5 (57% to cover) | Total 8.5: lean **UNDER** (53%)
@@ -499,7 +499,7 @@ _Facing a rested bullpen: 4.0 relief IP in last 2 days (ratio 0.66)_
 ## 2026-09-03 - San Francisco Giants @ Pittsburgh Pirates (Scheduled)
 _PNC Park_
 Projected score: San Francisco Giants 4.64 - Pittsburgh Pirates 4.95
-Model likes: **Pittsburgh Pirates** to win (52%) | Run line: **San Francisco Giants** +1.5 (62% to cover) | Total 8.5: lean **OVER** (54%)
+Model likes: **Pittsburgh Pirates** to win (52%) | Run line: **San Francisco Giants** +1.5 (61% to cover) | Total 8.5: lean **OVER** (54%)
 
 ### San Francisco Giants lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.32)_
@@ -558,7 +558,7 @@ _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.39)_
 ## 2026-09-03 - Chicago White Sox @ Houston Astros (Scheduled)
 _Daikin Park_
 Projected score: Chicago White Sox 3.77 - Houston Astros 4.28
-Model likes: **Houston Astros** to win (55%) | Run line: **Chicago White Sox** +1.5 (62% to cover) | Total 7.5: lean **UNDER** (50%)
+Model likes: **Houston Astros** to win (55%) | Run line: **Chicago White Sox** +1.5 (61% to cover) | Total 7.5: lean **UNDER** (50%)
 
 ### Chicago White Sox lineup -- PROJECTED (unconfirmed)
 **Probable P: Luis Castillo (R)** -- L5: 22.3 IP, 20 K, 16 ER, 6.45 ERA
@@ -647,7 +647,7 @@ Model likes: **Boston Red Sox** to win (60%) | Run line: **Baltimore Orioles** +
 ## 2026-09-03 - Miami Marlins @ Kansas City Royals (Scheduled)
 _Kauffman Stadium [pitcher-friendly park]_
 Projected score: Miami Marlins 3.11 - Kansas City Royals 3.9
-Model likes: **Kansas City Royals** to win (58%) | Run line: **Miami Marlins** +1.5 (60% to cover) | Total 6.5: lean **UNDER** (50%)
+Model likes: **Kansas City Royals** to win (58%) | Run line: **Miami Marlins** +1.5 (60% to cover) | Total 6.5: lean **OVER** (50%)
 
 ### Miami Marlins lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.38)_
@@ -764,14 +764,14 @@ _Facing a rested bullpen: 4.0 relief IP in last 2 days (ratio 0.66)_
 - Hunter Feduccia (L) [likely BABIP-driven, not a real power uptick] -- L7: 5H 0HR 3RBI 6TB (0.333 avg) -- home split: 0.250 avg
 - Enrique Hernández (R) [MATCHUP EDGE: pitcher hits 0.297 avg-against vs this hand] -- L7: 3H 0HR 0RBI 3TB (0.214 avg) -- home split: 0.261 avg
 
-## 2026-09-04 - Detroit Tigers @ Cleveland Guardians (Postponed)
+## 2026-09-04 - Detroit Tigers @ Cleveland Guardians (Scheduled)
 _Progressive Field_
-Projected score: Detroit Tigers 3.22 - Cleveland Guardians 3.41
-Model likes: **Cleveland Guardians** to win (52%) | Run line: **Detroit Tigers** +1.5 (66% to cover) | Total 6.5: lean **UNDER** (54%)
+Projected score: Detroit Tigers 3.41 - Cleveland Guardians 3.2
+Model likes: **Detroit Tigers** to win (52%) | Run line: **Cleveland Guardians** +1.5 (66% to cover) | Total 6.5: lean **UNDER** (54%)
 
 ### Detroit Tigers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
-**Probable P: Casey Mize (R)** -- L5: 23.7 IP, 14 K, 12 ER, 4.56 ERA
+**Probable P: Keider Montero (R)** -- L5: 28.7 IP, 13 K, 9 ER, 2.83 ERA
 - Kevin McGonigle (L) -- L7: 3H 0HR 2RBI 3TB (0.130 avg) -- away split: 0.292 avg
 - Hao-Yu Lee (R) -- L7: 4H 1HR 2RBI 8TB (0.200 avg) -- away split: 0.305 avg -- news: Hao-Yu Lee sets single-season record for hits by a player born in Taiwan
 - Max Clark (L) -- L7: 4H 1HR 3RBI 10TB (0.211 avg) -- away split: 0.266 avg -- news: Mayo: Don't judge a book by its cover -- especially Max Clark
@@ -784,9 +784,8 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 
 ### Cleveland Guardians lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
-**Probable P: Gavin Williams (R)** -- L5: 24.0 IP, 39 K, 14 ER, 5.25 ERA
 - Steven Kwan (L) [likely BABIP-driven, not a real power uptick] -- L7: 11H 0HR 2RBI 13TB (0.407 avg) -- home split: 0.269 avg
-- Jo Adell (R) -- L7: 6H 0HR 3RBI 8TB (0.231 avg) -- home split: 0.242 avg
+- Jo Adell (R) [TOUGH MATCHUP: pitcher holds this hand to 0.205 avg-against] -- L7: 6H 0HR 3RBI 8TB (0.231 avg) -- home split: 0.242 avg
 - Nathaniel Lowe (L) -- L7: 4H 1HR 4RBI 7TB (0.167 avg) -- home split: 0.245 avg
 - José Ramírez (S) -- L7: 9H 1HR 9RBI 16TB (0.333 avg) -- home split: 0.259 avg
 - Petey Halpin (L) [likely BABIP-driven, not a real power uptick] -- L7: 3H 0HR 0RBI 3TB (0.333 avg) -- home split: 0.247 avg
@@ -858,7 +857,7 @@ _Facing a rested bullpen: 1.0 relief IP in last 2 days (ratio 0.2)_
 ## 2026-09-04 - Los Angeles Angels @ Pittsburgh Pirates (Scheduled)
 _PNC Park_
 Projected score: Los Angeles Angels 4.04 - Pittsburgh Pirates 4.91
-Model likes: **Pittsburgh Pirates** to win (57%) | Run line: **Los Angeles Angels** +1.5 (57% to cover) | Total 8.5: lean **UNDER** (52%)
+Model likes: **Pittsburgh Pirates** to win (57%) | Run line: **Los Angeles Angels** +1.5 (58% to cover) | Total 8.5: lean **UNDER** (52%)
 
 ### Los Angeles Angels lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.3 relief IP in last 2 days (ratio 0.05)_
@@ -1156,7 +1155,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-04 - New York Yankees @ San Diego Padres (Scheduled)
 _Petco Park [pitcher-friendly park]_
 Projected score: New York Yankees 3.65 - San Diego Padres 2.98
-Model likes: **New York Yankees** to win (57%) | Run line: **San Diego Padres** +1.5 (61% to cover) | Total 6.5: lean **UNDER** (54%)
+Model likes: **New York Yankees** to win (57%) | Run line: **San Diego Padres** +1.5 (62% to cover) | Total 6.5: lean **UNDER** (54%)
 
 ### New York Yankees lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 1.0 relief IP in last 2 days (ratio 0.15)_
