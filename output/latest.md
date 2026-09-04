@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-09-04T14:21:47.362567+00:00_
+_Generated 2026-09-04T16:57:15.594463+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -53,36 +53,36 @@ _Generated 2026-09-04T14:21:47.362567+00:00_
 - **Janson Junk** (Miami Marlins vs Chicago Cubs): 4 hitters in tonight's lineup are in a tough matchup against him -- try Strikeouts: 100% under 2.5 recently (vs. 5-game sample)
 - **Foster Griffin** (Cleveland Guardians vs Detroit Tigers): 5 hitters in tonight's lineup are in a tough matchup against him -- try Outs Recorded: 80% under 16.5 recently (vs. 5-game sample)
 
-## 2026-09-04 - Detroit Tigers @ Cleveland Guardians (Scheduled)
+## 2026-09-04 - Detroit Tigers @ Cleveland Guardians (Pre-Game)
 _Progressive Field_
-Projected score: Detroit Tigers 3.46 - Cleveland Guardians 3.28
-Model likes: **Detroit Tigers** to win (52%) | Run line: **Cleveland Guardians** +1.5 (66% to cover) | Total 6.5: lean **UNDER** (53%)
+Projected score: Detroit Tigers 3.49 - Cleveland Guardians 3.34
+Model likes: **Detroit Tigers** to win (52%) | Run line: **Cleveland Guardians** +1.5 (66% to cover) | Total 6.5: lean **UNDER** (52%)
 
-### Detroit Tigers lineup -- PROJECTED (unconfirmed)
+### Detroit Tigers lineup -- CONFIRMED
 _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.35)_
 **Probable P: Keider Montero (R)** -- L5: 28.7 IP, 13 K, 9 ER, 2.83 ERA
-- Kevin McGonigle (L) -- L7: 3H 0HR 2RBI 3TB (0.107 avg) -- away split: 0.286 avg
-- Max Clark (L) -- L7: 6H 0HR 2RBI 12TB (0.300 avg) -- away split: 0.294 avg -- news: Mayo: Don't judge a book by its cover -- especially Max Clark
-- Hao-Yu Lee (R) [3-game hit streak] -- L7: 5H 1HR 3RBI 9TB (0.208 avg) -- away split: 0.303 avg -- news: Hao-Yu Lee sets single-season record for hits by a player born in Taiwan
-- Spencer Torkelson (R) -- L7: 4H 1HR 2RBI 9TB (0.211 avg) -- away split: 0.227 avg
-- Gleyber Torres (R) -- L7: 6H 0HR 1RBI 8TB (0.286 avg) -- away split: 0.237 avg
-- Brett Callahan (L) -- L7: 4H 0HR 1RBI 4TB (0.250 avg) -- away split: 0.261 avg
-- Dillon Dingler (R) -- L7: 4H 0HR 0RBI 4TB (0.160 avg) -- away split: 0.266 avg
-- Colt Keith (L) -- L7: 1H 0HR 0RBI 1TB (0.059 avg) -- away split: 0.271 avg
-- Zach McKinstry (L) -- L7: 1H 0HR 0RBI 1TB (0.043 avg) -- away split: 0.193 avg
+- #1 Gleyber Torres (R) -- L7: 6H 0HR 1RBI 8TB (0.286 avg) -- away split: 0.237 avg
+- #2 Kevin McGonigle (L) -- L7: 3H 0HR 2RBI 3TB (0.107 avg) -- away split: 0.286 avg
+- #3 Hao-Yu Lee (R) [3-game hit streak] -- L7: 5H 1HR 3RBI 9TB (0.208 avg) -- away split: 0.303 avg -- news: Hao-Yu Lee sets single-season record for hits by a player born in Taiwan
+- #4 Dillon Dingler (R) -- L7: 4H 0HR 0RBI 4TB (0.160 avg) -- away split: 0.266 avg
+- #5 Riley Greene (L) -- L7: 4H 0HR 2RBI 6TB (0.154 avg) -- away split: 0.266 avg
+- #6 Ben Malgeri (R) -- L7: 4H 0HR 0RBI 4TB (0.286 avg) -- away split: 0.243 avg
+- #7 Spencer Torkelson (R) -- L7: 4H 1HR 2RBI 9TB (0.211 avg) -- away split: 0.227 avg
+- #8 Max Clark (L) -- L7: 6H 0HR 2RBI 12TB (0.300 avg) -- away split: 0.294 avg -- news: Mayo: Don't judge a book by its cover -- especially Max Clark
+- #9 Javier Báez (R) -- L7: 4H 0HR 3RBI 8TB (0.211 avg) -- away split: 0.253 avg
 
-### Cleveland Guardians lineup -- PROJECTED (unconfirmed)
+### Cleveland Guardians lineup -- CONFIRMED
 _Facing a taxed bullpen: 6.3 relief IP in last 2 days (ratio 1.22)_
 **Probable P: Logan Allen (L)** [BULLPEN GAME: short-outing arm, no reliable individual matchup below] -- L5: 10.3 IP, 8 K, 6 ER, 5.23 ERA
-- Steven Kwan (L) -- L7: 8H 0HR 1RBI 10TB (0.286 avg) -- home split: 0.271 avg
-- Angel Genao (S) -- L7: 3H 1HR 3RBI 6TB (0.143 avg) -- home split: 0.318 avg
-- Petey Halpin (L) -- L7: 2H 0HR 0RBI 2TB (0.286 avg) -- home split: 0.243 avg
-- Jo Adell (R) [TOUGH MATCHUP: pitcher holds this hand to 0.205 avg-against] -- L7: 7H 0HR 3RBI 9TB (0.269 avg) -- home split: 0.241 avg
-- Nathaniel Lowe (L) -- L7: 4H 1HR 4RBI 7TB (0.167 avg) -- home split: 0.243 avg
-- José Ramírez (S) -- L7: 7H 1HR 4RBI 11TB (0.259 avg) -- home split: 0.257 avg
-- Travis Bazzana (L) -- L7: 3H 0HR 3RBI 4TB (0.150 avg) -- home split: 0.212 avg
-- Angel Martínez (S) -- L7: 6H 2HR 5RBI 13TB (0.261 avg) -- home split: 0.256 avg
-- Brayan Rocchio (S) -- L7: 5H 0HR 1RBI 6TB (0.200 avg) -- home split: 0.274 avg
+- #1 Steven Kwan (L) -- L7: 8H 0HR 1RBI 10TB (0.286 avg) -- home split: 0.271 avg
+- #2 Chase DeLauter (L) [likely BABIP-driven, not a real power uptick] -- L7: 10H 0HR 1RBI 14TB (0.385 avg) -- home split: 0.298 avg
+- #3 José Ramírez (S) -- L7: 7H 1HR 4RBI 11TB (0.259 avg) -- home split: 0.257 avg
+- #4 Jo Adell (R) [TOUGH MATCHUP: pitcher holds this hand to 0.205 avg-against] -- L7: 7H 0HR 3RBI 9TB (0.269 avg) -- home split: 0.241 avg
+- #5 Nathaniel Lowe (L) -- L7: 4H 1HR 4RBI 7TB (0.167 avg) -- home split: 0.243 avg
+- #6 Angel Genao (S) -- L7: 3H 1HR 3RBI 6TB (0.143 avg) -- home split: 0.318 avg
+- #7 Travis Bazzana (L) -- L7: 3H 0HR 3RBI 4TB (0.150 avg) -- home split: 0.212 avg
+- #8 Patrick Bailey (S) -- L7: 6H 1HR 3RBI 9TB (0.462 avg) -- home split: 0.231 avg
+- #9 Brayan Rocchio (S) -- L7: 5H 0HR 1RBI 6TB (0.200 avg) -- home split: 0.274 avg
 
 ## 2026-09-04 - Milwaukee Brewers @ Cincinnati Reds (Scheduled)
 _Great American Ball Park [hitter-friendly park]_
@@ -147,7 +147,7 @@ _Facing a rested bullpen: 1.0 relief IP in last 2 days (ratio 0.2)_
 ## 2026-09-04 - Los Angeles Angels @ Pittsburgh Pirates (Scheduled)
 _PNC Park_
 Projected score: Los Angeles Angels 4.59 - Pittsburgh Pirates 5.02
-Model likes: **Pittsburgh Pirates** to win (54%) | Run line: **Los Angeles Angels** +1.5 (60% to cover) | Total 8.5: lean **OVER** (54%)
+Model likes: **Pittsburgh Pirates** to win (53%) | Run line: **Los Angeles Angels** +1.5 (60% to cover) | Total 8.5: lean **OVER** (54%)
 
 ### Los Angeles Angels lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 11.7 relief IP in last 2 days (ratio 1.82)_
@@ -448,7 +448,7 @@ _Facing a taxed bullpen: 9.3 relief IP in last 2 days (ratio 1.52)_
 ## 2026-09-04 - New York Yankees @ San Diego Padres (Scheduled)
 _Petco Park [pitcher-friendly park]_
 Projected score: New York Yankees 3.53 - San Diego Padres 2.51
-Model likes: **New York Yankees** to win (61%) | Run line: **San Diego Padres** +1.5 (59% to cover) | Total 5.5: lean **OVER** (51%)
+Model likes: **New York Yankees** to win (61%) | Run line: **San Diego Padres** +1.5 (58% to cover) | Total 5.5: lean **OVER** (51%)
 
 ### New York Yankees lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 4.0 relief IP in last 2 days (ratio 0.59)_
@@ -662,7 +662,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-05 - Los Angeles Angels @ Pittsburgh Pirates (Scheduled)
 _PNC Park_
 Projected score: Los Angeles Angels 3.89 - Pittsburgh Pirates 4.83
-Model likes: **Pittsburgh Pirates** to win (58%) | Run line: **Los Angeles Angels** +1.5 (57% to cover) | Total 8.5: lean **UNDER** (54%)
+Model likes: **Pittsburgh Pirates** to win (58%) | Run line: **Los Angeles Angels** +1.5 (57% to cover) | Total 8.5: lean **UNDER** (53%)
 
 ### Los Angeles Angels lineup -- PROJECTED (unconfirmed)
 **Probable P: Yusei Kikuchi (L)** -- L5: 25.0 IP, 24 K, 12 ER, 4.32 ERA
@@ -692,7 +692,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-05 - Milwaukee Brewers @ Cincinnati Reds (Scheduled)
 _Great American Ball Park [hitter-friendly park]_
 Projected score: Milwaukee Brewers 4.96 - Cincinnati Reds 3.77
-Model likes: **Milwaukee Brewers** to win (60%) | Run line: **Cincinnati Reds** +1.5 (55% to cover) | Total 8.5: lean **UNDER** (53%)
+Model likes: **Milwaukee Brewers** to win (60%) | Run line: **Cincinnati Reds** +1.5 (55% to cover) | Total 8.5: lean **UNDER** (54%)
 
 ### Milwaukee Brewers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -909,7 +909,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-05 - St. Louis Cardinals @ Colorado Rockies (Scheduled)
 _Coors Field [hitter-friendly park]_
 Projected score: St. Louis Cardinals 6.8 - Colorado Rockies 5.73
-Model likes: **St. Louis Cardinals** to win (57%) | Run line: **Colorado Rockies** +1.5 (54% to cover) | Total 11.5: lean **OVER** (52%)
+Model likes: **St. Louis Cardinals** to win (57%) | Run line: **Colorado Rockies** +1.5 (55% to cover) | Total 11.5: lean **OVER** (52%)
 
 ### St. Louis Cardinals lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1185,7 +1185,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-06 - Detroit Tigers @ Cleveland Guardians (Scheduled)
 _Progressive Field_
 Projected score: Detroit Tigers 3.58 - Cleveland Guardians 3.95
-Model likes: **Cleveland Guardians** to win (53%) | Run line: **Detroit Tigers** +1.5 (63% to cover) | Total 6.5: lean **OVER** (55%)
+Model likes: **Cleveland Guardians** to win (54%) | Run line: **Detroit Tigers** +1.5 (63% to cover) | Total 6.5: lean **OVER** (55%)
 
 ### Detroit Tigers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
