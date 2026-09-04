@@ -57193,7 +57193,7 @@
     },
     "2026-08-31": {
       "date": "2026-08-31",
-      "graded_at": "2026-09-04T09:40:11.251928+00:00",
+      "graded_at": "2026-09-04T14:19:06.930278+00:00",
       "top_overs": {
         "n": 21,
         "hits": 11,
@@ -58690,7 +58690,7 @@
     },
     "2026-09-01": {
       "date": "2026-09-01",
-      "graded_at": "2026-09-04T09:40:10.951067+00:00",
+      "graded_at": "2026-09-04T14:19:06.658811+00:00",
       "top_overs": {
         "n": 22,
         "hits": 12,
@@ -60185,13 +60185,13 @@
     },
     "2026-09-02": {
       "date": "2026-09-02",
-      "graded_at": "2026-09-04T09:40:10.612455+00:00",
+      "graded_at": "2026-09-04T14:19:06.362580+00:00",
       "top_overs": {
         "n": 23,
-        "hits": 13,
+        "hits": 14,
         "misses": 8,
-        "no_data": 2,
-        "hit_rate": 0.619,
+        "no_data": 1,
+        "hit_rate": 0.636,
         "picks": [
           {
             "name": "Cody Freeman",
@@ -60352,8 +60352,8 @@
             "position": "P",
             "category": "Strikeouts",
             "line": 6.5,
-            "actual": null,
-            "outcome": "no_data"
+            "actual": 8,
+            "outcome": "hit"
           },
           {
             "name": "Grant Holmes",
@@ -60405,9 +60405,9 @@
       "top_unders": {
         "n": 18,
         "hits": 12,
-        "misses": 5,
-        "no_data": 1,
-        "hit_rate": 0.706,
+        "misses": 6,
+        "no_data": 0,
+        "hit_rate": 0.667,
         "picks": [
           {
             "name": "Corey Seager",
@@ -60568,8 +60568,8 @@
             "position": "P",
             "category": "Hits Allowed",
             "line": 4.5,
-            "actual": null,
-            "outcome": "no_data"
+            "actual": 5,
+            "outcome": "miss"
           }
         ]
       },
@@ -61005,9 +61005,9 @@
           ]
         },
         "neutral": {
-          "games": 14,
-          "era": 4.18,
-          "k_per_game": 4.43,
+          "games": 15,
+          "era": 4.28,
+          "k_per_game": 4.67,
           "examples": [
             {
               "name": "Trevor Rogers",
@@ -61018,6 +61018,11 @@
               "name": "Cam Schlittler",
               "player_id": 693645,
               "line": "8.0 IP, 9 K, 1 ER"
+            },
+            {
+              "name": "Yoshinobu Yamamoto",
+              "player_id": 808967,
+              "line": "7.0 IP, 8 K, 4 ER"
             },
             {
               "name": "Brad Lord",
@@ -61053,11 +61058,6 @@
               "name": "Cody Bradford",
               "player_id": 674003,
               "line": "4.0 IP, 3 K, 5 ER"
-            },
-            {
-              "name": "Eury P\u00e9rez",
-              "player_id": 691587,
-              "line": "4.7 IP, 3 K, 6 ER"
             }
           ]
         }
@@ -61113,39 +61113,39 @@
           "bias": 0.19
         },
         "Strikeouts": {
-          "n": 27,
-          "avg_projected": 4.59,
-          "avg_actual": 4.67,
-          "mae": 1.87,
-          "bias": 0.08
+          "n": 28,
+          "avg_projected": 4.66,
+          "avg_actual": 4.79,
+          "mae": 1.85,
+          "bias": 0.13
         },
         "Outs Recorded": {
-          "n": 27,
-          "avg_projected": 14.37,
-          "avg_actual": 14.93,
-          "mae": 3.44,
-          "bias": 0.55
+          "n": 28,
+          "avg_projected": 14.56,
+          "avg_actual": 15.14,
+          "mae": 3.37,
+          "bias": 0.58
         },
         "Runs Allowed": {
-          "n": 27,
-          "avg_projected": 2.19,
-          "avg_actual": 2.3,
-          "mae": 1.64,
-          "bias": 0.11
+          "n": 28,
+          "avg_projected": 2.17,
+          "avg_actual": 2.36,
+          "mae": 1.66,
+          "bias": 0.19
         },
         "Hits Allowed": {
-          "n": 27,
+          "n": 28,
           "avg_projected": 4.35,
-          "avg_actual": 4.78,
-          "mae": 1.84,
-          "bias": 0.42
+          "avg_actual": 4.79,
+          "mae": 1.8,
+          "bias": 0.44
         },
         "Walks Allowed": {
-          "n": 27,
-          "avg_projected": 1.91,
-          "avg_actual": 1.52,
-          "mae": 0.97,
-          "bias": -0.39
+          "n": 28,
+          "avg_projected": 1.9,
+          "avg_actual": 1.54,
+          "mae": 0.95,
+          "bias": -0.36
         }
       },
       "projection_examples": [
@@ -61536,9 +61536,9 @@
       "matchup_leans": {
         "n": 294,
         "hits": 178,
-        "misses": 107,
-        "no_data": 9,
-        "hit_rate": 0.625,
+        "misses": 108,
+        "no_data": 8,
+        "hit_rate": 0.622,
         "examples": [
           {
             "name": "H\u00e9ctor Rodr\u00edguez",
@@ -61734,7 +61734,7 @@
     },
     "2026-09-03": {
       "date": "2026-09-03",
-      "graded_at": "2026-09-04T09:40:10.279064+00:00",
+      "graded_at": "2026-09-04T14:19:06.064931+00:00",
       "top_overs": {
         "n": 20,
         "hits": 6,
@@ -62070,9 +62070,9 @@
       },
       "batter_trend": {
         "hot": {
-          "games": 24,
-          "avg": 0.164,
-          "tb_per_game": 0.92,
+          "games": 25,
+          "avg": 0.167,
+          "tb_per_game": 0.96,
           "examples": [
             {
               "name": "Carter Jensen",
@@ -62107,7 +62107,7 @@
             {
               "name": "Coby Mayo",
               "player_id": 691723,
-              "line": "1-for-1, 1 TB"
+              "line": "1-for-3, 1 TB"
             },
             {
               "name": "Michael Massey",
@@ -62115,21 +62115,21 @@
               "line": "1-for-4, 1 TB"
             },
             {
+              "name": "Kyle Stowers",
+              "player_id": 669065,
+              "line": "1-for-3, 2 TB"
+            },
+            {
               "name": "Teoscar Hern\u00e1ndez",
               "player_id": 606192,
               "line": "1-for-2, 1 TB"
-            },
-            {
-              "name": "Brandon Lowe",
-              "player_id": 664040,
-              "line": "0-for-3, 0 TB"
             }
           ]
         },
         "cold": {
-          "games": 24,
-          "avg": 0.229,
-          "tb_per_game": 1.08,
+          "games": 25,
+          "avg": 0.225,
+          "tb_per_game": 1.04,
           "examples": [
             {
               "name": "Adley Rutschman",
@@ -62184,7 +62184,7 @@
           ]
         },
         "neutral": {
-          "games": 63,
+          "games": 70,
           "avg": 0.218,
           "tb_per_game": 1.21,
           "examples": [
@@ -62229,14 +62229,14 @@
               "line": "2-for-4, 2 TB"
             },
             {
+              "name": "Henry Bolte",
+              "player_id": 703607,
+              "line": "2-for-4, 2 TB"
+            },
+            {
               "name": "Zack Gelof",
               "player_id": 680869,
               "line": "2-for-4, 5 TB"
-            },
-            {
-              "name": "Jordan Walker",
-              "player_id": 691023,
-              "line": "2-for-4, 3 TB"
             }
           ]
         }
@@ -62332,9 +62332,9 @@
           ]
         },
         "neutral": {
-          "games": 95,
-          "avg": 0.2,
-          "tb_per_game": 1.11,
+          "games": 104,
+          "avg": 0.201,
+          "tb_per_game": 1.12,
           "examples": [
             {
               "name": "Brett Bateman",
@@ -62391,10 +62391,15 @@
       },
       "pitcher_form": {
         "dominant": {
-          "games": 3,
-          "era": 2.35,
-          "k_per_game": 3.33,
+          "games": 4,
+          "era": 3.44,
+          "k_per_game": 4.25,
           "examples": [
+            {
+              "name": "Jack Perkins",
+              "player_id": 678022,
+              "line": "3.0 IP, 7 K, 3 ER"
+            },
             {
               "name": "Cal Quantrill",
               "player_id": 615698,
@@ -62469,88 +62474,88 @@
       },
       "projection_accuracy": {
         "Hits": {
-          "n": 111,
+          "n": 120,
           "avg_projected": 0.83,
-          "avg_actual": 0.67,
-          "mae": 0.65,
-          "bias": -0.16
+          "avg_actual": 0.68,
+          "mae": 0.64,
+          "bias": -0.15
         },
         "Total Bases": {
-          "n": 111,
+          "n": 120,
           "avg_projected": 1.35,
           "avg_actual": 1.12,
-          "mae": 1.21,
-          "bias": -0.24
+          "mae": 1.18,
+          "bias": -0.23
         },
         "Home Runs": {
-          "n": 111,
+          "n": 120,
           "avg_projected": 0.11,
           "avg_actual": 0.11,
           "mae": 0.19,
-          "bias": -0.01
+          "bias": -0.0
         },
         "RBIs": {
-          "n": 111,
+          "n": 120,
           "avg_projected": 0.43,
           "avg_actual": 0.38,
           "mae": 0.58,
-          "bias": -0.05
+          "bias": -0.04
         },
         "Runs Scored": {
-          "n": 111,
+          "n": 120,
           "avg_projected": 0.45,
           "avg_actual": 0.42,
-          "mae": 0.56,
-          "bias": -0.03
+          "mae": 0.55,
+          "bias": -0.04
         },
         "Walks": {
-          "n": 111,
-          "avg_projected": 0.34,
+          "n": 120,
+          "avg_projected": 0.35,
           "avg_actual": 0.38,
-          "mae": 0.51,
+          "mae": 0.5,
           "bias": 0.04
         },
         "Hits + Runs + RBIs": {
-          "n": 111,
+          "n": 120,
           "avg_projected": 1.71,
-          "avg_actual": 1.47,
-          "mae": 1.43,
-          "bias": -0.24
+          "avg_actual": 1.48,
+          "mae": 1.41,
+          "bias": -0.23
         },
         "Strikeouts": {
-          "n": 11,
-          "avg_projected": 4.56,
-          "avg_actual": 4.27,
-          "mae": 1.48,
-          "bias": -0.29
+          "n": 12,
+          "avg_projected": 4.49,
+          "avg_actual": 4.5,
+          "mae": 1.64,
+          "bias": 0.01
         },
         "Outs Recorded": {
-          "n": 11,
-          "avg_projected": 14.69,
-          "avg_actual": 15.45,
-          "mae": 2.94,
-          "bias": 0.76
+          "n": 12,
+          "avg_projected": 14.35,
+          "avg_actual": 14.92,
+          "mae": 2.83,
+          "bias": 0.57
         },
         "Runs Allowed": {
-          "n": 11,
-          "avg_projected": 1.93,
-          "avg_actual": 2.73,
-          "mae": 1.09,
-          "bias": 0.8
+          "n": 12,
+          "avg_projected": 1.96,
+          "avg_actual": 2.75,
+          "mae": 1.05,
+          "bias": 0.79
         },
         "Hits Allowed": {
-          "n": 11,
-          "avg_projected": 4.18,
-          "avg_actual": 4.64,
-          "mae": 1.49,
-          "bias": 0.46
+          "n": 12,
+          "avg_projected": 4.15,
+          "avg_actual": 4.58,
+          "mae": 1.37,
+          "bias": 0.43
         },
         "Walks Allowed": {
-          "n": 11,
-          "avg_projected": 1.53,
-          "avg_actual": 2.18,
-          "mae": 1.26,
-          "bias": 0.65
+          "n": 12,
+          "avg_projected": 1.56,
+          "avg_actual": 2.42,
+          "mae": 1.41,
+          "bias": 0.85
         }
       },
       "projection_examples": [
@@ -62914,10 +62919,10 @@
       },
       "matchup_leans": {
         "n": 180,
-        "hits": 94,
-        "misses": 28,
-        "no_data": 58,
-        "hit_rate": 0.77,
+        "hits": 100,
+        "misses": 32,
+        "no_data": 48,
+        "hit_rate": 0.758,
         "examples": [
           {
             "name": "Spencer Horwitz",
@@ -63013,10 +63018,10 @@
       },
       "best_prop_stars": {
         "n": 18,
-        "hits": 6,
+        "hits": 7,
         "misses": 6,
-        "no_data": 6,
-        "hit_rate": 0.5,
+        "no_data": 5,
+        "hit_rate": 0.538,
         "examples": [
           {
             "name": "Jared Triolo",
@@ -63116,32 +63121,32 @@
     "top_overs": {
       "days": 42,
       "n": 905,
-      "hits": 418,
+      "hits": 419,
       "misses": 472,
-      "no_data": 15,
+      "no_data": 14,
       "hit_rate": 0.47
     },
     "top_unders": {
       "days": 42,
       "n": 784,
       "hits": 454,
-      "misses": 294,
-      "no_data": 36,
-      "hit_rate": 0.607
+      "misses": 295,
+      "no_data": 35,
+      "hit_rate": 0.606
     },
     "batter_trend": {
       "hot": {
-        "games": 1846,
+        "games": 1847,
         "avg": 0.238,
         "tb_per_game": 1.33
       },
       "cold": {
-        "games": 2105,
+        "games": 2106,
         "avg": 0.245,
         "tb_per_game": 1.37
       },
       "neutral": {
-        "games": 5881,
+        "games": 5888,
         "avg": 0.245,
         "tb_per_game": 1.4
       }
@@ -63158,16 +63163,16 @@
         "tb_per_game": 1.23
       },
       "neutral": {
-        "games": 7095,
+        "games": 7104,
         "avg": 0.242,
         "tb_per_game": 1.38
       }
     },
     "pitcher_form": {
       "dominant": {
-        "games": 253,
-        "k_per_game": 4.53,
-        "era": 4.03
+        "games": 254,
+        "k_per_game": 4.54,
+        "era": 4.04
       },
       "rough": {
         "games": 268,
@@ -63175,8 +63180,8 @@
         "era": 4.52
       },
       "neutral": {
-        "games": 591,
-        "k_per_game": 4.8,
+        "games": 592,
+        "k_per_game": 4.81,
         "era": 4.11
       }
     },
@@ -63210,106 +63215,106 @@
     "matchup_leans": {
       "days": 42,
       "n": 11014,
-      "hits": 6841,
-      "misses": 3802,
-      "no_data": 371,
+      "hits": 6847,
+      "misses": 3807,
+      "no_data": 360,
       "hit_rate": 0.643
     },
     "best_prop_stars": {
       "days": 42,
       "n": 1108,
-      "hits": 539,
+      "hits": 540,
       "misses": 542,
-      "no_data": 27,
+      "no_data": 26,
       "hit_rate": 0.499
     },
     "projection_accuracy": {
+      "Walks": {
+        "n": 9819,
+        "mae": 0.47,
+        "bias": 0.02,
+        "avg_projected": 0.34,
+        "avg_actual": 0.36
+      },
+      "RBIs": {
+        "n": 9819,
+        "mae": 0.6,
+        "bias": -0.0,
+        "avg_projected": 0.43,
+        "avg_actual": 0.43
+      },
       "Outs Recorded": {
-        "n": 1014,
+        "n": 1016,
         "mae": 3.11,
         "bias": 0.7,
         "avg_projected": 14.67,
         "avg_actual": 15.37
       },
-      "Strikeouts": {
-        "n": 1096,
-        "mae": 1.82,
-        "bias": 0.07,
-        "avg_projected": 4.57,
-        "avg_actual": 4.64
+      "Total Bases": {
+        "n": 9819,
+        "mae": 1.3,
+        "bias": 0.01,
+        "avg_projected": 1.37,
+        "avg_actual": 1.38
+      },
+      "Hits Allowed": {
+        "n": 1098,
+        "mae": 1.83,
+        "bias": 0.21,
+        "avg_projected": 4.61,
+        "avg_actual": 4.82
       },
       "Hits + Runs + RBIs": {
-        "n": 7403,
+        "n": 7412,
         "mae": 1.49,
         "bias": 0.05,
         "avg_projected": 1.71,
         "avg_actual": 1.76
       },
       "Home Runs": {
-        "n": 9810,
+        "n": 9819,
         "mae": 0.2,
         "bias": -0.01,
         "avg_projected": 0.12,
         "avg_actual": 0.11
       },
-      "RBIs": {
-        "n": 9810,
-        "mae": 0.6,
-        "bias": -0.0,
-        "avg_projected": 0.43,
-        "avg_actual": 0.43
-      },
-      "Total Bases": {
-        "n": 9810,
-        "mae": 1.31,
-        "bias": 0.01,
-        "avg_projected": 1.37,
-        "avg_actual": 1.38
-      },
-      "Runs Scored": {
-        "n": 9810,
-        "mae": 0.56,
-        "bias": 0.0,
-        "avg_projected": 0.45,
-        "avg_actual": 0.45
-      },
-      "Walks": {
-        "n": 9810,
-        "mae": 0.47,
-        "bias": 0.02,
-        "avg_projected": 0.34,
-        "avg_actual": 0.36
-      },
-      "Hits Allowed": {
-        "n": 1096,
-        "mae": 1.84,
-        "bias": 0.21,
-        "avg_projected": 4.61,
-        "avg_actual": 4.82
-      },
       "Runs Allowed": {
-        "n": 1096,
+        "n": 1098,
         "mae": 1.6,
-        "bias": 0.1,
+        "bias": 0.11,
         "avg_projected": 2.25,
         "avg_actual": 2.35
       },
+      "Strikeouts": {
+        "n": 1098,
+        "mae": 1.82,
+        "bias": 0.07,
+        "avg_projected": 4.57,
+        "avg_actual": 4.64
+      },
       "Hits": {
-        "n": 9810,
+        "n": 9819,
         "mae": 0.7,
         "bias": 0.02,
         "avg_projected": 0.83,
         "avg_actual": 0.85
       },
       "Walks Allowed": {
-        "n": 1096,
+        "n": 1098,
         "mae": 0.97,
-        "bias": 0.09,
+        "bias": 0.1,
         "avg_projected": 1.72,
-        "avg_actual": 1.81
+        "avg_actual": 1.82
+      },
+      "Runs Scored": {
+        "n": 9819,
+        "mae": 0.56,
+        "bias": 0.0,
+        "avg_projected": 0.45,
+        "avg_actual": 0.45
       }
     },
     "days_tracked": 42
   },
-  "updated_at": "2026-09-04T09:40:11.280337+00:00"
+  "updated_at": "2026-09-04T14:19:06.957490+00:00"
 }
