@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-09-04T21:30:50.325117+00:00_
+_Generated 2026-09-04T21:36:20.546826+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -50,7 +50,7 @@ _Generated 2026-09-04T21:30:50.325117+00:00_
 - **Janson Junk** (Miami Marlins vs Chicago Cubs): 4 hitters in tonight's lineup are in a tough matchup against him -- try Strikeouts: 100% under 2.5 recently (vs. 5-game sample)
 - **Foster Griffin** (Cleveland Guardians vs Detroit Tigers): 5 hitters in tonight's lineup are in a tough matchup against him -- try Outs Recorded: 80% under 16.5 recently (vs. 5-game sample)
 
-## 2026-09-04 - Detroit Tigers @ Cleveland Guardians (In Progress)
+## 2026-09-04 - Detroit Tigers @ Cleveland Guardians (Manager challenge)
 _Progressive Field_
 Projected score: Detroit Tigers 3.49 - Cleveland Guardians 3.34
 Model likes: **Detroit Tigers** to win (52%) | Run line: **Cleveland Guardians** +1.5 (66% to cover) | Total 6.5: lean **UNDER** (52%)
@@ -568,7 +568,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.57)_
 ## 2026-09-05 - Chicago Cubs @ Miami Marlins (Scheduled)
 _loanDepot park [pitcher-friendly park]_
 Projected score: Chicago Cubs 4.71 - Miami Marlins 4.06
-Model likes: **Chicago Cubs** to win (55%) | Run line: **Miami Marlins** +1.5 (59% to cover) | Total 8.5: lean **UNDER** (53%)
+Model likes: **Chicago Cubs** to win (56%) | Run line: **Miami Marlins** +1.5 (59% to cover) | Total 8.5: lean **UNDER** (53%)
 
 ### Chicago Cubs lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.37)_
@@ -689,7 +689,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-05 - Milwaukee Brewers @ Cincinnati Reds (Scheduled)
 _Great American Ball Park [hitter-friendly park]_
 Projected score: Milwaukee Brewers 4.96 - Cincinnati Reds 3.77
-Model likes: **Milwaukee Brewers** to win (60%) | Run line: **Cincinnati Reds** +1.5 (55% to cover) | Total 8.5: lean **UNDER** (53%)
+Model likes: **Milwaukee Brewers** to win (60%) | Run line: **Cincinnati Reds** +1.5 (55% to cover) | Total 8.5: lean **UNDER** (54%)
 
 ### Milwaukee Brewers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -720,7 +720,7 @@ _Facing a rested bullpen: 1.0 relief IP in last 2 days (ratio 0.16)_
 ## 2026-09-05 - Tampa Bay Rays @ Texas Rangers (Scheduled)
 _Globe Life Field [hitter-friendly park]_
 Projected score: Tampa Bay Rays 4.14 - Texas Rangers 3.06
-Model likes: **Tampa Bay Rays** to win (60%) | Run line: **Texas Rangers** +1.5 (57% to cover) | Total 6.5: lean **OVER** (52%)
+Model likes: **Tampa Bay Rays** to win (61%) | Run line: **Texas Rangers** +1.5 (57% to cover) | Total 6.5: lean **OVER** (52%)
 
 ### Tampa Bay Rays lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 1.0 relief IP in last 2 days (ratio 0.2)_
@@ -875,7 +875,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-05 - Arizona Diamondbacks @ Houston Astros (Scheduled)
 _Daikin Park_
 Projected score: Arizona Diamondbacks 4.42 - Houston Astros 3.71
-Model likes: **Arizona Diamondbacks** to win (56%) | Run line: **Houston Astros** +1.5 (60% to cover) | Total 7.5: lean **OVER** (50%)
+Model likes: **Arizona Diamondbacks** to win (56%) | Run line: **Houston Astros** +1.5 (60% to cover) | Total 7.5: lean **OVER** (51%)
 
 ### Arizona Diamondbacks lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.52)_
@@ -1059,7 +1059,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-06 - Los Angeles Angels @ Pittsburgh Pirates (Scheduled)
 _PNC Park_
 Projected score: Los Angeles Angels 4.11 - Pittsburgh Pirates 3.56
-Model likes: **Los Angeles Angels** to win (55%) | Run line: **Pittsburgh Pirates** +1.5 (61% to cover) | Total 7.5: lean **UNDER** (54%)
+Model likes: **Los Angeles Angels** to win (55%) | Run line: **Pittsburgh Pirates** +1.5 (62% to cover) | Total 7.5: lean **UNDER** (54%)
 
 ### Los Angeles Angels lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1273,7 +1273,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-06 - Tampa Bay Rays @ Texas Rangers (Scheduled)
 _Globe Life Field [hitter-friendly park]_
 Projected score: Tampa Bay Rays 4.44 - Texas Rangers 4.14
-Model likes: **Tampa Bay Rays** to win (53%) | Run line: **Texas Rangers** +1.5 (62% to cover) | Total 7.5: lean **OVER** (55%)
+Model likes: **Tampa Bay Rays** to win (53%) | Run line: **Texas Rangers** +1.5 (63% to cover) | Total 7.5: lean **OVER** (55%)
 
 ### Tampa Bay Rays lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
