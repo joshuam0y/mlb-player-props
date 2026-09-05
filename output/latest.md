@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-09-05T17:43:14.847543+00:00_
+_Generated 2026-09-05T18:29:06.519515+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -180,7 +180,7 @@ _Facing a taxed bullpen: 8.0 relief IP in last 2 days (ratio 1.53)_
 ## 2026-09-05 - Los Angeles Angels @ Pittsburgh Pirates (Scheduled)
 _PNC Park_
 Projected score: Los Angeles Angels 3.79 - Pittsburgh Pirates 4.78
-Model likes: **Pittsburgh Pirates** to win (58%) | Run line: **Los Angeles Angels** +1.5 (57% to cover) | Total 7.5: lean **OVER** (55%)
+Model likes: **Pittsburgh Pirates** to win (58%) | Run line: **Los Angeles Angels** +1.5 (57% to cover) | Total 7.5: lean **OVER** (54%)
 
 ### Los Angeles Angels lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 9.7 relief IP in last 2 days (ratio 1.5)_
@@ -210,8 +210,8 @@ _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.35)_
 
 ## 2026-09-05 - Milwaukee Brewers @ Cincinnati Reds (Scheduled)
 _Great American Ball Park [hitter-friendly park]_
-Projected score: Milwaukee Brewers 5.22 - Cincinnati Reds 3.85
-Model likes: **Milwaukee Brewers** to win (61%) | Run line: **Cincinnati Reds** +1.5 (53% to cover) | Total 8.5: lean **UNDER** (51%)
+Projected score: Milwaukee Brewers 5.22 - Cincinnati Reds 3.87
+Model likes: **Milwaukee Brewers** to win (61%) | Run line: **Cincinnati Reds** +1.5 (54% to cover) | Total 8.5: lean **UNDER** (50%)
 
 ### Milwaukee Brewers lineup -- PROJECTED (unconfirmed)
 **Probable P: Dustin May (R)** -- L5: 19.7 IP, 16 K, 14 ER, 6.41 ERA
@@ -270,7 +270,7 @@ _Facing a taxed bullpen: 10.0 relief IP in last 2 days (ratio 1.95)_
 ## 2026-09-05 - Boston Red Sox @ Baltimore Orioles (Scheduled)
 _Oriole Park at Camden Yards_
 Projected score: Boston Red Sox 4.22 - Baltimore Orioles 2.81
-Model likes: **Boston Red Sox** to win (64%) | Run line: **Baltimore Orioles** +1.5 (54% to cover) | Total 6.5: lean **UNDER** (50%)
+Model likes: **Boston Red Sox** to win (64%) | Run line: **Baltimore Orioles** +1.5 (54% to cover) | Total 6.5: lean **OVER** (50%)
 
 ### Boston Red Sox lineup -- PROJECTED (unconfirmed)
 **Probable P: Sonny Gray (R)** -- L5: 30.0 IP, 30 K, 8 ER, 2.4 ERA
@@ -480,8 +480,8 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.48)_
 
 ## 2026-09-05 - Athletics @ Seattle Mariners (Scheduled)
 _T-Mobile Park [pitcher-friendly park]_
-Projected score: Athletics 4.02 - Seattle Mariners 5.37
-Model likes: **Seattle Mariners** to win (61%) | Run line: **Athletics** +1.5 (53% to cover) | Total 8.5: lean **OVER** (52%)
+Projected score: Athletics 4.02 - Seattle Mariners 5.34
+Model likes: **Seattle Mariners** to win (61%) | Run line: **Athletics** +1.5 (54% to cover) | Total 8.5: lean **OVER** (52%)
 
 ### Athletics lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 7.3 relief IP in last 2 days (ratio 1.4)_
@@ -497,7 +497,7 @@ _Facing a taxed bullpen: 7.3 relief IP in last 2 days (ratio 1.4)_
 - Tommy White (R) -- L7: 6H 0HR 1RBI 8TB (0.261 avg) -- away split: 0.253 avg
 
 ### Seattle Mariners lineup -- PROJECTED (unconfirmed)
-_Facing a taxed bullpen: 12.3 relief IP in last 2 days (ratio 2.35)_
+_Facing a taxed bullpen: 12.3 relief IP in last 2 days (ratio 2.22)_
 **Probable P: George Kirby (R)** -- L5: 25.7 IP, 18 K, 18 ER, 6.31 ERA
 - Julio Rodríguez (R) [MATCHUP EDGE: pitcher hits 0.270 avg-against vs this hand] -- L7: 5H 0HR 5RBI 8TB (0.161 avg) -- home split: 0.259 avg
 - Randy Arozarena (R) [MATCHUP EDGE: pitcher hits 0.270 avg-against vs this hand] -- L7: 7H 2HR 8RBI 15TB (0.241 avg) -- home split: 0.238 avg
@@ -511,8 +511,8 @@ _Facing a taxed bullpen: 12.3 relief IP in last 2 days (ratio 2.35)_
 
 ## 2026-09-06 - Milwaukee Brewers @ Cincinnati Reds (Scheduled)
 _Great American Ball Park [hitter-friendly park]_
-Projected score: Milwaukee Brewers 5.49 - Cincinnati Reds 3.19
-Model likes: **Milwaukee Brewers** to win (69%) | Run line: **Milwaukee Brewers** -1.5 (55% to cover) | Total 8.5: lean **UNDER** (54%)
+Projected score: Milwaukee Brewers 5.49 - Cincinnati Reds 3.22
+Model likes: **Milwaukee Brewers** to win (69%) | Run line: **Milwaukee Brewers** -1.5 (54% to cover) | Total 8.5: lean **UNDER** (54%)
 
 ### Milwaukee Brewers lineup -- PROJECTED (unconfirmed)
 **Probable P: Kyle Harrison (L)** -- L5: 23.3 IP, 29 K, 13 ER, 5.01 ERA
@@ -812,7 +812,7 @@ _Facing a rested bullpen: 2.7 relief IP in last 2 days (ratio 0.43)_
 ## 2026-09-06 - St. Louis Cardinals @ Colorado Rockies (Scheduled)
 _Coors Field [hitter-friendly park]_
 Projected score: St. Louis Cardinals 5.52 - Colorado Rockies 4.22
-Model likes: **St. Louis Cardinals** to win (60%) | Run line: **Colorado Rockies** +1.5 (54% to cover) | Total 9.5: lean **UNDER** (53%)
+Model likes: **St. Louis Cardinals** to win (60%) | Run line: **Colorado Rockies** +1.5 (54% to cover) | Total 9.5: lean **UNDER** (54%)
 
 ### St. Louis Cardinals lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 4.0 relief IP in last 2 days (ratio 0.65)_
@@ -842,8 +842,8 @@ _Facing a rested bullpen: 4.0 relief IP in last 2 days (ratio 0.65)_
 
 ## 2026-09-06 - Athletics @ Seattle Mariners (Scheduled)
 _T-Mobile Park [pitcher-friendly park]_
-Projected score: Athletics 4.05 - Seattle Mariners 4.78
-Model likes: **Seattle Mariners** to win (56%) | Run line: **Athletics** +1.5 (59% to cover) | Total 8.5: lean **UNDER** (52%)
+Projected score: Athletics 4.05 - Seattle Mariners 4.75
+Model likes: **Seattle Mariners** to win (56%) | Run line: **Athletics** +1.5 (59% to cover) | Total 8.5: lean **UNDER** (53%)
 
 ### Athletics lineup -- PROJECTED (unconfirmed)
 **Probable P: Gage Jump (L)** -- L5: 26.0 IP, 26 K, 19 ER, 6.58 ERA
@@ -858,7 +858,6 @@ Model likes: **Seattle Mariners** to win (56%) | Run line: **Athletics** +1.5 (5
 - Tommy White (R) -- L7: 6H 0HR 1RBI 8TB (0.261 avg) -- away split: 0.253 avg
 
 ### Seattle Mariners lineup -- PROJECTED (unconfirmed)
-_Facing a taxed bullpen: 6.3 relief IP in last 2 days (ratio 1.21)_
 **Probable P: Bryan Woo (R)** -- L5: 28.0 IP, 27 K, 9 ER, 2.89 ERA
 - Julio Rodríguez (R) [MATCHUP EDGE: pitcher hits 0.265 avg-against vs this hand] -- L7: 5H 0HR 5RBI 8TB (0.161 avg) -- home split: 0.259 avg
 - Randy Arozarena (R) [MATCHUP EDGE: pitcher hits 0.265 avg-against vs this hand] -- L7: 7H 2HR 8RBI 15TB (0.241 avg) -- home split: 0.238 avg
@@ -1083,7 +1082,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-07 - Chicago Cubs @ Milwaukee Brewers (Scheduled)
 _American Family Field_
 Projected score: Chicago Cubs 4.49 - Milwaukee Brewers 5.36
-Model likes: **Milwaukee Brewers** to win (57%) | Run line: **Chicago Cubs** +1.5 (57% to cover) | Total 9.5: lean **UNDER** (53%)
+Model likes: **Milwaukee Brewers** to win (57%) | Run line: **Chicago Cubs** +1.5 (57% to cover) | Total 9.5: lean **UNDER** (52%)
 
 ### Chicago Cubs lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1112,7 +1111,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-07 - Arizona Diamondbacks @ Kansas City Royals (Scheduled)
 _Kauffman Stadium [pitcher-friendly park]_
 Projected score: Arizona Diamondbacks 4.08 - Kansas City Royals 4.87
-Model likes: **Kansas City Royals** to win (56%) | Run line: **Arizona Diamondbacks** +1.5 (58% to cover) | Total 8.5: lean **UNDER** (51%)
+Model likes: **Kansas City Royals** to win (56%) | Run line: **Arizona Diamondbacks** +1.5 (58% to cover) | Total 8.5: lean **UNDER** (52%)
 
 ### Arizona Diamondbacks lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
