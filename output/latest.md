@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-09-05T09:14:31.610789+00:00_
+_Generated 2026-09-05T12:46:24.541760+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -58,7 +58,7 @@ _Generated 2026-09-05T09:14:31.610789+00:00_
 ## 2026-09-05 - San Francisco Giants @ New York Mets (Scheduled)
 _Citi Field_
 Projected score: San Francisco Giants 2.87 - New York Mets 3.18
-Model likes: **New York Mets** to win (53%) | Run line: **San Francisco Giants** +1.5 (66% to cover) | Total 5.5: lean **OVER** (51%)
+Model likes: **New York Mets** to win (54%) | Run line: **San Francisco Giants** +1.5 (66% to cover) | Total 5.5: lean **OVER** (51%)
 
 ### San Francisco Giants lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.49)_
@@ -118,7 +118,7 @@ Model likes: **Chicago Cubs** to win (64%) | Run line: **Miami Marlins** +1.5 (5
 ## 2026-09-05 - Atlanta Braves @ Philadelphia Phillies (Scheduled)
 _Citizens Bank Park [hitter-friendly park]_
 Projected score: Atlanta Braves 3.27 - Philadelphia Phillies 3.23
-Model likes: **Atlanta Braves** to win (50%) | Run line: **Philadelphia Phillies** +1.5 (68% to cover) | Total 6.5: lean **UNDER** (55%)
+Model likes: **Atlanta Braves** to win (50%) | Run line: **Philadelphia Phillies** +1.5 (68% to cover) | Total 6.5: lean **UNDER** (56%)
 
 ### Atlanta Braves lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 1.0 relief IP in last 2 days (ratio 0.2)_
@@ -329,7 +329,7 @@ _Facing a taxed bullpen: 11.3 relief IP in last 2 days (ratio 1.65)_
 ## 2026-09-05 - Minnesota Twins @ Chicago White Sox (Scheduled)
 _Rate Field_
 Projected score: Minnesota Twins 4.07 - Chicago White Sox 3.93
-Model likes: **Minnesota Twins** to win (51%) | Run line: **Chicago White Sox** +1.5 (64% to cover) | Total 7.5: lean **UNDER** (51%)
+Model likes: **Minnesota Twins** to win (51%) | Run line: **Chicago White Sox** +1.5 (65% to cover) | Total 7.5: lean **UNDER** (51%)
 
 ### Minnesota Twins lineup -- PROJECTED (unconfirmed)
 **Probable P: Taj Bradley (R)** -- L5: 27.7 IP, 37 K, 14 ER, 4.55 ERA
@@ -662,7 +662,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-06 - Chicago Cubs @ Miami Marlins (Scheduled)
 _loanDepot park [pitcher-friendly park]_
 Projected score: Chicago Cubs 4.59 - Miami Marlins 3.91
-Model likes: **Chicago Cubs** to win (56%) | Run line: **Miami Marlins** +1.5 (59% to cover) | Total 7.5: lean **OVER** (54%)
+Model likes: **Chicago Cubs** to win (56%) | Run line: **Miami Marlins** +1.5 (60% to cover) | Total 7.5: lean **OVER** (54%)
 
 ### Chicago Cubs lineup -- PROJECTED (unconfirmed)
 - Pete Crow-Armstrong (L) [3-game hit streak] -- L7: 10H 6HR 10RBI 29TB (0.323 avg) -- away split: 0.252 avg
@@ -811,7 +811,7 @@ _Facing a rested bullpen: 2.7 relief IP in last 2 days (ratio 0.43)_
 ## 2026-09-06 - St. Louis Cardinals @ Colorado Rockies (Scheduled)
 _Coors Field [hitter-friendly park]_
 Projected score: St. Louis Cardinals 5.52 - Colorado Rockies 4.22
-Model likes: **St. Louis Cardinals** to win (60%) | Run line: **Colorado Rockies** +1.5 (54% to cover) | Total 9.5: lean **UNDER** (53%)
+Model likes: **St. Louis Cardinals** to win (60%) | Run line: **Colorado Rockies** +1.5 (54% to cover) | Total 9.5: lean **UNDER** (54%)
 
 ### St. Louis Cardinals lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 4.0 relief IP in last 2 days (ratio 0.65)_
@@ -1083,7 +1083,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-07 - Chicago Cubs @ Milwaukee Brewers (Scheduled)
 _American Family Field_
 Projected score: Chicago Cubs 4.49 - Milwaukee Brewers 5.36
-Model likes: **Milwaukee Brewers** to win (57%) | Run line: **Chicago Cubs** +1.5 (57% to cover) | Total 9.5: lean **UNDER** (53%)
+Model likes: **Milwaukee Brewers** to win (57%) | Run line: **Chicago Cubs** +1.5 (57% to cover) | Total 9.5: lean **UNDER** (52%)
 
 ### Chicago Cubs lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1258,7 +1258,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-07 - Toronto Blue Jays @ Athletics (Scheduled)
 _Sutter Health Park_
 Projected score: Toronto Blue Jays 6.24 - Athletics 4.38
-Model likes: **Toronto Blue Jays** to win (63%) | Run line: **Toronto Blue Jays** -1.5 (50% to cover) | Total 9.5: lean **OVER** (53%)
+Model likes: **Toronto Blue Jays** to win (64%) | Run line: **Toronto Blue Jays** -1.5 (51% to cover) | Total 9.5: lean **OVER** (53%)
 
 ### Toronto Blue Jays lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
