@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-09-05T04:32:08.622889+00:00_
+_Generated 2026-09-05T05:18:55.184945+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -58,7 +58,7 @@ _Generated 2026-09-05T04:32:08.622889+00:00_
 ## 2026-09-05 - San Francisco Giants @ New York Mets (Scheduled)
 _Citi Field_
 Projected score: San Francisco Giants 2.87 - New York Mets 3.18
-Model likes: **New York Mets** to win (53%) | Run line: **San Francisco Giants** +1.5 (66% to cover) | Total 5.5: lean **OVER** (51%)
+Model likes: **New York Mets** to win (54%) | Run line: **San Francisco Giants** +1.5 (66% to cover) | Total 5.5: lean **OVER** (51%)
 
 ### San Francisco Giants lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 1.7 relief IP in last 2 days (ratio 0.27)_
@@ -120,7 +120,7 @@ _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.4)_
 ## 2026-09-05 - Atlanta Braves @ Philadelphia Phillies (Scheduled)
 _Citizens Bank Park [hitter-friendly park]_
 Projected score: Atlanta Braves 3.27 - Philadelphia Phillies 3.21
-Model likes: **Atlanta Braves** to win (51%) | Run line: **Philadelphia Phillies** +1.5 (68% to cover) | Total 5.5: lean **OVER** (56%)
+Model likes: **Atlanta Braves** to win (51%) | Run line: **Philadelphia Phillies** +1.5 (68% to cover) | Total 6.5: lean **UNDER** (56%)
 
 ### Atlanta Braves lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 1.0 relief IP in last 2 days (ratio 0.2)_
@@ -362,7 +362,7 @@ _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.44)_
 ## 2026-09-05 - New York Yankees @ San Diego Padres (Scheduled)
 _Petco Park [pitcher-friendly park]_
 Projected score: New York Yankees 2.98 - San Diego Padres 2.63
-Model likes: **New York Yankees** to win (54%) | Run line: **San Diego Padres** +1.5 (66% to cover) | Total 5.5: lean **UNDER** (54%)
+Model likes: **New York Yankees** to win (54%) | Run line: **San Diego Padres** +1.5 (67% to cover) | Total 5.5: lean **UNDER** (54%)
 
 ### New York Yankees lineup -- PROJECTED (unconfirmed)
 **Probable P: Carlos Rodón (L)** -- L5: 23.0 IP, 22 K, 7 ER, 2.74 ERA
@@ -574,7 +574,7 @@ _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.37)_
 ## 2026-09-06 - Los Angeles Angels @ Pittsburgh Pirates (Scheduled)
 _PNC Park_
 Projected score: Los Angeles Angels 3.87 - Pittsburgh Pirates 3.51
-Model likes: **Los Angeles Angels** to win (53%) | Run line: **Pittsburgh Pirates** +1.5 (64% to cover) | Total 6.5: lean **OVER** (54%)
+Model likes: **Los Angeles Angels** to win (53%) | Run line: **Pittsburgh Pirates** +1.5 (63% to cover) | Total 6.5: lean **OVER** (54%)
 
 ### Los Angeles Angels lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 1.0 relief IP in last 2 days (ratio 0.16)_
@@ -666,7 +666,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-06 - Chicago Cubs @ Miami Marlins (Scheduled)
 _loanDepot park [pitcher-friendly park]_
 Projected score: Chicago Cubs 4.0 - Miami Marlins 3.91
-Model likes: **Chicago Cubs** to win (51%) | Run line: **Miami Marlins** +1.5 (65% to cover) | Total 7.5: lean **UNDER** (51%)
+Model likes: **Chicago Cubs** to win (51%) | Run line: **Miami Marlins** +1.5 (65% to cover) | Total 7.5: lean **UNDER** (52%)
 
 ### Chicago Cubs lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.7 relief IP in last 2 days (ratio 0.12)_
@@ -786,7 +786,7 @@ _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.35)_
 ## 2026-09-06 - Tampa Bay Rays @ Texas Rangers (Scheduled)
 _Globe Life Field [hitter-friendly park]_
 Projected score: Tampa Bay Rays 4.31 - Texas Rangers 4.28
-Model likes: **Tampa Bay Rays** to win (50%) | Run line: **Texas Rangers** +1.5 (65% to cover) | Total 8.5: lean **UNDER** (55%)
+Model likes: **Tampa Bay Rays** to win (50%) | Run line: **Texas Rangers** +1.5 (65% to cover) | Total 7.5: lean **OVER** (55%)
 
 ### Tampa Bay Rays lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.3 relief IP in last 2 days (ratio 0.46)_
@@ -999,8 +999,8 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 
 ## 2026-09-07 - New York Mets @ Miami Marlins (Scheduled)
 _loanDepot park [pitcher-friendly park]_
-Projected score: New York Mets 3.33 - Miami Marlins 3.86
-Model likes: **Miami Marlins** to win (55%) | Run line: **New York Mets** +1.5 (62% to cover) | Total 6.5: lean **OVER** (52%)
+Projected score: New York Mets 3.33 - Miami Marlins 3.9
+Model likes: **Miami Marlins** to win (56%) | Run line: **New York Mets** +1.5 (62% to cover) | Total 6.5: lean **OVER** (52%)
 
 ### New York Mets lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1117,7 +1117,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-07 - Arizona Diamondbacks @ Kansas City Royals (Scheduled)
 _Kauffman Stadium [pitcher-friendly park]_
 Projected score: Arizona Diamondbacks 4.08 - Kansas City Royals 4.87
-Model likes: **Kansas City Royals** to win (57%) | Run line: **Arizona Diamondbacks** +1.5 (58% to cover) | Total 8.5: lean **UNDER** (52%)
+Model likes: **Kansas City Royals** to win (56%) | Run line: **Arizona Diamondbacks** +1.5 (58% to cover) | Total 8.5: lean **UNDER** (51%)
 
 ### Arizona Diamondbacks lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
