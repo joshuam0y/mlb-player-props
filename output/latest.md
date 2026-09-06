@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-09-05T23:59:36.504447+00:00_
+_Generated 2026-09-06T01:15:59.794908+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -112,10 +112,9 @@ Final: Chicago Cubs 6 - Miami Marlins 5
 - #8 Graham Pauley (L) [MATCHUP EDGE: pitcher hits 0.263 avg-against vs this hand] -- L7: 4H 1HR 6RBI 10TB (0.250 avg) -- home split: 0.160 avg
 - #9 Javier Sanoja (R) [TOUGH MATCHUP: pitcher holds this hand to 0.200 avg-against] [5-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 10H 1HR 2RBI 14TB (0.370 avg) -- home split: 0.282 avg
 
-## 2026-09-05 - Atlanta Braves @ Philadelphia Phillies (In Progress)
+## 2026-09-05 - Atlanta Braves @ Philadelphia Phillies (Final)
 _Citizens Bank Park [hitter-friendly park]_
-Projected score: Atlanta Braves 3.52 - Philadelphia Phillies 3.32
-Model likes: **Atlanta Braves** to win (52%) | Run line: **Philadelphia Phillies** +1.5 (66% to cover) | Total 6.5: lean **UNDER** (52%)
+Final: Atlanta Braves 2 - Philadelphia Phillies 4
 
 ### Atlanta Braves lineup -- CONFIRMED
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.59)_
@@ -143,10 +142,9 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.55)_
 - #8 Bryson Stott (L) -- L7: 5H 1HR 2RBI 10TB (0.200 avg) -- home split: 0.278 avg
 - #9 Derek Hill (R) -- L7: 3H 0HR 1RBI 3TB (0.273 avg) -- home split: 0.208 avg
 
-## 2026-09-05 - Detroit Tigers @ Cleveland Guardians (In Progress)
+## 2026-09-05 - Detroit Tigers @ Cleveland Guardians (Final)
 _Progressive Field_
-Projected score: Detroit Tigers 2.84 - Cleveland Guardians 4.36
-Model likes: **Cleveland Guardians** to win (65%) | Run line: **Detroit Tigers** +1.5 (53% to cover) | Total 6.5: lean **OVER** (52%)
+Final: Detroit Tigers 6 - Cleveland Guardians 0
 
 ### Detroit Tigers lineup -- CONFIRMED
 _Facing a taxed bullpen: 15.7 relief IP in last 2 days (ratio 2.97)_
@@ -415,7 +413,7 @@ _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.35)_
 - #8 Taylor Trammell (L) [MATCHUP EDGE: pitcher hits 0.265 avg-against vs this hand] -- L7: 3H 0HR 0RBI 5TB (0.188 avg) -- home split: 0.189 avg
 - #9 Cam Smith (R) [TOUGH MATCHUP: pitcher holds this hand to 0.198 avg-against] -- L7: 3H 0HR 2RBI 6TB (0.167 avg) -- home split: 0.184 avg
 
-## 2026-09-05 - St. Louis Cardinals @ Colorado Rockies (Warmup)
+## 2026-09-05 - St. Louis Cardinals @ Colorado Rockies (In Progress)
 _Coors Field [hitter-friendly park]_
 Projected score: St. Louis Cardinals 6.97 - Colorado Rockies 5.25
 Model likes: **St. Louis Cardinals** to win (61%) | Run line: **Colorado Rockies** +1.5 (50% to cover) | Total 11.5: lean **UNDER** (50%)
@@ -445,7 +443,7 @@ _Facing a rested bullpen: 4.0 relief IP in last 2 days (ratio 0.65)_
 - #8 Adael Amador (S) [MATCHUP EDGE: pitcher hits 0.281 avg-against vs this hand] [4-game hit streak] -- L7: 8H 2HR 8RBI 16TB (0.400 avg) -- home split: 0.368 avg
 - #9 Ezequiel Tovar (R) [MATCHUP EDGE: pitcher hits 0.281 avg-against vs this hand] -- L7: 3H 0HR 0RBI 3TB (0.176 avg) -- home split: 0.198 avg
 
-## 2026-09-05 - Washington Nationals @ Los Angeles Dodgers (Pre-Game)
+## 2026-09-05 - Washington Nationals @ Los Angeles Dodgers (In Progress)
 _UNIQLO Field at Dodger Stadium_
 Projected score: Washington Nationals 3.29 - Los Angeles Dodgers 3.57
 Model likes: **Los Angeles Dodgers** to win (53%) | Run line: **Washington Nationals** +1.5 (65% to cover) | Total 6.5: lean **UNDER** (52%)
@@ -538,7 +536,7 @@ Model likes: **Milwaukee Brewers** to win (69%) | Run line: **Milwaukee Brewers*
 ## 2026-09-06 - Atlanta Braves @ Philadelphia Phillies (Scheduled)
 _Citizens Bank Park [hitter-friendly park]_
 Projected score: Atlanta Braves 4.26 - Philadelphia Phillies 4.18
-Model likes: **Atlanta Braves** to win (51%) | Run line: **Philadelphia Phillies** +1.5 (64% to cover) | Total 7.5: lean **OVER** (53%)
+Model likes: **Atlanta Braves** to win (51%) | Run line: **Philadelphia Phillies** +1.5 (65% to cover) | Total 7.5: lean **OVER** (53%)
 
 ### Atlanta Braves lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.59)_
@@ -809,7 +807,7 @@ _Facing a rested bullpen: 2.7 relief IP in last 2 days (ratio 0.43)_
 ## 2026-09-06 - St. Louis Cardinals @ Colorado Rockies (Scheduled)
 _Coors Field [hitter-friendly park]_
 Projected score: St. Louis Cardinals 5.52 - Colorado Rockies 4.22
-Model likes: **St. Louis Cardinals** to win (60%) | Run line: **Colorado Rockies** +1.5 (54% to cover) | Total 9.5: lean **UNDER** (54%)
+Model likes: **St. Louis Cardinals** to win (60%) | Run line: **Colorado Rockies** +1.5 (54% to cover) | Total 9.5: lean **UNDER** (53%)
 
 ### St. Louis Cardinals lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 4.0 relief IP in last 2 days (ratio 0.65)_
@@ -929,7 +927,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.66)_
 ## 2026-09-06 - Washington Nationals @ Los Angeles Dodgers (Scheduled)
 _UNIQLO Field at Dodger Stadium_
 Projected score: Washington Nationals 4.1 - Los Angeles Dodgers 3.7
-Model likes: **Washington Nationals** to win (54%) | Run line: **Los Angeles Dodgers** +1.5 (63% to cover) | Total 7.5: lean **UNDER** (53%)
+Model likes: **Washington Nationals** to win (54%) | Run line: **Los Angeles Dodgers** +1.5 (63% to cover) | Total 7.5: lean **UNDER** (52%)
 
 ### Washington Nationals lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.53)_
@@ -1079,7 +1077,7 @@ _Facing a rested bullpen: 0.3 relief IP in last 2 days (ratio 0.06)_
 ## 2026-09-07 - Chicago Cubs @ Milwaukee Brewers (Scheduled)
 _American Family Field_
 Projected score: Chicago Cubs 4.49 - Milwaukee Brewers 5.36
-Model likes: **Milwaukee Brewers** to win (57%) | Run line: **Chicago Cubs** +1.5 (57% to cover) | Total 9.5: lean **UNDER** (52%)
+Model likes: **Milwaukee Brewers** to win (57%) | Run line: **Chicago Cubs** +1.5 (57% to cover) | Total 9.5: lean **UNDER** (53%)
 
 ### Chicago Cubs lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1195,7 +1193,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-07 - St. Louis Cardinals @ San Francisco Giants (Scheduled)
 _Oracle Park [pitcher-friendly park]_
 Projected score: St. Louis Cardinals 4.6 - San Francisco Giants 4.67
-Model likes: **San Francisco Giants** to win (51%) | Run line: **St. Louis Cardinals** +1.5 (64% to cover) | Total 8.5: lean **OVER** (51%)
+Model likes: **San Francisco Giants** to win (50%) | Run line: **St. Louis Cardinals** +1.5 (64% to cover) | Total 8.5: lean **OVER** (51%)
 
 ### St. Louis Cardinals lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 1.3 relief IP in last 2 days (ratio 0.25)_
