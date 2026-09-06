@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-09-06T04:38:41.386114+00:00_
+_Generated 2026-09-06T05:59:58.929117+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -50,7 +50,7 @@ _Generated 2026-09-06T04:38:41.386114+00:00_
 ## 2026-09-06 - Milwaukee Brewers @ Cincinnati Reds (Scheduled)
 _Great American Ball Park [hitter-friendly park]_
 Projected score: Milwaukee Brewers 5.62 - Cincinnati Reds 3.24
-Model likes: **Milwaukee Brewers** to win (70%) | Run line: **Milwaukee Brewers** -1.5 (55% to cover) | Total 8.5: lean **UNDER** (53%)
+Model likes: **Milwaukee Brewers** to win (70%) | Run line: **Milwaukee Brewers** -1.5 (55% to cover) | Total 8.5: lean **UNDER** (52%)
 
 ### Milwaukee Brewers lineup -- PROJECTED (unconfirmed)
 **Probable P: Kyle Harrison (L)** -- L5: 23.3 IP, 29 K, 13 ER, 5.01 ERA
@@ -199,7 +199,7 @@ _Facing a taxed bullpen: 9.0 relief IP in last 2 days (ratio 1.69)_
 ## 2026-09-06 - Chicago Cubs @ Miami Marlins (Scheduled)
 _loanDepot park [pitcher-friendly park]_
 Projected score: Chicago Cubs 4.97 - Miami Marlins 2.71
-Model likes: **Chicago Cubs** to win (70%) | Run line: **Chicago Cubs** -1.5 (55% to cover) | Total 7.5: lean **UNDER** (54%)
+Model likes: **Chicago Cubs** to win (71%) | Run line: **Chicago Cubs** -1.5 (55% to cover) | Total 7.5: lean **UNDER** (54%)
 
 ### Chicago Cubs lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 8.3 relief IP in last 2 days (ratio 1.54)_
@@ -352,7 +352,7 @@ _Facing a rested bullpen: 3.7 relief IP in last 2 days (ratio 0.59)_
 ## 2026-09-06 - St. Louis Cardinals @ Colorado Rockies (Scheduled)
 _Coors Field [hitter-friendly park]_
 Projected score: St. Louis Cardinals 5.93 - Colorado Rockies 4.23
-Model likes: **St. Louis Cardinals** to win (63%) | Run line: **Colorado Rockies** +1.5 (50% to cover) | Total 9.5: lean **UNDER** (50%)
+Model likes: **St. Louis Cardinals** to win (63%) | Run line: **Colorado Rockies** +1.5 (51% to cover) | Total 9.5: lean **UNDER** (50%)
 
 ### St. Louis Cardinals lineup -- PROJECTED (unconfirmed)
 **Probable P: Kyle Leahy (R)** -- L5: 22.0 IP, 27 K, 4 ER, 1.64 ERA
@@ -1084,7 +1084,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-08 - Pittsburgh Pirates @ Chicago White Sox (Scheduled)
 _Rate Field_
 Projected score: Pittsburgh Pirates 3.29 - Chicago White Sox 4.32
-Model likes: **Chicago White Sox** to win (60%) | Run line: **Pittsburgh Pirates** +1.5 (57% to cover) | Total 7.5: lean **UNDER** (55%)
+Model likes: **Chicago White Sox** to win (60%) | Run line: **Pittsburgh Pirates** +1.5 (57% to cover) | Total 7.5: lean **UNDER** (54%)
 
 ### Pittsburgh Pirates lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
