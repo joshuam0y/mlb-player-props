@@ -1,23 +1,23 @@
 # MLB Player Props Context Report
-_Generated 2026-09-06T10:19:16.204765+00:00_
+_Generated 2026-09-06T13:42:57.854999+00:00_
 
 ## Today's Top Overs
 ### Batters
 - **TJ Rumfield** (Colorado Rockies vs St. Louis Cardinals): favorable matchup vs. tonight's pitcher, 10-game hit streak -- try Walks: 60% over 0.5 recently (vs. 10-game sample)
 - **Nathan Church** (St. Louis Cardinals vs Colorado Rockies): favorable matchup vs. tonight's pitcher, 5-game hit streak -- try Hits: 80% over 0.5 recently (vs. 10-game sample)
 - **Cal Raleigh** (Seattle Mariners vs Athletics): favorable matchup vs. tonight's pitcher, 7-game hit streak -- try Hits: 80% over 0.5 recently (vs. 10-game sample)
+- **David Hamilton** (Milwaukee Brewers vs Cincinnati Reds): favorable matchup vs. tonight's pitcher -- try Hits: 70% over 0.5 recently (vs. 10-game sample)
 - **Nathan Lukes** (Toronto Blue Jays vs Kansas City Royals): favorable matchup vs. tonight's pitcher -- try Hits: 80% over 0.5 recently (vs. 10-game sample)
 - **Brett Bateman** (Toronto Blue Jays vs Kansas City Royals): favorable matchup vs. tonight's pitcher -- try Runs Scored: 70% over 0.5 recently (vs. 10-game sample)
 - **Andrés Giménez** (Toronto Blue Jays vs Kansas City Royals): favorable matchup vs. tonight's pitcher -- try Hits: 70% over 0.5 recently (vs. 10-game sample)
 - **Cole Carrigg** (Colorado Rockies vs St. Louis Cardinals): favorable matchup vs. tonight's pitcher -- try Total Bases: 50% over 1.5 recently (vs. 10-game sample)
 - **Brock Rodden** (Seattle Mariners vs Athletics): favorable matchup vs. tonight's pitcher -- try Hits: 30% over 0.5 recently (vs. 10-game sample)
-- **Luis Lara** (Milwaukee Brewers vs Cincinnati Reds): favorable matchup vs. tonight's pitcher -- try Hits + Runs + RBIs: 60% over 1.5 recently (vs. 10-game sample)
-- **Brice Turang** (Milwaukee Brewers vs Cincinnati Reds): favorable matchup vs. tonight's pitcher -- try Runs Scored: 60% over 0.5 recently (vs. 10-game sample)
-- **Jake Bauers** (Milwaukee Brewers vs Cincinnati Reds): favorable matchup vs. tonight's pitcher -- try Walks: 90% over 0.5 recently (vs. 10-game sample)
+- **Sal Frelick** (Milwaukee Brewers vs Cincinnati Reds): favorable matchup vs. tonight's pitcher -- try Hits: 40% over 0.5 recently (vs. 10-game sample)
 - **Christian Yelich** (Milwaukee Brewers vs Cincinnati Reds): favorable matchup vs. tonight's pitcher -- try Hits + Runs + RBIs: 60% over 1.5 recently (vs. 10-game sample)
-- **Drake Baldwin** (Atlanta Braves vs Philadelphia Phillies): favorable matchup vs. tonight's pitcher -- try Total Bases: 70% over 1.5 recently (vs. 10-game sample)
-- **Michael Harris II** (Atlanta Braves vs Philadelphia Phillies): favorable matchup vs. tonight's pitcher -- try RBIs: 40% over 0.5 recently (vs. 10-game sample)
-- **Ozzie Albies** (Atlanta Braves vs Philadelphia Phillies): favorable matchup vs. tonight's pitcher -- try Hits: 80% over 0.5 recently (vs. 10-game sample)
+- **Jake Bauers** (Milwaukee Brewers vs Cincinnati Reds): favorable matchup vs. tonight's pitcher -- try Walks: 90% over 0.5 recently (vs. 10-game sample)
+- **Garrett Mitchell** (Milwaukee Brewers vs Cincinnati Reds): favorable matchup vs. tonight's pitcher -- try Hits: 60% over 0.5 recently (vs. 10-game sample)
+- **Brice Turang** (Milwaukee Brewers vs Cincinnati Reds): favorable matchup vs. tonight's pitcher -- try Runs Scored: 60% over 0.5 recently (vs. 10-game sample)
+- **Bo Naylor** (Milwaukee Brewers vs Cincinnati Reds): favorable matchup vs. tonight's pitcher -- try Hits + Runs + RBIs: 30% over 0.5 recently (vs. 10-game sample)
 
 ### Pitchers
 - **Clay Holmes** (Chicago Cubs vs Miami Marlins): 5 hitters in tonight's lineup are in a tough matchup against him -- try Walks Allowed: 80% over 1.5 recently (vs. 5-game sample)
@@ -46,23 +46,23 @@ _Generated 2026-09-06T10:19:16.204765+00:00_
 ### Pitchers
 - **Clay Holmes** (Chicago Cubs vs Miami Marlins): 5 hitters in tonight's lineup are in a tough matchup against him -- try Strikeouts: 60% under 4.5 recently (vs. 5-game sample)
 
-## 2026-09-06 - Milwaukee Brewers @ Cincinnati Reds (Scheduled)
+## 2026-09-06 - Milwaukee Brewers @ Cincinnati Reds (Pre-Game)
 _Great American Ball Park [hitter-friendly park]_
-Projected score: Milwaukee Brewers 5.87 - Cincinnati Reds 3.38
-Model likes: **Milwaukee Brewers** to win (70%) | Run line: **Milwaukee Brewers** -1.5 (56% to cover) | Total 8.5: lean **OVER** (51%)
+Projected score: Milwaukee Brewers 5.98 - Cincinnati Reds 3.38
+Model likes: **Milwaukee Brewers** to win (70%) | Run line: **Milwaukee Brewers** -1.5 (57% to cover) | Total 8.5: lean **OVER** (52%)
 
-### Milwaukee Brewers lineup -- PROJECTED (unconfirmed)
+### Milwaukee Brewers lineup -- CONFIRMED
 _Facing a taxed bullpen: 10.0 relief IP in last 2 days (ratio 1.82)_
 **Probable P: Kyle Harrison (L)** -- L5: 23.3 IP, 29 K, 13 ER, 5.01 ERA
-- Luis Lara (S) [MATCHUP EDGE: pitcher hits 0.303 avg-against vs this hand] -- L7: 5H 0HR 4RBI 6TB (0.238 avg) -- away split: 0.215 avg
-- Jackson Chourio (R) -- L7: 10H 1HR 3RBI 15TB (0.312 avg) -- away split: 0.290 avg
-- Joey Ortiz (R) -- L7: 6H 1HR 4RBI 9TB (0.333 avg) -- away split: 0.226 avg
-- Brice Turang (L) [MATCHUP EDGE: pitcher hits 0.303 avg-against vs this hand] -- L7: 6H 0HR 4RBI 8TB (0.231 avg) -- away split: 0.237 avg
-- William Contreras (R) -- L7: 9H 2HR 5RBI 19TB (0.321 avg) -- away split: 0.261 avg
-- Andrew Vaughn (R) [5-game hit streak] -- L7: 6H 1HR 4RBI 10TB (0.353 avg) -- away split: 0.338 avg
-- Jake Bauers (L) [MATCHUP EDGE: pitcher hits 0.303 avg-against vs this hand] -- L7: 3H 0HR 1RBI 3TB (0.167 avg) -- away split: 0.289 avg
-- Christian Yelich (L) [MATCHUP EDGE: pitcher hits 0.303 avg-against vs this hand] -- L7: 5H 1HR 2RBI 9TB (0.217 avg) -- away split: 0.209 avg
-- Cooper Pratt (R) [5-game hit streak] -- L7: 8H 1HR 10RBI 13TB (0.348 avg) -- away split: 0.337 avg
+- #1 Sal Frelick (L) [MATCHUP EDGE: pitcher hits 0.303 avg-against vs this hand] -- L7: 4H 0HR 1RBI 6TB (0.167 avg) -- away split: 0.234 avg
+- #2 Christian Yelich (L) [MATCHUP EDGE: pitcher hits 0.303 avg-against vs this hand] -- L7: 5H 1HR 2RBI 9TB (0.217 avg) -- away split: 0.209 avg
+- #3 Jackson Chourio (R) -- L7: 10H 1HR 3RBI 15TB (0.312 avg) -- away split: 0.290 avg
+- #4 Jake Bauers (L) [MATCHUP EDGE: pitcher hits 0.303 avg-against vs this hand] -- L7: 3H 0HR 1RBI 3TB (0.167 avg) -- away split: 0.289 avg
+- #5 Garrett Mitchell (L) [MATCHUP EDGE: pitcher hits 0.303 avg-against vs this hand] -- L7: 4H 0HR 0RBI 5TB (0.182 avg) -- away split: 0.242 avg
+- #6 Brice Turang (L) [MATCHUP EDGE: pitcher hits 0.303 avg-against vs this hand] -- L7: 6H 0HR 4RBI 8TB (0.231 avg) -- away split: 0.237 avg
+- #7 Cooper Pratt (R) [5-game hit streak] -- L7: 8H 1HR 10RBI 13TB (0.348 avg) -- away split: 0.337 avg
+- #8 Bo Naylor (L) [MATCHUP EDGE: pitcher hits 0.303 avg-against vs this hand] -- L7: 4H 1HR 4RBI 8TB (0.182 avg) -- away split: 0.192 avg
+- #9 David Hamilton (L) [MATCHUP EDGE: pitcher hits 0.303 avg-against vs this hand] [4-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 8H 0HR 2RBI 10TB (0.333 avg) -- away split: 0.283 avg
 
 ### Cincinnati Reds lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 8.0 relief IP in last 2 days (ratio 1.28)_
@@ -110,7 +110,7 @@ _Facing a taxed bullpen: 7.3 relief IP in last 2 days (ratio 1.35)_
 ## 2026-09-06 - Los Angeles Angels @ Pittsburgh Pirates (Scheduled)
 _PNC Park_
 Projected score: Los Angeles Angels 3.83 - Pittsburgh Pirates 3.59
-Model likes: **Los Angeles Angels** to win (52%) | Run line: **Pittsburgh Pirates** +1.5 (64% to cover) | Total 6.5: lean **OVER** (54%)
+Model likes: **Los Angeles Angels** to win (52%) | Run line: **Pittsburgh Pirates** +1.5 (65% to cover) | Total 6.5: lean **OVER** (54%)
 
 ### Los Angeles Angels lineup -- PROJECTED (unconfirmed)
 **Probable P: Walbert Ureña (R)** -- L5: 24.0 IP, 25 K, 11 ER, 4.12 ERA
@@ -199,7 +199,7 @@ _Facing a taxed bullpen: 9.0 relief IP in last 2 days (ratio 1.69)_
 ## 2026-09-06 - Chicago Cubs @ Miami Marlins (Scheduled)
 _loanDepot park [pitcher-friendly park]_
 Projected score: Chicago Cubs 4.97 - Miami Marlins 2.71
-Model likes: **Chicago Cubs** to win (71%) | Run line: **Chicago Cubs** -1.5 (55% to cover) | Total 7.5: lean **UNDER** (54%)
+Model likes: **Chicago Cubs** to win (70%) | Run line: **Chicago Cubs** -1.5 (54% to cover) | Total 7.5: lean **UNDER** (54%)
 
 ### Chicago Cubs lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 8.3 relief IP in last 2 days (ratio 1.54)_
@@ -352,7 +352,7 @@ _Facing a taxed bullpen: 12.0 relief IP in last 2 days (ratio 2.34)_
 ## 2026-09-06 - St. Louis Cardinals @ Colorado Rockies (Scheduled)
 _Coors Field [hitter-friendly park]_
 Projected score: St. Louis Cardinals 6.0 - Colorado Rockies 4.37
-Model likes: **St. Louis Cardinals** to win (62%) | Run line: **Colorado Rockies** +1.5 (51% to cover) | Total 9.5: lean **OVER** (52%)
+Model likes: **St. Louis Cardinals** to win (62%) | Run line: **Colorado Rockies** +1.5 (51% to cover) | Total 9.5: lean **OVER** (51%)
 
 ### St. Louis Cardinals lineup -- PROJECTED (unconfirmed)
 **Probable P: Kyle Leahy (R)** -- L5: 22.0 IP, 27 K, 4 ER, 1.64 ERA
@@ -432,8 +432,8 @@ _Facing a taxed bullpen: 11.7 relief IP in last 2 days (ratio 1.72)_
 **Probable P: Michael King (R)** -- L5: 31.7 IP, 27 K, 6 ER, 1.71 ERA
 - Jackson Merrill (L) -- L7: 5H 0HR 1RBI 6TB (0.185 avg) -- home split: 0.240 avg
 - Fernando Tatis Jr. (R) -- L7: 6H 2HR 3RBI 13TB (0.200 avg) -- home split: 0.313 avg
+- Ty France (R) -- L7: 10H 2HR 6RBI 18TB (0.385 avg) -- home split: 0.296 avg
 - Jake Cronenworth (L) -- L7: 1H 0HR 1RBI 2TB (0.042 avg) -- home split: 0.203 avg
-- Ty France (R) -- L7: 10H 2HR 6RBI 18TB (0.385 avg) -- home split: 0.301 avg
 - Xander Bogaerts (R) -- L7: 6H 0HR 5RBI 7TB (0.261 avg) -- home split: 0.200 avg
 - Manny Machado (R) [likely BABIP-driven, not a real power uptick] -- L7: 9H 1HR 4RBI 13TB (0.360 avg) -- home split: 0.222 avg
 - Luis Campusano (R) -- L7: 4H 1HR 2RBI 7TB (0.182 avg) -- home split: 0.307 avg
@@ -619,22 +619,23 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.57)_
 
 ## 2026-09-07 - Chicago Cubs @ Milwaukee Brewers (Scheduled)
 _American Family Field_
-Projected score: Chicago Cubs 4.58 - Milwaukee Brewers 5.51
-Model likes: **Milwaukee Brewers** to win (57%) | Run line: **Chicago Cubs** +1.5 (56% to cover) | Total 9.5: lean **UNDER** (51%)
+Projected score: Chicago Cubs 5.17 - Milwaukee Brewers 5.51
+Model likes: **Milwaukee Brewers** to win (52%) | Run line: **Chicago Cubs** +1.5 (60% to cover) | Total 10.5: lean **UNDER** (54%)
 
 ### Chicago Cubs lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.48)_
-- Pete Crow-Armstrong (L) [4-game hit streak] -- L7: 7H 3HR 5RBI 17TB (0.241 avg) -- away split: 0.252 avg
-- Michael Busch (L) -- L7: 5H 1HR 2RBI 11TB (0.172 avg) -- away split: 0.237 avg
-- Seiya Suzuki (R) -- L7: 4H 1HR 1RBI 7TB (0.154 avg) -- away split: 0.261 avg
-- Nico Hoerner (R) [likely BABIP-driven, not a real power uptick] -- L7: 10H 1HR 4RBI 13TB (0.385 avg) -- away split: 0.261 avg
-- Alex Bregman (R) -- L7: 10H 4HR 8RBI 24TB (0.357 avg) -- away split: 0.283 avg
-- Ian Happ (S) -- L7: 6H 0HR 3RBI 6TB (0.261 avg) -- away split: 0.229 avg
-- Pedro Ramírez (S) -- L7: 3H 1HR 5RBI 6TB (0.125 avg) -- away split: 0.272 avg
-- Michael Conforto (L) -- L7: 5H 2HR 5RBI 11TB (0.455 avg) -- away split: 0.270 avg
-- Carson Kelly (R) -- L7: 6H 2HR 7RBI 13TB (0.231 avg) -- away split: 0.227 avg
+- Pete Crow-Armstrong (L) [TOUGH MATCHUP: pitcher holds this hand to 0.168 avg-against] [4-game hit streak] -- L7: 7H 3HR 5RBI 17TB (0.241 avg) -- away split: 0.252 avg
+- Michael Busch (L) [TOUGH MATCHUP: pitcher holds this hand to 0.168 avg-against] -- L7: 5H 1HR 2RBI 11TB (0.172 avg) -- away split: 0.237 avg
+- Seiya Suzuki (R) [MATCHUP EDGE: pitcher hits 0.289 avg-against vs this hand] -- L7: 4H 1HR 1RBI 7TB (0.154 avg) -- away split: 0.261 avg
+- Nico Hoerner (R) [MATCHUP EDGE: pitcher hits 0.289 avg-against vs this hand] [likely BABIP-driven, not a real power uptick] -- L7: 10H 1HR 4RBI 13TB (0.385 avg) -- away split: 0.261 avg
+- Alex Bregman (R) [MATCHUP EDGE: pitcher hits 0.289 avg-against vs this hand] -- L7: 10H 4HR 8RBI 24TB (0.357 avg) -- away split: 0.283 avg
+- Ian Happ (S) [MATCHUP EDGE: pitcher hits 0.289 avg-against vs this hand] -- L7: 6H 0HR 3RBI 6TB (0.261 avg) -- away split: 0.229 avg
+- Pedro Ramírez (S) [MATCHUP EDGE: pitcher hits 0.289 avg-against vs this hand] -- L7: 3H 1HR 5RBI 6TB (0.125 avg) -- away split: 0.272 avg
+- Michael Conforto (L) [TOUGH MATCHUP: pitcher holds this hand to 0.168 avg-against] -- L7: 5H 2HR 5RBI 11TB (0.455 avg) -- away split: 0.270 avg
+- Carson Kelly (R) [MATCHUP EDGE: pitcher hits 0.289 avg-against vs this hand] -- L7: 6H 2HR 7RBI 13TB (0.231 avg) -- away split: 0.227 avg
 
 ### Milwaukee Brewers lineup -- PROJECTED (unconfirmed)
+**Probable P: Robert Gasser (L)** -- L5: 24.3 IP, 24 K, 13 ER, 4.81 ERA
 - Luis Lara (S) -- L7: 5H 0HR 4RBI 6TB (0.238 avg) -- home split: 0.323 avg
 - Jackson Chourio (R) -- L7: 10H 1HR 3RBI 15TB (0.312 avg) -- home split: 0.276 avg
 - Joey Ortiz (R) -- L7: 6H 1HR 4RBI 9TB (0.333 avg) -- home split: 0.283 avg
@@ -721,8 +722,8 @@ Model likes: **San Diego Padres** to win (52%) | Run line: **Washington National
 _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.32)_
 - Jackson Merrill (L) -- L7: 5H 0HR 1RBI 6TB (0.185 avg) -- home split: 0.240 avg
 - Fernando Tatis Jr. (R) -- L7: 6H 2HR 3RBI 13TB (0.200 avg) -- home split: 0.313 avg
+- Ty France (R) -- L7: 10H 2HR 6RBI 18TB (0.385 avg) -- home split: 0.296 avg
 - Jake Cronenworth (L) -- L7: 1H 0HR 1RBI 2TB (0.042 avg) -- home split: 0.203 avg
-- Ty France (R) -- L7: 10H 2HR 6RBI 18TB (0.385 avg) -- home split: 0.301 avg
 - Xander Bogaerts (R) -- L7: 6H 0HR 5RBI 7TB (0.261 avg) -- home split: 0.200 avg
 - Manny Machado (R) [likely BABIP-driven, not a real power uptick] -- L7: 9H 1HR 4RBI 13TB (0.360 avg) -- home split: 0.222 avg
 - Luis Campusano (R) -- L7: 4H 1HR 2RBI 7TB (0.182 avg) -- home split: 0.307 avg
@@ -1023,23 +1024,24 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 
 ## 2026-09-08 - Chicago Cubs @ Milwaukee Brewers (Scheduled)
 _American Family Field_
-Projected score: Chicago Cubs 4.58 - Milwaukee Brewers 5.51
-Model likes: **Milwaukee Brewers** to win (57%) | Run line: **Chicago Cubs** +1.5 (56% to cover) | Total 9.5: lean **UNDER** (51%)
+Projected score: Chicago Cubs 3.14 - Milwaukee Brewers 5.51
+Model likes: **Milwaukee Brewers** to win (70%) | Run line: **Milwaukee Brewers** -1.5 (55% to cover) | Total 8.5: lean **UNDER** (54%)
 
 ### Chicago Cubs lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 - Pete Crow-Armstrong (L) [4-game hit streak] -- L7: 7H 3HR 5RBI 17TB (0.241 avg) -- away split: 0.252 avg
 - Michael Busch (L) -- L7: 5H 1HR 2RBI 11TB (0.172 avg) -- away split: 0.237 avg
-- Seiya Suzuki (R) -- L7: 4H 1HR 1RBI 7TB (0.154 avg) -- away split: 0.261 avg
-- Nico Hoerner (R) [likely BABIP-driven, not a real power uptick] -- L7: 10H 1HR 4RBI 13TB (0.385 avg) -- away split: 0.261 avg
-- Alex Bregman (R) -- L7: 10H 4HR 8RBI 24TB (0.357 avg) -- away split: 0.283 avg
+- Seiya Suzuki (R) [TOUGH MATCHUP: pitcher holds this hand to 0.202 avg-against] -- L7: 4H 1HR 1RBI 7TB (0.154 avg) -- away split: 0.261 avg
+- Nico Hoerner (R) [TOUGH MATCHUP: pitcher holds this hand to 0.202 avg-against] [likely BABIP-driven, not a real power uptick] -- L7: 10H 1HR 4RBI 13TB (0.385 avg) -- away split: 0.261 avg
+- Alex Bregman (R) [TOUGH MATCHUP: pitcher holds this hand to 0.202 avg-against] -- L7: 10H 4HR 8RBI 24TB (0.357 avg) -- away split: 0.283 avg
 - Ian Happ (S) -- L7: 6H 0HR 3RBI 6TB (0.261 avg) -- away split: 0.229 avg
 - Pedro Ramírez (S) -- L7: 3H 1HR 5RBI 6TB (0.125 avg) -- away split: 0.272 avg
 - Michael Conforto (L) -- L7: 5H 2HR 5RBI 11TB (0.455 avg) -- away split: 0.270 avg
-- Carson Kelly (R) -- L7: 6H 2HR 7RBI 13TB (0.231 avg) -- away split: 0.227 avg
+- Carson Kelly (R) [TOUGH MATCHUP: pitcher holds this hand to 0.202 avg-against] -- L7: 6H 2HR 7RBI 13TB (0.231 avg) -- away split: 0.227 avg
 
 ### Milwaukee Brewers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
+**Probable P: Jacob Misiorowski (R)** -- L5: 28.0 IP, 32 K, 11 ER, 3.54 ERA
 - Luis Lara (S) -- L7: 5H 0HR 4RBI 6TB (0.238 avg) -- home split: 0.323 avg
 - Jackson Chourio (R) -- L7: 10H 1HR 3RBI 15TB (0.312 avg) -- home split: 0.276 avg
 - Joey Ortiz (R) -- L7: 6H 1HR 4RBI 9TB (0.333 avg) -- home split: 0.283 avg
@@ -1082,7 +1084,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-08 - Pittsburgh Pirates @ Chicago White Sox (Scheduled)
 _Rate Field_
 Projected score: Pittsburgh Pirates 3.4 - Chicago White Sox 4.32
-Model likes: **Chicago White Sox** to win (59%) | Run line: **Pittsburgh Pirates** +1.5 (58% to cover) | Total 7.5: lean **UNDER** (53%)
+Model likes: **Chicago White Sox** to win (58%) | Run line: **Pittsburgh Pirates** +1.5 (58% to cover) | Total 7.5: lean **UNDER** (53%)
 
 ### Pittsburgh Pirates lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1141,7 +1143,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-08 - Washington Nationals @ San Diego Padres (Scheduled)
 _Petco Park [pitcher-friendly park]_
 Projected score: Washington Nationals 3.55 - San Diego Padres 3.7
-Model likes: **San Diego Padres** to win (51%) | Run line: **Washington Nationals** +1.5 (66% to cover) | Total 6.5: lean **OVER** (52%)
+Model likes: **San Diego Padres** to win (52%) | Run line: **Washington Nationals** +1.5 (66% to cover) | Total 6.5: lean **OVER** (52%)
 
 ### Washington Nationals lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1159,8 +1161,8 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 - Jackson Merrill (L) -- L7: 5H 0HR 1RBI 6TB (0.185 avg) -- home split: 0.240 avg
 - Fernando Tatis Jr. (R) -- L7: 6H 2HR 3RBI 13TB (0.200 avg) -- home split: 0.313 avg
+- Ty France (R) -- L7: 10H 2HR 6RBI 18TB (0.385 avg) -- home split: 0.296 avg
 - Jake Cronenworth (L) -- L7: 1H 0HR 1RBI 2TB (0.042 avg) -- home split: 0.203 avg
-- Ty France (R) -- L7: 10H 2HR 6RBI 18TB (0.385 avg) -- home split: 0.301 avg
 - Xander Bogaerts (R) -- L7: 6H 0HR 5RBI 7TB (0.261 avg) -- home split: 0.200 avg
 - Manny Machado (R) [likely BABIP-driven, not a real power uptick] -- L7: 9H 1HR 4RBI 13TB (0.360 avg) -- home split: 0.222 avg
 - Luis Campusano (R) -- L7: 4H 1HR 2RBI 7TB (0.182 avg) -- home split: 0.307 avg
