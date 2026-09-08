@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-09-08T17:34:53.735403+00:00_
+_Generated 2026-09-08T18:50:51.080113+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -50,7 +50,7 @@ _Generated 2026-09-08T17:34:53.735403+00:00_
 - **Cam Schlittler** (New York Yankees vs Colorado Rockies): 3 hitters in tonight's lineup are in a tough matchup against him -- try Runs Allowed: 100% under 1.5 recently (vs. 5-game sample)
 - **Sean Burke** (Chicago White Sox vs Pittsburgh Pirates): 3 hitters in tonight's lineup are in a tough matchup against him -- try Hits Allowed: 60% under 4.5 recently (vs. 5-game sample)
 
-## 2026-09-08 - Cleveland Guardians @ Baltimore Orioles (Scheduled)
+## 2026-09-08 - Cleveland Guardians @ Baltimore Orioles (Pre-Game)
 _Oriole Park at Camden Yards_
 Projected score: Cleveland Guardians 3.23 - Baltimore Orioles 3.76
 Model likes: **Baltimore Orioles** to win (55%) | Run line: **Cleveland Guardians** +1.5 (62% to cover) | Total 6.5: lean **UNDER** (50%)
@@ -143,23 +143,23 @@ _Facing a taxed bullpen: 8.3 relief IP in last 2 days (ratio 1.25)_
 - Agustín Ramírez (R) [MATCHUP EDGE: pitcher hits 0.278 avg-against vs this hand] -- L7: 4H 1HR 1RBI 7TB (0.190 avg) -- home split: 0.204 avg
 - Brian Navarreto (R) [MATCHUP EDGE: pitcher hits 0.278 avg-against vs this hand] -- L7: 1H 0HR 0RBI 1TB (0.100 avg) -- home split: 0.000 avg
 
-## 2026-09-08 - Minnesota Twins @ Detroit Tigers (Scheduled)
+## 2026-09-08 - Minnesota Twins @ Detroit Tigers (Pre-Game)
 _Comerica Park [pitcher-friendly park]_
-Projected score: Minnesota Twins 3.98 - Detroit Tigers 4.72
-Model likes: **Detroit Tigers** to win (56%) | Run line: **Minnesota Twins** +1.5 (59% to cover) | Total 8.5: lean **UNDER** (54%)
+Projected score: Minnesota Twins 3.92 - Detroit Tigers 4.72
+Model likes: **Detroit Tigers** to win (57%) | Run line: **Minnesota Twins** +1.5 (58% to cover) | Total 8.5: lean **UNDER** (54%)
 
-### Minnesota Twins lineup -- PROJECTED (unconfirmed)
+### Minnesota Twins lineup -- CONFIRMED
 _Facing a taxed bullpen: 7.3 relief IP in last 2 days (ratio 1.32)_
 **Probable P: Dean Kremer (R)** -- L5: 25.7 IP, 26 K, 16 ER, 5.61 ERA
-- Luke Keaschall (R) -- L7: 8H 0HR 3RBI 10TB (0.296 avg) -- away split: 0.293 avg
-- Kaelen Culpepper (R) -- L7: 8H 0HR 4RBI 11TB (0.286 avg) -- away split: 0.333 avg
-- Brooks Lee (S) [3-game hit streak] -- L7: 8H 1HR 6RBI 12TB (0.276 avg) -- away split: 0.284 avg
-- Royce Lewis (R) -- L7: 7H 1HR 5RBI 12TB (0.259 avg) -- away split: 0.226 avg
-- Kody Clemens (L) -- L7: 6H 2HR 4RBI 12TB (0.261 avg) -- away split: 0.216 avg
-- Ryan Jeffers (R) -- L7: 6H 4HR 12RBI 21TB (0.222 avg) -- away split: 0.226 avg
-- Josh Bell (S) -- L7: 7H 1HR 1RBI 11TB (0.269 avg) -- away split: 0.250 avg
-- Trevor Larnach (L) -- L7: 5H 1HR 2RBI 9TB (0.263 avg) -- away split: 0.274 avg
-- Ryan Kreidler (R) -- L7: 0H 0HR 0RBI 0TB (0.000 avg) -- away split: 0.193 avg
+- #1 Luke Keaschall (R) -- L7: 8H 0HR 3RBI 10TB (0.296 avg) -- away split: 0.293 avg
+- #2 Brooks Lee (S) [3-game hit streak] -- L7: 8H 1HR 6RBI 12TB (0.276 avg) -- away split: 0.284 avg
+- #3 Kody Clemens (L) -- L7: 6H 2HR 4RBI 12TB (0.261 avg) -- away split: 0.216 avg
+- #4 Ryan Jeffers (R) -- L7: 6H 4HR 12RBI 21TB (0.222 avg) -- away split: 0.226 avg
+- #5 Josh Bell (S) -- L7: 7H 1HR 1RBI 11TB (0.269 avg) -- away split: 0.250 avg
+- #6 Royce Lewis (R) -- L7: 7H 1HR 5RBI 12TB (0.259 avg) -- away split: 0.226 avg
+- #7 Trevor Larnach (L) -- L7: 5H 1HR 2RBI 9TB (0.263 avg) -- away split: 0.274 avg
+- #8 Kaelen Culpepper (R) -- L7: 8H 0HR 4RBI 11TB (0.286 avg) -- away split: 0.333 avg
+- #9 Walker Jenkins (L) -- L7: 2H 1HR 4RBI 6TB (0.100 avg) -- away split: 0.111 avg -- news: The wait is over: Walker Jenkins is ready to conquer the Twin Cities
 
 ### Detroit Tigers lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 7.7 relief IP in last 2 days (ratio 1.66)_
@@ -174,10 +174,10 @@ _Facing a taxed bullpen: 7.7 relief IP in last 2 days (ratio 1.66)_
 - Colt Keith (L) -- L7: 3H 0HR 1RBI 3TB (0.176 avg) -- home split: 0.243 avg
 - Brett Callahan (L) -- L7: 2H 0HR 0RBI 2TB (0.133 avg) -- home split: 0.273 avg
 
-## 2026-09-08 - Los Angeles Angels @ Boston Red Sox (Scheduled)
+## 2026-09-08 - Los Angeles Angels @ Boston Red Sox (Pre-Game)
 _Fenway Park_
-Projected score: Los Angeles Angels 3.49 - Boston Red Sox 3.59
-Model likes: **Boston Red Sox** to win (51%) | Run line: **Los Angeles Angels** +1.5 (66% to cover) | Total 6.5: lean **OVER** (51%)
+Projected score: Los Angeles Angels 3.49 - Boston Red Sox 3.67
+Model likes: **Boston Red Sox** to win (52%) | Run line: **Los Angeles Angels** +1.5 (66% to cover) | Total 6.5: lean **OVER** (52%)
 
 ### Los Angeles Angels lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.24)_
@@ -192,18 +192,18 @@ _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.24)_
 - Denzer Guzman (R) [MATCHUP EDGE: pitcher hits 0.274 avg-against vs this hand] -- L7: 2H 0HR 0RBI 2TB (0.125 avg) -- away split: 0.240 avg
 - Adam Frazier (L) -- L7: 1H 0HR 0RBI 2TB (0.083 avg) -- away split: 0.222 avg
 
-### Boston Red Sox lineup -- PROJECTED (unconfirmed)
+### Boston Red Sox lineup -- CONFIRMED
 _Facing a rested bullpen: 4.0 relief IP in last 2 days (ratio 0.69)_
 **Probable P: Patrick Sandoval (L)** -- L5: 25.0 IP, 25 K, 15 ER, 5.4 ERA
-- Eli White (R) [7-game hit streak] -- L7: 9H 1HR 9RBI 15TB (0.391 avg) -- home split: 0.207 avg
-- Caleb Durbin (R) -- L7: 4H 0HR 0RBI 5TB (0.190 avg) -- home split: 0.255 avg
-- Nick Sogard (S) -- L7: 6H 1HR 2RBI 10TB (0.240 avg) -- home split: 0.338 avg
-- Jarren Duran (L) -- L7: 4H 1HR 1RBI 8TB (0.148 avg) -- home split: 0.230 avg
-- Wilyer Abreu (L) -- L7: 6H 0HR 0RBI 9TB (0.214 avg) -- home split: 0.258 avg
-- Mickey Gasper (S) -- L7: 5H 2HR 2RBI 12TB (0.227 avg) -- home split: 0.293 avg
-- Roman Anthony (L) -- L7: 7H 2HR 2RBI 13TB (0.226 avg) -- home split: 0.290 avg
-- Adley Rutschman (S) -- L7: 7H 3HR 5RBI 17TB (0.250 avg) -- home split: 0.270 avg
-- Jahmai Jones (R) -- L7: 3H 1HR 2RBI 6TB (0.300 avg) -- home split: 0.317 avg
+- #1 Roman Anthony (L) -- L7: 7H 2HR 2RBI 13TB (0.226 avg) -- home split: 0.290 avg
+- #2 Jahmai Jones (R) -- L7: 3H 1HR 2RBI 6TB (0.300 avg) -- home split: 0.317 avg
+- #3 Wilyer Abreu (L) -- L7: 6H 0HR 0RBI 9TB (0.214 avg) -- home split: 0.258 avg
+- #4 Trevor Story (R) [likely BABIP-driven, not a real power uptick] -- L7: 10H 0HR 4RBI 13TB (0.333 avg) -- home split: 0.208 avg
+- #5 Nick Sogard (S) -- L7: 6H 1HR 2RBI 10TB (0.240 avg) -- home split: 0.338 avg
+- #6 Caleb Durbin (R) -- L7: 4H 0HR 0RBI 5TB (0.190 avg) -- home split: 0.255 avg
+- #7 Andruw Monasterio (R) -- L7: 2H 0HR 2RBI 2TB (0.111 avg) -- home split: 0.241 avg
+- #8 Eli White (R) [7-game hit streak] -- L7: 9H 1HR 9RBI 15TB (0.391 avg) -- home split: 0.207 avg
+- #9 Connor Wong (R) -- L7: 3H 0HR 1RBI 3TB (0.111 avg) -- home split: 0.205 avg
 
 ## 2026-09-08 - Colorado Rockies @ New York Yankees (Scheduled)
 _Yankee Stadium [hitter-friendly park]_
