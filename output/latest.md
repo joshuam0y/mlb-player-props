@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-09-07T23:39:16.435956+00:00_
+_Generated 2026-09-08T00:09:38.057594+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -258,10 +258,9 @@ _Facing a taxed bullpen: 7.7 relief IP in last 2 days (ratio 1.67)_
 - #8 Max Clark (L) -- L7: 7H 0HR 3RBI 10TB (0.280 avg) -- home split: 0.189 avg -- news: Mayo: Don't judge a book by its cover -- especially Max Clark
 - #9 John Peck (R) -- L7: 4H 0HR 3RBI 5TB (0.211 avg)
 
-## 2026-09-07 - Washington Nationals @ San Diego Padres (In Progress)
+## 2026-09-07 - Washington Nationals @ San Diego Padres (Final)
 _Petco Park [pitcher-friendly park]_
-Projected score: Washington Nationals 3.91 - San Diego Padres 4.18
-Model likes: **San Diego Padres** to win (52%) | Run line: **Washington Nationals** +1.5 (63% to cover) | Total 7.5: lean **OVER** (50%)
+Final: Washington Nationals 2 - San Diego Padres 3
 
 ### Washington Nationals lineup -- CONFIRMED
 _Facing a taxed bullpen: 9.7 relief IP in last 2 days (ratio 1.43)_
@@ -289,10 +288,10 @@ _Facing a rested bullpen: 4.0 relief IP in last 2 days (ratio 0.65)_
 - #8 Xander Bogaerts (R) -- L7: 6H 0HR 5RBI 7TB (0.240 avg) -- home split: 0.198 avg
 - #9 Ethan Salas (L) -- L7: 0H 0HR 0RBI 0TB (0.000 avg) -- home split: 0.000 avg -- news: Padres call up 20-year-old catcher Ethan Salas, their No. 1 prospect
 
-## 2026-09-07 - St. Louis Cardinals @ San Francisco Giants (Pre-Game)
+## 2026-09-07 - St. Louis Cardinals @ San Francisco Giants (Warmup)
 _Oracle Park [pitcher-friendly park]_
 Projected score: St. Louis Cardinals 4.44 - San Francisco Giants 4.04
-Model likes: **St. Louis Cardinals** to win (53%) | Run line: **San Francisco Giants** +1.5 (62% to cover) | Total 7.5: lean **OVER** (54%)
+Model likes: **St. Louis Cardinals** to win (54%) | Run line: **San Francisco Giants** +1.5 (62% to cover) | Total 7.5: lean **OVER** (54%)
 
 ### St. Louis Cardinals lineup -- CONFIRMED
 **Probable P: Michael McGreevy (R)** -- L5: 27.0 IP, 21 K, 17 ER, 5.67 ERA
@@ -412,7 +411,7 @@ _Facing a taxed bullpen: 8.7 relief IP in last 2 days (ratio 1.63)_
 ## 2026-09-08 - Houston Astros @ Philadelphia Phillies (Scheduled)
 _Citizens Bank Park [hitter-friendly park]_
 Projected score: Houston Astros 4.98 - Philadelphia Phillies 3.84
-Model likes: **Houston Astros** to win (60%) | Run line: **Philadelphia Phillies** +1.5 (56% to cover) | Total 8.5: lean **UNDER** (52%)
+Model likes: **Houston Astros** to win (60%) | Run line: **Philadelphia Phillies** +1.5 (55% to cover) | Total 8.5: lean **UNDER** (53%)
 
 ### Houston Astros lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.4)_
@@ -564,7 +563,7 @@ _Facing a rested bullpen: 4.3 relief IP in last 2 days (ratio 0.7)_
 ## 2026-09-08 - Tampa Bay Rays @ Atlanta Braves (Scheduled)
 _Truist Park_
 Projected score: Tampa Bay Rays 5.32 - Atlanta Braves 4.61
-Model likes: **Tampa Bay Rays** to win (56%) | Run line: **Atlanta Braves** +1.5 (58% to cover) | Total 9.5: lean **UNDER** (52%)
+Model likes: **Tampa Bay Rays** to win (55%) | Run line: **Atlanta Braves** +1.5 (58% to cover) | Total 9.5: lean **UNDER** (52%)
 
 ### Tampa Bay Rays lineup -- PROJECTED (unconfirmed)
 **Probable P: Freddy Peralta (R)** -- L5: 29.7 IP, 24 K, 11 ER, 3.34 ERA
@@ -683,7 +682,7 @@ _Facing a rested bullpen: 3.7 relief IP in last 2 days (ratio 0.57)_
 ## 2026-09-08 - Texas Rangers @ Seattle Mariners (Scheduled)
 _T-Mobile Park [pitcher-friendly park]_
 Projected score: Texas Rangers 4.33 - Seattle Mariners 3.93
-Model likes: **Texas Rangers** to win (54%) | Run line: **Seattle Mariners** +1.5 (62% to cover) | Total 7.5: lean **OVER** (52%)
+Model likes: **Texas Rangers** to win (53%) | Run line: **Seattle Mariners** +1.5 (62% to cover) | Total 7.5: lean **OVER** (52%)
 
 ### Texas Rangers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 1.0 relief IP in last 2 days (ratio 0.19)_
@@ -711,7 +710,7 @@ _Facing a rested bullpen: 1.0 relief IP in last 2 days (ratio 0.19)_
 ## 2026-09-08 - Washington Nationals @ San Diego Padres (Scheduled)
 _Petco Park [pitcher-friendly park]_
 Projected score: Washington Nationals 3.67 - San Diego Padres 3.7
-Model likes: **San Diego Padres** to win (50%) | Run line: **Washington Nationals** +1.5 (67% to cover) | Total 6.5: lean **OVER** (54%)
+Model likes: **San Diego Padres** to win (50%) | Run line: **Washington Nationals** +1.5 (66% to cover) | Total 6.5: lean **OVER** (54%)
 
 ### Washington Nationals lineup -- PROJECTED (unconfirmed)
 - Daylen Lile (L) -- L7: 8H 2HR 7RBI 17TB (0.348 avg) -- away split: 0.254 avg
@@ -800,7 +799,7 @@ _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.38)_
 ## 2026-09-08 - Cincinnati Reds @ Los Angeles Dodgers (Scheduled)
 _UNIQLO Field at Dodger Stadium_
 Projected score: Cincinnati Reds 3.56 - Los Angeles Dodgers 5.17
-Model likes: **Los Angeles Dodgers** to win (64%) | Run line: **Cincinnati Reds** +1.5 (51% to cover) | Total 8.5: lean **UNDER** (53%)
+Model likes: **Los Angeles Dodgers** to win (64%) | Run line: **Cincinnati Reds** +1.5 (51% to cover) | Total 8.5: lean **UNDER** (54%)
 
 ### Cincinnati Reds lineup -- PROJECTED (unconfirmed)
 **Probable P: Nick Lodolo (L)** -- L5: 22.3 IP, 19 K, 16 ER, 6.45 ERA
@@ -920,7 +919,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-09 - Texas Rangers @ Seattle Mariners (Scheduled)
 _T-Mobile Park [pitcher-friendly park]_
 Projected score: Texas Rangers 4.33 - Seattle Mariners 3.93
-Model likes: **Texas Rangers** to win (53%) | Run line: **Seattle Mariners** +1.5 (62% to cover) | Total 7.5: lean **OVER** (52%)
+Model likes: **Texas Rangers** to win (54%) | Run line: **Seattle Mariners** +1.5 (62% to cover) | Total 7.5: lean **OVER** (52%)
 
 ### Texas Rangers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -949,7 +948,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-09 - Washington Nationals @ San Diego Padres (Scheduled)
 _Petco Park [pitcher-friendly park]_
 Projected score: Washington Nationals 4.17 - San Diego Padres 4.23
-Model likes: **San Diego Padres** to win (51%) | Run line: **Washington Nationals** +1.5 (65% to cover) | Total 7.5: lean **OVER** (53%)
+Model likes: **San Diego Padres** to win (50%) | Run line: **Washington Nationals** +1.5 (65% to cover) | Total 7.5: lean **OVER** (53%)
 
 ### Washington Nationals lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.3 relief IP in last 2 days (ratio 0.35)_
@@ -1132,7 +1131,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-09 - Tampa Bay Rays @ Atlanta Braves (Scheduled)
 _Truist Park_
 Projected score: Tampa Bay Rays 3.59 - Atlanta Braves 4.06
-Model likes: **Atlanta Braves** to win (55%) | Run line: **Tampa Bay Rays** +1.5 (62% to cover) | Total 7.5: lean **UNDER** (54%)
+Model likes: **Atlanta Braves** to win (54%) | Run line: **Tampa Bay Rays** +1.5 (62% to cover) | Total 7.5: lean **UNDER** (54%)
 
 ### Tampa Bay Rays lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.37)_
