@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-09-08T14:42:52.696125+00:00_
+_Generated 2026-09-08T17:34:53.735403+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -239,7 +239,7 @@ _Facing a rested bullpen: 4.3 relief IP in last 2 days (ratio 0.7)_
 ## 2026-09-08 - Tampa Bay Rays @ Atlanta Braves (Scheduled)
 _Truist Park_
 Projected score: Tampa Bay Rays 5.11 - Atlanta Braves 4.32
-Model likes: **Tampa Bay Rays** to win (56%) | Run line: **Atlanta Braves** +1.5 (58% to cover) | Total 8.5: lean **OVER** (52%)
+Model likes: **Tampa Bay Rays** to win (56%) | Run line: **Atlanta Braves** +1.5 (58% to cover) | Total 8.5: lean **OVER** (53%)
 
 ### Tampa Bay Rays lineup -- PROJECTED (unconfirmed)
 **Probable P: Freddy Peralta (R)** -- L5: 29.7 IP, 24 K, 11 ER, 3.34 ERA
@@ -446,7 +446,7 @@ _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.26)_
 ## 2026-09-08 - St. Louis Cardinals @ San Francisco Giants (Scheduled)
 _Oracle Park [pitcher-friendly park]_
 Projected score: St. Louis Cardinals 4.57 - San Francisco Giants 4.4
-Model likes: **St. Louis Cardinals** to win (51%) | Run line: **San Francisco Giants** +1.5 (63% to cover) | Total 8.5: lean **UNDER** (51%)
+Model likes: **St. Louis Cardinals** to win (52%) | Run line: **San Francisco Giants** +1.5 (63% to cover) | Total 8.5: lean **UNDER** (51%)
 
 ### St. Louis Cardinals lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.31)_
@@ -477,7 +477,7 @@ _Facing a taxed bullpen: 10.0 relief IP in last 2 days (ratio 1.6)_
 ## 2026-09-08 - Cincinnati Reds @ Los Angeles Dodgers (Scheduled)
 _UNIQLO Field at Dodger Stadium_
 Projected score: Cincinnati Reds 3.58 - Los Angeles Dodgers 5.25
-Model likes: **Los Angeles Dodgers** to win (64%) | Run line: **Cincinnati Reds** +1.5 (51% to cover) | Total 8.5: lean **UNDER** (53%)
+Model likes: **Los Angeles Dodgers** to win (64%) | Run line: **Cincinnati Reds** +1.5 (51% to cover) | Total 8.5: lean **UNDER** (52%)
 
 ### Cincinnati Reds lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 9.3 relief IP in last 2 days (ratio 1.64)_
@@ -686,7 +686,7 @@ _Facing a rested bullpen: 1.7 relief IP in last 2 days (ratio 0.32)_
 ## 2026-09-09 - Houston Astros @ Philadelphia Phillies (Scheduled)
 _Citizens Bank Park [hitter-friendly park]_
 Projected score: Houston Astros 2.95 - Philadelphia Phillies 3.46
-Model likes: **Philadelphia Phillies** to win (56%) | Run line: **Houston Astros** +1.5 (64% to cover) | Total 5.5: lean **OVER** (55%)
+Model likes: **Philadelphia Phillies** to win (56%) | Run line: **Houston Astros** +1.5 (63% to cover) | Total 5.5: lean **OVER** (55%)
 
 ### Houston Astros lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
