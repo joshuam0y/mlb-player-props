@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-09-08T09:52:01.842583+00:00_
+_Generated 2026-09-08T13:40:58.781233+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -446,7 +446,7 @@ _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.26)_
 ## 2026-09-08 - St. Louis Cardinals @ San Francisco Giants (Scheduled)
 _Oracle Park [pitcher-friendly park]_
 Projected score: St. Louis Cardinals 4.57 - San Francisco Giants 4.4
-Model likes: **St. Louis Cardinals** to win (51%) | Run line: **San Francisco Giants** +1.5 (63% to cover) | Total 8.5: lean **UNDER** (51%)
+Model likes: **St. Louis Cardinals** to win (52%) | Run line: **San Francisco Giants** +1.5 (63% to cover) | Total 8.5: lean **UNDER** (51%)
 
 ### St. Louis Cardinals lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.31)_
@@ -686,7 +686,7 @@ _Facing a rested bullpen: 1.7 relief IP in last 2 days (ratio 0.32)_
 ## 2026-09-09 - Houston Astros @ Philadelphia Phillies (Scheduled)
 _Citizens Bank Park [hitter-friendly park]_
 Projected score: Houston Astros 2.95 - Philadelphia Phillies 3.46
-Model likes: **Philadelphia Phillies** to win (56%) | Run line: **Houston Astros** +1.5 (63% to cover) | Total 5.5: lean **OVER** (55%)
+Model likes: **Philadelphia Phillies** to win (55%) | Run line: **Houston Astros** +1.5 (64% to cover) | Total 5.5: lean **OVER** (55%)
 
 ### Houston Astros lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
