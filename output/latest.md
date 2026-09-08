@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-09-08T04:48:12.291881+00:00_
+_Generated 2026-09-08T09:09:58.161463+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -508,7 +508,7 @@ _Facing a taxed bullpen: 9.0 relief IP in last 2 days (ratio 1.53)_
 ## 2026-09-09 - Minnesota Twins @ Detroit Tigers (Scheduled)
 _Comerica Park [pitcher-friendly park]_
 Projected score: Minnesota Twins 3.76 - Detroit Tigers 4.16
-Model likes: **Detroit Tigers** to win (54%) | Run line: **Minnesota Twins** +1.5 (63% to cover) | Total 7.5: lean **UNDER** (51%)
+Model likes: **Detroit Tigers** to win (54%) | Run line: **Minnesota Twins** +1.5 (62% to cover) | Total 7.5: lean **UNDER** (51%)
 
 ### Minnesota Twins lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.3 relief IP in last 2 days (ratio 0.6)_
@@ -625,7 +625,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-09 - Washington Nationals @ San Diego Padres (Scheduled)
 _Petco Park [pitcher-friendly park]_
 Projected score: Washington Nationals 3.96 - San Diego Padres 4.42
-Model likes: **San Diego Padres** to win (54%) | Run line: **Washington Nationals** +1.5 (61% to cover) | Total 7.5: lean **OVER** (53%)
+Model likes: **San Diego Padres** to win (54%) | Run line: **Washington Nationals** +1.5 (62% to cover) | Total 7.5: lean **OVER** (53%)
 
 ### Washington Nationals lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 4.0 relief IP in last 2 days (ratio 0.59)_
