@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-09-08T13:40:58.781233+00:00_
+_Generated 2026-09-08T14:42:52.696125+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -239,7 +239,7 @@ _Facing a rested bullpen: 4.3 relief IP in last 2 days (ratio 0.7)_
 ## 2026-09-08 - Tampa Bay Rays @ Atlanta Braves (Scheduled)
 _Truist Park_
 Projected score: Tampa Bay Rays 5.11 - Atlanta Braves 4.32
-Model likes: **Tampa Bay Rays** to win (56%) | Run line: **Atlanta Braves** +1.5 (58% to cover) | Total 8.5: lean **OVER** (53%)
+Model likes: **Tampa Bay Rays** to win (56%) | Run line: **Atlanta Braves** +1.5 (58% to cover) | Total 8.5: lean **OVER** (52%)
 
 ### Tampa Bay Rays lineup -- PROJECTED (unconfirmed)
 **Probable P: Freddy Peralta (R)** -- L5: 29.7 IP, 24 K, 11 ER, 3.34 ERA
@@ -422,12 +422,12 @@ Model likes: **Toronto Blue Jays** to win (65%) | Run line: **Toronto Blue Jays*
 _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.26)_
 **Probable P: José Soriano (R)** -- L5: 28.3 IP, 21 K, 15 ER, 4.76 ERA
 - Ernie Clement (R) -- L7: 6H 0HR 3RBI 7TB (0.240 avg) -- away split: 0.274 avg
+- Vladimir Guerrero Jr. (R) -- L7: 8H 1HR 6RBI 12TB (0.286 avg) -- away split: 0.269 avg
 - Myles Straw (R) [likely BABIP-driven, not a real power uptick] -- L7: 6H 0HR 2RBI 7TB (0.375 avg) -- away split: 0.245 avg
 - Brett Bateman (L) -- L7: 9H 0HR 0RBI 9TB (0.333 avg) -- away split: 0.317 avg
 - Kazuma Okamoto (R) -- L7: 8H 2HR 5RBI 16TB (0.308 avg) -- away split: 0.232 avg
-- Vladimir Guerrero Jr. (R) -- L7: 8H 1HR 7RBI 12TB (0.276 avg) -- away split: 0.269 avg
 - Nathan Lukes (L) [6-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 11H 0HR 4RBI 13TB (0.355 avg) -- away split: 0.291 avg
-- George Springer (R) -- L7: 5H 0HR 3RBI 8TB (0.192 avg) -- away split: 0.230 avg
+- George Springer (R) -- L7: 5H 0HR 3RBI 8TB (0.185 avg) -- away split: 0.228 avg
 - Alejandro Kirk (R) [3-game hit streak] -- L7: 9H 2HR 6RBI 16TB (0.290 avg) -- away split: 0.268 avg
 - Andrés Giménez (L) -- L7: 7H 1HR 4RBI 11TB (0.292 avg) -- away split: 0.231 avg
 
@@ -436,17 +436,17 @@ _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.26)_
 - Henry Bolte (R) [3-game hit streak] -- L7: 9H 3HR 6RBI 19TB (0.346 avg) -- home split: 0.314 avg
 - Zack Gelof (R) -- L7: 9H 3HR 6RBI 22TB (0.300 avg) -- home split: 0.298 avg
 - Lawrence Butler (L) -- L7: 6H 1HR 7RBI 9TB (0.214 avg) -- home split: 0.254 avg
-- Jeff McNeil (L) -- L7: 9H 2HR 5RBI 16TB (0.300 avg) -- home split: 0.269 avg
-- Max Muncy (R) -- L7: 6H 2HR 4RBI 12TB (0.240 avg) -- home split: 0.227 avg
+- Jeff McNeil (L) -- L7: 10H 2HR 6RBI 17TB (0.323 avg) -- home split: 0.273 avg
+- Max Muncy (R) -- L7: 7H 2HR 4RBI 13TB (0.269 avg) -- home split: 0.235 avg
 - Carlos Cortes (L) -- L7: 7H 0HR 2RBI 7TB (0.333 avg) -- home split: 0.238 avg
 - Jonah Heim (S) -- L7: 6H 1HR 1RBI 11TB (0.207 avg) -- home split: 0.235 avg
 - Donovan Walton (L) -- L7: 2H 1HR 2RBI 6TB (0.118 avg) -- home split: 0.216 avg
-- Alika Williams (R) -- L7: 8H 2HR 4RBI 15TB (0.348 avg) -- home split: 0.319 avg
+- Alika Williams (R) -- L7: 7H 2HR 4RBI 14TB (0.292 avg) -- home split: 0.306 avg
 
 ## 2026-09-08 - St. Louis Cardinals @ San Francisco Giants (Scheduled)
 _Oracle Park [pitcher-friendly park]_
 Projected score: St. Louis Cardinals 4.57 - San Francisco Giants 4.4
-Model likes: **St. Louis Cardinals** to win (52%) | Run line: **San Francisco Giants** +1.5 (63% to cover) | Total 8.5: lean **UNDER** (51%)
+Model likes: **St. Louis Cardinals** to win (51%) | Run line: **San Francisco Giants** +1.5 (63% to cover) | Total 8.5: lean **UNDER** (51%)
 
 ### St. Louis Cardinals lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.31)_
@@ -543,12 +543,12 @@ Model likes: **Toronto Blue Jays** to win (62%) | Run line: **Athletics** +1.5 (
 ### Toronto Blue Jays lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.54)_
 - Ernie Clement (R) -- L7: 6H 0HR 3RBI 7TB (0.240 avg) -- away split: 0.274 avg
+- Vladimir Guerrero Jr. (R) -- L7: 8H 1HR 6RBI 12TB (0.286 avg) -- away split: 0.269 avg
 - Myles Straw (R) [likely BABIP-driven, not a real power uptick] -- L7: 6H 0HR 2RBI 7TB (0.375 avg) -- away split: 0.245 avg
 - Brett Bateman (L) -- L7: 9H 0HR 0RBI 9TB (0.333 avg) -- away split: 0.317 avg
 - Kazuma Okamoto (R) -- L7: 8H 2HR 5RBI 16TB (0.308 avg) -- away split: 0.232 avg
-- Vladimir Guerrero Jr. (R) -- L7: 8H 1HR 7RBI 12TB (0.276 avg) -- away split: 0.269 avg
 - Nathan Lukes (L) [6-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 11H 0HR 4RBI 13TB (0.355 avg) -- away split: 0.291 avg
-- George Springer (R) -- L7: 5H 0HR 3RBI 8TB (0.192 avg) -- away split: 0.230 avg
+- George Springer (R) -- L7: 5H 0HR 3RBI 8TB (0.185 avg) -- away split: 0.228 avg
 - Alejandro Kirk (R) [3-game hit streak] -- L7: 9H 2HR 6RBI 16TB (0.290 avg) -- away split: 0.268 avg
 - Andrés Giménez (L) -- L7: 7H 1HR 4RBI 11TB (0.292 avg) -- away split: 0.231 avg
 
@@ -557,12 +557,12 @@ _Facing a rested bullpen: 3.7 relief IP in last 2 days (ratio 0.53)_
 - Henry Bolte (R) [3-game hit streak] -- L7: 9H 3HR 6RBI 19TB (0.346 avg) -- home split: 0.314 avg
 - Zack Gelof (R) -- L7: 9H 3HR 6RBI 22TB (0.300 avg) -- home split: 0.298 avg
 - Lawrence Butler (L) -- L7: 6H 1HR 7RBI 9TB (0.214 avg) -- home split: 0.254 avg
-- Jeff McNeil (L) -- L7: 9H 2HR 5RBI 16TB (0.300 avg) -- home split: 0.269 avg
-- Max Muncy (R) -- L7: 6H 2HR 4RBI 12TB (0.240 avg) -- home split: 0.227 avg
+- Jeff McNeil (L) -- L7: 10H 2HR 6RBI 17TB (0.323 avg) -- home split: 0.273 avg
+- Max Muncy (R) -- L7: 7H 2HR 4RBI 13TB (0.269 avg) -- home split: 0.235 avg
 - Carlos Cortes (L) -- L7: 7H 0HR 2RBI 7TB (0.333 avg) -- home split: 0.238 avg
 - Jonah Heim (S) -- L7: 6H 1HR 1RBI 11TB (0.207 avg) -- home split: 0.235 avg
 - Donovan Walton (L) -- L7: 2H 1HR 2RBI 6TB (0.118 avg) -- home split: 0.216 avg
-- Alika Williams (R) -- L7: 8H 2HR 4RBI 15TB (0.348 avg) -- home split: 0.319 avg
+- Alika Williams (R) -- L7: 7H 2HR 4RBI 14TB (0.292 avg) -- home split: 0.306 avg
 
 ## 2026-09-09 - St. Louis Cardinals @ San Francisco Giants (Scheduled)
 _Oracle Park [pitcher-friendly park]_
@@ -625,7 +625,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-09 - Washington Nationals @ San Diego Padres (Scheduled)
 _Petco Park [pitcher-friendly park]_
 Projected score: Washington Nationals 3.96 - San Diego Padres 4.42
-Model likes: **San Diego Padres** to win (54%) | Run line: **Washington Nationals** +1.5 (62% to cover) | Total 7.5: lean **OVER** (53%)
+Model likes: **San Diego Padres** to win (54%) | Run line: **Washington Nationals** +1.5 (61% to cover) | Total 7.5: lean **OVER** (53%)
 
 ### Washington Nationals lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 4.0 relief IP in last 2 days (ratio 0.59)_
@@ -686,7 +686,7 @@ _Facing a rested bullpen: 1.7 relief IP in last 2 days (ratio 0.32)_
 ## 2026-09-09 - Houston Astros @ Philadelphia Phillies (Scheduled)
 _Citizens Bank Park [hitter-friendly park]_
 Projected score: Houston Astros 2.95 - Philadelphia Phillies 3.46
-Model likes: **Philadelphia Phillies** to win (55%) | Run line: **Houston Astros** +1.5 (64% to cover) | Total 5.5: lean **OVER** (55%)
+Model likes: **Philadelphia Phillies** to win (56%) | Run line: **Houston Astros** +1.5 (64% to cover) | Total 5.5: lean **OVER** (55%)
 
 ### Houston Astros lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1079,7 +1079,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-10 - Pittsburgh Pirates @ Chicago White Sox (Scheduled)
 _Rate Field_
 Projected score: Pittsburgh Pirates 3.71 - Chicago White Sox 4.19
-Model likes: **Chicago White Sox** to win (55%) | Run line: **Pittsburgh Pirates** +1.5 (62% to cover) | Total 7.5: lean **UNDER** (52%)
+Model likes: **Chicago White Sox** to win (54%) | Run line: **Pittsburgh Pirates** +1.5 (62% to cover) | Total 7.5: lean **UNDER** (52%)
 
 ### Pittsburgh Pirates lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
