@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-09-09T09:58:52.547939+00:00_
+_Generated 2026-09-09T14:12:44.860003+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -17,7 +17,7 @@ _Generated 2026-09-09T09:58:52.547939+00:00_
 - **Jake McCarthy** (Colorado Rockies vs New York Yankees): favorable matchup vs. tonight's pitcher -- try Total Bases: 40% over 1.5 recently (vs. 10-game sample)
 - **Max Muncy** (Los Angeles Dodgers vs Cincinnati Reds): favorable matchup vs. tonight's pitcher -- try Walks: 60% over 0.5 recently (vs. 10-game sample)
 - **Kevin McGonigle** (Detroit Tigers vs Minnesota Twins): favorable matchup vs. tonight's pitcher -- try Hits: 70% over 0.5 recently (vs. 10-game sample)
-- **Max Clark** (Detroit Tigers vs Minnesota Twins): favorable matchup vs. tonight's pitcher -- try Hits + Runs + RBIs: 30% over 1.5 recently (vs. 10-game sample)
+- **Colt Keith** (Detroit Tigers vs Minnesota Twins): favorable matchup vs. tonight's pitcher -- try Hits + Runs + RBIs: 40% over 0.5 recently (vs. 10-game sample)
 
 ### Pitchers
 - **Cristopher Sánchez** (Philadelphia Phillies vs Houston Astros): 3 hitters in tonight's lineup are in a tough matchup against him, opposing lineup has struck out at an elevated rate over their last 2 games (31% vs their own 24% season rate) -- try Strikeouts: 60% over 6.5 recently (vs. 5-game sample)
@@ -34,7 +34,6 @@ _Generated 2026-09-09T09:58:52.547939+00:00_
 - **Luke Keaschall** (Minnesota Twins vs Detroit Tigers): tough matchup vs. tonight's pitcher -- try Hits: 60% under 1.5 recently (vs. 10-game sample)
 - **Kaelen Culpepper** (Minnesota Twins vs Detroit Tigers): tough matchup vs. tonight's pitcher -- try RBIs: 80% under 0.5 recently (vs. 10-game sample)
 - **Royce Lewis** (Minnesota Twins vs Detroit Tigers): tough matchup vs. tonight's pitcher -- try Total Bases: 80% under 1.5 recently (vs. 10-game sample)
-- **Ryan Jeffers** (Minnesota Twins vs Detroit Tigers): tough matchup vs. tonight's pitcher -- try Hits + Runs + RBIs: 50% under 2.5 recently (vs. 10-game sample)
 - **Gunnar Henderson** (Baltimore Orioles vs Cleveland Guardians): tough matchup vs. tonight's pitcher -- try RBIs: 90% under 0.5 recently (vs. 10-game sample)
 - **Jackson Holliday** (Baltimore Orioles vs Cleveland Guardians): tough matchup vs. tonight's pitcher -- try Walks: 100% under 0.5 recently (vs. 10-game sample)
 - **Dylan Beavers** (Baltimore Orioles vs Cleveland Guardians): tough matchup vs. tonight's pitcher -- try Walks: 90% under 0.5 recently (vs. 10-game sample)
@@ -46,6 +45,7 @@ _Generated 2026-09-09T09:58:52.547939+00:00_
 - **Marcus Semien** (New York Mets vs Miami Marlins): tough matchup vs. tonight's pitcher -- try RBIs: 80% under 0.5 recently (vs. 10-game sample)
 - **Bo Bichette** (New York Mets vs Miami Marlins): tough matchup vs. tonight's pitcher -- try Hits + Runs + RBIs: 60% under 2.5 recently (vs. 10-game sample)
 - **Francisco Alvarez** (New York Mets vs Miami Marlins): tough matchup vs. tonight's pitcher -- try Walks: 90% under 0.5 recently (vs. 10-game sample)
+- **Moisés Ballesteros** (Los Angeles Angels vs Boston Red Sox): tough matchup vs. tonight's pitcher -- try Walks: 90% under 0.5 recently (vs. 10-game sample)
 
 ### Pitchers
 - **Foster Griffin** (Cleveland Guardians vs Baltimore Orioles): 5 hitters in tonight's lineup are in a tough matchup against him -- try Strikeouts: 80% under 4.5 recently (vs. 5-game sample)
@@ -54,41 +54,41 @@ _Generated 2026-09-09T09:58:52.547939+00:00_
 - **Logan Henderson** (Milwaukee Brewers vs Chicago Cubs): 4 hitters in tonight's lineup are in a tough matchup against him -- try Walks Allowed: 40% under 0.5 recently (vs. 5-game sample)
 - **Yoshinobu Yamamoto** (Los Angeles Dodgers vs Cincinnati Reds): 5 hitters in tonight's lineup are in a tough matchup against him -- try Outs Recorded: 80% under 19.5 recently (vs. 5-game sample)
 
-## 2026-09-09 - Minnesota Twins @ Detroit Tigers (Scheduled)
+## 2026-09-09 - Minnesota Twins @ Detroit Tigers (Pre-Game)
 _Comerica Park [pitcher-friendly park]_
-Projected score: Minnesota Twins 3.71 - Detroit Tigers 4.03
-Model likes: **Detroit Tigers** to win (53%) | Run line: **Minnesota Twins** +1.5 (63% to cover) | Total 7.5: lean **UNDER** (53%)
+Projected score: Minnesota Twins 3.72 - Detroit Tigers 4.01
+Model likes: **Detroit Tigers** to win (53%) | Run line: **Minnesota Twins** +1.5 (64% to cover) | Total 7.5: lean **UNDER** (53%)
 
-### Minnesota Twins lineup -- PROJECTED (unconfirmed)
+### Minnesota Twins lineup -- CONFIRMED
 _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.26)_
 **Probable P: Zebby Matthews (R)** -- L5: 31.0 IP, 24 K, 11 ER, 3.19 ERA
-- Luke Keaschall (R) [TOUGH MATCHUP: pitcher holds this hand to 0.204 avg-against] -- L7: 7H 0HR 3RBI 9TB (0.259 avg) -- away split: 0.294 avg
-- Kaelen Culpepper (R) [TOUGH MATCHUP: pitcher holds this hand to 0.204 avg-against] -- L7: 7H 0HR 4RBI 9TB (0.250 avg) -- away split: 0.311 avg
-- Brooks Lee (S) [4-game hit streak] -- L7: 8H 1HR 3RBI 13TB (0.286 avg) -- away split: 0.283 avg
-- Royce Lewis (R) [TOUGH MATCHUP: pitcher holds this hand to 0.204 avg-against] -- L7: 7H 1HR 5RBI 12TB (0.250 avg) -- away split: 0.222 avg
-- Kody Clemens (L) -- L7: 6H 2HR 4RBI 12TB (0.250 avg) -- away split: 0.217 avg
-- Ryan Jeffers (R) [TOUGH MATCHUP: pitcher holds this hand to 0.204 avg-against] -- L7: 6H 2HR 8RBI 16TB (0.222 avg) -- away split: 0.235 avg
-- Josh Bell (S) -- L7: 7H 1HR 2RBI 11TB (0.292 avg) -- away split: 0.247 avg
-- Trevor Larnach (L) -- L7: 4H 1HR 2RBI 8TB (0.222 avg) -- away split: 0.270 avg
-- Walker Jenkins (L) -- L7: 1H 0HR 2RBI 2TB (0.050 avg) -- away split: 0.083 avg -- news: The wait is over: Walker Jenkins is ready to conquer the Twin Cities
+- #1 Luke Keaschall (R) [TOUGH MATCHUP: pitcher holds this hand to 0.204 avg-against] -- L7: 7H 0HR 3RBI 9TB (0.259 avg) -- away split: 0.294 avg
+- #2 Brooks Lee (S) [4-game hit streak] -- L7: 8H 1HR 3RBI 13TB (0.286 avg) -- away split: 0.283 avg
+- #3 Kody Clemens (L) -- L7: 6H 2HR 4RBI 12TB (0.250 avg) -- away split: 0.217 avg
+- #4 Josh Bell (S) -- L7: 7H 1HR 2RBI 11TB (0.292 avg) -- away split: 0.247 avg
+- #5 Kaelen Culpepper (R) [TOUGH MATCHUP: pitcher holds this hand to 0.204 avg-against] -- L7: 7H 0HR 4RBI 9TB (0.250 avg) -- away split: 0.311 avg
+- #6 Trevor Larnach (L) -- L7: 4H 1HR 2RBI 8TB (0.222 avg) -- away split: 0.270 avg
+- #7 Royce Lewis (R) [TOUGH MATCHUP: pitcher holds this hand to 0.204 avg-against] -- L7: 7H 1HR 5RBI 12TB (0.250 avg) -- away split: 0.222 avg
+- #8 Victor Caratini (S) -- L7: 3H 0HR 3RBI 3TB (0.167 avg) -- away split: 0.185 avg
+- #9 Walker Jenkins (L) -- L7: 1H 0HR 2RBI 2TB (0.050 avg) -- away split: 0.083 avg -- news: The wait is over: Walker Jenkins is ready to conquer the Twin Cities
 
-### Detroit Tigers lineup -- PROJECTED (unconfirmed)
+### Detroit Tigers lineup -- CONFIRMED
 _Facing a taxed bullpen: 8.0 relief IP in last 2 days (ratio 1.71)_
 **Probable P: Keider Montero (R)** -- L5: 26.7 IP, 15 K, 15 ER, 5.06 ERA
-- Kevin McGonigle (L) [MATCHUP EDGE: pitcher hits 0.267 avg-against vs this hand] -- L7: 7H 2HR 4RBI 14TB (0.250 avg) -- home split: 0.259 avg
-- Max Clark (L) [MATCHUP EDGE: pitcher hits 0.267 avg-against vs this hand] -- L7: 8H 0HR 3RBI 11TB (0.320 avg) -- home split: 0.186 avg -- news: Mayo: Don't judge a book by its cover -- especially Max Clark
-- Hao-Yu Lee (R) -- L7: 3H 0HR 3RBI 4TB (0.125 avg) -- home split: 0.226 avg -- news: Hao-Yu Lee sets single-season record for hits by a player born in Taiwan
-- Ben Malgeri (R) -- L7: 6H 0HR 3RBI 7TB (0.300 avg) -- home split: 0.233 avg
-- Spencer Torkelson (R) -- L7: 5H 2HR 3RBI 12TB (0.200 avg) -- home split: 0.209 avg
-- Gleyber Torres (R) [5-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 9H 0HR 0RBI 9TB (0.391 avg) -- home split: 0.291 avg
-- Dillon Dingler (R) -- L7: 4H 0HR 1RBI 5TB (0.148 avg) -- home split: 0.226 avg
-- Colt Keith (L) [MATCHUP EDGE: pitcher hits 0.267 avg-against vs this hand] -- L7: 3H 0HR 1RBI 3TB (0.200 avg) -- home split: 0.240 avg
-- Brett Callahan (L) [MATCHUP EDGE: pitcher hits 0.267 avg-against vs this hand] -- L7: 2H 0HR 0RBI 2TB (0.143 avg) -- home split: 0.231 avg
+- #1 Kevin McGonigle (L) [MATCHUP EDGE: pitcher hits 0.267 avg-against vs this hand] -- L7: 7H 2HR 4RBI 14TB (0.250 avg) -- home split: 0.259 avg
+- #2 Hao-Yu Lee (R) -- L7: 3H 0HR 3RBI 4TB (0.125 avg) -- home split: 0.226 avg -- news: Hao-Yu Lee sets single-season record for hits by a player born in Taiwan
+- #3 Colt Keith (L) [MATCHUP EDGE: pitcher hits 0.267 avg-against vs this hand] -- L7: 3H 0HR 1RBI 3TB (0.200 avg) -- home split: 0.240 avg
+- #4 Riley Greene (L) [MATCHUP EDGE: pitcher hits 0.267 avg-against vs this hand] -- L7: 10H 3HR 10RBI 23TB (0.333 avg) -- home split: 0.275 avg
+- #5 Dillon Dingler (R) -- L7: 4H 0HR 1RBI 5TB (0.148 avg) -- home split: 0.226 avg
+- #6 Brett Callahan (L) [MATCHUP EDGE: pitcher hits 0.267 avg-against vs this hand] -- L7: 2H 0HR 0RBI 2TB (0.143 avg) -- home split: 0.231 avg
+- #7 Max Clark (L) [MATCHUP EDGE: pitcher hits 0.267 avg-against vs this hand] -- L7: 8H 0HR 3RBI 11TB (0.320 avg) -- home split: 0.186 avg -- news: Mayo: Don't judge a book by its cover -- especially Max Clark
+- #8 Ben Malgeri (R) -- L7: 6H 0HR 3RBI 7TB (0.300 avg) -- home split: 0.233 avg
+- #9 John Peck (R) -- L7: 5H 0HR 3RBI 6TB (0.227 avg) -- home split: 0.333 avg
 
 ## 2026-09-09 - Toronto Blue Jays @ Athletics (Scheduled)
 _Sutter Health Park_
 Projected score: Toronto Blue Jays 5.21 - Athletics 3.37
-Model likes: **Toronto Blue Jays** to win (66%) | Run line: **Toronto Blue Jays** -1.5 (51% to cover) | Total 7.5: lean **OVER** (55%)
+Model likes: **Toronto Blue Jays** to win (66%) | Run line: **Toronto Blue Jays** -1.5 (50% to cover) | Total 7.5: lean **OVER** (54%)
 
 ### Toronto Blue Jays lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.25)_
@@ -178,7 +178,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.57)_
 ## 2026-09-09 - Washington Nationals @ San Diego Padres (Scheduled)
 _Petco Park [pitcher-friendly park]_
 Projected score: Washington Nationals 4.01 - San Diego Padres 4.57
-Model likes: **San Diego Padres** to win (55%) | Run line: **Washington Nationals** +1.5 (60% to cover) | Total 8.5: lean **UNDER** (55%)
+Model likes: **San Diego Padres** to win (55%) | Run line: **Washington Nationals** +1.5 (60% to cover) | Total 7.5: lean **OVER** (55%)
 
 ### Washington Nationals lineup -- PROJECTED (unconfirmed)
 **Probable P: Jackson Kent (L)** -- L5: 24.3 IP, 21 K, 15 ER, 5.55 ERA
@@ -238,7 +238,7 @@ _Facing a taxed bullpen: 10.3 relief IP in last 2 days (ratio 1.93)_
 ## 2026-09-09 - Houston Astros @ Philadelphia Phillies (Scheduled)
 _Citizens Bank Park [hitter-friendly park]_
 Projected score: Houston Astros 3.13 - Philadelphia Phillies 3.46
-Model likes: **Philadelphia Phillies** to win (53%) | Run line: **Houston Astros** +1.5 (65% to cover) | Total 6.5: lean **UNDER** (54%)
+Model likes: **Philadelphia Phillies** to win (54%) | Run line: **Houston Astros** +1.5 (65% to cover) | Total 6.5: lean **UNDER** (55%)
 
 ### Houston Astros lineup -- PROJECTED (unconfirmed)
 **Probable P: Hunter Brown (R)** -- L5: 28.3 IP, 30 K, 9 ER, 2.86 ERA
@@ -632,7 +632,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.48)_
 ## 2026-09-10 - Pittsburgh Pirates @ Chicago White Sox (Scheduled)
 _Rate Field_
 Projected score: Pittsburgh Pirates 3.96 - Chicago White Sox 4.1
-Model likes: **Chicago White Sox** to win (51%) | Run line: **Pittsburgh Pirates** +1.5 (64% to cover) | Total 7.5: lean **UNDER** (50%)
+Model likes: **Chicago White Sox** to win (51%) | Run line: **Pittsburgh Pirates** +1.5 (65% to cover) | Total 7.5: lean **OVER** (50%)
 
 ### Pittsburgh Pirates lineup -- PROJECTED (unconfirmed)
 **Probable P: Jared Jones (R)** -- L5: 22.7 IP, 30 K, 14 ER, 5.56 ERA
@@ -690,7 +690,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-11 - Colorado Rockies @ Detroit Tigers (Scheduled)
 _Comerica Park [pitcher-friendly park]_
 Projected score: Colorado Rockies 3.84 - Detroit Tigers 4.38
-Model likes: **Detroit Tigers** to win (55%) | Run line: **Colorado Rockies** +1.5 (61% to cover) | Total 7.5: lean **OVER** (51%)
+Model likes: **Detroit Tigers** to win (55%) | Run line: **Colorado Rockies** +1.5 (61% to cover) | Total 7.5: lean **OVER** (52%)
 
 ### Colorado Rockies lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1013,7 +1013,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-11 - Seattle Mariners @ Athletics (Scheduled)
 _Sutter Health Park_
 Projected score: Seattle Mariners 5.2 - Athletics 6.08
-Model likes: **Athletics** to win (56%) | Run line: **Seattle Mariners** +1.5 (56% to cover) | Total 10.5: lean **OVER** (50%)
+Model likes: **Athletics** to win (56%) | Run line: **Seattle Mariners** +1.5 (56% to cover) | Total 10.5: lean **OVER** (51%)
 
 ### Seattle Mariners lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
