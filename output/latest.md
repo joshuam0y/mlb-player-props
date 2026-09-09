@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-09-09T14:12:44.860003+00:00_
+_Generated 2026-09-09T14:47:34.961915+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -27,7 +27,7 @@ _Generated 2026-09-09T14:12:44.860003+00:00_
 - **Yoshinobu Yamamoto** (Los Angeles Dodgers vs Cincinnati Reds): 5 hitters in tonight's lineup are in a tough matchup against him -- try Strikeouts: 80% over 7.5 recently (vs. 5-game sample)
 - **Jake Bennett** (Boston Red Sox vs Los Angeles Angels): 3 hitters in tonight's lineup are in a tough matchup against him, opposing lineup has struck out at an elevated rate over their last 2 games (37% vs their own 28% season rate) -- try Strikeouts: 80% over 5.5 recently (vs. 5-game sample)
 - **Kade Anderson** (Seattle Mariners vs Texas Rangers): opposing lineup has struck out at an elevated rate over their last 2 games (33% vs their own 25% season rate) -- try Strikeouts: 33% over 3.5 recently (vs. 3-game sample)
-- **Cody Bradford** (Texas Rangers vs Seattle Mariners): opposing lineup has struck out at an elevated rate over their last 2 games (32% vs their own 26% season rate) -- try Hits Allowed: 80% over 6.5 recently (vs. 5-game sample)
+- **Robert Stock** (New York Mets vs Miami Marlins): opposing lineup has struck out at an elevated rate over their last 2 games (31% vs their own 25% season rate) -- try Outs Recorded: 80% over 11.5 recently (vs. 5-game sample)
 
 ## Today's Top Unders
 ### Batters
@@ -88,7 +88,7 @@ _Facing a taxed bullpen: 8.0 relief IP in last 2 days (ratio 1.71)_
 ## 2026-09-09 - Toronto Blue Jays @ Athletics (Scheduled)
 _Sutter Health Park_
 Projected score: Toronto Blue Jays 5.21 - Athletics 3.37
-Model likes: **Toronto Blue Jays** to win (66%) | Run line: **Toronto Blue Jays** -1.5 (50% to cover) | Total 7.5: lean **OVER** (54%)
+Model likes: **Toronto Blue Jays** to win (66%) | Run line: **Toronto Blue Jays** -1.5 (51% to cover) | Total 7.5: lean **OVER** (55%)
 
 ### Toronto Blue Jays lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.25)_
@@ -171,14 +171,14 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.57)_
 - Dominic Canzone (L) [8-game hit streak] -- L7: 8H 1HR 4RBI 13TB (0.267 avg) -- home split: 0.250 avg
 - Cal Raleigh (S) [MATCHUP EDGE: pitcher hits 0.284 avg-against vs this hand] [9-game hit streak] -- L7: 10H 2HR 6RBI 20TB (0.357 avg) -- home split: 0.204 avg
 - Josh Naylor (L) -- L7: 8H 0HR 2RBI 10TB (0.267 avg) -- home split: 0.258 avg
+- Brock Rodden (S) [MATCHUP EDGE: pitcher hits 0.284 avg-against vs this hand] [likely BABIP-driven, not a real power uptick] -- L7: 6H 0HR 1RBI 7TB (0.462 avg) -- home split: 0.200 avg
 - J.P. Crawford (L) [likely BABIP-driven, not a real power uptick] -- L7: 9H 0HR 3RBI 10TB (0.429 avg) -- home split: 0.212 avg
-- Brock Rodden (S) [MATCHUP EDGE: pitcher hits 0.284 avg-against vs this hand] [likely BABIP-driven, not a real power uptick] -- L7: 5H 0HR 1RBI 5TB (0.357 avg) -- home split: 0.167 avg
 - Taylor Ward (R) [MATCHUP EDGE: pitcher hits 0.284 avg-against vs this hand] -- L7: 2H 0HR 2RBI 2TB (0.100 avg) -- home split: 0.218 avg
 
 ## 2026-09-09 - Washington Nationals @ San Diego Padres (Scheduled)
 _Petco Park [pitcher-friendly park]_
 Projected score: Washington Nationals 4.01 - San Diego Padres 4.57
-Model likes: **San Diego Padres** to win (55%) | Run line: **Washington Nationals** +1.5 (60% to cover) | Total 7.5: lean **OVER** (55%)
+Model likes: **San Diego Padres** to win (55%) | Run line: **Washington Nationals** +1.5 (60% to cover) | Total 8.5: lean **UNDER** (55%)
 
 ### Washington Nationals lineup -- PROJECTED (unconfirmed)
 **Probable P: Jackson Kent (L)** -- L5: 24.3 IP, 21 K, 15 ER, 5.55 ERA
@@ -238,7 +238,7 @@ _Facing a taxed bullpen: 10.3 relief IP in last 2 days (ratio 1.93)_
 ## 2026-09-09 - Houston Astros @ Philadelphia Phillies (Scheduled)
 _Citizens Bank Park [hitter-friendly park]_
 Projected score: Houston Astros 3.13 - Philadelphia Phillies 3.46
-Model likes: **Philadelphia Phillies** to win (54%) | Run line: **Houston Astros** +1.5 (65% to cover) | Total 6.5: lean **UNDER** (55%)
+Model likes: **Philadelphia Phillies** to win (54%) | Run line: **Houston Astros** +1.5 (65% to cover) | Total 6.5: lean **UNDER** (54%)
 
 ### Houston Astros lineup -- PROJECTED (unconfirmed)
 **Probable P: Hunter Brown (R)** -- L5: 28.3 IP, 30 K, 9 ER, 2.86 ERA
@@ -594,8 +594,8 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.57)_
 - Dominic Canzone (L) [8-game hit streak] -- L7: 8H 1HR 4RBI 13TB (0.267 avg) -- home split: 0.250 avg
 - Cal Raleigh (S) [9-game hit streak] -- L7: 10H 2HR 6RBI 20TB (0.357 avg) -- home split: 0.204 avg
 - Josh Naylor (L) -- L7: 8H 0HR 2RBI 10TB (0.267 avg) -- home split: 0.258 avg
+- Brock Rodden (S) [likely BABIP-driven, not a real power uptick] -- L7: 6H 0HR 1RBI 7TB (0.462 avg) -- home split: 0.200 avg
 - J.P. Crawford (L) [likely BABIP-driven, not a real power uptick] -- L7: 9H 0HR 3RBI 10TB (0.429 avg) -- home split: 0.212 avg
-- Brock Rodden (S) [likely BABIP-driven, not a real power uptick] -- L7: 5H 0HR 1RBI 5TB (0.357 avg) -- home split: 0.167 avg
 - Taylor Ward (R) -- L7: 2H 0HR 2RBI 2TB (0.100 avg) -- home split: 0.218 avg
 
 ## 2026-09-10 - Colorado Rockies @ New York Yankees (Scheduled)
@@ -632,7 +632,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.48)_
 ## 2026-09-10 - Pittsburgh Pirates @ Chicago White Sox (Scheduled)
 _Rate Field_
 Projected score: Pittsburgh Pirates 3.96 - Chicago White Sox 4.1
-Model likes: **Chicago White Sox** to win (51%) | Run line: **Pittsburgh Pirates** +1.5 (65% to cover) | Total 7.5: lean **OVER** (50%)
+Model likes: **Chicago White Sox** to win (51%) | Run line: **Pittsburgh Pirates** +1.5 (65% to cover) | Total 7.5: lean **UNDER** (50%)
 
 ### Pittsburgh Pirates lineup -- PROJECTED (unconfirmed)
 **Probable P: Jared Jones (R)** -- L5: 22.7 IP, 30 K, 14 ER, 5.56 ERA
@@ -690,7 +690,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-11 - Colorado Rockies @ Detroit Tigers (Scheduled)
 _Comerica Park [pitcher-friendly park]_
 Projected score: Colorado Rockies 3.84 - Detroit Tigers 4.38
-Model likes: **Detroit Tigers** to win (55%) | Run line: **Colorado Rockies** +1.5 (61% to cover) | Total 7.5: lean **OVER** (52%)
+Model likes: **Detroit Tigers** to win (55%) | Run line: **Colorado Rockies** +1.5 (61% to cover) | Total 7.5: lean **OVER** (51%)
 
 ### Colorado Rockies lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -778,7 +778,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-11 - Baltimore Orioles @ Toronto Blue Jays (Scheduled)
 _Rogers Centre_
 Projected score: Baltimore Orioles 4.17 - Toronto Blue Jays 4.39
-Model likes: **Toronto Blue Jays** to win (52%) | Run line: **Baltimore Orioles** +1.5 (63% to cover) | Total 7.5: lean **OVER** (55%)
+Model likes: **Toronto Blue Jays** to win (52%) | Run line: **Baltimore Orioles** +1.5 (63% to cover) | Total 7.5: lean **OVER** (54%)
 
 ### Baltimore Orioles lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1013,7 +1013,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-11 - Seattle Mariners @ Athletics (Scheduled)
 _Sutter Health Park_
 Projected score: Seattle Mariners 5.2 - Athletics 6.08
-Model likes: **Athletics** to win (56%) | Run line: **Seattle Mariners** +1.5 (56% to cover) | Total 10.5: lean **OVER** (51%)
+Model likes: **Athletics** to win (56%) | Run line: **Seattle Mariners** +1.5 (56% to cover) | Total 10.5: lean **OVER** (50%)
 
 ### Seattle Mariners lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1023,8 +1023,8 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 - Dominic Canzone (L) [8-game hit streak] -- L7: 8H 1HR 4RBI 13TB (0.267 avg) -- away split: 0.262 avg
 - Cal Raleigh (S) [MATCHUP EDGE: pitcher hits 0.266 avg-against vs this hand] [9-game hit streak] -- L7: 10H 2HR 6RBI 20TB (0.357 avg) -- away split: 0.163 avg
 - Josh Naylor (L) -- L7: 8H 0HR 2RBI 10TB (0.267 avg) -- away split: 0.275 avg
+- Brock Rodden (S) [MATCHUP EDGE: pitcher hits 0.266 avg-against vs this hand] [likely BABIP-driven, not a real power uptick] -- L7: 6H 0HR 1RBI 7TB (0.462 avg) -- away split: 0.258 avg
 - J.P. Crawford (L) [likely BABIP-driven, not a real power uptick] -- L7: 9H 0HR 3RBI 10TB (0.429 avg) -- away split: 0.231 avg
-- Brock Rodden (S) [MATCHUP EDGE: pitcher hits 0.266 avg-against vs this hand] [likely BABIP-driven, not a real power uptick] -- L7: 5H 0HR 1RBI 5TB (0.357 avg) -- away split: 0.258 avg
 - Taylor Ward (R) [MATCHUP EDGE: pitcher hits 0.266 avg-against vs this hand] -- L7: 2H 0HR 2RBI 2TB (0.100 avg) -- away split: 0.231 avg
 
 ### Athletics lineup -- PROJECTED (unconfirmed)
@@ -1043,7 +1043,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-11 - Texas Rangers @ Arizona Diamondbacks (Scheduled)
 _Chase Field [hitter-friendly park]_
 Projected score: Texas Rangers 4.45 - Arizona Diamondbacks 4.77
-Model likes: **Arizona Diamondbacks** to win (53%) | Run line: **Texas Rangers** +1.5 (62% to cover) | Total 8.5: lean **OVER** (51%)
+Model likes: **Arizona Diamondbacks** to win (52%) | Run line: **Texas Rangers** +1.5 (62% to cover) | Total 8.5: lean **OVER** (51%)
 
 ### Texas Rangers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
