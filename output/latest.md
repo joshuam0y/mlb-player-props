@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-09-09T00:23:27.141502+00:00_
+_Generated 2026-09-09T00:41:56.380472+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -210,7 +210,7 @@ _Facing a rested bullpen: 4.0 relief IP in last 2 days (ratio 0.69)_
 ## 2026-09-08 - Colorado Rockies @ New York Yankees (In Progress)
 _Yankee Stadium [hitter-friendly park]_
 Projected score: Colorado Rockies 2.3 - New York Yankees 5.84
-Model likes: **New York Yankees** to win (80%) | Run line: **New York Yankees** -1.5 (66% to cover) | Total 7.5: lean **UNDER** (50%)
+Model likes: **New York Yankees** to win (80%) | Run line: **New York Yankees** -1.5 (65% to cover) | Total 7.5: lean **UNDER** (50%)
 
 ### Colorado Rockies lineup -- CONFIRMED
 _Facing a rested bullpen: 1.0 relief IP in last 2 days (ratio 0.16)_
@@ -300,7 +300,7 @@ _Facing a taxed bullpen: 8.7 relief IP in last 2 days (ratio 1.38)_
 ## 2026-09-08 - Arizona Diamondbacks @ Kansas City Royals (In Progress)
 _Kauffman Stadium [pitcher-friendly park]_
 Projected score: Arizona Diamondbacks 3.42 - Kansas City Royals 4.81
-Model likes: **Kansas City Royals** to win (62%) | Run line: **Arizona Diamondbacks** +1.5 (54% to cover) | Total 7.5: lean **OVER** (51%)
+Model likes: **Kansas City Royals** to win (62%) | Run line: **Arizona Diamondbacks** +1.5 (53% to cover) | Total 7.5: lean **OVER** (51%)
 
 ### Arizona Diamondbacks lineup -- CONFIRMED
 _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.3)_
@@ -361,7 +361,7 @@ _Facing a rested bullpen: 3.7 relief IP in last 2 days (ratio 0.57)_
 ## 2026-09-08 - Texas Rangers @ Seattle Mariners (Pre-Game)
 _T-Mobile Park [pitcher-friendly park]_
 Projected score: Texas Rangers 3.41 - Seattle Mariners 3.18
-Model likes: **Texas Rangers** to win (52%) | Run line: **Seattle Mariners** +1.5 (66% to cover) | Total 6.5: lean **UNDER** (55%)
+Model likes: **Texas Rangers** to win (52%) | Run line: **Seattle Mariners** +1.5 (66% to cover) | Total 6.5: lean **UNDER** (54%)
 
 ### Texas Rangers lineup -- CONFIRMED
 _Facing a rested bullpen: 1.0 relief IP in last 2 days (ratio 0.19)_
@@ -391,7 +391,7 @@ _Facing a rested bullpen: 1.0 relief IP in last 2 days (ratio 0.19)_
 ## 2026-09-08 - Washington Nationals @ San Diego Padres (Pre-Game)
 _Petco Park [pitcher-friendly park]_
 Projected score: Washington Nationals 3.39 - San Diego Padres 4.21
-Model likes: **San Diego Padres** to win (58%) | Run line: **Washington Nationals** +1.5 (59% to cover) | Total 7.5: lean **UNDER** (55%)
+Model likes: **San Diego Padres** to win (58%) | Run line: **Washington Nationals** +1.5 (59% to cover) | Total 7.5: lean **UNDER** (54%)
 
 ### Washington Nationals lineup -- CONFIRMED
 **Probable P: Riley Cornelio (R)** [BULLPEN GAME: short-outing arm, no reliable individual matchup below] -- L5: 8.0 IP, 6 K, 4 ER, 4.5 ERA
@@ -571,7 +571,7 @@ _Facing a rested bullpen: 3.7 relief IP in last 2 days (ratio 0.53)_
 ## 2026-09-09 - St. Louis Cardinals @ San Francisco Giants (Scheduled)
 _Oracle Park [pitcher-friendly park]_
 Projected score: St. Louis Cardinals 4.69 - San Francisco Giants 3.82
-Model likes: **St. Louis Cardinals** to win (57%) | Run line: **San Francisco Giants** +1.5 (58% to cover) | Total 7.5: lean **OVER** (54%)
+Model likes: **St. Louis Cardinals** to win (58%) | Run line: **San Francisco Giants** +1.5 (58% to cover) | Total 7.5: lean **OVER** (54%)
 
 ### St. Louis Cardinals lineup -- PROJECTED (unconfirmed)
 **Probable P: Andre Pallante (R)** -- L5: 28.7 IP, 15 K, 8 ER, 2.51 ERA
@@ -632,7 +632,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-09 - Washington Nationals @ San Diego Padres (Scheduled)
 _Petco Park [pitcher-friendly park]_
 Projected score: Washington Nationals 3.96 - San Diego Padres 4.43
-Model likes: **San Diego Padres** to win (54%) | Run line: **Washington Nationals** +1.5 (62% to cover) | Total 7.5: lean **OVER** (53%)
+Model likes: **San Diego Padres** to win (54%) | Run line: **Washington Nationals** +1.5 (61% to cover) | Total 7.5: lean **OVER** (53%)
 
 ### Washington Nationals lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 4.0 relief IP in last 2 days (ratio 0.59)_
@@ -846,7 +846,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-09 - Chicago Cubs @ Milwaukee Brewers (Scheduled)
 _American Family Field_
 Projected score: Chicago Cubs 3.55 - Milwaukee Brewers 4.94
-Model likes: **Milwaukee Brewers** to win (62%) | Run line: **Chicago Cubs** +1.5 (53% to cover) | Total 7.5: lean **OVER** (54%)
+Model likes: **Milwaukee Brewers** to win (62%) | Run line: **Chicago Cubs** +1.5 (54% to cover) | Total 7.5: lean **OVER** (54%)
 
 ### Chicago Cubs lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 4.3 relief IP in last 2 days (ratio 0.69)_
@@ -1089,7 +1089,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-10 - Pittsburgh Pirates @ Chicago White Sox (Scheduled)
 _Rate Field_
 Projected score: Pittsburgh Pirates 3.71 - Chicago White Sox 4.19
-Model likes: **Chicago White Sox** to win (54%) | Run line: **Pittsburgh Pirates** +1.5 (62% to cover) | Total 7.5: lean **UNDER** (52%)
+Model likes: **Chicago White Sox** to win (55%) | Run line: **Pittsburgh Pirates** +1.5 (62% to cover) | Total 7.5: lean **UNDER** (52%)
 
 ### Pittsburgh Pirates lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
