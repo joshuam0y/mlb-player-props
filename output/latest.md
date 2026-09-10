@@ -1,74 +1,73 @@
 # MLB Player Props Context Report
-_Generated 2026-09-10T11:32:06.301424+00:00_
+_Generated 2026-09-10T14:06:36.547200+00:00_
 
 ## Today's Top Overs
 ### Batters
 - **Kyle Schwarber** (Philadelphia Phillies vs Houston Astros): favorable matchup vs. tonight's pitcher, 5-game hit streak -- try Runs Scored: 70% over 0.5 recently (vs. 10-game sample)
-- **Brandon Marsh** (Philadelphia Phillies vs Houston Astros): favorable matchup vs. tonight's pitcher -- try Hits: 40% over 0.5 recently (vs. 10-game sample)
 - **Luis García Jr.** (New York Yankees vs Colorado Rockies): favorable matchup vs. tonight's pitcher -- try Total Bases: 30% over 1.5 recently (vs. 10-game sample)
-- **Luis Arraez** (Philadelphia Phillies vs Houston Astros): favorable matchup vs. tonight's pitcher -- try Hits + Runs + RBIs: 50% over 1.5 recently (vs. 10-game sample)
-- **Bryce Harper** (Philadelphia Phillies vs Houston Astros): favorable matchup vs. tonight's pitcher -- try Total Bases: 40% over 1.5 recently (vs. 10-game sample)
-- **Justin Crawford** (Philadelphia Phillies vs Houston Astros): favorable matchup vs. tonight's pitcher -- try Hits: 50% over 0.5 recently (vs. 10-game sample)
-- **Bryson Stott** (Philadelphia Phillies vs Houston Astros): favorable matchup vs. tonight's pitcher -- try Hits: 40% over 0.5 recently (vs. 10-game sample)
+- **Brandon Marsh** (Philadelphia Phillies vs Houston Astros): favorable matchup vs. tonight's pitcher -- try Hits: 40% over 0.5 recently (vs. 10-game sample)
 - **Spencer Jones** (New York Yankees vs Colorado Rockies): favorable matchup vs. tonight's pitcher -- try Hits + Runs + RBIs: 70% over 1.5 recently (vs. 10-game sample)
 - **Austin Wells** (New York Yankees vs Colorado Rockies): favorable matchup vs. tonight's pitcher -- try Hits: 30% over 0.5 recently (vs. 10-game sample)
 - **Cody Bellinger** (New York Yankees vs Colorado Rockies): favorable matchup vs. tonight's pitcher -- try Total Bases: 50% over 1.5 recently (vs. 10-game sample)
 - **Ben Rice** (New York Yankees vs Colorado Rockies): favorable matchup vs. tonight's pitcher -- try Runs Scored: 50% over 0.5 recently (vs. 10-game sample)
 - **Jazz Chisholm Jr.** (New York Yankees vs Colorado Rockies): favorable matchup vs. tonight's pitcher -- try Hits + Runs + RBIs: 40% over 1.5 recently (vs. 10-game sample)
-- **Trea Turner** (Philadelphia Phillies vs Houston Astros): 6-game hit streak -- try Hits: 80% over 0.5 recently (vs. 10-game sample)
+- **Luis Arraez** (Philadelphia Phillies vs Houston Astros): favorable matchup vs. tonight's pitcher -- try Hits + Runs + RBIs: 50% over 1.5 recently (vs. 10-game sample)
+- **Bryce Harper** (Philadelphia Phillies vs Houston Astros): favorable matchup vs. tonight's pitcher -- try Total Bases: 40% over 1.5 recently (vs. 10-game sample)
+- **Justin Crawford** (Philadelphia Phillies vs Houston Astros): favorable matchup vs. tonight's pitcher -- try Hits: 50% over 0.5 recently (vs. 10-game sample)
+- **Bryson Stott** (Philadelphia Phillies vs Houston Astros): favorable matchup vs. tonight's pitcher -- try Hits: 40% over 0.5 recently (vs. 10-game sample)
 - **Corey Seager** (Texas Rangers vs Seattle Mariners): 6-game hit streak -- try Runs Scored: 70% over 0.5 recently (vs. 10-game sample)
 - **Justin Foscue** (Texas Rangers vs Seattle Mariners): 7-game hit streak -- try Hits: 90% over 0.5 recently (vs. 10-game sample)
+- **Trea Turner** (Philadelphia Phillies vs Houston Astros): 6-game hit streak -- try Hits: 80% over 0.5 recently (vs. 10-game sample)
 
 ### Pitchers
 - **Max Fried** (New York Yankees vs Colorado Rockies): 5 hitters in tonight's lineup are in a tough matchup against him, opposing lineup has struck out at an elevated rate over their last 2 games (38% vs their own 26% season rate) -- try Hits Allowed: 40% over 3.5 recently (vs. 5-game sample)
-- **Zack Wheeler** (Philadelphia Phillies vs Houston Astros): 6 hitters in tonight's lineup are in a tough matchup against him -- try Walks Allowed: 60% over 2.5 recently (vs. 5-game sample)
 
 ## Today's Top Unders
 ### Batters
+- **TJ Rumfield** (Colorado Rockies vs New York Yankees): tough matchup vs. tonight's pitcher -- try Hits + Runs + RBIs: 60% under 2.5 recently (vs. 10-game sample)
+- **Jake McCarthy** (Colorado Rockies vs New York Yankees): tough matchup vs. tonight's pitcher -- try Hits + Runs + RBIs: 50% under 2.5 recently (vs. 10-game sample)
+- **Zac Veen** (Colorado Rockies vs New York Yankees): tough matchup vs. tonight's pitcher -- try Hits: 70% under 0.5 recently (vs. 10-game sample)
+- **Mickey Moniak** (Colorado Rockies vs New York Yankees): tough matchup vs. tonight's pitcher -- try Total Bases: 90% under 1.5 recently (vs. 10-game sample)
+- **Troy Johnston** (Colorado Rockies vs New York Yankees): tough matchup vs. tonight's pitcher -- try Hits + Runs + RBIs: 70% under 1.5 recently (vs. 10-game sample)
 - **Isaac Paredes** (Houston Astros vs Philadelphia Phillies): tough matchup vs. tonight's pitcher -- try Hits + Runs + RBIs: 60% under 2.5 recently (vs. 10-game sample)
 - **Jeremy Peña** (Houston Astros vs Philadelphia Phillies): tough matchup vs. tonight's pitcher -- try Hits + Runs + RBIs: 80% under 2.5 recently (vs. 10-game sample)
 - **Christian Walker** (Houston Astros vs Philadelphia Phillies): tough matchup vs. tonight's pitcher -- try Runs Scored: 90% under 0.5 recently (vs. 10-game sample)
 - **Cam Smith** (Houston Astros vs Philadelphia Phillies): tough matchup vs. tonight's pitcher -- try Walks: 80% under 0.5 recently (vs. 10-game sample)
 - **Jose Altuve** (Houston Astros vs Philadelphia Phillies): tough matchup vs. tonight's pitcher -- try Walks: 90% under 0.5 recently (vs. 10-game sample)
 - **Yainer Diaz** (Houston Astros vs Philadelphia Phillies): tough matchup vs. tonight's pitcher -- try Walks: 100% under 0.5 recently (vs. 10-game sample)
-- **TJ Rumfield** (Colorado Rockies vs New York Yankees): tough matchup vs. tonight's pitcher -- try Hits + Runs + RBIs: 60% under 2.5 recently (vs. 10-game sample)
-- **Jake McCarthy** (Colorado Rockies vs New York Yankees): tough matchup vs. tonight's pitcher -- try Hits + Runs + RBIs: 50% under 2.5 recently (vs. 10-game sample)
-- **Zac Veen** (Colorado Rockies vs New York Yankees): tough matchup vs. tonight's pitcher -- try Hits: 70% under 0.5 recently (vs. 10-game sample)
-- **Mickey Moniak** (Colorado Rockies vs New York Yankees): tough matchup vs. tonight's pitcher -- try Total Bases: 90% under 1.5 recently (vs. 10-game sample)
-- **Troy Johnston** (Colorado Rockies vs New York Yankees): tough matchup vs. tonight's pitcher -- try Hits + Runs + RBIs: 70% under 1.5 recently (vs. 10-game sample)
 
 ### Pitchers
 - **Max Fried** (New York Yankees vs Colorado Rockies): 5 hitters in tonight's lineup are in a tough matchup against him -- try Runs Allowed: 100% under 1.5 recently (vs. 5-game sample)
 
-## 2026-09-10 - Tampa Bay Rays @ Atlanta Braves (Scheduled)
+## 2026-09-10 - Tampa Bay Rays @ Atlanta Braves (Pre-Game)
 _Truist Park_
-Projected score: Tampa Bay Rays 3.61 - Atlanta Braves 3.3
-Model likes: **Tampa Bay Rays** to win (53%) | Run line: **Atlanta Braves** +1.5 (65% to cover) | Total 6.5: lean **UNDER** (51%)
+Projected score: Tampa Bay Rays 3.57 - Atlanta Braves 3.46
+Model likes: **Tampa Bay Rays** to win (51%) | Run line: **Atlanta Braves** +1.5 (66% to cover) | Total 6.5: lean **OVER** (50%)
 
-### Tampa Bay Rays lineup -- PROJECTED (unconfirmed)
+### Tampa Bay Rays lineup -- CONFIRMED
 _Facing a taxed bullpen: 10.0 relief IP in last 2 days (ratio 1.82)_
 **Probable P: Nick Martinez (R)** -- L5: 31.0 IP, 22 K, 16 ER, 4.65 ERA
-- Chandler Simpson (L) [3-game hit streak] -- L7: 9H 0HR 0RBI 9TB (0.300 avg) -- away split: 0.319 avg
-- Junior Caminero (R) -- L7: 7H 2HR 5RBI 14TB (0.250 avg) -- away split: 0.275 avg
-- Yandy Díaz (R) [3-game hit streak] -- L7: 11H 1HR 4RBI 16TB (0.367 avg) -- away split: 0.266 avg
-- Jonathan Aranda (L) -- L7: 8H 2HR 7RBI 16TB (0.286 avg) -- away split: 0.271 avg
-- Jorge Mateo (R) -- L7: 2H 0HR 2RBI 2TB (0.095 avg) -- away split: 0.226 avg
-- Liam Hicks (L) -- L7: 7H 1HR 5RBI 10TB (0.292 avg) -- away split: 0.288 avg
-- Richie Palacios (L) -- L7: 5H 4HR 6RBI 17TB (0.263 avg) -- away split: 0.228 avg -- news: Richie Palacios’ Players' Weekend cleats came straight from ... Lisa Simpson?
-- Jonny DeLuca (R) -- L7: 4H 1HR 4RBI 7TB (0.154 avg) -- away split: 0.317 avg
-- Cedric Mullins (L) -- L7: 4H 0HR 3RBI 4TB (0.200 avg) -- away split: 0.201 avg
+- #1 Yandy Díaz (R) [3-game hit streak] -- L7: 11H 1HR 4RBI 16TB (0.367 avg) -- away split: 0.266 avg
+- #2 Ryan Vilade (R) -- L7: 3H 0HR 2RBI 5TB (0.231 avg) -- away split: 0.230 avg
+- #3 Junior Caminero (R) -- L7: 7H 2HR 5RBI 14TB (0.250 avg) -- away split: 0.275 avg
+- #4 Jonny DeLuca (R) -- L7: 4H 1HR 4RBI 7TB (0.154 avg) -- away split: 0.317 avg
+- #5 Chandler Simpson (L) [3-game hit streak] -- L7: 9H 0HR 0RBI 9TB (0.300 avg) -- away split: 0.319 avg
+- #6 Nick Madrigal (R) -- L7: 5H 0HR 1RBI 5TB (0.217 avg) -- away split: 0.182 avg
+- #7 Jorge Mateo (R) -- L7: 2H 0HR 2RBI 2TB (0.095 avg) -- away split: 0.226 avg
+- #8 Nick Fortes (R) [3-game hit streak] -- L7: 4H 0HR 2RBI 5TB (0.211 avg) -- away split: 0.277 avg
+- #9 Cedric Mullins (L) -- L7: 4H 0HR 3RBI 4TB (0.200 avg) -- away split: 0.201 avg
 
-### Atlanta Braves lineup -- PROJECTED (unconfirmed)
+### Atlanta Braves lineup -- CONFIRMED
 **Probable P: Martín Pérez (L)** -- L5: 24.3 IP, 16 K, 10 ER, 3.7 ERA
-- Drake Baldwin (L) -- L7: 7H 1HR 2RBI 11TB (0.241 avg) -- home split: 0.301 avg
-- Michael Harris II (L) -- L7: 2H 0HR 0RBI 2TB (0.087 avg) -- home split: 0.281 avg
-- Ozzie Albies (S) -- L7: 3H 0HR 0RBI 5TB (0.111 avg) -- home split: 0.251 avg
-- Matt Olson (L) -- L7: 2H 0HR 1RBI 2TB (0.080 avg) -- home split: 0.263 avg -- news: How Matt Olson became a king of scoops at first base
-- Austin Riley (R) -- L7: 6H 1HR 5RBI 11TB (0.261 avg) -- home split: 0.261 avg
-- Ronald Acuña Jr. (R) -- L7: 12H 3HR 9RBI 24TB (0.429 avg) -- home split: 0.254 avg
-- Mauricio Dubón (R) -- L7: 6H 1HR 2RBI 10TB (0.250 avg) -- home split: 0.286 avg
-- Mike Yastrzemski (L) -- L7: 3H 0HR 0RBI 4TB (0.158 avg) -- home split: 0.222 avg
-- Sean Murphy (R) -- L7: 4H 2HR 5RBI 10TB (0.182 avg) -- home split: 0.286 avg
+- #1 Drake Baldwin (L) -- L7: 7H 1HR 2RBI 11TB (0.241 avg) -- home split: 0.301 avg
+- #2 Ronald Acuña Jr. (R) -- L7: 12H 3HR 9RBI 24TB (0.429 avg) -- home split: 0.254 avg
+- #3 Matt Olson (L) -- L7: 2H 0HR 1RBI 2TB (0.080 avg) -- home split: 0.263 avg -- news: How Matt Olson became a king of scoops at first base
+- #4 Michael Harris II (L) -- L7: 2H 0HR 0RBI 2TB (0.087 avg) -- home split: 0.281 avg
+- #5 Mauricio Dubón (R) -- L7: 6H 1HR 2RBI 10TB (0.250 avg) -- home split: 0.286 avg
+- #6 Lane Thomas (R) -- L7: 1H 0HR 0RBI 2TB (0.062 avg) -- home split: 0.236 avg
+- #7 Austin Riley (R) -- L7: 6H 1HR 5RBI 11TB (0.261 avg) -- home split: 0.261 avg
+- #8 Brewer Hicklen (R) -- L7: 1H 0HR 0RBI 1TB (0.250 avg) -- home split: 0.357 avg
+- #9 Ha-Seong Kim (R) -- L7: 4H 0HR 1RBI 5TB (0.200 avg) -- home split: 0.102 avg
 
 ## 2026-09-10 - Houston Astros @ Philadelphia Phillies (Scheduled)
 _Citizens Bank Park [hitter-friendly park]_
@@ -134,7 +133,7 @@ _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.33)_
 ## 2026-09-10 - Colorado Rockies @ New York Yankees (Scheduled)
 _Yankee Stadium [hitter-friendly park]_
 Projected score: Colorado Rockies 2.87 - New York Yankees 5.7
-Model likes: **New York Yankees** to win (74%) | Run line: **New York Yankees** -1.5 (59% to cover) | Total 7.5: lean **OVER** (54%)
+Model likes: **New York Yankees** to win (73%) | Run line: **New York Yankees** -1.5 (59% to cover) | Total 7.5: lean **OVER** (54%)
 
 ### Colorado Rockies lineup -- PROJECTED (unconfirmed)
 **Probable P: Ryan Feltner (R)** -- L5: 24.7 IP, 22 K, 18 ER, 6.57 ERA
@@ -488,7 +487,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.51)_
 ## 2026-09-11 - Cleveland Guardians @ Minnesota Twins (Scheduled)
 _Target Field_
 Projected score: Cleveland Guardians 4.01 - Minnesota Twins 3.09
-Model likes: **Cleveland Guardians** to win (59%) | Run line: **Minnesota Twins** +1.5 (58% to cover) | Total 6.5: lean **OVER** (51%)
+Model likes: **Cleveland Guardians** to win (59%) | Run line: **Minnesota Twins** +1.5 (59% to cover) | Total 6.5: lean **OVER** (51%)
 
 ### Cleveland Guardians lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 5.7 relief IP in last 2 days (ratio 1.2)_
@@ -814,7 +813,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-12 - Cleveland Guardians @ Minnesota Twins (Scheduled)
 _Target Field_
 Projected score: Cleveland Guardians 4.52 - Minnesota Twins 4.3
-Model likes: **Cleveland Guardians** to win (52%) | Run line: **Minnesota Twins** +1.5 (63% to cover) | Total 8.5: lean **UNDER** (52%)
+Model likes: **Cleveland Guardians** to win (52%) | Run line: **Minnesota Twins** +1.5 (63% to cover) | Total 8.5: lean **UNDER** (53%)
 
 ### Cleveland Guardians lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -993,7 +992,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-12 - Philadelphia Phillies @ Atlanta Braves (Scheduled)
 _Truist Park_
 Projected score: Philadelphia Phillies 3.55 - Atlanta Braves 3.49
-Model likes: **Philadelphia Phillies** to win (51%) | Run line: **Atlanta Braves** +1.5 (67% to cover) | Total 6.5: lean **OVER** (50%)
+Model likes: **Philadelphia Phillies** to win (50%) | Run line: **Atlanta Braves** +1.5 (67% to cover) | Total 6.5: lean **OVER** (50%)
 
 ### Philadelphia Phillies lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
