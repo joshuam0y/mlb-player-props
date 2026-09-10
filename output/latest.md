@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-09-10T19:51:10.319418+00:00_
+_Generated 2026-09-10T20:05:01.644666+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -64,7 +64,7 @@ _Facing a taxed bullpen: 10.0 relief IP in last 2 days (ratio 1.82)_
 - #8 Brewer Hicklen (R) -- L7: 1H 0HR 0RBI 1TB (0.250 avg) -- home split: 0.357 avg
 - #9 Ha-Seong Kim (R) -- L7: 4H 0HR 1RBI 5TB (0.200 avg) -- home split: 0.102 avg
 
-## 2026-09-10 - Houston Astros @ Philadelphia Phillies (Game Over)
+## 2026-09-10 - Houston Astros @ Philadelphia Phillies (Final)
 _Citizens Bank Park [hitter-friendly park]_
 Final: Houston Astros 2 - Philadelphia Phillies 1
 
@@ -127,7 +127,7 @@ _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.33)_
 ## 2026-09-10 - Colorado Rockies @ New York Yankees (Pre-Game)
 _Yankee Stadium [hitter-friendly park]_
 Projected score: Colorado Rockies 2.87 - New York Yankees 5.79
-Model likes: **New York Yankees** to win (74%) | Run line: **New York Yankees** -1.5 (60% to cover) | Total 8.5: lean **UNDER** (55%)
+Model likes: **New York Yankees** to win (74%) | Run line: **New York Yankees** -1.5 (60% to cover) | Total 8.5: lean **UNDER** (54%)
 
 ### Colorado Rockies lineup -- PROJECTED (unconfirmed)
 **Probable P: Ryan Feltner (R)** -- L5: 24.7 IP, 22 K, 18 ER, 6.57 ERA
@@ -390,7 +390,7 @@ _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.35)_
 ## 2026-09-11 - Kansas City Royals @ Boston Red Sox (Scheduled)
 _Fenway Park_
 Projected score: Kansas City Royals 2.7 - Boston Red Sox 4.8
-Model likes: **Boston Red Sox** to win (70%) | Run line: **Boston Red Sox** -1.5 (53% to cover) | Total 6.5: lean **OVER** (55%)
+Model likes: **Boston Red Sox** to win (70%) | Run line: **Boston Red Sox** -1.5 (53% to cover) | Total 6.5: lean **OVER** (54%)
 
 ### Kansas City Royals lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.7 relief IP in last 2 days (ratio 0.65)_
@@ -449,7 +449,7 @@ Model likes: **Atlanta Braves** to win (68%) | Run line: **Atlanta Braves** -1.5
 ## 2026-09-11 - Cincinnati Reds @ Milwaukee Brewers (Scheduled)
 _American Family Field_
 Projected score: Cincinnati Reds 4.06 - Milwaukee Brewers 5.12
-Model likes: **Milwaukee Brewers** to win (59%) | Run line: **Cincinnati Reds** +1.5 (56% to cover) | Total 8.5: lean **OVER** (50%)
+Model likes: **Milwaukee Brewers** to win (59%) | Run line: **Cincinnati Reds** +1.5 (56% to cover) | Total 8.5: lean **OVER** (51%)
 
 ### Cincinnati Reds lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 4.0 relief IP in last 2 days (ratio 0.63)_
@@ -510,7 +510,7 @@ _Facing a taxed bullpen: 5.7 relief IP in last 2 days (ratio 1.2)_
 ## 2026-09-11 - Chicago White Sox @ St. Louis Cardinals (Scheduled)
 _Busch Stadium_
 Projected score: Chicago White Sox 4.97 - St. Louis Cardinals 4.53
-Model likes: **Chicago White Sox** to win (53%) | Run line: **St. Louis Cardinals** +1.5 (60% to cover) | Total 8.5: lean **OVER** (53%)
+Model likes: **Chicago White Sox** to win (54%) | Run line: **St. Louis Cardinals** +1.5 (60% to cover) | Total 8.5: lean **OVER** (53%)
 
 ### Chicago White Sox lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.48)_
@@ -807,7 +807,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-12 - Cleveland Guardians @ Minnesota Twins (Scheduled)
 _Target Field_
 Projected score: Cleveland Guardians 4.52 - Minnesota Twins 4.3
-Model likes: **Cleveland Guardians** to win (52%) | Run line: **Minnesota Twins** +1.5 (63% to cover) | Total 8.5: lean **UNDER** (53%)
+Model likes: **Cleveland Guardians** to win (52%) | Run line: **Minnesota Twins** +1.5 (63% to cover) | Total 8.5: lean **UNDER** (52%)
 
 ### Cleveland Guardians lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -897,7 +897,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-12 - Houston Astros @ Tampa Bay Rays (Scheduled)
 _Tropicana Field_
 Projected score: Houston Astros 4.15 - Tampa Bay Rays 3.66
-Model likes: **Houston Astros** to win (55%) | Run line: **Tampa Bay Rays** +1.5 (62% to cover) | Total 7.5: lean **UNDER** (52%)
+Model likes: **Houston Astros** to win (54%) | Run line: **Tampa Bay Rays** +1.5 (62% to cover) | Total 7.5: lean **UNDER** (52%)
 
 ### Houston Astros lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 1.0 relief IP in last 2 days (ratio 0.16)_
@@ -1048,7 +1048,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-12 - Seattle Mariners @ Athletics (Scheduled)
 _Sutter Health Park_
 Projected score: Seattle Mariners 4.9 - Athletics 4.58
-Model likes: **Seattle Mariners** to win (52%) | Run line: **Athletics** +1.5 (62% to cover) | Total 8.5: lean **OVER** (53%)
+Model likes: **Seattle Mariners** to win (53%) | Run line: **Athletics** +1.5 (62% to cover) | Total 8.5: lean **OVER** (53%)
 
 ### Seattle Mariners lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
