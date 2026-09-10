@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-09-10T05:59:07.259440+00:00_
+_Generated 2026-09-10T10:00:16.104435+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -164,7 +164,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.48)_
 ## 2026-09-10 - Pittsburgh Pirates @ Chicago White Sox (Scheduled)
 _Rate Field_
 Projected score: Pittsburgh Pirates 2.71 - Chicago White Sox 4.06
-Model likes: **Chicago White Sox** to win (64%) | Run line: **Pittsburgh Pirates** +1.5 (54% to cover) | Total 6.5: lean **UNDER** (53%)
+Model likes: **Chicago White Sox** to win (64%) | Run line: **Pittsburgh Pirates** +1.5 (55% to cover) | Total 6.5: lean **UNDER** (53%)
 
 ### Pittsburgh Pirates lineup -- PROJECTED (unconfirmed)
 **Probable P: Jared Jones (R)** -- L5: 22.7 IP, 30 K, 14 ER, 5.56 ERA
@@ -525,7 +525,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-11 - Chicago White Sox @ St. Louis Cardinals (Scheduled)
 _Busch Stadium_
 Projected score: Chicago White Sox 4.97 - St. Louis Cardinals 4.53
-Model likes: **Chicago White Sox** to win (54%) | Run line: **St. Louis Cardinals** +1.5 (60% to cover) | Total 8.5: lean **OVER** (53%)
+Model likes: **Chicago White Sox** to win (53%) | Run line: **St. Louis Cardinals** +1.5 (60% to cover) | Total 8.5: lean **OVER** (53%)
 
 ### Chicago White Sox lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.48)_
@@ -942,7 +942,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-12 - Cincinnati Reds @ Milwaukee Brewers (Scheduled)
 _American Family Field_
 Projected score: Cincinnati Reds 3.87 - Milwaukee Brewers 5.19
-Model likes: **Milwaukee Brewers** to win (61%) | Run line: **Cincinnati Reds** +1.5 (54% to cover) | Total 8.5: lean **UNDER** (50%)
+Model likes: **Milwaukee Brewers** to win (61%) | Run line: **Cincinnati Reds** +1.5 (54% to cover) | Total 8.5: lean **UNDER** (51%)
 
 ### Cincinnati Reds lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
