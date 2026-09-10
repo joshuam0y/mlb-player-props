@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-09-10T22:27:33.461987+00:00_
+_Generated 2026-09-10T22:34:03.924738+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -150,7 +150,7 @@ Model likes: **New York Yankees** to win (75%) | Run line: **New York Yankees** 
 ## 2026-09-10 - Pittsburgh Pirates @ Chicago White Sox (Pre-Game)
 _Rate Field_
 Projected score: Pittsburgh Pirates 3.08 - Chicago White Sox 4.64
-Model likes: **Chicago White Sox** to win (64%) | Run line: **Pittsburgh Pirates** +1.5 (52% to cover) | Total 7.5: lean **UNDER** (53%)
+Model likes: **Chicago White Sox** to win (64%) | Run line: **Pittsburgh Pirates** +1.5 (52% to cover) | Total 7.5: lean **UNDER** (54%)
 
 ### Pittsburgh Pirates lineup -- CONFIRMED
 _Facing a taxed bullpen: 11.7 relief IP in last 2 days (ratio 1.56)_
@@ -209,7 +209,7 @@ Model likes: **Chicago Cubs** to win (61%) | Run line: **Pittsburgh Pirates** +1
 ## 2026-09-11 - Colorado Rockies @ Detroit Tigers (Scheduled)
 _Comerica Park [pitcher-friendly park]_
 Projected score: Colorado Rockies 3.87 - Detroit Tigers 3.64
-Model likes: **Colorado Rockies** to win (52%) | Run line: **Detroit Tigers** +1.5 (64% to cover) | Total 6.5: lean **OVER** (55%)
+Model likes: **Colorado Rockies** to win (52%) | Run line: **Detroit Tigers** +1.5 (65% to cover) | Total 6.5: lean **OVER** (55%)
 
 ### Colorado Rockies lineup -- PROJECTED (unconfirmed)
 **Probable P: Mason Adams (R)** -- L5: 13.7 IP, 17 K, 6 ER, 3.95 ERA
@@ -446,7 +446,7 @@ Model likes: **Atlanta Braves** to win (68%) | Run line: **Atlanta Braves** -1.5
 ## 2026-09-11 - Cincinnati Reds @ Milwaukee Brewers (Scheduled)
 _American Family Field_
 Projected score: Cincinnati Reds 4.06 - Milwaukee Brewers 5.12
-Model likes: **Milwaukee Brewers** to win (59%) | Run line: **Cincinnati Reds** +1.5 (56% to cover) | Total 8.5: lean **OVER** (50%)
+Model likes: **Milwaukee Brewers** to win (59%) | Run line: **Cincinnati Reds** +1.5 (56% to cover) | Total 8.5: lean **OVER** (51%)
 
 ### Cincinnati Reds lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 4.0 relief IP in last 2 days (ratio 0.63)_
@@ -507,7 +507,7 @@ _Facing a taxed bullpen: 5.7 relief IP in last 2 days (ratio 1.2)_
 ## 2026-09-11 - Chicago White Sox @ St. Louis Cardinals (Scheduled)
 _Busch Stadium_
 Projected score: Chicago White Sox 4.97 - St. Louis Cardinals 4.21
-Model likes: **Chicago White Sox** to win (56%) | Run line: **St. Louis Cardinals** +1.5 (58% to cover) | Total 8.5: lean **OVER** (51%)
+Model likes: **Chicago White Sox** to win (56%) | Run line: **St. Louis Cardinals** +1.5 (58% to cover) | Total 8.5: lean **OVER** (50%)
 
 ### Chicago White Sox lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.48)_
@@ -542,13 +542,13 @@ Model likes: **Seattle Mariners** to win (55%) | Run line: **Athletics** +1.5 (5
 
 ### Seattle Mariners lineup -- PROJECTED (unconfirmed)
 **Probable P: George Kirby (R)** -- L5: 27.3 IP, 21 K, 20 ER, 6.59 ERA
-- Julio Rodríguez (R) [MATCHUP EDGE: pitcher hits 0.266 avg-against vs this hand] -- L7: 5H 0HR 4RBI 6TB (0.167 avg) -- away split: 0.227 avg
-- Randy Arozarena (R) [MATCHUP EDGE: pitcher hits 0.266 avg-against vs this hand] [4-game hit streak] -- L7: 7H 0HR 2RBI 9TB (0.280 avg) -- away split: 0.300 avg
+- Julio Rodríguez (R) [MATCHUP EDGE: pitcher hits 0.266 avg-against vs this hand] -- L7: 4H 1HR 6RBI 8TB (0.143 avg) -- away split: 0.227 avg
+- Randy Arozarena (R) [MATCHUP EDGE: pitcher hits 0.266 avg-against vs this hand] -- L7: 6H 0HR 1RBI 8TB (0.273 avg) -- away split: 0.300 avg
+- Cal Raleigh (S) [MATCHUP EDGE: pitcher hits 0.266 avg-against vs this hand] [likely BABIP-driven, not a real power uptick] -- L7: 9H 1HR 4RBI 15TB (0.360 avg) -- away split: 0.163 avg
+- J.P. Crawford (L) [likely BABIP-driven, not a real power uptick] -- L7: 7H 0HR 2RBI 7TB (0.333 avg) -- away split: 0.231 avg
 - Cole Young (L) -- L7: 6H 0HR 3RBI 8TB (0.273 avg) -- away split: 0.241 avg
 - Dominic Canzone (L) -- L7: 7H 0HR 3RBI 9TB (0.241 avg) -- away split: 0.262 avg
-- Cal Raleigh (S) [MATCHUP EDGE: pitcher hits 0.266 avg-against vs this hand] -- L7: 9H 1HR 5RBI 16TB (0.346 avg) -- away split: 0.163 avg
 - Josh Naylor (L) [3-game hit streak] -- L7: 7H 0HR 2RBI 8TB (0.241 avg) -- away split: 0.275 avg
-- J.P. Crawford (L) [likely BABIP-driven, not a real power uptick] -- L7: 7H 0HR 2RBI 7TB (0.333 avg) -- away split: 0.231 avg
 - Brock Rodden (S) [MATCHUP EDGE: pitcher hits 0.266 avg-against vs this hand] [likely BABIP-driven, not a real power uptick] -- L7: 6H 0HR 1RBI 7TB (0.545 avg) -- away split: 0.258 avg
 - Taylor Ward (R) [MATCHUP EDGE: pitcher hits 0.266 avg-against vs this hand] -- L7: 2H 0HR 1RBI 2TB (0.111 avg) -- away split: 0.231 avg
 
@@ -571,13 +571,13 @@ Projected score: Texas Rangers 4.3 - Arizona Diamondbacks 4.76
 Model likes: **Arizona Diamondbacks** to win (54%) | Run line: **Texas Rangers** +1.5 (61% to cover) | Total 8.5: lean **UNDER** (50%)
 
 ### Texas Rangers lineup -- PROJECTED (unconfirmed)
+- Ezequiel Duran (R) -- L7: 5H 1HR 3RBI 8TB (0.185 avg) -- away split: 0.240 avg
 - Wyatt Langford (R) -- L7: 2H 1HR 2RBI 6TB (0.083 avg) -- away split: 0.253 avg
+- Evan Carter (L) -- L7: 5H 1HR 2RBI 10TB (0.238 avg) -- away split: 0.188 avg
 - Cody Freeman (R) -- L7: 2H 0HR 0RBI 2TB (0.118 avg) -- away split: 0.308 avg
-- Ezequiel Duran (R) -- L7: 8H 2HR 4RBI 14TB (0.286 avg) -- away split: 0.242 avg
 - Jake Burger (R) -- L7: 6H 3HR 5RBI 15TB (0.273 avg) -- away split: 0.253 avg
 - Corey Seager (L) [6-game hit streak] -- L7: 8H 4HR 5RBI 20TB (0.276 avg) -- away split: 0.232 avg
 - Brandon Nimmo (L) -- L7: 4H 0HR 0RBI 4TB (0.148 avg) -- away split: 0.274 avg
-- Evan Carter (L) -- L7: 5H 1HR 2RBI 10TB (0.250 avg) -- away split: 0.190 avg
 - Justin Foscue (R) [7-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 8H 1HR 7RBI 13TB (0.400 avg) -- away split: 0.303 avg
 - Joc Pederson (L) -- L7: 3H 1HR 1RBI 6TB (0.250 avg) -- away split: 0.269 avg
 
@@ -808,7 +808,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-12 - Cleveland Guardians @ Minnesota Twins (Scheduled)
 _Target Field_
 Projected score: Cleveland Guardians 4.52 - Minnesota Twins 4.3
-Model likes: **Cleveland Guardians** to win (52%) | Run line: **Minnesota Twins** +1.5 (63% to cover) | Total 8.5: lean **UNDER** (52%)
+Model likes: **Cleveland Guardians** to win (52%) | Run line: **Minnesota Twins** +1.5 (63% to cover) | Total 8.5: lean **UNDER** (53%)
 
 ### Cleveland Guardians lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1025,18 +1025,18 @@ Model likes: **Arizona Diamondbacks** to win (54%) | Run line: **Texas Rangers**
 
 ### Texas Rangers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
+- Ezequiel Duran (R) -- L7: 5H 1HR 3RBI 8TB (0.185 avg) -- away split: 0.240 avg
 - Wyatt Langford (R) -- L7: 2H 1HR 2RBI 6TB (0.083 avg) -- away split: 0.253 avg
+- Evan Carter (L) -- L7: 5H 1HR 2RBI 10TB (0.238 avg) -- away split: 0.188 avg
 - Cody Freeman (R) -- L7: 2H 0HR 0RBI 2TB (0.118 avg) -- away split: 0.308 avg
-- Ezequiel Duran (R) -- L7: 8H 2HR 4RBI 14TB (0.286 avg) -- away split: 0.242 avg
 - Jake Burger (R) -- L7: 6H 3HR 5RBI 15TB (0.273 avg) -- away split: 0.253 avg
 - Corey Seager (L) [6-game hit streak] -- L7: 8H 4HR 5RBI 20TB (0.276 avg) -- away split: 0.232 avg
 - Brandon Nimmo (L) -- L7: 4H 0HR 0RBI 4TB (0.148 avg) -- away split: 0.274 avg
-- Evan Carter (L) -- L7: 5H 1HR 2RBI 10TB (0.250 avg) -- away split: 0.190 avg
 - Justin Foscue (R) [7-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 8H 1HR 7RBI 13TB (0.400 avg) -- away split: 0.303 avg
 - Joc Pederson (L) -- L7: 3H 1HR 1RBI 6TB (0.250 avg) -- away split: 0.269 avg
 
 ### Arizona Diamondbacks lineup -- PROJECTED (unconfirmed)
-_Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
+_Facing a rested bullpen: 1.0 relief IP in last 2 days (ratio 0.19)_
 - Tim Tawa (R) [5-game hit streak] -- L7: 7H 1HR 2RBI 10TB (0.292 avg) -- home split: 0.256 avg
 - Geraldo Perdomo (S) -- L7: 5H 0HR 3RBI 6TB (0.250 avg) -- home split: 0.247 avg
 - Nolan Arenado (R) -- L7: 6H 2HR 4RBI 12TB (0.250 avg) -- home split: 0.248 avg
@@ -1055,13 +1055,13 @@ Model likes: **Seattle Mariners** to win (53%) | Run line: **Athletics** +1.5 (6
 ### Seattle Mariners lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 **Probable P: Bryan Woo (R)** -- L5: 29.0 IP, 31 K, 9 ER, 2.79 ERA
-- Julio Rodríguez (R) [MATCHUP EDGE: pitcher hits 0.264 avg-against vs this hand] -- L7: 5H 0HR 4RBI 6TB (0.167 avg) -- away split: 0.227 avg
-- Randy Arozarena (R) [MATCHUP EDGE: pitcher hits 0.264 avg-against vs this hand] [4-game hit streak] -- L7: 7H 0HR 2RBI 9TB (0.280 avg) -- away split: 0.300 avg
+- Julio Rodríguez (R) [MATCHUP EDGE: pitcher hits 0.264 avg-against vs this hand] -- L7: 4H 1HR 6RBI 8TB (0.143 avg) -- away split: 0.227 avg
+- Randy Arozarena (R) [MATCHUP EDGE: pitcher hits 0.264 avg-against vs this hand] -- L7: 6H 0HR 1RBI 8TB (0.273 avg) -- away split: 0.300 avg
+- Cal Raleigh (S) [MATCHUP EDGE: pitcher hits 0.264 avg-against vs this hand] [likely BABIP-driven, not a real power uptick] -- L7: 9H 1HR 4RBI 15TB (0.360 avg) -- away split: 0.163 avg
+- J.P. Crawford (L) [likely BABIP-driven, not a real power uptick] -- L7: 7H 0HR 2RBI 7TB (0.333 avg) -- away split: 0.231 avg
 - Cole Young (L) -- L7: 6H 0HR 3RBI 8TB (0.273 avg) -- away split: 0.241 avg
 - Dominic Canzone (L) -- L7: 7H 0HR 3RBI 9TB (0.241 avg) -- away split: 0.262 avg
-- Cal Raleigh (S) [MATCHUP EDGE: pitcher hits 0.264 avg-against vs this hand] -- L7: 9H 1HR 5RBI 16TB (0.346 avg) -- away split: 0.163 avg
 - Josh Naylor (L) [3-game hit streak] -- L7: 7H 0HR 2RBI 8TB (0.241 avg) -- away split: 0.275 avg
-- J.P. Crawford (L) [likely BABIP-driven, not a real power uptick] -- L7: 7H 0HR 2RBI 7TB (0.333 avg) -- away split: 0.231 avg
 - Brock Rodden (S) [MATCHUP EDGE: pitcher hits 0.264 avg-against vs this hand] [likely BABIP-driven, not a real power uptick] -- L7: 6H 0HR 1RBI 7TB (0.545 avg) -- away split: 0.258 avg
 - Taylor Ward (R) [MATCHUP EDGE: pitcher hits 0.264 avg-against vs this hand] -- L7: 2H 0HR 1RBI 2TB (0.111 avg) -- away split: 0.231 avg
 
