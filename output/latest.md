@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-09-10T00:23:02.528408+00:00_
+_Generated 2026-09-10T00:39:50.268719+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -412,7 +412,7 @@ _Facing a taxed bullpen: 8.0 relief IP in last 2 days (ratio 1.27)_
 - #8 Garrett Mitchell (L) -- L7: 6H 0HR 2RBI 9TB (0.300 avg) -- home split: 0.275 avg
 - #9 Cooper Pratt (R) -- L7: 6H 0HR 7RBI 8TB (0.261 avg) -- home split: 0.207 avg
 
-## 2026-09-09 - Arizona Diamondbacks @ Kansas City Royals (Warmup)
+## 2026-09-09 - Arizona Diamondbacks @ Kansas City Royals (In Progress)
 _Kauffman Stadium [pitcher-friendly park]_
 Projected score: Arizona Diamondbacks 4.64 - Kansas City Royals 5.57
 Model likes: **Kansas City Royals** to win (57%) | Run line: **Arizona Diamondbacks** +1.5 (56% to cover) | Total 9.5: lean **OVER** (50%)
@@ -536,7 +536,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.48)_
 ## 2026-09-10 - Houston Astros @ Philadelphia Phillies (Scheduled)
 _Citizens Bank Park [hitter-friendly park]_
 Projected score: Houston Astros 3.57 - Philadelphia Phillies 4.52
-Model likes: **Philadelphia Phillies** to win (58%) | Run line: **Houston Astros** +1.5 (57% to cover) | Total 7.5: lean **OVER** (50%)
+Model likes: **Philadelphia Phillies** to win (59%) | Run line: **Houston Astros** +1.5 (57% to cover) | Total 7.5: lean **OVER** (50%)
 
 ### Houston Astros lineup -- PROJECTED (unconfirmed)
 **Probable P: Cristian Javier (R)** -- L5: 22.3 IP, 27 K, 13 ER, 5.24 ERA
@@ -596,7 +596,7 @@ _Facing a taxed bullpen: 8.3 relief IP in last 2 days (ratio 1.6)_
 ## 2026-09-10 - Colorado Rockies @ New York Yankees (Scheduled)
 _Yankee Stadium [hitter-friendly park]_
 Projected score: Colorado Rockies 2.81 - New York Yankees 5.43
-Model likes: **New York Yankees** to win (73%) | Run line: **New York Yankees** -1.5 (57% to cover) | Total 7.5: lean **OVER** (51%)
+Model likes: **New York Yankees** to win (72%) | Run line: **New York Yankees** -1.5 (57% to cover) | Total 7.5: lean **OVER** (51%)
 
 ### Colorado Rockies lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.33)_
@@ -627,7 +627,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.48)_
 ## 2026-09-10 - Pittsburgh Pirates @ Chicago White Sox (Scheduled)
 _Rate Field_
 Projected score: Pittsburgh Pirates 3.96 - Chicago White Sox 4.1
-Model likes: **Chicago White Sox** to win (51%) | Run line: **Pittsburgh Pirates** +1.5 (64% to cover) | Total 7.5: lean **OVER** (50%)
+Model likes: **Chicago White Sox** to win (51%) | Run line: **Pittsburgh Pirates** +1.5 (65% to cover) | Total 7.5: lean **OVER** (50%)
 
 ### Pittsburgh Pirates lineup -- PROJECTED (unconfirmed)
 **Probable P: Jared Jones (R)** -- L5: 22.7 IP, 30 K, 14 ER, 5.56 ERA
@@ -864,7 +864,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-11 - Kansas City Royals @ Boston Red Sox (Scheduled)
 _Fenway Park_
 Projected score: Kansas City Royals 2.72 - Boston Red Sox 4.58
-Model likes: **Boston Red Sox** to win (68%) | Run line: **Boston Red Sox** -1.5 (51% to cover) | Total 6.5: lean **OVER** (53%)
+Model likes: **Boston Red Sox** to win (68%) | Run line: **Boston Red Sox** -1.5 (51% to cover) | Total 6.5: lean **OVER** (52%)
 
 ### Kansas City Royals lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -953,7 +953,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-11 - Cleveland Guardians @ Minnesota Twins (Scheduled)
 _Target Field_
 Projected score: Cleveland Guardians 3.95 - Minnesota Twins 3.12
-Model likes: **Cleveland Guardians** to win (58%) | Run line: **Minnesota Twins** +1.5 (59% to cover) | Total 6.5: lean **OVER** (50%)
+Model likes: **Cleveland Guardians** to win (58%) | Run line: **Minnesota Twins** +1.5 (60% to cover) | Total 6.5: lean **OVER** (51%)
 
 ### Cleveland Guardians lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 5.7 relief IP in last 2 days (ratio 1.2)_
@@ -1014,7 +1014,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-11 - Seattle Mariners @ Athletics (Scheduled)
 _Sutter Health Park_
 Projected score: Seattle Mariners 5.2 - Athletics 6.08
-Model likes: **Athletics** to win (56%) | Run line: **Seattle Mariners** +1.5 (56% to cover) | Total 10.5: lean **OVER** (51%)
+Model likes: **Athletics** to win (56%) | Run line: **Seattle Mariners** +1.5 (56% to cover) | Total 10.5: lean **OVER** (50%)
 
 ### Seattle Mariners lineup -- PROJECTED (unconfirmed)
 - Julio Rodríguez (R) [MATCHUP EDGE: pitcher hits 0.266 avg-against vs this hand] -- L7: 5H 0HR 4RBI 6TB (0.167 avg) -- away split: 0.227 avg
