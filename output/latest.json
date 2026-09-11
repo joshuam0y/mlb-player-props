@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T05:01:27.975911+00:00",
+  "generated_at": "2026-09-11T05:58:00.526529+00:00",
   "range": [
     "2026-09-11",
     "2026-09-13"
@@ -17,22 +17,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 824631,
-        "generated_at": "2026-09-11T05:00:00.055869+00:00",
+        "generated_at": "2026-09-11T05:55:06.886513+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 5.1,
-        "away_exp_runs": 3.38,
-        "home_win_prob": 0.648,
+        "away_exp_runs": 3.33,
+        "home_win_prob": 0.652,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.494,
+        "spread_cover_prob": 0.498,
         "total_line": 7.5,
-        "over_prob": 0.536,
+        "over_prob": 0.53,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.506,
+        "spread_pick_prob": 0.502,
         "total_pick": "over",
-        "total_pick_prob": 0.536,
+        "total_pick_prob": 0.53,
         "spread_favorite": "home"
       },
       "highlights": [],
@@ -4553,7 +4553,7 @@
           }
         ],
         "star_player_id": 684007,
-        "ai_summary": "The Chicago Cubs hold an 81-66 record through 147 games but are slumping with a four-game losing streak and a 4-6 mark in their last ten. Team batting is better than league average at .251 AVG and .430 SLG with 203 home runs, while pitching is worse than league average with a 4.22 ERA and 1.27 WHIP. Edward Cabrera, Dansby Swanson, and Gavin Hollowell are currently on the injured list, and the team recently called up top prospect BJ Murray Jr."
+        "ai_summary": "The Chicago Cubs enter this stretch with an 81-66 record but are currently mired in a four-game losing streak, going 4-6 over their last ten games with a plus-one run differential. Team batting is better than league average, and pitching is about the same as league average. Bettors should also factor in that Edward Cabrera, Dansby Swanson, and Gavin Hollowell are currently on the injured list."
       },
       "away": {
         "team_id": 134,
@@ -4914,11 +4914,11 @@
           "fatigue_ratio": 0.79
         },
         "form": {
-          "streak": 3,
+          "streak": 4,
           "record_games": 10,
           "wins": 8,
           "losses": 2,
-          "run_diff": 13
+          "run_diff": 11
         },
         "batters": [
           {
@@ -9092,22 +9092,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 824227,
-        "generated_at": "2026-09-11T05:00:00.055869+00:00",
+        "generated_at": "2026-09-11T05:55:06.886513+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.45,
-        "away_exp_runs": 3.63,
-        "home_win_prob": 0.483,
+        "away_exp_runs": 3.58,
+        "home_win_prob": 0.486,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.31,
+        "spread_cover_prob": 0.314,
         "total_line": 6.5,
-        "over_prob": 0.508,
+        "over_prob": 0.502,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
-        "spread_pick_prob": 0.656,
+        "spread_pick_prob": 0.66,
         "total_pick": "over",
-        "total_pick_prob": 0.508,
+        "total_pick_prob": 0.502,
         "spread_favorite": "away"
       },
       "highlights": [],
@@ -13614,7 +13614,7 @@
           }
         ],
         "star_player_id": 664285,
-        "ai_summary": "The Detroit Tigers hold a 67-79 record after going 4-6 over their last ten games with a minus-ten run differential, though they enter on a one-game win streak. Their batting is about the same as league average at .240 AVG and .399 SLG, while their pitching is better than league average with a 3.44 ERA and 1.18 WHIP. Bettors should also note that Matt Vierling, James Outman, and Kerry Carpenter are currently on the injured list."
+        "ai_summary": "The Detroit Tigers enter this stretch with a 67-79 record, going 4-6 over their last ten games with a minus-ten run differential while currently on a one-game win streak. Their batting is about the same as league average at .240 AVG and .399 SLG, while their pitching is better than league average with a 3.44 ERA and 1.18 WHIP. Bettors should note that Matt Vierling, James Outman, and Kerry Carpenter are currently on the injured list."
       },
       "away": {
         "team_id": 115,
@@ -13947,11 +13947,11 @@
           "fatigue_ratio": 0.89
         },
         "form": {
-          "streak": -3,
+          "streak": -4,
           "record_games": 10,
           "wins": 3,
           "losses": 7,
-          "run_diff": -7
+          "run_diff": -13
         },
         "batters": [
           {
@@ -18072,7 +18072,7 @@
           }
         ],
         "star_player_id": 678662,
-        "ai_summary": "The Colorado Rockies enter this game with a 55-90 record after going 3-7 over their last ten games and currently riding a three-game losing streak. Their team batting is better than league average, while their pitching is worse than league average with a 5.47 ERA and 1.52 WHIP. Bettors should also note that Willi Castro and Kyle Freeland are currently on the injured list."
+        "ai_summary": "The Colorado Rockies enter this matchup with a 55-91 record through 146 games and are currently on a four-game losing streak, going 3-7 over their last ten with a minus-13 run differential. Their batting is better than league average at .254 AVG, .418 SLG, and 160 home runs, but their pitching is worse than league average with a 5.44 ERA and 1.51 WHIP. Bettors should also factor in that Willi Castro and Kyle Freeland are currently on the injured list."
       }
     },
     {
@@ -18087,22 +18087,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 822684,
-        "generated_at": "2026-09-11T05:00:00.055869+00:00",
+        "generated_at": "2026-09-11T05:55:06.886513+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.81,
         "away_exp_runs": 3.48,
-        "home_win_prob": 0.617,
+        "home_win_prob": 0.618,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.461,
+        "spread_cover_prob": 0.462,
         "total_line": 7.5,
-        "over_prob": 0.519,
+        "over_prob": 0.52,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.539,
+        "spread_pick_prob": 0.538,
         "total_pick": "over",
-        "total_pick_prob": 0.519,
+        "total_pick_prob": 0.52,
         "spread_favorite": "home"
       },
       "highlights": [],
@@ -27111,7 +27111,7 @@
           }
         ],
         "star_player_id": 694208,
-        "ai_summary": "The Los Angeles Angels hold a 56-90 record and carry a two-game win streak after going 4-6 over their last ten games with a plus-six run differential. Their batting ranks worse than the league average at .236 AVG and .374 SLG, while their pitching is about the same as the league average with a 3.91 ERA and 1.30 WHIP. Bettors should also note that George Klassen, Gustavo Campero, Nolan Schanuel, Shaun Anderson, and Sam Bachman are currently on the injured list."
+        "ai_summary": "The Los Angeles Angels hold a 56-90 record after going 4-6 over their last ten games, and they are currently on a two-game win streak with a plus-six run differential. Team batting is worse than league average at .236 AVG and .376 SLG, while pitching is about the same as league average with a 3.92 ERA and 1.30 WHIP. Bettors should note that George Klassen, Gustavo Campero, Nolan Schanuel, Shaun Anderson, and Sam Bachman are currently on the injured list."
       }
     },
     {
@@ -27126,22 +27126,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 823498,
-        "generated_at": "2026-09-11T05:00:00.055869+00:00",
+        "generated_at": "2026-09-11T05:55:06.886513+00:00",
         "model_version": "v1-log5-negbinom",
-        "home_exp_runs": 3.51,
+        "home_exp_runs": 3.6,
         "away_exp_runs": 3.24,
-        "home_win_prob": 0.528,
+        "home_win_prob": 0.537,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.347,
+        "spread_cover_prob": 0.357,
         "total_line": 6.5,
-        "over_prob": 0.473,
+        "over_prob": 0.482,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.653,
+        "spread_pick_prob": 0.643,
         "total_pick": "under",
-        "total_pick_prob": 0.527,
+        "total_pick_prob": 0.518,
         "spread_favorite": "home"
       },
       "highlights": [],
@@ -27517,7 +27517,7 @@
           "fatigue_ratio": 0.75
         },
         "form": {
-          "streak": 2,
+          "streak": 3,
           "record_games": 10,
           "wins": 7,
           "losses": 3,
@@ -36184,7 +36184,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 822767,
-        "generated_at": "2026-09-11T05:00:00.055869+00:00",
+        "generated_at": "2026-09-11T05:55:06.886513+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.65,
         "away_exp_runs": 4.78,
@@ -36192,14 +36192,14 @@
         "spread_line": 1.5,
         "spread_cover_prob": 0.259,
         "total_line": 7.5,
-        "over_prob": 0.533,
+        "over_prob": 0.532,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
         "spread_pick_prob": 0.556,
         "total_pick": "over",
-        "total_pick_prob": 0.533,
+        "total_pick_prob": 0.532,
         "spread_favorite": "away"
       },
       "highlights": [],
@@ -45246,7 +45246,7 @@
           }
         ],
         "star_player_id": 605135,
-        "ai_summary": "The Baltimore Orioles enter with a 71-76 record after going 3-7 over their last ten games with a minus-nine run differential, though they carry a one-game win streak. Their batting is worse than league average at a .234 average and .394 slugging percentage, while their pitching is about the same as league average with a 3.93 ERA and 1.30 WHIP. Bettors should also note that Blaze Alexander, Luis Robert Jr., Christian Franklin, and Tyler O'Neill are currently on the injured list."
+        "ai_summary": "The Baltimore Orioles enter with a 71-76 record through 147 games and went 3-7 over their last ten with a minus-nine run differential, currently holding a one-game win streak. Team batting sits at .234 average and .395 slugging with 176 home runs, which is worse than the league average. Pitching stands at a 3.94 ERA and 1.30 WHIP, making their pitching about the same as league average. Bettors should note that Blaze Alexander, Luis Robert Jr., Christian Franklin, and Tyler O'Neill are currently on the injured list."
       }
     },
     {
@@ -45261,7 +45261,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 822930,
-        "generated_at": "2026-09-11T05:00:00.055869+00:00",
+        "generated_at": "2026-09-11T05:55:06.886513+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.76,
         "away_exp_runs": 3.26,
@@ -54281,7 +54281,7 @@
           }
         ],
         "star_player_id": 670623,
-        "ai_summary": "The Houston Astros enter play with a 74-72 record through 146 games, going 6-4 over their last 10 contests with a plus-five run differential while currently on a one-game losing streak. Their team batting features a .245 batting average and .418 slugging percentage, which is about the same as league average. Their pitching staff holds a 4.11 ERA and 1.28 WHIP, also rating about the same as league average. Relief pitcher Steven Okert is currently on the injured list."
+        "ai_summary": "The Houston Astros hold a 75-72 record through 147 games and carry a one-game win streak into tonight following a 6-4 stretch in their last ten games with a plus-three run differential. Their team batting features a .245 average and .418 slugging mark with 176 home runs, making it about the same as league average. Pitching-wise, the team sits at a 4.12 ERA and 1.28 WHIP, which is also about the same as league average. Steven Okert is currently on the injured list."
       }
     },
     {
@@ -54296,22 +54296,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 823817,
-        "generated_at": "2026-09-11T05:00:00.055869+00:00",
+        "generated_at": "2026-09-11T05:55:06.886513+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.53,
         "away_exp_runs": 4.57,
-        "home_win_prob": 0.407,
+        "home_win_prob": 0.406,
         "spread_line": 1.5,
         "spread_cover_prob": 0.259,
         "total_line": 7.5,
-        "over_prob": 0.503,
+        "over_prob": 0.502,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
         "spread_pick_prob": 0.566,
         "total_pick": "over",
-        "total_pick_prob": 0.503,
+        "total_pick_prob": 0.502,
         "spread_favorite": "away"
       },
       "highlights": [],
@@ -62968,7 +62968,7 @@
           }
         ],
         "star_player_id": 606192,
-        "ai_summary": "The Los Angeles Dodgers hold an 89-57 record, riding a seven-game win streak while going 8-2 over their last ten games with a plus-21 run differential. Their batting and pitching are both better than league average, backed by a .256 batting average and a 3.65 ERA. Bettors should note they have several players on the injured list, including Dalton Rushing, Will Klein, Eric Lauer, Roki Sasaki, Andy Pages, and Edwin D\u00edaz. Additionally, they recently traded for right-hander Sebastian Rodriguez."
+        "ai_summary": "The Los Angeles Dodgers bring an 89-57 record into today's matchup, riding a scorching seven-game win streak and an 8-2 mark over their last ten games with a plus-21 run differential. Their offense performs better than the league average, backed by a .257 batting average, .425 slugging percentage, and 175 home runs. Additionally, their pitching staff ranks better than the league average with a 3.62 ERA and 1.15 WHIP. Bettors should note the team is missing Dalton Rushing, Will Klein, Eric Lauer, Roki Sasaki, Andy Pages, and Edwin D\u00edaz to the injured list."
       }
     },
     {
@@ -62983,22 +62983,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 824711,
-        "generated_at": "2026-09-11T05:00:00.055869+00:00",
+        "generated_at": "2026-09-11T05:55:06.886513+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.42,
         "away_exp_runs": 2.52,
-        "home_win_prob": 0.688,
+        "home_win_prob": 0.687,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.513,
+        "spread_cover_prob": 0.511,
         "total_line": 6.5,
-        "over_prob": 0.49,
+        "over_prob": 0.489,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "home",
-        "spread_pick_prob": 0.513,
+        "spread_pick_prob": 0.511,
         "total_pick": "under",
-        "total_pick_prob": 0.51,
+        "total_pick_prob": 0.511,
         "spread_favorite": "home"
       },
       "highlights": [],
@@ -67523,7 +67523,7 @@
           }
         ],
         "star_player_id": 543243,
-        "ai_summary": "The Boston Red Sox enter today with an 80-67 record and are on a two-game loss streak, going 6-4 with a minus-two run differential over their last ten games. Their batting statistics are about the same as league average, while their pitching is better than the league average. Bettors should also factor in that Ceddanne Rafaela, Tyron Guerrero, Willson Contreras, Justin Slaten, Masataka Yoshida, and Curtis Mead are currently on the injured list."
+        "ai_summary": "The Boston Red Sox hold an 80-67 record through 147 games and are on a two-game losing streak after going 6-4 over their last ten with a minus-two run differential. Team batting is about the same as league average at .249 AVG and .408 SLG with 150 home runs. Team pitching is better than league average, posting a 3.45 ERA and 1.20 WHIP. Bettors should note that Ceddanne Rafaela, Tyron Guerrero, Willson Contreras, Justin Slaten, Masataka Yoshida, and Curtis Mead are currently on the injured list."
       },
       "away": {
         "team_id": 118,
@@ -72041,7 +72041,7 @@
           }
         ],
         "star_player_id": 607625,
-        "ai_summary": "The Kansas City Royals hold a 65-82 record after 147 games and are currently on a one-game win streak, though they went 3-7 over their last ten with a minus-fifteen run differential. Their batting performance sits about the same as the league average, while their pitching is worse than the league average. Bettors should also factor in that Maikel Garcia, Luinder Avila, and Beck Way are currently on the injured list."
+        "ai_summary": "The Kansas City Royals enter this matchup with a 65-82 record through 147 games, having gone 3-7 over their last ten with a minus-fifteen run differential while riding a one-game win streak. Their batting is about the same as the league average, while their pitching is worse than league average. Bettors should also factor in that Maikel Garcia, Luinder Avila, and Beck Way are currently on the injured list."
       }
     },
     {
@@ -72056,20 +72056,20 @@
       "live_score": null,
       "projection": {
         "game_pk": 824873,
-        "generated_at": "2026-09-11T05:00:00.055869+00:00",
+        "generated_at": "2026-09-11T05:55:06.886513+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.23,
         "away_exp_runs": 2.42,
-        "home_win_prob": 0.684,
+        "home_win_prob": 0.685,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.502,
+        "spread_cover_prob": 0.503,
         "total_line": 6.5,
         "over_prob": 0.459,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "home",
-        "spread_pick_prob": 0.502,
+        "spread_pick_prob": 0.503,
         "total_pick": "under",
         "total_pick_prob": 0.541,
         "spread_favorite": "home"
@@ -72443,7 +72443,7 @@
           "game_result": null,
           "opponent_recent_k_rate": {
             "games": 2,
-            "recent_k_rate": 0.311,
+            "recent_k_rate": 0.317,
             "season_k_rate": 0.24,
             "elevated": true
           }
@@ -81057,7 +81057,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 823736,
-        "generated_at": "2026-09-11T05:00:00.055869+00:00",
+        "generated_at": "2026-09-11T05:55:06.886513+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.78,
         "away_exp_runs": 3.82,
@@ -81065,14 +81065,14 @@
         "spread_line": 1.5,
         "spread_cover_prob": 0.43,
         "total_line": 8.5,
-        "over_prob": 0.454,
+        "over_prob": 0.455,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
         "spread_pick_prob": 0.57,
         "total_pick": "under",
-        "total_pick_prob": 0.546,
+        "total_pick_prob": 0.545,
         "spread_favorite": "home"
       },
       "highlights": [],
@@ -90112,7 +90112,7 @@
           }
         ],
         "star_player_id": 682829,
-        "ai_summary": "The Cincinnati Reds hold a 69-77 record over 146 games and enter on a three-game losing streak, going 5-5 with a minus-12 run differential over their last ten. Their batting is worse than league average, and their pitching is also worse than league average. Bettors should also factor in that Michael Toglia, Hunter Greene, and Spencer Steer are currently on the injured list."
+        "ai_summary": "The Cincinnati Reds enter at 69-77 overall and on a three-game losing streak, going 5-5 with a minus-12 run differential over their last ten games. Their team batting is worse than league average at .229 AVG and .400 SLG, though they have hit 191 home runs. Their pitching is also worse than league average with a 4.58 ERA and 1.40 WHIP. Bettors should note that Michael Toglia, Hunter Greene, and Spencer Steer are currently on the injured list."
       }
     },
     {
@@ -90127,22 +90127,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 823659,
-        "generated_at": "2026-09-11T05:00:00.055869+00:00",
+        "generated_at": "2026-09-11T05:55:06.886513+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 2.9,
         "away_exp_runs": 3.87,
-        "home_win_prob": 0.4,
+        "home_win_prob": 0.401,
         "spread_line": 1.5,
         "spread_cover_prob": 0.234,
         "total_line": 6.5,
-        "over_prob": 0.473,
+        "over_prob": 0.474,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
-        "spread_pick_prob": 0.584,
+        "spread_pick_prob": 0.583,
         "total_pick": "under",
-        "total_pick_prob": 0.527,
+        "total_pick_prob": 0.526,
         "spread_favorite": "away"
       },
       "highlights": [],
@@ -99161,7 +99161,7 @@
           }
         ],
         "star_player_id": 680757,
-        "ai_summary": "The Cleveland Guardians enter today with a 74-73 record through 147 games and went 5-5 in their last ten with a minus-fourteen run differential, currently on a one-game losing streak. Cleveland batting is worse than league average at .237 AVG and .374 SLG with 135 home runs. Their pitching is better than league average, boasting a 3.69 ERA and a 1.25 WHIP. Colin Holderman, Rhys Hoskins, and Shawn Armstrong are currently on the injured list."
+        "ai_summary": "The Cleveland Guardians enter today with a 74-73 record through 147 games, going 5-5 over their last ten with a minus-fourteen run differential and a one-game losing streak. Their batting is worse than league average at .238 AVG, .375 SLG, and 136 home runs, but their pitching is better than league average with a 3.67 ERA and 1.25 WHIP. Bettors should also note that Colin Holderman, Rhys Hoskins, and Shawn Armstrong are currently on the injured list."
       }
     },
     {
@@ -99176,22 +99176,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 823012,
-        "generated_at": "2026-09-11T05:00:00.055869+00:00",
+        "generated_at": "2026-09-11T05:55:06.886513+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.98,
-        "away_exp_runs": 4.79,
-        "home_win_prob": 0.431,
+        "away_exp_runs": 4.75,
+        "home_win_prob": 0.435,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.289,
+        "spread_cover_prob": 0.291,
         "total_line": 8.5,
-        "over_prob": 0.471,
+        "over_prob": 0.467,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
-        "spread_pick_prob": 0.581,
+        "spread_pick_prob": 0.586,
         "total_pick": "under",
-        "total_pick_prob": 0.529,
+        "total_pick_prob": 0.533,
         "spread_favorite": "away"
       },
       "highlights": [],
@@ -104121,11 +104121,11 @@
           "fatigue_ratio": 0.48
         },
         "form": {
-          "streak": -2,
+          "streak": -3,
           "record_games": 10,
           "wins": 3,
           "losses": 7,
-          "run_diff": -7
+          "run_diff": -5
         },
         "batters": [
           {
@@ -108244,20 +108244,20 @@
       "live_score": null,
       "projection": {
         "game_pk": 824954,
-        "generated_at": "2026-09-11T05:00:00.055869+00:00",
+        "generated_at": "2026-09-11T05:55:06.886513+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.37,
         "away_exp_runs": 4.94,
         "home_win_prob": 0.454,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.315,
+        "spread_cover_prob": 0.316,
         "total_line": 8.5,
         "over_prob": 0.516,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
-        "spread_pick_prob": 0.598,
+        "spread_pick_prob": 0.597,
         "total_pick": "over",
         "total_pick_prob": 0.516,
         "spread_favorite": "away"
@@ -117350,7 +117350,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 825036,
-        "generated_at": "2026-09-11T05:00:00.055869+00:00",
+        "generated_at": "2026-09-11T05:55:06.886513+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.72,
         "away_exp_runs": 4.35,
@@ -121497,7 +121497,7 @@
           }
         ],
         "star_player_id": 663457,
-        "ai_summary": "The Arizona Diamondbacks hold a 78-69 record after 147 games and went 5-5 over their last ten with an 11-run differential, currently on a one-game losing streak. Their team batting and pitching both perform about the same as the league average. Ryan Thompson remains on the injured list for the Diamondbacks."
+        "ai_summary": "The Arizona Diamondbacks enter today with a 78-69 record through 147 games, going 5-5 over their last ten with a minus-eleven run differential and a one-game loss streak. Their team batting is about the same as league average at .246 AVG and .399 SLG with 140 home runs. Their pitching is also about the same as league average, posting a 3.95 ERA and a 1.26 WHIP. Bettors should note that relief pitcher Ryan Thompson is currently on the injured list."
       },
       "away": {
         "team_id": 140,
@@ -125661,7 +125661,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 823173,
-        "generated_at": "2026-09-11T05:00:00.055869+00:00",
+        "generated_at": "2026-09-11T05:55:06.886513+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.16,
         "away_exp_runs": 3.08,
@@ -125669,14 +125669,14 @@
         "spread_line": 1.5,
         "spread_cover_prob": 0.319,
         "total_line": 5.5,
-        "over_prob": 0.532,
+        "over_prob": 0.531,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
         "spread_pick_prob": 0.681,
         "total_pick": "over",
-        "total_pick_prob": 0.532,
+        "total_pick_prob": 0.531,
         "spread_favorite": "home"
       },
       "highlights": [],
@@ -134761,22 +134761,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 824224,
-        "generated_at": "2026-09-11T05:00:00.055869+00:00",
+        "generated_at": "2026-09-11T05:55:06.886513+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.07,
-        "away_exp_runs": 3.7,
-        "home_win_prob": 0.535,
+        "away_exp_runs": 3.64,
+        "home_win_prob": 0.54,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.371,
+        "spread_cover_prob": 0.375,
         "total_line": 7.5,
-        "over_prob": 0.473,
+        "over_prob": 0.466,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.629,
+        "spread_pick_prob": 0.625,
         "total_pick": "under",
-        "total_pick_prob": 0.527,
+        "total_pick_prob": 0.534,
         "spread_favorite": "home"
       },
       "highlights": [],
@@ -138928,7 +138928,7 @@
           }
         ],
         "star_player_id": 693307,
-        "ai_summary": "The Detroit Tigers hold a 67-79 record after going 4-6 over their last ten games with a minus-ten run differential, though they enter on a one-game win streak. Their batting is about the same as league average at .240 AVG and .399 SLG, while their pitching is better than league average with a 3.44 ERA and 1.18 WHIP. Bettors should also note that Matt Vierling, James Outman, and Kerry Carpenter are currently on the injured list."
+        "ai_summary": "The Detroit Tigers enter this stretch with a 67-79 record, going 4-6 over their last ten games with a minus-ten run differential while currently on a one-game win streak. Their batting is about the same as league average at .240 AVG and .399 SLG, while their pitching is better than league average with a 3.44 ERA and 1.18 WHIP. Bettors should note that Matt Vierling, James Outman, and Kerry Carpenter are currently on the injured list."
       },
       "away": {
         "team_id": 115,
@@ -139301,11 +139301,11 @@
           "fatigue_ratio": 0.0
         },
         "form": {
-          "streak": -3,
+          "streak": -4,
           "record_games": 10,
           "wins": 3,
           "losses": 7,
-          "run_diff": -7
+          "run_diff": -13
         },
         "batters": [
           {
@@ -143426,7 +143426,7 @@
           }
         ],
         "star_player_id": 678662,
-        "ai_summary": "The Colorado Rockies enter this game with a 55-90 record after going 3-7 over their last ten games and currently riding a three-game losing streak. Their team batting is better than league average, while their pitching is worse than league average with a 5.47 ERA and 1.52 WHIP. Bettors should also note that Willi Castro and Kyle Freeland are currently on the injured list."
+        "ai_summary": "The Colorado Rockies enter this matchup with a 55-91 record through 146 games and are currently on a four-game losing streak, going 3-7 over their last ten with a minus-13 run differential. Their batting is better than league average at .254 AVG, .418 SLG, and 160 home runs, but their pitching is worse than league average with a 5.44 ERA and 1.51 WHIP. Bettors should also factor in that Willi Castro and Kyle Freeland are currently on the injured list."
       }
     },
     {
@@ -143441,22 +143441,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 823496,
-        "generated_at": "2026-09-11T05:00:00.055869+00:00",
+        "generated_at": "2026-09-11T05:55:06.886513+00:00",
         "model_version": "v1-log5-negbinom",
-        "home_exp_runs": 4.04,
+        "home_exp_runs": 4.12,
         "away_exp_runs": 3.48,
-        "home_win_prob": 0.554,
+        "home_win_prob": 0.56,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.386,
-        "total_line": 6.5,
-        "over_prob": 0.55,
+        "spread_cover_prob": 0.393,
+        "total_line": 7.5,
+        "over_prob": 0.456,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.614,
-        "total_pick": "over",
-        "total_pick_prob": 0.55,
+        "spread_pick_prob": 0.607,
+        "total_pick": "under",
+        "total_pick_prob": 0.544,
         "spread_favorite": "home"
       },
       "highlights": [],
@@ -143826,7 +143826,7 @@
           "fatigue_ratio": 0.0
         },
         "form": {
-          "streak": 2,
+          "streak": 3,
           "record_games": 10,
           "wins": 7,
           "losses": 3,
@@ -152499,22 +152499,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 824630,
-        "generated_at": "2026-09-11T05:00:00.055869+00:00",
+        "generated_at": "2026-09-11T05:55:06.886513+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.82,
-        "away_exp_runs": 3.08,
-        "home_win_prob": 0.657,
+        "away_exp_runs": 3.05,
+        "home_win_prob": 0.66,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.496,
+        "spread_cover_prob": 0.498,
         "total_line": 7.5,
-        "over_prob": 0.483,
+        "over_prob": 0.479,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.504,
+        "spread_pick_prob": 0.502,
         "total_pick": "under",
-        "total_pick_prob": 0.517,
+        "total_pick_prob": 0.521,
         "spread_favorite": "home"
       },
       "highlights": [],
@@ -157032,7 +157032,7 @@
           }
         ],
         "star_player_id": 605280,
-        "ai_summary": "The Chicago Cubs hold an 81-66 record through 147 games but are slumping with a four-game losing streak and a 4-6 mark in their last ten. Team batting is better than league average at .251 AVG and .430 SLG with 203 home runs, while pitching is worse than league average with a 4.22 ERA and 1.27 WHIP. Edward Cabrera, Dansby Swanson, and Gavin Hollowell are currently on the injured list, and the team recently called up top prospect BJ Murray Jr."
+        "ai_summary": "The Chicago Cubs enter this stretch with an 81-66 record but are currently mired in a four-game losing streak, going 4-6 over their last ten games with a plus-one run differential. Team batting is better than league average, and pitching is about the same as league average. Bettors should also factor in that Edward Cabrera, Dansby Swanson, and Gavin Hollowell are currently on the injured list."
       },
       "away": {
         "team_id": 134,
@@ -157400,11 +157400,11 @@
           "fatigue_ratio": 0.0
         },
         "form": {
-          "streak": 3,
+          "streak": 4,
           "record_games": 10,
           "wins": 8,
           "losses": 2,
-          "run_diff": 13
+          "run_diff": 11
         },
         "batters": [
           {
@@ -161571,22 +161571,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 822768,
-        "generated_at": "2026-09-11T05:00:00.055869+00:00",
+        "generated_at": "2026-09-11T05:55:06.886513+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.16,
         "away_exp_runs": 4.21,
-        "home_win_prob": 0.399,
+        "home_win_prob": 0.398,
         "spread_line": 1.5,
         "spread_cover_prob": 0.242,
         "total_line": 6.5,
-        "over_prob": 0.535,
+        "over_prob": 0.536,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
         "spread_pick_prob": 0.57,
         "total_pick": "over",
-        "total_pick_prob": 0.535,
+        "total_pick_prob": 0.536,
         "spread_favorite": "away"
       },
       "highlights": [],
@@ -170266,7 +170266,7 @@
           }
         ],
         "star_player_id": 680694,
-        "ai_summary": "The Baltimore Orioles enter with a 71-76 record after going 3-7 over their last ten games with a minus-nine run differential, though they carry a one-game win streak. Their batting is worse than league average at a .234 average and .394 slugging percentage, while their pitching is about the same as league average with a 3.93 ERA and 1.30 WHIP. Bettors should also note that Blaze Alexander, Luis Robert Jr., Christian Franklin, and Tyler O'Neill are currently on the injured list."
+        "ai_summary": "The Baltimore Orioles enter with a 71-76 record through 147 games and went 3-7 over their last ten with a minus-nine run differential, currently holding a one-game win streak. Team batting sits at .234 average and .395 slugging with 176 home runs, which is worse than the league average. Pitching stands at a 3.94 ERA and 1.30 WHIP, making their pitching about the same as league average. Bettors should note that Blaze Alexander, Luis Robert Jr., Christian Franklin, and Tyler O'Neill are currently on the injured list."
       }
     },
     {
@@ -170281,22 +170281,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 822685,
-        "generated_at": "2026-09-11T05:00:00.055869+00:00",
+        "generated_at": "2026-09-11T05:55:06.886513+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.3,
         "away_exp_runs": 3.8,
-        "home_win_prob": 0.451,
+        "home_win_prob": 0.45,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.283,
+        "spread_cover_prob": 0.282,
         "total_line": 6.5,
-        "over_prob": 0.509,
+        "over_prob": 0.51,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
-        "spread_pick_prob": 0.626,
+        "spread_pick_prob": 0.625,
         "total_pick": "over",
-        "total_pick_prob": 0.509,
+        "total_pick_prob": 0.51,
         "spread_favorite": "away"
       },
       "highlights": [],
@@ -179291,7 +179291,7 @@
           }
         ],
         "star_player_id": 694208,
-        "ai_summary": "The Los Angeles Angels hold a 56-90 record and carry a two-game win streak after going 4-6 over their last ten games with a plus-six run differential. Their batting ranks worse than the league average at .236 AVG and .374 SLG, while their pitching is about the same as the league average with a 3.91 ERA and 1.30 WHIP. Bettors should also note that George Klassen, Gustavo Campero, Nolan Schanuel, Shaun Anderson, and Sam Bachman are currently on the injured list."
+        "ai_summary": "The Los Angeles Angels hold a 56-90 record after going 4-6 over their last ten games, and they are currently on a two-game win streak with a plus-six run differential. Team batting is worse than league average at .236 AVG and .376 SLG, while pitching is about the same as league average with a 3.92 ERA and 1.30 WHIP. Bettors should note that George Klassen, Gustavo Campero, Nolan Schanuel, Shaun Anderson, and Sam Bachman are currently on the injured list."
       }
     },
     {
@@ -179306,20 +179306,20 @@
       "live_score": null,
       "projection": {
         "game_pk": 823170,
-        "generated_at": "2026-09-11T05:00:00.055869+00:00",
+        "generated_at": "2026-09-11T05:55:06.886513+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 2.91,
         "away_exp_runs": 1.94,
-        "home_win_prob": 0.625,
+        "home_win_prob": 0.626,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.394,
+        "spread_cover_prob": 0.395,
         "total_line": 4.5,
         "over_prob": 0.491,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.606,
+        "spread_pick_prob": 0.605,
         "total_pick": "under",
         "total_pick_prob": 0.509,
         "spread_favorite": "home"
@@ -188346,22 +188346,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 823657,
-        "generated_at": "2026-09-11T05:00:00.055869+00:00",
+        "generated_at": "2026-09-11T05:55:06.886513+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.3,
         "away_exp_runs": 4.52,
-        "home_win_prob": 0.481,
+        "home_win_prob": 0.482,
         "spread_line": 1.5,
         "spread_cover_prob": 0.336,
         "total_line": 8.5,
-        "over_prob": 0.475,
+        "over_prob": 0.474,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
         "spread_pick_prob": 0.63,
         "total_pick": "under",
-        "total_pick_prob": 0.525,
+        "total_pick_prob": 0.526,
         "spread_favorite": "away"
       },
       "highlights": [],
@@ -196670,7 +196670,7 @@
           }
         ],
         "star_player_id": 680757,
-        "ai_summary": "The Cleveland Guardians enter today with a 74-73 record through 147 games and went 5-5 in their last ten with a minus-fourteen run differential, currently on a one-game losing streak. Cleveland batting is worse than league average at .237 AVG and .374 SLG with 135 home runs. Their pitching is better than league average, boasting a 3.69 ERA and a 1.25 WHIP. Colin Holderman, Rhys Hoskins, and Shawn Armstrong are currently on the injured list."
+        "ai_summary": "The Cleveland Guardians enter today with a 74-73 record through 147 games, going 5-5 over their last ten with a minus-fourteen run differential and a one-game losing streak. Their batting is worse than league average at .238 AVG, .375 SLG, and 136 home runs, but their pitching is better than league average with a 3.67 ERA and 1.25 WHIP. Bettors should also note that Colin Holderman, Rhys Hoskins, and Shawn Armstrong are currently on the injured list."
       }
     },
     {
@@ -196685,7 +196685,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 823819,
-        "generated_at": "2026-09-11T05:00:00.055869+00:00",
+        "generated_at": "2026-09-11T05:55:06.886513+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.53,
         "away_exp_runs": 4.27,
@@ -196693,14 +196693,14 @@
         "spread_line": 1.5,
         "spread_cover_prob": 0.276,
         "total_line": 7.5,
-        "over_prob": 0.475,
+        "over_prob": 0.474,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
         "spread_pick_prob": 0.596,
         "total_pick": "under",
-        "total_pick_prob": 0.525,
+        "total_pick_prob": 0.526,
         "spread_favorite": "away"
       },
       "highlights": [],
@@ -205350,7 +205350,7 @@
           }
         ],
         "star_player_id": 606192,
-        "ai_summary": "The Los Angeles Dodgers hold an 89-57 record, riding a seven-game win streak while going 8-2 over their last ten games with a plus-21 run differential. Their batting and pitching are both better than league average, backed by a .256 batting average and a 3.65 ERA. Bettors should note they have several players on the injured list, including Dalton Rushing, Will Klein, Eric Lauer, Roki Sasaki, Andy Pages, and Edwin D\u00edaz. Additionally, they recently traded for right-hander Sebastian Rodriguez."
+        "ai_summary": "The Los Angeles Dodgers bring an 89-57 record into today's matchup, riding a scorching seven-game win streak and an 8-2 mark over their last ten games with a plus-21 run differential. Their offense performs better than the league average, backed by a .257 batting average, .425 slugging percentage, and 175 home runs. Additionally, their pitching staff ranks better than the league average with a 3.62 ERA and 1.15 WHIP. Bettors should note the team is missing Dalton Rushing, Will Klein, Eric Lauer, Roki Sasaki, Andy Pages, and Edwin D\u00edaz to the injured list."
       }
     },
     {
@@ -205365,7 +205365,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 824712,
-        "generated_at": "2026-09-11T05:00:00.055869+00:00",
+        "generated_at": "2026-09-11T05:55:06.886513+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.0,
         "away_exp_runs": 2.92,
@@ -205373,14 +205373,14 @@
         "spread_line": 1.5,
         "spread_cover_prob": 0.312,
         "total_line": 5.5,
-        "over_prob": 0.495,
+        "over_prob": 0.496,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
         "spread_pick_prob": 0.688,
         "total_pick": "under",
-        "total_pick_prob": 0.505,
+        "total_pick_prob": 0.504,
         "spread_favorite": "home"
       },
       "highlights": [],
@@ -209905,7 +209905,7 @@
           }
         ],
         "star_player_id": 624133,
-        "ai_summary": "The Boston Red Sox enter today with an 80-67 record and are on a two-game loss streak, going 6-4 with a minus-two run differential over their last ten games. Their batting statistics are about the same as league average, while their pitching is better than the league average. Bettors should also factor in that Ceddanne Rafaela, Tyron Guerrero, Willson Contreras, Justin Slaten, Masataka Yoshida, and Curtis Mead are currently on the injured list."
+        "ai_summary": "The Boston Red Sox hold an 80-67 record through 147 games and are on a two-game losing streak after going 6-4 over their last ten with a minus-two run differential. Team batting is about the same as league average at .249 AVG and .408 SLG with 150 home runs. Team pitching is better than league average, posting a 3.45 ERA and 1.20 WHIP. Bettors should note that Ceddanne Rafaela, Tyron Guerrero, Willson Contreras, Justin Slaten, Masataka Yoshida, and Curtis Mead are currently on the injured list."
       },
       "away": {
         "team_id": 118,
@@ -214423,7 +214423,7 @@
           }
         ],
         "star_player_id": 677976,
-        "ai_summary": "The Kansas City Royals hold a 65-82 record after 147 games and are currently on a one-game win streak, though they went 3-7 over their last ten with a minus-fifteen run differential. Their batting performance sits about the same as the league average, while their pitching is worse than the league average. Bettors should also factor in that Maikel Garcia, Luinder Avila, and Beck Way are currently on the injured list."
+        "ai_summary": "The Kansas City Royals enter this matchup with a 65-82 record through 147 games, having gone 3-7 over their last ten with a minus-fifteen run differential while riding a one-game win streak. Their batting is about the same as the league average, while their pitching is worse than league average. Bettors should also factor in that Maikel Garcia, Luinder Avila, and Beck Way are currently on the injured list."
       }
     },
     {
@@ -214438,22 +214438,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 822927,
-        "generated_at": "2026-09-11T05:00:00.055869+00:00",
+        "generated_at": "2026-09-11T05:55:06.886513+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.59,
         "away_exp_runs": 3.98,
-        "home_win_prob": 0.462,
+        "home_win_prob": 0.463,
         "spread_line": 1.5,
         "spread_cover_prob": 0.301,
         "total_line": 7.5,
-        "over_prob": 0.452,
+        "over_prob": 0.453,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
         "spread_pick_prob": 0.63,
         "total_pick": "under",
-        "total_pick_prob": 0.548,
+        "total_pick_prob": 0.547,
         "spread_favorite": "away"
       },
       "highlights": [],
@@ -223466,7 +223466,7 @@
           }
         ],
         "star_player_id": 663567,
-        "ai_summary": "The Houston Astros enter play with a 74-72 record through 146 games, going 6-4 over their last 10 contests with a plus-five run differential while currently on a one-game losing streak. Their team batting features a .245 batting average and .418 slugging percentage, which is about the same as league average. Their pitching staff holds a 4.11 ERA and 1.28 WHIP, also rating about the same as league average. Relief pitcher Steven Okert is currently on the injured list."
+        "ai_summary": "The Houston Astros hold a 75-72 record through 147 games and carry a one-game win streak into tonight following a 6-4 stretch in their last ten games with a plus-three run differential. Their team batting features a .245 average and .418 slugging mark with 176 home runs, making it about the same as league average. Pitching-wise, the team sits at a 4.12 ERA and 1.28 WHIP, which is also about the same as league average. Steven Okert is currently on the injured list."
       }
     },
     {
@@ -223481,22 +223481,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 823737,
-        "generated_at": "2026-09-11T05:00:00.055869+00:00",
+        "generated_at": "2026-09-11T05:55:06.886513+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 5.26,
         "away_exp_runs": 3.87,
         "home_win_prob": 0.613,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.468,
+        "spread_cover_prob": 0.467,
         "total_line": 8.5,
-        "over_prob": 0.5,
+        "over_prob": 0.501,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.532,
+        "spread_pick_prob": 0.533,
         "total_pick": "over",
-        "total_pick_prob": 0.5,
+        "total_pick_prob": 0.501,
         "spread_favorite": "home"
       },
       "highlights": [],
@@ -232182,7 +232182,7 @@
           }
         ],
         "star_player_id": 682829,
-        "ai_summary": "The Cincinnati Reds hold a 69-77 record over 146 games and enter on a three-game losing streak, going 5-5 with a minus-12 run differential over their last ten. Their batting is worse than league average, and their pitching is also worse than league average. Bettors should also factor in that Michael Toglia, Hunter Greene, and Spencer Steer are currently on the injured list."
+        "ai_summary": "The Cincinnati Reds enter at 69-77 overall and on a three-game losing streak, going 5-5 with a minus-12 run differential over their last ten games. Their team batting is worse than league average at .229 AVG and .400 SLG, though they have hit 191 home runs. Their pitching is also worse than league average with a 4.58 ERA and 1.40 WHIP. Bettors should note that Michael Toglia, Hunter Greene, and Spencer Steer are currently on the injured list."
       }
     },
     {
@@ -232197,22 +232197,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 823009,
-        "generated_at": "2026-09-11T05:00:00.055869+00:00",
+        "generated_at": "2026-09-11T05:55:06.886513+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.6,
-        "away_exp_runs": 3.56,
-        "home_win_prob": 0.592,
+        "away_exp_runs": 3.52,
+        "home_win_prob": 0.597,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.433,
+        "spread_cover_prob": 0.437,
         "total_line": 7.5,
-        "over_prob": 0.508,
+        "over_prob": 0.504,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.567,
+        "spread_pick_prob": 0.563,
         "total_pick": "over",
-        "total_pick_prob": 0.508,
+        "total_pick_prob": 0.504,
         "spread_favorite": "home"
       },
       "highlights": [],
@@ -237129,11 +237129,11 @@
           "fatigue_ratio": 0.0
         },
         "form": {
-          "streak": -2,
+          "streak": -3,
           "record_games": 10,
           "wins": 3,
           "losses": 7,
-          "run_diff": -7
+          "run_diff": -5
         },
         "batters": [
           {
@@ -241243,22 +241243,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 824870,
-        "generated_at": "2026-09-11T05:00:00.055869+00:00",
+        "generated_at": "2026-09-11T05:55:06.886513+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.18,
-        "away_exp_runs": 3.63,
-        "home_win_prob": 0.454,
+        "away_exp_runs": 3.64,
+        "home_win_prob": 0.453,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.281,
+        "spread_cover_prob": 0.28,
         "total_line": 6.5,
-        "over_prob": 0.479,
+        "over_prob": 0.48,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
-        "spread_pick_prob": 0.635,
+        "spread_pick_prob": 0.634,
         "total_pick": "under",
-        "total_pick_prob": 0.521,
+        "total_pick_prob": 0.52,
         "spread_favorite": "away"
       },
       "highlights": [],
@@ -241617,7 +241617,7 @@
           "game_result": null,
           "opponent_recent_k_rate": {
             "games": 2,
-            "recent_k_rate": 0.311,
+            "recent_k_rate": 0.317,
             "season_k_rate": 0.24,
             "elevated": true
           }
@@ -250244,22 +250244,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 825035,
-        "generated_at": "2026-09-11T05:00:00.055869+00:00",
+        "generated_at": "2026-09-11T05:55:06.886513+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.72,
         "away_exp_runs": 4.35,
-        "home_win_prob": 0.531,
+        "home_win_prob": 0.53,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.386,
+        "spread_cover_prob": 0.385,
         "total_line": 8.5,
-        "over_prob": 0.496,
+        "over_prob": 0.497,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.614,
+        "spread_pick_prob": 0.615,
         "total_pick": "under",
-        "total_pick_prob": 0.504,
+        "total_pick_prob": 0.503,
         "spread_favorite": "home"
       },
       "highlights": [],
@@ -254391,7 +254391,7 @@
           }
         ],
         "star_player_id": 663457,
-        "ai_summary": "The Arizona Diamondbacks hold a 78-69 record after 147 games and went 5-5 over their last ten with an 11-run differential, currently on a one-game losing streak. Their team batting and pitching both perform about the same as the league average. Ryan Thompson remains on the injured list for the Diamondbacks."
+        "ai_summary": "The Arizona Diamondbacks enter today with a 78-69 record through 147 games, going 5-5 over their last ten with a minus-eleven run differential and a one-game loss streak. Their team batting is about the same as league average at .246 AVG and .399 SLG with 140 home runs. Their pitching is also about the same as league average, posting a 3.95 ERA and a 1.26 WHIP. Bettors should note that relief pitcher Ryan Thompson is currently on the injured list."
       },
       "away": {
         "team_id": 140,
@@ -258555,7 +258555,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 824955,
-        "generated_at": "2026-09-11T05:00:00.055869+00:00",
+        "generated_at": "2026-09-11T05:55:06.886513+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.28,
         "away_exp_runs": 4.5,
@@ -258568,7 +258568,7 @@
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
-        "spread_pick_prob": 0.631,
+        "spread_pick_prob": 0.63,
         "total_pick": "under",
         "total_pick_prob": 0.528,
         "spread_favorite": "away"
@@ -267651,22 +267651,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 824225,
-        "generated_at": "2026-09-11T05:00:00.055869+00:00",
+        "generated_at": "2026-09-11T05:55:06.886513+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.3,
-        "away_exp_runs": 3.72,
-        "home_win_prob": 0.553,
+        "away_exp_runs": 3.68,
+        "home_win_prob": 0.557,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.392,
+        "spread_cover_prob": 0.395,
         "total_line": 7.5,
-        "over_prob": 0.496,
+        "over_prob": 0.492,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.608,
+        "spread_pick_prob": 0.605,
         "total_pick": "under",
-        "total_pick_prob": 0.504,
+        "total_pick_prob": 0.508,
         "spread_favorite": "home"
       },
       "highlights": [],
@@ -272173,7 +272173,7 @@
           }
         ],
         "star_player_id": 693307,
-        "ai_summary": "The Detroit Tigers hold a 67-79 record after going 4-6 over their last ten games with a minus-ten run differential, though they enter on a one-game win streak. Their batting is about the same as league average at .240 AVG and .399 SLG, while their pitching is better than league average with a 3.44 ERA and 1.18 WHIP. Bettors should also note that Matt Vierling, James Outman, and Kerry Carpenter are currently on the injured list."
+        "ai_summary": "The Detroit Tigers enter this stretch with a 67-79 record, going 4-6 over their last ten games with a minus-ten run differential while currently on a one-game win streak. Their batting is about the same as league average at .240 AVG and .399 SLG, while their pitching is better than league average with a 3.44 ERA and 1.18 WHIP. Bettors should note that Matt Vierling, James Outman, and Kerry Carpenter are currently on the injured list."
       },
       "away": {
         "team_id": 115,
@@ -272541,11 +272541,11 @@
           "fatigue_ratio": 0.0
         },
         "form": {
-          "streak": -3,
+          "streak": -4,
           "record_games": 10,
           "wins": 3,
           "losses": 7,
-          "run_diff": -7
+          "run_diff": -13
         },
         "batters": [
           {
@@ -276666,7 +276666,7 @@
           }
         ],
         "star_player_id": 678662,
-        "ai_summary": "The Colorado Rockies enter this game with a 55-90 record after going 3-7 over their last ten games and currently riding a three-game losing streak. Their team batting is better than league average, while their pitching is worse than league average with a 5.47 ERA and 1.52 WHIP. Bettors should also note that Willi Castro and Kyle Freeland are currently on the injured list."
+        "ai_summary": "The Colorado Rockies enter this matchup with a 55-91 record through 146 games and are currently on a four-game losing streak, going 3-7 over their last ten with a minus-13 run differential. Their batting is better than league average at .254 AVG, .418 SLG, and 160 home runs, but their pitching is worse than league average with a 5.44 ERA and 1.51 WHIP. Bettors should also factor in that Willi Castro and Kyle Freeland are currently on the injured list."
       }
     },
     {
@@ -276681,20 +276681,20 @@
       "live_score": null,
       "projection": {
         "game_pk": 822682,
-        "generated_at": "2026-09-11T05:00:00.055869+00:00",
+        "generated_at": "2026-09-11T05:55:06.886513+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 5.38,
         "away_exp_runs": 4.76,
-        "home_win_prob": 0.546,
+        "home_win_prob": 0.547,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.412,
+        "spread_cover_prob": 0.413,
         "total_line": 9.5,
         "over_prob": 0.498,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.588,
+        "spread_pick_prob": 0.587,
         "total_pick": "under",
         "total_pick_prob": 0.502,
         "spread_favorite": "home"
@@ -285696,7 +285696,7 @@
           }
         ],
         "star_player_id": 694208,
-        "ai_summary": "The Los Angeles Angels hold a 56-90 record and carry a two-game win streak after going 4-6 over their last ten games with a plus-six run differential. Their batting ranks worse than the league average at .236 AVG and .374 SLG, while their pitching is about the same as the league average with a 3.91 ERA and 1.30 WHIP. Bettors should also note that George Klassen, Gustavo Campero, Nolan Schanuel, Shaun Anderson, and Sam Bachman are currently on the injured list."
+        "ai_summary": "The Los Angeles Angels hold a 56-90 record after going 4-6 over their last ten games, and they are currently on a two-game win streak with a plus-six run differential. Team batting is worse than league average at .236 AVG and .376 SLG, while pitching is about the same as league average with a 3.92 ERA and 1.30 WHIP. Bettors should note that George Klassen, Gustavo Campero, Nolan Schanuel, Shaun Anderson, and Sam Bachman are currently on the injured list."
       }
     },
     {
@@ -285711,22 +285711,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 823495,
-        "generated_at": "2026-09-11T05:00:00.055869+00:00",
+        "generated_at": "2026-09-11T05:55:06.886513+00:00",
         "model_version": "v1-log5-negbinom",
-        "home_exp_runs": 3.97,
+        "home_exp_runs": 4.07,
         "away_exp_runs": 2.58,
-        "home_win_prob": 0.645,
+        "home_win_prob": 0.652,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.459,
+        "spread_cover_prob": 0.468,
         "total_line": 6.5,
-        "over_prob": 0.45,
+        "over_prob": 0.459,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.541,
+        "spread_pick_prob": 0.532,
         "total_pick": "under",
-        "total_pick_prob": 0.55,
+        "total_pick_prob": 0.541,
         "spread_favorite": "home"
       },
       "highlights": [],
@@ -286100,7 +286100,7 @@
           "fatigue_ratio": 0.0
         },
         "form": {
-          "streak": 2,
+          "streak": 3,
           "record_games": 10,
           "wins": 7,
           "losses": 3,
@@ -294770,7 +294770,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 824708,
-        "generated_at": "2026-09-11T05:00:00.055869+00:00",
+        "generated_at": "2026-09-11T05:55:06.886513+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.89,
         "away_exp_runs": 2.77,
@@ -294778,14 +294778,14 @@
         "spread_line": 1.5,
         "spread_cover_prob": 0.431,
         "total_line": 6.5,
-        "over_prob": 0.461,
+        "over_prob": 0.462,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
         "spread_pick_prob": 0.569,
         "total_pick": "under",
-        "total_pick_prob": 0.539,
+        "total_pick_prob": 0.538,
         "spread_favorite": "home"
       },
       "highlights": [],
@@ -299317,7 +299317,7 @@
           }
         ],
         "star_player_id": 801139,
-        "ai_summary": "The Boston Red Sox enter today with an 80-67 record and are on a two-game loss streak, going 6-4 with a minus-two run differential over their last ten games. Their batting statistics are about the same as league average, while their pitching is better than the league average. Bettors should also factor in that Ceddanne Rafaela, Tyron Guerrero, Willson Contreras, Justin Slaten, Masataka Yoshida, and Curtis Mead are currently on the injured list."
+        "ai_summary": "The Boston Red Sox hold an 80-67 record through 147 games and are on a two-game losing streak after going 6-4 over their last ten with a minus-two run differential. Team batting is about the same as league average at .249 AVG and .408 SLG with 150 home runs. Team pitching is better than league average, posting a 3.45 ERA and 1.20 WHIP. Bettors should note that Ceddanne Rafaela, Tyron Guerrero, Willson Contreras, Justin Slaten, Masataka Yoshida, and Curtis Mead are currently on the injured list."
       },
       "away": {
         "team_id": 118,
@@ -303829,7 +303829,7 @@
           }
         ],
         "star_player_id": 670231,
-        "ai_summary": "The Kansas City Royals hold a 65-82 record after 147 games and are currently on a one-game win streak, though they went 3-7 over their last ten with a minus-fifteen run differential. Their batting performance sits about the same as the league average, while their pitching is worse than the league average. Bettors should also factor in that Maikel Garcia, Luinder Avila, and Beck Way are currently on the injured list."
+        "ai_summary": "The Kansas City Royals enter this matchup with a 65-82 record through 147 games, having gone 3-7 over their last ten with a minus-fifteen run differential while riding a one-game win streak. Their batting is about the same as the league average, while their pitching is worse than league average. Bettors should also factor in that Maikel Garcia, Luinder Avila, and Beck Way are currently on the injured list."
       }
     },
     {
@@ -303844,7 +303844,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 824869,
-        "generated_at": "2026-09-11T05:00:00.055869+00:00",
+        "generated_at": "2026-09-11T05:55:06.886513+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.71,
         "away_exp_runs": 3.29,
@@ -303852,14 +303852,14 @@
         "spread_line": 1.5,
         "spread_cover_prob": 0.467,
         "total_line": 7.5,
-        "over_prob": 0.493,
+        "over_prob": 0.492,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
         "spread_pick_prob": 0.533,
         "total_pick": "under",
-        "total_pick_prob": 0.507,
+        "total_pick_prob": 0.508,
         "spread_favorite": "home"
       },
       "highlights": [],
@@ -304218,7 +304218,7 @@
           "game_result": null,
           "opponent_recent_k_rate": {
             "games": 2,
-            "recent_k_rate": 0.311,
+            "recent_k_rate": 0.317,
             "season_k_rate": 0.24,
             "elevated": true
           }
@@ -312831,13 +312831,13 @@
       "live_score": null,
       "projection": {
         "game_pk": 822764,
-        "generated_at": "2026-09-11T05:00:00.055869+00:00",
+        "generated_at": "2026-09-11T05:55:06.886513+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.39,
         "away_exp_runs": 4.21,
-        "home_win_prob": 0.423,
+        "home_win_prob": 0.422,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.265,
+        "spread_cover_prob": 0.266,
         "total_line": 7.5,
         "over_prob": 0.455,
         "home_score_line": null,
@@ -321519,7 +321519,7 @@
           }
         ],
         "star_player_id": 669432,
-        "ai_summary": "The Baltimore Orioles enter with a 71-76 record after going 3-7 over their last ten games with a minus-nine run differential, though they carry a one-game win streak. Their batting is worse than league average at a .234 average and .394 slugging percentage, while their pitching is about the same as league average with a 3.93 ERA and 1.30 WHIP. Bettors should also note that Blaze Alexander, Luis Robert Jr., Christian Franklin, and Tyler O'Neill are currently on the injured list."
+        "ai_summary": "The Baltimore Orioles enter with a 71-76 record through 147 games and went 3-7 over their last ten with a minus-nine run differential, currently holding a one-game win streak. Team batting sits at .234 average and .395 slugging with 176 home runs, which is worse than the league average. Pitching stands at a 3.94 ERA and 1.30 WHIP, making their pitching about the same as league average. Bettors should note that Blaze Alexander, Luis Robert Jr., Christian Franklin, and Tyler O'Neill are currently on the injured list."
       }
     },
     {
@@ -321534,13 +321534,13 @@
       "live_score": null,
       "projection": {
         "game_pk": 822928,
-        "generated_at": "2026-09-11T05:00:00.055869+00:00",
+        "generated_at": "2026-09-11T05:55:06.886513+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.4,
         "away_exp_runs": 4.42,
-        "home_win_prob": 0.406,
+        "home_win_prob": 0.407,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.254,
+        "spread_cover_prob": 0.255,
         "total_line": 7.5,
         "over_prob": 0.477,
         "home_score_line": null,
@@ -330569,7 +330569,7 @@
           }
         ],
         "star_player_id": 669713,
-        "ai_summary": "The Houston Astros enter play with a 74-72 record through 146 games, going 6-4 over their last 10 contests with a plus-five run differential while currently on a one-game losing streak. Their team batting features a .245 batting average and .418 slugging percentage, which is about the same as league average. Their pitching staff holds a 4.11 ERA and 1.28 WHIP, also rating about the same as league average. Relief pitcher Steven Okert is currently on the injured list."
+        "ai_summary": "The Houston Astros hold a 75-72 record through 147 games and carry a one-game win streak into tonight following a 6-4 stretch in their last ten games with a plus-three run differential. Their team batting features a .245 average and .418 slugging mark with 176 home runs, making it about the same as league average. Pitching-wise, the team sits at a 4.12 ERA and 1.28 WHIP, which is also about the same as league average. Steven Okert is currently on the injured list."
       }
     },
     {
@@ -330584,11 +330584,11 @@
       "live_score": null,
       "projection": {
         "game_pk": 823815,
-        "generated_at": "2026-09-11T05:00:00.055869+00:00",
+        "generated_at": "2026-09-11T05:55:06.886513+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.53,
         "away_exp_runs": 4.41,
-        "home_win_prob": 0.419,
+        "home_win_prob": 0.42,
         "spread_line": 1.5,
         "spread_cover_prob": 0.268,
         "total_line": 7.5,
@@ -339256,7 +339256,7 @@
           }
         ],
         "star_player_id": 606192,
-        "ai_summary": "The Los Angeles Dodgers hold an 89-57 record, riding a seven-game win streak while going 8-2 over their last ten games with a plus-21 run differential. Their batting and pitching are both better than league average, backed by a .256 batting average and a 3.65 ERA. Bettors should note they have several players on the injured list, including Dalton Rushing, Will Klein, Eric Lauer, Roki Sasaki, Andy Pages, and Edwin D\u00edaz. Additionally, they recently traded for right-hander Sebastian Rodriguez."
+        "ai_summary": "The Los Angeles Dodgers bring an 89-57 record into today's matchup, riding a scorching seven-game win streak and an 8-2 mark over their last ten games with a plus-21 run differential. Their offense performs better than the league average, backed by a .257 batting average, .425 slugging percentage, and 175 home runs. Additionally, their pitching staff ranks better than the league average with a 3.62 ERA and 1.15 WHIP. Bettors should note the team is missing Dalton Rushing, Will Klein, Eric Lauer, Roki Sasaki, Andy Pages, and Edwin D\u00edaz to the injured list."
       }
     },
     {
@@ -339271,22 +339271,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 823658,
-        "generated_at": "2026-09-11T05:00:00.055869+00:00",
+        "generated_at": "2026-09-11T05:55:06.886513+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.3,
         "away_exp_runs": 4.52,
-        "home_win_prob": 0.481,
+        "home_win_prob": 0.482,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.335,
+        "spread_cover_prob": 0.336,
         "total_line": 8.5,
-        "over_prob": 0.476,
+        "over_prob": 0.475,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
         "spread_pick_prob": 0.63,
         "total_pick": "under",
-        "total_pick_prob": 0.524,
+        "total_pick_prob": 0.525,
         "spread_favorite": "away"
       },
       "highlights": [],
@@ -347595,7 +347595,7 @@
           }
         ],
         "star_player_id": 680757,
-        "ai_summary": "The Cleveland Guardians enter today with a 74-73 record through 147 games and went 5-5 in their last ten with a minus-fourteen run differential, currently on a one-game losing streak. Cleveland batting is worse than league average at .237 AVG and .374 SLG with 135 home runs. Their pitching is better than league average, boasting a 3.69 ERA and a 1.25 WHIP. Colin Holderman, Rhys Hoskins, and Shawn Armstrong are currently on the injured list."
+        "ai_summary": "The Cleveland Guardians enter today with a 74-73 record through 147 games, going 5-5 over their last ten with a minus-fourteen run differential and a one-game losing streak. Their batting is worse than league average at .238 AVG, .375 SLG, and 136 home runs, but their pitching is better than league average with a 3.67 ERA and 1.25 WHIP. Bettors should also note that Colin Holderman, Rhys Hoskins, and Shawn Armstrong are currently on the injured list."
       }
     },
     {
@@ -347610,22 +347610,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 823734,
-        "generated_at": "2026-09-11T05:00:00.055869+00:00",
+        "generated_at": "2026-09-11T05:55:06.886513+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.68,
         "away_exp_runs": 3.87,
-        "home_win_prob": 0.483,
+        "home_win_prob": 0.482,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.319,
+        "spread_cover_prob": 0.318,
         "total_line": 7.5,
-        "over_prob": 0.451,
+        "over_prob": 0.45,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
-        "spread_pick_prob": 0.649,
+        "spread_pick_prob": 0.648,
         "total_pick": "under",
-        "total_pick_prob": 0.549,
+        "total_pick_prob": 0.55,
         "spread_favorite": "away"
       },
       "highlights": [],
@@ -356311,7 +356311,7 @@
           }
         ],
         "star_player_id": 682829,
-        "ai_summary": "The Cincinnati Reds hold a 69-77 record over 146 games and enter on a three-game losing streak, going 5-5 with a minus-12 run differential over their last ten. Their batting is worse than league average, and their pitching is also worse than league average. Bettors should also factor in that Michael Toglia, Hunter Greene, and Spencer Steer are currently on the injured list."
+        "ai_summary": "The Cincinnati Reds enter at 69-77 overall and on a three-game losing streak, going 5-5 with a minus-12 run differential over their last ten games. Their team batting is worse than league average at .229 AVG and .400 SLG, though they have hit 191 home runs. Their pitching is also worse than league average with a 4.58 ERA and 1.40 WHIP. Bettors should note that Michael Toglia, Hunter Greene, and Spencer Steer are currently on the injured list."
       }
     },
     {
@@ -356326,20 +356326,20 @@
       "live_score": null,
       "projection": {
         "game_pk": 823008,
-        "generated_at": "2026-09-11T05:00:00.055869+00:00",
+        "generated_at": "2026-09-11T05:55:06.886513+00:00",
         "model_version": "v1-log5-negbinom",
-        "home_exp_runs": 4.53,
-        "away_exp_runs": 3.83,
-        "home_win_prob": 0.561,
+        "home_exp_runs": 4.57,
+        "away_exp_runs": 3.79,
+        "home_win_prob": 0.568,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.406,
+        "spread_cover_prob": 0.412,
         "total_line": 7.5,
         "over_prob": 0.527,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.594,
+        "spread_pick_prob": 0.588,
         "total_pick": "over",
         "total_pick_prob": 0.527,
         "spread_favorite": "home"
@@ -360906,11 +360906,11 @@
           "fatigue_ratio": 0.0
         },
         "form": {
-          "streak": -2,
+          "streak": -3,
           "record_games": 10,
           "wins": 3,
           "losses": 7,
-          "run_diff": -7
+          "run_diff": -5
         },
         "batters": [
           {
@@ -365020,22 +365020,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 824628,
-        "generated_at": "2026-09-11T05:00:00.055869+00:00",
+        "generated_at": "2026-09-11T05:55:06.886513+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 5.12,
-        "away_exp_runs": 3.44,
-        "home_win_prob": 0.644,
+        "away_exp_runs": 3.39,
+        "home_win_prob": 0.648,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.491,
+        "spread_cover_prob": 0.496,
         "total_line": 7.5,
-        "over_prob": 0.543,
+        "over_prob": 0.538,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.509,
+        "spread_pick_prob": 0.504,
         "total_pick": "over",
-        "total_pick_prob": 0.543,
+        "total_pick_prob": 0.538,
         "spread_favorite": "home"
       },
       "highlights": [],
@@ -369556,7 +369556,7 @@
           }
         ],
         "star_player_id": 571510,
-        "ai_summary": "The Chicago Cubs hold an 81-66 record through 147 games but are slumping with a four-game losing streak and a 4-6 mark in their last ten. Team batting is better than league average at .251 AVG and .430 SLG with 203 home runs, while pitching is worse than league average with a 4.22 ERA and 1.27 WHIP. Edward Cabrera, Dansby Swanson, and Gavin Hollowell are currently on the injured list, and the team recently called up top prospect BJ Murray Jr."
+        "ai_summary": "The Chicago Cubs enter this stretch with an 81-66 record but are currently mired in a four-game losing streak, going 4-6 over their last ten games with a plus-one run differential. Team batting is better than league average, and pitching is about the same as league average. Bettors should also factor in that Edward Cabrera, Dansby Swanson, and Gavin Hollowell are currently on the injured list."
       },
       "away": {
         "team_id": 134,
@@ -369931,11 +369931,11 @@
           "fatigue_ratio": 0.0
         },
         "form": {
-          "streak": 3,
+          "streak": 4,
           "record_games": 10,
           "wins": 8,
           "losses": 2,
-          "run_diff": 13
+          "run_diff": 11
         },
         "batters": [
           {
@@ -374109,22 +374109,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 824952,
-        "generated_at": "2026-09-11T05:00:00.055869+00:00",
+        "generated_at": "2026-09-11T05:55:06.886513+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.4,
         "away_exp_runs": 4.33,
-        "home_win_prob": 0.505,
+        "home_win_prob": 0.506,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.356,
+        "spread_cover_prob": 0.358,
         "total_line": 8.5,
-        "over_prob": 0.467,
+        "over_prob": 0.466,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.644,
+        "spread_pick_prob": 0.642,
         "total_pick": "under",
-        "total_pick_prob": 0.533,
+        "total_pick_prob": 0.534,
         "spread_favorite": "home"
       },
       "highlights": [],
@@ -383212,22 +383212,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 825033,
-        "generated_at": "2026-09-11T05:00:00.055869+00:00",
+        "generated_at": "2026-09-11T05:55:06.886513+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.72,
         "away_exp_runs": 4.35,
         "home_win_prob": 0.531,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.386,
+        "spread_cover_prob": 0.385,
         "total_line": 8.5,
-        "over_prob": 0.497,
+        "over_prob": 0.496,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.614,
+        "spread_pick_prob": 0.615,
         "total_pick": "under",
-        "total_pick_prob": 0.503,
+        "total_pick_prob": 0.504,
         "spread_favorite": "home"
       },
       "highlights": [],
@@ -387359,7 +387359,7 @@
           }
         ],
         "star_player_id": 663457,
-        "ai_summary": "The Arizona Diamondbacks hold a 78-69 record after 147 games and went 5-5 over their last ten with an 11-run differential, currently on a one-game losing streak. Their team batting and pitching both perform about the same as the league average. Ryan Thompson remains on the injured list for the Diamondbacks."
+        "ai_summary": "The Arizona Diamondbacks enter today with a 78-69 record through 147 games, going 5-5 over their last ten with a minus-eleven run differential and a one-game loss streak. Their team batting is about the same as league average at .246 AVG and .399 SLG with 140 home runs. Their pitching is also about the same as league average, posting a 3.95 ERA and a 1.26 WHIP. Bettors should note that relief pitcher Ryan Thompson is currently on the injured list."
       },
       "away": {
         "team_id": 140,
@@ -391523,22 +391523,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 823171,
-        "generated_at": "2026-09-11T05:00:00.055869+00:00",
+        "generated_at": "2026-09-11T05:55:06.886513+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.13,
         "away_exp_runs": 3.58,
-        "home_win_prob": 0.454,
+        "home_win_prob": 0.453,
         "spread_line": 1.5,
         "spread_cover_prob": 0.279,
         "total_line": 6.5,
-        "over_prob": 0.468,
+        "over_prob": 0.467,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
         "spread_pick_prob": 0.636,
         "total_pick": "under",
-        "total_pick_prob": 0.532,
+        "total_pick_prob": 0.533,
         "spread_favorite": "away"
       },
       "highlights": [],
@@ -401169,7 +401169,7 @@
         "lineup_confirmed": false,
         "score": 1.0,
         "reasons": [
-          "opposing lineup has struck out at an elevated rate over their last 2 games (31% vs their own 24% season rate)"
+          "opposing lineup has struck out at an elevated rate over their last 2 games (32% vs their own 24% season rate)"
         ],
         "best_category": {
           "label": "Runs Allowed",
