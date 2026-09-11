@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-09-11T19:40:11.410379+00:00_
+_Generated 2026-09-11T19:48:11.463380+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -234,7 +234,7 @@ Model likes: **Tampa Bay Rays** to win (63%) | Run line: **Houston Astros** +1.5
 ## 2026-09-11 - Los Angeles Dodgers @ Miami Marlins (Pre-Game)
 _loanDepot park [pitcher-friendly park]_
 Projected score: Los Angeles Dodgers 4.57 - Miami Marlins 3.52
-Model likes: **Los Angeles Dodgers** to win (59%) | Run line: **Miami Marlins** +1.5 (57% to cover) | Total 7.5: lean **OVER** (50%)
+Model likes: **Los Angeles Dodgers** to win (60%) | Run line: **Miami Marlins** +1.5 (56% to cover) | Total 7.5: lean **OVER** (50%)
 
 ### Los Angeles Dodgers lineup -- PROJECTED (unconfirmed)
 - Tommy Edman (S) -- L7: 7H 1HR 5RBI 12TB (0.259 avg) -- away split: 0.278 avg
@@ -293,7 +293,7 @@ _Facing a rested bullpen: 3.7 relief IP in last 2 days (ratio 0.65)_
 ## 2026-09-11 - Philadelphia Phillies @ Atlanta Braves (Pre-Game)
 _Truist Park_
 Projected score: Philadelphia Phillies 2.42 - Atlanta Braves 4.45
-Model likes: **Atlanta Braves** to win (70%) | Run line: **Atlanta Braves** -1.5 (52% to cover) | Total 6.5: lean **UNDER** (52%)
+Model likes: **Atlanta Braves** to win (70%) | Run line: **Atlanta Braves** -1.5 (53% to cover) | Total 6.5: lean **UNDER** (52%)
 
 ### Philadelphia Phillies lineup -- PROJECTED (unconfirmed)
 **Probable P: Aaron Nola (R)** -- L5: 30.0 IP, 33 K, 6 ER, 1.8 ERA
@@ -559,7 +559,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-12 - Pittsburgh Pirates @ Chicago Cubs (Scheduled)
 _Wrigley Field_
 Projected score: Pittsburgh Pirates 3.05 - Chicago Cubs 4.82
-Model likes: **Chicago Cubs** to win (66%) | Run line: **Chicago Cubs** -1.5 (50% to cover) | Total 7.5: lean **UNDER** (52%)
+Model likes: **Chicago Cubs** to win (66%) | Run line: **Pittsburgh Pirates** +1.5 (50% to cover) | Total 7.5: lean **UNDER** (52%)
 
 ### Pittsburgh Pirates lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -682,7 +682,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-12 - Cleveland Guardians @ Minnesota Twins (Scheduled)
 _Target Field_
 Projected score: Cleveland Guardians 4.52 - Minnesota Twins 4.3
-Model likes: **Cleveland Guardians** to win (52%) | Run line: **Minnesota Twins** +1.5 (63% to cover) | Total 8.5: lean **UNDER** (53%)
+Model likes: **Cleveland Guardians** to win (52%) | Run line: **Minnesota Twins** +1.5 (63% to cover) | Total 8.5: lean **UNDER** (52%)
 
 ### Cleveland Guardians lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -711,7 +711,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-12 - Los Angeles Dodgers @ Miami Marlins (Scheduled)
 _loanDepot park [pitcher-friendly park]_
 Projected score: Los Angeles Dodgers 4.27 - Miami Marlins 3.53
-Model likes: **Los Angeles Dodgers** to win (57%) | Run line: **Miami Marlins** +1.5 (60% to cover) | Total 7.5: lean **UNDER** (52%)
+Model likes: **Los Angeles Dodgers** to win (57%) | Run line: **Miami Marlins** +1.5 (60% to cover) | Total 7.5: lean **UNDER** (53%)
 
 ### Los Angeles Dodgers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -833,7 +833,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-12 - Chicago White Sox @ St. Louis Cardinals (Scheduled)
 _Busch Stadium_
 Projected score: Chicago White Sox 3.52 - St. Louis Cardinals 4.6
-Model likes: **St. Louis Cardinals** to win (60%) | Run line: **Chicago White Sox** +1.5 (56% to cover) | Total 7.5: lean **OVER** (50%)
+Model likes: **St. Louis Cardinals** to win (60%) | Run line: **Chicago White Sox** +1.5 (56% to cover) | Total 7.5: lean **OVER** (51%)
 
 ### Chicago White Sox lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1202,7 +1202,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-13 - Cleveland Guardians @ Minnesota Twins (Scheduled)
 _Target Field_
 Projected score: Cleveland Guardians 4.52 - Minnesota Twins 4.3
-Model likes: **Cleveland Guardians** to win (52%) | Run line: **Minnesota Twins** +1.5 (63% to cover) | Total 8.5: lean **UNDER** (53%)
+Model likes: **Cleveland Guardians** to win (52%) | Run line: **Minnesota Twins** +1.5 (63% to cover) | Total 8.5: lean **UNDER** (52%)
 
 ### Cleveland Guardians lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1322,7 +1322,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-13 - Seattle Mariners @ Athletics (Scheduled)
 _Sutter Health Park_
 Projected score: Seattle Mariners 4.33 - Athletics 4.4
-Model likes: **Athletics** to win (50%) | Run line: **Seattle Mariners** +1.5 (64% to cover) | Total 8.5: lean **UNDER** (53%)
+Model likes: **Athletics** to win (51%) | Run line: **Seattle Mariners** +1.5 (64% to cover) | Total 8.5: lean **UNDER** (53%)
 
 ### Seattle Mariners lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1353,7 +1353,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-13 - Texas Rangers @ Arizona Diamondbacks (Scheduled)
 _Chase Field [hitter-friendly park]_
 Projected score: Texas Rangers 4.35 - Arizona Diamondbacks 4.72
-Model likes: **Arizona Diamondbacks** to win (53%) | Run line: **Texas Rangers** +1.5 (61% to cover) | Total 8.5: lean **UNDER** (50%)
+Model likes: **Arizona Diamondbacks** to win (53%) | Run line: **Texas Rangers** +1.5 (62% to cover) | Total 8.5: lean **UNDER** (50%)
 
 ### Texas Rangers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
