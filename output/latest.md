@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-09-11T05:58:00.526529+00:00_
+_Generated 2026-09-11T09:26:25.579525+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -204,7 +204,7 @@ _Facing a rested bullpen: 3.3 relief IP in last 2 days (ratio 0.63)_
 ## 2026-09-11 - Houston Astros @ Tampa Bay Rays (Scheduled)
 _Tropicana Field_
 Projected score: Houston Astros 3.26 - Tampa Bay Rays 4.76
-Model likes: **Tampa Bay Rays** to win (64%) | Run line: **Houston Astros** +1.5 (52% to cover) | Total 7.5: lean **UNDER** (51%)
+Model likes: **Tampa Bay Rays** to win (63%) | Run line: **Houston Astros** +1.5 (53% to cover) | Total 7.5: lean **UNDER** (50%)
 
 ### Houston Astros lineup -- PROJECTED (unconfirmed)
 **Probable P: Miguel Ullola (R)** [BULLPEN GAME: short-outing arm, no reliable individual matchup below] -- L5: 7.0 IP, 10 K, 3 ER, 3.86 ERA
@@ -382,7 +382,7 @@ _Facing a taxed bullpen: 5.7 relief IP in last 2 days (ratio 1.2)_
 ## 2026-09-11 - Chicago White Sox @ St. Louis Cardinals (Scheduled)
 _Busch Stadium_
 Projected score: Chicago White Sox 4.75 - St. Louis Cardinals 3.98
-Model likes: **Chicago White Sox** to win (56%) | Run line: **St. Louis Cardinals** +1.5 (59% to cover) | Total 8.5: lean **UNDER** (53%)
+Model likes: **Chicago White Sox** to win (57%) | Run line: **St. Louis Cardinals** +1.5 (58% to cover) | Total 8.5: lean **UNDER** (53%)
 
 ### Chicago White Sox lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.48)_
@@ -527,7 +527,7 @@ _Facing a rested bullpen: 1.0 relief IP in last 2 days (ratio 0.16)_
 ## 2026-09-12 - New York Mets @ New York Yankees (Scheduled)
 _Yankee Stadium [hitter-friendly park]_
 Projected score: New York Mets 3.48 - New York Yankees 4.12
-Model likes: **New York Yankees** to win (56%) | Run line: **New York Mets** +1.5 (61% to cover) | Total 7.5: lean **UNDER** (54%)
+Model likes: **New York Yankees** to win (56%) | Run line: **New York Mets** +1.5 (61% to cover) | Total 7.5: lean **UNDER** (55%)
 
 ### New York Mets lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.7 relief IP in last 2 days (ratio 0.44)_
@@ -558,7 +558,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-12 - Pittsburgh Pirates @ Chicago Cubs (Scheduled)
 _Wrigley Field_
 Projected score: Pittsburgh Pirates 3.05 - Chicago Cubs 4.82
-Model likes: **Chicago Cubs** to win (66%) | Run line: **Pittsburgh Pirates** +1.5 (50% to cover) | Total 7.5: lean **UNDER** (52%)
+Model likes: **Chicago Cubs** to win (66%) | Run line: **Chicago Cubs** -1.5 (50% to cover) | Total 7.5: lean **UNDER** (52%)
 
 ### Pittsburgh Pirates lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -650,7 +650,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-12 - San Diego Padres @ San Francisco Giants (Scheduled)
 _Oracle Park [pitcher-friendly park]_
 Projected score: San Diego Padres 1.94 - San Francisco Giants 2.91
-Model likes: **San Francisco Giants** to win (63%) | Run line: **San Diego Padres** +1.5 (60% to cover) | Total 4.5: lean **UNDER** (51%)
+Model likes: **San Francisco Giants** to win (62%) | Run line: **San Diego Padres** +1.5 (61% to cover) | Total 4.5: lean **UNDER** (51%)
 
 ### San Diego Padres lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -681,7 +681,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-12 - Cleveland Guardians @ Minnesota Twins (Scheduled)
 _Target Field_
 Projected score: Cleveland Guardians 4.52 - Minnesota Twins 4.3
-Model likes: **Cleveland Guardians** to win (52%) | Run line: **Minnesota Twins** +1.5 (63% to cover) | Total 8.5: lean **UNDER** (53%)
+Model likes: **Cleveland Guardians** to win (52%) | Run line: **Minnesota Twins** +1.5 (63% to cover) | Total 8.5: lean **UNDER** (52%)
 
 ### Cleveland Guardians lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -710,7 +710,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-12 - Los Angeles Dodgers @ Miami Marlins (Scheduled)
 _loanDepot park [pitcher-friendly park]_
 Projected score: Los Angeles Dodgers 4.27 - Miami Marlins 3.53
-Model likes: **Los Angeles Dodgers** to win (57%) | Run line: **Miami Marlins** +1.5 (60% to cover) | Total 7.5: lean **UNDER** (53%)
+Model likes: **Los Angeles Dodgers** to win (57%) | Run line: **Miami Marlins** +1.5 (60% to cover) | Total 7.5: lean **UNDER** (52%)
 
 ### Los Angeles Dodgers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -802,7 +802,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.52)_
 ## 2026-09-12 - Cincinnati Reds @ Milwaukee Brewers (Scheduled)
 _American Family Field_
 Projected score: Cincinnati Reds 3.87 - Milwaukee Brewers 5.26
-Model likes: **Milwaukee Brewers** to win (61%) | Run line: **Cincinnati Reds** +1.5 (53% to cover) | Total 8.5: lean **OVER** (50%)
+Model likes: **Milwaukee Brewers** to win (62%) | Run line: **Cincinnati Reds** +1.5 (53% to cover) | Total 8.5: lean **OVER** (50%)
 
 ### Cincinnati Reds lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -954,7 +954,7 @@ _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.38)_
 ## 2026-09-13 - Colorado Rockies @ Detroit Tigers (Scheduled)
 _Comerica Park [pitcher-friendly park]_
 Projected score: Colorado Rockies 3.68 - Detroit Tigers 4.3
-Model likes: **Detroit Tigers** to win (56%) | Run line: **Colorado Rockies** +1.5 (60% to cover) | Total 7.5: lean **UNDER** (51%)
+Model likes: **Detroit Tigers** to win (56%) | Run line: **Colorado Rockies** +1.5 (61% to cover) | Total 7.5: lean **UNDER** (51%)
 
 ### Colorado Rockies lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1109,7 +1109,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-13 - Baltimore Orioles @ Toronto Blue Jays (Scheduled)
 _Rogers Centre_
 Projected score: Baltimore Orioles 4.21 - Toronto Blue Jays 3.39
-Model likes: **Baltimore Orioles** to win (58%) | Run line: **Toronto Blue Jays** +1.5 (59% to cover) | Total 7.5: lean **UNDER** (55%)
+Model likes: **Baltimore Orioles** to win (58%) | Run line: **Toronto Blue Jays** +1.5 (59% to cover) | Total 7.5: lean **UNDER** (54%)
 
 ### Baltimore Orioles lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
