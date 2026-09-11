@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T09:26:25.579525+00:00",
+  "generated_at": "2026-09-11T11:14:32.918404+00:00",
   "range": [
     "2026-09-11",
     "2026-09-13"
@@ -17,22 +17,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 824631,
-        "generated_at": "2026-09-11T09:23:29.875509+00:00",
+        "generated_at": "2026-09-11T11:12:17.463165+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 5.1,
         "away_exp_runs": 3.33,
         "home_win_prob": 0.653,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.499,
+        "spread_cover_prob": 0.5,
         "total_line": 7.5,
-        "over_prob": 0.531,
+        "over_prob": 0.532,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
-        "spread_pick": "away",
-        "spread_pick_prob": 0.501,
+        "spread_pick": "home",
+        "spread_pick_prob": 0.5,
         "total_pick": "over",
-        "total_pick_prob": 0.531,
+        "total_pick_prob": 0.532,
         "spread_favorite": "home"
       },
       "highlights": [],
@@ -9077,7 +9077,7 @@
           }
         ],
         "star_player_id": 693304,
-        "ai_summary": "The Pittsburgh Pirates enter this game with a 73-73 record, having won eight of their last ten with a plus-13 run differential and a current three-game win streak. Their batting features a .254 average and .403 slugging percentage, while their pitching holds a 4.11 ERA and 1.28 WHIP, with both units performing about the same as league average. Bettors should note that Isaac Mattson, Kirby Yates, Endy Rodr\u00edguez, Mitch Keller, and Ryan O'Hearn are currently on the injured list."
+        "ai_summary": "The Pittsburgh Pirates hold a 74-73 record through 147 games and carry a four-game win streak into today. They have played well recently, going 8-2 over their last ten games with an 11 run differential. Both their batting and pitching performances are rated about the same as league average. Bettors should note that the team currently has six players on the injured list, including pitcher Mitch Keller and infielder Ryan O'Hearn."
       }
     },
     {
@@ -9092,22 +9092,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 824227,
-        "generated_at": "2026-09-11T09:23:29.875509+00:00",
+        "generated_at": "2026-09-11T11:12:17.463165+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.45,
         "away_exp_runs": 3.58,
-        "home_win_prob": 0.488,
+        "home_win_prob": 0.487,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.315,
+        "spread_cover_prob": 0.313,
         "total_line": 6.5,
-        "over_prob": 0.502,
+        "over_prob": 0.5,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
         "spread_pick_prob": 0.662,
         "total_pick": "over",
-        "total_pick_prob": 0.502,
+        "total_pick_prob": 0.5,
         "spread_favorite": "away"
       },
       "highlights": [],
@@ -18087,20 +18087,20 @@
       "live_score": null,
       "projection": {
         "game_pk": 822684,
-        "generated_at": "2026-09-11T09:23:29.875509+00:00",
+        "generated_at": "2026-09-11T11:12:17.463165+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.81,
         "away_exp_runs": 3.48,
         "home_win_prob": 0.617,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.461,
+        "spread_cover_prob": 0.459,
         "total_line": 7.5,
         "over_prob": 0.52,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.539,
+        "spread_pick_prob": 0.541,
         "total_pick": "over",
         "total_pick_prob": 0.52,
         "spread_favorite": "home"
@@ -22588,7 +22588,7 @@
           }
         ],
         "star_player_id": 676917,
-        "ai_summary": "The Washington Nationals enter this stretch with a 67-81 record across 148 games, struggling through a seven-game loss streak and a 2-8 mark over their last ten games with a minus-20 run differential. Team batting is better than league average at .248 average, .431 slugging, and 193 home runs, but pitching is worse than league average with a 4.60 ERA and 1.35 WHIP. Bettors should also note that Matt Waldron and Orlando Ribalta are currently on the injured list."
+        "ai_summary": "The Washington Nationals enter this stretch with a 67-81 record through 148 games, currently mired in a seven-game losing streak and going 2-8 over their last ten with a minus-twenty run differential. Their batting is better than league average at .248 average and 193 home runs, but their pitching is worse than league average with a 4.60 ERA and 1.35 WHIP. Bettors should also note that Matt Waldron and Orlando Ribalta are currently on the injured list."
       },
       "away": {
         "team_id": 108,
@@ -27126,7 +27126,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 823498,
-        "generated_at": "2026-09-11T09:23:29.875509+00:00",
+        "generated_at": "2026-09-11T11:12:17.463165+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.6,
         "away_exp_runs": 3.24,
@@ -36169,7 +36169,7 @@
           }
         ],
         "star_player_id": 690997,
-        "ai_summary": "The New York Mets enter this stretch with a 68-78 record through 146 games, currently riding a four-game win streak and going 7-3 over their last ten with a plus-10 run differential. Their batting is about the same as league average, while their pitching is worse than league average. Bettors should also note that Jorge Polanco, Devin Williams, and Cionel P\u00e9rez are currently on the injured list."
+        "ai_summary": "The New York Mets enter this stretch with a 68-78 record, highlighted by a strong 7-3 mark over their last 10 games and a current four-game winning streak. Team batting sits at .241 average and .399 slugging, which is about the same as league average, while pitching stands at a 4.15 ERA and 1.30 WHIP, making it worse than league average. Bettors should also factor in that Jorge Polanco, Devin Williams, and Cionel Perez are currently on the injured list."
       }
     },
     {
@@ -36184,20 +36184,20 @@
       "live_score": null,
       "projection": {
         "game_pk": 822767,
-        "generated_at": "2026-09-11T09:23:29.875509+00:00",
+        "generated_at": "2026-09-11T11:12:17.463165+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.65,
         "away_exp_runs": 4.78,
-        "home_win_prob": 0.401,
+        "home_win_prob": 0.402,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.258,
+        "spread_cover_prob": 0.259,
         "total_line": 7.5,
         "over_prob": 0.533,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
-        "spread_pick_prob": 0.556,
+        "spread_pick_prob": 0.557,
         "total_pick": "over",
         "total_pick_prob": 0.533,
         "spread_favorite": "away"
@@ -40745,7 +40745,7 @@
           }
         ],
         "star_player_id": 676391,
-        "ai_summary": "The Toronto Blue Jays hold a 73-74 record after going 6-4 over their last ten games with a plus-18 run differential, though they are currently on a one-game losing streak. Their batting is about the same as league average, while their pitching is better than league average. Bettors should note that Jameson Taillon, Shane Bieber, Luis Ur\u00edas, and Trey Yesavage are on the injured list, and the team recently traded Sebastian Rodriguez to the Dodgers for Jos\u00e9 Rodr\u00edguez."
+        "ai_summary": "The Toronto Blue Jays hold a 73-74 record after going 6-4 over their last ten games with a plus-18 run differential, though they enter on a one-game loss streak. Team batting is about the same as league average at .249 AVG and .386 SLG, while pitching is better than league average with a 3.72 ERA and 1.25 WHIP. Bettors should note that Jameson Taillon, Shane Bieber, Luis Ur\u00edas, and Trey Yesavage are currently on the injured list."
       },
       "away": {
         "team_id": 110,
@@ -45261,22 +45261,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 822930,
-        "generated_at": "2026-09-11T09:23:29.875509+00:00",
+        "generated_at": "2026-09-11T11:12:17.463165+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.76,
         "away_exp_runs": 3.26,
-        "home_win_prob": 0.634,
+        "home_win_prob": 0.635,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.474,
+        "spread_cover_prob": 0.475,
         "total_line": 7.5,
-        "over_prob": 0.495,
+        "over_prob": 0.494,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.526,
+        "spread_pick_prob": 0.525,
         "total_pick": "under",
-        "total_pick_prob": 0.505,
+        "total_pick_prob": 0.506,
         "spread_favorite": "home"
       },
       "highlights": [],
@@ -49817,7 +49817,7 @@
           }
         ],
         "star_player_id": 656876,
-        "ai_summary": "The Tampa Bay Rays hold an 87-58 record and bring a 6-4 mark over their last ten games into a two-game win streak. Their batting (.262 AVG) and pitching (3.70 ERA, 1.13 WHIP) are both better than league average. Bettors should note they recently traded RF Jake Cave to the White Sox for cash. Taylor Walls, Garrett Cleavinger, Shane McClanahan, Manuel Rodr\u00edguez, and Ben Williamson remain on the injured list."
+        "ai_summary": "The Tampa Bay Rays hold an 87-59 record and went 5-5 over their last ten games, currently on a one-game losing streak. Their team batting and pitching are both better than the league average. Taylor Walls, Garrett Cleavinger, Shane McClanahan, Manuel Rodr\u00edguez, and Ben Williamson are on the injured list. Additionally, the Rays recently traded right fielder Jake Cave to the Chicago White Sox for cash."
       },
       "away": {
         "team_id": 117,
@@ -54296,7 +54296,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 823817,
-        "generated_at": "2026-09-11T09:23:29.875509+00:00",
+        "generated_at": "2026-09-11T11:12:17.463165+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.53,
         "away_exp_runs": 4.57,
@@ -62983,7 +62983,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 824711,
-        "generated_at": "2026-09-11T09:23:29.875509+00:00",
+        "generated_at": "2026-09-11T11:12:17.463165+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.42,
         "away_exp_runs": 2.52,
@@ -72056,20 +72056,20 @@
       "live_score": null,
       "projection": {
         "game_pk": 824873,
-        "generated_at": "2026-09-11T09:23:29.875509+00:00",
+        "generated_at": "2026-09-11T11:12:17.463165+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.23,
         "away_exp_runs": 2.42,
         "home_win_prob": 0.684,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.503,
+        "spread_cover_prob": 0.502,
         "total_line": 6.5,
         "over_prob": 0.459,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "home",
-        "spread_pick_prob": 0.503,
+        "spread_pick_prob": 0.502,
         "total_pick": "under",
         "total_pick_prob": 0.541,
         "spread_favorite": "home"
@@ -81057,7 +81057,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 823736,
-        "generated_at": "2026-09-11T09:23:29.875509+00:00",
+        "generated_at": "2026-09-11T11:12:17.463165+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.78,
         "away_exp_runs": 3.82,
@@ -90127,22 +90127,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 823659,
-        "generated_at": "2026-09-11T09:23:29.875509+00:00",
+        "generated_at": "2026-09-11T11:12:17.463165+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 2.9,
         "away_exp_runs": 3.87,
-        "home_win_prob": 0.401,
+        "home_win_prob": 0.4,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.233,
+        "spread_cover_prob": 0.234,
         "total_line": 6.5,
-        "over_prob": 0.473,
+        "over_prob": 0.474,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
         "spread_pick_prob": 0.583,
         "total_pick": "under",
-        "total_pick_prob": 0.527,
+        "total_pick_prob": 0.526,
         "spread_favorite": "away"
       },
       "highlights": [],
@@ -94657,7 +94657,7 @@
           }
         ],
         "star_player_id": 671737,
-        "ai_summary": "The Minnesota Twins hold a 69-77 record after going 5-5 over their last ten games with a plus-seven run differential, though they are currently on a one-game loss streak. Their batting is about the same as league average at .247 AVG and .411 SLG, but their pitching is worse than league average with a 4.48 ERA and 1.34 WHIP. Bettors should note that Byron Buxton, Austin Martin, Mike Paredes, and Cole Sands are currently on the injured list."
+        "ai_summary": "The Minnesota Twins hold a 69-77 record through 146 games and are on a one-game losing streak, going 5-5 with a plus-seven run differential over their last ten. Their batting is about the same as league average at .247 AVG and .411 SLG, while their pitching is worse than league average with a 4.48 ERA and 1.34 WHIP. Bettors should factor in that Byron Buxton, Mike Paredes, and Cole Sands are currently on the injured list."
       },
       "away": {
         "team_id": 114,
@@ -99176,11 +99176,11 @@
       "live_score": null,
       "projection": {
         "game_pk": 823012,
-        "generated_at": "2026-09-11T09:23:29.875509+00:00",
+        "generated_at": "2026-09-11T11:12:17.463165+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.98,
         "away_exp_runs": 4.75,
-        "home_win_prob": 0.434,
+        "home_win_prob": 0.435,
         "spread_line": 1.5,
         "spread_cover_prob": 0.291,
         "total_line": 8.5,
@@ -99189,7 +99189,7 @@
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
-        "spread_pick_prob": 0.585,
+        "spread_pick_prob": 0.586,
         "total_pick": "under",
         "total_pick_prob": 0.533,
         "spread_favorite": "away"
@@ -99548,7 +99548,7 @@
           "game_result": null,
           "opponent_recent_k_rate": {
             "games": 2,
-            "recent_k_rate": 0.417,
+            "recent_k_rate": 0.408,
             "season_k_rate": 0.273,
             "elevated": true
           }
@@ -103742,7 +103742,7 @@
           }
         ],
         "star_player_id": 669461,
-        "ai_summary": "The St. Louis Cardinals hold a 72-75 record through 147 games and enter on a three-game losing streak, going 4-6 over their last ten with a plus-two run differential. Their team batting and pitching both rank worse than the league average, featuring a .243 batting average and a 4.28 ERA. Bettors should also factor in that JJ Wetherholt, Blaze Jordan, Peter Strzelecki, Everson Pereira, and Hunter Dobbins are currently on the injured list."
+        "ai_summary": "The St. Louis Cardinals enter with a 72-75 record through 147 games and are on a three-game losing streak, going 4-6 over their last ten. Their team batting is worse than league average at a .243 average and .385 slugging percentage, while their pitching is also worse than league average with a 4.28 ERA and 1.35 WHIP. Bettors should also note that JJ Wetherholt, Blaze Jordan, Peter Strzelecki, Everson Pereira, and Hunter Dobbins are currently on the injured list."
       },
       "away": {
         "team_id": 145,
@@ -106396,7 +106396,7 @@
             "injury": null,
             "l7": {
               "games": 7,
-              "at_bats": 20,
+              "at_bats": 21,
               "hits": 4,
               "doubles": 1,
               "triples": 0,
@@ -106409,14 +106409,14 @@
               "hit_by_pitch": 0,
               "stolen_bases": 0,
               "h_r_rbi": 9,
-              "avg": 0.2,
-              "slg": 0.4,
-              "babip": 0.2,
-              "iso": 0.2
+              "avg": 0.19,
+              "slg": 0.381,
+              "babip": 0.188,
+              "iso": 0.191
             },
             "l15": {
               "games": 15,
-              "at_bats": 52,
+              "at_bats": 53,
               "hits": 9,
               "doubles": 2,
               "triples": 0,
@@ -106429,14 +106429,14 @@
               "hit_by_pitch": 0,
               "stolen_bases": 0,
               "h_r_rbi": 23,
-              "avg": 0.173,
-              "slg": 0.269,
-              "babip": 0.174,
-              "iso": 0.096
+              "avg": 0.17,
+              "slg": 0.264,
+              "babip": 0.17,
+              "iso": 0.094
             },
             "season": {
               "games": 78,
-              "at_bats": 276,
+              "at_bats": 277,
               "hits": 61,
               "doubles": 13,
               "triples": 3,
@@ -106449,9 +106449,9 @@
               "hit_by_pitch": 3,
               "stolen_bases": 1,
               "h_r_rbi": 139,
-              "avg": 0.221,
-              "slg": 0.355,
-              "babip": 0.264,
+              "avg": 0.22,
+              "slg": 0.354,
+              "babip": 0.263,
               "iso": 0.134
             },
             "trend": null,
@@ -106514,7 +106514,7 @@
               "this_game": "away",
               "home": {
                 "games": 42,
-                "at_bats": 142,
+                "at_bats": 143,
                 "hits": 33,
                 "doubles": 6,
                 "triples": 1,
@@ -106526,8 +106526,8 @@
                 "total_bases": 59,
                 "hit_by_pitch": 3,
                 "stolen_bases": 0,
-                "avg": 0.232,
-                "slg": 0.415
+                "avg": 0.231,
+                "slg": 0.413
               },
               "away": {
                 "games": 36,
@@ -108244,7 +108244,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 824954,
-        "generated_at": "2026-09-11T09:23:29.875509+00:00",
+        "generated_at": "2026-09-11T11:12:17.463165+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.37,
         "away_exp_runs": 4.94,
@@ -112791,7 +112791,7 @@
           }
         ],
         "star_player_id": 605488,
-        "ai_summary": "The Athletics enter this stretch with a 59-88 record and are playing decently well lately, going 6-4 over their last ten games with a plus-four run differential on a one-game win streak. Their team batting performs at about the same level as the league average, but their pitching is worse than league average with a 5.34 ERA and 1.49 WHIP. Bettors should also factor in that J.T. Ginn, Jacob Wilson, Nick Kurtz, Tyler Soderstrom, and Shea Langeliers are currently on the injured list."
+        "ai_summary": "The Athletics enter with a 59-88 record and are on a one-game win streak, going 6-4 in their last ten games with a plus-four run differential. Team batting is about the same as league average at .246 AVG and .403 SLG with 167 home runs. Pitching is worse than league average with a 5.34 ERA and 1.49 WHIP. J.T. Ginn, Jacob Wilson, Nick Kurtz, Tyler Soderstrom, and Shea Langeliers are currently on the injured list."
       },
       "away": {
         "team_id": 136,
@@ -117335,7 +117335,7 @@
           }
         ],
         "star_player_id": 669923,
-        "ai_summary": "The Seattle Mariners enter today with a 68-78 record through 146 games, going 4-6 over their last ten with a minus-ten run differential while riding a one-game win streak. Their team batting is worse than league average at .230 AVG and .376 SLG, whereas their pitching is about the same as league average with a 4.17 ERA and 1.24 WHIP. Bettors should also note that Nick Davila, Colt Emerson, Emerson Hancock, Brendan Donovan, Luke Raley, and Cole Wilcox are currently on the injured list."
+        "ai_summary": "The Seattle Mariners hold a 69-78 record through 147 games and enter on a two-game win streak, going 5-5 over their last ten with a minus-two run differential. Their batting performs worse than the league average, while their pitching is about the same. Bettors should also factor in that Nick Davila, Colt Emerson, Emerson Hancock, Brendan Donovan, Luke Raley, and Cole Wilcox are currently on the injured list."
       }
     },
     {
@@ -117350,11 +117350,11 @@
       "live_score": null,
       "projection": {
         "game_pk": 825036,
-        "generated_at": "2026-09-11T09:23:29.875509+00:00",
+        "generated_at": "2026-09-11T11:12:17.463165+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.72,
         "away_exp_runs": 4.35,
-        "home_win_prob": 0.531,
+        "home_win_prob": 0.53,
         "spread_line": 1.5,
         "spread_cover_prob": 0.385,
         "total_line": 8.5,
@@ -125646,7 +125646,7 @@
           }
         ],
         "star_player_id": 679822,
-        "ai_summary": "The Texas Rangers hold a 72-74 record after going 6-4 over their last ten games with a plus-14 run differential, though they are currently on a one-game loss streak. Both team batting and pitching are about the same as league average. Bettors should note that Cole Winn, Peyton Gray, Nathan Eovaldi, and Josh Jung are currently on the injured list, while the team recently signed veteran pitcher Trevor Williams."
+        "ai_summary": "The Texas Rangers enter this stretch with a 72-75 record over 147 games and are on a two-game loss streak, going 5-5 in their last ten with a plus-ten run differential. Both their team batting and pitching are about the same as league average. The Rangers recently signed veteran pitcher Trevor Williams. Meanwhile, Cole Winn, Peyton Gray, Nathan Eovaldi, and Josh Jung are currently on the injured list."
       }
     },
     {
@@ -125661,22 +125661,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 823173,
-        "generated_at": "2026-09-11T09:23:29.875509+00:00",
+        "generated_at": "2026-09-11T11:12:17.463165+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.16,
         "away_exp_runs": 3.08,
         "home_win_prob": 0.509,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.319,
+        "spread_cover_prob": 0.32,
         "total_line": 5.5,
-        "over_prob": 0.531,
+        "over_prob": 0.532,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.681,
+        "spread_pick_prob": 0.68,
         "total_pick": "over",
-        "total_pick_prob": 0.531,
+        "total_pick_prob": 0.532,
         "spread_favorite": "home"
       },
       "highlights": [],
@@ -130226,7 +130226,7 @@
           }
         ],
         "star_player_id": 683627,
-        "ai_summary": "The San Francisco Giants enter with a 62-85 record, going 6-4 over their last ten games with a plus-two run differential and an active three-game win streak. Their batting is better than the league average, while their pitching performs worse than the league average. Bettors should also factor in that Jesus Rodriguez, Keaton Winn, Adrian Houser, Sam Hentges, Casey Schmitt, and Carson Whisenhunt are currently on the injured list."
+        "ai_summary": "The San Francisco Giants hold a 62-85 record after going 6-4 over their last 10 games, and they enter today on a three-game win streak with a plus-two run differential. Team batting is better than league average at .254 batting average and .415 slugging. Pitching is worse than league average with a 4.15 ERA and 1.33 WHIP. Bettors should also note that Jesus Rodriguez, Keaton Winn, Adrian Houser, Sam Hentges, Casey Schmitt, and Carson Whisenhunt are currently on the injured list."
       },
       "away": {
         "team_id": 135,
@@ -134746,7 +134746,7 @@
           }
         ],
         "star_player_id": 592662,
-        "ai_summary": "The San Diego Padres hold a 78-68 record and bring a four-game win streak into this matchup, going 6-4 over their last ten games with a plus-six run differential. Their batting (.240 AVG, .391 SLG) is worse than league average, while their pitching (3.84 ERA, 1.26 WHIP) is better than league average. Luis Rengifo, Gavin Sheets, and Jeremiah Estrada remain on the injured list. Meanwhile, top prospect Ethan Salas has been called up, and Jackson Merrill is coming off a standout performance."
+        "ai_summary": "The San Diego Padres enter with a 78-68 record and are on a four-game win streak, going 6-4 over their last ten games with a plus-six run differential. Team batting is worse than league average, while pitching is better. Luis Rengifo, Gavin Sheets, and Jeremiah Estrada are currently on the injured list. Meanwhile, recent headlines highlight a great game from Jackson Merrill, capped by a notable first-inning catch at the wall."
       }
     },
     {
@@ -134761,22 +134761,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 824224,
-        "generated_at": "2026-09-11T09:23:29.875509+00:00",
+        "generated_at": "2026-09-11T11:12:17.463165+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.07,
         "away_exp_runs": 3.64,
-        "home_win_prob": 0.54,
+        "home_win_prob": 0.541,
         "spread_line": 1.5,
         "spread_cover_prob": 0.376,
         "total_line": 7.5,
-        "over_prob": 0.467,
+        "over_prob": 0.466,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
         "spread_pick_prob": 0.624,
         "total_pick": "under",
-        "total_pick_prob": 0.533,
+        "total_pick_prob": 0.534,
         "spread_favorite": "home"
       },
       "highlights": [],
@@ -143441,22 +143441,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 823496,
-        "generated_at": "2026-09-11T09:23:29.875509+00:00",
+        "generated_at": "2026-09-11T11:12:17.463165+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.12,
         "away_exp_runs": 3.48,
         "home_win_prob": 0.561,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.393,
+        "spread_cover_prob": 0.394,
         "total_line": 7.5,
-        "over_prob": 0.455,
+        "over_prob": 0.456,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.607,
+        "spread_pick_prob": 0.606,
         "total_pick": "under",
-        "total_pick_prob": 0.545,
+        "total_pick_prob": 0.544,
         "spread_favorite": "home"
       },
       "highlights": [],
@@ -152484,7 +152484,7 @@
           }
         ],
         "star_player_id": 804267,
-        "ai_summary": "The New York Mets enter this stretch with a 68-78 record through 146 games, currently riding a four-game win streak and going 7-3 over their last ten with a plus-10 run differential. Their batting is about the same as league average, while their pitching is worse than league average. Bettors should also note that Jorge Polanco, Devin Williams, and Cionel P\u00e9rez are currently on the injured list."
+        "ai_summary": "The New York Mets enter this stretch with a 68-78 record, highlighted by a strong 7-3 mark over their last 10 games and a current four-game winning streak. Team batting sits at .241 average and .399 slugging, which is about the same as league average, while pitching stands at a 4.15 ERA and 1.30 WHIP, making it worse than league average. Bettors should also factor in that Jorge Polanco, Devin Williams, and Cionel Perez are currently on the injured list."
       }
     },
     {
@@ -152499,22 +152499,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 824630,
-        "generated_at": "2026-09-11T09:23:29.875509+00:00",
+        "generated_at": "2026-09-11T11:12:17.463165+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.82,
         "away_exp_runs": 3.05,
-        "home_win_prob": 0.661,
+        "home_win_prob": 0.66,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.5,
+        "spread_cover_prob": 0.499,
         "total_line": 7.5,
-        "over_prob": 0.48,
+        "over_prob": 0.479,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
-        "spread_pick": "home",
-        "spread_pick_prob": 0.5,
+        "spread_pick": "away",
+        "spread_pick_prob": 0.501,
         "total_pick": "under",
-        "total_pick_prob": 0.52,
+        "total_pick_prob": 0.521,
         "spread_favorite": "home"
       },
       "highlights": [],
@@ -161556,7 +161556,7 @@
           }
         ],
         "star_player_id": 694973,
-        "ai_summary": "The Pittsburgh Pirates enter this game with a 73-73 record, having won eight of their last ten with a plus-13 run differential and a current three-game win streak. Their batting features a .254 average and .403 slugging percentage, while their pitching holds a 4.11 ERA and 1.28 WHIP, with both units performing about the same as league average. Bettors should note that Isaac Mattson, Kirby Yates, Endy Rodr\u00edguez, Mitch Keller, and Ryan O'Hearn are currently on the injured list."
+        "ai_summary": "The Pittsburgh Pirates hold a 74-73 record through 147 games and carry a four-game win streak into today. They have played well recently, going 8-2 over their last ten games with an 11 run differential. Both their batting and pitching performances are rated about the same as league average. Bettors should note that the team currently has six players on the injured list, including pitcher Mitch Keller and infielder Ryan O'Hearn."
       }
     },
     {
@@ -161571,11 +161571,11 @@
       "live_score": null,
       "projection": {
         "game_pk": 822768,
-        "generated_at": "2026-09-11T09:23:29.875509+00:00",
+        "generated_at": "2026-09-11T11:12:17.463165+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.16,
         "away_exp_runs": 4.21,
-        "home_win_prob": 0.398,
+        "home_win_prob": 0.399,
         "spread_line": 1.5,
         "spread_cover_prob": 0.242,
         "total_line": 6.5,
@@ -161584,7 +161584,7 @@
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
-        "spread_pick_prob": 0.57,
+        "spread_pick_prob": 0.571,
         "total_pick": "over",
         "total_pick_prob": 0.535,
         "spread_favorite": "away"
@@ -165766,7 +165766,7 @@
           }
         ],
         "star_player_id": 676391,
-        "ai_summary": "The Toronto Blue Jays hold a 73-74 record after going 6-4 over their last ten games with a plus-18 run differential, though they are currently on a one-game losing streak. Their batting is about the same as league average, while their pitching is better than league average. Bettors should note that Jameson Taillon, Shane Bieber, Luis Ur\u00edas, and Trey Yesavage are on the injured list, and the team recently traded Sebastian Rodriguez to the Dodgers for Jos\u00e9 Rodr\u00edguez."
+        "ai_summary": "The Toronto Blue Jays hold a 73-74 record after going 6-4 over their last ten games with a plus-18 run differential, though they enter on a one-game loss streak. Team batting is about the same as league average at .249 AVG and .386 SLG, while pitching is better than league average with a 3.72 ERA and 1.25 WHIP. Bettors should note that Jameson Taillon, Shane Bieber, Luis Ur\u00edas, and Trey Yesavage are currently on the injured list."
       },
       "away": {
         "team_id": 110,
@@ -170281,11 +170281,11 @@
       "live_score": null,
       "projection": {
         "game_pk": 822685,
-        "generated_at": "2026-09-11T09:23:29.875509+00:00",
+        "generated_at": "2026-09-11T11:12:17.463165+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.3,
         "away_exp_runs": 3.8,
-        "home_win_prob": 0.449,
+        "home_win_prob": 0.45,
         "spread_line": 1.5,
         "spread_cover_prob": 0.282,
         "total_line": 6.5,
@@ -170294,7 +170294,7 @@
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
-        "spread_pick_prob": 0.625,
+        "spread_pick_prob": 0.626,
         "total_pick": "over",
         "total_pick_prob": 0.509,
         "spread_favorite": "away"
@@ -174768,7 +174768,7 @@
           }
         ],
         "star_player_id": 674841,
-        "ai_summary": "The Washington Nationals enter this stretch with a 67-81 record across 148 games, struggling through a seven-game loss streak and a 2-8 mark over their last ten games with a minus-20 run differential. Team batting is better than league average at .248 average, .431 slugging, and 193 home runs, but pitching is worse than league average with a 4.60 ERA and 1.35 WHIP. Bettors should also note that Matt Waldron and Orlando Ribalta are currently on the injured list."
+        "ai_summary": "The Washington Nationals enter this stretch with a 67-81 record through 148 games, currently mired in a seven-game losing streak and going 2-8 over their last ten with a minus-twenty run differential. Their batting is better than league average at .248 average and 193 home runs, but their pitching is worse than league average with a 4.60 ERA and 1.35 WHIP. Bettors should also note that Matt Waldron and Orlando Ribalta are currently on the injured list."
       },
       "away": {
         "team_id": 108,
@@ -179306,22 +179306,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 823170,
-        "generated_at": "2026-09-11T09:23:29.875509+00:00",
+        "generated_at": "2026-09-11T11:12:17.463165+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 2.91,
         "away_exp_runs": 1.94,
-        "home_win_prob": 0.625,
+        "home_win_prob": 0.626,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.393,
+        "spread_cover_prob": 0.394,
         "total_line": 4.5,
-        "over_prob": 0.491,
+        "over_prob": 0.49,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.607,
+        "spread_pick_prob": 0.606,
         "total_pick": "under",
-        "total_pick_prob": 0.509,
+        "total_pick_prob": 0.51,
         "spread_favorite": "home"
       },
       "highlights": [],
@@ -183818,7 +183818,7 @@
           }
         ],
         "star_player_id": 646240,
-        "ai_summary": "The San Francisco Giants enter with a 62-85 record, going 6-4 over their last ten games with a plus-two run differential and an active three-game win streak. Their batting is better than the league average, while their pitching performs worse than the league average. Bettors should also factor in that Jesus Rodriguez, Keaton Winn, Adrian Houser, Sam Hentges, Casey Schmitt, and Carson Whisenhunt are currently on the injured list."
+        "ai_summary": "The San Francisco Giants hold a 62-85 record after going 6-4 over their last 10 games, and they enter today on a three-game win streak with a plus-two run differential. Team batting is better than league average at .254 batting average and .415 slugging. Pitching is worse than league average with a 4.15 ERA and 1.33 WHIP. Bettors should also note that Jesus Rodriguez, Keaton Winn, Adrian Houser, Sam Hentges, Casey Schmitt, and Carson Whisenhunt are currently on the injured list."
       },
       "away": {
         "team_id": 135,
@@ -188331,7 +188331,7 @@
           }
         ],
         "star_player_id": 650633,
-        "ai_summary": "The San Diego Padres hold a 78-68 record and bring a four-game win streak into this matchup, going 6-4 over their last ten games with a plus-six run differential. Their batting (.240 AVG, .391 SLG) is worse than league average, while their pitching (3.84 ERA, 1.26 WHIP) is better than league average. Luis Rengifo, Gavin Sheets, and Jeremiah Estrada remain on the injured list. Meanwhile, top prospect Ethan Salas has been called up, and Jackson Merrill is coming off a standout performance."
+        "ai_summary": "The San Diego Padres enter with a 78-68 record and are on a four-game win streak, going 6-4 over their last ten games with a plus-six run differential. Team batting is worse than league average, while pitching is better. Luis Rengifo, Gavin Sheets, and Jeremiah Estrada are currently on the injured list. Meanwhile, recent headlines highlight a great game from Jackson Merrill, capped by a notable first-inning catch at the wall."
       }
     },
     {
@@ -188346,7 +188346,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 823657,
-        "generated_at": "2026-09-11T09:23:29.875509+00:00",
+        "generated_at": "2026-09-11T11:12:17.463165+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.3,
         "away_exp_runs": 4.52,
@@ -188354,14 +188354,14 @@
         "spread_line": 1.5,
         "spread_cover_prob": 0.335,
         "total_line": 8.5,
-        "over_prob": 0.475,
+        "over_prob": 0.476,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
         "spread_pick_prob": 0.63,
         "total_pick": "under",
-        "total_pick_prob": 0.525,
+        "total_pick_prob": 0.524,
         "spread_favorite": "away"
       },
       "highlights": [],
@@ -192521,7 +192521,7 @@
           }
         ],
         "star_player_id": 680777,
-        "ai_summary": "The Minnesota Twins hold a 69-77 record after going 5-5 over their last ten games with a plus-seven run differential, though they are currently on a one-game loss streak. Their batting is about the same as league average at .247 AVG and .411 SLG, but their pitching is worse than league average with a 4.48 ERA and 1.34 WHIP. Bettors should note that Byron Buxton, Austin Martin, Mike Paredes, and Cole Sands are currently on the injured list."
+        "ai_summary": "The Minnesota Twins hold a 69-77 record through 146 games and are on a one-game losing streak, going 5-5 with a plus-seven run differential over their last ten. Their batting is about the same as league average at .247 AVG and .411 SLG, while their pitching is worse than league average with a 4.48 ERA and 1.34 WHIP. Bettors should factor in that Byron Buxton, Mike Paredes, and Cole Sands are currently on the injured list."
       },
       "away": {
         "team_id": 114,
@@ -196685,22 +196685,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 823819,
-        "generated_at": "2026-09-11T09:23:29.875509+00:00",
+        "generated_at": "2026-09-11T11:12:17.463165+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.53,
         "away_exp_runs": 4.27,
         "home_win_prob": 0.432,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.277,
+        "spread_cover_prob": 0.276,
         "total_line": 7.5,
-        "over_prob": 0.476,
+        "over_prob": 0.474,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
-        "spread_pick_prob": 0.595,
+        "spread_pick_prob": 0.596,
         "total_pick": "under",
-        "total_pick_prob": 0.524,
+        "total_pick_prob": 0.526,
         "spread_favorite": "away"
       },
       "highlights": [],
@@ -205365,7 +205365,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 824712,
-        "generated_at": "2026-09-11T09:23:29.875509+00:00",
+        "generated_at": "2026-09-11T11:12:17.463165+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.0,
         "away_exp_runs": 2.92,
@@ -205373,14 +205373,14 @@
         "spread_line": 1.5,
         "spread_cover_prob": 0.313,
         "total_line": 5.5,
-        "over_prob": 0.495,
+        "over_prob": 0.496,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
         "spread_pick_prob": 0.687,
         "total_pick": "under",
-        "total_pick_prob": 0.505,
+        "total_pick_prob": 0.504,
         "spread_favorite": "home"
       },
       "highlights": [],
@@ -214438,11 +214438,11 @@
       "live_score": null,
       "projection": {
         "game_pk": 822927,
-        "generated_at": "2026-09-11T09:23:29.875509+00:00",
+        "generated_at": "2026-09-11T11:12:17.463165+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.59,
         "away_exp_runs": 3.98,
-        "home_win_prob": 0.463,
+        "home_win_prob": 0.462,
         "spread_line": 1.5,
         "spread_cover_prob": 0.301,
         "total_line": 7.5,
@@ -214451,7 +214451,7 @@
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
-        "spread_pick_prob": 0.63,
+        "spread_pick_prob": 0.629,
         "total_pick": "under",
         "total_pick_prob": 0.547,
         "spread_favorite": "away"
@@ -218980,7 +218980,7 @@
           }
         ],
         "star_player_id": 693855,
-        "ai_summary": "The Tampa Bay Rays hold an 87-58 record and bring a 6-4 mark over their last ten games into a two-game win streak. Their batting (.262 AVG) and pitching (3.70 ERA, 1.13 WHIP) are both better than league average. Bettors should note they recently traded RF Jake Cave to the White Sox for cash. Taylor Walls, Garrett Cleavinger, Shane McClanahan, Manuel Rodr\u00edguez, and Ben Williamson remain on the injured list."
+        "ai_summary": "The Tampa Bay Rays hold an 87-59 record and went 5-5 over their last ten games, currently on a one-game losing streak. Their team batting and pitching are both better than the league average. Taylor Walls, Garrett Cleavinger, Shane McClanahan, Manuel Rodr\u00edguez, and Ben Williamson are on the injured list. Additionally, the Rays recently traded right fielder Jake Cave to the Chicago White Sox for cash."
       },
       "away": {
         "team_id": 117,
@@ -223481,20 +223481,20 @@
       "live_score": null,
       "projection": {
         "game_pk": 823737,
-        "generated_at": "2026-09-11T09:23:29.875509+00:00",
+        "generated_at": "2026-09-11T11:12:17.463165+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 5.26,
         "away_exp_runs": 3.87,
-        "home_win_prob": 0.615,
+        "home_win_prob": 0.613,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.469,
+        "spread_cover_prob": 0.468,
         "total_line": 8.5,
         "over_prob": 0.5,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.531,
+        "spread_pick_prob": 0.532,
         "total_pick": "over",
         "total_pick_prob": 0.5,
         "spread_favorite": "home"
@@ -232197,22 +232197,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 823009,
-        "generated_at": "2026-09-11T09:23:29.875509+00:00",
+        "generated_at": "2026-09-11T11:12:17.463165+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.6,
         "away_exp_runs": 3.52,
         "home_win_prob": 0.597,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.438,
+        "spread_cover_prob": 0.437,
         "total_line": 7.5,
-        "over_prob": 0.504,
+        "over_prob": 0.505,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.562,
+        "spread_pick_prob": 0.563,
         "total_pick": "over",
-        "total_pick_prob": 0.504,
+        "total_pick_prob": 0.505,
         "spread_favorite": "home"
       },
       "highlights": [],
@@ -232571,7 +232571,7 @@
           "game_result": null,
           "opponent_recent_k_rate": {
             "games": 2,
-            "recent_k_rate": 0.417,
+            "recent_k_rate": 0.408,
             "season_k_rate": 0.273,
             "elevated": true
           }
@@ -236757,7 +236757,7 @@
           }
         ],
         "star_player_id": 681517,
-        "ai_summary": "The St. Louis Cardinals hold a 72-75 record through 147 games and enter on a three-game losing streak, going 4-6 over their last ten with a plus-two run differential. Their team batting and pitching both rank worse than the league average, featuring a .243 batting average and a 4.28 ERA. Bettors should also factor in that JJ Wetherholt, Blaze Jordan, Peter Strzelecki, Everson Pereira, and Hunter Dobbins are currently on the injured list."
+        "ai_summary": "The St. Louis Cardinals enter with a 72-75 record through 147 games and are on a three-game losing streak, going 4-6 over their last ten. Their team batting is worse than league average at a .243 average and .385 slugging percentage, while their pitching is also worse than league average with a 4.28 ERA and 1.35 WHIP. Bettors should also note that JJ Wetherholt, Blaze Jordan, Peter Strzelecki, Everson Pereira, and Hunter Dobbins are currently on the injured list."
       },
       "away": {
         "team_id": 145,
@@ -239403,7 +239403,7 @@
             "injury": null,
             "l7": {
               "games": 7,
-              "at_bats": 20,
+              "at_bats": 21,
               "hits": 4,
               "doubles": 1,
               "triples": 0,
@@ -239416,14 +239416,14 @@
               "hit_by_pitch": 0,
               "stolen_bases": 0,
               "h_r_rbi": 9,
-              "avg": 0.2,
-              "slg": 0.4,
-              "babip": 0.2,
-              "iso": 0.2
+              "avg": 0.19,
+              "slg": 0.381,
+              "babip": 0.188,
+              "iso": 0.191
             },
             "l15": {
               "games": 15,
-              "at_bats": 52,
+              "at_bats": 53,
               "hits": 9,
               "doubles": 2,
               "triples": 0,
@@ -239436,14 +239436,14 @@
               "hit_by_pitch": 0,
               "stolen_bases": 0,
               "h_r_rbi": 23,
-              "avg": 0.173,
-              "slg": 0.269,
-              "babip": 0.174,
-              "iso": 0.096
+              "avg": 0.17,
+              "slg": 0.264,
+              "babip": 0.17,
+              "iso": 0.094
             },
             "season": {
               "games": 78,
-              "at_bats": 276,
+              "at_bats": 277,
               "hits": 61,
               "doubles": 13,
               "triples": 3,
@@ -239456,9 +239456,9 @@
               "hit_by_pitch": 3,
               "stolen_bases": 1,
               "h_r_rbi": 139,
-              "avg": 0.221,
-              "slg": 0.355,
-              "babip": 0.264,
+              "avg": 0.22,
+              "slg": 0.354,
+              "babip": 0.263,
               "iso": 0.134
             },
             "trend": null,
@@ -239470,9 +239470,9 @@
                 "player_id": 695731,
                 "split_code": "vr",
                 "season": 2026,
-                "games": 74,
-                "plate_appearances": 228,
-                "at_bats": 198,
+                "games": 75,
+                "plate_appearances": 231,
+                "at_bats": 201,
                 "hits": 50,
                 "doubles": 9,
                 "triples": 2,
@@ -239482,18 +239482,18 @@
                 "base_on_balls": 28,
                 "strike_outs": 38,
                 "total_bases": 78,
-                "avg": 0.253,
-                "obp": 0.351,
-                "slg": 0.394,
-                "ops": 0.745
+                "avg": 0.249,
+                "obp": 0.346,
+                "slg": 0.388,
+                "ops": 0.734
               },
               "career": {
                 "player_id": 695731,
                 "split_code": "vr",
                 "season": 0,
-                "games": 74,
-                "plate_appearances": 228,
-                "at_bats": 198,
+                "games": 75,
+                "plate_appearances": 231,
+                "at_bats": 201,
                 "hits": 50,
                 "doubles": 9,
                 "triples": 2,
@@ -239503,10 +239503,10 @@
                 "base_on_balls": 28,
                 "strike_outs": 38,
                 "total_bases": 78,
-                "avg": 0.253,
-                "obp": 0.351,
-                "slg": 0.394,
-                "ops": 0.745
+                "avg": 0.249,
+                "obp": 0.346,
+                "slg": 0.388,
+                "ops": 0.734
               }
             },
             "matchup": {
@@ -239521,7 +239521,7 @@
               "this_game": "away",
               "home": {
                 "games": 42,
-                "at_bats": 142,
+                "at_bats": 143,
                 "hits": 33,
                 "doubles": 6,
                 "triples": 1,
@@ -239533,8 +239533,8 @@
                 "total_bases": 59,
                 "hit_by_pitch": 3,
                 "stolen_bases": 0,
-                "avg": 0.232,
-                "slg": 0.415
+                "avg": 0.231,
+                "slg": 0.413
               },
               "away": {
                 "games": 36,
@@ -241243,7 +241243,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 824870,
-        "generated_at": "2026-09-11T09:23:29.875509+00:00",
+        "generated_at": "2026-09-11T11:12:17.463165+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.18,
         "away_exp_runs": 3.64,
@@ -241251,14 +241251,14 @@
         "spread_line": 1.5,
         "spread_cover_prob": 0.28,
         "total_line": 6.5,
-        "over_prob": 0.479,
+        "over_prob": 0.48,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
         "spread_pick_prob": 0.633,
         "total_pick": "under",
-        "total_pick_prob": 0.521,
+        "total_pick_prob": 0.52,
         "spread_favorite": "away"
       },
       "highlights": [],
@@ -250244,7 +250244,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 825035,
-        "generated_at": "2026-09-11T09:23:29.875509+00:00",
+        "generated_at": "2026-09-11T11:12:17.463165+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.72,
         "away_exp_runs": 4.35,
@@ -258540,7 +258540,7 @@
           }
         ],
         "star_player_id": 679822,
-        "ai_summary": "The Texas Rangers hold a 72-74 record after going 6-4 over their last ten games with a plus-14 run differential, though they are currently on a one-game loss streak. Both team batting and pitching are about the same as league average. Bettors should note that Cole Winn, Peyton Gray, Nathan Eovaldi, and Josh Jung are currently on the injured list, while the team recently signed veteran pitcher Trevor Williams."
+        "ai_summary": "The Texas Rangers enter this stretch with a 72-75 record over 147 games and are on a two-game loss streak, going 5-5 in their last ten with a plus-ten run differential. Both their team batting and pitching are about the same as league average. The Rangers recently signed veteran pitcher Trevor Williams. Meanwhile, Cole Winn, Peyton Gray, Nathan Eovaldi, and Josh Jung are currently on the injured list."
       }
     },
     {
@@ -258555,22 +258555,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 824955,
-        "generated_at": "2026-09-11T09:23:29.875509+00:00",
+        "generated_at": "2026-09-11T11:12:17.463165+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.28,
         "away_exp_runs": 4.5,
         "home_win_prob": 0.481,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.334,
+        "spread_cover_prob": 0.335,
         "total_line": 8.5,
-        "over_prob": 0.471,
+        "over_prob": 0.473,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
         "spread_pick_prob": 0.63,
         "total_pick": "under",
-        "total_pick_prob": 0.529,
+        "total_pick_prob": 0.527,
         "spread_favorite": "away"
       },
       "highlights": [],
@@ -263100,7 +263100,7 @@
           }
         ],
         "star_player_id": 671732,
-        "ai_summary": "The Athletics enter this stretch with a 59-88 record and are playing decently well lately, going 6-4 over their last ten games with a plus-four run differential on a one-game win streak. Their team batting performs at about the same level as the league average, but their pitching is worse than league average with a 5.34 ERA and 1.49 WHIP. Bettors should also factor in that J.T. Ginn, Jacob Wilson, Nick Kurtz, Tyler Soderstrom, and Shea Langeliers are currently on the injured list."
+        "ai_summary": "The Athletics enter with a 59-88 record and are on a one-game win streak, going 6-4 in their last ten games with a plus-four run differential. Team batting is about the same as league average at .246 AVG and .403 SLG with 167 home runs. Pitching is worse than league average with a 5.34 ERA and 1.49 WHIP. J.T. Ginn, Jacob Wilson, Nick Kurtz, Tyler Soderstrom, and Shea Langeliers are currently on the injured list."
       },
       "away": {
         "team_id": 136,
@@ -267636,7 +267636,7 @@
           }
         ],
         "star_player_id": 641487,
-        "ai_summary": "The Seattle Mariners enter today with a 68-78 record through 146 games, going 4-6 over their last ten with a minus-ten run differential while riding a one-game win streak. Their team batting is worse than league average at .230 AVG and .376 SLG, whereas their pitching is about the same as league average with a 4.17 ERA and 1.24 WHIP. Bettors should also note that Nick Davila, Colt Emerson, Emerson Hancock, Brendan Donovan, Luke Raley, and Cole Wilcox are currently on the injured list."
+        "ai_summary": "The Seattle Mariners hold a 69-78 record through 147 games and enter on a two-game win streak, going 5-5 over their last ten with a minus-two run differential. Their batting performs worse than the league average, while their pitching is about the same. Bettors should also factor in that Nick Davila, Colt Emerson, Emerson Hancock, Brendan Donovan, Luke Raley, and Cole Wilcox are currently on the injured list."
       }
     },
     {
@@ -267651,20 +267651,20 @@
       "live_score": null,
       "projection": {
         "game_pk": 824225,
-        "generated_at": "2026-09-11T09:23:29.875509+00:00",
+        "generated_at": "2026-09-11T11:12:17.463165+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.3,
         "away_exp_runs": 3.68,
-        "home_win_prob": 0.556,
+        "home_win_prob": 0.557,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.394,
+        "spread_cover_prob": 0.396,
         "total_line": 7.5,
         "over_prob": 0.492,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.606,
+        "spread_pick_prob": 0.604,
         "total_pick": "under",
         "total_pick_prob": 0.508,
         "spread_favorite": "home"
@@ -276681,7 +276681,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 822682,
-        "generated_at": "2026-09-11T09:23:29.875509+00:00",
+        "generated_at": "2026-09-11T11:12:17.463165+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 5.38,
         "away_exp_runs": 4.76,
@@ -276689,14 +276689,14 @@
         "spread_line": 1.5,
         "spread_cover_prob": 0.413,
         "total_line": 9.5,
-        "over_prob": 0.498,
+        "over_prob": 0.499,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
         "spread_pick_prob": 0.587,
         "total_pick": "under",
-        "total_pick_prob": 0.502,
+        "total_pick_prob": 0.501,
         "spread_favorite": "home"
       },
       "highlights": [],
@@ -281174,7 +281174,7 @@
           }
         ],
         "star_player_id": 691781,
-        "ai_summary": "The Washington Nationals enter this stretch with a 67-81 record across 148 games, struggling through a seven-game loss streak and a 2-8 mark over their last ten games with a minus-20 run differential. Team batting is better than league average at .248 average, .431 slugging, and 193 home runs, but pitching is worse than league average with a 4.60 ERA and 1.35 WHIP. Bettors should also note that Matt Waldron and Orlando Ribalta are currently on the injured list."
+        "ai_summary": "The Washington Nationals enter this stretch with a 67-81 record through 148 games, currently mired in a seven-game losing streak and going 2-8 over their last ten with a minus-twenty run differential. Their batting is better than league average at .248 average and 193 home runs, but their pitching is worse than league average with a 4.60 ERA and 1.35 WHIP. Bettors should also note that Matt Waldron and Orlando Ribalta are currently on the injured list."
       },
       "away": {
         "team_id": 108,
@@ -285711,20 +285711,20 @@
       "live_score": null,
       "projection": {
         "game_pk": 823495,
-        "generated_at": "2026-09-11T09:23:29.875509+00:00",
+        "generated_at": "2026-09-11T11:12:17.463165+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.07,
         "away_exp_runs": 2.58,
-        "home_win_prob": 0.653,
+        "home_win_prob": 0.654,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.469,
+        "spread_cover_prob": 0.47,
         "total_line": 6.5,
         "over_prob": 0.459,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.531,
+        "spread_pick_prob": 0.53,
         "total_pick": "under",
         "total_pick_prob": 0.541,
         "spread_favorite": "home"
@@ -294755,7 +294755,7 @@
           }
         ],
         "star_player_id": 681035,
-        "ai_summary": "The New York Mets enter this stretch with a 68-78 record through 146 games, currently riding a four-game win streak and going 7-3 over their last ten with a plus-10 run differential. Their batting is about the same as league average, while their pitching is worse than league average. Bettors should also note that Jorge Polanco, Devin Williams, and Cionel P\u00e9rez are currently on the injured list."
+        "ai_summary": "The New York Mets enter this stretch with a 68-78 record, highlighted by a strong 7-3 mark over their last 10 games and a current four-game winning streak. Team batting sits at .241 average and .399 slugging, which is about the same as league average, while pitching stands at a 4.15 ERA and 1.30 WHIP, making it worse than league average. Bettors should also factor in that Jorge Polanco, Devin Williams, and Cionel Perez are currently on the injured list."
       }
     },
     {
@@ -294770,22 +294770,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 824708,
-        "generated_at": "2026-09-11T09:23:29.875509+00:00",
+        "generated_at": "2026-09-11T11:12:17.463165+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.89,
         "away_exp_runs": 2.77,
         "home_win_prob": 0.616,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.432,
+        "spread_cover_prob": 0.431,
         "total_line": 6.5,
-        "over_prob": 0.462,
+        "over_prob": 0.461,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.568,
+        "spread_pick_prob": 0.569,
         "total_pick": "under",
-        "total_pick_prob": 0.538,
+        "total_pick_prob": 0.539,
         "spread_favorite": "home"
       },
       "highlights": [],
@@ -303844,20 +303844,20 @@
       "live_score": null,
       "projection": {
         "game_pk": 824869,
-        "generated_at": "2026-09-11T09:23:29.875509+00:00",
+        "generated_at": "2026-09-11T11:12:17.463165+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.71,
         "away_exp_runs": 3.29,
         "home_win_prob": 0.628,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.467,
+        "spread_cover_prob": 0.468,
         "total_line": 7.5,
         "over_prob": 0.493,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.533,
+        "spread_pick_prob": 0.532,
         "total_pick": "under",
         "total_pick_prob": 0.507,
         "spread_favorite": "home"
@@ -312831,7 +312831,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 822764,
-        "generated_at": "2026-09-11T09:23:29.875509+00:00",
+        "generated_at": "2026-09-11T11:12:17.463165+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.39,
         "away_exp_runs": 4.21,
@@ -317012,7 +317012,7 @@
           }
         ],
         "star_player_id": 676391,
-        "ai_summary": "The Toronto Blue Jays hold a 73-74 record after going 6-4 over their last ten games with a plus-18 run differential, though they are currently on a one-game losing streak. Their batting is about the same as league average, while their pitching is better than league average. Bettors should note that Jameson Taillon, Shane Bieber, Luis Ur\u00edas, and Trey Yesavage are on the injured list, and the team recently traded Sebastian Rodriguez to the Dodgers for Jos\u00e9 Rodr\u00edguez."
+        "ai_summary": "The Toronto Blue Jays hold a 73-74 record after going 6-4 over their last ten games with a plus-18 run differential, though they enter on a one-game loss streak. Team batting is about the same as league average at .249 AVG and .386 SLG, while pitching is better than league average with a 3.72 ERA and 1.25 WHIP. Bettors should note that Jameson Taillon, Shane Bieber, Luis Ur\u00edas, and Trey Yesavage are currently on the injured list."
       },
       "away": {
         "team_id": 110,
@@ -321534,13 +321534,13 @@
       "live_score": null,
       "projection": {
         "game_pk": 822928,
-        "generated_at": "2026-09-11T09:23:29.875509+00:00",
+        "generated_at": "2026-09-11T11:12:17.463165+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.4,
         "away_exp_runs": 4.42,
         "home_win_prob": 0.406,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.255,
+        "spread_cover_prob": 0.254,
         "total_line": 7.5,
         "over_prob": 0.477,
         "home_score_line": null,
@@ -326078,7 +326078,7 @@
           }
         ],
         "star_player_id": 642547,
-        "ai_summary": "The Tampa Bay Rays hold an 87-58 record and bring a 6-4 mark over their last ten games into a two-game win streak. Their batting (.262 AVG) and pitching (3.70 ERA, 1.13 WHIP) are both better than league average. Bettors should note they recently traded RF Jake Cave to the White Sox for cash. Taylor Walls, Garrett Cleavinger, Shane McClanahan, Manuel Rodr\u00edguez, and Ben Williamson remain on the injured list."
+        "ai_summary": "The Tampa Bay Rays hold an 87-59 record and went 5-5 over their last ten games, currently on a one-game losing streak. Their team batting and pitching are both better than the league average. Taylor Walls, Garrett Cleavinger, Shane McClanahan, Manuel Rodr\u00edguez, and Ben Williamson are on the injured list. Additionally, the Rays recently traded right fielder Jake Cave to the Chicago White Sox for cash."
       },
       "away": {
         "team_id": 117,
@@ -330584,11 +330584,11 @@
       "live_score": null,
       "projection": {
         "game_pk": 823815,
-        "generated_at": "2026-09-11T09:23:29.875509+00:00",
+        "generated_at": "2026-09-11T11:12:17.463165+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.53,
         "away_exp_runs": 4.41,
-        "home_win_prob": 0.42,
+        "home_win_prob": 0.419,
         "spread_line": 1.5,
         "spread_cover_prob": 0.268,
         "total_line": 7.5,
@@ -339271,20 +339271,20 @@
       "live_score": null,
       "projection": {
         "game_pk": 823658,
-        "generated_at": "2026-09-11T09:23:29.875509+00:00",
+        "generated_at": "2026-09-11T11:12:17.463165+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.3,
         "away_exp_runs": 4.52,
         "home_win_prob": 0.481,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.336,
+        "spread_cover_prob": 0.335,
         "total_line": 8.5,
         "over_prob": 0.475,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
-        "spread_pick_prob": 0.63,
+        "spread_pick_prob": 0.629,
         "total_pick": "under",
         "total_pick_prob": 0.525,
         "spread_favorite": "away"
@@ -343446,7 +343446,7 @@
           }
         ],
         "star_player_id": 680777,
-        "ai_summary": "The Minnesota Twins hold a 69-77 record after going 5-5 over their last ten games with a plus-seven run differential, though they are currently on a one-game loss streak. Their batting is about the same as league average at .247 AVG and .411 SLG, but their pitching is worse than league average with a 4.48 ERA and 1.34 WHIP. Bettors should note that Byron Buxton, Austin Martin, Mike Paredes, and Cole Sands are currently on the injured list."
+        "ai_summary": "The Minnesota Twins hold a 69-77 record through 146 games and are on a one-game losing streak, going 5-5 with a plus-seven run differential over their last ten. Their batting is about the same as league average at .247 AVG and .411 SLG, while their pitching is worse than league average with a 4.48 ERA and 1.34 WHIP. Bettors should factor in that Byron Buxton, Mike Paredes, and Cole Sands are currently on the injured list."
       },
       "away": {
         "team_id": 114,
@@ -347610,13 +347610,13 @@
       "live_score": null,
       "projection": {
         "game_pk": 823734,
-        "generated_at": "2026-09-11T09:23:29.875509+00:00",
+        "generated_at": "2026-09-11T11:12:17.463165+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.68,
         "away_exp_runs": 3.87,
-        "home_win_prob": 0.481,
+        "home_win_prob": 0.482,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.317,
+        "spread_cover_prob": 0.319,
         "total_line": 7.5,
         "over_prob": 0.451,
         "home_score_line": null,
@@ -356326,7 +356326,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 823008,
-        "generated_at": "2026-09-11T09:23:29.875509+00:00",
+        "generated_at": "2026-09-11T11:12:17.463165+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.57,
         "away_exp_runs": 3.79,
@@ -356707,7 +356707,7 @@
           "game_result": null,
           "opponent_recent_k_rate": {
             "games": 2,
-            "recent_k_rate": 0.417,
+            "recent_k_rate": 0.408,
             "season_k_rate": 0.273,
             "elevated": true
           }
@@ -360893,7 +360893,7 @@
           }
         ],
         "star_player_id": 700241,
-        "ai_summary": "The St. Louis Cardinals hold a 72-75 record through 147 games and enter on a three-game losing streak, going 4-6 over their last ten with a plus-two run differential. Their team batting and pitching both rank worse than the league average, featuring a .243 batting average and a 4.28 ERA. Bettors should also factor in that JJ Wetherholt, Blaze Jordan, Peter Strzelecki, Everson Pereira, and Hunter Dobbins are currently on the injured list."
+        "ai_summary": "The St. Louis Cardinals enter with a 72-75 record through 147 games and are on a three-game losing streak, going 4-6 over their last ten. Their team batting is worse than league average at a .243 average and .385 slugging percentage, while their pitching is also worse than league average with a 4.28 ERA and 1.35 WHIP. Bettors should also note that JJ Wetherholt, Blaze Jordan, Peter Strzelecki, Everson Pereira, and Hunter Dobbins are currently on the injured list."
       },
       "away": {
         "team_id": 145,
@@ -363180,7 +363180,7 @@
             "injury": null,
             "l7": {
               "games": 7,
-              "at_bats": 20,
+              "at_bats": 21,
               "hits": 4,
               "doubles": 1,
               "triples": 0,
@@ -363193,14 +363193,14 @@
               "hit_by_pitch": 0,
               "stolen_bases": 0,
               "h_r_rbi": 9,
-              "avg": 0.2,
-              "slg": 0.4,
-              "babip": 0.2,
-              "iso": 0.2
+              "avg": 0.19,
+              "slg": 0.381,
+              "babip": 0.188,
+              "iso": 0.191
             },
             "l15": {
               "games": 15,
-              "at_bats": 52,
+              "at_bats": 53,
               "hits": 9,
               "doubles": 2,
               "triples": 0,
@@ -363213,14 +363213,14 @@
               "hit_by_pitch": 0,
               "stolen_bases": 0,
               "h_r_rbi": 23,
-              "avg": 0.173,
-              "slg": 0.269,
-              "babip": 0.174,
-              "iso": 0.096
+              "avg": 0.17,
+              "slg": 0.264,
+              "babip": 0.17,
+              "iso": 0.094
             },
             "season": {
               "games": 78,
-              "at_bats": 276,
+              "at_bats": 277,
               "hits": 61,
               "doubles": 13,
               "triples": 3,
@@ -363233,9 +363233,9 @@
               "hit_by_pitch": 3,
               "stolen_bases": 1,
               "h_r_rbi": 139,
-              "avg": 0.221,
-              "slg": 0.355,
-              "babip": 0.264,
+              "avg": 0.22,
+              "slg": 0.354,
+              "babip": 0.263,
               "iso": 0.134
             },
             "trend": null,
@@ -363247,9 +363247,9 @@
                 "player_id": 695731,
                 "split_code": "vr",
                 "season": 2026,
-                "games": 74,
-                "plate_appearances": 228,
-                "at_bats": 198,
+                "games": 75,
+                "plate_appearances": 231,
+                "at_bats": 201,
                 "hits": 50,
                 "doubles": 9,
                 "triples": 2,
@@ -363259,18 +363259,18 @@
                 "base_on_balls": 28,
                 "strike_outs": 38,
                 "total_bases": 78,
-                "avg": 0.253,
-                "obp": 0.351,
-                "slg": 0.394,
-                "ops": 0.745
+                "avg": 0.249,
+                "obp": 0.346,
+                "slg": 0.388,
+                "ops": 0.734
               },
               "career": {
                 "player_id": 695731,
                 "split_code": "vr",
                 "season": 0,
-                "games": 74,
-                "plate_appearances": 228,
-                "at_bats": 198,
+                "games": 75,
+                "plate_appearances": 231,
+                "at_bats": 201,
                 "hits": 50,
                 "doubles": 9,
                 "triples": 2,
@@ -363280,10 +363280,10 @@
                 "base_on_balls": 28,
                 "strike_outs": 38,
                 "total_bases": 78,
-                "avg": 0.253,
-                "obp": 0.351,
-                "slg": 0.394,
-                "ops": 0.745
+                "avg": 0.249,
+                "obp": 0.346,
+                "slg": 0.388,
+                "ops": 0.734
               }
             },
             "matchup": {
@@ -363298,7 +363298,7 @@
               "this_game": "away",
               "home": {
                 "games": 42,
-                "at_bats": 142,
+                "at_bats": 143,
                 "hits": 33,
                 "doubles": 6,
                 "triples": 1,
@@ -363310,8 +363310,8 @@
                 "total_bases": 59,
                 "hit_by_pitch": 3,
                 "stolen_bases": 0,
-                "avg": 0.232,
-                "slg": 0.415
+                "avg": 0.231,
+                "slg": 0.413
               },
               "away": {
                 "games": 36,
@@ -365020,7 +365020,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 824628,
-        "generated_at": "2026-09-11T09:23:29.875509+00:00",
+        "generated_at": "2026-09-11T11:12:17.463165+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 5.12,
         "away_exp_runs": 3.39,
@@ -374094,7 +374094,7 @@
           }
         ],
         "star_player_id": 693304,
-        "ai_summary": "The Pittsburgh Pirates enter this game with a 73-73 record, having won eight of their last ten with a plus-13 run differential and a current three-game win streak. Their batting features a .254 average and .403 slugging percentage, while their pitching holds a 4.11 ERA and 1.28 WHIP, with both units performing about the same as league average. Bettors should note that Isaac Mattson, Kirby Yates, Endy Rodr\u00edguez, Mitch Keller, and Ryan O'Hearn are currently on the injured list."
+        "ai_summary": "The Pittsburgh Pirates hold a 74-73 record through 147 games and carry a four-game win streak into today. They have played well recently, going 8-2 over their last ten games with an 11 run differential. Both their batting and pitching performances are rated about the same as league average. Bettors should note that the team currently has six players on the injured list, including pitcher Mitch Keller and infielder Ryan O'Hearn."
       }
     },
     {
@@ -374109,7 +374109,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 824952,
-        "generated_at": "2026-09-11T09:23:29.875509+00:00",
+        "generated_at": "2026-09-11T11:12:17.463165+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.4,
         "away_exp_runs": 4.33,
@@ -374117,14 +374117,14 @@
         "spread_line": 1.5,
         "spread_cover_prob": 0.357,
         "total_line": 8.5,
-        "over_prob": 0.466,
+        "over_prob": 0.467,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
         "spread_pick_prob": 0.643,
         "total_pick": "under",
-        "total_pick_prob": 0.534,
+        "total_pick_prob": 0.533,
         "spread_favorite": "home"
       },
       "highlights": [],
@@ -378654,7 +378654,7 @@
           }
         ],
         "star_player_id": 682052,
-        "ai_summary": "The Athletics enter this stretch with a 59-88 record and are playing decently well lately, going 6-4 over their last ten games with a plus-four run differential on a one-game win streak. Their team batting performs at about the same level as the league average, but their pitching is worse than league average with a 5.34 ERA and 1.49 WHIP. Bettors should also factor in that J.T. Ginn, Jacob Wilson, Nick Kurtz, Tyler Soderstrom, and Shea Langeliers are currently on the injured list."
+        "ai_summary": "The Athletics enter with a 59-88 record and are on a one-game win streak, going 6-4 in their last ten games with a plus-four run differential. Team batting is about the same as league average at .246 AVG and .403 SLG with 167 home runs. Pitching is worse than league average with a 5.34 ERA and 1.49 WHIP. J.T. Ginn, Jacob Wilson, Nick Kurtz, Tyler Soderstrom, and Shea Langeliers are currently on the injured list."
       },
       "away": {
         "team_id": 136,
@@ -383197,7 +383197,7 @@
           }
         ],
         "star_player_id": 682243,
-        "ai_summary": "The Seattle Mariners enter today with a 68-78 record through 146 games, going 4-6 over their last ten with a minus-ten run differential while riding a one-game win streak. Their team batting is worse than league average at .230 AVG and .376 SLG, whereas their pitching is about the same as league average with a 4.17 ERA and 1.24 WHIP. Bettors should also note that Nick Davila, Colt Emerson, Emerson Hancock, Brendan Donovan, Luke Raley, and Cole Wilcox are currently on the injured list."
+        "ai_summary": "The Seattle Mariners hold a 69-78 record through 147 games and enter on a two-game win streak, going 5-5 over their last ten with a minus-two run differential. Their batting performs worse than the league average, while their pitching is about the same. Bettors should also factor in that Nick Davila, Colt Emerson, Emerson Hancock, Brendan Donovan, Luke Raley, and Cole Wilcox are currently on the injured list."
       }
     },
     {
@@ -383212,20 +383212,20 @@
       "live_score": null,
       "projection": {
         "game_pk": 825033,
-        "generated_at": "2026-09-11T09:23:29.875509+00:00",
+        "generated_at": "2026-09-11T11:12:17.463165+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.72,
         "away_exp_runs": 4.35,
         "home_win_prob": 0.53,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.385,
+        "spread_cover_prob": 0.384,
         "total_line": 8.5,
         "over_prob": 0.497,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.615,
+        "spread_pick_prob": 0.616,
         "total_pick": "under",
         "total_pick_prob": 0.503,
         "spread_favorite": "home"
@@ -391508,7 +391508,7 @@
           }
         ],
         "star_player_id": 679822,
-        "ai_summary": "The Texas Rangers hold a 72-74 record after going 6-4 over their last ten games with a plus-14 run differential, though they are currently on a one-game loss streak. Both team batting and pitching are about the same as league average. Bettors should note that Cole Winn, Peyton Gray, Nathan Eovaldi, and Josh Jung are currently on the injured list, while the team recently signed veteran pitcher Trevor Williams."
+        "ai_summary": "The Texas Rangers enter this stretch with a 72-75 record over 147 games and are on a two-game loss streak, going 5-5 in their last ten with a plus-ten run differential. Both their team batting and pitching are about the same as league average. The Rangers recently signed veteran pitcher Trevor Williams. Meanwhile, Cole Winn, Peyton Gray, Nathan Eovaldi, and Josh Jung are currently on the injured list."
       }
     },
     {
@@ -391523,11 +391523,11 @@
       "live_score": null,
       "projection": {
         "game_pk": 823171,
-        "generated_at": "2026-09-11T09:23:29.875509+00:00",
+        "generated_at": "2026-09-11T11:12:17.463165+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.13,
         "away_exp_runs": 3.58,
-        "home_win_prob": 0.454,
+        "home_win_prob": 0.453,
         "spread_line": 1.5,
         "spread_cover_prob": 0.278,
         "total_line": 6.5,
@@ -396079,7 +396079,7 @@
           }
         ],
         "star_player_id": 646240,
-        "ai_summary": "The San Francisco Giants enter with a 62-85 record, going 6-4 over their last ten games with a plus-two run differential and an active three-game win streak. Their batting is better than the league average, while their pitching performs worse than the league average. Bettors should also factor in that Jesus Rodriguez, Keaton Winn, Adrian Houser, Sam Hentges, Casey Schmitt, and Carson Whisenhunt are currently on the injured list."
+        "ai_summary": "The San Francisco Giants hold a 62-85 record after going 6-4 over their last 10 games, and they enter today on a three-game win streak with a plus-two run differential. Team batting is better than league average at .254 batting average and .415 slugging. Pitching is worse than league average with a 4.15 ERA and 1.33 WHIP. Bettors should also note that Jesus Rodriguez, Keaton Winn, Adrian Houser, Sam Hentges, Casey Schmitt, and Carson Whisenhunt are currently on the injured list."
       },
       "away": {
         "team_id": 135,
@@ -400596,7 +400596,7 @@
           }
         ],
         "star_player_id": 601713,
-        "ai_summary": "The San Diego Padres hold a 78-68 record and bring a four-game win streak into this matchup, going 6-4 over their last ten games with a plus-six run differential. Their batting (.240 AVG, .391 SLG) is worse than league average, while their pitching (3.84 ERA, 1.26 WHIP) is better than league average. Luis Rengifo, Gavin Sheets, and Jeremiah Estrada remain on the injured list. Meanwhile, top prospect Ethan Salas has been called up, and Jackson Merrill is coming off a standout performance."
+        "ai_summary": "The San Diego Padres enter with a 78-68 record and are on a four-game win streak, going 6-4 over their last ten games with a plus-six run differential. Team batting is worse than league average, while pitching is better. Luis Rengifo, Gavin Sheets, and Jeremiah Estrada are currently on the injured list. Meanwhile, recent headlines highlight a great game from Jackson Merrill, capped by a notable first-inning catch at the wall."
       }
     }
   ],
