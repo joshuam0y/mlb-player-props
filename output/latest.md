@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-09-10T22:34:03.924738+00:00_
+_Generated 2026-09-11T00:24:22.597744+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -87,10 +87,9 @@ _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.39)_
 - #8 Justin Crawford (L) -- L7: 3H 0HR 1RBI 4TB (0.188 avg) -- home split: 0.289 avg
 - #9 Rafael Marchán (S) -- L7: 2H 0HR 0RBI 2TB (0.125 avg) -- home split: 0.054 avg
 
-## 2026-09-10 - Texas Rangers @ Seattle Mariners (In Progress)
+## 2026-09-10 - Texas Rangers @ Seattle Mariners (Final)
 _T-Mobile Park [pitcher-friendly park]_
-Projected score: Texas Rangers 3.83 - Seattle Mariners 3.64
-Model likes: **Texas Rangers** to win (52%) | Run line: **Seattle Mariners** +1.5 (65% to cover) | Total 6.5: lean **OVER** (55%)
+Final: Texas Rangers 3 - Seattle Mariners 4
 
 ### Texas Rangers lineup -- CONFIRMED
 _Facing a taxed bullpen: 8.3 relief IP in last 2 days (ratio 1.6)_
@@ -118,7 +117,7 @@ _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.33)_
 - #8 Lazaro Montes (L) -- L7: 5H 2HR 6RBI 12TB (0.263 avg) -- home split: 0.200 avg
 - #9 Brock Rodden (S) [likely BABIP-driven, not a real power uptick] -- L7: 6H 0HR 1RBI 7TB (0.545 avg) -- home split: 0.200 avg
 
-## 2026-09-10 - Colorado Rockies @ New York Yankees (Pre-Game)
+## 2026-09-10 - Colorado Rockies @ New York Yankees (In Progress)
 _Yankee Stadium [hitter-friendly park]_
 Projected score: Colorado Rockies 2.74 - New York Yankees 5.79
 Model likes: **New York Yankees** to win (75%) | Run line: **New York Yankees** -1.5 (61% to cover) | Total 7.5: lean **OVER** (54%)
@@ -147,10 +146,10 @@ Model likes: **New York Yankees** to win (75%) | Run line: **New York Yankees** 
 - #8 Austin Wells (L) [MATCHUP EDGE: pitcher hits 0.293 avg-against vs this hand] -- L7: 3H 0HR 2RBI 3TB (0.167 avg) -- home split: 0.204 avg
 - #9 Anthony Volpe (R) -- L7: 4H 0HR 4RBI 7TB (0.182 avg) -- home split: 0.239 avg
 
-## 2026-09-10 - Pittsburgh Pirates @ Chicago White Sox (Pre-Game)
+## 2026-09-10 - Pittsburgh Pirates @ Chicago White Sox (In Progress)
 _Rate Field_
 Projected score: Pittsburgh Pirates 3.08 - Chicago White Sox 4.64
-Model likes: **Chicago White Sox** to win (64%) | Run line: **Pittsburgh Pirates** +1.5 (52% to cover) | Total 7.5: lean **UNDER** (54%)
+Model likes: **Chicago White Sox** to win (64%) | Run line: **Pittsburgh Pirates** +1.5 (52% to cover) | Total 7.5: lean **UNDER** (53%)
 
 ### Pittsburgh Pirates lineup -- CONFIRMED
 _Facing a taxed bullpen: 11.7 relief IP in last 2 days (ratio 1.56)_
@@ -898,7 +897,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-12 - Houston Astros @ Tampa Bay Rays (Scheduled)
 _Tropicana Field_
 Projected score: Houston Astros 4.15 - Tampa Bay Rays 3.66
-Model likes: **Houston Astros** to win (55%) | Run line: **Tampa Bay Rays** +1.5 (62% to cover) | Total 7.5: lean **UNDER** (52%)
+Model likes: **Houston Astros** to win (54%) | Run line: **Tampa Bay Rays** +1.5 (62% to cover) | Total 7.5: lean **UNDER** (52%)
 
 ### Houston Astros lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 1.0 relief IP in last 2 days (ratio 0.16)_
@@ -1050,7 +1049,7 @@ _Facing a rested bullpen: 1.0 relief IP in last 2 days (ratio 0.19)_
 ## 2026-09-12 - Seattle Mariners @ Athletics (Scheduled)
 _Sutter Health Park_
 Projected score: Seattle Mariners 4.9 - Athletics 4.58
-Model likes: **Seattle Mariners** to win (53%) | Run line: **Athletics** +1.5 (62% to cover) | Total 8.5: lean **OVER** (53%)
+Model likes: **Seattle Mariners** to win (52%) | Run line: **Athletics** +1.5 (62% to cover) | Total 8.5: lean **OVER** (53%)
 
 ### Seattle Mariners lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
