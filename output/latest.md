@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-09-12T10:54:45.174973+00:00_
+_Generated 2026-09-12T12:01:49.341674+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -301,7 +301,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.53)_
 ## 2026-09-12 - Kansas City Royals @ Boston Red Sox (Scheduled)
 _Fenway Park_
 Projected score: Kansas City Royals 2.81 - Boston Red Sox 2.94
-Model likes: **Boston Red Sox** to win (52%) | Run line: **Kansas City Royals** +1.5 (69% to cover) | Total 5.5: lean **UNDER** (53%)
+Model likes: **Boston Red Sox** to win (52%) | Run line: **Kansas City Royals** +1.5 (68% to cover) | Total 5.5: lean **UNDER** (52%)
 
 ### Kansas City Royals lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.53)_
@@ -331,7 +331,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.53)_
 ## 2026-09-12 - Houston Astros @ Tampa Bay Rays (Scheduled)
 _Tropicana Field_
 Projected score: Houston Astros 3.66 - Tampa Bay Rays 3.79
-Model likes: **Tampa Bay Rays** to win (51%) | Run line: **Houston Astros** +1.5 (66% to cover) | Total 6.5: lean **OVER** (54%)
+Model likes: **Tampa Bay Rays** to win (51%) | Run line: **Houston Astros** +1.5 (65% to cover) | Total 6.5: lean **OVER** (54%)
 
 ### Houston Astros lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.7 relief IP in last 2 days (ratio 0.59)_
@@ -694,7 +694,7 @@ _Facing a rested bullpen: 3.3 relief IP in last 2 days (ratio 0.63)_
 ## 2026-09-13 - Houston Astros @ Tampa Bay Rays (Scheduled)
 _Tropicana Field_
 Projected score: Houston Astros 4.19 - Tampa Bay Rays 3.6
-Model likes: **Houston Astros** to win (55%) | Run line: **Tampa Bay Rays** +1.5 (61% to cover) | Total 7.5: lean **UNDER** (52%)
+Model likes: **Houston Astros** to win (55%) | Run line: **Tampa Bay Rays** +1.5 (61% to cover) | Total 7.5: lean **UNDER** (53%)
 
 ### Houston Astros lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.32)_
@@ -1170,7 +1170,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-14 - San Diego Padres @ Colorado Rockies (Scheduled)
 _Coors Field [hitter-friendly park]_
 Projected score: San Diego Padres 6.24 - Colorado Rockies 4.64
-Model likes: **San Diego Padres** to win (61%) | Run line: **Colorado Rockies** +1.5 (51% to cover) | Total 10.5: lean **UNDER** (52%)
+Model likes: **San Diego Padres** to win (62%) | Run line: **Colorado Rockies** +1.5 (51% to cover) | Total 10.5: lean **UNDER** (52%)
 
 ### San Diego Padres lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
