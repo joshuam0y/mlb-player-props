@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-09-12T05:57:09.510748+00:00_
+_Generated 2026-09-12T07:58:27.226701+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -56,7 +56,7 @@ _Generated 2026-09-12T05:57:09.510748+00:00_
 ## 2026-09-12 - Colorado Rockies @ Detroit Tigers (Scheduled)
 _Comerica Park [pitcher-friendly park]_
 Projected score: Colorado Rockies 3.33 - Detroit Tigers 4.48
-Model likes: **Detroit Tigers** to win (61%) | Run line: **Colorado Rockies** +1.5 (56% to cover) | Total 7.5: lean **UNDER** (53%)
+Model likes: **Detroit Tigers** to win (61%) | Run line: **Colorado Rockies** +1.5 (56% to cover) | Total 7.5: lean **UNDER** (52%)
 
 ### Colorado Rockies lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 1.0 relief IP in last 2 days (ratio 0.18)_
@@ -423,7 +423,7 @@ _Facing a rested bullpen: 3.7 relief IP in last 2 days (ratio 0.59)_
 ## 2026-09-12 - Philadelphia Phillies @ Atlanta Braves (Scheduled)
 _Truist Park_
 Projected score: Philadelphia Phillies 3.46 - Atlanta Braves 3.6
-Model likes: **Atlanta Braves** to win (51%) | Run line: **Philadelphia Phillies** +1.5 (66% to cover) | Total 6.5: lean **OVER** (50%)
+Model likes: **Atlanta Braves** to win (51%) | Run line: **Philadelphia Phillies** +1.5 (66% to cover) | Total 6.5: lean **OVER** (51%)
 
 ### Philadelphia Phillies lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.7 relief IP in last 2 days (ratio 0.67)_
@@ -544,7 +544,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.49)_
 ## 2026-09-13 - Los Angeles Angels @ Washington Nationals (Scheduled)
 _Nationals Park_
 Projected score: Los Angeles Angels 4.58 - Washington Nationals 5.4
-Model likes: **Washington Nationals** to win (56%) | Run line: **Los Angeles Angels** +1.5 (57% to cover) | Total 9.5: lean **UNDER** (52%)
+Model likes: **Washington Nationals** to win (56%) | Run line: **Los Angeles Angels** +1.5 (57% to cover) | Total 9.5: lean **UNDER** (51%)
 
 ### Los Angeles Angels lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 1.0 relief IP in last 2 days (ratio 0.16)_
@@ -699,7 +699,7 @@ _Facing a rested bullpen: 2.7 relief IP in last 2 days (ratio 0.5)_
 ## 2026-09-13 - Houston Astros @ Tampa Bay Rays (Scheduled)
 _Tropicana Field_
 Projected score: Houston Astros 4.19 - Tampa Bay Rays 3.6
-Model likes: **Houston Astros** to win (55%) | Run line: **Tampa Bay Rays** +1.5 (61% to cover) | Total 7.5: lean **UNDER** (53%)
+Model likes: **Houston Astros** to win (56%) | Run line: **Tampa Bay Rays** +1.5 (61% to cover) | Total 7.5: lean **UNDER** (53%)
 
 ### Houston Astros lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.32)_
@@ -729,7 +729,7 @@ _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.32)_
 ## 2026-09-13 - Los Angeles Dodgers @ Miami Marlins (Scheduled)
 _loanDepot park [pitcher-friendly park]_
 Projected score: Los Angeles Dodgers 4.09 - Miami Marlins 3.3
-Model likes: **Los Angeles Dodgers** to win (58%) | Run line: **Miami Marlins** +1.5 (60% to cover) | Total 6.5: lean **OVER** (54%)
+Model likes: **Los Angeles Dodgers** to win (57%) | Run line: **Miami Marlins** +1.5 (60% to cover) | Total 6.5: lean **OVER** (54%)
 
 ### Los Angeles Dodgers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.3 relief IP in last 2 days (ratio 0.42)_
@@ -1059,7 +1059,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-14 - Baltimore Orioles @ New York Mets (Scheduled)
 _Citi Field_
 Projected score: Baltimore Orioles 3.99 - New York Mets 4.67
-Model likes: **New York Mets** to win (56%) | Run line: **Baltimore Orioles** +1.5 (60% to cover) | Total 8.5: lean **UNDER** (54%)
+Model likes: **New York Mets** to win (56%) | Run line: **Baltimore Orioles** +1.5 (59% to cover) | Total 8.5: lean **UNDER** (54%)
 
 ### Baltimore Orioles lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1118,7 +1118,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-14 - Atlanta Braves @ Chicago Cubs (Scheduled)
 _Wrigley Field_
 Projected score: Atlanta Braves 4.2 - Chicago Cubs 4.85
-Model likes: **Chicago Cubs** to win (55%) | Run line: **Atlanta Braves** +1.5 (59% to cover) | Total 8.5: lean **UNDER** (50%)
+Model likes: **Chicago Cubs** to win (55%) | Run line: **Atlanta Braves** +1.5 (59% to cover) | Total 8.5: lean **UNDER** (51%)
 
 ### Atlanta Braves lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1176,7 +1176,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-14 - San Diego Padres @ Colorado Rockies (Scheduled)
 _Coors Field [hitter-friendly park]_
 Projected score: San Diego Padres 6.24 - Colorado Rockies 4.64
-Model likes: **San Diego Padres** to win (61%) | Run line: **Colorado Rockies** +1.5 (51% to cover) | Total 10.5: lean **UNDER** (53%)
+Model likes: **San Diego Padres** to win (61%) | Run line: **Colorado Rockies** +1.5 (51% to cover) | Total 10.5: lean **UNDER** (52%)
 
 ### San Diego Padres lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
