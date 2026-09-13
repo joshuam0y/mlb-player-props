@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-09-13T01:00:44.806920+00:00_
+_Generated 2026-09-13T01:20:10.962999+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -438,7 +438,7 @@ _Facing a taxed bullpen: 6.3 relief IP in last 2 days (ratio 1.25)_
 - #8 Sean Murphy (R) -- L7: 4H 1HR 4RBI 7TB (0.174 avg) -- home split: 0.282 avg
 - #9 Ha-Seong Kim (R) [likely BABIP-driven, not a real power uptick] -- L7: 7H 0HR 4RBI 8TB (0.389 avg) -- home split: 0.151 avg
 
-## 2026-09-12 - Texas Rangers @ Arizona Diamondbacks (In Progress)
+## 2026-09-12 - Texas Rangers @ Arizona Diamondbacks (Manager challenge)
 _Chase Field [hitter-friendly park]_
 Projected score: Texas Rangers 3.44 - Arizona Diamondbacks 4.53
 Model likes: **Arizona Diamondbacks** to win (60%) | Run line: **Texas Rangers** +1.5 (56% to cover) | Total 7.5: lean **UNDER** (51%)
@@ -558,7 +558,7 @@ _Facing a rested bullpen: 4.0 relief IP in last 2 days (ratio 0.62)_
 ## 2026-09-13 - New York Mets @ New York Yankees (Scheduled)
 _Yankee Stadium [hitter-friendly park]_
 Projected score: New York Mets 2.77 - New York Yankees 3.92
-Model likes: **New York Yankees** to win (62%) | Run line: **New York Mets** +1.5 (56% to cover) | Total 6.5: lean **UNDER** (54%)
+Model likes: **New York Yankees** to win (62%) | Run line: **New York Mets** +1.5 (57% to cover) | Total 6.5: lean **UNDER** (54%)
 
 ### New York Mets lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.7 relief IP in last 2 days (ratio 0.44)_
@@ -588,7 +588,7 @@ _Facing a rested bullpen: 2.7 relief IP in last 2 days (ratio 0.44)_
 ## 2026-09-13 - Philadelphia Phillies @ Atlanta Braves (Scheduled)
 _Truist Park_
 Projected score: Philadelphia Phillies 3.26 - Atlanta Braves 4.91
-Model likes: **Atlanta Braves** to win (64%) | Run line: **Philadelphia Phillies** +1.5 (51% to cover) | Total 7.5: lean **OVER** (51%)
+Model likes: **Atlanta Braves** to win (65%) | Run line: **Philadelphia Phillies** +1.5 (51% to cover) | Total 7.5: lean **OVER** (51%)
 
 ### Philadelphia Phillies lineup -- PROJECTED (unconfirmed)
 **Probable P: Andrew Painter (R)** -- L5: 30.0 IP, 28 K, 14 ER, 4.2 ERA
@@ -887,7 +887,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.58)_
 ## 2026-09-13 - Texas Rangers @ Arizona Diamondbacks (Scheduled)
 _Chase Field [hitter-friendly park]_
 Projected score: Texas Rangers 3.05 - Arizona Diamondbacks 4.99
-Model likes: **Arizona Diamondbacks** to win (67%) | Run line: **Arizona Diamondbacks** -1.5 (51% to cover) | Total 7.5: lean **UNDER** (50%)
+Model likes: **Arizona Diamondbacks** to win (67%) | Run line: **Arizona Diamondbacks** -1.5 (51% to cover) | Total 7.5: lean **UNDER** (51%)
 
 ### Texas Rangers lineup -- PROJECTED (unconfirmed)
 - Wyatt Langford (R) -- L7: 2H 1HR 2RBI 5TB (0.083 avg) -- away split: 0.250 avg
@@ -975,7 +975,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-14 - Los Angeles Dodgers @ Cincinnati Reds (Scheduled)
 _Great American Ball Park [hitter-friendly park]_
 Projected score: Los Angeles Dodgers 5.58 - Cincinnati Reds 3.65
-Model likes: **Los Angeles Dodgers** to win (65%) | Run line: **Los Angeles Dodgers** -1.5 (51% to cover) | Total 8.5: lean **OVER** (51%)
+Model likes: **Los Angeles Dodgers** to win (66%) | Run line: **Los Angeles Dodgers** -1.5 (51% to cover) | Total 8.5: lean **OVER** (51%)
 
 ### Los Angeles Dodgers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1064,7 +1064,7 @@ _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.3)_
 ## 2026-09-14 - New York Yankees @ Minnesota Twins (Scheduled)
 _Target Field_
 Projected score: New York Yankees 4.95 - Minnesota Twins 3.51
-Model likes: **New York Yankees** to win (62%) | Run line: **Minnesota Twins** +1.5 (53% to cover) | Total 7.5: lean **OVER** (53%)
+Model likes: **New York Yankees** to win (62%) | Run line: **Minnesota Twins** +1.5 (53% to cover) | Total 7.5: lean **OVER** (54%)
 
 ### New York Yankees lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.7 relief IP in last 2 days (ratio 0.57)_
@@ -1093,7 +1093,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-14 - Atlanta Braves @ Chicago Cubs (Scheduled)
 _Wrigley Field_
 Projected score: Atlanta Braves 4.2 - Chicago Cubs 4.85
-Model likes: **Chicago Cubs** to win (55%) | Run line: **Atlanta Braves** +1.5 (59% to cover) | Total 8.5: lean **UNDER** (50%)
+Model likes: **Chicago Cubs** to win (55%) | Run line: **Atlanta Braves** +1.5 (59% to cover) | Total 8.5: lean **UNDER** (51%)
 
 ### Atlanta Braves lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.4)_
@@ -1151,7 +1151,7 @@ _Facing a rested bullpen: 2.3 relief IP in last 2 days (ratio 0.43)_
 ## 2026-09-14 - San Diego Padres @ Colorado Rockies (Scheduled)
 _Coors Field [hitter-friendly park]_
 Projected score: San Diego Padres 6.24 - Colorado Rockies 4.64
-Model likes: **San Diego Padres** to win (61%) | Run line: **Colorado Rockies** +1.5 (51% to cover) | Total 10.5: lean **UNDER** (52%)
+Model likes: **San Diego Padres** to win (61%) | Run line: **Colorado Rockies** +1.5 (51% to cover) | Total 10.5: lean **UNDER** (53%)
 
 ### San Diego Padres lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.32)_
