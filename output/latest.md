@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-09-13T22:31:17.071264+00:00_
+_Generated 2026-09-13T23:05:40.688747+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -438,10 +438,9 @@ _Facing a taxed bullpen: 10.7 relief IP in last 2 days (ratio 1.89)_
 - #8 Brian Serven (R) [TOUGH MATCHUP: pitcher holds this hand to 0.192 avg-against] -- L7: 4H 1HR 3RBI 8TB (0.200 avg) -- home split: 0.188 avg
 - #9 Alika Williams (R) [TOUGH MATCHUP: pitcher holds this hand to 0.192 avg-against] -- L7: 2H 0HR 0RBI 2TB (0.095 avg) -- home split: 0.278 avg
 
-## 2026-09-13 - Texas Rangers @ Arizona Diamondbacks (In Progress)
+## 2026-09-13 - Texas Rangers @ Arizona Diamondbacks (Final)
 _Chase Field [hitter-friendly park]_
-Projected score: Texas Rangers 3.25 - Arizona Diamondbacks 3.85
-Model likes: **Arizona Diamondbacks** to win (56%) | Run line: **Texas Rangers** +1.5 (62% to cover) | Total 6.5: lean **OVER** (51%)
+Final: Texas Rangers 7 - Arizona Diamondbacks 6
 
 ### Texas Rangers lineup -- CONFIRMED
 **Probable P: Cal Quantrill (R)** -- L5: 32.0 IP, 28 K, 6 ER, 1.69 ERA
@@ -468,7 +467,7 @@ _Facing a taxed bullpen: 9.0 relief IP in last 2 days (ratio 1.7)_
 - #8 James McCann (R) [TOUGH MATCHUP: pitcher holds this hand to 0.201 avg-against] -- L7: 6H 1HR 3RBI 10TB (0.300 avg) -- home split: 0.235 avg
 - #9 Jordan Lawlar (R) [TOUGH MATCHUP: pitcher holds this hand to 0.201 avg-against] -- L7: 3H 0HR 0RBI 4TB (0.176 avg) -- home split: 0.360 avg
 
-## 2026-09-13 - San Diego Padres @ San Francisco Giants (Pre-Game)
+## 2026-09-13 - San Diego Padres @ San Francisco Giants (Warmup)
 _Oracle Park [pitcher-friendly park]_
 Projected score: San Diego Padres 4.06 - San Francisco Giants 3.14
 Model likes: **San Diego Padres** to win (59%) | Run line: **San Francisco Giants** +1.5 (58% to cover) | Total 6.5: lean **OVER** (52%)
@@ -501,7 +500,7 @@ _Facing a taxed bullpen: 10.3 relief IP in last 2 days (ratio 1.91)_
 ## 2026-09-14 - Chicago White Sox @ Cleveland Guardians (Scheduled)
 _Progressive Field_
 Projected score: Chicago White Sox 4.24 - Cleveland Guardians 3.73
-Model likes: **Chicago White Sox** to win (55%) | Run line: **Cleveland Guardians** +1.5 (61% to cover) | Total 7.5: lean **UNDER** (51%)
+Model likes: **Chicago White Sox** to win (55%) | Run line: **Cleveland Guardians** +1.5 (62% to cover) | Total 7.5: lean **UNDER** (51%)
 
 ### Chicago White Sox lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.3)_
@@ -892,7 +891,7 @@ _Facing a rested bullpen: 1.3 relief IP in last 2 days (ratio 0.18)_
 ## 2026-09-15 - Los Angeles Dodgers @ Cincinnati Reds (Scheduled)
 _Great American Ball Park [hitter-friendly park]_
 Projected score: Los Angeles Dodgers 6.45 - Cincinnati Reds 3.25
-Model likes: **Los Angeles Dodgers** to win (74%) | Run line: **Los Angeles Dodgers** -1.5 (61% to cover) | Total 8.5: lean **OVER** (54%)
+Model likes: **Los Angeles Dodgers** to win (74%) | Run line: **Los Angeles Dodgers** -1.5 (61% to cover) | Total 9.5: lean **UNDER** (54%)
 
 ### Los Angeles Dodgers lineup -- PROJECTED (unconfirmed)
 **Probable P: Yoshinobu Yamamoto (R)** -- L5: 32.7 IP, 44 K, 9 ER, 2.48 ERA
@@ -952,7 +951,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.55)_
 ## 2026-09-15 - Detroit Tigers @ Toronto Blue Jays (Scheduled)
 _Rogers Centre_
 Projected score: Detroit Tigers 4.0 - Toronto Blue Jays 3.56
-Model likes: **Detroit Tigers** to win (54%) | Run line: **Toronto Blue Jays** +1.5 (62% to cover) | Total 7.5: lean **UNDER** (55%)
+Model likes: **Detroit Tigers** to win (54%) | Run line: **Toronto Blue Jays** +1.5 (63% to cover) | Total 7.5: lean **UNDER** (55%)
 
 ### Detroit Tigers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 1.7 relief IP in last 2 days (ratio 0.24)_
@@ -1106,7 +1105,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-15 - Boston Red Sox @ Texas Rangers (Scheduled)
 _Globe Life Field [hitter-friendly park]_
 Projected score: Boston Red Sox 4.25 - Texas Rangers 4.01
-Model likes: **Boston Red Sox** to win (52%) | Run line: **Texas Rangers** +1.5 (64% to cover) | Total 7.5: lean **OVER** (52%)
+Model likes: **Boston Red Sox** to win (52%) | Run line: **Texas Rangers** +1.5 (63% to cover) | Total 7.5: lean **OVER** (52%)
 
 ### Boston Red Sox lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 1.0 relief IP in last 2 days (ratio 0.19)_
