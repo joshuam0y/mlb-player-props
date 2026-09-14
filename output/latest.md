@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-09-14T14:12:44.591616+00:00_
+_Generated 2026-09-14T16:53:13.616173+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -233,7 +233,7 @@ _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.27)_
 ## 2026-09-14 - San Francisco Giants @ St. Louis Cardinals (Scheduled)
 _Busch Stadium_
 Projected score: San Francisco Giants 4.58 - St. Louis Cardinals 4.02
-Model likes: **San Francisco Giants** to win (55%) | Run line: **St. Louis Cardinals** +1.5 (60% to cover) | Total 8.5: lean **UNDER** (54%)
+Model likes: **San Francisco Giants** to win (55%) | Run line: **St. Louis Cardinals** +1.5 (60% to cover) | Total 8.5: lean **UNDER** (55%)
 
 ### San Francisco Giants lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 9.0 relief IP in last 2 days (ratio 1.44)_
@@ -264,7 +264,7 @@ _Facing a taxed bullpen: 8.3 relief IP in last 2 days (ratio 1.54)_
 ## 2026-09-14 - San Diego Padres @ Colorado Rockies (Scheduled)
 _Coors Field [hitter-friendly park]_
 Projected score: San Diego Padres 5.48 - Colorado Rockies 3.88
-Model likes: **San Diego Padres** to win (63%) | Run line: **Colorado Rockies** +1.5 (51% to cover) | Total 8.5: lean **OVER** (52%)
+Model likes: **San Diego Padres** to win (63%) | Run line: **Colorado Rockies** +1.5 (52% to cover) | Total 8.5: lean **OVER** (52%)
 
 ### San Diego Padres lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 8.0 relief IP in last 2 days (ratio 1.29)_
@@ -955,7 +955,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-16 - Milwaukee Brewers @ Pittsburgh Pirates (Scheduled)
 _PNC Park_
 Projected score: Milwaukee Brewers 4.62 - Pittsburgh Pirates 3.05
-Model likes: **Milwaukee Brewers** to win (65%) | Run line: **Pittsburgh Pirates** +1.5 (52% to cover) | Total 7.5: lean **UNDER** (54%)
+Model likes: **Milwaukee Brewers** to win (64%) | Run line: **Pittsburgh Pirates** +1.5 (52% to cover) | Total 7.5: lean **UNDER** (54%)
 
 ### Milwaukee Brewers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1016,7 +1016,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-16 - Philadelphia Phillies @ Washington Nationals (Scheduled)
 _Nationals Park_
 Projected score: Philadelphia Phillies 3.84 - Washington Nationals 4.22
-Model likes: **Washington Nationals** to win (53%) | Run line: **Philadelphia Phillies** +1.5 (62% to cover) | Total 7.5: lean **OVER** (50%)
+Model likes: **Washington Nationals** to win (54%) | Run line: **Philadelphia Phillies** +1.5 (62% to cover) | Total 7.5: lean **OVER** (50%)
 
 ### Philadelphia Phillies lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
