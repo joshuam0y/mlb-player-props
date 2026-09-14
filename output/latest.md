@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-09-14T06:21:05.418415+00:00_
+_Generated 2026-09-14T11:02:57.373107+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -141,7 +141,7 @@ _Facing a taxed bullpen: 7.3 relief IP in last 2 days (ratio 1.31)_
 ## 2026-09-14 - Baltimore Orioles @ New York Mets (Scheduled)
 _Citi Field_
 Projected score: Baltimore Orioles 3.89 - New York Mets 3.64
-Model likes: **Baltimore Orioles** to win (52%) | Run line: **New York Mets** +1.5 (64% to cover) | Total 6.5: lean **OVER** (55%)
+Model likes: **Baltimore Orioles** to win (52%) | Run line: **New York Mets** +1.5 (64% to cover) | Total 7.5: lean **UNDER** (55%)
 
 ### Baltimore Orioles lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.3)_
@@ -381,7 +381,7 @@ _Facing a rested bullpen: 4.0 relief IP in last 2 days (ratio 0.65)_
 ## 2026-09-15 - Milwaukee Brewers @ Pittsburgh Pirates (Scheduled)
 _PNC Park_
 Projected score: Milwaukee Brewers 5.4 - Pittsburgh Pirates 2.77
-Model likes: **Milwaukee Brewers** to win (73%) | Run line: **Milwaukee Brewers** -1.5 (58% to cover) | Total 7.5: lean **OVER** (50%)
+Model likes: **Milwaukee Brewers** to win (73%) | Run line: **Milwaukee Brewers** -1.5 (57% to cover) | Total 7.5: lean **OVER** (50%)
 
 ### Milwaukee Brewers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.7 relief IP in last 2 days (ratio 0.57)_
@@ -623,7 +623,7 @@ _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.37)_
 ## 2026-09-15 - San Francisco Giants @ St. Louis Cardinals (Scheduled)
 _Busch Stadium_
 Projected score: San Francisco Giants 4.12 - St. Louis Cardinals 3.89
-Model likes: **San Francisco Giants** to win (52%) | Run line: **St. Louis Cardinals** +1.5 (64% to cover) | Total 7.5: lean **UNDER** (51%)
+Model likes: **San Francisco Giants** to win (52%) | Run line: **St. Louis Cardinals** +1.5 (64% to cover) | Total 7.5: lean **UNDER** (50%)
 
 ### San Francisco Giants lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.48)_
@@ -776,7 +776,7 @@ _Facing a rested bullpen: 2.3 relief IP in last 2 days (ratio 0.45)_
 ## 2026-09-15 - Miami Marlins @ Arizona Diamondbacks (Scheduled)
 _Chase Field [hitter-friendly park]_
 Projected score: Miami Marlins 3.77 - Arizona Diamondbacks 4.45
-Model likes: **Arizona Diamondbacks** to win (56%) | Run line: **Miami Marlins** +1.5 (60% to cover) | Total 7.5: lean **OVER** (52%)
+Model likes: **Arizona Diamondbacks** to win (56%) | Run line: **Miami Marlins** +1.5 (60% to cover) | Total 7.5: lean **OVER** (51%)
 
 ### Miami Marlins lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.7 relief IP in last 2 days (ratio 0.45)_
@@ -837,7 +837,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-16 - San Francisco Giants @ St. Louis Cardinals (Scheduled)
 _Busch Stadium_
 Projected score: San Francisco Giants 5.38 - St. Louis Cardinals 4.91
-Model likes: **San Francisco Giants** to win (53%) | Run line: **St. Louis Cardinals** +1.5 (60% to cover) | Total 9.5: lean **OVER** (51%)
+Model likes: **San Francisco Giants** to win (54%) | Run line: **St. Louis Cardinals** +1.5 (60% to cover) | Total 9.5: lean **OVER** (51%)
 
 ### San Francisco Giants lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -867,7 +867,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-16 - New York Yankees @ Minnesota Twins (Scheduled)
 _Target Field_
 Projected score: New York Yankees 4.96 - Minnesota Twins 2.98
-Model likes: **New York Yankees** to win (68%) | Run line: **New York Yankees** -1.5 (52% to cover) | Total 7.5: lean **UNDER** (51%)
+Model likes: **New York Yankees** to win (68%) | Run line: **New York Yankees** -1.5 (52% to cover) | Total 7.5: lean **UNDER** (52%)
 
 ### New York Yankees lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
