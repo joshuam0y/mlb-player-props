@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-09-14T23:15:07.387764+00:00_
+_Generated 2026-09-14T23:33:36.562752+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -169,7 +169,7 @@ _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.32)_
 - #8 Brett Baty (L) [7-game hit streak] -- L7: 7H 2HR 10RBI 17TB (0.412 avg) -- home split: 0.240 avg
 - #9 Francisco Alvarez (R) -- L7: 5H 2HR 3RBI 11TB (0.192 avg) -- home split: 0.216 avg
 
-## 2026-09-14 - New York Yankees @ Minnesota Twins (Pre-Game)
+## 2026-09-14 - New York Yankees @ Minnesota Twins (Warmup)
 _Target Field_
 Projected score: New York Yankees 5.45 - Minnesota Twins 3.75
 Model likes: **New York Yankees** to win (64%) | Run line: **Minnesota Twins** +1.5 (51% to cover) | Total 8.5: lean **OVER** (50%)
@@ -200,7 +200,7 @@ _Facing a taxed bullpen: 7.7 relief IP in last 2 days (ratio 1.25)_
 - #8 Ryan Kreidler (R) -- L7: 1H 0HR 0RBI 2TB (0.100 avg) -- home split: 0.245 avg
 - #9 Walker Jenkins (L) [MATCHUP EDGE: pitcher hits 0.270 avg-against vs this hand] -- L7: 1H 0HR 2RBI 2TB (0.056 avg) -- home split: 0.111 avg -- news: The wait is over: Walker Jenkins is ready to conquer the Twin Cities
 
-## 2026-09-14 - Atlanta Braves @ Chicago Cubs (Pre-Game)
+## 2026-09-14 - Atlanta Braves @ Chicago Cubs (Warmup)
 _Wrigley Field_
 Projected score: Atlanta Braves 4.88 - Chicago Cubs 4.73
 Model likes: **Atlanta Braves** to win (51%) | Run line: **Chicago Cubs** +1.5 (63% to cover) | Total 8.5: lean **OVER** (54%)
@@ -231,7 +231,7 @@ _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.26)_
 - #8 Pedro Ramírez (S) -- L7: 5H 2HR 3RBI 13TB (0.208 avg) -- home split: 0.270 avg
 - #9 Carson Kelly (R) -- L7: 5H 0HR 4RBI 7TB (0.263 avg) -- home split: 0.294 avg
 
-## 2026-09-14 - San Francisco Giants @ St. Louis Cardinals (Pre-Game)
+## 2026-09-14 - San Francisco Giants @ St. Louis Cardinals (Warmup)
 _Busch Stadium_
 Projected score: San Francisco Giants 4.59 - St. Louis Cardinals 4.02
 Model likes: **San Francisco Giants** to win (55%) | Run line: **St. Louis Cardinals** +1.5 (60% to cover) | Total 8.5: lean **UNDER** (54%)
@@ -324,7 +324,7 @@ Model likes: **Los Angeles Angels** to win (51%) | Run line: **Seattle Mariners*
 ## 2026-09-14 - Miami Marlins @ Arizona Diamondbacks (Pre-Game)
 _Chase Field [hitter-friendly park]_
 Projected score: Miami Marlins 4.43 - Arizona Diamondbacks 4.15
-Model likes: **Miami Marlins** to win (52%) | Run line: **Arizona Diamondbacks** +1.5 (63% to cover) | Total 7.5: lean **OVER** (55%)
+Model likes: **Miami Marlins** to win (52%) | Run line: **Arizona Diamondbacks** +1.5 (63% to cover) | Total 8.5: lean **UNDER** (55%)
 
 ### Miami Marlins lineup -- CONFIRMED
 **Probable P: Sandy Alcantara (R)** -- L5: 29.3 IP, 13 K, 19 ER, 5.83 ERA
@@ -415,7 +415,7 @@ _Facing a rested bullpen: 4.0 relief IP in last 2 days (ratio 0.63)_
 ## 2026-09-15 - Chicago White Sox @ Cleveland Guardians (Scheduled)
 _Progressive Field_
 Projected score: Chicago White Sox 3.66 - Cleveland Guardians 3.69
-Model likes: **Cleveland Guardians** to win (50%) | Run line: **Chicago White Sox** +1.5 (67% to cover) | Total 6.5: lean **OVER** (54%)
+Model likes: **Cleveland Guardians** to win (50%) | Run line: **Chicago White Sox** +1.5 (66% to cover) | Total 6.5: lean **OVER** (54%)
 
 ### Chicago White Sox lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.3 relief IP in last 2 days (ratio 0.41)_
@@ -476,7 +476,7 @@ _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.36)_
 ## 2026-09-15 - Philadelphia Phillies @ Washington Nationals (Scheduled)
 _Nationals Park_
 Projected score: Philadelphia Phillies 5.47 - Washington Nationals 4.12
-Model likes: **Philadelphia Phillies** to win (61%) | Run line: **Washington Nationals** +1.5 (53% to cover) | Total 8.5: lean **OVER** (54%)
+Model likes: **Philadelphia Phillies** to win (60%) | Run line: **Washington Nationals** +1.5 (53% to cover) | Total 8.5: lean **OVER** (54%)
 
 ### Philadelphia Phillies lineup -- PROJECTED (unconfirmed)
 **Probable P: Cristopher Sánchez (L)** -- L5: 31.7 IP, 29 K, 14 ER, 3.98 ERA
@@ -774,7 +774,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.57)_
 ## 2026-09-15 - Miami Marlins @ Arizona Diamondbacks (Scheduled)
 _Chase Field [hitter-friendly park]_
 Projected score: Miami Marlins 3.85 - Arizona Diamondbacks 4.49
-Model likes: **Arizona Diamondbacks** to win (56%) | Run line: **Miami Marlins** +1.5 (60% to cover) | Total 7.5: lean **OVER** (53%)
+Model likes: **Arizona Diamondbacks** to win (56%) | Run line: **Miami Marlins** +1.5 (60% to cover) | Total 7.5: lean **OVER** (52%)
 
 ### Miami Marlins lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.7 relief IP in last 2 days (ratio 0.62)_
@@ -834,7 +834,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-16 - San Francisco Giants @ St. Louis Cardinals (Scheduled)
 _Busch Stadium_
 Projected score: San Francisco Giants 5.38 - St. Louis Cardinals 4.91
-Model likes: **San Francisco Giants** to win (53%) | Run line: **St. Louis Cardinals** +1.5 (60% to cover) | Total 9.5: lean **OVER** (51%)
+Model likes: **San Francisco Giants** to win (54%) | Run line: **St. Louis Cardinals** +1.5 (60% to cover) | Total 9.5: lean **OVER** (51%)
 
 ### San Francisco Giants lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -957,7 +957,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-16 - Milwaukee Brewers @ Pittsburgh Pirates (Scheduled)
 _PNC Park_
 Projected score: Milwaukee Brewers 4.62 - Pittsburgh Pirates 3.05
-Model likes: **Milwaukee Brewers** to win (64%) | Run line: **Pittsburgh Pirates** +1.5 (52% to cover) | Total 7.5: lean **UNDER** (54%)
+Model likes: **Milwaukee Brewers** to win (65%) | Run line: **Pittsburgh Pirates** +1.5 (52% to cover) | Total 7.5: lean **UNDER** (54%)
 
 ### Milwaukee Brewers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1172,7 +1172,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-16 - San Diego Padres @ Colorado Rockies (Scheduled)
 _Coors Field [hitter-friendly park]_
 Projected score: San Diego Padres 4.6 - Colorado Rockies 3.81
-Model likes: **San Diego Padres** to win (57%) | Run line: **Colorado Rockies** +1.5 (58% to cover) | Total 7.5: lean **OVER** (53%)
+Model likes: **San Diego Padres** to win (57%) | Run line: **Colorado Rockies** +1.5 (59% to cover) | Total 7.5: lean **OVER** (53%)
 
 ### San Diego Padres lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
