@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-09-13T23:05:40.688747+00:00_
+_Generated 2026-09-14T00:57:38.232194+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -379,10 +379,9 @@ _Facing a taxed bullpen: 6.3 relief IP in last 2 days (ratio 1.26)_
 - #8 Pedro Ramírez (S) -- L7: 5H 2HR 3RBI 13TB (0.192 avg) -- home split: 0.278 avg
 - #9 Miguel Amaya (R) -- L7: 4H 0HR 1RBI 5TB (0.250 avg) -- home split: 0.218 avg
 
-## 2026-09-13 - Kansas City Royals @ Boston Red Sox (In Progress)
+## 2026-09-13 - Kansas City Royals @ Boston Red Sox (Final)
 _Fenway Park_
-Projected score: Kansas City Royals 2.74 - Boston Red Sox 4.19
-Model likes: **Boston Red Sox** to win (64%) | Run line: **Kansas City Royals** +1.5 (53% to cover) | Total 6.5: lean **UNDER** (51%)
+Final: Kansas City Royals 1 - Boston Red Sox 4
 
 ### Kansas City Royals lineup -- CONFIRMED
 **Probable P: Noah Cameron (L)** -- L5: 31.0 IP, 27 K, 6 ER, 1.74 ERA
@@ -408,10 +407,9 @@ Model likes: **Boston Red Sox** to win (64%) | Run line: **Kansas City Royals** 
 - #8 Nick Sogard (S) -- L7: 7H 0HR 2RBI 9TB (0.269 avg) -- home split: 0.337 avg
 - #9 Nate Eaton (R) -- L7: 1H 0HR 2RBI 1TB (0.050 avg) -- home split: 0.077 avg
 
-## 2026-09-13 - Seattle Mariners @ Athletics (In Progress)
+## 2026-09-13 - Seattle Mariners @ Athletics (Final)
 _Sutter Health Park_
-Projected score: Seattle Mariners 5.39 - Athletics 4.37
-Model likes: **Seattle Mariners** to win (58%) | Run line: **Athletics** +1.5 (56% to cover) | Total 9.5: lean **UNDER** (53%)
+Final: Seattle Mariners 7 - Athletics 8
 
 ### Seattle Mariners lineup -- CONFIRMED
 _Facing a taxed bullpen: 10.7 relief IP in last 2 days (ratio 1.89)_
@@ -467,7 +465,7 @@ _Facing a taxed bullpen: 9.0 relief IP in last 2 days (ratio 1.7)_
 - #8 James McCann (R) [TOUGH MATCHUP: pitcher holds this hand to 0.201 avg-against] -- L7: 6H 1HR 3RBI 10TB (0.300 avg) -- home split: 0.235 avg
 - #9 Jordan Lawlar (R) [TOUGH MATCHUP: pitcher holds this hand to 0.201 avg-against] -- L7: 3H 0HR 0RBI 4TB (0.176 avg) -- home split: 0.360 avg
 
-## 2026-09-13 - San Diego Padres @ San Francisco Giants (Warmup)
+## 2026-09-13 - San Diego Padres @ San Francisco Giants (In Progress)
 _Oracle Park [pitcher-friendly park]_
 Projected score: San Diego Padres 4.06 - San Francisco Giants 3.14
 Model likes: **San Diego Padres** to win (59%) | Run line: **San Francisco Giants** +1.5 (58% to cover) | Total 6.5: lean **OVER** (52%)
@@ -499,8 +497,8 @@ _Facing a taxed bullpen: 10.3 relief IP in last 2 days (ratio 1.91)_
 
 ## 2026-09-14 - Chicago White Sox @ Cleveland Guardians (Scheduled)
 _Progressive Field_
-Projected score: Chicago White Sox 4.24 - Cleveland Guardians 3.73
-Model likes: **Chicago White Sox** to win (55%) | Run line: **Cleveland Guardians** +1.5 (62% to cover) | Total 7.5: lean **UNDER** (51%)
+Projected score: Chicago White Sox 3.74 - Cleveland Guardians 3.73
+Model likes: **Chicago White Sox** to win (50%) | Run line: **Cleveland Guardians** +1.5 (67% to cover) | Total 6.5: lean **OVER** (55%)
 
 ### Chicago White Sox lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.3)_
@@ -517,6 +515,7 @@ _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.3)_
 
 ### Cleveland Guardians lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 9.0 relief IP in last 2 days (ratio 1.2)_
+**Probable P: Gavin Williams (R)** -- L5: 24.3 IP, 43 K, 14 ER, 5.18 ERA
 - Steven Kwan (L) [7-game hit streak] -- L7: 12H 1HR 3RBI 19TB (0.414 avg) -- home split: 0.267 avg
 - Jo Adell (R) -- L7: 7H 1HR 4RBI 12TB (0.241 avg) -- home split: 0.233 avg
 - Angel Genao (S) -- L7: 3H 0HR 0RBI 3TB (0.176 avg) -- home split: 0.288 avg
@@ -649,7 +648,7 @@ Model likes: **New York Yankees** to win (62%) | Run line: **Minnesota Twins** +
 ## 2026-09-14 - Atlanta Braves @ Chicago Cubs (Scheduled)
 _Wrigley Field_
 Projected score: Atlanta Braves 4.52 - Chicago Cubs 4.53
-Model likes: **Chicago Cubs** to win (50%) | Run line: **Atlanta Braves** +1.5 (64% to cover) | Total 8.5: lean **UNDER** (51%)
+Model likes: **Chicago Cubs** to win (50%) | Run line: **Atlanta Braves** +1.5 (64% to cover) | Total 8.5: lean **UNDER** (50%)
 
 ### Atlanta Braves lineup -- PROJECTED (unconfirmed)
 **Probable P: Reynaldo López (R)** [BULLPEN GAME: short-outing arm, no reliable individual matchup below] -- L5: 24.7 IP, 25 K, 16 ER, 5.84 ERA
@@ -860,24 +859,25 @@ _Facing a rested bullpen: 3.7 relief IP in last 2 days (ratio 0.58)_
 
 ## 2026-09-15 - Chicago White Sox @ Cleveland Guardians (Scheduled)
 _Progressive Field_
-Projected score: Chicago White Sox 4.24 - Cleveland Guardians 3.7
-Model likes: **Chicago White Sox** to win (55%) | Run line: **Cleveland Guardians** +1.5 (61% to cover) | Total 7.5: lean **UNDER** (51%)
+Projected score: Chicago White Sox 3.71 - Cleveland Guardians 3.7
+Model likes: **Chicago White Sox** to win (50%) | Run line: **Cleveland Guardians** +1.5 (67% to cover) | Total 6.5: lean **OVER** (54%)
 
 ### Chicago White Sox lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 1.0 relief IP in last 2 days (ratio 0.19)_
 **Probable P: Davis Martin (R)** -- L5: 18.7 IP, 9 K, 14 ER, 6.75 ERA
-- Munetaka Murakami (L) -- L7: 3H 1HR 4RBI 6TB (0.125 avg) -- away split: 0.218 avg
-- Sam Antonacci (L) [3-game hit streak] -- L7: 9H 0HR 3RBI 14TB (0.360 avg) -- away split: 0.242 avg
-- Colson Montgomery (L) -- L7: 1H 0HR 2RBI 2TB (0.048 avg) -- away split: 0.219 avg
+- Munetaka Murakami (L) [TOUGH MATCHUP: pitcher holds this hand to 0.198 avg-against] -- L7: 3H 1HR 4RBI 6TB (0.125 avg) -- away split: 0.218 avg
+- Sam Antonacci (L) [TOUGH MATCHUP: pitcher holds this hand to 0.198 avg-against] [3-game hit streak] -- L7: 9H 0HR 3RBI 14TB (0.360 avg) -- away split: 0.242 avg
+- Colson Montgomery (L) [TOUGH MATCHUP: pitcher holds this hand to 0.198 avg-against] -- L7: 1H 0HR 2RBI 2TB (0.048 avg) -- away split: 0.219 avg
 - Miguel Vargas (R) [3-game hit streak] -- L7: 5H 0HR 1RBI 5TB (0.172 avg) -- away split: 0.238 avg
-- Tristan Peters (L) -- L7: 6H 0HR 2RBI 9TB (0.250 avg) -- away split: 0.272 avg
+- Tristan Peters (L) [TOUGH MATCHUP: pitcher holds this hand to 0.198 avg-against] -- L7: 6H 0HR 2RBI 9TB (0.250 avg) -- away split: 0.272 avg
 - Chase Meidroth (R) -- L7: 3H 2HR 3RBI 9TB (0.158 avg) -- away split: 0.267 avg
 - Braden Montgomery (S) -- L7: 2H 0HR 1RBI 3TB (0.105 avg) -- away split: 0.197 avg
-- Andrew Benintendi (L) -- L7: 3H 0HR 0RBI 6TB (0.214 avg) -- away split: 0.249 avg
+- Andrew Benintendi (L) [TOUGH MATCHUP: pitcher holds this hand to 0.198 avg-against] -- L7: 3H 0HR 0RBI 6TB (0.214 avg) -- away split: 0.249 avg
 - Randal Grichuk (R) [6-game hit streak] -- L7: 9H 2HR 4RBI 17TB (0.500 avg) -- away split: 0.271 avg
 
 ### Cleveland Guardians lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 1.3 relief IP in last 2 days (ratio 0.18)_
+**Probable P: Foster Griffin (L)** -- L5: 24.3 IP, 21 K, 16 ER, 5.92 ERA
 - Steven Kwan (L) [MATCHUP EDGE: pitcher hits 0.261 avg-against vs this hand] [7-game hit streak] -- L7: 12H 1HR 3RBI 19TB (0.414 avg) -- home split: 0.267 avg
 - Jo Adell (R) -- L7: 7H 1HR 4RBI 12TB (0.241 avg) -- home split: 0.233 avg
 - Angel Genao (S) [MATCHUP EDGE: pitcher hits 0.261 avg-against vs this hand] -- L7: 3H 0HR 0RBI 3TB (0.176 avg) -- home split: 0.288 avg
@@ -1105,7 +1105,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-15 - Boston Red Sox @ Texas Rangers (Scheduled)
 _Globe Life Field [hitter-friendly park]_
 Projected score: Boston Red Sox 4.25 - Texas Rangers 4.01
-Model likes: **Boston Red Sox** to win (52%) | Run line: **Texas Rangers** +1.5 (63% to cover) | Total 7.5: lean **OVER** (52%)
+Model likes: **Boston Red Sox** to win (52%) | Run line: **Texas Rangers** +1.5 (64% to cover) | Total 7.5: lean **OVER** (52%)
 
 ### Boston Red Sox lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 1.0 relief IP in last 2 days (ratio 0.19)_
