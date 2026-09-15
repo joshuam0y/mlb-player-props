@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-09-15T01:28:38.847760+00:00_
+_Generated 2026-09-15T01:48:48.787281+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -49,7 +49,7 @@ _Generated 2026-09-15T01:28:38.847760+00:00_
 ## 2026-09-14 - Chicago White Sox @ Cleveland Guardians (In Progress)
 _Progressive Field_
 Projected score: Chicago White Sox 3.68 - Cleveland Guardians 3.67
-Model likes: **Cleveland Guardians** to win (50%) | Run line: **Chicago White Sox** +1.5 (67% to cover) | Total 6.5: lean **OVER** (54%)
+Model likes: **Chicago White Sox** to win (50%) | Run line: **Cleveland Guardians** +1.5 (67% to cover) | Total 6.5: lean **OVER** (54%)
 
 ### Chicago White Sox lineup -- CONFIRMED
 _Facing a taxed bullpen: 8.3 relief IP in last 2 days (ratio 1.46)_
@@ -171,7 +171,7 @@ _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.32)_
 ## 2026-09-14 - New York Yankees @ Minnesota Twins (In Progress)
 _Target Field_
 Projected score: New York Yankees 5.45 - Minnesota Twins 3.75
-Model likes: **New York Yankees** to win (64%) | Run line: **Minnesota Twins** +1.5 (51% to cover) | Total 8.5: lean **OVER** (51%)
+Model likes: **New York Yankees** to win (64%) | Run line: **Minnesota Twins** +1.5 (51% to cover) | Total 8.5: lean **OVER** (50%)
 
 ### New York Yankees lineup -- CONFIRMED
 _Facing a taxed bullpen: 8.7 relief IP in last 2 days (ratio 1.83)_
@@ -291,7 +291,7 @@ _Facing a taxed bullpen: 10.0 relief IP in last 2 days (ratio 1.61)_
 - #8 Adael Amador (S) [5-game hit streak] -- L7: 7H 2HR 4RBI 14TB (0.280 avg) -- home split: 0.333 avg
 - #9 Ezequiel Tovar (R) [likely BABIP-driven, not a real power uptick] -- L7: 6H 1HR 1RBI 9TB (0.316 avg) -- home split: 0.201 avg
 
-## 2026-09-14 - Seattle Mariners @ Los Angeles Angels (Warmup)
+## 2026-09-14 - Seattle Mariners @ Los Angeles Angels (In Progress)
 _Angel Stadium_
 Projected score: Seattle Mariners 3.71 - Los Angeles Angels 3.86
 Model likes: **Los Angeles Angels** to win (51%) | Run line: **Seattle Mariners** +1.5 (65% to cover) | Total 7.5: lean **UNDER** (55%)
@@ -320,10 +320,10 @@ Model likes: **Los Angeles Angels** to win (51%) | Run line: **Seattle Mariners*
 - #8 Kyren Paris (R) -- L7: 0H 0HR 0RBI 0TB (0.000 avg)
 - #9 Wade Meckler (L) -- L7: 3H 0HR 1RBI 4TB (0.214 avg) -- home split: 0.324 avg
 
-## 2026-09-14 - Miami Marlins @ Arizona Diamondbacks (Pre-Game)
+## 2026-09-14 - Miami Marlins @ Arizona Diamondbacks (In Progress)
 _Chase Field [hitter-friendly park]_
 Projected score: Miami Marlins 4.43 - Arizona Diamondbacks 4.15
-Model likes: **Miami Marlins** to win (52%) | Run line: **Arizona Diamondbacks** +1.5 (63% to cover) | Total 8.5: lean **UNDER** (55%)
+Model likes: **Miami Marlins** to win (52%) | Run line: **Arizona Diamondbacks** +1.5 (63% to cover) | Total 7.5: lean **OVER** (55%)
 
 ### Miami Marlins lineup -- CONFIRMED
 **Probable P: Sandy Alcantara (R)** -- L5: 29.3 IP, 13 K, 19 ER, 5.83 ERA
@@ -383,7 +383,7 @@ _Facing a rested bullpen: 4.0 relief IP in last 2 days (ratio 0.65)_
 ## 2026-09-15 - Milwaukee Brewers @ Pittsburgh Pirates (Scheduled)
 _PNC Park_
 Projected score: Milwaukee Brewers 4.33 - Pittsburgh Pirates 2.81
-Model likes: **Milwaukee Brewers** to win (65%) | Run line: **Pittsburgh Pirates** +1.5 (52% to cover) | Total 6.5: lean **OVER** (51%)
+Model likes: **Milwaukee Brewers** to win (65%) | Run line: **Pittsburgh Pirates** +1.5 (53% to cover) | Total 6.5: lean **OVER** (51%)
 
 ### Milwaukee Brewers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.7 relief IP in last 2 days (ratio 0.57)_
@@ -414,7 +414,7 @@ _Facing a rested bullpen: 4.0 relief IP in last 2 days (ratio 0.63)_
 ## 2026-09-15 - Chicago White Sox @ Cleveland Guardians (Scheduled)
 _Progressive Field_
 Projected score: Chicago White Sox 3.66 - Cleveland Guardians 3.69
-Model likes: **Cleveland Guardians** to win (50%) | Run line: **Chicago White Sox** +1.5 (67% to cover) | Total 6.5: lean **OVER** (54%)
+Model likes: **Cleveland Guardians** to win (50%) | Run line: **Chicago White Sox** +1.5 (66% to cover) | Total 6.5: lean **OVER** (53%)
 
 ### Chicago White Sox lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.3 relief IP in last 2 days (ratio 0.41)_
@@ -774,7 +774,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.57)_
 ## 2026-09-15 - Miami Marlins @ Arizona Diamondbacks (Scheduled)
 _Chase Field [hitter-friendly park]_
 Projected score: Miami Marlins 3.85 - Arizona Diamondbacks 4.49
-Model likes: **Arizona Diamondbacks** to win (56%) | Run line: **Miami Marlins** +1.5 (60% to cover) | Total 7.5: lean **OVER** (53%)
+Model likes: **Arizona Diamondbacks** to win (56%) | Run line: **Miami Marlins** +1.5 (60% to cover) | Total 7.5: lean **OVER** (52%)
 
 ### Miami Marlins lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.7 relief IP in last 2 days (ratio 0.62)_
@@ -957,7 +957,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-16 - Milwaukee Brewers @ Pittsburgh Pirates (Scheduled)
 _PNC Park_
 Projected score: Milwaukee Brewers 4.62 - Pittsburgh Pirates 3.05
-Model likes: **Milwaukee Brewers** to win (64%) | Run line: **Pittsburgh Pirates** +1.5 (52% to cover) | Total 7.5: lean **UNDER** (54%)
+Model likes: **Milwaukee Brewers** to win (65%) | Run line: **Pittsburgh Pirates** +1.5 (52% to cover) | Total 7.5: lean **UNDER** (54%)
 
 ### Milwaukee Brewers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1019,7 +1019,7 @@ _Facing a rested bullpen: 1.0 relief IP in last 2 days (ratio 0.18)_
 ## 2026-09-16 - Philadelphia Phillies @ Washington Nationals (Scheduled)
 _Nationals Park_
 Projected score: Philadelphia Phillies 3.84 - Washington Nationals 4.22
-Model likes: **Washington Nationals** to win (53%) | Run line: **Philadelphia Phillies** +1.5 (62% to cover) | Total 7.5: lean **UNDER** (50%)
+Model likes: **Washington Nationals** to win (54%) | Run line: **Philadelphia Phillies** +1.5 (62% to cover) | Total 7.5: lean **OVER** (50%)
 
 ### Philadelphia Phillies lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1081,7 +1081,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-16 - Atlanta Braves @ Chicago Cubs (Scheduled)
 _Wrigley Field_
 Projected score: Atlanta Braves 3.89 - Chicago Cubs 4.89
-Model likes: **Chicago Cubs** to win (58%) | Run line: **Atlanta Braves** +1.5 (56% to cover) | Total 8.5: lean **UNDER** (53%)
+Model likes: **Chicago Cubs** to win (58%) | Run line: **Atlanta Braves** +1.5 (57% to cover) | Total 8.5: lean **UNDER** (53%)
 
 ### Atlanta Braves lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1203,7 +1203,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-16 - Seattle Mariners @ Los Angeles Angels (Scheduled)
 _Angel Stadium_
 Projected score: Seattle Mariners 4.4 - Los Angeles Angels 3.67
-Model likes: **Seattle Mariners** to win (56%) | Run line: **Los Angeles Angels** +1.5 (59% to cover) | Total 7.5: lean **OVER** (50%)
+Model likes: **Seattle Mariners** to win (57%) | Run line: **Los Angeles Angels** +1.5 (59% to cover) | Total 7.5: lean **UNDER** (50%)
 
 ### Seattle Mariners lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
