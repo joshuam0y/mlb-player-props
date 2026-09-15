@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T17:02:32.222899+00:00",
+  "generated_at": "2026-09-15T18:24:06.808277+00:00",
   "range": [
     "2026-09-15",
     "2026-09-17"
@@ -17,7 +17,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 822925,
-        "generated_at": "2026-09-15T17:00:10.167443+00:00",
+        "generated_at": "2026-09-15T18:21:31.823914+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 5.82,
         "away_exp_runs": 3.49,
@@ -25,14 +25,14 @@
         "spread_line": 1.5,
         "spread_cover_prob": 0.545,
         "total_line": 8.5,
-        "over_prob": 0.513,
+        "over_prob": 0.514,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "home",
         "spread_pick_prob": 0.545,
         "total_pick": "over",
-        "total_pick_prob": 0.513,
+        "total_pick_prob": 0.514,
         "spread_favorite": "home"
       },
       "highlights": [],
@@ -9114,20 +9114,20 @@
       "live_score": null,
       "projection": {
         "game_pk": 823333,
-        "generated_at": "2026-09-15T17:00:10.167443+00:00",
+        "generated_at": "2026-09-15T18:21:31.823914+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 2.46,
         "away_exp_runs": 4.15,
         "home_win_prob": 0.326,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.172,
+        "spread_cover_prob": 0.171,
         "total_line": 6.5,
         "over_prob": 0.455,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
-        "spread_pick_prob": 0.51,
+        "spread_pick_prob": 0.509,
         "total_pick": "under",
         "total_pick_prob": 0.545,
         "spread_favorite": "away"
@@ -18187,7 +18187,7 @@
           }
         ],
         "star_player_id": 661388,
-        "ai_summary": "The Milwaukee Brewers enter with a 93-57 record, going 6-4 over their last ten games with a plus-23 run differential while currently on a one-game losing streak. Their team batting is better than league average at .260 AVG and .408 SLG with 146 home runs. Their pitching is also better than league average, posting a 3.46 ERA and 1.16 WHIP. Bettors should note that Grant Anderson and Bryse Wilson are currently on the injured list."
+        "ai_summary": "The Milwaukee Brewers hold a 93-57 record and went 6-4 over their last ten games with a plus-23 run differential, though they enter on a one-game losing streak. Their team batting is better than league average at .260 AVG and .408 SLG with 146 home runs. Their pitching is also better than league average, posting a 3.46 ERA and 1.16 WHIP. Bettors should also note that Grant Anderson and Bryse Wilson are currently on the injured list."
       }
     },
     {
@@ -18202,20 +18202,20 @@
       "live_score": null,
       "projection": {
         "game_pk": 824384,
-        "generated_at": "2026-09-15T17:00:10.167443+00:00",
+        "generated_at": "2026-09-15T18:21:31.823914+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.72,
         "away_exp_runs": 3.59,
-        "home_win_prob": 0.513,
+        "home_win_prob": 0.512,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.343,
+        "spread_cover_prob": 0.342,
         "total_line": 6.5,
         "over_prob": 0.531,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.657,
+        "spread_pick_prob": 0.658,
         "total_pick": "over",
         "total_pick_prob": 0.531,
         "spread_favorite": "home"
@@ -27244,7 +27244,7 @@
           }
         ],
         "star_player_id": 805367,
-        "ai_summary": "The Chicago White Sox enter with a 76-73 record after going 3-7 over their last ten games with a minus-nine run differential, currently on a one-game losing streak. Their batting is about the same as league average, while their pitching is also about the same as league average. Bettors should note recent roster activity, including trading for RF Jake Cave and LF Tommy Pham, with Pham currently on the injured list alongside Huascar Brazob\u00e1n and Joey Bart."
+        "ai_summary": "The Chicago White Sox enter this stretch with a 77-73 record after going 4-6 over their last ten games, though they currently hold a one-game win streak and a minus-one run differential in that span. Their team batting and pitching both perform at about the same level as the league average. Bettors should also factor in that Tommy Pham, Huascar Brazob\u00e1n, and Joey Bart are currently listed on the injured list."
       }
     },
     {
@@ -27259,7 +27259,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 824466,
-        "generated_at": "2026-09-15T17:00:10.167443+00:00",
+        "generated_at": "2026-09-15T18:21:31.823914+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 2.95,
         "away_exp_runs": 6.37,
@@ -27272,7 +27272,7 @@
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "away",
-        "spread_pick_prob": 0.631,
+        "spread_pick_prob": 0.632,
         "total_pick": "over",
         "total_pick_prob": 0.51,
         "spread_favorite": "away"
@@ -36329,13 +36329,13 @@
       "live_score": null,
       "projection": {
         "game_pk": 822683,
-        "generated_at": "2026-09-15T17:00:10.167443+00:00",
+        "generated_at": "2026-09-15T18:21:31.823914+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.73,
         "away_exp_runs": 5.2,
         "home_win_prob": 0.378,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.243,
+        "spread_cover_prob": 0.244,
         "total_line": 8.5,
         "over_prob": 0.482,
         "home_score_line": null,
@@ -45354,7 +45354,7 @@
           }
         ],
         "star_player_id": 669016,
-        "ai_summary": "The Philadelphia Phillies enter with an 83-67 record and are on a one-game win streak, though they went 4-6 over their last ten games with a minus-five run differential. Their batting is about the same as league average at .247 AVG and .408 SLG, while their pitching is better than league average with a 3.86 ERA and 1.26 WHIP. In roster updates, Caleb Kilian remains on the injured list, and the team recently traded left fielder Tommy Pham to the Chicago White Sox for cash."
+        "ai_summary": "The Philadelphia Phillies hold an 83-67 record through 150 games and are on a one-game win streak, though they went 4-6 with a minus-five run differential over their last ten. Their batting is about the same as league average at .247 AVG and .408 SLG with 168 home runs, while their pitching is better than league average with a 3.86 ERA and 1.26 WHIP. Caleb Kilian is currently on the injured list."
       }
     },
     {
@@ -45369,22 +45369,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 822762,
-        "generated_at": "2026-09-15T17:00:10.167443+00:00",
+        "generated_at": "2026-09-15T18:21:31.823914+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.76,
         "away_exp_runs": 3.29,
-        "home_win_prob": 0.546,
+        "home_win_prob": 0.547,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.37,
+        "spread_cover_prob": 0.371,
         "total_line": 6.5,
-        "over_prob": 0.503,
+        "over_prob": 0.504,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.63,
+        "spread_pick_prob": 0.629,
         "total_pick": "over",
-        "total_pick_prob": 0.503,
+        "total_pick_prob": 0.504,
         "spread_favorite": "home"
       },
       "highlights": [],
@@ -54416,22 +54416,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 823574,
-        "generated_at": "2026-09-15T17:00:10.167443+00:00",
+        "generated_at": "2026-09-15T18:21:31.823914+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.81,
         "away_exp_runs": 4.21,
-        "home_win_prob": 0.464,
+        "home_win_prob": 0.463,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.309,
+        "spread_cover_prob": 0.308,
         "total_line": 7.5,
-        "over_prob": 0.496,
+        "over_prob": 0.497,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
-        "spread_pick_prob": 0.624,
+        "spread_pick_prob": 0.622,
         "total_pick": "under",
-        "total_pick_prob": 0.504,
+        "total_pick_prob": 0.503,
         "spread_favorite": "away"
       },
       "highlights": [],
@@ -63470,7 +63470,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 823654,
-        "generated_at": "2026-09-15T17:00:10.167443+00:00",
+        "generated_at": "2026-09-15T18:21:31.823914+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 2.86,
         "away_exp_runs": 4.64,
@@ -63483,7 +63483,7 @@
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "away",
-        "spread_pick_prob": 0.5,
+        "spread_pick_prob": 0.501,
         "total_pick": "over",
         "total_pick_prob": 0.546,
         "spread_favorite": "away"
@@ -72514,7 +72514,7 @@
           }
         ],
         "star_player_id": 608331,
-        "ai_summary": "The New York Yankees enter this stretch with an 86-63 record after going 7-3 over their last ten games with a plus-13 run differential, currently riding a one-game win streak. Their batting (.236 AVG and .412 SLG with 201 home runs) is about the same as league average, while their pitching (3.24 ERA and 1.16 WHIP) is better than league average. Bettors should also factor in that Jazz Chisholm Jr., Trent Grisham, Kervin Castro, Fernando Cruz, and Ryan Weathers are currently on the injured list."
+        "ai_summary": "The New York Yankees enter this matchup with an 87-63 record, going 7-3 over their last ten games with a plus-15 run differential while carrying a two-game win streak. Their batting is about the same as league average, featuring a .236 batting average, .413 slugging percentage, and 204 home runs. Pitching is better than league average behind a 3.23 ERA and 1.16 WHIP. Bettors should note the Yankees currently have Jazz Chisholm Jr., Trent Grisham, Kervin Castro, Fernando Cruz, and Ryan Weathers on the injured list."
       }
     },
     {
@@ -72529,22 +72529,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 824627,
-        "generated_at": "2026-09-15T17:00:10.167443+00:00",
+        "generated_at": "2026-09-15T18:21:31.823914+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.3,
         "away_exp_runs": 4.2,
-        "home_win_prob": 0.508,
+        "home_win_prob": 0.509,
         "spread_line": 1.5,
         "spread_cover_prob": 0.357,
         "total_line": 7.5,
-        "over_prob": 0.541,
+        "over_prob": 0.54,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
         "spread_pick_prob": 0.643,
         "total_pick": "over",
-        "total_pick_prob": 0.541,
+        "total_pick_prob": 0.54,
         "spread_favorite": "home"
       },
       "highlights": [],
@@ -81544,7 +81544,7 @@
           }
         ],
         "star_player_id": 645277,
-        "ai_summary": "The Atlanta Braves hold an 88-62 record through 150 games and are on a one-game loss streak after going 5-5 over their last ten games with a minus-two run differential. Team batting features a .248 average and .412 slugging with 187 home runs, which is about the same as league average. Pitching stands at a 3.46 ERA and 1.23 WHIP, making their pitching better than league average. Lane Thomas and Bryce Elder are currently on the injured list."
+        "ai_summary": "The Atlanta Braves hold an 88-63 record after 151 games, though they enter on a two-game loss streak and went 4-6 over their last ten with a minus-nine run differential. Their batting (.248 AVG, .412 SLG, 188 HR) ranks about the same as league average, while their pitching (3.49 ERA, 1.24 WHIP) is better than league average. Bettors should also note that Lane Thomas and Bryce Elder are currently on the injured list."
       }
     },
     {
@@ -81559,20 +81559,20 @@
       "live_score": null,
       "projection": {
         "game_pk": 823007,
-        "generated_at": "2026-09-15T17:00:10.167443+00:00",
+        "generated_at": "2026-09-15T18:21:31.823914+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.25,
         "away_exp_runs": 3.74,
         "home_win_prob": 0.547,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.385,
+        "spread_cover_prob": 0.386,
         "total_line": 7.5,
         "over_prob": 0.493,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.615,
+        "spread_pick_prob": 0.614,
         "total_pick": "under",
         "total_pick_prob": 0.507,
         "spread_favorite": "home"
@@ -90674,20 +90674,20 @@
       "live_score": null,
       "projection": {
         "game_pk": 822849,
-        "generated_at": "2026-09-15T17:00:10.167443+00:00",
+        "generated_at": "2026-09-15T18:21:31.823914+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.95,
         "away_exp_runs": 3.62,
-        "home_win_prob": 0.53,
+        "home_win_prob": 0.531,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.364,
+        "spread_cover_prob": 0.365,
         "total_line": 7.5,
         "over_prob": 0.453,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.636,
+        "spread_pick_prob": 0.635,
         "total_pick": "under",
         "total_pick_prob": 0.547,
         "spread_favorite": "home"
@@ -99719,7 +99719,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 824143,
-        "generated_at": "2026-09-15T17:00:10.167443+00:00",
+        "generated_at": "2026-09-15T18:21:31.823914+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.26,
         "away_exp_runs": 3.1,
@@ -99727,14 +99727,14 @@
         "spread_line": 1.5,
         "spread_cover_prob": 0.329,
         "total_line": 5.5,
-        "over_prob": 0.546,
+        "over_prob": 0.545,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
         "spread_pick_prob": 0.671,
         "total_pick": "over",
-        "total_pick_prob": 0.546,
+        "total_pick_prob": 0.545,
         "spread_favorite": "home"
       },
       "highlights": [],
@@ -108757,22 +108757,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 824307,
-        "generated_at": "2026-09-15T17:00:10.167443+00:00",
+        "generated_at": "2026-09-15T18:21:31.823914+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.65,
         "away_exp_runs": 6.61,
-        "home_win_prob": 0.365,
+        "home_win_prob": 0.366,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.253,
+        "spread_cover_prob": 0.254,
         "total_line": 10.5,
-        "over_prob": 0.502,
+        "over_prob": 0.501,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "away",
-        "spread_pick_prob": 0.513,
+        "spread_pick_prob": 0.512,
         "total_pick": "over",
-        "total_pick_prob": 0.502,
+        "total_pick_prob": 0.501,
         "spread_favorite": "away"
       },
       "highlights": [],
@@ -117818,7 +117818,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 823980,
-        "generated_at": "2026-09-15T17:00:10.167443+00:00",
+        "generated_at": "2026-09-15T18:21:31.823914+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.5,
         "away_exp_runs": 4.55,
@@ -126890,22 +126890,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 825030,
-        "generated_at": "2026-09-15T17:00:10.167443+00:00",
+        "generated_at": "2026-09-15T18:21:31.823914+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.48,
         "away_exp_runs": 4.05,
         "home_win_prob": 0.537,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.384,
+        "spread_cover_prob": 0.385,
         "total_line": 7.5,
-        "over_prob": 0.543,
+        "over_prob": 0.542,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.616,
+        "spread_pick_prob": 0.615,
         "total_pick": "over",
-        "total_pick_prob": 0.543,
+        "total_pick_prob": 0.542,
         "spread_favorite": "home"
       },
       "highlights": [],
@@ -135894,7 +135894,7 @@
           }
         ],
         "star_player_id": 676083,
-        "ai_summary": "The Miami Marlins enter this game with a 74-76 record through 150 contests, going 3-7 over their last ten games with a minus-12 run differential while currently riding a two-game win streak. Their team batting is about the same as league average, and their team pitching is also about the same as league average. In roster news, Owen Caissie is currently on the injured list."
+        "ai_summary": "The Miami Marlins hold a 74-77 record through 151 games and are currently on a one-game losing streak. Over their last ten games, they have gone 3-7 with a minus-nine run differential. Their batting (.250 AVG, .403 SLG, 155 HR) and pitching (4.15 ERA, 1.29 WHIP) are both about the same as league average. Bettors should also note that Owen Caissie is currently on the injured list."
       }
     },
     {
@@ -135909,20 +135909,20 @@
       "live_score": null,
       "projection": {
         "game_pk": 824382,
-        "generated_at": "2026-09-15T17:00:10.167443+00:00",
+        "generated_at": "2026-09-15T18:21:31.823914+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.37,
         "away_exp_runs": 2.91,
-        "home_win_prob": 0.642,
+        "home_win_prob": 0.641,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.469,
+        "spread_cover_prob": 0.468,
         "total_line": 6.5,
         "over_prob": 0.525,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.531,
+        "spread_pick_prob": 0.532,
         "total_pick": "over",
         "total_pick_prob": 0.525,
         "spread_favorite": "home"
@@ -144589,7 +144589,7 @@
           }
         ],
         "star_player_id": 805367,
-        "ai_summary": "The Chicago White Sox enter with a 76-73 record after going 3-7 over their last ten games with a minus-nine run differential, currently on a one-game losing streak. Their batting is about the same as league average, while their pitching is also about the same as league average. Bettors should note recent roster activity, including trading for RF Jake Cave and LF Tommy Pham, with Pham currently on the injured list alongside Huascar Brazob\u00e1n and Joey Bart."
+        "ai_summary": "The Chicago White Sox enter this stretch with a 77-73 record after going 4-6 over their last ten games, though they currently hold a one-game win streak and a minus-one run differential in that span. Their team batting and pitching both perform at about the same level as the league average. Bettors should also factor in that Tommy Pham, Huascar Brazob\u00e1n, and Joey Bart are currently listed on the injured list."
       }
     },
     {
@@ -144604,7 +144604,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 823004,
-        "generated_at": "2026-09-15T17:00:10.167443+00:00",
+        "generated_at": "2026-09-15T18:21:31.823914+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.88,
         "away_exp_runs": 4.92,
@@ -153362,22 +153362,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 823655,
-        "generated_at": "2026-09-15T17:00:10.167443+00:00",
+        "generated_at": "2026-09-15T18:21:31.823914+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 2.99,
         "away_exp_runs": 5.05,
-        "home_win_prob": 0.318,
+        "home_win_prob": 0.317,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.184,
+        "spread_cover_prob": 0.183,
         "total_line": 7.5,
-        "over_prob": 0.495,
+        "over_prob": 0.496,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "away",
-        "spread_pick_prob": 0.525,
+        "spread_pick_prob": 0.526,
         "total_pick": "under",
-        "total_pick_prob": 0.505,
+        "total_pick_prob": 0.504,
         "spread_favorite": "away"
       },
       "highlights": [],
@@ -162406,7 +162406,7 @@
           }
         ],
         "star_player_id": 607074,
-        "ai_summary": "The New York Yankees enter this stretch with an 86-63 record after going 7-3 over their last ten games with a plus-13 run differential, currently riding a one-game win streak. Their batting (.236 AVG and .412 SLG with 201 home runs) is about the same as league average, while their pitching (3.24 ERA and 1.16 WHIP) is better than league average. Bettors should also factor in that Jazz Chisholm Jr., Trent Grisham, Kervin Castro, Fernando Cruz, and Ryan Weathers are currently on the injured list."
+        "ai_summary": "The New York Yankees enter this matchup with an 87-63 record, going 7-3 over their last ten games with a plus-15 run differential while carrying a two-game win streak. Their batting is about the same as league average, featuring a .236 batting average, .413 slugging percentage, and 204 home runs. Pitching is better than league average behind a 3.23 ERA and 1.16 WHIP. Bettors should note the Yankees currently have Jazz Chisholm Jr., Trent Grisham, Kervin Castro, Fernando Cruz, and Ryan Weathers on the injured list."
       }
     },
     {
@@ -162421,22 +162421,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 822763,
-        "generated_at": "2026-09-15T17:00:10.167443+00:00",
+        "generated_at": "2026-09-15T18:21:31.823914+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.53,
         "away_exp_runs": 4.84,
-        "home_win_prob": 0.385,
+        "home_win_prob": 0.386,
         "spread_line": 1.5,
         "spread_cover_prob": 0.244,
         "total_line": 7.5,
-        "over_prob": 0.527,
+        "over_prob": 0.526,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
-        "spread_pick_prob": 0.54,
+        "spread_pick_prob": 0.541,
         "total_pick": "over",
-        "total_pick_prob": 0.527,
+        "total_pick_prob": 0.526,
         "spread_favorite": "away"
       },
       "highlights": [],
@@ -171509,22 +171509,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 822926,
-        "generated_at": "2026-09-15T17:00:10.167443+00:00",
+        "generated_at": "2026-09-15T18:21:31.823914+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 5.12,
         "away_exp_runs": 2.99,
-        "home_win_prob": 0.686,
+        "home_win_prob": 0.687,
         "spread_line": 1.5,
         "spread_cover_prob": 0.531,
         "total_line": 7.5,
-        "over_prob": 0.5,
+        "over_prob": 0.502,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "home",
         "spread_pick_prob": 0.531,
         "total_pick": "over",
-        "total_pick_prob": 0.5,
+        "total_pick_prob": 0.502,
         "spread_favorite": "home"
       },
       "highlights": [],
@@ -180613,7 +180613,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 823332,
-        "generated_at": "2026-09-15T17:00:10.167443+00:00",
+        "generated_at": "2026-09-15T18:21:31.823914+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 2.7,
         "away_exp_runs": 4.52,
@@ -189686,7 +189686,7 @@
           }
         ],
         "star_player_id": 701656,
-        "ai_summary": "The Milwaukee Brewers enter with a 93-57 record, going 6-4 over their last ten games with a plus-23 run differential while currently on a one-game losing streak. Their team batting is better than league average at .260 AVG and .408 SLG with 146 home runs. Their pitching is also better than league average, posting a 3.46 ERA and 1.16 WHIP. Bettors should note that Grant Anderson and Bryse Wilson are currently on the injured list."
+        "ai_summary": "The Milwaukee Brewers hold a 93-57 record and went 6-4 over their last ten games with a plus-23 run differential, though they enter on a one-game losing streak. Their team batting is better than league average at .260 AVG and .408 SLG with 146 home runs. Their pitching is also better than league average, posting a 3.46 ERA and 1.16 WHIP. Bettors should also note that Grant Anderson and Bryse Wilson are currently on the injured list."
       }
     },
     {
@@ -189701,7 +189701,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 824467,
-        "generated_at": "2026-09-15T17:00:10.167443+00:00",
+        "generated_at": "2026-09-15T18:21:31.823914+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 2.59,
         "away_exp_runs": 5.73,
@@ -189714,7 +189714,7 @@
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "away",
-        "spread_pick_prob": 0.618,
+        "spread_pick_prob": 0.619,
         "total_pick": "over",
         "total_pick_prob": 0.516,
         "spread_favorite": "away"
@@ -198757,7 +198757,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 822680,
-        "generated_at": "2026-09-15T17:00:10.167443+00:00",
+        "generated_at": "2026-09-15T18:21:31.823914+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.84,
         "away_exp_runs": 3.61,
@@ -207764,7 +207764,7 @@
           }
         ],
         "star_player_id": 554430,
-        "ai_summary": "The Philadelphia Phillies enter with an 83-67 record and are on a one-game win streak, though they went 4-6 over their last ten games with a minus-five run differential. Their batting is about the same as league average at .247 AVG and .408 SLG, while their pitching is better than league average with a 3.86 ERA and 1.26 WHIP. In roster updates, Caleb Kilian remains on the injured list, and the team recently traded left fielder Tommy Pham to the Chicago White Sox for cash."
+        "ai_summary": "The Philadelphia Phillies hold an 83-67 record through 150 games and are on a one-game win streak, though they went 4-6 with a minus-five run differential over their last ten. Their batting is about the same as league average at .247 AVG and .408 SLG with 168 home runs, while their pitching is better than league average with a 3.86 ERA and 1.26 WHIP. Caleb Kilian is currently on the injured list."
       }
     },
     {
@@ -207779,20 +207779,20 @@
       "live_score": null,
       "projection": {
         "game_pk": 823576,
-        "generated_at": "2026-09-15T17:00:10.167443+00:00",
+        "generated_at": "2026-09-15T18:21:31.823914+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.25,
         "away_exp_runs": 4.53,
         "home_win_prob": 0.476,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.33,
+        "spread_cover_prob": 0.329,
         "total_line": 8.5,
         "over_prob": 0.471,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
-        "spread_pick_prob": 0.626,
+        "spread_pick_prob": 0.624,
         "total_pick": "under",
         "total_pick_prob": 0.529,
         "spread_favorite": "away"
@@ -216828,22 +216828,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 824626,
-        "generated_at": "2026-09-15T17:00:10.167443+00:00",
+        "generated_at": "2026-09-15T18:21:31.823914+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 5.06,
         "away_exp_runs": 3.84,
         "home_win_prob": 0.602,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.454,
+        "spread_cover_prob": 0.453,
         "total_line": 8.5,
-        "over_prob": 0.481,
+        "over_prob": 0.482,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.546,
+        "spread_pick_prob": 0.547,
         "total_pick": "under",
-        "total_pick_prob": 0.519,
+        "total_pick_prob": 0.518,
         "spread_favorite": "home"
       },
       "highlights": [],
@@ -225841,7 +225841,7 @@
           }
         ],
         "star_player_id": 702275,
-        "ai_summary": "The Atlanta Braves hold an 88-62 record through 150 games and are on a one-game loss streak after going 5-5 over their last ten games with a minus-two run differential. Team batting features a .248 average and .412 slugging with 187 home runs, which is about the same as league average. Pitching stands at a 3.46 ERA and 1.23 WHIP, making their pitching better than league average. Lane Thomas and Bryce Elder are currently on the injured list."
+        "ai_summary": "The Atlanta Braves hold an 88-63 record after 151 games, though they enter on a two-game loss streak and went 4-6 over their last ten with a minus-nine run differential. Their batting (.248 AVG, .412 SLG, 188 HR) ranks about the same as league average, while their pitching (3.49 ERA, 1.24 WHIP) is better than league average. Bettors should also note that Lane Thomas and Bryce Elder are currently on the injured list."
       }
     },
     {
@@ -225856,7 +225856,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 822846,
-        "generated_at": "2026-09-15T17:00:10.167443+00:00",
+        "generated_at": "2026-09-15T18:21:31.823914+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.47,
         "away_exp_runs": 4.19,
@@ -225864,14 +225864,14 @@
         "spread_line": 1.5,
         "spread_cover_prob": 0.275,
         "total_line": 7.5,
-        "over_prob": 0.461,
+        "over_prob": 0.462,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
         "spread_pick_prob": 0.599,
         "total_pick": "under",
-        "total_pick_prob": 0.539,
+        "total_pick_prob": 0.538,
         "spread_favorite": "away"
       },
       "highlights": [],
@@ -234913,20 +234913,20 @@
       "live_score": null,
       "projection": {
         "game_pk": 824140,
-        "generated_at": "2026-09-15T17:00:10.167443+00:00",
+        "generated_at": "2026-09-15T18:21:31.823914+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.48,
         "away_exp_runs": 3.8,
         "home_win_prob": 0.469,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.302,
+        "spread_cover_prob": 0.301,
         "total_line": 6.5,
         "over_prob": 0.527,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
-        "spread_pick_prob": 0.64,
+        "spread_pick_prob": 0.641,
         "total_pick": "over",
         "total_pick_prob": 0.527,
         "spread_favorite": "away"
@@ -243944,7 +243944,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 824306,
-        "generated_at": "2026-09-15T17:00:10.167443+00:00",
+        "generated_at": "2026-09-15T18:21:31.823914+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.02,
         "away_exp_runs": 4.65,
@@ -252962,22 +252962,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 823979,
-        "generated_at": "2026-09-15T17:00:10.167443+00:00",
+        "generated_at": "2026-09-15T18:21:31.823914+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.77,
         "away_exp_runs": 4.39,
-        "home_win_prob": 0.445,
+        "home_win_prob": 0.444,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.293,
+        "spread_cover_prob": 0.292,
         "total_line": 7.5,
-        "over_prob": 0.509,
+        "over_prob": 0.51,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
-        "spread_pick_prob": 0.603,
+        "spread_pick_prob": 0.602,
         "total_pick": "over",
-        "total_pick_prob": 0.509,
+        "total_pick_prob": 0.51,
         "spread_favorite": "away"
       },
       "highlights": [],
@@ -262036,20 +262036,20 @@
       "live_score": null,
       "projection": {
         "game_pk": 825031,
-        "generated_at": "2026-09-15T17:00:10.167443+00:00",
+        "generated_at": "2026-09-15T18:21:31.823914+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.31,
         "away_exp_runs": 4.96,
-        "home_win_prob": 0.447,
+        "home_win_prob": 0.448,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.309,
+        "spread_cover_prob": 0.31,
         "total_line": 8.5,
         "over_prob": 0.513,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
-        "spread_pick_prob": 0.591,
+        "spread_pick_prob": 0.592,
         "total_pick": "over",
         "total_pick_prob": 0.513,
         "spread_favorite": "away"
@@ -271064,7 +271064,7 @@
           }
         ],
         "star_player_id": 687473,
-        "ai_summary": "The Miami Marlins enter this game with a 74-76 record through 150 contests, going 3-7 over their last ten games with a minus-12 run differential while currently riding a two-game win streak. Their team batting is about the same as league average, and their team pitching is also about the same as league average. In roster news, Owen Caissie is currently on the injured list."
+        "ai_summary": "The Miami Marlins hold a 74-77 record through 151 games and are currently on a one-game losing streak. Over their last ten games, they have gone 3-7 with a minus-nine run differential. Their batting (.250 AVG, .403 SLG, 155 HR) and pitching (4.15 ERA, 1.29 WHIP) are both about the same as league average. Bettors should also note that Owen Caissie is currently on the injured list."
       }
     },
     {
@@ -271079,7 +271079,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 823334,
-        "generated_at": "2026-09-15T17:00:10.167443+00:00",
+        "generated_at": "2026-09-15T18:21:31.823914+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.98,
         "away_exp_runs": 5.4,
@@ -279799,7 +279799,7 @@
           }
         ],
         "star_player_id": 661388,
-        "ai_summary": "The Milwaukee Brewers enter with a 93-57 record, going 6-4 over their last ten games with a plus-23 run differential while currently on a one-game losing streak. Their team batting is better than league average at .260 AVG and .408 SLG with 146 home runs. Their pitching is also better than league average, posting a 3.46 ERA and 1.16 WHIP. Bettors should note that Grant Anderson and Bryse Wilson are currently on the injured list."
+        "ai_summary": "The Milwaukee Brewers hold a 93-57 record and went 6-4 over their last ten games with a plus-23 run differential, though they enter on a one-game losing streak. Their team batting is better than league average at .260 AVG and .408 SLG with 146 home runs. Their pitching is also better than league average, posting a 3.46 ERA and 1.16 WHIP. Bettors should also note that Grant Anderson and Bryse Wilson are currently on the injured list."
       }
     },
     {
@@ -279814,7 +279814,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 824464,
-        "generated_at": "2026-09-15T17:00:10.167443+00:00",
+        "generated_at": "2026-09-15T18:21:31.823914+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.53,
         "away_exp_runs": 6.15,
@@ -279822,14 +279822,14 @@
         "spread_line": 1.5,
         "spread_cover_prob": 0.185,
         "total_line": 9.5,
-        "over_prob": 0.459,
+        "over_prob": 0.458,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "away",
         "spread_pick_prob": 0.566,
         "total_pick": "under",
-        "total_pick_prob": 0.541,
+        "total_pick_prob": 0.542,
         "spread_favorite": "away"
       },
       "highlights": [],
@@ -288516,22 +288516,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 822924,
-        "generated_at": "2026-09-15T17:00:10.167443+00:00",
+        "generated_at": "2026-09-15T18:21:31.823914+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 5.86,
         "away_exp_runs": 2.93,
         "home_win_prob": 0.738,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.598,
+        "spread_cover_prob": 0.597,
         "total_line": 8.5,
-        "over_prob": 0.469,
+        "over_prob": 0.468,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "home",
-        "spread_pick_prob": 0.598,
+        "spread_pick_prob": 0.597,
         "total_pick": "under",
-        "total_pick_prob": 0.531,
+        "total_pick_prob": 0.532,
         "spread_favorite": "home"
       },
       "highlights": [],
@@ -297615,7 +297615,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 824305,
-        "generated_at": "2026-09-15T17:00:10.167443+00:00",
+        "generated_at": "2026-09-15T18:21:31.823914+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.67,
         "away_exp_runs": 5.82,
@@ -297623,14 +297623,14 @@
         "spread_line": 1.5,
         "spread_cover_prob": 0.21,
         "total_line": 8.5,
-        "over_prob": 0.528,
+        "over_prob": 0.529,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "away",
-        "spread_pick_prob": 0.529,
+        "spread_pick_prob": 0.53,
         "total_pick": "over",
-        "total_pick_prob": 0.528,
+        "total_pick_prob": 0.529,
         "spread_favorite": "away"
       },
       "highlights": [],
@@ -306648,20 +306648,20 @@
       "live_score": null,
       "projection": {
         "game_pk": 823573,
-        "generated_at": "2026-09-15T17:00:10.167443+00:00",
+        "generated_at": "2026-09-15T18:21:31.823914+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.88,
         "away_exp_runs": 4.17,
-        "home_win_prob": 0.473,
+        "home_win_prob": 0.474,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.317,
+        "spread_cover_prob": 0.318,
         "total_line": 7.5,
         "over_prob": 0.499,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
-        "spread_pick_prob": 0.632,
+        "spread_pick_prob": 0.633,
         "total_pick": "under",
         "total_pick_prob": 0.501,
         "spread_favorite": "away"
@@ -314960,7 +314960,7 @@
           }
         ],
         "star_player_id": 669016,
-        "ai_summary": "The Philadelphia Phillies enter with an 83-67 record and are on a one-game win streak, though they went 4-6 over their last ten games with a minus-five run differential. Their batting is about the same as league average at .247 AVG and .408 SLG, while their pitching is better than league average with a 3.86 ERA and 1.26 WHIP. In roster updates, Caleb Kilian remains on the injured list, and the team recently traded left fielder Tommy Pham to the Chicago White Sox for cash."
+        "ai_summary": "The Philadelphia Phillies hold an 83-67 record through 150 games and are on a one-game win streak, though they went 4-6 with a minus-five run differential over their last ten. Their batting is about the same as league average at .247 AVG and .408 SLG with 168 home runs, while their pitching is better than league average with a 3.86 ERA and 1.26 WHIP. Caleb Kilian is currently on the injured list."
       }
     },
     {
@@ -314975,22 +314975,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 824141,
-        "generated_at": "2026-09-15T17:00:10.167443+00:00",
+        "generated_at": "2026-09-15T18:21:31.823914+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.26,
         "away_exp_runs": 3.97,
-        "home_win_prob": 0.525,
+        "home_win_prob": 0.526,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.369,
+        "spread_cover_prob": 0.37,
         "total_line": 7.5,
-        "over_prob": 0.517,
+        "over_prob": 0.515,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.631,
+        "spread_pick_prob": 0.63,
         "total_pick": "over",
-        "total_pick_prob": 0.517,
+        "total_pick_prob": 0.515,
         "spread_favorite": "home"
       },
       "highlights": [],
@@ -323662,20 +323662,20 @@
       "live_score": null,
       "projection": {
         "game_pk": 824548,
-        "generated_at": "2026-09-15T17:00:10.167443+00:00",
+        "generated_at": "2026-09-15T18:21:31.823914+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.45,
         "away_exp_runs": 4.15,
         "home_win_prob": 0.526,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.374,
+        "spread_cover_prob": 0.375,
         "total_line": 8.5,
         "over_prob": 0.455,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.626,
+        "spread_pick_prob": 0.625,
         "total_pick": "under",
         "total_pick_prob": 0.545,
         "spread_favorite": "home"
@@ -327829,7 +327829,7 @@
           }
         ],
         "star_player_id": 805367,
-        "ai_summary": "The Chicago White Sox enter with a 76-73 record after going 3-7 over their last ten games with a minus-nine run differential, currently on a one-game losing streak. Their batting is about the same as league average, while their pitching is also about the same as league average. Bettors should note recent roster activity, including trading for RF Jake Cave and LF Tommy Pham, with Pham currently on the injured list alongside Huascar Brazob\u00e1n and Joey Bart."
+        "ai_summary": "The Chicago White Sox enter this stretch with a 77-73 record after going 4-6 over their last ten games, though they currently hold a one-game win streak and a minus-one run differential in that span. Their team batting and pitching both perform at about the same level as the league average. Bettors should also factor in that Tommy Pham, Huascar Brazob\u00e1n, and Joey Bart are currently listed on the injured list."
       },
       "away": {
         "team_id": 116,
@@ -332009,7 +332009,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 822845,
-        "generated_at": "2026-09-15T17:00:10.167443+00:00",
+        "generated_at": "2026-09-15T18:21:31.823914+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 2.69,
         "away_exp_runs": 4.28,
@@ -332017,14 +332017,14 @@
         "spread_line": 1.5,
         "spread_cover_prob": 0.189,
         "total_line": 6.5,
-        "over_prob": 0.495,
+        "over_prob": 0.494,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
-        "spread_pick_prob": 0.519,
+        "spread_pick_prob": 0.52,
         "total_pick": "under",
-        "total_pick_prob": 0.505,
+        "total_pick_prob": 0.506,
         "spread_favorite": "away"
       },
       "highlights": [],
@@ -340693,22 +340693,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 823978,
-        "generated_at": "2026-09-15T17:00:10.167443+00:00",
+        "generated_at": "2026-09-15T18:21:31.823914+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.45,
         "away_exp_runs": 4.22,
-        "home_win_prob": 0.518,
+        "home_win_prob": 0.52,
         "spread_line": 1.5,
         "spread_cover_prob": 0.369,
         "total_line": 8.5,
-        "over_prob": 0.462,
+        "over_prob": 0.461,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
         "spread_pick_prob": 0.631,
         "total_pick": "under",
-        "total_pick_prob": 0.538,
+        "total_pick_prob": 0.539,
         "spread_favorite": "home"
       },
       "highlights": [],
