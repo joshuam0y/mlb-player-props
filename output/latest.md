@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-09-16T10:21:36.355024+00:00_
+_Generated 2026-09-16T13:45:00.619132+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -116,7 +116,7 @@ Model likes: **San Francisco Giants** to win (58%) | Run line: **St. Louis Cardi
 ## 2026-09-16 - New York Yankees @ Minnesota Twins (Scheduled)
 _Target Field_
 Projected score: New York Yankees 5.08 - Minnesota Twins 2.9
-Model likes: **New York Yankees** to win (70%) | Run line: **New York Yankees** -1.5 (54% to cover) | Total 7.5: lean **UNDER** (51%)
+Model likes: **New York Yankees** to win (69%) | Run line: **New York Yankees** -1.5 (54% to cover) | Total 7.5: lean **UNDER** (51%)
 
 ### New York Yankees lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.47)_
@@ -146,7 +146,7 @@ _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.47)_
 ## 2026-09-16 - Detroit Tigers @ Toronto Blue Jays (Scheduled)
 _Rogers Centre_
 Projected score: Detroit Tigers 5.33 - Toronto Blue Jays 3.48
-Model likes: **Detroit Tigers** to win (65%) | Run line: **Detroit Tigers** -1.5 (51% to cover) | Total 8.5: lean **UNDER** (53%)
+Model likes: **Detroit Tigers** to win (65%) | Run line: **Detroit Tigers** -1.5 (50% to cover) | Total 8.5: lean **UNDER** (53%)
 
 ### Detroit Tigers lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 10.3 relief IP in last 2 days (ratio 1.49)_
@@ -208,7 +208,7 @@ _Facing a rested bullpen: 1.3 relief IP in last 2 days (ratio 0.24)_
 ## 2026-09-16 - Milwaukee Brewers @ Pittsburgh Pirates (Scheduled)
 _PNC Park_
 Projected score: Milwaukee Brewers 4.92 - Pittsburgh Pirates 2.67
-Model likes: **Milwaukee Brewers** to win (71%) | Run line: **Milwaukee Brewers** -1.5 (54% to cover) | Total 7.5: lean **UNDER** (55%)
+Model likes: **Milwaukee Brewers** to win (71%) | Run line: **Milwaukee Brewers** -1.5 (55% to cover) | Total 7.5: lean **UNDER** (55%)
 
 ### Milwaukee Brewers lineup -- PROJECTED (unconfirmed)
 **Probable P: Logan Henderson (R)** -- L5: 32.0 IP, 30 K, 5 ER, 1.41 ERA
@@ -388,7 +388,7 @@ Model likes: **Boston Red Sox** to win (56%) | Run line: **Texas Rangers** +1.5 
 
 ## 2026-09-16 - Kansas City Royals @ Houston Astros (Scheduled)
 _Daikin Park_
-Projected score: Kansas City Royals 3.68 - Houston Astros 3.45
+Projected score: Kansas City Royals 3.68 - Houston Astros 3.44
 Model likes: **Kansas City Royals** to win (52%) | Run line: **Houston Astros** +1.5 (65% to cover) | Total 6.5: lean **OVER** (51%)
 
 ### Kansas City Royals lineup -- PROJECTED (unconfirmed)
@@ -405,7 +405,7 @@ _Facing a rested bullpen: 4.0 relief IP in last 2 days (ratio 0.68)_
 - Michael Massey (L) -- L7: 7H 0HR 0RBI 8TB (0.259 avg) -- away split: 0.249 avg
 
 ### Houston Astros lineup -- PROJECTED (unconfirmed)
-_Facing a rested bullpen: 1.0 relief IP in last 2 days (ratio 0.18)_
+_Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.37)_
 **Probable P: Cristian Javier (R)** -- L5: 23.3 IP, 30 K, 10 ER, 3.86 ERA
 - Cam Smith (R) -- L7: 6H 3HR 4RBI 15TB (0.240 avg) -- home split: 0.185 avg
 - Isaac Paredes (R) -- L7: 7H 3HR 6RBI 17TB (0.269 avg) -- home split: 0.263 avg
@@ -478,7 +478,7 @@ Model likes: **Seattle Mariners** to win (56%) | Run line: **Los Angeles Angels*
 
 ## 2026-09-16 - Miami Marlins @ Arizona Diamondbacks (Scheduled)
 _Chase Field [hitter-friendly park]_
-Projected score: Miami Marlins 5.05 - Arizona Diamondbacks 4.4
+Projected score: Miami Marlins 5.05 - Arizona Diamondbacks 4.39
 Model likes: **Miami Marlins** to win (55%) | Run line: **Arizona Diamondbacks** +1.5 (59% to cover) | Total 8.5: lean **OVER** (53%)
 
 ### Miami Marlins lineup -- PROJECTED (unconfirmed)
@@ -495,7 +495,7 @@ _Facing a taxed bullpen: 10.3 relief IP in last 2 days (ratio 1.74)_
 - Graham Pauley (L) [MATCHUP EDGE: pitcher hits 0.270 avg-against vs this hand] -- L7: 5H 2HR 7RBI 11TB (0.294 avg) -- away split: 0.221 avg
 
 ### Arizona Diamondbacks lineup -- PROJECTED (unconfirmed)
-_Facing a taxed bullpen: 10.0 relief IP in last 2 days (ratio 1.79)_
+_Facing a taxed bullpen: 11.3 relief IP in last 2 days (ratio 2.02)_
 **Probable P: Merrill Kelly (R)** -- L5: 27.0 IP, 20 K, 13 ER, 4.33 ERA
 - Geraldo Perdomo (S) [MATCHUP EDGE: pitcher hits 0.264 avg-against vs this hand] -- L7: 6H 0HR 1RBI 7TB (0.250 avg) -- home split: 0.249 avg
 - Nolan Arenado (R) [3-game hit streak] -- L7: 8H 3HR 5RBI 19TB (0.364 avg) -- home split: 0.256 avg
@@ -539,7 +539,7 @@ _Facing a rested bullpen: 4.0 relief IP in last 2 days (ratio 0.64)_
 ## 2026-09-17 - Los Angeles Dodgers @ Cincinnati Reds (Scheduled)
 _Great American Ball Park [hitter-friendly park]_
 Projected score: Los Angeles Dodgers 5.9 - Cincinnati Reds 3.43
-Model likes: **Los Angeles Dodgers** to win (70%) | Run line: **Los Angeles Dodgers** -1.5 (56% to cover) | Total 8.5: lean **OVER** (51%)
+Model likes: **Los Angeles Dodgers** to win (69%) | Run line: **Los Angeles Dodgers** -1.5 (56% to cover) | Total 8.5: lean **OVER** (52%)
 
 ### Los Angeles Dodgers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 4.0 relief IP in last 2 days (ratio 0.68)_
@@ -569,7 +569,7 @@ _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.36)_
 ## 2026-09-17 - Athletics @ Tampa Bay Rays (Scheduled)
 _Tropicana Field_
 Projected score: Athletics 2.85 - Tampa Bay Rays 5.51
-Model likes: **Tampa Bay Rays** to win (72%) | Run line: **Tampa Bay Rays** -1.5 (58% to cover) | Total 7.5: lean **OVER** (52%)
+Model likes: **Tampa Bay Rays** to win (73%) | Run line: **Tampa Bay Rays** -1.5 (58% to cover) | Total 7.5: lean **OVER** (52%)
 
 ### Athletics lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 4.0 relief IP in last 2 days (ratio 0.65)_
@@ -659,7 +659,7 @@ _Facing a rested bullpen: 1.7 relief IP in last 2 days (ratio 0.31)_
 ## 2026-09-17 - Kansas City Royals @ Houston Astros (Scheduled)
 _Daikin Park_
 Projected score: Kansas City Royals 3.85 - Houston Astros 4.23
-Model likes: **Houston Astros** to win (53%) | Run line: **Kansas City Royals** +1.5 (62% to cover) | Total 7.5: lean **OVER** (50%)
+Model likes: **Houston Astros** to win (54%) | Run line: **Kansas City Royals** +1.5 (62% to cover) | Total 7.5: lean **OVER** (50%)
 
 ### Kansas City Royals lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 4.0 relief IP in last 2 days (ratio 0.68)_
@@ -675,7 +675,7 @@ _Facing a rested bullpen: 4.0 relief IP in last 2 days (ratio 0.68)_
 - Michael Massey (L) -- L7: 7H 0HR 0RBI 8TB (0.259 avg) -- away split: 0.249 avg
 
 ### Houston Astros lineup -- PROJECTED (unconfirmed)
-_Facing a rested bullpen: 1.0 relief IP in last 2 days (ratio 0.18)_
+_Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.37)_
 - Cam Smith (R) -- L7: 6H 3HR 4RBI 15TB (0.240 avg) -- home split: 0.185 avg
 - Isaac Paredes (R) -- L7: 7H 3HR 6RBI 17TB (0.269 avg) -- home split: 0.263 avg
 - Jeremy Peña (R) -- L7: 8H 2HR 3RBI 16TB (0.296 avg) -- home split: 0.301 avg
@@ -689,7 +689,7 @@ _Facing a rested bullpen: 1.0 relief IP in last 2 days (ratio 0.18)_
 ## 2026-09-17 - Detroit Tigers @ Chicago White Sox (Scheduled)
 _Rate Field_
 Projected score: Detroit Tigers 4.27 - Chicago White Sox 4.44
-Model likes: **Chicago White Sox** to win (51%) | Run line: **Detroit Tigers** +1.5 (64% to cover) | Total 8.5: lean **UNDER** (53%)
+Model likes: **Chicago White Sox** to win (52%) | Run line: **Detroit Tigers** +1.5 (64% to cover) | Total 8.5: lean **UNDER** (54%)
 
 ### Detroit Tigers lineup -- PROJECTED (unconfirmed)
 - Kevin McGonigle (L) -- L7: 8H 2HR 5RBI 17TB (0.308 avg) -- away split: 0.287 avg
@@ -744,7 +744,7 @@ Model likes: **Boston Red Sox** to win (64%) | Run line: **Texas Rangers** +1.5 
 ## 2026-09-17 - Minnesota Twins @ Los Angeles Angels (Scheduled)
 _Angel Stadium_
 Projected score: Minnesota Twins 4.13 - Los Angeles Angels 4.42
-Model likes: **Los Angeles Angels** to win (52%) | Run line: **Minnesota Twins** +1.5 (63% to cover) | Total 7.5: lean **OVER** (55%)
+Model likes: **Los Angeles Angels** to win (52%) | Run line: **Minnesota Twins** +1.5 (63% to cover) | Total 7.5: lean **OVER** (54%)
 
 ### Minnesota Twins lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.52)_
@@ -948,7 +948,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-18 - Detroit Tigers @ Chicago White Sox (Scheduled)
 _Rate Field_
 Projected score: Detroit Tigers 4.27 - Chicago White Sox 4.44
-Model likes: **Chicago White Sox** to win (51%) | Run line: **Detroit Tigers** +1.5 (64% to cover) | Total 8.5: lean **UNDER** (54%)
+Model likes: **Chicago White Sox** to win (52%) | Run line: **Detroit Tigers** +1.5 (64% to cover) | Total 8.5: lean **UNDER** (54%)
 
 ### Detroit Tigers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -977,7 +977,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-18 - Toronto Blue Jays @ Texas Rangers (Scheduled)
 _Globe Life Field [hitter-friendly park]_
 Projected score: Toronto Blue Jays 4.45 - Texas Rangers 3.03
-Model likes: **Toronto Blue Jays** to win (63%) | Run line: **Texas Rangers** +1.5 (54% to cover) | Total 6.5: lean **OVER** (55%)
+Model likes: **Toronto Blue Jays** to win (64%) | Run line: **Texas Rangers** +1.5 (53% to cover) | Total 6.5: lean **OVER** (54%)
 
 ### Toronto Blue Jays lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
