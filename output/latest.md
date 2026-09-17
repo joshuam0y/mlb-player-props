@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-09-17T16:58:18.670309+00:00_
+_Generated 2026-09-17T18:17:13.803324+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -77,7 +77,7 @@ _Facing a taxed bullpen: 9.0 relief IP in last 2 days (ratio 1.4)_
 ## 2026-09-17 - Los Angeles Dodgers @ Cincinnati Reds (In Progress)
 _Great American Ball Park [hitter-friendly park]_
 Projected score: Los Angeles Dodgers 6.23 - Cincinnati Reds 4.15
-Model likes: **Los Angeles Dodgers** to win (65%) | Run line: **Los Angeles Dodgers** -1.5 (52% to cover) | Total 9.5: lean **OVER** (51%)
+Model likes: **Los Angeles Dodgers** to win (65%) | Run line: **Los Angeles Dodgers** -1.5 (52% to cover) | Total 9.5: lean **OVER** (52%)
 
 ### Los Angeles Dodgers lineup -- CONFIRMED
 _Facing a taxed bullpen: 8.3 relief IP in last 2 days (ratio 1.41)_
@@ -104,7 +104,7 @@ _Facing a taxed bullpen: 8.3 relief IP in last 2 days (ratio 1.41)_
 - #8 Ke'Bryan Hayes (R) -- L7: 1H 0HR 0RBI 1TB (0.062 avg) -- home split: 0.152 avg
 - #9 TJ Friedl (L) -- L7: 1H 0HR 1RBI 1TB (0.200 avg) -- home split: 0.140 avg
 
-## 2026-09-17 - Athletics @ Tampa Bay Rays (Warmup)
+## 2026-09-17 - Athletics @ Tampa Bay Rays (In Progress)
 _Tropicana Field_
 Projected score: Athletics 3.11 - Tampa Bay Rays 5.54
 Model likes: **Tampa Bay Rays** to win (70%) | Run line: **Tampa Bay Rays** -1.5 (56% to cover) | Total 8.5: lean **UNDER** (54%)
@@ -408,11 +408,12 @@ _Facing a rested bullpen: 2.7 relief IP in last 2 days (ratio 0.43)_
 
 ## 2026-09-18 - Boston Red Sox @ Tampa Bay Rays (Scheduled)
 _Tropicana Field_
-Projected score: Boston Red Sox 3.96 - Tampa Bay Rays 4.14
-Model likes: **Tampa Bay Rays** to win (52%) | Run line: **Boston Red Sox** +1.5 (64% to cover) | Total 7.5: lean **OVER** (50%)
+Projected score: Boston Red Sox 3.96 - Tampa Bay Rays 3.5
+Model likes: **Boston Red Sox** to win (54%) | Run line: **Tampa Bay Rays** +1.5 (62% to cover) | Total 6.5: lean **OVER** (55%)
 
 ### Boston Red Sox lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 4.0 relief IP in last 2 days (ratio 0.65)_
+**Probable P: Ranger Suarez (L)** -- L5: 29.7 IP, 20 K, 12 ER, 3.64 ERA
 - Roman Anthony (L) -- L7: 6H 1HR 3RBI 9TB (0.200 avg) -- away split: 0.195 avg
 - Caleb Durbin (R) -- L7: 5H 1HR 2RBI 8TB (0.263 avg) -- away split: 0.243 avg
 - Nick Sogard (S) -- L7: 7H 1HR 4RBI 12TB (0.304 avg) -- away split: 0.212 avg
@@ -556,7 +557,7 @@ _Facing a rested bullpen: 4.0 relief IP in last 2 days (ratio 0.57)_
 ## 2026-09-18 - Atlanta Braves @ Houston Astros (Scheduled)
 _Daikin Park_
 Projected score: Atlanta Braves 4.24 - Houston Astros 3.26
-Model likes: **Atlanta Braves** to win (59%) | Run line: **Houston Astros** +1.5 (57% to cover) | Total 6.5: lean **OVER** (55%)
+Model likes: **Atlanta Braves** to win (59%) | Run line: **Houston Astros** +1.5 (58% to cover) | Total 6.5: lean **OVER** (55%)
 
 ### Atlanta Braves lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.3 relief IP in last 2 days (ratio 0.4)_
@@ -586,7 +587,7 @@ _Facing a rested bullpen: 0.7 relief IP in last 2 days (ratio 0.12)_
 ## 2026-09-18 - Seattle Mariners @ Colorado Rockies (Scheduled)
 _Coors Field [hitter-friendly park]_
 Projected score: Seattle Mariners 6.48 - Colorado Rockies 4.79
-Model likes: **Seattle Mariners** to win (62%) | Run line: **Colorado Rockies** +1.5 (51% to cover) | Total 10.5: lean **OVER** (50%)
+Model likes: **Seattle Mariners** to win (62%) | Run line: **Colorado Rockies** +1.5 (50% to cover) | Total 10.5: lean **OVER** (50%)
 
 ### Seattle Mariners lineup -- PROJECTED (unconfirmed)
 **Probable P: Bryan Woo (R)** -- L5: 30.0 IP, 31 K, 9 ER, 2.7 ERA
@@ -673,24 +674,25 @@ _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.45)_
 
 ## 2026-09-18 - Miami Marlins @ San Diego Padres (Scheduled)
 _Petco Park [pitcher-friendly park]_
-Projected score: Miami Marlins 3.82 - San Diego Padres 3.74
-Model likes: **Miami Marlins** to win (51%) | Run line: **San Diego Padres** +1.5 (66% to cover) | Total 7.5: lean **UNDER** (55%)
+Projected score: Miami Marlins 3.32 - San Diego Padres 3.74
+Model likes: **San Diego Padres** to win (54%) | Run line: **Miami Marlins** +1.5 (64% to cover) | Total 6.5: lean **OVER** (50%)
 
 ### Miami Marlins lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.3)_
 **Probable P: Tyler Phillips (R)** -- L5: 20.3 IP, 20 K, 7 ER, 3.1 ERA
-- Heriberto Hernández (R) [6-game hit streak] -- L7: 9H 0HR 1RBI 9TB (0.290 avg) -- away split: 0.238 avg
-- Otto Lopez (R) [likely BABIP-driven, not a real power uptick] -- L7: 11H 0HR 5RBI 13TB (0.407 avg) -- away split: 0.286 avg
+- Heriberto Hernández (R) [TOUGH MATCHUP: pitcher holds this hand to 0.190 avg-against] [6-game hit streak] -- L7: 9H 0HR 1RBI 9TB (0.290 avg) -- away split: 0.238 avg
+- Otto Lopez (R) [TOUGH MATCHUP: pitcher holds this hand to 0.190 avg-against] [likely BABIP-driven, not a real power uptick] -- L7: 11H 0HR 5RBI 13TB (0.407 avg) -- away split: 0.286 avg
 - Griffin Conine (L) -- L7: 9H 1HR 3RBI 14TB (0.321 avg) -- away split: 0.207 avg
 - Jakob Marsee (L) -- L7: 11H 1HR 5RBI 17TB (0.407 avg) -- away split: 0.201 avg
 - Joe Mack (L) -- L7: 6H 1HR 4RBI 10TB (0.300 avg) -- away split: 0.248 avg
-- Javier Sanoja (R) [3-game hit streak] -- L7: 9H 1HR 7RBI 17TB (0.300 avg) -- away split: 0.293 avg
+- Javier Sanoja (R) [TOUGH MATCHUP: pitcher holds this hand to 0.190 avg-against] [3-game hit streak] -- L7: 9H 1HR 7RBI 17TB (0.300 avg) -- away split: 0.293 avg
 - Kyle Stowers (L) -- L7: 5H 0HR 1RBI 7TB (0.167 avg) -- away split: 0.253 avg
 - Graham Pauley (L) -- L7: 5H 2HR 7RBI 11TB (0.333 avg) -- away split: 0.221 avg
-- Agustín Ramírez (R) -- L7: 3H 1HR 3RBI 7TB (0.188 avg) -- away split: 0.234 avg
+- Agustín Ramírez (R) [TOUGH MATCHUP: pitcher holds this hand to 0.190 avg-against] -- L7: 3H 1HR 3RBI 7TB (0.188 avg) -- away split: 0.234 avg
 
 ### San Diego Padres lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.7 relief IP in last 2 days (ratio 0.65)_
+**Probable P: Nick Pivetta (R)** -- L5: 22.0 IP, 27 K, 4 ER, 1.64 ERA
 - Jackson Merrill (L) [7-game hit streak] -- L7: 17H 3HR 10RBI 30TB (0.531 avg) -- home split: 0.253 avg -- news: Sick 1st-inning catch at wall just the start of 'great Jackson Merrill game'
 - Luis Campusano (R) -- L7: 7H 1HR 3RBI 11TB (0.233 avg) -- home split: 0.314 avg
 - Fernando Tatis Jr. (R) [6-game hit streak] -- L7: 11H 3HR 7RBI 22TB (0.379 avg) -- home split: 0.320 avg
@@ -1126,8 +1128,8 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 
 ## 2026-09-19 - Miami Marlins @ San Diego Padres (Scheduled)
 _Petco Park [pitcher-friendly park]_
-Projected score: Miami Marlins 3.82 - San Diego Padres 3.77
-Model likes: **Miami Marlins** to win (50%) | Run line: **San Diego Padres** +1.5 (66% to cover) | Total 7.5: lean **UNDER** (55%)
+Projected score: Miami Marlins 3.42 - San Diego Padres 3.77
+Model likes: **San Diego Padres** to win (54%) | Run line: **Miami Marlins** +1.5 (64% to cover) | Total 6.5: lean **OVER** (52%)
 
 ### Miami Marlins lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1144,6 +1146,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 
 ### San Diego Padres lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
+**Probable P: Casey Mize (R)** -- L5: 22.3 IP, 12 K, 15 ER, 6.04 ERA
 - Jackson Merrill (L) [7-game hit streak] -- L7: 17H 3HR 10RBI 30TB (0.531 avg) -- home split: 0.253 avg -- news: Sick 1st-inning catch at wall just the start of 'great Jackson Merrill game'
 - Luis Campusano (R) -- L7: 7H 1HR 3RBI 11TB (0.233 avg) -- home split: 0.314 avg
 - Fernando Tatis Jr. (R) [6-game hit streak] -- L7: 11H 3HR 7RBI 22TB (0.379 avg) -- home split: 0.320 avg
