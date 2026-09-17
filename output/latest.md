@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-09-17T06:15:08.502532+00:00_
+_Generated 2026-09-17T08:53:41.425668+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -47,7 +47,7 @@ _Generated 2026-09-17T06:15:08.502532+00:00_
 ## 2026-09-17 - Milwaukee Brewers @ Pittsburgh Pirates (Scheduled)
 _PNC Park_
 Projected score: Milwaukee Brewers 5.16 - Pittsburgh Pirates 3.3
-Model likes: **Milwaukee Brewers** to win (66%) | Run line: **Milwaukee Brewers** -1.5 (51% to cover) | Total 7.5: lean **OVER** (53%)
+Model likes: **Milwaukee Brewers** to win (66%) | Run line: **Milwaukee Brewers** -1.5 (51% to cover) | Total 7.5: lean **OVER** (54%)
 
 ### Milwaukee Brewers lineup -- PROJECTED (unconfirmed)
 **Probable P: Kyle Harrison (L)** -- L5: 17.3 IP, 20 K, 18 ER, 9.35 ERA
@@ -106,7 +106,7 @@ Model likes: **Los Angeles Dodgers** to win (65%) | Run line: **Los Angeles Dodg
 ## 2026-09-17 - Athletics @ Tampa Bay Rays (Scheduled)
 _Tropicana Field_
 Projected score: Athletics 3.03 - Tampa Bay Rays 5.72
-Model likes: **Tampa Bay Rays** to win (72%) | Run line: **Tampa Bay Rays** -1.5 (58% to cover) | Total 8.5: lean **UNDER** (53%)
+Model likes: **Tampa Bay Rays** to win (72%) | Run line: **Tampa Bay Rays** -1.5 (58% to cover) | Total 8.5: lean **UNDER** (54%)
 
 ### Athletics lineup -- PROJECTED (unconfirmed)
 **Probable P: Jeffrey Springs (L)** -- L5: 27.0 IP, 17 K, 15 ER, 5.0 ERA
@@ -135,7 +135,7 @@ Model likes: **Tampa Bay Rays** to win (72%) | Run line: **Tampa Bay Rays** -1.5
 ## 2026-09-17 - San Diego Padres @ Colorado Rockies (Scheduled)
 _Coors Field [hitter-friendly park]_
 Projected score: San Diego Padres 5.33 - Colorado Rockies 3.4
-Model likes: **San Diego Padres** to win (66%) | Run line: **San Diego Padres** -1.5 (51% to cover) | Total 8.5: lean **UNDER** (53%)
+Model likes: **San Diego Padres** to win (66%) | Run line: **San Diego Padres** -1.5 (51% to cover) | Total 8.5: lean **UNDER** (54%)
 
 ### San Diego Padres lineup -- PROJECTED (unconfirmed)
 **Probable P: Michael King (R)** -- L5: 32.7 IP, 24 K, 5 ER, 1.38 ERA
@@ -463,7 +463,7 @@ _Facing a rested bullpen: 3.3 relief IP in last 2 days (ratio 0.59)_
 ## 2026-09-18 - Philadelphia Phillies @ New York Mets (Scheduled)
 _Citi Field_
 Projected score: Philadelphia Phillies 3.12 - New York Mets 3.76
-Model likes: **New York Mets** to win (56%) | Run line: **Philadelphia Phillies** +1.5 (62% to cover) | Total 6.5: lean **UNDER** (51%)
+Model likes: **New York Mets** to win (57%) | Run line: **Philadelphia Phillies** +1.5 (61% to cover) | Total 6.5: lean **UNDER** (51%)
 
 ### Philadelphia Phillies lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -552,7 +552,7 @@ _Facing a rested bullpen: 4.0 relief IP in last 2 days (ratio 0.57)_
 ## 2026-09-18 - Atlanta Braves @ Houston Astros (Scheduled)
 _Daikin Park_
 Projected score: Atlanta Braves 4.24 - Houston Astros 3.26
-Model likes: **Atlanta Braves** to win (59%) | Run line: **Houston Astros** +1.5 (57% to cover) | Total 6.5: lean **OVER** (55%)
+Model likes: **Atlanta Braves** to win (59%) | Run line: **Houston Astros** +1.5 (58% to cover) | Total 6.5: lean **OVER** (55%)
 
 ### Atlanta Braves lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -674,7 +674,7 @@ _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.45)_
 ## 2026-09-18 - Miami Marlins @ San Diego Padres (Scheduled)
 _Petco Park [pitcher-friendly park]_
 Projected score: Miami Marlins 3.82 - San Diego Padres 3.7
-Model likes: **Miami Marlins** to win (51%) | Run line: **San Diego Padres** +1.5 (66% to cover) | Total 6.5: lean **OVER** (55%)
+Model likes: **Miami Marlins** to win (51%) | Run line: **San Diego Padres** +1.5 (66% to cover) | Total 7.5: lean **UNDER** (55%)
 
 ### Miami Marlins lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -703,8 +703,8 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 
 ## 2026-09-18 - New York Yankees @ Arizona Diamondbacks (Scheduled)
 _Chase Field [hitter-friendly park]_
-Projected score: New York Yankees 4.54 - Arizona Diamondbacks 3.51
-Model likes: **New York Yankees** to win (59%) | Run line: **Arizona Diamondbacks** +1.5 (57% to cover) | Total 7.5: lean **UNDER** (50%)
+Projected score: New York Yankees 3.47 - Arizona Diamondbacks 3.51
+Model likes: **Arizona Diamondbacks** to win (50%) | Run line: **New York Yankees** +1.5 (67% to cover) | Total 6.5: lean **UNDER** (50%)
 
 ### New York Yankees lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 1.3 relief IP in last 2 days (ratio 0.23)_
@@ -720,6 +720,7 @@ _Facing a rested bullpen: 1.3 relief IP in last 2 days (ratio 0.23)_
 - Heliot Ramos (R) -- L7: 5H 1HR 4RBI 9TB (0.278 avg) -- away split: 0.228 avg
 
 ### Arizona Diamondbacks lineup -- PROJECTED (unconfirmed)
+**Probable P: Eduardo Rodriguez (L)** -- L5: 29.0 IP, 29 K, 7 ER, 2.17 ERA
 - Geraldo Perdomo (S) -- L7: 7H 0HR 0RBI 8TB (0.280 avg) -- home split: 0.250 avg
 - Jordan Lawlar (R) [3-game hit streak] -- L7: 7H 1HR 3RBI 12TB (0.318 avg) -- home split: 0.361 avg
 - Gabriel Moreno (R) [5-game hit streak] -- L7: 9H 2HR 4RBI 15TB (0.333 avg) -- home split: 0.280 avg
@@ -791,7 +792,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-19 - Boston Red Sox @ Tampa Bay Rays (Scheduled)
 _Tropicana Field_
 Projected score: Boston Red Sox 3.49 - Tampa Bay Rays 4.14
-Model likes: **Tampa Bay Rays** to win (56%) | Run line: **Boston Red Sox** +1.5 (60% to cover) | Total 7.5: lean **UNDER** (54%)
+Model likes: **Tampa Bay Rays** to win (56%) | Run line: **Boston Red Sox** +1.5 (61% to cover) | Total 7.5: lean **UNDER** (54%)
 
 ### Boston Red Sox lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1000,7 +1001,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-19 - Detroit Tigers @ Chicago White Sox (Scheduled)
 _Rate Field_
 Projected score: Detroit Tigers 4.18 - Chicago White Sox 4.03
-Model likes: **Detroit Tigers** to win (52%) | Run line: **Chicago White Sox** +1.5 (64% to cover) | Total 7.5: lean **OVER** (51%)
+Model likes: **Detroit Tigers** to win (51%) | Run line: **Chicago White Sox** +1.5 (64% to cover) | Total 7.5: lean **OVER** (52%)
 
 ### Detroit Tigers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1061,7 +1062,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-19 - Seattle Mariners @ Colorado Rockies (Scheduled)
 _Coors Field [hitter-friendly park]_
 Projected score: Seattle Mariners 6.48 - Colorado Rockies 4.56
-Model likes: **Seattle Mariners** to win (63%) | Run line: **Seattle Mariners** -1.5 (51% to cover) | Total 10.5: lean **UNDER** (51%)
+Model likes: **Seattle Mariners** to win (64%) | Run line: **Seattle Mariners** -1.5 (51% to cover) | Total 10.5: lean **UNDER** (51%)
 
 ### Seattle Mariners lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1090,24 +1091,25 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 
 ## 2026-09-19 - New York Yankees @ Arizona Diamondbacks (Scheduled)
 _Chase Field [hitter-friendly park]_
-Projected score: New York Yankees 4.54 - Arizona Diamondbacks 2.49
-Model likes: **New York Yankees** to win (70%) | Run line: **New York Yankees** -1.5 (53% to cover) | Total 6.5: lean **UNDER** (50%)
+Projected score: New York Yankees 4.06 - Arizona Diamondbacks 2.49
+Model likes: **New York Yankees** to win (66%) | Run line: **Arizona Diamondbacks** +1.5 (52% to cover) | Total 6.5: lean **UNDER** (55%)
 
 ### New York Yankees lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 **Probable P: Cam Schlittler (R)** -- L5: 32.7 IP, 39 K, 3 ER, 0.83 ERA
-- Spencer Jones (L) -- L7: 9H 1HR 6RBI 12TB (0.300 avg) -- away split: 0.236 avg -- news: Bellinger lands on IL with hamstring strain; Spencer Jones recalled
-- Cody Bellinger (L) [3-game hit streak] -- L7: 13H 3HR 8RBI 24TB (0.464 avg) -- away split: 0.241 avg
-- Ben Rice (L) [6-game hit streak] -- L7: 9H 2HR 4RBI 15TB (0.333 avg) -- away split: 0.273 avg
-- Luis García Jr. (L) -- L7: 7H 2HR 3RBI 14TB (0.241 avg) -- away split: 0.279 avg
-- Austin Wells (L) -- L7: 2H 2HR 2RBI 8TB (0.111 avg) -- away split: 0.163 avg
+- Spencer Jones (L) [MATCHUP EDGE: pitcher hits 0.261 avg-against vs this hand] -- L7: 9H 1HR 6RBI 12TB (0.300 avg) -- away split: 0.236 avg -- news: Bellinger lands on IL with hamstring strain; Spencer Jones recalled
+- Cody Bellinger (L) [MATCHUP EDGE: pitcher hits 0.261 avg-against vs this hand] [3-game hit streak] -- L7: 13H 3HR 8RBI 24TB (0.464 avg) -- away split: 0.241 avg
+- Ben Rice (L) [MATCHUP EDGE: pitcher hits 0.261 avg-against vs this hand] [6-game hit streak] -- L7: 9H 2HR 4RBI 15TB (0.333 avg) -- away split: 0.273 avg
+- Luis García Jr. (L) [MATCHUP EDGE: pitcher hits 0.261 avg-against vs this hand] -- L7: 7H 2HR 3RBI 14TB (0.241 avg) -- away split: 0.279 avg
+- Austin Wells (L) [MATCHUP EDGE: pitcher hits 0.261 avg-against vs this hand] -- L7: 2H 2HR 2RBI 8TB (0.111 avg) -- away split: 0.163 avg
 - José Caballero (R) -- L7: 3H 1HR 4RBI 6TB (0.214 avg) -- away split: 0.248 avg
-- Ryan McMahon (L) -- L7: 4H 0HR 2RBI 5TB (0.154 avg) -- away split: 0.179 avg
+- Ryan McMahon (L) [MATCHUP EDGE: pitcher hits 0.261 avg-against vs this hand] -- L7: 4H 0HR 2RBI 5TB (0.154 avg) -- away split: 0.179 avg
 - George Lombard Jr. (R) [3-game hit streak] -- L7: 5H 1HR 5RBI 9TB (0.179 avg) -- away split: 0.256 avg
 - Heliot Ramos (R) -- L7: 5H 1HR 4RBI 9TB (0.278 avg) -- away split: 0.228 avg
 
 ### Arizona Diamondbacks lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
+**Probable P: Brandon Pfaadt (R)** -- L5: 31.3 IP, 23 K, 20 ER, 5.74 ERA
 - Geraldo Perdomo (S) -- L7: 7H 0HR 0RBI 8TB (0.280 avg) -- home split: 0.250 avg
 - Jordan Lawlar (R) [TOUGH MATCHUP: pitcher holds this hand to 0.175 avg-against] [3-game hit streak] -- L7: 7H 1HR 3RBI 12TB (0.318 avg) -- home split: 0.361 avg
 - Gabriel Moreno (R) [TOUGH MATCHUP: pitcher holds this hand to 0.175 avg-against] [5-game hit streak] -- L7: 9H 2HR 4RBI 15TB (0.333 avg) -- home split: 0.280 avg
