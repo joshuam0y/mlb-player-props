@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-09-17T20:29:11.827116+00:00_
+_Generated 2026-09-17T21:25:39.997541+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -163,8 +163,8 @@ _Facing a taxed bullpen: 9.7 relief IP in last 2 days (ratio 1.54)_
 
 ## 2026-09-17 - Philadelphia Phillies @ New York Mets (Pre-Game)
 _Citi Field_
-Projected score: Philadelphia Phillies 3.54 - New York Mets 4.24
-Model likes: **New York Mets** to win (56%) | Run line: **Philadelphia Phillies** +1.5 (60% to cover) | Total 7.5: lean **UNDER** (53%)
+Projected score: Philadelphia Phillies 3.54 - New York Mets 4.34
+Model likes: **New York Mets** to win (57%) | Run line: **Philadelphia Phillies** +1.5 (59% to cover) | Total 7.5: lean **UNDER** (52%)
 
 ### Philadelphia Phillies lineup -- CONFIRMED
 _Facing a taxed bullpen: 11.7 relief IP in last 2 days (ratio 1.72)_
@@ -179,18 +179,18 @@ _Facing a taxed bullpen: 11.7 relief IP in last 2 days (ratio 1.72)_
 - #8 Justin Crawford (L) [7-game hit streak] -- L7: 7H 1HR 2RBI 12TB (0.350 avg) -- away split: 0.244 avg
 - #9 Garrett Stubbs (L) -- L7: 2H 0HR 0RBI 2TB (0.200 avg) -- away split: 0.200 avg
 
-### New York Mets lineup -- PROJECTED (unconfirmed)
+### New York Mets lineup -- CONFIRMED
 _Facing a rested bullpen: 3.7 relief IP in last 2 days (ratio 0.68)_
 **Probable P: Nolan McLean (R)** -- L5: 30.0 IP, 25 K, 8 ER, 2.4 ERA
-- Carson Benge (L) -- L7: 6H 2HR 4RBI 12TB (0.207 avg) -- home split: 0.266 avg
-- Bo Bichette (R) -- L7: 7H 0HR 2RBI 7TB (0.226 avg) -- home split: 0.247 avg
-- Juan Soto (L) -- L7: 6H 1HR 2RBI 10TB (0.194 avg) -- home split: 0.307 avg
-- Francisco Lindor (S) -- L7: 7H 3HR 8RBI 17TB (0.226 avg) -- home split: 0.231 avg
-- A.J. Ewing (L) [3-game hit streak] -- L7: 10H 2HR 5RBI 16TB (0.400 avg) -- home split: 0.259 avg
-- Jared Young (L) -- L7: 7H 1HR 2RBI 11TB (0.292 avg) -- home split: 0.268 avg
-- Marcus Semien (R) [6-game hit streak] -- L7: 6H 0HR 3RBI 7TB (0.222 avg) -- home split: 0.208 avg
-- Brett Baty (L) -- L7: 6H 1HR 3RBI 11TB (0.300 avg) -- home split: 0.239 avg
-- Francisco Alvarez (R) -- L7: 4H 0HR 1RBI 4TB (0.148 avg) -- home split: 0.211 avg
+- #1 Francisco Lindor (S) -- L7: 7H 3HR 8RBI 17TB (0.226 avg) -- home split: 0.231 avg
+- #2 Juan Soto (L) -- L7: 6H 1HR 2RBI 10TB (0.194 avg) -- home split: 0.307 avg
+- #3 Bo Bichette (R) -- L7: 7H 0HR 2RBI 7TB (0.226 avg) -- home split: 0.247 avg
+- #4 Carson Benge (L) -- L7: 6H 2HR 4RBI 12TB (0.207 avg) -- home split: 0.266 avg
+- #5 Jared Young (L) -- L7: 7H 1HR 2RBI 11TB (0.292 avg) -- home split: 0.268 avg
+- #6 A.J. Ewing (L) [3-game hit streak] -- L7: 10H 2HR 5RBI 16TB (0.400 avg) -- home split: 0.259 avg
+- #7 Francisco Alvarez (R) -- L7: 4H 0HR 1RBI 4TB (0.148 avg) -- home split: 0.211 avg
+- #8 Brett Baty (L) -- L7: 6H 1HR 3RBI 11TB (0.300 avg) -- home split: 0.239 avg
+- #9 Nick Morabito (R) -- L7: 5H 0HR 4RBI 6TB (0.294 avg) -- home split: 0.000 avg
 
 ## 2026-09-17 - Kansas City Royals @ Houston Astros (Pre-Game)
 _Daikin Park_
@@ -224,21 +224,21 @@ _Facing a taxed bullpen: 7.7 relief IP in last 2 days (ratio 1.31)_
 
 ## 2026-09-17 - Detroit Tigers @ Chicago White Sox (Pre-Game)
 _Rate Field_
-Projected score: Detroit Tigers 4.11 - Chicago White Sox 4.11
-Model likes: **Chicago White Sox** to win (50%) | Run line: **Detroit Tigers** +1.5 (66% to cover) | Total 7.5: lean **OVER** (51%)
+Projected score: Detroit Tigers 4.19 - Chicago White Sox 4.11
+Model likes: **Detroit Tigers** to win (51%) | Run line: **Chicago White Sox** +1.5 (65% to cover) | Total 7.5: lean **OVER** (52%)
 
-### Detroit Tigers lineup -- PROJECTED (unconfirmed)
+### Detroit Tigers lineup -- CONFIRMED
 _Facing a taxed bullpen: 12.0 relief IP in last 2 days (ratio 1.55)_
 **Probable P: Framber Valdez (L)** -- L5: 30.7 IP, 15 K, 10 ER, 2.93 ERA
-- John Peck (R) -- L7: 4H 0HR 4RBI 4TB (0.211 avg) -- away split: 0.192 avg
-- Kevin McGonigle (L) -- L7: 8H 1HR 3RBI 14TB (0.296 avg) -- away split: 0.289 avg
-- Max Clark (L) [7-game hit streak] -- L7: 10H 1HR 6RBI 16TB (0.400 avg) -- away split: 0.290 avg -- news: Mayo: Don't judge a book by its cover -- especially Max Clark
-- Spencer Torkelson (R) [5-game hit streak] -- L7: 8H 2HR 6RBI 16TB (0.421 avg) -- away split: 0.236 avg
-- Hao-Yu Lee (R) -- L7: 5H 1HR 5RBI 12TB (0.192 avg) -- away split: 0.274 avg -- news: Hao-Yu Lee sets single-season record for hits by a player born in Taiwan
-- Ben Malgeri (R) -- L7: 1H 0HR 1RBI 1TB (0.125 avg) -- away split: 0.269 avg
-- Riley Greene (L) [6-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 11H 1HR 9RBI 17TB (0.407 avg) -- away split: 0.280 avg
-- Brett Callahan (L) -- L7: 3H 0HR 2RBI 5TB (0.176 avg) -- away split: 0.194 avg
-- Gleyber Torres (R) -- L7: 5H 0HR 1RBI 6TB (0.208 avg) -- away split: 0.249 avg
+- #1 Kevin McGonigle (L) -- L7: 8H 1HR 3RBI 14TB (0.296 avg) -- away split: 0.289 avg
+- #2 Gleyber Torres (R) -- L7: 5H 0HR 1RBI 6TB (0.208 avg) -- away split: 0.249 avg
+- #3 Dillon Dingler (R) -- L7: 4H 1HR 5RBI 7TB (0.148 avg) -- away split: 0.258 avg
+- #4 Riley Greene (L) [6-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 11H 1HR 9RBI 17TB (0.407 avg) -- away split: 0.280 avg
+- #5 Spencer Torkelson (R) [5-game hit streak] -- L7: 8H 2HR 6RBI 16TB (0.421 avg) -- away split: 0.236 avg
+- #6 Zach McKinstry (L) -- L7: 2H 0HR 0RBI 4TB (0.111 avg) -- away split: 0.181 avg
+- #7 Max Clark (L) [7-game hit streak] -- L7: 10H 1HR 6RBI 16TB (0.400 avg) -- away split: 0.290 avg -- news: Mayo: Don't judge a book by its cover -- especially Max Clark
+- #8 John Peck (R) -- L7: 4H 0HR 4RBI 4TB (0.211 avg) -- away split: 0.192 avg
+- #9 Javier Báez (R) -- L7: 1H 0HR 3RBI 2TB (0.067 avg) -- away split: 0.235 avg
 
 ### Chicago White Sox lineup -- CONFIRMED
 _Facing a taxed bullpen: 8.0 relief IP in last 2 days (ratio 1.41)_
@@ -255,21 +255,21 @@ _Facing a taxed bullpen: 8.0 relief IP in last 2 days (ratio 1.41)_
 
 ## 2026-09-17 - Boston Red Sox @ Texas Rangers (Pre-Game)
 _Globe Life Field [hitter-friendly park]_
-Projected score: Boston Red Sox 4.41 - Texas Rangers 3.06
-Model likes: **Boston Red Sox** to win (63%) | Run line: **Texas Rangers** +1.5 (54% to cover) | Total 6.5: lean **OVER** (55%)
+Projected score: Boston Red Sox 4.57 - Texas Rangers 3.06
+Model likes: **Boston Red Sox** to win (64%) | Run line: **Texas Rangers** +1.5 (52% to cover) | Total 7.5: lean **UNDER** (54%)
 
-### Boston Red Sox lineup -- PROJECTED (unconfirmed)
+### Boston Red Sox lineup -- CONFIRMED
 _Facing a taxed bullpen: 9.0 relief IP in last 2 days (ratio 1.69)_
 **Probable P: Sonny Gray (R)** -- L5: 31.0 IP, 30 K, 9 ER, 2.61 ERA
-- Roman Anthony (L) -- L7: 6H 1HR 3RBI 9TB (0.200 avg) -- away split: 0.195 avg
-- Caleb Durbin (R) -- L7: 5H 1HR 2RBI 8TB (0.263 avg) -- away split: 0.243 avg
-- Nick Sogard (S) -- L7: 7H 1HR 4RBI 12TB (0.304 avg) -- away split: 0.212 avg
-- Mickey Gasper (S) -- L7: 3H 1HR 1RBI 6TB (0.176 avg) -- away split: 0.250 avg
-- Jarren Duran (L) -- L7: 5H 1HR 1RBI 9TB (0.263 avg) -- away split: 0.179 avg
-- Wilyer Abreu (L) -- L7: 6H 1HR 4RBI 11TB (0.231 avg) -- away split: 0.245 avg
-- Trevor Story (R) [7-game hit streak] -- L7: 8H 0HR 2RBI 11TB (0.308 avg) -- away split: 0.259 avg
-- Isiah Kiner-Falefa (R) -- L7: 3H 0HR 2RBI 4TB (0.188 avg) -- away split: 0.288 avg
-- Adley Rutschman (S) -- L7: 5H 1HR 4RBI 10TB (0.192 avg) -- away split: 0.198 avg
+- #1 Roman Anthony (L) -- L7: 6H 1HR 3RBI 9TB (0.200 avg) -- away split: 0.195 avg
+- #2 Jahmai Jones (R) -- L7: 2H 0HR 0RBI 2TB (0.143 avg) -- away split: 0.149 avg
+- #3 Wilyer Abreu (L) -- L7: 6H 1HR 4RBI 11TB (0.231 avg) -- away split: 0.245 avg
+- #4 Willson Contreras (R) -- L7: 4H 1HR 3RBI 9TB (0.174 avg) -- away split: 0.230 avg
+- #5 Adley Rutschman (S) -- L7: 5H 1HR 4RBI 10TB (0.192 avg) -- away split: 0.198 avg
+- #6 Trevor Story (R) [7-game hit streak] -- L7: 8H 0HR 2RBI 11TB (0.308 avg) -- away split: 0.259 avg
+- #7 Jarren Duran (L) -- L7: 5H 1HR 1RBI 9TB (0.263 avg) -- away split: 0.179 avg
+- #8 Caleb Durbin (R) -- L7: 5H 1HR 2RBI 8TB (0.263 avg) -- away split: 0.243 avg
+- #9 Nick Sogard (S) -- L7: 7H 1HR 4RBI 12TB (0.304 avg) -- away split: 0.212 avg
 
 ### Texas Rangers lineup -- CONFIRMED
 _Facing a taxed bullpen: 8.7 relief IP in last 2 days (ratio 1.54)_
@@ -377,7 +377,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.59)_
 ## 2026-09-18 - Milwaukee Brewers @ Baltimore Orioles (Scheduled)
 _Oriole Park at Camden Yards_
 Projected score: Milwaukee Brewers 5.45 - Baltimore Orioles 3.86
-Model likes: **Milwaukee Brewers** to win (63%) | Run line: **Baltimore Orioles** +1.5 (51% to cover) | Total 8.5: lean **OVER** (52%)
+Model likes: **Milwaukee Brewers** to win (63%) | Run line: **Baltimore Orioles** +1.5 (52% to cover) | Total 8.5: lean **OVER** (52%)
 
 ### Milwaukee Brewers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.3 relief IP in last 2 days (ratio 0.43)_
@@ -436,11 +436,12 @@ _Facing a rested bullpen: 3.3 relief IP in last 2 days (ratio 0.59)_
 
 ## 2026-09-18 - Athletics @ Cleveland Guardians (Scheduled)
 _Progressive Field_
-Projected score: Athletics 3.41 - Cleveland Guardians 4.46
-Model likes: **Cleveland Guardians** to win (60%) | Run line: **Athletics** +1.5 (57% to cover) | Total 7.5: lean **UNDER** (52%)
+Projected score: Athletics 3.41 - Cleveland Guardians 5.36
+Model likes: **Cleveland Guardians** to win (66%) | Run line: **Cleveland Guardians** -1.5 (51% to cover) | Total 8.5: lean **UNDER** (53%)
 
 ### Athletics lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.52)_
+**Probable P: Mason Barnett (R)** [BULLPEN GAME: short-outing arm, no reliable individual matchup below] -- L5: 19.3 IP, 17 K, 21 ER, 9.78 ERA
 - Alika Williams (R) -- L7: 3H 0HR 0RBI 6TB (0.188 avg) -- away split: 0.216 avg
 - Henry Bolte (R) -- L7: 7H 2HR 2RBI 13TB (0.269 avg) -- away split: 0.236 avg
 - Zack Gelof (R) -- L7: 3H 1HR 2RBI 6TB (0.120 avg) -- away split: 0.200 avg
@@ -496,7 +497,7 @@ _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.37)_
 ## 2026-09-18 - Detroit Tigers @ Chicago White Sox (Scheduled)
 _Rate Field_
 Projected score: Detroit Tigers 5.05 - Chicago White Sox 4.79
-Model likes: **Detroit Tigers** to win (52%) | Run line: **Chicago White Sox** +1.5 (62% to cover) | Total 9.5: lean **UNDER** (53%)
+Model likes: **Detroit Tigers** to win (52%) | Run line: **Chicago White Sox** +1.5 (62% to cover) | Total 9.5: lean **UNDER** (52%)
 
 ### Detroit Tigers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 4.0 relief IP in last 2 days (ratio 0.52)_
@@ -586,7 +587,7 @@ _Facing a rested bullpen: 3.3 relief IP in last 2 days (ratio 0.6)_
 ## 2026-09-18 - Seattle Mariners @ Colorado Rockies (Scheduled)
 _Coors Field [hitter-friendly park]_
 Projected score: Seattle Mariners 6.48 - Colorado Rockies 4.79
-Model likes: **Seattle Mariners** to win (62%) | Run line: **Colorado Rockies** +1.5 (50% to cover) | Total 10.5: lean **OVER** (50%)
+Model likes: **Seattle Mariners** to win (62%) | Run line: **Colorado Rockies** +1.5 (51% to cover) | Total 10.5: lean **OVER** (50%)
 
 ### Seattle Mariners lineup -- PROJECTED (unconfirmed)
 **Probable P: Bryan Woo (R)** -- L5: 30.0 IP, 31 K, 9 ER, 2.7 ERA
@@ -794,7 +795,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-19 - Boston Red Sox @ Tampa Bay Rays (Scheduled)
 _Tropicana Field_
 Projected score: Boston Red Sox 4.08 - Tampa Bay Rays 4.14
-Model likes: **Tampa Bay Rays** to win (50%) | Run line: **Boston Red Sox** +1.5 (65% to cover) | Total 7.5: lean **OVER** (52%)
+Model likes: **Tampa Bay Rays** to win (51%) | Run line: **Boston Red Sox** +1.5 (65% to cover) | Total 7.5: lean **OVER** (52%)
 
 ### Boston Red Sox lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.32)_
@@ -1161,7 +1162,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-19 - San Francisco Giants @ Los Angeles Dodgers (Scheduled)
 _UNIQLO Field at Dodger Stadium_
 Projected score: San Francisco Giants 3.42 - Los Angeles Dodgers 5.19
-Model likes: **Los Angeles Dodgers** to win (65%) | Run line: **Los Angeles Dodgers** -1.5 (50% to cover) | Total 8.5: lean **UNDER** (55%)
+Model likes: **Los Angeles Dodgers** to win (65%) | Run line: **San Francisco Giants** +1.5 (50% to cover) | Total 8.5: lean **UNDER** (55%)
 
 ### San Francisco Giants lineup -- PROJECTED (unconfirmed)
 - Jonah Cox (R) [7-game hit streak] -- L7: 10H 0HR 3RBI 10TB (0.345 avg) -- away split: 0.328 avg
