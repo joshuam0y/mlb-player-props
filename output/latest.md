@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-09-18T06:30:21.514516+00:00_
+_Generated 2026-09-18T09:53:07.536743+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -24,7 +24,7 @@ _Generated 2026-09-18T06:30:21.514516+00:00_
 - **Dylan Cease** (Toronto Blue Jays vs Texas Rangers): 5 hitters in tonight's lineup are in a tough matchup against him -- try Strikeouts: 60% over 7.5 recently (vs. 5-game sample)
 - **Nick Pivetta** (San Diego Padres vs Miami Marlins): 4 hitters in tonight's lineup are in a tough matchup against him -- try Hits Allowed: 40% over 2.5 recently (vs. 5-game sample)
 - **Grayson Rodriguez** (Los Angeles Angels vs Minnesota Twins): opposing lineup has struck out at an elevated rate over their last 2 games (33% vs their own 23% season rate) -- try Outs Recorded: 80% over 15.5 recently (vs. 5-game sample)
-- **Connor Prielipp** (Minnesota Twins vs Los Angeles Angels): opposing lineup has struck out at an elevated rate over their last 2 games (37% vs their own 28% season rate) -- try Outs Recorded: 60% over 15.5 recently (vs. 5-game sample)
+- **Connor Prielipp** (Minnesota Twins vs Los Angeles Angels): opposing lineup has struck out at an elevated rate over their last 2 games (35% vs their own 28% season rate) -- try Outs Recorded: 60% over 15.5 recently (vs. 5-game sample)
 - **Chase Burns** (Cincinnati Reds vs Chicago Cubs): 4 hitters in tonight's lineup are in a tough matchup against him -- try Runs Allowed: 80% over 1.5 recently (vs. 5-game sample)
 - **David Sandlin** (Chicago White Sox vs Detroit Tigers): 5 hitters in tonight's lineup are in a tough matchup against him -- try Strikeouts: 60% over 4.5 recently (vs. 5-game sample)
 - **Tyler Glasnow** (Los Angeles Dodgers vs San Francisco Giants): 4 hitters in tonight's lineup are in a tough matchup against him -- try Runs Allowed: 60% over 2.5 recently (vs. 5-game sample)
@@ -217,7 +217,7 @@ _Facing a taxed bullpen: 9.0 relief IP in last 2 days (ratio 1.33)_
 - Trea Turner (R) [MATCHUP EDGE: pitcher hits 0.262 avg-against vs this hand] -- L7: 4H 0HR 1RBI 4TB (0.148 avg) -- away split: 0.209 avg
 - Bryce Harper (L) -- L7: 9H 1HR 2RBI 15TB (0.321 avg) -- away split: 0.289 avg
 - Bryson Stott (L) -- L7: 5H 0HR 3RBI 7TB (0.227 avg) -- away split: 0.238 avg
-- Brandon Marsh (L) -- L7: 1H 0HR 0RBI 1TB (0.062 avg) -- away split: 0.231 avg
+- Brandon Marsh (L) -- L7: 2H 0HR 0RBI 2TB (0.111 avg) -- away split: 0.233 avg
 - Alec Bohm (R) [MATCHUP EDGE: pitcher hits 0.262 avg-against vs this hand] [5-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 9H 0HR 4RBI 11TB (0.360 avg) -- away split: 0.246 avg
 - Justin Crawford (L) [8-game hit streak] -- L7: 7H 1HR 3RBI 11TB (0.350 avg) -- away split: 0.246 avg
 - Derek Hill (R) [MATCHUP EDGE: pitcher hits 0.262 avg-against vs this hand] -- L7: 1H 0HR 3RBI 2TB (0.143 avg) -- away split: 0.262 avg
@@ -267,7 +267,7 @@ _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.24)_
 ## 2026-09-18 - Toronto Blue Jays @ Texas Rangers (Scheduled)
 _Globe Life Field [hitter-friendly park]_
 Projected score: Toronto Blue Jays 4.52 - Texas Rangers 2.59
-Model likes: **Toronto Blue Jays** to win (69%) | Run line: **Toronto Blue Jays** -1.5 (52% to cover) | Total 6.5: lean **OVER** (51%)
+Model likes: **Toronto Blue Jays** to win (69%) | Run line: **Toronto Blue Jays** -1.5 (51% to cover) | Total 6.5: lean **OVER** (51%)
 
 ### Toronto Blue Jays lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 13.0 relief IP in last 2 days (ratio 2.42)_
@@ -409,7 +409,7 @@ _Facing a taxed bullpen: 9.3 relief IP in last 2 days (ratio 1.93)_
 **Probable P: Grayson Rodriguez (R)** -- L5: 28.0 IP, 24 K, 12 ER, 3.86 ERA
 - Zach Neto (R) -- L7: 5H 1HR 2RBI 10TB (0.185 avg) -- home split: 0.214 avg
 - Vaughn Grissom (R) -- L7: 3H 1HR 5RBI 7TB (0.136 avg) -- home split: 0.229 avg
-- Wade Meckler (L) -- L7: 5H 0HR 1RBI 6TB (0.227 avg) -- home split: 0.317 avg
+- Wade Meckler (L) -- L7: 6H 0HR 2RBI 7TB (0.261 avg) -- home split: 0.323 avg
 - Jose Siri (R) -- L7: 4H 0HR 2RBI 6TB (0.235 avg) -- home split: 0.175 avg
 - Mike Trout (R) -- L7: 4H 1HR 2RBI 8TB (0.190 avg) -- home split: 0.223 avg
 - Christian Moore (R) -- L7: 2H 0HR 3RBI 3TB (0.077 avg) -- home split: 0.154 avg
@@ -449,7 +449,7 @@ Model likes: **San Diego Padres** to win (50%) | Run line: **Miami Marlins** +1.
 ## 2026-09-18 - New York Yankees @ Arizona Diamondbacks (Scheduled)
 _Chase Field [hitter-friendly park]_
 Projected score: New York Yankees 3.22 - Arizona Diamondbacks 3.39
-Model likes: **Arizona Diamondbacks** to win (52%) | Run line: **New York Yankees** +1.5 (67% to cover) | Total 6.5: lean **UNDER** (54%)
+Model likes: **Arizona Diamondbacks** to win (52%) | Run line: **New York Yankees** +1.5 (66% to cover) | Total 6.5: lean **UNDER** (54%)
 
 ### New York Yankees lineup -- PROJECTED (unconfirmed)
 **Probable P: Gerrit Cole (R)** -- L5: 28.7 IP, 25 K, 16 ER, 5.02 ERA
@@ -576,7 +576,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.44)_
 - Trea Turner (R) [TOUGH MATCHUP: pitcher holds this hand to 0.203 avg-against] -- L7: 4H 0HR 1RBI 4TB (0.148 avg) -- away split: 0.209 avg
 - Bryce Harper (L) -- L7: 9H 1HR 2RBI 15TB (0.321 avg) -- away split: 0.289 avg
 - Bryson Stott (L) -- L7: 5H 0HR 3RBI 7TB (0.227 avg) -- away split: 0.238 avg
-- Brandon Marsh (L) -- L7: 1H 0HR 0RBI 1TB (0.062 avg) -- away split: 0.231 avg
+- Brandon Marsh (L) -- L7: 2H 0HR 0RBI 2TB (0.111 avg) -- away split: 0.233 avg
 - Alec Bohm (R) [TOUGH MATCHUP: pitcher holds this hand to 0.203 avg-against] [5-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 9H 0HR 4RBI 11TB (0.360 avg) -- away split: 0.246 avg
 - Justin Crawford (L) [8-game hit streak] -- L7: 7H 1HR 3RBI 11TB (0.350 avg) -- away split: 0.246 avg
 - Derek Hill (R) [TOUGH MATCHUP: pitcher holds this hand to 0.203 avg-against] -- L7: 1H 0HR 3RBI 2TB (0.143 avg) -- away split: 0.262 avg
@@ -932,7 +932,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-19 - Minnesota Twins @ Los Angeles Angels (Scheduled)
 _Angel Stadium_
 Projected score: Minnesota Twins 3.66 - Los Angeles Angels 3.61
-Model likes: **Minnesota Twins** to win (51%) | Run line: **Los Angeles Angels** +1.5 (66% to cover) | Total 6.5: lean **OVER** (53%)
+Model likes: **Minnesota Twins** to win (50%) | Run line: **Los Angeles Angels** +1.5 (67% to cover) | Total 6.5: lean **OVER** (53%)
 
 ### Minnesota Twins lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.52)_
@@ -952,7 +952,7 @@ _Facing a rested bullpen: 2.3 relief IP in last 2 days (ratio 0.48)_
 **Probable P: Reid Detmers (L)** -- L5: 31.0 IP, 32 K, 5 ER, 1.45 ERA
 - Zach Neto (R) -- L7: 5H 1HR 2RBI 10TB (0.185 avg) -- home split: 0.214 avg
 - Vaughn Grissom (R) -- L7: 3H 1HR 5RBI 7TB (0.136 avg) -- home split: 0.229 avg
-- Wade Meckler (L) -- L7: 5H 0HR 1RBI 6TB (0.227 avg) -- home split: 0.317 avg
+- Wade Meckler (L) -- L7: 6H 0HR 2RBI 7TB (0.261 avg) -- home split: 0.323 avg
 - Jose Siri (R) -- L7: 4H 0HR 2RBI 6TB (0.235 avg) -- home split: 0.175 avg
 - Mike Trout (R) -- L7: 4H 1HR 2RBI 8TB (0.190 avg) -- home split: 0.223 avg
 - Christian Moore (R) -- L7: 2H 0HR 3RBI 3TB (0.077 avg) -- home split: 0.154 avg
@@ -973,7 +973,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 - Trea Turner (R) [TOUGH MATCHUP: pitcher holds this hand to 0.156 avg-against] -- L7: 4H 0HR 1RBI 4TB (0.148 avg) -- away split: 0.209 avg
 - Bryce Harper (L) -- L7: 9H 1HR 2RBI 15TB (0.321 avg) -- away split: 0.289 avg
 - Bryson Stott (L) -- L7: 5H 0HR 3RBI 7TB (0.227 avg) -- away split: 0.238 avg
-- Brandon Marsh (L) -- L7: 1H 0HR 0RBI 1TB (0.062 avg) -- away split: 0.231 avg
+- Brandon Marsh (L) -- L7: 2H 0HR 0RBI 2TB (0.111 avg) -- away split: 0.233 avg
 - Alec Bohm (R) [TOUGH MATCHUP: pitcher holds this hand to 0.156 avg-against] [5-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 9H 0HR 4RBI 11TB (0.360 avg) -- away split: 0.246 avg
 - Justin Crawford (L) [8-game hit streak] -- L7: 7H 1HR 3RBI 11TB (0.350 avg) -- away split: 0.246 avg
 - Derek Hill (R) [TOUGH MATCHUP: pitcher holds this hand to 0.156 avg-against] -- L7: 1H 0HR 3RBI 2TB (0.143 avg) -- away split: 0.262 avg
@@ -1115,7 +1115,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-20 - Atlanta Braves @ Houston Astros (Scheduled)
 _Daikin Park_
 Projected score: Atlanta Braves 3.57 - Houston Astros 2.78
-Model likes: **Atlanta Braves** to win (58%) | Run line: **Houston Astros** +1.5 (61% to cover) | Total 5.5: lean **OVER** (54%)
+Model likes: **Atlanta Braves** to win (59%) | Run line: **Houston Astros** +1.5 (61% to cover) | Total 5.5: lean **OVER** (55%)
 
 ### Atlanta Braves lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1289,7 +1289,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 **Probable P: Ryan Johnson (R)** -- L5: 30.0 IP, 23 K, 6 ER, 1.8 ERA
 - Zach Neto (R) -- L7: 5H 1HR 2RBI 10TB (0.185 avg) -- home split: 0.214 avg
 - Vaughn Grissom (R) -- L7: 3H 1HR 5RBI 7TB (0.136 avg) -- home split: 0.229 avg
-- Wade Meckler (L) -- L7: 5H 0HR 1RBI 6TB (0.227 avg) -- home split: 0.317 avg
+- Wade Meckler (L) -- L7: 6H 0HR 2RBI 7TB (0.261 avg) -- home split: 0.323 avg
 - Jose Siri (R) -- L7: 4H 0HR 2RBI 6TB (0.235 avg) -- home split: 0.175 avg
 - Mike Trout (R) -- L7: 4H 1HR 2RBI 8TB (0.190 avg) -- home split: 0.223 avg
 - Christian Moore (R) -- L7: 2H 0HR 3RBI 3TB (0.077 avg) -- home split: 0.154 avg
@@ -1359,7 +1359,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-20 - New York Yankees @ Arizona Diamondbacks (Scheduled)
 _Chase Field [hitter-friendly park]_
 Projected score: New York Yankees 4.41 - Arizona Diamondbacks 3.48
-Model likes: **New York Yankees** to win (58%) | Run line: **Arizona Diamondbacks** +1.5 (58% to cover) | Total 7.5: lean **UNDER** (52%)
+Model likes: **New York Yankees** to win (59%) | Run line: **Arizona Diamondbacks** +1.5 (58% to cover) | Total 7.5: lean **UNDER** (52%)
 
 ### New York Yankees lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
