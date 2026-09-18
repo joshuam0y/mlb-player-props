@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-09-18T11:39:26.941457+00:00_
+_Generated 2026-09-18T14:34:51.443563+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -207,11 +207,12 @@ _Facing a taxed bullpen: 10.0 relief IP in last 2 days (ratio 1.76)_
 
 ## 2026-09-18 - Philadelphia Phillies @ New York Mets (Scheduled)
 _Citi Field_
-Projected score: Philadelphia Phillies 3.32 - New York Mets 3.62
-Model likes: **New York Mets** to win (53%) | Run line: **Philadelphia Phillies** +1.5 (65% to cover) | Total 6.5: lean **UNDER** (51%)
+Projected score: Philadelphia Phillies 3.32 - New York Mets 4.65
+Model likes: **New York Mets** to win (62%) | Run line: **Philadelphia Phillies** +1.5 (54% to cover) | Total 7.5: lean **UNDER** (51%)
 
 ### Philadelphia Phillies lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 9.0 relief IP in last 2 days (ratio 1.33)_
+**Probable P: Andrew Painter (R)** -- L5: 30.0 IP, 29 K, 10 ER, 3.0 ERA
 - Kyle Schwarber (L) -- L7: 3H 1HR 3RBI 6TB (0.111 avg) -- away split: 0.216 avg
 - Luis Arraez (L) -- L7: 6H 0HR 4RBI 9TB (0.250 avg) -- away split: 0.275 avg
 - Trea Turner (R) [MATCHUP EDGE: pitcher hits 0.262 avg-against vs this hand] -- L7: 4H 0HR 1RBI 4TB (0.148 avg) -- away split: 0.209 avg
@@ -224,14 +225,14 @@ _Facing a taxed bullpen: 9.0 relief IP in last 2 days (ratio 1.33)_
 
 ### New York Mets lineup -- PROJECTED (unconfirmed)
 **Probable P: Zac Thornton (L)** -- L5: 28.0 IP, 26 K, 14 ER, 4.5 ERA
-- Carson Benge (L) -- L7: 7H 2HR 3RBI 13TB (0.241 avg) -- home split: 0.266 avg
+- Carson Benge (L) [MATCHUP EDGE: pitcher hits 0.293 avg-against vs this hand] -- L7: 7H 2HR 3RBI 13TB (0.241 avg) -- home split: 0.266 avg
 - Bo Bichette (R) [3-game hit streak] -- L7: 7H 0HR 1RBI 7TB (0.226 avg) -- home split: 0.247 avg
-- Juan Soto (L) -- L7: 6H 1HR 2RBI 10TB (0.214 avg) -- home split: 0.304 avg
-- Francisco Lindor (S) -- L7: 6H 2HR 5RBI 13TB (0.207 avg) -- home split: 0.227 avg
-- A.J. Ewing (L) -- L7: 7H 2HR 3RBI 13TB (0.280 avg) -- home split: 0.254 avg
-- Jared Young (L) -- L7: 5H 1HR 2RBI 9TB (0.238 avg) -- home split: 0.265 avg
+- Juan Soto (L) [MATCHUP EDGE: pitcher hits 0.293 avg-against vs this hand] -- L7: 6H 1HR 2RBI 10TB (0.214 avg) -- home split: 0.304 avg
+- Francisco Lindor (S) [MATCHUP EDGE: pitcher hits 0.293 avg-against vs this hand] -- L7: 6H 2HR 5RBI 13TB (0.207 avg) -- home split: 0.227 avg
+- A.J. Ewing (L) [MATCHUP EDGE: pitcher hits 0.293 avg-against vs this hand] -- L7: 7H 2HR 3RBI 13TB (0.280 avg) -- home split: 0.254 avg
+- Jared Young (L) [MATCHUP EDGE: pitcher hits 0.293 avg-against vs this hand] -- L7: 5H 1HR 2RBI 9TB (0.238 avg) -- home split: 0.265 avg
 - Marcus Semien (R) [6-game hit streak] -- L7: 6H 0HR 3RBI 7TB (0.222 avg) -- home split: 0.208 avg
-- Brett Baty (L) -- L7: 5H 1HR 3RBI 9TB (0.294 avg) -- home split: 0.238 avg
+- Brett Baty (L) [MATCHUP EDGE: pitcher hits 0.293 avg-against vs this hand] -- L7: 5H 1HR 3RBI 9TB (0.294 avg) -- home split: 0.238 avg
 - Francisco Alvarez (R) -- L7: 4H 0HR 1RBI 4TB (0.154 avg) -- home split: 0.207 avg
 
 ## 2026-09-18 - Detroit Tigers @ Chicago White Sox (Scheduled)
@@ -449,7 +450,7 @@ Model likes: **San Diego Padres** to win (50%) | Run line: **Miami Marlins** +1.
 ## 2026-09-18 - New York Yankees @ Arizona Diamondbacks (Scheduled)
 _Chase Field [hitter-friendly park]_
 Projected score: New York Yankees 3.22 - Arizona Diamondbacks 3.39
-Model likes: **Arizona Diamondbacks** to win (52%) | Run line: **New York Yankees** +1.5 (67% to cover) | Total 6.5: lean **UNDER** (54%)
+Model likes: **Arizona Diamondbacks** to win (52%) | Run line: **New York Yankees** +1.5 (66% to cover) | Total 6.5: lean **UNDER** (54%)
 
 ### New York Yankees lineup -- PROJECTED (unconfirmed)
 **Probable P: Gerrit Cole (R)** -- L5: 28.7 IP, 25 K, 16 ER, 5.02 ERA
@@ -628,7 +629,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-19 - Kansas City Royals @ Pittsburgh Pirates (Scheduled)
 _PNC Park_
 Projected score: Kansas City Royals 3.83 - Pittsburgh Pirates 4.08
-Model likes: **Pittsburgh Pirates** to win (52%) | Run line: **Kansas City Royals** +1.5 (64% to cover) | Total 7.5: lean **UNDER** (52%)
+Model likes: **Pittsburgh Pirates** to win (52%) | Run line: **Kansas City Royals** +1.5 (64% to cover) | Total 7.5: lean **UNDER** (51%)
 
 ### Kansas City Royals lineup -- PROJECTED (unconfirmed)
 **Probable P: Noah Cameron (L)** -- L5: 28.0 IP, 23 K, 7 ER, 2.25 ERA
@@ -781,7 +782,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.53)_
 ## 2026-09-19 - Washington Nationals @ St. Louis Cardinals (Scheduled)
 _Busch Stadium_
 Projected score: Washington Nationals 4.04 - St. Louis Cardinals 4.16
-Model likes: **St. Louis Cardinals** to win (51%) | Run line: **Washington Nationals** +1.5 (64% to cover) | Total 7.5: lean **OVER** (51%)
+Model likes: **St. Louis Cardinals** to win (51%) | Run line: **Washington Nationals** +1.5 (65% to cover) | Total 7.5: lean **OVER** (51%)
 
 ### Washington Nationals lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1055,7 +1056,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-20 - Athletics @ Cleveland Guardians (Scheduled)
 _Progressive Field_
 Projected score: Athletics 3.1 - Cleveland Guardians 5.5
-Model likes: **Cleveland Guardians** to win (70%) | Run line: **Cleveland Guardians** -1.5 (55% to cover) | Total 7.5: lean **OVER** (55%)
+Model likes: **Cleveland Guardians** to win (70%) | Run line: **Cleveland Guardians** -1.5 (55% to cover) | Total 7.5: lean **OVER** (54%)
 
 ### Athletics lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1360,7 +1361,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-20 - New York Yankees @ Arizona Diamondbacks (Scheduled)
 _Chase Field [hitter-friendly park]_
 Projected score: New York Yankees 4.41 - Arizona Diamondbacks 3.48
-Model likes: **New York Yankees** to win (58%) | Run line: **Arizona Diamondbacks** +1.5 (58% to cover) | Total 7.5: lean **UNDER** (52%)
+Model likes: **New York Yankees** to win (59%) | Run line: **Arizona Diamondbacks** +1.5 (58% to cover) | Total 7.5: lean **UNDER** (52%)
 
 ### New York Yankees lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
