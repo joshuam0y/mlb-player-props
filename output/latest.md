@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-09-18T09:53:07.536743+00:00_
+_Generated 2026-09-18T11:39:26.941457+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -267,7 +267,7 @@ _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.24)_
 ## 2026-09-18 - Toronto Blue Jays @ Texas Rangers (Scheduled)
 _Globe Life Field [hitter-friendly park]_
 Projected score: Toronto Blue Jays 4.52 - Texas Rangers 2.59
-Model likes: **Toronto Blue Jays** to win (69%) | Run line: **Toronto Blue Jays** -1.5 (51% to cover) | Total 6.5: lean **OVER** (51%)
+Model likes: **Toronto Blue Jays** to win (69%) | Run line: **Toronto Blue Jays** -1.5 (52% to cover) | Total 6.5: lean **OVER** (51%)
 
 ### Toronto Blue Jays lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 13.0 relief IP in last 2 days (ratio 2.42)_
@@ -449,7 +449,7 @@ Model likes: **San Diego Padres** to win (50%) | Run line: **Miami Marlins** +1.
 ## 2026-09-18 - New York Yankees @ Arizona Diamondbacks (Scheduled)
 _Chase Field [hitter-friendly park]_
 Projected score: New York Yankees 3.22 - Arizona Diamondbacks 3.39
-Model likes: **Arizona Diamondbacks** to win (52%) | Run line: **New York Yankees** +1.5 (66% to cover) | Total 6.5: lean **UNDER** (54%)
+Model likes: **Arizona Diamondbacks** to win (52%) | Run line: **New York Yankees** +1.5 (67% to cover) | Total 6.5: lean **UNDER** (54%)
 
 ### New York Yankees lineup -- PROJECTED (unconfirmed)
 **Probable P: Gerrit Cole (R)** -- L5: 28.7 IP, 25 K, 16 ER, 5.02 ERA
@@ -566,11 +566,12 @@ _Facing a rested bullpen: 2.7 relief IP in last 2 days (ratio 0.47)_
 
 ## 2026-09-19 - Philadelphia Phillies @ New York Mets (Scheduled)
 _Citi Field_
-Projected score: Philadelphia Phillies 3.66 - New York Mets 3.62
-Model likes: **Philadelphia Phillies** to win (50%) | Run line: **New York Mets** +1.5 (67% to cover) | Total 6.5: lean **OVER** (53%)
+Projected score: Philadelphia Phillies 3.66 - New York Mets 4.65
+Model likes: **New York Mets** to win (59%) | Run line: **Philadelphia Phillies** +1.5 (57% to cover) | Total 7.5: lean **OVER** (52%)
 
 ### Philadelphia Phillies lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.44)_
+**Probable P: Andrew Painter (R)** -- L5: 30.0 IP, 29 K, 10 ER, 3.0 ERA
 - Kyle Schwarber (L) -- L7: 3H 1HR 3RBI 6TB (0.111 avg) -- away split: 0.216 avg
 - Luis Arraez (L) -- L7: 6H 0HR 4RBI 9TB (0.250 avg) -- away split: 0.275 avg
 - Trea Turner (R) [TOUGH MATCHUP: pitcher holds this hand to 0.203 avg-against] -- L7: 4H 0HR 1RBI 4TB (0.148 avg) -- away split: 0.209 avg
@@ -584,14 +585,14 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.44)_
 ### New York Mets lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.37)_
 **Probable P: Christian Scott (R)** -- L5: 27.0 IP, 29 K, 14 ER, 4.67 ERA
-- Carson Benge (L) -- L7: 7H 2HR 3RBI 13TB (0.241 avg) -- home split: 0.266 avg
+- Carson Benge (L) [MATCHUP EDGE: pitcher hits 0.293 avg-against vs this hand] -- L7: 7H 2HR 3RBI 13TB (0.241 avg) -- home split: 0.266 avg
 - Bo Bichette (R) [3-game hit streak] -- L7: 7H 0HR 1RBI 7TB (0.226 avg) -- home split: 0.247 avg
-- Juan Soto (L) -- L7: 6H 1HR 2RBI 10TB (0.214 avg) -- home split: 0.304 avg
-- Francisco Lindor (S) -- L7: 6H 2HR 5RBI 13TB (0.207 avg) -- home split: 0.227 avg
-- A.J. Ewing (L) -- L7: 7H 2HR 3RBI 13TB (0.280 avg) -- home split: 0.254 avg
-- Jared Young (L) -- L7: 5H 1HR 2RBI 9TB (0.238 avg) -- home split: 0.265 avg
+- Juan Soto (L) [MATCHUP EDGE: pitcher hits 0.293 avg-against vs this hand] -- L7: 6H 1HR 2RBI 10TB (0.214 avg) -- home split: 0.304 avg
+- Francisco Lindor (S) [MATCHUP EDGE: pitcher hits 0.293 avg-against vs this hand] -- L7: 6H 2HR 5RBI 13TB (0.207 avg) -- home split: 0.227 avg
+- A.J. Ewing (L) [MATCHUP EDGE: pitcher hits 0.293 avg-against vs this hand] -- L7: 7H 2HR 3RBI 13TB (0.280 avg) -- home split: 0.254 avg
+- Jared Young (L) [MATCHUP EDGE: pitcher hits 0.293 avg-against vs this hand] -- L7: 5H 1HR 2RBI 9TB (0.238 avg) -- home split: 0.265 avg
 - Marcus Semien (R) [6-game hit streak] -- L7: 6H 0HR 3RBI 7TB (0.222 avg) -- home split: 0.208 avg
-- Brett Baty (L) -- L7: 5H 1HR 3RBI 9TB (0.294 avg) -- home split: 0.238 avg
+- Brett Baty (L) [MATCHUP EDGE: pitcher hits 0.293 avg-against vs this hand] -- L7: 5H 1HR 3RBI 9TB (0.294 avg) -- home split: 0.238 avg
 - Francisco Alvarez (R) -- L7: 4H 0HR 1RBI 4TB (0.154 avg) -- home split: 0.207 avg
 
 ## 2026-09-19 - Athletics @ Cleveland Guardians (Scheduled)
@@ -627,7 +628,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-19 - Kansas City Royals @ Pittsburgh Pirates (Scheduled)
 _PNC Park_
 Projected score: Kansas City Royals 3.83 - Pittsburgh Pirates 4.08
-Model likes: **Pittsburgh Pirates** to win (52%) | Run line: **Kansas City Royals** +1.5 (64% to cover) | Total 7.5: lean **UNDER** (51%)
+Model likes: **Pittsburgh Pirates** to win (52%) | Run line: **Kansas City Royals** +1.5 (64% to cover) | Total 7.5: lean **UNDER** (52%)
 
 ### Kansas City Royals lineup -- PROJECTED (unconfirmed)
 **Probable P: Noah Cameron (L)** -- L5: 28.0 IP, 23 K, 7 ER, 2.25 ERA
@@ -932,7 +933,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-19 - Minnesota Twins @ Los Angeles Angels (Scheduled)
 _Angel Stadium_
 Projected score: Minnesota Twins 3.66 - Los Angeles Angels 3.61
-Model likes: **Minnesota Twins** to win (50%) | Run line: **Los Angeles Angels** +1.5 (67% to cover) | Total 6.5: lean **OVER** (53%)
+Model likes: **Minnesota Twins** to win (50%) | Run line: **Los Angeles Angels** +1.5 (66% to cover) | Total 6.5: lean **OVER** (53%)
 
 ### Minnesota Twins lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.52)_
@@ -1054,7 +1055,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-20 - Athletics @ Cleveland Guardians (Scheduled)
 _Progressive Field_
 Projected score: Athletics 3.1 - Cleveland Guardians 5.5
-Model likes: **Cleveland Guardians** to win (70%) | Run line: **Cleveland Guardians** -1.5 (55% to cover) | Total 7.5: lean **OVER** (54%)
+Model likes: **Cleveland Guardians** to win (70%) | Run line: **Cleveland Guardians** -1.5 (55% to cover) | Total 7.5: lean **OVER** (55%)
 
 ### Athletics lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1115,7 +1116,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-20 - Atlanta Braves @ Houston Astros (Scheduled)
 _Daikin Park_
 Projected score: Atlanta Braves 3.57 - Houston Astros 2.78
-Model likes: **Atlanta Braves** to win (59%) | Run line: **Houston Astros** +1.5 (61% to cover) | Total 5.5: lean **OVER** (55%)
+Model likes: **Atlanta Braves** to win (59%) | Run line: **Houston Astros** +1.5 (61% to cover) | Total 5.5: lean **OVER** (54%)
 
 ### Atlanta Braves lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1359,7 +1360,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-20 - New York Yankees @ Arizona Diamondbacks (Scheduled)
 _Chase Field [hitter-friendly park]_
 Projected score: New York Yankees 4.41 - Arizona Diamondbacks 3.48
-Model likes: **New York Yankees** to win (59%) | Run line: **Arizona Diamondbacks** +1.5 (58% to cover) | Total 7.5: lean **UNDER** (52%)
+Model likes: **New York Yankees** to win (58%) | Run line: **Arizona Diamondbacks** +1.5 (58% to cover) | Total 7.5: lean **UNDER** (52%)
 
 ### New York Yankees lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
