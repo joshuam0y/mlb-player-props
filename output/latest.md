@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-09-18T18:24:50.562490+00:00_
+_Generated 2026-09-18T18:31:18.095312+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -450,7 +450,7 @@ Model likes: **San Diego Padres** to win (50%) | Run line: **Miami Marlins** +1.
 ## 2026-09-18 - New York Yankees @ Arizona Diamondbacks (Scheduled)
 _Chase Field [hitter-friendly park]_
 Projected score: New York Yankees 3.22 - Arizona Diamondbacks 3.39
-Model likes: **Arizona Diamondbacks** to win (52%) | Run line: **New York Yankees** +1.5 (66% to cover) | Total 6.5: lean **UNDER** (54%)
+Model likes: **Arizona Diamondbacks** to win (52%) | Run line: **New York Yankees** +1.5 (67% to cover) | Total 6.5: lean **UNDER** (54%)
 
 ### New York Yankees lineup -- PROJECTED (unconfirmed)
 **Probable P: Gerrit Cole (R)** -- L5: 28.7 IP, 25 K, 16 ER, 5.02 ERA
@@ -934,7 +934,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-19 - Minnesota Twins @ Los Angeles Angels (Scheduled)
 _Angel Stadium_
 Projected score: Minnesota Twins 3.66 - Los Angeles Angels 3.61
-Model likes: **Minnesota Twins** to win (50%) | Run line: **Los Angeles Angels** +1.5 (66% to cover) | Total 6.5: lean **OVER** (53%)
+Model likes: **Minnesota Twins** to win (50%) | Run line: **Los Angeles Angels** +1.5 (67% to cover) | Total 6.5: lean **OVER** (53%)
 
 ### Minnesota Twins lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.52)_
