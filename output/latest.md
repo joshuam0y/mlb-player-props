@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-09-18T15:13:07.345183+00:00_
+_Generated 2026-09-18T18:24:50.562490+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -86,7 +86,7 @@ _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.28)_
 ## 2026-09-18 - Chicago Cubs @ Cincinnati Reds (Scheduled)
 _Great American Ball Park [hitter-friendly park]_
 Projected score: Chicago Cubs 4.72 - Cincinnati Reds 3.01
-Model likes: **Chicago Cubs** to win (66%) | Run line: **Cincinnati Reds** +1.5 (51% to cover) | Total 7.5: lean **UNDER** (54%)
+Model likes: **Chicago Cubs** to win (66%) | Run line: **Cincinnati Reds** +1.5 (51% to cover) | Total 7.5: lean **UNDER** (53%)
 
 ### Chicago Cubs lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 10.0 relief IP in last 2 days (ratio 1.68)_
@@ -116,8 +116,8 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.59)_
 
 ## 2026-09-18 - Milwaukee Brewers @ Baltimore Orioles (Scheduled)
 _Oriole Park at Camden Yards_
-Projected score: Milwaukee Brewers 5.38 - Baltimore Orioles 4.0
-Model likes: **Milwaukee Brewers** to win (61%) | Run line: **Baltimore Orioles** +1.5 (53% to cover) | Total 8.5: lean **OVER** (52%)
+Projected score: Milwaukee Brewers 4.21 - Baltimore Orioles 4.0
+Model likes: **Milwaukee Brewers** to win (52%) | Run line: **Baltimore Orioles** +1.5 (64% to cover) | Total 7.5: lean **OVER** (51%)
 
 ### Milwaukee Brewers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.3 relief IP in last 2 days (ratio 0.43)_
@@ -134,6 +134,7 @@ _Facing a rested bullpen: 2.3 relief IP in last 2 days (ratio 0.43)_
 
 ### Baltimore Orioles lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 10.3 relief IP in last 2 days (ratio 1.63)_
+**Probable P: Cade Povich (L)** -- L5: 21.0 IP, 18 K, 12 ER, 5.14 ERA
 - Christian Encarnacion-Strand (R) [4-game hit streak] -- L7: 10H 2HR 4RBI 19TB (0.370 avg) -- home split: 0.175 avg
 - Pete Alonso (R) -- L7: 7H 3HR 5RBI 16TB (0.250 avg) -- home split: 0.256 avg
 - Coby Mayo (R) -- L7: 7H 3HR 5RBI 16TB (0.250 avg) -- home split: 0.216 avg
@@ -207,12 +208,11 @@ _Facing a taxed bullpen: 10.0 relief IP in last 2 days (ratio 1.76)_
 
 ## 2026-09-18 - Philadelphia Phillies @ New York Mets (Scheduled)
 _Citi Field_
-Projected score: Philadelphia Phillies 3.32 - New York Mets 4.65
-Model likes: **New York Mets** to win (62%) | Run line: **Philadelphia Phillies** +1.5 (54% to cover) | Total 7.5: lean **UNDER** (51%)
+Projected score: Philadelphia Phillies 3.32 - New York Mets 3.62
+Model likes: **New York Mets** to win (53%) | Run line: **Philadelphia Phillies** +1.5 (65% to cover) | Total 6.5: lean **UNDER** (51%)
 
 ### Philadelphia Phillies lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 9.0 relief IP in last 2 days (ratio 1.33)_
-**Probable P: Andrew Painter (R)** -- L5: 30.0 IP, 29 K, 10 ER, 3.0 ERA
 - Kyle Schwarber (L) -- L7: 3H 1HR 3RBI 6TB (0.111 avg) -- away split: 0.216 avg
 - Luis Arraez (L) -- L7: 6H 0HR 4RBI 9TB (0.250 avg) -- away split: 0.275 avg
 - Trea Turner (R) [MATCHUP EDGE: pitcher hits 0.262 avg-against vs this hand] -- L7: 4H 0HR 1RBI 4TB (0.148 avg) -- away split: 0.209 avg
@@ -225,14 +225,14 @@ _Facing a taxed bullpen: 9.0 relief IP in last 2 days (ratio 1.33)_
 
 ### New York Mets lineup -- PROJECTED (unconfirmed)
 **Probable P: Zac Thornton (L)** -- L5: 28.0 IP, 26 K, 14 ER, 4.5 ERA
-- Carson Benge (L) [MATCHUP EDGE: pitcher hits 0.293 avg-against vs this hand] -- L7: 7H 2HR 3RBI 13TB (0.241 avg) -- home split: 0.266 avg
+- Carson Benge (L) -- L7: 7H 2HR 3RBI 13TB (0.241 avg) -- home split: 0.266 avg
 - Bo Bichette (R) [3-game hit streak] -- L7: 7H 0HR 1RBI 7TB (0.226 avg) -- home split: 0.247 avg
-- Juan Soto (L) [MATCHUP EDGE: pitcher hits 0.293 avg-against vs this hand] -- L7: 6H 1HR 2RBI 10TB (0.214 avg) -- home split: 0.304 avg
-- Francisco Lindor (S) [MATCHUP EDGE: pitcher hits 0.293 avg-against vs this hand] -- L7: 6H 2HR 5RBI 13TB (0.207 avg) -- home split: 0.227 avg
-- A.J. Ewing (L) [MATCHUP EDGE: pitcher hits 0.293 avg-against vs this hand] -- L7: 7H 2HR 3RBI 13TB (0.280 avg) -- home split: 0.254 avg
-- Jared Young (L) [MATCHUP EDGE: pitcher hits 0.293 avg-against vs this hand] -- L7: 5H 1HR 2RBI 9TB (0.238 avg) -- home split: 0.265 avg
+- Juan Soto (L) -- L7: 6H 1HR 2RBI 10TB (0.214 avg) -- home split: 0.304 avg
+- Francisco Lindor (S) -- L7: 6H 2HR 5RBI 13TB (0.207 avg) -- home split: 0.227 avg
+- A.J. Ewing (L) -- L7: 7H 2HR 3RBI 13TB (0.280 avg) -- home split: 0.254 avg
+- Jared Young (L) -- L7: 5H 1HR 2RBI 9TB (0.238 avg) -- home split: 0.265 avg
 - Marcus Semien (R) [6-game hit streak] -- L7: 6H 0HR 3RBI 7TB (0.222 avg) -- home split: 0.208 avg
-- Brett Baty (L) [MATCHUP EDGE: pitcher hits 0.293 avg-against vs this hand] -- L7: 5H 1HR 3RBI 9TB (0.294 avg) -- home split: 0.238 avg
+- Brett Baty (L) -- L7: 5H 1HR 3RBI 9TB (0.294 avg) -- home split: 0.238 avg
 - Francisco Alvarez (R) -- L7: 4H 0HR 1RBI 4TB (0.154 avg) -- home split: 0.207 avg
 
 ## 2026-09-18 - Detroit Tigers @ Chicago White Sox (Scheduled)
@@ -782,7 +782,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.53)_
 ## 2026-09-19 - Washington Nationals @ St. Louis Cardinals (Scheduled)
 _Busch Stadium_
 Projected score: Washington Nationals 4.04 - St. Louis Cardinals 4.16
-Model likes: **St. Louis Cardinals** to win (51%) | Run line: **Washington Nationals** +1.5 (64% to cover) | Total 7.5: lean **OVER** (51%)
+Model likes: **St. Louis Cardinals** to win (51%) | Run line: **Washington Nationals** +1.5 (65% to cover) | Total 7.5: lean **OVER** (51%)
 
 ### Washington Nationals lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -934,7 +934,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-19 - Minnesota Twins @ Los Angeles Angels (Scheduled)
 _Angel Stadium_
 Projected score: Minnesota Twins 3.66 - Los Angeles Angels 3.61
-Model likes: **Minnesota Twins** to win (50%) | Run line: **Los Angeles Angels** +1.5 (67% to cover) | Total 6.5: lean **OVER** (53%)
+Model likes: **Minnesota Twins** to win (50%) | Run line: **Los Angeles Angels** +1.5 (66% to cover) | Total 6.5: lean **OVER** (53%)
 
 ### Minnesota Twins lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.52)_
@@ -1117,7 +1117,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-20 - Atlanta Braves @ Houston Astros (Scheduled)
 _Daikin Park_
 Projected score: Atlanta Braves 3.57 - Houston Astros 2.78
-Model likes: **Atlanta Braves** to win (59%) | Run line: **Houston Astros** +1.5 (61% to cover) | Total 5.5: lean **OVER** (54%)
+Model likes: **Atlanta Braves** to win (58%) | Run line: **Houston Astros** +1.5 (61% to cover) | Total 5.5: lean **OVER** (54%)
 
 ### Atlanta Braves lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1302,7 +1302,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-20 - Miami Marlins @ San Diego Padres (Scheduled)
 _Petco Park [pitcher-friendly park]_
 Projected score: Miami Marlins 3.9 - San Diego Padres 4.71
-Model likes: **San Diego Padres** to win (57%) | Run line: **Miami Marlins** +1.5 (58% to cover) | Total 8.5: lean **UNDER** (55%)
+Model likes: **San Diego Padres** to win (57%) | Run line: **Miami Marlins** +1.5 (58% to cover) | Total 8.5: lean **UNDER** (54%)
 
 ### Miami Marlins lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
