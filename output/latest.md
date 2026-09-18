@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-09-17T23:47:28.771399+00:00_
+_Generated 2026-09-18T01:34:43.731745+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -253,7 +253,7 @@ _Facing a taxed bullpen: 8.0 relief IP in last 2 days (ratio 1.41)_
 - #8 Luisangel Acuña (R) -- L7: 0H 0HR 0RBI 0TB (0.000 avg) -- home split: 0.241 avg
 - #9 Braden Montgomery (S) -- L7: 1H 0HR 0RBI 2TB (0.056 avg) -- home split: 0.231 avg
 
-## 2026-09-17 - Boston Red Sox @ Texas Rangers (Warmup)
+## 2026-09-17 - Boston Red Sox @ Texas Rangers (In Progress)
 _Globe Life Field [hitter-friendly park]_
 Projected score: Boston Red Sox 4.57 - Texas Rangers 3.06
 Model likes: **Boston Red Sox** to win (64%) | Run line: **Texas Rangers** +1.5 (52% to cover) | Total 7.5: lean **UNDER** (54%)
@@ -284,7 +284,7 @@ _Facing a taxed bullpen: 8.7 relief IP in last 2 days (ratio 1.54)_
 - #8 Danny Jansen (R) -- L7: no data
 - #9 Evan Carter (L) -- L7: 1H 0HR 0RBI 1TB (0.083 avg) -- home split: 0.200 avg
 
-## 2026-09-17 - Minnesota Twins @ Los Angeles Angels (Pre-Game)
+## 2026-09-17 - Minnesota Twins @ Los Angeles Angels (Warmup)
 _Angel Stadium_
 Projected score: Minnesota Twins 3.6 - Los Angeles Angels 3.71
 Model likes: **Los Angeles Angels** to win (51%) | Run line: **Minnesota Twins** +1.5 (66% to cover) | Total 6.5: lean **OVER** (53%)
@@ -347,7 +347,7 @@ Model likes: **Kansas City Royals** to win (50%) | Run line: **Pittsburgh Pirate
 ## 2026-09-18 - Chicago Cubs @ Cincinnati Reds (Scheduled)
 _Great American Ball Park [hitter-friendly park]_
 Projected score: Chicago Cubs 4.68 - Cincinnati Reds 4.58
-Model likes: **Chicago Cubs** to win (51%) | Run line: **Cincinnati Reds** +1.5 (63% to cover) | Total 8.5: lean **OVER** (51%)
+Model likes: **Chicago Cubs** to win (51%) | Run line: **Cincinnati Reds** +1.5 (64% to cover) | Total 8.5: lean **OVER** (51%)
 
 ### Chicago Cubs lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 10.0 relief IP in last 2 days (ratio 1.68)_
@@ -407,7 +407,7 @@ _Facing a taxed bullpen: 10.3 relief IP in last 2 days (ratio 1.63)_
 ## 2026-09-18 - Boston Red Sox @ Tampa Bay Rays (Scheduled)
 _Tropicana Field_
 Projected score: Boston Red Sox 3.96 - Tampa Bay Rays 3.5
-Model likes: **Boston Red Sox** to win (54%) | Run line: **Tampa Bay Rays** +1.5 (63% to cover) | Total 6.5: lean **OVER** (55%)
+Model likes: **Boston Red Sox** to win (54%) | Run line: **Tampa Bay Rays** +1.5 (62% to cover) | Total 6.5: lean **OVER** (55%)
 
 ### Boston Red Sox lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 8.0 relief IP in last 2 days (ratio 1.29)_
@@ -796,7 +796,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-19 - Boston Red Sox @ Tampa Bay Rays (Scheduled)
 _Tropicana Field_
 Projected score: Boston Red Sox 4.08 - Tampa Bay Rays 4.14
-Model likes: **Tampa Bay Rays** to win (50%) | Run line: **Boston Red Sox** +1.5 (65% to cover) | Total 7.5: lean **OVER** (52%)
+Model likes: **Tampa Bay Rays** to win (51%) | Run line: **Boston Red Sox** +1.5 (65% to cover) | Total 7.5: lean **OVER** (52%)
 
 ### Boston Red Sox lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 4.0 relief IP in last 2 days (ratio 0.65)_
@@ -856,7 +856,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-19 - Athletics @ Cleveland Guardians (Scheduled)
 _Progressive Field_
 Projected score: Athletics 3.69 - Cleveland Guardians 5.04
-Model likes: **Cleveland Guardians** to win (61%) | Run line: **Athletics** +1.5 (54% to cover) | Total 8.5: lean **UNDER** (53%)
+Model likes: **Cleveland Guardians** to win (62%) | Run line: **Athletics** +1.5 (54% to cover) | Total 8.5: lean **UNDER** (53%)
 
 ### Athletics lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -886,7 +886,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-19 - Kansas City Royals @ Pittsburgh Pirates (Scheduled)
 _PNC Park_
 Projected score: Kansas City Royals 3.88 - Pittsburgh Pirates 3.91
-Model likes: **Pittsburgh Pirates** to win (50%) | Run line: **Kansas City Royals** +1.5 (66% to cover) | Total 7.5: lean **UNDER** (53%)
+Model likes: **Pittsburgh Pirates** to win (50%) | Run line: **Kansas City Royals** +1.5 (66% to cover) | Total 7.5: lean **UNDER** (52%)
 
 ### Kansas City Royals lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.7 relief IP in last 2 days (ratio 0.57)_
@@ -1163,7 +1163,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-19 - San Francisco Giants @ Los Angeles Dodgers (Scheduled)
 _UNIQLO Field at Dodger Stadium_
 Projected score: San Francisco Giants 3.42 - Los Angeles Dodgers 5.19
-Model likes: **Los Angeles Dodgers** to win (65%) | Run line: **San Francisco Giants** +1.5 (50% to cover) | Total 8.5: lean **UNDER** (55%)
+Model likes: **Los Angeles Dodgers** to win (65%) | Run line: **Los Angeles Dodgers** -1.5 (50% to cover) | Total 8.5: lean **UNDER** (55%)
 
 ### San Francisco Giants lineup -- PROJECTED (unconfirmed)
 - Jonah Cox (R) [7-game hit streak] -- L7: 10H 0HR 3RBI 10TB (0.345 avg) -- away split: 0.328 avg
@@ -1192,7 +1192,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-19 - Minnesota Twins @ Los Angeles Angels (Scheduled)
 _Angel Stadium_
 Projected score: Minnesota Twins 3.63 - Los Angeles Angels 3.62
-Model likes: **Minnesota Twins** to win (50%) | Run line: **Los Angeles Angels** +1.5 (67% to cover) | Total 6.5: lean **OVER** (52%)
+Model likes: **Los Angeles Angels** to win (50%) | Run line: **Minnesota Twins** +1.5 (67% to cover) | Total 6.5: lean **OVER** (52%)
 
 ### Minnesota Twins lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
