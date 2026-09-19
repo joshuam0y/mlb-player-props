@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-09-19T05:57:01.667010+00:00_
+_Generated 2026-09-19T10:21:57.576925+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -481,7 +481,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-19 - Minnesota Twins @ Los Angeles Angels (Scheduled)
 _Angel Stadium_
 Projected score: Minnesota Twins 3.26 - Los Angeles Angels 3.12
-Model likes: **Minnesota Twins** to win (52%) | Run line: **Los Angeles Angels** +1.5 (67% to cover) | Total 5.5: lean **OVER** (55%)
+Model likes: **Minnesota Twins** to win (51%) | Run line: **Los Angeles Angels** +1.5 (67% to cover) | Total 5.5: lean **OVER** (55%)
 
 ### Minnesota Twins lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.52)_
@@ -603,7 +603,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-20 - Athletics @ Cleveland Guardians (Scheduled)
 _Progressive Field_
 Projected score: Athletics 3.05 - Cleveland Guardians 4.89
-Model likes: **Cleveland Guardians** to win (67%) | Run line: **Cleveland Guardians** -1.5 (50% to cover) | Total 7.5: lean **UNDER** (51%)
+Model likes: **Cleveland Guardians** to win (67%) | Run line: **Cleveland Guardians** -1.5 (51% to cover) | Total 7.5: lean **UNDER** (51%)
 
 ### Athletics lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -848,7 +848,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-20 - Miami Marlins @ San Diego Padres (Scheduled)
 _Petco Park [pitcher-friendly park]_
 Projected score: Miami Marlins 3.68 - San Diego Padres 3.43
-Model likes: **Miami Marlins** to win (53%) | Run line: **San Diego Padres** +1.5 (65% to cover) | Total 6.5: lean **OVER** (51%)
+Model likes: **Miami Marlins** to win (52%) | Run line: **San Diego Padres** +1.5 (65% to cover) | Total 6.5: lean **OVER** (51%)
 
 ### Miami Marlins lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -908,7 +908,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-20 - New York Yankees @ Arizona Diamondbacks (Scheduled)
 _Chase Field [hitter-friendly park]_
 Projected score: New York Yankees 4.75 - Arizona Diamondbacks 3.27
-Model likes: **New York Yankees** to win (63%) | Run line: **Arizona Diamondbacks** +1.5 (53% to cover) | Total 7.5: lean **UNDER** (50%)
+Model likes: **New York Yankees** to win (64%) | Run line: **Arizona Diamondbacks** +1.5 (52% to cover) | Total 7.5: lean **UNDER** (50%)
 
 ### New York Yankees lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
