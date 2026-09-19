@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-09-19T05:49:29.885494+00:00_
+_Generated 2026-09-19T05:57:01.667010+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -56,7 +56,7 @@ _Generated 2026-09-19T05:49:29.885494+00:00_
 ## 2026-09-19 - Detroit Tigers @ Chicago White Sox (Scheduled)
 _Rate Field_
 Projected score: Detroit Tigers 3.48 - Chicago White Sox 3.56
-Model likes: **Chicago White Sox** to win (51%) | Run line: **Detroit Tigers** +1.5 (66% to cover) | Total 6.5: lean **OVER** (50%)
+Model likes: **Chicago White Sox** to win (51%) | Run line: **Detroit Tigers** +1.5 (67% to cover) | Total 6.5: lean **OVER** (50%)
 
 ### Detroit Tigers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 4.3 relief IP in last 2 days (ratio 0.56)_
@@ -147,7 +147,7 @@ _Facing a rested bullpen: 2.7 relief IP in last 2 days (ratio 0.47)_
 ## 2026-09-19 - Philadelphia Phillies @ New York Mets (Scheduled)
 _Citi Field_
 Projected score: Philadelphia Phillies 3.22 - New York Mets 4.71
-Model likes: **New York Mets** to win (64%) | Run line: **Philadelphia Phillies** +1.5 (52% to cover) | Total 7.5: lean **UNDER** (51%)
+Model likes: **New York Mets** to win (64%) | Run line: **Philadelphia Phillies** +1.5 (53% to cover) | Total 7.5: lean **UNDER** (51%)
 
 ### Philadelphia Phillies lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.44)_
@@ -359,8 +359,8 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 
 ## 2026-09-19 - Seattle Mariners @ Colorado Rockies (Scheduled)
 _Coors Field [hitter-friendly park]_
-Projected score: Seattle Mariners 6.74 - Colorado Rockies 4.42
-Model likes: **Seattle Mariners** to win (66%) | Run line: **Seattle Mariners** -1.5 (54% to cover) | Total 10.5: lean **UNDER** (50%)
+Projected score: Seattle Mariners 6.5 - Colorado Rockies 4.42
+Model likes: **Seattle Mariners** to win (65%) | Run line: **Seattle Mariners** -1.5 (52% to cover) | Total 10.5: lean **UNDER** (52%)
 
 ### Seattle Mariners lineup -- PROJECTED (unconfirmed)
 **Probable P: Bryce Miller (R)** -- L5: 22.3 IP, 22 K, 18 ER, 7.25 ERA
@@ -511,8 +511,8 @@ _Facing a rested bullpen: 2.3 relief IP in last 2 days (ratio 0.48)_
 
 ## 2026-09-20 - Philadelphia Phillies @ New York Mets (Scheduled)
 _Citi Field_
-Projected score: Philadelphia Phillies 3.04 - New York Mets 3.24
-Model likes: **New York Mets** to win (52%) | Run line: **Philadelphia Phillies** +1.5 (67% to cover) | Total 5.5: lean **OVER** (54%)
+Projected score: Philadelphia Phillies 3.04 - New York Mets 3.21
+Model likes: **New York Mets** to win (52%) | Run line: **Philadelphia Phillies** +1.5 (67% to cover) | Total 5.5: lean **OVER** (53%)
 
 ### Philadelphia Phillies lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -603,7 +603,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-20 - Athletics @ Cleveland Guardians (Scheduled)
 _Progressive Field_
 Projected score: Athletics 3.05 - Cleveland Guardians 4.89
-Model likes: **Cleveland Guardians** to win (67%) | Run line: **Cleveland Guardians** -1.5 (51% to cover) | Total 7.5: lean **UNDER** (51%)
+Model likes: **Cleveland Guardians** to win (67%) | Run line: **Cleveland Guardians** -1.5 (50% to cover) | Total 7.5: lean **UNDER** (51%)
 
 ### Athletics lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -663,7 +663,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 
 ## 2026-09-20 - Atlanta Braves @ Houston Astros (Scheduled)
 _Daikin Park_
-Projected score: Atlanta Braves 3.63 - Houston Astros 2.7
+Projected score: Atlanta Braves 3.63 - Houston Astros 2.69
 Model likes: **Atlanta Braves** to win (60%) | Run line: **Houston Astros** +1.5 (59% to cover) | Total 5.5: lean **OVER** (54%)
 
 ### Atlanta Braves lineup -- PROJECTED (unconfirmed)
@@ -695,7 +695,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-20 - Detroit Tigers @ Chicago White Sox (Scheduled)
 _Rate Field_
 Projected score: Detroit Tigers 3.78 - Chicago White Sox 2.78
-Model likes: **Detroit Tigers** to win (61%) | Run line: **Chicago White Sox** +1.5 (58% to cover) | Total 6.5: lean **UNDER** (55%)
+Model likes: **Detroit Tigers** to win (60%) | Run line: **Chicago White Sox** +1.5 (58% to cover) | Total 6.5: lean **UNDER** (55%)
 
 ### Detroit Tigers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -848,7 +848,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-20 - Miami Marlins @ San Diego Padres (Scheduled)
 _Petco Park [pitcher-friendly park]_
 Projected score: Miami Marlins 3.68 - San Diego Padres 3.43
-Model likes: **Miami Marlins** to win (52%) | Run line: **San Diego Padres** +1.5 (65% to cover) | Total 6.5: lean **OVER** (51%)
+Model likes: **Miami Marlins** to win (53%) | Run line: **San Diego Padres** +1.5 (65% to cover) | Total 6.5: lean **OVER** (51%)
 
 ### Miami Marlins lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -999,7 +999,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-21 - Washington Nationals @ Detroit Tigers (Scheduled)
 _Comerica Park [pitcher-friendly park]_
 Projected score: Washington Nationals 4.11 - Detroit Tigers 4.6
-Model likes: **Detroit Tigers** to win (54%) | Run line: **Washington Nationals** +1.5 (61% to cover) | Total 8.5: lean **UNDER** (54%)
+Model likes: **Detroit Tigers** to win (54%) | Run line: **Washington Nationals** +1.5 (61% to cover) | Total 8.5: lean **UNDER** (53%)
 
 ### Washington Nationals lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
