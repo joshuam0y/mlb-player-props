@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-09-19T00:23:59.251840+00:00_
+_Generated 2026-09-19T01:17:27.518183+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -55,7 +55,7 @@ _Generated 2026-09-19T00:23:59.251840+00:00_
 ## 2026-09-18 - Kansas City Royals @ Pittsburgh Pirates (In Progress)
 _PNC Park_
 Projected score: Kansas City Royals 3.61 - Pittsburgh Pirates 3.67
-Model likes: **Pittsburgh Pirates** to win (51%) | Run line: **Kansas City Royals** +1.5 (66% to cover) | Total 6.5: lean **OVER** (53%)
+Model likes: **Pittsburgh Pirates** to win (50%) | Run line: **Kansas City Royals** +1.5 (66% to cover) | Total 6.5: lean **OVER** (53%)
 
 ### Kansas City Royals lineup -- CONFIRMED
 _Facing a taxed bullpen: 11.0 relief IP in last 2 days (ratio 1.69)_
@@ -389,10 +389,10 @@ _Facing a taxed bullpen: 8.7 relief IP in last 2 days (ratio 1.32)_
 - #8 Masyn Winn (R) -- L7: 4H 0HR 3RBI 5TB (0.200 avg) -- home split: 0.250 avg
 - #9 Nathan Church (L) [likely BABIP-driven, not a real power uptick] -- L7: 9H 0HR 1RBI 11TB (0.391 avg) -- home split: 0.247 avg
 
-## 2026-09-18 - Minnesota Twins @ Los Angeles Angels (Pre-Game)
+## 2026-09-18 - Minnesota Twins @ Los Angeles Angels (Warmup)
 _Angel Stadium_
 Projected score: Minnesota Twins 5.34 - Los Angeles Angels 4.5
-Model likes: **Minnesota Twins** to win (56%) | Run line: **Los Angeles Angels** +1.5 (57% to cover) | Total 9.5: lean **UNDER** (52%)
+Model likes: **Minnesota Twins** to win (57%) | Run line: **Los Angeles Angels** +1.5 (57% to cover) | Total 9.5: lean **UNDER** (53%)
 
 ### Minnesota Twins lineup -- CONFIRMED
 _Facing a taxed bullpen: 7.7 relief IP in last 2 days (ratio 1.33)_
@@ -507,6 +507,37 @@ _Facing a taxed bullpen: 13.0 relief IP in last 2 days (ratio 2.28)_
 - #7 Enrique Hernández (R) -- L7: 5H 1HR 5RBI 9TB (0.294 avg) -- home split: 0.225 avg
 - #8 Alex Call (R) -- L7: 0H 0HR 0RBI 0TB (0.000 avg) -- home split: 0.212 avg
 - #9 Josue De Paula (L) -- L7: 3H 1HR 4RBI 7TB (0.167 avg)
+
+## 2026-09-19 - Detroit Tigers @ Chicago White Sox (Scheduled)
+_Rate Field_
+Projected score: Detroit Tigers 3.58 - Chicago White Sox 3.86
+Model likes: **Chicago White Sox** to win (53%) | Run line: **Detroit Tigers** +1.5 (64% to cover) | Total 6.5: lean **OVER** (54%)
+
+### Detroit Tigers lineup -- PROJECTED (unconfirmed)
+_Facing a rested bullpen: 4.3 relief IP in last 2 days (ratio 0.56)_
+**Probable P: Jackson Jobe (R)** -- L5: 26.0 IP, 26 K, 9 ER, 3.12 ERA
+- Kevin McGonigle (L) [likely BABIP-driven, not a real power uptick] -- L7: 9H 1HR 3RBI 14TB (0.375 avg) -- away split: 0.291 avg
+- Max Clark (L) [likely BABIP-driven, not a real power uptick] -- L7: 9H 0HR 5RBI 12TB (0.375 avg) -- away split: 0.289 avg -- news: Mayo: Don't judge a book by its cover -- especially Max Clark
+- Riley Greene (L) -- L7: 9H 1HR 6RBI 12TB (0.346 avg) -- away split: 0.279 avg
+- Spencer Torkelson (R) -- L7: 8H 2HR 6RBI 16TB (0.381 avg) -- away split: 0.236 avg
+- John Peck (R) -- L7: 4H 0HR 3RBI 4TB (0.200 avg) -- away split: 0.200 avg
+- Hao-Yu Lee (R) -- L7: 5H 1HR 5RBI 12TB (0.217 avg) -- away split: 0.274 avg -- news: Hao-Yu Lee sets single-season record for hits by a player born in Taiwan
+- Ben Malgeri (R) -- L7: 1H 0HR 1RBI 1TB (0.125 avg) -- away split: 0.264 avg
+- Colt Keith (L) -- L7: 5H 1HR 3RBI 11TB (0.357 avg) -- away split: 0.280 avg
+- Gleyber Torres (R) -- L7: 4H 0HR 2RBI 5TB (0.182 avg) -- away split: 0.247 avg
+
+### Chicago White Sox lineup -- PROJECTED (unconfirmed)
+_Facing a rested bullpen: 3.3 relief IP in last 2 days (ratio 0.59)_
+**Probable P: Sean Burke (R)** -- L5: 21.0 IP, 19 K, 13 ER, 5.57 ERA
+- Miguel Vargas (R) -- L7: 7H 1HR 6RBI 11TB (0.280 avg) -- home split: 0.255 avg
+- Tristan Peters (L) -- L7: 2H 0HR 1RBI 3TB (0.118 avg) -- home split: 0.286 avg
+- Munetaka Murakami (L) -- L7: 3H 1HR 5RBI 8TB (0.150 avg) -- home split: 0.200 avg
+- Chase Meidroth (R) [4-game hit streak] -- L7: 9H 2HR 5RBI 17TB (0.333 avg) -- home split: 0.267 avg
+- Colson Montgomery (L) -- L7: 1H 0HR 4RBI 2TB (0.062 avg) -- home split: 0.198 avg -- news: Colson Montgomery exits after being hit on wrist; X-rays negative
+- Sam Antonacci (L) [likely BABIP-driven, not a real power uptick] -- L7: 7H 0HR 1RBI 9TB (0.350 avg) -- home split: 0.295 avg
+- Braden Montgomery (S) -- L7: 0H 0HR 0RBI 0TB (0.000 avg) -- home split: 0.226 avg
+- Kyle Teel (L) -- L7: 3H 0HR 2RBI 4TB (0.214 avg) -- home split: 0.200 avg
+- Randal Grichuk (R) -- L7: 8H 1HR 3RBI 14TB (0.333 avg) -- home split: 0.298 avg
 
 ## 2026-09-19 - Milwaukee Brewers @ Baltimore Orioles (Scheduled)
 _Oriole Park at Camden Yards_
@@ -631,7 +662,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-19 - Kansas City Royals @ Pittsburgh Pirates (Scheduled)
 _PNC Park_
 Projected score: Kansas City Royals 3.83 - Pittsburgh Pirates 4.08
-Model likes: **Pittsburgh Pirates** to win (52%) | Run line: **Kansas City Royals** +1.5 (64% to cover) | Total 7.5: lean **UNDER** (52%)
+Model likes: **Pittsburgh Pirates** to win (52%) | Run line: **Kansas City Royals** +1.5 (64% to cover) | Total 7.5: lean **UNDER** (51%)
 
 ### Kansas City Royals lineup -- PROJECTED (unconfirmed)
 **Probable P: Noah Cameron (L)** -- L5: 28.0 IP, 23 K, 7 ER, 2.25 ERA
@@ -722,7 +753,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-19 - Atlanta Braves @ Houston Astros (Scheduled)
 _Daikin Park_
 Projected score: Atlanta Braves 3.77 - Houston Astros 3.02
-Model likes: **Atlanta Braves** to win (58%) | Run line: **Houston Astros** +1.5 (61% to cover) | Total 6.5: lean **UNDER** (52%)
+Model likes: **Atlanta Braves** to win (58%) | Run line: **Houston Astros** +1.5 (60% to cover) | Total 6.5: lean **UNDER** (52%)
 
 ### Atlanta Braves lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 8.3 relief IP in last 2 days (ratio 1.39)_
@@ -749,37 +780,6 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 - Yainer Diaz (R) [likely BABIP-driven, not a real power uptick] -- L7: 8H 1HR 3RBI 11TB (0.364 avg) -- home split: 0.241 avg
 - Yordan Alvarez (L) -- L7: 6H 2HR 4RBI 14TB (0.316 avg) -- home split: 0.364 avg
 - Taylor Trammell (L) -- L7: 4H 1HR 2RBI 8TB (0.211 avg) -- home split: 0.193 avg
-
-## 2026-09-19 - Detroit Tigers @ Chicago White Sox (Scheduled)
-_Rate Field_
-Projected score: Detroit Tigers 3.58 - Chicago White Sox 3.86
-Model likes: **Chicago White Sox** to win (53%) | Run line: **Detroit Tigers** +1.5 (64% to cover) | Total 6.5: lean **OVER** (54%)
-
-### Detroit Tigers lineup -- PROJECTED (unconfirmed)
-_Facing a rested bullpen: 4.3 relief IP in last 2 days (ratio 0.56)_
-**Probable P: Jackson Jobe (R)** -- L5: 26.0 IP, 26 K, 9 ER, 3.12 ERA
-- Kevin McGonigle (L) [likely BABIP-driven, not a real power uptick] -- L7: 9H 1HR 3RBI 14TB (0.375 avg) -- away split: 0.291 avg
-- Max Clark (L) [likely BABIP-driven, not a real power uptick] -- L7: 9H 0HR 5RBI 12TB (0.375 avg) -- away split: 0.289 avg -- news: Mayo: Don't judge a book by its cover -- especially Max Clark
-- Riley Greene (L) -- L7: 9H 1HR 6RBI 12TB (0.346 avg) -- away split: 0.279 avg
-- Spencer Torkelson (R) -- L7: 8H 2HR 6RBI 16TB (0.381 avg) -- away split: 0.236 avg
-- John Peck (R) -- L7: 4H 0HR 3RBI 4TB (0.200 avg) -- away split: 0.200 avg
-- Hao-Yu Lee (R) -- L7: 5H 1HR 5RBI 12TB (0.217 avg) -- away split: 0.274 avg -- news: Hao-Yu Lee sets single-season record for hits by a player born in Taiwan
-- Ben Malgeri (R) -- L7: 1H 0HR 1RBI 1TB (0.125 avg) -- away split: 0.264 avg
-- Colt Keith (L) -- L7: 5H 1HR 3RBI 11TB (0.357 avg) -- away split: 0.280 avg
-- Gleyber Torres (R) -- L7: 4H 0HR 2RBI 5TB (0.182 avg) -- away split: 0.247 avg
-
-### Chicago White Sox lineup -- PROJECTED (unconfirmed)
-_Facing a rested bullpen: 3.3 relief IP in last 2 days (ratio 0.59)_
-**Probable P: Sean Burke (R)** -- L5: 21.0 IP, 19 K, 13 ER, 5.57 ERA
-- Miguel Vargas (R) -- L7: 7H 1HR 6RBI 11TB (0.280 avg) -- home split: 0.255 avg
-- Tristan Peters (L) -- L7: 2H 0HR 1RBI 3TB (0.118 avg) -- home split: 0.286 avg
-- Munetaka Murakami (L) -- L7: 3H 1HR 5RBI 8TB (0.150 avg) -- home split: 0.200 avg
-- Chase Meidroth (R) [4-game hit streak] -- L7: 9H 2HR 5RBI 17TB (0.333 avg) -- home split: 0.267 avg
-- Colson Montgomery (L) -- L7: 1H 0HR 4RBI 2TB (0.062 avg) -- home split: 0.198 avg -- news: Colson Montgomery exits after being hit on wrist; X-rays negative
-- Sam Antonacci (L) [likely BABIP-driven, not a real power uptick] -- L7: 7H 0HR 1RBI 9TB (0.350 avg) -- home split: 0.295 avg
-- Braden Montgomery (S) -- L7: 0H 0HR 0RBI 0TB (0.000 avg) -- home split: 0.226 avg
-- Kyle Teel (L) -- L7: 3H 0HR 2RBI 4TB (0.214 avg) -- home split: 0.200 avg
-- Randal Grichuk (R) -- L7: 8H 1HR 3RBI 14TB (0.333 avg) -- home split: 0.298 avg
 
 ## 2026-09-19 - Washington Nationals @ St. Louis Cardinals (Scheduled)
 _Busch Stadium_
@@ -935,7 +935,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-19 - Minnesota Twins @ Los Angeles Angels (Scheduled)
 _Angel Stadium_
 Projected score: Minnesota Twins 3.66 - Los Angeles Angels 3.61
-Model likes: **Minnesota Twins** to win (50%) | Run line: **Los Angeles Angels** +1.5 (67% to cover) | Total 6.5: lean **OVER** (53%)
+Model likes: **Minnesota Twins** to win (50%) | Run line: **Los Angeles Angels** +1.5 (66% to cover) | Total 6.5: lean **OVER** (53%)
 
 ### Minnesota Twins lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.52)_
@@ -966,7 +966,7 @@ _Facing a rested bullpen: 2.3 relief IP in last 2 days (ratio 0.48)_
 ## 2026-09-20 - Philadelphia Phillies @ New York Mets (Scheduled)
 _Citi Field_
 Projected score: Philadelphia Phillies 3.53 - New York Mets 3.19
-Model likes: **Philadelphia Phillies** to win (54%) | Run line: **New York Mets** +1.5 (65% to cover) | Total 6.5: lean **UNDER** (53%)
+Model likes: **Philadelphia Phillies** to win (53%) | Run line: **New York Mets** +1.5 (65% to cover) | Total 6.5: lean **UNDER** (53%)
 
 ### Philadelphia Phillies lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -997,7 +997,7 @@ _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.37)_
 ## 2026-09-20 - Kansas City Royals @ Pittsburgh Pirates (Scheduled)
 _PNC Park_
 Projected score: Kansas City Royals 3.74 - Pittsburgh Pirates 4.13
-Model likes: **Pittsburgh Pirates** to win (54%) | Run line: **Kansas City Royals** +1.5 (62% to cover) | Total 7.5: lean **UNDER** (52%)
+Model likes: **Pittsburgh Pirates** to win (54%) | Run line: **Kansas City Royals** +1.5 (63% to cover) | Total 7.5: lean **UNDER** (52%)
 
 ### Kansas City Royals lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1180,7 +1180,7 @@ _Facing a rested bullpen: 0.3 relief IP in last 2 days (ratio 0.06)_
 ## 2026-09-20 - Washington Nationals @ St. Louis Cardinals (Scheduled)
 _Busch Stadium_
 Projected score: Washington Nationals 4.07 - St. Louis Cardinals 5.21
-Model likes: **St. Louis Cardinals** to win (59%) | Run line: **Washington Nationals** +1.5 (55% to cover) | Total 8.5: lean **OVER** (51%)
+Model likes: **St. Louis Cardinals** to win (59%) | Run line: **Washington Nationals** +1.5 (55% to cover) | Total 8.5: lean **OVER** (52%)
 
 ### Washington Nationals lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
