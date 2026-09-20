@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-09-20T01:12:02.644941+00:00_
+_Generated 2026-09-20T01:26:15.302370+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -231,10 +231,9 @@ _Facing a taxed bullpen: 7.3 relief IP in last 2 days (ratio 1.34)_
 - #8 Ronny Simon (S) [4-game hit streak] -- L7: 6H 0HR 0RBI 8TB (0.300 avg) -- home split: 0.344 avg
 - #9 Jake Mangum (S) -- L7: 6H 0HR 0RBI 8TB (0.222 avg) -- home split: 0.309 avg
 
-## 2026-09-19 - Chicago Cubs @ Cincinnati Reds (In Progress)
+## 2026-09-19 - Chicago Cubs @ Cincinnati Reds (Game Over)
 _Great American Ball Park [hitter-friendly park]_
-Projected score: Chicago Cubs 6.55 - Cincinnati Reds 3.93
-Model likes: **Chicago Cubs** to win (69%) | Run line: **Chicago Cubs** -1.5 (56% to cover) | Total 9.5: lean **OVER** (52%)
+Final: Chicago Cubs 5 - Cincinnati Reds 2
 
 ### Chicago Cubs lineup -- CONFIRMED
 _Facing a taxed bullpen: 8.7 relief IP in last 2 days (ratio 1.46)_
@@ -295,7 +294,7 @@ _Facing a taxed bullpen: 12.7 relief IP in last 2 days (ratio 2.35)_
 ## 2026-09-19 - Atlanta Braves @ Houston Astros (In Progress)
 _Daikin Park_
 Projected score: Atlanta Braves 4.04 - Houston Astros 3.02
-Model likes: **Atlanta Braves** to win (60%) | Run line: **Houston Astros** +1.5 (58% to cover) | Total 6.5: lean **OVER** (51%)
+Model likes: **Atlanta Braves** to win (60%) | Run line: **Houston Astros** +1.5 (58% to cover) | Total 6.5: lean **OVER** (50%)
 
 ### Atlanta Braves lineup -- CONFIRMED
 _Facing a taxed bullpen: 12.0 relief IP in last 2 days (ratio 1.98)_
@@ -356,7 +355,7 @@ _Facing a rested bullpen: 4.0 relief IP in last 2 days (ratio 0.61)_
 ## 2026-09-19 - Seattle Mariners @ Colorado Rockies (In Progress)
 _Coors Field [hitter-friendly park]_
 Projected score: Seattle Mariners 6.73 - Colorado Rockies 4.43
-Model likes: **Seattle Mariners** to win (66%) | Run line: **Seattle Mariners** -1.5 (54% to cover) | Total 10.5: lean **UNDER** (51%)
+Model likes: **Seattle Mariners** to win (66%) | Run line: **Seattle Mariners** -1.5 (54% to cover) | Total 10.5: lean **UNDER** (50%)
 
 ### Seattle Mariners lineup -- CONFIRMED
 _Facing a taxed bullpen: 10.3 relief IP in last 2 days (ratio 1.64)_
@@ -475,10 +474,10 @@ _Facing a rested bullpen: 3.3 relief IP in last 2 days (ratio 0.61)_
 - #8 Tommy Edman (S) -- L7: 1H 0HR 1RBI 1TB (0.045 avg) -- home split: 0.250 avg
 - #9 Alex Freeland (S) -- L7: 6H 1HR 1RBI 10TB (0.333 avg) -- home split: 0.193 avg
 
-## 2026-09-19 - Minnesota Twins @ Los Angeles Angels (Pre-Game)
+## 2026-09-19 - Minnesota Twins @ Los Angeles Angels (Warmup)
 _Angel Stadium_
 Projected score: Minnesota Twins 3.44 - Los Angeles Angels 3.41
-Model likes: **Minnesota Twins** to win (50%) | Run line: **Los Angeles Angels** +1.5 (67% to cover) | Total 6.5: lean **UNDER** (52%)
+Model likes: **Minnesota Twins** to win (50%) | Run line: **Los Angeles Angels** +1.5 (68% to cover) | Total 6.5: lean **UNDER** (52%)
 
 ### Minnesota Twins lineup -- CONFIRMED
 **Probable P: Joe Ryan (R)** -- L5: 23.3 IP, 18 K, 22 ER, 8.49 ERA
@@ -537,7 +536,7 @@ _Facing a taxed bullpen: 9.7 relief IP in last 2 days (ratio 1.78)_
 ## 2026-09-20 - Kansas City Royals @ Pittsburgh Pirates (Scheduled)
 _PNC Park_
 Projected score: Kansas City Royals 3.92 - Pittsburgh Pirates 4.28
-Model likes: **Pittsburgh Pirates** to win (53%) | Run line: **Kansas City Royals** +1.5 (63% to cover) | Total 7.5: lean **OVER** (51%)
+Model likes: **Pittsburgh Pirates** to win (53%) | Run line: **Kansas City Royals** +1.5 (62% to cover) | Total 7.5: lean **OVER** (51%)
 
 ### Kansas City Royals lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.3 relief IP in last 2 days (ratio 0.52)_
@@ -866,7 +865,7 @@ _Facing a rested bullpen: 4.0 relief IP in last 2 days (ratio 0.59)_
 ## 2026-09-20 - San Francisco Giants @ Los Angeles Dodgers (Scheduled)
 _UNIQLO Field at Dodger Stadium_
 Projected score: San Francisco Giants 3.91 - Los Angeles Dodgers 5.6
-Model likes: **Los Angeles Dodgers** to win (63%) | Run line: **San Francisco Giants** +1.5 (51% to cover) | Total 8.5: lean **OVER** (53%)
+Model likes: **Los Angeles Dodgers** to win (63%) | Run line: **San Francisco Giants** +1.5 (50% to cover) | Total 8.5: lean **OVER** (53%)
 
 ### San Francisco Giants lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.53)_
@@ -895,7 +894,7 @@ _Facing a rested bullpen: 3.3 relief IP in last 2 days (ratio 0.61)_
 ## 2026-09-20 - New York Yankees @ Arizona Diamondbacks (Scheduled)
 _Chase Field [hitter-friendly park]_
 Projected score: New York Yankees 4.75 - Arizona Diamondbacks 3.26
-Model likes: **New York Yankees** to win (64%) | Run line: **Arizona Diamondbacks** +1.5 (52% to cover) | Total 7.5: lean **UNDER** (51%)
+Model likes: **New York Yankees** to win (64%) | Run line: **Arizona Diamondbacks** +1.5 (53% to cover) | Total 7.5: lean **UNDER** (51%)
 
 ### New York Yankees lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.7 relief IP in last 2 days (ratio 0.62)_
@@ -986,7 +985,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-21 - Washington Nationals @ Detroit Tigers (Scheduled)
 _Comerica Park [pitcher-friendly park]_
 Projected score: Washington Nationals 4.11 - Detroit Tigers 4.6
-Model likes: **Detroit Tigers** to win (54%) | Run line: **Washington Nationals** +1.5 (61% to cover) | Total 8.5: lean **UNDER** (53%)
+Model likes: **Detroit Tigers** to win (54%) | Run line: **Washington Nationals** +1.5 (61% to cover) | Total 8.5: lean **UNDER** (54%)
 
 ### Washington Nationals lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 1.0 relief IP in last 2 days (ratio 0.18)_
