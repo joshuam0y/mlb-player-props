@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-09-21T00:16:31.218214+00:00_
+_Generated 2026-09-21T00:52:42.431733+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -466,7 +466,7 @@ _Facing a taxed bullpen: 8.3 relief IP in last 2 days (ratio 1.4)_
 ## 2026-09-20 - Milwaukee Brewers @ Baltimore Orioles (In Progress)
 _Oriole Park at Camden Yards_
 Projected score: Milwaukee Brewers 4.28 - Baltimore Orioles 2.56
-Model likes: **Milwaukee Brewers** to win (67%) | Run line: **Baltimore Orioles** +1.5 (50% to cover) | Total 6.5: lean **UNDER** (52%)
+Model likes: **Milwaukee Brewers** to win (67%) | Run line: **Baltimore Orioles** +1.5 (51% to cover) | Total 6.5: lean **UNDER** (52%)
 
 ### Milwaukee Brewers lineup -- CONFIRMED
 _Facing a taxed bullpen: 7.3 relief IP in last 2 days (ratio 1.36)_
@@ -583,36 +583,36 @@ _Facing a taxed bullpen: 8.7 relief IP in last 2 days (ratio 1.78)_
 - Grant McCray (L) [MATCHUP EDGE: pitcher hits 0.262 avg-against vs this hand] -- L7: 2H 0HR 1RBI 3TB (0.154 avg) -- home split: 0.154 avg
 - Osleivis Basabe (R) -- L7: 2H 0HR 1RBI 3TB (0.143 avg) -- home split: 0.200 avg
 
-## 2026-09-22 - Tampa Bay Rays @ New York Yankees (Postponed)
+## 2026-09-22 - Tampa Bay Rays @ New York Yankees (Scheduled)
 _Yankee Stadium [hitter-friendly park]_
-Projected score: Tampa Bay Rays 3.69 - New York Yankees 3.66
-Model likes: **Tampa Bay Rays** to win (50%) | Run line: **New York Yankees** +1.5 (67% to cover) | Total 6.5: lean **OVER** (54%)
+Projected score: Tampa Bay Rays 3.26 - New York Yankees 3.81
+Model likes: **New York Yankees** to win (56%) | Run line: **Tampa Bay Rays** +1.5 (62% to cover) | Total 6.5: lean **OVER** (51%)
 
 ### Tampa Bay Rays lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
-**Probable P: Drew Rasmussen (R)** -- L5: 31.0 IP, 25 K, 5 ER, 1.45 ERA
-- Chandler Simpson (L) -- L7: 11H 0HR 7RBI 13TB (0.379 avg) -- away split: 0.315 avg
+**Probable P: Nick Martinez (R)** -- L5: 29.7 IP, 18 K, 8 ER, 2.43 ERA
+- Chandler Simpson (L) [TOUGH MATCHUP: pitcher holds this hand to 0.197 avg-against] -- L7: 11H 0HR 7RBI 13TB (0.379 avg) -- away split: 0.315 avg
 - Junior Caminero (R) [3-game hit streak] -- L7: 6H 1HR 2RBI 12TB (0.231 avg) -- away split: 0.272 avg
 - Yandy Díaz (R) -- L7: 2H 0HR 1RBI 2TB (0.071 avg) -- away split: 0.266 avg
-- Liam Hicks (L) -- L7: 5H 0HR 2RBI 6TB (0.294 avg) -- away split: 0.287 avg
-- Victor Mesa Jr. (L) -- L7: 6H 1HR 3RBI 12TB (0.261 avg) -- away split: 0.261 avg
-- Richie Palacios (L) -- L7: 5H 1HR 8RBI 9TB (0.312 avg) -- away split: 0.228 avg -- news: Richie Palacios’ Players' Weekend cleats came straight from ... Lisa Simpson?
-- Jonathan Aranda (L) [7-game hit streak] -- L7: 8H 3HR 6RBI 20TB (0.286 avg) -- away split: 0.270 avg
+- Liam Hicks (L) [TOUGH MATCHUP: pitcher holds this hand to 0.197 avg-against] -- L7: 5H 0HR 2RBI 6TB (0.294 avg) -- away split: 0.287 avg
+- Victor Mesa Jr. (L) [TOUGH MATCHUP: pitcher holds this hand to 0.197 avg-against] -- L7: 6H 1HR 3RBI 12TB (0.261 avg) -- away split: 0.261 avg
+- Richie Palacios (L) [TOUGH MATCHUP: pitcher holds this hand to 0.197 avg-against] -- L7: 5H 1HR 8RBI 9TB (0.312 avg) -- away split: 0.228 avg -- news: Richie Palacios’ Players' Weekend cleats came straight from ... Lisa Simpson?
+- Jonathan Aranda (L) [TOUGH MATCHUP: pitcher holds this hand to 0.197 avg-against] [7-game hit streak] -- L7: 8H 3HR 6RBI 20TB (0.286 avg) -- away split: 0.270 avg
 - Jonny DeLuca (R) -- L7: 4H 0HR 3RBI 6TB (0.190 avg) -- away split: 0.324 avg
 - Jorge Mateo (R) -- L7: 2H 0HR 0RBI 2TB (0.118 avg) -- away split: 0.220 avg
 
 ### New York Yankees lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 4.0 relief IP in last 2 days (ratio 0.64)_
-**Probable P: Ryan Weathers (L)** [INJURY: IL] -- L5: 29.3 IP, 21 K, 4 ER, 1.23 ERA
-- George Lombard Jr. (R) [TOUGH MATCHUP: pitcher holds this hand to 0.191 avg-against] -- L7: 7H 2HR 6RBI 14TB (0.259 avg) -- home split: 0.208 avg
+**Probable P: Carlos Rodón (L)** -- L5: 26.0 IP, 27 K, 7 ER, 2.42 ERA
+- George Lombard Jr. (R) -- L7: 7H 2HR 6RBI 14TB (0.259 avg) -- home split: 0.208 avg
 - Ben Rice (L) -- L7: 7H 2HR 6RBI 15TB (0.304 avg) -- home split: 0.248 avg
 - Spencer Jones (L) -- L7: 5H 2HR 5RBI 11TB (0.179 avg) -- home split: 0.270 avg -- news: Bellinger lands on IL with hamstring strain; Spencer Jones recalled
 - Cody Bellinger (L) -- L7: 9H 2HR 4RBI 15TB (0.300 avg) -- home split: 0.314 avg
 - Luis García Jr. (L) -- L7: 5H 0HR 0RBI 5TB (0.185 avg) -- home split: 0.287 avg
 - Austin Wells (L) -- L7: 5H 3HR 3RBI 14TB (0.238 avg) -- home split: 0.197 avg
-- José Caballero (R) [TOUGH MATCHUP: pitcher holds this hand to 0.191 avg-against] -- L7: 5H 1HR 4RBI 8TB (0.333 avg) -- home split: 0.218 avg
+- José Caballero (R) -- L7: 5H 1HR 4RBI 8TB (0.333 avg) -- home split: 0.218 avg
 - Ryan McMahon (L) -- L7: 3H 0HR 2RBI 3TB (0.136 avg) -- home split: 0.242 avg
-- Anthony Volpe (R) [TOUGH MATCHUP: pitcher holds this hand to 0.191 avg-against] -- L7: 5H 0HR 2RBI 7TB (0.227 avg) -- home split: 0.250 avg
+- Anthony Volpe (R) -- L7: 5H 0HR 2RBI 7TB (0.227 avg) -- home split: 0.250 avg
 
 ## 2026-09-22 - Toronto Blue Jays @ Baltimore Orioles (Scheduled)
 _Oriole Park at Camden Yards_
@@ -648,7 +648,7 @@ _Facing a rested bullpen: 4.0 relief IP in last 2 days (ratio 0.58)_
 ## 2026-09-22 - St. Louis Cardinals @ Pittsburgh Pirates (Scheduled)
 _PNC Park_
 Projected score: St. Louis Cardinals 4.64 - Pittsburgh Pirates 4.72
-Model likes: **Pittsburgh Pirates** to win (51%) | Run line: **St. Louis Cardinals** +1.5 (63% to cover) | Total 8.5: lean **OVER** (52%)
+Model likes: **Pittsburgh Pirates** to win (51%) | Run line: **St. Louis Cardinals** +1.5 (64% to cover) | Total 8.5: lean **OVER** (52%)
 
 ### St. Louis Cardinals lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 8.0 relief IP in last 2 days (ratio 1.22)_
@@ -953,7 +953,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.5)_
 ## 2026-09-22 - Houston Astros @ Seattle Mariners (Scheduled)
 _T-Mobile Park [pitcher-friendly park]_
 Projected score: Houston Astros 3.66 - Seattle Mariners 3.99
-Model likes: **Seattle Mariners** to win (53%) | Run line: **Houston Astros** +1.5 (64% to cover) | Total 7.5: lean **UNDER** (54%)
+Model likes: **Seattle Mariners** to win (53%) | Run line: **Houston Astros** +1.5 (63% to cover) | Total 7.5: lean **UNDER** (54%)
 
 ### Houston Astros lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 1.0 relief IP in last 2 days (ratio 0.19)_
@@ -984,7 +984,7 @@ _Facing a rested bullpen: 4.0 relief IP in last 2 days (ratio 0.66)_
 ## 2026-09-22 - Los Angeles Angels @ Athletics (Scheduled)
 _Sutter Health Park_
 Projected score: Los Angeles Angels 5.14 - Athletics 4.81
-Model likes: **Los Angeles Angels** to win (53%) | Run line: **Athletics** +1.5 (61% to cover) | Total 9.5: lean **UNDER** (52%)
+Model likes: **Los Angeles Angels** to win (52%) | Run line: **Athletics** +1.5 (61% to cover) | Total 9.5: lean **UNDER** (52%)
 
 ### Los Angeles Angels lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
