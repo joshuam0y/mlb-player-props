@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-09-22T14:23:07.548779+00:00_
+_Generated 2026-09-22T15:01:33.542684+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -20,9 +20,9 @@ _Generated 2026-09-22T14:23:07.548779+00:00_
 - **Dylan Beavers** (Baltimore Orioles vs Toronto Blue Jays): favorable matchup vs. tonight's pitcher -- try Hits: 40% over 0.5 recently (vs. 10-game sample)
 
 ### Pitchers
+- **Carlos Rodón** (New York Yankees vs Tampa Bay Rays): 5 hitters in tonight's lineup are in a tough matchup against him, opposing lineup has struck out at an elevated rate over their last 2 games (31% vs their own 21% season rate) -- try Walks Allowed: 40% over 2.5 recently (vs. 5-game sample)
 - **Zack Wheeler** (Philadelphia Phillies vs Milwaukee Brewers): 4 hitters in tonight's lineup are in a tough matchup against him, opposing lineup has struck out at an elevated rate over their last 2 games (43% vs their own 25% season rate) -- try Walks Allowed: 40% over 2.5 recently (vs. 5-game sample)
 - **Max Fried** (New York Yankees vs Tampa Bay Rays): 5 hitters in tonight's lineup are in a tough matchup against him, opposing lineup has struck out at an elevated rate over their last 2 games (31% vs their own 21% season rate) -- try Outs Recorded: 40% over 15.5 recently (vs. 5-game sample)
-- **Carlos Rodón** (New York Yankees vs Tampa Bay Rays): 5 hitters in tonight's lineup are in a tough matchup against him, opposing lineup has struck out at an elevated rate over their last 2 games (31% vs their own 21% season rate) -- try Walks Allowed: 40% over 2.5 recently (vs. 5-game sample)
 - **Max Scherzer** (Toronto Blue Jays vs Baltimore Orioles): 4 hitters in tonight's lineup are in a tough matchup against him -- try Walks Allowed: 40% over 2.5 recently (vs. 5-game sample)
 - **Drew Rasmussen** (Tampa Bay Rays vs New York Yankees): 3 hitters in tonight's lineup are in a tough matchup against him -- try Outs Recorded: 80% over 17.5 recently (vs. 5-game sample)
 - **Brandon Williamson** (Cincinnati Reds vs Atlanta Braves): 4 hitters in tonight's lineup are in a tough matchup against him -- try Walks Allowed: 40% over 2.5 recently (vs. 5-game sample)
@@ -48,18 +48,18 @@ _Generated 2026-09-22T14:23:07.548779+00:00_
 - **Richie Palacios** (Tampa Bay Rays vs New York Yankees): tough matchup vs. tonight's pitcher -- try Total Bases: 70% under 1.5 recently (vs. 10-game sample)
 
 ### Pitchers
+- **Carlos Rodón** (New York Yankees vs Tampa Bay Rays): 5 hitters in tonight's lineup are in a tough matchup against him -- try Hits Allowed: 80% under 3.5 recently (vs. 5-game sample)
 - **Max Scherzer** (Toronto Blue Jays vs Baltimore Orioles): 4 hitters in tonight's lineup are in a tough matchup against him -- try Strikeouts: 60% under 3.5 recently (vs. 5-game sample)
 - **Zack Wheeler** (Philadelphia Phillies vs Milwaukee Brewers): 4 hitters in tonight's lineup are in a tough matchup against him -- try Strikeouts: 60% under 6.5 recently (vs. 5-game sample)
 - **Max Fried** (New York Yankees vs Tampa Bay Rays): 5 hitters in tonight's lineup are in a tough matchup against him -- try Runs Allowed: 100% under 1.5 recently (vs. 5-game sample)
 - **Drew Rasmussen** (Tampa Bay Rays vs New York Yankees): 3 hitters in tonight's lineup are in a tough matchup against him -- try Walks Allowed: 60% under 0.5 recently (vs. 5-game sample)
 - **Brandon Williamson** (Cincinnati Reds vs Atlanta Braves): 4 hitters in tonight's lineup are in a tough matchup against him -- try Outs Recorded: 60% under 12.5 recently (vs. 5-game sample)
 - **Anthony Molina** (San Francisco Giants vs Minnesota Twins): 4 hitters in tonight's lineup are in a tough matchup against him -- try Outs Recorded: 20% under 11.5 recently (vs. 5-game sample)
-- **Carlos Rodón** (New York Yankees vs Tampa Bay Rays): 5 hitters in tonight's lineup are in a tough matchup against him -- try Hits Allowed: 80% under 3.5 recently (vs. 5-game sample)
 
-## 2026-09-22 - Tampa Bay Rays @ New York Yankees (Scheduled)
+## 2026-09-22 - Tampa Bay Rays @ New York Yankees (Pre-Game)
 _Yankee Stadium [hitter-friendly park]_
-Projected score: Tampa Bay Rays 3.15 - New York Yankees 3.56
-Model likes: **New York Yankees** to win (54%) | Run line: **Tampa Bay Rays** +1.5 (64% to cover) | Total 6.5: lean **UNDER** (53%)
+Projected score: Tampa Bay Rays 3.15 - New York Yankees 3.48
+Model likes: **New York Yankees** to win (54%) | Run line: **Tampa Bay Rays** +1.5 (65% to cover) | Total 6.5: lean **UNDER** (54%)
 
 ### Tampa Bay Rays lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.7 relief IP in last 2 days (ratio 0.6)_
@@ -74,18 +74,18 @@ _Facing a rested bullpen: 3.7 relief IP in last 2 days (ratio 0.6)_
 - Jonny DeLuca (R) -- L7: 4H 0HR 3RBI 6TB (0.190 avg) -- away split: 0.324 avg
 - Jorge Mateo (R) -- L7: 2H 0HR 0RBI 2TB (0.118 avg) -- away split: 0.220 avg
 
-### New York Yankees lineup -- PROJECTED (unconfirmed)
+### New York Yankees lineup -- CONFIRMED
 _Facing a rested bullpen: 4.0 relief IP in last 2 days (ratio 0.64)_
 **Probable P: Carlos Rodón (L)** -- L5: 26.0 IP, 27 K, 7 ER, 2.42 ERA
-- George Lombard Jr. (R) -- L7: 8H 2HR 6RBI 15TB (0.276 avg) -- home split: 0.208 avg
-- Ben Rice (L) -- L7: 7H 2HR 6RBI 15TB (0.304 avg) -- home split: 0.248 avg
-- Spencer Jones (L) -- L7: 5H 2HR 5RBI 11TB (0.167 avg) -- home split: 0.270 avg -- news: Bellinger lands on IL with hamstring strain; Spencer Jones recalled
-- Austin Wells (L) [3-game hit streak] -- L7: 6H 3HR 3RBI 15TB (0.300 avg) -- home split: 0.197 avg
-- Cody Bellinger (L) -- L7: 9H 2HR 4RBI 15TB (0.300 avg) -- home split: 0.314 avg
-- Luis García Jr. (L) -- L7: 5H 0HR 0RBI 5TB (0.179 avg) -- home split: 0.287 avg
-- José Caballero (R) -- L7: 5H 1HR 4RBI 8TB (0.294 avg) -- home split: 0.218 avg
-- Ryan McMahon (L) -- L7: 3H 0HR 2RBI 3TB (0.136 avg) -- home split: 0.242 avg
-- Anthony Volpe (R) -- L7: 5H 0HR 2RBI 7TB (0.227 avg) -- home split: 0.250 avg
+- #1 Ben Rice (L) -- L7: 7H 2HR 6RBI 15TB (0.304 avg) -- home split: 0.248 avg
+- #2 Cody Bellinger (L) -- L7: 9H 2HR 4RBI 15TB (0.300 avg) -- home split: 0.314 avg
+- #3 Heliot Ramos (R) -- L7: 5H 2HR 3RBI 12TB (0.217 avg) -- home split: 0.258 avg
+- #4 Luis García Jr. (L) -- L7: 5H 0HR 0RBI 5TB (0.179 avg) -- home split: 0.287 avg
+- #5 George Lombard Jr. (R) -- L7: 8H 2HR 6RBI 15TB (0.276 avg) -- home split: 0.208 avg
+- #6 Spencer Jones (L) -- L7: 5H 2HR 5RBI 11TB (0.167 avg) -- home split: 0.270 avg -- news: Bellinger lands on IL with hamstring strain; Spencer Jones recalled
+- #7 Anthony Volpe (R) -- L7: 6H 0HR 2RBI 8TB (0.250 avg) -- home split: 0.250 avg
+- #8 Ali Sánchez (R) -- L7: 3H 0HR 1RBI 3TB (0.300 avg) -- home split: 0.194 avg
+- #9 José Caballero (R) -- L7: 5H 1HR 4RBI 8TB (0.294 avg) -- home split: 0.218 avg
 
 ## 2026-09-22 - Toronto Blue Jays @ Baltimore Orioles (Scheduled)
 _Oriole Park at Camden Yards_
@@ -151,7 +151,7 @@ _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.32)_
 ## 2026-09-22 - Milwaukee Brewers @ Philadelphia Phillies (Scheduled)
 _Citizens Bank Park [hitter-friendly park]_
 Projected score: Milwaukee Brewers 3.94 - Philadelphia Phillies 4.22
-Model likes: **Philadelphia Phillies** to win (52%) | Run line: **Milwaukee Brewers** +1.5 (63% to cover) | Total 7.5: lean **OVER** (51%)
+Model likes: **Philadelphia Phillies** to win (53%) | Run line: **Milwaukee Brewers** +1.5 (63% to cover) | Total 7.5: lean **OVER** (51%)
 
 ### Milwaukee Brewers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.7 relief IP in last 2 days (ratio 0.49)_
@@ -268,7 +268,7 @@ _Facing a rested bullpen: 4.0 relief IP in last 2 days (ratio 0.64)_
 - Luis García Jr. (L) -- L7: 5H 0HR 0RBI 5TB (0.179 avg) -- home split: 0.287 avg
 - José Caballero (R) [TOUGH MATCHUP: pitcher holds this hand to 0.191 avg-against] -- L7: 5H 1HR 4RBI 8TB (0.294 avg) -- home split: 0.218 avg
 - Ryan McMahon (L) -- L7: 3H 0HR 2RBI 3TB (0.136 avg) -- home split: 0.242 avg
-- Anthony Volpe (R) [TOUGH MATCHUP: pitcher holds this hand to 0.191 avg-against] -- L7: 5H 0HR 2RBI 7TB (0.227 avg) -- home split: 0.250 avg
+- Anthony Volpe (R) [TOUGH MATCHUP: pitcher holds this hand to 0.191 avg-against] -- L7: 6H 0HR 2RBI 8TB (0.250 avg) -- home split: 0.250 avg
 
 ## 2026-09-22 - Cincinnati Reds @ Atlanta Braves (Scheduled)
 _Truist Park_
@@ -332,8 +332,8 @@ _Facing a rested bullpen: 4.7 relief IP in last 2 days (ratio 0.6)_
 
 ## 2026-09-22 - Miami Marlins @ Chicago Cubs (Scheduled)
 _Wrigley Field_
-Projected score: Miami Marlins 4.71 - Chicago Cubs 4.87
-Model likes: **Chicago Cubs** to win (51%) | Run line: **Miami Marlins** +1.5 (63% to cover) | Total 8.5: lean **OVER** (54%)
+Projected score: Miami Marlins 3.54 - Chicago Cubs 4.87
+Model likes: **Chicago Cubs** to win (62%) | Run line: **Miami Marlins** +1.5 (54% to cover) | Total 7.5: lean **OVER** (53%)
 
 ### Miami Marlins lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.59)_
@@ -350,6 +350,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.59)_
 
 ### Chicago Cubs lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.36)_
+**Probable P: Shota Imanaga (L)** -- L5: 25.0 IP, 24 K, 11 ER, 3.96 ERA
 - Pete Crow-Armstrong (L) [MATCHUP EDGE: pitcher hits 0.293 avg-against vs this hand] -- L7: 10H 4HR 9RBI 26TB (0.303 avg) -- home split: 0.308 avg
 - Michael Busch (L) [MATCHUP EDGE: pitcher hits 0.293 avg-against vs this hand] -- L7: 6H 1HR 1RBI 9TB (0.273 avg) -- home split: 0.243 avg
 - Seiya Suzuki (R) [3-game hit streak] -- L7: 6H 1HR 4RBI 9TB (0.207 avg) -- home split: 0.277 avg
@@ -574,7 +575,7 @@ _Facing a rested bullpen: 4.0 relief IP in last 2 days (ratio 0.61)_
 ## 2026-09-23 - Minnesota Twins @ San Francisco Giants (Scheduled)
 _Oracle Park [pitcher-friendly park]_
 Projected score: Minnesota Twins 3.75 - San Francisco Giants 4.97
-Model likes: **San Francisco Giants** to win (60%) | Run line: **Minnesota Twins** +1.5 (55% to cover) | Total 8.5: lean **UNDER** (54%)
+Model likes: **San Francisco Giants** to win (60%) | Run line: **Minnesota Twins** +1.5 (55% to cover) | Total 8.5: lean **UNDER** (53%)
 
 ### Minnesota Twins lineup -- PROJECTED (unconfirmed)
 - Brooks Lee (S) [MATCHUP EDGE: pitcher hits 0.261 avg-against vs this hand] [6-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 10H 1HR 3RBI 14TB (0.385 avg) -- away split: 0.290 avg
@@ -717,7 +718,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 - Luis García Jr. (L) -- L7: 5H 0HR 0RBI 5TB (0.179 avg) -- home split: 0.287 avg
 - José Caballero (R) -- L7: 5H 1HR 4RBI 8TB (0.294 avg) -- home split: 0.218 avg
 - Ryan McMahon (L) -- L7: 3H 0HR 2RBI 3TB (0.136 avg) -- home split: 0.242 avg
-- Anthony Volpe (R) -- L7: 5H 0HR 2RBI 7TB (0.227 avg) -- home split: 0.250 avg
+- Anthony Volpe (R) -- L7: 6H 0HR 2RBI 8TB (0.250 avg) -- home split: 0.250 avg
 
 ## 2026-09-23 - Cleveland Guardians @ Boston Red Sox (Scheduled)
 _Fenway Park_
@@ -906,7 +907,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-23 - Los Angeles Angels @ Athletics (Scheduled)
 _Sutter Health Park_
 Projected score: Los Angeles Angels 4.89 - Athletics 3.18
-Model likes: **Los Angeles Angels** to win (65%) | Run line: **Athletics** +1.5 (51% to cover) | Total 7.5: lean **UNDER** (50%)
+Model likes: **Los Angeles Angels** to win (65%) | Run line: **Athletics** +1.5 (51% to cover) | Total 7.5: lean **OVER** (50%)
 
 ### Los Angeles Angels lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1148,7 +1149,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-24 - Milwaukee Brewers @ Philadelphia Phillies (Scheduled)
 _Citizens Bank Park [hitter-friendly park]_
 Projected score: Milwaukee Brewers 5.32 - Philadelphia Phillies 4.85
-Model likes: **Milwaukee Brewers** to win (53%) | Run line: **Philadelphia Phillies** +1.5 (60% to cover) | Total 9.5: lean **OVER** (50%)
+Model likes: **Milwaukee Brewers** to win (54%) | Run line: **Philadelphia Phillies** +1.5 (60% to cover) | Total 9.5: lean **OVER** (50%)
 
 ### Milwaukee Brewers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1177,7 +1178,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-24 - Cleveland Guardians @ Boston Red Sox (Scheduled)
 _Fenway Park_
 Projected score: Cleveland Guardians 2.98 - Boston Red Sox 3.83
-Model likes: **Boston Red Sox** to win (59%) | Run line: **Cleveland Guardians** +1.5 (59% to cover) | Total 6.5: lean **UNDER** (52%)
+Model likes: **Boston Red Sox** to win (59%) | Run line: **Cleveland Guardians** +1.5 (60% to cover) | Total 6.5: lean **UNDER** (52%)
 
 ### Cleveland Guardians lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1232,12 +1233,12 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 - Luis García Jr. (L) -- L7: 5H 0HR 0RBI 5TB (0.179 avg) -- home split: 0.287 avg
 - José Caballero (R) -- L7: 5H 1HR 4RBI 8TB (0.294 avg) -- home split: 0.218 avg
 - Ryan McMahon (L) -- L7: 3H 0HR 2RBI 3TB (0.136 avg) -- home split: 0.242 avg
-- Anthony Volpe (R) -- L7: 5H 0HR 2RBI 7TB (0.227 avg) -- home split: 0.250 avg
+- Anthony Volpe (R) -- L7: 6H 0HR 2RBI 8TB (0.250 avg) -- home split: 0.250 avg
 
 ## 2026-09-24 - Cincinnati Reds @ Atlanta Braves (Scheduled)
 _Truist Park_
 Projected score: Cincinnati Reds 3.27 - Atlanta Braves 5.33
-Model likes: **Atlanta Braves** to win (67%) | Run line: **Atlanta Braves** -1.5 (52% to cover) | Total 7.5: lean **OVER** (55%)
+Model likes: **Atlanta Braves** to win (68%) | Run line: **Atlanta Braves** -1.5 (52% to cover) | Total 7.5: lean **OVER** (55%)
 
 ### Cincinnati Reds lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
