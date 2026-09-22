@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-09-22T04:57:55.730189+00:00_
+_Generated 2026-09-22T05:10:09.224596+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -151,7 +151,7 @@ _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.32)_
 ## 2026-09-22 - Milwaukee Brewers @ Philadelphia Phillies (Scheduled)
 _Citizens Bank Park [hitter-friendly park]_
 Projected score: Milwaukee Brewers 3.94 - Philadelphia Phillies 4.22
-Model likes: **Philadelphia Phillies** to win (53%) | Run line: **Milwaukee Brewers** +1.5 (63% to cover) | Total 7.5: lean **OVER** (51%)
+Model likes: **Philadelphia Phillies** to win (52%) | Run line: **Milwaukee Brewers** +1.5 (63% to cover) | Total 7.5: lean **OVER** (51%)
 
 ### Milwaukee Brewers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.7 relief IP in last 2 days (ratio 0.49)_
@@ -543,7 +543,7 @@ _Facing a rested bullpen: 2.3 relief IP in last 2 days (ratio 0.34)_
 ## 2026-09-23 - Washington Nationals @ Detroit Tigers (Scheduled)
 _Comerica Park [pitcher-friendly park]_
 Projected score: Washington Nationals 4.24 - Detroit Tigers 4.86
-Model likes: **Detroit Tigers** to win (55%) | Run line: **Washington Nationals** +1.5 (59% to cover) | Total 8.5: lean **UNDER** (50%)
+Model likes: **Detroit Tigers** to win (55%) | Run line: **Washington Nationals** +1.5 (60% to cover) | Total 8.5: lean **UNDER** (50%)
 
 ### Washington Nationals lineup -- PROJECTED (unconfirmed)
 - Daylen Lile (L) -- L7: 8H 2HR 7RBI 17TB (0.308 avg) -- away split: 0.237 avg
@@ -692,7 +692,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-23 - Tampa Bay Rays @ New York Yankees (Scheduled)
 _Yankee Stadium [hitter-friendly park]_
 Projected score: Tampa Bay Rays 3.55 - New York Yankees 4.59
-Model likes: **New York Yankees** to win (60%) | Run line: **Tampa Bay Rays** +1.5 (56% to cover) | Total 7.5: lean **OVER** (51%)
+Model likes: **New York Yankees** to win (59%) | Run line: **Tampa Bay Rays** +1.5 (56% to cover) | Total 7.5: lean **OVER** (51%)
 
 ### Tampa Bay Rays lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -722,7 +722,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-23 - Cleveland Guardians @ Boston Red Sox (Scheduled)
 _Fenway Park_
 Projected score: Cleveland Guardians 2.56 - Boston Red Sox 3.19
-Model likes: **Boston Red Sox** to win (57%) | Run line: **Cleveland Guardians** +1.5 (63% to cover) | Total 5.5: lean **UNDER** (53%)
+Model likes: **Boston Red Sox** to win (57%) | Run line: **Cleveland Guardians** +1.5 (63% to cover) | Total 5.5: lean **UNDER** (52%)
 
 ### Cleveland Guardians lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -906,7 +906,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-23 - Los Angeles Angels @ Athletics (Scheduled)
 _Sutter Health Park_
 Projected score: Los Angeles Angels 4.89 - Athletics 3.18
-Model likes: **Los Angeles Angels** to win (65%) | Run line: **Athletics** +1.5 (51% to cover) | Total 7.5: lean **UNDER** (50%)
+Model likes: **Los Angeles Angels** to win (65%) | Run line: **Athletics** +1.5 (51% to cover) | Total 7.5: lean **OVER** (50%)
 
 ### Los Angeles Angels lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -967,7 +967,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-23 - San Diego Padres @ Los Angeles Dodgers (Scheduled)
 _UNIQLO Field at Dodger Stadium_
 Projected score: San Diego Padres 4.28 - Los Angeles Dodgers 3.72
-Model likes: **San Diego Padres** to win (55%) | Run line: **Los Angeles Dodgers** +1.5 (61% to cover) | Total 7.5: lean **UNDER** (51%)
+Model likes: **San Diego Padres** to win (55%) | Run line: **Los Angeles Dodgers** +1.5 (61% to cover) | Total 7.5: lean **UNDER** (50%)
 
 ### San Diego Padres lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1028,7 +1028,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-24 - Chicago White Sox @ Kansas City Royals (Scheduled)
 _Kauffman Stadium [pitcher-friendly park]_
 Projected score: Chicago White Sox 3.13 - Kansas City Royals 4.33
-Model likes: **Kansas City Royals** to win (62%) | Run line: **Chicago White Sox** +1.5 (56% to cover) | Total 6.5: lean **OVER** (54%)
+Model likes: **Kansas City Royals** to win (61%) | Run line: **Chicago White Sox** +1.5 (56% to cover) | Total 6.5: lean **OVER** (54%)
 
 ### Chicago White Sox lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1148,7 +1148,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-24 - Milwaukee Brewers @ Philadelphia Phillies (Scheduled)
 _Citizens Bank Park [hitter-friendly park]_
 Projected score: Milwaukee Brewers 5.32 - Philadelphia Phillies 4.85
-Model likes: **Milwaukee Brewers** to win (53%) | Run line: **Philadelphia Phillies** +1.5 (60% to cover) | Total 9.5: lean **OVER** (50%)
+Model likes: **Milwaukee Brewers** to win (54%) | Run line: **Philadelphia Phillies** +1.5 (60% to cover) | Total 9.5: lean **OVER** (50%)
 
 ### Milwaukee Brewers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1177,7 +1177,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-24 - Cleveland Guardians @ Boston Red Sox (Scheduled)
 _Fenway Park_
 Projected score: Cleveland Guardians 2.98 - Boston Red Sox 3.83
-Model likes: **Boston Red Sox** to win (59%) | Run line: **Cleveland Guardians** +1.5 (60% to cover) | Total 6.5: lean **UNDER** (52%)
+Model likes: **Boston Red Sox** to win (59%) | Run line: **Cleveland Guardians** +1.5 (59% to cover) | Total 6.5: lean **UNDER** (52%)
 
 ### Cleveland Guardians lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
