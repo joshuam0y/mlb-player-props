@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-09-22T10:04:19.860444+00:00_
+_Generated 2026-09-22T14:23:07.548779+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -20,9 +20,9 @@ _Generated 2026-09-22T10:04:19.860444+00:00_
 - **Dylan Beavers** (Baltimore Orioles vs Toronto Blue Jays): favorable matchup vs. tonight's pitcher -- try Hits: 40% over 0.5 recently (vs. 10-game sample)
 
 ### Pitchers
-- **Carlos Rodón** (New York Yankees vs Tampa Bay Rays): 5 hitters in tonight's lineup are in a tough matchup against him, opposing lineup has struck out at an elevated rate over their last 2 games (31% vs their own 21% season rate) -- try Walks Allowed: 40% over 2.5 recently (vs. 5-game sample)
 - **Zack Wheeler** (Philadelphia Phillies vs Milwaukee Brewers): 4 hitters in tonight's lineup are in a tough matchup against him, opposing lineup has struck out at an elevated rate over their last 2 games (43% vs their own 25% season rate) -- try Walks Allowed: 40% over 2.5 recently (vs. 5-game sample)
 - **Max Fried** (New York Yankees vs Tampa Bay Rays): 5 hitters in tonight's lineup are in a tough matchup against him, opposing lineup has struck out at an elevated rate over their last 2 games (31% vs their own 21% season rate) -- try Outs Recorded: 40% over 15.5 recently (vs. 5-game sample)
+- **Carlos Rodón** (New York Yankees vs Tampa Bay Rays): 5 hitters in tonight's lineup are in a tough matchup against him, opposing lineup has struck out at an elevated rate over their last 2 games (31% vs their own 21% season rate) -- try Walks Allowed: 40% over 2.5 recently (vs. 5-game sample)
 - **Max Scherzer** (Toronto Blue Jays vs Baltimore Orioles): 4 hitters in tonight's lineup are in a tough matchup against him -- try Walks Allowed: 40% over 2.5 recently (vs. 5-game sample)
 - **Drew Rasmussen** (Tampa Bay Rays vs New York Yankees): 3 hitters in tonight's lineup are in a tough matchup against him -- try Outs Recorded: 80% over 17.5 recently (vs. 5-game sample)
 - **Brandon Williamson** (Cincinnati Reds vs Atlanta Braves): 4 hitters in tonight's lineup are in a tough matchup against him -- try Walks Allowed: 40% over 2.5 recently (vs. 5-game sample)
@@ -31,11 +31,6 @@ _Generated 2026-09-22T10:04:19.860444+00:00_
 
 ## Today's Top Unders
 ### Batters
-- **Chandler Simpson** (Tampa Bay Rays vs New York Yankees): tough matchup vs. tonight's pitcher -- try Walks: 90% under 0.5 recently (vs. 10-game sample)
-- **Victor Mesa Jr.** (Tampa Bay Rays vs New York Yankees): tough matchup vs. tonight's pitcher -- try Walks: 50% under 0.5 recently (vs. 10-game sample)
-- **Liam Hicks** (Tampa Bay Rays vs New York Yankees): tough matchup vs. tonight's pitcher -- try Runs Scored: 80% under 0.5 recently (vs. 10-game sample)
-- **Richie Palacios** (Tampa Bay Rays vs New York Yankees): tough matchup vs. tonight's pitcher -- try Total Bases: 70% under 1.5 recently (vs. 10-game sample)
-- **Jonathan Aranda** (Tampa Bay Rays vs New York Yankees): tough matchup vs. tonight's pitcher -- try Hits: 90% under 1.5 recently (vs. 10-game sample)
 - **Coby Mayo** (Baltimore Orioles vs Toronto Blue Jays): tough matchup vs. tonight's pitcher -- try Walks: 50% under 0.5 recently (vs. 10-game sample)
 - **Christian Encarnacion-Strand** (Baltimore Orioles vs Toronto Blue Jays): tough matchup vs. tonight's pitcher -- try Walks: 80% under 0.5 recently (vs. 10-game sample)
 - **Pete Alonso** (Baltimore Orioles vs Toronto Blue Jays): tough matchup vs. tonight's pitcher -- try Total Bases: 40% under 2.5 recently (vs. 10-game sample)
@@ -46,15 +41,20 @@ _Generated 2026-09-22T10:04:19.860444+00:00_
 - **William Contreras** (Milwaukee Brewers vs Philadelphia Phillies): tough matchup vs. tonight's pitcher -- try Hits: 80% under 1.5 recently (vs. 10-game sample)
 - **George Lombard Jr.** (New York Yankees vs Tampa Bay Rays): tough matchup vs. tonight's pitcher -- try Walks: 80% under 0.5 recently (vs. 10-game sample)
 - **José Caballero** (New York Yankees vs Tampa Bay Rays): tough matchup vs. tonight's pitcher -- try Total Bases: 80% under 1.5 recently (vs. 10-game sample)
+- **Anthony Volpe** (New York Yankees vs Tampa Bay Rays): tough matchup vs. tonight's pitcher -- try Total Bases: 70% under 1.5 recently (vs. 10-game sample)
+- **Chandler Simpson** (Tampa Bay Rays vs New York Yankees): tough matchup vs. tonight's pitcher -- try Walks: 90% under 0.5 recently (vs. 10-game sample)
+- **Victor Mesa Jr.** (Tampa Bay Rays vs New York Yankees): tough matchup vs. tonight's pitcher -- try Walks: 50% under 0.5 recently (vs. 10-game sample)
+- **Liam Hicks** (Tampa Bay Rays vs New York Yankees): tough matchup vs. tonight's pitcher -- try Runs Scored: 80% under 0.5 recently (vs. 10-game sample)
+- **Richie Palacios** (Tampa Bay Rays vs New York Yankees): tough matchup vs. tonight's pitcher -- try Total Bases: 70% under 1.5 recently (vs. 10-game sample)
 
 ### Pitchers
-- **Carlos Rodón** (New York Yankees vs Tampa Bay Rays): 5 hitters in tonight's lineup are in a tough matchup against him -- try Hits Allowed: 80% under 3.5 recently (vs. 5-game sample)
 - **Max Scherzer** (Toronto Blue Jays vs Baltimore Orioles): 4 hitters in tonight's lineup are in a tough matchup against him -- try Strikeouts: 60% under 3.5 recently (vs. 5-game sample)
 - **Zack Wheeler** (Philadelphia Phillies vs Milwaukee Brewers): 4 hitters in tonight's lineup are in a tough matchup against him -- try Strikeouts: 60% under 6.5 recently (vs. 5-game sample)
 - **Max Fried** (New York Yankees vs Tampa Bay Rays): 5 hitters in tonight's lineup are in a tough matchup against him -- try Runs Allowed: 100% under 1.5 recently (vs. 5-game sample)
 - **Drew Rasmussen** (Tampa Bay Rays vs New York Yankees): 3 hitters in tonight's lineup are in a tough matchup against him -- try Walks Allowed: 60% under 0.5 recently (vs. 5-game sample)
 - **Brandon Williamson** (Cincinnati Reds vs Atlanta Braves): 4 hitters in tonight's lineup are in a tough matchup against him -- try Outs Recorded: 60% under 12.5 recently (vs. 5-game sample)
 - **Anthony Molina** (San Francisco Giants vs Minnesota Twins): 4 hitters in tonight's lineup are in a tough matchup against him -- try Outs Recorded: 20% under 11.5 recently (vs. 5-game sample)
+- **Carlos Rodón** (New York Yankees vs Tampa Bay Rays): 5 hitters in tonight's lineup are in a tough matchup against him -- try Hits Allowed: 80% under 3.5 recently (vs. 5-game sample)
 
 ## 2026-09-22 - Tampa Bay Rays @ New York Yankees (Scheduled)
 _Yankee Stadium [hitter-friendly park]_
@@ -181,7 +181,7 @@ _Facing a rested bullpen: 2.7 relief IP in last 2 days (ratio 0.49)_
 ## 2026-09-22 - Washington Nationals @ Detroit Tigers (Scheduled)
 _Comerica Park [pitcher-friendly park]_
 Projected score: Washington Nationals 4.02 - Detroit Tigers 5.52
-Model likes: **Detroit Tigers** to win (62%) | Run line: **Washington Nationals** +1.5 (52% to cover) | Total 8.5: lean **OVER** (53%)
+Model likes: **Detroit Tigers** to win (62%) | Run line: **Washington Nationals** +1.5 (52% to cover) | Total 8.5: lean **OVER** (54%)
 
 ### Washington Nationals lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 10.3 relief IP in last 2 days (ratio 1.79)_
@@ -302,7 +302,7 @@ Model likes: **Atlanta Braves** to win (62%) | Run line: **Cincinnati Reds** +1.
 ## 2026-09-22 - Chicago White Sox @ Kansas City Royals (Scheduled)
 _Kauffman Stadium [pitcher-friendly park]_
 Projected score: Chicago White Sox 3.45 - Kansas City Royals 3.51
-Model likes: **Kansas City Royals** to win (51%) | Run line: **Chicago White Sox** +1.5 (67% to cover) | Total 6.5: lean **UNDER** (51%)
+Model likes: **Kansas City Royals** to win (51%) | Run line: **Chicago White Sox** +1.5 (67% to cover) | Total 6.5: lean **UNDER** (50%)
 
 ### Chicago White Sox lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.3 relief IP in last 2 days (ratio 0.43)_
@@ -545,7 +545,7 @@ _Facing a rested bullpen: 2.3 relief IP in last 2 days (ratio 0.34)_
 ## 2026-09-23 - Washington Nationals @ Detroit Tigers (Scheduled)
 _Comerica Park [pitcher-friendly park]_
 Projected score: Washington Nationals 4.24 - Detroit Tigers 4.86
-Model likes: **Detroit Tigers** to win (55%) | Run line: **Washington Nationals** +1.5 (59% to cover) | Total 8.5: lean **UNDER** (50%)
+Model likes: **Detroit Tigers** to win (55%) | Run line: **Washington Nationals** +1.5 (60% to cover) | Total 8.5: lean **OVER** (50%)
 
 ### Washington Nationals lineup -- PROJECTED (unconfirmed)
 - Daylen Lile (L) -- L7: 8H 2HR 7RBI 17TB (0.308 avg) -- away split: 0.237 avg
@@ -574,7 +574,7 @@ _Facing a rested bullpen: 4.0 relief IP in last 2 days (ratio 0.61)_
 ## 2026-09-23 - Minnesota Twins @ San Francisco Giants (Scheduled)
 _Oracle Park [pitcher-friendly park]_
 Projected score: Minnesota Twins 3.75 - San Francisco Giants 4.97
-Model likes: **San Francisco Giants** to win (60%) | Run line: **Minnesota Twins** +1.5 (55% to cover) | Total 8.5: lean **UNDER** (53%)
+Model likes: **San Francisco Giants** to win (60%) | Run line: **Minnesota Twins** +1.5 (55% to cover) | Total 8.5: lean **UNDER** (54%)
 
 ### Minnesota Twins lineup -- PROJECTED (unconfirmed)
 - Brooks Lee (S) [MATCHUP EDGE: pitcher hits 0.261 avg-against vs this hand] [6-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 10H 1HR 3RBI 14TB (0.385 avg) -- away split: 0.290 avg
@@ -1148,7 +1148,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-24 - Milwaukee Brewers @ Philadelphia Phillies (Scheduled)
 _Citizens Bank Park [hitter-friendly park]_
 Projected score: Milwaukee Brewers 5.32 - Philadelphia Phillies 4.85
-Model likes: **Milwaukee Brewers** to win (54%) | Run line: **Philadelphia Phillies** +1.5 (60% to cover) | Total 9.5: lean **OVER** (50%)
+Model likes: **Milwaukee Brewers** to win (53%) | Run line: **Philadelphia Phillies** +1.5 (60% to cover) | Total 9.5: lean **OVER** (50%)
 
 ### Milwaukee Brewers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1177,7 +1177,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-24 - Cleveland Guardians @ Boston Red Sox (Scheduled)
 _Fenway Park_
 Projected score: Cleveland Guardians 2.98 - Boston Red Sox 3.83
-Model likes: **Boston Red Sox** to win (59%) | Run line: **Cleveland Guardians** +1.5 (60% to cover) | Total 6.5: lean **UNDER** (52%)
+Model likes: **Boston Red Sox** to win (59%) | Run line: **Cleveland Guardians** +1.5 (59% to cover) | Total 6.5: lean **UNDER** (52%)
 
 ### Cleveland Guardians lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1207,7 +1207,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-24 - Tampa Bay Rays @ New York Yankees (Scheduled)
 _Yankee Stadium [hitter-friendly park]_
 Projected score: Tampa Bay Rays 2.45 - New York Yankees 4.59
-Model likes: **New York Yankees** to win (71%) | Run line: **New York Yankees** -1.5 (54% to cover) | Total 6.5: lean **OVER** (50%)
+Model likes: **New York Yankees** to win (71%) | Run line: **New York Yankees** -1.5 (54% to cover) | Total 6.5: lean **UNDER** (50%)
 
 ### Tampa Bay Rays lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
