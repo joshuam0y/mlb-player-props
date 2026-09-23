@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-09-23T17:11:00.444602+00:00_
+_Generated 2026-09-23T17:46:47.209592+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -55,7 +55,7 @@ _Generated 2026-09-23T17:11:00.444602+00:00_
 - **Ethan Pecko** (Houston Astros vs Seattle Mariners): 3 hitters in tonight's lineup are in a tough matchup against him -- try Strikeouts: 40% under 3.5 recently (vs. 5-game sample)
 - **Yoshinobu Yamamoto** (Los Angeles Dodgers vs San Diego Padres): 6 hitters in tonight's lineup are in a tough matchup against him -- try Walks Allowed: 60% under 1.5 recently (vs. 5-game sample)
 
-## 2026-09-23 - Washington Nationals @ Detroit Tigers (Warmup)
+## 2026-09-23 - Washington Nationals @ Detroit Tigers (In Progress)
 _Comerica Park [pitcher-friendly park]_
 Projected score: Washington Nationals 4.06 - Detroit Tigers 5.13
 Model likes: **Detroit Tigers** to win (59%) | Run line: **Washington Nationals** +1.5 (56% to cover) | Total 8.5: lean **OVER** (51%)
@@ -86,19 +86,19 @@ _Facing a taxed bullpen: 10.3 relief IP in last 2 days (ratio 1.56)_
 - #8 John Peck (R) -- L7: 1H 0HR 0RBI 1TB (0.045 avg) -- home split: 0.174 avg
 - #9 Zach McKinstry (L) -- L7: 0H 0HR 0RBI 0TB (0.000 avg) -- home split: 0.227 avg
 
-## 2026-09-23 - Toronto Blue Jays @ Baltimore Orioles (Pre-Game)
+## 2026-09-23 - Toronto Blue Jays @ Baltimore Orioles (In Progress)
 _Oriole Park at Camden Yards_
-Projected score: Toronto Blue Jays 3.63 - Baltimore Orioles 4.39
-Model likes: **Baltimore Orioles** to win (57%) | Run line: **Toronto Blue Jays** +1.5 (59% to cover) | Total 7.5: lean **UNDER** (50%)
+Projected score: Toronto Blue Jays 3.69 - Baltimore Orioles 4.39
+Model likes: **Baltimore Orioles** to win (56%) | Run line: **Toronto Blue Jays** +1.5 (60% to cover) | Total 7.5: lean **OVER** (50%)
 
 ### Toronto Blue Jays lineup -- CONFIRMED
 _Facing a rested bullpen: 2.3 relief IP in last 2 days (ratio 0.43)_
 **Probable P: Max Scherzer (R)** -- L5: 27.7 IP, 22 K, 12 ER, 3.9 ERA
 - #1 Nathan Lukes (L) [MATCHUP EDGE: pitcher hits 0.310 avg-against vs this hand] -- L7: 6H 0HR 4RBI 7TB (0.300 avg) -- away split: 0.294 avg
-- #2 Josh Smith (L) [MATCHUP EDGE: pitcher hits 0.310 avg-against vs this hand] -- L7: 1H 0HR 0RBI 2TB (0.056 avg) -- away split: 0.236 avg
+- #2 Vladimir Guerrero Jr. (R) [4-game hit streak] -- L7: 8H 1HR 1RBI 12TB (0.333 avg) -- away split: 0.272 avg
 - #3 Kazuma Okamoto (R) [4-game hit streak] -- L7: 6H 1HR 4RBI 9TB (0.222 avg) -- away split: 0.233 avg
 - #4 George Springer (R) -- L7: 5H 0HR 2RBI 5TB (0.227 avg) -- away split: 0.223 avg
-- #5 Sean Keys (L) [MATCHUP EDGE: pitcher hits 0.310 avg-against vs this hand] -- L7: 2H 1HR 3RBI 6TB (0.200 avg) -- away split: 0.235 avg
+- #5 Josh Smith (L) [MATCHUP EDGE: pitcher hits 0.310 avg-against vs this hand] -- L7: 1H 0HR 0RBI 2TB (0.056 avg) -- away split: 0.236 avg
 - #6 Andrés Giménez (L) [MATCHUP EDGE: pitcher hits 0.310 avg-against vs this hand] -- L7: 6H 0HR 3RBI 8TB (0.240 avg) -- away split: 0.231 avg
 - #7 Brandon Valenzuela (S) [MATCHUP EDGE: pitcher hits 0.310 avg-against vs this hand] -- L7: 3H 0HR 0RBI 3TB (0.188 avg) -- away split: 0.203 avg
 - #8 Myles Straw (R) -- L7: 5H 0HR 2RBI 6TB (0.294 avg) -- away split: 0.245 avg
@@ -178,7 +178,7 @@ _Facing a rested bullpen: 2.3 relief IP in last 2 days (ratio 0.43)_
 ## 2026-09-23 - St. Louis Cardinals @ Pittsburgh Pirates (Scheduled)
 _PNC Park_
 Projected score: St. Louis Cardinals 3.73 - Pittsburgh Pirates 4.71
-Model likes: **Pittsburgh Pirates** to win (59%) | Run line: **St. Louis Cardinals** +1.5 (57% to cover) | Total 7.5: lean **OVER** (54%)
+Model likes: **Pittsburgh Pirates** to win (58%) | Run line: **St. Louis Cardinals** +1.5 (57% to cover) | Total 7.5: lean **OVER** (54%)
 
 ### St. Louis Cardinals lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.31)_
@@ -238,12 +238,12 @@ _Facing a rested bullpen: 3.3 relief IP in last 2 days (ratio 0.62)_
 
 ## 2026-09-23 - Tampa Bay Rays @ New York Yankees (Scheduled)
 _Yankee Stadium [hitter-friendly park]_
-Projected score: Tampa Bay Rays 3.51 - New York Yankees 4.21
-Model likes: **New York Yankees** to win (57%) | Run line: **Tampa Bay Rays** +1.5 (60% to cover) | Total 7.5: lean **UNDER** (53%)
+Projected score: Tampa Bay Rays 3.51 - New York Yankees 4.07
+Model likes: **New York Yankees** to win (55%) | Run line: **Tampa Bay Rays** +1.5 (62% to cover) | Total 7.5: lean **UNDER** (55%)
 
 ### Tampa Bay Rays lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.3 relief IP in last 2 days (ratio 0.55)_
-**Probable P: Ian Seymour (L)** [BULLPEN GAME: short-outing arm, no reliable individual matchup below] -- L5: 26.0 IP, 32 K, 15 ER, 5.19 ERA
+**Probable P: Mason Englert (R)** -- L5: no data
 - Chandler Simpson (L) [4-game hit streak] -- L7: 9H 0HR 5RBI 10TB (0.321 avg) -- away split: 0.315 avg
 - Junior Caminero (R) -- L7: 5H 0HR 1RBI 8TB (0.192 avg) -- away split: 0.268 avg
 - Yandy Díaz (R) -- L7: 2H 0HR 4RBI 2TB (0.071 avg) -- away split: 0.265 avg
@@ -422,7 +422,7 @@ _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.3)_
 ## 2026-09-23 - Arizona Diamondbacks @ Colorado Rockies (Scheduled)
 _Coors Field [hitter-friendly park]_
 Projected score: Arizona Diamondbacks 4.65 - Colorado Rockies 4.64
-Model likes: **Arizona Diamondbacks** to win (50%) | Run line: **Colorado Rockies** +1.5 (64% to cover) | Total 8.5: lean **OVER** (51%)
+Model likes: **Arizona Diamondbacks** to win (50%) | Run line: **Colorado Rockies** +1.5 (64% to cover) | Total 8.5: lean **OVER** (52%)
 
 ### Arizona Diamondbacks lineup -- PROJECTED (unconfirmed)
 **Probable P: Merrill Kelly (R)** -- L5: 27.7 IP, 27 K, 10 ER, 3.25 ERA
@@ -452,7 +452,7 @@ _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.34)_
 ## 2026-09-23 - Los Angeles Angels @ Athletics (Scheduled)
 _Sutter Health Park_
 Projected score: Los Angeles Angels 5.45 - Athletics 3.14
-Model likes: **Los Angeles Angels** to win (70%) | Run line: **Los Angeles Angels** -1.5 (55% to cover) | Total 7.5: lean **OVER** (54%)
+Model likes: **Los Angeles Angels** to win (69%) | Run line: **Los Angeles Angels** -1.5 (55% to cover) | Total 7.5: lean **OVER** (55%)
 
 ### Los Angeles Angels lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.22)_
@@ -690,7 +690,7 @@ _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.34)_
 ## 2026-09-24 - Milwaukee Brewers @ Philadelphia Phillies (Scheduled)
 _Citizens Bank Park [hitter-friendly park]_
 Projected score: Milwaukee Brewers 5.36 - Philadelphia Phillies 4.88
-Model likes: **Milwaukee Brewers** to win (54%) | Run line: **Philadelphia Phillies** +1.5 (60% to cover) | Total 9.5: lean **OVER** (51%)
+Model likes: **Milwaukee Brewers** to win (54%) | Run line: **Philadelphia Phillies** +1.5 (60% to cover) | Total 9.5: lean **OVER** (50%)
 
 ### Milwaukee Brewers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.3 relief IP in last 2 days (ratio 0.62)_
@@ -779,7 +779,7 @@ _Facing a rested bullpen: 4.3 relief IP in last 2 days (ratio 0.7)_
 ## 2026-09-24 - Cincinnati Reds @ Atlanta Braves (Scheduled)
 _Truist Park_
 Projected score: Cincinnati Reds 3.14 - Atlanta Braves 4.98
-Model likes: **Atlanta Braves** to win (66%) | Run line: **Atlanta Braves** -1.5 (51% to cover) | Total 7.5: lean **OVER** (50%)
+Model likes: **Atlanta Braves** to win (66%) | Run line: **Atlanta Braves** -1.5 (50% to cover) | Total 7.5: lean **OVER** (50%)
 
 ### Cincinnati Reds lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.54)_
@@ -1133,7 +1133,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-25 - Cleveland Guardians @ Kansas City Royals (Scheduled)
 _Kauffman Stadium [pitcher-friendly park]_
 Projected score: Cleveland Guardians 4.72 - Kansas City Royals 4.0
-Model likes: **Cleveland Guardians** to win (56%) | Run line: **Kansas City Royals** +1.5 (59% to cover) | Total 8.5: lean **UNDER** (53%)
+Model likes: **Cleveland Guardians** to win (56%) | Run line: **Kansas City Royals** +1.5 (59% to cover) | Total 8.5: lean **UNDER** (54%)
 
 ### Cleveland Guardians lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1190,8 +1190,8 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 
 ## 2026-09-25 - Texas Rangers @ Minnesota Twins (Scheduled)
 _Target Field_
-Projected score: Texas Rangers 4.77 - Minnesota Twins 4.55
-Model likes: **Texas Rangers** to win (52%) | Run line: **Minnesota Twins** +1.5 (62% to cover) | Total 8.5: lean **OVER** (52%)
+Projected score: Texas Rangers 3.96 - Minnesota Twins 4.55
+Model likes: **Minnesota Twins** to win (55%) | Run line: **Texas Rangers** +1.5 (60% to cover) | Total 7.5: lean **OVER** (54%)
 
 ### Texas Rangers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1207,6 +1207,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 
 ### Minnesota Twins lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
+**Probable P: Joe Ryan (R)** -- L5: 24.3 IP, 20 K, 16 ER, 5.92 ERA
 - Brooks Lee (S) [7-game hit streak] [likely BABIP-driven, not a real power uptick] -- L7: 12H 1HR 4RBI 16TB (0.444 avg) -- home split: 0.215 avg
 - Kody Clemens (L) -- L7: 3H 0HR 0RBI 3TB (0.130 avg) -- home split: 0.267 avg
 - Luke Keaschall (R) -- L7: 10H 0HR 3RBI 13TB (0.333 avg) -- home split: 0.270 avg
@@ -1220,7 +1221,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-25 - Arizona Diamondbacks @ San Diego Padres (Scheduled)
 _Petco Park [pitcher-friendly park]_
 Projected score: Arizona Diamondbacks 3.37 - San Diego Padres 4.22
-Model likes: **San Diego Padres** to win (58%) | Run line: **Arizona Diamondbacks** +1.5 (59% to cover) | Total 7.5: lean **UNDER** (54%)
+Model likes: **San Diego Padres** to win (58%) | Run line: **Arizona Diamondbacks** +1.5 (59% to cover) | Total 7.5: lean **UNDER** (55%)
 
 ### Arizona Diamondbacks lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
