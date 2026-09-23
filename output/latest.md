@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-09-23T11:36:50.016777+00:00_
+_Generated 2026-09-23T12:58:05.472181+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -58,7 +58,7 @@ _Generated 2026-09-23T11:36:50.016777+00:00_
 ## 2026-09-23 - Washington Nationals @ Detroit Tigers (Scheduled)
 _Comerica Park [pitcher-friendly park]_
 Projected score: Washington Nationals 4.15 - Detroit Tigers 4.79
-Model likes: **Detroit Tigers** to win (55%) | Run line: **Washington Nationals** +1.5 (59% to cover) | Total 8.5: lean **UNDER** (52%)
+Model likes: **Detroit Tigers** to win (55%) | Run line: **Washington Nationals** +1.5 (60% to cover) | Total 8.5: lean **UNDER** (52%)
 
 ### Washington Nationals lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 8.0 relief IP in last 2 days (ratio 1.39)_
@@ -176,7 +176,7 @@ _Facing a rested bullpen: 2.3 relief IP in last 2 days (ratio 0.43)_
 ## 2026-09-23 - St. Louis Cardinals @ Pittsburgh Pirates (Scheduled)
 _PNC Park_
 Projected score: St. Louis Cardinals 3.74 - Pittsburgh Pirates 4.72
-Model likes: **Pittsburgh Pirates** to win (58%) | Run line: **St. Louis Cardinals** +1.5 (57% to cover) | Total 7.5: lean **OVER** (54%)
+Model likes: **Pittsburgh Pirates** to win (59%) | Run line: **St. Louis Cardinals** +1.5 (57% to cover) | Total 7.5: lean **OVER** (54%)
 
 ### St. Louis Cardinals lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -238,7 +238,7 @@ _Facing a rested bullpen: 4.0 relief IP in last 2 days (ratio 0.63)_
 ## 2026-09-23 - Tampa Bay Rays @ New York Yankees (Scheduled)
 _Yankee Stadium [hitter-friendly park]_
 Projected score: Tampa Bay Rays 3.51 - New York Yankees 4.21
-Model likes: **New York Yankees** to win (57%) | Run line: **Tampa Bay Rays** +1.5 (60% to cover) | Total 7.5: lean **UNDER** (53%)
+Model likes: **New York Yankees** to win (56%) | Run line: **Tampa Bay Rays** +1.5 (60% to cover) | Total 7.5: lean **UNDER** (53%)
 
 ### Tampa Bay Rays lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.3 relief IP in last 2 days (ratio 0.55)_
@@ -514,7 +514,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.5)_
 ## 2026-09-23 - San Diego Padres @ Los Angeles Dodgers (Scheduled)
 _UNIQLO Field at Dodger Stadium_
 Projected score: San Diego Padres 3.01 - Los Angeles Dodgers 3.74
-Model likes: **Los Angeles Dodgers** to win (58%) | Run line: **San Diego Padres** +1.5 (61% to cover) | Total 6.5: lean **UNDER** (53%)
+Model likes: **Los Angeles Dodgers** to win (57%) | Run line: **San Diego Padres** +1.5 (61% to cover) | Total 6.5: lean **UNDER** (53%)
 
 ### San Diego Padres lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 4.0 relief IP in last 2 days (ratio 0.7)_
@@ -992,7 +992,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-25 - Baltimore Orioles @ New York Yankees (Scheduled)
 _Yankee Stadium [hitter-friendly park]_
 Projected score: Baltimore Orioles 3.96 - New York Yankees 5.09
-Model likes: **New York Yankees** to win (60%) | Run line: **Baltimore Orioles** +1.5 (55% to cover) | Total 8.5: lean **UNDER** (51%)
+Model likes: **New York Yankees** to win (59%) | Run line: **Baltimore Orioles** +1.5 (55% to cover) | Total 8.5: lean **UNDER** (50%)
 
 ### Baltimore Orioles lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1109,7 +1109,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-25 - St. Louis Cardinals @ Milwaukee Brewers (Scheduled)
 _American Family Field_
 Projected score: St. Louis Cardinals 4.55 - Milwaukee Brewers 4.72
-Model likes: **Milwaukee Brewers** to win (52%) | Run line: **St. Louis Cardinals** +1.5 (63% to cover) | Total 8.5: lean **OVER** (51%)
+Model likes: **Milwaukee Brewers** to win (51%) | Run line: **St. Louis Cardinals** +1.5 (63% to cover) | Total 8.5: lean **OVER** (51%)
 
 ### St. Louis Cardinals lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
