@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-09-24T10:11:40.203696+00:00_
+_Generated 2026-09-24T12:08:34.571789+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -52,7 +52,7 @@ _Generated 2026-09-24T10:11:40.203696+00:00_
 ## 2026-09-24 - St. Louis Cardinals @ Pittsburgh Pirates (Scheduled)
 _PNC Park_
 Projected score: St. Louis Cardinals 4.53 - Pittsburgh Pirates 4.01
-Model likes: **St. Louis Cardinals** to win (55%) | Run line: **Pittsburgh Pirates** +1.5 (61% to cover) | Total 7.5: lean **OVER** (54%)
+Model likes: **St. Louis Cardinals** to win (54%) | Run line: **Pittsburgh Pirates** +1.5 (61% to cover) | Total 7.5: lean **OVER** (54%)
 
 ### St. Louis Cardinals lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 9.3 relief IP in last 2 days (ratio 1.42)_
@@ -114,7 +114,7 @@ _Facing a taxed bullpen: 10.7 relief IP in last 2 days (ratio 1.37)_
 ## 2026-09-24 - Miami Marlins @ Chicago Cubs (Scheduled)
 _Wrigley Field_
 Projected score: Miami Marlins 4.2 - Chicago Cubs 4.85
-Model likes: **Chicago Cubs** to win (55%) | Run line: **Miami Marlins** +1.5 (59% to cover) | Total 8.5: lean **UNDER** (50%)
+Model likes: **Chicago Cubs** to win (55%) | Run line: **Miami Marlins** +1.5 (59% to cover) | Total 8.5: lean **UNDER** (51%)
 
 ### Miami Marlins lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 9.3 relief IP in last 2 days (ratio 1.83)_
@@ -145,7 +145,7 @@ _Facing a taxed bullpen: 9.7 relief IP in last 2 days (ratio 1.71)_
 ## 2026-09-24 - New York Mets @ Texas Rangers (Scheduled)
 _Globe Life Field [hitter-friendly park]_
 Projected score: New York Mets 5.16 - Texas Rangers 3.56
-Model likes: **New York Mets** to win (64%) | Run line: **Texas Rangers** +1.5 (51% to cover) | Total 8.5: lean **UNDER** (54%)
+Model likes: **New York Mets** to win (64%) | Run line: **Texas Rangers** +1.5 (52% to cover) | Total 8.5: lean **UNDER** (54%)
 
 ### New York Mets lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 8.7 relief IP in last 2 days (ratio 1.51)_
@@ -413,7 +413,7 @@ _Facing a rested bullpen: 4.0 relief IP in last 2 days (ratio 0.56)_
 ## 2026-09-25 - Chicago Cubs @ Boston Red Sox (Scheduled)
 _Fenway Park_
 Projected score: Chicago Cubs 4.38 - Boston Red Sox 3.91
-Model likes: **Chicago Cubs** to win (54%) | Run line: **Boston Red Sox** +1.5 (61% to cover) | Total 7.5: lean **OVER** (52%)
+Model likes: **Chicago Cubs** to win (54%) | Run line: **Boston Red Sox** +1.5 (62% to cover) | Total 7.5: lean **OVER** (52%)
 
 ### Chicago Cubs lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.36)_
@@ -617,7 +617,7 @@ _Facing a rested bullpen: 2.3 relief IP in last 2 days (ratio 0.37)_
 ## 2026-09-25 - Atlanta Braves @ Miami Marlins (Scheduled)
 _loanDepot park [pitcher-friendly park]_
 Projected score: Atlanta Braves 4.11 - Miami Marlins 3.98
-Model likes: **Atlanta Braves** to win (51%) | Run line: **Miami Marlins** +1.5 (65% to cover) | Total 7.5: lean **OVER** (50%)
+Model likes: **Atlanta Braves** to win (51%) | Run line: **Miami Marlins** +1.5 (64% to cover) | Total 7.5: lean **OVER** (50%)
 
 ### Atlanta Braves lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.7 relief IP in last 2 days (ratio 0.47)_
@@ -678,7 +678,7 @@ _Facing a rested bullpen: 1.0 relief IP in last 2 days (ratio 0.16)_
 ## 2026-09-25 - Cleveland Guardians @ Kansas City Royals (Scheduled)
 _Kauffman Stadium [pitcher-friendly park]_
 Projected score: Cleveland Guardians 4.46 - Kansas City Royals 4.05
-Model likes: **Cleveland Guardians** to win (53%) | Run line: **Kansas City Royals** +1.5 (62% to cover) | Total 7.5: lean **OVER** (54%)
+Model likes: **Cleveland Guardians** to win (54%) | Run line: **Kansas City Royals** +1.5 (62% to cover) | Total 7.5: lean **OVER** (54%)
 
 ### Cleveland Guardians lineup -- PROJECTED (unconfirmed)
 - Steven Kwan (L) [4-game hit streak] -- L7: 9H 0HR 1RBI 9TB (0.346 avg) -- away split: 0.291 avg
@@ -706,7 +706,7 @@ _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.35)_
 ## 2026-09-25 - Colorado Rockies @ Chicago White Sox (Scheduled)
 _Rate Field_
 Projected score: Colorado Rockies 4.07 - Chicago White Sox 6.18
-Model likes: **Chicago White Sox** to win (66%) | Run line: **Chicago White Sox** -1.5 (52% to cover) | Total 9.5: lean **OVER** (51%)
+Model likes: **Chicago White Sox** to win (66%) | Run line: **Chicago White Sox** -1.5 (53% to cover) | Total 9.5: lean **OVER** (50%)
 
 ### Colorado Rockies lineup -- PROJECTED (unconfirmed)
 - Jake McCarthy (L) -- L7: 7H 0HR 3RBI 13TB (0.250 avg) -- away split: 0.275 avg
@@ -941,7 +941,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-26 - New York Mets @ Washington Nationals (Scheduled)
 _Nationals Park_
 Projected score: New York Mets 5.71 - Washington Nationals 5.14
-Model likes: **New York Mets** to win (54%) | Run line: **Washington Nationals** +1.5 (59% to cover) | Total 10.5: lean **UNDER** (53%)
+Model likes: **New York Mets** to win (54%) | Run line: **Washington Nationals** +1.5 (58% to cover) | Total 10.5: lean **UNDER** (52%)
 
 ### New York Mets lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
