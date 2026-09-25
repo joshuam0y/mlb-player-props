@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-09-25T07:51:57.170495+00:00_
+_Generated 2026-09-25T12:20:07.778337+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -171,7 +171,7 @@ _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.26)_
 ## 2026-09-25 - Tampa Bay Rays @ Philadelphia Phillies (Scheduled)
 _Citizens Bank Park [hitter-friendly park]_
 Projected score: Tampa Bay Rays 3.69 - Philadelphia Phillies 4.41
-Model likes: **Philadelphia Phillies** to win (56%) | Run line: **Tampa Bay Rays** +1.5 (60% to cover) | Total 7.5: lean **OVER** (50%)
+Model likes: **Philadelphia Phillies** to win (57%) | Run line: **Tampa Bay Rays** +1.5 (60% to cover) | Total 7.5: lean **OVER** (50%)
 
 ### Tampa Bay Rays lineup -- PROJECTED (unconfirmed)
 **Probable P: Freddy Peralta (R)** -- L5: 28.7 IP, 23 K, 3 ER, 0.94 ERA
@@ -587,7 +587,7 @@ _Facing a rested bullpen: 2.7 relief IP in last 2 days (ratio 0.41)_
 ## 2026-09-26 - Cincinnati Reds @ Toronto Blue Jays (Scheduled)
 _Rogers Centre_
 Projected score: Cincinnati Reds 3.93 - Toronto Blue Jays 4.61
-Model likes: **Toronto Blue Jays** to win (56%) | Run line: **Cincinnati Reds** +1.5 (59% to cover) | Total 7.5: lean **OVER** (54%)
+Model likes: **Toronto Blue Jays** to win (56%) | Run line: **Cincinnati Reds** +1.5 (60% to cover) | Total 7.5: lean **OVER** (54%)
 
 ### Cincinnati Reds lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -679,7 +679,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-26 - Texas Rangers @ Minnesota Twins (Scheduled)
 _Target Field_
 Projected score: Texas Rangers 3.8 - Minnesota Twins 4.39
-Model likes: **Minnesota Twins** to win (55%) | Run line: **Texas Rangers** +1.5 (60% to cover) | Total 7.5: lean **OVER** (51%)
+Model likes: **Minnesota Twins** to win (55%) | Run line: **Texas Rangers** +1.5 (61% to cover) | Total 7.5: lean **OVER** (51%)
 
 ### Texas Rangers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -709,7 +709,7 @@ _Facing a rested bullpen: 4.0 relief IP in last 2 days (ratio 0.7)_
 ## 2026-09-26 - Atlanta Braves @ Miami Marlins (Scheduled)
 _loanDepot park [pitcher-friendly park]_
 Projected score: Atlanta Braves 4.24 - Miami Marlins 3.87
-Model likes: **Atlanta Braves** to win (53%) | Run line: **Miami Marlins** +1.5 (62% to cover) | Total 7.5: lean **OVER** (50%)
+Model likes: **Atlanta Braves** to win (53%) | Run line: **Miami Marlins** +1.5 (62% to cover) | Total 7.5: lean **OVER** (51%)
 
 ### Atlanta Braves lineup -- PROJECTED (unconfirmed)
 - Drake Baldwin (L) -- L7: 9H 0HR 0RBI 11TB (0.321 avg) -- away split: 0.264 avg
@@ -826,7 +826,7 @@ _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.39)_
 ## 2026-09-26 - Tampa Bay Rays @ Philadelphia Phillies (Scheduled)
 _Citizens Bank Park [hitter-friendly park]_
 Projected score: Tampa Bay Rays 4.71 - Philadelphia Phillies 3.84
-Model likes: **Tampa Bay Rays** to win (57%) | Run line: **Philadelphia Phillies** +1.5 (58% to cover) | Total 7.5: lean **OVER** (55%)
+Model likes: **Tampa Bay Rays** to win (58%) | Run line: **Philadelphia Phillies** +1.5 (58% to cover) | Total 7.5: lean **OVER** (54%)
 
 ### Tampa Bay Rays lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.3 relief IP in last 2 days (ratio 0.43)_
@@ -884,7 +884,7 @@ _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.39)_
 ## 2026-09-26 - Arizona Diamondbacks @ San Diego Padres (Scheduled)
 _Petco Park [pitcher-friendly park]_
 Projected score: Arizona Diamondbacks 3.62 - San Diego Padres 5.09
-Model likes: **San Diego Padres** to win (62%) | Run line: **Arizona Diamondbacks** +1.5 (53% to cover) | Total 8.5: lean **UNDER** (54%)
+Model likes: **San Diego Padres** to win (62%) | Run line: **Arizona Diamondbacks** +1.5 (52% to cover) | Total 8.5: lean **UNDER** (54%)
 
 ### Arizona Diamondbacks lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
@@ -1185,7 +1185,7 @@ _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
 ## 2026-09-27 - Texas Rangers @ Minnesota Twins (Scheduled)
 _Target Field_
 Projected score: Texas Rangers 4.2 - Minnesota Twins 4.39
-Model likes: **Minnesota Twins** to win (52%) | Run line: **Texas Rangers** +1.5 (63% to cover) | Total 8.5: lean **UNDER** (55%)
+Model likes: **Minnesota Twins** to win (52%) | Run line: **Texas Rangers** +1.5 (64% to cover) | Total 8.5: lean **UNDER** (55%)
 
 ### Texas Rangers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
