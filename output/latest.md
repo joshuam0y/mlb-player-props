@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-09-25T01:41:18.538728+00:00_
+_Generated 2026-09-25T01:46:37.835687+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -313,7 +313,7 @@ _Facing a taxed bullpen: 8.3 relief IP in last 2 days (ratio 1.4)_
 - #8 Austin Riley (R) [3-game hit streak] -- L7: 6H 1HR 2RBI 9TB (0.222 avg) -- home split: 0.263 avg
 - #9 Sean Murphy (R) -- L7: 1H 0HR 2RBI 2TB (0.043 avg) -- home split: 0.250 avg
 
-## 2026-09-24 - Los Angeles Angels @ Seattle Mariners (Warmup)
+## 2026-09-24 - Los Angeles Angels @ Seattle Mariners (In Progress)
 _T-Mobile Park [pitcher-friendly park]_
 Projected score: Los Angeles Angels 3.97 - Seattle Mariners 4.82
 Model likes: **Seattle Mariners** to win (57%) | Run line: **Los Angeles Angels** +1.5 (58% to cover) | Total 8.5: lean **UNDER** (53%)
@@ -343,7 +343,7 @@ _Facing a taxed bullpen: 10.0 relief IP in last 2 days (ratio 1.9)_
 - #8 Lazaro Montes (L) [MATCHUP EDGE: pitcher hits 0.324 avg-against vs this hand] -- L7: 2H 1HR 1RBI 5TB (0.111 avg) -- home split: 0.125 avg
 - #9 Leo Rivas (S) [MATCHUP EDGE: pitcher hits 0.324 avg-against vs this hand] [likely BABIP-driven, not a real power uptick] -- L7: 4H 0HR 2RBI 5TB (0.286 avg) -- home split: 0.160 avg
 
-## 2026-09-24 - Houston Astros @ Athletics (Warmup)
+## 2026-09-24 - Houston Astros @ Athletics (In Progress)
 _Sutter Health Park_
 Projected score: Houston Astros 5.92 - Athletics 4.04
 Model likes: **Houston Astros** to win (64%) | Run line: **Houston Astros** -1.5 (51% to cover) | Total 9.5: lean **UNDER** (52%)
@@ -374,7 +374,7 @@ _Facing a taxed bullpen: 13.7 relief IP in last 2 days (ratio 2.23)_
 - #8 Joshua Kuroda-Grauer (R) -- L7: 7H 1HR 3RBI 13TB (0.318 avg) -- home split: 0.351 avg
 - #9 Jonah Heim (S) -- L7: 2H 0HR 0RBI 3TB (0.091 avg) -- home split: 0.225 avg
 
-## 2026-09-24 - San Diego Padres @ Los Angeles Dodgers (Pre-Game)
+## 2026-09-24 - San Diego Padres @ Los Angeles Dodgers (Warmup)
 _UNIQLO Field at Dodger Stadium_
 Projected score: San Diego Padres 4.08 - Los Angeles Dodgers 3.99
 Model likes: **San Diego Padres** to win (51%) | Run line: **Los Angeles Dodgers** +1.5 (65% to cover) | Total 7.5: lean **OVER** (50%)
@@ -1206,7 +1206,7 @@ _Facing a rested bullpen: 1.3 relief IP in last 2 days (ratio 0.21)_
 ## 2026-09-26 - Chicago Cubs @ Boston Red Sox (Scheduled)
 _Fenway Park_
 Projected score: Chicago Cubs 4.38 - Boston Red Sox 3.91
-Model likes: **Chicago Cubs** to win (54%) | Run line: **Boston Red Sox** +1.5 (62% to cover) | Total 7.5: lean **OVER** (52%)
+Model likes: **Chicago Cubs** to win (54%) | Run line: **Boston Red Sox** +1.5 (61% to cover) | Total 7.5: lean **OVER** (52%)
 
 ### Chicago Cubs lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 3.0 relief IP in last 2 days (ratio 0.54)_
@@ -1235,7 +1235,7 @@ _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.39)_
 ## 2026-09-26 - Arizona Diamondbacks @ San Diego Padres (Scheduled)
 _Petco Park [pitcher-friendly park]_
 Projected score: Arizona Diamondbacks 3.44 - San Diego Padres 4.92
-Model likes: **San Diego Padres** to win (63%) | Run line: **Arizona Diamondbacks** +1.5 (52% to cover) | Total 7.5: lean **OVER** (53%)
+Model likes: **San Diego Padres** to win (63%) | Run line: **Arizona Diamondbacks** +1.5 (53% to cover) | Total 7.5: lean **OVER** (53%)
 
 ### Arizona Diamondbacks lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 0.0 relief IP in last 2 days (ratio 0.0)_
