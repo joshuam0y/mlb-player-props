@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-09-26T13:13:13.866731+00:00_
+_Generated 2026-09-26T15:11:07.255888+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -78,40 +78,40 @@ _Facing a rested bullpen: 4.3 relief IP in last 2 days (ratio 0.65)_
 - Jorbit Vivas (L) -- L7: 5H 0HR 2RBI 5TB (0.217 avg) -- home split: 0.237 avg
 - Andrés Chaparro (R) [3-game hit streak] -- L7: 6H 1HR 1RBI 10TB (0.316 avg) -- home split: 0.272 avg
 
-## 2026-09-26 - Pittsburgh Pirates @ Detroit Tigers (Scheduled)
+## 2026-09-26 - Pittsburgh Pirates @ Detroit Tigers (Pre-Game)
 _Comerica Park [pitcher-friendly park]_
-Projected score: Pittsburgh Pirates 3.5 - Detroit Tigers 3.69
-Model likes: **Detroit Tigers** to win (52%) | Run line: **Pittsburgh Pirates** +1.5 (65% to cover) | Total 6.5: lean **OVER** (52%)
+Projected score: Pittsburgh Pirates 3.45 - Detroit Tigers 3.74
+Model likes: **Detroit Tigers** to win (53%) | Run line: **Pittsburgh Pirates** +1.5 (64% to cover) | Total 6.5: lean **OVER** (52%)
 
-### Pittsburgh Pirates lineup -- PROJECTED (unconfirmed)
+### Pittsburgh Pirates lineup -- CONFIRMED
 _Facing a rested bullpen: 2.7 relief IP in last 2 days (ratio 0.46)_
 **Probable P: Kirby Yates (R)** [BULLPEN GAME: short-outing arm, no reliable individual matchup below] -- L5: 4.7 IP, 4 K, 1 ER, 1.93 ERA
-- Konnor Griffin (R) -- L7: 9H 0HR 2RBI 12TB (0.310 avg) -- away split: 0.237 avg
-- Jared Triolo (R) -- L7: 1H 0HR 0RBI 1TB (0.167 avg) -- away split: 0.257 avg
-- Bryan Reynolds (S) -- L7: 4H 0HR 0RBI 7TB (0.190 avg) -- away split: 0.229 avg
-- Oneil Cruz (L) [likely BABIP-driven, not a real power uptick] -- L7: 10H 1HR 3RBI 15TB (0.370 avg) -- away split: 0.275 avg -- news: Oneil Cruz returning from 60-day injured list
-- Rafael Flores Jr. (R) -- L7: 6H 3HR 6RBI 17TB (0.250 avg) -- away split: 0.189 avg
-- Nick Gonzales (R) [3-game hit streak] -- L7: 5H 0HR 1RBI 6TB (0.200 avg) -- away split: 0.315 avg
-- Brandon Lowe (L) -- L7: 8H 3HR 7RBI 18TB (0.308 avg) -- away split: 0.257 avg
-- Ryan O'Hearn (L) -- L7: 6H 0HR 4RBI 8TB (0.250 avg) -- away split: 0.238 avg
-- Jake Mangum (S) -- L7: 3H 1HR 2RBI 6TB (0.130 avg) -- away split: 0.257 avg
+- #1 Ryan O'Hearn (L) -- L7: 6H 0HR 4RBI 8TB (0.250 avg) -- away split: 0.238 avg
+- #2 Brandon Lowe (L) -- L7: 8H 3HR 7RBI 18TB (0.308 avg) -- away split: 0.257 avg
+- #3 Bryan Reynolds (S) -- L7: 4H 0HR 0RBI 7TB (0.190 avg) -- away split: 0.229 avg
+- #4 Oneil Cruz (L) [likely BABIP-driven, not a real power uptick] -- L7: 10H 1HR 3RBI 15TB (0.370 avg) -- away split: 0.275 avg -- news: Oneil Cruz returning from 60-day injured list
+- #5 Konnor Griffin (R) -- L7: 9H 0HR 2RBI 12TB (0.310 avg) -- away split: 0.237 avg
+- #6 Spencer Horwitz (L) -- L7: 5H 0HR 5RBI 7TB (0.278 avg) -- away split: 0.235 avg
+- #7 Ronny Simon (S) -- L7: 4H 1HR 2RBI 8TB (0.190 avg) -- away split: 0.250 avg
+- #8 Jacob Gonzalez (L) -- L7: 2H 0HR 0RBI 2TB (0.222 avg) -- away split: 0.218 avg
+- #9 Henry Davis (R) -- L7: 2H 1HR 3RBI 6TB (0.125 avg) -- away split: 0.132 avg
 
-### Detroit Tigers lineup -- PROJECTED (unconfirmed)
+### Detroit Tigers lineup -- CONFIRMED
 **Probable P: Justin Verlander (R)** -- L5: no data
-- John Peck (R) -- L7: 1H 0HR 0RBI 1TB (0.050 avg) -- home split: 0.172 avg
-- Spencer Torkelson (R) -- L7: 7H 2HR 5RBI 17TB (0.350 avg) -- home split: 0.222 avg
-- Brett Callahan (L) -- L7: 3H 0HR 0RBI 3TB (0.231 avg) -- home split: 0.231 avg
-- Kevin McGonigle (L) -- L7: 10H 0HR 5RBI 14TB (0.323 avg) -- home split: 0.263 avg
-- Riley Greene (L) -- L7: 6H 1HR 2RBI 10TB (0.250 avg) -- home split: 0.281 avg
-- Max Clark (L) -- L7: 7H 0HR 1RBI 8TB (0.318 avg) -- home split: 0.279 avg -- news: Mayo: Don't judge a book by its cover -- especially Max Clark
-- Hao-Yu Lee (R) [likely BABIP-driven, not a real power uptick] -- L7: 11H 1HR 4RBI 17TB (0.344 avg) -- home split: 0.237 avg -- news: Hao-Yu Lee sets single-season record for hits by a player born in Taiwan
-- Ben Malgeri (R) [3-game hit streak] -- L7: 6H 2HR 5RBI 14TB (0.353 avg) -- home split: 0.250 avg
-- Dillon Dingler (R) -- L7: 6H 0HR 3RBI 8TB (0.231 avg) -- home split: 0.226 avg
+- #1 Max Clark (L) -- L7: 7H 0HR 1RBI 8TB (0.318 avg) -- home split: 0.279 avg -- news: Mayo: Don't judge a book by its cover -- especially Max Clark
+- #2 Hao-Yu Lee (R) [likely BABIP-driven, not a real power uptick] -- L7: 11H 1HR 4RBI 17TB (0.344 avg) -- home split: 0.237 avg -- news: Hao-Yu Lee sets single-season record for hits by a player born in Taiwan
+- #3 Kevin McGonigle (L) -- L7: 10H 0HR 5RBI 14TB (0.323 avg) -- home split: 0.263 avg
+- #4 Eduardo Valencia (R) [likely BABIP-driven, not a real power uptick] -- L7: 10H 0HR 0RBI 14TB (0.500 avg) -- home split: 0.391 avg
+- #5 Riley Greene (L) -- L7: 6H 1HR 2RBI 10TB (0.250 avg) -- home split: 0.281 avg
+- #6 Dillon Dingler (R) -- L7: 6H 0HR 3RBI 8TB (0.231 avg) -- home split: 0.226 avg
+- #7 Spencer Torkelson (R) -- L7: 7H 2HR 5RBI 17TB (0.350 avg) -- home split: 0.222 avg
+- #8 Zach McKinstry (L) -- L7: 0H 0HR 0RBI 0TB (0.000 avg) -- home split: 0.225 avg
+- #9 Javier Báez (R) -- L7: 2H 1HR 2RBI 5TB (0.111 avg) -- home split: 0.237 avg
 
 ## 2026-09-26 - Cincinnati Reds @ Toronto Blue Jays (Scheduled)
 _Rogers Centre_
 Projected score: Cincinnati Reds 3.15 - Toronto Blue Jays 4.74
-Model likes: **Toronto Blue Jays** to win (65%) | Run line: **Cincinnati Reds** +1.5 (52% to cover) | Total 7.5: lean **UNDER** (52%)
+Model likes: **Toronto Blue Jays** to win (64%) | Run line: **Cincinnati Reds** +1.5 (52% to cover) | Total 7.5: lean **UNDER** (52%)
 
 ### Cincinnati Reds lineup -- PROJECTED (unconfirmed)
 **Probable P: Rhett Lowder (R)** -- L5: 20.3 IP, 18 K, 24 ER, 10.62 ERA
@@ -323,7 +323,7 @@ _Facing a rested bullpen: 4.7 relief IP in last 2 days (ratio 0.6)_
 ## 2026-09-26 - Tampa Bay Rays @ Philadelphia Phillies (Scheduled)
 _Citizens Bank Park [hitter-friendly park]_
 Projected score: Tampa Bay Rays 4.71 - Philadelphia Phillies 3.93
-Model likes: **Tampa Bay Rays** to win (57%) | Run line: **Philadelphia Phillies** +1.5 (58% to cover) | Total 8.5: lean **UNDER** (54%)
+Model likes: **Tampa Bay Rays** to win (57%) | Run line: **Philadelphia Phillies** +1.5 (59% to cover) | Total 8.5: lean **UNDER** (54%)
 
 ### Tampa Bay Rays lineup -- PROJECTED (unconfirmed)
 **Probable P: Griffin Jax (R)** [BULLPEN GAME: short-outing arm, no reliable individual matchup below] -- L5: 22.7 IP, 23 K, 8 ER, 3.18 ERA
@@ -678,7 +678,7 @@ _Facing a rested bullpen: 0.3 relief IP in last 2 days (ratio 0.06)_
 ## 2026-09-27 - Texas Rangers @ Minnesota Twins (Scheduled)
 _Target Field_
 Projected score: Texas Rangers 4.05 - Minnesota Twins 4.57
-Model likes: **Minnesota Twins** to win (55%) | Run line: **Texas Rangers** +1.5 (61% to cover) | Total 8.5: lean **UNDER** (54%)
+Model likes: **Minnesota Twins** to win (54%) | Run line: **Texas Rangers** +1.5 (61% to cover) | Total 8.5: lean **UNDER** (54%)
 
 ### Texas Rangers lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 2.0 relief IP in last 2 days (ratio 0.41)_
