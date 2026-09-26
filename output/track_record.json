@@ -89942,7 +89942,7 @@
     },
     "2026-09-22": {
       "date": "2026-09-22",
-      "graded_at": "2026-09-26T13:11:22.659135+00:00",
+      "graded_at": "2026-09-26T17:08:22.405377+00:00",
       "top_overs": {
         "n": 23,
         "hits": 8,
@@ -91505,7 +91505,7 @@
     },
     "2026-09-23": {
       "date": "2026-09-23",
-      "graded_at": "2026-09-26T13:11:22.274080+00:00",
+      "graded_at": "2026-09-26T17:08:22.028731+00:00",
       "top_overs": {
         "n": 23,
         "hits": 10,
@@ -93081,7 +93081,7 @@
     },
     "2026-09-24": {
       "date": "2026-09-24",
-      "graded_at": "2026-09-26T13:11:21.876414+00:00",
+      "graded_at": "2026-09-26T17:08:21.635065+00:00",
       "top_overs": {
         "n": 23,
         "hits": 8,
@@ -94603,7 +94603,7 @@
     },
     "2026-09-25": {
       "date": "2026-09-25",
-      "graded_at": "2026-09-26T13:11:21.497796+00:00",
+      "graded_at": "2026-09-26T17:08:21.277214+00:00",
       "top_overs": {
         "n": 20,
         "hits": 7,
@@ -94939,9 +94939,9 @@
       },
       "batter_trend": {
         "hot": {
-          "games": 44,
-          "avg": 0.209,
-          "tb_per_game": 1.23,
+          "games": 45,
+          "avg": 0.217,
+          "tb_per_game": 1.24,
           "examples": [
             {
               "name": "Eduardo Valencia",
@@ -94957,6 +94957,11 @@
               "name": "Myles Straw",
               "player_id": 664702,
               "line": "2-for-2, 2 TB"
+            },
+            {
+              "name": "Juan Brito",
+              "player_id": 682877,
+              "line": "2-for-4, 2 TB"
             },
             {
               "name": "Jakob Marsee",
@@ -94987,18 +94992,13 @@
               "name": "Jarren Duran",
               "player_id": 680776,
               "line": "1-for-2, 1 TB"
-            },
-            {
-              "name": "Jarren Duran",
-              "player_id": 680776,
-              "line": "1-for-2, 1 TB"
             }
           ]
         },
         "cold": {
-          "games": 57,
-          "avg": 0.222,
-          "tb_per_game": 1.44,
+          "games": 58,
+          "avg": 0.223,
+          "tb_per_game": 1.43,
           "examples": [
             {
               "name": "Kody Clemens",
@@ -95054,7 +95054,7 @@
         },
         "neutral": {
           "games": 154,
-          "avg": 0.258,
+          "avg": 0.257,
           "tb_per_game": 1.54,
           "examples": [
             {
@@ -95226,8 +95226,8 @@
           ]
         },
         "neutral": {
-          "games": 188,
-          "avg": 0.247,
+          "games": 190,
+          "avg": 0.248,
           "tb_per_game": 1.53,
           "examples": [
             {
@@ -95403,53 +95403,53 @@
       },
       "projection_accuracy": {
         "Hits": {
-          "n": 255,
+          "n": 257,
           "avg_projected": 0.83,
           "avg_actual": 0.84,
           "mae": 0.72,
           "bias": 0.01
         },
         "Total Bases": {
-          "n": 255,
-          "avg_projected": 1.37,
+          "n": 257,
+          "avg_projected": 1.36,
           "avg_actual": 1.46,
-          "mae": 1.41,
+          "mae": 1.4,
           "bias": 0.1
         },
         "Home Runs": {
-          "n": 255,
+          "n": 257,
           "avg_projected": 0.12,
           "avg_actual": 0.13,
           "mae": 0.21,
           "bias": 0.02
         },
         "RBIs": {
-          "n": 255,
+          "n": 257,
           "avg_projected": 0.43,
           "avg_actual": 0.48,
           "mae": 0.63,
           "bias": 0.05
         },
         "Runs Scored": {
-          "n": 255,
+          "n": 257,
           "avg_projected": 0.45,
-          "avg_actual": 0.51,
+          "avg_actual": 0.52,
           "mae": 0.59,
           "bias": 0.07
         },
         "Walks": {
-          "n": 255,
+          "n": 257,
           "avg_projected": 0.33,
-          "avg_actual": 0.39,
+          "avg_actual": 0.4,
           "mae": 0.48,
           "bias": 0.07
         },
         "Hits + Runs + RBIs": {
-          "n": 255,
+          "n": 257,
           "avg_projected": 1.71,
           "avg_actual": 1.84,
           "mae": 1.53,
-          "bias": 0.13
+          "bias": 0.14
         },
         "Strikeouts": {
           "n": 23,
@@ -95874,10 +95874,10 @@
       },
       "matchup_leans": {
         "n": 337,
-        "hits": 180,
+        "hits": 182,
         "misses": 93,
-        "no_data": 64,
-        "hit_rate": 0.659,
+        "no_data": 62,
+        "hit_rate": 0.662,
         "examples": [
           {
             "name": "Roman Anthony",
@@ -96091,12 +96091,12 @@
     },
     "batter_trend": {
       "hot": {
-        "games": 2816,
+        "games": 2817,
         "avg": 0.24,
         "tb_per_game": 1.36
       },
       "cold": {
-        "games": 3107,
+        "games": 3108,
         "avg": 0.241,
         "tb_per_game": 1.36
       },
@@ -96118,7 +96118,7 @@
         "tb_per_game": 1.29
       },
       "neutral": {
-        "games": 10861,
+        "games": 10863,
         "avg": 0.243,
         "tb_per_game": 1.39
       }
@@ -96170,9 +96170,9 @@
     "matchup_leans": {
       "days": 64,
       "n": 16862,
-      "hits": 10579,
+      "hits": 10581,
       "misses": 5834,
-      "no_data": 449,
+      "no_data": 447,
       "hit_rate": 0.645
     },
     "best_prop_stars": {
@@ -96184,16 +96184,9 @@
       "hit_rate": 0.499
     },
     "projection_accuracy": {
-      "Walks": {
-        "n": 15016,
-        "mae": 0.47,
-        "bias": 0.01,
-        "avg_projected": 0.34,
-        "avg_actual": 0.35
-      },
-      "Hits + Runs + RBIs": {
-        "n": 12609,
-        "mae": 1.48,
+      "Walks Allowed": {
+        "n": 1672,
+        "mae": 0.99,
         "bias": 0.05,
         "avg_projected": 1.72,
         "avg_actual": 1.77
@@ -96212,33 +96205,33 @@
         "avg_projected": 4.52,
         "avg_actual": 4.64
       },
+      "Total Bases": {
+        "n": 15018,
+        "mae": 1.31,
+        "bias": 0.02,
+        "avg_projected": 1.37,
+        "avg_actual": 1.4
+      },
+      "RBIs": {
+        "n": 15018,
+        "mae": 0.6,
+        "bias": 0.0,
+        "avg_projected": 0.43,
+        "avg_actual": 0.43
+      },
+      "Hits": {
+        "n": 15018,
+        "mae": 0.7,
+        "bias": 0.03,
+        "avg_projected": 0.83,
+        "avg_actual": 0.86
+      },
       "Runs Allowed": {
         "n": 1672,
         "mae": 1.59,
         "bias": 0.11,
         "avg_projected": 2.25,
         "avg_actual": 2.35
-      },
-      "Runs Scored": {
-        "n": 15016,
-        "mae": 0.56,
-        "bias": 0.0,
-        "avg_projected": 0.45,
-        "avg_actual": 0.46
-      },
-      "Walks Allowed": {
-        "n": 1672,
-        "mae": 0.99,
-        "bias": 0.05,
-        "avg_projected": 1.72,
-        "avg_actual": 1.77
-      },
-      "Total Bases": {
-        "n": 15016,
-        "mae": 1.31,
-        "bias": 0.02,
-        "avg_projected": 1.37,
-        "avg_actual": 1.4
       },
       "Hits Allowed": {
         "n": 1672,
@@ -96248,28 +96241,35 @@
         "avg_actual": 4.75
       },
       "Home Runs": {
-        "n": 15016,
+        "n": 15018,
         "mae": 0.2,
         "bias": -0.0,
         "avg_projected": 0.12,
         "avg_actual": 0.12
       },
-      "Hits": {
-        "n": 15016,
-        "mae": 0.7,
-        "bias": 0.03,
-        "avg_projected": 0.83,
-        "avg_actual": 0.86
+      "Hits + Runs + RBIs": {
+        "n": 12611,
+        "mae": 1.48,
+        "bias": 0.05,
+        "avg_projected": 1.72,
+        "avg_actual": 1.77
       },
-      "RBIs": {
-        "n": 15016,
-        "mae": 0.6,
+      "Walks": {
+        "n": 15018,
+        "mae": 0.47,
+        "bias": 0.01,
+        "avg_projected": 0.34,
+        "avg_actual": 0.35
+      },
+      "Runs Scored": {
+        "n": 15018,
+        "mae": 0.56,
         "bias": 0.0,
-        "avg_projected": 0.43,
-        "avg_actual": 0.43
+        "avg_projected": 0.45,
+        "avg_actual": 0.46
       }
     },
     "days_tracked": 64
   },
-  "updated_at": "2026-09-26T13:11:22.696179+00:00"
+  "updated_at": "2026-09-26T17:08:22.439586+00:00"
 }
