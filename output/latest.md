@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-09-27T08:10:54.062094+00:00_
+_Generated 2026-09-27T09:34:20.642584+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -117,7 +117,7 @@ _Facing a taxed bullpen: 8.0 relief IP in last 2 days (ratio 1.47)_
 ## 2026-09-27 - Los Angeles Dodgers @ San Francisco Giants (Scheduled)
 _Oracle Park [pitcher-friendly park]_
 Projected score: Los Angeles Dodgers 4.87 - San Francisco Giants 2.82
-Model likes: **Los Angeles Dodgers** to win (69%) | Run line: **Los Angeles Dodgers** -1.5 (53% to cover) | Total 7.5: lean **UNDER** (54%)
+Model likes: **Los Angeles Dodgers** to win (69%) | Run line: **Los Angeles Dodgers** -1.5 (52% to cover) | Total 7.5: lean **UNDER** (54%)
 
 ### Los Angeles Dodgers lineup -- PROJECTED (unconfirmed)
 _Facing a taxed bullpen: 10.0 relief IP in last 2 days (ratio 1.81)_
@@ -299,7 +299,7 @@ _Facing a rested bullpen: 1.0 relief IP in last 2 days (ratio 0.17)_
 ## 2026-09-27 - Arizona Diamondbacks @ San Diego Padres (Scheduled)
 _Petco Park [pitcher-friendly park]_
 Projected score: Arizona Diamondbacks 3.46 - San Diego Padres 3.17
-Model likes: **Arizona Diamondbacks** to win (53%) | Run line: **San Diego Padres** +1.5 (65% to cover) | Total 6.5: lean **UNDER** (54%)
+Model likes: **Arizona Diamondbacks** to win (53%) | Run line: **San Diego Padres** +1.5 (66% to cover) | Total 6.5: lean **UNDER** (54%)
 
 ### Arizona Diamondbacks lineup -- PROJECTED (unconfirmed)
 _Facing a rested bullpen: 5.0 relief IP in last 2 days (ratio 0.69)_
