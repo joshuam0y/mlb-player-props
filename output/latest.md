@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-09-27T18:24:11.529424+00:00_
+_Generated 2026-09-27T18:43:00.083517+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -114,7 +114,7 @@ _Facing a taxed bullpen: 8.0 relief IP in last 2 days (ratio 1.47)_
 - Heliot Ramos (R) [4-game hit streak] -- L7: 8H 1HR 3RBI 14TB (0.296 avg) -- home split: 0.263 avg
 - Austin Wells (L) [MATCHUP EDGE: pitcher hits 0.278 avg-against vs this hand] -- L7: 5H 2HR 2RBI 11TB (0.294 avg) -- home split: 0.196 avg
 
-## 2026-09-27 - Tampa Bay Rays @ Philadelphia Phillies (Warmup)
+## 2026-09-27 - Tampa Bay Rays @ Philadelphia Phillies (In Progress)
 _Citizens Bank Park [hitter-friendly park]_
 Projected score: Tampa Bay Rays 3.57 - Philadelphia Phillies 3.4
 Model likes: **Tampa Bay Rays** to win (52%) | Run line: **Philadelphia Phillies** +1.5 (66% to cover) | Total 6.5: lean **UNDER** (50%)
@@ -175,7 +175,7 @@ _Facing a taxed bullpen: 7.0 relief IP in last 2 days (ratio 1.21)_
 - #8 Christian Koss (R) -- L7: 2H 0HR 0RBI 3TB (0.095 avg) -- home split: 0.229 avg
 - #9 Drew Gilbert (L) -- L7: 5H 1HR 3RBI 8TB (0.500 avg) -- home split: 0.263 avg
 
-## 2026-09-27 - Chicago Cubs @ Boston Red Sox (Pre-Game)
+## 2026-09-27 - Chicago Cubs @ Boston Red Sox (Warmup)
 _Tropicana Field_
 Projected score: Chicago Cubs 3.9 - Boston Red Sox 3.44
 Model likes: **Chicago Cubs** to win (54%) | Run line: **Boston Red Sox** +1.5 (63% to cover) | Total 6.5: lean **OVER** (53%)
@@ -206,7 +206,7 @@ _Facing a taxed bullpen: 6.7 relief IP in last 2 days (ratio 1.3)_
 - #8 Trevor Story (R) -- L7: 5H 2HR 4RBI 11TB (0.200 avg) -- home split: 0.206 avg
 - #9 Andruw Monasterio (R) -- L7: 2H 0HR 2RBI 2TB (0.133 avg) -- home split: 0.224 avg
 
-## 2026-09-27 - Houston Astros @ Athletics (Pre-Game)
+## 2026-09-27 - Houston Astros @ Athletics (Warmup)
 _Sutter Health Park_
 Projected score: Houston Astros 4.68 - Athletics 3.65
 Model likes: **Houston Astros** to win (59%) | Run line: **Athletics** +1.5 (56% to cover) | Total 7.5: lean **OVER** (52%)
@@ -267,7 +267,7 @@ _Facing a taxed bullpen: 13.0 relief IP in last 2 days (ratio 1.86)_
 - #8 Andrés Giménez (L) -- L7: 5H 0HR 2RBI 7TB (0.238 avg) -- home split: 0.253 avg
 - #9 Ernie Clement (R) -- L7: 3H 0HR 0RBI 5TB (0.125 avg) -- home split: 0.259 avg
 
-## 2026-09-27 - Los Angeles Angels @ Seattle Mariners (Pre-Game)
+## 2026-09-27 - Los Angeles Angels @ Seattle Mariners (Warmup)
 _T-Mobile Park [pitcher-friendly park]_
 Projected score: Los Angeles Angels 3.6 - Seattle Mariners 3.83
 Model likes: **Seattle Mariners** to win (52%) | Run line: **Los Angeles Angels** +1.5 (65% to cover) | Total 6.5: lean **OVER** (54%)
@@ -328,7 +328,7 @@ _Facing a rested bullpen: 3.3 relief IP in last 2 days (ratio 0.56)_
 - #8 Sung-Mun Song (L) [MATCHUP EDGE: pitcher hits 0.262 avg-against vs this hand] [likely BABIP-driven, not a real power uptick] -- L7: 2H 0HR 1RBI 2TB (0.333 avg) -- home split: 0.183 avg
 - #9 Jase Bowen (R) [TOUGH MATCHUP: pitcher holds this hand to 0.171 avg-against] -- L7: 0H 0HR 0RBI 0TB (0.000 avg) -- home split: 0.143 avg
 
-## 2026-09-27 - Texas Rangers @ Minnesota Twins (Pre-Game)
+## 2026-09-27 - Texas Rangers @ Minnesota Twins (Warmup)
 _Target Field_
 Projected score: Texas Rangers 4.61 - Minnesota Twins 4.39
 Model likes: **Texas Rangers** to win (52%) | Run line: **Minnesota Twins** +1.5 (63% to cover) | Total 8.5: lean **UNDER** (51%)
@@ -388,7 +388,7 @@ Model likes: **Milwaukee Brewers** to win (72%) | Run line: **Milwaukee Brewers*
 - #8 Sal Frelick (L) -- L7: 4H 0HR 3RBI 5TB (0.250 avg) -- home split: 0.233 avg
 - #9 David Hamilton (L) -- L7: 5H 0HR 1RBI 7TB (0.312 avg) -- home split: 0.218 avg
 
-## 2026-09-27 - Atlanta Braves @ Miami Marlins (Pre-Game)
+## 2026-09-27 - Atlanta Braves @ Miami Marlins (Warmup)
 _loanDepot park [pitcher-friendly park]_
 Projected score: Atlanta Braves 4.26 - Miami Marlins 4.09
 Model likes: **Atlanta Braves** to win (52%) | Run line: **Miami Marlins** +1.5 (64% to cover) | Total 7.5: lean **OVER** (53%)
@@ -422,7 +422,7 @@ _Facing a taxed bullpen: 11.0 relief IP in last 2 days (ratio 1.83)_
 ## 2026-09-27 - Cleveland Guardians @ Kansas City Royals (Pre-Game)
 _Kauffman Stadium [pitcher-friendly park]_
 Projected score: Cleveland Guardians 4.06 - Kansas City Royals 2.81
-Model likes: **Cleveland Guardians** to win (63%) | Run line: **Kansas City Royals** +1.5 (55% to cover) | Total 6.5: lean **UNDER** (52%)
+Model likes: **Cleveland Guardians** to win (63%) | Run line: **Kansas City Royals** +1.5 (56% to cover) | Total 6.5: lean **UNDER** (52%)
 
 ### Cleveland Guardians lineup -- CONFIRMED
 **Probable P: Parker Messick (L)** -- L5: 28.3 IP, 35 K, 9 ER, 2.86 ERA

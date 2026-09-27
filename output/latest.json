@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T18:24:11.529424+00:00",
+  "generated_at": "2026-09-27T18:43:00.083517+00:00",
   "range": [
     "2026-09-27",
     "2026-09-29"
@@ -20,48 +20,48 @@
       },
       "projection": {
         "game_pk": 822679,
-        "generated_at": "2026-09-27T18:23:05.063625+00:00",
+        "generated_at": "2026-09-27T18:41:55.045631+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.82,
         "away_exp_runs": 5.73,
         "home_win_prob": 0.433,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.308,
+        "spread_cover_prob": 0.309,
         "total_line": 9.5,
         "over_prob": 0.529,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
-        "spread_pick_prob": 0.563,
+        "spread_pick_prob": 0.564,
         "total_pick": "over",
         "total_pick_prob": 0.529,
         "spread_favorite": "away"
       },
       "highlights": [
         {
-          "title": "CJ Abrams triples (4) on a ground ball to right fielder Carson Benge. Brady House scores.",
+          "title": "Francisco Lindor's 300th career home run (21)",
+          "duration": "00:00:20",
+          "video_url": "https://bdata-producedclips.mlb.com/ee2697c0-cc69-4d6f-a1af-78ad49326ab4.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/j6n79txdbqmhwqxhysvw.jpg"
+        },
+        {
+          "title": "Ronny Mauricio's two-run home run (4)",
+          "duration": "00:00:33",
+          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-09/27/261cada2-28abcd9e-9bbb5e6b-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/qa63dgjxzqfr6karii0v.jpg"
+        },
+        {
+          "title": "CJ Abrams' RBI triple",
           "duration": "00:00:18",
           "video_url": "https://bdata-producedclips.mlb.com/fd140e0a-18f6-4ad9-a758-88e931be6356.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/kfe471oyvwciklwdu692.jpg"
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/x4lkorpmcqw6fhwctjau.jpg"
         },
         {
           "title": "Ball 4 call confirmed after ABS challenge",
           "duration": "00:00:24",
           "video_url": "https://bdata-producedclips.mlb.com/e4910f73-67f7-4103-bb07-e5c1fc430526.mp4",
           "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/qk6lolmbs0jg49jq06ig.jpg"
-        },
-        {
-          "title": "DJ Herz strikes out Bo Bichette",
-          "duration": "00:00:06",
-          "video_url": "https://bdata-producedclips.mlb.com/de88538a-0ec1-487a-8c7f-2221486b9dfc.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/fy8rllz90mgv1okmbx7x.jpg"
-        },
-        {
-          "title": "Carson Benge's RBI single",
-          "duration": "00:00:13",
-          "video_url": "https://bdata-producedclips.mlb.com/b6593c18-4200-4c42-b3be-fb60025156f4.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/pfe93pjhlazw9siylv4l.jpg"
         }
       ],
       "home": {
@@ -9123,7 +9123,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 823490,
-        "generated_at": "2026-09-27T18:23:05.063625+00:00",
+        "generated_at": "2026-09-27T18:41:55.045631+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.43,
         "away_exp_runs": 4.81,
@@ -9131,14 +9131,14 @@
         "spread_line": 1.5,
         "spread_cover_prob": 0.328,
         "total_line": 8.5,
-        "over_prob": 0.512,
+        "over_prob": 0.511,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
         "spread_pick_prob": 0.613,
         "total_pick": "over",
-        "total_pick_prob": 0.512,
+        "total_pick_prob": 0.511,
         "spread_favorite": "away"
       },
       "highlights": [
@@ -18230,7 +18230,7 @@
       "game_pk": 823408,
       "date": "2026-09-27",
       "game_time_utc": "2026-09-27T18:30:00Z",
-      "status": "Warmup",
+      "status": "In Progress",
       "venue": "Citizens Bank Park",
       "park_factor": "hitter",
       "home_score": null,
@@ -18238,13 +18238,13 @@
       "live_score": null,
       "projection": {
         "game_pk": 823408,
-        "generated_at": "2026-09-27T18:23:05.063625+00:00",
+        "generated_at": "2026-09-27T18:41:55.045631+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.4,
         "away_exp_runs": 3.57,
         "home_win_prob": 0.483,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.31,
+        "spread_cover_prob": 0.309,
         "total_line": 6.5,
         "over_prob": 0.496,
         "home_score_line": null,
@@ -18258,6 +18258,18 @@
       },
       "highlights": [
         {
+          "title": "Ball 1 overturned following ABS challenge",
+          "duration": "00:00:25",
+          "video_url": "https://bdata-producedclips.mlb.com/0443c71d-54f9-4625-8ad5-84b5cef12cb8.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/equw5orj41b2fn4xz0lp.jpg"
+        },
+        {
+          "title": "Zack Wheeler strikes out Victor Mesa Jr.",
+          "duration": "00:00:06",
+          "video_url": "https://bdata-producedclips.mlb.com/34605657-cc91-4a56-80b2-951b4afc9498.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/aq0lagxbjzkq1vt1h0gu.jpg"
+        },
+        {
           "title": "Starting lineups for Rays at Phillies - September 27, 2026",
           "duration": "00:00:10",
           "video_url": "https://darkroom-clips.mlb.com/00016023-b55f-4b5e-9f53-b6c1a9c71a12.mp4",
@@ -18268,18 +18280,6 @@
           "duration": "00:00:08",
           "video_url": "https://darkroom-clips.mlb.com/63f5cf0e-97bd-44ad-9f58-8bc59f495b1b.mp4",
           "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/zueyfjxbzkqibowudf9i.jpg"
-        },
-        {
-          "title": "Fielding alignment for Tampa Bay, September 27 vs Phillies",
-          "duration": "00:00:11",
-          "video_url": "https://darkroom-clips.mlb.com/af20ec49-15bb-4df2-90e4-2692234a6486.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/lhhvs0vjvhko3xooxjgf.jpg"
-        },
-        {
-          "title": "Bench availability for Philadelphia, September 27 vs Rays",
-          "duration": "00:00:08",
-          "video_url": "https://darkroom-clips.mlb.com/fdfa0229-eadb-43be-9e76-b37fde340eae.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/p2ajcoyj1pzjsaefzdjn.jpg"
         }
       ],
       "home": {
@@ -27284,7 +27284,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 823164,
-        "generated_at": "2026-09-27T18:23:05.063625+00:00",
+        "generated_at": "2026-09-27T18:41:55.045631+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.33,
         "away_exp_runs": 5.06,
@@ -27297,7 +27297,7 @@
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
-        "spread_pick_prob": 0.505,
+        "spread_pick_prob": 0.504,
         "total_pick": "over",
         "total_pick_prob": 0.528,
         "spread_favorite": "away"
@@ -36293,7 +36293,7 @@
       "game_pk": 824705,
       "date": "2026-09-27",
       "game_time_utc": "2026-09-27T19:05:00Z",
-      "status": "Pre-Game",
+      "status": "Warmup",
       "venue": "Tropicana Field",
       "park_factor": "neutral",
       "home_score": null,
@@ -36301,22 +36301,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 824705,
-        "generated_at": "2026-09-27T18:23:05.063625+00:00",
+        "generated_at": "2026-09-27T18:41:55.045631+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.44,
         "away_exp_runs": 3.9,
         "home_win_prob": 0.455,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.29,
+        "spread_cover_prob": 0.291,
         "total_line": 6.5,
-        "over_prob": 0.533,
+        "over_prob": 0.534,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
-        "spread_pick_prob": 0.626,
+        "spread_pick_prob": 0.627,
         "total_pick": "over",
-        "total_pick_prob": 0.533,
+        "total_pick_prob": 0.534,
         "spread_favorite": "away"
       },
       "highlights": [
@@ -45002,7 +45002,7 @@
       "game_pk": 824948,
       "date": "2026-09-27",
       "game_time_utc": "2026-09-27T19:05:00Z",
-      "status": "Pre-Game",
+      "status": "Warmup",
       "venue": "Sutter Health Park",
       "park_factor": "neutral",
       "home_score": null,
@@ -45010,7 +45010,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 824948,
-        "generated_at": "2026-09-27T18:23:05.063625+00:00",
+        "generated_at": "2026-09-27T18:41:55.045631+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.65,
         "away_exp_runs": 4.68,
@@ -45018,14 +45018,14 @@
         "spread_line": 1.5,
         "spread_cover_prob": 0.263,
         "total_line": 7.5,
-        "over_prob": 0.523,
+        "over_prob": 0.524,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
         "spread_pick_prob": 0.565,
         "total_pick": "over",
-        "total_pick_prob": 0.523,
+        "total_pick_prob": 0.524,
         "spread_favorite": "away"
       },
       "highlights": [
@@ -54107,7 +54107,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 822761,
-        "generated_at": "2026-09-27T18:23:05.063625+00:00",
+        "generated_at": "2026-09-27T18:41:55.045631+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.24,
         "away_exp_runs": 4.81,
@@ -54115,14 +54115,14 @@
         "spread_line": 1.5,
         "spread_cover_prob": 0.311,
         "total_line": 8.5,
-        "over_prob": 0.495,
+        "over_prob": 0.496,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
-        "spread_pick_prob": 0.599,
+        "spread_pick_prob": 0.598,
         "total_pick": "under",
-        "total_pick_prob": 0.505,
+        "total_pick_prob": 0.504,
         "spread_favorite": "away"
       },
       "highlights": [
@@ -63200,7 +63200,7 @@
       "game_pk": 823084,
       "date": "2026-09-27",
       "game_time_utc": "2026-09-27T19:10:00Z",
-      "status": "Pre-Game",
+      "status": "Warmup",
       "venue": "T-Mobile Park",
       "park_factor": "pitcher",
       "home_score": null,
@@ -63208,22 +63208,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 823084,
-        "generated_at": "2026-09-27T18:23:05.063625+00:00",
+        "generated_at": "2026-09-27T18:41:55.045631+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.83,
         "away_exp_runs": 3.6,
-        "home_win_prob": 0.522,
+        "home_win_prob": 0.521,
         "spread_line": 1.5,
         "spread_cover_prob": 0.353,
         "total_line": 6.5,
-        "over_prob": 0.543,
+        "over_prob": 0.542,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
         "spread_pick_prob": 0.647,
         "total_pick": "over",
-        "total_pick_prob": 0.543,
+        "total_pick_prob": 0.542,
         "spread_favorite": "home"
       },
       "highlights": [
@@ -72337,22 +72337,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 823246,
-        "generated_at": "2026-09-27T18:23:05.063625+00:00",
+        "generated_at": "2026-09-27T18:41:55.045631+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.3,
         "away_exp_runs": 3.48,
-        "home_win_prob": 0.482,
+        "home_win_prob": 0.481,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.305,
+        "spread_cover_prob": 0.304,
         "total_line": 6.5,
-        "over_prob": 0.476,
+        "over_prob": 0.475,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
-        "spread_pick_prob": 0.662,
+        "spread_pick_prob": 0.661,
         "total_pick": "under",
-        "total_pick_prob": 0.524,
+        "total_pick_prob": 0.525,
         "spread_favorite": "away"
       },
       "highlights": [
@@ -81406,7 +81406,7 @@
       "game_pk": 823650,
       "date": "2026-09-27",
       "game_time_utc": "2026-09-27T19:10:00Z",
-      "status": "Pre-Game",
+      "status": "Warmup",
       "venue": "Target Field",
       "park_factor": "neutral",
       "home_score": null,
@@ -81414,22 +81414,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 823650,
-        "generated_at": "2026-09-27T18:23:05.063625+00:00",
+        "generated_at": "2026-09-27T18:41:55.045631+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.39,
         "away_exp_runs": 4.61,
-        "home_win_prob": 0.482,
+        "home_win_prob": 0.481,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.338,
+        "spread_cover_prob": 0.337,
         "total_line": 8.5,
-        "over_prob": 0.491,
+        "over_prob": 0.49,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
         "spread_pick_prob": 0.628,
         "total_pick": "under",
-        "total_pick_prob": 0.509,
+        "total_pick_prob": 0.51,
         "spread_favorite": "away"
       },
       "highlights": [
@@ -90113,22 +90113,22 @@
       "live_score": null,
       "projection": {
         "game_pk": 823731,
-        "generated_at": "2026-09-27T18:23:05.063625+00:00",
+        "generated_at": "2026-09-27T18:41:55.045631+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.72,
         "away_exp_runs": 2.42,
-        "home_win_prob": 0.72,
+        "home_win_prob": 0.721,
         "spread_line": 1.5,
         "spread_cover_prob": 0.551,
         "total_line": 6.5,
-        "over_prob": 0.509,
+        "over_prob": 0.51,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "home",
         "spread_pick_prob": 0.551,
         "total_pick": "over",
-        "total_pick_prob": 0.509,
+        "total_pick_prob": 0.51,
         "spread_favorite": "home"
       },
       "highlights": [
@@ -99150,7 +99150,7 @@
       "game_pk": 823814,
       "date": "2026-09-27",
       "game_time_utc": "2026-09-27T19:10:00Z",
-      "status": "Pre-Game",
+      "status": "Warmup",
       "venue": "loanDepot park",
       "park_factor": "pitcher",
       "home_score": null,
@@ -99158,7 +99158,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 823814,
-        "generated_at": "2026-09-27T18:23:05.063625+00:00",
+        "generated_at": "2026-09-27T18:41:55.045631+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.09,
         "away_exp_runs": 4.26,
@@ -108259,7 +108259,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 824055,
-        "generated_at": "2026-09-27T18:23:05.063625+00:00",
+        "generated_at": "2026-09-27T18:41:55.045631+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 2.81,
         "away_exp_runs": 4.06,
@@ -108267,14 +108267,14 @@
         "spread_line": 1.5,
         "spread_cover_prob": 0.213,
         "total_line": 6.5,
-        "over_prob": 0.485,
+        "over_prob": 0.484,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
-        "spread_pick_prob": 0.554,
+        "spread_pick_prob": 0.555,
         "total_pick": "under",
-        "total_pick_prob": 0.515,
+        "total_pick_prob": 0.516,
         "spread_favorite": "away"
       },
       "highlights": [
@@ -117278,7 +117278,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 824217,
-        "generated_at": "2026-09-27T18:23:05.063625+00:00",
+        "generated_at": "2026-09-27T18:41:55.045631+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.14,
         "away_exp_runs": 3.5,
@@ -126341,7 +126341,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 824542,
-        "generated_at": "2026-09-27T18:23:05.063625+00:00",
+        "generated_at": "2026-09-27T18:41:55.045631+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 6.36,
         "away_exp_runs": 4.03,
@@ -135858,7 +135858,7 @@
           "delta": 22
         },
         "result": null,
-        "dnp": false
+        "dnp": true
       },
       {
         "role": "pitcher",
@@ -136176,7 +136176,7 @@
           "delta": -20
         },
         "result": null,
-        "dnp": false
+        "dnp": true
       },
       {
         "role": "batter",
@@ -136203,7 +136203,7 @@
           "delta": -2
         },
         "result": null,
-        "dnp": false
+        "dnp": true
       },
       {
         "role": "batter",
@@ -136228,7 +136228,7 @@
           "n": 10
         },
         "result": null,
-        "dnp": false
+        "dnp": true
       },
       {
         "role": "batter",
@@ -136255,7 +136255,7 @@
           "delta": -23
         },
         "result": null,
-        "dnp": false
+        "dnp": true
       },
       {
         "role": "batter",
@@ -136494,7 +136494,7 @@
           "delta": -31
         },
         "result": null,
-        "dnp": false
+        "dnp": true
       },
       {
         "role": "pitcher",
