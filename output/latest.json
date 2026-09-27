@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T18:43:00.083517+00:00",
+  "generated_at": "2026-09-27T21:39:54.821047+00:00",
   "range": [
     "2026-09-27",
     "2026-09-29"
@@ -9,59 +9,56 @@
       "game_pk": 822679,
       "date": "2026-09-27",
       "game_time_utc": "2026-09-27T17:05:00Z",
-      "status": "In Progress",
+      "status": "Final",
       "venue": "Nationals Park",
       "park_factor": "neutral",
-      "home_score": null,
-      "away_score": null,
-      "live_score": {
-        "home_runs": 0,
-        "away_runs": 0
-      },
+      "home_score": 6,
+      "away_score": 4,
+      "live_score": null,
       "projection": {
         "game_pk": 822679,
-        "generated_at": "2026-09-27T18:41:55.045631+00:00",
+        "generated_at": "2026-09-27T18:23:05.063625+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.82,
         "away_exp_runs": 5.73,
         "home_win_prob": 0.433,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.309,
+        "spread_cover_prob": 0.308,
         "total_line": 9.5,
         "over_prob": 0.529,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
-        "spread_pick_prob": 0.564,
+        "spread_pick_prob": 0.563,
         "total_pick": "over",
         "total_pick_prob": 0.529,
         "spread_favorite": "away"
       },
       "highlights": [
         {
-          "title": "Francisco Lindor's 300th career home run (21)",
-          "duration": "00:00:20",
-          "video_url": "https://bdata-producedclips.mlb.com/ee2697c0-cc69-4d6f-a1af-78ad49326ab4.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/j6n79txdbqmhwqxhysvw.jpg"
+          "title": "Carson Benege collects three hits",
+          "duration": "00:01:01",
+          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-09/27/8e4cc8e7-8379c027-9aa9ac17-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/ygg95kzv7oggndusslxp.jpg"
         },
         {
-          "title": "Ronny Mauricio's two-run home run (4)",
-          "duration": "00:00:33",
-          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-09/27/261cada2-28abcd9e-9bbb5e6b-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/qa63dgjxzqfr6karii0v.jpg"
+          "title": "Andr\u00e9s Chaparro's multihomer game",
+          "duration": "00:01:28",
+          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-09/27/924901e4-3f9c7092-8888cad6-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/mwv44fkn5onite7pqqcs.jpg"
         },
         {
-          "title": "CJ Abrams' RBI triple",
-          "duration": "00:00:18",
-          "video_url": "https://bdata-producedclips.mlb.com/fd140e0a-18f6-4ad9-a758-88e931be6356.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/x4lkorpmcqw6fhwctjau.jpg"
+          "title": "Erik Tolman earns the save",
+          "duration": "00:00:29",
+          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-09/27/db51bd46-639d0bc8-3fdfc250-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/ejs31p2bnoiu09iqetey.jpg"
         },
         {
-          "title": "Ball 4 call confirmed after ABS challenge",
-          "duration": "00:00:24",
-          "video_url": "https://bdata-producedclips.mlb.com/e4910f73-67f7-4103-bb07-e5c1fc430526.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/qk6lolmbs0jg49jq06ig.jpg"
+          "title": "Brady House's RBI single",
+          "duration": "00:00:19",
+          "video_url": "https://bdata-producedclips.mlb.com/cd5f505a-e420-4bd4-9d4e-dc1092cba472.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/b5evbhvdxs7illbrnk47.jpg"
         }
       ],
       "home": {
@@ -1340,7 +1337,7 @@
               "line": 0.5,
               "direction": "over",
               "projection": 0.82,
-              "result": null
+              "result": "miss"
             },
             "game_result": {
               "at_bats": 0,
@@ -3181,7 +3178,7 @@
               "line": 0.5,
               "direction": "over",
               "projection": 0.86,
-              "result": null
+              "result": "miss"
             },
             "game_result": {
               "at_bats": 0,
@@ -5867,7 +5864,7 @@
               "line": 2.5,
               "direction": "under",
               "projection": 1.91,
-              "result": null
+              "result": "hit"
             },
             "game_result": {
               "at_bats": 1,
@@ -9115,7 +9112,7 @@
       "game_pk": 823490,
       "date": "2026-09-27",
       "game_time_utc": "2026-09-27T17:05:00Z",
-      "status": "Delayed Start",
+      "status": "Cancelled",
       "venue": "Yankee Stadium",
       "park_factor": "hitter",
       "home_score": null,
@@ -9123,7 +9120,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 823490,
-        "generated_at": "2026-09-27T18:41:55.045631+00:00",
+        "generated_at": "2026-09-27T21:39:20.705055+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.43,
         "away_exp_runs": 4.81,
@@ -18230,21 +18227,21 @@
       "game_pk": 823408,
       "date": "2026-09-27",
       "game_time_utc": "2026-09-27T18:30:00Z",
-      "status": "In Progress",
+      "status": "Final",
       "venue": "Citizens Bank Park",
       "park_factor": "hitter",
-      "home_score": null,
-      "away_score": null,
+      "home_score": 7,
+      "away_score": 3,
       "live_score": null,
       "projection": {
         "game_pk": 823408,
-        "generated_at": "2026-09-27T18:41:55.045631+00:00",
+        "generated_at": "2026-09-27T18:23:05.063625+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.4,
         "away_exp_runs": 3.57,
         "home_win_prob": 0.483,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.309,
+        "spread_cover_prob": 0.31,
         "total_line": 6.5,
         "over_prob": 0.496,
         "home_score_line": null,
@@ -18258,28 +18255,28 @@
       },
       "highlights": [
         {
+          "title": "Jonny Deluca's two-homer game",
+          "duration": "00:00:52",
+          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-09/27/fb927f0b-6483fcb8-53230676-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/hvdzuzh84p8lp1g0zfxi.jpg"
+        },
+        {
+          "title": "The Phillies clinch postseason berth",
+          "duration": "00:01:49",
+          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-09/27/d5e4225f-c94b8ccc-e47ab9e5-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/sh74zha0zrxwgsifayqv.jpg"
+        },
+        {
           "title": "Ball 1 overturned following ABS challenge",
+          "duration": "00:00:24",
+          "video_url": "https://bdata-producedclips.mlb.com/c5a4197e-1a7a-471c-a234-a96e1d693351.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/lfn2hgnteirmgynyihrs.jpg"
+        },
+        {
+          "title": "Strike 1 overturned following ABS challenge",
           "duration": "00:00:25",
-          "video_url": "https://bdata-producedclips.mlb.com/0443c71d-54f9-4625-8ad5-84b5cef12cb8.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/equw5orj41b2fn4xz0lp.jpg"
-        },
-        {
-          "title": "Zack Wheeler strikes out Victor Mesa Jr.",
-          "duration": "00:00:06",
-          "video_url": "https://bdata-producedclips.mlb.com/34605657-cc91-4a56-80b2-951b4afc9498.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/aq0lagxbjzkq1vt1h0gu.jpg"
-        },
-        {
-          "title": "Starting lineups for Rays at Phillies - September 27, 2026",
-          "duration": "00:00:10",
-          "video_url": "https://darkroom-clips.mlb.com/00016023-b55f-4b5e-9f53-b6c1a9c71a12.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/lrzivojd2wjgkk3bv7bs.jpg"
-        },
-        {
-          "title": "Bench availability for Tampa Bay, September 27 vs Phillies",
-          "duration": "00:00:08",
-          "video_url": "https://darkroom-clips.mlb.com/63f5cf0e-97bd-44ad-9f58-8bc59f495b1b.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/zueyfjxbzkqibowudf9i.jpg"
+          "video_url": "https://bdata-producedclips.mlb.com/4758bd37-13cb-4d8b-bdb7-7c6347a976a0.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/btst6gmybbh6mw52ga2c.jpg"
         }
       ],
       "home": {
@@ -27276,7 +27273,7 @@
       "game_pk": 823164,
       "date": "2026-09-27",
       "game_time_utc": "2026-09-27T19:05:00Z",
-      "status": "Pre-Game",
+      "status": "In Progress",
       "venue": "Oracle Park",
       "park_factor": "pitcher",
       "home_score": null,
@@ -27284,7 +27281,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 823164,
-        "generated_at": "2026-09-27T18:41:55.045631+00:00",
+        "generated_at": "2026-09-27T21:39:20.705055+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.33,
         "away_exp_runs": 5.06,
@@ -27304,28 +27301,28 @@
       },
       "highlights": [
         {
-          "title": "Jack Dreyer against the Giants",
-          "duration": "00:00:11",
-          "video_url": "https://darkroom-clips.mlb.com/e7456f44-a199-4ada-afa5-8ada273f7889.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/ikzbd3yodv4dpsthqzhl.jpg"
+          "title": "Home run overturned to foul ball after replay review",
+          "duration": "00:00:39",
+          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-09/27/99f0be44-eb5be1b4-fb909472-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/nnaxtb2ab7xmdi0xcrry.jpg"
         },
         {
-          "title": "Starting lineups for Dodgers at Giants - September 27, 2026",
-          "duration": "00:00:10",
-          "video_url": "https://darkroom-clips.mlb.com/6efb2412-a870-4c05-8a7b-33b1310b379c.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/c5qqx2vkgjeiptgdqe2r.jpg"
+          "title": "Ball 4 confirmed after ABS challenge",
+          "duration": "00:00:22",
+          "video_url": "https://bdata-producedclips.mlb.com/1e6c6ea9-ceff-4919-9931-6ea792af4ecb.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/yfp5qswdx6i3saalaw3d.jpg"
         },
         {
-          "title": "Bench availability for Los Angeles, September 27 vs Giants",
-          "duration": "00:00:08",
-          "video_url": "https://darkroom-clips.mlb.com/8ce66ad2-db20-4cab-ab60-3f47e0ab74d8.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/yzbb99ys17qjlcrz3fwh.jpg"
+          "title": "Marcelo Mayer's first hit as a Giant",
+          "duration": "00:00:22",
+          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-09/27/5cdd42d5-e22f4fac-2d314233-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/w0r8f2b1kq5cskcfu89w.jpg"
         },
         {
-          "title": "Bench availability for San Francisco, September 27 vs Dodgers",
-          "duration": "00:00:08",
-          "video_url": "https://darkroom-clips.mlb.com/ed630192-7fc0-49aa-a0e1-4fc37c7cd3a8.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/zud02p6xy4pmxcc2ztxr.jpg"
+          "title": "Shohei Ohtani's single",
+          "duration": "00:00:13",
+          "video_url": "https://bdata-producedclips.mlb.com/4ecb3b4e-f38a-4d52-b571-ccc842b51d47.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/celz2j5c5fekei0xphwh.jpg"
         }
       ],
       "home": {
@@ -36293,7 +36290,7 @@
       "game_pk": 824705,
       "date": "2026-09-27",
       "game_time_utc": "2026-09-27T19:05:00Z",
-      "status": "Warmup",
+      "status": "In Progress",
       "venue": "Tropicana Field",
       "park_factor": "neutral",
       "home_score": null,
@@ -36301,13 +36298,13 @@
       "live_score": null,
       "projection": {
         "game_pk": 824705,
-        "generated_at": "2026-09-27T18:41:55.045631+00:00",
+        "generated_at": "2026-09-27T21:39:20.705055+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.44,
         "away_exp_runs": 3.9,
         "home_win_prob": 0.455,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.291,
+        "spread_cover_prob": 0.29,
         "total_line": 6.5,
         "over_prob": 0.534,
         "home_score_line": null,
@@ -36321,28 +36318,28 @@
       },
       "highlights": [
         {
-          "title": "Starting lineups for Cubs at Red Sox - September 27, 2026",
-          "duration": "00:00:10",
-          "video_url": "https://darkroom-clips.mlb.com/bef26395-b2b5-408a-8d89-bea8849c054e.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/fdgefapagmssdduxtnmz.jpg"
+          "title": "Gabriel Arias' sacrifice fly",
+          "duration": "00:00:19",
+          "video_url": "https://bdata-producedclips.mlb.com/f52c7f7e-eede-47ff-a900-18938c8ecfd9.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/cmixea3pq8gsneczkxea.jpg"
         },
         {
-          "title": "Bench availability for Chicago, September 27 vs Red Sox",
-          "duration": "00:00:08",
-          "video_url": "https://darkroom-clips.mlb.com/8ea4e279-cb3a-4e29-8d22-d09c825873df.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/qjnk3bxmoagergjrbnp9.jpg"
+          "title": "Alex Bregman's RBI double",
+          "duration": "00:00:19",
+          "video_url": "https://bdata-producedclips.mlb.com/5950f382-5e51-4dd8-bb19-295005c2cf92.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/sgscnesxouuyosfr6dmc.jpg"
         },
         {
-          "title": "Bench availability for Boston, September 27 vs Cubs",
-          "duration": "00:00:08",
-          "video_url": "https://darkroom-clips.mlb.com/ac4a78a8-9a20-42f5-9580-e70d5ef46e45.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/od7batfpe1dmdv5dbffg.jpg"
+          "title": "Strike 1 is overturned after Bregman' ABS challenge",
+          "duration": "00:00:22",
+          "video_url": "https://bdata-producedclips.mlb.com/faa5d157-5dd6-4d39-be98-8ec494ca8556.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/yhzav37hjdhueawpvkcc.jpg"
         },
         {
-          "title": "Fielding alignment for Chicago, September 27 vs Red Sox",
-          "duration": "00:00:11",
-          "video_url": "https://darkroom-clips.mlb.com/54816058-3a25-4263-b52f-d2af9c17c1f4.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/yb5aiebpxho2f93fpyv0.jpg"
+          "title": "Strike 3 is overturned after Abreu's ABS challenge",
+          "duration": "00:00:23",
+          "video_url": "https://bdata-producedclips.mlb.com/7a0daed6-73f9-43db-a3dc-80818e0e1e34.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/ihc2zlahmztpbbvvuzxj.jpg"
         }
       ],
       "home": {
@@ -43618,7 +43615,7 @@
             "player_id": 699393,
             "name": "Pedro Ram\u00edrez",
             "bat_side": "S",
-            "position": "3B",
+            "position": "2B",
             "batting_order": 7,
             "injury": null,
             "l7": {
@@ -45002,7 +44999,7 @@
       "game_pk": 824948,
       "date": "2026-09-27",
       "game_time_utc": "2026-09-27T19:05:00Z",
-      "status": "Warmup",
+      "status": "In Progress",
       "venue": "Sutter Health Park",
       "park_factor": "neutral",
       "home_score": null,
@@ -45010,7 +45007,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 824948,
-        "generated_at": "2026-09-27T18:41:55.045631+00:00",
+        "generated_at": "2026-09-27T21:39:20.705055+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.65,
         "away_exp_runs": 4.68,
@@ -45018,40 +45015,40 @@
         "spread_line": 1.5,
         "spread_cover_prob": 0.263,
         "total_line": 7.5,
-        "over_prob": 0.524,
+        "over_prob": 0.523,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
-        "spread_pick_prob": 0.565,
+        "spread_pick_prob": 0.566,
         "total_pick": "over",
-        "total_pick_prob": 0.524,
+        "total_pick_prob": 0.523,
         "spread_favorite": "away"
       },
       "highlights": [
         {
-          "title": "Starting lineups for Astros at Athletics - September 27, 2026",
-          "duration": "00:00:10",
-          "video_url": "https://darkroom-clips.mlb.com/81b8a1f9-5857-4d7c-9253-ff8c5a15fdf1.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/eq28gwtgjw8wrdvvgfy1.jpg"
+          "title": "Ball confirmed after ABS challenge",
+          "duration": "00:00:24",
+          "video_url": "https://bdata-producedclips.mlb.com/70f0a1e3-10fb-4ce6-b962-e481144baaca.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/bf4irfpzigivqipbq7mi.jpg"
         },
         {
-          "title": "Bench availability for Houston, September 27 vs Athletics",
-          "duration": "00:00:08",
-          "video_url": "https://darkroom-clips.mlb.com/47152c30-1e70-4c1a-b07c-74a586efd7be.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/cyrd4mxqocmnzs1nn1w4.jpg"
+          "title": "Jeremy Pe\u00f1a's sacrifice fly",
+          "duration": "00:00:24",
+          "video_url": "https://bdata-producedclips.mlb.com/fe1756b0-b82a-427d-bf02-cd820bc5939c.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/vy4qdhbv5heu8b7iakmp.jpg"
         },
         {
-          "title": "Fielding alignment for Houston, September 27 vs Athletics",
-          "duration": "00:00:11",
-          "video_url": "https://darkroom-clips.mlb.com/02abce8a-9df4-4a35-8a02-83ec56db815b.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/ha4rcpevecus0ey2ms18.jpg"
+          "title": "Cam Smith's RBI single",
+          "duration": "00:00:20",
+          "video_url": "https://bdata-producedclips.mlb.com/ecdaed22-19dd-418d-9087-f0e33dab3f2b.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/f6m63fhm3r5ipb7ldmje.jpg"
         },
         {
-          "title": "Bench availability for Athletics, September 27 vs Astros",
-          "duration": "00:00:08",
-          "video_url": "https://darkroom-clips.mlb.com/77c8805e-fbae-4ec9-9b5c-ab69dc14b6c0.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/jwp8lj4ttdt81bbiw3yj.jpg"
+          "title": "Ball confirmed after ABS challenge",
+          "duration": "00:00:24",
+          "video_url": "https://bdata-producedclips.mlb.com/b39b830d-c215-4873-bad6-346b39779c8c.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/ia5nzq7fo3kyg4yifgjj.jpg"
         }
       ],
       "home": {
@@ -54099,15 +54096,15 @@
       "game_pk": 822761,
       "date": "2026-09-27",
       "game_time_utc": "2026-09-27T19:07:00Z",
-      "status": "Pre-Game",
+      "status": "Game Over",
       "venue": "Rogers Centre",
       "park_factor": "neutral",
-      "home_score": null,
-      "away_score": null,
+      "home_score": 5,
+      "away_score": 1,
       "live_score": null,
       "projection": {
         "game_pk": 822761,
-        "generated_at": "2026-09-27T18:41:55.045631+00:00",
+        "generated_at": "2026-09-27T18:23:05.063625+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.24,
         "away_exp_runs": 4.81,
@@ -54115,40 +54112,40 @@
         "spread_line": 1.5,
         "spread_cover_prob": 0.311,
         "total_line": 8.5,
-        "over_prob": 0.496,
+        "over_prob": 0.495,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
-        "spread_pick_prob": 0.598,
+        "spread_pick_prob": 0.599,
         "total_pick": "under",
-        "total_pick_prob": 0.504,
+        "total_pick_prob": 0.505,
         "spread_favorite": "away"
       },
       "highlights": [
         {
-          "title": "Starting lineups for Reds at Blue Jays - September 27, 2026",
-          "duration": "00:00:10",
-          "video_url": "https://darkroom-clips.mlb.com/5241c79a-2f88-40e7-93a7-1380fcfef249.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/d2ea9nujbcrwut6sdv6a.jpg"
+          "title": "Max Scherzer spins seven innings, fans seven vs. Reds",
+          "duration": "00:07:06",
+          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-09/27/10fdb75a-bb35dbee-1b572b17-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/ca0vyzdtc6mipvtm3ugf.jpg"
         },
         {
-          "title": "Bench availability for Cincinnati, September 27 vs Blue Jays",
-          "duration": "00:00:08",
-          "video_url": "https://darkroom-clips.mlb.com/a1959661-31a3-4750-81fb-88d006b316e1.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/aobeedu07xm4lhkw0e92.jpg"
+          "title": "Charles McAdoo's solo homer (3)",
+          "duration": "00:00:30",
+          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-09/27/427a807b-354444e4-d124385c-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/zrxjjroxnb6fow80sgpo.jpg"
         },
         {
-          "title": "Fielding alignment for Cincinnati, September 27 vs Blue Jays",
-          "duration": "00:00:11",
-          "video_url": "https://darkroom-clips.mlb.com/74b81265-a380-4bc3-afba-827d53336ac0.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/z3dgejip6vie5obvynof.jpg"
+          "title": "Max Scherzer fans Juan Brito for his final K of 2026 ",
+          "duration": "00:00:09",
+          "video_url": "https://bdata-producedclips.mlb.com/f3c3c821-3d3d-46aa-a9ef-f20b8d49b7a1.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/ngffvimbtcprv2kwm5h1.jpg"
         },
         {
-          "title": "Bench availability for Toronto, September 27 vs Reds",
-          "duration": "00:00:08",
-          "video_url": "https://darkroom-clips.mlb.com/1cd778ec-5938-40fa-8080-aa8800e50a32.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/lxcgygklgltwy936engm.jpg"
+          "title": "Max Scherzer pleads his case to stay in",
+          "duration": "00:00:42",
+          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-09/27/6bd6b4fd-da7212d2-95c2191b-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/yegbxnga8sy8eivydgjx.jpg"
         }
       ],
       "home": {
@@ -63200,7 +63197,7 @@
       "game_pk": 823084,
       "date": "2026-09-27",
       "game_time_utc": "2026-09-27T19:10:00Z",
-      "status": "Warmup",
+      "status": "In Progress",
       "venue": "T-Mobile Park",
       "park_factor": "pitcher",
       "home_score": null,
@@ -63208,48 +63205,48 @@
       "live_score": null,
       "projection": {
         "game_pk": 823084,
-        "generated_at": "2026-09-27T18:41:55.045631+00:00",
+        "generated_at": "2026-09-27T21:39:20.705055+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.83,
         "away_exp_runs": 3.6,
-        "home_win_prob": 0.521,
+        "home_win_prob": 0.523,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.353,
+        "spread_cover_prob": 0.354,
         "total_line": 6.5,
-        "over_prob": 0.542,
+        "over_prob": 0.543,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
-        "spread_pick_prob": 0.647,
+        "spread_pick_prob": 0.646,
         "total_pick": "over",
-        "total_pick_prob": 0.542,
+        "total_pick_prob": 0.543,
         "spread_favorite": "home"
       },
       "highlights": [
         {
-          "title": "Starting lineups for Angels at Mariners - September 27, 2026",
-          "duration": "00:00:10",
-          "video_url": "https://darkroom-clips.mlb.com/772b7e34-35e9-431f-9d6b-3a4eec3bdfdc.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/ixkfsfqutumjhwhotriq.jpg"
+          "title": "Yusei Kikuchi fans seven across five innings",
+          "duration": "00:00:44",
+          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-09/27/fa9e85ca-074b20df-cf16362f-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/kyxmqgt42ts8wfgh49ll.jpg"
         },
         {
-          "title": "Fielding alignment for Los Angeles, September 27 vs Mariners",
-          "duration": "00:00:11",
-          "video_url": "https://darkroom-clips.mlb.com/b47d46a9-c7db-472b-afd0-4d22d769cbb4.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/vnjbqx9ehjtzxxmzaeuf.jpg"
+          "title": "Randy Arozarena two-run double",
+          "duration": "00:00:24",
+          "video_url": "https://bdata-producedclips.mlb.com/407519f8-fe8f-43cc-9bb3-b26be96f2d18.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/pgiwzrcez65tyjpocwdq.jpg"
         },
         {
-          "title": "Bench availability for Los Angeles, September 27 vs Mariners",
-          "duration": "00:00:08",
-          "video_url": "https://darkroom-clips.mlb.com/4d5009c6-4c33-419f-a958-51a63f463df2.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/opxlwlxgt2x50amwyuwr.jpg"
+          "title": "J.P. Crawford's standing ovation for possible goodbye",
+          "duration": "00:01:32",
+          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-09/27/2968adef-281634f9-ecb2bfe7-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/rrqm8ry4kmmcyrlycwud.jpg"
         },
         {
-          "title": "Bench availability for Seattle, September 27 vs Angels",
-          "duration": "00:00:08",
-          "video_url": "https://darkroom-clips.mlb.com/f8e56863-9509-4e32-807f-fcad725be76c.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/ic75qmgiaqz3pjgzofrm.jpg"
+          "title": "Cole Young scores on error",
+          "duration": "00:00:19",
+          "video_url": "https://bdata-producedclips.mlb.com/518aa0f8-584e-40fb-87f7-87de7b353289.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/ajoln9pnqzxhojwuousj.jpg"
         }
       ],
       "home": {
@@ -72329,7 +72326,7 @@
       "game_pk": 823246,
       "date": "2026-09-27",
       "game_time_utc": "2026-09-27T19:10:00Z",
-      "status": "Pre-Game",
+      "status": "In Progress",
       "venue": "Petco Park",
       "park_factor": "pitcher",
       "home_score": null,
@@ -72337,48 +72334,48 @@
       "live_score": null,
       "projection": {
         "game_pk": 823246,
-        "generated_at": "2026-09-27T18:41:55.045631+00:00",
+        "generated_at": "2026-09-27T21:39:20.705055+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 3.3,
         "away_exp_runs": 3.48,
-        "home_win_prob": 0.481,
+        "home_win_prob": 0.482,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.304,
+        "spread_cover_prob": 0.305,
         "total_line": 6.5,
-        "over_prob": 0.475,
+        "over_prob": 0.477,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
         "spread_pick_prob": 0.661,
         "total_pick": "under",
-        "total_pick_prob": 0.525,
+        "total_pick_prob": 0.523,
         "spread_favorite": "away"
       },
       "highlights": [
         {
-          "title": "Fielding alignment for Arizona, September 27 vs Padres",
-          "duration": "00:00:11",
-          "video_url": "https://darkroom-clips.mlb.com/f2766366-2a0c-4674-8a1f-0331916df750.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/c2rtssxof3zdafrbda3o.jpg"
+          "title": "Jase Bowen called out on strikes.",
+          "duration": "00:00:12",
+          "video_url": "https://bdata-producedclips.mlb.com/eafaa8da-9ebf-45b9-b75d-9f17820d4818.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/rzxbhhfcd2wq9rouhozn.jpg"
         },
         {
-          "title": "Starting lineups for Diamondbacks at Padres - September 27, 2026",
-          "duration": "00:00:10",
-          "video_url": "https://darkroom-clips.mlb.com/a262bce3-f445-45a8-bb92-039b2c61686b.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/nkvn2vpu8nt46jxbtmrq.jpg"
+          "title": "Freddy Fermin's two-run single",
+          "duration": "00:00:20",
+          "video_url": "https://bdata-producedclips.mlb.com/a2b194f6-7e46-40d7-b2ed-019116bbf108.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/v6mefbkaulxxzlcxwjsj.jpg"
         },
         {
-          "title": "Bench availability for Arizona, September 27 vs Padres",
-          "duration": "00:00:08",
-          "video_url": "https://darkroom-clips.mlb.com/c7fea028-e162-4116-9a1a-1eda495e07e4.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/rvwvm0xzlxibxxxzs8es.jpg"
+          "title": "Jake Cronenworth's RBI walk after ABS Challenge",
+          "duration": "00:00:30",
+          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-09/27/41ab9946-d806c1d0-9744a893-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/mp4zjlehxsopmjtrhjvd.jpg"
         },
         {
-          "title": "Bench availability for San Diego, September 27 vs D-backs",
-          "duration": "00:00:08",
-          "video_url": "https://darkroom-clips.mlb.com/12e5135a-e002-4182-896c-5468d172138d.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/lfdylh9m9g7r0urzi6gy.jpg"
+          "title": "Ball 4 confirmed",
+          "duration": "00:00:22",
+          "video_url": "https://bdata-producedclips.mlb.com/b3e2f4d3-fb6c-4357-9cf3-495b0c0ee9b7.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/oroyqo7mmkdy8mit7bvj.jpg"
         }
       ],
       "home": {
@@ -75031,7 +75028,7 @@
             "player_id": 630105,
             "name": "Jake Cronenworth",
             "bat_side": "L",
-            "position": "2B",
+            "position": "3B",
             "batting_order": 6,
             "injury": null,
             "l7": {
@@ -81406,56 +81403,56 @@
       "game_pk": 823650,
       "date": "2026-09-27",
       "game_time_utc": "2026-09-27T19:10:00Z",
-      "status": "Warmup",
+      "status": "Game Over",
       "venue": "Target Field",
       "park_factor": "neutral",
-      "home_score": null,
-      "away_score": null,
+      "home_score": 6,
+      "away_score": 4,
       "live_score": null,
       "projection": {
         "game_pk": 823650,
-        "generated_at": "2026-09-27T18:41:55.045631+00:00",
+        "generated_at": "2026-09-27T18:23:05.063625+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.39,
         "away_exp_runs": 4.61,
-        "home_win_prob": 0.481,
+        "home_win_prob": 0.482,
         "spread_line": 1.5,
-        "spread_cover_prob": 0.337,
+        "spread_cover_prob": 0.338,
         "total_line": 8.5,
-        "over_prob": 0.49,
+        "over_prob": 0.491,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
         "spread_pick_prob": 0.628,
         "total_pick": "under",
-        "total_pick_prob": 0.51,
+        "total_pick_prob": 0.509,
         "spread_favorite": "away"
       },
       "highlights": [
         {
-          "title": "Fielding alignment for Texas, September 27 vs Twins",
-          "duration": "00:00:11",
-          "video_url": "https://darkroom-clips.mlb.com/fbe78790-0a7a-4e66-8a5c-8313543b401c.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/foyxttytlbz57nnowid2.jpg"
+          "title": "Ezequiel Duran flies out to left fielder Austin Martin.",
+          "duration": "00:00:21",
+          "video_url": "https://bdata-producedclips.mlb.com/cd0c61d5-51c8-42fe-9ac4-77f0b8744f33.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/wazlhimeopxisp0rgh2c.jpg"
         },
         {
-          "title": "Starting lineups for Rangers at Twins - September 27, 2026",
-          "duration": "00:00:10",
-          "video_url": "https://darkroom-clips.mlb.com/90e14704-dce2-40b2-9a4d-593f5a02b490.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/coff3t1drgqah7rtwckq.jpg"
+          "title": "Strike 1 confirmed after ABS challenge",
+          "duration": "00:00:23",
+          "video_url": "https://bdata-producedclips.mlb.com/b74e3abb-ea55-42f4-ae5c-fe09986b8fdc.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/dseauallx5nli7fudjgv.jpg"
         },
         {
-          "title": "Bench availability for Minnesota, September 27 vs Rangers",
-          "duration": "00:00:08",
-          "video_url": "https://darkroom-clips.mlb.com/7a8c6ada-3107-4611-a6e7-482c48fa9c33.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/mrzplpb6culibf4x0ptj.jpg"
+          "title": "Corey Seager's two-run homer (20) ",
+          "duration": "00:00:19",
+          "video_url": "https://bdata-producedclips.mlb.com/66cd361a-f6dd-4819-9b42-5ded47525887.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/euyn3olsgjcefdd8paeh.jpg"
         },
         {
-          "title": "Bench availability for Texas, September 27 vs Twins",
-          "duration": "00:00:08",
-          "video_url": "https://darkroom-clips.mlb.com/ac72ba1f-071f-44c0-8d17-e059ef799a96.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/imewgeq7bcjhxbsf60di.jpg"
+          "title": "Royce Lewis's solo home run (15)",
+          "duration": "00:00:31",
+          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-09/27/f0d30bf2-21cbce33-54d37d33-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/d1msvziut3xdxqmpjugk.jpg"
         }
       ],
       "home": {
@@ -88208,7 +88205,7 @@
             "player_id": 677649,
             "name": "Ezequiel Duran",
             "bat_side": "R",
-            "position": "3B",
+            "position": "CF",
             "batting_order": 5,
             "injury": null,
             "l7": {
@@ -90105,56 +90102,56 @@
       "game_pk": 823731,
       "date": "2026-09-27",
       "game_time_utc": "2026-09-27T19:10:00Z",
-      "status": "Pre-Game",
+      "status": "Game Over",
       "venue": "American Family Field",
       "park_factor": "neutral",
-      "home_score": null,
-      "away_score": null,
+      "home_score": 6,
+      "away_score": 4,
       "live_score": null,
       "projection": {
         "game_pk": 823731,
-        "generated_at": "2026-09-27T18:41:55.045631+00:00",
+        "generated_at": "2026-09-27T18:23:05.063625+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.72,
         "away_exp_runs": 2.42,
-        "home_win_prob": 0.721,
+        "home_win_prob": 0.72,
         "spread_line": 1.5,
         "spread_cover_prob": 0.551,
         "total_line": 6.5,
-        "over_prob": 0.51,
+        "over_prob": 0.509,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "home",
         "spread_pick_prob": 0.551,
         "total_pick": "over",
-        "total_pick_prob": 0.51,
+        "total_pick_prob": 0.509,
         "spread_favorite": "home"
       },
       "highlights": [
         {
-          "title": "Starting lineups for Cardinals at Brewers - September 27, 2026",
-          "duration": "00:00:10",
-          "video_url": "https://darkroom-clips.mlb.com/def9c6bf-e7a3-4249-b08d-2a7a3ae967c7.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/d3j6nu1ks3momyjooo1j.jpg"
+          "title": "C\u00e9sar Prieto strikes out swinging.",
+          "duration": "00:00:06",
+          "video_url": "https://bdata-producedclips.mlb.com/6fbd679a-18f6-445e-866a-a1199cd1bc7c.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/wjjp4fqgq4bvf5gz16um.jpg"
         },
         {
-          "title": "Bench availability for Milwaukee, September 27 vs Cardinals",
-          "duration": "00:00:08",
-          "video_url": "https://darkroom-clips.mlb.com/830ac8b7-2be6-41a3-979e-f254669f9417.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/p87unbucfl3oiazyjj0j.jpg"
+          "title": "A look at the stats of Jacob Misiorowski's pitches",
+          "duration": "00:01:03",
+          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-09/27/1534c8ed-349293d3-922cca7f-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/keihz4fs0fjreykwjdt5.jpg"
         },
         {
-          "title": "Fielding alignment for Milwaukee, September 27 vs Cardinals",
-          "duration": "00:00:11",
-          "video_url": "https://darkroom-clips.mlb.com/0c8e6c98-dfb9-42c8-9edc-0f990224ef92.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/ftqeoudunh0lneftrcfn.jpg"
+          "title": "Andre Pallante's four strike outs against Brewers",
+          "duration": "00:00:49",
+          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-09/27/485a54a8-e0ded4a6-a288b217-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/gwblghd0nehdfazpjcku.jpg"
         },
         {
-          "title": "Fielding alignment for St. Louis, September 27 vs Brewers",
-          "duration": "00:00:11",
-          "video_url": "https://darkroom-clips.mlb.com/b5851516-03e5-4ff5-bfda-8fe58e0f530b.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/kdcohxfkuitw9ddqklfy.jpg"
+          "title": "Leo Bernal's three-run home run",
+          "duration": "00:00:30",
+          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-09/27/15bfc6ec-67b5d916-a227c0b0-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/ounsivvunovjl3ny2p2n.jpg"
         }
       ],
       "home": {
@@ -99150,15 +99147,15 @@
       "game_pk": 823814,
       "date": "2026-09-27",
       "game_time_utc": "2026-09-27T19:10:00Z",
-      "status": "Warmup",
+      "status": "Game Over",
       "venue": "loanDepot park",
       "park_factor": "pitcher",
-      "home_score": null,
-      "away_score": null,
+      "home_score": 5,
+      "away_score": 3,
       "live_score": null,
       "projection": {
         "game_pk": 823814,
-        "generated_at": "2026-09-27T18:41:55.045631+00:00",
+        "generated_at": "2026-09-27T18:23:05.063625+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.09,
         "away_exp_runs": 4.26,
@@ -99178,28 +99175,28 @@
       },
       "highlights": [
         {
-          "title": "Starting lineups for Braves at Marlins - September 27, 2026",
-          "duration": "00:00:10",
-          "video_url": "https://darkroom-clips.mlb.com/61840907-bd58-4a50-8c7a-20407c964300.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/vphjw5u3ng0iz6gqruqb.jpg"
-        },
-        {
-          "title": "Bench availability for Miami, September 27 vs Braves",
+          "title": "DaShawn Keirsey Jr. strikes out swinging.",
           "duration": "00:00:08",
-          "video_url": "https://darkroom-clips.mlb.com/2f0dd969-59ed-4974-b1c5-5d73e559338d.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/u5gap1vqrbsmuupjywmi.jpg"
+          "video_url": "https://bdata-producedclips.mlb.com/a5acc257-1346-4530-8880-b22d30da2c6d.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/o3cuhbrpbwufhnrbwjmd.jpg"
         },
         {
-          "title": "Bench availability for Atlanta, September 27 vs Marlins",
-          "duration": "00:00:08",
-          "video_url": "https://darkroom-clips.mlb.com/4e74d3df-ccc0-47fe-bfdf-9ad985f47207.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/jspfbapyktwhx4mrnq96.jpg"
+          "title": "Strike 1 is confirmed after ABS challenge",
+          "duration": "00:00:23",
+          "video_url": "https://bdata-producedclips.mlb.com/95becf27-4dbc-48bf-a4d8-e07024ab5ee4.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/hlercgbeuems5x6ppxpt.jpg"
         },
         {
-          "title": "Fielding alignment for Atlanta, September 27 vs Marlins",
-          "duration": "00:00:11",
-          "video_url": "https://darkroom-clips.mlb.com/499f9d86-0ebf-4d51-85e8-e76130f92205.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/xnkdslssmyvrkharwsmv.jpg"
+          "title": "Janson Junk's five strikeouts",
+          "duration": "00:00:43",
+          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-09/27/bb09a67d-4244f5fa-42d00865-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/e9j4ugftfu5ylvbzlgis.jpg"
+        },
+        {
+          "title": "Griffin Conine's solo home run (19)",
+          "duration": "00:00:28",
+          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-09/27/b15916fb-706a68b8-fc5a7e71-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/jvcxshgc4ogllrszuodg.jpg"
         }
       ],
       "home": {
@@ -104104,7 +104101,7 @@
             "player_id": 643289,
             "name": "Mauricio Dub\u00f3n",
             "bat_side": "R",
-            "position": "LF",
+            "position": "3B",
             "batting_order": 1,
             "injury": null,
             "l7": {
@@ -105938,7 +105935,7 @@
             "player_id": 573262,
             "name": "Mike Yastrzemski",
             "bat_side": "L",
-            "position": "DH",
+            "position": "LF",
             "batting_order": 5,
             "injury": null,
             "l7": {
@@ -108251,15 +108248,15 @@
       "game_pk": 824055,
       "date": "2026-09-27",
       "game_time_utc": "2026-09-27T19:10:00Z",
-      "status": "Pre-Game",
+      "status": "Final",
       "venue": "Kauffman Stadium",
       "park_factor": "pitcher",
-      "home_score": null,
-      "away_score": null,
+      "home_score": 3,
+      "away_score": 2,
       "live_score": null,
       "projection": {
         "game_pk": 824055,
-        "generated_at": "2026-09-27T18:41:55.045631+00:00",
+        "generated_at": "2026-09-27T18:23:05.063625+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 2.81,
         "away_exp_runs": 4.06,
@@ -108267,40 +108264,40 @@
         "spread_line": 1.5,
         "spread_cover_prob": 0.213,
         "total_line": 6.5,
-        "over_prob": 0.484,
+        "over_prob": 0.485,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
-        "spread_pick_prob": 0.555,
+        "spread_pick_prob": 0.554,
         "total_pick": "under",
-        "total_pick_prob": 0.516,
+        "total_pick_prob": 0.515,
         "spread_favorite": "away"
       },
       "highlights": [
         {
-          "title": "Starting lineups for Guardians at Royals - September 27, 2026",
-          "duration": "00:00:10",
-          "video_url": "https://darkroom-clips.mlb.com/550e3461-7c1c-4e60-99ec-e6cdb9c4bd78.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/hgbjakvjruzt5iyz34fl.jpg"
+          "title": "Vinnie Pasquantino's two home runs vs. Guardians",
+          "duration": "00:00:58",
+          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-09/27/d467f7df-cd697d99-501f0eab-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/uluyjuedcasjj7yiavo4.jpg"
         },
         {
-          "title": "Bench availability for Cleveland, September 27 vs Royals",
-          "duration": "00:00:08",
-          "video_url": "https://darkroom-clips.mlb.com/5c34716e-9ee7-4551-974f-511f5272eb3a.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/way6k53xurfss0ylvwxq.jpg"
+          "title": "Lucas Erceg earns save, secures Royals' 3-2 win",
+          "duration": "00:00:19",
+          "video_url": "https://bdata-producedclips.mlb.com/c0e78f0f-272a-43fd-89c9-f6d17b494ba5.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/x2stvyy3qpikbsncwsb8.jpg"
         },
         {
-          "title": "Bench availability for Kansas City, September 27 vs Guardians",
-          "duration": "00:00:08",
-          "video_url": "https://darkroom-clips.mlb.com/3c81f7d1-97c2-4cd0-b56c-1c9e6a4551a1.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/ht0ggzqu4apbx5nawgao.jpg"
+          "title": "Daniel Lynch IV K's David Fry",
+          "duration": "00:00:09",
+          "video_url": "https://bdata-producedclips.mlb.com/80f97cd1-eefc-43d3-8300-66909695b58c.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/iuydrljqsccfy8c5frvm.jpg"
         },
         {
-          "title": "Fielding alignment for Kansas City, September 27 vs Guardians",
-          "duration": "00:00:11",
-          "video_url": "https://darkroom-clips.mlb.com/5c4fae00-6cea-4511-ac90-81260b3da90d.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/v6exs99vqqgp6zipalol.jpg"
+          "title": "Tyler Tolbert gets the out at first after review",
+          "duration": "00:00:26",
+          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-09/27/01b318e6-3223d990-669c1ef5-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/emsdvtrgjzu1t5841hj9.jpg"
         }
       ],
       "home": {
@@ -117270,7 +117267,7 @@
       "game_pk": 824217,
       "date": "2026-09-27",
       "game_time_utc": "2026-09-27T19:10:00Z",
-      "status": "Pre-Game",
+      "status": "In Progress",
       "venue": "Comerica Park",
       "park_factor": "pitcher",
       "home_score": null,
@@ -117278,7 +117275,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 824217,
-        "generated_at": "2026-09-27T18:41:55.045631+00:00",
+        "generated_at": "2026-09-27T21:39:20.705055+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.14,
         "away_exp_runs": 3.5,
@@ -117286,40 +117283,40 @@
         "spread_line": 1.5,
         "spread_cover_prob": 0.394,
         "total_line": 7.5,
-        "over_prob": 0.459,
+        "over_prob": 0.46,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "home",
         "spread_pick": "away",
         "spread_pick_prob": 0.606,
         "total_pick": "under",
-        "total_pick_prob": 0.541,
+        "total_pick_prob": 0.54,
         "spread_favorite": "home"
       },
       "highlights": [
         {
-          "title": "Starting lineups for Pirates at Tigers - September 27, 2026",
-          "duration": "00:00:10",
-          "video_url": "https://darkroom-clips.mlb.com/4b19239d-fd62-4e2b-99e6-fde1d5e8dbf3.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/gvylfv50khzo5ubmqfxj.jpg"
+          "title": "Ball 1 confirmed after ABS challenge",
+          "duration": "00:00:22",
+          "video_url": "https://bdata-producedclips.mlb.com/bd7a8408-ffc1-4ad9-8485-e29b53411f3c.mp4",
+          "thumbnail_url": null
         },
         {
-          "title": "Bench availability for Pittsburgh, September 27 vs Tigers",
-          "duration": "00:00:08",
-          "video_url": "https://darkroom-clips.mlb.com/53d1dd2d-a569-440c-b6f0-5368451b86e7.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/enqf5epxhexemq39puiu.jpg"
+          "title": "Tigers go back-to-back in 7th inning",
+          "duration": "00:00:57",
+          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-09/27/aa745137-4253c8e6-daed6159-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/ssawp95qkahyralaqaeg.jpg"
         },
         {
-          "title": "Fielding alignment for Pittsburgh, September 27 vs Tigers",
-          "duration": "00:00:11",
-          "video_url": "https://darkroom-clips.mlb.com/4839c100-98ee-4f7f-866e-bc6392be1966.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/rzev2ydj0gtw5er9v3jx.jpg"
+          "title": "Eduardo Valencia crushes solo home run (8)",
+          "duration": "00:00:28",
+          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-09/27/2f97e570-cc1d4097-79e08ada-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/shja97szkb6oaph1ikgt.jpg"
         },
         {
-          "title": "Bench availability for Detroit, September 27 vs Pirates",
-          "duration": "00:00:08",
-          "video_url": "https://darkroom-clips.mlb.com/71e485fb-bd50-490f-a1f8-b4d92c1304ed.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/od6ze61ulzxyabrlftuf.jpg"
+          "title": "Strike 2 overturned after ABS ",
+          "duration": "00:00:22",
+          "video_url": "https://bdata-producedclips.mlb.com/47d242ce-fd50-49bf-adca-01d93fd95712.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/mtey8dxampzfxpt61wva.jpg"
         }
       ],
       "home": {
@@ -120875,7 +120872,7 @@
             "player_id": 656716,
             "name": "Zach McKinstry",
             "bat_side": "L",
-            "position": "RF",
+            "position": "3B",
             "batting_order": 8,
             "injury": null,
             "l7": {
@@ -124931,7 +124928,7 @@
             "player_id": 663968,
             "name": "Jake Mangum",
             "bat_side": "S",
-            "position": "RF",
+            "position": "LF",
             "batting_order": 7,
             "injury": null,
             "l7": {
@@ -126333,15 +126330,15 @@
       "game_pk": 824542,
       "date": "2026-09-27",
       "game_time_utc": "2026-09-27T19:10:00Z",
-      "status": "Pre-Game",
+      "status": "Final",
       "venue": "Rate Field",
       "park_factor": "neutral",
-      "home_score": null,
-      "away_score": null,
+      "home_score": 4,
+      "away_score": 2,
       "live_score": null,
       "projection": {
         "game_pk": 824542,
-        "generated_at": "2026-09-27T18:41:55.045631+00:00",
+        "generated_at": "2026-09-27T18:23:05.063625+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 6.36,
         "away_exp_runs": 4.03,
@@ -126361,28 +126358,28 @@
       },
       "highlights": [
         {
-          "title": "Starting lineups for Rockies at White Sox - September 27, 2026",
-          "duration": "00:00:10",
-          "video_url": "https://darkroom-clips.mlb.com/f3b67808-3895-4351-954c-5ab0ba8bba62.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/mzszcaqghgx9gmzpu0qb.jpg"
+          "title": "Jordan Beck shuts the door on the Rockies",
+          "duration": "00:00:06",
+          "video_url": "https://bdata-producedclips.mlb.com/72edabbd-3759-4850-8a9d-3110d57aebbe.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/zr6yyxntakxoqbf9bbwk.jpg"
         },
         {
-          "title": "Bench availability for Colorado, September 27 vs White Sox",
-          "duration": "00:00:08",
-          "video_url": "https://darkroom-clips.mlb.com/8b51db30-0205-479a-be5b-485931f0ea30.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/ofbimjk0vn9eymwrqf2i.jpg"
+          "title": "Cole Carrigg's solo home run (12)",
+          "duration": "00:00:32",
+          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-09/27/56ec4ec3-1eb10cbb-4d1f1ffe-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/kdef6kn7bzryowehjjh5.jpg"
         },
         {
-          "title": "Bench availability for Chicago, September 27 vs Rockies",
-          "duration": "00:00:08",
-          "video_url": "https://darkroom-clips.mlb.com/9a103dad-6c97-4302-9186-b0094c02cac0.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/wcrm1wybnxwhbugvd3sv.jpg"
+          "title": "Kyle Freeland K's Braden Montgomery",
+          "duration": "00:00:07",
+          "video_url": "https://bdata-producedclips.mlb.com/6d519dda-a3e0-4538-8777-81ed92735095.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/yxvs7q8omi2rbhachrfh.jpg"
         },
         {
-          "title": "Bullpen availability for Chicago, September 27 vs Rockies",
-          "duration": "00:00:09",
-          "video_url": "https://darkroom-clips.mlb.com/ec5971b1-0c5c-411a-85d4-e563d3a37fa6.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/lwquntrdrqt7l1a8tml0.jpg"
+          "title": "Anthony Kay fans Troy Johnston",
+          "duration": "00:00:07",
+          "video_url": "https://bdata-producedclips.mlb.com/5cd12370-444d-44c8-8976-2ba3a09c4d2b.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/ev6iwxfqnvazb4f0wfra.jpg"
         }
       ],
       "home": {
@@ -135461,7 +135458,7 @@
           "delta": 15
         },
         "result": null,
-        "dnp": false
+        "dnp": true
       },
       {
         "role": "batter",
@@ -135487,7 +135484,7 @@
           "season_pct": 46,
           "delta": 24
         },
-        "result": null,
+        "result": "miss",
         "dnp": false
       },
       {
@@ -135542,7 +135539,7 @@
           "delta": 15
         },
         "result": null,
-        "dnp": false
+        "dnp": true
       },
       {
         "role": "batter",
@@ -135567,7 +135564,7 @@
           "n": 10
         },
         "result": null,
-        "dnp": false
+        "dnp": true
       },
       {
         "role": "batter",
@@ -135594,7 +135591,7 @@
           "delta": 24
         },
         "result": null,
-        "dnp": false
+        "dnp": true
       },
       {
         "role": "batter",
@@ -135621,7 +135618,7 @@
           "delta": 18
         },
         "result": null,
-        "dnp": false
+        "dnp": true
       },
       {
         "role": "batter",
@@ -135674,7 +135671,7 @@
           "season_pct": 40,
           "delta": 30
         },
-        "result": null,
+        "result": "miss",
         "dnp": false
       },
       {
@@ -135910,7 +135907,7 @@
           "delta": 25
         },
         "result": null,
-        "dnp": false
+        "dnp": true
       },
       {
         "role": "pitcher",
@@ -135937,7 +135934,7 @@
           "delta": 12
         },
         "result": null,
-        "dnp": false
+        "dnp": true
       },
       {
         "role": "pitcher",
@@ -136015,7 +136012,7 @@
           "delta": 9
         },
         "result": null,
-        "dnp": false
+        "dnp": true
       },
       {
         "role": "pitcher",
@@ -136041,7 +136038,7 @@
           "delta": 10
         },
         "result": null,
-        "dnp": false
+        "dnp": true
       }
     ]
   },
@@ -136071,7 +136068,7 @@
           "season_pct": 41,
           "delta": -1
         },
-        "result": null,
+        "result": "hit",
         "dnp": false
       },
       {
@@ -136282,7 +136279,7 @@
           "delta": -20
         },
         "result": null,
-        "dnp": false
+        "dnp": true
       },
       {
         "role": "batter",
@@ -136309,7 +136306,7 @@
           "delta": -20
         },
         "result": null,
-        "dnp": false
+        "dnp": true
       },
       {
         "role": "batter",
@@ -136334,7 +136331,7 @@
           "n": 10
         },
         "result": null,
-        "dnp": false
+        "dnp": true
       },
       {
         "role": "batter",
@@ -136361,7 +136358,7 @@
           "delta": -14
         },
         "result": null,
-        "dnp": false
+        "dnp": true
       },
       {
         "role": "batter",
@@ -136386,7 +136383,7 @@
           "n": 10
         },
         "result": null,
-        "dnp": false
+        "dnp": true
       },
       {
         "role": "batter",
@@ -136413,7 +136410,7 @@
           "delta": -16
         },
         "result": null,
-        "dnp": false
+        "dnp": true
       },
       {
         "role": "batter",
@@ -136440,7 +136437,7 @@
           "delta": -14
         },
         "result": null,
-        "dnp": false
+        "dnp": true
       }
     ],
     "pitchers": [
@@ -136520,7 +136517,7 @@
           "delta": -38
         },
         "result": null,
-        "dnp": false
+        "dnp": true
       }
     ]
   },
