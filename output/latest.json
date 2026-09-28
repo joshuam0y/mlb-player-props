@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T22:18:18.988742+00:00",
+  "generated_at": "2026-09-28T00:00:49.560914+00:00",
   "range": [
     "2026-09-27",
     "2026-09-29"
@@ -37,28 +37,28 @@
       },
       "highlights": [
         {
-          "title": "Andr\u00e9s Chaparro on his home runs, his season and more",
-          "duration": "00:01:22",
-          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-09/27/4e152d68-a8962ea6-c8b7f7e9-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/zth33s0ehwpdiuoomikb.jpg"
+          "title": "Chaparro crushes two home runs in Nationals' win",
+          "duration": "00:03:18",
+          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-09/27/dbb47ce8-f84fd0bc-c0d28b3e-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/ldivmdtrreo5ejj8itlj.jpg"
         },
         {
-          "title": "Francisco Lindor talks his 300th home run, loss",
-          "duration": "00:01:49",
-          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-09/27/2fbb1041-96a9f1a7-99e0a5d6-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/d0rdtthhpdrjktnsupzt.jpg"
+          "title": "Condensed Game: NYM@WSH - 9/27/26",
+          "duration": "00:10:05",
+          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-09/27/7116b419-982e031c-fd286c5e-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/xyo5gkalt5kzswjhxyrp.jpg"
         },
         {
-          "title": "Carson Benege collects three hits",
-          "duration": "00:01:01",
-          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-09/27/8e4cc8e7-8379c027-9aa9ac17-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/ygg95kzv7oggndusslxp.jpg"
+          "title": "Andy Green: 'I'm hungry to change the narrative'",
+          "duration": "00:01:26",
+          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-09/27/2565b3bd-7b17abc1-a94a7d10-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/sm89rigpxlmrxuj4w3ut.jpg"
         },
         {
-          "title": "Andr\u00e9s Chaparro's multihomer game",
-          "duration": "00:01:28",
-          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-09/27/924901e4-3f9c7092-8888cad6-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/mwv44fkn5onite7pqqcs.jpg"
+          "title": "Blake Butera talks Nationals' 2026 season and more",
+          "duration": "00:01:26",
+          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-09/27/7c1e1ee2-2f7cce6e-ef27924d-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/zyoj6remmjvfwdlpdwbo.jpg"
         }
       ],
       "home": {
@@ -9339,7 +9339,7 @@
       "live_score": null,
       "projection": {
         "game_pk": 823490,
-        "generated_at": "2026-09-27T22:18:03.233428+00:00",
+        "generated_at": "2026-09-28T00:00:31.784495+00:00",
         "model_version": "v1-log5-negbinom",
         "home_exp_runs": 4.43,
         "away_exp_runs": 4.81,
@@ -9347,14 +9347,14 @@
         "spread_line": 1.5,
         "spread_cover_prob": 0.328,
         "total_line": 8.5,
-        "over_prob": 0.511,
+        "over_prob": 0.512,
         "home_score_line": null,
         "away_score_line": null,
         "moneyline_pick": "away",
         "spread_pick": "home",
         "spread_pick_prob": 0.613,
         "total_pick": "over",
-        "total_pick_prob": 0.511,
+        "total_pick_prob": 0.512,
         "spread_favorite": "away"
       },
       "highlights": [
@@ -9365,22 +9365,10 @@
           "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/vjw5urjpgs9oyeijvq5o.jpg"
         },
         {
-          "title": "Fielding alignment for Baltimore, September 27 vs Yankees",
-          "duration": "00:00:11",
-          "video_url": "https://darkroom-clips.mlb.com/741ca9d2-dcd6-4e49-9368-58398007b3dc.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/kfkcnmhaqjcauhyde0y1.jpg"
-        },
-        {
-          "title": "Bullpen availability for New York, September 27 vs Orioles",
+          "title": "Shane Baz against the Yankees",
           "duration": "00:00:09",
-          "video_url": "https://darkroom-clips.mlb.com/551b88ee-8146-464d-a7b8-464a229bec3e.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/vzzzxshvo8meyjvsm0w4.jpg"
-        },
-        {
-          "title": "Bullpen availability for Baltimore, September 27 vs Yankees",
-          "duration": "00:00:09",
-          "video_url": "https://darkroom-clips.mlb.com/219de4a8-dd69-414b-87c8-f56f3e7f4fcc.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/dpaqe3dwgkmodjme1zqc.jpg"
+          "video_url": "https://darkroom-clips.mlb.com/3ad5764a-634e-4531-91b8-6211d6685fe3.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/x2d4proqjelhrcjsnalh.jpg"
         }
       ],
       "home": {
@@ -18474,28 +18462,28 @@
       },
       "highlights": [
         {
-          "title": "Don Mattingly: 'We all got a piece of this'",
-          "duration": "00:00:30",
-          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-09/27/66e71a3a-248b2b26-1b33e4cf-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/dek2kwh6h6b3zjhqx6u7.jpg"
+          "title": "Bryson Stott on clinching postseason berth",
+          "duration": "00:01:41",
+          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-09/27/8daaca3c-4e321f73-29277440-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/dndfui8ihuf4yxyyna91.jpg"
         },
         {
-          "title": "Jes\u00fas Luzardo's relief outing",
-          "duration": "00:00:35",
-          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-09/27/5ad33ec8-37bc4ade-2d12fb57-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/li5lzzzggwhqtxk6w3pe.jpg"
+          "title": "Don Mattingly reacts to clinching postseason berth",
+          "duration": "00:02:39",
+          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-09/27/072aa073-db6c4936-7111537f-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/iosk5qecmgorxj9x3aif.jpg"
         },
         {
-          "title": "The Phillies give an update on Jes\u00fas Luzardo",
-          "duration": "00:00:23",
-          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-09/27/e7edde36-a39a2e3c-b455fbcf-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/ocliweqa29eyiubenhgm.jpg"
+          "title": "Brandon Marsh: 'This is what it's all about'",
+          "duration": "00:01:17",
+          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-09/27/6521f1fc-a70fa510-55058f9f-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/ce4mp65gf9i0xis9ktwo.jpg"
         },
         {
-          "title": "Zack Wheeler strikes out five batters in outing",
-          "duration": "00:00:48",
-          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-09/27/a569d053-e456bdbe-f8cb1475-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/bkg5xrqjpltlpihzikw8.jpg"
+          "title": "Harper and Mattingly on clinching postseason berth",
+          "duration": "00:01:40",
+          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-09/27/98673559-99198ee2-d0f2be45-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/gxxyqvjfjdw9kga2cx2n.jpg"
         }
       ],
       "home": {
@@ -27705,28 +27693,28 @@
       },
       "highlights": [
         {
+          "title": "Japanese Highlights: Dodgers-Giants",
+          "duration": "00:09:29",
+          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-09/27/1212e8db-29817298-f3de9cc9-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/jfyfnz9unxsuire6zkve.jpg"
+        },
+        {
+          "title": "Dodgers' four-run inning leads to extra innings win",
+          "duration": "00:03:30",
+          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-09/27/be80e02f-389dac34-7d76005d-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/dkncbhafznctu8mewn2q.jpg"
+        },
+        {
+          "title": "Condensed Game: LAD@SF - 9/27/26",
+          "duration": "00:11:04",
+          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-09/27/69fb91ae-333f46b5-59528dac-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/kvbjglyn6v2fd2min47r.jpg"
+        },
+        {
           "title": "Evan Phillips finishes Dodgers' 5-1 win",
           "duration": "00:00:23",
           "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-09/27/b0919aaf-0f6bca24-01ae28e1-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
           "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/kfgqljoqqfxwoxcaxlmi.jpg"
-        },
-        {
-          "title": "Field View: Andy Pages three-run home run ",
-          "duration": "00:00:30",
-          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-09/27/201657d0-ae68751e-571b7cb9-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/ap7aaroymwbezs6iocy0.jpg"
-        },
-        {
-          "title": "Ball 2 confirmed after ABS challenge",
-          "duration": "00:00:23",
-          "video_url": "https://bdata-producedclips.mlb.com/baac5b1a-7038-435f-a065-7710abc57209.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/hlfmchuckzq9dj1tqmtk.jpg"
-        },
-        {
-          "title": "Andy Pages' three-run homer (23)",
-          "duration": "00:00:23",
-          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-09/27/c5c43c03-7d8d8b9d-6a22cd71-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/zv4ctm9cecpfsu1jraic.jpg"
         }
       ],
       "home": {
@@ -36872,28 +36860,28 @@
       },
       "highlights": [
         {
-          "title": "Michael Conforto's RBI double",
-          "duration": "00:00:17",
-          "video_url": "https://bdata-producedclips.mlb.com/bcc2b2c5-399a-47ff-9a51-4336cb4cf8c3.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/vuzjdemfutjipkywjze4.jpg"
+          "title": "Chad Tracy on getting everyone an at-bat",
+          "duration": "00:00:57",
+          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-09/27/52bdab9b-43f1dc2d-e1450c53-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/zewjvg9y0fyl6gbnrh4r.jpg"
         },
         {
-          "title": "Colin Rea seals the Cubs' 6-2 win over the Red Sox",
-          "duration": "00:00:10",
-          "video_url": "https://bdata-producedclips.mlb.com/63dbbb09-2718-4beb-96fa-f4f17e648bbb.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/acpqx9bj5nfnmwt0rppp.jpg"
+          "title": "Alex Bregman on his big day at the plate",
+          "duration": "00:00:47",
+          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-09/27/2598a7bf-6a42b054-e8b75327-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/tgyfxozgpxrdisdmplvr.jpg"
         },
         {
-          "title": "Wilyer Abreu throws out Michael Conforto",
-          "duration": "00:00:25",
-          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-09/27/1a215e58-39eeb467-ac946693-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/raytiyjkbof2i2n9g4ig.jpg"
+          "title": "Alex Bregman goes deep twice in the Cubs' 6-2 win",
+          "duration": "00:03:21",
+          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-09/27/18b6a4a2-df7113ca-f692a294-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/qld2ocvzvkb6zlaskxtw.jpg"
         },
         {
-          "title": "Gabriel Arias' sacrifice fly",
-          "duration": "00:00:19",
-          "video_url": "https://bdata-producedclips.mlb.com/f52c7f7e-eede-47ff-a900-18938c8ecfd9.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/zqt6yjaylqwifuzdvdsb.jpg"
+          "title": "Condensed Game: CHC@BOS - 9/27/26",
+          "duration": "00:11:08",
+          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-09/27/d3f3a27a-7c1b1533-daf4a5ef-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/eckmfk1x8sogpypzijam.jpg"
         }
       ],
       "home": {
@@ -45791,28 +45779,28 @@
       },
       "highlights": [
         {
-          "title": "Tatsuya Imai K's Denzel Clarke to seal Astros' win",
-          "duration": "00:00:07",
-          "video_url": "https://bdata-producedclips.mlb.com/006e6b13-c735-41be-a7a8-bb871f12a34b.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/orvcasvi9fnwmflhft3j.jpg"
+          "title": "Condensed Game: HOU@ATH - 9/27/26",
+          "duration": "00:12:05",
+          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-09/27/5e0f4280-32adfd81-e2751614-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/ow153tzgdcjyuurgvest.jpg"
         },
         {
-          "title": "Ball overturned after ABS challenge",
-          "duration": "00:00:23",
-          "video_url": "https://bdata-producedclips.mlb.com/259b5db0-bc9f-407d-9aac-ae9514d4c16f.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/epnnq7bbrkq4luip7rtc.jpg"
+          "title": "Peter Lambert on shutout day, clinching AL West, more",
+          "duration": "00:01:20",
+          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-09/27/3a720561-c790a0c1-8ce797ca-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/lnhm4vuap8pgqnvc9ksc.jpg"
         },
         {
-          "title": "Nick Allen scores on double play",
-          "duration": "00:00:19",
-          "video_url": "https://bdata-producedclips.mlb.com/8728fd2d-2064-4efd-aed1-7a0cfd7a5173.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/wawbyzaiba7wwijlmp8i.jpg"
+          "title": "Hayden Wesneski: 'You can't beat it'",
+          "duration": "00:00:52",
+          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-09/27/a9043cca-072b1acf-d41d73b3-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/wj4xnyh1lkyiglxqrdql.jpg"
         },
         {
-          "title": "Ball confirmed after ABS challenge",
-          "duration": "00:00:24",
-          "video_url": "https://bdata-producedclips.mlb.com/70f0a1e3-10fb-4ce6-b962-e481144baaca.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/bf4irfpzigivqipbq7mi.jpg"
+          "title": "Omar Lopez on Astros' rollercoaster year, AL West win",
+          "duration": "00:02:08",
+          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-09/27/d1635522-f47ed6e2-2cc1cb4b-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/jwq5vaaooolfbsl4iqpr.jpg"
         }
       ],
       "home": {
@@ -55133,28 +55121,28 @@
       },
       "highlights": [
         {
-          "title": "John Schneider: 'Thank you'",
-          "duration": "00:01:09",
-          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-09/27/9b8fdcd7-72fb642d-4510790b-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/qlhhpt7sidmv8cgjreju.jpg"
+          "title": "Terry Francona on Max Scherzer and more ",
+          "duration": "00:01:34",
+          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-09/27/66df46ae-657cebcb-8201f0ee-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/vbxkiy488rgsvgnpdyji.jpg"
         },
         {
-          "title": "Max Scherzer, George Springer on playing in Toronto",
-          "duration": "00:06:13",
-          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-09/27/bab9f1be-f073ca73-42335e1f-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/z7nc8t6gv20rsflkjpdw.jpg"
+          "title": "John Schneider on taking Max Scherzer out and more",
+          "duration": "00:01:59",
+          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-09/27/ffcd2abd-16f3dddb-e31b93f2-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/xrsb3tpv6cw1zhcvnbkh.jpg"
         },
         {
-          "title": "Japanese call of Carlos Jorge's RBI single",
-          "duration": "00:00:30",
-          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-09/27/d407c24b-2a0ae974-7cf0784c-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/riy3zqehbfc7vdviauhy.jpg"
+          "title": "Condensed Game: CIN@TOR - 9/27/26",
+          "duration": "00:14:46",
+          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-09/27/e19805bc-191735bd-a2ab53ac-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/upppe6peuphosuuunktp.jpg"
         },
         {
-          "title": "Max Scherzer exits the field to a standing ovation",
-          "duration": "00:03:51",
-          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-09/27/6bce076a-67fed5e2-a6df84e3-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/sd4ze4czbfxsstuvueqa.jpg"
+          "title": "Japanese Highlights: Reds-Blue Jays",
+          "duration": "00:10:18",
+          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-09/27/08adcfde-fb4ab63e-bcfd380b-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/vn68lb446114uhuj93dj.jpg"
         }
       ],
       "home": {
@@ -64426,7 +64414,7 @@
       "game_pk": 823084,
       "date": "2026-09-27",
       "game_time_utc": "2026-09-27T19:10:00Z",
-      "status": "Game Over",
+      "status": "Final",
       "venue": "T-Mobile Park",
       "park_factor": "pitcher",
       "home_score": 7,
@@ -64454,28 +64442,28 @@
       },
       "highlights": [
         {
-          "title": "Mariners fans tune in to Rick Rizzs final broadcast",
-          "duration": "00:00:11",
-          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-09/27/4702bd94-d9456652-d38d6cb7-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/sv8zzwxztc0ugkhlybj1.jpg"
+          "title": "Cal Raleigh on season frustrations",
+          "duration": "00:01:39",
+          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-09/27/0e6b3eb3-433daef8-27c0f377-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/iujt51sc4v2cwfqhgksr.jpg"
         },
         {
-          "title": "Leo Rivas singles after ball deflects off third base",
-          "duration": "00:00:24",
-          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-09/27/30414dd6-f940ac04-7f4cff9c-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/fxa2y7yl46wlxath9e6s.jpg"
+          "title": "Logan Gilbert tosses four scoreless innings in win",
+          "duration": "00:03:46",
+          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-09/27/97db77b1-25c45105-0441d690-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/dtyxxcayupmak9vmgexh.jpg"
         },
         {
-          "title": "Dominic Canzone catches final out to secure win",
-          "duration": "00:00:20",
-          "video_url": "https://bdata-producedclips.mlb.com/56b866b7-db7e-4588-8c62-29b71e59b528.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/hnwukomodzktr27pnvzo.jpg"
+          "title": "Condensed Game: LAA@SEA - 9/27/26",
+          "duration": "00:12:22",
+          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-09/27/388ee0f5-89a848d4-bebfd306-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/wdoya46hfcndissjvxxu.jpg"
         },
         {
-          "title": "Leo Rivas scores on a wild pitch",
-          "duration": "00:00:08",
-          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-09/27/9a9f359b-5136829d-4f47dbf3-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/wlaxurjc3jvowtwh1cz9.jpg"
+          "title": "Dan Willson discusses his resignation from Mariners",
+          "duration": "00:02:41",
+          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-09/27/cec0580f-0c0cfef7-8b759489-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/jav9lnq3r1kbgativtf5.jpg"
         }
       ],
       "home": {
@@ -73761,28 +73749,28 @@
       },
       "highlights": [
         {
-          "title": "Dustin Harris' sliding catch in the 9th",
-          "duration": "00:00:25",
-          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-09/27/a0b2e069-660849b2-b70b2317-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/v9sjvgvntlvxhxbfxpkg.jpg"
+          "title": "Sheets, Fermin lead Padres to a 9-4 win over D-backs",
+          "duration": "00:03:28",
+          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-09/27/160bcea8-f9cbf683-f26173c5-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/rvgilbixwio8asufzrlb.jpg"
         },
         {
-          "title": "Jake Cronenworth's diving stop seals the win",
-          "duration": "00:00:38",
-          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-09/27/b9caf297-fc74ec05-56c4ad7f-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/mwlkxxix5dxsjmrlpkcj.jpg"
+          "title": "Torey Lovullo talks future with the D-backs",
+          "duration": "00:02:28",
+          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-09/27/8e37c0cc-4f760442-ca03a5a9-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/rmk3j1mskeaqr3nt4h17.jpg"
         },
         {
-          "title": "Austin Hays' two-run single",
-          "duration": "00:00:19",
-          "video_url": "https://bdata-producedclips.mlb.com/582e214e-7cff-424a-a4f5-9dd0811b7c72.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/ysvzroolli2mcrnkco10.jpg"
+          "title": "Condensed Game: AZ@SD - 9/27/26",
+          "duration": "00:13:46",
+          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-09/27/83d1ca35-3697ccef-fcbf684e-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/gkabpxnoioodgpzimyv5.jpg"
         },
         {
-          "title": "D-backs eliminated from postseason contention",
-          "duration": "00:00:37",
-          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-09/27/a46a1d8c-e3daf870-30ef1e7b-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/pizoxppfwwmakimonlrq.jpg"
+          "title": "Craig Stammen talks finishing the season strong",
+          "duration": "00:01:44",
+          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-09/27/7cbe4e02-d0655340-7ac1ab0e-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/pomgu2srcneh0nccgcdz.jpg"
         }
       ],
       "home": {
@@ -83082,7 +83070,13 @@
       },
       "highlights": [
         {
-          "title": "Ryan Jeffers takes potentially final at bat as a Twin",
+          "title": "Condensed Game: TEX@MIN - 9/27/26",
+          "duration": "00:11:11",
+          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-09/27/5a3b0a59-6927e387-53d0f590-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/wic8nz5ayhx8szmp9ika.jpg"
+        },
+        {
+          "title": "Ryan Jeffers takes potentially final at-bat as a Twin",
           "duration": "00:00:19",
           "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-09/27/4e1abc4a-d65c3409-383e5865-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
           "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/pdgdhbyx9st6khifaz3e.jpg"
@@ -83098,12 +83092,6 @@
           "duration": "00:00:23",
           "video_url": "https://bdata-producedclips.mlb.com/b74e3abb-ea55-42f4-ae5c-fe09986b8fdc.mp4",
           "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/dseauallx5nli7fudjgv.jpg"
-        },
-        {
-          "title": "Corey Seager's two-run homer (20) ",
-          "duration": "00:00:36",
-          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-09/27/85ec3543-85a640a0-42b01a26-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/sk6rsidy5z3mujkwjper.jpg"
         }
       ],
       "home": {
@@ -92011,28 +91999,28 @@
       },
       "highlights": [
         {
+          "title": "Condensed Game: STL@MIL - 9/27/26",
+          "duration": "00:10:12",
+          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-09/27/e2e01761-1e3143d9-73ce54fc-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/znxphkynk5fqcyxbzcad.jpg"
+        },
+        {
+          "title": "Marmol on being proud of the group and competing well",
+          "duration": "00:01:37",
+          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-09/27/d719e5ed-74fb15b3-2288a465-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/y96l0ynxaqlpsw7sjkgw.jpg"
+        },
+        {
+          "title": "Murphy on Misiorowski's start and Turang's milestone ",
+          "duration": "00:02:06",
+          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-09/27/0e28e174-21434136-125324a6-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/tute2taviwedseugec87.jpg"
+        },
+        {
           "title": "Jacob Misiorowski on ovation, stellar season and more",
           "duration": "00:01:30",
           "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-09/27/1202f0e5-e3adacd2-5350e067-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
           "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/ele7bcx2g7zuoipo3iql.jpg"
-        },
-        {
-          "title": "Shane Drohan gets strikeout to seal Brewers' win",
-          "duration": "00:00:29",
-          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-09/27/e1949b00-1d1a392d-ed1544ee-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/hzkb6xjhjirmf9ihbl4c.jpg"
-        },
-        {
-          "title": "A look at the stats of Jacob Misiorowski's pitches",
-          "duration": "00:01:03",
-          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-09/27/1534c8ed-349293d3-922cca7f-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/keihz4fs0fjreykwjdt5.jpg"
-        },
-        {
-          "title": "Andre Pallante's four strike outs against Brewers",
-          "duration": "00:00:49",
-          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-09/27/485a54a8-e0ded4a6-a288b217-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/gwblghd0nehdfazpjcku.jpg"
         }
       ],
       "home": {
@@ -101278,28 +101266,28 @@
       },
       "highlights": [
         {
-          "title": "Condensed Game: ATL@MIA - 9/27/26",
-          "duration": "00:10:21",
-          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-09/27/5863895d-b6c54bbb-8a1a6d4e-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/rzxivvzlzglu520t5bul.jpg"
+          "title": "Hern\u00e1ndez, Conine power Marlins to 5-3 win",
+          "duration": "00:03:25",
+          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-09/27/99c89432-96d856fa-2cb6be2f-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/jc57scgswsfz2cziemag.jpg"
         },
         {
-          "title": "Rich Waltz surprises Tommy Hutton on his last game",
-          "duration": "00:01:02",
-          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-09/27/51cc51f8-ad548403-4bc5612e-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/bifvyv4rbvfcl8dxtlpd.jpg"
+          "title": "Clayton McCullough assesses season after win",
+          "duration": "00:02:23",
+          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-09/27/2b48ab27-e1307d9e-6c50abb1-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/omw6703tlzaxa5pdfudv.jpg"
         },
         {
-          "title": "Sandy Alcantara clinches victory",
-          "duration": "00:00:08",
-          "video_url": "https://bdata-producedclips.mlb.com/a5acc257-1346-4530-8880-b22d30da2c6d.mp4",
-          "thumbnail_url": null
+          "title": "AJ Smith-Shawver's three strikeouts",
+          "duration": "00:00:33",
+          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-09/27/bb824057-dccc18aa-5e1727eb-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/pe1qsvtijm7ouetlct3p.jpg"
         },
         {
-          "title": "Strike 1 is confirmed after ABS challenge",
-          "duration": "00:00:23",
-          "video_url": "https://bdata-producedclips.mlb.com/95becf27-4dbc-48bf-a4d8-e07024ab5ee4.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/hlercgbeuems5x6ppxpt.jpg"
+          "title": "Cuadrangular de Heriberto Hern\u00e1ndez",
+          "duration": "00:00:30",
+          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-09/27/865189bf-492ea7a9-ffb6902c-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/pmcjcibgo8vmjdbncum0.jpg"
         }
       ],
       "home": {
@@ -110595,6 +110583,12 @@
       },
       "highlights": [
         {
+          "title": "Data Viz: Jo Adell's 440-foot home run",
+          "duration": "00:00:30",
+          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-09/27/d9cccba2-507d4fb4-9b2c1411-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/omuql1zn3gfvoqmmcqqu.jpg"
+        },
+        {
           "title": "Vinnie Pasquantino's big game leads Royals to 3-2 win",
           "duration": "00:03:21",
           "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-09/27/da6843d7-9ce8b67b-804d6e9a-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
@@ -110611,12 +110605,6 @@
           "duration": "00:02:35",
           "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-09/27/13ff8db7-c1a3f6e2-11d541ae-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
           "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/zxuyzq06qfzpllsx1g5h.jpg"
-        },
-        {
-          "title": "Vinnie Pasquantino's two home runs vs. Guardians",
-          "duration": "00:00:58",
-          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-09/27/d467f7df-cd697d99-501f0eab-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/uluyjuedcasjj7yiavo4.jpg"
         }
       ],
       "home": {
@@ -119908,28 +119896,28 @@
       },
       "highlights": [
         {
-          "title": "Eduardo Valencia's 443-foot home run vs. Pirates",
-          "duration": "00:00:33",
-          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-09/27/fd087b2e-f33b351f-f83b0950-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/yihliq88vtywxgsh3mty.jpg"
+          "title": "A.J. Hinch discusses McGonigle, loss, and more",
+          "duration": "00:02:02",
+          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-09/27/05e6787f-4a67593f-dc4a568e-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/wjxoqbacmk9aivwi7z01.jpg"
         },
         {
-          "title": "Konnor Griffin on win: 'I want more'",
-          "duration": "00:02:14",
-          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-09/27/7c204e72-a4312336-81484eee-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/znqkvxvxewhennt1av68.jpg"
+          "title": "Konnor Griffin drills homer in Pirates\u2019 4-2 win",
+          "duration": "00:03:30",
+          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-09/27/d975ee17-8dde6d23-a2ce0c0c-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/ter2t2clnr4te8xbrvjz.jpg"
         },
         {
-          "title": "Laz Diaz is honored before last game",
-          "duration": "00:00:44",
-          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-09/27/470dcbe8-4118b394-3814c8bc-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/dfxtky83brd7si4rahg9.jpg"
+          "title": "Condensed Game: PIT@DET - 9/27/26",
+          "duration": "00:10:03",
+          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-09/27/613cc2eb-4799d50d-dbe19dfb-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/nhnrxhx4toaz1fpby0vw.jpg"
         },
         {
-          "title": "Montgomery strikes out Valencia on ABS to end game",
-          "duration": "00:00:24",
-          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-09/27/6d330511-0a8ef7e2-e2180297-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/zha4r5nrors5eq9dgs3n.jpg"
+          "title": "Kevin McGonigle gets ovation as he exits game in 8th",
+          "duration": "00:00:49",
+          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-09/27/efcf8443-fe4f008e-56520956-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/ct3ipe9wnioozy8c0vt9.jpg"
         }
       ],
       "home": {
@@ -129201,28 +129189,28 @@
       },
       "highlights": [
         {
-          "title": "Randal Grichuk talks on heading into the Postseason",
-          "duration": "00:00:44",
-          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-09/27/924d073f-c96f057e-3d17f641-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/hao9bttxy5ajmpigb0ji.jpg"
+          "title": "Warren Schaeffer: 'They have drive and determination'",
+          "duration": "00:01:03",
+          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-09/27/c1cee273-88af1b2a-134eb8e7-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/methozqhrlk9ykrcmocq.jpg"
         },
         {
-          "title": "Jordan Beck shuts the door on the Rockies",
-          "duration": "00:00:06",
-          "video_url": "https://bdata-producedclips.mlb.com/72edabbd-3759-4850-8a9d-3110d57aebbe.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/zr6yyxntakxoqbf9bbwk.jpg"
+          "title": "Japanese Highlights: Rockies-White Sox",
+          "duration": "00:08:05",
+          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-09/27/0c780393-d9f3601f-a51d037a-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/kkr52yzxn2khzxmeehf3.jpg"
         },
         {
-          "title": "Cole Carrigg's solo home run (12)",
-          "duration": "00:00:32",
-          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-09/27/56ec4ec3-1eb10cbb-4d1f1ffe-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/kdef6kn7bzryowehjjh5.jpg"
+          "title": "Grichuk, Doyle's homers power White Sox past Rockies",
+          "duration": "00:03:12",
+          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-09/27/0cdc47c6-73a868b0-8b47016a-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/qn9mjshoh1lmd30tkse1.jpg"
         },
         {
-          "title": "Kyle Freeland K's Braden Montgomery",
-          "duration": "00:00:07",
-          "video_url": "https://bdata-producedclips.mlb.com/6d519dda-a3e0-4538-8777-81ed92735095.mp4",
-          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/yxvs7q8omi2rbhachrfh.jpg"
+          "title": "Condensed Game: COL@CWS - 9/27/26",
+          "duration": "00:10:12",
+          "video_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-09/27/0a2ce60a-321e9c25-0091230c-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
+          "thumbnail_url": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/bnitszzgopevkbqhlxws.jpg"
         }
       ],
       "home": {

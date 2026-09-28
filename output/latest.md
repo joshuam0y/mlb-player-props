@@ -1,5 +1,5 @@
 # MLB Player Props Context Report
-_Generated 2026-09-27T22:18:18.988742+00:00_
+_Generated 2026-09-28T00:00:49.560914+00:00_
 
 ## Today's Top Overs
 ### Batters
@@ -257,7 +257,7 @@ _Facing a taxed bullpen: 13.0 relief IP in last 2 days (ratio 1.86)_
 - #8 Andrés Giménez (L) -- L7: 5H 0HR 2RBI 7TB (0.238 avg) -- home split: 0.253 avg
 - #9 Ernie Clement (R) -- L7: 3H 0HR 0RBI 5TB (0.125 avg) -- home split: 0.259 avg
 
-## 2026-09-27 - Los Angeles Angels @ Seattle Mariners (Game Over)
+## 2026-09-27 - Los Angeles Angels @ Seattle Mariners (Final)
 _T-Mobile Park [pitcher-friendly park]_
 Final: Los Angeles Angels 3 - Seattle Mariners 7
 
