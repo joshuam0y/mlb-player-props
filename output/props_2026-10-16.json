@@ -1,0 +1,32 @@
+{
+  "generated_at": "2026-10-16T20:59:48.274224+00:00",
+  "range": [
+    "2026-10-16",
+    "2026-10-18"
+  ],
+  "games": [],
+  "top_overs": {
+    "batters": [],
+    "pitchers": []
+  },
+  "top_unders": {
+    "batters": [],
+    "pitchers": []
+  },
+  "batter_prop_labels": [
+    "Hits",
+    "Total Bases",
+    "Home Runs",
+    "RBIs",
+    "Runs Scored",
+    "Walks",
+    "Hits + Runs + RBIs"
+  ],
+  "pitcher_prop_labels": [
+    "Strikeouts",
+    "Outs Recorded",
+    "Runs Allowed",
+    "Hits Allowed",
+    "Walks Allowed"
+  ]
+}
