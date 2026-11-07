@@ -103470,7 +103470,7 @@
     },
     "2026-11-02": {
       "date": "2026-11-02",
-      "graded_at": "2026-11-06T23:03:46.530802+00:00",
+      "graded_at": "2026-11-07T02:43:30.277826+00:00",
       "top_overs": {
         "n": 0,
         "hits": 0,
@@ -103597,7 +103597,7 @@
     },
     "2026-11-03": {
       "date": "2026-11-03",
-      "graded_at": "2026-11-06T23:03:46.458378+00:00",
+      "graded_at": "2026-11-07T02:43:30.145987+00:00",
       "top_overs": {
         "n": 0,
         "hits": 0,
@@ -103724,7 +103724,7 @@
     },
     "2026-11-04": {
       "date": "2026-11-04",
-      "graded_at": "2026-11-06T23:03:46.385411+00:00",
+      "graded_at": "2026-11-07T02:43:30.012352+00:00",
       "top_overs": {
         "n": 0,
         "hits": 0,
@@ -103851,7 +103851,7 @@
     },
     "2026-11-05": {
       "date": "2026-11-05",
-      "graded_at": "2026-11-06T23:03:46.310528+00:00",
+      "graded_at": "2026-11-07T02:43:29.875777+00:00",
       "top_overs": {
         "n": 0,
         "hits": 0,
@@ -104089,19 +104089,19 @@
       "hit_rate": 0.499
     },
     "projection_accuracy": {
-      "Hits": {
-        "n": 15548,
-        "mae": 0.7,
+      "Walks Allowed": {
+        "n": 1727,
+        "mae": 0.99,
         "bias": 0.03,
-        "avg_projected": 0.83,
-        "avg_actual": 0.86
+        "avg_projected": 1.72,
+        "avg_actual": 1.75
       },
-      "RBIs": {
-        "n": 15548,
-        "mae": 0.6,
-        "bias": 0.0,
-        "avg_projected": 0.43,
-        "avg_actual": 0.44
+      "Hits Allowed": {
+        "n": 1727,
+        "mae": 1.8,
+        "bias": 0.15,
+        "avg_projected": 4.59,
+        "avg_actual": 4.74
       },
       "Strikeouts": {
         "n": 1727,
@@ -104110,26 +104110,12 @@
         "avg_projected": 4.5,
         "avg_actual": 4.61
       },
-      "Hits + Runs + RBIs": {
-        "n": 13141,
-        "mae": 1.48,
-        "bias": 0.06,
-        "avg_projected": 1.71,
-        "avg_actual": 1.77
-      },
-      "Total Bases": {
+      "Home Runs": {
         "n": 15548,
-        "mae": 1.31,
-        "bias": 0.03,
-        "avg_projected": 1.37,
-        "avg_actual": 1.4
-      },
-      "Runs Allowed": {
-        "n": 1727,
-        "mae": 1.58,
-        "bias": 0.11,
-        "avg_projected": 2.25,
-        "avg_actual": 2.35
+        "mae": 0.2,
+        "bias": -0.0,
+        "avg_projected": 0.12,
+        "avg_actual": 0.12
       },
       "Outs Recorded": {
         "n": 1645,
@@ -104145,6 +104131,34 @@
         "avg_projected": 0.34,
         "avg_actual": 0.35
       },
+      "Total Bases": {
+        "n": 15548,
+        "mae": 1.31,
+        "bias": 0.03,
+        "avg_projected": 1.37,
+        "avg_actual": 1.4
+      },
+      "Runs Allowed": {
+        "n": 1727,
+        "mae": 1.58,
+        "bias": 0.11,
+        "avg_projected": 2.25,
+        "avg_actual": 2.35
+      },
+      "Hits + Runs + RBIs": {
+        "n": 13141,
+        "mae": 1.48,
+        "bias": 0.06,
+        "avg_projected": 1.71,
+        "avg_actual": 1.77
+      },
+      "RBIs": {
+        "n": 15548,
+        "mae": 0.6,
+        "bias": 0.0,
+        "avg_projected": 0.43,
+        "avg_actual": 0.44
+      },
       "Runs Scored": {
         "n": 15548,
         "mae": 0.56,
@@ -104152,29 +104166,15 @@
         "avg_projected": 0.45,
         "avg_actual": 0.46
       },
-      "Hits Allowed": {
-        "n": 1727,
-        "mae": 1.8,
-        "bias": 0.15,
-        "avg_projected": 4.59,
-        "avg_actual": 4.74
-      },
-      "Walks Allowed": {
-        "n": 1727,
-        "mae": 0.99,
-        "bias": 0.03,
-        "avg_projected": 1.72,
-        "avg_actual": 1.75
-      },
-      "Home Runs": {
+      "Hits": {
         "n": 15548,
-        "mae": 0.2,
-        "bias": -0.0,
-        "avg_projected": 0.12,
-        "avg_actual": 0.12
+        "mae": 0.7,
+        "bias": 0.03,
+        "avg_projected": 0.83,
+        "avg_actual": 0.86
       }
     },
     "days_tracked": 104
   },
-  "updated_at": "2026-11-06T23:03:46.542411+00:00"
+  "updated_at": "2026-11-07T02:43:30.297122+00:00"
 }
